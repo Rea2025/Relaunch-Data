@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/Static" Name="SkyTowerItem" >
+        <Property Name="Font" Value="F001-scale" />
+        <Property Name="MousePassThroughEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.0827653,0},{0.0325521,0}}" />
+        <Window Type="DejaVu/StaticImage" Name="SkyTowerItem/Pic" >
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="ID" Value="1" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.08,0},{0.285294,0},{0.88,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticTextLab" Name="SkyTowerItem/Text" >
+            <Property Name="HorizontalAlignment" Value="Right" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="ID" Value="2" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.6,0},{1,0}}" />
+        </Window>
+        <Window Type="DejaVu/Zframe2" Name="SkyTowerItem/SelectBrush" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="ID" Value="3" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

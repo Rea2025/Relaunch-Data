@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/KusoCompressWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="Text" Value="x時裝壓縮機x" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.259375,0},{0.102144,0},{0.259375,247},{0.102144,211}}" />
+        <Window Type="DejaVu/Static" Name="Root/KusoCompressWnd/ItemBG" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0289017,0},{0,198},{0.0289017,120}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/KusoCompressWnd/StartBtn" >
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Property Name="Text" Value="x進行壓縮x" />
+            <Property Name="UnifiedAreaRect" Value="{{0.322275,0},{0,0},{0.322275,62},{0,24}}" />
+            <Property Name="VerticalAlignment" Value="Bottom" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/KusoCompressWnd/ViewInputBtn" >
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Property Name="Text" Value="x觀看材料x" />
+            <Property Name="UnifiedAreaRect" Value="{{-0.322275,0},{0,0},{-0.322275,62},{0,24}}" />
+            <Property Name="VerticalAlignment" Value="Bottom" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/KusoCompressWnd/ViewOutputBtn" >
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Property Name="Text" Value="x觀看成品x" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,62},{0,24}}" />
+            <Property Name="VerticalAlignment" Value="Bottom" />
+        </Window>
+        <Window Type="DejaVu/ImageButton" Name="Root/KusoCompressWnd/QMarkBtn" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="ClippedByParent" Value="False" />
+            <Property Name="HorizontalAlignment" Value="Right" />
+            <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+            <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+            <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+            <Property Name="UnifiedAreaRect" Value="{{-0.0236967,0},{-0.107595,0},{-0.0236967,12},{-0.107595,12}}" />
+        </Window>
+    </Window>
+</GUILayout>

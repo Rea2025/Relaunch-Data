@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/MiniInfoWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="MousePassThroughEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0.00375,0},{0.04,0},{0.00375,264},{0.04,110}}" />
+        <Window Type="DejaVu/StaticImage" Name="Root/MiniInfoWnd/Face" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.030303,0},{0.109091,0},{0.272727,0},{0.690909,0}}" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedMinSize" Value="{{0,64},{0,64}}" />
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/MiniInfoWnd/backgrand" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.878788,0},{0.727273,0}}" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Window Type="DejaVu/StaticImage" Name="Root/MiniInfoWnd/backgrand/ClickBoard" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Image" Value="set:main image:faceFrame" />
+                <Property Name="UnifiedAreaRect" Value="{{0.00431,0},{0.0125,0},{0.340517,0},{0.9875,0}}" />
+                <Property Name="FrameEnabled" Value="False" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/MiniInfoWnd/backgrand/textBorder" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Image" Value="set:main image:MiniinfoBG" />
+                <Property Name="UnifiedAreaRect" Value="{{0.327586,0},{0,0},{0.974138,0},{0.5,0}}" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="MouseInputPropagationEnabled" Value="True" />
+                <Window Type="DejaVu/StaticImage" Name="Root/MiniInfoWnd/backgrand/textBorder/CharIcon" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0133333,0},{0.05,0},{0.2,0},{0.45,0}}" />
+                    <Property Name="MouseInputPropagationEnabled" Value="True" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/MiniInfoWnd/backgrand/textBorder/LVText" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.213333,0},{0.05,0},{0.373333,0},{0.45,0}}" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="MouseInputPropagationEnabled" Value="True" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/MiniInfoWnd/backgrand/textBorder/classIcon" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.386667,0},{0.05,0},{0.573333,0},{0.45,0}}" />
+                    <Property Name="MouseInputPropagationEnabled" Value="True" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/MiniInfoWnd/backgrand/textBorder/LeaderIcon" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Image" Value="set:main image:MiniInfoLeaderIcon" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.76,0},{0.05,0},{0.866667,0},{0.45,0}}" />
+                    <Property Name="FrameEnabled" Value="False" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/MiniInfoWnd/backgrand/textBorder/pkIcon" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Image" Value="set:main image:MiniInfoPkIcon" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.88,0},{0.05,0},{0.986667,0},{0.45,0}}" />
+                    <Property Name="FrameEnabled" Value="False" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/MiniInfoWnd/backgrand/textBorder/NameText" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.04,0},{0.575,0},{0.96,0},{0.925,0}}" />
+                    <Property Name="FrameEnabled" Value="False" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/MiniInfoWnd/backgrand/textBorder/JobLvText" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.586667,0},{0.05,0},{0.746667,0},{0.45,0}}" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="MouseInputPropagationEnabled" Value="True" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/MiniInfoWnd/backgrand/Hpborder" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Image" Value="set:main image:InfoHpBG" />
+                <Property Name="UnifiedAreaRect" Value="{{0.327586,0},{0.5125,0},{0.974138,0},{0.9375,0}}" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="MouseInputPropagationEnabled" Value="True" />
+                <Window Type="DejaVu/ProgressBar" Name="Root/MiniInfoWnd/backgrand/Hpborder/HpBar" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="CurrentProgress" Value="0" />
+                    <Property Name="StepSize" Value="0.01" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.206667,0},{0.088235,0},{0.966667,0},{0.411764,0}}" />
+                    <Property Name="MouseInputPropagationEnabled" Value="True" />
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/MiniInfoWnd/backgrand/Hpborder/HpBar/text" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="Text" Value="100/100" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1.09091,0}}" />
+                        <Property Name="FrameEnabled" Value="False" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/ProgressBar" Name="Root/MiniInfoWnd/backgrand/Hpborder/MpBar" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="CurrentProgress" Value="0" />
+                    <Property Name="StepSize" Value="0.01" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.206667,0},{0.617647,0},{0.966667,0},{0.941176,0}}" />
+                    <Property Name="MouseInputPropagationEnabled" Value="True" />
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/MiniInfoWnd/backgrand/Hpborder/MpBar/text" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="Text" Value="100/100" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1.09091,0}}" />
+                        <Property Name="FrameEnabled" Value="False" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/MiniInfoWnd/backgrand/Hpborder/HPIcon" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="Image" Value="set:main image:MiniInfoHP" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0533333,0},{0.0882353,0},{0.186667,0},{0.411765,0}}" />
+                    <Property Name="FrameEnabled" Value="False" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/MiniInfoWnd/backgrand/Hpborder/MpIcon" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="Image" Value="set:main image:MiniInfoMp" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0533333,0},{0.617647,0},{0.186667,0},{0.941176,0}}" />
+                    <Property Name="FrameEnabled" Value="False" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/StaticTextLab" Name="Root/MiniInfoWnd/PetName" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="UnifiedAreaRect" Value="{{0.507576,0},{0.7,0},{0.931818,0},{0.872727,0}}" />
+        </Window>
+        <Window Type="DejaVu/ProgressBar" Name="Root/MiniInfoWnd/PetHpBar" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="CurrentProgress" Value="0" />
+            <Property Name="StepSize" Value="0.01" />
+            <Property Name="UnifiedAreaRect" Value="{{0.507576,0},{0.872727,0},{0.931818,0},{0.972727,0}}" />
+            <Window Type="DejaVu/StaticTextLab" Name="Root/MiniInfoWnd/PetHpBar/HpText" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1.09091,0}}" />
+                <Property Name="FrameEnabled" Value="False" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/ImageButton" Name="Root/MiniInfoWnd/Supporter" >
+            <Property Name="PushedImage" Value="set:DejaVu image:HelperPress" />
+            <Property Name="HoverImage" Value="set:DejaVu image:HelperHover" />
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="NormalImage" Value="set:DejaVu image:HelperNormal" />
+            <Property Name="UnifiedAreaRect" Value="{{0.863636,0},{0,0},{0.954545,0},{0.290909,0}}" />
+            <Property Name="DisabledImage" Value="set:DejaVu image:BuyDisable" />
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/MiniInfoWnd/ArenaWaitingIcon" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.863636,0},{0.481818,0},{0.94697,0},{0.681818,0}}" />
+            <Property Name="FrameEnabled" Value="False" />
+        </Window>
+    </Window>
+</GUILayout>

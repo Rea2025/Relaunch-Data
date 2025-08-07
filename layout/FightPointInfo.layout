@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/Embed3" Name="Root/FightPointInfo" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.723633,0},{0.314163,0},{0.723633,250},{0.314163,431}}" />
+        <Window Type="DejaVu/ImageButton" Name="Root/FightPointInfo/LockBtn" >
+            <Property Name="DisabledImage" Value="set:main image:UnLockBtnPressed" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HoverImage" Value="set:main image:UnLockBtnHover" />
+            <Property Name="NormalImage" Value="set:main image:UnLockBtnNormal" />
+            <Property Name="PushedImage" Value="set:main image:UnLockBtnPressed" />
+            <Property Name="UnifiedAreaRect" Value="{{0.9,0},{0.0107527,0},{0.96,0},{0.0510753,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button3" Name="Root/FightPointInfo/TeamBtn" >
+            <Property Name="Text" Value="x自動組隊" />
+            <Property Name="UnifiedAreaRect" Value="{{0.00702344,0},{0.0134409,0},{0.283023,0},{0.061828,0}}" />
+        </Window>
+        <Window Type="DejaVu/Static" Name="Root/FightPointInfo/RedSideInfo" >
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.165113,0},{1,0},{0.226941,0}}" />
+            <Window Type="DejaVu/StaticTextLab" Name="Root/FightPointInfo/RedSideInfo/Point" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="Text" Value="x99999" />
+                <Property Name="UnifiedAreaRect" Value="{{0.478945,0},{0,0},{0.959023,0},{1,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/FightPointInfo/RedSideInfo/Image" >
+                <Property Name="Image" Value="set:DejaVu image:Image01" />
+                <Property Name="UnifiedAreaRect" Value="{{0.04,0},{0,0},{0.14,0},{1,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/FightPointInfo/RedSideInfo/CaptureFlags" >
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="0" />
+                <Property Name="UnifiedAreaRect" Value="{{0.196,0},{0,0},{0.291344,0},{1,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="Root/FightPointInfo/BlueSideInfo" >
+            <Property Name="UnifiedAreaRect" Value="{{-0.000976563,0},{0.238995,0},{0.999023,0},{0.300823,0}}" />
+            <Window Type="DejaVu/StaticTextLab" Name="Root/FightPointInfo/BlueSideInfo/Point" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="Text" Value="x99999" />
+                <Property Name="UnifiedAreaRect" Value="{{0.479922,0},{0,0},{0.96,0},{1,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/FightPointInfo/BlueSideInfo/Image" >
+                <Property Name="Image" Value="set:DejaVu image:Image01" />
+                <Property Name="UnifiedAreaRect" Value="{{0.04,0},{0,0},{0.14,0},{1,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/FightPointInfo/BlueSideInfo/CaptureFlags" >
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="0" />
+                <Property Name="UnifiedAreaRect" Value="{{0.196,0},{0,0},{0.292,0},{1,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="Root/FightPointInfo/YellowSideInfo" >
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.314264,0},{1,0},{0.376092,0}}" />
+            <Window Type="DejaVu/StaticTextLab" Name="Root/FightPointInfo/YellowSideInfo/Point" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="Text" Value="x99999" />
+                <Property Name="UnifiedAreaRect" Value="{{0.480899,0},{0,0},{0.960977,0},{1,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/FightPointInfo/YellowSideInfo/Image" >
+                <Property Name="Image" Value="set:DejaVu image:Image01" />
+                <Property Name="UnifiedAreaRect" Value="{{0.04,0},{0,0},{0.14,0},{1,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="Root/FightPointInfo/KillInfo" >
+            <Property Name="UnifiedAreaRect" Value="{{0.000976563,0},{0.402134,0},{1.00098,0},{0.574177,0}}" />
+            <Window Type="DejaVu/StaticImage" Name="Root/FightPointInfo/KillInfo/dividerline" >
+                <Property Name="Image" Value="set:DejaVu image:Line" />
+                <Property Name="UnifiedAreaRect" Value="{{0.02,0},{0,0},{0.98,0},{0.03125,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/FightPointInfo/KillInfo/ComboKillText" >
+                <Property Name="Text" Value="x連續擊殺：" />
+                <Property Name="UnifiedAreaRect" Value="{{0.04,0},{0.142857,0},{0.44,0},{0.5,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/FightPointInfo/KillInfo/TotalKillText" >
+                <Property Name="Text" Value="x總擊殺量：" />
+                <Property Name="UnifiedAreaRect" Value="{{0.04,0},{0.5,0},{0.44,0},{0.857143,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/FightPointInfo/KillInfo/ComboKillNum" >
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="Text" Value="x1000" />
+                <Property Name="UnifiedAreaRect" Value="{{0.64,0},{0.142857,0},{0.96,0},{0.5,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/FightPointInfo/KillInfo/TotalKillNum" >
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="Text" Value="x1200" />
+                <Property Name="UnifiedAreaRect" Value="{{0.64,0},{0.5,0},{0.96,0},{0.857143,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="Root/FightPointInfo/RankInfo" >
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.581359,0},{1,0},{0.719548,0}}" />
+            <Window Type="DejaVu/StaticImage" Name="Root/FightPointInfo/RankInfo/dividerline" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Image" Value="set:DejaVu image:Line" />
+                <Property Name="UnifiedAreaRect" Value="{{0.02,0},{0,0},{0.98,0},{0.0298507,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/FightPointInfo/RankInfo/PersonPointText" >
+                <Property Name="Text" Value="x個人分數：" />
+                <Property Name="UnifiedAreaRect" Value="{{0.04,0},{0.140625,0},{0.44,0},{0.5,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/FightPointInfo/RankInfo/PersonRankText" >
+                <Property Name="Text" Value="x個人排名：" />
+                <Property Name="UnifiedAreaRect" Value="{{0.04,0},{0.5,0},{0.44,0},{0.857143,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/FightPointInfo/RankInfo/PersonPoint" >
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="Text" Value="x15" />
+                <Property Name="UnifiedAreaRect" Value="{{0.64,0},{0.142857,0},{0.96,0},{0.5,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/FightPointInfo/RankInfo/PersonRank" >
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="Text" Value="x15" />
+                <Property Name="UnifiedAreaRect" Value="{{0.64,0},{0.5,0},{0.96,0},{0.857143,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="Root/FightPointInfo/RewardInfo" >
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.723455,0},{1,0},{0.826025,0}}" />
+            <Window Type="DejaVu/StaticImage" Name="Root/FightPointInfo/RewardInfo/dividerline" >
+                <Property Name="Image" Value="set:DejaVu image:Line" />
+                <Property Name="UnifiedAreaRect" Value="{{0.02,0},{0,0},{0.98,0},{0.0465116,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/FightPointInfo/RewardInfo/RewardText" >
+                <Property Name="Text" Value="x獎勵物品：" />
+                <Property Name="UnifiedAreaRect" Value="{{0.04,0},{0.219512,0},{0.730039,0},{0.754396,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/FightPointInfo/RewardInfo/RewardSlot" >
+                <Property Name="UnifiedAreaRect" Value="{{0.839453,0},{0.135488,0},{0.967453,0},{0.879674,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="Root/FightPointInfo/KDAInfo" >
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.832534,0},{1,0},{0.996094,0}}" />
+            <Window Type="DejaVu/StaticImage" Name="Root/FightPointInfo/KillInfo/dividerline1" >
+                <Property Name="Image" Value="set:DejaVu image:Line" />
+                <Property Name="UnifiedAreaRect" Value="{{0.02,0},{0,0},{0.98,0},{0.03125,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/FightPointInfo/KDAInfo/KillText" >
+                <Property Name="Text" Value="x擊殺數：" />
+                <Property Name="UnifiedAreaRect" Value="{{0.04,0},{0.103448,0},{0.44,0},{0.367816,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/FightPointInfo/KDAInfo/AssistText" >
+                <Property Name="Text" Value="x助攻數：" />
+                <Property Name="UnifiedAreaRect" Value="{{0.04,0},{0.367816,0},{0.44,0},{0.632184,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/FightPointInfo/KDAInfo/KillNum" >
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="Text" Value="x1000" />
+                <Property Name="UnifiedAreaRect" Value="{{0.64,0},{0.103448,0},{0.96,0},{0.367816,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/FightPointInfo/KDAInfo/AssistNum" >
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="Text" Value="x1200" />
+                <Property Name="UnifiedAreaRect" Value="{{0.64,0},{0.367816,0},{0.96,0},{0.632184,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/FightPointInfo/KDAInfo/DeathText" >
+                <Property Name="Text" Value="x死亡數：" />
+                <Property Name="UnifiedAreaRect" Value="{{0.04,0},{0.632184,0},{0.44,0},{0.896552,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/FightPointInfo/KDAInfo/DeathNum" >
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="Text" Value="x1400" />
+                <Property Name="UnifiedAreaRect" Value="{{0.64,0},{0.632184,0},{0.96,0},{0.896552,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Button3" Name="Root/FightPointInfo/CrisisBtn" >
+            <Property Name="Text" Value="x呼叫援軍" />
+            <Property Name="UnifiedAreaRect" Value="{{0.00702344,0},{0.0888529,0},{0.283023,0},{0.137577,0}}" />
+        </Window>
+        <Window Type="DejaVu/ProgressBarCasting" Name="Root/FightPointInfo/CrisisBtnCDBar" >
+            <Property Name="CurrentProgress" Value="1" />
+            <Property Name="StepSize" Value="0.01" />
+            <Property Name="UnifiedAreaRect" Value="{{0.320898,0},{0.0914064,0},{0.908789,0},{0.131771,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

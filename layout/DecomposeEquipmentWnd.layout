@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="DecomposeEquipmentWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="TitlebarImage" Value="set:main image:BagNormal" />
+        <Property Name="UnifiedAreaRect" Value="{{0.182417,0},{0.170234,0},{0.182417,364},{0.170234,346}}" />
+        <Window Type="DejaVu/Embed" Name="DecomposeEquipmentWnd/Embed" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0037594,0},{0.997126,0},{0.996241,0}}" />
+            <Window Type="DejaVu/Embed2" Name="DecomposeEquipmentWnd/Embed/Embed2" >
+                <Property Name="UnifiedAreaRect" Value="{{0.037464,0},{0.049242,0},{0.786744,0},{0.954545,0}}" />
+            </Window>
+            <Window Type="DejaVu/ScrollablePane" Name="DecomposeEquipmentWnd/BagContainer" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorzOverlapSize" Value="0.01" />
+                <Property Name="HorzScrollPosition" Value="0" />
+                <Property Name="HorzStepSize" Value="0.1" />
+                <Property Name="UnifiedAreaRect" Value="{{0.037464,0},{0.049242,0},{0.786744,0},{0.952827,0}}" />
+                <Property Name="VertOverlapSize" Value="0.01" />
+                <Property Name="VertScrollPosition" Value="0" />
+                <Property Name="VertStepSize" Value="0.1" />
+                <AutoWindow NameSuffix="__auto_container__" >
+                    <Property Name="ChildExtentsArea" Value="l:0 t:0 r:0 b:0" />
+                    <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                    <Property Name="MouseInputPropagationEnabled" Value="True" />
+                </AutoWindow>
+            </Window>
+            <Window Type="DejaVu/Checkbox" Name="DecomposeEquipmentWnd/Embed/CheckBox1" >
+                <Property Name="UnifiedAreaRect" Value="{{0.806916,0},{0.0795455,0},{0.979827,0},{0.170455,0}}" />
+            </Window>
+            <Window Type="DejaVu/Checkbox" Name="DecomposeEquipmentWnd/Embed/CheckBox2" >
+                <Property Name="UnifiedAreaRect" Value="{{0.806916,0},{0.174242,0},{0.979827,0},{0.265152,0}}" />
+            </Window>
+            <Window Type="DejaVu/Checkbox" Name="DecomposeEquipmentWnd/Embed/CheckBox3" >
+                <Property Name="UnifiedAreaRect" Value="{{0.806916,0},{0.272727,0},{0.979827,0},{0.363636,0}}" />
+            </Window>
+            <Window Type="DejaVu/Checkbox" Name="DecomposeEquipmentWnd/Embed/CheckBox4" >
+                <Property Name="UnifiedAreaRect" Value="{{0.806916,0},{0.367424,0},{0.979827,0},{0.458333,0}}" />
+            </Window>
+            <Window Type="DejaVu/Checkbox" Name="DecomposeEquipmentWnd/Embed/CheckBox5" >
+                <Property Name="UnifiedAreaRect" Value="{{0.806916,0},{0.458333,0},{0.979827,0},{0.549242,0}}" />
+            </Window>
+            <Window Type="DejaVu/Checkbox" Name="DecomposeEquipmentWnd/Embed/CheckBox6" >
+                <Property Name="UnifiedAreaRect" Value="{{0.806916,0},{0.556818,0},{0.979827,0},{0.647727,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="DecomposeEquipmentWnd/Embed/Btn1" >
+                <Property Name="UnifiedAreaRect" Value="{{0.806916,0},{0.659091,0},{0.979827,0},{0.75,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="DecomposeEquipmentWnd/Embed/Btn2" >
+                <Property Name="UnifiedAreaRect" Value="{{0.806916,0},{0.765152,0},{0.979827,0},{0.856061,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="DecomposeEquipmentWnd/Embed/Btn3" >
+                <Property Name="UnifiedAreaRect" Value="{{0.806916,0},{0.867424,0},{0.979827,0},{0.958333,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/WitchCraftRetrieveWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="Text" Value="x紋章抽取" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,272},{0,336}}" />
+        <Window Type="DejaVu/Static" Name="Root/WitchCraftRetrieveWnd/frame" >
+            <Property Name="BackgroundEnabled" Value="True" />
+            <Property Name="FrameEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Button" Name="Root/WitchCraftRetrieveWnd/frame/confirm" >
+                <Property Name="Text" Value="x抽取" />
+                <Property Name="UnifiedAreaRect" Value="{{0.416667,0},{0.921769,0},{0.686508,0},{0.979592,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/WitchCraftRetrieveWnd/frame/cancel" >
+                <Property Name="Text" Value="x取消" />
+                <Property Name="UnifiedAreaRect" Value="{{0.706349,0},{0.921769,0},{0.97619,0},{0.979592,0}}" />
+            </Window>
+            <Window Type="DejaVu/Embed3" Name="Root/WitchCraftRetrieveWnd/frame/bg" >
+                <Property Name="UnifiedAreaRect" Value="{{0.02381,0},{0.020408,0},{0.976191,0},{0.904762,0}}" />
+                <Window Type="DejaVu/Embed4" Name="Root/WitchCraftRetrieveWnd/Context" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.020833,0},{0.019231,0},{0.979166,0},{0.980769,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/WitchCraftRetrieveWnd/Context/WarningText" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="x※不論抽取成功或失敗裝備皆會消失" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.022026,0},{0.02,0},{0.978548,0},{0.1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/WitchCraftRetrieveWnd/Context/EquipSlot" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.217391,0},{0.18,0},{0.365217,0},{0.316,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/WitchCraftRetrieveWnd/Context/EquipText" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="x放入裝備" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.117391,0},{0.336,0},{0.465217,0},{0.416,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/WitchCraftRetrieveWnd/Context/ProduceSlot" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.634783,0},{0.18,0},{0.782609,0},{0.316,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/WitchCraftRetrieveWnd/Context/ProduceText" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="x獲得成品" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.534783,0},{0.336,0},{0.882609,0},{0.416,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/WitchCraftRetrieveWnd/Context/ItemMallText1" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="x特殊虛寶1" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.117391,0},{0.656,0},{0.465217,0},{0.736,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/WitchCraftRetrieveWnd/Context/ItemMallSlot1" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.217391,0},{0.5,0},{0.365217,0},{0.636,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/WitchCraftRetrieveWnd/Context/ItemMallSlot2" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.634783,0},{0.5,0},{0.782609,0},{0.636,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/WitchCraftRetrieveWnd/Context/ItemMallText2" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="特殊虛寶2" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.534783,0},{0.656,0},{0.882609,0},{0.736,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab5" Name="Root/WitchCraftRetrieveWnd/Context/RateText" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="x成功機率：100%" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.130593,0},{0.818469,0},{0.869723,0},{0.906469,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

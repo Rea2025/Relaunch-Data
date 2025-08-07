@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/CS_Option_MusicWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HorizontalAlignment" Value="Centre" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Window Type="DejaVu/Static" Name="Root/CS_Option_MusicWnd/Background" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Embed" Name="Root/CS_Option_MusicWnd/Background/Border_Name" >
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.15,0}}" />
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_Option_MusicWnd/Background/Border_Name/Text_Name" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="音樂" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.1,0},{0.3,0},{0.9,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/CS_Option_MusicWnd/Background/Border_Name/Edit_Name" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.35,0},{0.1,0},{0.95,0},{0.9,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed" Name="Root/CS_Option_MusicWnd/Background/Border_Other" >
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.15,0},{1,0},{0.4,0}}" />
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_Option_MusicWnd/Background/Border_Other/Text_Loop" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="循環" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.1,0},{0.25,0},{0.45,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/CS_Option_MusicWnd/Background/Border_Other/Check_Loop" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.3,0},{0.125,0},{0.4,0},{0.375,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_Option_MusicWnd/Background/Border_Other/Text_Volume" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="音量" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.45,0},{0.1,0},{0.65,0},{0.45,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/CS_Option_MusicWnd/Background/Border_Other/Edit_Volume" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.7,0},{0.1,0},{0.95,0},{0.45,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_Option_MusicWnd/Background/Border_Other/Text_FadeTime" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="漸入時間" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.55,0},{0.4,0},{0.9,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/CS_Option_MusicWnd/Background/Border_Other/Edit_FadeTime" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.45,0},{0.55,0},{0.95,0},{0.9,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed" Name="Root/CS_Option_MusicWnd/Background/Border_Sound_1" >
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.4,0},{1,0},{0.6,0}}" />
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_Option_MusicWnd/Background/Border_Sound_1/Text_Name" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="音效1" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.1,0},{0.3,0},{0.45,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/CS_Option_MusicWnd/Background/Border_Sound_1/Edit_Name" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.35,0},{0.1,0},{0.95,0},{0.45,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_Option_MusicWnd/Background/Border_Sound_1/Text_Loop" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="循環" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.55,0},{0.3,0},{0.9,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/CS_Option_MusicWnd/Background/Border_Sound_1/Check_Loop" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.35,0},{0.55,0},{0.95,0},{0.9,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed" Name="Root/CS_Option_MusicWnd/Background/Border_Sound_2" >
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.6,0},{1,0},{0.8,0}}" />
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_Option_MusicWnd/Background/Border_Sound_2/Text_Name" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="音效2" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.1,0},{0.3,0},{0.45,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/CS_Option_MusicWnd/Background/Border_Sound_2/Edit_Name" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.35,0},{0.1,0},{0.95,0},{0.45,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_Option_MusicWnd/Background/Border_Sound_2/Text_Loop" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="循環" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.55,0},{0.3,0},{0.9,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/CS_Option_MusicWnd/Background/Border_Sound_2/Check_Loop" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.35,0},{0.55,0},{0.95,0},{0.9,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed" Name="Root/CS_Option_MusicWnd/Background/Border_Sound_3" >
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.8,0},{1,0},{1,0}}" />
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_Option_MusicWnd/Background/Border_Sound_3/Text_Name" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="音效3" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.1,0},{0.3,0},{0.45,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/CS_Option_MusicWnd/Background/Border_Sound_3/Edit_Name" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.35,0},{0.1,0},{0.95,0},{0.45,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_Option_MusicWnd/Background/Border_Sound_3/Text_Loop" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="循環" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.55,0},{0.3,0},{0.9,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/CS_Option_MusicWnd/Background/Border_Sound_3/Check_Loop" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.35,0},{0.55,0},{0.95,0},{0.9,0}}" />
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

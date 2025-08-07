@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/Static" Name="StatusSupporter2" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="RiseOnClick" Value="False" />
+        <Property Name="UnifiedAreaRect" Value="{{0.283203,0},{0.0390625,0},{0.283203,120},{0.0390625,61}}" />
+        <Property Name="ZOrderChangeEnabled" Value="False" />
+        <Window Type="DejaVu/Embed3" Name="StatusSupporter2/BG" >
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0655738,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/SlotImage" Name="StatusSupporter2/ItemSlot" >
+                <Property Name="RiseOnClick" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.06087,0},{0.122807,0},{0.41087,0},{0.859649,0}}" />
+                <Property Name="ZOrderChangeEnabled" Value="False" />
+                <Window Type="DejaVu/StaticImage" Name="StatusSupporter2/ItemSlot/Img" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Image" Value="set:main2 image:HealBase" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="RiseOnClick" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.071429,0},{0.071429,0},{0.928572,0},{0.928572,0}}" />
+                    <Property Name="ZOrderChangeEnabled" Value="False" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Checkbox" Name="StatusSupporter2/ActiveCheck" >
+                <Property Name="UnifiedAreaRect" Value="{{0.452174,0},{0.175439,0},{0.577174,0},{0.438597,0}}" />
+            </Window>
+            <Window Type="DejaVu/Editbox" Name="StatusSupporter2/Edit" >
+                <Property Name="MaxTextLength" Value="2147483647" />
+                <Property Name="TextParsingEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.452174,0},{0.526316,0},{0.760507,0},{0.877193,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="StatusSupporter2/Text" >
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="%" />
+                <Property Name="UnifiedAreaRect" Value="{{0.8,0},{0.526316,0},{0.925,0},{0.877193,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="StatusSupporter2/ActiveText" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="x開啟" />
+                <Property Name="UnifiedAreaRect" Value="{{0.6,0},{0.175439,0},{0.941667,0},{0.438596,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Embed3" Name="StatusSupporter2/BG1" >
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0655738,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Checkbox" Name="StatusSupporter2/BG1/ActiveCheck" >
+                <Property Name="UnifiedAreaRect" Value="{{0.45,0},{0.22807,0},{0.7,0},{0.754386,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="StatusSupporter2/BG1/ActiveText" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="x開啟" />
+                <Property Name="UnifiedAreaRect" Value="{{0.63125,0},{0.350877,0},{0.972917,0},{0.614035,0}}" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="StatusSupporter2/BG1/ImgBtn" >
+                <Property Name="HoverImage" Value="set:main2 image:AutoSupportHover" />
+                <Property Name="MouseCursorImage" Value="set:main2 image:AutoSupportHover" />
+                <Property Name="NormalImage" Value="set:main2 image:AutoSupportNormal" />
+                <Property Name="PushedImage" Value="set:main2 image:AutoSupportPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0640626,0},{0.139767,0},{0.414063,0},{0.876609,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

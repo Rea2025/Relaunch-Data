@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/ChannelWnd" >
+        <Property Name="MousePassThroughEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{-0.000976563,0},{0,0},{0.999023,0},{1,0}}" />
+        <Window Type="DejaVu/ChannelResizeWindow" Name="Root/ChannelWnd/SubWnd" >
+            <Property Name="CloseButtonEnabled" Value="False" />
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="HelpButtonEnabled" Value="False" />
+            <Property Name="SizingEnabled" Value="True" />
+            <Property Name="TitlebarEnabled" Value="False" />
+            <Property Name="TitlebarFont" Value="F001-scale" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{-0.00130208,-320},{0,380},{-0.00130208,-170}}" />
+            <Property Name="VerticalAlignment" Value="Bottom" />
+            <Window Type="DejaVu/ImageButton" Name="Root/ChannelWnd/SubWnd/DragBtn" >
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="HoverImage" Value="set:main image:DragHover" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="NormalImage" Value="set:main image:DragNormal" />
+                <Property Name="PushedImage" Value="set:main image:DragPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.00645161,0},{0.0133333,0},{-0.00645161,10},{0.0133333,10}}" />
+            </Window>
+            <Window Type="DejaVu/EmbedText" Name="Root/ChannelWnd/SubWnd/Content" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-10" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.133333,0},{0.941645,0},{0.966667,0}}" />
+                <Property Name="VertFormatting" Value="BottomAligned" />
+            </Window>
+            <Window Type="DejaVu/channelScrollablePane" Name="Root/ChannelWnd/SubWnd/Pane" >
+                <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                <Property Name="ContentPaneAutoSized" Value="False" />
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="ForceVertScrollbar" Value="True" />
+                <Property Name="HorzOverlapSize" Value="0.01" />
+                <Property Name="HorzScrollPosition" Value="0" />
+                <Property Name="HorzStepSize" Value="0.1" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{-0.0307291,0},{0.986737,0},{0.802604,0}}" />
+                <Property Name="VertOverlapSize" Value="0.01" />
+                <Property Name="VertScrollPosition" Value="0" />
+                <Property Name="VertStepSize" Value="0.1" />
+                <Property Name="VerticalAlignment" Value="Bottom" />
+                <AutoWindow NameSuffix="__auto_container__" >
+                    <Property Name="ChildExtentsArea" Value="l:0 t:0 r:0 b:0" />
+                    <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                    <Property Name="ContentPaneAutoSized" Value="False" />
+                    <Property Name="MouseInputPropagationEnabled" Value="True" />
+                </AutoWindow>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/TipTextLab" Name="Root/ChannelWnd/TipItem" >
+            <Property Name="Font" Value="F001-10" />
+            <Property Name="UnifiedAreaRect" Value="{{0.488281,0},{0,0},{0.488281,138},{0,142}}" />
+            <Property Name="VerticalAlignment" Value="Bottom" />
+            <Window Type="DejaVu/ImageButton" Name="Root/ChannelWnd/TipItem/CloseBtn" >
+                <Property Name="Font" Value="F001-10" />
+                <Property Name="HoverImage" Value="set:DejaVu image:NewCloseButtonHover" />
+                <Property Name="NormalImage" Value="set:DejaVu image:NewCloseButtonNormal" />
+                <Property Name="PushedImage" Value="set:DejaVu image:NewCloseButtonPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0.884058,0},{-0.00704225,0},{0.884058,15},{-0.00704225,15}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/FrameWindow" Name="Root/ChannelWnd/CreateNewWnd" >
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="HelpButtonEnabled" Value="False" />
+            <Property Name="TitlebarEnabled" Value="True" />
+            <Property Name="TitlebarFont" Value="F001-9" />
+            <Property Name="TitlebarImage" Value="set:main image:SystemNormal" />
+            <Property Name="UnifiedAreaRect" Value="{{0.392578,0},{0.239584,0},{0.392578,266},{0.239584,241}}" />
+            <Window Type="DejaVu/Embed" Name="Root/ChannelWnd/CreateNewWnd/BG/BG2" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Window Type="DejaVu/Embed2" Name="Root/ChannelWnd/CreateNewWnd/BG/BG2/EditBG" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0625,0},{0.92,0},{0.74573,0}}" />
+                    <Window Type="DejaVu/StaticText" Name="Root/ChannelWnd/CreateNewWnd/TitleText" >
+                        <Property Name="HorizontalAlignment" Value="Centre" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="x請輸入新頻道名稱" />
+                        <Property Name="UnifiedAreaRect" Value="{{-0.00106148,0},{0.091743,0},{0.911982,0},{0.321101,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Editbox" Name="Root/ChannelWnd/CreateNewWnd/EditBox" >
+                        <Property Name="HorizontalAlignment" Value="Centre" />
+                        <Property Name="MaxTextLength" Value="8" />
+                        <Property Name="TextParsingEnabled" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.594059,0},{0.521739,0},{0.823417,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticText" Name="Root/ChannelWnd/CreateNewWnd/TitleText2" >
+                        <Property Name="HorizontalAlignment" Value="Centre" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="x（最多4個全形字元）" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.321101,0},{0.913043,0},{0.550459,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Button" Name="Root/ChannelWnd/CreateNewWnd/OKBtn" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="Text" Value="x確定" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.04,0},{0.775,0},{0.344,0},{0.9375,0}}" />
+                </Window>
+                <Window Type="DejaVu/Button" Name="Root/ChannelWnd/CreateNewWnd/CancelBtn" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="Text" Value="x取消" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.656,0},{0.775,0},{0.96,0},{0.9375,0}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/FrameWindow" Name="Root/ChannelWnd/ConfigWnd" >
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="HelpButtonEnabled" Value="False" />
+            <Property Name="TitlebarEnabled" Value="True" />
+            <Property Name="TitlebarFont" Value="F001-9" />
+            <Property Name="TitlebarImage" Value="set:main image:SystemNormal" />
+            <Property Name="UnifiedAreaRect" Value="{{0.658203,0},{0.032552,0},{0.658203,251},{0.032552,395}}" />
+            <Window Type="DejaVu/Embed" Name="Root/ChannelWnd/ConfigWnd/Static" >
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Window Type="DejaVu/Embed2" Name="Root/ChannelWnd/ConfigWnd/Static/Embed/Left" >
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0425532,0},{0.0362671,0},{0.489362,0},{0.857945,0}}" />
+                    <Window Type="DejaVu/Checkbox" Name="Root/ChannelWnd/ConfigWnd/Checkbox1" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0952381,0},{0.0390625,0},{0.904762,0},{0.0976563,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Checkbox" Name="Root/ChannelWnd/ConfigWnd/Checkbox2" >
+                        <Property Name="ID" Value="1" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.095238,0},{0.136719,0},{0.904762,0},{0.195313,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Checkbox" Name="Root/ChannelWnd/ConfigWnd/Checkbox3" >
+                        <Property Name="ID" Value="2" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0952381,0},{0.23166,0},{0.904762,0},{0.289575,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Checkbox" Name="Root/ChannelWnd/ConfigWnd/Checkbox4" >
+                        <Property Name="ID" Value="3" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0952381,0},{0.328185,0},{0.904762,0},{0.3861,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Checkbox" Name="Root/ChannelWnd/ConfigWnd/Checkbox5" >
+                        <Property Name="ID" Value="4" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0952381,0},{0.42471,0},{0.904762,0},{0.482625,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Checkbox" Name="Root/ChannelWnd/ConfigWnd/Checkbox6" >
+                        <Property Name="ID" Value="5" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0952381,0},{0.521236,0},{0.904762,0},{0.579151,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Checkbox" Name="Root/ChannelWnd/ConfigWnd/Checkbox7" >
+                        <Property Name="ID" Value="6" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0952381,0},{0.714286,0},{0.904762,0},{0.772201,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Checkbox" Name="Root/ChannelWnd/ConfigWnd/Checkbox8" >
+                        <Property Name="ID" Value="7" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0952381,0},{0.617761,0},{0.904762,0},{0.675676,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Checkbox" Name="Root/ChannelWnd/ConfigWnd/Checkbox9" >
+                        <Property Name="ID" Value="8" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0952381,0},{0.810811,0},{0.904762,0},{0.868726,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Checkbox" Name="Root/ChannelWnd/ConfigWnd/Checkbox10" >
+                        <Property Name="ID" Value="9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0952381,0},{0.907336,0},{0.904762,0},{0.965251,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed2" Name="Root/ChannelWnd/ConfigWnd/Static/Embed/Right" >
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.511615,0},{0.034965,0},{0.958424,0},{0.856643,0}}" />
+                    <Window Type="DejaVu/Checkbox" Name="Root/ChannelWnd/ConfigWnd/Checkbox11" >
+                        <Property Name="ID" Value="10" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0952381,0},{0.03861,0},{0.904762,0},{0.0965251,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Checkbox" Name="Root/ChannelWnd/ConfigWnd/Checkbox12" >
+                        <Property Name="ID" Value="11" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0952381,0},{0.135135,0},{0.904762,0},{0.19305,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Checkbox" Name="Root/ChannelWnd/ConfigWnd/Checkbox13" >
+                        <Property Name="ID" Value="12" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0952381,0},{0.23166,0},{0.904762,0},{0.289575,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Checkbox" Name="Root/ChannelWnd/ConfigWnd/Checkbox14" >
+                        <Property Name="ID" Value="13" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0952381,0},{0.328185,0},{0.904762,0},{0.3861,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Checkbox" Name="Root/ChannelWnd/ConfigWnd/Checkbox15" >
+                        <Property Name="ID" Value="14" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0952381,0},{0.42471,0},{0.904762,0},{0.482626,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Checkbox" Name="Root/ChannelWnd/ConfigWnd/Checkbox16" >
+                        <Property Name="ID" Value="15" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0952381,0},{0.521236,0},{0.904762,0},{0.579151,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Checkbox" Name="Root/ChannelWnd/ConfigWnd/Checkbox17" >
+                        <Property Name="ID" Value="15" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0952381,0},{0.617761,0},{0.904762,0},{0.675676,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Checkbox" Name="Root/ChannelWnd/ConfigWnd/Checkbox18" >
+                        <Property Name="ID" Value="8" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0952381,0},{0.714286,0},{0.904762,0},{0.772201,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Checkbox" Name="Root/ChannelWnd/ConfigWnd/Checkbox19" >
+                        <Property Name="ID" Value="8" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0952381,0},{0.810811,0},{0.904762,0},{0.868726,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Checkbox" Name="Root/ChannelWnd/ConfigWnd/Checkbox20" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.0952381,0},{0.907336,0},{0.904762,0},{0.965251,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Button" Name="Root/ChannelWnd/ConfigWnd/OKBtn" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.337147,0},{0.874126,0},{0.660551,0},{0.965035,0}}" />
+                </Window>
+                <Window Type="DejaVu/Button" Name="Root/ChannelWnd/ConfigWnd/CancelBtn" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.651064,0},{0.874126,0},{0.974468,0},{0.965035,0}}" />
+                    <Property Name="Visible" Value="False" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/ChannelResizeWindow" Name="Root/ChannelWnd/MainWnd" >
+            <Property Name="CloseButtonEnabled" Value="False" />
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="HelpButtonEnabled" Value="False" />
+            <Property Name="SizingEnabled" Value="True" />
+            <Property Name="TitlebarEnabled" Value="False" />
+            <Property Name="TitlebarFont" Value="F001-scale" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,-130},{0,380},{0,20}}" />
+            <Property Name="VerticalAlignment" Value="Bottom" />
+            <Window Type="DejaVu/ImageButton" Name="Root/ChannelWnd/MainWnd/DragBtn" >
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="HoverImage" Value="set:main image:DragHover" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="NormalImage" Value="set:main image:DragNormal" />
+                <Property Name="PushedImage" Value="set:main image:DragPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.006515,0},{0.013333,0},{-0.006515,10},{0.013333,10}}" />
+            </Window>
+            <Window Type="DejaVu/channelScrollablePane" Name="Root/ChannelWnd/MainWnd/Pane" >
+                <Property Name="ContentArea" Value="l:-1 t:0 r:296 b:108" />
+                <Property Name="ContentPaneAutoSized" Value="False" />
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="ForceVertScrollbar" Value="True" />
+                <Property Name="HorzOverlapSize" Value="0.01" />
+                <Property Name="HorzScrollPosition" Value="0" />
+                <Property Name="HorzStepSize" Value="0.1" />
+                <Property Name="UnifiedAreaRect" Value="{{0.00530504,0},{-0.0333333,0},{0.986737,0},{0.8,0}}" />
+                <Property Name="VertOverlapSize" Value="0.01" />
+                <Property Name="VertScrollPosition" Value="0" />
+                <Property Name="VertStepSize" Value="0.1" />
+                <Property Name="VerticalAlignment" Value="Bottom" />
+                <AutoWindow NameSuffix="__auto_container__" >
+                    <Property Name="ChildExtentsArea" Value="l:-1 t:0 r:354 b:125" />
+                    <Property Name="ContentArea" Value="l:-1 t:0 r:296 b:108" />
+                    <Property Name="ContentPaneAutoSized" Value="False" />
+                    <Property Name="MouseInputPropagationEnabled" Value="True" />
+                    <Window Type="DejaVu/StaticText" Name="Root/ChannelWnd/MainWnd/Pane/Content" >
+                        <Property Name="Font" Value="F001-10" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="Text" Value="5446" />
+                        <Property Name="UnifiedAreaRect" Value="{{-0.00199008,0},{0.0015625,0},{0.99801,0},{1.00156,0}}" />
+                        <Property Name="VertFormatting" Value="BottomAligned" />
+                    </Window>
+                </AutoWindow>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/channelTabControl" Name="Root/ChannelWnd/MainTab" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="TabHeight" Value="{0,20}" />
+            <Property Name="TabPanePosition" Value="Top" />
+            <Property Name="UnifiedAreaRect" Value="{{0,1},{0,-280},{0,301},{0,-255}}" />
+            <Property Name="VerticalAlignment" Value="Bottom" />
+            <Window Type="DefaultWindow" Name="Root/ChannelWnd/MainTab/ALL" >
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="ID" Value="100" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="Global" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,300},{0,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/ChannelLabel" Name="Root/ChannelWnd/SubWndTitle" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="Text" Value="1234" />
+            <Property Name="UnifiedAreaRect" Value="{{0,1},{0,-470},{0,76},{0,-445}}" />
+            <Property Name="VerticalAlignment" Value="Bottom" />
+        </Window>
+        <Window Type="DejaVu/Static" Name="Root/ChannelWnd/EmotionPane" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="BackgroundEnabled" Value="True" />
+            <Property Name="ClippedByParent" Value="False" />
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="FrameEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0,40},{-0.1625,0},{0,142},{-0.1625,71}}" />
+            <Property Name="VerticalAlignment" Value="Bottom" />
+        </Window>
+        <Window Type="DejaVu/Static" Name="Root/ChannelWnd/InputWnd" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{-0.0875,0},{0,380},{-0.0875,56}}" />
+            <Property Name="VerticalAlignment" Value="Bottom" />
+            <Window Type="DejaVu/Embed3" Name="Root/ChannelWnd/InputWnd/BG" >
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Window Type="DejaVu/ImageButton" Name="Root/ChannelWnd/InputWnd/EmotionBtn" >
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="HoverImage" Value="set:DejaVu image:Chat" />
+                    <Property Name="NormalImage" Value="set:DejaVu image:Chat" />
+                    <Property Name="PushedImage" Value="set:DejaVu image:Chat" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0710526,0},{0.0357143,0},{0.136842,0},{0.482143,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/ChannelWnd/InputWnd/ChannelBG" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Image" Value="set:main image:ChSNormal" />
+                    <Property Name="Text" Value="S" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.00526316,0},{0.0357143,0},{0.0710526,0},{0.482143,0}}" />
+                    <Window Type="DejaVu/StaticText" Name="Root/ChannelWnd/InputWnd/ChannelName" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HorizontalAlignment" Value="Centre" />
+                        <Property Name="HorzFormatting" Value="WordWrapCentred" />
+                        <Property Name="Text" Value="S" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed2" Name="Root/ChannelWnd/InputWnd/Input" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.136842,0},{0.035714,0},{0.994737,0},{0.517857,0}}" />
+                    <Window Type="DejaVu/Editbox" Name="Root/ChannelWnd/InputWnd/EditBox" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="MaxTextLength" Value="200" />
+                        <Property Name="TextParsingEnabled" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.925926,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Editbox" Name="Root/ChannelWnd/InputWnd/Input/WhisperNameEdit" >
+                        <Property Name="MaxTextLength" Value="2147483647" />
+                        <Property Name="TextParsingEnabled" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.333545,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/ImageButton" Name="Root/ChannelWnd/InputWnd/Input/WhisperListBtn" >
+                        <Property Name="DisabledImage" Value="set:DejaVu image:ComboboxListButtonDisable" />
+                        <Property Name="HoverImage" Value="set:DejaVu image:ComboboxListButtonHover" />
+                        <Property Name="NormalImage" Value="set:DejaVu image:ComboboxListButtonNormal" />
+                        <Property Name="PushedImage" Value="set:DejaVu image:ComboboxListButtonNormal" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.334943,0},{0,0},{0.41163,0},{0.925926,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Button" Name="Root/ChannelWnd/InputWnd/ConfigBtn" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="x設定" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.794737,0},{0.517857,0},{0.994737,0},{0.964286,0}}" />
+                </Window>
+                <Window Type="DejaVu/Button" Name="Root/ChannelWnd/InputWnd/SendMessageBtn" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="x發送" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.598643,0},{0.517857,0},{0.798639,0},{0.964286,0}}" />
+                </Window>
+                <Window Type="DejaVu/Static" Name="Root/ChannelWnd/InputWnd/BG/frame" >
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.517857,0},{0.607895,0},{0.964286,0}}" />
+                    <Window Type="DejaVu/ImageButton" Name="Root/ChannelWnd/InputWnd/DownBtn" >
+                        <Property Name="Font" Value="F001-scale" />
+                        <Property Name="HoverImage" Value="set:DejaVu image:ArrowDownHover" />
+                        <Property Name="NormalImage" Value="set:DejaVu image:ArrowDownNormal" />
+                        <Property Name="PushedImage" Value="set:DejaVu image:ArrowDownPressed" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.941392,0},{0.166667,0},{0.996337,0},{0.791667,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Static" Name="Root/ChannelWnd/InputWnd/BtnBack" >
+                        <Property Name="Font" Value="F001-scale" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.995671,0},{1,0}}" />
+                        <Window Type="DejaVu/ImageRadioButton" Name="Root/ChannelWnd/InputWnd/BtnBack/ChannelBtn1" >
+                            <Property Name="GroupID" Value="1" />
+                            <Property Name="HoverImage" Value="set:main image:ChSHover" />
+                            <Property Name="NormalImage" Value="set:main image:ChSNormal" />
+                            <Property Name="PushedImage" Value="set:main image:ChSPressed" />
+                            <Property Name="Text" Value="S" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.009217,0},{0,0},{0.117913,0},{1,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/ImageRadioButton" Name="Root/ChannelWnd/InputWnd/BtnBack/ChannelBtn2" >
+                            <Property Name="GroupID" Value="1" />
+                            <Property Name="HoverImage" Value="set:main image:ChRHover" />
+                            <Property Name="ID" Value="1" />
+                            <Property Name="NormalImage" Value="set:main image:ChRNormal" />
+                            <Property Name="PushedImage" Value="set:main image:ChRPressed" />
+                            <Property Name="Text" Value="R" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.117391,0},{0,0},{0.226087,0},{1,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/ImageRadioButton" Name="Root/ChannelWnd/InputWnd/BtnBack/ChannelBtn3" >
+                            <Property Name="GroupID" Value="1" />
+                            <Property Name="HoverImage" Value="set:main image:ChPHover" />
+                            <Property Name="ID" Value="2" />
+                            <Property Name="NormalImage" Value="set:main image:ChPNormal" />
+                            <Property Name="PushedImage" Value="set:main image:ChPPressed" />
+                            <Property Name="Text" Value="P" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.226087,0},{0,0},{0.334783,0},{1,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/ImageRadioButton" Name="Root/ChannelWnd/InputWnd/BtnBack/ChannelBtn4" >
+                            <Property Name="GroupID" Value="1" />
+                            <Property Name="HoverImage" Value="set:main image:ChGHover" />
+                            <Property Name="ID" Value="3" />
+                            <Property Name="NormalImage" Value="set:main image:ChGNormal" />
+                            <Property Name="PushedImage" Value="set:main image:ChGPressed" />
+                            <Property Name="Text" Value="G" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.334783,0},{0,0},{0.443479,0},{1,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/ImageRadioButton" Name="Root/ChannelWnd/InputWnd/BtnBack/ChannelBtn5" >
+                            <Property Name="GroupID" Value="1" />
+                            <Property Name="HoverImage" Value="set:main image:ChWHover" />
+                            <Property Name="ID" Value="4" />
+                            <Property Name="NormalImage" Value="set:main image:ChWNormal" />
+                            <Property Name="PushedImage" Value="set:main image:ChWPressed" />
+                            <Property Name="Text" Value="Y" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.443478,0},{0,0},{0.552174,0},{1,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/ImageRadioButton" Name="Root/ChannelWnd/InputWnd/BtnBack/ChannelBtn6" >
+                            <Property Name="GroupID" Value="1" />
+                            <Property Name="HoverImage" Value="set:main image:ChAHover" />
+                            <Property Name="ID" Value="5" />
+                            <Property Name="NormalImage" Value="set:main image:ChANormal" />
+                            <Property Name="PushedImage" Value="set:main image:ChAPressed" />
+                            <Property Name="Text" Value="W" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.552174,0},{0,0},{0.66087,0},{1,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/ImageRadioButton" Name="Root/ChannelWnd/InputWnd/BtnBack/ChannelBtn7" >
+                            <Property Name="GroupID" Value="1" />
+                            <Property Name="HoverImage" Value="set:main image:ChYHover" />
+                            <Property Name="ID" Value="6" />
+                            <Property Name="NormalImage" Value="set:main image:ChYNormal" />
+                            <Property Name="PushedImage" Value="set:main image:ChYPressed" />
+                            <Property Name="Text" Value="A" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.66087,0},{0,0},{0.769566,0},{1,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/ImageRadioButton" Name="Root/ChannelWnd/InputWnd/BtnBack/ChannelBtn8" >
+                            <Property Name="GroupID" Value="1" />
+                            <Property Name="HoverImage" Value="set:main image:ChTHover" />
+                            <Property Name="ID" Value="7" />
+                            <Property Name="NormalImage" Value="set:main image:ChTNormal" />
+                            <Property Name="PushedImage" Value="set:main image:ChTPressed" />
+                            <Property Name="Text" Value="T" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.769565,0},{0,0},{0.878261,0},{1,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/ImageRadioButton" Name="Root/ChannelWnd/InputWnd/BtnBack/ChannelBtn9" >
+                            <Property Name="GroupID" Value="1" />
+                            <Property Name="HoverImage" Value="set:main image:ChJHover" />
+                            <Property Name="ID" Value="8" />
+                            <Property Name="NormalImage" Value="set:main image:ChJNormal" />
+                            <Property Name="PushedImage" Value="set:main image:ChJPressed" />
+                            <Property Name="Text" Value="J" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.878261,0},{0,0},{0.986956,0},{1,0}}" />
+                        </Window>
+                    </Window>
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/TipTextLab" Name="Root/ChannelWnd/TipItemCompare" >
+            <Property Name="Font" Value="F001-10" />
+            <Property Name="UnifiedAreaRect" Value="{{0.623047,0},{0,0},{0.623047,138},{0,142}}" />
+            <Property Name="VerticalAlignment" Value="Bottom" />
+        </Window>
+        <Window Type="DejaVu/TipTextLab" Name="Root/ChannelWnd/TipItemCompare2" >
+            <Property Name="Font" Value="F001-10" />
+            <Property Name="UnifiedAreaRect" Value="{{0.757813,0},{0,0},{0.757813,138},{0,142}}" />
+            <Property Name="VerticalAlignment" Value="Bottom" />
+        </Window>
+        <Window Type="DejaVu/TipTextLab" Name="Root/ChannelWnd/TipCardCompare" >
+            <Property Name="Font" Value="F001-10" />
+            <Property Name="UnifiedAreaRect" Value="{{0.623047,0},{0,0},{0.623047,138},{0,142}}" />
+            <Property Name="VerticalAlignment" Value="Bottom" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/ChannelWnd/AddBtn" >
+            <Property Name="Text" Value="+" />
+            <Property Name="UnifiedAreaRect" Value="{{0.288727,0},{-0.371845,0},{0.309002,0},{-0.338601,0}}" />
+            <Property Name="VerticalAlignment" Value="Bottom" />
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/ChannelWnd/Megaphome_BackGround" >
+            <Property Name="Image" Value="set:main12 image:ChatBG" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{-0.59761,0},{0,380},{-0.59761,120}}" />
+            <Property Name="VerticalAlignment" Value="Bottom" />
+        </Window>
+        <Window Type="DejaVu/StaticText" Name="Root/ChannelWnd/Megaphome_Text" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-10" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="Text" Value="一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十" />
+            <Property Name="UnifiedAreaRect" Value="{{0.000976563,0},{-0.59761,0},{0.000976563,380},{-0.59761,121}}" />
+            <Property Name="VertFormatting" Value="TopAligned" />
+            <Property Name="VerticalAlignment" Value="Bottom" />
+        </Window>
+    </Window>
+</GUILayout>

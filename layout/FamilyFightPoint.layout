@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/Embed3" Name="Root/FamilyFightPoint" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.629203,0},{0.310867,0},{0.629203,350},{0.310867,210}}" />
+        <Window Type="DejaVu/ImageButton" Name="Root/FamilyFightPoint/LockBtn" >
+            <Property Name="DisabledImage" Value="set:main image:UnLockBtnPressed" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HoverImage" Value="set:main image:UnLockBtnHover" />
+            <Property Name="NormalImage" Value="set:main image:UnLockBtnNormal" />
+            <Property Name="PushedImage" Value="set:main image:UnLockBtnPressed" />
+            <Property Name="UnifiedAreaRect" Value="{{0.902907,0},{0.0341688,0},{0.96005,0},{0.123584,0}}" />
+        </Window>
+        <Window Type="DejaVu/MultiColumnList" Name="Root/FamilyFightPoint/PointBG" >
+            <Property Name="ColumnsMovable" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0428571,0},{0.137671,0},{0.957143,0},{0.966667,0}}" />
+            <Window Type="DejaVu/MultiColumnList" Name="Root/FamilyFightPoint/PointBG/PointMCL" >
+                <Property Name="ColumnsMovable" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0260776,0},{0.0927396,0},{0.988577,0},{1.01567,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="Root/FamilyFightPoint/TitleBG" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0285714,0},{0.0222222,0},{0.742857,0},{0.167678,0}}" />
+            <Window Type="DejaVu/StaticImage" Name="Root/FamilyFightPoint/TitleBG/Image" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Image" Value="set:DejaVu image:Image01" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0133449,0},{0.0955064,0},{0.113345,0},{0.982329,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/FamilyFightPoint/TitleBG/Title" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="x公會戰戰況" />
+                <Property Name="UnifiedAreaRect" Value="{{0.13469,0},{-0.183116,0},{0.93469,0},{1.21613,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

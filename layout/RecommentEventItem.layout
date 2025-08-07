@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/Static" Name="Root/RecommentEventItem" >
+        <Property Name="BackgroundEnabled" Value="False" />
+        <Property Name="Font" Value="F001-scale" />
+        <Property Name="FrameEnabled" Value="False" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.179372,0},{0.04467,0}}" />
+        <Window Type="DejaVu/Embed4" Name="Root/RecommentEventItem/Back" >
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="UnifiedAreaRect" Value="{{0.045732,0},{0,0},{1,0},{0.954545,0}}" />
+            <Property Name="VerticalAlignment" Value="Centre" />
+            <Window Type="DejaVu/SlotImage" Name="Root/RecommentEventItem/Back/SlotImage" >
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="UnifiedAreaRect" Value="{{0.013878,0},{0.07752,0},{0.126378,0},{0.934663,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/RecommentEventItem/Back/TitleText" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" Value="一二三四五六七" />
+                <Property Name="UnifiedAreaRect" Value="{{0.150382,0},{0.101764,0},{0.973537,0},{0.530336,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/RecommentEventItem/Back/DayText" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" Value="全週" />
+                <Property Name="TextColours" Value="tl:FFF6EC2F tr:FFF6EC2F bl:FFF6EC2F br:FFF6EC2F" />
+                <Property Name="UnifiedAreaRect" Value="{{0.15016,0},{0.443268,0},{0.399361,0},{0.87184,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/RecommentEventItem/Back/FinishedText" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="Text" >完成
+
+
+
+</Property>
+                <Property Name="UnifiedAreaRect" Value="{{0.718936,0},{0.452381,0},{0.968138,0},{0.880952,0}}" />
+            </Window>
+            <Window Type="DejaVu/Zframe" Name="Root/RecommentEventItem/Back/SelectFrame" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Checkbox" Name="Root/RecommentEventItem/TraceCheck" >
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0227273,0},{0.046875,0},{0.909091,0}}" />
+            <Property Name="VerticalAlignment" Value="Centre" />
+        </Window>
+    </Window>
+</GUILayout>

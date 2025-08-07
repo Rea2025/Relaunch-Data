@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/ItemMallSerial" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="TitlebarImage" Value="set:main image:ItemMallNormal" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,416},{0,239}}" />
+        <Window Type="DejaVu/TabControl" Name="Root/ItemMallSerial/TabControl" >
+            <Property Name="TabHeight" Value="{0,20}" />
+            <Property Name="TabPanePosition" Value="Top" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1.02516,0}}" />
+            <Window Type="DefaultWindow" Name="Root/ItemMallSerial/TabControl/ShopCodeTab" >
+                <Property Name="Text" Value="Global" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,400},{0,138}}" />
+				<Window Type="DejaVu/Embed" Name="Root/ItemMallSerial/TabControl/ShopCodeTab/ShopCode" >
+					<Property Name="Font" Value="F001-scale" />
+					<Property Name="UnifiedAreaRect" Value="{{0.0625,0},{0.0746269,0},{0.0625,400},{0.0746269,133}}" />
+					<Window Type="DejaVu/Button" Name="Root/ItemMallSerial/TabControl/ShopCodeTab/ShopCode/OkBtn" >
+						<Property Name="ClippedByParent" Value="False" />
+						<Property Name="Text" Value="x確定" />
+						<Property Name="UnifiedAreaRect" Value="{{0.582051,0},{0.806452,0},{0.776923,0},{1.01613,0}}" />
+					</Window>
+					<Window Type="DejaVu/Button" Name="Root/ItemMallSerial/TabControl/ShopCodeTab/ShopCode/CancelBtn" >
+						<Property Name="ClippedByParent" Value="False" />
+						<Property Name="Text" Value="x取消" />
+						<Property Name="UnifiedAreaRect" Value="{{0.784615,0},{0.806452,0},{0.979487,0},{1.01613,0}}" />
+					</Window>
+					<Window Type="DejaVu/Embed2" Name="Root/ItemMallSerial/TabControl/ShopCodeTab/ShopCods/Frame" >
+						<Property Name="Font" Value="F001-scale" />
+						<Property Name="UnifiedAreaRect" Value="{{0.025641,0},{0.0806452,0},{1,0},{0.782258,0}}" />
+						<Window Type="DejaVu/Editbox" Name="Root/ItemMallSerial/TabControl/ShopCodeTab/ShopCode/Frame/SerialInput" >
+							<Property Name="MaxTextLength" Value="1073741823" />
+							<Property Name="TextParsingEnabled" Value="False" />
+							<Property Name="UnifiedAreaRect" Value="{{0.236842,0},{0.126761,0},{0.973684,0},{0.43662,0}}" />
+						</Window>
+						<Window Type="DejaVu/Editbox" Name="Root/ItemMallSerial/TabControl/ShopCodeTab/ShopCode/Frame/PasswordInput" >
+							<Property Name="MaxTextLength" Value="1073741823" />
+							<Property Name="TextParsingEnabled" Value="False" />
+							<Property Name="UnifiedAreaRect" Value="{{0.236842,0},{0.5,0},{0.973684,0},{0.8125,0}}" />
+						</Window>
+						<Window Type="DejaVu/EmbedTextLab7" Name="Root/ItemMallSerial/TabControl/ShopCodeTab/ShopCode/Frame/SerialText" >
+							<Property Name="HorzFormatting" Value="HorzCentred" />
+							<Property Name="UnifiedAreaRect" Value="{{0.026316,0},{0.126761,0},{0.236842,0},{0.43662,0}}" />
+						</Window>
+						<Window Type="DejaVu/EmbedTextLab7" Name="Root/ItemMallSerial/TabControl/ShopCodeTab/ShopCode/Frame/PasswordText" >
+							<Property Name="HorzFormatting" Value="HorzCentred" />
+							<Property Name="UnifiedAreaRect" Value="{{0.0263158,0},{0.5,0},{0.236842,0},{0.8125,0}}" />
+						</Window>
+					</Window>
+				</Window>
+            </Window>
+            <Window Type="DefaultWindow" Name="Root/ItemMallSerial/TabControl/GiftCodeTab" >
+                <Property Name="Text" Value="Team" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,400},{0,138}}" />
+                <Property Name="Visible" Value="False" />
+				<Window Type="DejaVu/Embed" Name="Root/ItemMallSerial/TabControl/GiftCodeTab/GiftCode" >
+					<Property Name="Font" Value="F001-scale" />
+					<Property Name="UnifiedAreaRect" Value="{{0.0625,0},{0.0746269,0},{0.0625,400},{0.0746269,133}}" />
+					<Window Type="DejaVu/Button" Name="Root/ItemMallSerial/TabControl/GiftCodeTab/GiftCode/OkBtn" >
+						<Property Name="ClippedByParent" Value="False" />
+						<Property Name="Text" Value="x確定" />
+						<Property Name="UnifiedAreaRect" Value="{{0.582051,0},{0.806452,0},{0.776923,0},{1.01613,0}}" />
+					</Window>
+					<Window Type="DejaVu/Button" Name="Root/ItemMallSerial/TabControl/GiftCodeTab/GiftCode/CancelBtn" >
+						<Property Name="ClippedByParent" Value="False" />
+						<Property Name="Text" Value="x取消" />
+						<Property Name="UnifiedAreaRect" Value="{{0.784615,0},{0.806452,0},{0.979487,0},{1.01613,0}}" />
+					</Window>
+					<Window Type="DejaVu/Embed2" Name="Root/ItemMallSerial/TabControl/GiftCodeTab/GiftCode/Frame" >
+						<Property Name="Font" Value="F001-scale" />
+						<Property Name="UnifiedAreaRect" Value="{{0.025641,0},{0.0806452,0},{1,0},{0.782258,0}}" />
+						<Window Type="DejaVu/Editbox" Name="Root/ItemMallSerial/TabControl/GiftCodeTab/GiftCode/Frame/GiftInput" >
+							<Property Name="MaxTextLength" Value="1073741823" />
+							<Property Name="TextParsingEnabled" Value="False" />
+							<Property Name="UnifiedAreaRect" Value="{{0.236842,0},{0.126761,0},{0.973684,0},{0.43662,0}}" />
+						</Window>
+						<Window Type="DejaVu/EmbedTextLab7" Name="Root/ItemMallSerial/TabControl/GiftCodeTab/GiftCode/Frame/GiftText" >
+							<Property Name="HorzFormatting" Value="HorzCentred" />
+							<Property Name="UnifiedAreaRect" Value="{{0.026316,0},{0.126761,0},{0.236842,0},{0.43662,0}}" />
+						</Window>
+					</Window>
+				</Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/TabContentPane" Name="Root/FamilyDiagramWnd" >
+        <Property Name="BackgroundEnabled" Value="False" />
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="FrameEnabled" Value="False" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,779},{0,575}}" />
+        <Window Type="DejaVu/Static" Name="Root/FamilyDiagramWnd/MapProgress" >
+            <Property Name="UnifiedAreaRect" Value="{{0.012837,0},{0.017391,0},{0.577664,0},{0.982608,0}}" />
+            <Window Type="DejaVu/Embed4" Name="Root/FamilyDiagramWnd/MapProgress/Title" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.022727,0},{0,0},{0.363636,0},{0.045045,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="Root/FamilyDiagramWnd/MapProgress/Title/Icon" >
+                    <Property Name="Image" Value="set:DejaVu image:Image15" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/FamilyDiagramWnd/MapProgress/Title/Text" >
+                    <Property Name="Text" Value="x地圖進度" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.2,0},{0.866667,0},{0.8,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed2" Name="Root/FamilyDiagramWnd/MapProgress/Frame" >
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.018018,0},{1,0},{1,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="Root/FamilyDiagramWnd/MapProgress/Frame/DiagramBG" >
+                    <Property Name="Image" Value="set:main2 image:StrengthBG" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.024456,0},{0.0445382,0},{0.979001,0},{0.81518,0}}" />
+                    <Window Type="DejaVu/ImageRadioButton" Name="Root/FamilyDiagramWnd/MapProgress/Frame/DiagramBG/NodeItem" >
+                        <Property Name="DisabledImage" Value="set:main11 image:BattlePress" />
+                        <Property Name="HoverImage" Value="set:main11 image:BattleHover" />
+                        <Property Name="NormalImage" Value="set:main11 image:BattleNormal" />
+                        <Property Name="PushedImage" Value="set:main11 image:BattleSelect" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.0833333,0},{0.0833333,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/ProgressBarBG" Name="Root/FamilyDiagramWnd/MapProgress/Frame/ProgressBG" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0489125,0},{0.951793,0},{0.958003,0},{0.979315,0}}" />
+                    <Window Type="DejaVu/ProgressBar2" Name="Root/FamilyDiagramWnd/MapProgress/Frame/ProgressBG/ProgressBar" >
+                        <Property Name="CurrentProgress" Value="0" />
+                        <Property Name="StepSize" Value="0.01" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0175,0},{0.266667,0},{0.9825,0},{0.733334,0}}" />
+                        <Window Type="DejaVu/StaticImage" Name="Root/FamilyDiagramWnd/MapProgress/Frame/ProgressBG/ProgressBar/Icon0" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="ClippedByParent" Value="False" />
+                            <Property Name="Image" Value="set:DejaVu image:LevelPoint" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.186975,0},{-0.857143,0},{0.212185,0},{0.857143,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticImage" Name="Root/FamilyDiagramWnd/MapProgress/Frame/ProgressBG/ProgressBar/Icon1" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="ClippedByParent" Value="False" />
+                            <Property Name="Image" Value="set:DejaVu image:LevelPoint" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.386555,0},{-0.857143,0},{0.411765,0},{0.857143,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticImage" Name="Root/FamilyDiagramWnd/MapProgress/Frame/ProgressBG/ProgressBar/Icon2" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="ClippedByParent" Value="False" />
+                            <Property Name="Image" Value="set:DejaVu image:LevelPoint" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.586134,0},{-0.857143,0},{0.611345,0},{0.857143,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticImage" Name="Root/FamilyDiagramWnd/MapProgress/Frame/ProgressBG/ProgressBar/Icon3" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="ClippedByParent" Value="False" />
+                            <Property Name="Image" Value="set:DejaVu image:LevelPoint" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.785714,0},{-0.857143,0},{0.810924,0},{0.857143,0}}" />
+                        </Window>
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/FamilyDiagramWnd/MapProgress/Frame/ProgressItem0" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.120455,0},{0.862385,0},{0.21591,0},{0.939449,0}}" />
+                    <Window Type="DejaVu/StaticImage" Name="Root/FamilyDiagramWnd/MapProgress/Frame/ProgressItem0/MarkIcon" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="Image" Value="set:main11 image:Stamp" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.404762,0},{0.595238,0},{1,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/FamilyDiagramWnd/MapProgress/Frame/ProgressItem1" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.286364,0},{0.862385,0},{0.381819,0},{0.939449,0}}" />
+                    <Window Type="DejaVu/StaticImage" Name="Root/FamilyDiagramWnd/MapProgress/Frame/ProgressItem1/MarkIcon" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="Image" Value="set:main11 image:Stamp" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.404762,0},{0.595238,0},{1,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/FamilyDiagramWnd/MapProgress/Frame/ProgressItem2" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.452273,0},{0.862385,0},{0.547727,0},{0.93945,0}}" />
+                    <Window Type="DejaVu/StaticImage" Name="Root/FamilyDiagramWnd/MapProgress/Frame/ProgressItem2/MarkIcon" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="Image" Value="set:main11 image:Stamp" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.404762,0},{0.595238,0},{1,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/FamilyDiagramWnd/MapProgress/Frame/ProgressItem3" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.618182,0},{0.862385,0},{0.713636,0},{0.93945,0}}" />
+                    <Window Type="DejaVu/StaticImage" Name="Root/FamilyDiagramWnd/MapProgress/Frame/ProgressItem3/MarkIcon" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="Image" Value="set:main11 image:Stamp" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.404762,0},{0.595238,0},{1,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/FamilyDiagramWnd/MapProgress/Frame/ProgressItem4" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.781818,0},{0.862385,0},{0.877273,0},{0.93945,0}}" />
+                    <Window Type="DejaVu/StaticImage" Name="Root/FamilyDiagramWnd/MapProgress/Frame/ProgressItem4/MarkIcon" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="Image" Value="set:main11 image:Stamp" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.404762,0},{0.595238,0},{1,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="Root/FamilyDiagramWnd/DetailInfo" >
+            <Property Name="UnifiedAreaRect" Value="{{0.584082,0},{0.017391,0},{0.987163,0},{0.928695,0}}" />
+            <Window Type="DejaVu/Embed4" Name="Root/FamilyDiagramWnd/DetailInfo/Title" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.031847,0},{0,0},{0.509554,0},{0.0477099,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="Root/FamilyDiagramWnd/DetailInfo/Title/Icon" >
+                    <Property Name="Image" Value="set:DejaVu image:Image15" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/FamilyDiagramWnd/DetailInfo/Title/Text" >
+                    <Property Name="Text" Value="x詳細資訊" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.2,0},{0.866667,0},{0.8,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed2" Name="Root/FamilyDiagramWnd/DetailInfo/Frame" >
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.019084,0},{1,0},{1,0}}" />
+                <Window Type="DejaVu/Embed2" Name="Root/FamilyDiagramWnd/DetailInfo/Frame/ExtraAwardFrame" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.031847,0},{0.803502,0},{0.968153,0},{0.980545,0}}" />
+                    <Window Type="DejaVu/EmbedTextLab7" Name="Root/FamilyDiagramWnd/DetailInfo/Frame/ExtraAwardFrame/Title" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="x額外獎勵" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.006803,0},{0.021978,0},{0.993198,0},{0.296703,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Embed3" Name="Root/FamilyDiagramWnd/DetailInfo/Frame/ExtraAwardFrame/ItemFrame" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.006803,0},{0.296703,0},{0.993198,0},{0.978022,0}}" />
+                        <Window Type="DejaVu/SlotImage" Name="Root/FamilyDiagramWnd/DetailInfo/Frame/ExtraAwardFrame/ItemFrame/Icon" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.034483,0},{0.16129,0},{0.179311,0},{0.838709,0}}" />
+                            <Window Type="DejaVu/StaticImage" Name="Root/FamilyDiagramWnd/DetailInfo/Frame/ExtraAwardFrame/ItemFrame/Icon/MarkIcon" >
+                                <Property Name="AlwaysOnTop" Value="True" />
+                                <Property Name="Image" Value="set:main11 image:Stamp" />
+                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.404762,0},{0.595238,0},{1,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/EmbedText2" Name="Root/FamilyDiagramWnd/DetailInfo/Frame/ExtraAwardFrame/ItemFrame/Text" >
+                            <Property Name="HorzFormatting" Value="LeftAligned" />
+                            <Property Name="Text" Value="x1234567890" />
+                            <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.216416,0},{0.16129,0},{0.96814,0},{0.838709,0}}" />
+                        </Window>
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed2" Name="Root/FamilyDiagramWnd/DetailInfo/Frame/DetailFrame" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.031847,0},{0.048638,0},{0.968153,0},{0.793774,0}}" />
+                    <Window Type="DejaVu/EmbedTextLab7" Name="Root/FamilyDiagramWnd/DetailInfo/Frame/DetailFrame/Title" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="x場景簡述" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.006803,0},{0.005222,0},{0.993198,0},{0.0704961,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab7" Name="Root/FamilyDiagramWnd/DetailInfo/Frame/DetailFrame/CostText" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="x消耗體力" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.006803,0},{0.86423,0},{0.333334,0},{0.929504,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab7" Name="Root/FamilyDiagramWnd/DetailInfo/Frame/DetailFrame/PointText" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="x獲得貢獻" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.336735,0},{0.86423,0},{0.663266,0},{0.929504,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab7" Name="Root/FamilyDiagramWnd/DetailInfo/Frame/DetailFrame/ClearText" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="x攻略次數" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.666667,0},{0.86423,0},{0.993197,0},{0.929504,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab2" Name="Root/FamilyDiagramWnd/DetailInfo/Frame/DetailFrame/CostNum" >
+                        <Property Name="Text" Value="x10" />
+                        <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.006803,0},{0.929504,0},{0.333334,0},{0.994778,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab2" Name="Root/FamilyDiagramWnd/DetailInfo/Frame/DetailFrame/PointNum" >
+                        <Property Name="Text" Value="x10" />
+                        <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.336735,0},{0.929504,0},{0.663266,0},{0.994778,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab2" Name="Root/FamilyDiagramWnd/DetailInfo/Frame/DetailFrame/ClearNum" >
+                        <Property Name="Text" Value="x10/100" />
+                        <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.666667,0},{0.929504,0},{0.993198,0},{0.994778,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/FamilyDiagramWnd/DetailInfo/Frame/DetailFrame/NodeImage" >
+                        <Property Name="Image" Value="set:main2 image:StrengthBG" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.006803,0},{0.070496,0},{0.993198,0},{0.853786,0}}" />
+                        <Window Type="DejaVu/StaticImage" Name="Root/FamilyDiagramWnd/DetailInfo/Frame/DetailFrame/NodeImage/NodeIcon0" >
+                            <Property Name="Image" Value="set:main image:Archeology" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0344828,0},{-0.0333333,0},{0.206897,0},{0.133333,0}}" />
+                            <Property Name="VerticalAlignment" Value="Bottom" />
+                        </Window>
+                        <Window Type="DejaVu/StaticImage" Name="Root/FamilyDiagramWnd/DetailInfo/Frame/DetailFrame/NodeImage/NodeIcon1" >
+                            <Property Name="Image" Value="set:main image:Archeology" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.224138,0},{-0.0333333,0},{0.396552,0},{0.133333,0}}" />
+                            <Property Name="VerticalAlignment" Value="Bottom" />
+                        </Window>
+                        <Window Type="DejaVu/StaticImage" Name="Root/FamilyDiagramWnd/DetailInfo/Frame/DetailFrame/NodeImage/NodeIcon2" >
+                            <Property Name="Image" Value="set:main image:Archeology" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.413793,0},{-0.0333333,0},{0.586207,0},{0.133333,0}}" />
+                            <Property Name="VerticalAlignment" Value="Bottom" />
+                        </Window>
+                        <Window Type="DejaVu/Static" Name="Root/FamilyDiagramWnd/DetailInfo/Frame/DetailFrame/NodeImage/FakeBG" >
+                            <Property Name="BackgroundEnabled" Value="True" />
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="FrameEnabled" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.017241,0},{0.033333,0},{0.982758,0},{0.766666,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticTextLab" Name="Root/FamilyDiagramWnd/DetailInfo/Frame/DetailFrame/NodeImage/Title" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="Font" Value="F001-12" />
+                            <Property Name="Text" Value="x副本名稱" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.034483,0},{0.033333,0},{0.965517,0},{0.116666,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticText" Name="Root/FamilyDiagramWnd/DetailInfo/Frame/DetailFrame/NodeImage/ContentText" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                            <Property Name="Text" Value="x說明" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.034483,0},{0.15,0},{0.965517,0},{0.783333,0}}" />
+                            <Property Name="VertFormatting" Value="TopAligned" />
+                        </Window>
+                    </Window>
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/FamilyDiagramWnd/EnterBtn" >
+            <Property Name="HorizontalAlignment" Value="Right" />
+            <Property Name="Text" Value="x確認進入" />
+            <Property Name="UnifiedAreaRect" Value="{{-0.012837,0},{-0.017391,0},{0.084724,0},{0.0278264,0}}" />
+            <Property Name="VerticalAlignment" Value="Bottom" />
+        </Window>
+        <Window Type="DejaVu/EmbedTextLab2" Name="Root/FamilyDiagramWnd/VitNum" >
+            <Property Name="Text" Value="x100" />
+            <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+            <Property Name="UnifiedAreaRect" Value="{{0.699615,0},{0.937391,0},{0.802311,0},{0.980869,0}}" />
+        </Window>
+        <Window Type="DejaVu/EmbedText7" Name="Root/FamilyDiagramWnd/VitTitle" >
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="Text" Value="x剩餘體力" />
+            <Property Name="UnifiedAreaRect" Value="{{0.584082,0},{0.937391,0},{0.699615,0},{0.980869,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

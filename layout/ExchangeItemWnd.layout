@@ -1,0 +1,1366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="ExchangeItemWnd" >
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="Text" Value="#9027" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-14" />
+        <Property Name="TitlebarImage" Value="set:main2 image:Libra1" />
+        <Property Name="UnifiedAreaRect" Value="{{0.0018578,0},{0,0},{0.0018578,960},{0,720}}" />
+        <Window Type="DejaVu/TabControl" Name="ExchangeItemWnd/frame/static/Tab/Embed01" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="TabHeight" Value="{0,20}" />
+            <Property Name="TabPanePosition" Value="Top" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0112762,0},{0.0223214,0},{0.989999,0},{0.983452,0}}" />
+            <Window Type="DefaultWindow" Name="ExchangeItemWnd/frame/static/Tab/Tab 1" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="#9027" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,924},{0,584}}" />
+                <Window Type="DejaVu/Static" Name="Page" >
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{-0.0118644,0},{0.172078,0},{0.0220339,0}}" />
+                    <Property Name="VerticalAlignment" Value="Bottom" />
+                    <Window Type="DejaVu/Embed" Name="PageBG" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{7.14286,0},{0.454545,0},{7.28571,0},{0.90909,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab" Name="PageNumber" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="Font" Value="F001-10" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorizontalAlignment" Value="Centre" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="1/5" />
+                        <Property Name="TextFrame" Value="True" />
+                        <Property Name="TextFrameColour" Value="66000000" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.443038,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/ImageButton" Name="PrePage" >
+                        <Property Name="ClippedByParent" Value="False" />
+                        <Property Name="DisabledImage" Value="set:DejaVu image:ArrowLeftPressed" />
+                        <Property Name="HoverImage" Value="set:DejaVu image:ArrowLeftHover" />
+                        <Property Name="NormalImage" Value="set:DejaVu image:ArrowLeftNormal" />
+                        <Property Name="PushedImage" Value="set:DejaVu image:ArrowLeftPressed" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.139241,0},{0,0},{0.278481,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/ImageButton" Name="NextPage" >
+                        <Property Name="ClippedByParent" Value="False" />
+                        <Property Name="DisabledImage" Value="set:DejaVu image:ArrowRightPressed" />
+                        <Property Name="HorizontalAlignment" Value="Right" />
+                        <Property Name="HoverImage" Value="set:DejaVu image:ArrowRightHover" />
+                        <Property Name="NormalImage" Value="set:DejaVu image:ArrowRightNormal" />
+                        <Property Name="PushedImage" Value="set:DejaVu image:ArrowRightPressed" />
+                        <Property Name="UnifiedAreaRect" Value="{{-0.139241,0},{0,0},{-4.91738e-007,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/ImageButton" Name="FirstPage" >
+                        <Property Name="ClippedByParent" Value="False" />
+                        <Property Name="DisabledImage" Value="set:DejaVu image:DoubledLeftArrowHover" />
+                        <Property Name="HoverImage" Value="set:DejaVu image:DoubledLeftArrowHover" />
+                        <Property Name="NormalImage" Value="set:DejaVu image:DoubledLeftArrowNormal" />
+                        <Property Name="PushedImage" Value="set:DejaVu image:DoubledLeftArrowPressed" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.139241,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/ImageButton" Name="LastPage" >
+                        <Property Name="ClippedByParent" Value="False" />
+                        <Property Name="DisabledImage" Value="set:DejaVu image:DoubledRightArrowPressed" />
+                        <Property Name="HorizontalAlignment" Value="Right" />
+                        <Property Name="HoverImage" Value="set:DejaVu image:DoubledRightArrowHover" />
+                        <Property Name="NormalImage" Value="set:DejaVu image:DoubledRightArrowNormal" />
+                        <Property Name="PushedImage" Value="set:DejaVu image:DoubledRightArrowPressed" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.139241,0},{1,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Checkbox" >
+                    <Property Name="Font" Value="F001-10" />
+                    <Property Name="Text" Value="#9033" />
+                    <Property Name="TextFrame" Value="True" />
+                    <Property Name="TextFrameColour" Value="66000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.730606,0},{0.942929,0},{0.991476,0},{0.989951,0}}" />
+                </Window>
+                <Window Type="DejaVu/Embed" Name="ExchangeItemList" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.00649351,0},{0.00848896,0},{0.993506,0},{0.947368,0}}" />
+                    <Window Type="DejaVu/Embed2" Name="ExchangeItemBG01" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.00657895,0},{0.0631769,0},{0.993421,0},{0.15343,0}}" />
+                        <Window Type="DejaVu/EmbedTextLab" Name="ExchangeItemBG01/ItemName" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                            <Property Name="Text" Value="Name1" />
+                            <Property Name="TextFrame" Value="True" />
+                            <Property Name="TextFrameColour" Value="66000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0597217,0},{0,0},{0.197702,0},{1,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="ExchangeItemBG01/ItemIcon" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.00669643,0},{0,0},{0.0513393,0},{0.769231,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/Button" Name="ExchangeItemBG01/ExchangeBtn" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="Font" Value="F001-12" />
+                            <Property Name="HorizontalAlignment" Value="Right" />
+                            <Property Name="Text" Value="#9032" />
+                            <Property Name="TextFrame" Value="True" />
+                            <Property Name="TextFrameColour" Value="66000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{-0.0198559,0},{-0.12952,0},{0.0912551,0},{0.339868,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="ExchangeItemBG01/NecessaryMaterial1" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.205832,0},{0,0},{0.250277,0},{0.764706,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="ExchangeItemBG01/NecessaryMaterial2" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.255832,0},{0,0},{0.300277,0},{0.764706,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="ExchangeItemBG01/NecessaryMaterial3" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.305832,0},{0,0},{0.350277,0},{0.764706,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="ExchangeItemBG01/NecessaryMaterial4" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.355832,0},{0,0},{0.400277,0},{0.764706,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="ExchangeItemBG01/NecessaryMaterial5" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.405832,0},{0,0},{0.450277,0},{0.764706,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/EmbedTextLab" Name="ExchangeItemBG01/NMQuantity" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="Font" Value="F001-10" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="Text" Value="114/999" />
+                            <Property Name="TextFrame" Value="True" />
+                            <Property Name="TextFrameColour" Value="66000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.455832,0},{0,0},{0.525414,0},{1,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="ExchangeItemBG01/RandomMaterial1" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.53361,0},{0,0},{0.578054,0},{0.764706,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="ExchangeItemBG01/RandomMaterial2" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.58361,0},{0,0},{0.628054,0},{0.764706,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="ExchangeItemBG01/RandomMaterial3" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.63361,0},{0,0},{0.678054,0},{0.764706,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="ExchangeItemBG01/RandomMaterial4" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.68361,0},{0,0},{0.728054,0},{0.764706,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="ExchangeItemBG01/RandomMaterial5" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.734156,0},{0,0},{0.7786,0},{0.764706,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/EmbedTextLab" Name="ExchangeItemBG01/RMQuantity" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="Font" Value="F001-10" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="Text" Value="114/999" />
+                            <Property Name="TextFrame" Value="True" />
+                            <Property Name="TextFrameColour" Value="66000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.78361,0},{0,0},{0.8521,0},{1,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Embed" Name="Line1" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.194444,0},{0,0},{0.196667,0},{1,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/Embed" Name="Line2" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.521111,0},{0,0},{0.523333,0},{1,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/Embed" Name="Line3" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.847778,0},{0,0},{0.85,0},{1,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/EmbedTextLab" Name="ExchangeItemBG01/Frequency" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                            <Property Name="Text" Value="可兌換次數：99999" />
+                            <Property Name="TextFrame" Value="True" />
+                            <Property Name="TextFrameColour" Value="66000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.857671,0},{0.581033,0},{0.993851,0},{0.989196,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Static" Name="TitleBG" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.006608,0},{0.010714,0},{0.993392,0},{0.060714,0}}" />
+                        <Window Type="DejaVu/Embed2" Name="TitleBG1" >
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.195556,0},{1,0}}" />
+                            <Window Type="DejaVu/EmbedTextLab7" Name="Title1" >
+                                <Property Name="Font" Value="F001-10" />
+                                <Property Name="HorzFormatting" Value="HorzCentred" />
+                                <Property Name="Text" Value="#9028" />
+                                <Property Name="TextFrame" Value="True" />
+                                <Property Name="TextFrameColour" Value="66000000" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/Embed2" Name="TitleBG2" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.197778,0},{0,0},{0.52,0},{1,0}}" />
+                            <Window Type="DejaVu/EmbedTextLab7" Name="Title2" >
+                                <Property Name="Font" Value="F001-10" />
+                                <Property Name="HorzFormatting" Value="HorzCentred" />
+                                <Property Name="Text" Value="#9029" />
+                                <Property Name="TextFrame" Value="True" />
+                                <Property Name="TextFrameColour" Value="66000000" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.00339132,0},{0,0},{1.00339,0},{1,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/Embed2" Name="TitleBG3" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.527778,0},{0,0},{0.85,0},{1,0}}" />
+                            <Window Type="DejaVu/EmbedTextLab7" Name="Title3" >
+                                <Property Name="Font" Value="F001-10" />
+                                <Property Name="HorzFormatting" Value="HorzCentred" />
+                                <Property Name="Text" Value="#9030" />
+                                <Property Name="TextFrame" Value="True" />
+                                <Property Name="TextFrameColour" Value="66000000" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/Embed2" Name="TitleBG4" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.855556,0},{0,0},{0.997521,0},{1,0}}" />
+                            <Window Type="DejaVu/EmbedTextLab7" Name="Title4" >
+                                <Property Name="Font" Value="F001-10" />
+                                <Property Name="HorzFormatting" Value="HorzCentred" />
+                                <Property Name="Text" Value="#9031" />
+                                <Property Name="TextFrame" Value="True" />
+                                <Property Name="TextFrameColour" Value="66000000" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                            </Window>
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Embed2" Name="ExchangeItemBG02" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.00657895,0},{0.155235,0},{0.993421,0},{0.245487,0}}" />
+                        <Window Type="DejaVu/EmbedTextLab" Name="ExchangeItemBG02/ItemName" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                            <Property Name="Text" Value="Name2" />
+                            <Property Name="TextFrame" Value="True" />
+                            <Property Name="TextFrameColour" Value="66000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.060268,0},{0,0},{0.197702,0},{1,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="ExchangeItemBG02/ItemIcon" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.00669643,0},{0,0},{0.0513393,0},{0.769231,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/Button" Name="ExchangeItemBG02/ExchangeBtn" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="Font" Value="F001-12" />
+                            <Property Name="HorizontalAlignment" Value="Right" />
+                            <Property Name="Text" Value="#9032" />
+                            <Property Name="TextFrame" Value="True" />
+                            <Property Name="TextFrameColour" Value="66000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{-0.0198559,0},{-0.129522,0},{0.0912551,0},{0.339866,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="ExchangeItemBG02/NecessaryMaterial1" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.205556,0},{0,0},{0.25,0},{0.755102,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="ExchangeItemBG02/NecessaryMaterial2" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.255832,0},{0,0},{0.300277,0},{0.764706,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="ExchangeItemBG02/NecessaryMaterial3" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.305832,0},{0,0},{0.350277,0},{0.764706,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="ExchangeItemBG02/NecessaryMaterial4" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.355832,0},{0,0},{0.400277,0},{0.764706,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="ExchangeItemBG02/NecessaryMaterial5" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.405832,0},{0,0},{0.450277,0},{0.764706,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/EmbedTextLab" Name="ExchangeItemBG02/NMQuantity" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="Font" Value="F001-10" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="Text" Value="114/999" />
+                            <Property Name="TextFrame" Value="True" />
+                            <Property Name="TextFrameColour" Value="66000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.455832,0},{0,0},{0.525961,0},{1,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="ExchangeItemBG02/RandomMaterial1" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.53361,0},{0,0},{0.578054,0},{0.764706,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="ExchangeItemBG02/RandomMaterial2" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.58361,0},{0,0},{0.628054,0},{0.764706,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="ExchangeItemBG02/RandomMaterial3" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.63361,0},{0,0},{0.678054,0},{0.764706,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="ExchangeItemBG02/RandomMaterial4" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.68361,0},{0,0},{0.728054,0},{0.764706,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="ExchangeItemBG02/RandomMaterial5" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.73361,0},{0,0},{0.778054,0},{0.764706,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/EmbedTextLab" Name="ExchangeItemBG02/RMQuantity" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="Font" Value="F001-10" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="Text" Value="114/999" />
+                            <Property Name="TextFrame" Value="True" />
+                            <Property Name="TextFrameColour" Value="66000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.78361,0},{0,0},{0.861388,0},{1,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Embed" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.194444,0},{0,0},{0.196667,0},{1,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/Embed" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.521111,0},{0,0},{0.523333,0},{1,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/Embed" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.847778,0},{0,0},{0.85,0},{1,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/EmbedTextLab" Name="ExchangeItemBG02/Frequency" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                            <Property Name="Text" Value="#10004" />
+                            <Property Name="TextFrame" Value="True" />
+                            <Property Name="TextFrameColour" Value="66000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.857778,0},{0.571429,0},{0.994445,0},{0.979592,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Embed2" Name="ExchangeItemBG03" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.00657895,0},{0.247292,0},{0.993421,0},{0.337545,0}}" />
+                        <Window Type="DejaVu/EmbedTextLab" Name="ExchangeItemBG03/ItemName" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                            <Property Name="Text" Value="Name3" />
+                            <Property Name="TextFrame" Value="True" />
+                            <Property Name="TextFrameColour" Value="66000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0597217,0},{0,0},{0.198795,0},{1,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="ExchangeItemBG03/ItemIcon" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.00669643,0},{0,0},{0.0513393,0},{0.769231,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/Button" Name="ExchangeItemBG03/ExchangeBtn" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="Font" Value="F001-12" />
+                            <Property Name="HorizontalAlignment" Value="Right" />
+                            <Property Name="Text" Value="#9032" />
+                            <Property Name="TextFrame" Value="True" />
+                            <Property Name="TextFrameColour" Value="66000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{-0.0198559,0},{-0.12952,0},{0.0912551,0},{0.339868,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="ExchangeItemBG03/NecessaryMaterial1" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.205832,0},{0,0},{0.250277,0},{0.764706,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="ExchangeItemBG03/NecessaryMaterial2" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.255832,0},{0,0},{0.300277,0},{0.764706,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="ExchangeItemBG03/NecessaryMaterial3" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.305832,0},{0,0},{0.350277,0},{0.764706,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="ExchangeItemBG03/NecessaryMaterial4" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.355832,0},{0,0},{0.400277,0},{0.764706,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="ExchangeItemBG03/NecessaryMaterial5" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.405832,0},{0,0},{0.450277,0},{0.764706,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/EmbedTextLab" Name="ExchangeItemBG03/NMQuantity" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="Font" Value="F001-10" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="Text" Value="114/999" />
+                            <Property Name="TextFrame" Value="True" />
+                            <Property Name="TextFrameColour" Value="66000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.455832,0},{0,0},{0.524868,0},{1,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="ExchangeItemBG03/RandomMaterial1" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.53361,0},{0,0},{0.578054,0},{0.764706,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="ExchangeItemBG03/RandomMaterial2" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.58361,0},{0,0},{0.628054,0},{0.764706,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="ExchangeItemBG03/RandomMaterial3" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.63361,0},{0,0},{0.678054,0},{0.764706,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="ExchangeItemBG03/RandomMaterial4" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.68361,0},{0,0},{0.728054,0},{0.764706,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="ExchangeItemBG03/RandomMaterial5" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.73361,0},{0,0},{0.778054,0},{0.764706,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/EmbedTextLab" Name="ExchangeItemBG03/RMQuantity" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="Font" Value="F001-10" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="Text" Value="114/999" />
+                            <Property Name="TextFrame" Value="True" />
+                            <Property Name="TextFrameColour" Value="66000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.78361,0},{0,0},{0.850461,0},{1,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Embed" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.194444,0},{0,0},{0.196667,0},{1,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/Embed" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.521111,0},{0,0},{0.523333,0},{1,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/Embed" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.847778,0},{0,0},{0.85,0},{1,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/EmbedTextLab" Name="ExchangeItemBG03/Frequency" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                            <Property Name="Text" Value="#10004" />
+                            <Property Name="TextFrame" Value="True" />
+                            <Property Name="TextFrameColour" Value="66000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.862222,0},{0.571429,0},{0.998889,0},{0.979592,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Embed2" Name="ExchangeItemBG04" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.00657895,0},{0.33935,0},{0.993421,0},{0.429603,0}}" />
+                        <Window Type="DejaVu/EmbedTextLab" Name="ExchangeItemBG04/ItemName" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                            <Property Name="Text" Value="Name4" />
+                            <Property Name="TextFrame" Value="True" />
+                            <Property Name="TextFrameColour" Value="66000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.060268,0},{0,0},{0.200434,0},{1,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="ExchangeItemBG04/ItemIcon" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.00669643,0},{0,0},{0.0513393,0},{0.769231,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/Button" Name="ExchangeItemBG04/ExchangeBtn" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="Font" Value="F001-12" />
+                            <Property Name="HorizontalAlignment" Value="Right" />
+                            <Property Name="Text" Value="#9032" />
+                            <Property Name="TextFrame" Value="True" />
+                            <Property Name="TextFrameColour" Value="66000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{-0.0198159,0},{-0.122449,0},{0.0912951,0},{0.346939,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="ExchangeItemBG04/NecessaryMaterial1" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.205832,0},{0,0},{0.250277,0},{0.764706,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="ExchangeItemBG04/NecessaryMaterial2" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.255832,0},{0,0},{0.300277,0},{0.764706,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="ExchangeItemBG04/NecessaryMaterial3" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.305832,0},{0,0},{0.350277,0},{0.764706,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="ExchangeItemBG04/NecessaryMaterial4" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.355832,0},{0,0},{0.400277,0},{0.764706,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="ExchangeItemBG04/NecessaryMaterial5" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.405832,0},{0,0},{0.450277,0},{0.764706,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/EmbedTextLab" Name="ExchangeItemBG04/NMQuantity" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="Font" Value="F001-10" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="Text" Value="114/999" />
+                            <Property Name="TextFrame" Value="True" />
+                            <Property Name="TextFrameColour" Value="66000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.455832,0},{0,0},{0.526507,0},{1,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="ExchangeItemBG04/RandomMaterial1" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.53361,0},{0,0},{0.578054,0},{0.764706,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="ExchangeItemBG04/RandomMaterial2" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.584156,0},{0,0},{0.6286,0},{0.764706,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="ExchangeItemBG04/RandomMaterial3" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.63361,0},{0,0},{0.678054,0},{0.764706,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="ExchangeItemBG04/RandomMaterial4" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.684156,0},{0,0},{0.7286,0},{0.764706,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="ExchangeItemBG04/RandomMaterial5" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.73361,0},{0,0},{0.778054,0},{0.764706,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/EmbedTextLab" Name="ExchangeItemBG04/RMQuantity" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="Font" Value="F001-10" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="Text" Value="114/999" />
+                            <Property Name="TextFrame" Value="True" />
+                            <Property Name="TextFrameColour" Value="66000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.78361,0},{0,0},{0.861388,0},{1,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Embed" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.194444,0},{0,0},{0.196667,0},{1,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/Embed" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.521111,0},{0,0},{0.523333,0},{1,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/Embed" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.847778,0},{0,0},{0.85,0},{1,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/EmbedTextLab" Name="ExchangeItemBG04/Frequency" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                            <Property Name="Text" Value="#10004" />
+                            <Property Name="TextFrame" Value="True" />
+                            <Property Name="TextFrameColour" Value="66000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.862222,0},{0.571429,0},{0.998889,0},{0.979592,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Embed2" Name="ExchangeItemBG05" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.00657895,0},{0.431408,0},{0.993421,0},{0.521661,0}}" />
+                        <Window Type="DejaVu/EmbedTextLab" Name="ExchangeItemBG05/ItemName" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                            <Property Name="Text" Value="Name5" />
+                            <Property Name="TextFrame" Value="True" />
+                            <Property Name="TextFrameColour" Value="66000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.060268,0},{0,0},{0.199341,0},{1,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="ExchangeItemBG05/ItemIcon" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.00669643,0},{0,0},{0.0513393,0},{0.769231,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/Button" Name="ExchangeItemBG05/ExchangeBtn" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="Font" Value="F001-12" />
+                            <Property Name="HorizontalAlignment" Value="Right" />
+                            <Property Name="Text" Value="#9032" />
+                            <Property Name="TextFrame" Value="True" />
+                            <Property Name="TextFrameColour" Value="66000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{-0.0198159,0},{-0.122449,0},{0.0912951,0},{0.346939,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="ExchangeItemBG05/NecessaryMaterial1" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.205832,0},{0,0},{0.250277,0},{0.764706,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="ExchangeItemBG05/NecessaryMaterial2" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.255832,0},{0,0},{0.300277,0},{0.764706,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="ExchangeItemBG05/NecessaryMaterial3" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.305832,0},{0,0},{0.350277,0},{0.764706,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="ExchangeItemBG05/NecessaryMaterial4" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.355832,0},{0,0},{0.400277,0},{0.764706,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="ExchangeItemBG05/NecessaryMaterial5" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.405832,0},{0,0},{0.450277,0},{0.764706,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/EmbedTextLab" Name="ExchangeItemBG05/NMQuantity" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="Font" Value="F001-10" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="Text" Value="114/999" />
+                            <Property Name="TextFrame" Value="True" />
+                            <Property Name="TextFrameColour" Value="66000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.455832,0},{0,0},{0.526507,0},{1,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="ExchangeItemBG05/RandomMaterial1" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.53361,0},{0,0},{0.578054,0},{0.764706,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="ExchangeItemBG05/RandomMaterial2" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.58361,0},{0,0},{0.628054,0},{0.764706,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="ExchangeItemBG05/RandomMaterial3" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.63361,0},{0,0},{0.678054,0},{0.764706,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="ExchangeItemBG05/RandomMaterial4" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.68361,0},{0,0},{0.728054,0},{0.764706,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="ExchangeItemBG05/RandomMaterial5" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.73361,0},{0,0},{0.778054,0},{0.764706,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/EmbedTextLab" Name="ExchangeItemBG05/RMQuantity" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="Font" Value="F001-10" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="Text" Value="114/999" />
+                            <Property Name="TextFrame" Value="True" />
+                            <Property Name="TextFrameColour" Value="66000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.78361,0},{0,0},{0.853193,0},{1,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Embed" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.194444,0},{0,0},{0.196667,0},{1,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/Embed" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.521111,0},{0,0},{0.523333,0},{1,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/Embed" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.847778,0},{0,0},{0.85,0},{1,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/EmbedTextLab" Name="ExchangeItemBG05/Frequency" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                            <Property Name="Text" Value="#10004" />
+                            <Property Name="TextFrame" Value="True" />
+                            <Property Name="TextFrameColour" Value="66000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.862222,0},{0.571429,0},{0.998889,0},{0.979592,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Embed2" Name="ExchangeItemBG06" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.00657895,0},{0.521661,0},{0.993421,0},{0.611913,0}}" />
+                        <Window Type="DejaVu/EmbedTextLab" Name="ExchangeItemBG06/ItemName" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                            <Property Name="Text" Value="Name6" />
+                            <Property Name="TextFrame" Value="True" />
+                            <Property Name="TextFrameColour" Value="66000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.060268,0},{0,0},{0.198795,0},{1,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="ExchangeItemBG06/ItemIcon" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.00669643,0},{0,0},{0.0513393,0},{0.769231,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/Button" Name="ExchangeItemBG06/ExchangeBtn" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="Font" Value="F001-12" />
+                            <Property Name="HorizontalAlignment" Value="Right" />
+                            <Property Name="Text" Value="#9032" />
+                            <Property Name="TextFrame" Value="True" />
+                            <Property Name="TextFrameColour" Value="66000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{-0.0192696,0},{-0.122449,0},{0.0918414,0},{0.346939,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="ExchangeItemBG06/NecessaryMaterial1" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.205832,0},{0,0},{0.250277,0},{0.764706,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="ExchangeItemBG06/NecessaryMaterial2" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.255832,0},{0,0},{0.300277,0},{0.764706,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="ExchangeItemBG06/NecessaryMaterial3" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.305832,0},{0,0},{0.350277,0},{0.764706,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="ExchangeItemBG06/NecessaryMaterial4" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.355832,0},{0,0},{0.400277,0},{0.764706,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="ExchangeItemBG06/NecessaryMaterial5" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.405832,0},{0,0},{0.450277,0},{0.764706,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/EmbedTextLab" Name="ExchangeItemBG06/NMQuantity" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="Font" Value="F001-10" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="Text" Value="114/999" />
+                            <Property Name="TextFrame" Value="True" />
+                            <Property Name="TextFrameColour" Value="66000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.455832,0},{0,0},{0.524322,0},{1,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="ExchangeItemBG06/RandomMaterial1" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.53361,0},{-0.0129522,0},{0.578054,0},{0.751754,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="ExchangeItemBG06/RandomMaterial2" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.58361,0},{0,0},{0.628054,0},{0.764706,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="ExchangeItemBG06/RandomMaterial3" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.63361,0},{0,0},{0.678054,0},{0.764706,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="ExchangeItemBG06/RandomMaterial4" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.68361,0},{0,0},{0.728054,0},{0.764706,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="ExchangeItemBG06/RandomMaterial5" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.73361,0},{0,0},{0.778054,0},{0.764706,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/EmbedTextLab" Name="ExchangeItemBG06/RMQuantity" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="Font" Value="F001-10" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="Text" Value="114/999" />
+                            <Property Name="TextFrame" Value="True" />
+                            <Property Name="TextFrameColour" Value="66000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.78361,0},{0,0},{0.852646,0},{1,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Embed" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.194444,0},{0,0},{0.196667,0},{1,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/Embed" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.521111,0},{0,0},{0.523333,0},{1,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/Embed" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.847778,0},{0,0},{0.85,0},{1,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/EmbedTextLab" Name="ExchangeItemBG06/Frequency" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                            <Property Name="Text" Value="#10004" />
+                            <Property Name="TextFrame" Value="True" />
+                            <Property Name="TextFrameColour" Value="66000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.862222,0},{0.571429,0},{0.998889,0},{0.979592,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Embed2" Name="ExchangeItemBG07" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.00657895,0},{0.613718,0},{0.993421,0},{0.703971,0}}" />
+                        <Window Type="DejaVu/EmbedTextLab" Name="ExchangeItemBG07/ItemName" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                            <Property Name="Text" Value="Name7" />
+                            <Property Name="TextFrame" Value="True" />
+                            <Property Name="TextFrameColour" Value="66000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.060268,0},{0,0},{0.197156,0},{1,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="ExchangeItemBG07/ItemIcon" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.00669643,0},{0,0},{0.0513393,0},{0.769231,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/Button" Name="ExchangeItemBG07/ExchangeBtn" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="Font" Value="F001-12" />
+                            <Property Name="HorizontalAlignment" Value="Right" />
+                            <Property Name="Text" Value="#9032" />
+                            <Property Name="TextFrame" Value="True" />
+                            <Property Name="TextFrameColour" Value="66000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{-0.0198159,0},{-0.122449,0},{0.0912951,0},{0.285714,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="ExchangeItemBG07/NecessaryMaterial1" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.205832,0},{0,0},{0.250277,0},{0.764706,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="ExchangeItemBG07/NecessaryMaterial2" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.255832,0},{0,0},{0.300277,0},{0.764706,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="ExchangeItemBG07/NecessaryMaterial3" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.305832,0},{0,0},{0.350277,0},{0.764706,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="ExchangeItemBG07/NecessaryMaterial4" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.355832,0},{0,0},{0.400277,0},{0.764706,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="ExchangeItemBG07/NecessaryMaterial5" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.405832,0},{0,0},{0.450277,0},{0.764706,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/EmbedTextLab" Name="ExchangeItemBG07/NMQuantity" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="Font" Value="F001-10" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="Text" Value="114/999" />
+                            <Property Name="TextFrame" Value="True" />
+                            <Property Name="TextFrameColour" Value="66000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.455832,0},{0,0},{0.525961,0},{1,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="ExchangeItemBG07/RandomMaterial1" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.53361,0},{0.012952,0},{0.578054,0},{0.777658,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="ExchangeItemBG07/RandomMaterial2" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.58361,0},{0,0},{0.628054,0},{0.764706,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="ExchangeItemBG07/RandomMaterial3" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.63361,0},{0,0},{0.678054,0},{0.764706,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="ExchangeItemBG07/RandomMaterial4" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.68361,0},{0,0},{0.728054,0},{0.764706,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="ExchangeItemBG07/RandomMaterial5" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.73361,0},{0,0},{0.778054,0},{0.764706,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/EmbedTextLab" Name="ExchangeItemBG07/RMQuantity" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="Font" Value="F001-10" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="Text" Value="114/999" />
+                            <Property Name="TextFrame" Value="True" />
+                            <Property Name="TextFrameColour" Value="66000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.78361,0},{0,0},{0.8521,0},{1,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Embed" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.194444,0},{0,0},{0.196667,0},{1,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/Embed" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.521111,0},{0,0},{0.523333,0},{1,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/Embed" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.847778,0},{0,0},{0.85,0},{1,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/EmbedTextLab" Name="ExchangeItemBG07/Frequency" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                            <Property Name="Text" Value="#10004" />
+                            <Property Name="TextFrame" Value="True" />
+                            <Property Name="TextFrameColour" Value="66000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.862222,0},{0.571429,0},{0.998889,0},{0.979592,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Embed2" Name="ExchangeItemBG08" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.00657895,0},{0.705776,0},{0.993421,0},{0.796029,0}}" />
+                        <Window Type="DejaVu/EmbedTextLab" Name="ExchangeItemBG08/ItemName" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                            <Property Name="Text" Value="Name8" />
+                            <Property Name="TextFrame" Value="True" />
+                            <Property Name="TextFrameColour" Value="66000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.060268,0},{0,0},{0.199341,0},{1,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="ExchangeItemBG08/ItemIcon" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.00669643,0},{0,0},{0.0513393,0},{0.769231,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/Button" Name="ExchangeItemBG08/ExchangeBtn" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="Font" Value="F001-12" />
+                            <Property Name="HorizontalAlignment" Value="Right" />
+                            <Property Name="Text" Value="#9032" />
+                            <Property Name="TextFrame" Value="True" />
+                            <Property Name="TextFrameColour" Value="66000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{-0.0198159,0},{-0.122449,0},{0.0912951,0},{0.346939,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="ExchangeItemBG08/NecessaryMaterial1" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.206378,0},{0,0},{0.250823,0},{0.764706,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="ExchangeItemBG08/NecessaryMaterial2" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.255832,0},{0,0},{0.300277,0},{0.764706,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="ExchangeItemBG08/NecessaryMaterial3" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.305832,0},{0,0},{0.350277,0},{0.764706,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="ExchangeItemBG08/NecessaryMaterial4" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.355832,0},{0,0},{0.400277,0},{0.764706,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="ExchangeItemBG08/NecessaryMaterial5" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.405832,0},{0,0},{0.450277,0},{0.764706,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/EmbedTextLab" Name="ExchangeItemBG08/NMQuantity" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="Font" Value="F001-10" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="Text" Value="114/999" />
+                            <Property Name="TextFrame" Value="True" />
+                            <Property Name="TextFrameColour" Value="66000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.455832,0},{0,0},{0.526507,0},{1,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="ExchangeItemBG08/RandomMaterial1" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.53361,0},{0,0},{0.578054,0},{0.764706,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="ExchangeItemBG08/RandomMaterial2" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.58361,0},{0,0},{0.628054,0},{0.764706,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="ExchangeItemBG08/RandomMaterial3" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.63361,0},{0,0},{0.678054,0},{0.764706,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="ExchangeItemBG08/RandomMaterial4" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.68361,0},{0,0},{0.728054,0},{0.764706,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="ExchangeItemBG08/RandomMaterial5" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.73361,0},{0,0},{0.778054,0},{0.764706,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/EmbedTextLab" Name="ExchangeItemBG08/RMQuantity" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="Font" Value="F001-10" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="Text" Value="114/999" />
+                            <Property Name="TextFrame" Value="True" />
+                            <Property Name="TextFrameColour" Value="66000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.78361,0},{0,0},{0.850461,0},{1,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Embed" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.194444,0},{0,0},{0.196667,0},{1,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/Embed" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.521111,0},{0,0},{0.523333,0},{1,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/Embed" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.847778,0},{0,0},{0.85,0},{1,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/EmbedTextLab" Name="ExchangeItemBG08/Frequency" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                            <Property Name="Text" Value="#10004" />
+                            <Property Name="TextFrame" Value="True" />
+                            <Property Name="TextFrameColour" Value="66000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.862222,0},{0.571429,0},{0.998889,0},{0.979592,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Embed2" Name="ExchangeItemBG09" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.00657895,0},{0.797834,0},{0.993421,0},{0.888087,0}}" />
+                        <Window Type="DejaVu/EmbedTextLab" Name="ExchangeItemBG09/ItemName" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                            <Property Name="Text" Value="Name9" />
+                            <Property Name="TextFrame" Value="True" />
+                            <Property Name="TextFrameColour" Value="66000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.061907,0},{0,0},{0.199341,0},{1,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="ExchangeItemBG09/ItemIcon" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.00669643,0},{0,0},{0.0513393,0},{0.769231,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/Button" Name="ExchangeItemBG09/ExchangeBtn" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="Font" Value="F001-12" />
+                            <Property Name="HorizontalAlignment" Value="Right" />
+                            <Property Name="Text" Value="#9032" />
+                            <Property Name="TextFrame" Value="True" />
+                            <Property Name="TextFrameColour" Value="66000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{-0.0198159,0},{-0.122449,0},{0.0912951,0},{0.346939,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="ExchangeItemBG09/NecessaryMaterial1" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.205832,0},{0,0},{0.250277,0},{0.764706,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="ExchangeItemBG09/NecessaryMaterial2" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.255832,0},{0,0},{0.300277,0},{0.764706,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="ExchangeItemBG09/NecessaryMaterial3" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.305832,0},{0,0},{0.350277,0},{0.764706,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="ExchangeItemBG09/NecessaryMaterial4" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.355832,0},{0,0},{0.400277,0},{0.764706,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="ExchangeItemBG09/NecessaryMaterial5" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.405832,0},{0,0},{0.450277,0},{0.764706,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/EmbedTextLab" Name="ExchangeItemBG09/NMQuantity" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="Font" Value="F001-10" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="Text" Value="114/999" />
+                            <Property Name="TextFrame" Value="True" />
+                            <Property Name="TextFrameColour" Value="66000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.455832,0},{0,0},{0.525961,0},{1,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="ExchangeItemBG09/RandomMaterial1" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.53361,0},{0,0},{0.578054,0},{0.764706,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="ExchangeItemBG09/RandomMaterial2" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.58361,0},{0,0},{0.628054,0},{0.764706,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="ExchangeItemBG09/RandomMaterial3" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.63361,0},{0,0},{0.678054,0},{0.764706,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="ExchangeItemBG09/RandomMaterial4" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.68361,0},{0,0},{0.728054,0},{0.764706,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="ExchangeItemBG09/RandomMaterial5" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.73361,0},{0,0},{0.778054,0},{0.764706,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/EmbedTextLab" Name="ExchangeItemBG09/RMQuantity" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="Font" Value="F001-10" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="Text" Value="114/999" />
+                            <Property Name="TextFrame" Value="True" />
+                            <Property Name="TextFrameColour" Value="66000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.784702,0},{0,0},{0.854285,0},{1,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Embed" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.194444,0},{0,0},{0.196667,0},{1,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/Embed" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.521111,0},{0,0},{0.523333,0},{1,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/Embed" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.847778,0},{0,0},{0.85,0},{1,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/EmbedTextLab" Name="ExchangeItemBG09/Frequency" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                            <Property Name="Text" Value="#10004" />
+                            <Property Name="TextFrame" Value="True" />
+                            <Property Name="TextFrameColour" Value="66000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.862222,0},{0.571429,0},{0.998889,0},{0.979592,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Embed2" Name="ExchangeItemBG10" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.00657895,0},{0.889892,0},{0.993421,0},{0.980144,0}}" />
+                        <Window Type="DejaVu/EmbedTextLab" Name="ExchangeItemBG10/ItemName" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                            <Property Name="Text" Value="Name10" />
+                            <Property Name="TextFrame" Value="True" />
+                            <Property Name="TextFrameColour" Value="66000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.060268,0},{0,0},{0.19497,0},{1,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="ExchangeItemBG10/ItemIcon" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.00669643,0},{0,0},{0.0513393,0},{0.769231,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/Button" Name="ExchangeItemBG10/ExchangeBtn" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="Font" Value="F001-12" />
+                            <Property Name="HorizontalAlignment" Value="Right" />
+                            <Property Name="Text" Value="#9032" />
+                            <Property Name="TextFrame" Value="True" />
+                            <Property Name="TextFrameColour" Value="66000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{-0.0192696,0},{-0.122449,0},{0.0918414,0},{0.285714,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="ExchangeItemBG10/NecessaryMaterial1" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.205832,0},{0,0},{0.250277,0},{0.764706,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="ExchangeItemBG10/NecessaryMaterial2" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.255832,0},{0,0},{0.300277,0},{0.764706,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="ExchangeItemBG10/NecessaryMaterial3" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.305832,0},{0,0},{0.350277,0},{0.764706,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="ExchangeItemBG10/NecessaryMaterial4" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.355832,0},{0,0},{0.400277,0},{0.764706,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="ExchangeItemBG10/NecessaryMaterial5" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.405832,0},{0,0},{0.450277,0},{0.764706,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/EmbedTextLab" Name="ExchangeItemBG10/NMQuantity" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="Font" Value="F001-10" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="Text" Value="114/999" />
+                            <Property Name="TextFrame" Value="True" />
+                            <Property Name="TextFrameColour" Value="66000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.455832,0},{0,0},{0.525961,0},{1,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="ExchangeItemBG10/RandomMaterial1" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.53361,0},{0,0},{0.578054,0},{0.764706,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="ExchangeItemBG10/RandomMaterial2" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.58361,0},{0,0},{0.628054,0},{0.764706,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="ExchangeItemBG10/RandomMaterial3" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.63361,0},{0,0},{0.678054,0},{0.764706,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="ExchangeItemBG10/RandomMaterial4" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.68361,0},{0,0},{0.728054,0},{0.764706,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="ExchangeItemBG10/RandomMaterial5" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.73361,0},{0,0},{0.778054,0},{0.764706,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/EmbedTextLab" Name="ExchangeItemBG10/RMQuantity" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="Font" Value="F001-10" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="Text" Value="114/999" />
+                            <Property Name="TextFrame" Value="True" />
+                            <Property Name="TextFrameColour" Value="66000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.78361,0},{0,0},{0.8521,0},{1,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Embed" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.194444,0},{0,0},{0.196667,0},{1,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/Embed" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.521111,0},{0,0},{0.523333,0},{1,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/Embed" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.847778,0},{0,0},{0.85,0},{1,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/EmbedTextLab" Name="ExchangeItemBG10/Frequency" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                            <Property Name="Text" Value="#10004" />
+                            <Property Name="TextFrame" Value="True" />
+                            <Property Name="TextFrameColour" Value="66000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.862222,0},{0.571429,0},{0.998889,0},{0.979592,0}}" />
+                        </Window>
+                    </Window>
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

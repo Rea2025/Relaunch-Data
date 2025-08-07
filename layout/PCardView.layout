@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/PCardView" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="Text" Value="x個人名片" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="TitlebarImage" Value="set:main image:CommunityNormal" />
+        <Property Name="UnifiedAreaRect" Value="{{0.240469,0},{0.254351,0},{0.240469,526},{0.254351,362}}" />
+        <Window Type="DejaVu/Embed" Name="Root/PCardView/PCard" >
+            <Property Name="Text" Value="x個人名片" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Static" Name="Root/PCardView/PCard/BG" >
+                <Property Name="UnifiedAreaRect" Value="{{0.019608,0},{0.033708,0},{0.980392,0},{0.962547,0}}" />
+                <Window Type="DejaVu/Embed2" Name="Root/PCardView/PCard/BG2" >
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.03629,0},{1,0},{1,0}}" />
+                    <Window Type="DejaVu/EmbedTextLab7" Name="Root/PCardView/PCard/NameLabel" >
+                        <Property Name="Text" Value="x角色名稱" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.014164,0},{0.019231,0},{0.212335,0},{0.103522,0}}" />
+                        <Property Name="Visible" Value="False" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab7" Name="Root/PCardView/PCard/LevelLabel" >
+                        <Property Name="Text" Value="x等級" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.015244,0},{0.122605,0},{0.213415,0},{0.206896,0}}" />
+                        <Property Name="Visible" Value="False" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab7" Name="Root/PCardView/PCard/FamilyLabel" >
+                        <Property Name="Text" Value="x所屬公會" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.015244,0},{0.226054,0},{0.213415,0},{0.310345,0}}" />
+                        <Property Name="Visible" Value="False" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab7" Name="Root/PCardView/PCard/MoodLabel" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="x狀態" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.020408,0},{0.100418,0},{0.183673,0},{0.200836,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab7" Name="Root/PCardView/PCard/BirthdayLabel" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="x生日" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.020408,0},{0.217573,0},{0.183673,0},{0.317991,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab7" Name="Root/PCardView/PCard/RegionLabel" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="x地區" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.020408,0},{0.338912,0},{0.183673,0},{0.43933,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab7" Name="Root/PCardView/PCard/LikeHateLabel" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="x喜惡" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.020408,0},{0.456067,0},{0.183673,0},{0.556485,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab7" Name="Root/PCardView/PCard/GenderLabel" >
+                        <Property Name="Text" Value="x角色性別" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.598159,0},{0.118577,0},{0.800613,0},{0.197628,0}}" />
+                        <Property Name="Visible" Value="False" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab7" Name="Root/PCardView/PCard/LoverLabel" >
+                        <Property Name="Text" Value="x情侶" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.598159,0},{0.217391,0},{0.800613,0},{0.296442,0}}" />
+                        <Property Name="Visible" Value="False" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab7" Name="Root/PCardView/PCard/BloodTypeLabel" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="x血型" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.510204,0},{0.100418,0},{0.673469,0},{0.200836,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab7" Name="Root/PCardView/PCard/SignLabel" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="x星座" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.510204,0},{0.217573,0},{0.673469,0},{0.317991,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab7" Name="Root/PCardView/PCard/IntroLabel" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="x簡介" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.020408,0},{0.644351,0},{0.183673,0},{0.744769,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab2" Name="Root/PCardView/PCard/Name" >
+                        <Property Name="Text" Value="x魯魯三四五六" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.228659,0},{0.019157,0},{0.564025,0},{0.103448,0}}" />
+                        <Property Name="Visible" Value="False" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab2" Name="Root/PCardView/PCard/Level" >
+                        <Property Name="Text" Value="x60" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.228659,0},{0.122605,0},{0.564025,0},{0.206896,0}}" />
+                        <Property Name="Visible" Value="False" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab2" Name="Root/PCardView/PCard/Family" >
+                        <Property Name="Text" Value="x一二三四五六七八" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.228659,0},{0.226054,0},{0.564025,0},{0.310345,0}}" />
+                        <Property Name="Visible" Value="False" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab2" Name="Root/PCardView/PCard/Mood" >
+                        <Property Name="Text" Value="x開心" />
+                        <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.204082,0},{0.100418,0},{0.489796,0},{0.200836,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab2" Name="Root/PCardView/PCard/Birthday" >
+                        <Property Name="Text" Value="x12月31日" />
+                        <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.204082,0},{0.217573,0},{0.489796,0},{0.317991,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab2" Name="Root/PCardView/PCard/Region" >
+                        <Property Name="Text" Value="x北部" />
+                        <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.204082,0},{0.338912,0},{0.489796,0},{0.43933,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab2" Name="Root/PCardView/PCard/Gender" >
+                        <Property Name="Text" Value="x男性" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.815951,0},{0.118577,0},{0.93865,0},{0.197628,0}}" />
+                        <Property Name="Visible" Value="False" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab2" Name="Root/PCardView/PCard/Lover" >
+                        <Property Name="Text" Value="x有" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.815951,0},{0.217391,0},{0.93865,0},{0.296442,0}}" />
+                        <Property Name="Visible" Value="False" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab2" Name="Root/PCardView/PCard/BloodType" >
+                        <Property Name="Text" Value="xAB" />
+                        <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.693878,0},{0.100418,0},{0.979592,0},{0.200836,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab2" Name="Root/PCardView/PCard/Sign" >
+                        <Property Name="Text" Value="x牡羊" />
+                        <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.693878,0},{0.217573,0},{0.979592,0},{0.317991,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Embed2" Name="Root/PCardView/PCard/IntroBG" >
+                        <Property Name="LinespaceWindow" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.204082,0},{0.644351,0},{0.979592,0},{0.962343,0}}" />
+                        <Property Name="VertFormatting" Value="TopAligned" />
+                        <Window Type="DejaVu/MultiLineEditbox" Name="Root/PCardView/PCard/Intro" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="MaxTextLength" Value="2147483647" />
+                            <Property Name="NormalTextColour" Value="FFFFFFFF" />
+                            <Property Name="ReadOnly" Value="True" />
+                            <Property Name="Text" >一二三四五六七八九十一二三四五六七八九十
+
+
+
+
+
+
+
+
+
+
+</Property>
+                            <Property Name="TextParsingEnabled" Value="False" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/ImageButton" Name="card/page_selection/Tab 1/personal_f/IButton" >
+                        <Property Name="HoverImage" Value="set:DejaVu image:Like" />
+                        <Property Name="NormalImage" Value="set:DejaVu image:Like" />
+                        <Property Name="PushedImage" Value="set:DejaVu image:Like" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.204082,0},{0.456067,0},{0.246939,0},{0.623431,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/ImageButton" Name="card/page_selection/Tab 1/personal_f/IButton1" >
+                        <Property Name="HoverImage" Value="set:DejaVu image:Dislike" />
+                        <Property Name="NormalImage" Value="set:DejaVu image:Dislike" />
+                        <Property Name="PushedImage" Value="set:DejaVu image:Dislike" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.544898,0},{0.456067,0},{0.587755,0},{0.623431,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/PCardView/PCard/LikeSlotA" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.267347,0},{0.456067,0},{0.353061,0},{0.631799,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/PCardView/PCard/LikeSlotB" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.353061,0},{0.456067,0},{0.438775,0},{0.631799,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/PCardView/PCard/LikeSlotC" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.438776,0},{0.456067,0},{0.52449,0},{0.631799,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/PCardView/PCard/HateSlotA" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.608163,0},{0.456067,0},{0.693877,0},{0.631799,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/PCardView/PCard/HateSlotB" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.693878,0},{0.456067,0},{0.779592,0},{0.631799,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed4" Name="Root/PCardView/PCard/Title" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0204082,0},{0,0},{0.326531,0},{0.0967742,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/PCardView/PCard/Text" >
+                        <Property Name="Text" Value="x個人詳細資訊" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.2,0},{0.8,0},{0.8,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/PCardView/PCard/Image" >
+                        <Property Name="Image" Value="set:DejaVu image:Image13" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/PCardView/PCard/CloseBtn" >
+                <Property Name="Text" Value="關閉" />
+                <Property Name="UnifiedAreaRect" Value="{{0.744583,0},{0.946009,0},{0.938869,0},{1.00175,0}}" />
+                <Property Name="Visible" Value="False" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

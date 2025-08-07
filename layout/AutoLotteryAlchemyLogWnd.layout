@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/Static" Name="Root/AutoLotteryAlchemyLogWnd" >
+        <Property Name="MousePassThroughEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Window Type="DejaVu/ChannelLabel" Name="Root/AutoLotteryAlchemyLogWnd/MainWndTitle" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="Text" Value="1234" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.229659,0},{0.127924,0},{0.262467,0}}" />
+            <Window Type="DejaVu/StaticImage" Name="Root/AutoLotteryAlchemyLogWnd/MainWndTitle/Sign" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="Image" Value="set:DejaVuImage image:SkillPointL10" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0289017,0},{0.12,0},{0.17341,0},{0.92,0}}" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/AutoLotteryAlchemyLogWnd/MainWndTitle/CloseBtn" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="HoverImage" Value="set:DejaVu image:CloseBtnHover" />
+                <Property Name="NormalImage" Value="set:DejaVu image:CloseBtnNormal" />
+                <Property Name="PushedImage" Value="set:DejaVu image:CloseBtnPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.1,0},{0.150602,0},{0.9,0}}" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/AutoLotteryAlchemyLogWnd/MainWndTitle/StopBtn" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="HoverImage" Value="set:DejaVu image:AutoAlchemyHover" />
+                <Property Name="NormalImage" Value="set:DejaVu image:AutoAlchemyNormal" />
+                <Property Name="PushedImage" Value="set:DejaVu image:AutoAlchemyPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.150602,0},{0.12,0},{-0.0301201,0},{0.92,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Embed3" Name="Root/AutoLotteryAlchemyLogWnd/MainWnd" >
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.260813,0},{0.277981,0},{0.483617,0}}" />
+            <Window Type="DejaVu/ImageButton" Name="Root/AutoLotteryAlchemyLogWnd/MainWnd/ExtandBtn" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="HoverImage" Value="set:DejaVuImage image:ItemArrow" />
+                <Property Name="NormalImage" Value="set:DejaVuImage image:ItemArrow" />
+                <Property Name="PushedImage" Value="set:DejaVuImage image:ItemArrow" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.00793651,0},{0,0},{0.0449735,0},{0.117647,0}}" />
+            </Window>
+            <Window Type="DejaVu/ScrollablePane" Name="Root/AutoLotteryAlchemyLogWnd/MainWnd/Pane" >
+                <Property Name="ContentArea" Value="l:-1 t:0 r:296 b:108" />
+                <Property Name="ContentPaneAutoSized" Value="False" />
+                <Property Name="ForceVertScrollbar" Value="True" />
+                <Property Name="HorzOverlapSize" Value="0.01" />
+                <Property Name="HorzScrollPosition" Value="0" />
+                <Property Name="HorzStepSize" Value="0.1" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0131579,0},{0.117647,0},{0.986842,0},{0.952941,0}}" />
+                <Property Name="VertOverlapSize" Value="0.01" />
+                <Property Name="VertScrollPosition" Value="0" />
+                <Property Name="VertStepSize" Value="0.1" />
+                <AutoWindow NameSuffix="__auto_container__" >
+                    <Property Name="ChildExtentsArea" Value="l:0 t:0 r:336 b:140" />
+                    <Property Name="ContentArea" Value="l:-1 t:0 r:296 b:108" />
+                    <Property Name="ContentPaneAutoSized" Value="False" />
+                    <Property Name="MouseInputPropagationEnabled" Value="True" />
+                </AutoWindow>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

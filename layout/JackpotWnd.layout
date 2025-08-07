@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/StaticImage" Name="Root/JackpotWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.772619,0},{0.71265,0},{0.999181,0},{0.949742,0}}" />
+        <Window Type="DejaVu/StaticImage" Name="Root/JackpotWnd/ImageBG" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="Image" Value="set:main13 image:Labar" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.862069,0},{1,0}}" />
+            <Window Type="DejaVu/Static" Name="Root/JackpotWnd/ImageBG/ActBG" >
+                <Property Name="UnifiedAreaRect" Value="{{0.0773333,0},{0.275556,0},{0.92,0},{0.791111,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="Root/JackpotWnd/ImageBG/ActBG/Num1" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Image" Value="set:main13 image:0" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.282759,0},{1,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/JackpotWnd/ImageBG/ActBG/Num4" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Image" Value="set:main13 image:0" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{-1,0},{0.282759,0},{0,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/JackpotWnd/ImageBG/ActBG/Num2" >
+                    <Property Name="Image" Value="set:main13 image:0" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.351724,0},{0,0},{0.634483,0},{1,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/JackpotWnd/ImageBG/ActBG/Num5" >
+                    <Property Name="Image" Value="set:main13 image:0" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.351724,0},{-1,0},{0.634483,0},{0,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/JackpotWnd/ImageBG/ActBG/Num3" >
+                    <Property Name="Image" Value="set:main13 image:0" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.70352,0},{0,0},{0.986278,0},{1,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/JackpotWnd/ImageBG/ActBG/Num6" >
+                    <Property Name="Image" Value="set:main13 image:0" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.703448,0},{-1,0},{0.986207,0},{0,0}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/ImageTextButton" Name="Root/JackpotWnd/StickBtn" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HoverImage" Value="set:main13 image:LabarStickOn" />
+            <Property Name="NormalImage" Value="set:main13 image:LabarStickOn" />
+            <Property Name="PushedImage" Value="set:main13 image:LabarStickOff" />
+            <Property Name="UnifiedAreaRect" Value="{{0.845977,0},{0.173333,0},{0.983908,0},{0.84,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="QuizGameScoreItem" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="MousePassThroughEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0.077148,0},{0.084635,0},{0.327148,0},{0.334635,0}}" />
+        <Window Type="DejaVu/EmbedTextLab3" Name="QuizGameScoreItem/Text" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="ID" Value="1" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="QuizGameScoreItem/SelectBrush" >
+            <Property Name="Alpha" Value="0.3" />
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="ID" Value="2" />
+            <Property Name="Image" Value="set:DejaVu image:HeaderBarBackdropHover" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

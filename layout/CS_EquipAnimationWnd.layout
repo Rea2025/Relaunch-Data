@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/CS_EquipAnimationWnd" >
+        <Property Name="ClippedByParent" Value="False" />
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HorizontalAlignment" Value="Right" />
+        <Property Name="TextFrameColour" Value="03000000" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.15,0},{0.7,0}}" />
+        <Window Type="DejaVu/FrameWindow" Name="Root/CS_EquipAnimationWnd/Background" >
+            <Property Name="ClippedByParent" Value="False" />
+            <Property Name="HelpButtonEnabled" Value="False" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Property Name="TextFrameColour" Value="03000000" />
+            <Property Name="TitlebarEnabled" Value="True" />
+            <Property Name="TitlebarFont" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.988839,0}}" />
+            <Window Type="DejaVu/Embed" Name="Root/CS_EquipAnimationWnd/Background/Border_Loop" >
+                <Property Name="TextFrameColour" Value="03000000" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.625,0},{0.5,0},{0.7,0}}" />
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_EquipAnimationWnd/Background/Border_Loop/Text_Use" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="循環" />
+                    <Property Name="TextFrameColour" Value="03000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.25,0},{0.65,0},{0.75,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/CS_EquipAnimationWnd/Background/Border_Loop/Check_Use" >
+                    <Property Name="TextFrameColour" Value="03000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.75,0},{0.25,0},{0.95,0},{0.75,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed" Name="Root/CS_EquipAnimationWnd/Background/Border_Time" >
+                <Property Name="TextFrameColour" Value="03000000" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.699115,0},{1,0},{0.825221,0}}" />
+                <Window Type="DejaVu/Editbox" Name="Root/CS_EquipAnimationWnd/Background/Border_Time/Edit_Start" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextFrameColour" Value="03000000" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0.0526316,0},{0.949275,0},{0.403509,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_EquipAnimationWnd/Background/Border_Time/Text_Start" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="起始時間" />
+                    <Property Name="TextFrameColour" Value="03000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.202899,0},{0.0526316,0},{0.449275,0},{0.403509,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_EquipAnimationWnd/Background/Border_Time/Text_End" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="結束時間" />
+                    <Property Name="TextFrameColour" Value="03000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.202899,0},{0.421053,0},{0.449275,0},{0.77193,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/CS_EquipAnimationWnd/Background/Border_Time/Edit_End" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextFrameColour" Value="03000000" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0.421053,0},{0.949275,0},{0.77193,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/CS_EquipAnimationWnd/Background/Border_Time/Check_EndDefineTime" >
+                    <Property Name="TextFrameColour" Value="03000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0507246,0},{0.421053,0},{0.152174,0},{0.77193,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/CS_EquipAnimationWnd/Background/Border_Time/Check_BeginDefineTime" >
+                    <Property Name="TextFrameColour" Value="03000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0507246,0},{0.0526316,0},{0.152174,0},{0.403509,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed" Name="Root/CS_EquipAnimationWnd/Background/Border_PreView" >
+                <Property Name="TextFrameColour" Value="03000000" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.4,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="Root/CS_EquipAnimationWnd/Background/Border_PreView/PreView" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="TextFrameColour" Value="03000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    <Property Name="VerticalAlignment" Value="Centre" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed" Name="Root/CS_EquipAnimationWnd/Background/Border_Animation" >
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="TextFrameColour" Value="03000000" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.475,0},{1,0},{0.55,0}}" />
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_EquipAnimationWnd/Background/Border_Loop/Text_ID" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="動畫編號" />
+                    <Property Name="TextFrameColour" Value="03000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.25,0},{0.35,0},{0.75,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/CS_EquipAnimationWnd/Background/Border_Frequency/Edit_ID" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextFrameColour" Value="03000000" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.45,0},{0.25,0},{0.95,0},{0.75,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed" Name="Root/CS_EquipAnimationWnd/Background/Border_Frequency" >
+                <Property Name="TextFrameColour" Value="03000000" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.55,0},{1,0},{0.625,0}}" />
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_EquipAnimationWnd/Background/Border_Frequency/Text_Frequency" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="頻率" />
+                    <Property Name="TextFrameColour" Value="03000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.25,0},{0.35,0},{0.75,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/CS_EquipAnimationWnd/Background/Border_Frequency/Edit_Frequency" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextFrameColour" Value="03000000" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.45,0},{0.25,0},{0.95,0},{0.75,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed" Name="Root/CS_EquipAnimationWnd/Background/Border_AnimationCombo" >
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="TextFrameColour" Value="03000000" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.4,0},{1,0},{0.475,0}}" />
+                <Window Type="DejaVu/Combobox" Name="Root/CS_EquipAnimationWnd/Background/Border_AnimationCombo/Combo_ID" >
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="MaxEditTextLength" Value="2147483647" />
+                    <Property Name="TextFrameColour" Value="03000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.25,0},{0.95,0},{5,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed" Name="Root/CS_EquipAnimationWnd/Background/Border_Invert" >
+                <Property Name="TextFrameColour" Value="03000000" />
+                <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0.625,0},{1,0},{0.7,0}}" />
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_EquipAnimationWnd/Background/Border_Invert/Text_Invert" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="反轉" />
+                    <Property Name="TextFrameColour" Value="03000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.25,0},{0.65,0},{0.75,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/CS_EquipAnimationWnd/Background/Border_Invert/Check_Invert" >
+                    <Property Name="TextFrameColour" Value="03000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.75,0},{0.25,0},{0.95,0},{0.75,0}}" />
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

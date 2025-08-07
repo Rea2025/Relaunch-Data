@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="target_infor_p" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HorizontalAlignment" Value="Centre" />
+        <Property Name="MousePassThroughEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,380},{0,136}}" />
+        <Window Type="DejaVu/StaticImage" Name="target_infor_p/bg" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="Image" Value="set:main10 image:TargetInfoCastle" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.477941,0}}" />
+            <Window Type="DejaVu/StaticTextLab" Name="target_infor_p/bg/name" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.276316,0},{0.184615,0},{0.592105,0},{0.415385,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="target_infor_p/bg/level2d" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.802632,0},{0.107692,0},{0.986843,0},{0.56923,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="target_infor_p/bg/level2d/Num2" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="Image" Value="set:DejaVu image:seven" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.157143,0},{0.0666667,0},{0.557143,0},{1,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="target_infor_p/bg/level2d/Num1" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="Image" Value="set:DejaVu image:seven" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.414286,0},{0.0666667,0},{0.814286,0},{1,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/ProgressBarBG" Name="target_infor_p/bg/hpBG" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.223684,0},{0.676923,0},{0.986842,0},{0.892308,0}}" />
+                <Window Type="DejaVu/ProgressBar" Name="target_infor_p/bg/hp" >
+                    <Property Name="CurrentProgress" Value="0" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="StepSize" Value="0.01" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.02069,0},{0.285714,0},{0.979311,0},{0.785714,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/ProgressBarBG" Name="target_infor_p/bg/hpBG2" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.223684,0},{0.676923,0},{0.986842,0},{0.892308,0}}" />
+                <Window Type="DejaVu/ProgressBar3" Name="target_infor_p/bg/hp2" >
+                    <Property Name="CurrentProgress" Value="0" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="StepSize" Value="0.01" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0206897,0},{0.285714,0},{0.97931,0},{0.785714,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="target_infor_p/bg/weapon_icon1" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Image" Value="set:main image:WeaponTypeSwordShield" />
+                <Property Name="UnifiedAreaRect" Value="{{0.644737,0},{0.230769,0},{0.697368,0},{0.538462,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="target_infor_p/bg/weapon_icon2" >
+                <Property Name="Image" Value="set:main image:WeaponTypeTwoKnife" />
+                <Property Name="UnifiedAreaRect" Value="{{0.723684,0},{0.230769,0},{0.776316,0},{0.538462,0}}" />
+            </Window>
+            <Window Type="DejaVu/Static" Name="target_infor_p/bg/picbg" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0526316,0},{0.215385,0},{0.210526,0},{0.907692,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="target_infor_p/bg/facepic" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1.22222,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="target_infor_p/bg/customiconpic" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.977778,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="target_infor_p/bg/Category" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.694737,0},{1.03077,0},{0.931579,0},{1.27692,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="target_infor_p/bg/Attribute" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.684211,0},{1.04615,0},{0.921053,0},{1.29231,0}}" />
+            </Window>
+            <Window Type="DejaVu/ProgressBarBG2" Name="target_infor_p/bg/hpBG3" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.223684,0},{0.676923,0},{0.986842,0},{0.892308,0}}" />
+                <Window Type="DejaVu/ProgressBar3" Name="target_infor_p/bg/hp3" >
+                    <Property Name="CurrentProgress" Value="0" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="StepSize" Value="0.01" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0206897,0},{0.285714,0},{0.97931,0},{0.785714,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/ProgressBarBG4" Name="target_infor_p/bg/hpBG4" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.223684,0},{0.676923,0},{0.986842,0},{0.892308,0}}" />
+                <Window Type="DejaVu/ProgressBar4" Name="target_infor_p/bg/hp4" >
+                    <Property Name="CurrentProgress" Value="0" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="StepSize" Value="0.01" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.02069,0},{0.285714,0},{0.979311,0},{0.785714,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/ProgressBarBG2" Name="target_infor_p/bg/hpBG5" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.223684,0},{0.676923,0},{0.986842,0},{0.892308,0}}" />
+                <Window Type="DejaVu/ProgressBar" Name="target_infor_p/bg/hp5" >
+                    <Property Name="CurrentProgress" Value="0" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="StepSize" Value="0.01" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.02069,0},{0.285714,0},{0.979311,0},{0.785714,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="target_infor_p/bg/hp_pic" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.25,0},{0.461538,0},{0.736842,0},{0.769231,0}}" />
+                <Property Name="VertFormatting" Value="BottomAligned" />
+                <Window Type="DejaVu/StaticImage" Name="target_infor_p/bg/hp_text/slash" >
+                    <Property Name="Image" Value="set:DejaVu image:slash" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.52973,0},{0.15,0},{0.610811,0},{0.9,0}}" />
+                    <Property Name="VerticalAlignment" Value="Centre" />
+                </Window>
+                <Window Type="DejaVu/Static" Name="target_infor_p/bg/hp_text/MaxHp" >
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.610811,0},{0.15,0},{0.983784,0},{0.85,0}}" />
+                    <Property Name="VerticalAlignment" Value="Centre" />
+                    <Window Type="DejaVu/StaticImage" Name="target_infor_p/bg/hp_text/MaxHp/HpNum5" >
+                        <Property Name="Image" Value="set:DejaVu image:9" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.26087,0},{0,0},{0.463769,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="target_infor_p/bg/hp_text/MaxHp/HpNum4" >
+                        <Property Name="Image" Value="set:DejaVu image:9" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.391304,0},{0,0},{0.594203,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="target_infor_p/bg/hp_text/MaxHp/HpNum3" >
+                        <Property Name="Image" Value="set:DejaVu image:9" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.521739,0},{0,0},{0.724638,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="target_infor_p/bg/hp_text/MaxHp/HpNum2" >
+                        <Property Name="Image" Value="set:DejaVu image:9" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.652174,0},{0,0},{0.855073,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="target_infor_p/bg/hp_text/MaxHp/HpNum1" >
+                        <Property Name="Image" Value="set:DejaVu image:9" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.782609,0},{0,0},{0.985508,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="target_infor_p/bg/hp_text/MaxHp/HpNum6" >
+                        <Property Name="Image" Value="set:DejaVu image:9" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.130435,0},{0,0},{0.333334,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="target_infor_p/bg/hp_text/MaxHp/HpNum7" >
+                        <Property Name="Image" Value="set:DejaVu image:9" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.202899,0},{1,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Static" Name="target_infor_p/bg/hp_text/HpValue" >
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.567568,0},{1,0}}" />
+                    <Property Name="VerticalAlignment" Value="Centre" />
+                    <Window Type="DejaVu/StaticImage" Name="target_infor_p/bg/hp_text/HpValue/HpNum5" >
+                        <Property Name="Image" Value="set:DejaVu image:9" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0,0},{0.457143,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="target_infor_p/bg/hp_text/HpValue/HpNum4" >
+                        <Property Name="Image" Value="set:DejaVu image:9" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.4,0},{0,0},{0.590476,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="target_infor_p/bg/hp_text/HpValue/HpNum3" >
+                        <Property Name="Image" Value="set:DejaVu image:9" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.533333,0},{0,0},{0.723809,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="target_infor_p/bg/hp_text/HpValue/HpNum2" >
+                        <Property Name="Image" Value="set:DejaVu image:9" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.666667,0},{0,0},{0.857143,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="target_infor_p/bg/hp_text/HpValue/HpNum1" >
+                        <Property Name="Image" Value="set:DejaVu image:9" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.8,0},{0,0},{0.990476,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="target_infor_p/bg/hp_text/HpValue/HpNum6" >
+                        <Property Name="Image" Value="set:DejaVu image:9" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.133333,0},{0,0},{0.32381,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="target_infor_p/bg/hp_text/HpValue/HpNum7" >
+                        <Property Name="Image" Value="set:DejaVu image:9" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.190476,0},{1,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="target_infor/bg/level3d" >
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.805263,0},{0.107692,0},{0.960526,0},{0.569231,0}}" />
+                <Property Name="Visible" Value="False" />
+                <Window Type="DejaVu/StaticImage" Name="target_infor/bg/level3d/Num1" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="Image" Value="set:DejaVu image:seven" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.62963,0},{0.0666667,0},{1.11111,0},{1,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="target_infor/bg/level3d/Num2" >
+                    <Property Name="Image" Value="set:DejaVu image:seven" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.314815,0},{0.0666667,0},{0.796296,0},{1,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="target_infor/bg/level3d/Num3" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="Image" Value="set:DejaVu image:seven" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0169492,0},{0.0666667,0},{0.491525,0},{1,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="target_infor_p/bg/EquipBG" >
+                <Property Name="Text" Value="20*50" />
+                <Property Name="UnifiedAreaRect" Value="{{0.513158,0},{0.230769,0},{0.513158,0},{0.230769,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="target_infor_p/bg/EquipBG/EqNum1" >
+                    <Property Name="Image" Value="set:DejaVu image:9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.56,0},{0,0},{0.96,0},{1,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="target_infor_p/bg/EquipBG/EqNum2" >
+                    <Property Name="Image" Value="set:DejaVu image:9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.28,0},{0,0},{0.68,0},{1,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="target_infor_p/bg/EquipBG/EqNum3" >
+                    <Property Name="Image" Value="set:DejaVu image:9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.4,0},{1,0}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="target_infor_p/buff" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0131579,0},{0.477941,0},{0.692105,0},{0.669118,0}}" />
+            <Window Type="DejaVu/Static" Name="target_infor_p/buff/BG_0" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.1,0},{1,0}}" />
+                <Window Type="DejaVu/SlotImage" Name="target_infor_p/buff/icon_0" >
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Image" Value="set:main image:noimage" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    <Window Type="DejaVu/StaticText" Name="target_infor_p/buff/icon_0/Text" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HorizontalAlignment" Value="Right" />
+                        <Property Name="HorzFormatting" Value="RightAligned" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                        <Property Name="VertFormatting" Value="BottomAligned" />
+                        <Property Name="VerticalAlignment" Value="Bottom" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="target_infor_p/buff/icon_0/Image" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.083333,0},{0.083333,0},{0.958333,0},{0.958333,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="target_infor_p/buff/BG_1" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0,0},{0.2,0},{1,0}}" />
+                <Window Type="DejaVu/SlotImage" Name="target_infor_p/buff/icon_1" >
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="Image" Value="set:main image:noimage" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    <Window Type="DejaVu/StaticText" Name="target_infor_p/buff/icon_1/Text" >
+                        <Property Name="HorzFormatting" Value="RightAligned" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                        <Property Name="VertFormatting" Value="BottomAligned" />
+                        <Property Name="VerticalAlignment" Value="Bottom" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="target_infor_p/buff/icon_1/Image" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.083333,0},{0.083333,0},{0.958333,0},{0.958333,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="target_infor_p/buff/BG_2" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.2,0},{0,0},{0.3,0},{1,0}}" />
+                <Window Type="DejaVu/SlotImage" Name="target_infor_p/buff/icon_2" >
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="Image" Value="set:main image:noimage" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    <Window Type="DejaVu/StaticText" Name="target_infor_p/buff/icon_2/Text" >
+                        <Property Name="HorzFormatting" Value="RightAligned" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                        <Property Name="VertFormatting" Value="BottomAligned" />
+                        <Property Name="VerticalAlignment" Value="Bottom" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="target_infor_p/buff/icon_2/Image" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.083333,0},{0.083333,0},{0.958333,0},{0.958333,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="target_infor_p/buff/BG_3" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.3,0},{0,0},{0.4,0},{1,0}}" />
+                <Window Type="DejaVu/SlotImage" Name="target_infor_p/buff/icon_3" >
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="Image" Value="set:main image:noimage" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    <Window Type="DejaVu/StaticText" Name="target_infor_p/buff/icon_3/Text" >
+                        <Property Name="HorzFormatting" Value="RightAligned" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                        <Property Name="VertFormatting" Value="BottomAligned" />
+                        <Property Name="VerticalAlignment" Value="Bottom" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="target_infor_p/buff/icon_3/Image" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.083333,0},{0.083333,0},{0.958333,0},{0.958333,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="target_infor_p/buff/BG_4" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.4,0},{0,0},{0.5,0},{1,0}}" />
+                <Window Type="DejaVu/SlotImage" Name="target_infor_p/buff/icon_4" >
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="Image" Value="set:main image:noimage" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    <Window Type="DejaVu/StaticText" Name="target_infor_p/buff/icon_4/Text" >
+                        <Property Name="HorzFormatting" Value="RightAligned" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                        <Property Name="VertFormatting" Value="BottomAligned" />
+                        <Property Name="VerticalAlignment" Value="Bottom" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="target_infor_p/buff/icon_4/Image" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.083333,0},{0.083333,0},{0.958333,0},{0.958333,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="target_infor_p/buff/BG_5" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0,0},{0.6,0},{1,0}}" />
+                <Window Type="DejaVu/SlotImage" Name="target_infor_p/buff/icon_5" >
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="Image" Value="set:main image:noimage" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    <Window Type="DejaVu/StaticText" Name="target_infor_p/buff/icon_5/Text" >
+                        <Property Name="HorzFormatting" Value="RightAligned" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                        <Property Name="VertFormatting" Value="BottomAligned" />
+                        <Property Name="VerticalAlignment" Value="Bottom" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="target_infor_p/buff/icon_5/Image" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.083333,0},{0.083333,0},{0.958333,0},{0.958333,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="target_infor_p/buff/BG_6" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.6,0},{0,0},{0.7,0},{1,0}}" />
+                <Window Type="DejaVu/SlotImage" Name="target_infor_p/buff/icon_6" >
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="Image" Value="set:main image:noimage" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    <Window Type="DejaVu/StaticText" Name="target_infor_p/buff/icon_6/Text" >
+                        <Property Name="HorzFormatting" Value="RightAligned" />
+                        <Property Name="UnifiedAreaRect" Value="{{-0.0253906,0},{0.0296224,0},{0.974609,0},{1.02962,0}}" />
+                        <Property Name="VertFormatting" Value="BottomAligned" />
+                        <Property Name="VerticalAlignment" Value="Bottom" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="target_infor_p/buff/icon_6/Image" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.083333,0},{0.083333,0},{0.958333,0},{0.958333,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="target_infor_p/buff/BG_7" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.7,0},{0,0},{0.8,0},{1,0}}" />
+                <Window Type="DejaVu/SlotImage" Name="target_infor_p/buff/icon_7" >
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="Image" Value="set:main image:noimage" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    <Window Type="DejaVu/StaticText" Name="target_infor_p/buff/icon_7/Text" >
+                        <Property Name="HorzFormatting" Value="RightAligned" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                        <Property Name="VertFormatting" Value="BottomAligned" />
+                        <Property Name="VerticalAlignment" Value="Bottom" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="target_infor_p/buff/icon_7/Image" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.083333,0},{0.083333,0},{0.958333,0},{0.958333,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="target_infor_p/buff/BG_8" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.8,0},{0,0},{0.9,0},{1,0}}" />
+                <Window Type="DejaVu/SlotImage" Name="target_infor_p/buff/icon_8" >
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="Image" Value="set:main image:noimage" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    <Window Type="DejaVu/StaticText" Name="target_infor_p/buff/icon_8/Text" >
+                        <Property Name="HorzFormatting" Value="RightAligned" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                        <Property Name="VertFormatting" Value="BottomAligned" />
+                        <Property Name="VerticalAlignment" Value="Bottom" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="target_infor_p/buff/icon_8/Image" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.083333,0},{0.083333,0},{0.958333,0},{0.958333,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="target_infor_p/buff/BG_9" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.9,0},{0,0},{1,0},{1,0}}" />
+                <Window Type="DejaVu/SlotImage" Name="target_infor_p/buff/icon_9" >
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="Image" Value="set:main image:noimage" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    <Window Type="DejaVu/StaticText" Name="target_infor_p/buff/icon_9/Text" >
+                        <Property Name="HorzFormatting" Value="RightAligned" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                        <Property Name="VertFormatting" Value="BottomAligned" />
+                        <Property Name="VerticalAlignment" Value="Bottom" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="target_infor_p/buff/icon_9/Image" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.083333,0},{0.083333,0},{0.958333,0},{0.958333,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="target_infor_p/target" >
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0131579,0},{0.705882,0},{0.578947,0},{1,0}}" />
+            <Window Type="DejaVu/EmbedTextLab3" Name="target_infor_p/target/Name" >
+                <Property Name="UnifiedAreaRect" Value="{{-0.00163574,0},{0,0},{0.998364,0},{0.625,0}}" />
+            </Window>
+            <Window Type="DejaVu/ProgressBarBG" Name="target_infor_p/target/hpBG" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.625,0},{0.975,0},{1,0}}" />
+                <Window Type="DejaVu/ProgressBar" Name="target_infor_p/target/hp" >
+                    <Property Name="CurrentProgress" Value="0" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="StepSize" Value="0.01" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.025,0},{0.25,0},{0.975,0},{0.75,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/ProgressBarBG" Name="target_infor_p/target/hpBG2" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.625,0},{0.975,0},{1,0}}" />
+                <Window Type="DejaVu/ProgressBar3" Name="target_infor_p/target/hp2" >
+                    <Property Name="CurrentProgress" Value="0" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="StepSize" Value="0.01" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.025,0},{0.25,0},{0.975,0},{0.75,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/ProgressBarBG2" Name="target_infor_p/target/hpBG3" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.625,0},{0.975,0},{1,0}}" />
+                <Window Type="DejaVu/ProgressBar3" Name="target_infor_p/target/hp3" >
+                    <Property Name="CurrentProgress" Value="0" />
+                    <Property Name="StepSize" Value="0.01" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.025,0},{0.25,0},{0.975,0},{0.75,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/ProgressBarBG4" Name="target_infor_p/target/hpBG4" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.625,0},{0.975,0},{1,0}}" />
+                <Window Type="DejaVu/ProgressBar4" Name="target_infor_p/target/hp4" >
+                    <Property Name="CurrentProgress" Value="0" />
+                    <Property Name="StepSize" Value="0.01" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.025,0},{0.25,0},{0.975,0},{0.75,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/ProgressBarBG2" Name="target_infor_p/target/hpBG5" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.625,0},{0.975,0},{1,0}}" />
+                <Window Type="DejaVu/ProgressBar" Name="target_infor_p/target/hp5" >
+                    <Property Name="CurrentProgress" Value="0" />
+                    <Property Name="StepSize" Value="0.01" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.025,0},{0.25,0},{0.975,0},{0.75,0}}" />
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

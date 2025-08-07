@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/FortuneBagInsideListWnd" >
+        <Property Name="ClippedByParent" Value="False" />
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="True" />
+        <Property Name="SizingEnabled" Value="True" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="TitlebarImage" Value="set:main image:ItemMallNormal" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,425},{0,471}}" />
+        <Window Type="DejaVu/Embed" Name="Root/FortuneBagInsideListWnd/Background" >
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Static" Name="Root/FortuneBagInsideListWnd/Background/Frame" >
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="UnifiedAreaRect" Value="{{0.02445,0},{0.025575,0},{0.97555,0},{0.976982,0}}" />
+                <Window Type="DejaVu/Embed2" Name="Root/FortuneBagInsideListWnd/Background/Frame/Box" >
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.026882,0},{1,0},{1,0}}" />
+                    <Window Type="DejaVu/MultiColumnList" Name="Root/FortuneBagInsideListWnd/Background/Frame/Box/ListBox" >
+                        <Property Name="ColumnsMovable" Value="False" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.041436,0},{1,0},{1,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed4" Name="Root/FortuneBagInsideListWnd/Background/Frame/Title" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.025707,0},{0,0},{0.59126,0},{0.0645161,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/FortuneBagInsideListWnd/Background/Frame/Title/Text" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.181818,0},{0.208333,0},{0.863636,0},{0.791666,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/FortuneBagInsideListWnd/Background/Frame/Title/Image" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Image" Value="set:DejaVu image:Image09" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.068182,0},{0.208333,0},{0.136364,0},{0.791666,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

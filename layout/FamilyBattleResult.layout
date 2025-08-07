@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/FamilyBattleResult" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="TitlebarImage" Value="set:main image:ArenaNormal" />
+        <Property Name="UnifiedAreaRect" Value="{{0.222917,0},{0.0674394,0},{0.222917,521},{0.0674394,690}}" />
+        <Window Type="DejaVu/Embed" Name="Root/FamilyBattleResult/BackGround" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Static" Name="Root/FamilyBattleResult/BackGround/List" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.019802,0},{0.0163934,0},{0.980198,0},{0.614754,0}}" />
+                <Window Type="DejaVu/Embed2" Name="Root/FamilyBattleResult/BackGround/List/BG" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0274725,0},{1,0},{0.997253,0}}" />
+                    <Window Type="DejaVu/MultiColumnList" Name="Root/FamilyBattleResult/BackGround/List/BG/ResultMCL" >
+                        <Property Name="ColumnsMovable" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0206186,0},{0.0649718,0},{0.979381,0},{0.957627,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed4" Name="Root/FamilyBattleResult/BackGround/List/Title" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.021739,0},{0,0},{0.021739,150},{0,25}}" />
+                    <Window Type="DejaVu/StaticImage" Name="Root/FamilyBattleResult/BackGround/List/Title/Img" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Image" Value="set:DejaVu image:Image18" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/FamilyBattleResult/BackGround/List/Title/Text" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="x戰場情況" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.3,0},{0.2,0},{0.9,0},{0.8,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/FamilyBattleResult/BackGround/LeaveBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="Text" Value="x退出" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.0217822,0},{0.934426,0},{0.215842,0},{0.983607,0}}" />
+            </Window>
+            <Window Type="DejaVu/Static" Name="Root/FamilyBattleResult/BackGround/GoldFrame" >
+                <Property Name="UnifiedAreaRect" Value="{{0.019802,0},{0.934426,0},{0.574257,0},{0.978689,0}}" />
+                <Window Type="DejaVu/Embed2" Name="Root/FamilyBattleResult/BackGround/GoldFrame/GoleEmbed" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.357143,0},{0,0},{0.857143,0},{1,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/FamilyBattleResult/BackGround/GoldFrame/GoldEmbed/GoldText" >
+                        <Property Name="HorzFormatting" Value="RightAligned" />
+                        <Property Name="Text" Value="x122" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.785714,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/FamilyBattleResult/BackGround/GoldFrame/GoldIcon" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Image" Value="set:main image:WarCoin2" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.857143,0},{0.2,0},{0.964286,0},{0.8,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab7" Name="Root/FamilyBattleResult/BackGround/GoldFrame/TitleText" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="獲得獎勵" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.357143,0},{1,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="Root/FamilyBattleResult/BackGround/FamilyGradeBG" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.029703,0},{0.622951,0},{0.970297,0},{0.918033,0}}" />
+                <Window Type="DejaVu/EmbedText7" Name="Root/FamilyBattleResult/BackGround/FamilyGradeBG/FamilyName" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="x公會名稱" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.498969,0},{0.166667,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab7" Name="Root/FamilyBattleResult/BackGround/FamilyGradeBG/BuildingName" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="x聖物名稱" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.501031,0},{0,0},{1,0},{0.166667,0}}" />
+                </Window>
+                <Window Type="DejaVu/Static" Name="Root/FamilyBattleResult/BackGround/FamilyGradeBG/S1" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.166667,0},{1,0},{0.333334,0}}" />
+                    <Window Type="DejaVu/EmbedTextLab2" Name="Root/FamilyBattleResult/BackGround/FamilyGradeBG/S1/F1" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.498969,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab2" Name="Root/FamilyBattleResult/BackGround/FamilyGradeBG/S1/B1" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.501031,0},{0,0},{1,0},{1,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Static" Name="Root/FamilyBattleResult/BackGround/FamilyGradeBG/S2" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.333333,0},{1,0},{0.5,0}}" />
+                    <Window Type="DejaVu/EmbedTextLab2" Name="Root/FamilyBattleResult/BackGround/FamilyGradeBG/S2/F2" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.498969,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab2" Name="Root/FamilyBattleResult/BackGround/FamilyGradeBG/S2/B2" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.501031,0},{0,0},{1,0},{1,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Static" Name="Root/FamilyBattleResult/BackGround/FamilyGradeBG/S3" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.5,0},{1,0},{0.662,0}}" />
+                    <Window Type="DejaVu/EmbedTextLab2" Name="Root/FamilyBattleResult/BackGround/FamilyGradeBG/S3/F3" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.498969,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab2" Name="Root/FamilyBattleResult/BackGround/FamilyGradeBG/S3/B3" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.501031,0},{0,0},{1,0},{1,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Static" Name="Root/FamilyBattleResult/BackGround/FamilyGradeBG/S4" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.666667,0},{1,0},{0.833334,0}}" />
+                    <Window Type="DejaVu/EmbedTextLab2" Name="Root/FamilyBattleResult/BackGround/FamilyGradeBG/S4/F4" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.498969,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab2" Name="Root/FamilyBattleResult/BackGround/FamilyGradeBG/S4/B4" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.501031,0},{0,0},{1,0},{1,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Static" Name="Root/FamilyBattleResult/BackGround/FamilyGradeBG/S5" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.833333,0},{1,0},{1,0}}" />
+                    <Window Type="DejaVu/EmbedTextLab2" Name="Root/FamilyBattleResult/BackGround/FamilyGradeBG/S5/F5" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.498969,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab2" Name="Root/FamilyBattleResult/BackGround/FamilyGradeBG/S5/B5" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.501031,0},{0,0},{1,0},{1,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

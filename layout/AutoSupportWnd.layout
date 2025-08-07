@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/AutoSupportWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="Text" Value="x啟源小幫手" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="TitlebarImage" Value="set:main2 image:AutoSupportNormal" />
+        <Property Name="UnifiedAreaRect" Value="{{0.249023,0},{0.138141,0},{0.249023,576},{0.138141,580}}" />
+        <Window Type="DejaVu/TabControl" Name="Root/AutoSupportWnd/TabCtrl" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="TabHeight" Value="{0,20}" />
+            <Property Name="TabPanePosition" Value="Top" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.909836,0}}" />
+            <Window Type="DefaultWindow" Name="Root/AutoSupportWnd/TabCtrl/Basic" >
+                <Property Name="Text" Value="x基礎" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,560},{0,421}}" />
+                <Property Name="Visible" Value="False" />
+            </Window>
+            <Window Type="DefaultWindow" Name="Root/AutoSupportWnd/TabCtrl/Advance" >
+                <Property Name="Text" Value="x進階" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,560},{0,421}}" />
+                <Property Name="Visible" Value="False" />
+            </Window>
+            <Window Type="DefaultWindow" Name="Root/AutoSupportWnd/TabCtrl/HighLevel" >
+                <Property Name="Text" Value="x高階" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,560},{0,421}}" />
+                <Property Name="Visible" Value="False" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/AutoSupportWnd/OKBtn" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="HorizontalAlignment" Value="Right" />
+            <Property Name="Text" Value="x確定" />
+            <Property Name="UnifiedAreaRect" Value="{{-0.0178571,0},{-0.02,0},{0.117857,0},{0.032,0}}" />
+            <Property Name="VerticalAlignment" Value="Bottom" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/AutoSupportWnd/ResetBtn" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="HorizontalAlignment" Value="Right" />
+            <Property Name="Text" Value="x重置" />
+            <Property Name="UnifiedAreaRect" Value="{{-0.1625,0},{-0.02,0},{-0.0267857,0},{0.032,0}}" />
+            <Property Name="VerticalAlignment" Value="Bottom" />
+        </Window>
+        <Window Type="DejaVu/Checkbox" Name="Root/AutoSupportWnd/OpenCheckBox" >
+            <Property Name="Text" Value="x開啟啟源小幫手" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0115137,0},{0.930396,0},{0.307384,0},{0.981453,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/AutoSupportWnd/Hint" >
+            <Property Name="Text" Value="?" />
+            <Property Name="UnifiedAreaRect" Value="{{0.951302,0},{0.00054637,0},{0.995945,0},{0.0516025,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/CS_UtilityWnd" >
+        <Property Name="ClippedByParent" Value="False" />
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HorizontalAlignment" Value="Right" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.15,0},{0.4,0}}" />
+        <Window Type="DejaVu/FrameWindow" Name="Root/CS_UtilityWnd/Background" >
+            <Property Name="ClippedByParent" Value="False" />
+            <Property Name="HelpButtonEnabled" Value="False" />
+            <Property Name="HorizontalAlignment" Value="Right" />
+            <Property Name="TitlebarEnabled" Value="True" />
+            <Property Name="TitlebarFont" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Embed" Name="Root/CS_UtilityWnd/Background/TimeOffset" >
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Window Type="DejaVu/Combobox" Name="Root/CS_UtilityWnd/Background/TimeOffset/Combo_Object" >
+                    <Property Name="MaxEditTextLength" Value="2147483647" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.05,0},{0.95,0},{1,0}}" />
+                </Window>
+                <Window Type="DejaVu/Combobox" Name="Root/CS_UtilityWnd/Background/TimeOffset/Combo_Type" >
+                    <Property Name="MaxEditTextLength" Value="2147483647" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.2,0},{0.95,0},{1,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/CS_UtilityWnd/Background/TimeOffset/Edit_BeginTime" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.4,0},{0.35,0},{0.65,0},{0.45,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_UtilityWnd/Background/TimeOffset/Text_Time" >
+                    <Property Name="Font" Value="F001-12" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="時間範圍" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.35,0},{0.35,0},{0.45,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_UtilityWnd/Background/TimeOffset/Text_MoveDir" >
+                    <Property Name="Font" Value="F001-12" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="方向" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.65,0},{0.3,0},{0.75,0}}" />
+                </Window>
+                <Window Type="DejaVu/Button" Name="Root/CS_UtilityWnd/Background/TimeOffset/Button_Run" >
+                    <Property Name="Font" Value="F001-12" />
+                    <Property Name="Text" Value="執行" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.8,0},{0.95,0},{0.9,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/CS_UtilityWnd/Background/TimeOffset/Edit_OffsetTime" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.45,0},{0.5,0},{0.95,0},{0.6,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_UtilityWnd/Background/TimeOffset/Text_OffsetTime" >
+                    <Property Name="Font" Value="F001-12" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="位移" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.5,0},{0.4,0},{0.6,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/CS_UtilityWnd/Background/TimeOffset/Edit_EndTime" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.7,0},{0.35,0},{0.95,0},{0.45,0}}" />
+                </Window>
+                <Window Type="DejaVu/Combobox" Name="Root/CS_UtilityWnd/Background/TimeOffset/Combo_MoveDir" >
+                    <Property Name="MaxEditTextLength" Value="2147483647" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.35,0},{0.65,0},{0.95,0},{1,0}}" />
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

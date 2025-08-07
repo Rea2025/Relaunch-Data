@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="AchievementInputWnd" >
+        <Property Name="AlwaysOnTop" Value="True" />
+        <Property Name="CloseButtonEnabled" Value="False" />
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="Text" Value="x設定宣言" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,242},{0,168}}" />
+        <Window Type="DejaVu/Embed3" Name="AchievementInputWnd/bg" >
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,222},{0,126}}" />
+            <Window Type="DejaVu/Embed4" Name="AchievementInputWnd/bg/background" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.022523,0},{0.041322,0},{0.977478,0},{0.787354,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="AchievementInputWnd/WinDeclareText" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="x勝利宣言" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.023585,0},{0.053191,0},{0.306604,0},{0.212765,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="AchievementInputWnd/WinDeclareEditBox" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="Text" Value="一二三四五六七八九十一二三四五" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0235849,0},{0.244681,0},{0.976415,0},{0.478723,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="AchievementInputWnd/FailDeclareText" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="x落敗感言" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0235849,0},{0.521277,0},{0.306604,0},{0.680851,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="AchievementInputWnd/FailDeclareEditBox" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="Text" Value="一二三四五六七八九十一二三四五" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0235849,0},{0.712766,0},{0.976415,0},{0.946808,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Button" Name="AchievementInputWnd/OkBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="x確定" />
+                <Property Name="UnifiedAreaRect" Value="{{0.342342,0},{0.825397,0},{0.648649,0},{0.960317,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="AchievementInputWnd/CancelBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="x取消" />
+                <Property Name="UnifiedAreaRect" Value="{{0.671171,0},{0.825397,0},{0.977477,0},{0.960317,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Authority" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="TitlebarImage" Value="set:main image:SystemNormal" />
+        <Property Name="UnifiedAreaRect" Value="{{0.360352,0},{0.273438,0},{0.360352,270},{0.273438,385}}" />
+        <Window Type="DejaVu/Embed" Name="Authority/Embed" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Embed2" Name="Authority/Embed/Embed2" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.038462,0},{0.033333,0},{0.959722,0},{0.86612,0}}" />
+                <Window Type="DejaVu/Static" Name="Authority/Embed/Embed2/Static" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.00854701,0},{0.00787402,0},{0.991453,0},{0.992126,0}}" />
+                    <Window Type="DejaVu/EmbedTextLab7" Name="Authority/Title" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="x請選擇密碼權限的給予對象" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Listbox" Name="Authority/List" >
+                        <Property Name="Font" Value="F001-scale" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.1,0},{1,0},{1,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Button" Name="Authority/OKBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="Text" Value="x確認" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{-0.0327869,0},{0.299213,0},{0.052459,0}}" />
+                <Property Name="VerticalAlignment" Value="Bottom" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

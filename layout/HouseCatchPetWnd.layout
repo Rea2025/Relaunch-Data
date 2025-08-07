@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="HouseCatchPetWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.331771,0},{0.126449,0},{0.331771,295},{0.126449,586}}" />
+        <Window Type="DejaVu/Embed" Name="HouseCatchPetWnd/Frame" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1.00358,0},{1,0}}" />
+            <Window Type="DejaVu/Static" Name="HouseCatchPetWnd/Frame/CatchAreaInfo" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.035842,0},{0.296443,0},{0.964373,0},{0.918973,0}}" />
+                <Window Type="DejaVu/Embed2" Name="HouseCatchPetWnd/Frame/CatchAreaInfo/Frame" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.031447,0},{0.999623,0},{0.999701,0}}" />
+                    <Window Type="DejaVu/Embed2" Name="HouseCatchPetWnd/Frame/CatchAreaInfo/Frame/Location" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.038462,0},{0.065574,0},{0.961539,0},{0.714754,0}}" />
+                        <Window Type="DejaVu/EmbedText7" Name="HouseCatchPetWnd/Frame/CatchAreaInfo/Frame/Location/Title" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="x捕捉地點" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.008333,0},{0.010152,0},{0.991666,0},{0.137056,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/MultiColumnListNoHeader" Name="HouseCatchPetWnd/Frame/CatchAreaInfo/Frame/Location/MCL" >
+                            <Property Name="ColumnsMovable" Value="False" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0141895,0},{0.123861,0},{0.995571,0},{0.977787,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Embed2" Name="HouseCatchPetWnd/Frame/CatchAreaInfo/Frame/Pet" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0384615,0},{0.731148,0},{0.961538,0},{0.983607,0}}" />
+                        <Window Type="DejaVu/EmbedText7" Name="HouseCatchPetWnd/Frame/CatchAreaInfo/Frame/Pet/Title" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="x出現寵物" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.324675,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="HouseCatchPetWnd/Frame/CatchAreaInfo/Frame/Pet/Icon1" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.020833,0},{0.38961,0},{0.195833,0},{0.935064,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="HouseCatchPetWnd/Frame/CatchAreaInfo/Frame/Pet/Icon2" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.216667,0},{0.38961,0},{0.391667,0},{0.935064,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="HouseCatchPetWnd/Frame/CatchAreaInfo/Frame/Pet/Icon3" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.4125,0},{0.38961,0},{0.5875,0},{0.935065,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="HouseCatchPetWnd/Frame/CatchAreaInfo/Frame/Pet/Icon4" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.608333,0},{0.38961,0},{0.783333,0},{0.935065,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="HouseCatchPetWnd/Frame/CatchAreaInfo/Frame/Pet/Icon5" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.804167,0},{0.38961,0},{0.979167,0},{0.935065,0}}" />
+                        </Window>
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed4" Name="HouseCatchPetWnd/Frame/CatchAreaInfo/Title" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.038462,0},{0,0},{0.615385,0},{0.0793651,0}}" />
+                    <Window Type="DejaVu/StaticText" Name="HouseCatchPetWnd/Frame/CatchAreaInfo/Title/Text" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="x捕捉地點" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.264901,0},{0.2,0},{0.864901,0},{0.8,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="HouseCatchPetWnd/Frame/CatchAreaInfo/Title/Icon" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Image" Value="set:DejaVu image:Image08" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="HouseCatchPetWnd/Frame/TeamInfo" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.035842,0},{0.019763,0},{0.966057,0},{0.286561,0}}" />
+                <Window Type="DejaVu/Embed2" Name="HouseCatchPetWnd/Frame/TeamInfo/Frame" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0728641,0},{0.998959,0},{0.998791,0}}" />
+                    <Window Type="DejaVu/MultiColumnList" Name="HouseCatchPetWnd/Frame/TeamInfo/Frame/TeamMCL" >
+                        <Property Name="ColumnsMovable" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.019231,0},{0.16,0},{0.987574,0},{0.96,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed4" Name="HouseCatchPetWnd/Frame/TeamInfo/Title" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.038461,0},{0,0},{0.615384,0},{0.185185,0}}" />
+                    <Window Type="DejaVu/StaticText" Name="HouseCatchPetWnd/Frame/TeamInfo/Title/Text" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="x捕捉隊伍" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.268049,0},{0.2,0},{0.868049,0},{0.8,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="HouseCatchPetWnd/Frame/TeamInfo/Title/Img" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Image" Value="set:DejaVu image:Image05" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.099338,0},{0.2,0},{0.198676,0},{0.8,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Button" Name="HouseCatchPetWnd/Frame/GOBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="x出發" />
+                <Property Name="UnifiedAreaRect" Value="{{0.696183,0},{0.928854,0},{0.968584,0},{0.980237,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="HouseCatchPetWnd/Frame/GetBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="x領取" />
+                <Property Name="UnifiedAreaRect" Value="{{0.405018,0},{0.928854,0},{0.677419,0},{0.980237,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="HouseCatchPetWnd/Mask" >
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1.00358,0},{0.998024,0}}" />
+            <Property Name="Visible" Value="False" />
+        </Window>
+    </Window>
+</GUILayout>

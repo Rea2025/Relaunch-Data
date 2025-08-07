@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/CollectionItemInGameWnd" >
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.359375,0},{0.620653,0}}" />
+        <Window Type="DejaVu/Embed" Name="Root/CollectionItemInGameWnd/Embed" >
+            <Property Name="UnifiedAreaRect" Value="{{-0.00289855,0},{0.00339559,0},{0.997101,0},{1.0034,0}}" />
+            <Window Type="DejaVu/Embed2" Name="Root/CollectionItemInGameWnd/BG/BG2" >
+                <Property Name="UnifiedAreaRect" Value="{{0.275362,0},{0.118584,0},{0.985507,0},{0.79646,0}}" />
+                <Window Type="DejaVu/ScrollablePane" Name="Root/CollectionItemInGameWnd/BG/BG2/ItemList" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                    <Property Name="HorzOverlapSize" Value="0.01" />
+                    <Property Name="HorzScrollPosition" Value="0" />
+                    <Property Name="HorzStepSize" Value="0.1" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0102041,0},{0.075718,0},{0.989796,0},{0.989556,0}}" />
+                    <Property Name="VertOverlapSize" Value="0.01" />
+                    <Property Name="VertScrollPosition" Value="0" />
+                    <Property Name="VertStepSize" Value="0.1" />
+                    <AutoWindow NameSuffix="__auto_container__" >
+                        <Property Name="ChildExtentsArea" Value="l:0 t:0 r:0 b:0" />
+                        <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                        <Property Name="MouseInputPropagationEnabled" Value="True" />
+                    </AutoWindow>
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab7" Name="Root/CollectionItemInGameWnd/BG/BG2/Title" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="x收藏列表" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.00408163,0},{0.00522193,0},{0.995918,0},{0.073107,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed2" Name="Root/CollectionItemInGameWnd/BG/TypeTree" >
+                <Property Name="UnifiedAreaRect" Value="{{0.0144928,0},{0.118584,0},{0.268116,0},{0.663717,0}}" />
+                <Window Type="DejaVu/EmbedTextLab7" Name="Root/CollectionItemInGameWnd/BG/TypeTree/Title" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" >x選擇分類
+</Property>
+                    <Property Name="UnifiedAreaRect" Value="{{0.0114286,0},{0.00649351,0},{0.988571,0},{0.0909091,0}}" />
+                </Window>
+                <Window Type="DejaVu/ScrollablePane" Name="Root/CollectionItemInGameWnd/BG/TypeTree/BG" >
+                    <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                    <Property Name="HorzOverlapSize" Value="0.01" />
+                    <Property Name="HorzScrollPosition" Value="0" />
+                    <Property Name="HorzStepSize" Value="0.1" />
+                    <Property Name="ID" Value="9999" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0285714,0},{0.0876623,0},{0.971429,0},{0.987013,0}}" />
+                    <Property Name="VertOverlapSize" Value="0.01" />
+                    <Property Name="VertScrollPosition" Value="0" />
+                    <Property Name="VertStepSize" Value="0.1" />
+                    <AutoWindow NameSuffix="__auto_container__" >
+                        <Property Name="ChildExtentsArea" Value="l:0 t:0 r:0 b:0" />
+                        <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                        <Property Name="MouseInputPropagationEnabled" Value="True" />
+                    </AutoWindow>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed2" Name="Root/CollectionItemInGameWnd/BG/Tool" >
+                <Property Name="UnifiedAreaRect" Value="{{0.28442,0},{0.0186757,0},{0.717391,0},{0.108659,0}}" />
+                <Window Type="DejaVu/Checkbox" Name="Root/CollectionItemInGameWnd/BG/Tool/Check1" >
+                    <Property Name="Text" >x反向排序
+</Property>
+                    <Property Name="UnifiedAreaRect" Value="{{0.00824742,0},{0,0},{0.35464,0},{0.509434,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/CollectionItemInGameWnd/BG/Tool/Check2" >
+                    <Property Name="Text" >x僅顯示擁有商品
+</Property>
+                    <Property Name="UnifiedAreaRect" Value="{{0.585774,0},{0,0},{1,0},{0.512195,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/CollectionItemInGameWnd/BG/Tool/Check3" >
+                    <Property Name="Text" Value="x僅顯示與角色性別相同商品" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.008247,0},{0.490566,0},{0.568916,0},{0.978371,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/CollectionItemInGameWnd/BG/Tool/Check4" >
+                    <Property Name="Text" >x僅顯示未積分收藏
+</Property>
+                    <Property Name="UnifiedAreaRect" Value="{{0.585774,0},{0.487805,0},{1,0},{1,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed2" Name="Root/CollectionItemInGameWnd/BG/Add" >
+                <Property Name="UnifiedAreaRect" Value="{{0.275362,0},{0.80531,0},{0.985507,0},{0.916814,0}}" />
+                <Window Type="DejaVu/SlotImage" Name="Root/CollectionItemInGameWnd/BG/Add/Item1" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.022449,0},{0.15873,0},{0.108163,0},{0.825397,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/CollectionItemInGameWnd/BG/Add/Item2" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.118367,0},{0.15873,0},{0.204082,0},{0.825397,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/CollectionItemInGameWnd/BG/Add/Item3" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.214286,0},{0.15873,0},{0.3,0},{0.825397,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/CollectionItemInGameWnd/BG/Add/Item4" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.310204,0},{0.15873,0},{0.395918,0},{0.825397,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/CollectionItemInGameWnd/BG/Add/Item5" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.406122,0},{0.15873,0},{0.491837,0},{0.825397,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/CollectionItemInGameWnd/BG/Add/Item6" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.502041,0},{0.15873,0},{0.587755,0},{0.825397,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/CollectionItemInGameWnd/BG/Add/Item7" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.597959,0},{0.15873,0},{0.683673,0},{0.825397,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/CollectionItemInGameWnd/BG/Add/Item8" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.693878,0},{0.15873,0},{0.779592,0},{0.825397,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/CollectionItemInGameWnd/BG/Add/Item9" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.789796,0},{0.15873,0},{0.87551,0},{0.825397,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/CollectionItemInGameWnd/BG/Add/Item10" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.885714,0},{0.15873,0},{0.971429,0},{0.825397,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed2" Name="Root/CollectionItemInGameWnd/BG/Info" >
+                <Property Name="UnifiedAreaRect" Value="{{0.0144928,0},{0.672566,0},{0.268116,0},{0.916814,0}}" />
+                <Window Type="DejaVu/EmbedTextLab7" Name="Root/CollectionItemInGameWnd/BG/Info/Title" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" >x收藏進度
+</Property>
+                    <Property Name="UnifiedAreaRect" Value="{{0.0114286,0},{0.0217391,0},{0.988571,0},{0.202899,0}}" />
+                </Window>
+                <Window Type="DejaVu/Static" Name="Root/CollectionItemInGameWnd/BG/Info/Count" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.0228571,0},{0.194444,0},{0.977143,0},{0.375,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/CollectionItemInGameWnd/BG/Info/Count/Text1" >
+                        <Property Name="Text" >x收藏件數
+</Property>
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.458065,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/CollectionItemInGameWnd/BG/Info/Count/Text2" >
+                        <Property Name="HorzFormatting" Value="RightAligned" />
+                        <Property Name="Text" Value="--件" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.645161,0},{0,0},{1,0},{1,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Static" Name="Root/CollectionItemInGameWnd/BG/Info/Rate" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.0228571,0},{0.375,0},{0.977143,0},{0.555556,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/CollectionItemInGameWnd/BG/Info/Rate/Text1" >
+                        <Property Name="Text" >x收藏率
+</Property>
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.451613,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/CollectionItemInGameWnd/BG/Info/Rate/Text2" >
+                        <Property Name="HorzFormatting" Value="RightAligned" />
+                        <Property Name="Text" Value="--%" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.651028,0},{0,0},{1.00587,0},{1,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Static" Name="Root/CollectionItemInGameWnd/BG/Info/Rank" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.0228571,0},{0.555556,0},{0.977143,0},{0.736111,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/CollectionItemInGameWnd/BG/Info/Rank/Text1" >
+                        <Property Name="Text" >x收藏階級
+</Property>
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.360495,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/CollectionItemInGameWnd/BG/Info/Rank/Text2" >
+                        <Property Name="HorzFormatting" Value="RightAligned" />
+                        <Property Name="Text" Value="x階級名稱" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.383275,0},{0,0},{1,0},{1,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Static" Name="Root/CollectionItemInGameWnd/BG/Info/Point" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.0228571,0},{0.736111,0},{0.977143,0},{0.916667,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/CollectionItemInGameWnd/BG/Info/Point/Text1" >
+                        <Property Name="Text" Value="x收藏積分" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.371885,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/CollectionItemInGameWnd/BG/Info/Point/Text2" >
+                        <Property Name="HorzFormatting" Value="RightAligned" />
+                        <Property Name="Text" Value="---/---" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.37758,0},{0,0},{1,0},{1,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="Root/CollectionItemInGameWnd/Text" >
+                <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                <Property Name="LinespaceWindow" Value="True" />
+                <Property Name="Text" >對背包內商品點選右鍵可放入。
+對收藏冊內商品點選右鍵可取出。</Property>
+                <Property Name="UnifiedAreaRect" Value="{{0.724638,0},{0.0186757,0},{0.998551,0},{0.0950764,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/CollectionItemInGameWnd/RankRewardBtn" >
+                <Property Name="Text" Value="x收藏獎勵" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0145455,0},{0.931416,0},{0.149091,0},{0.980088,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/CollectionItemInGameWnd/NormalCollectBtn" >
+                <Property Name="Text" Value="x一般收藏" />
+                <Property Name="UnifiedAreaRect" Value="{{0.704348,0},{0.930973,0},{0.837681,0},{0.978761,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/CollectionItemInGameWnd/RankCollectBtn" >
+                <Property Name="Text" Value="x積分收藏" />
+                <Property Name="UnifiedAreaRect" Value="{{0.852174,0},{0.930973,0},{0.985507,0},{0.978761,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/CollectionItemInGameWnd/RankChangeBtn" >
+                <Property Name="Text" Value="x一鍵積分收藏" />
+                <Property Name="UnifiedAreaRect" Value="{{0.556522,0},{0.932089,0},{0.689855,0},{0.979627,0}}" />
+            </Window>
+            <Window Type="DejaVu/Embed2" Name="Root/CollectionItemInGameWnd/Search" >
+                <Property Name="UnifiedAreaRect" Value="{{0.014545,0},{0.017699,0},{0.26909,0},{0.108407,0}}" />
+                <Window Type="DejaVu/EmbedTextLab7" Name="Root/CollectionItemInGameWnd/Search/Title" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="x關鍵字" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0141844,0},{0,0},{0.985816,0},{0.512195,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/CollectionItemInGameWnd/Search/InputBox" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0141844,0},{0.512195,0},{0.985816,0},{1,0}}" />
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

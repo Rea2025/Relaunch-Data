@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="InventoryBagsWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="TitlebarImage" Value="set:main image:BagNormal" />
+        <Property Name="UnifiedAreaRect" Value="{{0.15,0},{0.489383,0},{0.15,275},{0.489383,101}}" />
+        <Window Type="DejaVu/Embed" Name="InventoryBagsWnd/Embed" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,260},{0,20}}" />
+            <Window Type="DejaVu/Embed2" Name="InventoryBagsWnd/Embed/BagContainer" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.03861,0},{0.47619,0},{0.03861,240},{0.47619,1}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

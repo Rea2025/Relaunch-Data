@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="MessageBoardItem" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,438},{0,20}}" />
+        <Window Type="DejaVu/EmbedTextLab2" Name="MessageBoardItem/Number" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="Text" Value="Number" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.118721,0},{1,0}}" />
+        </Window>
+        <Window Type="DejaVu/EmbedTextLab2" Name="MessageBoardItem/Title" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="Text" Value="Title" />
+            <Property Name="UnifiedAreaRect" Value="{{0.118721,0},{0,0},{0.550228,0},{1,0}}" />
+        </Window>
+        <Window Type="DejaVu/EmbedTextLab2" Name="MessageBoardItem/Name" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="Text" Value="Name" />
+            <Property Name="UnifiedAreaRect" Value="{{0.545662,0},{0,0},{0.751142,0},{1,0}}" />
+        </Window>
+        <Window Type="DejaVu/EmbedTextLab2" Name="MessageBoardItem/Date" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="Text" Value="2010.05.25 16:00" />
+            <Property Name="UnifiedAreaRect" Value="{{0.748858,0},{0,0},{0.993151,0},{1,0}}" />
+        </Window>
+        <Window Type="DejaVu/Embed" Name="MessageBoardItem/SelectRect" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.995434,0},{1,0}}" />
+            <Property Name="VerticalAlignment" Value="Centre" />
+        </Window>
+    </Window>
+</GUILayout>

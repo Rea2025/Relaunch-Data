@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Bag_Helper" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="Text" Value="x背包小幫手" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.31543,0},{0.2567,0},{0.31543,374},{0.2567,282}}" />
+        <Window Type="DejaVu/Static" Name="Bag_Helper/Frame" >
+            <Property Name="BackgroundEnabled" Value="True" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Embed3" Name="Bag_Helper/Frame/BackGround" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.016949,0},{0.023787,0},{0.983051,0},{0.973578,0}}" />
+                <Window Type="DejaVu/Embed4" Name="Bag_Helper/Frame/Drop_Frame" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.014535,0},{0.108597,0},{0.985295,0},{0.284808,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="Bag_Helper/Frame/Drop_Frame/DropText" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="x自動丟棄" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.030488,0},{0.25,0},{0.211211,0},{0.75,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Checkbox" Name="Bag_Helper/Frame/Drop_Frame/WhiteEQ" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="x白色裝備" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.242424,0},{0.25,0},{0.484848,0},{0.75,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Checkbox" Name="Bag_Helper/Frame/Drop_Frame/GreenEQ" >
+                        <Property Name="Text" Value="x綠色裝備" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.512048,0},{0.25,0},{0.753012,0},{0.75,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed4" Name="Bag_Helper/Frame/Sell_Frame" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.01462,0},{0.30837,0},{0.98538,0},{0.484581,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="Bag_Helper/Frame/Sell_Frame/SellText" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="x自動販售" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.030488,0},{0.25,0},{0.211211,0},{0.75,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Checkbox" Name="Bag_Helper/Frame/Sell_Frame/WhiteEQ" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="x白色裝備" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.242424,0},{0.25,0},{0.484848,0},{0.75,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Checkbox" Name="Bag_Helper/Frame/Sell_Frame/GreenEQ" >
+                        <Property Name="Text" Value="x綠色裝備" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.512048,0},{0.25,0},{0.753012,0},{0.75,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed4" Name="Bag_Helper/Frame/Main_Frame" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.01462,0},{0.594714,0},{0.98538,0},{0.977974,0}}" />
+                    <Window Type="DejaVu/Checkbox" Name="Bag_Helper/Frame/Main_Frame/CheckEQ" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="x裝備耐久度低於" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.03012,0},{0.08046,0},{0.391566,0},{0.471265,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Checkbox" Name="Bag_Helper/Frame/Main_Frame/CheckMW" >
+                        <Property Name="Text" Value="x武器耐久度低於" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.02994,0},{0.526499,0},{0.391386,0},{0.917304,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Editbox" Name="Bag_Helper/Frame/Main_Frame/EditEQ" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="MaxTextLength" Value="2147483647" />
+                        <Property Name="Text" Value="999" />
+                        <Property Name="TextParsingEnabled" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.421687,0},{0.16092,0},{0.542169,0},{0.390805,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Editbox" Name="Bag_Helper/Frame/Main_Frame/EditMW" >
+                        <Property Name="MaxTextLength" Value="2147483647" />
+                        <Property Name="Text" Value="999" />
+                        <Property Name="TextParsingEnabled" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.421687,0},{0.609195,0},{0.542169,0},{0.83908,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Bag_Helper/Frame/Main_Frame/LabelUse1" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="x使用物品" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.572289,0},{0.08046,0},{0.725903,0},{0.471265,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Bag_Helper/Frame/Main_Frame/LabelUse2" >
+                        <Property Name="Text" Value="x使用物品" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.572289,0},{0.528736,0},{0.725903,0},{0.919541,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Bag_Helper/Frame/Main_Frame/ItemEQ" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.756024,0},{0.0804598,0},{0.858434,0},{0.471264,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Bag_Helper/Frame/Main_Frame/ItemMW" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.757485,0},{0.53012,0},{0.859895,0},{0.920925,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Bag_Helper/Frame/Main_Frame/LabelFix1" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="x修理" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.879518,0},{0.0804598,0},{0.96988,0},{0.471264,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Bag_Helper/Frame/Main_Frame/LabelFix2" >
+                        <Property Name="Text" Value="x修理" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.879518,0},{0.528736,0},{0.96988,0},{0.91954,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Bag_Helper/Frame/Title" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="x背包管理" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.014535,0},{0.021277,0},{0.277693,0},{0.0873563,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Bag_Helper/Frame/Background/TutorialBtn" >
+                    <Property Name="DisabledImage" Value="set:DejaVu image:HelpButtonPressed" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                    <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                    <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.94186,0},{0.022624,0},{0.98572,0},{0.0887033,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Bag_Helper/Frame/RepairTitle" >
+                    <Property Name="Text" Value="x自動修裝" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.01462,0},{0.506608,0},{0.277778,0},{0.572687,0}}" />
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

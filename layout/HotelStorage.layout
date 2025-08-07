@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/HotelStorage" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.222778,0},{0.155523,0},{0.222778,334},{0.155523,96}}" />
+        <Window Type="DejaVu/Border" Name="Root/HotelStorage/Slots" >
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,298},{0,43}}" />
+        </Window>
+        <Window Type="DejaVu/Static" Name="Root/HotelStorage/Buttons" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,300},{0,35}}" />
+            <Property Name="VerticalAlignment" Value="Bottom" />
+            <Window Type="DejaVu/StaticImage" Name="Root/HotelStorage/Buttons/stimage1" >
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.118881,0},{0.971429,0}}" />
+                <Property Name="UnifiedMinSize" Value="{{0,34},{0,34}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/HotelStorage/Buttons/stimage2" >
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.132867,0},{0,0},{0.251748,0},{0.971429,0}}" />
+                <Property Name="UnifiedMinSize" Value="{{0,34},{0,34}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/HotelStorage/Buttons/stimage3" >
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.265734,0},{0,0},{0.384615,0},{0.971429,0}}" />
+                <Property Name="UnifiedMinSize" Value="{{0,34},{0,34}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/HotelStorage/Buttons/SettingBtn" >
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.864399,0},{0,0},{0.98328,0},{0.971429,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

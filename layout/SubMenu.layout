@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/Radar/SubMenu" >
+        <Property Name="ClippedByParent" Value="False" />
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HorizontalAlignment" Value="Right" />
+        <Property Name="MousePassThroughEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,195},{0,152},{0,544}}" />
+        <Window Type="DefaultWindow" Name="Root/Radar/SubMenu/Activities" >
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="HorizontalAlignment" Value="Right" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.868421,0},{0.0916905,0}}" />
+            <Window Type="DejaVu/StaticImage" Name="Root/Radar/SubMenu/Activities/BG" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Image" Value="set:DejaVu image:IconTips" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.901515,0},{0.53125,0}}" />
+                <Property Name="VerticalAlignment" Value="Bottom" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/Radar/SubMenu/Activities/Name" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="Activities(?)" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.53125,0}}" />
+                <Property Name="VerticalAlignment" Value="Bottom" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/Radar/SubMenu/Activities/Button" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="DisabledImage" Value="set:main image:EventP" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="HoverImage" Value="set:main image:EventH" />
+                <Property Name="NormalImage" Value="set:main image:EventN" />
+                <Property Name="PushedImage" Value="set:main image:EventP" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.242424,0},{1,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DefaultWindow" Name="Root/Radar/SubMenu/Social" >
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="HorizontalAlignment" Value="Right" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0916905,0},{0.868421,0},{0.183381,0}}" />
+            <Window Type="DejaVu/StaticImage" Name="Root/Radar/SubMenu/Social/BG" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Image" Value="set:DejaVu image:IconTips" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.901515,0},{0.53125,0}}" />
+                <Property Name="VerticalAlignment" Value="Bottom" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/Radar/SubMenu/Social/Name" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="Social(?)" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.53125,0}}" />
+                <Property Name="VerticalAlignment" Value="Bottom" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/Radar/SubMenu/Social/Button" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="DisabledImage" Value="set:main image:EventP" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="HoverImage" Value="set:main image:FunctionCommuHover" />
+                <Property Name="NormalImage" Value="set:main image:FunctionCommuNormal" />
+                <Property Name="PushedImage" Value="set:main image:FunctionCommuPress" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.242424,0},{1,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DefaultWindow" Name="Root/Radar/SubMenu/Association" >
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="HorizontalAlignment" Value="Right" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.183381,0},{0.868421,0},{0.275072,0}}" />
+            <Window Type="DejaVu/StaticImage" Name="Root/Radar/SubMenu/Association/BG" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Image" Value="set:DejaVu image:IconTips" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.901515,0},{0.53125,0}}" />
+                <Property Name="VerticalAlignment" Value="Bottom" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/Radar/SubMenu/Association/Name" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="Association(?)" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.53125,0}}" />
+                <Property Name="VerticalAlignment" Value="Bottom" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/Radar/SubMenu/Association/Button" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="DisabledImage" Value="set:main image:EventP" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="HoverImage" Value="set:main image:FunctionCityHover" />
+                <Property Name="NormalImage" Value="set:main image:FunctionCityNormal" />
+                <Property Name="PushedImage" Value="set:main image:FunctionCityPress" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.242424,0},{1,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DefaultWindow" Name="Root/Radar/SubMenu/BattleField" >
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="HorizontalAlignment" Value="Right" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.275072,0},{0.868421,0},{0.366762,0}}" />
+            <Window Type="DejaVu/StaticImage" Name="Root/Radar/SubMenu/BattleField/BG" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Image" Value="set:DejaVu image:IconTips" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.901515,0},{0.53125,0}}" />
+                <Property Name="VerticalAlignment" Value="Bottom" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/Radar/SubMenu/BattleField/Name" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="BattleField(?)" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.53125,0}}" />
+                <Property Name="VerticalAlignment" Value="Bottom" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/Radar/SubMenu/BattleField/Button" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="DisabledImage" Value="set:main image:EventP" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="HoverImage" Value="set:main image:BattleH" />
+                <Property Name="NormalImage" Value="set:main image:BattleN" />
+                <Property Name="PushedImage" Value="set:main image:BattleP" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.242424,0},{1,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DefaultWindow" Name="Root/Radar/SubMenu/Appellation" >
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="HorizontalAlignment" Value="Right" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.366762,0},{0.868421,0},{0.458453,0}}" />
+            <Window Type="DejaVu/StaticImage" Name="Root/Radar/SubMenu/Appellation/BG" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Image" Value="set:DejaVu image:IconTips" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.901515,0},{0.53125,0}}" />
+                <Property Name="VerticalAlignment" Value="Bottom" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/Radar/SubMenu/Appellation/Name" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="Appellation(?)" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.53125,0}}" />
+                <Property Name="VerticalAlignment" Value="Bottom" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/Radar/SubMenu/Appellation/Button" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="DisabledImage" Value="set:main image:EventP" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="HoverImage" Value="set:DejaVu image:TitleH" />
+                <Property Name="NormalImage" Value="set:DejaVu image:TitleN" />
+                <Property Name="PushedImage" Value="set:DejaVu image:TitleP" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.242424,0},{1,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DefaultWindow" Name="Root/Radar/SubMenu/CollectionBook" >
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="HorizontalAlignment" Value="Right" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.458453,0},{0.868421,0},{0.550143,0}}" />
+            <Window Type="DejaVu/StaticImage" Name="Root/Radar/SubMenu/CollectionBook/BG" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Image" Value="set:DejaVu image:IconTips" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.901515,0},{0.53125,0}}" />
+                <Property Name="VerticalAlignment" Value="Bottom" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/Radar/SubMenu/CollectionBook/Name" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="CollectionBook(?)" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.53125,0}}" />
+                <Property Name="VerticalAlignment" Value="Bottom" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/Radar/SubMenu/CollectionBook/Button" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="DisabledImage" Value="set:main image:EventP" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="HoverImage" Value="set:DejaVu image:CollectionH" />
+                <Property Name="NormalImage" Value="set:DejaVu image:CollectionN" />
+                <Property Name="PushedImage" Value="set:DejaVu image:CollectionP" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.242424,0},{1,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DefaultWindow" Name="Root/Radar/SubMenu/Achievement" >
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="HorizontalAlignment" Value="Right" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.550143,0},{0.868421,0},{0.641834,0}}" />
+            <Window Type="DejaVu/StaticImage" Name="Root/Radar/SubMenu/Achievement/BG" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Image" Value="set:DejaVu image:IconTips" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.901515,0},{0.53125,0}}" />
+                <Property Name="VerticalAlignment" Value="Bottom" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/Radar/SubMenu/Achievement/Name" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="Achievement(?)" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.53125,0}}" />
+                <Property Name="VerticalAlignment" Value="Bottom" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/Radar/SubMenu/Achievement/Button" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="DisabledImage" Value="set:main image:EventP" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="HoverImage" Value="set:DejaVu image:SuccessH" />
+                <Property Name="NormalImage" Value="set:DejaVu image:SuccessN" />
+                <Property Name="PushedImage" Value="set:DejaVu image:SuccessP" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.242424,0},{1,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DefaultWindow" Name="Root/Radar/SubMenu/Prestige" >
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="HorizontalAlignment" Value="Right" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.641834,0},{0.868421,0},{0.733524,0}}" />
+            <Window Type="DejaVu/StaticImage" Name="Root/Radar/SubMenu/Prestige/BG" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Image" Value="set:DejaVu image:IconTips" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.901515,0},{0.53125,0}}" />
+                <Property Name="VerticalAlignment" Value="Bottom" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/Radar/SubMenu/Prestige/Name" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="Prestige(?)" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.53125,0}}" />
+                <Property Name="VerticalAlignment" Value="Bottom" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/Radar/SubMenu/Prestige/Button" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="DisabledImage" Value="set:main image:EventP" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="HoverImage" Value="set:DejaVu image:PrestigeH" />
+                <Property Name="NormalImage" Value="set:DejaVu image:PrestigeN" />
+                <Property Name="PushedImage" Value="set:DejaVu image:PrestigeP" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.242424,0},{1,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DefaultWindow" Name="Root/Radar/SubMenu/System" >
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="HorizontalAlignment" Value="Right" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.733524,0},{0.868421,0},{0.825215,0}}" />
+            <Window Type="DejaVu/StaticImage" Name="Root/Radar/SubMenu/System/BG" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Image" Value="set:DejaVu image:IconTips" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.901515,0},{0.53125,0}}" />
+                <Property Name="VerticalAlignment" Value="Bottom" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/Radar/SubMenu/System/Name" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="System(?)" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.53125,0}}" />
+                <Property Name="VerticalAlignment" Value="Bottom" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/Radar/SubMenu/System/Button" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="DisabledImage" Value="set:main image:EventP" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="HoverImage" Value="set:main image:FunctionSysHover" />
+                <Property Name="NormalImage" Value="set:main image:FunctionSysNormal" />
+                <Property Name="PushedImage" Value="set:main image:FunctionSysPress" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.242424,0},{1,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

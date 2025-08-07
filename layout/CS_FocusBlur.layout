@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/CS_FocusBlur" >
+        <Property Name="HorizontalAlignment" Value="Right" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.292969,0},{0.342448,0}}" />
+        <Window Type="DejaVu/FrameWindow" Name="Root/CS_FocusBlur/Background" >
+            <Property Name="ClippedByParent" Value="False" />
+            <Property Name="HelpButtonEnabled" Value="False" />
+            <Property Name="Text" Value="聚焦模糊" />
+            <Property Name="TitlebarEnabled" Value="True" />
+            <Property Name="TitlebarFont" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{-0.002,0},{0,300},{-0.002,389}}" />
+            <Window Type="DejaVu/Embed5" Name="Root/CS_FocusBlur/Background/Border_Position" >
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="UnifiedAreaRect" Value="{{0.00352113,0},{0.145631,0},{0.00352113,290},{0.145631,35}}" />
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_FocusBlur/Background/Border_Position/Text_X" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="X" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.155211,0},{0.174471,0},{0.236197,0},{0.880353,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/CS_FocusBlur/Background/Border_Position/Edit_X" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="Text" Value="0.0" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.224178,0},{0.172471,0},{0.477699,0},{0.878353,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_FocusBlur/Background/Border_Position/Text_Y" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="Y" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.528169,0},{0.176471,0},{0.609155,0},{0.941176,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/CS_FocusBlur/Background/Border_Position/Edit_Y" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="Text" >0.0
+</Property>
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.597136,0},{0.174471,0},{0.857699,0},{0.909765,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed5" Name="Root/CS_FocusBlur/Background/Border_Range" >
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.291262,0},{0,290},{0.291262,35}}" />
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_FocusBlur/Background/Border_Range/Text_Range" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="範圍" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.15493,0},{0.171429,0},{0.474618,0},{0.885715,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/CS_FocusBlur/Background/Border_Range/Edit_Range" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="Text" >0.0
+</Property>
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.528169,0},{0.175231,0},{0.854533,0},{0.918088,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed5" Name="Root/CS_FocusBlur/Background/Border_FadeOut" >
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.582524,0},{0,290},{0.582524,35}}" />
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_FocusBlur/Background/Border_FadeOut/Text_FadeOut" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="淡出開始時間" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.14881,0},{0.171429,0},{0.477432,0},{0.885715,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/CS_FocusBlur/Background/Border_FadeOut/Edit_FadeOut" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="Text" >0.0
+</Property>
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.530035,0},{0.171429,0},{0.865724,0},{0.914286,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed5" Name="Root/CS_FocusBlur/Background/Border_Use" >
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1.02113,0},{0.113269,0}}" />
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_FocusBlur/Background/Border_Use/Text_Use" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="使用" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.15493,0},{0.171429,0},{0.15493,93},{0.171429,25}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/CS_FocusBlur/Background/Border_Use/Check_Use" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.665272,0},{0.104292,0},{0.756822,0},{0.847149,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed5" Name="Root/CS_FocusBlur/Background/Border_FadeOutLength" >
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.728155,0},{1.02113,0},{0.841424,0}}" />
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_FocusBlur/Background/Border_FadeOutLength/Text_FadeOutLength" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="淡出持續時間" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.147887,0},{0.171429,0},{0.147887,95},{0.171429,25}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/CS_FocusBlur/Background/Border_FadeOutLength/Edit_FadeOutLength" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="Text" >0.0
+</Property>
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.53169,0},{0.171429,0},{0.873239,0},{0.914286,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed5" Name="Root/CS_FocusBlur/Background/Border_InvStrength" >
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.436893,0},{1.02113,0},{0.550162,0}}" />
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_FocusBlur/Background/Border_InvStrength/Text_InvStrength" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="模糊反強度" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.15493,0},{0.171429,0},{0.15493,93},{0.171429,25}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/CS_FocusBlur/Background/Border_InvStrength/Edit_InvStrength" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="Text" >0.0
+</Property>
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.528426,0},{0.204998,0},{0.528426,97},{0.204998,26}}" />
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

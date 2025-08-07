@@ -1,0 +1,704 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/Quest" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="TitlebarImage" Value="set:main image:DiaryNormal" />
+        <Property Name="UnifiedAreaRect" Value="{{0.268555,0},{0.148438,0},{0.268555,401},{0.148438,579}}" />
+        <Window Type="DejaVu/Embed" Name="Root/Static" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/StaticImage" Name="Root/Quest/TypeIcon" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0393258,0},{0,0},{0.224719,0},{0.0279851,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/Quest/CancelBtn" >
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="Text" Value="x拒絕" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.025974,0},{-0.0200401,0},{0.171429,0},{0.0320642,0}}" />
+                <Property Name="VerticalAlignment" Value="Bottom" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/Quest/AcceptBtn" >
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="Text" Value="x接受" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.236364,0},{-0.0200401,0},{-0.038961,0},{0.0320642,0}}" />
+                <Property Name="VerticalAlignment" Value="Bottom" />
+            </Window>
+            <Window Type="DejaVu/Static" Name="Root/Quest/BackGround" >
+                <Property Name="UnifiedAreaRect" Value="{{0.025974,0},{0.02004,0},{0.974026,0},{0.917836,0}}" />
+                <Window Type="DejaVu/Embed4" Name="Root/Quest/QuestInfo/Title0" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.027397,0},{0,0},{0.438356,0},{0.0558036,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/Quest/QuestInfo/Title0/Text" >
+                        <Property Name="Text" Value="x任務內容" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.2,0},{0.866667,0},{0.8,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/Quest/QuestInfo/Title0/Image" >
+                        <Property Name="Image" Value="set:DejaVu image:Image03" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed2" Name="Root/Quest/QuestInfo" >
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.022989,0},{1,0},{1,0}}" />
+                    <Window Type="DejaVu/EmbedTextLab7" Name="Root/Quest/QuestInfo/Title1" >
+                        <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                        <Property Name="Text" Value="xL01.初遇奇緣" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.027397,0},{0.057078,0},{0.972602,0},{0.114156,0}}" />
+                        <Window Type="DejaVu/EmbedText" Name="Root/Quest/QuestInfo/Title1/State" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="HorzFormatting" Value="RightAligned" />
+                            <Property Name="MousePassThroughEnabled" Value="True" />
+                            <Property Name="Text" Value="x完成" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.811594,0},{0,0},{0.971014,0},{1,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Embed5" Name="Root/Quest/QuestInfo/Condition" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.027397,0},{0.410959,0},{0.972602,0},{0.605023,0}}" />
+                        <Window Type="DejaVu/ScrollablePane" Name="Root/Quest/QuestInfo/Condition/Pane" >
+                            <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                            <Property Name="HorzOverlapSize" Value="0.01" />
+                            <Property Name="HorzScrollPosition" Value="0" />
+                            <Property Name="HorzStepSize" Value="0.1" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0144928,0},{0.0235294,0},{0.973913,0},{0.976471,0}}" />
+                            <Property Name="VertOverlapSize" Value="0.01" />
+                            <Property Name="VertScrollPosition" Value="0" />
+                            <Property Name="VertStepSize" Value="0.1" />
+                            <AutoWindow NameSuffix="__auto_container__" >
+                                <Property Name="ChildExtentsArea" Value="l:0 t:0 r:0 b:0" />
+                                <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                                <Property Name="MouseInputPropagationEnabled" Value="True" />
+                            </AutoWindow>
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab7" Name="Root/Quest/QuestInfo/Title2" >
+                        <Property Name="Text" Value="xConditionText" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0273973,0},{0.353881,0},{0.972603,0},{0.410959,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab7" Name="Root/Quest/QuestInfo/Title3" >
+                        <Property Name="Text" Value="xRewardText" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0273973,0},{0.616438,0},{0.972603,0},{0.673516,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Embed5" Name="Root/Quest/QuestInfo/RewardBG" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.027397,0},{0.673516,0},{0.972602,0},{0.977169,0}}" />
+                        <Window Type="DejaVu/ScrollablePane" Name="Root/Quest/QuestInfo/Reward" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="ContentArea" Value="l:0 t:0 r:316 b:185" />
+                            <Property Name="HorzOverlapSize" Value="0.01" />
+                            <Property Name="HorzScrollPosition" Value="0" />
+                            <Property Name="HorzStepSize" Value="0.1" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.02029,0},{0.0274446,0},{0.991305,0},{0.989851,0}}" />
+                            <Property Name="VertOverlapSize" Value="0.01" />
+                            <Property Name="VertScrollPosition" Value="0" />
+                            <Property Name="VertStepSize" Value="0.1" />
+                            <AutoWindow NameSuffix="__auto_container__" >
+                                <Property Name="ChildExtentsArea" Value="l:0 t:0 r:316 b:185" />
+                                <Property Name="ContentArea" Value="l:0 t:0 r:316 b:185" />
+                                <Property Name="MouseInputPropagationEnabled" Value="True" />
+                                <Window Type="DejaVu/Static" Name="Root/Quest/QuestInfo/Reward/SelectItem" >
+                                    <Property Name="MousePassThroughEnabled" Value="True" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.98806,0},{1.44531,0}}" />
+                                    <Window Type="DejaVu/Embed3" Name="Root/Quest/QuestInfo/Reward/SelectItem/Item1" >
+                                        <Property Name="MousePassThroughEnabled" Value="True" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.0151057,0},{0.15625,0},{0.0151057,42},{0.15625,42}}" />
+                                        <Window Type="DejaVu/SlotImage" Name="Root/Quest/QuestInfo/Reward/SelectItem/Item1/Slot" >
+                                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                            <Window Type="DejaVu/StaticTextLab" Name="Root/Quest/QuestInfo/Reward/SelectItem/Item1/Slot/Count" >
+                                                <Property Name="HorzFormatting" Value="RightAligned" />
+                                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                                <Property Name="VertFormatting" Value="BottomAligned" />
+                                            </Window>
+                                        </Window>
+                                    </Window>
+                                    <Window Type="DejaVu/Embed3" Name="Root/Quest/QuestInfo/Reward/SelectItem/Item2" >
+                                        <Property Name="MousePassThroughEnabled" Value="True" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.172205,0},{0.15625,0},{0.172205,42},{0.15625,42}}" />
+                                        <Window Type="DejaVu/SlotImage" Name="Root/Quest/QuestInfo/Reward/SelectItem/Item2/Slot" >
+                                            <Property Name="ID" Value="1" />
+                                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                            <Window Type="DejaVu/StaticTextLab" Name="Root/Quest/QuestInfo/Reward/SelectItem/Item2/Slot/Count" >
+                                                <Property Name="HorzFormatting" Value="RightAligned" />
+                                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                                <Property Name="VertFormatting" Value="BottomAligned" />
+                                            </Window>
+                                        </Window>
+                                    </Window>
+                                    <Window Type="DejaVu/Embed3" Name="Root/Quest/QuestInfo/Reward/SelectItem/Item3" >
+                                        <Property Name="ID" Value="2" />
+                                        <Property Name="MousePassThroughEnabled" Value="True" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.329305,0},{0.15625,0},{0.329305,42},{0.15625,42}}" />
+                                        <Window Type="DejaVu/SlotImage" Name="Root/Quest/QuestInfo/Reward/SelectItem/Item3/Slot" >
+                                            <Property Name="ID" Value="2" />
+                                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                            <Window Type="DejaVu/StaticTextLab" Name="Root/Quest/QuestInfo/Reward/SelectItem/Item3/Slot/Count" >
+                                                <Property Name="HorzFormatting" Value="RightAligned" />
+                                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                                <Property Name="VertFormatting" Value="BottomAligned" />
+                                            </Window>
+                                        </Window>
+                                    </Window>
+                                    <Window Type="DejaVu/Embed3" Name="Root/Quest/QuestInfo/Reward/SelectItem/Item4" >
+                                        <Property Name="ID" Value="3" />
+                                        <Property Name="MousePassThroughEnabled" Value="True" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.486405,0},{0.15625,0},{0.486405,42},{0.15625,42}}" />
+                                        <Window Type="DejaVu/SlotImage" Name="Root/Quest/QuestInfo/Reward/SelectItem/Item4/Slot" >
+                                            <Property Name="ID" Value="3" />
+                                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                            <Window Type="DejaVu/StaticTextLab" Name="Root/Quest/QuestInfo/Reward/SelectItem/Item4/Slot/Count" >
+                                                <Property Name="HorzFormatting" Value="RightAligned" />
+                                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                                <Property Name="VertFormatting" Value="BottomAligned" />
+                                            </Window>
+                                        </Window>
+                                    </Window>
+                                    <Window Type="DejaVu/Embed3" Name="Root/Quest/QuestInfo/Reward/SelectItem/Item5" >
+                                        <Property Name="ID" Value="4" />
+                                        <Property Name="MousePassThroughEnabled" Value="True" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.643505,0},{0.15625,0},{0.643505,42},{0.15625,42}}" />
+                                        <Window Type="DejaVu/SlotImage" Name="Root/Quest/QuestInfo/Reward/SelectItem/Item5/Slot" >
+                                            <Property Name="ID" Value="4" />
+                                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                            <Window Type="DejaVu/StaticTextLab" Name="Root/Quest/QuestInfo/Reward/SelectItem/Item5/Slot/Count" >
+                                                <Property Name="HorzFormatting" Value="RightAligned" />
+                                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                                <Property Name="VertFormatting" Value="BottomAligned" />
+                                            </Window>
+                                        </Window>
+                                    </Window>
+                                    <Window Type="DejaVu/Embed3" Name="Root/Quest/QuestInfo/Reward/SelectItem/Item6" >
+                                        <Property Name="ID" Value="5" />
+                                        <Property Name="MousePassThroughEnabled" Value="True" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.800604,0},{0.15625,0},{0.800604,42},{0.15625,42}}" />
+                                        <Window Type="DejaVu/SlotImage" Name="Root/Quest/QuestInfo/Reward/SelectItem/Item6/Slot" >
+                                            <Property Name="ID" Value="5" />
+                                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                            <Window Type="DejaVu/StaticTextLab" Name="Root/Quest/QuestInfo/Reward/SelectItem/Item6/Slot/Count" >
+                                                <Property Name="HorzFormatting" Value="RightAligned" />
+                                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                                <Property Name="VertFormatting" Value="BottomAligned" />
+                                            </Window>
+                                        </Window>
+                                    </Window>
+                                    <Window Type="DejaVu/Embed3" Name="Root/Quest/QuestInfo/Reward/SelectItem/Item7" >
+                                        <Property Name="ID" Value="6" />
+                                        <Property Name="MousePassThroughEnabled" Value="True" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.0151057,0},{0.429688,0},{0.0151057,42},{0.429688,42}}" />
+                                        <Window Type="DejaVu/SlotImage" Name="Root/Quest/QuestInfo/Reward/SelectItem/Item7/Slot" >
+                                            <Property Name="ID" Value="6" />
+                                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                            <Window Type="DejaVu/StaticTextLab" Name="Root/Quest/QuestInfo/Reward/SelectItem/Item7/Slot/Count" >
+                                                <Property Name="HorzFormatting" Value="RightAligned" />
+                                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                                <Property Name="VertFormatting" Value="BottomAligned" />
+                                            </Window>
+                                        </Window>
+                                    </Window>
+                                    <Window Type="DejaVu/Embed3" Name="Root/Quest/QuestInfo/Reward/SelectItem/Item8" >
+                                        <Property Name="ID" Value="7" />
+                                        <Property Name="MousePassThroughEnabled" Value="True" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.172205,0},{0.429688,0},{0.172205,42},{0.429688,42}}" />
+                                        <Window Type="DejaVu/SlotImage" Name="Root/Quest/QuestInfo/Reward/SelectItem/Item8/Slot" >
+                                            <Property Name="ID" Value="7" />
+                                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                            <Window Type="DejaVu/StaticTextLab" Name="Root/Quest/QuestInfo/Reward/SelectItem/Item8/Slot/Count" >
+                                                <Property Name="HorzFormatting" Value="RightAligned" />
+                                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                                <Property Name="VertFormatting" Value="BottomAligned" />
+                                            </Window>
+                                        </Window>
+                                    </Window>
+                                    <Window Type="DejaVu/StaticTextLab" Name="Root/Quest/QuestInfo/Reward/SelectItem/Tag" >
+                                        <Property Name="MousePassThroughEnabled" Value="True" />
+                                        <Property Name="Text" Value="x選擇物品：" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.271903,0},{0.117188,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/Embed3" Name="Root/Quest/QuestInfo/Reward/SelectItem/Item9" >
+                                        <Property Name="ID" Value="8" />
+                                        <Property Name="MousePassThroughEnabled" Value="True" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.329305,0},{0.429688,0},{0.329305,42},{0.429688,42}}" />
+                                        <Window Type="DejaVu/SlotImage" Name="Root/Quest/QuestInfo/Reward/SelectItem/Item9/Slot" >
+                                            <Property Name="ID" Value="8" />
+                                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                            <Window Type="DejaVu/StaticTextLab" Name="Root/Quest/QuestInfo/Reward/SelectItem/Item9/Slot/Count" >
+                                                <Property Name="HorzFormatting" Value="RightAligned" />
+                                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                                <Property Name="VertFormatting" Value="BottomAligned" />
+                                            </Window>
+                                        </Window>
+                                    </Window>
+                                    <Window Type="DejaVu/Embed3" Name="Root/Quest/QuestInfo/Reward/SelectItem/Item10" >
+                                        <Property Name="ID" Value="9" />
+                                        <Property Name="MousePassThroughEnabled" Value="True" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.486405,0},{0.429688,0},{0.486405,42},{0.429688,42}}" />
+                                        <Window Type="DejaVu/SlotImage" Name="Root/Quest/QuestInfo/Reward/SelectItem/Item10/Slot" >
+                                            <Property Name="ID" Value="9" />
+                                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                            <Window Type="DejaVu/StaticTextLab" Name="Root/Quest/QuestInfo/Reward/SelectItem/Item10/Slot/Count" >
+                                                <Property Name="HorzFormatting" Value="RightAligned" />
+                                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                                <Property Name="VertFormatting" Value="BottomAligned" />
+                                            </Window>
+                                        </Window>
+                                    </Window>
+                                    <Window Type="DejaVu/Embed3" Name="Root/Quest/QuestInfo/Reward/SelectItem/Item11" >
+                                        <Property Name="ID" Value="10" />
+                                        <Property Name="MousePassThroughEnabled" Value="True" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.643505,0},{0.429688,0},{0.643505,42},{0.429688,42}}" />
+                                        <Window Type="DejaVu/SlotImage" Name="Root/Quest/QuestInfo/Reward/SelectItem/Item11/Slot" >
+                                            <Property Name="ID" Value="10" />
+                                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                            <Window Type="DejaVu/StaticTextLab" Name="Root/Quest/QuestInfo/Reward/SelectItem/Item11/Slot/Count" >
+                                                <Property Name="HorzFormatting" Value="RightAligned" />
+                                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                                <Property Name="VertFormatting" Value="BottomAligned" />
+                                            </Window>
+                                        </Window>
+                                    </Window>
+                                    <Window Type="DejaVu/Embed3" Name="Root/Quest/QuestInfo/Reward/SelectItem/Item12" >
+                                        <Property Name="ID" Value="11" />
+                                        <Property Name="MousePassThroughEnabled" Value="True" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.800604,0},{0.429688,0},{0.800604,42},{0.429688,42}}" />
+                                        <Window Type="DejaVu/SlotImage" Name="Root/Quest/QuestInfo/Reward/SelectItem/Item12/Slot" >
+                                            <Property Name="ID" Value="11" />
+                                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                            <Window Type="DejaVu/StaticTextLab" Name="Root/Quest/QuestInfo/Reward/SelectItem/Item12/Slot/Count" >
+                                                <Property Name="HorzFormatting" Value="RightAligned" />
+                                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                                <Property Name="VertFormatting" Value="BottomAligned" />
+                                            </Window>
+                                        </Window>
+                                    </Window>
+                                    <Window Type="DejaVu/Embed3" Name="Root/Quest/QuestInfo/Reward/SelectItem/Item13" >
+                                        <Property Name="MousePassThroughEnabled" Value="True" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.0151057,0},{0.703125,0},{0.0151057,42},{0.703125,42}}" />
+                                        <Window Type="DejaVu/SlotImage" Name="Root/Quest/QuestInfo/Reward/SelectItem/Item13/Slot" >
+                                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                            <Window Type="DejaVu/StaticTextLab" Name="Root/Quest/QuestInfo/Reward/SelectItem/Item13/Slot/Count" >
+                                                <Property Name="HorzFormatting" Value="RightAligned" />
+                                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                                <Property Name="VertFormatting" Value="BottomAligned" />
+                                            </Window>
+                                        </Window>
+                                    </Window>
+                                    <Window Type="DejaVu/Embed3" Name="Root/Quest/QuestInfo/Reward/SelectItem/Item14" >
+                                        <Property Name="MousePassThroughEnabled" Value="True" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.172205,0},{0.703125,0},{0.172205,42},{0.703125,42}}" />
+                                        <Window Type="DejaVu/SlotImage" Name="Root/Quest/QuestInfo/Reward/SelectItem/Item14/Slot" >
+                                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                            <Window Type="DejaVu/StaticTextLab" Name="Root/Quest/QuestInfo/Reward/SelectItem/Item14/Slot/Count" >
+                                                <Property Name="HorzFormatting" Value="RightAligned" />
+                                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                                <Property Name="VertFormatting" Value="BottomAligned" />
+                                            </Window>
+                                        </Window>
+                                    </Window>
+                                    <Window Type="DejaVu/Embed3" Name="Root/Quest/QuestInfo/Reward/SelectItem/Item15" >
+                                        <Property Name="MousePassThroughEnabled" Value="True" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.329305,0},{0.703125,0},{0.329305,42},{0.703125,42}}" />
+                                        <Window Type="DejaVu/SlotImage" Name="Root/Quest/QuestInfo/Reward/SelectItem/Item15/Slot" >
+                                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                            <Window Type="DejaVu/StaticTextLab" Name="Root/Quest/QuestInfo/Reward/SelectItem/Item15/Slot/Count" >
+                                                <Property Name="HorzFormatting" Value="RightAligned" />
+                                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                                <Property Name="VertFormatting" Value="BottomAligned" />
+                                            </Window>
+                                        </Window>
+                                    </Window>
+                                    <Window Type="DejaVu/Embed3" Name="Root/Quest/QuestInfo/Reward/SelectItem/Item16" >
+                                        <Property Name="MousePassThroughEnabled" Value="True" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.486405,0},{0.703125,0},{0.486405,42},{0.703125,42}}" />
+                                        <Window Type="DejaVu/SlotImage" Name="Root/Quest/QuestInfo/Reward/SelectItem/Item16/Slot" >
+                                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                            <Window Type="DejaVu/StaticTextLab" Name="Root/Quest/QuestInfo/Reward/SelectItem/Item16/Slot/Count" >
+                                                <Property Name="HorzFormatting" Value="RightAligned" />
+                                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                                <Property Name="VertFormatting" Value="BottomAligned" />
+                                            </Window>
+                                        </Window>
+                                    </Window>
+                                    <Window Type="DejaVu/Embed3" Name="Root/Quest/QuestInfo/Reward/SelectItem/Item17" >
+                                        <Property Name="MousePassThroughEnabled" Value="True" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.643505,0},{0.703125,0},{0.643505,42},{0.703125,42}}" />
+                                        <Window Type="DejaVu/SlotImage" Name="Root/Quest/QuestInfo/Reward/SelectItem/Item17/Slot" >
+                                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                            <Window Type="DejaVu/StaticTextLab" Name="Root/Quest/QuestInfo/Reward/SelectItem/Item17/Slot/Count" >
+                                                <Property Name="HorzFormatting" Value="RightAligned" />
+                                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                                <Property Name="VertFormatting" Value="BottomAligned" />
+                                            </Window>
+                                        </Window>
+                                    </Window>
+                                    <Window Type="DejaVu/Embed3" Name="Root/Quest/QuestInfo/Reward/SelectItem/Item18" >
+                                        <Property Name="MousePassThroughEnabled" Value="True" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.800604,0},{0.703125,0},{0.800604,42},{0.703125,42}}" />
+                                        <Window Type="DejaVu/SlotImage" Name="Root/Quest/QuestInfo/Reward/SelectItem/Item18/Slot" >
+                                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                            <Window Type="DejaVu/StaticTextLab" Name="Root/Quest/QuestInfo/Reward/SelectItem/Item18/Slot/Count" >
+                                                <Property Name="HorzFormatting" Value="RightAligned" />
+                                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                                <Property Name="VertFormatting" Value="BottomAligned" />
+                                            </Window>
+                                        </Window>
+                                    </Window>
+                                </Window>
+                                <Window Type="DejaVu/Static" Name="Root/Quest/QuestInfo/Reward/GetItem" >
+                                    <Property Name="MousePassThroughEnabled" Value="True" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.98806,0},{1.44531,0}}" />
+                                    <Window Type="DejaVu/Embed3" Name="Root/Quest/QuestInfo/Reward/GetItem/Item1" >
+                                        <Property Name="ID" Value="100" />
+                                        <Property Name="MousePassThroughEnabled" Value="True" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.0151057,0},{0.15625,0},{0.0151057,42},{0.15625,42}}" />
+                                        <Window Type="DejaVu/SlotImage" Name="Root/Quest/QuestInfo/Reward/GetItem/Item1/Slot" >
+                                            <Property Name="ID" Value="100" />
+                                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                            <Window Type="DejaVu/StaticTextLab" Name="Root/Quest/QuestInfo/Reward/GetItem/Item1/Slot/Count" >
+                                                <Property Name="HorzFormatting" Value="RightAligned" />
+                                                <Property Name="ID" Value="1" />
+                                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                                <Property Name="VertFormatting" Value="BottomAligned" />
+                                            </Window>
+                                        </Window>
+                                    </Window>
+                                    <Window Type="DejaVu/Embed3" Name="Root/Quest/QuestInfo/Reward/GetItem/Item2" >
+                                        <Property Name="ID" Value="101" />
+                                        <Property Name="MousePassThroughEnabled" Value="True" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.172205,0},{0.15625,0},{0.172205,42},{0.15625,42}}" />
+                                        <Window Type="DejaVu/SlotImage" Name="Root/Quest/QuestInfo/Reward/GetItem/Item2/Slot" >
+                                            <Property Name="ID" Value="101" />
+                                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                            <Window Type="DejaVu/StaticTextLab" Name="Root/Quest/QuestInfo/Reward/GetItem/Item2/Slot/Count" >
+                                                <Property Name="HorzFormatting" Value="RightAligned" />
+                                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                                <Property Name="VertFormatting" Value="BottomAligned" />
+                                            </Window>
+                                        </Window>
+                                    </Window>
+                                    <Window Type="DejaVu/Embed3" Name="Root/Quest/QuestInfo/Reward/GetItem/Item3" >
+                                        <Property Name="ID" Value="102" />
+                                        <Property Name="MousePassThroughEnabled" Value="True" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.329305,0},{0.15625,0},{0.329305,42},{0.15625,42}}" />
+                                        <Window Type="DejaVu/SlotImage" Name="Root/Quest/QuestInfo/Reward/GetItem/Item3/Slot" >
+                                            <Property Name="ID" Value="102" />
+                                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                            <Window Type="DejaVu/StaticTextLab" Name="Root/Quest/QuestInfo/Reward/GetItem/Item3/Slot/Count" >
+                                                <Property Name="HorzFormatting" Value="RightAligned" />
+                                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                                <Property Name="VertFormatting" Value="BottomAligned" />
+                                            </Window>
+                                        </Window>
+                                    </Window>
+                                    <Window Type="DejaVu/Embed3" Name="Root/Quest/QuestInfo/Reward/GetItem/Item4" >
+                                        <Property Name="ID" Value="103" />
+                                        <Property Name="MousePassThroughEnabled" Value="True" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.486405,0},{0.15625,0},{0.486405,42},{0.15625,42}}" />
+                                        <Window Type="DejaVu/SlotImage" Name="Root/Quest/QuestInfo/Reward/GetItem/Item4/Slot" >
+                                            <Property Name="ID" Value="103" />
+                                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                            <Window Type="DejaVu/StaticTextLab" Name="Root/Quest/QuestInfo/Reward/GetItem/Item4/Slot/Count" >
+                                                <Property Name="HorzFormatting" Value="RightAligned" />
+                                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                                <Property Name="VertFormatting" Value="BottomAligned" />
+                                            </Window>
+                                        </Window>
+                                    </Window>
+                                    <Window Type="DejaVu/Embed3" Name="Root/Quest/QuestInfo/Reward/GetItem/Item5" >
+                                        <Property Name="ID" Value="104" />
+                                        <Property Name="MousePassThroughEnabled" Value="True" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.643505,0},{0.15625,0},{0.643505,42},{0.15625,42}}" />
+                                        <Window Type="DejaVu/SlotImage" Name="Root/Quest/QuestInfo/Reward/GetItem/Item5/Slot" >
+                                            <Property Name="ID" Value="104" />
+                                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                            <Window Type="DejaVu/StaticTextLab" Name="Root/Quest/QuestInfo/Reward/GetItem/Item5/Slot/Count" >
+                                                <Property Name="HorzFormatting" Value="RightAligned" />
+                                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                                <Property Name="VertFormatting" Value="BottomAligned" />
+                                            </Window>
+                                        </Window>
+                                    </Window>
+                                    <Window Type="DejaVu/Embed3" Name="Root/Quest/QuestInfo/Reward/GetItem/Item6" >
+                                        <Property Name="ID" Value="105" />
+                                        <Property Name="MousePassThroughEnabled" Value="True" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.800604,0},{0.15625,0},{0.800604,42},{0.15625,42}}" />
+                                        <Window Type="DejaVu/SlotImage" Name="Root/Quest/QuestInfo/Reward/GetItem/Item6/Slot" >
+                                            <Property Name="ID" Value="105" />
+                                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                            <Window Type="DejaVu/StaticTextLab" Name="Root/Quest/QuestInfo/Reward/GetItem/Item6/Slot/Count" >
+                                                <Property Name="HorzFormatting" Value="RightAligned" />
+                                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                                <Property Name="VertFormatting" Value="BottomAligned" />
+                                            </Window>
+                                        </Window>
+                                    </Window>
+                                    <Window Type="DejaVu/Embed3" Name="Root/Quest/QuestInfo/Reward/GetItem/Item7" >
+                                        <Property Name="ID" Value="106" />
+                                        <Property Name="MousePassThroughEnabled" Value="True" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.0151057,0},{0.429688,0},{0.0151057,42},{0.429688,42}}" />
+                                        <Window Type="DejaVu/SlotImage" Name="Root/Quest/QuestInfo/Reward/GetItem/Item7/Slot" >
+                                            <Property Name="ID" Value="106" />
+                                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                            <Window Type="DejaVu/StaticTextLab" Name="Root/Quest/QuestInfo/Reward/GetItem/Item7/Slot/Count" >
+                                                <Property Name="HorzFormatting" Value="RightAligned" />
+                                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                                <Property Name="VertFormatting" Value="BottomAligned" />
+                                            </Window>
+                                        </Window>
+                                    </Window>
+                                    <Window Type="DejaVu/Embed3" Name="Root/Quest/QuestInfo/Reward/GetItem/Item8" >
+                                        <Property Name="ID" Value="107" />
+                                        <Property Name="MousePassThroughEnabled" Value="True" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.172205,0},{0.429688,0},{0.172205,42},{0.429688,42}}" />
+                                        <Window Type="DejaVu/SlotImage" Name="Root/Quest/QuestInfo/Reward/GetItem/Item8/Slot" >
+                                            <Property Name="ID" Value="107" />
+                                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                            <Window Type="DejaVu/StaticTextLab" Name="Root/Quest/QuestInfo/Reward/GetItem/Item8/Slot/Count" >
+                                                <Property Name="HorzFormatting" Value="RightAligned" />
+                                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                                <Property Name="VertFormatting" Value="BottomAligned" />
+                                            </Window>
+                                        </Window>
+                                    </Window>
+                                    <Window Type="DejaVu/StaticTextLab" Name="Root/Quest/QuestInfo/Reward/GetItem/Tag" >
+                                        <Property Name="MousePassThroughEnabled" Value="True" />
+                                        <Property Name="Text" Value="x選擇物品：" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.271903,0},{0.117188,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/Embed3" Name="Root/Quest/QuestInfo/Reward/GetItem/Item9" >
+                                        <Property Name="ID" Value="108" />
+                                        <Property Name="MousePassThroughEnabled" Value="True" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.329305,0},{0.429688,0},{0.329305,42},{0.429688,42}}" />
+                                        <Window Type="DejaVu/SlotImage" Name="Root/Quest/QuestInfo/Reward/GetItem/Item9/Slot" >
+                                            <Property Name="ID" Value="108" />
+                                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                            <Window Type="DejaVu/StaticTextLab" Name="Root/Quest/QuestInfo/Reward/GetItem/Item9/Slot/Count" >
+                                                <Property Name="HorzFormatting" Value="RightAligned" />
+                                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                                <Property Name="VertFormatting" Value="BottomAligned" />
+                                            </Window>
+                                        </Window>
+                                    </Window>
+                                    <Window Type="DejaVu/Embed3" Name="Root/Quest/QuestInfo/Reward/GetItem/Item10" >
+                                        <Property Name="ID" Value="109" />
+                                        <Property Name="MousePassThroughEnabled" Value="True" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.486405,0},{0.429688,0},{0.486405,42},{0.429688,42}}" />
+                                        <Window Type="DejaVu/SlotImage" Name="Root/Quest/QuestInfo/Reward/GetItem/Item10/Slot" >
+                                            <Property Name="ID" Value="109" />
+                                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                            <Window Type="DejaVu/StaticTextLab" Name="Root/Quest/QuestInfo/Reward/GetItem/Item10/Slot/Count" >
+                                                <Property Name="HorzFormatting" Value="RightAligned" />
+                                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                                <Property Name="VertFormatting" Value="BottomAligned" />
+                                            </Window>
+                                        </Window>
+                                    </Window>
+                                    <Window Type="DejaVu/Embed3" Name="Root/Quest/QuestInfo/Reward/GetItem/Item11" >
+                                        <Property Name="ID" Value="110" />
+                                        <Property Name="MousePassThroughEnabled" Value="True" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.643505,0},{0.429688,0},{0.643505,42},{0.429688,42}}" />
+                                        <Window Type="DejaVu/SlotImage" Name="Root/Quest/QuestInfo/Reward/GetItem/Item11/Slot" >
+                                            <Property Name="ID" Value="110" />
+                                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                            <Window Type="DejaVu/StaticTextLab" Name="Root/Quest/QuestInfo/Reward/GetItem/Item11/Slot/Count" >
+                                                <Property Name="HorzFormatting" Value="RightAligned" />
+                                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                                <Property Name="VertFormatting" Value="BottomAligned" />
+                                            </Window>
+                                        </Window>
+                                    </Window>
+                                    <Window Type="DejaVu/Embed3" Name="Root/Quest/QuestInfo/Reward/GetItem/Item12" >
+                                        <Property Name="ID" Value="111" />
+                                        <Property Name="MousePassThroughEnabled" Value="True" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.800604,0},{0.429688,0},{0.800604,42},{0.429688,42}}" />
+                                        <Window Type="DejaVu/SlotImage" Name="Root/Quest/QuestInfo/Reward/GetItem/Item12/Slot" >
+                                            <Property Name="ID" Value="111" />
+                                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                            <Window Type="DejaVu/StaticTextLab" Name="Root/Quest/QuestInfo/Reward/GetItem/Item12/Slot/Count" >
+                                                <Property Name="HorzFormatting" Value="RightAligned" />
+                                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                                <Property Name="VertFormatting" Value="BottomAligned" />
+                                            </Window>
+                                        </Window>
+                                    </Window>
+                                    <Window Type="DejaVu/Embed3" Name="Root/Quest/QuestInfo/Reward/GetItem/Item13" >
+                                        <Property Name="ID" Value="100" />
+                                        <Property Name="MousePassThroughEnabled" Value="True" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.0151057,0},{0.703125,0},{0.0151057,42},{0.703125,42}}" />
+                                        <Window Type="DejaVu/SlotImage" Name="Root/Quest/QuestInfo/Reward/GetItem/Item13/Slot" >
+                                            <Property Name="ID" Value="100" />
+                                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                            <Window Type="DejaVu/StaticTextLab" Name="Root/Quest/QuestInfo/Reward/GetItem/Item13/Slot/Count" >
+                                                <Property Name="HorzFormatting" Value="RightAligned" />
+                                                <Property Name="ID" Value="1" />
+                                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                                <Property Name="VertFormatting" Value="BottomAligned" />
+                                            </Window>
+                                        </Window>
+                                    </Window>
+                                    <Window Type="DejaVu/Embed3" Name="Root/Quest/QuestInfo/Reward/GetItem/Item14" >
+                                        <Property Name="ID" Value="100" />
+                                        <Property Name="MousePassThroughEnabled" Value="True" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.172205,0},{0.703125,0},{0.172205,42},{0.703125,42}}" />
+                                        <Window Type="DejaVu/SlotImage" Name="Root/Quest/QuestInfo/Reward/GetItem/Item14/Slot" >
+                                            <Property Name="ID" Value="100" />
+                                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                            <Window Type="DejaVu/StaticTextLab" Name="Root/Quest/QuestInfo/Reward/GetItem/Item14/Slot/Count" >
+                                                <Property Name="HorzFormatting" Value="RightAligned" />
+                                                <Property Name="ID" Value="1" />
+                                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                                <Property Name="VertFormatting" Value="BottomAligned" />
+                                            </Window>
+                                        </Window>
+                                    </Window>
+                                    <Window Type="DejaVu/Embed3" Name="Root/Quest/QuestInfo/Reward/GetItem/Item15" >
+                                        <Property Name="ID" Value="100" />
+                                        <Property Name="MousePassThroughEnabled" Value="True" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.329305,0},{0.703125,0},{0.329305,42},{0.703125,42}}" />
+                                        <Window Type="DejaVu/SlotImage" Name="Root/Quest/QuestInfo/Reward/GetItem/Item15/Slot" >
+                                            <Property Name="ID" Value="100" />
+                                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                            <Window Type="DejaVu/StaticTextLab" Name="Root/Quest/QuestInfo/Reward/GetItem/Item15/Slot/Count" >
+                                                <Property Name="HorzFormatting" Value="RightAligned" />
+                                                <Property Name="ID" Value="1" />
+                                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                                <Property Name="VertFormatting" Value="BottomAligned" />
+                                            </Window>
+                                        </Window>
+                                    </Window>
+                                    <Window Type="DejaVu/Embed3" Name="Root/Quest/QuestInfo/Reward/GetItem/Item16" >
+                                        <Property Name="ID" Value="100" />
+                                        <Property Name="MousePassThroughEnabled" Value="True" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.486405,0},{0.703125,0},{0.486405,42},{0.703125,42}}" />
+                                        <Window Type="DejaVu/SlotImage" Name="Root/Quest/QuestInfo/Reward/GetItem/Item16/Slot" >
+                                            <Property Name="ID" Value="100" />
+                                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                            <Window Type="DejaVu/StaticTextLab" Name="Root/Quest/QuestInfo/Reward/GetItem/Item16/Slot/Count" >
+                                                <Property Name="HorzFormatting" Value="RightAligned" />
+                                                <Property Name="ID" Value="1" />
+                                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                                <Property Name="VertFormatting" Value="BottomAligned" />
+                                            </Window>
+                                        </Window>
+                                    </Window>
+                                    <Window Type="DejaVu/Embed3" Name="Root/Quest/QuestInfo/Reward/GetItem/Item17" >
+                                        <Property Name="ID" Value="100" />
+                                        <Property Name="MousePassThroughEnabled" Value="True" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.643505,0},{0.703125,0},{0.643505,42},{0.703125,42}}" />
+                                        <Window Type="DejaVu/SlotImage" Name="Root/Quest/QuestInfo/Reward/GetItem/Item17/Slot" >
+                                            <Property Name="ID" Value="100" />
+                                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                            <Window Type="DejaVu/StaticTextLab" Name="Root/Quest/QuestInfo/Reward/GetItem/Item17/Slot/Count" >
+                                                <Property Name="HorzFormatting" Value="RightAligned" />
+                                                <Property Name="ID" Value="1" />
+                                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                                <Property Name="VertFormatting" Value="BottomAligned" />
+                                            </Window>
+                                        </Window>
+                                    </Window>
+                                    <Window Type="DejaVu/Embed3" Name="Root/Quest/QuestInfo/Reward/GetItem/Item18" >
+                                        <Property Name="ID" Value="100" />
+                                        <Property Name="MousePassThroughEnabled" Value="True" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.800604,0},{0.703125,0},{0.800604,42},{0.703125,42}}" />
+                                        <Window Type="DejaVu/SlotImage" Name="Root/Quest/QuestInfo/Reward/GetItem/Item18/Slot" >
+                                            <Property Name="ID" Value="100" />
+                                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                            <Window Type="DejaVu/StaticTextLab" Name="Root/Quest/QuestInfo/Reward/GetItem/Item18/Slot/Count" >
+                                                <Property Name="HorzFormatting" Value="RightAligned" />
+                                                <Property Name="ID" Value="1" />
+                                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                                <Property Name="VertFormatting" Value="BottomAligned" />
+                                            </Window>
+                                        </Window>
+                                    </Window>
+                                </Window>
+                                <Window Type="DejaVu/SlotImage" Name="Root/Quest/QuestInfo/Reward/Exp" >
+                                    <Property Name="Font" Value="F001-9" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.13125,0},{0.328125,0}}" />
+                                </Window>
+                                <Window Type="DejaVu/SlotImage" Name="Root/Quest/QuestInfo/Reward/Coins" >
+                                    <Property Name="Font" Value="F001-9" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.13125,0},{0.328125,0}}" />
+                                </Window>
+                                <Window Type="DejaVu/SlotImage" Name="Root/Quest/QuestInfo/Reward/Title" >
+                                    <Property Name="Font" Value="F001-9" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.13125,0},{0.328125,0}}" />
+                                </Window>
+                                <Window Type="DejaVu/SlotImage" Name="Root/Quest/QuestInfo/Reward/FamilyExp" >
+                                    <Property Name="Font" Value="F001-9" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.13125,0},{0.328125,0}}" />
+                                </Window>
+                                <Window Type="DejaVu/SlotImage" Name="Root/Quest/QuestInfo/Reward/Prestige" >
+                                    <Property Name="Font" Value="F001-9" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.13125,0},{0.328125,0}}" />
+                                </Window>
+                                <Window Type="DejaVu/SlotImage" Name="Root/Quest/QuestInfo/Reward/Money" >
+                                    <Property Name="Font" Value="F001-9" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.13125,0},{0.328125,0}}" />
+                                </Window>
+                                <Window Type="DejaVu/SlotImage" Name="Root/Quest/QuestInfo/Reward/MonsterNumExp" >
+                                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.13125,0},{0.328125,0}}" />
+                                </Window>
+                                <Window Type="DejaVu/SlotImage" Name="Root/Quest/QuestInfo/Reward/AddElf" >
+                                    <Property Name="Font" Value="F001-9" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.13125,0},{0.328125,0}}" />
+                                </Window>
+                            </AutoWindow>
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Embed5" Name="Root/Quest/QuestInfo/ContentInfoBG" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.027397,0},{0.114155,0},{0.972602,0},{0.342465,0}}" />
+                        <Window Type="DejaVu/VScrolledText" Name="Root/Quest/QuestInfo/ContentInfo" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                            <Property Name="LinespaceWindow" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0202899,0},{0.07,0},{0.97971,0},{0.95,0}}" />
+                            <Property Name="VertFormatting" Value="TopAligned" />
+                            <Property Name="VertScrollbar" Value="True" />
+                        </Window>
+                    </Window>
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

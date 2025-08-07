@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="HouseColorWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="TitlebarImage" Value="set:main16 image:HouseDyeing" />
+        <Property Name="UnifiedAreaRect" Value="{{0.201172,0},{0.201823,0},{0.201172,310},{0.201823,455}}" />
+        <Window Type="DejaVu/Embed" Name="HouseColorWnd/BG" >
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1.0034,0},{1,0}}" />
+            <Window Type="DejaVu/Static" Name="HouseColorWnd/BG/Static" >
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1.00048,0},{1,0}}" />
+                <Window Type="DejaVu/Embed2" Name="HouseColorWnd/BG/Static/ColorPart" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.0340136,0},{0.0666667,0},{0.967442,0},{0.2,0}}" />
+                    <Window Type="DejaVu/EmbedTextLab7" Name="HouseColorWnd/BG/Static/ColorPart/PartText" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="x可染部位" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.036101,0},{0.34,0},{0.32701,0},{0.84,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImageItem" Name="HouseColorWnd/BG/Static/ColorPart/Part1BG" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.415162,0},{0.34,0},{0.501805,0},{0.82,0}}" />
+                        <Window Type="DejaVu/SlotImageItem" Name="HouseColorWnd/BG/Static/ColorPart/Part1BG/Part1" >
+                            <Property Name="HorizontalAlignment" Value="Centre" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.833333,0},{0.833333,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/SlotImageItem" Name="HouseColorWnd/BG/Static/ColorPart/Part2BG" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.555957,0},{0.34,0},{0.642599,0},{0.82,0}}" />
+                        <Window Type="DejaVu/SlotImageItem" Name="HouseColorWnd/BG/Static/ColorPart/Part2BG/Part2" >
+                            <Property Name="HorizontalAlignment" Value="Centre" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.833333,0},{0.833333,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/SlotImageItem" Name="HouseColorWnd/BG/Static/ColorPart/Part3BG" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.696751,0},{0.34,0},{0.783394,0},{0.82,0}}" />
+                        <Window Type="DejaVu/SlotImageItem" Name="HouseColorWnd/BG/Static/ColorPart/Part3BG/Part3" >
+                            <Property Name="HorizontalAlignment" Value="Centre" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.833333,0},{0.833333,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed4" Name="HouseColorWnd/BG/Static/Title" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.034014,0},{0.026667,0},{0.544218,0},{0.0933337,0}}" />
+                    <Window Type="DejaVu/StaticImage" Name="HouseColorWnd/BG/Static/Title/Img" >
+                        <Property Name="Image" Value="set:DejaVu image:Image05" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0986842,0},{0.2,0},{0.197368,0},{0.8,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="HouseColorWnd/BG/Static/Title/Text" >
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="Text" Value="x家具染色" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.264901,0},{0.2,0},{0.864901,0},{0.8,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed2" Name="HouseColorWnd/BG/Static/Dyeing" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.034014,0},{0.837104,0},{0.967443,0},{0.977376,0}}" />
+                    <Property Name="Visible" Value="False" />
+                    <Window Type="DejaVu/SlotImage" Name="HouseColorWnd/BG/Static/Dyeing/PutSlot" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.036232,0},{0.16129,0},{0.188406,0},{0.838709,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Button" Name="HouseColorWnd/BG/Static/Dyeing/UseBtn" >
+                        <Property Name="HorizontalAlignment" Value="Right" />
+                        <Property Name="Text" Value="x使用" />
+                        <Property Name="UnifiedAreaRect" Value="{{-0.036364,0},{0.571429,0},{0.238998,0},{0.990784,0}}" />
+                        <Property Name="Visible" Value="False" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="HouseColorWnd/BG/Static/Dyeing/Text" >
+                        <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                        <Property Name="LinespaceWindow" Value="True" />
+                        <Property Name="Text" Value="x請放入欲使用的染色劑" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.224638,0},{0.290323,0},{0.96282,0},{0.709678,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed2" Name="HouseColorWnd/BG/Static/Palette" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.0340136,0},{0.213333,0},{0.967442,0},{0.973333,0}}" />
+                    <Window Type="DejaVu/Embed2" Name="HouseColorWnd/BG/Static/Palette/BG" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.03663,0},{0.0350877,0},{0.96337,0},{0.842105,0}}" />
+                        <Window Type="DejaVu/EmbedTextLab7" Name="HouseColorWnd/BG/Static/Palette/BG/Text" >
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="x色盤" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.108696,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/ScrollablePane" Name="HouseColorWnd/BG/Static/Palette/BG/Pane" >
+                            <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                            <Property Name="HorzOverlapSize" Value="0.01" />
+                            <Property Name="HorzScrollPosition" Value="0" />
+                            <Property Name="HorzStepSize" Value="0.1" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.113043,0},{1,0},{1,0}}" />
+                            <Property Name="VertOverlapSize" Value="0.01" />
+                            <Property Name="VertScrollPosition" Value="0" />
+                            <Property Name="VertStepSize" Value="0.1" />
+                            <AutoWindow NameSuffix="__auto_container__" >
+                                <Property Name="ChildExtentsArea" Value="l:0 t:0 r:0 b:0" />
+                                <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                                <Property Name="MouseInputPropagationEnabled" Value="True" />
+                            </AutoWindow>
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Button" Name="HouseColorWnd/BG/Static/Palette/BG/DefaultBtn" >
+                        <Property Name="Text" Value="x預設" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.392727,0},{0.877193,0},{0.669091,0},{0.968421,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Button" Name="HouseColorWnd/BG/Static/Palette/BG/SettingBtn" >
+                        <Property Name="HorizontalAlignment" Value="Right" />
+                        <Property Name="Text" Value="x設定" />
+                        <Property Name="UnifiedAreaRect" Value="{{-0.036101,0},{0.877193,0},{0.240263,0},{0.968421,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Button" Name="HouseColorWnd/BG/Static/Palette/SetDyeingBtn" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="置入染色劑" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0363636,0},{0.877193,0},{0.349091,0},{0.968421,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="HouseColorWnd/BG/Static/LockUIImg" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="BackgroundEnabled" Value="True" />
+                    <Property Name="ID" Value="1" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1.0034,0},{1,0}}" />
+                    <Property Name="Visible" Value="False" />
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

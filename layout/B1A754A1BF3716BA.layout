@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/MailSendWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,501},{0,578}}" />
+        <Window Type="DejaVu/Embed2" Name="Root/MailSendWnd/Mail" >
+            <Property Name="UnifiedAreaRect" Value="{{0.01996,0},{0.017007,0},{0.98004,0},{0.769602,0}}" />
+            <Window Type="DejaVu/EmbedText7" Name="Root/MailSendWnd/Mail/Recipient" >
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="收件者" />
+                <Property Name="UnifiedAreaRect" Value="{{0.02079,0},{0.02381,0},{0.18711,0},{0.0809529,0}}" />
+            </Window>
+            <Window Type="DejaVu/EmbedText7" Name="Root/MailSendWnd/Mail/Title" >
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="標題" />
+                <Property Name="UnifiedAreaRect" Value="{{0.02079,0},{0.092857,0},{0.18711,0},{0.15,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/MailSendWnd/Mail/AddressBtn" >
+                <Property Name="Text" Value="通訊錄" />
+                <Property Name="UnifiedAreaRect" Value="{{0.821206,0},{0.02381,0},{0.97921,0},{0.0809529,0}}" />
+            </Window>
+            <Window Type="DejaVu/Editbox" Name="Root/MailSendWnd/Mail/RecipientText" >
+                <Property Name="MaxTextLength" Value="2147483647" />
+                <Property Name="TextParsingEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.18711,0},{0.02381,0},{0.821206,0},{0.0809529,0}}" />
+            </Window>
+            <Window Type="DejaVu/Editbox" Name="Root/MailSendWnd/Mail/TitleText" >
+                <Property Name="MaxTextLength" Value="50" />
+                <Property Name="TextParsingEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.18711,0},{0.092857,0},{0.97921,0},{0.15,0}}" />
+            </Window>
+            <Window Type="DejaVu/MultiLineEditbox" Name="Root/MailSendWnd/Mail/TextEdit" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="MaxTextLength" Value="720" />
+                <Property Name="NormalTextColour" Value="C8FFFFFF" />
+                <Property Name="Text" >
+</Property>
+                <Property Name="TextParsingEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.02079,0},{0.161905,0},{0.97921,0},{0.978572,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Embed2" Name="Root/MailSendWnd/ItemEmb" >
+            <Property Name="UnifiedAreaRect" Value="{{0.0199601,0},{0.83218,0},{0.98004,0},{0.929066,0}}" />
+            <Window Type="DejaVu/Embed3" Name="Root/MailSendWnd/ItemEmb/Emb" >
+                <Property Name="UnifiedAreaRect" Value="{{0.004158,0},{0.0357143,0},{0.995842,0},{0.964286,0}}" />
+                <Window Type="DejaVu/SlotImage" Name="Root/MailSendWnd/ItemEmb/ItemSlot" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.010482,0},{0.096154,0},{0.0985323,0},{0.903846,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/MailSendWnd/ItemEmb/ItemName" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.109015,0},{0.269231,0},{0.42348,0},{0.653846,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab7" Name="Root/MailSendWnd/ItemEmb/MoneyText" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="金錢" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.496855,0},{0.269231,0},{0.66457,0},{0.75,0}}" />
+                </Window>
+                <Window Type="DejaVu/Embed2" Name="Root/MailSendWnd/ItemEmb/MoneyBack" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.66457,0},{0.269231,0},{0.979036,0},{0.75,0}}" />
+                    <Window Type="DejaVu/Static" Name="Root/MailSendWnd/ItemEmb/Money" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.0333333,0},{0,0},{0.966667,0},{1,0}}" />
+                        <Window Type="DejaVu/SlotImage" Name="Root/MailSendWnd/ItemEmb/SilverImage" >
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="Image" Value="set:main image:Silver" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.892857,0},{0.2,0},{1,0},{0.8,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticImage" Name="Root/MailSendWnd/ItemEmb/GoldImage" >
+                            <Property Name="Image" Value="set:main image:Gold" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.428571,0},{0.2,0},{0.535714,0},{0.8,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Editbox" Name="Root/MailSendWnd/ItemEmb/Gold" >
+                            <Property Name="MaxTextLength" Value="2147483647" />
+                            <Property Name="TextParsingEnabled" Value="False" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.08,0},{0.392857,0},{0.92,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Editbox" Name="Root/MailSendWnd/ItemEmb/Silver" >
+                            <Property Name="MaxTextLength" Value="2147483647" />
+                            <Property Name="TextParsingEnabled" Value="False" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.571429,0},{0.08,0},{0.857143,0},{0.92,0}}" />
+                        </Window>
+                    </Window>
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/MailSendWnd/SendBtn" >
+            <Property Name="Text" Value="寄出信件" />
+            <Property Name="UnifiedAreaRect" Value="{{0.828343,0},{0.937716,0},{0.98004,0},{0.982699,0}}" />
+        </Window>
+        <Window Type="DejaVu/EmbedText7" Name="Root/MailSendWnd/Postage" >
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="Text" Value="郵資" />
+            <Property Name="UnifiedAreaRect" Value="{{0.01996,0},{0.939446,0},{0.179641,0},{0.982699,0}}" />
+        </Window>
+        <Window Type="DejaVu/Embed2" Name="Root/MailSendWnd/PostageEmb" >
+            <Property Name="UnifiedAreaRect" Value="{{0.179641,0},{0.939446,0},{0.479042,0},{0.982699,0}}" />
+            <Window Type="DejaVu/Static" Name="Root/MailSendWnd/PostageBack" >
+                <Property Name="UnifiedAreaRect" Value="{{0.066667,0},{0,0},{0.933334,0},{1,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="Root/MailSendWnd/PostageBack/PostageSilverImage" >
+                    <Property Name="Image" Value="set:main image:Silver" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.884615,0},{0.208333,0},{1,0},{0.808333,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/MailSendWnd/PostageBack/PostageGoldImage" >
+                    <Property Name="Image" Value="set:main image:Gold" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0.208333,0},{0.615385,0},{0.808333,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/MailSendWnd/PostageBack/PostageSilver" >
+                    <Property Name="HorzFormatting" Value="RightAligned" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.615385,0},{0.2,0},{0.846154,0},{0.8,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/MailSendWnd/PostageBack/PostageGold" >
+                    <Property Name="HorzFormatting" Value="RightAligned" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.076923,0},{0.2,0},{0.461538,0},{0.8,0}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/RadioButton" Name="Root/MailSendWnd/NormalRadio" >
+            <Property Name="Text" Value="一般郵件" />
+            <Property Name="UnifiedAreaRect" Value="{{0.01996,0},{0.778547,0},{0.219561,0},{0.8218,0}}" />
+        </Window>
+        <Window Type="DejaVu/RadioButton" Name="Root/MailSendWnd/PayRadio" >
+            <Property Name="Text" Value="付款取件" />
+            <Property Name="UnifiedAreaRect" Value="{{0.219561,0},{0.778547,0},{0.419162,0},{0.8218,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="AwakenWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="TitlebarImage" Value="set:main image:WeaponCase" />
+        <Property Name="UnifiedAreaRect" Value="{{0.3125,0},{0.105374,0},{0.3125,399},{0.105374,530}}" />
+        <Window Type="DejaVu/Embed" Name="AwakenWnd/Embed" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Embed2" Name="AwakenWnd/Embed/Embed1" >
+                <Property Name="UnifiedAreaRect" Value="{{0.0338983,0},{0.0266075,0},{0.966102,0},{0.691796,0}}" />
+                <Window Type="DejaVu/EmbedTextLab7" Name="AwakenWnd/Embed/Embed1/Title" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="x覺醒能力" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.00606061,0},{0.00666667,0},{0.993939,0},{0.0866667,0}}" />
+                </Window>
+                <Window Type="DejaVu/ScrollablePane" Name="AwakenWnd/Embed/Embed1/BuffList" >
+                    <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorzOverlapSize" Value="0.01" />
+                    <Property Name="HorzScrollPosition" Value="0" />
+                    <Property Name="HorzStepSize" Value="0.1" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.009091,0},{0.09,0},{0.990909,0},{0.99,0}}" />
+                    <Property Name="VertOverlapSize" Value="0.01" />
+                    <Property Name="VertScrollPosition" Value="0" />
+                    <Property Name="VertStepSize" Value="0.1" />
+                    <AutoWindow NameSuffix="__auto_container__" >
+                        <Property Name="ChildExtentsArea" Value="l:0 t:0 r:0 b:0" />
+                        <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                        <Property Name="MouseInputPropagationEnabled" Value="True" />
+                    </AutoWindow>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed2" Name="AwakenWnd/Embed/Embed2" >
+                <Property Name="UnifiedAreaRect" Value="{{0.0338983,0},{0.700665,0},{0.966102,0},{0.971175,0}}" />
+                <Window Type="DejaVu/EmbedTextLab7" Name="AwakenWnd/Embed/Embed2/Title" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="x聖櫃覺醒" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.00606061,0},{0.0163934,0},{0.993939,0},{0.213115,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="AwakenWnd/Embed/Embed2/WeaponSlot" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0909091,0},{0.491803,0},{0.236364,0},{0.885246,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="AwakenWnd/Embed/Embed2/ItemSlot" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.333333,0},{0.491803,0},{0.478788,0},{0.885246,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="AwakenWnd/Embed/Embed2/WeaponText" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="x放入武器" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0393939,0},{0.286885,0},{0.287879,0},{0.45082,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="AwakenWnd/Embed/Embed2/ItemText" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="x放入武器" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.281818,0},{0.286885,0},{0.530303,0},{0.45082,0}}" />
+                </Window>
+                <Window Type="DejaVu/Button" Name="AwakenWnd/Embed/Embed2/AwakenBtn" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="x開始覺醒" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.545833,0},{0.630874,0},{0.848862,0},{0.876776,0}}" />
+                </Window>
+                <Window Type="DejaVu/Button" Name="AwakenWnd/Embed/Embed2/RuleBtn" >
+                    <Property Name="Text" Value="？" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.869697,0},{0.631148,0},{0.960606,0},{0.877049,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="AwakenWnd/Embed/Embed2/ItemText1" >
+                    <Property Name="Text" Value="x成功率：12.34%" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.545455,0},{0.409836,0},{0.939394,0},{0.57377,0}}" />
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

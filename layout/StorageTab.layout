@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="StorageTab" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.483398,0},{0.245492,0}}" />
+        <Window Type="DefaultWindow" Name="StorageTab/Frame" >
+            <Property Name="ClippedByParent" Value="False" />
+            <Property Name="Text" Value="分頁一" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,495},{0,177}}" />
+            <Window Type="DejaVu/Embed3" Name="StorageTab/InnerFrame" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Window Type="DejaVu/Embed2" Name="StorageTab/BackgroundBG" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.020202,0},{0.056497,0},{0.979798,0},{0.615819,0}}" />
+                    <Window Type="DejaVu/ScrollablePane" Name="StorageTab/Background" >
+                        <Property Name="ContentArea" Value="l:0 t:0 r:119 b:25" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HorzOverlapSize" Value="0.01" />
+                        <Property Name="HorzScrollPosition" Value="0" />
+                        <Property Name="HorzStepSize" Value="0.1" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                        <Property Name="VertOverlapSize" Value="0.01" />
+                        <Property Name="VertScrollPosition" Value="0" />
+                        <Property Name="VertStepSize" Value="0.1" />
+                        <AutoWindow NameSuffix="__auto_container__" >
+                            <Property Name="ChildExtentsArea" Value="l:0 t:0 r:119 b:25" />
+                            <Property Name="ContentArea" Value="l:0 t:0 r:119 b:25" />
+                            <Property Name="MouseInputPropagationEnabled" Value="True" />
+                            <Window Type="DejaVu/Static" Name="StorageTab/Background/Forward" >
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.250526,0},{0.252525,0}}" />
+                            </Window>
+                        </AutoWindow>
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Static" Name="StorageTab/FunctionPanel/DownStatic" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.010101,0},{0.661017,0},{0.010101,485},{0.661017,52}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="StorageTab/FunctionPanel/InfoText" >
+                        <Property Name="Text" Value="x使用格數：43/50" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.525773,0},{0.538462,0},{0.837113,0},{0.923077,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Embed2" Name="StorageTab/FunctionPanel/BagSlotBG" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.010309,0},{0,0},{0.505154,0},{1,0}}" />
+                        <Window Type="DejaVu/SlotImage" Name="StorageTab/FunctionPanel/BagBackground/BagSlot0" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.020833,0},{0.096154,0},{0.195833,0},{0.903846,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="StorageTab/FunctionPanel/BagBackground/BagSlot1" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.0208333,0},{0.0961538,0},{0.0208333,42},{0.0961538,42}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="StorageTab/FunctionPanel/BagBackground/BagSlot2" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.216667,0},{0.0961538,0},{0.216667,42},{0.0961538,42}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="StorageTab/FunctionPanel/BagBackground/BagSlot3" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.4125,0},{0.0961538,0},{0.4125,42},{0.0961538,42}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="StorageTab/FunctionPanel/BagBackground/BagSlot4" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.608333,0},{0.0961538,0},{0.608333,42},{0.0961538,42}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="StorageTab/FunctionPanel/BagBackground/BagSlot5" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.804167,0},{0.0961538,0},{0.804167,42},{0.0961538,42}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/ImageButton" Name="StorageTab/FunctionPanel/Btn" >
+                        <Property Name="Font" Value="F001-scale" />
+                        <Property Name="HoverImage" Value="set:DejaVu image:StackHover" />
+                        <Property Name="NormalImage" Value="set:DejaVu image:StackNormal" />
+                        <Property Name="PushedImage" Value="set:DejaVu image:StackPressed" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.915464,0},{0.307692,0},{0.989691,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticText" Name="StorageTab/InnerFrame/DownStatic2/TipText1" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="x暫存倉庫只可領出物品，不可存放物品" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0164948,0},{0.5,0},{0.635052,0},{1,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

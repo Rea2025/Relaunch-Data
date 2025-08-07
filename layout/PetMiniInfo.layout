@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/Static" Name="PetMiniInfo" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.004888,0},{0.123698,0},{0.004888,240},{0.123698,40}}" />
+        <Window Type="DejaVu/ProgressBarBG" Name="PetMiniInfo/pet_hp_bg" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.625,0},{0,195},{0.625,15}}" />
+            <Window Type="DejaVu/ProgressBar" Name="PetMiniInfo/pet_hp" >
+                <Property Name="CurrentProgress" Value="0" />
+                <Property Name="StepSize" Value="0.01" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/EmbedTextLab3" Name="PetMiniInfo/pet_name" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="Text" Value="幻獸三四五六" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,200},{0,25}}" />
+        </Window>
+        <Window Type="DejaVu/SlotImage" Name="PetMiniInfo/pet_state_icon" >
+            <Property Name="Image" Value="set:main image:noimage" />
+            <Property Name="UnifiedAreaRect" Value="{{0.854167,0},{0.125,0},{0.979167,0},{0.875,0}}" />
+            <Window Type="DejaVu/StaticText" Name="target_infor/pet_state_icon/text" >
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Property Name="VerticalAlignment" Value="Bottom" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

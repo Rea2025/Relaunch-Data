@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/Static" Name="RentObjectItem" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.392104,0},{0.0707786,0}}" />
+        <Window Type="DejaVu/Embed2" Name="RentObjectItem/BG" >
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Embed2" Name="RentObjectItem/BG/ObjectNameArea" >
+                <Property Name="UnifiedAreaRect" Value="{{0.005,0},{0.0625,0},{0.298532,0},{0.9375,0}}" />
+                <Window Type="DejaVu/SlotImage" Name="RentObjectItem/BG/ObjectNameArea/ObjectImage" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.0328638,0},{0.163934,0},{0.230047,0},{0.852459,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="RentObjectItem/BG/ObjectNameArea/Text" >
+                    <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                    <Property Name="Text" >xNPC/CutScene Name
+</Property>
+                    <Property Name="UnifiedAreaRect" Value="{{0.244131,0},{0.147541,0},{0.97183,0},{0.868852,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed2" Name="RentObjectItem/BG/ObjectNeedCoinArea" >
+                <Property Name="UnifiedAreaRect" Value="{{0.303483,0},{0.0625,0},{0.447762,0},{0.9375,0}}" />
+                <Window Type="DejaVu/StaticText" Name="RentObjectItem/BG/ObjectNeedCoinArea/Text" >
+                    <Property Name="HorzFormatting" Value="WordWrapRightAligned" />
+                    <Property Name="Text" Value="123456" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.068966,0},{0.142857,0},{0.689656,0},{0.857143,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="RentObjectItem/BG/ObjectNeedCoinArea/CoinImage" >
+                    <Property Name="Image" Value="set:main4 image:GuildGold" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.733333,0},{0.278689,0},{0.971429,0},{0.688525,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed2" Name="RentObjectItem/BG/ObjectInfoArea" >
+                <Property Name="UnifiedAreaRect" Value="{{0.452736,0},{0.0625,0},{0.746268,0},{0.9375,0}}" />
+                <Window Type="DejaVu/StaticText" Name="RentObjectItem/BG/ObjectInfoArea/Text" >
+                    <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                    <Property Name="Text" Value="xNPC/CutScene Info" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0338983,0},{0.142857,0},{0.966102,0},{0.857143,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed2" Name="RentObjectItem/BG/ObjectLevelArea" >
+                <Property Name="UnifiedAreaRect" Value="{{0.751244,0},{0.0625,0},{0.845771,0},{0.9375,0}}" />
+                <Window Type="DejaVu/StaticText" Name="RentObjectItem/BG/ObjectLevelArea/Text" >
+                    <Property Name="HorzFormatting" Value="WordWrapCentred" />
+                    <Property Name="Text" Value="xLV.6" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.105263,0},{0.142857,0},{0.894737,0},{0.857143,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed2" Name="RentObjectItem/BG/ObjectRentArea" >
+                <Property Name="UnifiedAreaRect" Value="{{0.850746,0},{0.0625,0},{0.995025,0},{0.9375,0}}" />
+                <Window Type="DejaVu/StaticText" Name="RentObjectItem/BG/ObjectRentArea/Text" >
+                    <Property Name="HorzFormatting" Value="WordWrapCentred" />
+                    <Property Name="Text" Value="xRemaining 7 Days" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0689655,0},{0.5,0},{0.931035,0},{0.857143,0}}" />
+                </Window>
+                <Window Type="DejaVu/Button" Name="RentObjectItem/BG/ObjectRentArea/RentBtn" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="Text" Value="xRentals" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.142857,0},{0.0655738,0},{0.866667,0},{0.491803,0}}" />
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

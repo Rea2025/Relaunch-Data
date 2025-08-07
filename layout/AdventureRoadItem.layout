@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/Static" Name="Root/AdventureRoadItem" >
+        <Property Name="Font" Value="F001-scale" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Window Type="DejaVu/Embed3" Name="Root/AdventureRoadItem/Item" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.333333,0},{0.136564,0}}" />
+            <Window Type="DejaVu/SlotImage" Name="Root/AdventureRoadItem/Item/SlotItem" >
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="UnifiedAreaRect" Value="{{0.055556,0},{0.16129,0},{0.288889,0},{0.838709,0}}" />
+                <Window Type="DejaVu/SlotImageItem" Name="Root/AdventureRoadItem/Item/SlotItem/Icon" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    <Window Type="DejaVu/StaticImage" Name="Root/AdventureRoadItem/Item/SlotItem/Stack" >
+                        <Property Name="Font" Value="F001-scale" />
+                        <Property Name="HorizontalAlignment" Value="Right" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.5,0},{0.5,0}}" />
+                        <Property Name="VerticalAlignment" Value="Bottom" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="Root/AdventureRoadItem/Item/Text" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="x一般技能" />
+                <Property Name="UnifiedAreaRect" Value="{{0.344444,0},{0.258065,0},{0.944444,0},{0.741936,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

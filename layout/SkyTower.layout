@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="SkyTower" >
+        <Property Name="Font" Value="F001-scale" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-scale" />
+        <Property Name="TitlebarImage" Value="set:main image:SkyTower" />
+        <Property Name="UnifiedAreaRect" Value="{{0.0486855,0},{0.0741222,0},{0.0486855,890},{0.0741222,595}}" />
+        <Window Type="DejaVu/TabControl" Name="SkyTower/Tab" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="TabHeight" Value="{0,20}" />
+            <Property Name="TabPanePosition" Value="Top" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.0485437,0}}" />
+            <Window Type="DefaultWindow" Name="SkyTower/Tab/Tab1" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="Global" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,874},{0,0}}" />
+            </Window>
+            <Window Type="DefaultWindow" Name="SkyTower/Tab/Tab2" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="ID" Value="1" />
+                <Property Name="Text" Value="Team" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,874},{0,0}}" />
+                <Property Name="Visible" Value="False" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Embed" Name="SkyTower/BG" >
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.048544,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Static" Name="SkyTower/BG/Static" >
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="UnifiedAreaRect" Value="{{0.011442,0},{0.020408,0},{0.988559,0},{0.918367,0}}" />
+                <Window Type="DejaVu/Embed2" Name="SkyTower/BG/Static/BG" >
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.022727,0},{1,0},{1,0}}" />
+                    <Window Type="DejaVu/StaticImage" Name="SkyTower/SceneImage" >
+                        <Property Name="Font" Value="F001-scale" />
+                        <Property Name="Image" Value="set:main2 image:MagicStoneBG" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0140309,0},{0.0717799,0},{0.412157,0},{0.676431,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Embed2" Name="SkyTower/ContentBG" >
+                        <Property Name="Font" Value="F001-scale" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.01171,0},{0.697674,0},{0.532787,0},{0.976744,0}}" />
+                        <Window Type="DejaVu/StaticText" Name="SkyTower/ContentBG/ContentText" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                            <Property Name="Text" >說明
+
+
+
+
+
+
+
+
+
+
+
+第二行
+
+
+
+
+
+
+
+
+
+
+
+◎每個禮拜六的凌晨06：00之前已決定攻略組別的玩家，將會在06：00鎖定組別。
+
+
+
+◎天空之塔開放之前玩家可以任意選擇攻略組，而未選擇的玩家在天空之塔進行期間，一旦決定了攻略組別就無法再度更換。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+◎在天空之塔開放期間未進入過天空之塔的玩家，會在天空之塔關閉後被移出該攻略組別。
+
+
+
+</Property>
+                            <Property Name="UnifiedAreaRect" Value="{{0.022472,0},{0.083333,0},{0.977528,0},{0.916666,0}}" />
+                            <Property Name="VertFormatting" Value="TopAligned" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Button" Name="SkyTower/NormalBtn" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="x一般組" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.538642,0},{0.011628,0},{0.627635,0},{0.0697675,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Button" Name="SkyTower/GuildBtn" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="ID" Value="1" />
+                        <Property Name="Text" Value="x公會組" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.633489,0},{0.011628,0},{0.722482,0},{0.0697675,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Combobox" Name="SkyTower/TimeCombobox" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="MaxEditTextLength" Value="2147483647" />
+                        <Property Name="ReadOnly" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.754098,0},{0.011628,0},{0.98829,0},{0.383721,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Embed2" Name="SkyTower/MCLBG" >
+                        <Property Name="Font" Value="F001-scale" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.538642,0},{0.069767,0},{0.988291,0},{0.906976,0}}" />
+                        <Window Type="DejaVu/MultiColumnList" Name="SkyTower/GroupMCL" >
+                            <Property Name="ColumnsMovable" Value="False" />
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.013021,0},{0.013889,0},{0.986979,0},{0.986111,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab7" Name="SkyTower/SelectTitle" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="x所在攻略組" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.538642,0},{0.918605,0},{0.655738,0},{0.976745,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab2" Name="SkyTower/SelectText" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="x第二攻略組" />
+                        <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.655738,0},{0.92093,0},{0.807963,0},{0.97907,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab2" Name="SkyTower/LeaderText" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="x一二三四五六七八九十" />
+                        <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.812646,0},{0.918605,0},{0.98829,0},{0.976745,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Embed5" Name="SkyTower/StairBG" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="Font" Value="F001-scale" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.01171,0},{0.069767,0},{0.070258,0},{0.151162,0}}" />
+                        <Window Type="DejaVu/StaticImage" Name="SkyTower/StairBG/NumPic2" >
+                            <Property Name="Font" Value="F001-scale" />
+                            <Property Name="Image" Value="set:DejaVu image:seven" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.085714,0},{0.6,0},{0.942857,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticImage" Name="SkyTower/StairBG/NumPic1" >
+                            <Property Name="Font" Value="F001-scale" />
+                            <Property Name="Image" Value="set:DejaVu image:seven" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.4,0},{0.085714,0},{1,0},{0.942857,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Checkbox" Name="SkyTower/FilterCheck" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="x過濾已滿攻略組" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.01171,0},{0.627907,0},{0.187354,0},{0.674419,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="SkyTower/MemberNumsText" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HorzFormatting" Value="RightAligned" />
+                        <Property Name="Text" Value="x目前攻略人數" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.187354,0},{0.627907,0},{0.327869,0},{0.674419,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Static" Name="SkyTower/MemberNumsBG" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="Font" Value="F001-scale" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.327869,0},{0.604651,0},{0.409836,0},{0.674418,0}}" />
+                        <Window Type="DejaVu/StaticImage" Name="SkyTower/MemberNumsBG/NumPic3" >
+                            <Property Name="Font" Value="F001-scale" />
+                            <Property Name="Image" Value="set:DejaVu image:one" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.428571,0},{1,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticImage" Name="SkyTower/MemberNumsBG/NumPic2" >
+                            <Property Name="Font" Value="F001-scale" />
+                            <Property Name="Image" Value="set:DejaVu image:zero" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.285714,0},{0,0},{0.714285,0},{1,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticImage" Name="SkyTower/MemberNumsBG/NumPic1" >
+                            <Property Name="Font" Value="F001-scale" />
+                            <Property Name="Image" Value="set:DejaVu image:zero" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.571429,0},{0,0},{1,0},{1,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Embed2" Name="SkyTower/JobBG" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="Font" Value="F001-scale" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.415691,0},{0.069767,0},{0.532787,0},{0.674418,0}}" />
+                        <Window Type="DejaVu/EmbedTextLab7" Name="SkyTower/JobBG/TitleText" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="x攻略職業" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.0961538,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Listbox" Name="SkyTower/JobBG/JobListBox" >
+                            <Property Name="Font" Value="F001-scale" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.096154,0},{1,0},{1,0}}" />
+                        </Window>
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed4" Name="SkyTower/BG/Static/TitleBG" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.01171,0},{0,0},{0.187354,0},{0.0568182,0}}" />
+                    <Window Type="DejaVu/StaticImage" Name="SkyTower/TitleImage" >
+                        <Property Name="Font" Value="F001-scale" />
+                        <Property Name="Image" Value="set:DejaVu image:Image25" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticText" Name="SkyTower/TitleText" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="x天空之塔" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.2,0},{0.866667,0},{0.8,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/EmbedTextLab7" Name="SkyTower/TimeTitle" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="x剩餘次數" />
+                <Property Name="UnifiedAreaRect" Value="{{0.011442,0},{0.928571,0},{0.102975,0},{0.979591,0}}" />
+            </Window>
+            <Window Type="DejaVu/EmbedTextLab2" Name="SkyTower/TimeText" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="x3" />
+                <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+                <Property Name="UnifiedAreaRect" Value="{{0.102975,0},{0.928571,0},{0.263158,0},{0.979591,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="SkyTower/MngListBtn" >
+                <Property Name="Text" Value="x管理清單" />
+                <Property Name="UnifiedAreaRect" Value="{{0.440465,0},{0.929522,0},{0.527421,0},{0.982583,0}}" />
+                <Property Name="Visible" Value="False" />
+            </Window>
+            <Window Type="DejaVu/Button4" Name="SkyTower/SpecialBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="x修改密碼" />
+                <Property Name="UnifiedAreaRect" Value="{{0.537757,0},{0.928571,0},{0.624713,0},{0.981632,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="SkyTower/LeaveBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="x退出" />
+                <Property Name="UnifiedAreaRect" Value="{{0.716247,0},{0.928571,0},{0.803204,0},{0.981632,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="SkyTower/SelectBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="x註冊" />
+                <Property Name="UnifiedAreaRect" Value="{{0.808924,0},{0.928571,0},{0.895881,0},{0.981632,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="SkyTower/EnterBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="x進入" />
+                <Property Name="UnifiedAreaRect" Value="{{0.901602,0},{0.928571,0},{0.988559,0},{0.981632,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

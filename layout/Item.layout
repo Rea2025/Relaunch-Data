@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/Static" Name="DungeonList/Item" >
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,315},{0,25}}" />
+        <Window Type="DejaVu/EmbedText2" Name="DungeonList/Item/NameText" >
+            <Property Name="AlwaysOnTop" Value="False" />
+            <Property Name="Text" Value="x泰坦之根(五人模式)" />
+            <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.68254,0},{1,0}}" />
+        </Window>
+        <Window Type="DejaVu/EmbedText2" Name="DungeonList/Item/NodeText" >
+            <Property Name="AlwaysOnTop" Value="False" />
+            <Property Name="Text" Value="x3/3" />
+            <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+            <Property Name="UnifiedAreaRect" Value="{{0.68254,0},{0,0},{1,0},{1,0}}" />
+        </Window>
+        <Window Type="DejaVu/Static" Name="DungeonList/Item/FinishedFrame" >
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/EmbedText12" Name="DungeonList/Item/FinishedFrame/BG" >
+                <Property Name="Alpha" Value="0.8" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="DungeonList/Item/FinishedFrame/TextBG" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="Image" Value="set:main3 image:CharacterList2" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.396825,0},{1,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="DungeonList/Item/FinishedFrame/Text" >
+                <Property Name="Font" Value="F001-10" />
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="x已完成" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.31746,0},{1,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="DungeonList/Item/LockFrame" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Embed2" Name="DungeonList/Item/LockFrame/Grey" >
+                <Property Name="Alpha" Value="0.7" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="DungeonList/Item/LockFrameTextBG" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="Image" Value="set:main3 image:CharacterList2" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.396825,0},{1,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="DungeonList/Item/LockFrame/Text" >
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="x通關副本解鎖" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.349206,0},{1,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="DungeonList/Item/LockFrame/Image" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="Image" Value="set:main image:LargeLock" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.349206,0},{0,0},{-0.292064,0},{0.72,0}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Zframe2" Name="DungeonList/Item/SelectFrame" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Property Name="Visible" Value="False" />
+        </Window>
+    </Window>
+</GUILayout>

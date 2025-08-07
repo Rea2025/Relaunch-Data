@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/FamilyLog" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,760},{0,478}}" />
+        <Window Type="DejaVu/StaticTextLab" Name="Root/FamilyLog/LogTitle" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="Text" Value="z公會訊息" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0263158,0},{0,0},{0.0263158,70},{0,24}}" />
+        </Window>
+        <Window Type="DejaVu/Static" Name="Root/FamilyLog/Static" >
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.024845,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/StaticTextLab" Name="Root/FamilyLog/Static/Money" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" Value="公會金庫：" />
+                <Property Name="UnifiedAreaRect" Value="{{0.684211,0},{0.944798,0},{0.986842,0},{0.987261,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="Root/FamilyLog/Static/Money/Image" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="LeftAligned" />
+                    <Property Name="Image" Value="set:DejaVu image:MoneySet01" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.264564,0},{0.007618,0},{0.264564,165},{0.007618,19}}" />
+                    <Property Name="VertFormatting" Value="TopAligned" />
+                    <Window Type="DejaVu/EmbedTextLab" Name="Root/FamilyLog/Static/Money/Image/GoldText" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="RightAligned" />
+                        <Property Name="Text" Value="9999" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0310559,0},{0,0},{0.447205,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab" Name="Root/FamilyLog/Static/Money/Image/SilverText" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="RightAligned" />
+                        <Property Name="Text" Value="9999" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.575758,0},{0,0},{0.684848,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab" Name="Root/FamilyLog/Static/Money/Image/CopperText" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="RightAligned" />
+                        <Property Name="Text" Value="9999" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.806061,0},{0,0},{0.915152,0},{1,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Listbox" Name="Root/FamilyLog/Static/Board" >
+                <Property Name="ColumnsMovable" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.007895,0},{0.038627,0},{0.992106,0},{0.929185,0}}" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/FamilyLog/Static/QMarkBtn" >
+                <Property Name="DisabledImage" Value="set:DejaVu image:HelpButtonPressed" />
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0.973684,0},{0.00643777,0},{0.989474,0},{0.0321888,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

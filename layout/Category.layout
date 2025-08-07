@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/Static" Name="Root/Payback/Category" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HorizontalAlignment" Value="Centre" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.458333,0},{0.543249,0}}" />
+        <Window Type="DejaVu/Static" Name="Root/Payback/Category/Currency" >
+            <Property Name="HorizontalAlignment" Value="Right" />
+            <Property Name="UnifiedAreaRect" Value="{{-0.0113636,0},{0.0485437,0},{0.705682,0},{0.106796,0}}" />
+            <Window Type="DejaVu/EmbedText7" Name="Root/Payback/Category/Currency/Title" >
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="x點數狀態" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.70523,0},{0,0},{-0.467512,0},{0.833333,0}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+            </Window>
+            <Window Type="DejaVu/Embed2" Name="Root/Payback/Category/Currency/CoinArea1" >
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.507132,0},{0,0},{-0.316957,0},{0.833333,0}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/Payback/Category/Currency/CoinArea1/Text" >
+                    <Property Name="HorzFormatting" Value="RightAligned" />
+                    <Property Name="Text" Value="x99999" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.65,0},{1,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/Payback/Category/Currency/CoinArea1/Image" >
+                    <Property Name="Image" Value="set:main image:ItemMallcoin2" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.8,0},{0.2,0},{0.9,0},{0.8,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed2" Name="Root/Payback/Category/Currency/CoinArea2" >
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.313788,0},{0,0},{-0.123613,0},{0.833333,0}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/Payback/Category/Currency/CoinArea2/Text" >
+                    <Property Name="HorzFormatting" Value="RightAligned" />
+                    <Property Name="Text" Value="x99999" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.65,0},{1,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/Payback/Category/Currency/CoinArea2/Image" >
+                    <Property Name="Image" Value="set:main image:ItemMallcoin1" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.8,0},{0.2,0},{0.9,0},{0.8,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed2" Name="Root/Payback/Category/Currency/CoinArea3" >
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.122029,0},{0.0333333,0},{0.0681458,0},{0.866667,0}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/Payback/Category/Currency/CoinArea3/Text" >
+                    <Property Name="HorzFormatting" Value="RightAligned" />
+                    <Property Name="Text" Value="x99999" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.65,0},{1,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/Payback/Category/Currency/CoinArea3/Image" >
+                    <Property Name="Image" Value="set:main image:Coin3" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.8,0},{0.2,0},{0.9,0},{0.8,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/Payback/Category/Currency/ChargeBtn" >
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="Text" Value="x儲值" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.114105,0},{0.866667,0}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/Payback/Category/TitleBG" >
+            <Property Name="Image" Value="set:main3 image:CharacterList" />
+            <Property Name="UnifiedAreaRect" Value="{{0.00568182,0},{0.0194175,0},{0.279545,0},{0.106796,0}}" />
+            <Window Type="DejaVu/StaticText" Name="Root/Payback/Category/TitleBG/Text" >
+                <Property Name="Font" Value="F001-18" />
+                <Property Name="Text" Value="x零元返還分類一" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0414938,0},{0,0},{1,0},{1,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Embed2" Name="Root/Payback/Category/bg" >
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.116505,0},{0.986364,0},{0.990291,0}}" />
+            <Property Name="VertFormatting" Value="TopAligned" />
+            <Window Type="DejaVu/ScrollablePane" Name="Root/Payback/Category/bg/ScrollablePane" >
+                <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="HorzOverlapSize" Value="0.01" />
+                <Property Name="HorzScrollPosition" Value="0" />
+                <Property Name="HorzStepSize" Value="0.1" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.990783,0},{0.977778,0}}" />
+                <Property Name="VertOverlapSize" Value="0.01" />
+                <Property Name="VertScrollPosition" Value="0" />
+                <Property Name="VertStepSize" Value="0.1" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+                <AutoWindow NameSuffix="__auto_container__" >
+                    <Property Name="ChildExtentsArea" Value="l:0 t:0 r:0 b:0" />
+                    <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                    <Property Name="MouseInputPropagationEnabled" Value="True" />
+                </AutoWindow>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/CoupleWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,849},{0,582}}" />
+        <Window Type="DejaVu/Static" Name="Root/CoupleWnd/CoupleList" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0117786,0},{0.0171821,0},{0.988222,0},{0.637457,0}}" />
+            <Window Type="DejaVu/Embed2" Name="Root/CoupleWnd/CoupleList/BG" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.027701,0},{1,0},{1,0}}" />
+                <Window Type="DejaVu/Embed2" Name="Root/CoupleWnd/CoupleList/BG2/" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.012063,0},{0.071225,0},{0.987938,0},{0.97151,0}}" />
+                    <Window Type="DejaVu/MultiColumnList" Name="Root/CoupleWnd/CoupleList/BG/MCL" >
+                        <Property Name="ColumnsMovable" Value="False" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.00247219,0},{0.00632911,0},{0.997528,0},{0.993671,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/CoupleWnd/CoupleList/Num" >
+                    <Property Name="Text" Value="目前情侶人數：2/ 3" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.211098,0},{0.011396,0},{0.512666,0},{0.059829,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/CoupleWnd/CoupleList/TraceBtn" >
+                    <Property Name="Text" Value="x開啟追蹤任務介面" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.819059,0},{0.011396,0},{0.987937,0},{0.0598291,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed4" Name="Root/CoupleWnd/CoupleList/Title" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.012063,0},{0.0023197,0},{0.193004,0},{0.0715718,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="Root/CoupleWnd/CoupleList/Title/Img" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Image" Value="set:DejaVu image:Image13" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/CoupleWnd/CoupleList/Title/Text" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="x情侶列表" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.2,0},{0.866667,0},{0.8,0}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/CoupleWnd/DeleteBtn" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="Text" Value="x刪除情侶" />
+            <Property Name="UnifiedAreaRect" Value="{{0.011779,0},{-0.017182,0},{0.101296,0},{0.0274915,0}}" />
+            <Property Name="VerticalAlignment" Value="Bottom" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/CoupleWnd/ContractBtn" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="Text" Value="x結婚證書" />
+            <Property Name="UnifiedAreaRect" Value="{{0.805654,0},{-0.0171821,0},{0.895171,0},{0.0274914,0}}" />
+            <Property Name="VerticalAlignment" Value="Bottom" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/CoupleWnd/AddBtn" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HorizontalAlignment" Value="Right" />
+            <Property Name="Text" Value="x加入情侶" />
+            <Property Name="UnifiedAreaRect" Value="{{-0.011779,0},{-0.017182,0},{0.0777381,0},{0.0274915,0}}" />
+            <Property Name="VerticalAlignment" Value="Bottom" />
+        </Window>
+        <Window Type="DejaVu/Static" Name="Root/CoupleWnd/RewardList" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.011779,0},{0.646048,0},{0.988222,0},{0.929553,0}}" />
+            <Window Type="DejaVu/Embed2" Name="Root/CoupleWnd/RewardList/BG" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0606061,0},{1,0},{1,0}}" />
+                <Window Type="DejaVu/Embed2" Name="Root/CoupleWnd/RewardList/BG/RewardBG0" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.014475,0},{0.16129,0},{0.153196,0},{0.935484,0}}" />
+                    <Window Type="DejaVu/EmbedTextLab7" Name="Root/CoupleWnd/RewardList/BG/RewardBG0/Title" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.017391,0},{0.016667,0},{0.982608,0},{0.225,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/CoupleWnd/RewardList/BG/RewardBG0/Slots" >
+                        <Property Name="HorizontalAlignment" Value="Centre" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.283333,0},{0.365217,0},{0.633333,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Button" Name="Root/CoupleWnd/RewardList/BG/RewardBG0/Btn" >
+                        <Property Name="HorizontalAlignment" Value="Centre" />
+                        <Property Name="Text" Value="領取" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.716667,0},{0.66087,0},{0.933333,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed2" Name="Root/CoupleWnd/RewardList/BG/RewardBG1" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.153197,0},{0.16129,0},{0.291918,0},{0.935484,0}}" />
+                    <Window Type="DejaVu/EmbedTextLab7" Name="Root/CoupleWnd/RewardList/BG/RewardBG1/Title" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.017391,0},{0.016667,0},{0.982608,0},{0.225,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/CoupleWnd/RewardList/BG/RewardBG1/Slots" >
+                        <Property Name="HorizontalAlignment" Value="Centre" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.283333,0},{0.365217,0},{0.633333,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Button" Name="Root/CoupleWnd/RewardList/BG/RewardBG1/Btn" >
+                        <Property Name="HorizontalAlignment" Value="Centre" />
+                        <Property Name="Text" Value="領取" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.716667,0},{0.66087,0},{0.933333,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed2" Name="Root/CoupleWnd/RewardList/BG/RewardBG2" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.291918,0},{0.16129,0},{0.430639,0},{0.935484,0}}" />
+                    <Window Type="DejaVu/EmbedTextLab7" Name="Root/CoupleWnd/RewardList/BG/RewardBG2/Title" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.017391,0},{0.016667,0},{0.982608,0},{0.225,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/CoupleWnd/RewardList/BG/RewardBG2/Slots" >
+                        <Property Name="HorizontalAlignment" Value="Centre" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.283333,0},{0.365217,0},{0.633333,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Button" Name="Root/CoupleWnd/RewardList/BG/RewardBG2/Btn" >
+                        <Property Name="HorizontalAlignment" Value="Centre" />
+                        <Property Name="Text" Value="領取" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.716667,0},{0.66087,0},{0.933333,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed2" Name="Root/CoupleWnd/RewardList/BG/RewardBG3" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.430639,0},{0.16129,0},{0.56936,0},{0.935484,0}}" />
+                    <Window Type="DejaVu/EmbedTextLab7" Name="Root/CoupleWnd/RewardList/BG/RewardBG3/Title" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.017391,0},{0.016667,0},{0.982608,0},{0.225,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/CoupleWnd/RewardList/BG/RewardBG3/Slots" >
+                        <Property Name="HorizontalAlignment" Value="Centre" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.283333,0},{0.365217,0},{0.633333,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Button" Name="Root/CoupleWnd/RewardList/BG/RewardBG3/Btn" >
+                        <Property Name="HorizontalAlignment" Value="Centre" />
+                        <Property Name="Text" Value="領取" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.716667,0},{0.66087,0},{0.933333,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed2" Name="Root/CoupleWnd/RewardList/BG/RewardBG4" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.569361,0},{0.16129,0},{0.708082,0},{0.935484,0}}" />
+                    <Window Type="DejaVu/EmbedTextLab7" Name="Root/CoupleWnd/RewardList/BG/RewardBG4/Title" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.017391,0},{0.016667,0},{0.982608,0},{0.225,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/CoupleWnd/RewardList/BG/RewardBG4/Slots" >
+                        <Property Name="HorizontalAlignment" Value="Centre" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.283333,0},{0.365217,0},{0.633333,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Button" Name="Root/CoupleWnd/RewardList/BG/RewardBG4/Btn" >
+                        <Property Name="HorizontalAlignment" Value="Centre" />
+                        <Property Name="Text" Value="領取" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.716667,0},{0.66087,0},{0.933333,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed2" Name="Root/CoupleWnd/RewardList/BG/RewardBG5" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.708082,0},{0.16129,0},{0.846803,0},{0.935484,0}}" />
+                    <Window Type="DejaVu/EmbedTextLab7" Name="Root/CoupleWnd/RewardList/BG/RewardBG5/Title" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.017391,0},{0.016667,0},{0.982608,0},{0.225,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/CoupleWnd/RewardList/BG/RewardBG5/Slots" >
+                        <Property Name="HorizontalAlignment" Value="Centre" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.283333,0},{0.365217,0},{0.633333,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Button" Name="Root/CoupleWnd/RewardList/BG/RewardBG5/Btn" >
+                        <Property Name="HorizontalAlignment" Value="Centre" />
+                        <Property Name="Text" Value="領取" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.716667,0},{0.66087,0},{0.933333,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed2" Name="Root/CoupleWnd/RewardList/BG/RewardBG6" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.846803,0},{0.16129,0},{0.985524,0},{0.935484,0}}" />
+                    <Window Type="DejaVu/EmbedTextLab7" Name="Root/CoupleWnd/RewardList/BG/RewardBG6/Title" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.017391,0},{0.016667,0},{0.982608,0},{0.225,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/CoupleWnd/RewardList/BG/RewardBG6/Slots" >
+                        <Property Name="HorizontalAlignment" Value="Centre" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.283333,0},{0.365217,0},{0.633333,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Button" Name="Root/CoupleWnd/RewardList/BG/RewardBG6/Btn" >
+                        <Property Name="HorizontalAlignment" Value="Centre" />
+                        <Property Name="Text" Value="領取" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.716667,0},{0.66087,0},{0.933333,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/CoupleWnd/RewardList/BG/Mark0" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="Image" Value="set:main2 image:GiftIcon" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0482509,0},{0.529032,0},{0.0784077,0},{0.690323,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/CoupleWnd/RewardList/BG/Mark1" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="Image" Value="set:main2 image:GiftIcon" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.186972,0},{0.529032,0},{0.217129,0},{0.690323,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/CoupleWnd/RewardList/BG/Mark2" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="Image" Value="set:main2 image:GiftIcon" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.325694,0},{0.529032,0},{0.35585,0},{0.690323,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/CoupleWnd/RewardList/BG/Mark3" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="Image" Value="set:main2 image:GiftIcon" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.464415,0},{0.529032,0},{0.494572,0},{0.690323,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/CoupleWnd/RewardList/BG/Mark4" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="Image" Value="set:main2 image:GiftIcon" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.603136,0},{0.529032,0},{0.633293,0},{0.690323,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/CoupleWnd/RewardList/BG/Mark5" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="Image" Value="set:main2 image:GiftIcon" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.741858,0},{0.529032,0},{0.772014,0},{0.690323,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/CoupleWnd/RewardList/BG/Mark6" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="Image" Value="set:main2 image:GiftIcon" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.880579,0},{0.529032,0},{0.910736,0},{0.690323,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/CoupleWnd/RewardList/BG/PrevBtn" >
+                    <Property Name="DisabledImage" Value="set:DejaVu image:ArrowLeftPressed" />
+                    <Property Name="HoverImage" Value="set:DejaVu image:ArrowLeftHover" />
+                    <Property Name="NormalImage" Value="set:DejaVu image:ArrowLeftNormal" />
+                    <Property Name="PushedImage" Value="set:DejaVu image:ArrowLeftPressed" />
+                    <Property Name="UnifiedAreaRect" Value="{{-0.00844391,0},{0.448052,0},{0.0217129,0},{0.603896,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/CoupleWnd/RewardList/BG/NextBtn" >
+                    <Property Name="DisabledImage" Value="set:DejaVu image:ArrowRightPressed" />
+                    <Property Name="HorizontalAlignment" Value="Right" />
+                    <Property Name="HoverImage" Value="set:DejaVu image:ArrowRightHover" />
+                    <Property Name="NormalImage" Value="set:DejaVu image:ArrowRightNormal" />
+                    <Property Name="PushedImage" Value="set:DejaVu image:ArrowRightPressed" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.00844391,0},{0.448052,0},{0.0386007,0},{0.603896,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed4" Name="Root/CoupleWnd/RewardList/Title" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.012063,0},{0,0},{0.193004,0},{0.151515,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="Root/CoupleWnd/RewardList/Title/Img" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Image" Value="set:DejaVu image:Image09" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/CoupleWnd/RewardList/Title/Text" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="x領取獎勵" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.2,0},{0.866667,0},{0.8,0}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/CoupleWnd/CoupleRankBtn" >
+            <Property Name="HorizontalAlignment" Value="Right" />
+            <Property Name="Text" Value="x守護騎士位階" />
+            <Property Name="UnifiedAreaRect" Value="{{-0.0117786,0},{-0.0171821,0},{0.0777385,0},{0.0274914,0}}" />
+            <Property Name="VerticalAlignment" Value="Bottom" />
+        </Window>
+    </Window>
+</GUILayout>

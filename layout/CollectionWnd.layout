@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/CollectionWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="Text" Value="x收藏" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,795},{0,588}}" />
+        <Window Type="DejaVu/Static" Name="Root/CollectionWnd/BG" >
+            <Property Name="BackgroundEnabled" Value="True" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Embed3" Name="Root/CollectionWnd/TreasuryTree" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.007614,0},{0.011152,0},{0.186969,0},{0.624705,0}}" />
+                <Window Type="DejaVu/EmbedTextLab8" Name="Root/CollectionWnd/TreasuryTree/TitleBG" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.035211,0},{0.015773,0},{0.963269,0},{0.0903999,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/CollectionWnd/TreasuryTree/Title" >
+                        <Property Name="Text" Value="x寶物收藏" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.037037,0},{0,0},{0.571921,0},{1,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Tree" Name="Root/CollectionWnd/TreasuryTree/Tree" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.035971,0},{0.089552,0},{0.964029,0},{0.985074,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed3" Name="Root/CollectionWnd/Book" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.193548,0},{0.010989,0},{0.64,0},{0.624542,0}}" />
+                <Window Type="DejaVu/Embed8" Name="Root/CollectionWnd/Book/TitleBG" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.014663,0},{0.015773,0},{0.985761,0},{0.0903999,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/CollectionWnd/Book/Title" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="x角色頭部收藏" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.015106,0},{0,0},{0.492447,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/CollectionWnd/Book/RateTitle" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="x收藏率：" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.657738,0},{0,0},{0.836309,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/CollectionWnd/Book/Rate" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HorzFormatting" Value="RightAligned" />
+                        <Property Name="Text" Value="x100.0%" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.83631,0},{0,0},{0.985119,0},{1,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/CollectionWnd/Book/Checkbox1" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Selected" Value="True" />
+                    <Property Name="Text" Value="x只顯示遊戲寶物" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.014451,0},{0.104478,0},{0.476879,0},{0.149254,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/CollectionWnd/Book/Checkbox2" >
+                    <Property Name="Selected" Value="True" />
+                    <Property Name="Text" Value="x只顯示商城寶物" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.014451,0},{0.164179,0},{0.476879,0},{0.208955,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/CollectionWnd/Book/Checkbox3" >
+                    <Property Name="Text" Value="x只顯示已擁有寶物" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.014451,0},{0.223881,0},{0.476879,0},{0.268657,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab" Name="Root/CollectionWnd/Book/PageNumber" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="1/5" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.436416,0},{0.925373,0},{0.563584,0},{0.985075,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/CollectionWnd/Book/PrevPageBtn" >
+                    <Property Name="DisabledImage" Value="set:DejaVu image:ArrowLeftPressed" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HoverImage" Value="set:DejaVu image:ArrowLeftHover" />
+                    <Property Name="NormalImage" Value="set:DejaVu image:ArrowLeftNormal" />
+                    <Property Name="PushedImage" Value="set:DejaVu image:ArrowLeftPressed" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.390173,0},{0.925373,0},{0.433526,0},{0.985075,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/CollectionWnd/Book/NextPageBtn" >
+                    <Property Name="DisabledImage" Value="set:DejaVu image:ArrowRightPressed" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HoverImage" Value="set:DejaVu image:ArrowRightHover" />
+                    <Property Name="NormalImage" Value="set:DejaVu image:ArrowRightNormal" />
+                    <Property Name="PushedImage" Value="set:DejaVu image:ArrowRightPressed" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.566474,0},{0.925373,0},{0.609827,0},{0.985075,0}}" />
+                </Window>
+                <Window Type="DejaVu/Embed4" Name="Root/CollectionWnd/Book/ListBG" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0144509,0},{0.301493,0},{0.985549,0},{0.910448,0}}" />
+                    <Window Type="DejaVu/ScrollablePane" Name="Root/CollectionWnd/Book/List" >
+                        <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HorzOverlapSize" Value="0.01" />
+                        <Property Name="HorzScrollPosition" Value="0" />
+                        <Property Name="HorzStepSize" Value="0.1" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.005952,0},{0.009804,0},{0.994047,0},{0.990196,0}}" />
+                        <Property Name="VertOverlapSize" Value="0.01" />
+                        <Property Name="VertScrollPosition" Value="0" />
+                        <Property Name="VertStepSize" Value="0.1" />
+                        <AutoWindow NameSuffix="__auto_container__" >
+                            <Property Name="ChildExtentsArea" Value="l:0 t:0 r:0 b:0" />
+                            <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                            <Property Name="MouseInputPropagationEnabled" Value="True" />
+                        </AutoWindow>
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/CollectionWnd/Book/Checkbox4" >
+                    <Property Name="Text" Value="x反向搜尋" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.50578,0},{0.104478,0},{0.968208,0},{0.149254,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed3" Name="Root/CollectionWnd/Collect" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.00774194,0},{0.906593,0},{0.64,0},{0.987179,0}}" />
+                <Window Type="DejaVu/SlotImage" Name="Root/CollectionWnd/Collect/ItemSlot" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0102041,0},{0.113636,0},{0.0795918,0},{0.886364,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/CollectionWnd/Collect/TipTitle" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="x對著收藏品按右鍵即可取出收藏品" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.340909,0},{0.671429,0},{0.681818,0}}" />
+                </Window>
+                <Window Type="DejaVu/Button" Name="Root/CollectionWnd/Collect/CollectBtn" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="x收藏" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.85102,0},{0.5,0},{0.989796,0},{0.886364,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/CollectionWnd/Collect/HelpBtn" >
+                    <Property Name="DisabledImage" Value="set:DejaVu image:HelpButtonPressed" />
+                    <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                    <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                    <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.959184,0},{0.113636,0},{0.989796,0},{0.454545,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed3" Name="Root/CollectionWnd/Report" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.007742,0},{0.6337,0},{0.64,0},{0.897436,0}}" />
+                <Window Type="DejaVu/Embed8" Name="Root/CollectionWnd/Report/TitleBG" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.010204,0},{0.032467,0},{0.989796,0},{0.204881,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/CollectionWnd/Report/Title" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="x收藏報告" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.010417,0},{0,0},{0.197917,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/CollectionWnd/Report/PointTitle" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="x收藏總積分：" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.71875,0},{0,0},{0.875,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/CollectionWnd/Report/Point" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HorzFormatting" Value="RightAligned" />
+                        <Property Name="Text" Value="999999" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.874687,0},{0,0},{0.98927,0},{1,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed4" Name="Root/CollectionWnd/Report/ListBG" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.010204,0},{0.206897,0},{0.989796,0},{0.965518,0}}" />
+                    <Window Type="DejaVu/MultiColumnList" Name="Root/CollectionWnd/Report/List" >
+                        <Property Name="ColumnsMovable" Value="False" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.004167,0},{0.018349,0},{0.995834,0},{0.981652,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed3" Name="Root/CollectionWnd/Preview" >
+                <Property Name="UnifiedAreaRect" Value="{{0.646452,0},{0.010989,0},{0.992258,0},{0.989011,0}}" />
+                <Window Type="DejaVu/EmbedTextLab8" Name="Root/CollectionWnd/Preview/TitleBG" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.018657,0},{0.009363,0},{0.981344,0},{0.0561795,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/CollectionWnd/Preview/Title" >
+                        <Property Name="Text" Value="x外觀預覽" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.02,0},{0,0},{0.446357,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/ImageButton" Name="Root/CollectionWnd/Preview/HelpBtn" >
+                        <Property Name="DisabledImage" Value="set:DejaVu image:HelpButtonPressed" />
+                        <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                        <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                        <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.922481,0},{0.2,0},{0.98062,0},{0.8,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Button" Name="Root/CollectionWnd/Preview/ResetBtn" >
+                    <Property Name="Text" Value="x重置" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.727612,0},{0.7397,0},{0.981343,0},{0.771536,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/CollectionWnd/Preview/Image" >
+                    <Property Name="Image" Value="set:main image:noimage" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.017794,0},{0.057034,0},{0.980481,0},{0.731191,0}}" />
+                </Window>
+                <Window Type="DejaVu/Embed4" Name="Root/CollectionWnd/Book/ListBG1" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.0186567,0},{0.827715,0},{0.981343,0},{0.990637,0}}" />
+                    <Window Type="DejaVu/ScrollablePane" Name="Root/CollectionWnd/Book/GroupList" >
+                        <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                        <Property Name="HorzOverlapSize" Value="0.01" />
+                        <Property Name="HorzScrollPosition" Value="0" />
+                        <Property Name="HorzStepSize" Value="0.1" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.007752,0},{0.022989,0},{0.992248,0},{0.977012,0}}" />
+                        <Property Name="VertOverlapSize" Value="0.01" />
+                        <Property Name="VertScrollPosition" Value="0" />
+                        <Property Name="VertStepSize" Value="0.1" />
+                        <AutoWindow NameSuffix="__auto_container__" >
+                            <Property Name="ChildExtentsArea" Value="l:0 t:0 r:0 b:0" />
+                            <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                            <Property Name="MouseInputPropagationEnabled" Value="True" />
+                        </AutoWindow>
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab8" Name="Root/CollectionWnd/Preview/TitleBG1" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.0186567,0},{0.780899,0},{0.981343,0},{0.827715,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/CollectionWnd/Preview/GroupTitle" >
+                        <Property Name="Text" Value="x高級護目鏡" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0193798,0},{0,0},{0.562016,0},{1,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

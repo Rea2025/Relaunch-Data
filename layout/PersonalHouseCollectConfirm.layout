@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/PersonalHouseCollectConfirm" >
+        <Property Name="CloseButtonEnabled" Value="False" />
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="TitlebarEnabled" Value="False" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,230},{0,162}}" />
+        <Window Type="DejaVu/Button" Name="Root/PersonalHouseCollectConfirm/OKBtn" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="Text" Value="x確定" />
+            <Property Name="UnifiedAreaRect" Value="{{0.056701,0},{0.795082,0},{0.056701,70},{0.795082,24}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/PersonalHouseCollectConfirm/CancelBtn" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="Text" Value="x取消" />
+            <Property Name="UnifiedAreaRect" Value="{{0.520619,0},{0.795082,0},{0.520619,70},{0.795082,24}}" />
+        </Window>
+        <Window Type="DejaVu/StaticTextLab" Name="Root/PersonalHouseCollectConfirm/Text1" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="Text" Value="x進行採集將會消耗" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0618557,0},{0.0983607,0},{0.0618557,170},{0.0983607,15}}" />
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/PersonalHouseCollectConfirm/MoneyImg" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="Image" Value="set:DejaVu image:MoneySet02" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0773196,0},{0.418033,0},{0.0773196,161},{0.418033,19}}" />
+            <Window Type="DejaVu/StaticTextLab" Name="Root/PersonalHouseCollectConfirm/MoneyImg/Gold" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="Text" Value="999999" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0424772,0},{0.151053,0},{0.44435,0},{0.847894,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/PersonalHouseCollectConfirm/MoneyImg/Silver" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="Text" Value="99" />
+                <Property Name="UnifiedAreaRect" Value="{{0.55633,0},{0.15,0},{0.688781,0},{0.85,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/PersonalHouseCollectConfirm/MoneyImg/Copper" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="Text" Value="99" />
+                <Property Name="UnifiedAreaRect" Value="{{0.784615,0},{0.150351,0},{0.917064,0},{0.850351,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/StaticTextLab" Name="Root/PersonalHouseCollectConfirm/Text2" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="Text" Value="x消耗道具：某某某某道具x12" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0618557,0},{0.245902,0},{0.0618557,162},{0.245902,15}}" />
+        </Window>
+        <Window Type="DejaVu/StaticTextLab" Name="Root/PersonalHouseCollectConfirm/MsgText" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="Text" Value="x確定進行採集？" />
+            <Property Name="UnifiedAreaRect" Value="{{0.072165,0},{0.621839,0},{0.072165,162},{0.621839,15}}" />
+        </Window>
+    </Window>
+</GUILayout>

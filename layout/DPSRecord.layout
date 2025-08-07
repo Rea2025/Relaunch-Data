@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/Static" Name="Root/DPSRecord" >
+        <Property Name="Font" Value="F001-scale" />
+        <Property Name="MousePassThroughEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0.417969,0},{0.404948,0},{0.417969,192},{0.404948,257}}" />
+        <Window Type="DejaVu/StaticText" Name="Root/DPSRecord/title" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="Text" Value="戰鬥紀錄器" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.5,0},{0.07393,0}}" />
+        </Window>
+        <Window Type="DejaVu/ImageButton" Name="Root/DPSRecord/btn1" >
+            <Property Name="DisabledImage" Value="set:main image:noimage" />
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="HoverImage" Value="set:main image:noimage" />
+            <Property Name="NormalImage" Value="set:main image:noimage" />
+            <Property Name="PushedImage" Value="set:main image:noimage" />
+            <Property Name="UnifiedAreaRect" Value="{{0.526042,0},{0,0},{0.630209,0},{0.077821,0}}" />
+        </Window>
+        <Window Type="DejaVu/ImageButton" Name="Root/DPSRecord/btn2" >
+            <Property Name="DisabledImage" Value="set:main image:noimage" />
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="HoverImage" Value="set:main image:noimage" />
+            <Property Name="NormalImage" Value="set:main image:noimage" />
+            <Property Name="PushedImage" Value="set:main image:noimage" />
+            <Property Name="UnifiedAreaRect" Value="{{0.666667,0},{0,0},{0.770833,0},{0.077821,0}}" />
+        </Window>
+        <Window Type="DejaVu/ImageButton" Name="Root/DPSRecord/btn3" >
+            <Property Name="DisabledImage" Value="set:main image:noimage" />
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="HoverImage" Value="set:main image:noimage" />
+            <Property Name="NormalImage" Value="set:main image:noimage" />
+            <Property Name="PushedImage" Value="set:main image:noimage" />
+            <Property Name="UnifiedAreaRect" Value="{{0.802083,0},{0,0},{0.90625,0},{0.077821,0}}" />
+        </Window>
+        <Window Type="DejaVu/Embed3" Name="Root/DPSRecord/team1" >
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.085603,0},{1,0},{0.178988,0}}" />
+            <Window Type="DejaVu/StaticImage" Name="Root/DPSRecord/team1/icon1" >
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="Image" Value="set:main image:noimage" />
+                <Property Name="UnifiedAreaRect" Value="{{0.010417,0},{0.083333,0},{0.114584,0},{0.916666,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/DPSRecord/team1/icon2" >
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="Image" Value="set:main image:noimage" />
+                <Property Name="UnifiedAreaRect" Value="{{0.125,0},{0.0833333,0},{0.229167,0},{0.916667,0}}" />
+            </Window>
+            <Window Type="DejaVu/Embed4" Name="Root/DPSRecord/team1/BG" >
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="UnifiedAreaRect" Value="{{0.239583,0},{0.083333,0},{0.989583,0},{0.916666,0}}" />
+                <Window Type="DejaVu/ProgressBar" Name="Root/DPSRecord/team1/barR" >
+                    <Property Name="CurrentProgress" Value="0" />
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="StepSize" Value="0.01" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.05,0},{1,0},{0.95,0}}" />
+                </Window>
+                <Window Type="DejaVu/ProgressBar" Name="Root/DPSRecord/team1/barB" >
+                    <Property Name="CurrentProgress" Value="0" />
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="StepSize" Value="0.01" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.05,0},{1,0},{0.95,0}}" />
+                </Window>
+                <Window Type="DejaVu/ProgressBar" Name="Root/DPSRecord/team1/barG" >
+                    <Property Name="CurrentProgress" Value="0" />
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="StepSize" Value="0.01" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.05,0},{1,0},{0.95,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="Root/DPSRecord/team1/percent" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorzFormatting" Value="RightAligned" />
+                    <Property Name="Text" Value="100%" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.05,0},{0.986111,0},{0.95,0}}" />
+                    <Window Type="DejaVu/StaticText" Name="Root/DPSRecord/team1/percent/name" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="一二三四五六七八" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.021127,0},{0.055556,0},{0.760564,0},{1.05556,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Embed3" Name="Root/DPSRecord/team2" >
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.18677,0},{1,0},{0.280156,0}}" />
+            <Window Type="DejaVu/StaticImage" Name="Root/DPSRecord/team2/icon1" >
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="Image" Value="set:main image:noimage" />
+                <Property Name="UnifiedAreaRect" Value="{{0.010417,0},{0.083333,0},{0.114584,0},{0.916666,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/DPSRecord/team2/icon2" >
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="Image" Value="set:main image:noimage" />
+                <Property Name="UnifiedAreaRect" Value="{{0.125,0},{0.0833333,0},{0.229167,0},{0.916667,0}}" />
+            </Window>
+            <Window Type="DejaVu/Embed4" Name="Root/DPSRecord/team2/BG" >
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="UnifiedAreaRect" Value="{{0.239583,0},{0.083333,0},{0.989583,0},{0.916666,0}}" />
+                <Window Type="DejaVu/ProgressBar" Name="Root/DPSRecord/team2/barR" >
+                    <Property Name="CurrentProgress" Value="0" />
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="StepSize" Value="0.01" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.05,0},{1,0},{0.95,0}}" />
+                </Window>
+                <Window Type="DejaVu/ProgressBar" Name="Root/DPSRecord/team2/barB" >
+                    <Property Name="CurrentProgress" Value="0" />
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="StepSize" Value="0.01" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.05,0},{1,0},{0.95,0}}" />
+                </Window>
+                <Window Type="DejaVu/ProgressBar" Name="Root/DPSRecord/team2/barG" >
+                    <Property Name="CurrentProgress" Value="0" />
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="StepSize" Value="0.01" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.05,0},{1,0},{0.95,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="Root/DPSRecord/team2/percent" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorzFormatting" Value="RightAligned" />
+                    <Property Name="Text" Value="100%" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.05,0},{0.986111,0},{0.95,0}}" />
+                    <Window Type="DejaVu/StaticText" Name="Root/DPSRecord/team2/percent/name" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="一二三四五六七八" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.021127,0},{0.055556,0},{0.760564,0},{1.05556,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Embed3" Name="Root/DPSRecord/team3" >
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.287938,0},{1,0},{0.381323,0}}" />
+            <Window Type="DejaVu/StaticImage" Name="Root/DPSRecord/team3/icon1" >
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="Image" Value="set:main image:noimage" />
+                <Property Name="UnifiedAreaRect" Value="{{0.010417,0},{0.083333,0},{0.114584,0},{0.916666,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/DPSRecord/team3/icon2" >
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="Image" Value="set:main image:noimage" />
+                <Property Name="UnifiedAreaRect" Value="{{0.125,0},{0.0833333,0},{0.229167,0},{0.916667,0}}" />
+            </Window>
+            <Window Type="DejaVu/Embed4" Name="Root/DPSRecord/team3/BG" >
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="UnifiedAreaRect" Value="{{0.239583,0},{0.083333,0},{0.989583,0},{0.916666,0}}" />
+                <Window Type="DejaVu/ProgressBar" Name="Root/DPSRecord/team3/barR" >
+                    <Property Name="CurrentProgress" Value="0" />
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="StepSize" Value="0.01" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.05,0},{1,0},{0.95,0}}" />
+                </Window>
+                <Window Type="DejaVu/ProgressBar" Name="Root/DPSRecord/team3/barB" >
+                    <Property Name="CurrentProgress" Value="0" />
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="StepSize" Value="0.01" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.05,0},{1,0},{0.95,0}}" />
+                </Window>
+                <Window Type="DejaVu/ProgressBar" Name="Root/DPSRecord/team3/barG" >
+                    <Property Name="CurrentProgress" Value="0" />
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="StepSize" Value="0.01" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.05,0},{1,0},{0.95,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="Root/DPSRecord/team3/percent" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorzFormatting" Value="RightAligned" />
+                    <Property Name="Text" Value="100%" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.05,0},{0.986111,0},{0.95,0}}" />
+                    <Window Type="DejaVu/StaticText" Name="Root/DPSRecord/team3/percent/name" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="一二三四五六七八" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.021127,0},{0.055556,0},{0.760564,0},{1.05556,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Embed3" Name="Root/DPSRecord/team4" >
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.389105,0},{1,0},{0.48249,0}}" />
+            <Window Type="DejaVu/StaticImage" Name="Root/DPSRecord/team4/icon1" >
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="Image" Value="set:main image:noimage" />
+                <Property Name="UnifiedAreaRect" Value="{{0.010417,0},{0.083333,0},{0.114584,0},{0.916666,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/DPSRecord/team4/icon2" >
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="Image" Value="set:main image:noimage" />
+                <Property Name="UnifiedAreaRect" Value="{{0.125,0},{0.0833333,0},{0.229167,0},{0.916667,0}}" />
+            </Window>
+            <Window Type="DejaVu/Embed4" Name="Root/DPSRecord/team4/BG" >
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="UnifiedAreaRect" Value="{{0.239583,0},{0.083333,0},{0.989583,0},{0.916666,0}}" />
+                <Window Type="DejaVu/ProgressBar" Name="Root/DPSRecord/team4/barR" >
+                    <Property Name="CurrentProgress" Value="0" />
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="StepSize" Value="0.01" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.05,0},{1,0},{0.95,0}}" />
+                </Window>
+                <Window Type="DejaVu/ProgressBar" Name="Root/DPSRecord/team4/barB" >
+                    <Property Name="CurrentProgress" Value="0" />
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="StepSize" Value="0.01" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.05,0},{1,0},{0.95,0}}" />
+                </Window>
+                <Window Type="DejaVu/ProgressBar" Name="Root/DPSRecord/team4/barG" >
+                    <Property Name="CurrentProgress" Value="0" />
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="StepSize" Value="0.01" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.05,0},{1,0},{0.95,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="Root/DPSRecord/team4/percent" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorzFormatting" Value="RightAligned" />
+                    <Property Name="Text" Value="100%" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.05,0},{0.986111,0},{0.95,0}}" />
+                    <Window Type="DejaVu/StaticText" Name="Root/DPSRecord/team4/percent/name" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="一二三四五六七八" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.021127,0},{0.055556,0},{0.760564,0},{1.05556,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Embed3" Name="Root/DPSRecord/team5" >
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.490272,0},{1,0},{0.583658,0}}" />
+            <Window Type="DejaVu/StaticImage" Name="Root/DPSRecord/team5/icon1" >
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="Image" Value="set:main image:noimage" />
+                <Property Name="UnifiedAreaRect" Value="{{0.010417,0},{0.083333,0},{0.114584,0},{0.916666,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/DPSRecord/team5/icon2" >
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="Image" Value="set:main image:noimage" />
+                <Property Name="UnifiedAreaRect" Value="{{0.125,0},{0.0833333,0},{0.229167,0},{0.916667,0}}" />
+            </Window>
+            <Window Type="DejaVu/Embed4" Name="Root/DPSRecord/team5/BG" >
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="UnifiedAreaRect" Value="{{0.239583,0},{0.083333,0},{0.989583,0},{0.916666,0}}" />
+                <Window Type="DejaVu/ProgressBar" Name="Root/DPSRecord/team5/barR" >
+                    <Property Name="CurrentProgress" Value="0" />
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="StepSize" Value="0.01" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.05,0},{1,0},{0.95,0}}" />
+                </Window>
+                <Window Type="DejaVu/ProgressBar" Name="Root/DPSRecord/team5/barB" >
+                    <Property Name="CurrentProgress" Value="0" />
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="StepSize" Value="0.01" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.05,0},{1,0},{0.95,0}}" />
+                </Window>
+                <Window Type="DejaVu/ProgressBar" Name="Root/DPSRecord/team5/barG" >
+                    <Property Name="CurrentProgress" Value="0" />
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="StepSize" Value="0.01" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.05,0},{1,0},{0.95,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="Root/DPSRecord/team5/percent" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorzFormatting" Value="RightAligned" />
+                    <Property Name="Text" Value="100%" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.05,0},{0.986111,0},{0.95,0}}" />
+                    <Window Type="DejaVu/StaticText" Name="Root/DPSRecord/team5/percent/name" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="一二三四五六七八" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.021127,0},{0.055556,0},{0.760564,0},{1.05556,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/DPSRecord/restart" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="Text" Value="x重置" />
+            <Property Name="UnifiedAreaRect" Value="{{0.630208,0},{0.603113,0},{0.984375,0},{0.673152,0}}" />
+        </Window>
+        <Window Type="DejaVu/ImageCheckbox" Name="Root/DPSRecord/lock" >
+            <Property Name="DisabledImage" Value="set:main image:LockBtnPressed" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HoverImage" Value="set:main image:LockBtnHover" />
+            <Property Name="NormalImage" Value="set:main image:LockBtnNormal" />
+            <Property Name="PushedImage" Value="set:main image:LockBtnPressed" />
+            <Property Name="UnifiedAreaRect" Value="{{0.921875,0},{0.011673,0},{1,0},{0.0700388,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/CS_DyeingWnd" >
+        <Property Name="ClippedByParent" Value="False" />
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HorizontalAlignment" Value="Right" />
+        <Property Name="TextFrameColour" Value="03000000" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.15,0},{0.7,0}}" />
+        <Window Type="DejaVu/FrameWindow" Name="Root/CS_DyeingWnd/Background" >
+            <Property Name="ClippedByParent" Value="False" />
+            <Property Name="HelpButtonEnabled" Value="False" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Property Name="TextFrameColour" Value="03000000" />
+            <Property Name="TitlebarEnabled" Value="True" />
+            <Property Name="TitlebarFont" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.007435,0},{0.974026,0},{1.00743,0}}" />
+            <Window Type="DejaVu/Embed" Name="Root/CS_DyeingWnd/Background/Border_PreView" >
+                <Property Name="TextFrameColour" Value="03000000" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.4,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="Root/CS_DyeingWnd/Background/Border_PreView/PreView" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="TextFrameColour" Value="03000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    <Property Name="VerticalAlignment" Value="Centre" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed" Name="Root/CS_DyeingWnd/Background/Border_Color1" >
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="TextFrameColour" Value="03000000" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.4,0},{1,0},{0.531004,0}}" />
+                <Window Type="DejaVu/Combobox" Name="Root/CS_DyeingWnd/Background/Border_Color1/Combo" >
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="MaxEditTextLength" Value="2147483647" />
+                    <Property Name="TextFrameColour" Value="03000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.037313,0},{0.5,0},{0.932835,0},{5.23333,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_DyeingWnd/Background/Border_Color1/Text" >
+                    <Property Name="Text" Value="染色1" />
+                    <Property Name="TextFrameColour" Value="03000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.03876,0},{0.147059,0},{0.337267,0},{0.480392,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/CS_DyeingWnd/Background/Border_Color1/Edit" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextFrameColour" Value="03000000" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.373134,0},{0.15,0},{0.970149,0},{0.483333,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed" Name="Root/CS_DyeingWnd/Background/Border_Color2" >
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="TextFrameColour" Value="03000000" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.545852,0},{1,0},{0.676856,0}}" />
+                <Window Type="DejaVu/Combobox" Name="Root/CS_DyeingWnd/Background/Border_Color2/Combo" >
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="MaxEditTextLength" Value="2147483647" />
+                    <Property Name="TextFrameColour" Value="03000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.037313,0},{0.5,0},{0.932835,0},{5.23333,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_DyeingWnd/Background/Border_Color2/Text" >
+                    <Property Name="Text" Value="染色2" />
+                    <Property Name="TextFrameColour" Value="03000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.03876,0},{0.147059,0},{0.337267,0},{0.480392,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/CS_DyeingWnd/Background/Border_Color2/Edit" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextFrameColour" Value="03000000" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.373134,0},{0.15,0},{0.970149,0},{0.483333,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed" Name="Root/CS_DyeingWnd/Background/Border_Color3" >
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="TextFrameColour" Value="03000000" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.69869,0},{1,0},{0.829694,0}}" />
+                <Window Type="DejaVu/Combobox" Name="Root/CS_DyeingWnd/Background/Border_Color3/Combo" >
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="MaxEditTextLength" Value="2147483647" />
+                    <Property Name="TextFrameColour" Value="03000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.037313,0},{0.5,0},{0.932835,0},{5.23333,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_DyeingWnd/Background/Border_Color3/Text" >
+                    <Property Name="Text" Value="染色3" />
+                    <Property Name="TextFrameColour" Value="03000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.03876,0},{0.147059,0},{0.337267,0},{0.480392,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/CS_DyeingWnd/Background/Border_Color3/Edit" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextFrameColour" Value="03000000" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.373134,0},{0.15,0},{0.970149,0},{0.483333,0}}" />
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

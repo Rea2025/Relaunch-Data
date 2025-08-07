@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/Static" Name="Root/NewMailDetailWnd" >
+        <Property Name="UnifiedAreaRect" Value="{{0.200438,0},{0.200577,0},{0.200438,1},{0.200577,1}}" />
+        <Window Type="DejaVu/Embed2" Name="Root/NewMailDetailWnd/Embed" >
+            <Property Name="ClippedByParent" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{-10.9478,0},{-8.36773,0},{544.422,0},{250.3,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/NewMailDetailWnd/CloseBtn" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="ClippedByParent" Value="False" />
+            <Property Name="Image" Value="set:main image:CloseBarBtnNormal" />
+            <Property Name="UnifiedAreaRect" Value="{{516,0},{4,0},{531,0},{19,0}}" />
+        </Window>
+        <Window Type="DejaVu/EmbedTextLab7" Name="Root/NewMailDetailWnd/Title" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="ClippedByParent" Value="False" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="Text" Value="X標題" />
+            <Property Name="UnifiedAreaRect" Value="{{2,0},{2,0},{82,0},{26,0}}" />
+        </Window>
+        <Window Type="DejaVu/EmbedTextLab5" Name="Root/NewMailDetailWnd/Text" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="ClippedByParent" Value="False" />
+            <Property Name="Text" Value="X12345678" />
+            <Property Name="UnifiedAreaRect" Value="{{88.4611,0},{2.49324,0},{488.461,0},{26.4932,0}}" />
+        </Window>
+        <Window Type="DejaVu/MultiLineEditbox" Name="Root/NewMailDetailWnd/Content" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="ClippedByParent" Value="False" />
+            <Property Name="MaxTextLength" Value="2147483647" />
+            <Property Name="Text" >X1234567
+</Property>
+            <Property Name="TextParsingEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{2,0},{31,0},{529,0},{144,0}}" />
+        </Window>
+        <Window Type="DejaVu/Embed3" Name="Root/NewMailDetailWnd/ItemEmbed" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="ClippedByParent" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{145,0},{527,0},{195,0}}" />
+            <Window Type="DejaVu/SlotImage" Name="Root/NewMailDetailWnd/Item" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.00759013,0},{0.12,0},{0.0834915,0},{0.92,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="Root/NewMailDetailWnd/ItemName" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="Text" Value="X1234567" />
+                <Property Name="UnifiedAreaRect" Value="{{0.113852,0},{0.28,0},{0.493359,0},{0.68,0}}" />
+            </Window>
+            <Window Type="DejaVu/EmbedText7" Name="Root/NewMailDetailWnd/MoneyText" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="X金錢" />
+                <Property Name="UnifiedAreaRect" Value="{{0.493359,0},{0.28,0},{0.637571,0},{0.78,0}}" />
+            </Window>
+            <Window Type="DejaVu/Embed2" Name="Root/NewMailDetailWnd/MoneyEmbed" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.645161,0},{0.28,0},{0.986717,0},{0.8,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="Root/NewMailDetailWnd/MoneyEmbed/SliverImage" >
+                    <Property Name="Image" Value="set:main image:Silver" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.862626,0},{0.180405,0},{0.952446,0},{0.780406,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/NewMailDetailWnd/MoneyEmbed/GoldImage" >
+                    <Property Name="Image" Value="set:main image:Gold" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.431138,0},{0.2,0},{0.520958,0},{0.8,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/NewMailDetailWnd/MoneyEmbed/SliverText" >
+                    <Property Name="HorzFormatting" Value="RightAligned" />
+                    <Property Name="Text" Value="999" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.610781,0},{0.2,0},{0.850302,0},{0.8,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/NewMailDetailWnd/MoneyEmbed/GoldText" >
+                    <Property Name="HorzFormatting" Value="RightAligned" />
+                    <Property Name="Text" Value="999" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.179641,0},{0.2,0},{0.419162,0},{0.8,0}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/NewMailDetailWnd/ReplyMailBtn" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="ClippedByParent" Value="False" />
+            <Property Name="Text" Value="X回覆" />
+            <Property Name="UnifiedAreaRect" Value="{{194,0},{211,0},{270,0},{236,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/NewMailDetailWnd/ReturnMailBtn" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="ClippedByParent" Value="False" />
+            <Property Name="Text" Value="X退回" />
+            <Property Name="UnifiedAreaRect" Value="{{280,0},{211,0},{356,0},{236,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/NewMailDetailWnd/DeleteMailBtn" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="ClippedByParent" Value="False" />
+            <Property Name="Text" Value="X刪除" />
+            <Property Name="UnifiedAreaRect" Value="{{364,0},{211,0},{440,0},{236,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/NewMailDetailWnd/GetMailItemBtn" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="ClippedByParent" Value="False" />
+            <Property Name="Text" Value="X領取" />
+            <Property Name="UnifiedAreaRect" Value="{{447,0},{211,0},{523,0},{236,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/StaticImage" Name="AddressBookItem" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,170},{0,20}}" />
+        <Window Type="DejaVu/StaticTextLab" Name="AddressBookItem/Name" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="Text" Value="一二三四五六七八" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,195},{0,23}}" />
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="AddressBookItem/SelectRect" >
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Property Name="Image" Value="set:DejaVu image:ItemSelectionBrush" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,170},{0,20}}" />
+        </Window>
+    </Window>
+</GUILayout>

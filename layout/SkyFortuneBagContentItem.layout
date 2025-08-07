@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="SkyFortuneBagContentItem" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.047917,0},{0.051567,0},{0.047917,240},{0.051567,68}}" />
+        <Window Type="DejaVu/Embed3" Name="SkyFortuneBagContentItem/Embed" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0125,0},{0.0147059,0},{0.9875,0},{0.985294,0}}" />
+            <Window Type="DejaVu/SlotImage" Name="SkyFortuneBagContentItem/Embed/Slot" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.042735,0},{0.181818,0},{0.222222,0},{0.818182,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="SkyFortuneBagContentItem/Embed/ItemText" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="x物品名稱" />
+                <Property Name="UnifiedAreaRect" Value="{{0.239316,0},{0.151515,0},{0.948718,0},{0.515152,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="SkyFortuneBagContentItem/Embed/RemainderText" >
+                <Property Name="Text" Value="x剩餘" />
+                <Property Name="UnifiedAreaRect" Value="{{0.247863,0},{0.545455,0},{0.401709,0},{0.909091,0}}" />
+            </Window>
+            <Window Type="DejaVu/EmbedTextLab5" Name="SkyFortuneBagContentItem/Embed/Amount" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="999" />
+                <Property Name="UnifiedAreaRect" Value="{{0.418803,0},{0.545455,0},{0.67094,0},{0.909091,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

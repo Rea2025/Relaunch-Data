@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/Static" Name="DungeonGroupItem" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.0520833,0},{0.105485,0},{0.0520833,240},{0.105485,60}}" />
+        <Window Type="DejaVu/Static" Name="DungeonGroupItem/ButtonStatic" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/ImageButton" Name="DungeonGroupItem/ButtonStatic/ImageBtn" >
+                <Property Name="HoverImage" Value="set:main5 image:S004HoverBtn" />
+                <Property Name="NormalImage" Value="set:main5 image:S004HoverBtn" />
+                <Property Name="PushedImage" Value="set:main5 image:S004PressedBtn" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            </Window>
+            <Window Type="DejaVu/Static" Name="DungeonGroupItem/ButtonStatic/TitleStatic" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="DungeonGroupItem/ButtonStatic/TitleStatic/BG" >
+                    <Property Name="Alpha" Value="0.5" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorizontalAlignment" Value="Right" />
+                    <Property Name="Image" Value="set:main3 image:CharacterList2" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.625,0},{1,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="DungeonGroupItem/ButtonStatic/TitleStatic/BG1" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorizontalAlignment" Value="Right" />
+                    <Property Name="Image" Value="set:main3 image:CharacterList2" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.3125,0},{1,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="DungeonGroupItem/ButtonStatic/TitleStatic/Text" >
+                    <Property Name="Font" Value="F001-11" />
+                    <Property Name="HorizontalAlignment" Value="Right" />
+                    <Property Name="HorzFormatting" Value="RightAligned" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="Text" Value="x源神軼聞錄【陽曜．一三五日】" />
+                    <Property Name="TextFrame" Value="True" />
+                    <Property Name="TextFrameColour" Value="FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{-0.0208333,0},{0,0},{0.9375,0},{1,0}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="DungeonGroupItem/LockedStatic" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Property Name="Visible" Value="False" />
+            <Window Type="DejaVu/Embed2" Name="DungeonGroupItem/LockedStatic/Grey" >
+                <Property Name="Alpha" Value="0.7" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="DungeonGroupItem/LockedStatic/BG" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Image" Value="set:main3 image:CharacterList" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.416667,0},{1,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="DungeonGroupItem/LockedStatic/LockImage" >
+                <Property Name="Image" Value="set:main image:LargeLock" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0625,0},{0,0},{0.1875,0},{0.5,0}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="DungeonGroupItem/LockedStatic/Text" >
+                <Property Name="Font" Value="F001-11" />
+                <Property Name="Text" Value="x等級70解鎖" />
+                <Property Name="UnifiedAreaRect" Value="{{0.208333,0},{0,0},{0.833333,0},{1,0}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="DungeonGroupItem/FinishedStatic" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Property Name="Visible" Value="False" />
+            <Window Type="DejaVu/StaticImage" Name="DungeonGroupItem/FinishedStatic/Black" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Image" Value="set:main3 image:CharacterList" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.416667,0},{1,0}}" />
+            </Window>
+            <Window Type="DejaVu/Embed12" Name="DungeonGroupItem/FinishedStatic/BG" >
+                <Property Name="Alpha" Value="0.7" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="DungeonGroupItem/FinishedStatic/Text" >
+                <Property Name="Font" Value="F001-11" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="已完成" />
+                <Property Name="TextFrame" Value="True" />
+                <Property Name="TextFrameColour" Value="FF000000" />
+                <Property Name="UnifiedAreaRect" Value="{{0.166667,0},{0,0},{0.5,0},{1,0}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="DungeonGroupItem/FinishedStatic/DoorImg" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Image" Value="set:main3 image:DungeonBtnNormal" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0833333,0},{0,0},{0.208333,0},{0.5,0}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="DungeonGroupItem/FinishedStatic/ClearImg" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Image" Value="set:main2 image:Clear" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0833333,0},{0.0333333,0},{0.216667,0},{0.233333,0}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

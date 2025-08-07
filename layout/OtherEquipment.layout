@@ -1,0 +1,1072 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/OtherEquipment" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,590},{0,544}}" />
+        <Window Type="DefaultWindow" Name="Root/OtherEquipment/BG" >
+            <Property Name="Text" Value="角色狀態" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Static" Name="Root/OtherEquipment/BG/Static" >
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0169492,0},{0.0183824,0},{0.983051,0},{0.981618,0}}" />
+                <Window Type="DejaVu/Static" Name="Root/OtherEquipment/Attr" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.526316,0},{0,0},{1,0},{0.114504,0}}" />
+                    <Window Type="DejaVu/Embed2" Name="Root/OtherEquipment/Attr/Block" >
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.166667,0},{1,0},{1,0}}" />
+                        <Window Type="DejaVu/StaticTextLab" Name="Root/OtherEquipment/Attr/Label" >
+                            <Property Name="Text" Value="生命值" />
+                            <Property Name="TextColours" Value="tl:FFFFFF00 tr:FFFFFF00 bl:FFFFFF00 br:FFFFFF00" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.037037,0},{0.5,0},{0.277778,0},{0.8,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticTextLab" Name="Root/OtherEquipment/Attr/Value" >
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="99999/99999" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.351852,0},{0.5,0},{0.907408,0},{0.8,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Embed4" Name="Root/OtherEquipment/Attr/TittleBG" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.037037,0},{0,0},{0.592593,0},{0.416667,0}}" />
+                        <Window Type="DejaVu/StaticTextLab" Name="Root/OtherEquipment/Attr/Title" >
+                            <Property Name="Text" Value="角色生命x" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.2,0},{0.866667,0},{0.8,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticImage" Name="Root/OtherEquipment/Equip/TitleBG/image11" >
+                            <Property Name="Image" Value="set:DejaVu image:Image11" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                        </Window>
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Static" Name="Root/OtherEquipment/Atk" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.526316,0},{0.124046,0},{1,0},{0.442748,0}}" />
+                    <Window Type="DejaVu/Static" Name="Root/OtherEquipment/Atk/BG" >
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.814371,0}}" />
+                        <Window Type="DejaVu/Embed2" Name="Root/OtherEquipment/Atk/Block" >
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.595588,0},{1,0},{1,0}}" />
+                            <Window Type="DejaVu/StaticTextLab" Name="Root/OtherEquipment/Atk/Label2" >
+                                <Property Name="Text" Value="爆擊" />
+                                <Property Name="TextColours" Value="tl:FFFFFF00 tr:FFFFFF00 bl:FFFFFF00 br:FFFFFF00" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.037037,0},{0.181818,0},{0.185185,0},{0.454545,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/StaticTextLab" Name="Root/OtherEquipment/Atk/Label3" >
+                                <Property Name="Text" Value="回氣" />
+                                <Property Name="TextColours" Value="tl:FFFFFF00 tr:FFFFFF00 bl:FFFFFF00 br:FFFFFF00" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.037037,0},{0.545455,0},{0.185185,0},{0.818182,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/StaticTextLab" Name="Root/OtherEquipment/Atk/PP2" >
+                                <Property Name="HorzFormatting" Value="RightAligned" />
+                                <Property Name="Text" Value="999" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.185185,0},{0.181818,0},{0.37037,0},{0.454545,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/StaticTextLab" Name="Root/OtherEquipment/Atk/PP3" >
+                                <Property Name="HorzFormatting" Value="RightAligned" />
+                                <Property Name="Text" Value="999" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.185185,0},{0.545455,0},{0.37037,0},{0.818182,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/ImageButton" Name="Root/OtherEquipment/Atk/BtnAdd2" >
+                                <Property Name="HoverImage" Value="set:main3 image:BluePlusHover" />
+                                <Property Name="NormalImage" Value="set:main3 image:BluePlusNormal" />
+                                <Property Name="PushedImage" Value="set:main3 image:BluePlusPressed" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.377778,0},{0.163636,0},{0.444444,0},{0.490909,0}}" />
+                                <Window Type="DejaVu/StaticImage" Name="Root/OtherEquipment/Atk/BtnAdd2/ShiningImg" >
+                                    <Property Name="AlwaysOnTop" Value="True" />
+                                    <Property Name="Image" Value="set:main3 image:BluePlusHover" />
+                                    <Property Name="MousePassThroughEnabled" Value="True" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.0666667,0},{0.0666667,0},{1.06667,0},{1.06667,0}}" />
+                                </Window>
+                            </Window>
+                            <Window Type="DejaVu/ImageButton" Name="Root/OtherEquipment/Atk/BtnAdd3" >
+                                <Property Name="HoverImage" Value="set:main3 image:BluePlusHover" />
+                                <Property Name="NormalImage" Value="set:main3 image:BluePlusNormal" />
+                                <Property Name="PushedImage" Value="set:main3 image:BluePlusPressed" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.377778,0},{0.527273,0},{0.444445,0},{0.854546,0}}" />
+                                <Window Type="DejaVu/StaticImage" Name="Root/OtherEquipment/Atk/BtnAdd3/ShiningImg" >
+                                    <Property Name="AlwaysOnTop" Value="True" />
+                                    <Property Name="Image" Value="set:main3 image:BluePlusHover" />
+                                    <Property Name="MousePassThroughEnabled" Value="True" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.066667,0},{0.066667,0},{1.06667,0},{1.06667,0}}" />
+                                </Window>
+                            </Window>
+                            <Window Type="DejaVu/ImageButton" Name="Root/OtherEquipment/Atk/BtnDec2" >
+                                <Property Name="HoverImage" Value="set:main3 image:BlueMinusHover" />
+                                <Property Name="NormalImage" Value="set:main3 image:BlueMinusNormal" />
+                                <Property Name="PushedImage" Value="set:main3 image:BlueMinusPressed" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.140741,0},{0.181818,0},{0.207407,0},{0.509091,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/ImageButton" Name="Root/OtherEquipment/Atk/BtnDec3" >
+                                <Property Name="HoverImage" Value="set:main3 image:BlueMinusHover" />
+                                <Property Name="NormalImage" Value="set:main3 image:BlueMinusNormal" />
+                                <Property Name="PushedImage" Value="set:main3 image:BlueMinusPressed" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.140741,0},{0.545455,0},{0.207407,0},{0.872727,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/StaticTextLab" Name="Root/OtherEquipment/Atk/Value2" >
+                                <Property Name="HorzFormatting" Value="RightAligned" />
+                                <Property Name="Text" Value="9999" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.462963,0},{0.181818,0},{0.666667,0},{0.454545,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/StaticTextLab" Name="Root/OtherEquipment/Atk/Value3" >
+                                <Property Name="HorzFormatting" Value="RightAligned" />
+                                <Property Name="Text" Value="999999" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.462963,0},{0.545455,0},{0.666667,0},{0.818182,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/StaticTextLab" Name="Root/OtherEquipment/Atk/Rate2" >
+                                <Property Name="HorzFormatting" Value="RightAligned" />
+                                <Property Name="Text" Value="999.99%" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.703704,0},{0.181818,0},{0.925926,0},{0.454545,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/StaticTextLab" Name="Root/OtherEquipment/Atk/Rate3" >
+                                <Property Name="HorzFormatting" Value="RightAligned" />
+                                <Property Name="Text" Value="99.99%" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.703704,0},{0.545455,0},{0.925926,0},{0.818182,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/StaticImage" Name="Root/OtherEquipment/Atk/Up2" >
+                                <Property Name="Image" Value="set:DejaVu image:UpImage" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.925926,0},{0.181818,0},{0.981482,0},{0.454545,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/StaticImage" Name="Root/OtherEquipment/Atk/Up3" >
+                                <Property Name="Image" Value="set:DejaVu image:UpImage" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.925926,0},{0.545455,0},{0.981482,0},{0.818182,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/Embed4" Name="Root/OtherEquipment/Atk/TitleBG" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.037037,0},{0,0},{0.592593,0},{0.183824,0}}" />
+                            <Window Type="DejaVu/StaticTextLab" Name="Root/OtherEquipment/Atk/Title" >
+                                <Property Name="Text" Value="攻擊資訊x" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.2,0},{0.866667,0},{0.8,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/StaticImage" Name="Root/OtherEquipment/Equip/TitleBG/image111" >
+                                <Property Name="Image" Value="set:DejaVu image:Image01" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/Embed2" Name="Root/OtherEquipment/Atk/BlockTop" >
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.076336,0},{1,0},{0.591042,0}}" />
+                            <Window Type="DejaVu/StaticTextLab" Name="Root/OtherEquipment/Atk/Label1" >
+                                <Property Name="Text" Value="傷害" />
+                                <Property Name="TextColours" Value="tl:FFFFFF00 tr:FFFFFF00 bl:FFFFFF00 br:FFFFFF00" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.037037,0},{0.5,0},{0.185185,0},{0.714286,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/StaticTextLab" Name="Root/OtherEquipment/Atk/PP1" >
+                                <Property Name="HorzFormatting" Value="RightAligned" />
+                                <Property Name="Text" Value="LV 10" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.222222,0},{0.5,0},{0.37037,0},{0.714286,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/ImageButton" Name="Root/OtherEquipment/Atk/BtnAdd1" >
+                                <Property Name="HoverImage" Value="set:main3 image:BluePlusHover" />
+                                <Property Name="NormalImage" Value="set:main3 image:BluePlusNormal" />
+                                <Property Name="PushedImage" Value="set:main3 image:BluePlusPressed" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.377778,0},{0.5,0},{0.444445,0},{0.757143,0}}" />
+                                <Window Type="DejaVu/StaticImage" Name="Root/OtherEquipment/Atk/BtnAdd1/ShiningImg" >
+                                    <Property Name="AlwaysOnTop" Value="True" />
+                                    <Property Name="Font" Value="F001-9" />
+                                    <Property Name="Image" Value="set:main3 image:BluePlusHover" />
+                                    <Property Name="MousePassThroughEnabled" Value="True" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                </Window>
+                            </Window>
+                            <Window Type="DejaVu/ImageButton" Name="Root/OtherEquipment/Atk/BtnDec1" >
+                                <Property Name="HoverImage" Value="set:main3 image:BlueMinusHover" />
+                                <Property Name="NormalImage" Value="set:main3 image:BlueMinusNormal" />
+                                <Property Name="PushedImage" Value="set:main3 image:BlueMinusPressed" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.140741,0},{0.5,0},{0.207407,0},{0.757143,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/StaticTextLab" Name="Root/OtherEquipment/Atk/WeaponValue1" >
+                                <Property Name="HorzFormatting" Value="RightAligned" />
+                                <Property Name="Text" Value="9999999" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.666667,0},{0.357143,0},{0.907408,0},{0.571429,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/StaticImage" Name="Root/OtherEquipment/Atk/Weapon1" >
+                                <Property Name="Image" Value="set:main image:WeaponTypeSwordShield" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.574074,0},{0.357143,0},{0.62963,0},{0.571429,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/StaticImage" Name="Root/OtherEquipment/Atk/Weapon2" >
+                                <Property Name="Image" Value="set:main image:WeaponTypeSwordShield" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.574074,0},{0.642857,0},{0.62963,0},{0.857143,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/StaticTextLab" Name="Root/OtherEquipment/Atk/WeaponValue2" >
+                                <Property Name="HorzFormatting" Value="RightAligned" />
+                                <Property Name="Text" Value="9999999" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.666667,0},{0.642857,0},{0.907408,0},{0.857143,0}}" />
+                            </Window>
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Embed2" Name="Root/OtherEquipment/AtkAdd" >
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.820359,0},{1,0},{1,0}}" />
+                        <Window Type="DejaVu/StaticTextLab" Name="Root/OtherEquipment/AtkAdd/Title" >
+                            <Property Name="Text" Value="x攻擊點數" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.037037,0},{0.166667,0},{0.314815,0},{0.833334,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticTextLab" Name="Root/OtherEquipment/AtkAdd/Point" >
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="999" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.314815,0},{0.166667,0},{0.518519,0},{0.833334,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Button" Name="Root/OtherEquipment/AtkAdd/Reset" >
+                            <Property Name="Text" Value="重置" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.777778,0},{0.0666667,0},{0.962963,0},{0.933333,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Button" Name="Root/OtherEquipment/AtkAdd/OKBtn" >
+                            <Property Name="Text" Value="確定x" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.555556,0},{0.066667,0},{0.740741,0},{0.933334,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Button" Name="Root/OtherEquipment/AtkAdd/CancelBtn" >
+                            <Property Name="Text" Value="取消x" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.777778,0},{0.0666667,0},{0.962963,0},{0.933333,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Button" Name="Root/OtherEquipment/AtkAdd/RecommendBtn" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="Text" Value="推薦" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.555556,0},{0.0666667,0},{0.740741,0},{0.933333,0}}" />
+                        </Window>
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Static" Name="Root/OtherEquipment/Def" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.526316,0},{0.45229,0},{1,0},{0.70229,0}}" />
+                    <Window Type="DejaVu/Static" Name="Root/OtherEquipment/Def/BG" >
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.763359,0}}" />
+                        <Window Type="DejaVu/Embed2" Name="Root/OtherEquipment/Def/Block" >
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.1,0},{1,0},{1,0}}" />
+                            <Window Type="DejaVu/StaticTextLab" Name="Root/OtherEquipment/Def/Label1" >
+                                <Property Name="Text" Value="HP" />
+                                <Property Name="TextColours" Value="tl:FFFFFF00 tr:FFFFFF00 bl:FFFFFF00 br:FFFFFF00" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.037037,0},{0.277778,0},{0.185185,0},{0.444445,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/StaticTextLab" Name="Root/OtherEquipment/Def/Label2" >
+                                <Property Name="Text" Value="防禦" />
+                                <Property Name="TextColours" Value="tl:FFFFFF00 tr:FFFFFF00 bl:FFFFFF00 br:FFFFFF00" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.037037,0},{0.5,0},{0.185185,0},{0.666667,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/StaticTextLab" Name="Root/OtherEquipment/Def/Label3" >
+                                <Property Name="Text" Value="閃避" />
+                                <Property Name="TextColours" Value="tl:FFFFFF00 tr:FFFFFF00 bl:FFFFFF00 br:FFFFFF00" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.037037,0},{0.722222,0},{0.185185,0},{0.888889,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/StaticTextLab" Name="Root/OtherEquipment/Def/PP1" >
+                                <Property Name="HorzFormatting" Value="RightAligned" />
+                                <Property Name="Text" Value="999" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.185185,0},{0.277778,0},{0.37037,0},{0.444444,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/StaticTextLab" Name="Root/OtherEquipment/Def/PP2" >
+                                <Property Name="HorzFormatting" Value="RightAligned" />
+                                <Property Name="Text" Value="999" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.185185,0},{0.5,0},{0.37037,0},{0.666667,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/StaticTextLab" Name="Root/OtherEquipment/Def/PP3" >
+                                <Property Name="HorzFormatting" Value="RightAligned" />
+                                <Property Name="Text" Value="999" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.185185,0},{0.722222,0},{0.37037,0},{0.888889,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/ImageButton" Name="Root/OtherEquipment/Def/BtnAdd1" >
+                                <Property Name="HoverImage" Value="set:main3 image:BluePlusHover" />
+                                <Property Name="NormalImage" Value="set:main3 image:BluePlusNormal" />
+                                <Property Name="PushedImage" Value="set:main3 image:BluePlusPressed" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.377778,0},{0.277778,0},{0.444444,0},{0.477778,0}}" />
+                                <Window Type="DejaVu/StaticImage" Name="Root/OtherEquipment/Def/BtnAdd1/ShiningImg" >
+                                    <Property Name="AlwaysOnTop" Value="True" />
+                                    <Property Name="Image" Value="set:main3 image:BluePlusHover" />
+                                    <Property Name="MousePassThroughEnabled" Value="True" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                </Window>
+                            </Window>
+                            <Window Type="DejaVu/ImageButton" Name="Root/OtherEquipment/Def/BtnAdd2" >
+                                <Property Name="HoverImage" Value="set:main3 image:BluePlusHover" />
+                                <Property Name="NormalImage" Value="set:main3 image:BluePlusNormal" />
+                                <Property Name="PushedImage" Value="set:main3 image:BluePlusPressed" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.377778,0},{0.5,0},{0.444444,0},{0.7,0}}" />
+                                <Window Type="DejaVu/StaticImage" Name="Root/OtherEquipment/Def/BtnAdd2/ShiningImg" >
+                                    <Property Name="AlwaysOnTop" Value="True" />
+                                    <Property Name="Image" Value="set:main3 image:BluePlusHover" />
+                                    <Property Name="MousePassThroughEnabled" Value="True" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                </Window>
+                            </Window>
+                            <Window Type="DejaVu/ImageButton" Name="Root/OtherEquipment/Def/BtnAdd3" >
+                                <Property Name="HoverImage" Value="set:main3 image:BluePlusHover" />
+                                <Property Name="NormalImage" Value="set:main3 image:BluePlusNormal" />
+                                <Property Name="PushedImage" Value="set:main3 image:BluePlusPressed" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.377778,0},{0.722222,0},{0.444444,0},{0.922222,0}}" />
+                                <Window Type="DejaVu/StaticImage" Name="Root/OtherEquipment/Def/BtnAdd3/ShiningImg" >
+                                    <Property Name="AlwaysOnTop" Value="True" />
+                                    <Property Name="Image" Value="set:main3 image:BluePlusHover" />
+                                    <Property Name="MousePassThroughEnabled" Value="True" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                </Window>
+                            </Window>
+                            <Window Type="DejaVu/ImageButton" Name="Root/OtherEquipment/Def/BtnDec1" >
+                                <Property Name="HoverImage" Value="set:main3 image:BlueMinusHover" />
+                                <Property Name="NormalImage" Value="set:main3 image:BlueMinusNormal" />
+                                <Property Name="PushedImage" Value="set:main3 image:BlueMinusPressed" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.140741,0},{0.277778,0},{0.207407,0},{0.477778,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/ImageButton" Name="Root/OtherEquipment/Def/BtnDec2" >
+                                <Property Name="HoverImage" Value="set:main3 image:BlueMinusHover" />
+                                <Property Name="NormalImage" Value="set:main3 image:BlueMinusNormal" />
+                                <Property Name="PushedImage" Value="set:main3 image:BlueMinusPressed" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.140741,0},{0.5,0},{0.207407,0},{0.7,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/ImageButton" Name="Root/OtherEquipment/Def/BtnDec3" >
+                                <Property Name="HoverImage" Value="set:main3 image:BlueMinusHover" />
+                                <Property Name="NormalImage" Value="set:main3 image:BlueMinusNormal" />
+                                <Property Name="PushedImage" Value="set:main3 image:BlueMinusPressed" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.140741,0},{0.722222,0},{0.207407,0},{0.922222,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/StaticTextLab" Name="Root/OtherEquipment/Def/Value1" >
+                                <Property Name="HorzFormatting" Value="RightAligned" />
+                                <Property Name="Text" Value="9999999" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.462963,0},{0.277778,0},{0.759259,0},{0.444445,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/StaticTextLab" Name="Root/OtherEquipment/Def/Value2" >
+                                <Property Name="HorzFormatting" Value="RightAligned" />
+                                <Property Name="Text" Value="9999" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.462963,0},{0.5,0},{0.666667,0},{0.666667,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/StaticTextLab" Name="Root/OtherEquipment/Def/Value3" >
+                                <Property Name="HorzFormatting" Value="RightAligned" />
+                                <Property Name="Text" Value="999999" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.462963,0},{0.722222,0},{0.666667,0},{0.888889,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/StaticTextLab" Name="Root/OtherEquipment/Def/Rate2" >
+                                <Property Name="HorzFormatting" Value="RightAligned" />
+                                <Property Name="Text" Value="100.00%" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.703704,0},{0.5,0},{0.925926,0},{0.666667,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/StaticTextLab" Name="Root/OtherEquipment/Def/Rate3" >
+                                <Property Name="HorzFormatting" Value="RightAligned" />
+                                <Property Name="Text" Value="2.50%" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.703704,0},{0.722222,0},{0.925926,0},{0.888889,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/StaticImage" Name="Root/OtherEquipment/Def/Up5" >
+                                <Property Name="Image" Value="set:DejaVu image:UpImage" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.925926,0},{0.5,0},{0.981482,0},{0.666667,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/StaticImage" Name="Root/OtherEquipment/Def/Up6" >
+                                <Property Name="Image" Value="set:DejaVu image:UpImage" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.925926,0},{0.722222,0},{0.981482,0},{0.888889,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/Embed4" Name="Root/OtherEquipment/Def/TitleBG" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.037037,0},{0,0},{0.592593,0},{0.25,0}}" />
+                            <Window Type="DejaVu/StaticTextLab" Name="Root/OtherEquipment/Def/Title" >
+                                <Property Name="Text" Value="防禦資訊x" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.2,0},{0.866667,0},{0.8,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/StaticImage" Name="Root/OtherEquipment/Equip/TitleBG/image1111" >
+                                <Property Name="Image" Value="set:DejaVu image:Image02" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                            </Window>
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Embed2" Name="Root/OtherEquipment/DefAdd" >
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.770992,0},{1,0},{1,0}}" />
+                        <Window Type="DejaVu/StaticTextLab" Name="Root/OtherEquipment/DefAdd/Title" >
+                            <Property Name="Text" Value="x防禦點數" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.037037,0},{0.166667,0},{0.314815,0},{0.833334,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticTextLab" Name="Root/OtherEquipment/DefAdd/Point" >
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="999" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.314815,0},{0.166667,0},{0.518519,0},{0.833334,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Button" Name="Root/OtherEquipment/DefAdd/Reset" >
+                            <Property Name="Text" Value="重置" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.777778,0},{0.066667,0},{0.962963,0},{0.933334,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Button" Name="Root/OtherEquipment/DefAdd/OKBtn" >
+                            <Property Name="Text" Value="確定x" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.555556,0},{0.066667,0},{0.740741,0},{0.933334,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Button" Name="Root/OtherEquipment/DefAdd/CancelBtn" >
+                            <Property Name="Text" Value="取消x" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.777778,0},{0.0666667,0},{0.962963,0},{0.933333,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Button" Name="Root/OtherEquipment/DefAdd/RecommendBtn" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="Text" Value="推薦" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.555556,0},{0.0666667,0},{0.740741,0},{0.933333,0}}" />
+                        </Window>
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Static" Name="Root/OtherEquipment/Extend" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.526316,0},{0.711832,0},{1,0},{0.94084,0}}" />
+                    <Window Type="DejaVu/Embed2" Name="Root/OtherEquipment/Extend/BG" >
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.083333,0},{1,0},{1,0}}" />
+                        <Window Type="DejaVu/StaticTextLab" Name="Root/OtherEquipment/Extend/Label1" >
+                            <Property Name="Text" Value="爆擊傷害" />
+                            <Property Name="TextColours" Value="tl:FFFFFF00 tr:FFFFFF00 bl:FFFFFF00 br:FFFFFF00" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.037037,0},{0.227273,0},{0.407407,0},{0.363637,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticTextLab" Name="Root/OtherEquipment/Extend/Label2" >
+                            <Property Name="Text" Value="命中機率" />
+                            <Property Name="TextColours" Value="tl:FFFFFF00 tr:FFFFFF00 bl:FFFFFF00 br:FFFFFF00" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.037037,0},{0.409091,0},{0.407407,0},{0.545455,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticTextLab" Name="Root/OtherEquipment/Extend/Label3" >
+                            <Property Name="Text" Value="治療比例" />
+                            <Property Name="TextColours" Value="tl:FFFFFF00 tr:FFFFFF00 bl:FFFFFF00 br:FFFFFF00" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.037037,0},{0.590909,0},{0.407407,0},{0.727273,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticTextLab" Name="Root/OtherEquipment/Extend/Value1" >
+                            <Property Name="HorzFormatting" Value="RightAligned" />
+                            <Property Name="Text" Value="162.50%" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.685185,0},{0.227273,0},{0.925926,0},{0.363636,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticTextLab" Name="Root/OtherEquipment/Extend/Label4" >
+                            <Property Name="Text" Value="移動速度" />
+                            <Property Name="TextColours" Value="tl:FFFFFF00 tr:FFFFFF00 bl:FFFFFF00 br:FFFFFF00" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.037037,0},{0.772727,0},{0.407407,0},{0.909091,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticTextLab" Name="Root/OtherEquipment/Extend/Value2" >
+                            <Property Name="HorzFormatting" Value="RightAligned" />
+                            <Property Name="Text" Value="22.50%" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.685185,0},{0.409091,0},{0.925926,0},{0.545455,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticTextLab" Name="Root/OtherEquipment/Extend/Value3" >
+                            <Property Name="HorzFormatting" Value="RightAligned" />
+                            <Property Name="Text" Value="22.50%" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.685185,0},{0.590909,0},{0.925926,0},{0.727273,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticTextLab" Name="Root/OtherEquipment/Extend/Value4" >
+                            <Property Name="HorzFormatting" Value="RightAligned" />
+                            <Property Name="Text" Value="120%" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.685185,0},{0.772727,0},{0.925926,0},{0.909091,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Embed4" Name="Root/OtherEquipment/Extend/TitleBG" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.037037,0},{0,0},{0.592593,0},{0.208333,0}}" />
+                        <Window Type="DejaVu/StaticTextLab" Name="Root/OtherEquipment/Extend/Title" >
+                            <Property Name="Text" Value="衍生資訊x" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.2,0},{0.866667,0},{0.8,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticImage" Name="Root/OtherEquipment/Equip/TitleBG/image11111" >
+                            <Property Name="Image" Value="set:DejaVu image:Image03" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                        </Window>
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed2" Name="Root/OtherEquipment/char" >
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.517544,0},{0.0572519,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/OtherEquipment/Char/LV" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.0294267,0},{0.166667,0},{0.18273,0},{0.833334,0}}" />
+                        <Window Type="DejaVu/StaticTextLab" Name="Root/OtherEquipment/Char/LVBG" >
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="MousePassThroughEnabled" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.111111,0},{0,0},{1,0},{1,0}}" />
+                            <Window Type="DejaVu/StaticImage" Name="Root/OtherEquipment/Char/LV/Num1" >
+                                <Property Name="Image" Value="set:DejaVu image:eight" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.375,0},{0,0},{0.875,0},{1,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/StaticImage" Name="Root/OtherEquipment/Char/LV/Num2" >
+                                <Property Name="AlwaysOnTop" Value="True" />
+                                <Property Name="Image" Value="set:DejaVu image:eight" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.5,0},{1,0}}" />
+                            </Window>
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/OtherEquipment/Char/Name" >
+                        <Property Name="Text" Value="一二三四五六七八" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.305085,0},{0.166667,0},{0.966102,0},{0.833334,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticText" Name="Root/OtherEquipment/char/BreakDressPointText" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="x爆衣點數:9999" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.670834,0},{0.182834,0},{1.00268,0},{0.823732,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Static" Name="Root/OtherEquipment/Dress" >
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.832061,0},{0.517544,0},{1,0}}" />
+                    <Window Type="DejaVu/Embed2" Name="Root/OtherEquipment/Dress/BG" >
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.11236,0},{1,0},{1,0}}" />
+                        <Window Type="DejaVu/SlotImage" Name="Root/OtherEquipment/Dress/Slot1" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.033898,0},{0.316456,0},{0.176271,0},{0.854918,0}}" />
+                            <Window Type="DejaVu/StaticImage" Name="Root/OtherEquipment/Dress/Slot1/Img" >
+                                <Property Name="Image" Value="set:main2 image:HelmetBase" />
+                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.078564,0},{0.071429,0},{0.935707,0},{0.928572,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/Checkbox" Name="Root/OtherEquipment/Dress/Slot1/Check" >
+                                <Property Name="AlwaysOnTop" Value="True" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.642857,0},{0.642857,0},{1,0},{1,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="Root/OtherEquipment/Dress/Slot2" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.210169,0},{0.320513,0},{0.352542,0},{0.858974,0}}" />
+                            <Window Type="DejaVu/StaticImage" Name="Root/OtherEquipment/Dress/Slot2/Img" >
+                                <Property Name="Image" Value="set:main2 image:MaskBase" />
+                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.078564,0},{0.071429,0},{0.935707,0},{0.928572,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/Checkbox" Name="Root/OtherEquipment/Dress/Slot2/Check" >
+                                <Property Name="AlwaysOnTop" Value="True" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.642857,0},{0.642857,0},{1,0},{1,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="Root/OtherEquipment/Dress/Slot3" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.386441,0},{0.320513,0},{0.528814,0},{0.858974,0}}" />
+                            <Window Type="DejaVu/StaticImage" Name="Root/OtherEquipment/Dress/Slot3/Img" >
+                                <Property Name="Image" Value="set:main2 image:ArmorBase" />
+                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.078564,0},{0.071429,0},{0.935707,0},{0.928572,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/Checkbox" Name="Root/OtherEquipment/Dress/Slot3/Check" >
+                                <Property Name="AlwaysOnTop" Value="True" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.642857,0},{0.642857,0},{1,0},{1,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="Root/OtherEquipment/Dress/Slot4" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.562712,0},{0.320513,0},{0.705085,0},{0.858974,0}}" />
+                            <Window Type="DejaVu/StaticImage" Name="Root/OtherEquipment/Dress/Slot4/Img" >
+                                <Property Name="Image" Value="set:main2 image:CloakBase" />
+                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.078564,0},{0.071429,0},{0.935707,0},{0.928572,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/Checkbox" Name="Root/OtherEquipment/Dress/Slot4/Check" >
+                                <Property Name="AlwaysOnTop" Value="True" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.642857,0},{0.642857,0},{1,0},{1,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="Root/OtherEquipment/Dress/Slot5" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.738983,0},{0.320513,0},{0.881356,0},{0.858974,0}}" />
+                            <Window Type="DejaVu/StaticImage" Name="Root/OtherEquipment/Dress/Slot5/Img" >
+                                <Property Name="Image" Value="set:main2 image:WeaponBase" />
+                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.078564,0},{0.071429,0},{0.935707,0},{0.928572,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/Checkbox" Name="Root/OtherEquipment/Dress/Slot5/Check" >
+                                <Property Name="AlwaysOnTop" Value="True" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.642857,0},{0.642857,0},{1,0},{1,0}}" />
+                            </Window>
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Embed4" Name="Root/OtherEquipment/Dress/TitleBg" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.033898,0},{0,0},{0.542373,0},{0.280899,0}}" />
+                        <Window Type="DejaVu/StaticTextLab" Name="Root/OtherEquipment/Dress/Title" >
+                            <Property Name="Text" Value="外觀裝備x" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.2,0},{0.866667,0},{0.8,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticImage" Name="Root/OtherEquipment/Equip/TitleBG/image1" >
+                            <Property Name="Image" Value="set:DejaVu image:Image05" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                        </Window>
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Button" Name="Root/OtherEquipment/BG/information" >
+                    <Property Name="Text" Value="x詳細資料" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.866667,0},{0.950382,0},{1,0},{1,0}}" />
+                </Window>
+                <Window Type="DejaVu/Static" Name="Root/OtherEquipment/Equip" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.066794,0},{0.517544,0},{0.822519,0}}" />
+                    <Window Type="DejaVu/Embed2" Name="Root/OtherEquipment/Equip/BG" >
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.025253,0},{1,0},{1,0}}" />
+                        <Window Type="DejaVu/SlotImage" Name="Root/OtherEquipment/Equip/Slot7" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.0169492,0},{0.142487,0},{0.159322,0},{0.251295,0}}" />
+                            <Window Type="DejaVu/StaticImage" Name="Root/OtherEquipment/Equip/Slot7/Img" >
+                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.071429,0},{0.071429,0},{0.928572,0},{0.928572,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="Root/OtherEquipment/Equip/Slot8" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.0169492,0},{0.264249,0},{0.159322,0},{0.373057,0}}" />
+                            <Window Type="DejaVu/StaticImage" Name="Root/OtherEquipment/Equip/Slot8/Img" >
+                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.071429,0},{0.071429,0},{0.928572,0},{0.928572,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/Static" Name="Root/OtherEquipment/Equip/Slot8/Lock" >
+                                <Property Name="UnifiedAreaRect" Value="{{0.071429,0},{0.071429,0},{0.928572,0},{0.928572,0}}" />
+                                <Window Type="DejaVu/StaticImage" Name="Root/OtherEquipment/Equip/Slot8/Lock/Img" >
+                                    <Property Name="ClippedByParent" Value="False" />
+                                    <Property Name="Image" Value="set:main image:Lock" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.167693,0},{-0.160954,0},{0.862138,0},{0.53349,0}}" />
+                                </Window>
+                                <Window Type="DejaVu/StaticImage" Name="Root/OtherEquipment/Equip/Slot8/Lock/Num1" >
+                                    <Property Name="ClippedByParent" Value="False" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.416667,0},{0.472222,0},{0.972222,0},{1.02778,0}}" />
+                                </Window>
+                                <Window Type="DejaVu/StaticImage" Name="Root/OtherEquipment/Equip/Slot8/Lock/Num2" >
+                                    <Property Name="ClippedByParent" Value="False" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.0277778,0},{0.472222,0},{0.583333,0},{1.02778,0}}" />
+                                </Window>
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="Root/OtherEquipment/Equip/Slot9" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.0169492,0},{0.38601,0},{0.159322,0},{0.494819,0}}" />
+                            <Window Type="DejaVu/StaticImage" Name="Root/OtherEquipment/Equip/Slot9/Img" >
+                                <Property Name="Image" Value="set:main2 image:BootyBase" />
+                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.078564,0},{0.071429,0},{0.935707,0},{0.928572,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="Root/OtherEquipment/Equip/Slot10" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.0169492,0},{0.507772,0},{0.159322,0},{0.61658,0}}" />
+                            <Window Type="DejaVu/StaticImage" Name="Root/OtherEquipment/Equip/Slot10/Lock/Img" >
+                                <Property Name="AlwaysOnTop" Value="True" />
+                                <Property Name="ClippedByParent" Value="False" />
+                                <Property Name="Image" Value="set:main image:Lock" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.167693,0},{-0.160954,0},{0.862138,0},{0.53349,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/StaticImage" Name="Root/OtherEquipment/Equip/Slot10/Img" >
+                                <Property Name="Image" Value="set:main2 image:BootyBase" />
+                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.078564,0},{0.071429,0},{0.935707,0},{0.928572,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="Root/OtherEquipment/Equip/Slot11" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.0169492,0},{0.629534,0},{0.159322,0},{0.738342,0}}" />
+                            <Window Type="DejaVu/StaticImage" Name="Root/OtherEquipment/Equip/Slot11/Lock/Img" >
+                                <Property Name="AlwaysOnTop" Value="True" />
+                                <Property Name="ClippedByParent" Value="False" />
+                                <Property Name="Image" Value="set:main image:Lock" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.167693,0},{-0.160954,0},{0.862138,0},{0.53349,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/StaticImage" Name="Root/OtherEquipment/Equip/Slot11/Img" >
+                                <Property Name="Image" Value="set:main2 image:NecklaceBase" />
+                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.078564,0},{0.071429,0},{0.935707,0},{0.928572,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="Root/OtherEquipment/Equip/Slot12" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.0169492,0},{0.751295,0},{0.159322,0},{0.860104,0}}" />
+                            <Window Type="DejaVu/StaticImage" Name="Root/OtherEquipment/Equip/Slot12/Lock/Img" >
+                                <Property Name="AlwaysOnTop" Value="True" />
+                                <Property Name="ClippedByParent" Value="False" />
+                                <Property Name="Image" Value="set:main image:Lock" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.167693,0},{-0.160954,0},{0.862138,0},{0.53349,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/StaticImage" Name="Root/OtherEquipment/Equip/Slot12/Img" >
+                                <Property Name="Image" Value="set:main2 image:RingBase" />
+                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.078564,0},{0.071429,0},{0.935707,0},{0.928572,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="Root/OtherEquipment/Equip/Slot1" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.840678,0},{0.142487,0},{0.983051,0},{0.251295,0}}" />
+                            <Window Type="DejaVu/StaticImage" Name="Root/OtherEquipment/Equip/Slot1/Img" >
+                                <Property Name="Image" Value="set:main2 image:HelmetBase" />
+                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.071429,0},{0.071429,0},{0.928572,0},{0.928572,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="Root/OtherEquipment/Equip/Slot2" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.840678,0},{0.264249,0},{0.983051,0},{0.373057,0}}" />
+                            <Window Type="DejaVu/StaticImage" Name="Root/OtherEquipment/Equip/Slot2/Img" >
+                                <Property Name="Image" Value="set:main2 image:ArmorBase" />
+                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.078564,0},{0.071429,0},{0.935707,0},{0.928572,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="Root/OtherEquipment/Equip/Slot3" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.840678,0},{0.38601,0},{0.983051,0},{0.494819,0}}" />
+                            <Window Type="DejaVu/StaticImage" Name="Root/OtherEquipment/Equip/Slot3/Img" >
+                                <Property Name="Image" Value="set:main2 image:CloakBase" />
+                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.078564,0},{0.071429,0},{0.935707,0},{0.928572,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="Root/OtherEquipment/Equip/Slot4" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.840678,0},{0.507772,0},{0.983051,0},{0.61658,0}}" />
+                            <Window Type="DejaVu/StaticImage" Name="Root/OtherEquipment/Equip/Slot4/Img" >
+                                <Property Name="Image" Value="set:main2 image:BeltBase" />
+                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.078564,0},{0.071429,0},{0.935707,0},{0.928572,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="Root/OtherEquipment/Equip/Slot5" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.840678,0},{0.629534,0},{0.983051,0},{0.738342,0}}" />
+                            <Window Type="DejaVu/StaticImage" Name="Root/OtherEquipment/Equip/Slot5/Lock/Img" >
+                                <Property Name="AlwaysOnTop" Value="True" />
+                                <Property Name="ClippedByParent" Value="False" />
+                                <Property Name="Image" Value="set:main image:Lock" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.167693,0},{-0.160954,0},{0.862138,0},{0.53349,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/StaticImage" Name="Root/OtherEquipment/Equip/Slot5/Img" >
+                                <Property Name="Image" Value="set:main2 image:GloveBase" />
+                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.071429,0},{0.071429,0},{0.928572,0},{0.928572,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="Root/OtherEquipment/Equip/Slot6" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.840678,0},{0.751295,0},{0.983051,0},{0.860104,0}}" />
+                            <Window Type="DejaVu/StaticImage" Name="Root/OtherEquipment/Equip/Slot6/Lock/Img" >
+                                <Property Name="AlwaysOnTop" Value="True" />
+                                <Property Name="ClippedByParent" Value="False" />
+                                <Property Name="Image" Value="set:main image:Lock" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.167693,0},{-0.160954,0},{0.862138,0},{0.53349,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/StaticImage" Name="Root/OtherEquipment/Equip/Slot6/Img" >
+                                <Property Name="Image" Value="set:main2 image:BootBase" />
+                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.078564,0},{0.071429,0},{0.935707,0},{0.928572,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/StaticImage" Name="Root/OtherEquipment/Equip/Dressroom" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.176271,0},{0.129534,0},{0.823729,0},{0.917099,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Checkbox" Name="Root/OtherEquipment/Equip/RejectLookEquip" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="Text" Value="x拒絕觀看裝備" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.328814,0},{0.911917,0},{0.759322,0},{0.976684,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/EmbedText7" Name="Root/OtherEquipment/Equip/BG/ScoreText" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="x裝備分數" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.654237,0},{0.00518135,0},{0.99322,0},{0.0699482,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/EmbedText2" Name="Root/OtherEquipment/Equip/BG/Score" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="Text" Value="9999999" />
+                            <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.654237,0},{0.0699482,0},{0.99322,0},{0.134715,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Button" Name="Root/OtherEquipment/Equip/SwitchEquipBtn" >
+                            <Property Name="Text" Value="x生產裝備" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0164063,0},{0.0566471,0},{0.274033,0},{0.124005,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="Root/OtherEquipment/Equip/Slot13" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0169492,0},{0.873057,0},{0.159322,0},{0.981865,0}}" />
+                            <Window Type="DejaVu/StaticImage" Name="Root/OtherEquipment/Equip/Slot13/Img" >
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="Image" Value="set:main2 image:EudemonMarkBase" />
+                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.071429,0},{0.071429,0},{0.928572,0},{0.928572,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="Root/OtherEquipment/Equip/Slot14" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.840678,0},{0.873057,0},{0.983051,0},{0.981865,0}}" />
+                            <Window Type="DejaVu/StaticImage" Name="Root/OtherEquipment/Equip/Slot14/Img" >
+                                <Property Name="Image" Value="set:main2 image:RideBase" />
+                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.0714286,0},{0.0714286,0},{0.928571,0},{0.928571,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/Button" Name="Root/OtherEquipment/Equip/SwitchEquipBtn2" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.38983,0},{0.0647668,0},{0.474576,0},{0.129534,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Button" Name="Root/OtherEquipment/Equip/SwitchEquipBtn3" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.491525,0},{0.0647668,0},{0.576271,0},{0.129534,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Button" Name="Root/OtherEquipment/Equip/SwitchEquipBtn1" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.288136,0},{0.0647668,0},{0.372881,0},{0.129534,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="Root/OtherEquipment/Equip/Slot15" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.681356,0},{0.142487,0},{0.823729,0},{0.251295,0}}" />
+                            <Window Type="DejaVu/StaticImage" Name="Root/OtherEquipment/Equip/Slot15/Img" >
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="Image" Value="set:main2 image:soulbase" />
+                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.0714286,0},{0.0714286,0},{0.928571,0},{0.928571,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="Root/OtherEquipment/Equip/Slot16" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.169492,0},{0.142487,0},{0.311864,0},{0.251295,0}}" />
+                            <Window Type="DejaVu/StaticImage" Name="Root/OtherEquipment/Equip/Slot16/Img" >
+                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.071429,0},{0.071429,0},{0.928572,0},{0.928572,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="Root/OtherEquipment/Equip/Slot17" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.169492,0},{0.873057,0},{0.311864,0},{0.981865,0}}" />
+                            <Window Type="DejaVu/StaticImage" Name="Root/OtherEquipment/Equip/Slot17/Img" >
+                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.071429,0},{0.071429,0},{0.928572,0},{0.928572,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="Root/OtherEquipment/Equip/Slot18" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.681356,0},{0.873057,0},{0.823729,0},{0.981865,0}}" />
+                            <Window Type="DejaVu/StaticImage" Name="Root/OtherEquipment/Equip/Slot18/Img" >
+                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.071429,0},{0.071429,0},{0.928572,0},{0.928572,0}}" />
+                            </Window>
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Embed4" Name="Root/OtherEquipment/Equip/TitleBG" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.033898,0},{0,0},{0.542373,0},{0.0631313,0}}" />
+                        <Window Type="DejaVu/StaticTextLab" Name="Root/OtherEquipment/Equip/Title" >
+                            <Property Name="Text" Value="角色裝備x" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.2,0},{0.866667,0},{0.8,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticImage" Name="Root/OtherEquipment/Equip/TitleBG/image" >
+                            <Property Name="Image" Value="set:DejaVu image:Image04" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                        </Window>
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Button" Name="Root/OtherEquipment/BG/Static/ColorChange" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="x詳細資料" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.526316,0},{0.948762,0},{0.659649,0},{0.99838,0}}" />
+                </Window>
+                <Window Type="DejaVu/Static" Name="Root/OtherEquipment/BG/Static/ColorBG" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.526316,0},{0,0},{1,0},{0.94084,0}}" />
+                    <Window Type="DejaVu/Embed2" Name="Root/OtherEquipment/BG/Static/ColorBG/BackGround" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.020284,0},{1,0},{0.255578,0}}" />
+                        <Window Type="DejaVu/SlotImage" Name="Root/OtherEquipment/BG/Static/ColorBG/BackGround/Helmet" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.055556,0},{0.25641,0},{0.211112,0},{0.615384,0}}" />
+                            <Window Type="DejaVu/StaticImage" Name="Root/OtherEquipment/BG/Static/ColorBG/BackGround/Helmet/Img" >
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="Image" Value="set:main2 image:HelmetBase" />
+                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.071429,0},{0.071429,0},{0.928572,0},{0.928572,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="Root/OtherEquipment/BG/Static/ColorBG/BackGround/Cloth" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.240741,0},{0.258621,0},{0.396296,0},{0.62069,0}}" />
+                            <Window Type="DejaVu/StaticImage" Name="Root/OtherEquipment/BG/Static/ColorBG/BackGround/Cloth/Img" >
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="Image" Value="set:main2 image:ArmorBase" />
+                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.071429,0},{0.071429,0},{0.928572,0},{0.928572,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/EmbedTextLab7" Name="Root/OtherEquipment/BG/Static/ColorBG/BackGround/sectionText" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="x可染部位" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.037037,0},{0.700855,0},{0.333333,0},{0.91453,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImageItem" Name="Root/OtherEquipment/BG/Static/ColorBG/BackGround/part1BG" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.37037,0},{0.706897,0},{0.459259,0},{0.913793,0}}" />
+                            <Window Type="DejaVu/SlotImageItem" Name="Root/OtherEquipment/BG/Static/ColorBG/BackGround/part1" >
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="HorizontalAlignment" Value="Centre" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.833333,0},{0.833333,0}}" />
+                                <Property Name="VerticalAlignment" Value="Centre" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/SlotImageItem" Name="Root/OtherEquipment/BG/Static/ColorBG/BackGround/part2BG" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.481481,0},{0.706897,0},{0.57037,0},{0.913793,0}}" />
+                            <Window Type="DejaVu/SlotImageItem" Name="Root/OtherEquipment/BG/Static/ColorBG/BackGround/part2" >
+                                <Property Name="HorizontalAlignment" Value="Centre" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.833333,0},{0.833333,0}}" />
+                                <Property Name="VerticalAlignment" Value="Centre" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/SlotImageItem" Name="Root/OtherEquipment/BG/Static/ColorBG/BackGround/part3BG" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.592593,0},{0.706897,0},{0.681481,0},{0.913793,0}}" />
+                            <Window Type="DejaVu/SlotImageItem" Name="Root/OtherEquipment/BG/Static/ColorBG/BackGround/part3" >
+                                <Property Name="HorizontalAlignment" Value="Centre" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.833333,0},{0.833333,0}}" />
+                                <Property Name="VerticalAlignment" Value="Centre" />
+                            </Window>
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Embed4" Name="Root/OtherEquipment/BG/Static/ColorBG/Title" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.037037,0},{0,0},{0.592593,0},{0.0507099,0}}" />
+                        <Window Type="DejaVu/StaticImage" Name="Root/OtherEquipment/BG/Static/ColorBG/Title/Img" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="Image" Value="set:DejaVu image:Image05" />
+                            <Property Name="MousePassThroughEnabled" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticTextLab" Name="Root/OtherEquipment/BG/Static/ColorBG/Title/Text" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="MousePassThroughEnabled" Value="True" />
+                            <Property Name="Text" Value="x裝備染色" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.2,0},{0.866667,0},{0.8,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Embed2" Name="Root/OtherEquipment/BG/Static/ColorBG/BackGround2" >
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.839757,0},{1,0},{0.997972,0}}" />
+                        <Window Type="DejaVu/SlotImage" Name="Root/OtherEquipment/BG/Static/ColorBG/BackGround2/put" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0555556,0},{0.192308,0},{0.211111,0},{0.730769,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Button" Name="Root/OtherEquipment/BG/Static/ColorBG/BackGround2/use" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="HorizontalAlignment" Value="Right" />
+                            <Property Name="Text" Value="x使用" />
+                            <Property Name="UnifiedAreaRect" Value="{{-0.037037,0},{0.538462,0},{0.244444,0},{0.871795,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticTextLab" Name="Root/OtherEquipment/BG/Static/ColorBG/BackGround2/Text" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="Text" Value="x請放入欲使用的染色劑" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.192308,0},{0.933334,0},{0.448718,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Embed2" Name="Root/OtherEquipment/BG/Static/ColorBG/Color" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.259635,0},{1,0},{0.8357,0}}" />
+                        <Window Type="DejaVu/Embed2" Name="Root/OtherEquipment/BG/Static/ColorBG/Color/bg" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.037037,0},{0.034965,0},{0.962963,0},{0.856643,0}}" />
+                            <Window Type="DejaVu/EmbedTextLab7" Name="Root/OtherEquipment/BG/Static/ColorBG/Color/bg/text" >
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="HorzFormatting" Value="HorzCentred" />
+                                <Property Name="Text" Value="x色盤" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.106383,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/ScrollablePane" Name="Root/OtherEquipment/BG/Static/ColorBG/Color/bg/Pane" >
+                                <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                                <Property Name="HorzOverlapSize" Value="0.01" />
+                                <Property Name="HorzScrollPosition" Value="0" />
+                                <Property Name="HorzStepSize" Value="0.1" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.107296,0},{1,0},{1,0}}" />
+                                <Property Name="VertOverlapSize" Value="0.01" />
+                                <Property Name="VertScrollPosition" Value="0" />
+                                <Property Name="VertStepSize" Value="0.1" />
+                                <AutoWindow NameSuffix="__auto_container__" >
+                                    <Property Name="ChildExtentsArea" Value="l:0 t:0 r:0 b:0" />
+                                    <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                                    <Property Name="MouseInputPropagationEnabled" Value="True" />
+                                </AutoWindow>
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/Button" Name="Root/OtherEquipment/BG/Static/ColorBG/Color/default" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="Text" Value="x預設" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.037037,0},{0.874126,0},{0.318518,0},{0.965035,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Button" Name="Root/OtherEquipment/BG/Static/ColorBG/Color/set" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="HorizontalAlignment" Value="Right" />
+                            <Property Name="Text" Value="x設定" />
+                            <Property Name="UnifiedAreaRect" Value="{{-0.037037,0},{0.874126,0},{0.244444,0},{0.965035,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/OtherEquipment/BG/Static/ColorBG/LockTargetImage" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="BackgroundEnabled" Value="True" />
+                        <Property Name="ID" Value="1" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed2" Name="Root/OtherEquipment/FishingInfo" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.526316,0},{0.019084,0},{1,0},{0.229008,0}}" />
+                    <Window Type="DejaVu/Embed4" Name="Root/OtherEquipment/FishingInfo/TitleBG" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="ClippedByParent" Value="False" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.037037,0},{-0.090909,0},{0.592593,0},{0.136364,0}}" />
+                        <Window Type="DejaVu/StaticImage" Name="Root/OtherEquipment/FishingInfo/Title/Image" >
+                            <Property Name="Image" Value="set:DejaVu image:Image05" />
+                            <Property Name="MousePassThroughEnabled" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticTextLab" Name="Root/OtherEquipment/FishingInfo/Title/Text" >
+                            <Property Name="ClippedByParent" Value="False" />
+                            <Property Name="MousePassThroughEnabled" Value="True" />
+                            <Property Name="Text" Value="x釣魚資訊" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.2,0},{0.866667,0},{0.8,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/OtherEquipment/FishingInfo/Label1" >
+                        <Property Name="Text" Value="x釣竿耐久" />
+                        <Property Name="TextColours" Value="tl:FFFFFF00 tr:FFFFFF00 bl:FFFFFF00 br:FFFFFF00" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0334572,0},{0.175926,0},{0.241636,0},{0.324074,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/OtherEquipment/FishingInfo/Label2" >
+                        <Property Name="Text" Value="x釣具強度" />
+                        <Property Name="TextColours" Value="tl:FFFFFF00 tr:FFFFFF00 bl:FFFFFF00 br:FFFFFF00" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0334572,0},{0.37963,0},{0.249071,0},{0.527778,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/OtherEquipment/FishingInfo/Label3" >
+                        <Property Name="Text" Value="x釣線強度" />
+                        <Property Name="TextColours" Value="tl:FFFFFF00 tr:FFFFFF00 bl:FFFFFF00 br:FFFFFF00" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0334572,0},{0.583333,0},{0.241636,0},{0.731481,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/OtherEquipment/FishingInfo/Value1" >
+                        <Property Name="HorzFormatting" Value="RightAligned" />
+                        <Property Name="Text" Value="9999" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.35316,0},{0.175926,0},{0.557621,0},{0.324074,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/OtherEquipment/FishingInfo/Value2" >
+                        <Property Name="HorzFormatting" Value="RightAligned" />
+                        <Property Name="Text" Value="9999" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.35316,0},{0.37963,0},{0.557621,0},{0.527778,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/OtherEquipment/FishingInfo/Value3" >
+                        <Property Name="HorzFormatting" Value="RightAligned" />
+                        <Property Name="Text" Value="9999" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.35316,0},{0.583333,0},{0.557621,0},{0.731481,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/OtherEquipment/FishingInfo/Rate2" >
+                        <Property Name="HorzFormatting" Value="RightAligned" />
+                        <Property Name="Text" Value="100.00%" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.69145,0},{0.37963,0},{0.94052,0},{0.527778,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/OtherEquipment/FishingInfo/Rate3" >
+                        <Property Name="HorzFormatting" Value="RightAligned" />
+                        <Property Name="Text" Value="100.00%" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.69145,0},{0.583333,0},{0.936803,0},{0.731481,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/OtherEquipment/FishingInfo/Label4" >
+                        <Property Name="Text" Value="x收線速度" />
+                        <Property Name="TextColours" Value="tl:FFFFFF00 tr:FFFFFF00 bl:FFFFFF00 br:FFFFFF00" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0334572,0},{0.777778,0},{0.241636,0},{0.925926,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/OtherEquipment/FishingInfo/Value4" >
+                        <Property Name="HorzFormatting" Value="RightAligned" />
+                        <Property Name="Text" Value="9999" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.35316,0},{0.777778,0},{0.557621,0},{0.925926,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/OtherEquipment/FishingInfo/Rate4" >
+                        <Property Name="HorzFormatting" Value="RightAligned" />
+                        <Property Name="Text" Value="100.00%" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.69145,0},{0.777778,0},{0.936803,0},{0.925926,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Static" Name="Root/OtherEquipment/ProduceRankBG" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.526316,0},{0.23855,0},{1,0},{0.94084,0}}" />
+                    <Window Type="DejaVu/Embed2" Name="Root/OtherEquipment/ProduceRankBG/Embed2" >
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.027174,0},{1,0},{1,0}}" />
+                        <Window Type="DejaVu/Embed2" Name="Root/OtherEquipment/ProduceRankBG/Embed2/BG" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.037037,0},{0.069832,0},{0.962963,0},{0.972067,0}}" />
+                            <Window Type="DejaVu/ScrollablePane" Name="Root/OtherEquipment/ProduceRankBG/Embed2/BG/SrollablePane" >
+                                <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="HorzOverlapSize" Value="0.01" />
+                                <Property Name="HorzScrollPosition" Value="0" />
+                                <Property Name="HorzStepSize" Value="0.1" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.008,0},{0.006192,0},{0.992,0},{0.993808,0}}" />
+                                <Property Name="VertOverlapSize" Value="0.01" />
+                                <Property Name="VertScrollPosition" Value="0" />
+                                <Property Name="VertStepSize" Value="0.1" />
+                                <AutoWindow NameSuffix="__auto_container__" >
+                                    <Property Name="ChildExtentsArea" Value="l:0 t:0 r:0 b:0" />
+                                    <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                                    <Property Name="MouseInputPropagationEnabled" Value="True" />
+                                </AutoWindow>
+                            </Window>
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Embed4" Name="Root/OtherEquipment/ProduceRankBG/TitleBG" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.037037,0},{0,0},{0.592593,0},{0.0679348,0}}" />
+                        <Window Type="DejaVu/StaticImage" Name="Root/OtherEquipment/ProduceRankBG/TitleBG/Img" >
+                            <Property Name="Image" Value="set:DejaVu image:Image13" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticTextLab" Name="Root/OtherEquipment/ProduceRankBG/TitleBG/Text" >
+                            <Property Name="Text" Value="x生產階級" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.2,0},{0.866667,0},{0.8,0}}" />
+                        </Window>
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Button" Name="Root/OtherEquipment/BG/FaceChangeBtn" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="x沙龍造型" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.698246,0},{0.950382,0},{0.831579,0},{1,0}}" />
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

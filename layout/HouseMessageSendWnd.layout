@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="HouseMessageSendWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="Text" Value="x留言編輯" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="TitlebarImage" Value="set:main image:EventsNormal" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,475},{0,645}}" />
+        <Window Type="DejaVu/Embed" Name="HouseMessageSendWnd/BG" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1.00218,0},{1,0}}" />
+            <Window Type="DefaultWindow" Name="HouseMessageSendWnd/BG/MessageBoardPost" >
+                <Property Name="UnifiedAreaRect" Value="{{0.00217865,0},{0,0},{1.00436,0},{1,0}}" />
+                <Window Type="DejaVu/Embed2" Name="HouseMessageSendWnd/BG/MessageBoardPost/PostBG" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.0218341,0},{0.0176991,0},{0.982533,0},{0.902655,0}}" />
+                    <Window Type="DejaVu/EmbedText7" Name="HouseMessageSendWnd/BG/MessageBoardPost/PostBG/Title" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="x標題" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0227273,0},{0.03,0},{0.195455,0},{0.082,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Editbox" Name="HouseMessageSendWnd/BG/MessageBoardPost/PostBG/TitleText" >
+                        <Property Name="MaxTextLength" Value="2147483647" />
+                        <Property Name="TextParsingEnabled" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.195455,0},{0.026,0},{0.977273,0},{0.086,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/MultiLineEditbox" Name="HouseMessageSendWnd/BG/MessageBoardPost/PostBG/TextEdit" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="MaxTextLength" Value="720" />
+                        <Property Name="NormalTextColour" Value="C8FFFFFF" />
+                        <Property Name="Text" >
+</Property>
+                        <Property Name="TextParsingEnabled" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0227273,0},{0.11,0},{0.977273,0},{0.98,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Button" Name="HouseMessageSendWnd/BG/MessageBoardPost/SendBtn" >
+                    <Property Name="Text" Value="x送出留言" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.814411,0},{0.929204,0},{0.980349,0},{0.975221,0}}" />
+                </Window>
+                <Window Type="DejaVu/RadioButton" Name="HouseMessageSendWnd/BG/MessageBoardPost/PublicBtn" >
+                    <Property Name="Text" Value="x公開" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0218341,0},{0.929204,0},{0.229258,0},{0.973451,0}}" />
+                </Window>
+                <Window Type="DejaVu/RadioButton" Name="HouseMessageSendWnd/BG/MessageBoardPost/NonPublicBtn" >
+                    <Property Name="Text" Value="x不公開" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.229258,0},{0.929204,0},{0.436681,0},{0.973451,0}}" />
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

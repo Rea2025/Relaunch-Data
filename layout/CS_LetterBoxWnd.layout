@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/CS_LetterBoxWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HorizontalAlignment" Value="Right" />
+        <Property Name="MousePassThroughEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Window Type="DejaVu/StaticText" Name="Root/CS_LetterBoxWnd/Text" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-24" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="InheritsAlpha" Value="False" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="Text" Value="Delphine : I&apos;m not stubborn. Life is stubborn toward me." />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.905,0},{1,0},{1,0}}" />
+        </Window>
+        <Window Type="DefaultWindow" Name="Root/CS_LetterBoxWnd/Skin" >
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/StaticImage" Name="Root/CS_LetterBoxWnd/Bottom" >
+                <Property Name="BackgroundColours" Value="tl:DD000000 tr:DD000000 bl:DD000000 br:DD000000" />
+                <Property Name="BackgroundEnabled" Value="True" />
+                <Property Name="Image" Value="set:cutScene image:LetterBox" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.0950455,0}}" />
+                <Property Name="VerticalAlignment" Value="Bottom" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/CS_LetterBoxWnd/Top" >
+                <Property Name="BackgroundColours" Value="tl:DD000000 tr:DD000000 bl:DD000000 br:DD000000" />
+                <Property Name="BackgroundEnabled" Value="True" />
+                <Property Name="Image" Value="set:cutScene image:LetterBox" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.0950455,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/CS_LetterBoxWnd/Background" >
+            <Property Name="BackgroundColours" Value="tl:DD000000 tr:DD000000 bl:DD000000 br:DD000000" />
+            <Property Name="BackgroundEnabled" Value="True" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Property Name="Image" Value="set:cutScene image:LetterBox" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Property Name="VerticalAlignment" Value="Centre" />
+        </Window>
+    </Window>
+</GUILayout>

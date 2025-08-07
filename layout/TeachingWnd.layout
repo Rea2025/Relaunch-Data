@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/StaticImage" Name="Root/TeachingWnd" >
+        <Property Name="BackgroundEnabled" Value="True" />
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="MousePassThroughEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Window Type="DejaVu/Static" Name="Root/TeachingWnd/NextStopBlushBtn" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/StaticImage" Name="Root/TeachingWnd/Crosshair1" >
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="UnifiedAreaRect" Value="{{0.082781,0},{0.135501,0},{0.135761,0},{0.222222,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/TeachingWnd/Crosshair2" >
+                <Property Name="Font" Value="F001-scale" />
+                <!--Property Name="MousePassThroughEnabled" Value="True" /-->
+                <Property Name="UnifiedAreaRect" Value="{{0.165563,0},{0.271003,0},{0.218543,0},{0.357724,0}}" />
+            </Window>
+            <Window Type="DejaVu/EmbedText" Name="Root/TeachingWnd/ExitText" >
+                <Property Name="Font" Value="F001-24" />
+                <Property Name="FrameColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFFF" />
+                <Property Name="Text" Value="x按下ESC離開教學" />
+                <Property Name="TextColours" Value="tl:FFFF0000 tr:FFFF0000 bl:FFFF0000 br:FFFF0000" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.273438,0},{0.104167,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/TeachingWnd/ArrowImage" >
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="Image" Value="set:main image:TutorialArrow" />
+                <Property Name="UnifiedAreaRect" Value="{{0.248344,0},{0.406504,0},{0.298013,0},{0.487805,0}}" />
+            </Window>
+            <Window Type="DejaVu/Embed11" Name="Root/TeachingWnd/TipTextBottom" >
+                <Property Name="Font" Value="F001-11" />
+                <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.451243,0},{0.609713,0},{0.616806,0},{0.724889,0}}" />
+                <Window Type="DejaVu/StaticText" Name="Root/TeachingWnd/TipTextBottom/Text" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                    <Property Name="LinespaceWindow" Value="True" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="Text" Value="x說明內文110000000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.723883,0},{0.693182,0}}" />
+                    <Property Name="VerticalAlignment" Value="Centre" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/TeachingWnd/TipImage" >
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.421875,0},{0.507813,0}}" />
+            </Window>
+            <Window Type="DejaVu/Embed15" Name="Root/TeachingWnd/TipTextLeft" >
+                <Property Name="Font" Value="F001-11" />
+                <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.261009,0},{0.476119,0},{0.426572,0},{0.591295,0}}" />
+                <Window Type="DejaVu/StaticText" Name="Root/TeachingWnd/TipTextLeft/Text" >
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                    <Property Name="LinespaceWindow" Value="True" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="Text" Value="x說明內文110000000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.723883,0},{0.693182,0}}" />
+                    <Property Name="VerticalAlignment" Value="Centre" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed9" Name="Root/TeachingWnd/TipTextTop" >
+                <Property Name="Font" Value="F001-11" />
+                <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.456517,0},{0.342526,0},{0.62208,0},{0.457702,0}}" />
+                <Window Type="DejaVu/StaticText" Name="Root/TeachingWnd/TipTextTop/Text" >
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                    <Property Name="LinespaceWindow" Value="True" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="Text" Value="x說明內文110000000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.723883,0},{0.693182,0}}" />
+                    <Property Name="VerticalAlignment" Value="Centre" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed10" Name="Root/TeachingWnd/TipTextRight" >
+                <Property Name="Font" Value="F001-11" />
+                <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.637571,0},{0.471172,0},{0.803134,0},{0.586348,0}}" />
+                <Window Type="DejaVu/StaticText" Name="Root/TeachingWnd/TipTextRight/Text" >
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                    <Property Name="LinespaceWindow" Value="True" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="Text" Value="x說明內文110000000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.723883,0},{0.693182,0}}" />
+                    <Property Name="VerticalAlignment" Value="Centre" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/TeachingWnd/Mask" >
+            <Property Name="BackgroundEnabled" Value="True" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

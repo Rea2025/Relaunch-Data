@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/Menubar" Name="Root/RollWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HorizontalAlignment" Value="Centre" />
+        <Property Name="ItemSpacing" Value="10" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{-0.136286,0},{0,198},{-0.136286,88}}" />
+        <Property Name="VerticalAlignment" Value="Centre" />
+        <Window Type="DejaVu/Embed3" Name="Root/RollWnd/BackGrand/Embed/BG" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.015152,0},{0.227273,0},{0.984849,0},{0.704546,0}}" />
+            <Window Type="DejaVu/SlotImage" Name="Root/RollWnd/BackGrand/Embed/BG/ItemIcon" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.029412,0},{0.113636,0},{0.196079,0},{0.875541,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/RollWnd/BackGrand/Embed/BG/ItemIcon/CountText" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="RightAligned" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="Text" Value="123" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.9375,0},{0.9375,0}}" />
+                    <Property Name="VertFormatting" Value="BottomAligned" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/RollWnd/BackGrand/Embed/BG/ItemName" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" Value="Name" />
+                <Property Name="UnifiedAreaRect" Value="{{0.258824,0},{0.068182,0},{0.972366,0},{0.496753,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/RollWnd/BackGrand/Embed/BG/ItemType" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" Value="Type   Restrict" />
+                <Property Name="UnifiedAreaRect" Value="{{0.259545,0},{0.5,0},{0.973087,0},{0.928571,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/ImageButton" Name="Root/RollWnd/BackGrand/Embed/NeedBtn" >
+            <Property Name="DisabledImage" Value="set:DejaVu image:RollOkP" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HoverImage" Value="set:DejaVu image:RollOkH" />
+            <Property Name="NormalImage" Value="set:DejaVu image:RollOkN" />
+            <Property Name="PushedImage" Value="set:DejaVu image:RollOkP" />
+            <Property Name="Text" Value="O" />
+            <Property Name="UnifiedAreaRect" Value="{{0.733926,0},{0.706969,0},{0.855138,0},{0.979696,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/RollWnd/BackGrand/Embed/BarBack" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="Image" Value="set:main image:CastBarBack" />
+            <Property Name="UnifiedAreaRect" Value="{{0.017803,0},{0.778788,0},{0.724874,0},{0.892424,0}}" />
+            <Window Type="DejaVu/ProgressBar" Name="Root/RollWnd/BackGrand/Embed/BarBack/TimeBar" >
+                <Property Name="CurrentProgress" Value="0.5" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="StepSize" Value="0.01" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0214286,0},{0.2,0},{0.978571,0},{0.8,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/ImageButton" Name="Root/RollWnd/BackGrand/Embed/GiveUpBtn" >
+            <Property Name="DisabledImage" Value="set:DejaVu image:RollNoP" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HoverImage" Value="set:DejaVu image:RollNoN" />
+            <Property Name="NormalImage" Value="set:DejaVu image:RollNoN" />
+            <Property Name="PushedImage" Value="set:DejaVu image:RollNoP" />
+            <Property Name="Text" Value="X" />
+            <Property Name="UnifiedAreaRect" Value="{{0.862588,0},{0.70697,0},{0.9838,0},{0.979697,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticTextLab" Name="Root/RollWnd/BackGrand/TitleTextLab" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="Text" Value="A__A獲得物品後將自動榜定" />
+            <Property Name="UnifiedAreaRect" Value="{{0.030303,0},{0.034091,0},{0.974747,0},{0.238636,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

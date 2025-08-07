@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/FamilyBattleInfoWnd" >
+        <Property Name="HorizontalAlignment" Value="Right" />
+        <Property Name="MousePassThroughEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.3,0},{0,273},{0.3,121}}" />
+        <Window Type="DejaVu/StaticText" Name="Root/FamilyBattleInfoWnd/EnergyTeamR" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-12" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="Text" Value="x300" />
+            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+            <Property Name="UnifiedAreaRect" Value="{{0.322344,0},{0.545455,0},{0.322344,63},{0.545455,22}}" />
+        </Window>
+        <Window Type="DejaVu/StaticText" Name="Root/FamilyBattleInfoWnd/EnergyTeamB" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-12" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="Text" Value="x300" />
+            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+            <Property Name="UnifiedAreaRect" Value="{{0.461538,0},{0.545455,0},{0.461538,63},{0.545455,22}}" />
+        </Window>
+        <Window Type="DejaVu/Border" Name="Root/FamilyBattleInfoWnd/WinCntBoardR" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0166667,0},{0.549618,0},{0.373333,0},{0.717557,0}}" />
+            <Property Name="VertFormatting" Value="VertCentred" />
+            <Window Type="DejaVu/StaticImage" Name="Root/FamilyBattleInfoWnd/WinCntBoardR/WinCntIcon1" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Image" Value="set:DejaVuImage image:CrystalTeamR" />
+                <Property Name="UnifiedAreaRect" Value="{{0.046729,0},{0,0},{0.214953,0},{0.818182,0}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/FamilyBattleInfoWnd/WinCntBoardR/WinCntIcon2" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Image" Value="set:DejaVuImage image:CrystalTeamR" />
+                <Property Name="UnifiedAreaRect" Value="{{0.233645,0},{0,0},{0.401869,0},{0.818182,0}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/FamilyBattleInfoWnd/WinCntBoardR/WinCntIcon3" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Image" Value="set:DejaVuImage image:CrystalTeamR" />
+                <Property Name="UnifiedAreaRect" Value="{{0.420561,0},{0,0},{0.588785,0},{0.818182,0}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/FamilyBattleInfoWnd/WinCntBoardR/WinCntIcon4" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Image" Value="set:DejaVuImage image:CrystalTeamR" />
+                <Property Name="UnifiedAreaRect" Value="{{0.607477,0},{0,0},{0.775701,0},{0.818182,0}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/FamilyBattleInfoWnd/WinCntBoardR/WinCntIcon5" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Image" Value="set:DejaVuImage image:CrystalTeamR" />
+                <Property Name="UnifiedAreaRect" Value="{{0.794393,0},{0,0},{0.962617,0},{0.818182,0}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Border" Name="Root/FamilyBattleInfoWnd/WinCntBoardB" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.616667,0},{0.549618,0},{0.973333,0},{0.717557,0}}" />
+            <Property Name="VertFormatting" Value="VertCentred" />
+            <Window Type="DejaVu/StaticImage" Name="Root/FamilyBattleInfoWnd/WinCntBoardB/WinCntIcon5" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Image" Value="set:DejaVuImage image:CrystalTeamB" />
+                <Property Name="UnifiedAreaRect" Value="{{0.046729,0},{0,0},{0.214953,0},{0.818182,0}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/FamilyBattleInfoWnd/WinCntBoardB/WinCntIcon4" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Image" Value="set:DejaVuImage image:CrystalTeamB" />
+                <Property Name="UnifiedAreaRect" Value="{{0.233645,0},{0,0},{0.401869,0},{0.818182,0}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/FamilyBattleInfoWnd/WinCntBoardB/WinCntIcon3" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Image" Value="set:DejaVuImage image:CrystalTeamB" />
+                <Property Name="UnifiedAreaRect" Value="{{0.420561,0},{0,0},{0.588785,0},{0.818182,0}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/FamilyBattleInfoWnd/WinCntBoardB/WinCntIcon2" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Image" Value="set:DejaVuImage image:CrystalTeamB" />
+                <Property Name="UnifiedAreaRect" Value="{{0.607477,0},{0,0},{0.775701,0},{0.818182,0}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/FamilyBattleInfoWnd/WinCntBoardB/WinCntIcon1" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Image" Value="set:DejaVuImage image:CrystalTeamB" />
+                <Property Name="UnifiedAreaRect" Value="{{0.794393,0},{0,0},{0.962617,0},{0.818182,0}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/SlotImage" Name="Root/FamilyBattleInfoWnd/" >
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.29771,0},{0.912281,0},{0.51145,0}}" />
+        </Window>
+        <Window Type="DejaVu/SlotImage" Name="Root/FamilyBattleInfoWnd/EnergyBarBG" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.302326,0},{0.902256,0},{0.500799,0}}" />
+            <Window Type="DejaVu/StaticImage" Name="Root/FamilyBattleInfoWnd/EnergyBarBG/TeamR" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="Image" Value="set:DejaVuImage image:EquipAttr2ProcessBar" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.5,0},{0,0},{0,0},{1,0}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/FamilyBattleInfoWnd/EnergyBarBG/TeamB" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Image" Value="set:DejaVuImage image:EquipAttr3ProcessBar" />
+                <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0,0},{1,0},{1,0}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+            </Window>
+            <Window Type="DejaVu/Border" Name="Root/FamilyBattleInfoWnd/EnergyBarBG/BarContainer" >
+                <Property Name="UnifiedAreaRect" Value="{{0.4,0},{0.4,0},{0.65,0},{0.65,0}}" />
+                <Property Name="Visible" Value="False" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

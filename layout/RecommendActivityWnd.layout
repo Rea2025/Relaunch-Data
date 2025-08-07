@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="RecommendActivityWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.658203,0},{0.708333,0}}" />
+        <Window Type="DejaVu/EmbedTextLab2" Name="RecommendActivityWnd/PointText" >
+            <Property Name="Text" Value="x20" />
+            <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+            <Property Name="UnifiedAreaRect" Value="{{0.744807,0},{0.0183824,0},{0.985163,0},{0.0643382,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="RecommendActivityWnd/ActivityFilterBtn" >
+            <Property Name="Text" Value="x今日活躍項目" />
+            <Property Name="UnifiedAreaRect" Value="{{0.014837,0},{0.01773,0},{0.163205,0},{0.0636859,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="RecommendActivityWnd/AllActivityBtn" >
+            <Property Name="Text" Value="x每日可玩項目" />
+            <Property Name="UnifiedAreaRect" Value="{{0.170623,0},{0.01773,0},{0.318991,0},{0.0636859,0}}" />
+        </Window>
+        <Window Type="DejaVu/EmbedTextLab7" Name="RecommendActivityWnd/PointTitle" >
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="Text" Value="x今日活躍積分" />
+            <Property Name="UnifiedAreaRect" Value="{{0.566766,0},{0.01773,0},{0.744808,0},{0.0636859,0}}" />
+        </Window>
+        <Window Type="DejaVu/Embed2" Name="RecommendActivityWnd/LoginReward" >
+            <Property Name="UnifiedAreaRect" Value="{{0.0148368,0},{0.683824,0},{0.985163,0},{0.981618,0}}" />
+            <Window Type="DejaVu/EmbedTextLab7" Name="RecommendActivityWnd/LoginReward/Title" >
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="x連續登入獎勵" />
+                <Property Name="UnifiedAreaRect" Value="{{0.003058,0},{0.0165077,0},{0.996942,0},{0.170829,0}}" />
+            </Window>
+            <Window Type="DejaVu/Static" Name="RecommendActivityWnd/LoginReward/BG" >
+                <Property Name="UnifiedAreaRect" Value="{{0.0351682,0},{0.197531,0},{0.964832,0},{0.938272,0}}" />
+                <Window Type="DejaVu/Embed2" Name="RecommendActivityWnd/LoginReward/BG/RewardBG0" >
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.141447,0},{1,0}}" />
+                    <Window Type="DejaVu/EmbedTextLab7" Name="RecommendActivityWnd/LoginReward/BG/RewardBG0/Title" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="x第一天" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.023256,0},{0.016667,0},{0.976744,0},{0.225,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="RecommendActivityWnd/LoginReward/BG/RewardBG0/Slot" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.255814,0},{0.283333,0},{0.744186,0},{0.633333,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Button" Name="RecommendActivityWnd/LoginReward/BG/RewardBG0/Get" >
+                        <Property Name="Text" Value="x領取" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.05814,0},{0.716667,0},{0.941861,0},{0.933334,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed2" Name="RecommendActivityWnd/LoginReward/BG/RewardBG1" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.143092,0},{0,0},{0.284539,0},{1,0}}" />
+                    <Window Type="DejaVu/EmbedTextLab7" Name="RecommendActivityWnd/LoginReward/BG/RewardBG1/Title" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="x第二天" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.023256,0},{0.016667,0},{0.976744,0},{0.225,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="RecommendActivityWnd/LoginReward/BG/RewardBG1/Slot" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.255814,0},{0.283333,0},{0.744186,0},{0.633333,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Button" Name="RecommendActivityWnd/LoginReward/BG/RewardBG1/Get" >
+                        <Property Name="Text" Value="x領取" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.05814,0},{0.716667,0},{0.941861,0},{0.933334,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed2" Name="RecommendActivityWnd/LoginReward/BG/RewardBG2" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.286184,0},{0,0},{0.427632,0},{1,0}}" />
+                    <Window Type="DejaVu/EmbedTextLab7" Name="RecommendActivityWnd/LoginReward/BG/RewardBG2/Title" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="x第三天" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.023256,0},{0.016667,0},{0.976744,0},{0.225,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="RecommendActivityWnd/LoginReward/BG/RewardBG2/Slot" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.255814,0},{0.283333,0},{0.744186,0},{0.633333,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Button" Name="RecommendActivityWnd/LoginReward/BG/RewardBG2/Get" >
+                        <Property Name="Text" Value="x領取" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.05814,0},{0.716667,0},{0.941861,0},{0.933334,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed2" Name="RecommendActivityWnd/LoginReward/BG/RewardBG3" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.429276,0},{0,0},{0.570724,0},{1,0}}" />
+                    <Window Type="DejaVu/EmbedTextLab7" Name="RecommendActivityWnd/LoginReward/BG/RewardBG3/Title" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="x第四天" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.023256,0},{0.016667,0},{0.976744,0},{0.225,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="RecommendActivityWnd/LoginReward/BG/RewardBG3/Slot" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.255814,0},{0.283333,0},{0.744186,0},{0.633333,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Button" Name="RecommendActivityWnd/LoginReward/BG/RewardBG3/Get" >
+                        <Property Name="Text" Value="x領取" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.05814,0},{0.716667,0},{0.941861,0},{0.933334,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed2" Name="RecommendActivityWnd/LoginReward/BG/RewardBG4" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.572368,0},{0,0},{0.713816,0},{1,0}}" />
+                    <Window Type="DejaVu/EmbedTextLab7" Name="RecommendActivityWnd/LoginReward/BG/RewardBG4/Title" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="x第五天" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.023256,0},{0.016667,0},{0.976744,0},{0.225,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="RecommendActivityWnd/LoginReward/BG/RewardBG4/Slot" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.255814,0},{0.283333,0},{0.744186,0},{0.633333,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Button" Name="RecommendActivityWnd/LoginReward/BG/RewardBG4/Get" >
+                        <Property Name="Text" Value="x領取" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.05814,0},{0.716667,0},{0.941861,0},{0.933334,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed2" Name="RecommendActivityWnd/LoginReward/BG/RewardBG5" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.715461,0},{0,0},{0.856908,0},{1,0}}" />
+                    <Window Type="DejaVu/EmbedTextLab7" Name="RecommendActivityWnd/LoginReward/BG/RewardBG5/Title" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="x第六天" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.023256,0},{0.016667,0},{0.976744,0},{0.225,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="RecommendActivityWnd/LoginReward/BG/RewardBG5/Slot" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.255814,0},{0.283333,0},{0.744186,0},{0.633333,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Button" Name="RecommendActivityWnd/LoginReward/BG/RewardBG5/Get" >
+                        <Property Name="Text" Value="x領取" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.05814,0},{0.716667,0},{0.941861,0},{0.933334,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed2" Name="RecommendActivityWnd/LoginReward/BG/RewardBG6" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.858553,0},{0,0},{1,0},{1,0}}" />
+                    <Window Type="DejaVu/EmbedTextLab7" Name="RecommendActivityWnd/LoginReward/BG/RewardBG6/Title" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="x第七天" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.023256,0},{0.016667,0},{0.976744,0},{0.225,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="RecommendActivityWnd/LoginReward/BG/RewardBG6/Slot" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.255814,0},{0.283333,0},{0.744186,0},{0.633333,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Button" Name="RecommendActivityWnd/LoginReward/BG/RewardBG6/Get" >
+                        <Property Name="Text" Value="x領取" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.05814,0},{0.716667,0},{0.941861,0},{0.933334,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="RecommendActivityWnd/LoginReward/BG/Mark0" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="Image" Value="set:main2 image:GiftIcon" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0246711,0},{0.458333,0},{0.0246711,25},{0.458333,25}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="RecommendActivityWnd/LoginReward/BG/Mark1" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="Image" Value="set:main2 image:GiftIcon" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.172697,0},{0.458333,0},{0.213816,0},{0.666667,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="RecommendActivityWnd/LoginReward/BG/Mark2" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="Image" Value="set:main2 image:GiftIcon" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.320724,0},{0.458333,0},{0.361842,0},{0.666667,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="RecommendActivityWnd/LoginReward/BG/Mark3" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="Image" Value="set:main2 image:GiftIcon" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.460526,0},{0.458333,0},{0.501645,0},{0.666667,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="RecommendActivityWnd/LoginReward/BG/Mark4" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="Image" Value="set:main2 image:GiftIcon" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.605263,0},{0.458333,0},{0.646382,0},{0.666667,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="RecommendActivityWnd/LoginReward/BG/Mark5" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="Image" Value="set:main2 image:GiftIcon" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.748355,0},{0.458333,0},{0.789474,0},{0.666667,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="RecommendActivityWnd/LoginReward/BG/Mark6" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="Image" Value="set:main2 image:GiftIcon" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.888158,0},{0.458333,0},{0.929276,0},{0.666667,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="RecommendActivityWnd/LoginReward/BG/PrevBtn" >
+                <Property Name="DisabledImage" Value="set:DejaVu image:ArrowLeftPressed" />
+                <Property Name="HoverImage" Value="set:DejaVu image:ArrowLeftHover" />
+                <Property Name="NormalImage" Value="set:DejaVu image:ArrowLeftNormal" />
+                <Property Name="PushedImage" Value="set:DejaVu image:ArrowLeftPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.462963,0},{0.030581,0},{0.617284,0}}" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="RecommendActivityWnd/LoginReward/BG/NextBtn" >
+                <Property Name="DisabledImage" Value="set:DejaVu image:ArrowRightPressed" />
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="HoverImage" Value="set:DejaVu image:ArrowRightHover" />
+                <Property Name="NormalImage" Value="set:DejaVu image:ArrowRightNormal" />
+                <Property Name="PushedImage" Value="set:DejaVu image:ArrowRightPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.462963,0},{0.0305811,0},{0.617284,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="RecommendActivityWnd/ActivityFilter/BG" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.014837,0},{0.073529,0},{0.985163,0},{0.674632,0}}" />
+            <Window Type="DejaVu/Static" Name="RecommendActivityWnd/ActivityFilter/List" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.561162,0},{1,0}}" />
+                <Window Type="DejaVu/Embed4" Name="RecommendActivityWnd/ActivityFilter/List/Title" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.027248,0},{0,0},{0.435967,0},{0.0764526,0}}" />
+                    <Window Type="DejaVu/StaticImage" Name="RecommendActivityWnd/ActivityFilter/List/Title/Img" >
+                        <Property Name="Image" Value="set:DejaVu image:Image02" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="RecommendActivityWnd/ActivityFilter/List/Title/Text" >
+                        <Property Name="Text" Value="x今日活躍項目" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.2,0},{0.866667,0},{0.8,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed2" Name="RecommendActivityWnd/ActivityFilter/List/BG" >
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.030581,0},{1,0},{1,0}}" />
+                    <Window Type="DejaVu/Embed2" Name="RecommendActivityWnd/ActivityFilter/List/RewardBG0" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.027248,0},{0.59306,0},{0.26158,0},{0.971609,0}}" />
+                        <Window Type="DejaVu/EmbedTextLab7" Name="RecommendActivityWnd/ActivityFilter/List/RewardBG0/Title" >
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="x積分25" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.023256,0},{0.016667,0},{0.976744,0},{0.225,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="RecommendActivityWnd/ActivityFilter/List/RewardBG0/Slot" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.255814,0},{0.283333,0},{0.744186,0},{0.633333,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Button" Name="RecommendActivityWnd/ActivityFilter/List/RewardBG0/Get" >
+                            <Property Name="Text" Value="x領取" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.05814,0},{0.716667,0},{0.941861,0},{0.933334,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Embed2" Name="RecommendActivityWnd/ActivityFilter/List/RewardBG1" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.264305,0},{0.59306,0},{0.498638,0},{0.971609,0}}" />
+                        <Window Type="DejaVu/EmbedTextLab7" Name="RecommendActivityWnd/ActivityFilter/List/RewardBG1/Title" >
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="x積分50" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.023256,0},{0.016667,0},{0.976744,0},{0.225,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="RecommendActivityWnd/ActivityFilter/List/RewardBG1/Slot" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.255814,0},{0.283333,0},{0.744186,0},{0.633333,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Button" Name="RecommendActivityWnd/ActivityFilter/List/RewardBG1/Get" >
+                            <Property Name="Text" Value="x領取" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.05814,0},{0.716667,0},{0.941861,0},{0.933334,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Embed2" Name="RecommendActivityWnd/ActivityFilter/List/RewardBG2" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.501362,0},{0.59306,0},{0.735695,0},{0.971609,0}}" />
+                        <Window Type="DejaVu/EmbedTextLab7" Name="RecommendActivityWnd/ActivityFilter/List/RewardBG2/Title" >
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="x積分75" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.023256,0},{0.016667,0},{0.976744,0},{0.225,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="RecommendActivityWnd/ActivityFilter/List/RewardBG2/Slot" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.255814,0},{0.283333,0},{0.744186,0},{0.633333,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Button" Name="RecommendActivityWnd/ActivityFilter/List/RewardBG2/Get" >
+                            <Property Name="Text" Value="x領取" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.05814,0},{0.716667,0},{0.941861,0},{0.933334,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Embed2" Name="RecommendActivityWnd/ActivityFilter/List/RewardBG3" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.73842,0},{0.59306,0},{0.972752,0},{0.971609,0}}" />
+                        <Window Type="DejaVu/EmbedTextLab7" Name="RecommendActivityWnd/ActivityFilter/List/RewardBG3/Title" >
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="x積分100" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.023256,0},{0.016667,0},{0.976744,0},{0.225,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="RecommendActivityWnd/ActivityFilter/List/RewardBG3/Slot" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.255814,0},{0.283333,0},{0.744186,0},{0.633333,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Button" Name="RecommendActivityWnd/ActivityFilter/List/RewardBG3/Get" >
+                            <Property Name="Text" Value="x領取" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.05814,0},{0.716667,0},{0.941861,0},{0.933334,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Embed2" Name="RecommendActivityWnd/ActivityFilter/List/Border" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.027248,0},{0.0788644,0},{0.972752,0},{0.580442,0}}" />
+                        <Window Type="DejaVu/ScrollablePane" Name="RecommendActivityWnd/ActivityFilter/List/Border/ListPane" >
+                            <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="HorzOverlapSize" Value="0.01" />
+                            <Property Name="HorzScrollPosition" Value="0" />
+                            <Property Name="HorzStepSize" Value="0.1" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.005731,0},{0.012579,0},{0.99427,0},{0.987422,0}}" />
+                            <Property Name="VertOverlapSize" Value="0.01" />
+                            <Property Name="VertScrollPosition" Value="0" />
+                            <Property Name="VertStepSize" Value="0.1" />
+                            <AutoWindow NameSuffix="__auto_container__" >
+                                <Property Name="ChildExtentsArea" Value="l:0 t:0 r:0 b:0" />
+                                <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                                <Property Name="MouseInputPropagationEnabled" Value="True" />
+                            </AutoWindow>
+                        </Window>
+                        <Window Type="DejaVu/EmbedTextLab7" Name="RecommendActivityWnd/ActivityFilter/List/Border/Name" >
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="x今日活躍度" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.005764,0},{0,0},{0.53026,0},{0.157233,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/EmbedTextLab7" Name="RecommendActivityWnd/ActivityFilter/List/Border/Point" >
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="x積分" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.530086,0},{0,0},{0.759312,0},{0.157233,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/EmbedTextLab7" Name="RecommendActivityWnd/ActivityFilter/List/Border/State" >
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="x狀態" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.760807,0},{0,0},{0.991354,0},{0.157233,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="RecommendActivityWnd/ActivityFilter/List/Mark0" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="ClippedByParent" Value="False" />
+                        <Property Name="Image" Value="set:main2 image:GiftStamp" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0653951,0},{0.760252,0},{0.133515,0},{0.839117,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="RecommendActivityWnd/ActivityFilter/List/Mark1" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="ClippedByParent" Value="False" />
+                        <Property Name="Image" Value="set:main2 image:GiftStamp" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.310627,0},{0.760252,0},{0.378747,0},{0.839117,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="RecommendActivityWnd/ActivityFilter/List/Mark2" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="ClippedByParent" Value="False" />
+                        <Property Name="Image" Value="set:main2 image:GiftStamp" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.550409,0},{0.760252,0},{0.618529,0},{0.839117,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="RecommendActivityWnd/ActivityFilter/List/Mark3" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="ClippedByParent" Value="False" />
+                        <Property Name="Image" Value="set:main2 image:GiftStamp" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.79564,0},{0.760252,0},{0.86376,0},{0.839117,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="RecommendActivityWnd/ActivityFilter/Content" >
+                <Property Name="UnifiedAreaRect" Value="{{0.568807,0},{0,0},{1,0},{1,0}}" />
+                <Window Type="DejaVu/Embed2" Name="RecommendActivityWnd/ActivityFilter/Content/BG" >
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.030581,0},{1,0},{1,0}}" />
+                    <Window Type="DejaVu/Embed2" Name="RecommendActivityWnd/ActivityFilter/Content/Summary" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.035461,0},{0.078864,0},{0.964539,0},{0.315457,0}}" />
+                        <Window Type="DejaVu/EmbedTextLab7" Name="RecommendActivityWnd/ActivityFilter/Content/Summary/Title" >
+                            <Property Name="Text" Value="x任務簡介" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.007634,0},{0.028571,0},{0.992367,0},{0.361904,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/ScrollablePane" Name="RecommendActivityWnd/ActivityFilter/Content/Summary/Pane" >
+                            <Property Name="ContentArea" Value="l:0 t:0 r:238 b:38" />
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="HorzOverlapSize" Value="0.01" />
+                            <Property Name="HorzScrollPosition" Value="0" />
+                            <Property Name="HorzStepSize" Value="0.1" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.019084,0},{0.4,0},{0.980916,0},{0.933333,0}}" />
+                            <Property Name="VertOverlapSize" Value="0.01" />
+                            <Property Name="VertScrollPosition" Value="0" />
+                            <Property Name="VertStepSize" Value="0.1" />
+                            <AutoWindow NameSuffix="__auto_container__" >
+                                <Property Name="ChildExtentsArea" Value="l:0 t:0 r:238 b:38" />
+                                <Property Name="ContentArea" Value="l:0 t:0 r:238 b:38" />
+                                <Property Name="MouseInputPropagationEnabled" Value="True" />
+                                <Window Type="DejaVu/StaticText" Name="RecommendActivityWnd/ActivityFilter/Content/Summary/Text" >
+                                    <Property Name="Font" Value="F001-9" />
+                                    <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.944444,0},{1,0}}" />
+                                </Window>
+                            </AutoWindow>
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Embed2" Name="RecommendActivityWnd/ActivityFilter/Content/Condition" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.035461,0},{0.33123,0},{0.964539,0},{0.716088,0}}" />
+                        <Window Type="DejaVu/EmbedTextLab7" Name="RecommendActivityWnd/ActivityFilter/Content/Condition/Title" >
+                            <Property Name="Text" Value="x完成條件" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.007634,0},{0.016393,0},{0.992367,0},{0.221311,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/ScrollablePane" Name="RecommendActivityWnd/ActivityFilter/Content/Condition/Pane" >
+                            <Property Name="ContentArea" Value="l:0 t:0 r:238 b:82" />
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="HorzOverlapSize" Value="0.01" />
+                            <Property Name="HorzScrollPosition" Value="0" />
+                            <Property Name="HorzStepSize" Value="0.1" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.019084,0},{0.245902,0},{0.980916,0},{0.959017,0}}" />
+                            <Property Name="VertOverlapSize" Value="0.01" />
+                            <Property Name="VertScrollPosition" Value="0" />
+                            <Property Name="VertStepSize" Value="0.1" />
+                            <AutoWindow NameSuffix="__auto_container__" >
+                                <Property Name="ChildExtentsArea" Value="l:0 t:0 r:238 b:82" />
+                                <Property Name="ContentArea" Value="l:0 t:0 r:238 b:82" />
+                                <Property Name="MouseInputPropagationEnabled" Value="True" />
+                                <Window Type="DejaVu/StaticText" Name="RecommendActivityWnd/ActivityFilter/Content/Condition/Text" >
+                                    <Property Name="AlwaysOnTop" Value="True" />
+                                    <Property Name="Font" Value="F001-9" />
+                                    <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                                    <Property Name="LinespaceWindow" Value="True" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.944444,0},{1,0}}" />
+                                    <Property Name="VertFormatting" Value="TopAligned" />
+                                </Window>
+                            </AutoWindow>
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Embed2" Name="RecommendActivityWnd/ActivityFilter/Content/Reward" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.035461,0},{0.731861,0},{0.964539,0},{0.968454,0}}" />
+                        <Window Type="DejaVu/EmbedTextLab7" Name="RecommendActivityWnd/ActivityFilter/Content/Reward/Title" >
+                            <Property Name="Text" Value="x任務獎勵" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.007634,0},{0.02439,0},{0.992367,0},{0.357723,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/ScrollablePane" Name="RecommendActivityWnd/ActivityFilter/Content/Reward/Pane" >
+                            <Property Name="ContentArea" Value="l:0 t:0 r:238 b:38" />
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="HorzOverlapSize" Value="0.01" />
+                            <Property Name="HorzScrollPosition" Value="0" />
+                            <Property Name="HorzStepSize" Value="0.1" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.019084,0},{0.4,0},{0.980916,0},{0.933333,0}}" />
+                            <Property Name="VertOverlapSize" Value="0.01" />
+                            <Property Name="VertScrollPosition" Value="0" />
+                            <Property Name="VertStepSize" Value="0.1" />
+                            <AutoWindow NameSuffix="__auto_container__" >
+                                <Property Name="ChildExtentsArea" Value="l:0 t:0 r:238 b:38" />
+                                <Property Name="ContentArea" Value="l:0 t:0 r:238 b:38" />
+                                <Property Name="MouseInputPropagationEnabled" Value="True" />
+                                <Window Type="DejaVu/StaticText" Name="RecommendActivityWnd/ActivityFilter/Content/Reward/Text" >
+                                    <Property Name="Font" Value="F001-9" />
+                                    <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.944444,0},{1,0}}" />
+                                </Window>
+                            </AutoWindow>
+                        </Window>
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed4" Name="RecommendActivityWnd/ActivityFilter/Content/Title" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.035461,0},{0,0},{0.567376,0},{0.0764526,0}}" />
+                    <Window Type="DejaVu/StaticImage" Name="RecommendActivityWnd/ActivityFilter/Content/Title/Img" >
+                        <Property Name="Image" Value="set:DejaVu image:Image05" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="RecommendActivityWnd/ActivityFilter/Content/Title/Text" >
+                        <Property Name="Text" Value="x任務內容" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.2,0},{0.866667,0},{0.8,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="RecommendActivityWnd/AllActivity/BG" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0148368,0},{0.0735294,0},{0.985163,0},{0.674632,0}}" />
+            <Window Type="DejaVu/Embed2" Name="RecommendActivityWnd/AllActivity/BG1" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.030581,0},{1,0},{1,0}}" />
+                <Window Type="DejaVu/Embed2" Name="RecommendActivityWnd/AllActivity/BG2" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.015291,0},{0.078864,0},{0.98471,0},{0.968454,0}}" />
+                    <Window Type="DejaVu/MultiColumnList" Name="RecommendActivityWnd/AllActivity/BG2/MLC" >
+                        <Property Name="ColumnsMovable" Value="False" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.003155,0},{0.0106381,0},{0.996846,0},{0.996454,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed4" Name="RecommendActivityWnd/AllActivity/Title" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0152905,0},{0,0},{0.244648,0},{0.0764526,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="RecommendActivityWnd/AllActivity/Title/Img" >
+                    <Property Name="Image" Value="set:DejaVu image:Image02" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="RecommendActivityWnd/AllActivity/Title/Text" >
+                    <Property Name="Text" Value="x每日可玩項目" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.2,0},{0.866667,0},{0.8,0}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="RecommendActivityWnd/Instance/BG" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.014837,0},{0.073529,0},{0.985163,0},{0.674632,0}}" />
+            <Window Type="DejaVu/Embed2" Name="RecommendActivityWnd/Instance/BG1" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.030581,0},{1,0},{1,0}}" />
+                <Window Type="DejaVu/Embed2" Name="RecommendActivityWnd/Instance/BG2" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.015291,0},{0.078864,0},{0.98471,0},{0.968454,0}}" />
+                    <Window Type="DejaVu/MultiColumnList" Name="RecommendActivityWnd/Instance/BG2/MCL" >
+                        <Property Name="ColumnsMovable" Value="False" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.003155,0},{0.010638,0},{0.996846,0},{0.996454,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed4" Name="RecommendActivityWnd/Instance/Title" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.01529,0},{0,0},{0.244648,0},{0.076453,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="RecommendActivityWnd/Instance/Title/Img" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Image" Value="set:DejaVu image:Image02" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="RecommendActivityWnd/Instance/Title/Text" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="x可玩副本" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.2,0},{0.866667,0},{0.8,0}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Button" Name="RecommendActivityWnd/InstanceBtn" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="Text" Value="x可玩副本" />
+            <Property Name="UnifiedAreaRect" Value="{{0.327893,0},{0.0176125,0},{0.476261,0},{0.0626223,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

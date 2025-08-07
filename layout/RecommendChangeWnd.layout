@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/RecommendChangeWnd" >
+        <Property Name="AlwaysOnTop" Value="True" />
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="TitlebarImage" Value="set:main image:CharaterNormal" />
+        <Property Name="UnifiedAreaRect" Value="{{0.747266,0},{0.505093,0},{0.747266,200},{0.505093,300}}" />
+        <Window Type="DejaVu/Embed3" Name="Root/RecommendChangeWnd/BG" >
+            <Property Name="Alpha" Value="0.8" />
+            <Property Name="UnifiedAreaRect" Value="{{0.00892857,0},{0.0400551,0},{0.995536,0},{0.720992,0}}" />
+            <Window Type="DejaVu/SlotImage" Name="Root/RecommendChangeWnd/BG/SlotImage" >
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="UnifiedAreaRect" Value="{{0.016484,0},{0.13986,0},{0.269231,0},{0.446527,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="Root/RecommendChangeWnd/BG/Text" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="x裝備名稱" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.104895,0},{0.906593,0},{0.27972,0}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="Root/RecommendChangeWnd/BG/Reciprocal" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="x10秒後自動關閉" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.382353,0},{0.904977,0},{0.558824,0}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/RecommendChangeWnd/OKBtn" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Property Name="Text" Value="x確認" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.739307,0},{0.407609,0},{0.85855,0}}" />
+        </Window>
+        <Window Type="DejaVu/Checkbox" Name="Root/RecommendChangeWnd/CheckBox" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Property Name="Text" Value="x關閉推薦功能" />
+            <Property Name="UnifiedAreaRect" Value="{{-0.005435,0},{0.886364,0},{0.592391,0},{1.00455,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

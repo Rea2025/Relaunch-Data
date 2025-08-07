@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="ElfLinkedSpellStrengthenLevel" >
+        <Property Name="Font" Value="F001-9" />
+		<Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="TitlebarImage" Value="set:main image:EudemonStorageNormal" />
+        <Property Name="UnifiedAreaRect" Value="{{0.339912,0},{0.0589777,0},{0.339912,330},{0.0589777,270}}" />
+        <Window Type="DejaVu/Embed" Name="ElfLinkedSpellStrengthenLevel/Embed" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Static" Name="ElfLinkedSpellStrengthenLevel/Embed/Content" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.02649,0},{0.081818,0},{0.953642,0},{0.881818,0}}" />
+                <Window Type="DejaVu/Embed2" Name="ElfLinkedSpellStrengthenLevel/Embed/Content/Embed2" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.122449,0},{1,0},{1,0}}" />
+                    <Window Type="DejaVu/SlotImage" Name="ElfLinkedSpellStrengthenLevel/Embed/Content/Embed2/Level1" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0343643,0},{0.426357,0},{0.178694,0},{0.751938,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="ElfLinkedSpellStrengthenLevel/Embed/Content/Embed2/Level2" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.216495,0},{0.426357,0},{0.360825,0},{0.751938,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="ElfLinkedSpellStrengthenLevel/Embed/Content/Embed2/Level3" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.398625,0},{0.426357,0},{0.542955,0},{0.751938,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="ElfLinkedSpellStrengthenLevel/Embed/Content/Embed2/Level4" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.580756,0},{0.426357,0},{0.725086,0},{0.751938,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="ElfLinkedSpellStrengthenLevel/Embed/Content/Embed2/Level5" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.773196,0},{0.271318,0},{0.917526,0},{0.596899,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="ElfLinkedSpellStrengthenLevel/Embed/Content/Embed2/Level6" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.773196,0},{0.620155,0},{0.917526,0},{0.945736,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab5" Name="ElfLinkedSpellStrengthenLevel/Embed/Content/Embed2/PickOneOfTwo" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="x二選一" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.707904,0},{0.0697674,0},{0.982818,0},{0.224806,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed4" Name="ElfLinkedSpellStrengthenLevel/Embed/Content/Title" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.032143,0},{0.034014,0},{0.58053,0},{0.238096,0}}" />
+                    <Window Type="DejaVu/StaticImage" Name="ElfLinkedSpellStrengthenLevel/Embed/Rank/Title/Img" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Image" Value="set:DejaVu image:Image17" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0993789,0},{0.208333,0},{0.198758,0},{0.791667,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="ElfLinkedSpellStrengthenLevel/Embed/Rank/Title/Text" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="x升品技能預覽" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.267081,0},{0.208333,0},{0.869565,0},{0.791667,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

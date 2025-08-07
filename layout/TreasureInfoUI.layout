@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/TreasureInfoUI" >
+        <Property Name="AlwaysOnTop" Value="True" />
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HorizontalAlignment" Value="Centre" />
+        <Property Name="MousePassThroughEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{-0.234375,0},{0,274},{-0.234375,240}}" />
+        <Property Name="VerticalAlignment" Value="Bottom" />
+        <Window Type="DejaVu/StaticImage" Name="Root/TreasureInfoUI/ItemInfo1" >
+            <Property Name="Alpha" Value="0" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.818965,0},{0.0643564,0},{0.956897,0},{0.222772,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/TreasureInfoUI/ItemInfo2" >
+            <Property Name="Alpha" Value="0" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.818965,0},{0.30198,0},{0.956897,0},{0.460396,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/TreasureInfoUI/ItemInfo3" >
+            <Property Name="Alpha" Value="0" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.818965,0},{0.470297,0},{0.956897,0},{0.628713,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/TreasureInfoUI/ItemInfo4" >
+            <Property Name="Alpha" Value="0" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.818965,0},{0.732673,0},{0.956897,0},{0.891089,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/TreasureInfoUI/ItemInfo5" >
+            <Property Name="Alpha" Value="0" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.818965,0},{0.955446,0},{0.956897,0},{1.11386,0}}" />
+        </Window>
+        <Window Type="DejaVu/Embed3" Name="Root/TreasureInfoUI/BG1" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.80292,0},{0.216667,0}}" />
+            <Property Name="VerticalAlignment" Value="Bottom" />
+            <Window Type="DejaVu/SlotImage" Name="Root/TreasureInfoUI/BG1/ItemIcon" >
+                <Property Name="UnifiedAreaRect" Value="{{0.022727,0},{0.096154,0},{0.213636,0},{0.903846,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/TreasureInfoUI/BG1/ItemName" >
+                <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" >一二三四五六七八九十一二
+一二三四五六七八九十一二</Property>
+                <Property Name="UnifiedAreaRect" Value="{{0.259091,0},{0.153846,0},{0.940909,0},{0.846154,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Embed3" Name="Root/TreasureInfoUI/BG2" >
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{-0.229167,0},{0.80292,0},{-0.0125003,0}}" />
+            <Property Name="VerticalAlignment" Value="Bottom" />
+            <Window Type="DejaVu/SlotImage" Name="Root/TreasureInfoUI/BG2/ItemIcon" >
+                <Property Name="UnifiedAreaRect" Value="{{0.022727,0},{0.096154,0},{0.213636,0},{0.903846,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/TreasureInfoUI/BG2/ItemName" >
+                <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" >一二三四五六七八九十一二
+一二三四五六七八九十一二</Property>
+                <Property Name="UnifiedAreaRect" Value="{{0.259091,0},{0.153846,0},{0.940909,0},{0.846154,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Embed3" Name="Root/TreasureInfoUI/BG3" >
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{-0.458333,0},{0.80292,0},{-0.241666,0}}" />
+            <Property Name="VerticalAlignment" Value="Bottom" />
+            <Window Type="DejaVu/SlotImage" Name="Root/TreasureInfoUI/BG3/ItemIcon" >
+                <Property Name="UnifiedAreaRect" Value="{{0.022727,0},{0.096154,0},{0.213636,0},{0.903846,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/TreasureInfoUI/BG3/ItemName" >
+                <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" >一二三四五六七八九十一二
+一二三四五六七八九十一二</Property>
+                <Property Name="UnifiedAreaRect" Value="{{0.259091,0},{0.153846,0},{0.940909,0},{0.846154,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/TreasureInfoUI/RareBG1" >
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Property Name="Image" Value="set:DejaVu image:RareItem" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.3,0}}" />
+            <Property Name="VerticalAlignment" Value="Bottom" />
+            <Window Type="DejaVu/SlotImage" Name="Root/TreasureInfoUI/RareBG1/ItemIcon" >
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="UnifiedAreaRect" Value="{{0.091241,0},{0.208333,0},{0.244526,0},{0.791666,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="Root/TreasureInfoUI/RareBG1/ItemName" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" >一二三四五六七八九十一二
+
+一二三四五六七八九十一二
+</Property>
+                <Property Name="UnifiedAreaRect" Value="{{0.29927,0},{0.208333,0},{0.919708,0},{0.791666,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/TreasureInfoUI/RareBG2" >
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Property Name="Image" Value="set:DejaVu image:RareItem" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{-0.3125,0},{1,0},{-0.0125,0}}" />
+            <Property Name="VerticalAlignment" Value="Bottom" />
+            <Window Type="DejaVu/SlotImage" Name="Root/TreasureInfoUI/RareBG2/ItemIcon" >
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="UnifiedAreaRect" Value="{{0.091241,0},{0.208333,0},{0.244526,0},{0.791666,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="Root/TreasureInfoUI/RareBG2/ItemName" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.29927,0},{0.208333,0},{0.919708,0},{0.791666,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/TreasureInfoUI/RareBG3" >
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Property Name="Image" Value="set:DejaVu image:RareItem" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{-0.625,0},{1,0},{-0.325,0}}" />
+            <Property Name="VerticalAlignment" Value="Bottom" />
+            <Window Type="DejaVu/SlotImage" Name="Root/TreasureInfoUI/RareBG3/ItemIcon" >
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.091241,0},{0.208333,0},{0.244526,0},{0.791666,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="Root/TreasureInfoUI/RareBG3/ItemName" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.29927,0},{0.208333,0},{0.919708,0},{0.791666,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

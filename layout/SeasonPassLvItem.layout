@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/Embed2" Name="SeasonPassLvItem" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.0416667,0},{0.386076,0}}" />
+        <Window Type="DejaVu/Embed2" Name="SeasonPassLvItem/FreeBG" >
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.431694,0}}" />
+            <Window Type="DejaVu/EmbedText7" Name="SeasonPassLvItem/FreeBG/LvTitle" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="Lv %d" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.004348,0},{0.975,0},{0.194221,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="SeasonPassLvItem/FreeBG/FreeSlot" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.25,0},{0.379747,0},{0.75,0},{0.632911,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="SeasonPassLvItem/FreeBG/Mark" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="Image" Value="set:main2 image:GiftIcon" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.506329,0},{0.475,0},{0.696203,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="SeasonPassLvItem/FreeBG/FreeGetBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="領取" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.841772,0},{0.975,0},{1,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Embed2" Name="SeasonPassLvItem/PaidBG" >
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.438889,0},{1,0},{0.998998,0}}" />            
+            <Window Type="DejaVu/SlotImage" Name="SeasonPassLvItem/PaidBG/PaidSlot0" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.25,0},{0.170732,0},{0.75,0},{0.365854,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="SeasonPassLvItem/PaidBG/Mark0" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="Image" Value="set:main2 image:GiftIcon" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.268293,0},{0.475,0},{0.414634,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="SeasonPassLvItem/PaidBG/PaidSlot1" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.25,0},{0.463415,0},{0.75,0},{0.658537,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="SeasonPassLvItem/PaidBG/Mark1" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="Image" Value="set:main2 image:GiftIcon" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.560976,0},{0.475,0},{0.707317,0}}" />
+            </Window>
+			<Window Type="DejaVu/SlotImage" Name="SeasonPassLvItem/PaidBG/PaidSlot2" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.25,0},{0.317073,0},{0.75,0},{0.512195,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="SeasonPassLvItem/PaidBG/Mark2" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="Image" Value="set:main2 image:GiftIcon" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.414634,0},{0.475,0},{0.560976,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="SeasonPassLvItem/PaidBG/PaidGetBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="領取" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.853659,0},{0.975,0},{0.97561,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

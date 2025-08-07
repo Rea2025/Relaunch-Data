@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="SkillItem" >
+        <Property Name="Font" Value="F001-scale" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.2275,0},{0.7,0}}" />
+        <Window Type="DejaVu/Embed2" Name="SkillItem/Item" >
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,161},{0,52}}" />
+            <Property Name="VertFormatting" Value="TopAligned" />
+            <Window Type="DejaVu/StaticImage" Name="SkillItem/Item/SelectFrame" >
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="Image" Value="set:DejaVu image:ItemSelectionBrush" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="SkillItem/Item/NameText" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="123" />
+                <Property Name="UnifiedAreaRect" Value="{{0.322981,0},{0.173077,0},{0.94445,0},{0.442308,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="SkillItem/Item/LevelText" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="LV 999" />
+                <Property Name="UnifiedAreaRect" Value="{{0.706215,0},{0.557692,0},{0.966102,0},{0.826923,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="SkillItem/Item/Icon" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="Image" Value="set:main image:noimage" />
+                <Property Name="UnifiedAreaRect" Value="{{0.055901,0},{0.173077,0},{0.267081,0},{0.826923,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

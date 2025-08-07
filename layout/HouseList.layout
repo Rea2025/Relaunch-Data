@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="HouseList" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="TitlebarImage" Value="set:main16 image:HouseRadarNormal" />
+        <Property Name="UnifiedAreaRect" Value="{{0.085938,0},{0.1125,0},{0.085938,540},{0.1125,550}}" />
+        <Window Type="DejaVu/Embed" Name="HouseList/Embed" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1.00195,0},{1,0}}" />
+            <Window Type="DejaVu/Static" Name="HouseList/Embed/MyHouseBG" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0194553,0},{0.0212766,0},{0.981516,0},{0.278723,0}}" />
+                <Window Type="DejaVu/Embed2" Name="HouseList/Embed/MyHouseBG/BG" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0826446,0},{0.999966,0},{1,0}}" />
+                    <Window Type="DejaVu/Static" Name="HouseList/Embed/MyHouseBG/BG/MyHouse" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.010101,0},{0.225225,0},{0.992279,0},{0.675675,0}}" />
+                        <Window Type="DejaVu/Button2" Name="HouseList/Embed/MyHouseBG/BG/MyHouse/BuildTimeTitle" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="Text" Value="x小屋創建日期" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.25,0},{0.5,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Button2" Name="HouseList/Embed/MyHouseBG/BG/MyHouse/ButlerLevelTitle" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="Text" Value="x小屋位階" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.25,0},{0,0},{0.5,0},{0.5,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Button2" Name="HouseList/Embed/MyHouseBG/BG/MyHouse/HouseCoinTitle" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="Text" Value="x小屋貨幣" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0,0},{0.75,0},{0.5,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Button2" Name="HouseList/Embed/MyHouseBG/BG/MyHouse/VisitorsTitle" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="Text" Value="x累積訪客數" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.75,0},{0,0},{1,0},{0.5,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Static" Name="HouseList/Embed/MyHouseBG/BG/MyHouse/List" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.5,0},{1,0},{1,0}}" />
+                            <Window Type="DejaVu/EmbedTextLab2" Name="HouseList/Embed/MyHouseBG/BG/MyHouse/List/BuildTimeText" >
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="Text" Value="x2015/01/30" />
+                                <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.25,0},{1,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/EmbedTextLab2" Name="HouseList/Embed/MyHouseBG/BG/MyHouse/List/ButlerLevelText" >
+                                <Property Name="Text" Value="x1234567890" />
+                                <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.25,0},{0,0},{0.5,0},{1,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/EmbedTextLab2" Name="HouseList/Embed/MyHouseBG/BG/MyHouse/List/HouseCoinText" >
+                                <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0,0},{0.75,0},{1,0}}" />
+                                <Window Type="DejaVu/StaticText" Name="HouseList/Embed/MyHouseBG/BG/MyHouse/List/HouseCoinText/Text" >
+                                    <Property Name="HorzFormatting" Value="RightAligned" />
+                                    <Property Name="Text" Value="x1234567890" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.806452,0},{1,0}}" />
+                                </Window>
+                                <Window Type="DejaVu/StaticImage" Name="HouseList/Embed/MyHouseBG/BG/MyHouse/List/HouseCoinText/HouseCoin" >
+                                    <Property Name="Image" Value="set:main16 image:HouseCoin" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.822581,0},{0.2,0},{0.943549,0},{0.8,0}}" />
+                                </Window>
+                            </Window>
+                            <Window Type="DejaVu/EmbedTextLab2" Name="HouseList/Embed/MyHouseBG/BG/MyHouse/List/VisitorsText" >
+                                <Property Name="Text" Value="x1234567890" />
+                                <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.75,0},{0,0},{1,0},{1,0}}" />
+                            </Window>
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Button" Name="HouseList/Embed/MyHouseBG/BG/EnterMyRoomBtn" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="x進入小屋" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.830264,0},{0.71644,0},{0.980759,0},{0.950674,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Button" Name="HouseList/Embed/MyHouseBG/BG/SetPrivilegeBtn" >
+                        <Property Name="Text" Value="x進入權限" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.489109,0},{0.720721,0},{0.639604,0},{0.954955,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Button" Name="HouseList/Embed/MyHouseBG/BG/HouseClassBtn" >
+                        <Property Name="Text" Value="x小屋位階" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.318812,0},{0.720721,0},{0.469307,0},{0.954955,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Button" Name="HouseList/Embed/MyHouseBG/BG/RoomReNameBtn" >
+                        <Property Name="Text" Value="x小屋更名" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.148515,0},{0.720721,0},{0.29901,0},{0.954955,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Button" Name="HouseList/Embed/MyHouseBG/BG/EnterRanchBtn" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="x進入園地" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.659406,0},{0.720721,0},{0.809901,0},{0.954955,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed4" Name="HouseList/Embed/MyHouseBG/Title" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.019802,0},{0,0},{0.316832,0},{0.206612,0}}" />
+                    <Window Type="DejaVu/StaticImage" Name="HouseList/Embed/MyHouseBG/Title/Img" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Image" Value="set:DejaVu image:Image25" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.100671,0},{0.2,0},{0.201342,0},{0.8,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="HouseList/Embed/MyHouseBG/Title/Text" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="x小屋資訊" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.268456,0},{0.2,0},{0.868456,0},{0.8,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="HouseList/Embed/FriedsListBG" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.019084,0},{0.289362,0},{0.980834,0},{0.968085,0}}" />
+                <Window Type="DejaVu/Embed4" Name="HouseList/Embed/FriendListBG/Title" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.020202,0},{0,0},{0.316645,0},{0.0783699,0}}" />
+                    <Window Type="DejaVu/StaticImage" Name="HouseList/Embed/FriendListBG/Title/Img" >
+                        <Property Name="Image" Value="set:DejaVu image:Image25" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.100671,0},{0.2,0},{0.201342,0},{0.8,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="HouseList/Embed/FriendListBG/Title/Text" >
+                        <Property Name="Text" Value="x好友小屋列表" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.268456,0},{0.2,0},{0.868456,0},{0.8,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed2" Name="HouseList/Embed/FriedsListBG/BG" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.031348,0},{1,0},{1,0}}" />
+                    <Window Type="DejaVu/Button" Name="HouseList/Embed/FriedsListBG/BG/VisitRoomBtn" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="x前往拜訪" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.829703,0},{0.899676,0},{0.980198,0},{0.983819,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/MultiColumnList" Name="HouseList/Embed/FriedsListBG/BG/HouseMCL" >
+                        <Property Name="ColumnsMovable" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.00990095,0},{0.080906,0},{0.990099,0},{0.883495,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Button" Name="HouseList/Embed/FriedsListBG/BG/SearchRoomBtn" >
+                        <Property Name="Text" Value="x小屋搜尋" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.326733,0},{0.899676,0},{0.477228,0},{0.983819,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Button" Name="HouseList/Embed/FriedsListBG/BG/ResetBtn" >
+                        <Property Name="Text" Value="x重置" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.49703,0},{0.899676,0},{0.647525,0},{0.983819,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Editbox" Name="HouseList/Embed/FriedsListBG/BG/SearchNameEdit" >
+                        <Property Name="MaxTextLength" Value="16" />
+                        <Property Name="Text" Value="x輸入角色名稱" />
+                        <Property Name="TextParsingEnabled" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.019802,0},{0.899676,0},{0.326733,0},{0.983818,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Button" Name="HouseList/Embed/FriedsListBG/BG/VistRanchBtn" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="x拜訪園地" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.663366,0},{0.899676,0},{0.813861,0},{0.983819,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

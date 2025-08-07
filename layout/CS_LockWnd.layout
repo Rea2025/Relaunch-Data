@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/CS_LockWnd" >
+        <Property Name="ClippedByParent" Value="False" />
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="TextFrameColour" Value="03000000" />
+        <Property Name="UnifiedAreaRect" Value="{{0.292969,0},{0.0651042,0},{0.488281,0},{0.585938,0}}" />
+        <Window Type="DejaVu/FrameWindow" Name="Root/CS_LockWnd/Background" >
+            <Property Name="HelpButtonEnabled" Value="True" />
+            <Property Name="TextFrameColour" Value="03000000" />
+            <Property Name="TitlebarEnabled" Value="True" />
+            <Property Name="TitlebarFont" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Embed" Name="Root/CS_LockWnd/Background/ListBackground" >
+                <Property Name="TextFrameColour" Value="03000000" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.067797,0},{1,0},{0.745763,0}}" />
+                <Window Type="DejaVu/MultiColumnList" Name="Root/CS_LockWnd/Background/ListBackground/List" >
+                    <Property Name="ColumnsMovable" Value="False" />
+                    <Property Name="TextFrameColour" Value="03000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/CS_LockWnd/Background/Button_LockAll" >
+                <Property Name="Text" Value="全部鎖定" />
+                <Property Name="TextFrameColour" Value="03000000" />
+                <Property Name="UnifiedAreaRect" Value="{{0.111111,0},{0.813559,0},{0.444444,0},{0.949153,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/CS_LockWnd/Background/Button_UnlockAll" >
+                <Property Name="Text" Value="全部解除" />
+                <Property Name="TextFrameColour" Value="03000000" />
+                <Property Name="UnifiedAreaRect" Value="{{0.555556,0},{0.813559,0},{0.888889,0},{0.949153,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

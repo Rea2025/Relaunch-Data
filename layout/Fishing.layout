@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/Static" Name="Root/Fishing" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.189453,0},{0.574218,0},{0.189453,600},{0.574218,200}}" />
+        <Window Type="DejaVu/ImageButton" Name="Root/Fishing/MainIconBG" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HoverImage" Value="set:main9 image:FishingBG3" />
+            <Property Name="NormalImage" Value="set:main9 image:FishingBG" />
+            <Property Name="PushedImage" Value="set:main9 image:FishingBG" />
+            <Property Name="UnifiedAreaRect" Value="{{0.258333,0},{0,0},{0.508333,0},{0.75,0}}" />
+            <Window Type="DejaVu/StaticImage" Name="Root/Fishing/MainIcon" >
+                <Property Name="Image" Value="set:main9 image:BuoyState1" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.233333,0},{0.133333,0},{0.766667,0},{0.853333,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/Fishing/DressRoom" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/Fishing/Close" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="DisabledImage" Value="set:DejaVu image:NewCloseButtonPressed" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HoverImage" Value="set:DejaVu image:NewCloseButtonHover" />
+                <Property Name="NormalImage" Value="set:DejaVu image:NewCloseButtonNormal" />
+                <Property Name="PushedImage" Value="set:DejaVu image:NewCloseButtonPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0.866667,0},{0,0},{1,0},{0.133333,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="Root/Fishing/MainIconBG/StatusText" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="HorzFormatting" Value="WordWrapCentred" />
+                <Property Name="UnifiedAreaRect" Value="{{0.1625,0},{0.69761,0},{0.854167,0},{0.882561,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="Root/Fishing/BattleBarEmbed" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.433333,0},{0.425,0},{1,0},{0.725,0}}" />
+            <Window Type="DejaVu/StaticImage" Name="Root/Fishing/BattleBarBG" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Image" Value="set:main9 image:PointerBG" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.333333,0},{1,0},{1,0}}" />
+                <Window Type="DejaVu/ProgressBarBG" Name="Root/Fishing/BattleBar" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.044118,0},{0.625,0},{0.955883,0},{1,0}}" />
+                    <Window Type="DejaVu/StaticImage" Name="Root/Fishing/BattleBar/Pointer" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="ClippedByParent" Value="False" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Image" Value="set:main9 image:Pointer" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.330242,0},{-3.01189,0},{0.60121,0},{0.98811,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/Fishing/BattleBar/LeftBorder" >
+                        <Property Name="Image" Value="set:main9 image:LeftBorder" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.022581,0},{0.266667,0},{0.0354842,0},{0.733334,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/Fishing/BattleBar/RightBorder" >
+                        <Property Name="Image" Value="set:main9 image:RightBorder" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.967742,0},{0.266667,0},{0.980645,0},{0.733333,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/Fishing/BattleBar/BreakArea" >
+                        <Property Name="Image" Value="set:main9 image:BreakArea" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.035484,0},{0.266667,0},{0.325807,0},{0.733334,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/Fishing/BattleBar/Break2Success" >
+                        <Property Name="Image" Value="set:main9 image:Break2Success" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.325806,0},{0.266667,0},{0.358065,0},{0.733333,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/Fishing/BattleBar/SuccessArea" >
+                        <Property Name="Image" Value="set:main9 image:SuccessArea" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.358065,0},{0.266667,0},{0.648388,0},{0.733334,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/Fishing/BattleBar/Success2Miss" >
+                        <Property Name="Image" Value="set:main9 image:Success2Miss" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.648387,0},{0.266667,0},{0.680645,0},{0.733333,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/Fishing/BattleBar/MissArea" >
+                        <Property Name="Image" Value="set:main9 image:MissArea" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.680645,0},{0.266667,0},{0.967742,0},{0.733334,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="Root/Fishing/FishHPBarBG" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.283333,0},{0.2,0}}" />
+            <Window Type="DejaVu/ProgressBarBG" Name="Root/Fishing/FishHPBar" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.625,0},{1,0},{0.975,0}}" />
+                <Window Type="DejaVu/ProgressBar" Name="Root/Fishing/FishHPBar/FishHP" >
+                    <Property Name="CurrentProgress" Value="0" />
+                    <Property Name="StepSize" Value="0.01" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.025,0},{0.25,0},{0.975,0},{0.75,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/EmbedTextLab3" Name="Root/Fishing/FishName" >
+                <Property Name="Text" Value="x一條小魚" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.625,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="Root/Fishing/FishingRodHPBarBG" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.2,0},{0.25,0},{0.4,0}}" />
+            <Window Type="DejaVu/ProgressBarBG" Name="Root/Fishing/FishingRodHPBar" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.625,0},{1,0},{0.975,0}}" />
+                <Window Type="DejaVu/ProgressBar3" Name="Root/Fishing/FishingRodHPBar/FishingRodHP" >
+                    <Property Name="CurrentProgress" Value="0" />
+                    <Property Name="StepSize" Value="0.01" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.025,0},{0.25,0},{0.975,0},{0.75,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/EmbedTextLab3" Name="Root/Fishing/FishingRodName" >
+                <Property Name="Text" Value="x一隻魚竿" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.625,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/StaticText" Name="Root/Fishing/HintText" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="ClippedByParent" Value="False" />
+            <Property Name="Font" Value="F001-14" />
+            <Property Name="HorzFormatting" Value="WordWrapCentred" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.416667,0},{0.775,0},{0.416667,350},{0.775,40}}" />
+            <Property Name="VertFormatting" Value="TopAligned" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/Fishing/TeachingBtn" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="Text" Value="x釣魚教學" />
+            <Property Name="UnifiedAreaRect" Value="{{0.131667,0},{0.55,0},{0.258333,0},{0.68,0}}" />
+        </Window>
+        <Window Type="DejaVu/Static" Name="Root/Fishing/HouseFishCDBG" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.533333,0},{0.2,0},{0.826358,0},{0.4,0}}" />
+            <Window Type="DejaVu/StaticImage" Name="Root/Fishing/HouseFishCDBG/Imge" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Image" Value="set:main9 image:Fish" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,40},{0,40}}" />
+            </Window>
+            <Window Type="DejaVu/EmbedTextLab3" Name="Root/Fishing/HouseFishCDBG/CDText" >
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="X 1234" />
+                <Property Name="UnifiedAreaRect" Value="{{0.198864,0},{0.375,0},{0.198864,60},{0.375,25}}" />
+            </Window>
+            <Window Type="DejaVu/Button4" Name="Root/Fishing/HouseFishCDBG/ReleaseBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="放生" />
+                <Property Name="UnifiedAreaRect" Value="{{0.568182,0},{0.375,0},{1,0},{1.025,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/EudemonEvoWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="TitlebarImage" Value="set:main image:EudemonNormal" />
+        <Property Name="UnifiedAreaRect" Value="{{0.245312,0},{0.235232,0},{0.245312,360},{0.235232,458}}" />
+        <Window Type="DejaVu/Embed" Name="Root/EudemonEvoWnd/bg1" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Static" Name="Root/EudemonEvoWnd/bg2" >
+                <Property Name="UnifiedAreaRect" Value="{{0.02907,0},{0.026455,0},{0.97093,0},{0.891534,0}}" />
+                <Window Type="DejaVu/Embed2" Name="Root/EudemonEvoWnd/bg3" >
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.030581,0},{1,0},{0.98471,0}}" />
+                    <Window Type="DejaVu/Embed2" Name="Root/EudemonEvoWnd/Item" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.0308642,0},{0.240385,0},{0.969136,0},{0.980769,0}}" />
+                        <Window Type="DejaVu/Static" Name="Root/EudemonEvoWnd/Item/bg" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.006579,0},{0.009434,0},{0.993421,0},{0.990566,0}}" />
+                            <Window Type="DejaVu/Embed3" Name="Root/EudemonEvoWnd/Item/Stuff1" >
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.7,0},{0.25,0}}" />
+                                <Window Type="DejaVu/SlotImage" Name="Root/EudemonEvoWnd/Item/Stuff1/Slot" >
+                                    <Property Name="UnifiedAreaRect" Value="{{0.023474,0},{0,0},{0.223474,0},{0.736842,0}}" />
+                                    <Property Name="VerticalAlignment" Value="Centre" />
+                                </Window>
+                                <Window Type="DejaVu/StaticTextLab" Name="Root/EudemonEvoWnd/Item/Stuff1/Name" >
+                                    <Property Name="Text" Value="x小男的心臟" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.247619,0},{0.307692,0},{0.952381,0},{0.692308,0}}" />
+                                </Window>
+                                <Window Type="DejaVu/StaticTextLab" Name="Root/EudemonEvoWnd/Item/Stuff1/ClickText" >
+                                    <Property Name="UnifiedAreaRect" Value="{{0.247619,0},{0.615385,0},{0.87619,0},{0.923077,0}}" />
+                                </Window>
+                            </Window>
+                            <Window Type="DejaVu/Embed3" Name="Root/EudemonEvoWnd/Item/Num1" >
+                                <Property Name="UnifiedAreaRect" Value="{{0.7,0},{0,0},{1,0},{0.25,0}}" />
+                                <Window Type="DejaVu/StaticTextLab" Name="Root/EudemonEvoWnd/Item/Num1/Text" >
+                                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                                    <Property Name="Text" Value="x100/100" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.111111,0},{0.307692,0},{0.897628,0},{0.692307,0}}" />
+                                </Window>
+                            </Window>
+                            <Window Type="DejaVu/Embed3" Name="Root/EudemonEvoWnd/Item/Num2" >
+                                <Property Name="UnifiedAreaRect" Value="{{0.7,0},{0.25,0},{1,0},{0.5,0}}" />
+                                <Window Type="DejaVu/StaticTextLab" Name="Root/EudemonEvoWnd/Item/Num2/Text" >
+                                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                                    <Property Name="Text" Value="x100/2" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.111111,0},{0.307692,0},{0.888889,0},{0.692307,0}}" />
+                                </Window>
+                            </Window>
+                            <Window Type="DejaVu/Embed3" Name="Root/EudemonEvoWnd/Item/Num3" >
+                                <Property Name="UnifiedAreaRect" Value="{{0.7,0},{0.5,0},{1,0},{0.75,0}}" />
+                                <Window Type="DejaVu/StaticTextLab" Name="Root/EudemonEvoWnd/Item/Num3/Text" >
+                                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                                    <Property Name="Text" Value="x100/1" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.111111,0},{0.307692,0},{0.888889,0},{0.692307,0}}" />
+                                </Window>
+                            </Window>
+                            <Window Type="DejaVu/Embed3" Name="Root/EudemonEvoWnd/Item/Num4" >
+                                <Property Name="UnifiedAreaRect" Value="{{0.7,0},{0.75,0},{1,0},{1,0}}" />
+                                <Window Type="DejaVu/StaticTextLab" Name="Root/EudemonEvoWnd/Item/Num4/Text" >
+                                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                                    <Property Name="Text" Value="x100/1" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.111111,0},{0.307692,0},{0.888889,0},{0.692307,0}}" />
+                                </Window>
+                            </Window>
+                            <Window Type="DejaVu/Zframe2" Name="Root/EudemonEvoWnd/Item/bg/SelectBrush1" >
+                                <Property Name="AlwaysOnTop" Value="True" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.002691,0},{0.000499,0},{1.00269,0},{0.245691,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/Zframe2" Name="Root/EudemonEvoWnd/Item/bg/SelectBrush2" >
+                                <Property Name="AlwaysOnTop" Value="True" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.003852,0},{0.254808,0},{1.00385,0},{0.5,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/Zframe2" Name="Root/EudemonEvoWnd/Item/bg/SelectBrush3" >
+                                <Property Name="AlwaysOnTop" Value="True" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.003333,0},{0.504808,0},{1.00333,0},{0.75,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/Zframe2" Name="Root/EudemonEvoWnd/Item/bg/SelectBrush4" >
+                                <Property Name="AlwaysOnTop" Value="True" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.003333,0},{0.754808,0},{1.00333,0},{1,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/Embed3" Name="Root/EudemonEvoWnd/Item/Stuff2" >
+                                <Property Name="UnifiedAreaRect" Value="{{0.00333333,0},{0.25,0},{0.703333,0},{0.5,0}}" />
+                                <Window Type="DejaVu/SlotImage" Name="Root/EudemonEvoWnd/Item/Stuff2/Slot" >
+                                    <Property Name="UnifiedAreaRect" Value="{{0.023474,0},{0,0},{0.223474,0},{0.736842,0}}" />
+                                    <Property Name="VerticalAlignment" Value="Centre" />
+                                </Window>
+                                <Window Type="DejaVu/StaticTextLab" Name="Root/EudemonEvoWnd/Item/Stuff2/Name" >
+                                    <Property Name="Text" Value="x小男的心臟" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.247619,0},{0.307692,0},{0.952381,0},{0.692308,0}}" />
+                                </Window>
+                                <Window Type="DejaVu/StaticTextLab" Name="Root/EudemonEvoWnd/Item/Stuff2/ClickText" >
+                                    <Property Name="UnifiedAreaRect" Value="{{0.247619,0},{0.615385,0},{0.876191,0},{0.923077,0}}" />
+                                </Window>
+                            </Window>
+                            <Window Type="DejaVu/Embed3" Name="Root/EudemonEvoWnd/Item/Stuff3" >
+                                <Property Name="UnifiedAreaRect" Value="{{0.003333,0},{0.5,0},{0.703333,0},{0.75,0}}" />
+                                <Window Type="DejaVu/SlotImage" Name="Root/EudemonEvoWnd/Item/Stuff3/Slot" >
+                                    <Property Name="UnifiedAreaRect" Value="{{0.023474,0},{0,0},{0.223474,0},{0.736842,0}}" />
+                                    <Property Name="VerticalAlignment" Value="Centre" />
+                                </Window>
+                                <Window Type="DejaVu/StaticTextLab" Name="Root/EudemonEvoWnd/Item/Stuff3/Name" >
+                                    <Property Name="Text" Value="x小男的心臟" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.247619,0},{0.307692,0},{0.952381,0},{0.692308,0}}" />
+                                </Window>
+                                <Window Type="DejaVu/StaticTextLab" Name="Root/EudemonEvoWnd/Item/Stuff3/ClickText" >
+                                    <Property Name="UnifiedAreaRect" Value="{{0.247619,0},{0.615385,0},{0.876191,0},{0.923077,0}}" />
+                                </Window>
+                            </Window>
+                            <Window Type="DejaVu/Embed3" Name="Root/EudemonEvoWnd/Item/Stuff4" >
+                                <Property Name="UnifiedAreaRect" Value="{{0.003333,0},{0.75,0},{0.703333,0},{1,0}}" />
+                                <Window Type="DejaVu/SlotImage" Name="Root/EudemonEvoWnd/Item/Stuff4/Slot" >
+                                    <Property Name="UnifiedAreaRect" Value="{{0.023474,0},{0,0},{0.223474,0},{0.736842,0}}" />
+                                    <Property Name="VerticalAlignment" Value="Centre" />
+                                </Window>
+                                <Window Type="DejaVu/StaticTextLab" Name="Root/EudemonEvoWnd/Item/Stuff4/Name" >
+                                    <Property Name="Text" Value="x小男的心臟" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.247619,0},{0.307692,0},{0.952381,0},{0.692308,0}}" />
+                                </Window>
+                                <Window Type="DejaVu/StaticTextLab" Name="Root/EudemonEvoWnd/Item/Stuff4/ClickText" >
+                                    <Property Name="UnifiedAreaRect" Value="{{0.247619,0},{0.615385,0},{0.876191,0},{0.923077,0}}" />
+                                </Window>
+                            </Window>
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/StaticText" Name="Root/EudemonEvoWnd/Content" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                        <Property Name="Text" >x※源神等級須達%s1級、星等能力全滿。
+且擁有源神誓約之戒，及可與源神進行誓約。
+誓約之後，可解開源神等級限制，可提升至99級。</Property>
+                        <Property Name="TextColours" Value="tl:FFFF0000 tr:FFFF0000 bl:FFFF0000 br:FFFF0000" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0462963,0},{0.0352564,0},{0.972222,0},{0.25,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed4" Name="Root/EudemonEvoWnd/Title" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0308642,0},{0,0},{0.493827,0},{0.0764526,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/EudemonEvoWnd/Title/Text" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="x需求物品" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.184571,0},{0.866667,0},{0.784571,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/EudemonEvoWnd/Title/Pic" >
+                        <Property Name="Image" Value="set:DejaVu image:Image10" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0986842,0},{0.2,0},{0.197368,0},{0.8,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/EudemonEvoWnd/EvoBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="Text" Value="x進化" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{-0.026455,0},{0.22093,0},{0.042328,0}}" />
+                <Property Name="VerticalAlignment" Value="Bottom" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/FamilyFlagWnd" >
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="HorizontalAlignment" Value="Centre" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,600},{0,480}}" />
+        <Property Name="VerticalAlignment" Value="Centre" />
+        <Window Type="DejaVu/Static" Name="Root/FamilyFlagWnd/Preview" >
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0163934,0},{0.954294,0},{0.98829,0}}" />
+            <Window Type="DejaVu/zStaticLab" Name="Root/FamilyFlagWnd/Preview/Title" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="PreviewTitle" />
+                <Property Name="UnifiedAreaRect" Value="{{0.017416,0},{-0.028916,0},{0.156821,0},{0.0289153,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/FamilyFlagWnd/Preview/Image" >
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0148699,0},{0.0481928,0},{0.572491,0},{0.975904,0}}" />
+            </Window>
+            <Window Type="DefaultWindow" Name="Root/FamilyFlagWnd/Preview/Style" >
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="UnifiedAreaRect" Value="{{0.594796,0},{0.096386,0},{0.985131,0},{0.168675,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/FamilyFlagWnd/Preview/Style/Title" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" Value="Style" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.285714,0},{1,0}}" />
+                    <Property Name="VerticalAlignment" Value="Centre" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/FamilyFlagWnd/Preview/Style/LeftBtn" >
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="HoverImage" Value="set:DejaVu image:MiniHorzScrollLeftHover" />
+                    <Property Name="NormalImage" Value="set:DejaVu image:MiniHorzScrollLeftNormal" />
+                    <Property Name="PushedImage" Value="set:DejaVu image:MiniHorzScrollLeftPress" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.305849,0},{0.0474446,0},{0.382039,0},{0.580778,0}}" />
+                    <Property Name="VerticalAlignment" Value="Centre" />
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab4" Name="Root/FamilyFlagWnd/Preview/Style/TextAmount" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.428571,0},{0,0},{0.857142,0},{0.966667,0}}" />
+                    <Property Name="VerticalAlignment" Value="Centre" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/FamilyFlagWnd/Preview/Style/RightBtn" >
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="HorizontalAlignment" Value="Right" />
+                    <Property Name="HoverImage" Value="set:DejaVu image:MiniHorzScrollRightHover" />
+                    <Property Name="NormalImage" Value="set:DejaVu image:MiniHorzScrollRightNormal" />
+                    <Property Name="PushedImage" Value="set:DejaVu image:MiniHorzScrollRightPress" />
+                    <Property Name="UnifiedAreaRect" Value="{{-0.0234903,0},{0.0474446,0},{0.0527002,0},{0.580778,0}}" />
+                    <Property Name="VerticalAlignment" Value="Centre" />
+                </Window>
+            </Window>
+            <Window Type="DefaultWindow" Name="Root/FamilyFlagWnd/Preview/ColorA" >
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="UnifiedAreaRect" Value="{{0.594796,0},{0.180723,0},{0.985131,0},{0.253012,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/FamilyFlagWnd/Preview/ColorA/Title" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" Value="ColorAABC" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.285714,0},{1,0}}" />
+                    <Property Name="VerticalAlignment" Value="Centre" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/FamilyFlagWnd/Preview/ColorA/LeftBtn" >
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="HoverImage" Value="set:DejaVu image:MiniHorzScrollLeftHover" />
+                    <Property Name="NormalImage" Value="set:DejaVu image:MiniHorzScrollLeftNormal" />
+                    <Property Name="PushedImage" Value="set:DejaVu image:MiniHorzScrollLeftPress" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.305849,0},{0.0474446,0},{0.382039,0},{0.580778,0}}" />
+                    <Property Name="VerticalAlignment" Value="Centre" />
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab4" Name="Root/FamilyFlagWnd/Preview/ColorA/TextAmount" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.428571,0},{0,0},{0.857142,0},{0.966667,0}}" />
+                    <Property Name="VerticalAlignment" Value="Centre" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/FamilyFlagWnd/Preview/ColorA/RightBtn" >
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="HorizontalAlignment" Value="Right" />
+                    <Property Name="HoverImage" Value="set:DejaVu image:MiniHorzScrollRightHover" />
+                    <Property Name="NormalImage" Value="set:DejaVu image:MiniHorzScrollRightNormal" />
+                    <Property Name="PushedImage" Value="set:DejaVu image:MiniHorzScrollRightPress" />
+                    <Property Name="UnifiedAreaRect" Value="{{-0.0234903,0},{0,0},{0.0527002,0},{0.533333,0}}" />
+                    <Property Name="VerticalAlignment" Value="Centre" />
+                </Window>
+            </Window>
+            <Window Type="DefaultWindow" Name="Root/FamilyFlagWnd/Preview/ColorB" >
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="UnifiedAreaRect" Value="{{0.594796,0},{0.26506,0},{0.985131,0},{0.337349,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/FamilyFlagWnd/Preview/ColorB/Title" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" Value="ColorB" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.285714,0},{1,0}}" />
+                    <Property Name="VerticalAlignment" Value="Centre" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/FamilyFlagWnd/Preview/ColorB/LeftBtn" >
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="HoverImage" Value="set:DejaVu image:MiniHorzScrollLeftHover" />
+                    <Property Name="NormalImage" Value="set:DejaVu image:MiniHorzScrollLeftNormal" />
+                    <Property Name="PushedImage" Value="set:DejaVu image:MiniHorzScrollLeftPress" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.305849,0},{0.0711669,0},{0.382039,0},{0.6045,0}}" />
+                    <Property Name="VerticalAlignment" Value="Centre" />
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab4" Name="Root/FamilyFlagWnd/Preview/ColorB/TextAmount" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.428571,0},{0,0},{0.857142,0},{0.966667,0}}" />
+                    <Property Name="VerticalAlignment" Value="Centre" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/FamilyFlagWnd/Preview/ColorB/RightBtn" >
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="HorizontalAlignment" Value="Right" />
+                    <Property Name="HoverImage" Value="set:DejaVu image:MiniHorzScrollRightHover" />
+                    <Property Name="NormalImage" Value="set:DejaVu image:MiniHorzScrollRightNormal" />
+                    <Property Name="PushedImage" Value="set:DejaVu image:MiniHorzScrollRightPress" />
+                    <Property Name="UnifiedAreaRect" Value="{{-0.0234903,0},{0,0},{0.0527002,0},{0.533333,0}}" />
+                    <Property Name="VerticalAlignment" Value="Centre" />
+                </Window>
+            </Window>
+            <Window Type="DefaultWindow" Name="Root/FamilyFlagWnd/Preview/ColorC" >
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="UnifiedAreaRect" Value="{{0.594796,0},{0.349398,0},{0.985131,0},{0.421687,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/FamilyFlagWnd/Preview/ColorC/Title" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" Value="ColorC" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.285714,0},{1,0}}" />
+                    <Property Name="VerticalAlignment" Value="Centre" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/FamilyFlagWnd/Preview/ColorC/LeftBtn" >
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="HoverImage" Value="set:DejaVu image:MiniHorzScrollLeftHover" />
+                    <Property Name="NormalImage" Value="set:DejaVu image:MiniHorzScrollLeftNormal" />
+                    <Property Name="PushedImage" Value="set:DejaVu image:MiniHorzScrollLeftPress" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.305849,0},{0.0711668,0},{0.382039,0},{0.6045,0}}" />
+                    <Property Name="VerticalAlignment" Value="Centre" />
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab4" Name="Root/FamilyFlagWnd/Preview/ColorC/TextAmount" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.428571,0},{0,0},{0.857142,0},{0.966667,0}}" />
+                    <Property Name="VerticalAlignment" Value="Centre" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/FamilyFlagWnd/Preview/ColorC/RightBtn" >
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="HorizontalAlignment" Value="Right" />
+                    <Property Name="HoverImage" Value="set:DejaVu image:MiniHorzScrollRightHover" />
+                    <Property Name="NormalImage" Value="set:DejaVu image:MiniHorzScrollRightNormal" />
+                    <Property Name="PushedImage" Value="set:DejaVu image:MiniHorzScrollRightPress" />
+                    <Property Name="UnifiedAreaRect" Value="{{-0.0234903,0},{0,0},{0.0527002,0},{0.533333,0}}" />
+                    <Property Name="VerticalAlignment" Value="Centre" />
+                </Window>
+            </Window>
+            <Window Type="DefaultWindow" Name="Root/FamilyFlagWnd/Preview/ColorD" >
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="UnifiedAreaRect" Value="{{0.594796,0},{0.433735,0},{0.985131,0},{0.506024,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/FamilyFlagWnd/Preview/ColorD/Title" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" Value="ColorD" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.285714,0},{1,0}}" />
+                    <Property Name="VerticalAlignment" Value="Centre" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/FamilyFlagWnd/Preview/ColorD/LeftBtn" >
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="HoverImage" Value="set:DejaVu image:MiniHorzScrollLeftHover" />
+                    <Property Name="NormalImage" Value="set:DejaVu image:MiniHorzScrollLeftNormal" />
+                    <Property Name="PushedImage" Value="set:DejaVu image:MiniHorzScrollLeftPress" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.305849,0},{0,0},{0.382039,0},{0.533333,0}}" />
+                    <Property Name="VerticalAlignment" Value="Centre" />
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab4" Name="Root/FamilyFlagWnd/Preview/ColorD/TextAmount" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.428571,0},{0,0},{0.857142,0},{0.966667,0}}" />
+                    <Property Name="VerticalAlignment" Value="Centre" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/FamilyFlagWnd/Preview/ColorD/RightBtn" >
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="HorizontalAlignment" Value="Right" />
+                    <Property Name="HoverImage" Value="set:DejaVu image:MiniHorzScrollRightHover" />
+                    <Property Name="NormalImage" Value="set:DejaVu image:MiniHorzScrollRightNormal" />
+                    <Property Name="PushedImage" Value="set:DejaVu image:MiniHorzScrollRightPress" />
+                    <Property Name="UnifiedAreaRect" Value="{{-0.0234903,0},{0,0},{0.0527002,0},{0.533333,0}}" />
+                    <Property Name="VerticalAlignment" Value="Centre" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/FamilyFlagWnd/Preview/ResetBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="Reset" />
+                <Property Name="UnifiedAreaRect" Value="{{0.594796,0},{0.845783,0},{0.724908,0},{0.918072,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/FamilyFlagWnd/Preview/OKBtn" >
+                <Property Name="Text" Value="OK" />
+                <Property Name="UnifiedAreaRect" Value="{{0.836431,0},{0.848193,0},{0.966543,0},{0.920482,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

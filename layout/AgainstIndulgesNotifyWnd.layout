@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/AgainstIndulgesNotifyWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="TitlebarImage" Value="set:main image:SystemNormal" />
+        <Property Name="UnifiedAreaRect" Value="{{0.294023,0},{0.356821,0},{0.294023,416},{0.356821,220}}" />
+        <Window Type="DejaVu/Embed" Name="Root/AgainstIndulgesNotifyWnd/Static" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Embed2" Name="Root/AgainstIndulgesNotifyWnd/Static/Border" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.025,0},{0.071429,0},{0.975,0},{0.714286,0}}" />
+                <Window Type="DejaVu/StaticText" Name="Root/AgainstIndulgesNotifyWnd/Static/Border/MsgText" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorzFormatting" Value="WordWrapCentred" />
+                    <Property Name="LinespaceWindow" Value="True" />
+                    <Property Name="Text" Value="一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0263158,0},{0.0555556,0},{0.973684,0},{0.833333,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/AgainstIndulgesNotifyWnd/Static/Btn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.725,0},{0.75,0},{0.975,0},{0.928571,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/AgainstIndulgesNotifyWnd/Static/Btn1" >
+                <Property Name="UnifiedAreaRect" Value="{{0.4625,0},{0.75,0},{0.7125,0},{0.928571,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/AgainstIndulgesNotifyWnd/Static/Btn2" >
+                <Property Name="UnifiedAreaRect" Value="{{0.2,0},{0.75,0},{0.45,0},{0.928571,0}}" />
+            </Window>
+            <Window Type="DejaVu/EmbedTextLab2" Name="Root/AgainstIndulgesNotifyWnd/Static/CDText" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorzFormatting" Value="WordWrapCentred" />
+                <Property Name="Text" Value="60秒" />
+                <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+                <Property Name="UnifiedAreaRect" Value="{{0.025,0},{0.75,0},{0.188086,0},{0.928571,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

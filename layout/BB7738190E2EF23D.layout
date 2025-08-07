@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/CommonDlg" >
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.39875,0},{0.304348,0},{0.39875,237},{0.304348,180}}" />
+        <Property Name="UnifiedMinSize" Value="{{0,237},{0,180}}" />
+        <Window Type="DejaVu/StaticTextLab" Name="Root/CommonDlg/MsgText" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorzFormatting" Value="WordWrapCentred" />
+            <Property Name="UnifiedAreaRect" Value="{{0.073966,0},{0.0635713,0},{0.962286,0},{0.344602,0}}" />
+        </Window>
+        <Window Type="DejaVu/Editbox" Name="Root/CommonDlg/EditBox" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="MaxTextLength" Value="16" />
+            <Property Name="NormalTextColour" Value="FFFFFFFF" />
+            <Property Name="TextParsingEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.18408,0},{0.525969,0},{0.81592,0},{0.704264,0}}" />
+            <Property Name="Visible" Value="False" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/CommonDlg/OKBtn" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="ClippedByParent" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0845771,0},{0.787402,0},{0.432836,0},{0.976378,0}}" />
+            <Property Name="Visible" Value="False" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/CommonDlg/CloseBtn" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.563218,0},{0.791191,0},{0.920361,0},{0.977238,0}}" />
+            <Property Name="Visible" Value="False" />
+        </Window>
+        <Window Type="DejaVu/Static" Name="Root/CommonDlg/static" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{-0.00375,0},{0,0},{0.99625,0},{1,0}}" />
+            <Window Type="DejaVu/Border" Name="Root/CommonDlg/static/border" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.034483,0},{0.047619,0},{0.965518,0},{0.555556,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/CommonDlg/CancelBtn" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="ClippedByParent" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.562474,0},{0.790698,0},{0.910733,0},{0.976745,0}}" />
+            <Property Name="Visible" Value="False" />
+        </Window>
+        <Window Type="DejaVu/Border" Name="Root/CommonDlg/ScoreBoard" >
+            <Property Name="UnifiedAreaRect" Value="{{0.03625,0},{0.2,0},{1.0075,0},{0.893333,0}}" />
+            <Window Type="DejaVu/EmbedTextLab" Name="Root/CommonDlg/ScoreBoard/KilledTitle" >
+                <Property Name="Text" Value="x今日擊倒人數x" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0593309,0},{0.223077,0},{0.587323,0},{0.499519,0}}" />
+            </Window>
+            <Window Type="DejaVu/EmbedTextLab3" Name="Root/CommonDlg/ScoreBoard/KilledNum" >
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="Text" Value="x000" />
+                <Property Name="UnifiedAreaRect" Value="{{0.590863,0},{0.230289,0},{0.942535,0},{0.499519,0}}" />
+            </Window>
+            <Window Type="DejaVu/EmbedTextLab" Name="Root/CommonDlg/ScoreBoard/ScoreTitle" >
+                <Property Name="Text" Value="x今日獲得分數x" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0618557,0},{0.580857,0},{0.592784,0},{0.853584,0}}" />
+            </Window>
+            <Window Type="DejaVu/EmbedTextLab3" Name="Root/CommonDlg/ScoreBoard/ScoreNum" >
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="Text" Value="x000" />
+                <Property Name="UnifiedAreaRect" Value="{{0.592784,0},{0.569493,0},{0.948454,0},{0.84222,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/zStaticLab" Name="Root/CommonDlg/ScoreBoardTitle" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="Text" Value="x今日成績x" />
+            <Property Name="UnifiedAreaRect" Value="{{0.114428,0},{0.110236,0},{0.462687,0},{0.299213,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

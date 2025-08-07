@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/bank" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="TitlebarImage" Value="set:main image:Bank" />
+        <Property Name="UnifiedAreaRect" Value="{{0.242188,0},{0.283854,0},{0.242188,511},{0.283854,359}}" />
+        <Window Type="DejaVu/Embed" Name="Root/bank/Embed" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Embed2" Name="Root/bank/TypeBtnBG" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.020202,0},{0.035842,0},{0.979798,0},{0.143369,0}}" />
+                <Window Type="DejaVu/ImageButton" Name="Root/bank/TypeBtnBG/LeftBtn" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HoverImage" Value="set:DejaVu image:ArrowLeftHover" />
+                    <Property Name="NormalImage" Value="set:DejaVu image:ArrowLeftNormal" />
+                    <Property Name="PushedImage" Value="set:DejaVu image:ArrowLeftPressed" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0666667,0},{0.0421053,0},{0.9,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/bank/TypeBtnBG/RightBtn" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorizontalAlignment" Value="Right" />
+                    <Property Name="HoverImage" Value="set:DejaVu image:ArrowRightHover" />
+                    <Property Name="NormalImage" Value="set:DejaVu image:ArrowRightNormal" />
+                    <Property Name="PushedImage" Value="set:DejaVu image:ArrowRightPressed" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0666667,0},{0.0421053,0},{0.9,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="Root/bank/Embed/StorageBG" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.143369,0},{1,0},{1,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

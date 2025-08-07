@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/LoverMessageEditWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="Text" Value="x編輯情話" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.363281,0},{0.304348,0},{0.363281,255},{0.304348,194}}" />
+        <Window Type="DejaVu/Embed3" Name="Root/LoverMessageEditWnd/frame/bg" >
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Embed4" Name="Root/LoverMessageEditWnd/frame/bg/background" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.021277,0},{0.032895,0},{0.978724,0},{0.822369,0}}" />
+                <Window Type="DejaVu/MultiLineEditbox" Name="Root/LoverMessageEditWnd/EditWnd" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="MaxTextLength" Value="272" />
+                    <Property Name="NormalTextColour" Value="C8FFFFFF" />
+                    <Property Name="SelectionBrushImage" Value="" />
+                    <Property Name="Text" >一二三四五六七八九十一二三四五六七八九十
+</Property>
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.022222,0},{0.041667,0},{0.977778,0},{0.958334,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/LoverMessageEditWnd/OKBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="x確定" />
+                <Property Name="UnifiedAreaRect" Value="{{0.021277,0},{0.855263,0},{0.310639,0},{0.967105,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/LoverMessageEditWnd/CancelBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="x取消" />
+                <Property Name="UnifiedAreaRect" Value="{{0.689362,0},{0.855263,0},{0.978724,0},{0.967105,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

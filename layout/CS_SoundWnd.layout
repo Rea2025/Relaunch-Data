@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/CS_SoundWnd" >
+        <Property Name="ClippedByParent" Value="False" />
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HorizontalAlignment" Value="Right" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.15,0},{0.3,0}}" />
+        <Window Type="DejaVu/FrameWindow" Name="Root/CS_SoundWnd/Background" >
+            <Property Name="ClippedByParent" Value="False" />
+            <Property Name="HelpButtonEnabled" Value="False" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Property Name="TitlebarEnabled" Value="True" />
+            <Property Name="TitlebarFont" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Embed" Name="Root/CS_SoundWnd/Background/Border_Loop" >
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.8,0},{0.5,0},{1,0}}" />
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_SoundWnd/Background/Border_Loop/Text_Loop" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="循環" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.2,0},{0.45,0},{0.8,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/CS_SoundWnd/Background/Border_Loop/Check_Loop" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.6,0},{0.2,0},{0.8,0},{0.8,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed" Name="Root/CS_SoundWnd/Background/Border_Distance" >
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.4,0},{1,0},{0.8,0}}" />
+                <Window Type="DejaVu/Editbox" Name="Root/CS_SoundWnd/Background/Border_Distance/Edit_Mini" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0.05,0},{0.95,0},{0.5,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_SoundWnd/Background/Border_Distance/Text_Mini" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="最小聆聽距離" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.05,0},{0.45,0},{0.5,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_SoundWnd/Background/Border_Distance/Text_Max" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="最大聆聽距離" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.55,0},{0.5,0},{0.95,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/CS_SoundWnd/Background/Border_Distance/Edit_Max" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0.5,0},{0.95,0},{0.95,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed" Name="Root/CS_SoundWnd/Background/Border_Name" >
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.4,0}}" />
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_SoundWnd/Background/Border_Name/Text_Name" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="名稱" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.3,0},{0.25,0},{0.7,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/CS_SoundWnd/Background/Border_Name/Edit_Name" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.3,0},{0.05,0},{0.95,0},{0.45,0}}" />
+                </Window>
+                <Window Type="DejaVu/Combobox" Name="Root/CS_SoundWnd/Background/Border_Name/Combo_Name" >
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="MaxEditTextLength" Value="2147483647" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.3,0},{0.6,0},{0.95,0},{2.5,0}}" />
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

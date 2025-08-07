@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/DressRoomUI" >
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="TitlebarImage" Value="set:main image:SystemNormal" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,356},{0,531}}" />
+        <Window Type="DejaVu/Embed" Name="Root/DressRoomUI/Backgrand" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Button" Name="Root/DressRoomUI/resetBtn" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="Text" Value="xRESET" />
+                <Property Name="UnifiedAreaRect" Value="{{0.247059,0},{0.920177,0},{0.470588,0},{0.977827,0}}" />
+            </Window>
+            <Window Type="DejaVu/Embed2" Name="Root/DressRoomUI/ViewAvatar" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.029412,0},{0.022124,0},{0.970588,0},{0.909042,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/DressRoomUI/previewBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="x裝備" />
+                <Property Name="UnifiedAreaRect" Value="{{0.247059,0},{0.920177,0},{0.470588,0},{0.977827,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/DressRoomUI/Backgrand/FullScrnBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="x放大預覽" />
+                <Property Name="UnifiedAreaRect" Value="{{0.529412,0},{0.920177,0},{0.752941,0},{0.977827,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

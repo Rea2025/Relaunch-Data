@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="SlotGroupAchievement" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,800},{0,600}}" />
+        <Window Type="DejaVu/Embed4" Name="SlotGroupAchievement/Item" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.3,0},{0.3,0},{0.3,225},{0.3,44}}" />
+            <Window Type="DejaVu/SlotImage" Name="SlotGroupAchievement/Item/Icon" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.026667,0},{0.136364,0},{0.173334,0},{0.886364,0}}" />
+            </Window>
+            <Window Type="DejaVu/TextSmoothLab" Name="SlotGroupAchievement/Item/Text" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" >111111111111111111
+ 22222222222222222</Property>
+                <Property Name="UnifiedAreaRect" Value="{{0.195556,0},{0.090909,0},{0.986667,0},{0.659091,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="SlotGroupAchievement/Item/Point" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="x123456x" />
+                <Property Name="UnifiedAreaRect" Value="{{0.195556,0},{0.659091,0},{0.195556,178},{0.659091,12}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

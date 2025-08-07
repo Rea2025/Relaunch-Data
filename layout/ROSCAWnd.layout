@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/ROSCAWnd" >
+        <Property Name="Font" Value="F001-scale" />
+        <Property Name="HorizontalAlignment" Value="Centre" />
+        <Property Name="ID" Value="2" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,454},{0,525}}" />
+        <Window Type="DejaVu/Embed3" Name="Root/ROSCAWnd/Back" >
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="UnifiedAreaRect" Value="{{0.013423,0},{0.011952,0},{0.986991,0},{0.989095,0}}" />
+            <Window Type="DejaVu/ImageButton" Name="Root/ROSCAWnd/Back/Tutorial" >
+                <Property Name="DisabledImage" Value="set:DejaVu image:HelpButtonPressed" />
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0.954233,0},{0.010204,0},{0.98817,0},{0.0396735,0}}" />
+            </Window>
+            <Window Type="DejaVu/MultiColumnList" Name="Root/ROSCAWnd/Back/MCL" >
+                <Property Name="ColumnsMovable" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.011312,0},{0.047782,0},{0.988688,0},{0.698854,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/ROSCAWnd/Back/UpdateBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.834842,0},{0.956778,0},{0.988688,0},{0.990177,0}}" />
+            </Window>
+            <Window Type="DejaVu/Embed4" Name="Root/ROSCAWnd/Back/BG" >
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="UnifiedAreaRect" Value="{{0.011312,0},{0.709552,0},{0.988688,0},{0.947369,0}}" />
+                <Window Type="DejaVu/StaticText" Name="Root/ROSCAWnd/Back/Text" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.01171,0},{0.042373,0},{0.988562,0},{0.796471,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="Root/ROSCAWnd/Back/RightClickText" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0115741,0},{0.833333,0},{0.988426,0},{0.960317,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/ROSCAWnd/Back/Title" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.011312,0},{0.009747,0},{0.316742,0},{0.0389868,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

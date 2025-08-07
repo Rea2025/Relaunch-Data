@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/EquipTrainWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="Text" Value="x裝備熟練" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,276},{0,316}}" />
+        <Window Type="DejaVu/StaticTextLab" Name="Root/EquipTrainWnd/StatusText" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="Text" Value="x裝備熟練中" />
+            <Property Name="UnifiedAreaRect" Value="{{0.493878,0},{0.456274,0},{0.493878,115},{0.456274,22}}" />
+        </Window>
+        <Window Type="DejaVu/StaticTextLab" Name="Root/EquipTrainWnd/LevelText" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="Text" Value="LV 99" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.307985,0},{0,62},{0.307985,27}}" />
+        </Window>
+        <Window Type="DejaVu/Static" Name="Root/EquipTrainWnd/TypeFrame" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.536122,0},{1,0},{0.882129,0}}" />
+            <Window Type="DejaVu/Checkbox" Name="Root/EquipTrainWnd/TypeCheck1" >
+                <Property Name="HoverTextColour" Value="FFFFFFFFF" />
+                <Property Name="NormalTextColour" Value="FFFFFFFFF" />
+                <Property Name="PushedTextColour" Value="FFFFFFFFF" />
+                <Property Name="UnifiedAreaRect" Value="{{0.075,0},{0.175824,0},{0.075,22},{0.175824,22}}" />
+            </Window>
+            <Window Type="DejaVu/Checkbox" Name="Root/EquipTrainWnd/TypeCheck2" >
+                <Property Name="HoverTextColour" Value="FFFFFFFFF" />
+                <Property Name="NormalTextColour" Value="FFFFFFFFF" />
+                <Property Name="PushedTextColour" Value="FFFFFFFFF" />
+                <Property Name="UnifiedAreaRect" Value="{{0.233333,0},{0.175824,0},{0.233333,22},{0.175824,22}}" />
+            </Window>
+            <Window Type="DejaVu/Checkbox" Name="Root/EquipTrainWnd/TypeCheck3" >
+                <Property Name="HoverTextColour" Value="FFFFFFFFF" />
+                <Property Name="NormalTextColour" Value="FFFFFFFFF" />
+                <Property Name="PushedTextColour" Value="FFFFFFFFF" />
+                <Property Name="UnifiedAreaRect" Value="{{0.391667,0},{0.175824,0},{0.391667,22},{0.175824,22}}" />
+            </Window>
+            <Window Type="DejaVu/Checkbox" Name="Root/EquipTrainWnd/TypeCheck4" >
+                <Property Name="HoverTextColour" Value="FFFFFFFFF" />
+                <Property Name="NormalTextColour" Value="FFFFFFFFF" />
+                <Property Name="PushedTextColour" Value="FFFFFFFFF" />
+                <Property Name="UnifiedAreaRect" Value="{{0.55,0},{0.175824,0},{0.55,22},{0.175824,22}}" />
+            </Window>
+            <Window Type="DejaVu/Checkbox" Name="Root/EquipTrainWnd/TypeCheck5" >
+                <Property Name="HoverTextColour" Value="FFFFFFFFF" />
+                <Property Name="NormalTextColour" Value="FFFFFFFFF" />
+                <Property Name="PushedTextColour" Value="FFFFFFFFF" />
+                <Property Name="UnifiedAreaRect" Value="{{0.708333,0},{0.175824,0},{0.708333,22},{0.175824,22}}" />
+            </Window>
+            <Window Type="DejaVu/Checkbox" Name="Root/EquipTrainWnd/TypeCheck6" >
+                <Property Name="HoverTextColour" Value="FFFFFFFFF" />
+                <Property Name="NormalTextColour" Value="FFFFFFFFF" />
+                <Property Name="PushedTextColour" Value="FFFFFFFFF" />
+                <Property Name="UnifiedAreaRect" Value="{{0.866667,0},{0.175824,0},{0.866667,22},{0.175824,22}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/EquipTrainWnd/TypeIcon1" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.025,0},{0.494505,0},{0.175,0},{0.89011,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/EquipTrainWnd/TypeIcon2" >
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.183333,0},{0.494505,0},{0.333333,0},{0.89011,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/EquipTrainWnd/TypeIcon3" >
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.341667,0},{0.494505,0},{0.491667,0},{0.89011,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/EquipTrainWnd/TypeIcon4" >
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0.494505,0},{0.65,0},{0.89011,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/EquipTrainWnd/TypeIcon5" >
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.658333,0},{0.494505,0},{0.808333,0},{0.89011,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/EquipTrainWnd/TypeIcon6" >
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.816667,0},{0.494505,0},{0.966667,0},{0.89011,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/zStaticLab" Name="Root/EquipTrainWnd/TypeTitle" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="HorzFormatting" Value="WordWrapCentred" />
+            <Property Name="Text" Value="x強化走向" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0531013,0},{0.491965,0},{0.0531013,66},{0.491965,24}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/EquipTrainWnd/OKBtn" >
+            <Property Name="Text" Value="x確定" />
+            <Property Name="UnifiedAreaRect" Value="{{0.1625,0},{0,0},{0.454167,0},{0.0912548,0}}" />
+            <Property Name="VerticalAlignment" Value="Bottom" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/EquipTrainWnd/CancelBtn" >
+            <Property Name="Text" Value="x取消" />
+            <Property Name="UnifiedAreaRect" Value="{{0.545833,0},{0,0},{0.8375,0},{0.0912548,0}}" />
+            <Property Name="VerticalAlignment" Value="Bottom" />
+        </Window>
+        <Window Type="DejaVu/Static" Name="Root/EquipTrainWnd/ItemFrame" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.00380228,0},{0,68},{0.00380228,82}}" />
+            <Window Type="DejaVu/SlotImage" Name="Root/EquipTrainWnd/Slot" >
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.324675,0},{0,50},{0.324675,50}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/EquipTrainWnd/ItemLabel" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="x熟練裝備" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.038961,0},{0,63},{0.038961,22}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/zStaticLab" Name="Root/EquipTrainWnd/ExpFrame" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.391635,0},{0.791667,0},{0.463878,0}}" />
+            <Window Type="DejaVu/StaticTextLab" Name="Root/EquipTrainWnd/ExpLabel" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="Text" Value="xExp" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0154639,0},{0,0},{0.0154639,33},{0,21}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/EquipTrainWnd/ExpText" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" Value="99.99%" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="UnifiedAreaRect" Value="{{0.206186,0},{0,0},{0.206186,54},{0,22}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/EquipTrainWnd/ExpImg" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Image" Value="set:DejaVuImage image:LoveExpBar" />
+                <Property Name="UnifiedAreaRect" Value="{{0.463918,0},{0.157895,0},{0.463918,98},{0.157895,14}}" />
+                <Window Type="DejaVu/CastingBarImage" Name="Root/EquipTrainWnd/ExpImg/Exp" >
+                    <Property Name="Image" Value="set:DejaVuImage image:ExpBarYellow" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0102041,0},{0.0714286,0},{0.989796,0},{0.928571,0}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/ImageButton" Name="Root/EquipTrainWnd/QMarkBtn" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="ClippedByParent" Value="False" />
+            <Property Name="HorizontalAlignment" Value="Right" />
+            <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+            <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+            <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+            <Property Name="UnifiedAreaRect" Value="{{-0.0205906,0},{-0.0646034,0},{-0.0205906,12},{-0.0646034,12}}" />
+        </Window>
+    </Window>
+</GUILayout>

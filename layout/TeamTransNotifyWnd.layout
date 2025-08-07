@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/TeamTransNotifyWnd" >
+        <Property Name="CloseButtonEnabled" Value="False" />
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="TitlebarImage" Value="set:main image:SystemNormal" />
+        <Property Name="UnifiedAreaRect" Value="{{0.357422,0},{0.307291,0},{0.357422,306},{0.307291,308}}" />
+        <Window Type="DejaVu/Embed" Name="Root/TeamTransNotifyWnd/Frame" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{-0.000976563,0},{0,0},{0.999023,0},{1,0}}" />
+            <Window Type="DejaVu/Embed2" Name="Root/TeamTransNotifyWnd/Frame/BG" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0344828,0},{0.0438596,0},{0.965517,0},{0.820175,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/TeamTransNotifyWnd/Frame/BG/Name1" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="一二三四五六七巴九十一二三" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.074074,0},{0.180791,0},{0.740741,0},{0.350283,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/TeamTransNotifyWnd/Frame/BG/Img1" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.777778,0},{0.180791,0},{0.888889,0},{0.350283,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/TeamTransNotifyWnd/Frame/BG/Name2" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="一二三四五六七巴九十一二三" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.074074,0},{0.378531,0},{0.740741,0},{0.548023,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/TeamTransNotifyWnd/Frame/BG/Img2" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.777778,0},{0.378531,0},{0.888889,0},{0.548023,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/TeamTransNotifyWnd/Frame/BG/Name3" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="一二三四五六七巴九十一二三" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.074074,0},{0.576271,0},{0.740741,0},{0.745763,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/TeamTransNotifyWnd/Frame/BG/Name4" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="一二三四五六七巴九十一二三" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0746346,0},{0.774011,0},{0.741302,0},{0.943503,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/TeamTransNotifyWnd/Frame/BG/Img3" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.777778,0},{0.576271,0},{0.888889,0},{0.745763,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/TeamTransNotifyWnd/Frame/BG/Img4" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.777778,0},{0.774011,0},{0.888889,0},{0.943503,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab7" Name="Root/TeamTransNotifyWnd/Frame/BG/Title" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="x等待回應中…" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.007407,0},{0.011628,0},{0.992592,0},{0.152871,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/TeamTransNotifyWnd/Frame/ConfirmBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="Text" Value="x確定" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{-0.0438596,0},{0.262069,0},{0.0701754,0}}" />
+                <Property Name="VerticalAlignment" Value="Bottom" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

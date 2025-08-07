@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/Embed3" Name="CardBoard" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HorizontalAlignment" Value="Centre" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,820},{0,650}}" />
+        <Property Name="VerticalAlignment" Value="Centre" />
+        <Window Type="DejaVu/StaticImage" Name="CardBoard/Board" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0121951,0},{0.0615385,0},{0.987805,0},{0.984615,0}}" />
+        </Window>
+        <Window Type="DejaVu/ImageButton" Name="CardBoard/Btn" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HorizontalAlignment" Value="Right" />
+            <Property Name="NormalImage" Value="set:DejaVu image:NewCloseButtonNormal" />
+            <Property Name="UnifiedAreaRect" Value="{{-0.0121951,0},{0.0153846,0},{0.0121951,0},{0.0461538,0}}" />
+        </Window>
+        <Window Type="DefaultWindow" Name="CardBoard/Reward" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.585988,0},{0,552},{0.585988,295}}" />
+            <Window Type="DejaVu/Static" Name="CardBoard/Reward/BG11" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0456319,0},{0.913043,0},{0.916037,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="CardBoard/Reward/BG11/RareBG0" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Image" Value="set:DejaVu image:RareItem" />
+                    <Property Name="UnifiedAreaRect" Value="{{-0.010696,0},{0.039238,0},{0.532955,0},{0.319394,0}}" />
+                    <Window Type="DejaVu/SlotImage" Name="CardBoard/Reward/BG11/RareBG0/ItemIcon" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.091241,0},{0.208333,0},{0.244526,0},{0.791666,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticText" Name="CardBoard/Reward/BG11/RareBG0/ItemName" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="LinespaceWindow" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.29927,0},{0.208333,0},{0.919708,0},{0.791666,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="CardBoard/Reward/BG11/RareBG1" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Image" Value="set:DejaVu image:RareItem" />
+                    <Property Name="UnifiedAreaRect" Value="{{-0.010696,0},{0.349411,0},{0.532955,0},{0.629567,0}}" />
+                    <Window Type="DejaVu/SlotImage" Name="CardBoard/Reward/BG11/RareBG1/ItemIcon" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.091241,0},{0.208333,0},{0.244526,0},{0.791666,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticText" Name="CardBoard/Reward/BG11/RareBG1/ItemName" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="LinespaceWindow" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.29927,0},{0.208333,0},{0.919708,0},{0.791666,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="CardBoard/Reward/BG11/RareBG2" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Image" Value="set:DejaVu image:RareItem" />
+                    <Property Name="UnifiedAreaRect" Value="{{-0.010696,0},{0.650305,0},{0.532955,0},{0.930461,0}}" />
+                    <Window Type="DejaVu/SlotImage" Name="CardBoard/Reward/BG11/RareBG2/ItemIcon" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.091241,0},{0.208333,0},{0.244526,0},{0.791666,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticText" Name="CardBoard/Reward/BG11/RareBG2/ItemName" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="LinespaceWindow" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.29927,0},{0.208333,0},{0.919708,0},{0.791666,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed3" Name="CardBoard/Reward/BG11/BG0" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.053571,0},{0.076924,0},{0.490079,0},{0.279259,0}}" />
+                    <Window Type="DejaVu/SlotImage" Name="CardBoard/Reward/BG11/BG0/ItemIcon" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.022727,0},{0.096154,0},{0.213636,0},{0.903846,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="CardBoard/Reward/BG11/BG0/ItemName" >
+                        <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                        <Property Name="LinespaceWindow" Value="True" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="Text" Value="ASDFASDFASDFAASDFASDF" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.259091,0},{0.153846,0},{0.940909,0},{0.846154,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed3" Name="CardBoard/Reward/BG11/BG1" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.053571,0},{0.387097,0},{0.490079,0},{0.589432,0}}" />
+                    <Window Type="DejaVu/SlotImage" Name="CardBoard/Reward/BG11/BG1/ItemIcon" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.022727,0},{0.096154,0},{0.213636,0},{0.903846,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="CardBoard/Reward/BG11/BG1/ItemName" >
+                        <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                        <Property Name="LinespaceWindow" Value="True" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="Text" Value="ASDFASDFASDFAASDFASDF" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.259091,0},{0.153846,0},{0.940909,0},{0.846154,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed3" Name="CardBoard/Reward/BG11/BG2" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.053571,0},{0.693548,0},{0.490079,0},{0.895883,0}}" />
+                    <Window Type="DejaVu/SlotImage" Name="CardBoard/Reward/BG11/BG2/ItemIcon" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.022727,0},{0.096154,0},{0.213636,0},{0.903846,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="CardBoard/Reward/BG11/BG2/ItemName" >
+                        <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                        <Property Name="LinespaceWindow" Value="True" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="Text" Value="SDFASDFASDFA" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.259091,0},{0.153846,0},{0.940909,0},{0.846154,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed3" Name="CardBoard/Reward/BG11/BG3" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.542875,0},{0.080645,0},{0.979383,0},{0.28298,0}}" />
+                    <Window Type="DejaVu/SlotImage" Name="CardBoard/Reward/BG11/BG3/ItemIcon" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.022727,0},{0.096154,0},{0.213636,0},{0.903846,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="CardBoard/Reward/BG11/BG3/ItemName" >
+                        <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                        <Property Name="LinespaceWindow" Value="True" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="Text" Value="SDFASDFASDFA" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.259091,0},{0.153846,0},{0.940909,0},{0.846154,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed3" Name="CardBoard/Reward/BG11/BG4" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.542875,0},{0.387097,0},{0.979383,0},{0.589432,0}}" />
+                    <Window Type="DejaVu/SlotImage" Name="CardBoard/Reward/BG11/BG4/ItemIcon" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.022727,0},{0.096154,0},{0.213636,0},{0.903846,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="CardBoard/Reward/BG11/BG4/ItemName" >
+                        <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                        <Property Name="LinespaceWindow" Value="True" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="Text" Value="SDFASDFASDFA" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.259091,0},{0.153846,0},{0.940909,0},{0.846154,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

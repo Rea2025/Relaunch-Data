@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/Static" Name="Archeology" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HorizontalAlignment" Value="Centre" />
+        <Property Name="UnifiedAreaRect" Value="{{-0.0488281,0},{-0.182292,0},{-0.0488281,331},{-0.182292,190}}" />
+        <Property Name="VerticalAlignment" Value="Bottom" />
+        <Window Type="DejaVu/Static" Name="Archeology/Archeology1" >
+            <Property Name="UnifiedAreaRect" Value="{{0.453172,0},{0.173684,0},{1,0},{0.789474,0}}" />
+            <Window Type="DejaVu/ProgressBarBG" Name="Archeology/BarBG" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.25641,0},{1,0},{0.384615,0}}" />
+                <Window Type="DejaVu/ProgressBar3" Name="Archeology/BarBG/CountDownBar" >
+                    <Property Name="CurrentProgress" Value="0" />
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="StepSize" Value="0.01" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.022099,0},{0.266667,0},{0.9779,0},{0.733334,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed3" Name="Archeology/Drag" >
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.641026,0},{0.110497,0},{1,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Archeology/Text" >
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="1234567890" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.213675,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Archeology/Time" >
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="123456789" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.384615,0},{1,0},{0.59829,0}}" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Archeology/ToolBtn1" >
+                <Property Name="DisabledImage" Value="set:main9 image:AppraisalRedBtnPressed" />
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="HoverImage" Value="set:main9 image:AppraisalRedBtnHover" />
+                <Property Name="NormalImage" Value="set:main9 image:AppraisalRedBtnNormal" />
+                <Property Name="PushedImage" Value="set:main9 image:AppraisalRedBtnPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0.165746,0},{0.641026,0},{0.39779,0},{1,0}}" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Archeology/ToolBtn2" >
+                <Property Name="DisabledImage" Value="set:main9 image:AppraisalBlueBtnPressed" />
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="HoverImage" Value="set:main9 image:AppraisalBlueBtnHover" />
+                <Property Name="NormalImage" Value="set:main9 image:AppraisalBlueBtnNormal" />
+                <Property Name="PushedImage" Value="set:main9 image:AppraisalBlueBtnPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0.453039,0},{0.641026,0},{0.685083,0},{1,0}}" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Archeology/ToolBtn3" >
+                <Property Name="DisabledImage" Value="set:main9 image:AppraisalYellowBtnPressed" />
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="HoverImage" Value="set:main9 image:AppraisalYellowBtnHover" />
+                <Property Name="NormalImage" Value="set:main9 image:AppraisalYellowBtnNormal" />
+                <Property Name="PushedImage" Value="set:main9 image:AppraisalYellowBtnPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0.740331,0},{0.641026,0},{0.972375,0},{1,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/ImageButton" Name="Archeology/ImgBtn" >
+            <Property Name="DisabledImage" Value="set:main9 image:ArcheologyBG" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HoverImage" Value="set:main9 image:ArcheologyBG3" />
+            <Property Name="NormalImage" Value="set:main9 image:ArcheologyBG2" />
+            <Property Name="PushedImage" Value="set:main9 image:ArcheologyBG" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.453172,0},{0.789474,0}}" />
+            <Window Type="DejaVu/StaticImage" Name="Archeology/ImgBtn/Img" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Image" Value="set:main9 image:ArcheologyBtnNormal" />
+                <Property Name="UnifiedAreaRect" Value="{{0.162091,0},{0.201897,0},{0.828758,0},{0.801897,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/StaticText" Name="Archeology/TutorialText" >
+            <Property Name="Font" Value="F001-12" />
+            <Property Name="HorzFormatting" Value="RightAligned" />
+            <Property Name="Text" Value="12345678910123456" />
+            <Property Name="UnifiedAreaRect" Value="{{0.452086,0},{0.789474,0},{0.968702,0},{1,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

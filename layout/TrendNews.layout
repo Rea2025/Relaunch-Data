@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/TrendNews" >
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.0572917,0},{0.221286,0}}" />
+        <Window Type="DejaVu/Embed2" Name="Root/TrendNews/TypeBG" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="ClippedByParent" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,110},{0,210}}" />
+            <Window Type="DejaVu/EmbedTextLab7" Name="Root/TrendNews/TypeBG/Title" >
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="x頭飾外觀" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.936364,0},{0.119048,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/TrendNews/TypeBG/Item1" >
+                <Property Name="UnifiedAreaRect" Value="{{0.0727273,0},{0.142857,0},{0.463636,0},{0.347619,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/TrendNews/TypeBG/Item2" >
+                <Property Name="UnifiedAreaRect" Value="{{0.527273,0},{0.142857,0},{0.918182,0},{0.347619,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/TrendNews/TypeBG/Item3" >
+                <Property Name="UnifiedAreaRect" Value="{{0.076923,0},{0.370833,0},{0.467832,0},{0.575595,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/TrendNews/TypeBG/Item4" >
+                <Property Name="UnifiedAreaRect" Value="{{0.530769,0},{0.370833,0},{0.921678,0},{0.575595,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/TrendNews/TypeBG/Buff" >
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.766284,0},{0.390909,0},{0.971046,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/TrendNews/TypeBG/BuffTitle" >
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="Image" Value="set:main3 image:Title" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.604762,0},{0.890909,0},{0.72381,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/TrendNews/TypeBG/BuffTitle/BuffText" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="x獎勵狀態" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

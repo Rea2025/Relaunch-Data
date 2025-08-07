@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/SevenDaysWndItem" >
+        <Property Name="UnifiedAreaRect" Value="{{0.015625,0},{0.031646,0},{0.284896,0},{0.0770046,0}}" />
+        <Window Type="DejaVu/Embed2" Name="Root/SevenDaysWndItem/Item" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1.04651,0}}" />
+            <Window Type="DejaVu/Static" Name="Root/SevenDaysWndItem/Item/BG" >
+                <Property Name="ID" Value="7" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Window Type="DejaVu/Checkbox" Name="Root/SevenDaysWndItem/Item/BG/TraceCheck" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="ID" Value="5" />
+                    <Property Name="Selected" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0135397,0},{0.288889,0},{0.0522244,0},{0.733333,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="Root/SevenDaysWndItem/Item/BG/Name" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="ID" Value="2" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="Text" Value="任務名稱" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0599613,0},{0,0},{0.549323,0},{0.511111,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="Root/SevenDaysWndItem/Item/BG/Text" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="ID" Value="2" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="Text" Value="任務內容五六七八九十一二三四五六" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0618955,0},{0.466667,0},{0.551258,0},{0.955556,0}}" />
+                </Window>
+                <Window Type="DejaVu/Button" Name="Root/SevenDaysWndItem/Item/BG/ReplyBtn" >
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="Text" Value="x領取" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.823985,0},{0.177778,0},{0.978723,0},{0.844444,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/SevenDaysWndItem/Item/BG/Reward1" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.754352,0},{0.111111,0},{0.82205,0},{0.888889,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/SevenDaysWndItem/Item/BG/Reward2" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.686654,0},{0.111111,0},{0.754352,0},{0.888889,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/SevenDaysWndItem/Item/BG/Reward3" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.618955,0},{0.111111,0},{0.686654,0},{0.888889,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/SevenDaysWndItem/Item/BG/Reward4" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.551257,0},{0.111111,0},{0.618955,0},{0.888889,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/SevenDaysWndItem/Item/BG/Climit" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="Image" Value="set:DejaVu image:Climit" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.955513,0},{0,0},{0.994197,0},{0.444444,0}}" />
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

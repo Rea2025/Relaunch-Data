@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/CS_ModelWnd" >
+        <Property Name="CloseButtonEnabled" Value="False" />
+        <Property Name="HelpButtonEnabled" Value="True" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.1,0},{0.15,0},{0.8,0}}" />
+        <Window Type="DejaVu/Static" Name="Root/CS_ModelWnd/Background" >
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Button" Name="Root/CS_ModelWnd/Background/Btn_Born" >
+                <Property Name="Text" Value="產生" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.5,0},{1,0},{0.6,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/CS_ModelWnd/Background/PreView" >
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="Tooltip" Value="set:mapworld00.png image:full_image" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.393013,0}}" />
+            </Window>
+            <Window Type="DejaVu/Tree" Name="Root/CS_ModelWnd/Background/Tree_Model" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.6,0},{1,0},{1,0}}" />
+            </Window>
+            <Window Type="DejaVu/Editbox" Name="Root/CS_ModelWnd/Background/Search" >
+                <Property Name="MaxTextLength" Value="2147483647" />
+                <Property Name="TextParsingEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.401747,0},{1,0},{0.489083,0}}" />
+            </Window>
+            <Window Type="DejaVu/Tree" Name="Root/CS_ModelWnd/Background/Search_Tree_Model" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.6,0},{1,0},{1,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

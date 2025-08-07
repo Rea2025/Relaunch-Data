@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/FishCastingBarWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HorizontalAlignment" Value="Centre" />
+        <Property Name="InheritsAlpha" Value="False" />
+        <Property Name="InheritsTooltipText" Value="False" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.716667,0},{0,400},{0.716667,110}}" />
+        <Window Type="DejaVu/StaticImage" Name="Root/FishCastingBarWnd/ImgBG" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="Image" Value="set:DejaVu image:FishBG" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        </Window>
+        <Window Type="DejaVu/CastingBarImage" Name="Root/FishCastingBarWnd/castingbarBG" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.95,0},{0.454545,0}}" />
+            <Property Name="VerticalAlignment" Value="Centre" />
+            <Window Type="DejaVu/TipTextLab" Name="Root/FishCastingBarWnd/TextName" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="BackgroundColours" Value="tl:11FFFFFF tr:11FFFFFF bl:11FFFFFF br:11FFFFFF" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="魚" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,32},{0,32}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+                <Window Type="DejaVu/StaticImage" Name="Root/FishCastingBarWnd/TextName/" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:DejaVu image:FishIcon" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/FishCastingBarWnd/castingbarBG/castingbarBack" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="Image" Value="set:DejaVu image:FishBar" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.36,0}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+                <Window Type="DejaVu/ProgressBarCast" Name="Root/FishCastingBarWnd/castingbarBG/castingbarBack/RangeBarL" >
+                    <Property Name="CurrentProgress" Value="0.95" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="StepSize" Value="0.01" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.007895,0},{-0.055556,0},{0.157895,0},{1.05556,0}}" />
+                </Window>
+                <Window Type="DejaVu/ProgressBarCast" Name="Root/FishCastingBarWnd/castingbarBG/castingbarBack/RangeBarR" >
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="CurrentProgress" Value="0.95" />
+                    <Property Name="HorizontalAlignment" Value="Right" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="StepSize" Value="0.01" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{-0.055556,0},{0.15,0},{1.05556,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/FishCastingBarWnd/castingbarBG/castingbarBack/" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                    <Property Name="Image" Value="set:main image:BPBar" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.222222,0},{0.7,0},{0.722222,0}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/StaticTextLab" Name="Root/FishCastingBarWnd/TextTime" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Property Name="HorzFormatting" Value="WordWrapCentred" />
+            <Property Name="Text" Value="Time" />
+            <Property Name="UnifiedAreaRect" Value="{{-0.00498078,0},{0.691055,0},{0.577232,0},{0.841708,0}}" />
+        </Window>
+        <Window Type="DejaVu/ImageButton" Name="Root/FishCastingBarWnd/CloseBtn" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="DisabledImage" Value="set:DejaVu image:set:DejaVu image:set:DejaVu image:NewCloseButtonNormal" />
+            <Property Name="HoverImage" Value="set:DejaVu image:NewCloseButtonHover" />
+            <Property Name="NormalImage" Value="set:DejaVu image:NewCloseButtonNormal" />
+            <Property Name="PushedImage" Value="set:DejaVu image:set:DejaVu image:set:DejaVu image:NewCloseButtonNormal" />
+            <Property Name="UnifiedAreaRect" Value="{{0.916526,0},{0.116938,0},{0.946526,0},{0.226029,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticText" Name="Root/FishCastingBarWnd/HelpTxt" >
+            <Property Name="Alpha" Value="0.8" />
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="Text" Value="x以左右鍵控制魚的移動x" />
+            <Property Name="TextColours" Value="tl:FF3333AA tr:FF3333AA bl:FF3333AA br:FF3333AA" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.127273,0},{0.6475,0},{0.304738,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

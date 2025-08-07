@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/FamilyAdministrationWnd" >
+        <Property Name="HorizontalAlignment" Value="Centre" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,674},{0,488}}" />
+        <Property Name="VerticalAlignment" Value="Centre" />
+        <Window Type="DejaVu/Static" Name="Root/FamilyAdministrationWnd/Block2" >
+            <Property Name="UnifiedAreaRect" Value="{{0.397626,0},{0.00819672,0},{0.994065,0},{0.598361,0}}" />
+            <Window Type="DejaVu/Embed" Name="Root/FamilyAdministrationWnd/Block2/House0" >
+                <Property Name="UnifiedAreaRect" Value="{{0.0149254,0},{0.368056,0},{0.328358,0},{0.8125,0}}" />
+                <Window Type="DejaVu/SlotImage" Name="Root/FamilyAdministrationWnd/Block2/House/Slot0" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.047619,0},{0.046875,0},{0.31746,0},{0.3125,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/FamilyAdministrationWnd/Block2/House/Name0" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" Value="L09.煉金小屋" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.365079,0},{0.125,0},{0.952381,0},{0.234375,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/FamilyAdministrationWnd/Block2/House/Durability0" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" Value="毀損：100 / 999" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.047619,0},{0.359375,0},{0.952381,0},{0.46875,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/FamilyAdministrationWnd/Block2/House/GoldTesxt0" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="RightAligned" />
+                    <Property Name="Text" Value="999999" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.047619,0},{0.671875,0},{0.412698,0},{0.78125,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/FamilyAdministrationWnd/Block2/House/GoldIcon0" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:DejaVu image:GoldIcon" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.444444,0},{0.671875,0},{0.555556,0},{0.78125,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/FamilyAdministrationWnd/Block2/House/SliverText0" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="RightAligned" />
+                    <Property Name="Text" Value="999" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.555556,0},{0.671875,0},{0.793651,0},{0.78125,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/FamilyAdministrationWnd/Block2/House/SliverIcon0" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:DejaVu image:SilverIcon" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.84127,0},{0.671875,0},{0.952381,0},{0.78125,0}}" />
+                </Window>
+                <Window Type="DejaVu/ProgressBar" Name="Root/FamilyAdministrationWnd/Block2/House/ExpBar0" >
+                    <Property Name="CurrentProgress" Value="0" />
+                    <Property Name="StepSize" Value="0.01" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.269841,0},{0.828125,0},{0.952381,0},{0.953125,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/FamilyAdministrationWnd/Block2/House/ExpText0" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" >EXP：
+
+</Property>
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.047619,0},{0.828125,0},{0.222222,0},{0.9375,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/FamilyAdministrationWnd/Block2/House/MaintenanceCosts0" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" Value="維修費" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.047619,0},{0.515625,0},{0.952381,0},{0.625,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/FamilyAdministrationWnd/Block2/RepairAllBG" >
+                <Property Name="UnifiedAreaRect" Value="{{0.880597,0},{0.833333,0},{0.985075,0},{0.979167,0}}" />
+                <Window Type="DejaVu/ImageButton" Name="Root/FamilyAdministrationWnd/Block2/RepairAll" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="DisabledImage" Value="set:DejaVu image:FixAllDisable" />
+                    <Property Name="HoverImage" Value="set:DejaVu image:FixAllHover" />
+                    <Property Name="NormalImage" Value="set:DejaVu image:FixAllNormal" />
+                    <Property Name="PushedImage" Value="set:DejaVu image:FixAllPress" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0952381,0},{0.0952381,0},{0.904762,0},{0.904762,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/FamilyAdministrationWnd/Block2/CommandText" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" Value="x城鎮命令" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0298507,0},{0.0208333,0},{0.208955,0},{0.0694444,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/FamilyAdministrationWnd/Block2/ProduceBuildingText" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" Value="x城鎮營運" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0298507,0},{0.298611,0},{0.208955,0},{0.347222,0}}" />
+            </Window>
+            <Window Type="DejaVu/Embed" Name="Root/FamilyAdministrationWnd/Block2/CommandBorder" >
+                <Property Name="UnifiedAreaRect" Value="{{0.0149254,0},{0.0902778,0},{0.985075,0},{0.277778,0}}" />
+                <Window Type="DejaVu/Button" Name="Root/FamilyAdministrationWnd/Block2/BusinessTax" >
+                    <Property Name="Text" Value="x營業稅制" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0307692,0},{0.269876,0},{0.210256,0},{0.603209,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/FamilyAdministrationWnd/Block2/CommandBorder/TaxText" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.225641,0},{0.269876,0},{0.97825,0},{0.603209,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/FamilyAdministrationWnd/Block2/Help1" >
+                <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                <Property Name="ID" Value="1" />
+                <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0.950249,0},{0.0208333,0},{0.985075,0},{0.0694444,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/FamilyAdministrationWnd/Block2/RepairBG" >
+                <Property Name="UnifiedAreaRect" Value="{{0.761194,0},{0.833333,0},{0.865672,0},{0.979167,0}}" />
+                <Window Type="DejaVu/ImageButton" Name="Root/FamilyAdministrationWnd/Block2/Repair" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="DisabledImage" Value="set:DejaVu image:FixoneDisable" />
+                    <Property Name="HoverImage" Value="set:DejaVu image:FixoneHover" />
+                    <Property Name="NormalImage" Value="set:DejaVu image:FixoneNormal" />
+                    <Property Name="PushedImage" Value="set:DejaVu image:FixonePress" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0952381,0},{0.0952381,0},{0.904762,0},{0.904762,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/FamilyAdministrationWnd/Block2/Help2" >
+                <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                <Property Name="ID" Value="2" />
+                <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0.950249,0},{0.298611,0},{0.985075,0},{0.347222,0}}" />
+            </Window>
+            <Window Type="DejaVu/Embed" Name="Root/FamilyAdministrationWnd/Block2/House1" >
+                <Property Name="UnifiedAreaRect" Value="{{0.343284,0},{0.368056,0},{0.656716,0},{0.8125,0}}" />
+                <Window Type="DejaVu/SlotImage" Name="Root/FamilyAdministrationWnd/Block2/House/Slot1" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.047619,0},{0.046875,0},{0.31746,0},{0.3125,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/FamilyAdministrationWnd/Block2/House/Name1" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" Value="L09.煉金小屋" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.365079,0},{0.125,0},{0.952381,0},{0.234375,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/FamilyAdministrationWnd/Block2/House/Durability1" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" Value="毀損：100 / 999" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.047619,0},{0.359375,0},{0.952381,0},{0.46875,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/FamilyAdministrationWnd/Block2/House/GoldTesxt1" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="RightAligned" />
+                    <Property Name="Text" Value="999999" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.047619,0},{0.671875,0},{0.412698,0},{0.78125,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/FamilyAdministrationWnd/Block2/House/GoldIcon1" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:DejaVu image:GoldIcon" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.444444,0},{0.671875,0},{0.555556,0},{0.78125,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/FamilyAdministrationWnd/Block2/House/SliverText1" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="RightAligned" />
+                    <Property Name="Text" Value="999" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.555556,0},{0.671875,0},{0.793651,0},{0.78125,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/FamilyAdministrationWnd/Block2/House/SliverIcon1" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:DejaVu image:SilverIcon" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.84127,0},{0.671875,0},{0.952381,0},{0.78125,0}}" />
+                </Window>
+                <Window Type="DejaVu/ProgressBar" Name="Root/FamilyAdministrationWnd/Block2/House/ExpBar1" >
+                    <Property Name="CurrentProgress" Value="0" />
+                    <Property Name="StepSize" Value="0.01" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.269841,0},{0.828125,0},{0.952381,0},{0.953125,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/FamilyAdministrationWnd/Block2/House/ExpText1" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" >EXP：
+
+</Property>
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.047619,0},{0.828125,0},{0.222222,0},{0.9375,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/FamilyAdministrationWnd/Block2/House/MaintenanceCosts1" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" Value="MaintenanceCosts1" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.047619,0},{0.515625,0},{0.952381,0},{0.625,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed" Name="Root/FamilyAdministrationWnd/Block2/House2" >
+                <Property Name="UnifiedAreaRect" Value="{{0.671642,0},{0.368056,0},{0.985075,0},{0.8125,0}}" />
+                <Window Type="DejaVu/SlotImage" Name="Root/FamilyAdministrationWnd/Block2/House/Slot2" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.047619,0},{0.046875,0},{0.31746,0},{0.3125,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/FamilyAdministrationWnd/Block2/House/Name2" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" Value="L09.煉金小屋" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.365079,0},{0.125,0},{0.952381,0},{0.234375,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/FamilyAdministrationWnd/Block2/House/Durability2" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" Value="毀損：100 / 999" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.047619,0},{0.359375,0},{0.952381,0},{0.46875,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/FamilyAdministrationWnd/Block2/House/GoldTesxt2" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="RightAligned" />
+                    <Property Name="Text" Value="999999" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.047619,0},{0.671875,0},{0.412698,0},{0.78125,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/FamilyAdministrationWnd/Block2/House/GoldIcon2" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:DejaVu image:GoldIcon" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.444444,0},{0.671875,0},{0.555556,0},{0.78125,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/FamilyAdministrationWnd/Block2/House/SliverText2" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="RightAligned" />
+                    <Property Name="Text" Value="999" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.555556,0},{0.671875,0},{0.793651,0},{0.78125,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/FamilyAdministrationWnd/Block2/House/SliverIcon2" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:DejaVu image:SilverIcon" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.84127,0},{0.671875,0},{0.952381,0},{0.78125,0}}" />
+                </Window>
+                <Window Type="DejaVu/ProgressBar" Name="Root/FamilyAdministrationWnd/Block2/House/ExpBar2" >
+                    <Property Name="CurrentProgress" Value="0" />
+                    <Property Name="StepSize" Value="0.01" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.269841,0},{0.828125,0},{0.952381,0},{0.953125,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/FamilyAdministrationWnd/Block2/House/ExpText2" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" >EXP：
+
+</Property>
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.047619,0},{0.828125,0},{0.222222,0},{0.9375,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/FamilyAdministrationWnd/Block2/House/MaintenanceCosts2" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" Value="MaintenanceCosts1" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.047619,0},{0.515625,0},{0.952381,0},{0.625,0}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="Root/FamilyAdministrationWnd/Block1" >
+            <Property Name="UnifiedAreaRect" Value="{{0.00593472,0},{0.00819672,0},{0.388724,0},{0.598361,0}}" />
+            <Window Type="DejaVu/Embed" Name="Root/FamilyAdministrationWnd/Block1/DataBorder" >
+                <Property Name="UnifiedAreaRect" Value="{{0.023256,0},{0.090278,0},{0.976744,0},{0.970827,0}}" />
+                <Window Type="DejaVu/ScrollablePane" Name="Root/FamilyAdministrationWnd/Block1/DataBorder/Pane" >
+                    <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                    <Property Name="HorzOverlapSize" Value="0.01" />
+                    <Property Name="HorzScrollPosition" Value="0" />
+                    <Property Name="HorzStepSize" Value="0.1" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0243902,0},{0.0258621,0},{0.97561,0},{0.978448,0}}" />
+                    <Property Name="VertOverlapSize" Value="0.01" />
+                    <Property Name="VertScrollPosition" Value="0" />
+                    <Property Name="VertStepSize" Value="0.1" />
+                    <AutoWindow NameSuffix="__auto_container__" >
+                        <Property Name="ChildExtentsArea" Value="l:0 t:0 r:0 b:0" />
+                        <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                        <Property Name="MouseInputPropagationEnabled" Value="True" />
+                    </AutoWindow>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/FamilyAdministrationWnd/Block1/Help" >
+                <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0.922481,0},{0.0208333,0},{0.976744,0},{0.0694444,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/FamilyAdministrationWnd/Block1/FamilyName" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" Value="x阿卡貝拉友愛之鎮" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0465116,0},{0.0208333,0},{0.879845,0},{0.0694444,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="Root/FamilyAdministrationWnd/Block3/" >
+            <Property Name="UnifiedAreaRect" Value="{{0.00593472,0},{0.610656,0},{0.994065,0},{0.991803,0}}" />
+            <Window Type="DejaVu/Listbox" Name="Root/FamilyAdministrationWnd/Block3//NPCList" >
+                <Property Name="ColumnsMovable" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.009009,0},{0.032258,0},{0.990991,0},{0.967742,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

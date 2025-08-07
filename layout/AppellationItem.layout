@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/Embed2" Name="AppellationItem" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="ID" Value="4" />
+        <Property Name="RiseOnClick" Value="False" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,550},{0,20}}" />
+        <Property Name="ZOrderChangeEnabled" Value="False" />
+        <Window Type="DejaVu/StaticTextLab" Name="AppellationItem/NameText" >
+            <Property Name="ID" Value="1" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="Text" Value="12345678910" />
+            <Property Name="UnifiedAreaRect" Value="{{0.027273,0},{0,0},{0.75,0},{1,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticTextLab" Name="AppellationItem/PlusInfoText" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="ID" Value="2" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="Text" >傷害值 + 1000
+</Property>
+            <Property Name="UnifiedAreaRect" Value="{{0.75,0},{0,0},{1,0},{1,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

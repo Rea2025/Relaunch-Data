@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/Static" Name="RaidWndFrame" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.070175,0},{0.119942,0},{0.070175,193},{0.119942,78}}" />
+        <Window Type="DejaVu/StaticImage" Name="RaidWndFrame/infoBG" >
+            <Property Name="Image" Value="set:main image:GroupInfo" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,177},{0,62}}" />
+            <Window Type="DejaVu/StaticTextLab" Name="RaidWndFrame/LvText" >
+                <Property Name="Text" Value="999" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0451977,0},{0.16129,0},{0.158192,0},{0.387097,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="RaidWndFrame/Name" >
+                <Property Name="Text" Value="一二三四五六七八" />
+                <Property Name="UnifiedAreaRect" Value="{{0.186441,0},{0.16129,0},{0.751413,0},{0.387097,0}}" />
+            </Window>
+            <Window Type="DejaVu/ProgressBar" Name="RaidWndFrame/hp_bar" >
+                <Property Name="CurrentProgress" Value="0" />
+                <Property Name="StepSize" Value="0.01" />
+                <Property Name="UnifiedAreaRect" Value="{{0.429379,0},{0.548387,0},{0.937853,0},{0.66129,0}}" />
+            </Window>
+            <Window Type="DejaVu/ProgressBar2" Name="RaidWndFrame/mp_bar" >
+                <Property Name="CurrentProgress" Value="0" />
+                <Property Name="StepSize" Value="0.01" />
+                <Property Name="UnifiedAreaRect" Value="{{0.429379,0},{0.758065,0},{0.937854,0},{0.870968,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="RaidWndFrame/hp_text" >
+                <Property Name="Text" Value="HP" />
+                <Property Name="UnifiedAreaRect" Value="{{0.310734,0},{0.5,0},{0.39548,0},{0.725806,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="RaidWndFrame/mp_text" >
+                <Property Name="Text" Value="MP" />
+                <Property Name="UnifiedAreaRect" Value="{{0.310734,0},{0.693548,0},{0.39548,0},{0.919355,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="RaidWndFrame/weapon_icon1" >
+                <Property Name="Image" Value="set:main image:noimage" />
+                <Property Name="UnifiedAreaRect" Value="{{0.039548,0},{0.564516,0},{0.141243,0},{0.854839,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="RaidWndFrame/weapon_icon2" >
+                <Property Name="Image" Value="set:main image:noimage" />
+                <Property Name="UnifiedAreaRect" Value="{{0.158192,0},{0.564516,0},{0.259887,0},{0.854839,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="RaidWndFrame/Lead" >
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Image" Value="set:main image:LeaderIcon" />
+                <Property Name="UnifiedAreaRect" Value="{{1,0},{0.0322581,0},{1.0904,0},{0.306452,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="RaidWndFrame/buffBG" >
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.794872,0},{0,168},{0.794872,16}}" />
+            <Window Type="DejaVu/StaticImage" Name="RaidWndFrame/buff1" >
+                <Property Name="Image" Value="set:main image:noimage" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.0952381,0},{1,0}}" />
+                <Window Type="DejaVu/StaticText" Name="RaidWndFrame/buff1/Text" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorzFormatting" Value="RightAligned" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    <Property Name="VerticalAlignment" Value="Bottom" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="RaidWndFrame/buff2" >
+                <Property Name="Image" Value="set:main image:noimage" />
+                <Property Name="UnifiedAreaRect" Value="{{0.125,0},{0,0},{0.220238,0},{1,0}}" />
+                <Window Type="DejaVu/StaticText" Name="RaidWndFrame/buff2/Text" >
+                    <Property Name="HorzFormatting" Value="RightAligned" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    <Property Name="VerticalAlignment" Value="Bottom" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="RaidWndFrame/buff3" >
+                <Property Name="Image" Value="set:main image:noimage" />
+                <Property Name="UnifiedAreaRect" Value="{{0.25,0},{0,0},{0.345238,0},{1,0}}" />
+                <Window Type="DejaVu/StaticText" Name="RaidWndFrame/buff3/Text" >
+                    <Property Name="HorzFormatting" Value="RightAligned" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    <Property Name="VerticalAlignment" Value="Bottom" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="RaidWndFrame/buff4" >
+                <Property Name="Image" Value="set:main image:noimage" />
+                <Property Name="UnifiedAreaRect" Value="{{0.375,0},{0,0},{0.470238,0},{1,0}}" />
+                <Window Type="DejaVu/StaticText" Name="RaidWndFrame/buff4/Text" >
+                    <Property Name="HorzFormatting" Value="RightAligned" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    <Property Name="VerticalAlignment" Value="Bottom" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="RaidWndFrame/buff5" >
+                <Property Name="Image" Value="set:main image:noimage" />
+                <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0,0},{0.595238,0},{1,0}}" />
+                <Window Type="DejaVu/StaticText" Name="RaidWndFrame/buff5/Text" >
+                    <Property Name="HorzFormatting" Value="RightAligned" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    <Property Name="VerticalAlignment" Value="Bottom" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="RaidWndFrame/buff6" >
+                <Property Name="Image" Value="set:main image:noimage" />
+                <Property Name="UnifiedAreaRect" Value="{{0.625,0},{0,0},{0.720238,0},{1,0}}" />
+                <Window Type="DejaVu/StaticText" Name="RaidWndFrame/buff6/Text" >
+                    <Property Name="HorzFormatting" Value="RightAligned" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    <Property Name="VerticalAlignment" Value="Bottom" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="RaidWndFrame/buff7" >
+                <Property Name="Image" Value="set:main image:noimage" />
+                <Property Name="UnifiedAreaRect" Value="{{0.75,0},{0,0},{0.845238,0},{1,0}}" />
+                <Window Type="DejaVu/StaticText" Name="RaidWndFrame/buff7/Text" >
+                    <Property Name="HorzFormatting" Value="RightAligned" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    <Property Name="VerticalAlignment" Value="Bottom" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="RaidWndFrame/buff8" >
+                <Property Name="Image" Value="set:main image:noimage" />
+                <Property Name="UnifiedAreaRect" Value="{{0.875,0},{0,0},{0.970238,0},{1,0}}" />
+                <Window Type="DejaVu/StaticText" Name="RaidWndFrame/buff8/Text" >
+                    <Property Name="HorzFormatting" Value="RightAligned" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    <Property Name="VerticalAlignment" Value="Bottom" />
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

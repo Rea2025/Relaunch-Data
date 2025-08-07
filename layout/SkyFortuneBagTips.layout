@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="SkyFortuneBagTips" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="TitlebarImage" Value="set:main image:ItemMallNormal" />
+        <Property Name="UnifiedAreaRect" Value="{{0.366211,0},{0.401041,0},{0.366211,300},{0.401041,350}}" />
+        <Window Type="DejaVu/Embed" Name="SkyFortuneBagTips/Embed" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.00101112,0},{1,0},{1.00101,0}}" />
+            <Window Type="DejaVu/Embed2" Name="SkyFortuneBagTips/Embed/Embed2" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.04,0},{0.0625,0},{0.959422,0},{0.8625,0}}" />
+                <Window Type="DejaVu/VScrolledText" Name="SkyFortuneBagTips/Embed/Embed2/Text" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                    <Property Name="Text" >規則設定如下：
+1.每抽取1次時固定消耗數個指定道具，消耗量會隨著抽取次數增多而增加。
+
+2.福袋各內容物皆只能抽取1次。
+
+3.隨著每次抽取，福袋內容物會越來越少。
+
+4.抽取獲得的道具皆會先被存放於「福袋暫存」區域內，當暫存區空間不足時，則無法繼續進行抽取。
+
+5.一旦福袋內容物抽取剩餘次數皆剩餘0時，則該福袋無法再被抽取。</Property>
+                    <Property Name="UnifiedAreaRect" Value="{{0.008696,0},{0.018182,0},{0.990718,0},{0.981485,0}}" />
+                    <Property Name="VertFormatting" Value="TopAligned" />
+                    <Property Name="VertScrollbar" Value="True" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Button" Name="SkyFortuneBagTips/Embed/Confirm" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="確定" />
+                <Property Name="UnifiedAreaRect" Value="{{0.366197,0},{0.885185,0},{0.633803,0},{0.981481,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="SetWeaponWnd" >
+        <Property Name="AlwaysOnTop" Value="False" />
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="TitlebarImage" Value="set:main image:SkillNormal" />
+        <Property Name="UnifiedAreaRect" Value="{{0.171875,0},{0.137131,0},{0.171875,595},{0.137131,546}}" />
+        <Window Type="DejaVu/TabControl" Name="SetWeaponWnd/TabControl" >
+            <Property Name="TabHeight" Value="{0,26.1528}" />
+            <Property Name="TabPanePosition" Value="Top" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1.00076,0}}" />
+            <Window Type="DefaultWindow" Name="SetWeaponWnd/TabControl/Tab 1" >
+                <Property Name="Text" Value="x更換主武器" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,579},{0,434.847}}" />
+            </Window>
+            <Window Type="DefaultWindow" Name="SetWeaponWnd/TabControl/Tab 2" >
+                <Property Name="Text" Value="x更換副武器" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,579},{0,434.847}}" />
+                <Property Name="Visible" Value="False" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Embed" Name="SetWeaponWnd/BG" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0504767,0},{1,0},{1.01612,0}}" />
+            <Window Type="DejaVu/Static" Name="SetWeaponWnd/Info" >
+                <Property Name="UnifiedAreaRect" Value="{{0.430052,0},{0.0214592,0},{0.982729,0},{0.912017,0}}" />
+                <Window Type="DejaVu/Embed2" Name="SetWeaponWnd/Info/Video" >
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0240964,0},{1,0},{0.590361,0}}" />
+                    <Window Type="DejaVu/Embed" Name="SetWeaponWnd/Info/Video/BG" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.03125,0},{0.106383,0},{0.96875,0},{0.957447,0}}" />
+                        <Window Type="DejaVu/StaticImage" Name="SetWeaponWnd/Info/Video/BG2" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="HorizontalAlignment" Value="Centre" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.833333,0},{0.9,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                            <Window Type="DejaVu/StaticImage" Name="SetWeaponWnd/Info/Video/VideoView" >
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="HorizontalAlignment" Value="Centre" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                            </Window>
+                        </Window>
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed2" Name="SetWeaponWnd/Info/Describe" >
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.592771,0},{1,0},{1,0}}" />
+                    <Window Type="DejaVu/VScrolledText" Name="SetWeaponWnd/Info/Describe/Text" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                        <Property Name="Text" >字中字
+
+字字字字字字字字字字字宇字字字字字字字字字字字字字字字字字字字字字字字字字字字字字字字字字字
+</Property>
+                        <Property Name="UnifiedAreaRect" Value="{{0.03125,0},{0.059172,0},{0.96875,0},{0.662722,0}}" />
+                        <Property Name="VertFormatting" Value="TopAligned" />
+                        <Property Name="VertScrollbar" Value="True" />
+                    </Window>
+                    <Window Type="DejaVu/Static" Name="SetWeaponWnd/Info/Describe/CombineSpellBG" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.03125,0},{0.695652,0},{0.96875,0},{0.968944,0}}" />
+                        <Window Type="DejaVu/StaticTextLab" Name="SetWeaponWnd/Info/Describe/CombineSpellBG/CombineSpellText" >
+                            <Property Name="Text" Value="x可習得的特殊組合技：" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.006667,0},{0.045454,0},{0.513334,0},{0.954545,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="SetWeaponWnd/Info/Describe/CombineSpellBG/CombineSpellIcon_1" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.53,0},{0.0454545,0},{0.67,0},{1,0}}" />
+                            <Window Type="DejaVu/StaticImage" Name="SetWeaponWnd/Info/Describe/CombineSpellBG/CombineSpellIcon_1/Frame" >
+                                <Property Name="HorizontalAlignment" Value="Centre" />
+                                <Property Name="Image" Value="set:DejaVu image:WhiteItem" />
+                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.880952,0},{0.880952,0}}" />
+                                <Property Name="VerticalAlignment" Value="Centre" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="SetWeaponWnd/Info/Describe/CombineSpellBG/CombineSpellIcon_2" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.686667,0},{0.0454545,0},{0.826667,0},{1,0}}" />
+                            <Window Type="DejaVu/StaticImage" Name="SetWeaponWnd/Info/Describe/CombineSpellBG/CombineSpellIcon_2/Frame" >
+                                <Property Name="HorizontalAlignment" Value="Centre" />
+                                <Property Name="Image" Value="set:DejaVu image:WhiteItem" />
+                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.892857,0},{0.892857,0}}" />
+                                <Property Name="VerticalAlignment" Value="Centre" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="SetWeaponWnd/Info/Describe/CombineSpellBG/CombineSpellIcon_3" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.843333,0},{0.0454545,0},{0.983333,0},{1,0}}" />
+                            <Window Type="DejaVu/StaticImage" Name="SetWeaponWnd/Info/Describe/CombineSpellBG/CombineSpellIcon_3/Frame" >
+                                <Property Name="HorizontalAlignment" Value="Centre" />
+                                <Property Name="Image" Value="set:DejaVu image:WhiteItem" />
+                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.892857,0},{0.892857,0}}" />
+                                <Property Name="VerticalAlignment" Value="Centre" />
+                            </Window>
+                        </Window>
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Button" Name="SetWeaponWnd/ConfirmBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="Text" Value="x確定" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.017271,0},{-0.021459,0},{0.11399,0},{0.034335,0}}" />
+                <Property Name="VerticalAlignment" Value="Bottom" />
+            </Window>
+            <Window Type="DejaVu/Static" Name="SetWeaponWnd/Select" >
+                <Property Name="UnifiedAreaRect" Value="{{0.017271,0},{0.021459,0},{0.421416,0},{0.978541,0}}" />
+                <Window Type="DejaVu/Embed2" Name="SetWeaponWnd/Select/WeaponList" >
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.022422,0},{1,0},{0.636772,0}}" />
+                    <Window Type="DejaVu/Embed2" Name="SetWeaponWnd/Select/WeaponList/BG" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.042735,0},{0.0912409,0},{0.957265,0},{0.963504,0}}" />
+                        <Window Type="DejaVu/Static" Name="SetWeaponWnd/Select/WeaponList/BG2" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.009346,0},{0.009346,0},{0.990654,0},{0.99261,0}}" />
+                            <Window Type="DejaVu/EmbedTextLab7" Name="SetWeaponWnd/Select/WeaponList/Title" >
+                                <Property Name="HorzFormatting" Value="HorzCentred" />
+                                <Property Name="Text" Value="x副武選擇" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.106383,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/ScrollablePane" Name="SetWeaponWnd/Select/WeaponList/List" >
+                                <Property Name="ContentArea" Value="l:0 t:0 r:195 b:50" />
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="HorzOverlapSize" Value="0.01" />
+                                <Property Name="HorzScrollPosition" Value="0" />
+                                <Property Name="HorzStepSize" Value="0.1" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.106383,0},{1,0},{1,0}}" />
+                                <Property Name="VertOverlapSize" Value="0.01" />
+                                <Property Name="VertScrollPosition" Value="0" />
+                                <Property Name="VertStepSize" Value="0.1" />
+                                <AutoWindow NameSuffix="__auto_container__" >
+                                    <Property Name="ChildExtentsArea" Value="l:0 t:0 r:195 b:50" />
+                                    <Property Name="ContentArea" Value="l:0 t:0 r:195 b:50" />
+                                    <Property Name="MouseInputPropagationEnabled" Value="True" />
+                                    <Window Type="DejaVu/Zframe2" Name="SetWeaponWnd/Select/WeaponList/List/SelectFrame" >
+                                        <Property Name="AlwaysOnTop" Value="True" />
+                                        <Property Name="ID" Value="4" />
+                                        <Property Name="MousePassThroughEnabled" Value="True" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.928571,0},{0.247619,0}}" />
+                                    </Window>
+                                </AutoWindow>
+                            </Window>
+                        </Window>
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed2" Name="SetWeaponWnd/Select/Skill" >
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.639013,0},{1,0},{1,0}}" />
+                    <Window Type="DejaVu/Embed2" Name="SetWeaponWnd/Select/Skill/Back" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.042735,0},{0.062893,0},{0.957265,0},{0.937107,0}}" />
+                        <Window Type="DejaVu/SlotImage" Name="SetWeaponWnd/Select/Skill/Icon_1" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.042056,0},{0.262411,0},{0.238318,0},{0.560283,0}}" />
+                            <Window Type="DejaVu/StaticImage" Name="SetWeaponWnd/Select/Skill/Icon_1/Frame" >
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="HorizontalAlignment" Value="Centre" />
+                                <Property Name="Image" Value="set:DejaVu image:WhiteItem" />
+                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.892857,0},{0.892857,0}}" />
+                                <Property Name="VerticalAlignment" Value="Centre" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="SetWeaponWnd/Select/Skill/Icon_5" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.042056,0},{0.631206,0},{0.238318,0},{0.929078,0}}" />
+                            <Window Type="DejaVu/StaticImage" Name="SetWeaponWnd/Select/Skill/Icon_5/Frame" >
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="HorizontalAlignment" Value="Centre" />
+                                <Property Name="Image" Value="set:DejaVu image:WhiteItem" />
+                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.892857,0},{0.892857,0}}" />
+                                <Property Name="VerticalAlignment" Value="Centre" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="SetWeaponWnd/Select/Skill/Icon_2" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.280374,0},{0.262411,0},{0.476636,0},{0.560283,0}}" />
+                            <Window Type="DejaVu/StaticImage" Name="SetWeaponWnd/Select/Skill/Icon_2/Frame" >
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="HorizontalAlignment" Value="Centre" />
+                                <Property Name="Image" Value="set:DejaVu image:WhiteItem" />
+                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.892857,0},{0.892857,0}}" />
+                                <Property Name="VerticalAlignment" Value="Centre" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="SetWeaponWnd/Select/Skill/Icon_3" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.518692,0},{0.262411,0},{0.714954,0},{0.560283,0}}" />
+                            <Window Type="DejaVu/StaticImage" Name="SetWeaponWnd/Select/Skill/Icon_3/Frame" >
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="HorizontalAlignment" Value="Centre" />
+                                <Property Name="Image" Value="set:DejaVu image:WhiteItem" />
+                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.892857,0},{0.892857,0}}" />
+                                <Property Name="VerticalAlignment" Value="Centre" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="SetWeaponWnd/Select/Skill/Icon_4" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.757009,0},{0.262411,0},{0.953271,0},{0.560283,0}}" />
+                            <Window Type="DejaVu/StaticImage" Name="SetWeaponWnd/Select/Skill/Icon_4/Frame" >
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="HorizontalAlignment" Value="Centre" />
+                                <Property Name="Image" Value="set:DejaVu image:WhiteItem" />
+                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.892857,0},{0.892857,0}}" />
+                                <Property Name="VerticalAlignment" Value="Centre" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="SetWeaponWnd/Select/Skill/Icon_6" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.280374,0},{0.631206,0},{0.476636,0},{0.929078,0}}" />
+                            <Window Type="DejaVu/StaticImage" Name="SetWeaponWnd/Select/Skill/Icon_6/Frame" >
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="HorizontalAlignment" Value="Centre" />
+                                <Property Name="Image" Value="set:DejaVu image:WhiteItem" />
+                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.892857,0},{0.892857,0}}" />
+                                <Property Name="VerticalAlignment" Value="Centre" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="SetWeaponWnd/Select/Skill/Icon_7" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.518692,0},{0.631206,0},{0.714954,0},{0.929078,0}}" />
+                            <Window Type="DejaVu/StaticImage" Name="SetWeaponWnd/Select/Skill/Icon_7/Frame" >
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="HorizontalAlignment" Value="Centre" />
+                                <Property Name="Image" Value="set:DejaVu image:WhiteItem" />
+                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.892857,0},{0.892857,0}}" />
+                                <Property Name="VerticalAlignment" Value="Centre" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="SetWeaponWnd/Select/Skill/Icon_8" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.757009,0},{0.631206,0},{0.953271,0},{0.929078,0}}" />
+                            <Window Type="DejaVu/StaticImage" Name="SetWeaponWnd/Select/Skill/Icon_8/Frame" >
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="HorizontalAlignment" Value="Centre" />
+                                <Property Name="Image" Value="set:DejaVu image:WhiteItem" />
+                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.892857,0},{0.892857,0}}" />
+                                <Property Name="VerticalAlignment" Value="Centre" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/EmbedTextLab7" Name="SetWeaponWnd/Select/Skill/Title" >
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="x副武技能" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.009346,0},{0.014184,0},{0.990654,0},{0.191489,0}}" />
+                        </Window>
+                    </Window>
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/TipTextLab" Name="Root/TutorailWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.198047,0},{0.250781,0},{0.364063,0},{0.407031,0}}" />
+        <Window Type="DejaVu/StaticText" Name="Root/TutorailWnd/Text" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="Text" Value="Text" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0588235,0},{0.25,0},{0.0588235,150},{0.25,80}}" />
+        </Window>
+        <Window Type="DejaVu/ImageButton" Name="Root/TutorailWnd/CloseBtn" >
+            <Property Name="DisabledImage" Value="set:DejaVu image:NewCloseButtonPressed" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HorizontalAlignment" Value="Right" />
+            <Property Name="HoverImage" Value="set:DejaVu image:NewCloseButtonHover" />
+            <Property Name="NormalImage" Value="set:DejaVu image:NewCloseButtonNormal" />
+            <Property Name="PushedImage" Value="set:DejaVu image:NewCloseButtonPressed" />
+            <Property Name="UnifiedAreaRect" Value="{{-0.0294118,0},{0.0416667,0},{-0.0294118,20},{0.0416667,20}}" />
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="MoneyTransferWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="True" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.301424,0},{0.013316,0},{0.638124,0},{0.656817,0}}" />
+        <Window Type="DejaVu/Embed" Name="MoneyTransferWnd/BG" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.009191,0},{0.004823,0},{0.983248,0},{0.99747,0}}" />
+            <Window Type="DejaVu/Embed2" Name="MoneyTransferWnd/BG/BG2" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.029795,0},{0.02911,0},{0.959984,0},{0.0890415,0}}" />
+                <Window Type="DejaVu/EmbedText7" Name="MoneyTransferWnd/BG/BG2/title" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="X貨幣種類" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.00583658,0},{0.119048,0},{0.159533,0},{0.880952,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="MoneyTransferWnd/BG/BG2/moneytext" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.233463,0},{0.119048,0},{0.76761,0},{0.880952,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="MoneyTransferWnd/BG/BG2/moneyImg" >
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.175287,0},{0.28,0},{0.20977,0},{0.76,0}}" />
+                </Window>
+                <Window Type="DejaVu/Button" Name="MoneyTransferWnd/BG/BG2/changeBtn" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="x更換" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.791594,0},{0.129032,0},{0.996498,0},{0.903226,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed2" Name="MoneyTransferWnd/BG/BG3" >
+                <Property Name="UnifiedAreaRect" Value="{{0.029795,0},{0.10017,0},{0.959984,0},{0.160102,0}}" />
+                <Window Type="DejaVu/EmbedText7" Name="MoneyTransferWnd/BG/BG3/title" >
+                    <Property Name="Text" Value="X轉出角色" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.00583658,0},{0.119048,0},{0.159533,0},{0.880952,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="MoneyTransferWnd/BG/BG3/charactertext" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.175097,0},{0.119048,0},{0.510046,0},{0.880953,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="MoneyTransferWnd/BG/BG3/moneytext1" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorzFormatting" Value="RightAligned" />
+                    <Property Name="Text" >1000
+</Property>
+                    <Property Name="UnifiedAreaRect" Value="{{0.502627,0},{0.129032,0},{0.619965,0},{0.903226,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="MoneyTransferWnd/BG/BG3/moneyImg1" >
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.632224,0},{0.290323,0},{0.66725,0},{0.774194,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="MoneyTransferWnd/BG/BG3/moneytext2" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorzFormatting" Value="RightAligned" />
+                    <Property Name="Text" Value="5000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.553415,0},{0.129032,0},{0.735552,0},{0.903226,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="MoneyTransferWnd/BG/BG3/moneyImg2" >
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.749562,0},{0.290323,0},{0.784588,0},{0.774194,0}}" />
+                </Window>
+                <Window Type="DejaVu/Button" Name="MoneyTransferWnd/BG/BG3/changeBtn" >
+                    <Property Name="Text" Value="x更換" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.791594,0},{0.129032,0},{0.996497,0},{0.903226,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed2" Name="MoneyTransferWnd/BG/BG4" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.027933,0},{0.184932,0},{0.960136,0},{0.75204,0}}" />
+                <Window Type="DejaVu/EmbedText7" Name="MoneyTransferWnd/BG/BG4/title" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="X選擇轉入角色" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.011532,0},{0.011682,0},{0.981829,0},{0.0910089,0}}" />
+                </Window>
+                <Window Type="DejaVu/ScrollablePane" Name="MoneyTransferWnd/BG/BG4/CharacterListWindow" >
+                    <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorzOverlapSize" Value="0.01" />
+                    <Property Name="HorzScrollPosition" Value="0" />
+                    <Property Name="HorzStepSize" Value="0.1" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.011696,0},{0.103365,0},{0.986355,0},{0.96875,0}}" />
+                    <Property Name="VertOverlapSize" Value="0.01" />
+                    <Property Name="VertScrollPosition" Value="0" />
+                    <Property Name="VertStepSize" Value="0.1" />
+                    <AutoWindow NameSuffix="__auto_container__" >
+                        <Property Name="ChildExtentsArea" Value="l:0 t:0 r:0 b:0" />
+                        <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                        <Property Name="MouseInputPropagationEnabled" Value="True" />
+                    </AutoWindow>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed2" Name="MoneyTransferWnd/BG/BG5" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0290557,0},{0.765595,0},{0.961259,0},{0.926276,0}}" />
+                <Window Type="DejaVu/EmbedText7" Name="MoneyTransferWnd/BG/BG5/title" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="X輸入轉出金額" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.012383,0},{0.031905,0},{0.98268,0},{0.382969,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="MoneyTransferWnd/BG/BG5/TransferInfo" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="x由角色「角色名稱五六」轉帳至「角色名稱五六」" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.027344,0},{0.482702,0},{0.850721,0},{0.937247,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="MoneyTransferWnd/BG/BG5/Text1" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.654297,0},{0.606383,0},{0.800781,0},{0.819149,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="MoneyTransferWnd/BG/BG5/Text2" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.849609,0},{0.606383,0},{0.947266,0},{0.819149,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="MoneyTransferWnd/BG/BG5/Text3" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.664063,0},{0.606383,0},{0.9375,0},{0.819149,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="MoneyTransferWnd/BG/BG5/Img1" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.802292,0},{0.606061,0},{0.836676,0},{0.787879,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="MoneyTransferWnd/BG/BG5/Img2" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.947266,0},{0.606383,0},{0.98165,0},{0.788201,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Button" Name="MoneyTransferWnd/BG/confirm" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="X確認轉帳" />
+                <Property Name="UnifiedAreaRect" Value="{{0.78013,0},{0.936538,0},{0.962541,0},{0.973077,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="MoneyTransferWnd/BG/history" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="X歷史記錄" />
+                <Property Name="UnifiedAreaRect" Value="{{0.570033,0},{0.938462,0},{0.752443,0},{0.975001,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

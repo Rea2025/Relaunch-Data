@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/Embed2" Name="Root/NewbieLoginDayDataItem" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.004808,0},{0.005834,0},{0.004808,450},{0.005834,60}}" />
+        <Window Type="DejaVu/Embed2" Name="Root/NewbieLoginDayDataItem/Main" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Checkbox" Name="Root/NewbieLoginDayDataItem/Main/FollowBox" >
+                <Property Name="UnifiedAreaRect" Value="{{0.0266667,0},{0,0},{0.0711111,0},{0.333333,0}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/NewbieLoginDayDataItem/Main/ActiveIcon" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="Image" Value="set:xi_main image:ClassIconCheck" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0244444,0},{0,0},{0.0688889,0},{0.333333,0}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+            </Window>
+            <Window Type="DejaVu/Static" Name="Root/NewbieLoginDayDataItem/Main/TextBG" >
+                <Property Name="UnifiedAreaRect" Value="{{0.088889,0},{0,0},{0.866667,0},{1,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/NewbieLoginDayDataItem/Main/TextBG/Title" >
+                    <Property Name="Text" Value="成就名稱" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0833333,0},{0.980676,0},{0.533333,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/NewbieLoginDayDataItem/Main/TextBG/Detail" >
+                    <Property Name="Text" Value="成就簡述" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.5,0},{0.980676,0},{0.95,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/NewbieLoginDayDataItem/Main/Reward01" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.744444,0},{0,0},{0.837778,0},{0.7,0}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/NewbieLoginDayDataItem/Main/Reward02" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.644444,0},{0,0},{0.737778,0},{0.7,0}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/NewbieLoginDayDataItem/Main/Reward03" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.544444,0},{0,0},{0.637778,0},{0.7,0}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/NewbieLoginDayDataItem/Main/Reward04" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.444444,0},{0,0},{0.537778,0},{0.7,0}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/NewbieLoginDayDataItem/Main/GetBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="InheritsTooltipText" Value="False" />
+                <Property Name="Text" Value="aaa" />
+                <Property Name="TextFrame" Value="True" />
+                <Property Name="TextFrameColour" Value="55000000" />
+                <Property Name="UnifiedAreaRect" Value="{{0.848889,0},{0,0},{0.982222,0},{0.5,0}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+                <Window Type="DejaVu/StaticImage" Name="Root/NewbieLoginDayDataItem/Main/GetBtn/Hint" >
+                    <Property Name="HorizontalAlignment" Value="Right" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.25,0},{0.5,0}}" />
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

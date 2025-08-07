@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/Monster_Treasure" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="TitlebarImage" Value="set:main image:SystemNormal" />
+        <Property Name="UnifiedAreaRect" Value="{{0.200195,0},{0.200521,0},{0.200195,308},{0.200521,391}}" />
+        <Window Type="DejaVu/Embed" Name="Root/Monster_Treasure/TreasureInfo" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.993569,0}}" />
+            <Window Type="DejaVu/Embed2" Name="Root/Monster_Treasure/TreasureInfo/Embed2" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.034247,0},{0.032362,0},{0.965754,0},{0.967637,0}}" />
+                <Window Type="DejaVu/ScrollablePane" Name="Root/Monster_Treasure/TreasureInfo/static/Border/ScrollPane" >
+                    <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorzOverlapSize" Value="0.01" />
+                    <Property Name="HorzScrollPosition" Value="0" />
+                    <Property Name="HorzStepSize" Value="0.1" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.00735294,0},{0.00692042,0},{0.992647,0},{0.99308,0}}" />
+                    <Property Name="VertOverlapSize" Value="0.01" />
+                    <Property Name="VertScrollPosition" Value="0" />
+                    <Property Name="VertStepSize" Value="0.1" />
+                    <AutoWindow NameSuffix="__auto_container__" >
+                        <Property Name="ChildExtentsArea" Value="l:0 t:0 r:0 b:0" />
+                        <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                        <Property Name="MouseInputPropagationEnabled" Value="True" />
+                    </AutoWindow>
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/Monster_Treasure/TreasureInfo/Embed3/HelpBtn" >
+                    <Property Name="DisabledImage" Value="set:DejaVu image:HelpButtonPressed" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                    <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                    <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.925373,0},{0.0164474,0},{0.981343,0},{0.0657895,0}}" />
+                    <Property Name="Visible" Value="False" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/Monster_Treasure/TreasureInfo/CloseBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="öӬ" />
+                <Property Name="UnifiedAreaRect" Value="{{0.735714,0},{0.931953,0},{0.978571,0},{0.982248,0}}" />
+                <Property Name="Visible" Value="False" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

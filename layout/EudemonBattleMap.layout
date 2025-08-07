@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/Static" Name="EudemonBattleMap" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HorizontalAlignment" Value="Centre" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,838},{0,553}}" />
+        <Property Name="VerticalAlignment" Value="Centre" />
+        <Window Type="DejaVu/Static" Name="EudemonBattleMap/Map" >
+            <Property Name="UnifiedAreaRect" Value="{{0.0119332,0},{0.0180832,0},{0.673031,0},{0.981917,0}}" />
+            <Window Type="DejaVu/Embed2" Name="EudemonBattleMap/Map/Embed2" >
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0187617,0},{1,0},{1,0}}" />
+                <Window Type="DejaVu/Embed2" Name="EudemonBattleMap/Map/Embed2/Map" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.018051,0},{0.047801,0},{0.98195,0},{0.759082,0}}" />
+                    <Window Type="DejaVu/EmbedTextLab7" Name="EudemonBattleMap/Map/Embed2/Map/Title" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.003745,0},{0.006079,0},{0.996254,0},{0.0732833,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="EudemonBattleMap/Map/Embed2/Map/MapImg" >
+                        <Property Name="Image" Value="set:main11 image:CookingBG" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0187266,0},{0.166667,0},{0.580524,0},{0.973118,0}}" />
+                        <Window Type="DejaVu/ImageRadioButton" Name="EudemonBattleMap/Map/Embed2/Map/MapImg/BattleBtn" >
+                            <Property Name="DisabledImage" Value="set:main11 image:BattlePress" />
+                            <Property Name="HoverImage" Value="set:main11 image:BattleHover" />
+                            <Property Name="NormalImage" Value="set:main11 image:BattleNormal" />
+                            <Property Name="PushedImage" Value="set:main11 image:BattleSelect" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.116667,0},{0.116667,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Embed2" Name="EudemonBattleMap/Map/Embed2/Map/ListBG" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.589888,0},{0.086022,0},{0.981274,0},{0.973119,0}}" />
+                        <Window Type="DejaVu/MultiColumnListNoHeader" Name="EudemonBattleMap/Map/Embed2/Map/ListBG/List" >
+                            <Property Name="ColumnsMovable" Value="False" />
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.009569,0},{0.006061,0},{0.99043,0},{0.99394,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Combobox" Name="EudemonBattleMap/Map/Embed2/Map/Combobox" >
+                        <Property Name="MaxEditTextLength" Value="2147483647" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.018727,0},{0.086022,0},{0.580525,0},{0.51613,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed2" Name="EudemonBattleMap/Map/Embed2/Information" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.018051,0},{0.768642,0},{0.579423,0},{0.980879,0}}" />
+                    <Window Type="DejaVu/EmbedTextLab7" Name="EudemonBattleMap/Map/Embed2/Information/Title" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.006431,0},{0.018018,0},{0.993569,0},{0.243243,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/ScrollablePane" Name="EudemonBattleMap/Map/Embed2/Information/Pane" >
+                        <Property Name="ContentArea" Value="l:0 t:0 r:301 b:74" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HorzOverlapSize" Value="0.01" />
+                        <Property Name="HorzScrollPosition" Value="0" />
+                        <Property Name="HorzStepSize" Value="0.1" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.016077,0},{0.288288,0},{0.983923,0},{0.954955,0}}" />
+                        <Property Name="VertOverlapSize" Value="0.01" />
+                        <Property Name="VertScrollPosition" Value="0" />
+                        <Property Name="VertStepSize" Value="0.1" />
+                        <AutoWindow NameSuffix="__auto_container__" >
+                            <Property Name="ChildExtentsArea" Value="l:0 t:0 r:301 b:74" />
+                            <Property Name="ContentArea" Value="l:0 t:0 r:301 b:74" />
+                            <Property Name="MouseInputPropagationEnabled" Value="True" />
+                            <Window Type="DejaVu/StaticText" Name="EudemonBattleMap/Map/Embed2/Information/Text" >
+                                <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                                <Property Name="LinespaceWindow" Value="True" />
+                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                <Property Name="Text" Value="2222222222222222222222222222222222222222222222222222222222222222222222454564644" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                <Property Name="VertFormatting" Value="TopAligned" />
+                            </Window>
+                        </AutoWindow>
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed2" Name="EudemonBattleMap/Map/Embed2/RewardBG" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.588448,0},{0.768642,0},{0.98195,0},{0.980879,0}}" />
+                    <Window Type="DejaVu/EmbedTextLab7" Name="EudemonBattleMap/Map/Embed2/RewardBG/Title" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.009174,0},{0.018018,0},{0.990825,0},{0.243243,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="EudemonBattleMap/Map/Embed2/RewardBG/Slot0" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.0458716,0},{0.432432,0},{0.238532,0},{0.810811,0}}" />
+                        <Window Type="DejaVu/StaticImage" Name="EudemonBattleMap/Map/Embed2/RewardBG/Slot0/Mark" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="HorizontalAlignment" Value="Right" />
+                            <Property Name="Image" Value="set:main11 image:Stamp" />
+                            <Property Name="MousePassThroughEnabled" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.595238,0},{0.595238,0}}" />
+                            <Property Name="VerticalAlignment" Value="Bottom" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="EudemonBattleMap/Map/Embed2/RewardBG/Slot1" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.284404,0},{0.432432,0},{0.477064,0},{0.810811,0}}" />
+                        <Window Type="DejaVu/StaticImage" Name="EudemonBattleMap/Map/Embed2/RewardBG/Slot1/Mark" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="HorizontalAlignment" Value="Right" />
+                            <Property Name="Image" Value="set:main11 image:Stamp" />
+                            <Property Name="MousePassThroughEnabled" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.595238,0},{0.595238,0}}" />
+                            <Property Name="VerticalAlignment" Value="Bottom" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="EudemonBattleMap/Map/Embed2/RewardBG/Slot2" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.522936,0},{0.432432,0},{0.715596,0},{0.810811,0}}" />
+                        <Window Type="DejaVu/StaticImage" Name="EudemonBattleMap/Map/Embed2/RewardBG/Slot2/Mark" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="HorizontalAlignment" Value="Right" />
+                            <Property Name="Image" Value="set:main11 image:Stamp" />
+                            <Property Name="MousePassThroughEnabled" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.595238,0},{0.595238,0}}" />
+                            <Property Name="VerticalAlignment" Value="Bottom" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="EudemonBattleMap/Map/Embed2/RewardBG/Slot3" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.761468,0},{0.432432,0},{0.954128,0},{0.810811,0}}" />
+                        <Window Type="DejaVu/StaticImage" Name="EudemonBattleMap/Map/Embed2/RewardBG/Slot3/Mark" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="HorizontalAlignment" Value="Right" />
+                            <Property Name="Image" Value="set:main11 image:Stamp" />
+                            <Property Name="MousePassThroughEnabled" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.595238,0},{0.595238,0}}" />
+                            <Property Name="VerticalAlignment" Value="Bottom" />
+                        </Window>
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Button" Name="EudemonBattleMap/Map/Embed2/Btn" >
+                    <Property Name="Text" Value="x123" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.588448,0},{0.931166,0},{0.725632,0},{0.98088,0}}" />
+                    <Property Name="Visible" Value="False" />
+                </Window>
+                <Window Type="DejaVu/Button" Name="EudemonBattleMap/Map/Embed2/Btn1" >
+                    <Property Name="Text" Value="x123" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.844765,0},{0.931166,0},{0.98195,0},{0.98088,0}}" />
+                    <Property Name="Visible" Value="False" />
+                </Window>
+                <Window Type="DejaVu/Button" Name="EudemonBattleMap/Map/NormalBtn" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="HorizontalAlignment" Value="Right" />
+                    <Property Name="UnifiedAreaRect" Value="{{-0.17148,0},{0.00191205,0},{-0.034296,0},{0.0497132,0}}" />
+                </Window>
+                <Window Type="DejaVu/Button" Name="EudemonBattleMap/Map/SpecialBtn" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="HorizontalAlignment" Value="Right" />
+                    <Property Name="UnifiedAreaRect" Value="{{-0.0180505,0},{0.00191205,0},{0.119134,0},{0.0497132,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed4" Name="EudemonBattleMap/Map/Title" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.018051,0},{0,0},{0.288809,0},{0.0469043,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="EudemonBattleMap/Map/Title/Img" >
+                    <Property Name="Image" Value="set:DejaVu image:Image19" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="EudemonBattleMap/Map/Title/Text" >
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="Text" Value="x123" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.2,0},{0.866667,0},{0.8,0}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="EudemonBattleMap/Team" >
+            <Property Name="UnifiedAreaRect" Value="{{0.678998,0},{0.0180832,0},{0.988067,0},{0.981917,0}}" />
+            <Window Type="DejaVu/Embed2" Name="EudemonBattleMap/Team/BG" >
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.018762,0},{1,0},{1,0}}" />
+                <Window Type="DejaVu/Embed2" Name="EudemonBattleMap/Team/ListBG" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.03861,0},{0.349904,0},{0.96139,0},{0.91359,0}}" />
+                    <Window Type="DejaVu/EmbedTextLab7" Name="EudemonBattleMap/Team/ListBG/Header" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="x123" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.008368,0},{0.007463,0},{0.991632,0},{0.0922088,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/MultiColumnListNoHeader" Name="EudemonBattleMap/Team/ListBG/List" >
+                        <Property Name="ColumnsMovable" Value="False" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.008368,0},{0.091525,0},{0.991632,0},{0.98983,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Button" Name="EudemonBattleMap/Team/Btn1" >
+                    <Property Name="Text" Value="x123" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0387986,0},{-0.0191205,0},{0.332235,0},{0.0305927,0}}" />
+                    <Property Name="VerticalAlignment" Value="Bottom" />
+                </Window>
+                <Window Type="DejaVu/Button" Name="EudemonBattleMap/Team/Btn2" >
+                    <Property Name="Text" Value="x123" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.667954,0},{-0.0191205,0},{0.96139,0},{0.0305927,0}}" />
+                    <Property Name="VerticalAlignment" Value="Bottom" />
+                </Window>
+                <Window Type="DejaVu/Embed2" Name="EudemonBattleMap/Team/ScoreBG" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.03861,0},{0.047801,0},{0.96139,0},{0.281071,0}}" />
+                    <Window Type="DejaVu/EmbedTextLab7" Name="EudemonBattleMap/Team/ScoreBG/Title" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="x123" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.008368,0},{0.016393,0},{0.991632,0},{0.221311,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab7" Name="EudemonBattleMap/Team/ScoreBG/BattleAPTitle" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="x123" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.041841,0},{0.303279,0},{0.41841,0},{0.508197,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab7" Name="EudemonBattleMap/Team/ScoreBG/BattleCoinTitle" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="x123" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.041841,0},{0.508197,0},{0.41841,0},{0.713115,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab7" Name="EudemonBattleMap/Team/ScoreBG/BattlePointTitle" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="x123" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.041841,0},{0.713115,0},{0.41841,0},{0.918033,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Embed2" Name="EudemonBattleMap/Team/ScoreBG/BattleAP" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.41841,0},{0.303279,0},{0.958159,0},{0.508197,0}}" />
+                        <Window Type="DejaVu/StaticImage" Name="EudemonBattleMap/Team/ScoreBG/BattleAP/Img" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.806202,0},{0.08,0},{0.96124,0},{0.88,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticTextLab" Name="EudemonBattleMap/Team/ScoreBG/BattleAP/Num" >
+                            <Property Name="HorzFormatting" Value="RightAligned" />
+                            <Property Name="Text" Value="999/999" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.077519,0},{0,0},{0.736434,0},{1,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Embed2" Name="EudemonBattleMap/Team/ScoreBG/BattleCoin" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.41841,0},{0.508197,0},{0.958159,0},{0.713115,0}}" />
+                        <Window Type="DejaVu/StaticImage" Name="EudemonBattleMap/Team/ScoreBG/BattleCoin/Img" >
+                            <Property Name="Image" Value="set:main image:Coin5" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.806202,0},{0.08,0},{0.961241,0},{0.88,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticTextLab" Name="EudemonBattleMap/Team/ScoreBG/BattleCoin/Num" >
+                            <Property Name="HorzFormatting" Value="RightAligned" />
+                            <Property Name="Text" Value="9999999" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0775194,0},{0,0},{0.736434,0},{1,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Embed2" Name="EudemonBattleMap/Team/ScoreBG/BattlePoint" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.41841,0},{0.713115,0},{0.958159,0},{0.918033,0}}" />
+                        <Window Type="DejaVu/StaticTextLab" Name="EudemonBattleMap/Team/ScoreBG/BattlePointTitle/Num" >
+                            <Property Name="HorzFormatting" Value="RightAligned" />
+                            <Property Name="Text" Value="9999999" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0775194,0},{0,0},{0.736434,0},{1,0}}" />
+                        </Window>
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Button" Name="EudemonBattleMap/Team/BG/RankBtn" >
+                    <Property Name="Text" Value="x123" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.355212,0},{0.290631,0},{0.648649,0},{0.340344,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed4" Name="EudemonBattleMap/Team/Title" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.037037,0},{0,0},{0.616188,0},{0.0469043,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="EudemonBattleMap/Team/Title/Text" >
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="Text" Value="x123" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.2,0},{0.866667,0},{0.8,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="EudemonBattleMap/Team/Title/Icon" >
+                    <Property Name="Image" Value="set:DejaVu image:Image08" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="EudemonBattleMap/Story" >
+            <Property Name="UnifiedAreaRect" Value="{{0.678998,0},{0.0180832,0},{0.988067,0},{0.981917,0}}" />
+            <Window Type="DejaVu/Embed2" Name="EudemonBattleMap/Story/BG" >
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.018762,0},{1,0},{1,0}}" />
+                <Window Type="DejaVu/Button" Name="EudemonBattleMap/Story/BG/ReviewBtn" >
+                    <Property Name="Text" Value="x123" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.03861,0},{-0.01912,0},{0.332046,0},{0.0305932,0}}" />
+                    <Property Name="VerticalAlignment" Value="Bottom" />
+                </Window>
+                <Window Type="DejaVu/Button" Name="EudemonBattleMap/Story/BG/BackBtn" >
+                    <Property Name="Text" Value="x123" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.667954,0},{-0.01912,0},{0.96139,0},{0.0305932,0}}" />
+                    <Property Name="VerticalAlignment" Value="Bottom" />
+                </Window>
+                <Window Type="DejaVu/Embed2" Name="EudemonBattleMap/Story/BG/Story" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.03861,0},{0.047801,0},{0.96139,0},{0.921606,0}}" />
+                    <Window Type="DejaVu/EmbedTextLab7" Name="EudemonBattleMap/Story/BG/Story/Title" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="x123" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0083682,0},{0.00437637,0},{0.991632,0},{0.059081,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/ScrollablePane" Name="EudemonBattleMap/Story/BG/Story/Pane" >
+                        <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HorzOverlapSize" Value="0.01" />
+                        <Property Name="HorzScrollPosition" Value="0" />
+                        <Property Name="HorzStepSize" Value="0.1" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.004184,0},{0.0607593,0},{0.987448,0},{0.984173,0}}" />
+                        <Property Name="VertOverlapSize" Value="0.01" />
+                        <Property Name="VertScrollPosition" Value="0" />
+                        <Property Name="VertStepSize" Value="0.1" />
+                        <AutoWindow NameSuffix="__auto_container__" >
+                            <Property Name="ChildExtentsArea" Value="l:0 t:0 r:0 b:0" />
+                            <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                            <Property Name="MouseInputPropagationEnabled" Value="True" />
+                        </AutoWindow>
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed4" Name="EudemonBattleMap/Story/Title" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.03861,0},{0,0},{0.617761,0},{0.0469043,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="EudemonBattleMap/Story/Title/Img" >
+                    <Property Name="Image" Value="set:DejaVu image:Image19" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="EudemonBattleMap/Story/Title/Text" >
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="Text" Value="x123" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.2,0},{0.866667,0},{0.8,0}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="EudemonBattleMap/TeamEdit" >
+            <Property Name="UnifiedAreaRect" Value="{{0.678998,0},{0.0180832,0},{0.988067,0},{0.981917,0}}" />
+            <Window Type="DejaVu/Embed2" Name="EudemonBattleMap/TeamEdit/BG" >
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.018762,0},{1,0},{1,0}}" />
+                <Window Type="DejaVu/Embed2" Name="EudemonBattleMap/TeamEdit/BG/MainTeam" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.03861,0},{0.0478011,0},{0.96139,0},{0.217973,0}}" />
+                    <Window Type="DejaVu/EmbedTextLab7" Name="EudemonBattleMap/TeamEdit/BG/MainTeam/Title" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="x123" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.008368,0},{0.022472,0},{0.991632,0},{0.303371,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="EudemonBattleMap/TeamEdit/BG/MainTeam/Team" >
+                        <Property Name="Image" Value="set:main image:EudemonBoard" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.041841,0},{0.325843,0},{0.962343,0},{0.94382,0}}" />
+                        <Window Type="DejaVu/SlotImage" Name="EudemonBattleMap/TeamEdit/BG/MainTeam/Team/Slot1" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.404545,0},{0.0909091,0},{0.586364,0},{0.818182,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="EudemonBattleMap/TeamEdit/BG/MainTeam/Team/Slot2" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.595455,0},{0.0909091,0},{0.777273,0},{0.818182,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="EudemonBattleMap/TeamEdit/BG/MainTeam/Team/Slot3" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.786364,0},{0.0909091,0},{0.968182,0},{0.818182,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Embed2" Name="EudemonBattleMap/TeamEdit/BG/MainTeam/Team/LevelBG" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.0545455,0},{0.290909,0},{0.281818,0},{0.836364,0}}" />
+                            <Window Type="DejaVu/StaticImage" Name="EudemonBattleMap/TeamEdit/BG/MainTeam/Team/LevelBG/Num2" >
+                                <Property Name="Image" Value="set:DejaVu image:zero" />
+                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.6,0},{1,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/StaticImage" Name="EudemonBattleMap/TeamEdit/BG/MainTeam/Team/LevelBG/Num1" >
+                                <Property Name="Image" Value="set:DejaVu image:one" />
+                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.4,0},{0,0},{1,0},{1,0}}" />
+                            </Window>
+                        </Window>
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed2" Name="EudemonBattleMap/TeamEdit/BG/TeamChoose" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.03861,0},{0.227533,0},{0.96139,0},{0.919694,0}}" />
+                    <Window Type="DejaVu/EmbedTextLab7" Name="EudemonBattleMap/TeamEdit/BG/TeamChoose/Title" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="x123" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0083682,0},{0.00552486,0},{0.991632,0},{0.0745856,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/MultiColumnListNoHeader" Name="EudemonBattleMap/TeamEdit/BG/TeamChoose/List" >
+                        <Property Name="ColumnsMovable" Value="False" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.008368,0},{0.08011,0},{0.991632,0},{0.980662,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Button" Name="EudemonBattleMap/TeamEdit/BG/BackBtn" >
+                    <Property Name="Text" Value="x123" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.03861,0},{-0.01912,0},{0.332046,0},{0.0305932,0}}" />
+                    <Property Name="VerticalAlignment" Value="Bottom" />
+                </Window>
+                <Window Type="DejaVu/Button" Name="EudemonBattleMap/TeamEdit/BG/AddBtn" >
+                    <Property Name="Text" Value="x123" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.667954,0},{-0.01912,0},{0.96139,0},{0.0305932,0}}" />
+                    <Property Name="VerticalAlignment" Value="Bottom" />
+                </Window>
+                <Window Type="DejaVu/Button" Name="EudemonBattleMap/TeamEdit/BG/RemoveBtn" >
+                    <Property Name="Text" Value="x123" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.667954,0},{-0.0191205,0},{0.96139,0},{0.0305927,0}}" />
+                    <Property Name="VerticalAlignment" Value="Bottom" />
+                    <Property Name="Visible" Value="False" />
+                </Window>
+                <Window Type="DejaVu/Button" Name="EudemonBattleMap/TeamEdit/BG/CancelTeamBtn" >
+                    <Property Name="Text" Value="x123" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.355212,0},{-0.0191205,0},{0.648649,0},{0.0305927,0}}" />
+                    <Property Name="VerticalAlignment" Value="Bottom" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed4" Name="EudemonBattleMap/TeamEdit/Title2" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.03861,0},{0,0},{0.617761,0},{0.0469043,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="EudemonBattleMap/TeamEdit/Title2/Img" >
+                    <Property Name="Image" Value="set:DejaVu image:Image08" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="EudemonBattleMap/TeamEdit/Title2/Text" >
+                    <Property Name="Text" Value="x123" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.2,0},{0.866667,0},{0.8,0}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="EudemonBattleMap/TeamChooseManual" >
+            <Property Name="UnifiedAreaRect" Value="{{0.678998,0},{0.0180832,0},{0.988067,0},{0.981917,0}}" />
+            <Window Type="DejaVu/Embed2" Name="EudemonBattleMap/TeamChooseManual/BG" >
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0187617,0},{1,0},{1,0}}" />
+                <Window Type="DejaVu/Embed2" Name="EudemonBattleMap/TeamChooseManual/BG/TeamExpedition" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.03861,0},{0.047801,0},{0.96139,0},{0.917782,0}}" />
+                    <Window Type="DejaVu/EmbedTextLab7" Name="EudemonBattleMap/TeamChooseManual/BG/TeamExpedition/Title" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="x123" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.008368,0},{0.01005,0},{0.991632,0},{0.0649951,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/MultiColumnListNoHeader" Name="EudemonBattleMap/TeamChooseManual/BG/TeamExpedition/List" >
+                        <Property Name="ColumnsMovable" Value="False" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.008368,0},{0.063736,0},{0.991632,0},{1,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Button" Name="EudemonBattleMap/TeamChooseManual/BG/Fight" >
+                    <Property Name="Text" Value="x123" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.03861,0},{-0.0191205,0},{0.332046,0},{0.0305927,0}}" />
+                    <Property Name="VerticalAlignment" Value="Bottom" />
+                </Window>
+                <Window Type="DejaVu/Button" Name="EudemonBattleMap/TeamChooseManual/BG/Return" >
+                    <Property Name="HorizontalAlignment" Value="Right" />
+                    <Property Name="Text" Value="x123" />
+                    <Property Name="UnifiedAreaRect" Value="{{-0.03861,0},{-0.0191205,0},{0.254826,0},{0.0305927,0}}" />
+                    <Property Name="VerticalAlignment" Value="Bottom" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed4" Name="EudemonBattleMap/TeamChooseManual/Title" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.03861,0},{0,0},{0.617761,0},{0.0469043,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="EudemonBattleMap/TeamChooseManual/Title/Imgs" >
+                    <Property Name="Image" Value="set:DejaVu image:Image18" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="EudemonBattleMap/TeamChooseManual/Title/Text" >
+                    <Property Name="Text" Value="x123" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.2,0},{0.866667,0},{0.8,0}}" />
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

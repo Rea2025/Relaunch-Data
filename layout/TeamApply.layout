@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/TeamApply" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="TitlebarImage" Value="set:main image:SearchTeamNormal" />
+        <Property Name="UnifiedAreaRect" Value="{{0.269531,0},{0.21224,0},{0.269531,340},{0.21224,360}}" />
+        <Window Type="DejaVu/Embed" Name="Root/TeamApply/Embed" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Static" Name="Root/TeamApply/Embed/Info" >
+                <Property Name="UnifiedAreaRect" Value="{{0.0308642,0},{0.0357143,0},{0.969136,0},{0.853571,0}}" />
+                <Window Type="DejaVu/Embed2" Name="Root/TeamApply/Embed/InfoBG" >
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.043668,0},{1,0},{1,0}}" />
+                    <Window Type="DejaVu/Embed2" Name="Root/TeamApply/Embed/InfoBG/ListBG" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.0328947,0},{0.251142,0},{0.967105,0},{0.954338,0}}" />
+                        <Window Type="DejaVu/MultiColumnList" Name="Root/TeamApply/Embed/InfoBG/ListBG/ListMCL" >
+                            <Property Name="ColumnsMovable" Value="False" />
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab5" Name="Root/TeamApply/Embed/InfoBG/NodeName" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="LV30.白石神殿遺跡" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.032895,0},{0.114155,0},{0.967106,0},{0.22831,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed4" Name="Root/TeamApply/Embed/Info/Title" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.032895,0},{0,0},{0.526316,0},{0.10917,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/TeamApply/Embed/Info/TitleText" >
+                        <Property Name="Text" Value="隊伍資訊" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.2,0},{0.8,0},{0.8,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/TeamApply/Embed/Info/TitleImg" >
+                        <Property Name="Image" Value="set:DejaVu image:Image13" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/TeamApply/Embed/Btn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="Text" Value="申請加入" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{-0.0357143,0},{0.234568,0},{0.0571428,0}}" />
+                <Property Name="VerticalAlignment" Value="Bottom" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

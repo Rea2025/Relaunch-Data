@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/DiaryRankPointWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="TitlebarImage" Value="set:main image:DiaryNormal" />
+        <Property Name="UnifiedAreaRect" Value="{{0.315011,0},{0.256881,0},{0.65222,0},{0.9135,0}}" />
+        <Window Type="DejaVu/Embed" Name="Root/DiaryRankPointWnd/Frame1" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Embed2" Name="Root/DiaryRankPointWnd/Frame2" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.029703,0},{0.023753,0},{0.970297,0},{0.976247,0}}" />
+                <Window Type="DejaVu/EmbedTextLab7" Name="Root/DiaryRankPointWnd/Frame2/MissionName" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="#任務名稱" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.712281,0},{0.0623441,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab7" Name="Root/DiaryRankPointWnd/Frame2/RankPoint" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="#積分" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.712281,0},{0,0},{0.936842,0},{0.0623441,0}}" />
+                </Window>
+                <Window Type="DejaVu/VerticalScrollbar" Name="Root/DiaryRankPointWnd/Frame2/Scrollbar" >
+                    <Property Name="DocumentSize" Value="1" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="OverlapSize" Value="0" />
+                    <Property Name="PageSize" Value="0" />
+                    <Property Name="ScrollPosition" Value="0" />
+                    <Property Name="StepSize" Value="1" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.936842,0},{0,0},{0.985965,0},{0.990025,0}}" />
+                </Window>
+                <Window Type="DejaVu/Static" Name="Root/DiaryRankPointWnd/Frame2/border" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.062344,0},{0.936842,0},{0.990025,0}}" />
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

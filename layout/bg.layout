@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/StaticImage" Name="Root/TriggerMonsterInfo/bg" >
+        <Property Name="Image" Value="set:main image:TargetInfoM" />
+        <Property Name="MousePassThroughEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.327148,0},{0.08125,0}}" />
+        <Window Type="DejaVu/StaticTextLab" Name="Root/TriggerMonsterInfo/bg/name" >
+            <Property Name="ID" Value="1001" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.277612,0},{0.246154,0},{0.695522,0},{0.476923,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticTextLab" Name="Root/TriggerMonsterInfo/bg/level" >
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.014925,0},{0.107692,0},{0.164179,0},{0.56923,0}}" />
+            <Window Type="DejaVu/StaticImage" Name="Root/TriggerMonsterInfo/bg/level/Num1" >
+                <Property Name="ID" Value="1006" />
+                <Property Name="Image" Value="set:DejaVu image:eight" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.38,0},{0.0666667,0},{0.94,0},{1,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/TriggerMonsterInfo/bg/level/Num2" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="ID" Value="1007" />
+                <Property Name="Image" Value="set:DejaVu image:eight" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.02,0},{0.0666667,0},{0.58,0},{1,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/ProgressBarBG" Name="Root/TriggerMonsterInfo/bg/hpBG" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.014925,0},{0.661538,0},{0.731343,0},{0.876923,0}}" />
+            <Window Type="DejaVu/ProgressBar" Name="Root/TriggerMonsterInfo/bg/hp" >
+                <Property Name="CurrentProgress" Value="0" />
+                <Property Name="ID" Value="1008" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="StepSize" Value="0.01" />
+                <Property Name="UnifiedAreaRect" Value="{{0.025,0},{0.25,0},{0.975,0},{0.75,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/ImageButton" Name="Root/TriggerMonsterInfo/bg/info_btn" >
+            <Property Name="HoverImage" Value="set:main image:MonsterSkillHover" />
+            <Property Name="ID" Value="1003" />
+            <Property Name="NormalImage" Value="set:main image:MonsterSkillNormal" />
+            <Property Name="PushedImage" Value="set:main image:MonsterSkillPressed" />
+            <Property Name="UnifiedAreaRect" Value="{{0.910448,0},{0.2,0},{0.97612,0},{0.538462,0}}" />
+        </Window>
+        <Window Type="DejaVu/ImageButton" Name="Root/TriggerMonsterInfo/bg/info_btn2" >
+            <Property Name="HoverImage" Value="set:main image:MonsterItemHover" />
+            <Property Name="ID" Value="1004" />
+            <Property Name="NormalImage" Value="set:main image:MonsterItemNormal" />
+            <Property Name="PushedImage" Value="set:main image:MonsterItemPressed" />
+            <Property Name="UnifiedAreaRect" Value="{{0.910448,0},{0.538462,0},{0.976119,0},{0.876923,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/TriggerMonsterInfo/bg/Category" >
+            <Property Name="ID" Value="1002" />
+            <Property Name="Image" Value="set:main image:MonsterKing" />
+            <Property Name="UnifiedAreaRect" Value="{{0.745292,0},{0.153846,0},{0.894546,0},{0.923077,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/TriggerMonsterInfo/bg/Attribute" >
+            <Property Name="ID" Value="1005" />
+            <Property Name="Image" Value="set:main image:WeaponTypeSwordShield" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.187083,0},{0.2,0},{0.246784,0},{0.507692,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

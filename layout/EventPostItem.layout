@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="EventPostItem" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,400},{0,160}}" />
+        <Window Type="DejaVu/StaticImage" Name="EventPostItem/BG/SelectFrame" >
+            <Property Name="Image" Value="set:main50 image:TitleChoose" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="EventPostItem/BG" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.125,0},{1,0},{0.8125,0}}" />
+            <Window Type="DejaVu/EmbedText6" Name="EventPostItem/BG/Text" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-14" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                <Property Name="Text" Value="1234" />
+                <Property Name="TextFrame" Value="True" />
+                <Property Name="TextFrameColour" Value="55000000" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.7,0},{1,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="EventPostItem/BG/Hint" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.05,0},{0.181818,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="EventPostItem/BG/Image" >
+                <Property Name="UnifiedAreaRect" Value="{{0.1225,0},{0.181818,0},{0.2975,0},{0.818182,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="BattleTime" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="TitlebarImage" Value="set:main image:ArenaNormal" />
+        <Property Name="UnifiedAreaRect" Value="{{0.347656,0},{0.239583,0},{0.347656,290},{0.239583,464}}" />
+        <Window Type="DejaVu/Embed" Name="BattleTime/Frame" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Embed2" Name="BattleTime/Frame/ListFrame" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0364963,0},{0.182292,0},{0.963504,0},{0.973958,0}}" />
+                <Window Type="DejaVu/ScrollablePane" Name="BattleTime/Frame/ListFrame/Pane" >
+                    <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                    <Property Name="HorzOverlapSize" Value="0.01" />
+                    <Property Name="HorzScrollPosition" Value="0" />
+                    <Property Name="HorzStepSize" Value="0.1" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.007874,0},{0.006579,0},{0.992126,0},{0.993421,0}}" />
+                    <Property Name="VertOverlapSize" Value="0.01" />
+                    <Property Name="VertScrollPosition" Value="0" />
+                    <Property Name="VertStepSize" Value="0.1" />
+                    <AutoWindow NameSuffix="__auto_container__" >
+                        <Property Name="ChildExtentsArea" Value="l:0 t:0 r:0 b:0" />
+                        <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                        <Property Name="MouseInputPropagationEnabled" Value="True" />
+                    </AutoWindow>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Checkbox" Name="BattleTime/Frame/TodayOnlyCheck" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="只顯示今日對戰活動" />
+                <Property Name="UnifiedAreaRect" Value="{{0.036496,0},{0.026042,0},{0.69343,0},{0.0911462,0}}" />
+            </Window>
+            <Window Type="DejaVu/Combobox" Name="BattleTime/Frame/TypeCBX" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="MaxEditTextLength" Value="2147483647" />
+                <Property Name="UnifiedAreaRect" Value="{{0.328467,0},{0.104167,0},{0.963503,0},{0.41276,0}}" />
+            </Window>
+            <Window Type="DejaVu/EmbedTextLab7" Name="BattleTime/Frame/TypeText" >
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="類型" />
+                <Property Name="UnifiedAreaRect" Value="{{0.036496,0},{0.104167,0},{0.328467,0},{0.169271,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

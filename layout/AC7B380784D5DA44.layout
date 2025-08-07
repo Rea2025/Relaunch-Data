@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/CommonDlg" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="TitlebarEnabled" Value="False" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,200},{0,130}}" />
+        <Window Type="DejaVu/Button" Name="Root/CommonDlg/OKBtn" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="Text" Value="x設定" />
+            <Property Name="UnifiedAreaRect" Value="{{0.054878,0},{0.733333,0},{0.479748,0},{1,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/CommonDlg/CloseBtn" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="Text" Value="x離開" />
+            <Property Name="UnifiedAreaRect" Value="{{0.518293,0},{0.733333,0},{0.945122,0},{1,0}}" />
+        </Window>
+        <Window Type="DejaVu/Editbox" Name="Root/CommonDlg/EditBox" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="MaxTextLength" Value="2147483647" />
+            <Property Name="NormalTextColour" Value="FFFFFFFF" />
+            <Property Name="TextParsingEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.378238,0},{0.386667,0},{0.621761,0},{0.613334,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticTextLab" Name="Root/CommonDlg/MsgText" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="Text" Value="x請輸入公會稅率(0~100)" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0121951,0},{0.0555556,0},{0.0121951,180},{0.0555556,27}}" />
+        </Window>
+        <Window Type="DejaVu/ImageButton" Name="Root/CommonDlg/MinBtn" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HoverImage" Value="set:DejaVu image:NumberLeftMostH" />
+            <Property Name="NormalImage" Value="set:DejaVu image:NumberLeftMostN" />
+            <Property Name="PushedImage" Value="set:DejaVu image:NumberLeftMostP" />
+            <Property Name="UnifiedAreaRect" Value="{{0.158537,0},{0.422222,0},{0.158537,15},{0.422222,15}}" />
+        </Window>
+        <Window Type="DejaVu/ImageButton" Name="Root/CommonDlg/DownBtn" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HoverImage" Value="set:DejaVu image:NumberLeftH" />
+            <Property Name="NormalImage" Value="set:DejaVu image:NumberLeftN" />
+            <Property Name="PushedImage" Value="set:DejaVu image:NumberLeftP" />
+            <Property Name="UnifiedAreaRect" Value="{{0.256098,0},{0.422222,0},{0.256098,15},{0.422222,15}}" />
+        </Window>
+        <Window Type="DejaVu/ImageButton" Name="Root/CommonDlg/UpBtn" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HoverImage" Value="set:DejaVu image:NumberRightH" />
+            <Property Name="NormalImage" Value="set:DejaVu image:NumberRightN" />
+            <Property Name="PushedImage" Value="set:DejaVu image:NumberRightP" />
+            <Property Name="UnifiedAreaRect" Value="{{0.652439,0},{0.422222,0},{0.652439,15},{0.422222,15}}" />
+        </Window>
+        <Window Type="DejaVu/ImageButton" Name="Root/CommonDlg/MaxBtn" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HoverImage" Value="set:DejaVu image:NumberRightMostH" />
+            <Property Name="NormalImage" Value="set:DejaVu image:NumberRightMostN" />
+            <Property Name="PushedImage" Value="set:DejaVu image:NumberRightMostP" />
+            <Property Name="UnifiedAreaRect" Value="{{0.75,0},{0.422222,0},{0.75,15},{0.422222,15}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/CommonDlg/CancelBtn" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="Text" Value="x取消" />
+            <Property Name="UnifiedAreaRect" Value="{{0.259878,0},{0.733333,0},{0.259878,70},{0.733333,24}}" />
+        </Window>
+    </Window>
+</GUILayout>

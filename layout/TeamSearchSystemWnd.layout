@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/TeamSearchSystemWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,658},{0,580}}" />
+        <Window Type="DefaultWindow" Name="Root/TeamSearchSystemWnd/bg" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Static" Name="Root/TeamSearchSystemWnd/SelectStatic" >
+                <Property Name="UnifiedAreaRect" Value="{{0.0151976,0},{0.0241379,0},{0.515198,0},{0.92931,0}}" />
+                <Window Type="DejaVu/Embed2" Name="Root/TeamSearchSystemWnd/SelectBG" >
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0171429,0},{1,0},{0.998095,0}}" />
+                    <Window Type="DejaVu/Checkbox" Name="Root/TeamSearchSystemWnd/SelectLevel" >
+                        <Property Name="Text" Value="x只顯示適合等級場景" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.030395,0},{0.048544,0},{0.537994,0},{0.0970877,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Checkbox" Name="Root/TeamSearchSystemWnd/SelectNoEnter" >
+                        <Property Name="Text" Value="x顯示未攻略副本" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.030395,0},{0.097087,0},{0.537994,0},{0.145631,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Checkbox" Name="Root/TeamSearchSystemWnd/SelectMark" >
+                        <Property Name="Text" Value="x只顯示已標記副本" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0303951,0},{0.145631,0},{0.537994,0},{0.194175,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Embed2" Name="Root/TeamSearchSystemWnd/SelectMCLBG" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.0303951,0},{0.192233,0},{0.969605,0},{0.968932,0}}" />
+                        <Window Type="DejaVu/ScrollablePane" Name="Root/TeamSearchSystemWnd/GroupPane" >
+                            <Property Name="ContentArea" Value="l:0 t:0 r:290 b:25" />
+                            <Property Name="HorzOverlapSize" Value="0.01" />
+                            <Property Name="HorzScrollPosition" Value="0" />
+                            <Property Name="HorzStepSize" Value="0.1" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.00647249,0},{0.005,0},{0.993528,0},{1.005,0}}" />
+                            <Property Name="VertOverlapSize" Value="0.01" />
+                            <Property Name="VertScrollPosition" Value="0" />
+                            <Property Name="VertStepSize" Value="0.1" />
+                            <AutoWindow NameSuffix="__auto_container__" >
+                                <Property Name="ChildExtentsArea" Value="l:0 t:0 r:290 b:25" />
+                                <Property Name="ContentArea" Value="l:0 t:0 r:290 b:25" />
+                                <Property Name="MouseInputPropagationEnabled" Value="True" />
+                                <Window Type="DejaVu/Static" Name="Root/TeamSearchSystemWnd/GroupPane/HeaderBG" >
+                                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.95082,0},{0.0628141,0}}" />
+                                    <Window Type="DejaVu/Button2" Name="Root/TeamSearchSystemWnd/GroupPane/Header1" >
+                                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.0862069,0},{1,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/Button2" Name="Root/TeamSearchSystemWnd/GroupPane/Header2" >
+                                        <Property Name="Text" Value="x副本名稱" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.0862069,0},{0,0},{0.724138,0},{1,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/Button2" Name="Root/TeamSearchSystemWnd/GroupPane/Header3" >
+                                        <Property Name="Text" Value="x剩餘次數" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.724138,0},{0,0},{1,0},{1,0}}" />
+                                    </Window>
+                                </Window>
+                            </AutoWindow>
+                        </Window>
+                        <Window Type="DejaVu/MultiColumnList" Name="Root/TeamSearchSystemWnd/SelectMCLBG/SelectMCL" >
+                            <Property Name="ColumnsMovable" Value="False" />
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.006472,0},{0.005,0},{0.993527,0},{1.005,0}}" />
+                        </Window>
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed4" Name="Root/TeamSearchSystemWnd/SelectTitle" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0303951,0},{0,0},{0.486322,0},{0.047619,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/TeamSearchSystemWnd/SelectText" >
+                        <Property Name="Text" Value="x選擇場景" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.2,0},{0.8,0},{0.8,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/TeamSearchSystemWnd/SelectImg" >
+                        <Property Name="Image" Value="set:DejaVu image:Image19" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="Root/TeamSearchSystemWnd/TeamStatic" >
+                <Property Name="UnifiedAreaRect" Value="{{0.522796,0},{0.0241379,0},{0.984802,0},{0.505172,0}}" />
+                <Window Type="DejaVu/Embed2" Name="Root/TeamSearchSystemWnd/TeamBG" >
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0358423,0},{1,0},{1,0}}" />
+                    <Window Type="DejaVu/Embed2" Name="Root/TeamSearchSystemWnd/TeamMCLBG" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.0328947,0},{0.0929368,0},{0.967105,0},{0.665428,0}}" />
+                        <Window Type="DejaVu/MultiColumnList" Name="Root/TeamSearchSystemWnd/TeamMCLBG/TeamMCL" >
+                            <Property Name="ColumnsMovable" Value="False" />
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.007042,0},{0.012987,0},{0.992957,0},{0.987013,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Embed2" Name="Root/TeamSearchSystemWnd/TeamBG/TeamText" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.0328947,0},{0.669145,0},{0.967105,0},{0.962825,0}}" />
+                        <Window Type="DejaVu/StaticText" Name="Root/TeamSearchSystemWnd/TeamBG/TeamText/Text" >
+                            <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                            <Property Name="LinespaceWindow" Value="True" />
+                            <Property Name="Text" Value="一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0246479,0},{0.0886076,0},{0.975352,0},{0.911392,0}}" />
+                            <Property Name="VertFormatting" Value="TopAligned" />
+                        </Window>
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed4" Name="Root/TeamSearchSystemWnd/TeamTitle" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0328947,0},{0,0},{0.526316,0},{0.0896057,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/TeamSearchSystemWnd/TeamText" >
+                        <Property Name="Text" Value="x隊伍資訊" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.2,0},{0.8,0},{0.8,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/TeamSearchSystemWnd/TeamImg" >
+                        <Property Name="Image" Value="set:DejaVu image:Image13" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="Root/TeamSearchSystemWnd/SearchStatic" >
+                <Property Name="UnifiedAreaRect" Value="{{0.522796,0},{0.512069,0},{0.984802,0},{0.927586,0}}" />
+                <Window Type="DejaVu/Embed2" Name="Root/TeamSearchSystemWnd/SearchBG" >
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0373444,0},{1,0},{0.995851,0}}" />
+                    <Window Type="DejaVu/Embed2" Name="Root/TeamSearchSystemWnd/SearchMCLBG" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.0328947,0},{0.0952381,0},{0.967105,0},{0.943723,0}}" />
+                        <Window Type="DejaVu/MultiColumnList" Name="Root/TeamSearchSystemWnd/SearchMCLBG/" >
+                            <Property Name="ColumnsMovable" Value="False" />
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.007042,0},{0.010204,0},{0.992957,0},{0.994898,0}}" />
+                        </Window>
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed4" Name="Root/TeamSearchSystemWnd/SearchTitle" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0328947,0},{0,0},{0.526316,0},{0.103734,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/TeamSearchSystemWnd/SearchText" >
+                        <Property Name="Text" Value="x招募搜尋" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.2,0},{0.8,0},{0.8,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/TeamSearchSystemWnd/SearchImg" >
+                        <Property Name="Image" Value="set:DejaVu image:Image21" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/TeamSearchSystemWnd/CancelOpenBtn" >
+                <Property Name="Text" Value="x取消招募" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0151976,0},{-0.0172414,0},{0.130699,0},{0.0275862,0}}" />
+                <Property Name="VerticalAlignment" Value="Bottom" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/TeamSearchSystemWnd/OpenBtn" >
+                <Property Name="Text" Value="x開啟招募" />
+                <Property Name="UnifiedAreaRect" Value="{{0.136778,0},{-0.0172414,0},{0.25228,0},{0.0275862,0}}" />
+                <Property Name="VerticalAlignment" Value="Bottom" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/TeamSearchSystemWnd/BroadcastBtn" >
+                <Property Name="Text" Value="x招募廣播" />
+                <Property Name="UnifiedAreaRect" Value="{{0.258359,0},{-0.0172414,0},{0.37386,0},{0.0275862,0}}" />
+                <Property Name="VerticalAlignment" Value="Bottom" />
+            </Window>
+            <Window Type="DejaVu/Button4" Name="Root/TeamSearchSystemWnd/RandomTeam" >
+                <Property Name="Text" Value="x自動組隊" />
+                <Property Name="UnifiedAreaRect" Value="{{0.379939,0},{-0.0172414,0},{0.495441,0},{0.0275862,0}}" />
+                <Property Name="VerticalAlignment" Value="Bottom" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/TeamSearchSystemWnd/TeleportBtn" >
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="Text" Value="x副本傳送" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.258359,0},{-0.0172414,0},{-0.142857,0},{0.0275862,0}}" />
+                <Property Name="VerticalAlignment" Value="Bottom" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/TeamSearchSystemWnd/AddBtn" >
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="Text" Value="x申請加入" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.136778,0},{-0.0172414,0},{-0.0212766,0},{0.0275862,0}}" />
+                <Property Name="VerticalAlignment" Value="Bottom" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/TeamSearchSystemWnd/ReflashBtn" >
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="Text" Value="x搜尋" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.0151976,0},{-0.0172414,0},{0.100304,0},{0.0275862,0}}" />
+                <Property Name="VerticalAlignment" Value="Bottom" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

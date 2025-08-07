@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/Embed" Name="Root/SearchItemWnd" >
+        <Property Name="UnifiedAreaRect" Value="{{0.2,0},{0.2,0},{0.449999,0},{0.764207,0}}" />
+        <Window Type="DejaVu/Editbox" Name="Root/SearchItemWnd/EditBox" >
+            <Property Name="MaxTextLength" Value="2147483647" />
+            <Property Name="TextParsingEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0493663,0},{0.0530266,0},{0.63667,0},{0.135956,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/SearchItemWnd/ListBtn" >
+            <Property Name="UnifiedAreaRect" Value="{{0.682814,0},{0.0530265,0},{0.943231,0},{0.135956,0}}" />
+        </Window>
+        <Window Type="DejaVu/ScrollablePane" Name="Root/SearchItemWnd/ScrollablePane" >
+            <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+            <Property Name="HorzOverlapSize" Value="0.01" />
+            <Property Name="HorzScrollPosition" Value="0" />
+            <Property Name="HorzStepSize" Value="0.1" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0588528,0},{0.16029,0},{0.93646,0},{0.952664,0}}" />
+            <Property Name="VertOverlapSize" Value="0.01" />
+            <Property Name="VertScrollPosition" Value="0" />
+            <Property Name="VertStepSize" Value="0.1" />
+            <AutoWindow NameSuffix="__auto_container__" >
+                <Property Name="ChildExtentsArea" Value="l:0 t:0 r:0 b:0" />
+                <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                <Property Name="MouseInputPropagationEnabled" Value="True" />
+            </AutoWindow>
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/SearchItemWnd/CloseBtn" >
+            <Property Name="Image" Value="set:DejaVu image:NewCloseButtonNormal" />
+            <Property Name="UnifiedAreaRect" Value="{{0.934897,0},{0.006053,0},{0.986981,0},{0.0544792,0}}" />
+        </Window>
+        <Window Type="DejaVu/Embed" Name="Root/SearchItemWnd/SearchResult" >
+            <Property Name="ClippedByParent" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{1.0099,0},{-0.00339,0},{2.0099,0},{0.99661,0}}" />
+            <Window Type="DejaVu/ScrollablePane" Name="Root/SearchItemWnd/SearchResult/ScrollablePane" >
+                <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                <Property Name="HorzOverlapSize" Value="0.01" />
+                <Property Name="HorzScrollPosition" Value="0" />
+                <Property Name="HorzStepSize" Value="0.1" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0604157,0},{0.0602903,0},{0.943231,0},{0.947098,0}}" />
+                <Property Name="VertOverlapSize" Value="0.01" />
+                <Property Name="VertScrollPosition" Value="0" />
+                <Property Name="VertStepSize" Value="0.1" />
+                <AutoWindow NameSuffix="__auto_container__" >
+                    <Property Name="ChildExtentsArea" Value="l:0 t:0 r:0 b:0" />
+                    <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                    <Property Name="MouseInputPropagationEnabled" Value="True" />
+                </AutoWindow>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

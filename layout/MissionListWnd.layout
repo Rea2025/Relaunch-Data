@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/MissionListWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HorizontalAlignment" Value="Centre" />
+        <Property Name="Text" Value="x" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{-0.012624,0},{0,0},{-0.012624,615},{-0.0221465,600}}" />
+        <Property Name="VerticalAlignment" Value="Centre" />
+        <Window Type="DefaultWindow" Name="Root/MissionListWnd/Frame" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="Text" Value=" x" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1.00177,0},{1.01463,0}}" />
+            <Window Type="DejaVu/Static" Name="Root/MissionListWnd/Frame/MissionList" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.022472,0},{0.419689,0},{0.950502,0}}" />
+                <Window Type="DejaVu/Embed" Name="Root/MissionListWnd/Frame/MissionList/Embed" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.015326,0},{0.03163,0},{0.992338,0},{0.982968,0}}" />
+                    <Property Name="VertFormatting" Value="TopAligned" />
+                    <Window Type="DejaVu/ScrollablePane" Name="Root/MissionListWnd/Frame/MissionList/Embed/ListPane" >
+                        <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HorzOverlapSize" Value="0.01" />
+                        <Property Name="HorzScrollPosition" Value="0" />
+                        <Property Name="HorzStepSize" Value="0.1" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                        <Property Name="VertOverlapSize" Value="0.01" />
+                        <Property Name="VertScrollPosition" Value="0" />
+                        <Property Name="VertStepSize" Value="0.1" />
+                        <AutoWindow NameSuffix="__auto_container__" >
+                            <Property Name="ChildExtentsArea" Value="l:0 t:0 r:0 b:0" />
+                            <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                            <Property Name="MouseInputPropagationEnabled" Value="True" />
+                        </AutoWindow>
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/MissionListWnd/Frame/MissionList/Embed/NoMissionAvailable" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="Text" Value="2222222" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.04914,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/MissionListWnd/Frame/MissionListText" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value=" x" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0276339,0},{0,0},{0.148532,0},{0.0449438,0}}" />
+            </Window>
+            <Window Type="DejaVu/Static" Name="Root/MissionListWnd/Frame/Conditions" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.440415,0},{0.475655,0},{1.00048,0},{0.617977,0}}" />
+                <Window Type="DejaVu/ScrollablePane" Name="Root/MissionListWnd/Frame/Conditions/Scroll" >
+                    <Property Name="ContentArea" Value="l:0 t:0 r:319 b:59" />
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="HorzOverlapSize" Value="0.01" />
+                    <Property Name="HorzScrollPosition" Value="0" />
+                    <Property Name="HorzStepSize" Value="0.1" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.00925926,0},{0.189873,0},{0.990741,0},{0.962025,0}}" />
+                    <Property Name="VertOverlapSize" Value="0.01" />
+                    <Property Name="VertScrollPosition" Value="0" />
+                    <Property Name="VertStepSize" Value="0.1" />
+                    <AutoWindow NameSuffix="__auto_container__" >
+                        <Property Name="ChildExtentsArea" Value="l:0 t:0 r:319 b:59" />
+                        <Property Name="ContentArea" Value="l:0 t:0 r:319 b:59" />
+                        <Property Name="MouseInputPropagationEnabled" Value="True" />
+                        <Window Type="DejaVu/StaticTextLab" Name="Root/MissionListWnd/Frame/Conditions/Scroll/Container" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="MousePassThroughEnabled" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                        </Window>
+                    </AutoWindow>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/MissionListWnd/Frame/ConditionsText" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value=" x" />
+                <Property Name="UnifiedAreaRect" Value="{{0.457686,0},{0.453184,0},{0.578584,0},{0.498127,0}}" />
+            </Window>
+            <Window Type="DejaVu/Static" Name="Root/MissionListWnd/Frame/Reports" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.440415,0},{0.646067,0},{1.00096,0},{0.719101,0}}" />
+                <Window Type="DejaVu/EmbedTextLab" Name="Root/MissionListWnd/Frame/Reports/Container" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0216049,0},{0.230769,0},{1.00309,0},{0.948718,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/MissionListWnd/Frame/ReportsText" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value=" x" />
+                <Property Name="UnifiedAreaRect" Value="{{0.457686,0},{0.623595,0},{0.578584,0},{0.668539,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/MissionListWnd/Frame/ContentsText" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="x" />
+                <Property Name="UnifiedAreaRect" Value="{{0.457686,0},{0,0},{0.578584,0},{0.0449438,0}}" />
+            </Window>
+            <Window Type="DejaVu/Static" Name="Root/MissionListWnd/Frame/Rewards" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.440415,0},{0.745318,0},{1,0},{0.951311,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/MissionListWnd/Frame/Rewards/ExpText" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" Value="x" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0185185,0},{0.160714,0},{0.219136,0},{0.294643,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/MissionListWnd/Frame/Rewards/MoneyText" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" Value="x" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0189274,0},{0.390909,0},{0.22082,0},{0.527273,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab2" Name="Root/MissionListWnd/Frame/Rewards/Exp" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorzFormatting" Value="RightAligned" />
+                    <Property Name="Text" Value=" 99999999" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.259259,0},{0.133929,0},{0.475309,0},{0.3125,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/MissionListWnd/Frame/Rewards/Money" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:DejaVu image:MoneySet01" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.25,0},{0.375,0},{0.746914,0},{0.544643,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/MissionListWnd/Frame/Rewards/Money/Gold" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="RightAligned" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.030864,0},{0.055556,0},{0.453224,0},{0.897661,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/MissionListWnd/Frame/Rewards/Money/Silver" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="RightAligned" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.57764,0},{0.052632,0},{0.689441,0},{0.894737,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/MissionListWnd/Frame/Rewards/Money/Copper" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="RightAligned" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.807453,0},{0.052632,0},{0.919254,0},{0.894737,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/ScrollablePane" Name="Root/MissionListWnd/Frame/Rewards/ItemBack" >
+                    <Property Name="ContentArea" Value="l:0 t:0 r:284 b:77" />
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="HorzOverlapSize" Value="0.01" />
+                    <Property Name="HorzScrollPosition" Value="0" />
+                    <Property Name="HorzStepSize" Value="0.1" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.6,0},{0.959877,0},{0.963636,0}}" />
+                    <Property Name="VertOverlapSize" Value="0.01" />
+                    <Property Name="VertScrollPosition" Value="0" />
+                    <Property Name="VertStepSize" Value="0.1" />
+                    <AutoWindow NameSuffix="__auto_container__" >
+                        <Property Name="ChildExtentsArea" Value="l:0 t:0 r:284 b:77" />
+                        <Property Name="ContentArea" Value="l:0 t:0 r:284 b:77" />
+                        <Property Name="MouseInputPropagationEnabled" Value="True" />
+                        <Window Type="DejaVu/StaticTextLab" Name="Root/MissionListWnd/Frame/Rewards/ItemBack/SelectRewardText" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="Text" Value="x" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.020202,0},{0.243902,0},{0.228956,0},{0.609756,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="Root/MissionListWnd/Frame/Rewards/ItemBack/SelectReward1" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.279461,0},{0.0487805,0},{0.400673,0},{0.926829,0}}" />
+                            <Window Type="DejaVu/StaticTextLab" Name="Root/MissionListWnd/Frame/Rewards/ItemBack/SelectReward1/Count" >
+                                <Property Name="AlwaysOnTop" Value="True" />
+                                <Property Name="BackgroundEnabled" Value="False" />
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="FrameEnabled" Value="False" />
+                                <Property Name="HorzFormatting" Value="RightAligned" />
+                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.944444,0},{0.944444,0}}" />
+                                <Property Name="VertFormatting" Value="BottomAligned" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="Root/MissionListWnd/Frame/Rewards/ItemBack/SelectReward2" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.417508,0},{0.0487805,0},{0.53872,0},{0.926829,0}}" />
+                            <Window Type="DejaVu/StaticTextLab" Name="Root/MissionListWnd/Frame/Rewards/ItemBack/SelectReward2/Count" >
+                                <Property Name="AlwaysOnTop" Value="True" />
+                                <Property Name="BackgroundEnabled" Value="False" />
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="FrameEnabled" Value="False" />
+                                <Property Name="HorzFormatting" Value="RightAligned" />
+                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.944444,0},{0.944444,0}}" />
+                                <Property Name="VertFormatting" Value="BottomAligned" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="Root/MissionListWnd/Frame/Rewards/ItemBack/SelectReward3" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.558923,0},{0.0487805,0},{0.680135,0},{0.926829,0}}" />
+                            <Window Type="DejaVu/StaticTextLab" Name="Root/MissionListWnd/Frame/Rewards/ItemBack/SelectReward3/Count" >
+                                <Property Name="AlwaysOnTop" Value="True" />
+                                <Property Name="BackgroundEnabled" Value="False" />
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="FrameEnabled" Value="False" />
+                                <Property Name="HorzFormatting" Value="RightAligned" />
+                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.944444,0},{0.944444,0}}" />
+                                <Property Name="VertFormatting" Value="BottomAligned" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="Root/MissionListWnd/Frame/Rewards/ItemBack/SelectReward4" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.69697,0},{0.0487805,0},{0.818182,0},{0.926829,0}}" />
+                            <Window Type="DejaVu/StaticTextLab" Name="Root/MissionListWnd/Frame/Rewards/ItemBack/SelectReward4/Count" >
+                                <Property Name="AlwaysOnTop" Value="True" />
+                                <Property Name="BackgroundEnabled" Value="False" />
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="FrameEnabled" Value="False" />
+                                <Property Name="HorzFormatting" Value="RightAligned" />
+                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.0652722,0},{0,0},{1.00972,0},{0.944444,0}}" />
+                                <Property Name="VertFormatting" Value="BottomAligned" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="Root/MissionListWnd/Frame/Rewards/ItemBack/SelectReward5" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.835017,0},{0.0487805,0},{0.956229,0},{0.926829,0}}" />
+                            <Window Type="DejaVu/StaticTextLab" Name="Root/MissionListWnd/Frame/Rewards/ItemBack/SelectReward5/Count" >
+                                <Property Name="AlwaysOnTop" Value="True" />
+                                <Property Name="BackgroundEnabled" Value="False" />
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="FrameEnabled" Value="False" />
+                                <Property Name="HorzFormatting" Value="RightAligned" />
+                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.944444,0},{0.944444,0}}" />
+                                <Property Name="VertFormatting" Value="BottomAligned" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/StaticTextLab" Name="Root/MissionListWnd/Frame/Rewards/ItemBack/GetRewardText" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="Text" Value="x" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.020202,0},{1.2439,0},{0.225589,0},{1.60976,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="Root/MissionListWnd/Frame/Rewards/ItemBack/GetReward1" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.279461,0},{1.04878,0},{0.400673,0},{1.92683,0}}" />
+                            <Window Type="DejaVu/StaticTextLab" Name="Root/MissionListWnd/Frame/Rewards/ItemBack/GetReward1/Count" >
+                                <Property Name="AlwaysOnTop" Value="True" />
+                                <Property Name="BackgroundEnabled" Value="False" />
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="FrameEnabled" Value="False" />
+                                <Property Name="HorzFormatting" Value="RightAligned" />
+                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.944444,0},{0.944444,0}}" />
+                                <Property Name="VertFormatting" Value="BottomAligned" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="Root/MissionListWnd/Frame/Rewards/ItemBack/GetReward2" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.417508,0},{1.04878,0},{0.538721,0},{1.92683,0}}" />
+                            <Window Type="DejaVu/StaticTextLab" Name="Root/MissionListWnd/Frame/Rewards/ItemBack/GetReward2/Count" >
+                                <Property Name="AlwaysOnTop" Value="True" />
+                                <Property Name="BackgroundEnabled" Value="False" />
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="FrameEnabled" Value="False" />
+                                <Property Name="HorzFormatting" Value="RightAligned" />
+                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.944444,0},{0.944444,0}}" />
+                                <Property Name="VertFormatting" Value="BottomAligned" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="Root/MissionListWnd/Frame/Rewards/ItemBack/GetReward3" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.558923,0},{1.04878,0},{0.680135,0},{1.92683,0}}" />
+                            <Window Type="DejaVu/StaticTextLab" Name="Root/MissionListWnd/Frame/Rewards/ItemBack/GetReward3/Count" >
+                                <Property Name="AlwaysOnTop" Value="True" />
+                                <Property Name="BackgroundEnabled" Value="False" />
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="FrameEnabled" Value="False" />
+                                <Property Name="HorzFormatting" Value="RightAligned" />
+                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.944444,0},{0.944444,0}}" />
+                                <Property Name="VertFormatting" Value="BottomAligned" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="Root/MissionListWnd/Frame/Rewards/ItemBack/GetReward4" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.69697,0},{1.04878,0},{0.818182,0},{1.92683,0}}" />
+                            <Window Type="DejaVu/StaticTextLab" Name="Root/MissionListWnd/Frame/Rewards/ItemBack/GetReward4/Count" >
+                                <Property Name="AlwaysOnTop" Value="True" />
+                                <Property Name="BackgroundEnabled" Value="False" />
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="FrameEnabled" Value="False" />
+                                <Property Name="HorzFormatting" Value="RightAligned" />
+                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.944444,0},{0.944444,0}}" />
+                                <Property Name="VertFormatting" Value="BottomAligned" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="Root/MissionListWnd/Frame/Rewards/ItemBack/GetReward5" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.835017,0},{1.04878,0},{0.956229,0},{1.92683,0}}" />
+                            <Window Type="DejaVu/StaticTextLab" Name="Root/MissionListWnd/Frame/Rewards/ItemBack/GetReward5/Count" >
+                                <Property Name="AlwaysOnTop" Value="True" />
+                                <Property Name="BackgroundEnabled" Value="False" />
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="FrameEnabled" Value="False" />
+                                <Property Name="HorzFormatting" Value="RightAligned" />
+                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.944444,0},{0.944444,0}}" />
+                                <Property Name="VertFormatting" Value="BottomAligned" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/Embed" Name="Root/MissionListWnd/Frame/Rewards/ItemBack/SelectFrame" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="MousePassThroughEnabled" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.279461,0},{0.0487805,0},{0.400673,0},{0.926829,0}}" />
+                        </Window>
+                    </AutoWindow>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/MissionListWnd/Frame/RewardsText" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value=" x" />
+                <Property Name="UnifiedAreaRect" Value="{{0.457686,0},{0.724719,0},{0.578584,0},{0.769663,0}}" />
+            </Window>
+            <Window Type="DejaVu/Static" Name="Root/MissionListWnd/Frame/Contents" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.440415,0},{0.022472,0},{1.00345,0},{0.449438,0}}" />
+                <Window Type="DejaVu/Listbox" Name="Root/MissionListWnd/Frame/Contents/Content" >
+                    <Property Name="DistributeCapturedInputs" Value="True" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.051948,0},{0.990265,0},{0.995671,0}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/ImageButton" Name="Root/MissionListWnd/QMarkBtn" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="ClippedByParent" Value="False" />
+            <Property Name="DisabledImage" Value="set:DejaVu image:HelpButtonPressed" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HorizontalAlignment" Value="Right" />
+            <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+            <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+            <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+            <Property Name="UnifiedAreaRect" Value="{{0,-5},{0,-17},{0,7},{0,-5}}" />
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/MissionListWnd/AcceptImage" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="ClippedByParent" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="Image" Value="set:DejaVu image:GotQuest" />
+            <Property Name="UnifiedAreaRect" Value="{{0.00518135,0},{0.965909,0},{0.0483592,0},{1.01326,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticTextLab" Name="Root/MissionListWnd/AcceptImageText" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="ClippedByParent" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="Text" Value="AA" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0535406,0},{0.973783,0},{0.354059,0},{1.0206,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/MissionListWnd/AcceptBtn" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="ClippedByParent" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="Text" Value="x" />
+            <Property Name="UnifiedAreaRect" Value="{{0.735751,0},{0.973783,0},{0.856649,0},{1.01873,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/MissionListWnd/GiveupBtn" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="ClippedByParent" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="Text" Value="x" />
+            <Property Name="UnifiedAreaRect" Value="{{0.868739,0},{0.973783,0},{0.989637,0},{1.01873,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/MissionListWnd/ReplyBtn" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="ClippedByParent" Value="False" />
+            <Property Name="Text" Value="x" />
+            <Property Name="UnifiedAreaRect" Value="{{0.604491,0},{0.973783,0},{0.725389,0},{1.01873,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

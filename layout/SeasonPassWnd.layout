@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/SeasonPassWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="TitlebarImage" Value="set:main4 image:BattlePassBtnNormal" />
+        <Property Name="UnifiedAreaRect" Value="{{0.060278,0},{0.071072,0},{0.060278,900},{0.071072,650}}" />
+        <Window Type="DejaVu/Embed2" Name="Root/SeasonPassWnd/BG" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.017361,0},{1,0},{0.998264,0}}" />
+            <Window Type="DejaVu/Embed12" Name="Root/SeasonPassWnd/BG/TopBG" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0238663,0},{0.0179211,0},{0.97852,0},{0.16129,0}}" />
+                <Window Type="DejaVu/ProgressBarBG" Name="Root/SeasonPassWnd/BG/TopBG/ProgressBG" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.146667,0},{0.5,0},{0.813333,0},{0.75,0}}" />
+                    <Window Type="DejaVu/ProgressBar2" Name="Root/SeasonPassWnd/BG/TopBG/ProgressBG/ProgressBar" >
+                        <Property Name="CurrentProgress" Value="0" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="StepSize" Value="0.01" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.016667,0},{0.266667,0},{0.983334,0},{0.733334,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/SeasonPassWnd/BG/TopBG/HelpText" >
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="Image" Value="set:DejaVu image:HelpButtonPressed" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.952,0},{0.15,0},{0.978667,0},{0.4,0}}" />
+                </Window>
+                <Window Type="Embed/Embed19" Name="Root/SeasonPassWnd/BG/TopBG/LvBGImage" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="BackgroundEnabled" Value="True" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Image" Value="set:main image:CarvingFrame" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.013333,0},{0.166667,0},{0.146666,0},{0.791667,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/SeasonPassWnd/BG/TopBG/LvBGImage/BG" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="BackgroundEnabled" Value="True" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.1,0},{0.9,0},{0.9,0}}" />
+                        <Window Type="DejaVu/StaticImage" Name="Root/SeasonPassWnd/BG/TopBG/LvBGImage/BG/Num0" >
+                            <Property Name="Image" Value="set:DejaVu image:eight" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.157143,0},{0.0666667,0},{0.557143,0},{1,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticImage" Name="Root/SeasonPassWnd/BG/TopBG/LvBGImage/BG/Num1" >
+                            <Property Name="Image" Value="set:DejaVu image:eight" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.414286,0},{0.0666667,0},{0.814286,0},{1,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticImage" Name="Root/SeasonPassWnd/BG/TopBG/LvBGImage/BG/Num2" >
+                            <Property Name="Image" Value="set:DejaVu image:eight" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.285714,0},{0.0666667,0},{0.685714,0},{1,0}}" />
+                        </Window>
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Button" Name="Root/SeasonPassWnd/BG/TopBG/BuyLvBtn" >
+                    <Property Name="Text" Value="購買等級" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.82,0},{0.4375,0},{0.98,0},{0.75,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab5" Name="Root/SeasonPassWnd/BG/TopBG/Exp" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="RightAligned" />
+                    <Property Name="Text" Value="1000/1500" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.666667,0},{0.25,0},{0.8,0},{0.5,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab5" Name="Root/SeasonPassWnd/BG/TopBG/Time" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" Value="剩餘時間  %s 天 %s 小時" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.153333,0},{0.25,0},{0.553333,0},{0.5,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed2" Name="Root/SeasonPassWnd/BG/LvBG" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.023866,0},{0.178136,0},{0.97852,0},{0.984588,0}}" />
+                <Window Type="DejaVu/Button4" Name="Root/SeasonPassWnd/BG/LvBG/UnLockBtn" >
+                    <Property Name="Text" Value="解鎖通行證" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.17875,0},{0.0548246,0}}" />
+                </Window>
+                <Window Type="DejaVu/Button" Name="Root/SeasonPassWnd/BG/LvBG/MissionPageBtn" >
+                    <Property Name="Text" Value="任務頁面" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.00625,0},{0.910088,0},{0.13125,0},{0.964912,0}}" />
+                </Window>
+                <Window Type="DejaVu/Button" Name="Root/SeasonPassWnd/BG/LvBG/AllReceiveBtn" >
+                    <Property Name="Text" Value="全部領取" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.852594,0},{0.91289,0},{0.977594,0},{0.967715,0}}" />
+                </Window>
+                <Window Type="DejaVu/Embed2" Name="Root/SeasonPassWnd/BG/LvBG/LvPage" >
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0657895,0},{1,0},{0.899123,0}}" />
+                    <Property Name="VertFormatting" Value="TopAligned" />
+                    <Window Type="DejaVu/Embed2" Name="Root/SeasonPassWnd/BG/LvBG/LvPage/BG" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.17891,0},{0.0132979,0},{0.795024,0},{0.986702,0}}" />
+                        <Property Name="VertFormatting" Value="TopAligned" />
+                        <Window Type="DefaultWindow" Name="Root/SeasonPassWnd/BG/LvBG/LvPage/BG/ListWindow" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.94429,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/HorizontalScrollbar2" Name="Root/SeasonPassWnd/BG/LvBG/LvPage/BG/ScrollBar" >
+                            <Property Name="DocumentSize" Value="1" />
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="OverlapSize" Value="0" />
+                            <Property Name="PageSize" Value="0" />
+                            <Property Name="ScrollPosition" Value="0" />
+                            <Property Name="StepSize" Value="1" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.00192308,0},{0.947075,0},{1.00192,0},{1.00279,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Embed13" Name="Root/SeasonPassWnd/BG/LvBG/LvPage/TitleBG" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.177725,0},{0.420213,0}}" />
+                        <Window Type="DejaVu/StaticImage" Name="Root/SeasonPassWnd/BG/LvBG/LvPage/TitleBG/Image" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="Image" Value="set:main4 image:BattlePassFree" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.0632911,0},{0.9,0},{0.822785,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/EmbedTextLab5" Name="Root/SeasonPassWnd/BG/LvBG/LvPage/TitleBG/Text" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="基礎通行證" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.791139,0},{1,0},{0.981012,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Embed13" Name="Root/SeasonPassWnd/BG/LvBG/LvPage/PaidTitleMask" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.421053,0},{0.177725,0},{1.00084,0}}" />
+                        <Window Type="DejaVu/StaticImage" Name="Root/SeasonPassWnd/BG/LvBG/LvPage/PaidTitleMask/PaidImageLock" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.166667,0},{0.192661,0},{0.833333,0},{0.651376,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Embed13" Name="Root/SeasonPassWnd/BG/LvBG/LvPage/PaidTitleBG" >
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.421053,0},{0.177725,0},{1.00084,0}}" />
+                        <Window Type="DejaVu/EmbedTextLab5" Name="Root/SeasonPassWnd/BG/LvBG/LvPage/PaidTitleBG/PaidText" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="付費通行證" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.816514,0},{1,0},{0.954128,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticImage" Name="Root/SeasonPassWnd/BG/LvBG/LvPage/PaidTitleBG/PaidImage" >
+                            <Property Name="Image" Value="set:main4 image:BattlePassPremium" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.174312,0},{0.9,0},{0.724771,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Embed13" Name="Root/SeasonPassWnd/BG/LvBG/LvPage/TargetPreview" >
+						<Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.79375,0},{0.0131579,0},{0.99375,0},{0.986842,0}}" />
+                        <Window Type="DejaVu/Embed2" Name="Root/SeasonPassWnd/BG/LvBG/LvPage/TargetPreview/ViewAvatar" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0591716,0},{0.0218579,0},{0.946746,0},{0.978142,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticImage" Name="Root/SeasonPassWnd/BG/LvBG/LvPage/TargetPreview/TargetImage" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0591716,0},{0.295082,0},{0.946746,0},{0.704918,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="Root/SeasonPassWnd/BG/LvBG/LvPage/TargetPreview/ItemSlot" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.35503,0},{0.409836,0},{0.650887,0},{0.546448,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Embed2" Name="Root/SeasonPassWnd/BG/LvBG/LvPage/RewardPreView" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.707346,0},{0.01355,0},{0.797393,0},{0.932249,0}}" />
+                        <Window Type="DejaVu/Embed2" Name="Root/SeasonPassWnd/BG/LvBG/LvPage/RewardPreView/FreeBG" >
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.431694,0}}" />
+                            <Window Type="DejaVu/EmbedText7" Name="Root/SeasonPassWnd/BG/LvBG/LvPage/RewardPreView/FreeBG/LvTitle" >
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="HorizontalAlignment" Value="Centre" />
+                                <Property Name="HorzFormatting" Value="HorzCentred" />
+                                <Property Name="Text" Value="Lv %d" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.004348,0},{0.975,0},{0.194221,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/SlotImage" Name="Root/SeasonPassWnd/BG/LvBG/LvPage/RewardPreView/FreeBG/FreeSlot" >
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.25,0},{0.379747,0},{0.75,0},{0.632911,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/Embed2" Name="Root/SeasonPassWnd/BG/LvBG/LvPage/RewardPreView/PaidBG" >
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.438889,0},{1,0},{0.998778,0}}" />
+                            <Window Type="DejaVu/SlotImage" Name="Root/SeasonPassWnd/BG/LvBG/LvPage/RewardPreView/PaidBG/PaidSlot0" >
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.25,0},{0.170732,0},{0.75,0},{0.365854,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/SlotImage" Name="Root/SeasonPassWnd/BG/LvBG/LvPage/RewardPreView/PaidBG/PaidSlot1" >
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.25,0},{0.463415,0},{0.75,0},{0.658537,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/SlotImage" Name="Root/SeasonPassWnd/BG/LvBG/LvPage/RewardPreView/PaidBG/PaidSlot2" >
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.25,0},{0.317073,0},{0.75,0},{0.512195,0}}" />
+                            </Window>
+                        </Window>
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed2" Name="Root/SeasonPassWnd/BG/MisssionBG" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.023866,0},{0.179211,0},{0.97852,0},{0.985663,0}}" />
+                <Window Type="DejaVu/TabControl" Name="Root/SeasonPassWnd/BG/MisssionBG/MissionTab" >
+                    <Property Name="TabHeight" Value="{0,20}" />
+                    <Property Name="TabPanePosition" Value="Top" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0110865,0},{1,0},{0.0665188,0}}" />
+                    <Window Type="DefaultWindow" Name="Root/SeasonPassWnd/BG/MisssionBG/MissionTab/Tab1" >
+                        <Property Name="Text" Value="每日任務" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,844},{0,0}}" />
+                    </Window>
+                    <Window Type="DefaultWindow" Name="Root/SeasonPassWnd/BG/MisssionBG/MissionTab/Tab2" >
+                        <Property Name="ID" Value="1" />
+                        <Property Name="Text" Value="每週任務" />
+                        <Property Name="UnifiedAreaRect" Value="{{-0.000545573,0},{0,0},{-0.000545573,844},{0,0}}" />
+                        <Property Name="Visible" Value="False" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed2" Name="Root/SeasonPassWnd/BG/MisssionBG/MisssionPage" >
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0657895,0},{1,0},{0.899123,0}}" />
+                    <Property Name="VertFormatting" Value="TopAligned" />
+                    <Window Type="DefaultWindow" Name="Root/SeasonPassWnd/BG/MisssionBG/MisssionPage/ListWindow" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0118483,0},{0.00797872,0},{0.971564,0},{0.992021,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/VerticalScrollbar" Name="Root/SeasonPassWnd/BG/MisssionBG/MisssionPage/ScrollBar" >
+                        <Property Name="DocumentSize" Value="1" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HorizontalAlignment" Value="Right" />
+                        <Property Name="OverlapSize" Value="0" />
+                        <Property Name="PageSize" Value="0" />
+                        <Property Name="ScrollPosition" Value="0" />
+                        <Property Name="StepSize" Value="1" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.0236967,0},{1,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Button" Name="Root/SeasonPassWnd/BG/MisssionBG/LvPageBtn" >
+                    <Property Name="Text" Value="等級獎勵" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.00625,0},{0.910088,0},{0.13125,0},{0.964912,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/SeasonPassWnd/BG/MisssionBG/UndoneMissionCheckBox" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="僅顯示未完成任務" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.687204,0},{0.00665188,0},{0.862559,0},{0.0731707,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/SeasonPassWnd/BG/MisssionBG/TransmitCheckBox" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="自動傳送" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.875592,0},{0.00665188,0},{1.00118,0},{0.0731707,0}}" />
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/BlockInfoWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="TitlebarImage" Value="set:main image:CommunityNormal" />
+        <Property Name="UnifiedAreaRect" Value="{{0.401367,0},{0.322917,0},{0.401367,215},{0.322917,379}}" />
+        <Window Type="DejaVu/Embed" Name="Root/BlockInfoWnd/bg" >
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Embed2" Name="Root/BlockInfoWnd/frame" >
+                <Property Name="UnifiedAreaRect" Value="{{0.0502513,0},{0.0334448,0},{0.949749,0},{0.966555,0}}" />
+                <Window Type="DejaVu/MultiColumnList" Name="Root/BlockInfoWnd/BlockList" >
+                    <Property Name="ColumnsMovable" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.011173,0},{0.007547,0},{0.988827,0},{0.99321,0}}" />
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/ChangePetNameWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="TitlebarImage" Value="set:main image:EudemonNormal" />
+        <Property Name="UnifiedAreaRect" Value="{{0.364258,0},{0.378906,0},{0.364258,266},{0.378906,241}}" />
+        <Window Type="DejaVu/Embed" Name="Root/ChangePetNameWnd/BG" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Embed2" Name="Root/ChangePetNameWnd/BG2" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.04,0},{0.0625,0},{0.96,0},{0.74375,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/ChangePetNameWnd/BG/Content" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="x請輸入幻獸名稱" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0444424,0},{0.324414,0},{0.957485,0},{0.5079,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/ChangePetNameWnd/BG/EditBox" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="MaxTextLength" Value="12" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.23913,0},{0.59633,0},{0.760869,0},{0.825688,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/ChangePetNameWnd/BG/OKBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="x確定" />
+                <Property Name="UnifiedAreaRect" Value="{{0.04,0},{0.775,0},{0.344,0},{0.9375,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/ChangePetNameWnd/BG/CancelBtn" >
+                <Property Name="Text" Value="x取消" />
+                <Property Name="UnifiedAreaRect" Value="{{0.656,0},{0.775,0},{0.96,0},{0.9375,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

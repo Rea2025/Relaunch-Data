@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/StaticImage" Name="EudemonBattleTeamItem" >
+        <Property Name="Image" Value="set:main image:EudemonBoard" />
+        <Property Name="MousePassThroughEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.214844,0},{0.0762829,0}}" />
+        <Window Type="DejaVu/SlotImage" Name="EudemonBattleTeamItem/Slot" >
+            <Property Name="ID" Value="1" />
+            <Property Name="UnifiedAreaRect" Value="{{0.405868,0},{0.117092,0},{0.587687,0},{0.844365,0}}" />
+        </Window>
+        <Window Type="DejaVu/SlotImage" Name="EudemonBattleTeamItem/Slot1" >
+            <Property Name="ID" Value="2" />
+            <Property Name="UnifiedAreaRect" Value="{{0.596307,0},{0.114726,0},{0.778125,0},{0.841998,0}}" />
+        </Window>
+        <Window Type="DejaVu/SlotImage" Name="EudemonBattleTeamItem/Slot2" >
+            <Property Name="ID" Value="3" />
+            <Property Name="UnifiedAreaRect" Value="{{0.787659,0},{0.112358,0},{0.969477,0},{0.839631,0}}" />
+        </Window>
+        <Window Type="DejaVu/Embed2" Name="EudemonBattleTeamItem/LevelBG" >
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0545455,0},{0.290909,0},{0.281818,0},{0.836364,0}}" />
+            <Window Type="DejaVu/StaticImage" Name="EudemonBattleTeamItem/LevelBG/Num2" >
+                <Property Name="ID" Value="5" />
+                <Property Name="Image" Value="set:DejaVu image:zero" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.6,0},{1,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="EudemonBattleTeamItem/LevelBG/Num1" >
+                <Property Name="ID" Value="4" />
+                <Property Name="Image" Value="set:DejaVu image:one" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.4,0},{0,0},{1,0},{1,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="EudemonBattleTeamItem/Lock" >
+            <Property Name="ID" Value="6" />
+            <Property Name="Image" Value="set:main image:Lock" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.113636,0},{0.090909,0},{0.227272,0},{0.545454,0}}" />
+        </Window>
+        <Window Type="DejaVu/Zframe2" Name="EudemonBattleTeamItem/SelectFrame" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="ID" Value="7" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/StaticImage" Name="EudemonBattleTeamItem/SelectFrame/Order" >
+                <Property Name="ID" Value="11" />
+                <Property Name="Image" Value="set:DejaVu image:one" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.136364,0},{0.545455,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="EudemonBattleTeamItem/GoAuto" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="ID" Value="8" />
+            <Property Name="Image" Value="set:CDAni image:MaskGray" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/StaticText" Name="EudemonBattleTeamItem/GoAuto/Text" >
+                <Property Name="Font" Value="F001-13" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="ID" Value="9" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="討伐中 - 13:21" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.436364,0}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="EudemonBattleTeamItem/GetAutoItem" >
+                <Property Name="Alpha" Value="0.9" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="ID" Value="10" />
+                <Property Name="Text" Value="x討伐完成" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.454545,0},{0.454545,0}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

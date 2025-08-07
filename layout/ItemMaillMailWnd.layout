@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/ItemMaillMailWnd" >
+        <Property Name="DistributeCapturedInputs" Value="True" />
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="TitlebarImage" Value="set:main image:ItemMallNormal" />
+        <Property Name="UnifiedAreaRect" Value="{{0.297735,0},{0.160573,0},{0.297735,386},{0.160573,481}}" />
+        <Window Type="DejaVu/Embed" Name="Root/ItemMaillMailWnd/backgrand" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Embed2" Name="Root/ItemMaillMailWnd/backgrand2" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.027027,0},{0.024938,0},{0.972973,0},{0.897756,0}}" />
+                <Window Type="DejaVu/Button" Name="Root/ItemMaillMailWnd/backgrand/AddressbookBtn" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.754286,0},{0.0285714,0},{0.971429,0},{0.102857,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab7" Name="Root/ItemMaillMailWnd/backgrand/targetText" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.028571,0},{0.028571,0},{0.257142,0},{0.0999996,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/ItemMaillMailWnd/backgrand/TargetEdit" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="MaxTextLength" Value="12" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.257143,0},{0.028571,0},{0.754286,0},{0.0999996,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab7" Name="Root/ItemMaillMailWnd/backgrand/Title" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.028571,0},{0.114286,0},{0.257142,0},{0.185715,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/ItemMaillMailWnd/backgrand/titleEdit" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="MaxTextLength" Value="24" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.257143,0},{0.114286,0},{0.971429,0},{0.185715,0}}" />
+                </Window>
+                <Window Type="DejaVu/MultiLineEditbox" Name="Root/ItemMaillMailWnd/backgrand/contextEdit" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="LinespaceWindow" Value="True" />
+                    <Property Name="MaxTextLength" Value="299" />
+                    <Property Name="NormalTextColour" Value="ffffffff" />
+                    <Property Name="Text" >
+</Property>
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.028571,0},{0.2,0},{0.971428,0},{0.808571,0}}" />
+                </Window>
+                <Window Type="DejaVu/Embed3" Name="Root/ItemMaillMailWnd/backgrand/border" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0285714,0},{0.822857,0},{0.971429,0},{0.971429,0}}" />
+                    <Window Type="DejaVu/SlotImage" Name="Root/ItemMaillMailWnd/backgrand/border/itemslot" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.015152,0},{0.096154,0},{0.142425,0},{0.903846,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/ItemMaillMailWnd/backgrand/border/Text" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.172727,0},{0.307692,0},{0.954545,0},{0.692307,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/ItemMaillMailWnd/backgrand/sendBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.027027,0},{-0.0249377,0},{0.178378,0},{0.0399002,0}}" />
+                <Property Name="VerticalAlignment" Value="Bottom" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

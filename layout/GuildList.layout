@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="GuildList" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="TitlebarImage" Value="set:main image:GuildNormal" />
+        <Property Name="UnifiedAreaRect" Value="{{0.113281,0},{0.09375,0},{0.113281,700},{0.09375,650}}" />
+        <Window Type="DejaVu/Embed" Name="GuildList/e1" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Static" Name="GuildList/e1/st" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.01462,0},{0.017544,0},{0.98538,0},{0.92807,0}}" />
+                <Window Type="DejaVu/Embed2" Name="GuildList/e1/st/e2" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.019268,0},{1,0},{1,0}}" />
+                    <Window Type="DejaVu/Embed2" Name="GuildList/e1/st/e2/e2" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.01506,0},{0.049116,0},{0.98494,0},{0.931238,0}}" />
+                        <Window Type="DejaVu/Static" Name="GuildList/e1/st/e2/e2/s" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.003676,0},{0.004454,0},{0.997465,0},{0.995545,0}}" />
+                            <Window Type="DejaVu/Button2" Name="GuildList/e1/st/e2/e2/s/b1" >
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="Text" Value="名稱" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.312989,0},{0.0561798,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/Button2" Name="GuildList/e1/st/e2/e2/s/b11" >
+                                <Property Name="Text" Value="等級" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.312989,0},{0,0},{0.422535,0},{0.0561798,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/Button2" Name="GuildList/e1/st/e2/e2/s/b12" >
+                                <Property Name="Text" Value="人數" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.422535,0},{0,0},{0.532081,0},{0.0561798,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/Button2" Name="GuildList/e1/st/e2/e2/s/b13" >
+                                <Property Name="Text" Value="招募訊息" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.53125,0},{0,0},{1,0},{0.0561798,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/Static" Name="GuildList/Introduction/Base1" >
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.05618,0},{1,0},{0.213483,0}}" />
+                                <Window Type="DejaVu/Embed3" Name="GuildList/Introduction/Base1/Name" >
+                                    <Property Name="Font" Value="F001-9" />
+                                    <Property Name="MousePassThroughEnabled" Value="True" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.312989,0},{1,0}}" />
+                                    <Window Type="DejaVu/StaticTextLab" Name="GuildList/Introduction/Base1/Name/Text" >
+                                        <Property Name="Font" Value="F001-9" />
+                                        <Property Name="MousePassThroughEnabled" Value="True" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.35,0},{0.357143,0},{0.95,0},{0.642857,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/SlotImage" Name="GuildList/Introduction/Base1/Name/Emblem" >
+                                        <Property Name="Font" Value="F001-9" />
+                                        <Property Name="MousePassThroughEnabled" Value="True" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.142857,0},{0.3,0},{0.857143,0}}" />
+                                        <Window Type="DejaVu/StaticImage" Name="GuildList/Introduction/Base1/Name/Emblem/Block" >
+                                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                        </Window>
+                                    </Window>
+                                </Window>
+                                <Window Type="DejaVu/Embed3" Name="GuildList/Introduction/Base1/LV" >
+                                    <Property Name="MousePassThroughEnabled" Value="True" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.312989,0},{0,0},{0.422535,0},{1,0}}" />
+                                    <Window Type="DejaVu/StaticTextLab" Name="GuildList/Introduction/Base1/LV/Text" >
+                                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                                        <Property Name="MousePassThroughEnabled" Value="True" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.214286,0},{0.357143,0},{0.785714,0},{0.642857,0}}" />
+                                    </Window>
+                                </Window>
+                                <Window Type="DejaVu/Embed3" Name="GuildList/Introduction/Base1/Number" >
+                                    <Property Name="MousePassThroughEnabled" Value="True" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.422535,0},{0,0},{0.532081,0},{1,0}}" />
+                                    <Window Type="DejaVu/StaticTextLab" Name="GuildList/Introduction/Base1/Number/Text" >
+                                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                                        <Property Name="MousePassThroughEnabled" Value="True" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.142857,0},{0.357143,0},{0.857143,0},{0.642857,0}}" />
+                                    </Window>
+                                </Window>
+                                <Window Type="DejaVu/Embed3" Name="GuildList/Introduction/Base1/Message" >
+                                    <Property Name="MousePassThroughEnabled" Value="True" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.53125,0},{0,0},{1,0},{1,0}}" />
+                                    <Window Type="DejaVu/Listbox" Name="GuildList/Introduction/Base1/Message/Text" >
+                                        <Property Name="MousePassThroughEnabled" Value="True" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                    </Window>
+                                </Window>
+                                <Window Type="DejaVu/Zframe2" Name="GuildList/Introduction/Base1/SelectFrame" >
+                                    <Property Name="AlwaysOnTop" Value="True" />
+                                    <Property Name="MousePassThroughEnabled" Value="True" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                    <Property Name="Visible" Value="False" />
+                                </Window>
+                            </Window>
+                            <Window Type="DejaVu/Static" Name="GuildList/Introduction/Base2" >
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.213483,0},{1,0},{0.370787,0}}" />
+                                <Window Type="DejaVu/Embed3" Name="GuildList/Introduction/Base2/Name" >
+                                    <Property Name="MousePassThroughEnabled" Value="True" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.312989,0},{1,0}}" />
+                                    <Window Type="DejaVu/StaticTextLab" Name="GuildList/Introduction/Base2/Name/Text" >
+                                        <Property Name="MousePassThroughEnabled" Value="True" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.35,0},{0.357143,0},{0.95,0},{0.642857,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/SlotImage" Name="GuildList/Introduction/Base2/Name/Emblem" >
+                                        <Property Name="MousePassThroughEnabled" Value="True" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.142857,0},{0.3,0},{0.857143,0}}" />
+                                        <Window Type="DejaVu/StaticImage" Name="GuildList/Introduction/Base2/Name/Emblem/Block" >
+                                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                        </Window>
+                                    </Window>
+                                </Window>
+                                <Window Type="DejaVu/Embed3" Name="GuildList/Introduction/Base2/LV" >
+                                    <Property Name="MousePassThroughEnabled" Value="True" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.312989,0},{0,0},{0.422535,0},{1,0}}" />
+                                    <Window Type="DejaVu/StaticTextLab" Name="GuildList/Introduction/Base2/LV/Text" >
+                                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                                        <Property Name="MousePassThroughEnabled" Value="True" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.214286,0},{0.357143,0},{0.785715,0},{0.642857,0}}" />
+                                    </Window>
+                                </Window>
+                                <Window Type="DejaVu/Embed3" Name="GuildList/Introduction/Base2/Number" >
+                                    <Property Name="MousePassThroughEnabled" Value="True" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.422535,0},{0,0},{0.532081,0},{1,0}}" />
+                                    <Window Type="DejaVu/StaticTextLab" Name="GuildList/Introduction/Base2/Number/Text" >
+                                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                                        <Property Name="MousePassThroughEnabled" Value="True" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.142857,0},{0.357143,0},{0.857143,0},{0.642857,0}}" />
+                                    </Window>
+                                </Window>
+                                <Window Type="DejaVu/Embed3" Name="GuildList/Introduction/Base2/Message" >
+                                    <Property Name="MousePassThroughEnabled" Value="True" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.53125,0},{0,0},{1,0},{1,0}}" />
+                                    <Window Type="DejaVu/Listbox" Name="GuildList/Introduction/Base2/Message/Text" >
+                                        <Property Name="MousePassThroughEnabled" Value="True" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                    </Window>
+                                </Window>
+                                <Window Type="DejaVu/Zframe2" Name="GuildList/Introduction/Base2/SelectFrame" >
+                                    <Property Name="AlwaysOnTop" Value="True" />
+                                    <Property Name="MousePassThroughEnabled" Value="True" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                    <Property Name="Visible" Value="False" />
+                                </Window>
+                            </Window>
+                            <Window Type="DejaVu/Static" Name="GuildList/Introduction/Base3" >
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.370787,0},{1,0},{0.52809,0}}" />
+                                <Window Type="DejaVu/Embed3" Name="GuildList/Introduction/Base3/Name" >
+                                    <Property Name="MousePassThroughEnabled" Value="True" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.312989,0},{1,0}}" />
+                                    <Window Type="DejaVu/StaticTextLab" Name="GuildList/Introduction/Base3/Name/Text" >
+                                        <Property Name="MousePassThroughEnabled" Value="True" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.35,0},{0.357143,0},{0.95,0},{0.642857,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/SlotImage" Name="GuildList/Introduction/Base3/Name/Emblem" >
+                                        <Property Name="MousePassThroughEnabled" Value="True" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.142857,0},{0.3,0},{0.857143,0}}" />
+                                        <Window Type="DejaVu/StaticImage" Name="GuildList/Introduction/Base3/Name/Emblem/Block" >
+                                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                        </Window>
+                                    </Window>
+                                </Window>
+                                <Window Type="DejaVu/Embed3" Name="GuildList/Introduction/Base3/LV" >
+                                    <Property Name="MousePassThroughEnabled" Value="True" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.312989,0},{0,0},{0.422535,0},{1,0}}" />
+                                    <Window Type="DejaVu/StaticTextLab" Name="GuildList/Introduction/Base3/LV/Text" >
+                                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                                        <Property Name="MousePassThroughEnabled" Value="True" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.214286,0},{0.357143,0},{0.785715,0},{0.642857,0}}" />
+                                    </Window>
+                                </Window>
+                                <Window Type="DejaVu/Embed3" Name="GuildList/Introduction/Base3/Number" >
+                                    <Property Name="MousePassThroughEnabled" Value="True" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.422535,0},{0,0},{0.532081,0},{1,0}}" />
+                                    <Window Type="DejaVu/StaticTextLab" Name="GuildList/Introduction/Base3/Number/Text" >
+                                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                                        <Property Name="MousePassThroughEnabled" Value="True" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.142857,0},{0.357143,0},{0.857143,0},{0.642857,0}}" />
+                                    </Window>
+                                </Window>
+                                <Window Type="DejaVu/Embed3" Name="GuildList/Introduction/Base3/Message" >
+                                    <Property Name="MousePassThroughEnabled" Value="True" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.53125,0},{0,0},{1,0},{1,0}}" />
+                                    <Window Type="DejaVu/Listbox" Name="GuildList/Introduction/Base3/Message/Text" >
+                                        <Property Name="MousePassThroughEnabled" Value="True" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                    </Window>
+                                </Window>
+                                <Window Type="DejaVu/Zframe2" Name="GuildList/Introduction/Base3/SelectFrame" >
+                                    <Property Name="AlwaysOnTop" Value="True" />
+                                    <Property Name="MousePassThroughEnabled" Value="True" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                    <Property Name="Visible" Value="False" />
+                                </Window>
+                            </Window>
+                            <Window Type="DejaVu/Static" Name="GuildList/Introduction/Base4" >
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.52809,0},{1,0},{0.685393,0}}" />
+                                <Window Type="DejaVu/Embed3" Name="GuildList/Introduction/Base4/Name" >
+                                    <Property Name="MousePassThroughEnabled" Value="True" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.312989,0},{1,0}}" />
+                                    <Window Type="DejaVu/StaticTextLab" Name="GuildList/Introduction/Base4/Name/Text" >
+                                        <Property Name="MousePassThroughEnabled" Value="True" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.35,0},{0.357143,0},{0.95,0},{0.642857,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/SlotImage" Name="GuildList/Introduction/Base4/Name/Emblem" >
+                                        <Property Name="MousePassThroughEnabled" Value="True" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.142857,0},{0.3,0},{0.857143,0}}" />
+                                        <Window Type="DejaVu/StaticImage" Name="GuildList/Introduction/Base4/Name/Emblem/Block" >
+                                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                        </Window>
+                                    </Window>
+                                </Window>
+                                <Window Type="DejaVu/Embed3" Name="GuildList/Introduction/Base4/LV" >
+                                    <Property Name="MousePassThroughEnabled" Value="True" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.312989,0},{0,0},{0.422535,0},{1,0}}" />
+                                    <Window Type="DejaVu/StaticTextLab" Name="GuildList/Introduction/Base4/LV/Text" >
+                                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                                        <Property Name="MousePassThroughEnabled" Value="True" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.214286,0},{0.357143,0},{0.785715,0},{0.642857,0}}" />
+                                    </Window>
+                                </Window>
+                                <Window Type="DejaVu/Embed3" Name="GuildList/Introduction/Base4/Number" >
+                                    <Property Name="MousePassThroughEnabled" Value="True" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.421875,0},{0,0},{0.53125,0},{1,0}}" />
+                                    <Window Type="DejaVu/StaticTextLab" Name="GuildList/Introduction/Base4/Number/Text" >
+                                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                                        <Property Name="MousePassThroughEnabled" Value="True" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.142857,0},{0.357143,0},{0.857143,0},{0.642857,0}}" />
+                                    </Window>
+                                </Window>
+                                <Window Type="DejaVu/Embed3" Name="GuildList/Introduction/Base4/Message" >
+                                    <Property Name="MousePassThroughEnabled" Value="True" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.53125,0},{0,0},{1,0},{1,0}}" />
+                                    <Window Type="DejaVu/Listbox" Name="GuildList/Introduction/Base4/Message/Text" >
+                                        <Property Name="MousePassThroughEnabled" Value="True" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                    </Window>
+                                </Window>
+                                <Window Type="DejaVu/Zframe2" Name="GuildList/Introduction/Base4/SelectFrame" >
+                                    <Property Name="AlwaysOnTop" Value="True" />
+                                    <Property Name="MousePassThroughEnabled" Value="True" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                    <Property Name="Visible" Value="False" />
+                                </Window>
+                            </Window>
+                            <Window Type="DejaVu/Static" Name="GuildList/Introduction/Base5" >
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.685393,0},{1,0},{0.842697,0}}" />
+                                <Window Type="DejaVu/Embed3" Name="GuildList/Introduction/Base5/Name" >
+                                    <Property Name="MousePassThroughEnabled" Value="True" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.312989,0},{1,0}}" />
+                                    <Window Type="DejaVu/StaticTextLab" Name="GuildList/Introduction/Base5/Name/Text" >
+                                        <Property Name="MousePassThroughEnabled" Value="True" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.35,0},{0.357143,0},{0.95,0},{0.642857,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/SlotImage" Name="GuildList/Introduction/Base5/Name/Emblem" >
+                                        <Property Name="MousePassThroughEnabled" Value="True" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.142857,0},{0.3,0},{0.857143,0}}" />
+                                        <Window Type="DejaVu/StaticImage" Name="GuildList/Introduction/Base5/Name/Emblem/Block" >
+                                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                        </Window>
+                                    </Window>
+                                </Window>
+                                <Window Type="DejaVu/Embed3" Name="GuildList/Introduction/Base5/LV" >
+                                    <Property Name="MousePassThroughEnabled" Value="True" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.312989,0},{0,0},{0.422535,0},{1,0}}" />
+                                    <Window Type="DejaVu/StaticTextLab" Name="GuildList/Introduction/Base5/LV/Text" >
+                                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                                        <Property Name="MousePassThroughEnabled" Value="True" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.214286,0},{0.357143,0},{0.785715,0},{0.642857,0}}" />
+                                    </Window>
+                                </Window>
+                                <Window Type="DejaVu/Embed3" Name="GuildList/Introduction/Base5/Number" >
+                                    <Property Name="MousePassThroughEnabled" Value="True" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.421875,0},{0,0},{0.53125,0},{1,0}}" />
+                                    <Window Type="DejaVu/StaticTextLab" Name="GuildList/Introduction/Base5/Number/Text" >
+                                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                                        <Property Name="MousePassThroughEnabled" Value="True" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.142857,0},{0.357143,0},{0.857143,0},{0.642857,0}}" />
+                                    </Window>
+                                </Window>
+                                <Window Type="DejaVu/Embed3" Name="GuildList/Introduction/Base5/Message" >
+                                    <Property Name="MousePassThroughEnabled" Value="True" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.53125,0},{0,0},{1,0},{1,0}}" />
+                                    <Window Type="DejaVu/Listbox" Name="GuildList/Introduction/Base5/Message/Text" >
+                                        <Property Name="MousePassThroughEnabled" Value="True" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                    </Window>
+                                </Window>
+                                <Window Type="DejaVu/Zframe2" Name="GuildList/Introduction/Base5/SelectFrame" >
+                                    <Property Name="AlwaysOnTop" Value="True" />
+                                    <Property Name="MousePassThroughEnabled" Value="True" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                    <Property Name="Visible" Value="False" />
+                                </Window>
+                            </Window>
+                            <Window Type="DejaVu/Static" Name="GuildList/Introduction/Base6" >
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.842697,0},{1,0},{1,0}}" />
+                                <Window Type="DejaVu/Embed3" Name="GuildList/Introduction/Base6/Name" >
+                                    <Property Name="MousePassThroughEnabled" Value="True" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.312989,0},{1,0}}" />
+                                    <Window Type="DejaVu/StaticTextLab" Name="GuildList/Introduction/Base6/Name/Text" >
+                                        <Property Name="MousePassThroughEnabled" Value="True" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.35,0},{0.357143,0},{0.95,0},{0.642857,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/SlotImage" Name="GuildList/Introduction/Base6/Name/Emblem" >
+                                        <Property Name="MousePassThroughEnabled" Value="True" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.142857,0},{0.3,0},{0.857143,0}}" />
+                                        <Window Type="DejaVu/StaticImage" Name="GuildList/Introduction/Base6/Name/Emblem/Block" >
+                                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                        </Window>
+                                    </Window>
+                                </Window>
+                                <Window Type="DejaVu/Embed3" Name="GuildList/Introduction/Base6/LV" >
+                                    <Property Name="MousePassThroughEnabled" Value="True" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.312989,0},{0,0},{0.422535,0},{1,0}}" />
+                                    <Window Type="DejaVu/StaticTextLab" Name="GuildList/Introduction/Base6/LV/Text" >
+                                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                                        <Property Name="MousePassThroughEnabled" Value="True" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.214286,0},{0.357143,0},{0.785715,0},{0.642857,0}}" />
+                                    </Window>
+                                </Window>
+                                <Window Type="DejaVu/Embed3" Name="GuildList/Introduction/Base6/Number" >
+                                    <Property Name="MousePassThroughEnabled" Value="True" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.421875,0},{0,0},{0.53125,0},{1,0}}" />
+                                    <Window Type="DejaVu/StaticTextLab" Name="GuildList/Introduction/Base6/Number/Text" >
+                                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                                        <Property Name="MousePassThroughEnabled" Value="True" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.142857,0},{0.357143,0},{0.857143,0},{0.642857,0}}" />
+                                    </Window>
+                                </Window>
+                                <Window Type="DejaVu/Embed3" Name="GuildList/Introduction/Base6/Message" >
+                                    <Property Name="MousePassThroughEnabled" Value="True" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.53125,0},{0,0},{1,0},{1,0}}" />
+                                    <Window Type="DejaVu/Listbox" Name="GuildList/Introduction/Base6/Message/Text" >
+                                        <Property Name="MousePassThroughEnabled" Value="True" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                    </Window>
+                                </Window>
+                                <Window Type="DejaVu/Zframe2" Name="GuildList/Introduction/Base6/SelectFrame" >
+                                    <Property Name="AlwaysOnTop" Value="True" />
+                                    <Property Name="MousePassThroughEnabled" Value="True" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                    <Property Name="Visible" Value="False" />
+                                </Window>
+                            </Window>
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Embed5" Name="GuildList/e1/st/e2/e5" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.447289,0},{0.941061,0},{0.552711,0},{0.990177,0}}" />
+                        <Window Type="DejaVu/StaticTextLab" Name="GuildList/e1/st/e2/e5/tt" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/ImageButton" Name="GuildList/BG/BtnR" >
+                        <Property Name="HoverImage" Value="set:DejaVu image:ArrowRightHover" />
+                        <Property Name="NormalImage" Value="set:DejaVu image:ArrowRightNormal" />
+                        <Property Name="PushedImage" Value="set:DejaVu image:ArrowRightPressed" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.560241,0},{0.941061,0},{0.590361,0},{0.990177,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/ImageButton" Name="GuildList/BG/BtnL" >
+                        <Property Name="HoverImage" Value="set:DejaVu image:ArrowLeftHover" />
+                        <Property Name="NormalImage" Value="set:DejaVu image:ArrowLeftNormal" />
+                        <Property Name="PushedImage" Value="set:DejaVu image:ArrowLeftPressed" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.409639,0},{0.941061,0},{0.439759,0},{0.990177,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed4" Name="GuildList/e1/st/e4" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0150602,0},{0,0},{0.240964,0},{0.0481696,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="GuildList/e1/st/e4/tt" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="公會列表" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.2,0},{0.8,0},{0.8,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="GuildList/e1/st/e4/i" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Image" Value="set:DejaVu image:Image15" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Button" Name="GuildList/e1/b1" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="創立" />
+                <Property Name="UnifiedAreaRect" Value="{{0.755848,0},{0.936842,0},{0.866959,0},{0.982456,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="GuildList/e1/b11" >
+                <Property Name="Text" Value="申請加入" />
+                <Property Name="UnifiedAreaRect" Value="{{0.874269,0},{0.936842,0},{0.98538,0},{0.982456,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

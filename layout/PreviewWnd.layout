@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="PreviewWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="TitlebarImage" Value="set:main41 image:Replace" />
+        <Property Name="UnifiedAreaRect" Value="{{0.339931,0},{0.059367,0},{0.339931,370},{0.059367,630}}" />
+        <Window Type="DejaVu/Embed" Name="PreviewWnd/Embed" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{-0.00181818,0},{1,0},{0.998182,0}}" />
+            <Window Type="DejaVu/Static" Name="PreviewWnd/Embed/Content" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0310734,0},{0.0182149,0},{0.968927,0},{0.969035,0}}" />
+                <Window Type="DejaVu/Embed2" Name="PreviewWnd/Embed/Content/Embed2" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0210728,0},{1,0},{1.01149,0}}" />
+                    <Window Type="DejaVu/Embed2" Name="PreviewWnd/Embed/Content/Embed2/Buff" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.0301205,0},{0.0368662,0},{0.966867,0},{0.994129,0}}" />
+                        <Window Type="DejaVu/ScrollablePane" Name="PreviewWnd/Embed/Content/Embed2/Buff/BuffList" >
+                            <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="HorzOverlapSize" Value="0.01" />
+                            <Property Name="HorzScrollPosition" Value="0" />
+                            <Property Name="HorzStepSize" Value="0.1" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0096463,0},{0.0652174,0},{0.996785,0},{0.98913,0}}" />
+                            <Property Name="VertOverlapSize" Value="0.01" />
+                            <Property Name="VertScrollPosition" Value="0" />
+                            <Property Name="VertStepSize" Value="0.1" />
+                            <AutoWindow NameSuffix="__auto_container__" >
+                                <Property Name="ChildExtentsArea" Value="l:0 t:0 r:0 b:0" />
+                                <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                                <Property Name="MouseInputPropagationEnabled" Value="True" />
+                            </AutoWindow>
+                        </Window>
+                        <Window Type="DejaVu/EmbedTextLab7" Name="PreviewWnd/Embed/Content/Embed2/Buff/Title2" >
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="x洗鍊能力一覽" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.006431,0},{0.008114,0},{0.990354,0},{0.0608523,0}}" />
+                        </Window>
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed4" Name="PreviewWnd/Embed/Content/Title" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0331325,0},{0,0},{0.831842,0},{0.045977,0}}" />
+                    <Window Type="DejaVu/StaticImage" Name="PreviewWnd/Embed/Content/Title/Img" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Image" Value="set:DejaVu image:Image17" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0603774,0},{0.208333,0},{0.120755,0},{0.791667,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="PreviewWnd/Embed/Content/Title/Text" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="x洗鍊道具名稱" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.162264,0},{0.208333,0},{0.952379,0},{0.791667,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="AlchemyItem" >
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.481445,0},{0.0677083,0}}" />
+        <Window Type="DejaVu/Static" Name="AlchemyItem/LeftBG" >
+            <Property Name="UnifiedAreaRect" Value="{{0.010142,0},{0,0},{0.263692,0},{0.807692,0}}" />
+            <Property Name="VerticalAlignment" Value="Centre" />
+            <Window Type="DejaVu/Button" Name="AlchemyItem/LeftBG/Btn" >
+                <Property Name="Text" Value="x煉化" />
+                <Property Name="UnifiedAreaRect" Value="{{0.392,0},{0,0},{1,0},{0.619048,0}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+                <Property Name="Visible" Value="False" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="AlchemyItem/LeftBG/CoinImg" >
+                <Property Name="Image" Value="set:main image:ItemMallcoin1" />
+                <Property Name="UnifiedAreaRect" Value="{{0.136,0},{0.119048,0},{0.256,0},{0.47619,0}}" />
+                <Property Name="Visible" Value="False" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="AlchemyItem/LeftBG/CoinValue" >
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="300" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.47619,0},{0.392,0},{0.95238,0}}" />
+                <Property Name="Visible" Value="False" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="AlchemyItem/LeftBG/Slot" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.336,0},{1,0}}" />
+            </Window>
+            <Window Type="DejaVu/EmbedTextLab2" Name="AlchemyItem/LeftBG/Quantity" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="100枚" />
+                <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+                <Property Name="UnifiedAreaRect" Value="{{0.416,0},{0.214286,0},{0.96,0},{0.809524,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="AlchemyItem/Pointer" >
+            <Property Name="Image" Value="set:main image:CarvingRightArrow" />
+            <Property Name="UnifiedAreaRect" Value="{{0.273834,0},{0,0},{0.314402,0},{0.576923,0}}" />
+            <Property Name="VerticalAlignment" Value="Centre" />
+        </Window>
+        <Window Type="DejaVu/SlotImage" Name="AlchemyItem/Slot1" >
+            <Property Name="UnifiedAreaRect" Value="{{0.344828,0},{0,0},{0.430021,0},{0.807692,0}}" />
+            <Property Name="VerticalAlignment" Value="Centre" />
+            <Window Type="DejaVu/StaticImage" Name="AlchemyItem/Slot1/ShiningHint" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="Image" Value="set:main image:CarvingFrame" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1.2381,0},{1.2381,0}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="AlchemyItem/Slot1/RunImg" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Image" Value="set:DejaVu image:TextSelectionBrush" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="AlchemyItem/Slot1/UpArrow" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="Image" Value="set:main image:CarvingUpArrow" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.714286,0},{0.595238,0},{1.19048,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="AlchemyItem/Slot1/ChooseImg" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Image" Value="set:DejaVuImage image:CrystalTeamR" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="AlchemyItem/Slot1/ChooseAutoStopImg" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Image" Value="set:DejaVuImage image:CrystalTeamY" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/SlotImage" Name="AlchemyItem/Slot2" >
+            <Property Name="UnifiedAreaRect" Value="{{0.450304,0},{0,0},{0.535497,0},{0.807692,0}}" />
+            <Property Name="VerticalAlignment" Value="Centre" />
+            <Window Type="DejaVu/StaticImage" Name="AlchemyItem/Slot2/ShiningHint" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="Image" Value="set:main image:CarvingFrame" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1.2381,0},{1.2381,0}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="AlchemyItem/Slot2/RunImg" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="Image" Value="set:DejaVu image:TextSelectionBrush" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="AlchemyItem/Slot2/UpArrow" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="Image" Value="set:main image:CarvingUpArrow" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.714286,0},{0.595238,0},{1.19048,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="AlchemyItem/Slot2/ChooseImg" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Image" Value="set:DejaVuImage image:CrystalTeamR" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="AlchemyItem/Slot2/ChooseAutoStopImg" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Image" Value="set:DejaVuImage image:CrystalTeamY" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/SlotImage" Name="AlchemyItem/Slot3" >
+            <Property Name="UnifiedAreaRect" Value="{{0.555781,0},{0,0},{0.640974,0},{0.807692,0}}" />
+            <Property Name="VerticalAlignment" Value="Centre" />
+            <Window Type="DejaVu/StaticImage" Name="AlchemyItem/Slot3/ShiningHint" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="Image" Value="set:main image:CarvingFrame" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1.2381,0},{1.2381,0}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="AlchemyItem/Slot3/RunImg" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="Image" Value="set:DejaVu image:TextSelectionBrush" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="AlchemyItem/Slot3/UpArrow" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="Image" Value="set:main image:CarvingUpArrow" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.714286,0},{0.595238,0},{1.19048,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="AlchemyItem/Slot3/ChooseImg" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Image" Value="set:DejaVuImage image:CrystalTeamR" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="AlchemyItem/Slot3/ChooseAutoStopImg" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Image" Value="set:DejaVuImage image:CrystalTeamY" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/SlotImage" Name="AlchemyItem/Slot4" >
+            <Property Name="UnifiedAreaRect" Value="{{0.661258,0},{0,0},{0.746451,0},{0.807692,0}}" />
+            <Property Name="VerticalAlignment" Value="Centre" />
+            <Window Type="DejaVu/StaticImage" Name="AlchemyItem/Slot4/ShiningHint" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="Image" Value="set:main image:CarvingFrame" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1.2381,0},{1.2381,0}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="AlchemyItem/Slot4/RunImg" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="Image" Value="set:DejaVu image:TextSelectionBrush" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="AlchemyItem/Slot4/UpArrow" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="Image" Value="set:main image:CarvingUpArrow" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.714286,0},{0.595238,0},{1.19048,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="AlchemyItem/Slot4/ChooseImg" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Image" Value="set:DejaVuImage image:CrystalTeamR" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="AlchemyItem/Slot4/ChooseAutoStopImg" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Image" Value="set:DejaVuImage image:CrystalTeamY" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/SlotImage" Name="AlchemyItem/Slot5" >
+            <Property Name="UnifiedAreaRect" Value="{{0.766734,0},{0,0},{0.851927,0},{0.807692,0}}" />
+            <Property Name="VerticalAlignment" Value="Centre" />
+            <Window Type="DejaVu/StaticImage" Name="AlchemyItem/Slot5/ShiningHint" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="Image" Value="set:main image:CarvingFrame" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1.2381,0},{1.2381,0}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="AlchemyItem/Slot5/RunImg" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="Image" Value="set:DejaVu image:TextSelectionBrush" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="AlchemyItem/Slot5/UpArrow" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="Image" Value="set:main image:CarvingUpArrow" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.714286,0},{0.595238,0},{1.19048,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="AlchemyItem/Slot5/ChooseImg" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Image" Value="set:DejaVuImage image:CrystalTeamR" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="AlchemyItem/Slot5/ChooseAutoStopImg" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Image" Value="set:DejaVuImage image:CrystalTeamY" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/SlotImage" Name="AlchemyItem/Slot6" >
+            <Property Name="UnifiedAreaRect" Value="{{0.872211,0},{0,0},{0.957404,0},{0.807692,0}}" />
+            <Property Name="VerticalAlignment" Value="Centre" />
+            <Window Type="DejaVu/StaticImage" Name="AlchemyItem/Slot6/ShiningHint" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="Image" Value="set:main image:CarvingFrame" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1.2381,0},{1.2381,0}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="AlchemyItem/Slot6/RunImg" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="Image" Value="set:DejaVu image:TextSelectionBrush" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="AlchemyItem/Slot6/UpArrow" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="Image" Value="set:main image:CarvingUpArrow" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.714286,0},{0.595238,0},{1.19048,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="AlchemyItem/Slot6/ChooseImg" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Image" Value="set:DejaVuImage image:CrystalTeamR" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="AlchemyItem/Slot6/ChooseAutoStopImg" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Image" Value="set:DejaVuImage image:CrystalTeamY" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="AlchemyItem/Slot1/ProbabilityRect" >
+            <Property Name="Alpha" Value="0.75" />
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="Image" Value="set:CDAni image:MaskGray" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.335498,0},{0,0},{0.441559,0},{1,0}}" />
+            <Window Type="DejaVu/StaticTextLab" Name="AlchemyItem/Slot1/ProbabilityRect/ProbabilityText" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="99.999%" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.09375,0},{1,0},{0.53125,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="AlchemyItem/Slot2/ProbabilityRect" >
+            <Property Name="Alpha" Value="0.75" />
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="Image" Value="set:CDAni image:MaskGray" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.441558,0},{0,0},{0.547619,0},{1,0}}" />
+            <Window Type="DejaVu/StaticTextLab" Name="AlchemyItem/Slot2/ProbabilityRect/ProbabilityText" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="99.999%" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.4375,0},{1,0},{0.875,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="AlchemyItem/Slot3/ProbabilityRect" >
+            <Property Name="Alpha" Value="0.75" />
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="Image" Value="set:CDAni image:MaskGray" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.547619,0},{0,0},{0.65368,0},{1,0}}" />
+            <Window Type="DejaVu/StaticTextLab" Name="AlchemyItem/Slot3/ProbabilityRect/ProbabilityText" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="99.999%" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.09375,0},{1,0},{0.53125,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="AlchemyItem/Slot4/ProbabilityRect" >
+            <Property Name="Alpha" Value="0.75" />
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="Image" Value="set:CDAni image:MaskGray" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.65368,0},{0,0},{0.75974,0},{1,0}}" />
+            <Window Type="DejaVu/StaticTextLab" Name="AlchemyItem/Slot4/ProbabilityRect/ProbabilityText" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="99.999%" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.4375,0},{1,0},{0.875,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="AlchemyItem/Slot5/ProbabilityRect" >
+            <Property Name="Alpha" Value="0.75" />
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="Image" Value="set:CDAni image:MaskGray" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.75974,0},{0,0},{0.865801,0},{1,0}}" />
+            <Window Type="DejaVu/StaticTextLab" Name="AlchemyItem/Slot5/ProbabilityRect/ProbabilityText" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="99.999%" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.09375,0},{1,0},{0.53125,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="AlchemyItem/Slot6/ProbabilityRect" >
+            <Property Name="Alpha" Value="0.75" />
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="Image" Value="set:CDAni image:MaskGray" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.865801,0},{0,0},{0.971861,0},{1,0}}" />
+            <Window Type="DejaVu/StaticTextLab" Name="AlchemyItem/Slot6/ProbabilityRect/ProbabilityText" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="99.999%" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.4375,0},{1,0},{0.875,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

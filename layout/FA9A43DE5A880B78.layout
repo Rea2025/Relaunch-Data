@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/Static" Name="Root/ArenaRaidDuelItem" >
+        <Property Name="AlwaysOnTop" Value="True" />
+        <Property Name="BackgroundEnabled" Value="False" />
+        <Property Name="Font" Value="F001-scale" />
+        <Property Name="FrameEnabled" Value="False" />
+        <Property Name="HorizontalAlignment" Value="Centre" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,110},{0,80}}" />
+        <Window Type="DejaVu/Embed4" Name="Root/ArenaRaidDuelItem/Back" >
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Property Name="VertFormatting" Value="TopAligned" />
+            <Property Name="VerticalAlignment" Value="Centre" />
+            <Window Type="DejaVu/StaticTextLab" Name="Root/ArenaRaidDuelItem/Back/TitleText1" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="煞氣a直到膝蓋中箭" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.909091,0},{0.25,0}}" />
+                <Property Name="VerticalAlignment" Value="Bottom" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/ArenaRaidDuelItem/Back/TitleText2" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="vs" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.5,0},{0.363636,0},{0.75,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/ArenaRaidDuelItem/Back/TitleText3" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="守衛" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.25,0},{0.909091,0},{0.5,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/ArenaRaidDuelItem/Back/TitleText4" >
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="擂台一" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0625,0},{0.890909,0},{0.2625,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

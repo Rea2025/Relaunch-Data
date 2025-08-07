@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/HotelWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.068836,0},{0.143293,0},{0.068836,570},{0.143293,310}}" />
+        <Window Type="DejaVu/Static" Name="Root/HotelWnd/Background" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HorizontalAlignment" Value="Right" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.038911,0},{0.533708,0},{0.894942,0}}" />
+            <Window Type="DejaVu/zStaticLab" Name="Root/HotelWnd/Background/MemberListText" >
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="x住戶名單" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0421053,0},{-0.0545455,0},{0.270175,0},{0.0545455,0}}" />
+            </Window>
+            <Window Type="DejaVu/MultiColumnList" Name="Root/HotelWnd/Background/MemberList" >
+                <Property Name="ColumnsMovable" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{-0.0434783,0},{0.916667,0},{0.826087,0}}" />
+                <Property Name="VerticalAlignment" Value="Bottom" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="Root/HotelWnd/Background/SearchMember" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{-0.105058,0},{0.449438,0},{0.108949,0}}" />
+            <Property Name="VerticalAlignment" Value="Bottom" />
+            <Window Type="DejaVu/zStaticLab" Name="Root/HotelWnd/Background/SearchMember/Title" >
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="x搜尋住戶" />
+                <Property Name="UnifiedAreaRect" Value="{{0.05,0},{-0.218182,0},{0.320833,0},{0.218182,0}}" />
+            </Window>
+            <Window Type="DejaVu/Editbox" Name="Root/HotelWnd/Background/SearchMember/SearchBox" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="MaxTextLength" Value="2147483647" />
+                <Property Name="NormalTextColour" Value="C8FFFFFF" />
+                <Property Name="TextParsingEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0416667,0},{0.381818,0},{0.6125,0},{0.745455,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/HotelWnd/Background/SearchMember/SearchBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="ID" Value="5" />
+                <Property Name="Text" Value="x搜尋" />
+                <Property Name="UnifiedAreaRect" Value="{{0.666667,0},{0.363636,0},{0.9375,0},{0.8,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="Root/HotelWnd/Background/OwnInfo" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0389105,0},{0.449438,0},{0.622568,0}}" />
+            <Window Type="DejaVu/zStaticLab" Name="Root/HotelWnd/Background/OwnInfo/TitleText" >
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="x自宅狀況" />
+                <Property Name="UnifiedAreaRect" Value="{{0.05,0},{-0.08,0},{0.320833,0},{0.08,0}}" />
+            </Window>
+            <Window Type="DejaVu/EmbedTextLab" Name="Root/HotelWnd/Background/OwnInfo/Rent" >
+                <Property Name="Text" Value="x租金費用" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0416667,0},{0.133333,0},{0.3125,0},{0.293333,0}}" />
+            </Window>
+            <Window Type="DefaultWindow" Name="Root/HotelWnd/Background/OwnInfo/Rent/Money" >
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.333333,0},{0.146667,0},{0.958333,0},{0.28,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="Root/HotelWnd/Background/OwnInfo/Rent/Money/CopperBG" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:DejaVu image:CopperBG" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.763636,0},{0,0},{0.987879,0},{1.11765,0}}" />
+                    <Property Name="VerticalAlignment" Value="Centre" />
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/HotelWnd/Background/OwnInfo/Rent/Money/Copper" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="Text" Value="22" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0882353,0},{0.05,0},{0.764706,0},{1.05,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/HotelWnd/Background/OwnInfo/Rent/Money/SilverBG" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:DejaVu image:SilverBG" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.539394,0},{0,0},{0.763636,0},{1.11765,0}}" />
+                    <Property Name="VerticalAlignment" Value="Centre" />
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/HotelWnd/Background/OwnInfo/Rent/Money/Silver" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="Text" Value="22" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0882353,0},{0.05,0},{0.764706,0},{1.05,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/HotelWnd/Background/OwnInfo/Rent/Money/GoldBG" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:DejaVu image:GoldBG" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.539394,0},{1.11765,0}}" />
+                    <Property Name="VerticalAlignment" Value="Centre" />
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/HotelWnd/Background/OwnInfo/Rent/Money/Gold" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="RightAligned" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="Text" Value="123456" />
+                        <Property Name="UnifiedAreaRect" Value="{{-0.0123457,0},{0.05,0},{0.802469,0},{1.05,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/EmbedTextLab" Name="Root/HotelWnd/Background/OwnInfo/Popularity" >
+                <Property Name="Text" Value="x本週人氣" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0416667,0},{0.32,0},{0.3125,0},{0.48,0}}" />
+            </Window>
+            <Window Type="DejaVu/EmbedTextLab" Name="Root/HotelWnd/Background/OwnInfo/PrettyPoint" >
+                <Property Name="Text" Value="x華麗積分" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0416667,0},{0.493333,0},{0.3125,0},{0.653333,0}}" />
+            </Window>
+            <Window Type="DejaVu/EmbedTextLab" Name="Root/HotelWnd/Background/OwnInfo/ConfortablePoint" >
+                <Property Name="Text" Value="x舒適積分" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0416667,0},{0.68,0},{0.3125,0},{0.84,0}}" />
+            </Window>
+            <Window Type="DejaVu/HintTextLab" Name="Root/HotelWnd/Background/OwnInfo/PopularityText" >
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="Text" Value="999999" />
+                <Property Name="UnifiedAreaRect" Value="{{0.333333,0},{0.333333,0},{0.958333,0},{0.466667,0}}" />
+            </Window>
+            <Window Type="DejaVu/HintTextLab" Name="Root/HotelWnd/Background/OwnInfo/PrettyText" >
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="Text" Value="999999" />
+                <Property Name="UnifiedAreaRect" Value="{{0.333333,0},{0.506667,0},{0.958333,0},{0.64,0}}" />
+            </Window>
+            <Window Type="DejaVu/HintTextLab" Name="Root/HotelWnd/Background/OwnInfo/ConfortableText" >
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="Text" Value="999999" />
+                <Property Name="UnifiedAreaRect" Value="{{0.333333,0},{0.693333,0},{0.958333,0},{0.826667,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/HotelWnd/Background/VisitBtn" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="ID" Value="1" />
+            <Property Name="Text" Value="x拜訪" />
+            <Property Name="UnifiedAreaRect" Value="{{0.445693,0},{0,0},{0.567416,0},{0.0933852,0}}" />
+            <Property Name="VerticalAlignment" Value="Bottom" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/HotelWnd/Background/PayBtn" >
+            <Property Name="ID" Value="2" />
+            <Property Name="Text" Value="x承租" />
+            <Property Name="UnifiedAreaRect" Value="{{0.586142,0},{0,0},{0.707865,0},{0.0933852,0}}" />
+            <Property Name="VerticalAlignment" Value="Bottom" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/HotelWnd/Background/PrivilegeBtn" >
+            <Property Name="ID" Value="3" />
+            <Property Name="Text" Value="x設定權限" />
+            <Property Name="UnifiedAreaRect" Value="{{0.728464,0},{0,0},{0.850187,0},{0.0933852,0}}" />
+            <Property Name="VerticalAlignment" Value="Bottom" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/HotelWnd/Background/EnterBtn" >
+            <Property Name="ID" Value="4" />
+            <Property Name="Text" Value="x進入" />
+            <Property Name="UnifiedAreaRect" Value="{{0.870786,0},{0,0},{0.992509,0},{0.0894942,0}}" />
+            <Property Name="VerticalAlignment" Value="Bottom" />
+        </Window>
+        <Window Type="DejaVu/Checkbox" Name="Root/HotelWnd/Background/KnowChBox" >
+            <Property Name="DisabledTextColour" Value="FFFFFFFF" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HoverTextColour" Value="FFFFFFFF" />
+            <Property Name="NormalTextColour" Value="FFFFFFFF" />
+            <Property Name="PushedTextColour" Value="FFFFFFFF" />
+            <Property Name="Text" Value="xJust find out friends and families" />
+            <Property Name="UnifiedAreaRect" Value="{{0.018727,0},{0,0},{0.430712,0},{0.0933852,0}}" />
+            <Property Name="VerticalAlignment" Value="Bottom" />
+        </Window>
+    </Window>
+</GUILayout>

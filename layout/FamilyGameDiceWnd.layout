@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/FamilyGameDiceWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="TitlebarImage" Value="set:main2 image:DiceNormal" />
+        <Property Name="UnifiedAreaRect" Value="{{0.170213,0},{0.154329,0},{0.170213,500},{0.154329,350}}" />
+        <Window Type="DejaVu/Embed2" Name="Root/FamilyGameDiceWnd/Game" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.00413223,0},{-0.114815,0},{0.995868,0},{0.996296,0}}" />
+            <Window Type="DejaVu/Embed4" Name="Root/FamilyGameDiceWnd/Game/Title" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.100372,0},{0.29375,0},{0.204461,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/FamilyGameDiceWnd/Game/Title/Text" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="x比大小" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.269504,0},{0.166667,0},{0.87234,0},{0.666667,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/FamilyGameDiceWnd/Game/Title/Mark" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Image" Value="set:DejaVu image:Image14" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0992908,0},{0.166667,0},{0.198582,0},{0.666667,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/FamilyGameDiceWnd/Game/Button" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="x擲骰子" />
+                <Property Name="UnifiedAreaRect" Value="{{0.410417,0},{0.892193,0},{0.410417,76},{0.892193,26}}" />
+            </Window>
+            <Window Type="DejaVu/Embed2" Name="Root/FamilyGameDiceWnd/Game/Result" >
+                <Property Name="UnifiedAreaRect" Value="{{0.0208333,0},{0.687732,0},{0.979167,0},{0.873606,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/FamilyGameDiceWnd/Game/Result/Text" >
+                    <Property Name="Text" >x點數總和顯示
+
+</Property>
+                    <Property Name="UnifiedAreaRect" Value="{{0.0173913,0},{0.4,0},{0.995652,0},{0.9,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed4" Name="Root/FamilyGameDiceWnd/Game/ResultTitle" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.654275,0},{0.29375,0},{0.758364,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/FamilyGameDiceWnd/Game/ResultTitle/Text" >
+                    <Property Name="Text" Value="x點數總和" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.269504,0},{0.178571,0},{0.87234,0},{0.714286,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/FamilyGameDiceWnd/Game/ResultTitle/Mark" >
+                    <Property Name="Image" Value="set:DejaVu image:Image14" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0992908,0},{0.178571,0},{0.198582,0},{0.714286,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/FamilyGameDiceWnd/Dice1" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.135417,0},{0.241636,0},{0.222917,0},{0.39777,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/FamilyGameDiceWnd/Dice2" >
+                <Property Name="UnifiedAreaRect" Value="{{0.34375,0},{0.241636,0},{0.43125,0},{0.39777,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/FamilyGameDiceWnd/Dice3" >
+                <Property Name="UnifiedAreaRect" Value="{{0.552083,0},{0.237918,0},{0.639583,0},{0.394052,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/FamilyGameDiceWnd/Dice4" >
+                <Property Name="UnifiedAreaRect" Value="{{0.760417,0},{0.241636,0},{0.847917,0},{0.39777,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/FamilyGameDiceWnd/Dice5" >
+                <Property Name="UnifiedAreaRect" Value="{{0.135417,0},{0.446097,0},{0.222917,0},{0.60223,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/FamilyGameDiceWnd/Dice6" >
+                <Property Name="UnifiedAreaRect" Value="{{0.34375,0},{0.446097,0},{0.43125,0},{0.60223,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/FamilyGameDiceWnd/Dice7" >
+                <Property Name="UnifiedAreaRect" Value="{{0.552083,0},{0.446097,0},{0.639583,0},{0.60223,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/FamilyGameDiceWnd/Dice8" >
+                <Property Name="UnifiedAreaRect" Value="{{0.760417,0},{0.446097,0},{0.847917,0},{0.60223,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

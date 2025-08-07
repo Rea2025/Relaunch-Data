@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/CombineWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="TitlebarImage" Value="set:main image:Combine" />
+        <Property Name="UnifiedAreaRect" Value="{{0.335938,0},{0.227865,0},{0.335938,336},{0.227865,537}}" />
+        <Window Type="DejaVu/Embed" Name="Root/CombineWnd/Wnd" >
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Static" Name="Root/CombineWnd/Wnd/Product" >
+                <Property Name="UnifiedAreaRect" Value="{{0.03125,0},{0.223195,0},{0.96875,0},{0.413567,0}}" />
+                <Window Type="DejaVu/Embed2" Name="Root/CombineWnd/Wnd/Product/MainArea" >
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.114943,0},{1,0},{1,0}}" />
+                    <Window Type="DejaVu/SlotImage" Name="Root/CombineWnd/Wnd/Product/MainArea/SlotImage" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.033333,0},{0.324675,0},{0.173333,0},{0.870129,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/CombineWnd/Wnd/Product/MainArea/Text" >
+                        <Property Name="Text" Value="x好人卡" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.206667,0},{0.467532,0},{0.873334,0},{0.727272,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed4" Name="Root/CombineWnd/Wnd/ProductWnd/Title" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.033333,0},{0,0},{0.533333,0},{0.287356,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/CombineWnd/Wnd/ProductWnd/Title/Text" >
+                        <Property Name="Text" Value="x獲得成品" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.2,0},{0.866667,0},{0.8,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/CombineWnd/Wnd/ProductWnd/Title/Image" >
+                        <Property Name="Image" Value="set:DejaVu image:Image09" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="Root/CombineWnd/Wnd/MainItem" >
+                <Property Name="UnifiedAreaRect" Value="{{0.03125,0},{0.0218818,0},{0.96875,0},{0.212254,0}}" />
+                <Window Type="DejaVu/Embed2" Name="Root/CombineWnd/Wnd/MainItem/MainArea" >
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.114943,0},{1,0},{1,0}}" />
+                    <Window Type="DejaVu/SlotImage" Name="Root/CombineWnd/Wnd/MainItem/MainArea/SlotItem" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.033333,0},{0.324675,0},{0.173333,0},{0.870129,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/CombineWnd/Wnd/MainItem/MainArea/Text" >
+                        <Property Name="Text" Value="x告白用玫瑰花紅玫瑰花瑰" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.206667,0},{0.467532,0},{0.706667,0},{0.727272,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/CombineWnd/Wnd/MainItem/MainArea/NeedNum" >
+                        <Property Name="HorzFormatting" Value="RightAligned" />
+                        <Property Name="Text" Value="x00/190" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.716667,0},{0.467532,0},{0.933334,0},{0.727272,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed4" Name="Root/CombineWnd/Wnd/MainItem/Title" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.033333,0},{0,0},{0.533333,0},{0.287356,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/CombineWnd/Wnd/MainItem/Title/Text" >
+                        <Property Name="Text" Value="x使用道具" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.2,0},{0.866667,0},{0.8,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/CombineWnd/Wnd/MainItem/Title/Image" >
+                        <Property Name="Image" Value="set:DejaVu image:Image20" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="Root/CombineWnd/Wnd/Material" >
+                <Property Name="UnifiedAreaRect" Value="{{0.03125,0},{0.424508,0},{0.96875,0},{0.842451,0}}" />
+                <Window Type="DejaVu/Embed2" Name="Root/CombineWnd/Wnd/Material/MainArea" >
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.052356,0},{1,0},{1,0}}" />
+                    <Window Type="DejaVu/SlotImage" Name="Root/CombineWnd/Wnd/Material/MainArea/SlotImage1" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.033333,0},{0.138122,0},{0.173333,0},{0.370166,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/CombineWnd/Wnd/Material/MainArea/SlotImage2" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.033333,0},{0.425414,0},{0.173333,0},{0.657458,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/CombineWnd/Wnd/Material/MainArea/SlotImage3" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.033333,0},{0.712707,0},{0.173333,0},{0.944751,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/CombineWnd/Wnd/Material/MainArea/Text1" >
+                        <Property Name="Text" Value="x告白用台詞" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.206667,0},{0.198895,0},{0.673334,0},{0.309392,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/CombineWnd/Wnd/Material/MainArea/Text2" >
+                        <Property Name="Text" Value="x告白的勇氣" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.206667,0},{0.486188,0},{0.673334,0},{0.596685,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/CombineWnd/Wnd/Material/MainArea/Text3" >
+                        <Property Name="Text" Value="x閃光導火線" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.206667,0},{0.773481,0},{0.673334,0},{0.883978,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/CombineWnd/Wnd/Material/MainArea/NeedNum1" >
+                        <Property Name="HorzFormatting" Value="RightAligned" />
+                        <Property Name="Text" Value="x1/10" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.7,0},{0.198895,0},{0.933333,0},{0.309392,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/CombineWnd/Wnd/Material/MainArea/NeedNum2" >
+                        <Property Name="HorzFormatting" Value="RightAligned" />
+                        <Property Name="Text" Value="x0/100" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.7,0},{0.486188,0},{0.933333,0},{0.596685,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/CombineWnd/Wnd/Material/MainArea/NeedNum3" >
+                        <Property Name="HorzFormatting" Value="RightAligned" />
+                        <Property Name="Text" Value="x99/1" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.7,0},{0.773481,0},{0.933333,0},{0.883978,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed4" Name="Root/CombineWnd/Wnd/Material/Title" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.033333,0},{0,0},{0.533333,0},{0.13089,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/CombineWnd/Wnd/Material/Title/Text" >
+                        <Property Name="Text" Value="x需求原料" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.2,0},{0.866667,0},{0.8,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/CombineWnd/Wnd/Material/Title/Image" >
+                        <Property Name="Image" Value="set:DejaVu image:Image10" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/CombineWnd/Wnd/CombineBtn" >
+                <Property Name="Text" Value="x進行合成" />
+                <Property Name="UnifiedAreaRect" Value="{{0.73125,0},{0.921225,0},{0.96875,0},{0.978118,0}}" />
+            </Window>
+            <Window Type="DejaVu/EmbedTextLab7" Name="Root/CombineWnd/Wnd/CostText" >
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="x花費" />
+                <Property Name="UnifiedAreaRect" Value="{{0.03125,0},{0.853392,0},{0.25,0},{0.908096,0}}" />
+            </Window>
+            <Window Type="DejaVu/Embed2" Name="Root/CombineWnd/Wnd/Money" >
+                <Property Name="UnifiedAreaRect" Value="{{0.25,0},{0.853392,0},{0.6875,0},{0.908096,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="Root/CombineWnd/Wnd/Money/GoldImage" >
+                    <Property Name="Image" Value="set:main image:Gold" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0.2,0},{0.607143,0},{0.8,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/CombineWnd/Wnd/Money/SilverImage" >
+                    <Property Name="Image" Value="set:main image:Silver" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.857143,0},{0.2,0},{0.964286,0},{0.8,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/CombineWnd/Wnd/Money/Silver" >
+                    <Property Name="HorzFormatting" Value="RightAligned" />
+                    <Property Name="Text" Value="999" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.607143,0},{0.2,0},{0.821429,0},{0.8,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/CombineWnd/Wnd/Money/Gold" >
+                    <Property Name="HorzFormatting" Value="RightAligned" />
+                    <Property Name="Text" Value="x9999" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.071429,0},{0.2,0},{0.464286,0},{0.8,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/EmbedTextLab7" Name="Root/CombineWnd/Wnd/NumberText" >
+                <Property Name="Text" Value="x製作數量" />
+                <Property Name="UnifiedAreaRect" Value="{{0.03125,0},{0.919037,0},{0.25,0},{0.973742,0}}" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/CombineWnd/Wnd/BtnL" >
+                <Property Name="DisabledImage" Value="set:DejaVu image:ArrowLeftPressed" />
+                <Property Name="HoverImage" Value="set:DejaVu image:ArrowLeftHover" />
+                <Property Name="NormalImage" Value="set:DejaVu image:ArrowLeftNormal" />
+                <Property Name="PushedImage" Value="set:DejaVu image:ArrowLeftPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0.25,0},{0.919037,0},{0.3125,0},{0.973742,0}}" />
+            </Window>
+            <Window Type="DejaVu/Editbox" Name="Root/CombineWnd/Wnd/MakeNum" >
+                <Property Name="MaxTextLength" Value="2147483647" />
+                <Property Name="TextParsingEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.326953,0},{0.91875,0},{0.514453,0},{0.973455,0}}" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/CombineWnd/Wnd/BtnR" >
+                <Property Name="DisabledImage" Value="set:DejaVu image:ArrowRightPressed" />
+                <Property Name="HoverImage" Value="set:DejaVu image:ArrowRightHover" />
+                <Property Name="NormalImage" Value="set:DejaVu image:ArrowRightNormal" />
+                <Property Name="PushedImage" Value="set:DejaVu image:ArrowRightPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0.53125,0},{0.919037,0},{0.59375,0},{0.973742,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/CombineWnd/Wnd/CookingBtn" >
+                <Property Name="Text" Value="x進階料理" />
+                <Property Name="UnifiedAreaRect" Value="{{0.731251,0},{0.855313,0},{0.968751,0},{0.912206,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

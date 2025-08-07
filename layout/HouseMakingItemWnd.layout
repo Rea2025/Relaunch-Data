@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="HouseMakingItemWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="TitlebarImage" Value="set:main16 image:HouseSetting" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,664},{0,599}}" />
+        <Window Type="DejaVu/Embed" Name="HouseMakingItemWnd/Embed" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Button" Name="HouseMakingItemWnd/Embed/MakeBtn" >
+                <Property Name="Text" Value="x製作" />
+                <Property Name="UnifiedAreaRect" Value="{{0.867284,0},{0.930636,0},{0.984568,0},{0.980732,0}}" />
+            </Window>
+            <Window Type="DejaVu/Static" Name="HouseMakingItemWnd/Embed/MakeItemList" >
+                <Property Name="UnifiedAreaRect" Value="{{0.015432,0},{0.019268,0},{0.507716,0},{0.921002,0}}" />
+                <Window Type="DejaVu/Embed2" Name="HouseMakingItemWnd/Embed/MakeItemList/BG" >
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.021368,0},{1,0},{1,0}}" />
+                    <Window Type="DejaVu/Embed2" Name="HouseMakingItemWnd/Embed/MakeItemList/BG/ListBG" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.031348,0},{0.120087,0},{0.968652,0},{0.978166,0}}" />
+                        <Window Type="DejaVu/ScrollablePane" Name="HouseMakingItemWnd/Embed/MakeItemList/BG/ListBG/List" >
+                            <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                            <Property Name="HorzOverlapSize" Value="0.01" />
+                            <Property Name="HorzScrollPosition" Value="0" />
+                            <Property Name="HorzStepSize" Value="0.1" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.00668896,0},{0.00508906,0},{0.993311,0},{0.994911,0}}" />
+                            <Property Name="VertOverlapSize" Value="0.01" />
+                            <Property Name="VertScrollPosition" Value="0" />
+                            <Property Name="VertStepSize" Value="0.1" />
+                            <AutoWindow NameSuffix="__auto_container__" >
+                                <Property Name="ChildExtentsArea" Value="l:0 t:0 r:0 b:0" />
+                                <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                                <Property Name="MouseInputPropagationEnabled" Value="True" />
+                            </AutoWindow>
+                        </Window>
+                        <Window Type="DejaVu/EmbedTextLab7" Name="HouseMakingItemWnd/Embed/MakeItemList/BG/ListBG/Title" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="x物品名稱" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.005089,0},{0.936455,0},{0.0687022,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Button" Name="HouseMakingItemWnd/Embed/MakeItemList/BG/LearnDesignBtn" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="x學習設計圖" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.031348,0},{0.054945,0},{0.30094,0},{0.111714,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed4" Name="HouseMakingItemWnd/Embed/MakeItemList/Title" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.032895,0},{0,0},{0.503114,0},{0.0534188,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="HouseMakingItemWnd/Embed/MakeItemList/Title/Text" >
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="Text" Value="x家具製作清單" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.2,0},{0.8,0},{0.8,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="HouseMakingItemWnd/Embed/MakeItemList/Title/Img" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Image" Value="set:DejaVu image:Image20" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Button" Name="HouseMakingItemWnd/Embed/MakeAllBtn" >
+                <Property Name="Text" Value="x全部製作" />
+                <Property Name="UnifiedAreaRect" Value="{{0.734568,0},{0.930636,0},{0.851852,0},{0.980732,0}}" />
+            </Window>
+            <Window Type="DejaVu/Editbox" Name="HouseMakingItemWnd/Embed/MakeNum" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="MaxTextLength" Value="3" />
+                <Property Name="Text" Value="1" />
+                <Property Name="TextParsingEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.162037,0},{0.930636,0},{0.239197,0},{0.978806,0}}" />
+                <Property Name="ValidationString" Value="(\d+(\.\d*)?)?" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="HouseMakingItemWnd/Embed/MakePlus" >
+                <Property Name="DisabledImage" Value="set:DejaVu image:ArrowRightPressed" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HoverImage" Value="set:DejaVu image:ArrowRightHover" />
+                <Property Name="NormalImage" Value="set:DejaVu image:ArrowRightNormal" />
+                <Property Name="PushedImage" Value="set:DejaVu image:ArrowRightPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0.246914,0},{0.930636,0},{0.277778,0},{0.978806,0}}" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="HouseMakingItemWnd/Embed/MakeMinus" >
+                <Property Name="DisabledImage" Value="set:DejaVu image:ArrowLeftPressed" />
+                <Property Name="HoverImage" Value="set:DejaVu image:ArrowLeftHover" />
+                <Property Name="NormalImage" Value="set:DejaVu image:ArrowLeftNormal" />
+                <Property Name="PushedImage" Value="set:DejaVu image:ArrowLeftPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0.123457,0},{0.930636,0},{0.154321,0},{0.978806,0}}" />
+            </Window>
+            <Window Type="DejaVu/Embed2" Name="HouseMakingItemWnd/Embed/PriceTextBG" >
+                <Property Name="UnifiedAreaRect" Value="{{0.385802,0},{0.930636,0},{0.617283,0},{0.978806,0}}" />
+                <Window Type="DejaVu/Static" Name="HouseMakingItemWnd/Embed/PriceTextBG/PriceText" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.0666667,0},{0,0},{0.933333,0},{1,0}}" />
+                    <Window Type="DejaVu/StaticImage" Name="HouseMakingItemWnd/Embed/PriceTextBG/PriceText/SilverImg" >
+                        <Property Name="Image" Value="set:main image:Silver" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.884615,0},{0.2,0},{1,0},{0.8,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="HouseMakingItemWnd/Embed/PriceTextBG/PriceText/GoldImg" >
+                        <Property Name="Image" Value="set:main image:Gold" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.461538,0},{0.2,0},{0.576923,0},{0.8,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="HouseMakingItemWnd/Embed/PriceTextBG/PriceText/SilverText" >
+                        <Property Name="HorzFormatting" Value="RightAligned" />
+                        <Property Name="Text" Value="999" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.615385,0},{0.2,0},{0.846154,0},{0.8,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="HouseMakingItemWnd/Embed/PriceTextBG/PriceText/GoldText" >
+                        <Property Name="HorzFormatting" Value="RightAligned" />
+                        <Property Name="Text" Value="99999" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.038462,0},{0.2,0},{0.423077,0},{0.8,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/EmbedTextLab7" Name="HouseMakingItemWnd/Embed/PriceTitleText" >
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="x費用" />
+                <Property Name="UnifiedAreaRect" Value="{{0.277778,0},{0.930636,0},{0.385803,0},{0.978806,0}}" />
+            </Window>
+            <Window Type="DejaVu/Static" Name="HouseMakingItemWnd/Embed/ProductInfo" >
+                <Property Name="UnifiedAreaRect" Value="{{0.515432,0},{0.0192678,0},{0.984568,0},{0.416185,0}}" />
+                <Window Type="DejaVu/Embed2" Name="HouseMakingItemWnd/Embed/ProductInfo/InfoBG" >
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.048544,0},{1,0},{1,0}}" />
+                    <Window Type="DejaVu/Embed2" Name="HouseMakingItemWnd/Embed/ProductInfo/InfoBG/BonusItemBG" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.0328947,0},{0.636547,0},{0.967105,0},{0.952874,0}}" />
+                        <Window Type="DejaVu/SlotImage" Name="HouseMakingItemWnd/Embed/ProductInfo/InfoBG/BonusItemBG/SlotItem" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.0352113,0},{0.16129,0},{0.183099,0},{0.83871,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/EmbedTextLab2" Name="HouseMakingItemWnd/Embed/ProductInfo/InfoBG/BonusItemBG/SlotItemText" >
+                            <Property Name="HorzFormatting" Value="LeftAligned" />
+                            <Property Name="Text" Value="x請放入虛擬寶物" />
+                            <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.21831,0},{0.290323,0},{0.964789,0},{0.693549,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Embed2" Name="HouseMakingItemWnd/Embed/ProductInfo/InfoBG/InfoText" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.032895,0},{0.127551,0},{0.967106,0},{0.607143,0}}" />
+                        <Window Type="DejaVu/VScrolledText" Name="HouseMakingItemWnd/Embed/ProductInfo/InfoBG/InfoText/Text" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.017606,0},{0.053191,0},{0.982395,0},{0.946808,0}}" />
+                            <Property Name="VertFormatting" Value="TopAligned" />
+                            <Property Name="VertScrollbar" Value="True" />
+                        </Window>
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed4" Name="HouseMakingItemWnd/Embed/ProductInfo/InfoTitle" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.033333,0},{0,0},{0.526754,0},{0.121359,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="HouseMakingItemWnd/Embed/ProductInfo/InfoTitle/Text" >
+                        <Property Name="Text" Value="x成品說明" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.2,0},{0.8,0},{0.8,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="HouseMakingItemWnd/Embed/ProductInfo/InfoTitle/Img" >
+                        <Property Name="Image" Value="set:DejaVu image:Image09" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0986842,0},{0.2,0},{0.197368,0},{0.8,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/EmbedTextLab7" Name="HouseMakingItemWnd/Embed/MakeNumTitleText" >
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="x製作數量" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0154321,0},{0.930636,0},{0.123457,0},{0.978805,0}}" />
+            </Window>
+            <Window Type="DejaVu/Static" Name="HouseMakingItemWnd/Embed/NeedItem" >
+                <Property Name="UnifiedAreaRect" Value="{{0.515432,0},{0.425819,0},{0.984568,0},{0.921002,0}}" />
+                <Window Type="DejaVu/Embed4" Name="HouseMakingItemWnd/Embed/NeedItem/Title" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.033333,0},{0,0},{0.526754,0},{0.0972763,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="HouseMakingItemWnd/Embed/NeedItem/Title/Text" >
+                        <Property Name="Text" Value="x需求物品" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.184571,0},{0.8,0},{0.784571,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="HouseMakingItemWnd/Embed/NeedItem/Title/Img" >
+                        <Property Name="Image" Value="set:DejaVu image:Image23" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0986842,0},{0.2,0},{0.197368,0},{0.8,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed2" Name="HouseMakingItemWnd/Embed/NeedItem/BG" >
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0389105,0},{1,0},{1,0}}" />
+                    <Window Type="DejaVu/Embed2" Name="HouseMakingItemWnd/Embed/NeedItem/BG/ItemList" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.033333,0},{0.101215,0},{0.966666,0},{0.959515,0}}" />
+                        <Window Type="DejaVu/Static" Name="HouseMakingItemWnd/Embed/NeedItem/BG/ItemList/SlotItem1" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.007042,0},{0.009434,0},{0.992957,0},{0.254717,0}}" />
+                            <Window Type="DejaVu/Embed3" Name="HouseMakingItemWnd/Embed/NeedItem/BG/ItemList/SlotItem1/Item" >
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.75,0},{1,0}}" />
+                                <Window Type="DejaVu/SlotImage" Name="HouseMakingItemWnd/Embed/NeedItem/BG/ItemList/SlotItem1/Item/SlotImg" >
+                                    <Property Name="Font" Value="F001-9" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.0238095,0},{0.0961538,0},{0.22381,0},{0.903846,0}}" />
+                                </Window>
+                                <Window Type="DejaVu/StaticTextLab" Name="HouseMakingItemWnd/Embed/NeedItem/BG/ItemList/SlotItem1/Item/SlotText" >
+                                    <Property Name="Font" Value="F001-9" />
+                                    <Property Name="Text" Value="x材料1" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.271429,0},{0.288462,0},{0.952381,0},{0.711539,0}}" />
+                                </Window>
+                            </Window>
+                            <Window Type="DejaVu/EmbedTextLab3" Name="HouseMakingItemWnd/Embed/NeedItem/BG/ItemList/SlotItem1/NeedNum" >
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="HorzFormatting" Value="HorzCentred" />
+                                <Property Name="Text" Value="x0/3" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.75,0},{0,0},{1,0},{1,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/Static" Name="HouseMakingItemWnd/Embed/NeedItem/BG/ItemList/SlotItem2" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.00704225,0},{0.254717,0},{0.992958,0},{0.5,0}}" />
+                            <Window Type="DejaVu/Embed3" Name="HouseMakingItemWnd/Embed/NeedItem/BG/ItemList/SlotItem2/Item" >
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.75,0},{1,0}}" />
+                                <Window Type="DejaVu/SlotImage" Name="HouseMakingItemWnd/Embed/NeedItem/BG/ItemList/SlotItem2/Item/SlotImg" >
+                                    <Property Name="UnifiedAreaRect" Value="{{0.0238095,0},{0.0961538,0},{0.22381,0},{0.903846,0}}" />
+                                </Window>
+                                <Window Type="DejaVu/StaticTextLab" Name="HouseMakingItemWnd/Embed/NeedItem/BG/ItemList/SlotItem2/Item/SlotText" >
+                                    <Property Name="Text" Value="x材料2" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.271429,0},{0.288462,0},{0.952381,0},{0.711539,0}}" />
+                                </Window>
+                            </Window>
+                            <Window Type="DejaVu/EmbedTextLab3" Name="HouseMakingItemWnd/Embed/NeedItem/BG/ItemList/SlotItem2/NeedNum" >
+                                <Property Name="HorzFormatting" Value="HorzCentred" />
+                                <Property Name="Text" Value="x0/3" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.75,0},{0,0},{1,0},{1,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/Static" Name="HouseMakingItemWnd/Embed/NeedItem/BG/ItemList/SlotItem3" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.00704225,0},{0.5,0},{0.992958,0},{0.745283,0}}" />
+                            <Window Type="DejaVu/Embed3" Name="HouseMakingItemWnd/Embed/NeedItem/BG/ItemList/SlotItem3/Item" >
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.75,0},{1,0}}" />
+                                <Window Type="DejaVu/SlotImage" Name="HouseMakingItemWnd/Embed/NeedItem/BG/ItemList/SlotItem3/Item/SlotImg" >
+                                    <Property Name="UnifiedAreaRect" Value="{{0.0238095,0},{0.0961538,0},{0.22381,0},{0.903846,0}}" />
+                                </Window>
+                                <Window Type="DejaVu/StaticTextLab" Name="HouseMakingItemWnd/Embed/NeedItem/BG/ItemList/SlotItem3/Item/SlotText" >
+                                    <Property Name="Text" Value="x材料3" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.271429,0},{0.288462,0},{0.952381,0},{0.711539,0}}" />
+                                </Window>
+                            </Window>
+                            <Window Type="DejaVu/EmbedTextLab3" Name="HouseMakingItemWnd/Embed/NeedItem/BG/ItemList/SlotItem3/NeedNum" >
+                                <Property Name="HorzFormatting" Value="HorzCentred" />
+                                <Property Name="Text" Value="x0/3" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.75,0},{0,0},{1,0},{1,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/Static" Name="HouseMakingItemWnd/Embed/NeedItem/BG/ItemList/SlotItem4" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.00704225,0},{0.745283,0},{0.992958,0},{0.990566,0}}" />
+                            <Window Type="DejaVu/Embed3" Name="HouseMakingItemWnd/Embed/NeedItem/BG/ItemList/SlotItem4/Item" >
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.75,0},{1,0}}" />
+                                <Window Type="DejaVu/SlotImage" Name="HouseMakingItemWnd/Embed/NeedItem/BG/ItemList/SlotItem4/Item/SlotImg" >
+                                    <Property Name="UnifiedAreaRect" Value="{{0.0238095,0},{0.0961538,0},{0.22381,0},{0.903846,0}}" />
+                                </Window>
+                                <Window Type="DejaVu/StaticTextLab" Name="HouseMakingItemWnd/Embed/NeedItem/BG/ItemList/SlotItem4/Item/SlotText" >
+                                    <Property Name="Text" >x材料4
+</Property>
+                                    <Property Name="UnifiedAreaRect" Value="{{0.271429,0},{0.288462,0},{0.952381,0},{0.711539,0}}" />
+                                </Window>
+                            </Window>
+                            <Window Type="DejaVu/EmbedTextLab3" Name="HouseMakingItemWnd/Embed/NeedItem/BG/ItemList/SlotItem4/NeedNum" >
+                                <Property Name="HorzFormatting" Value="HorzCentred" />
+                                <Property Name="Text" Value="x0/3" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.75,0},{0,0},{1,0},{1,0}}" />
+                            </Window>
+                        </Window>
+                    </Window>
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

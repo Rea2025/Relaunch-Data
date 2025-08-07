@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/FaceChangeWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="TitlebarImage" Value="set:main image:CharaterNormal" />
+        <Property Name="UnifiedAreaRect" Value="{{0.185547,0},{0.135417,0},{0.185547,546},{0.135417,615}}" />
+        <Window Type="DejaVu/Embed" Name="Root/FaceChangeWnd/BG" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Button" Name="Root/FaceChangeWnd/BG/OkBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="x確定外觀" />
+                <Property Name="UnifiedAreaRect" Value="{{0.837736,0},{0.93271,0},{0.981132,0},{0.981308,0}}" />
+            </Window>
+            <Window Type="DejaVu/Static" Name="Root/FaceChangeWnd/BG/DressBG" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.018868,0},{0.018692,0},{0.622642,0},{0.981309,0}}" />
+                <Window Type="DejaVu/Embed2" Name="Root/FaceChangeWnd/BG/DressBG/Embed2" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.019417,0},{1,0},{1,0}}" />
+                    <Window Type="DejaVu/Static" Name="Root/FaceChangeWnd/BG/DressBG/ViewAvatar" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.03125,0},{0.049505,0},{0.96875,0},{0.980198,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Checkbox" Name="Root/FaceChangeWnd/BG/DressBG/ShowHat" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="Text" Value="x顯示頭飾外觀" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.03125,0},{0.930693,0},{0.40625,0},{0.980198,0}}" />
+                        <Property Name="Visible" Value="False" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed4" Name="Root/FaceChangeWnd/BG/DressBG/Title" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.03125,0},{0,0},{0.5,0},{0.0485437,0}}" />
+                    <Window Type="DejaVu/StaticImage" Name="Root/FaceChangeWnd/BG/DressBG/Title/Img" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Image" Value="set:DejaVu image:Image13" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/FaceChangeWnd/BG/DressBG/Title/Text" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="x角色外觀" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.2,0},{0.866667,0},{0.8,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="Root/FaceChangeWnd/BG/OptionBG" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.632075,0},{0.018692,0},{0.981132,0},{0.923365,0}}" />
+                <Window Type="DejaVu/Embed2" Name="Root/FaceChangeWnd/BG/CharacterProperty" >
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.020661,0},{1,0},{1,0}}" />
+                    <Window Type="DejaVu/Static" Name="Root/FaceChangeWnd/BG/CharacterProperty/FaceTypeFrame" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.0540541,0},{0.0738397,0},{0.945946,0},{0.200422,0}}" />
+                        <Window Type="DejaVu/StaticImage" Name="Root/FaceChangeWnd/BG/CharacterProperty/Title1" >
+                            <Property Name="Image" Value="set:main3 image:Title" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.181818,0},{0,0},{0.818182,0},{0.416667,0}}" />
+                            <Window Type="DejaVu/StaticTextLab" Name="Root/FaceChangeWnd/BG/CharacterProperty/TitleText1" >
+                                <Property Name="HorzFormatting" Value="HorzCentred" />
+                                <Property Name="Text" Value="x臉孔" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/EmbedTextLab5" Name="Root/FaceChangeWnd/BG/CharacterProperty/CharacterType1" >
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="1/5" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.242424,0},{0.583333,0},{0.757576,0},{1,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/ImageButton" Name="Root/FaceChangeWnd/BG/CharacterProperty/L1" >
+                            <Property Name="DisabledImage" Value="set:main3 image:LeftBtnPressed" />
+                            <Property Name="HoverImage" Value="set:main3 image:LeftBtnHover" />
+                            <Property Name="NormalImage" Value="set:main3 image:LeftBtnNormal" />
+                            <Property Name="PushedImage" Value="set:main3 image:LeftBtnPressed" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.030303,0},{0.616667,0},{0.121212,0},{0.95,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/ImageButton" Name="Root/FaceChangeWnd/BG/CharacterProperty/R1" >
+                            <Property Name="DisabledImage" Value="set:main3 image:RightBtnPressed" />
+                            <Property Name="HoverImage" Value="set:main3 image:RightBtnHover" />
+                            <Property Name="NormalImage" Value="set:main3 image:RightBtnNormal" />
+                            <Property Name="PushedImage" Value="set:main3 image:RightBtnPressed" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.878788,0},{0.616667,0},{0.969697,0},{0.95,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Static" Name="Root/FaceChangeWnd/BG/CharacterProperty/HairTypeFrame" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.0540541,0},{0.232068,0},{0.945946,0},{0.35865,0}}" />
+                        <Window Type="DejaVu/StaticImage" Name="Root/FaceChangeWnd/BG/CharacterProperty/Title2" >
+                            <Property Name="Image" Value="set:main3 image:Title" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.181818,0},{0,0},{0.818182,0},{0.416667,0}}" />
+                            <Window Type="DejaVu/StaticTextLab" Name="Root/FaceChangeWnd/BG/CharacterProperty/TitleText2" >
+                                <Property Name="HorzFormatting" Value="HorzCentred" />
+                                <Property Name="Text" Value="x髮型" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/EmbedTextLab5" Name="Root/FaceChangeWnd/BG/CharacterProperty/CharacterType2" >
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="1/5" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.242424,0},{0.583333,0},{0.757576,0},{1,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/ImageButton" Name="Root/FaceChangeWnd/BG/CharacterProperty/L2" >
+                            <Property Name="DisabledImage" Value="set:main3 image:LeftBtnPressed" />
+                            <Property Name="HoverImage" Value="set:main3 image:LeftBtnHover" />
+                            <Property Name="NormalImage" Value="set:main3 image:LeftBtnNormal" />
+                            <Property Name="PushedImage" Value="set:main3 image:LeftBtnPressed" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.030303,0},{0.616667,0},{0.121212,0},{0.95,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/ImageButton" Name="Root/FaceChangeWnd/BG/CharacterProperty/R2" >
+                            <Property Name="DisabledImage" Value="set:main3 image:RightBtnPressed" />
+                            <Property Name="HoverImage" Value="set:main3 image:RightBtnHover" />
+                            <Property Name="NormalImage" Value="set:main3 image:RightBtnNormal" />
+                            <Property Name="PushedImage" Value="set:main3 image:RightBtnPressed" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.878788,0},{0.616667,0},{0.969697,0},{0.95,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Static" Name="Root/FaceChangeWnd/BG/CharacterProperty/HairColorTypeFrame" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.0540541,0},{0.390295,0},{0.945946,0},{0.516878,0}}" />
+                        <Window Type="DejaVu/StaticImage" Name="Root/FaceChangeWnd/BG/CharacterProperty/Title3" >
+                            <Property Name="Image" Value="set:main3 image:Title" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.181818,0},{0,0},{0.818182,0},{0.416667,0}}" />
+                            <Window Type="DejaVu/StaticTextLab" Name="Root/FaceChangeWnd/BG/CharacterProperty/TitleText3" >
+                                <Property Name="HorzFormatting" Value="HorzCentred" />
+                                <Property Name="Text" Value="x髮色" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/ImageButton" Name="Root/FaceChangeWnd/BG/CharacterProperty/L3" >
+                            <Property Name="DisabledImage" Value="set:main3 image:LeftBtnPressed" />
+                            <Property Name="HoverImage" Value="set:main3 image:LeftBtnHover" />
+                            <Property Name="NormalImage" Value="set:main3 image:LeftBtnNormal" />
+                            <Property Name="PushedImage" Value="set:main3 image:LeftBtnPressed" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.030303,0},{0.616667,0},{0.121212,0},{0.95,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/ImageButton" Name="Root/FaceChangeWnd/BG/CharacterProperty/R3" >
+                            <Property Name="DisabledImage" Value="set:main3 image:RightBtnPressed" />
+                            <Property Name="HoverImage" Value="set:main3 image:RightBtnHover" />
+                            <Property Name="NormalImage" Value="set:main3 image:RightBtnNormal" />
+                            <Property Name="PushedImage" Value="set:main3 image:RightBtnPressed" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.878788,0},{0.616667,0},{0.969697,0},{0.95,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Static" Name="Root/FaceChangeWnd/BG/CharacterProperty/HairColorTypeFrame/SlotSet" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.181818,0},{0.583333,0},{0.818182,0},{1,0}}" />
+                            <Window Type="DejaVu/SlotImage" Name="Root/FaceChangeWnd/BG/CharacterProperty/HairColorTypeFrame/Slot1" >
+                                <Property Name="UnifiedAreaRect" Value="{{0.00952381,0},{0,0},{0.247619,0},{1,0}}" />
+                                <Property Name="Visible" Value="False" />
+                            </Window>
+                            <Window Type="DejaVu/SlotImage" Name="Root/FaceChangeWnd/BG/CharacterProperty/HairColorTypeFrame/Slot2" >
+                                <Property Name="UnifiedAreaRect" Value="{{0.257143,0},{0,0},{0.495238,0},{1,0}}" />
+                                <Property Name="Visible" Value="False" />
+                            </Window>
+                            <Window Type="DejaVu/SlotImage" Name="Root/FaceChangeWnd/BG/CharacterProperty/HairColorTypeFrame/Slot3" >
+                                <Property Name="UnifiedAreaRect" Value="{{0.504762,0},{0,0},{0.742857,0},{1,0}}" />
+                                <Property Name="Visible" Value="False" />
+                            </Window>
+                            <Window Type="DejaVu/SlotImage" Name="Root/FaceChangeWnd/BG/CharacterProperty/HairColorTypeFrame/Slot4" >
+                                <Property Name="UnifiedAreaRect" Value="{{0.752381,0},{0,0},{0.990476,0},{1,0}}" />
+                                <Property Name="Visible" Value="False" />
+                            </Window>
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Static" Name="Root/FaceChangeWnd/BG/CharacterProperty/EyesTypeFrame" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.0540541,0},{0.548523,0},{0.945946,0},{0.675105,0}}" />
+                        <Window Type="DejaVu/StaticImage" Name="Root/FaceChangeWnd/BG/CharacterProperty/Title4" >
+                            <Property Name="Image" Value="set:main3 image:Title" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.181818,0},{0,0},{0.818182,0},{0.416667,0}}" />
+                            <Window Type="DejaVu/StaticTextLab" Name="Root/FaceChangeWnd/BG/CharacterProperty/TitleText4" >
+                                <Property Name="HorzFormatting" Value="HorzCentred" />
+                                <Property Name="Text" Value="x瞳色" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/ImageButton" Name="Root/FaceChangeWnd/BG/CharacterProperty/L4" >
+                            <Property Name="DisabledImage" Value="set:main3 image:LeftBtnPressed" />
+                            <Property Name="HoverImage" Value="set:main3 image:LeftBtnHover" />
+                            <Property Name="NormalImage" Value="set:main3 image:LeftBtnNormal" />
+                            <Property Name="PushedImage" Value="set:main3 image:LeftBtnPressed" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.030303,0},{0.616667,0},{0.121212,0},{0.95,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/ImageButton" Name="Root/FaceChangeWnd/BG/CharacterProperty/R4" >
+                            <Property Name="DisabledImage" Value="set:main3 image:RightBtnPressed" />
+                            <Property Name="HoverImage" Value="set:main3 image:RightBtnHover" />
+                            <Property Name="NormalImage" Value="set:main3 image:RightBtnNormal" />
+                            <Property Name="PushedImage" Value="set:main3 image:RightBtnPressed" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.878788,0},{0.616667,0},{0.969697,0},{0.95,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Static" Name="Root/FaceChangeWnd/BG/CharacterProperty/EyesTypeFrame/SlotSet" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.181818,0},{0.583333,0},{0.818182,0},{1,0}}" />
+                            <Window Type="DejaVu/SlotImage" Name="Root/FaceChangeWnd/BG/CharacterProperty/EyesTypeFrame/Slot1" >
+                                <Property Name="UnifiedAreaRect" Value="{{0.00952381,0},{0,0},{0.247619,0},{1,0}}" />
+                                <Property Name="Visible" Value="False" />
+                            </Window>
+                            <Window Type="DejaVu/SlotImage" Name="Root/FaceChangeWnd/BG/CharacterProperty/EyesTypeFrame/Slot2" >
+                                <Property Name="UnifiedAreaRect" Value="{{0.262072,0},{0,0},{0.500167,0},{1,0}}" />
+                                <Property Name="Visible" Value="False" />
+                            </Window>
+                            <Window Type="DejaVu/SlotImage" Name="Root/FaceChangeWnd/BG/CharacterProperty/EyesTypeFrame/Slot3" >
+                                <Property Name="UnifiedAreaRect" Value="{{0.504762,0},{0,0},{0.742857,0},{1,0}}" />
+                                <Property Name="Visible" Value="False" />
+                            </Window>
+                            <Window Type="DejaVu/SlotImage" Name="Root/FaceChangeWnd/BG/CharacterProperty/EyesTypeFrame/Slot4" >
+                                <Property Name="UnifiedAreaRect" Value="{{0.752381,0},{0,0},{0.990476,0},{1,0}}" />
+                                <Property Name="Visible" Value="False" />
+                            </Window>
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Static" Name="Root/FaceChangeWnd/BG/CharacterProperty/SkinTypeFrame" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.0540541,0},{0.706751,0},{0.945946,0},{0.833333,0}}" />
+                        <Window Type="DejaVu/StaticImage" Name="Root/FaceChangeWnd/BG/CharacterProperty/Title5" >
+                            <Property Name="Image" Value="set:main3 image:Title" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.181818,0},{0,0},{0.818182,0},{0.416667,0}}" />
+                            <Window Type="DejaVu/StaticTextLab" Name="Root/FaceChangeWnd/BG/CharacterProperty/TitleText5" >
+                                <Property Name="HorzFormatting" Value="HorzCentred" />
+                                <Property Name="Text" Value="x膚色" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/ImageButton" Name="Root/FaceChangeWnd/BG/CharacterProperty/L5" >
+                            <Property Name="DisabledImage" Value="set:main3 image:LeftBtnPressed" />
+                            <Property Name="HoverImage" Value="set:main3 image:LeftBtnHover" />
+                            <Property Name="NormalImage" Value="set:main3 image:LeftBtnNormal" />
+                            <Property Name="PushedImage" Value="set:main3 image:LeftBtnPressed" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.030303,0},{0.616667,0},{0.121212,0},{0.95,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/ImageButton" Name="Root/FaceChangeWnd/BG/CharacterProperty/R5" >
+                            <Property Name="DisabledImage" Value="set:main3 image:RightBtnPressed" />
+                            <Property Name="HoverImage" Value="set:main3 image:RightBtnHover" />
+                            <Property Name="NormalImage" Value="set:main3 image:RightBtnNormal" />
+                            <Property Name="PushedImage" Value="set:main3 image:RightBtnPressed" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.878788,0},{0.616667,0},{0.969697,0},{0.95,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Static" Name="Root/FaceChangeWnd/BG/CharacterProperty/SkinTypeFrame/SlotSet" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.181818,0},{0.583333,0},{0.818182,0},{1,0}}" />
+                            <Window Type="DejaVu/SlotImage" Name="Root/FaceChangeWnd/BG/CharacterProperty/SkinTypeFrame/Slot1" >
+                                <Property Name="UnifiedAreaRect" Value="{{0.00952381,0},{0,0},{0.247619,0},{1,0}}" />
+                                <Property Name="Visible" Value="False" />
+                            </Window>
+                            <Window Type="DejaVu/SlotImage" Name="Root/FaceChangeWnd/BG/CharacterProperty/SkinTypeFrame/Slot2" >
+                                <Property Name="UnifiedAreaRect" Value="{{0.257143,0},{0,0},{0.495238,0},{1,0}}" />
+                                <Property Name="Visible" Value="False" />
+                            </Window>
+                            <Window Type="DejaVu/SlotImage" Name="Root/FaceChangeWnd/BG/CharacterProperty/SkinTypeFrame/Slot3" >
+                                <Property Name="UnifiedAreaRect" Value="{{0.504762,0},{0,0},{0.742857,0},{1,0}}" />
+                                <Property Name="Visible" Value="False" />
+                            </Window>
+                            <Window Type="DejaVu/SlotImage" Name="Root/FaceChangeWnd/BG/CharacterProperty/SkinTypeFrame/Slot4" >
+                                <Property Name="UnifiedAreaRect" Value="{{0.752381,0},{0,0},{0.990476,0},{1,0}}" />
+                                <Property Name="Visible" Value="False" />
+                            </Window>
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Static" Name="Root/FaceChangeWnd/BG/CharacterProperty/SexFrame" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.027027,0},{0.843882,0},{0.972973,0},{0.970464,0}}" />
+                        <Window Type="DejaVu/StaticImage" Name="Root/FaceChangeWnd/BG/CharacterProperty/SexFrame/TitleBG" >
+                            <Property Name="Image" Value="set:main3 image:Title" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.181818,0},{0,0},{0.818182,0},{0.416667,0}}" />
+                            <Window Type="DejaVu/StaticText" Name="Root/FaceChangeWnd/BG/CharacterProperty/SexFrame/TitleBG/Text" >
+                                <Property Name="HorzFormatting" Value="HorzCentred" />
+                                <Property Name="Text" Value="x性別" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/RadioButton" Name="Root/FaceChangeWnd/BG/CharacterProperty/SexFrame/Male" >
+                            <Property Name="ID" Value="1" />
+                            <Property Name="Text" Value="x男" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.583333,0},{0.228571,0},{0.916666,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/RadioButton" Name="Root/FaceChangeWnd/BG/CharacterProperty/SexFrame/Female" >
+                            <Property Name="Text" Value="x女" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.272727,0},{0.583333,0},{0.501298,0},{0.916666,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/RadioButton" Name="Root/FaceChangeWnd/BG/CharacterProperty/SexFrame/Loli" >
+                            <Property Name="Text" Value="x蘿" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.515152,0},{0.583333,0},{0.743723,0},{0.916666,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/RadioButton" Name="Root/FaceChangeWnd/BG/CharacterProperty/SexFrame/Shota" >
+                            <Property Name="Text" Value="x正" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.771429,0},{0.583333,0},{1,0},{0.916667,0}}" />
+                        </Window>
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed4" Name="Root/FaceChangeWnd/BG/OptionBG/Tilte" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.054054,0},{0,0},{0.864865,0},{0.0516529,0}}" />
+                    <Window Type="DejaVu/StaticImage" Name="Root/FaceChangeWnd/BG/OptionBG/Tilte/Img" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Image" Value="set:DejaVu image:Image06" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/FaceChangeWnd/BG/OptionBG/Tilte/Text" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="x外觀設定" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.3,0},{0.2,0},{0.9,0},{0.8,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/FaceChangeWnd/BG/ReBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="x重置" />
+                <Property Name="UnifiedAreaRect" Value="{{0.632075,0},{0.93271,0},{0.775472,0},{0.981308,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

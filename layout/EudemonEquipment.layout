@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/EudemonEquipment" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="TitlebarImage" Value="set:main image:EudemonNormal" />
+        <Property Name="UnifiedAreaRect" Value="{{0.236329,0},{0.277343,0},{0.236329,501},{0.277343,470}}" />
+        <Window Type="DejaVu/Embed" Name="Root/EudemonEquipment/BG" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.000976563,0},{0,0},{1.00098,0},{1,0}}" />
+            <Window Type="DejaVu/Static" Name="Root/EudemonEquipment/BaseAttr" >
+                <Property Name="UnifiedAreaRect" Value="{{0.020619,0},{0.025641,0},{0.494846,0},{0.435897,0}}" />
+                <Window Type="DejaVu/Embed2" Name="Root/EudemonEquipment/BaseAttr/BG" >
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0625,0},{1,0},{1,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/EudemonEquipment/BaseAttr/RealName/Title" >
+                        <Property Name="Text" Value="x名稱" />
+                        <Property Name="TextColours" Value="tl:FFFFFF00 tr:FFFFFF00 bl:FFFFFF00 br:FFFFFF00" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.043478,0},{0.166667,0},{0.260869,0},{0.266667,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/EudemonEquipment/BaseAttr/Name/Title" >
+                        <Property Name="Text" Value="x位階" />
+                        <Property Name="TextColours" Value="tl:FFFFFF00 tr:FFFFFF00 bl:FFFFFF00 br:FFFFFF00" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.043478,0},{0.566667,0},{0.260869,0},{0.666667,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/EudemonEquipment/BaseAttr/HP/Title" >
+                        <Property Name="Text" Value="x生命值" />
+                        <Property Name="TextColours" Value="tl:FFFFFF00 tr:FFFFFF00 bl:FFFFFF00 br:FFFFFF00" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.043478,0},{0.7,0},{0.260869,0},{0.8,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/EudemonEquipment/BaseAttr/RealName/Text" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="一二三四五六" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.304348,0},{0.166667,0},{0.673913,0},{0.266667,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/EudemonEquipment/BaseAttr/Name/Text" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="x守護者" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.304348,0},{0.566667,0},{0.673913,0},{0.666667,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/EudemonEquipment/BaseAttr/HP/Text" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="899 / 999999" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.304348,0},{0.7,0},{0.826087,0},{0.8,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Button" Name="Root/EudemonEquipment/BaseAttr/GiveNameBtn" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="x命名" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.717391,0},{0.133333,0},{0.978261,0},{0.3,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/EudemonEquipment/BaseAttr/Level/Title" >
+                        <Property Name="Text" Value="x等級" />
+                        <Property Name="TextColours" Value="tl:FFFFFF00 tr:FFFFFF00 bl:FFFFFF00 br:FFFFFF00" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.043478,0},{0.3,0},{0.260869,0},{0.4,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/EudemonEquipment/BaseAttr/Star/Title" >
+                        <Property Name="Text" Value="x星級" />
+                        <Property Name="TextColours" Value="tl:FFFFFF00 tr:FFFFFF00 bl:FFFFFF00 br:FFFFFF00" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.043478,0},{0.433333,0},{0.260869,0},{0.533333,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/EudemonEquipment/BaseAttr/Level/Text" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="xLV 99" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.304348,0},{0.3,0},{0.586957,0},{0.4,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Static" Name="Root/EudemonEquipment/BaseAttr/Star/BG" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.304348,0},{0.433333,0},{0.826087,0},{0.533333,0}}" />
+                        <Window Type="DejaVu/StaticImage" Name="Root/EudemonEquipment/BaseAttr/Star1" >
+                            <Property Name="Image" Value="set:main2 image:Feeling02" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.125,0},{1,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticImage" Name="Root/EudemonEquipment/BaseAttr/Star2" >
+                            <Property Name="Image" Value="set:main2 image:Feeling02" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.125,0},{0,0},{0.25,0},{1,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticImage" Name="Root/EudemonEquipment/BaseAttr/Star3" >
+                            <Property Name="Image" Value="set:main2 image:Feeling02" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.25,0},{0,0},{0.375,0},{1,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticImage" Name="Root/EudemonEquipment/BaseAttr/Star4" >
+                            <Property Name="Image" Value="set:main2 image:Feeling02" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.375,0},{0,0},{0.5,0},{1,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/EudemonEquipment/BaseAttr/Score/Title" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="x積分" />
+                        <Property Name="TextColours" Value="tl:FFFFFF00 tr:FFFFFF00 bl:FFFFFF00 br:FFFFFF00" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.043478,0},{0.833333,0},{0.260869,0},{0.933333,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/EudemonEquipment/BaseAttr/Score/Text" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="x999999999" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.304348,0},{0.833333,0},{0.826087,0},{0.933333,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed4" Name="Root/EudemonEquipment/BaseAttr/Titlebar" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.043478,0},{0,0},{0.695652,0},{0.15625,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/EudemonEquipment/BaseAttr/Titlebar/Text" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="x基本資訊" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.2,0},{0.866667,0},{0.8,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/EudemonEquipment/BaseAttr/Titlebar/Pic" >
+                        <Property Name="Image" Value="set:DejaVu image:Image13" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="Root/EudemonEquipment/Equipment" >
+                <Property Name="UnifiedAreaRect" Value="{{0.505155,0},{0.025641,0},{0.979382,0},{0.435897,0}}" />
+                <Window Type="DejaVu/Embed2" Name="Root/EudemonEquipment/Equipment/bg" >
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.065359,0},{1,0},{1,0}}" />
+                    <Window Type="DejaVu/StaticImage" Name="Root/EudemonEquipment/Equipment/bg/pic" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Image" Value="set:main2 image:EudemonEquipBG" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.282609,0},{0.2,0},{0.717392,0},{0.866667,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/EudemonEquipment/Equipment/Slot1" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.217391,0},{-0.333333,0},{0.4,0},{-0.0533333,0}}" />
+                        <Property Name="VerticalAlignment" Value="Bottom" />
+                        <Window Type="DejaVu/StaticImage" Name="Root/EudemonEquipment/Equipment/Slot1/bg" >
+                            <Property Name="Image" Value="set:main2 image:EudemonEquipBase" />
+                            <Property Name="MousePassThroughEnabled" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0714286,0},{0.0714286,0},{0.928571,0},{0.928571,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/EudemonEquipment/Equipment/Slot2" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="HorizontalAlignment" Value="Right" />
+                        <Property Name="UnifiedAreaRect" Value="{{-0.217391,0},{-0.333333,0},{-0.0347826,0},{-0.0533333,0}}" />
+                        <Property Name="VerticalAlignment" Value="Bottom" />
+                        <Window Type="DejaVu/StaticImage" Name="Root/EudemonEquipment/Equipment/Slot2/bg" >
+                            <Property Name="Image" Value="set:main2 image:EudemonEquipBase" />
+                            <Property Name="MousePassThroughEnabled" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0714286,0},{0.0714286,0},{0.928571,0},{0.928571,0}}" />
+                        </Window>
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed4" Name="Root/EudemonEquipment/Equipment/Titlebar" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.044248,0},{0,0},{0.696422,0},{0.15625,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/EudemonEquipment/Equipment/Titlebar/Text" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="x幻獸裝備" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.2,0},{0.866667,0},{0.8,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/EudemonEquipment/Equipment/Titlebar/Pic" >
+                        <Property Name="Image" Value="set:DejaVu image:Image04" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="Root/EudemonEquipment/AttackAttr" >
+                <Property Name="UnifiedAreaRect" Value="{{0.0206186,0},{0.448718,0},{0.494845,0},{0.705128,0}}" />
+                <Window Type="DejaVu/Embed2" Name="Root/EudemonEquipment/AttackAttr/bg" >
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.103906,0},{1,0},{1.00391,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/EudemonEquipment/AttackAttr/Attack/Title" >
+                        <Property Name="Text" Value="x傷害" />
+                        <Property Name="TextColours" Value="tl:FFFFFF00 tr:FFFFFF00 bl:FFFFFF00 br:FFFFFF00" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.042553,0},{0.277778,0},{0.259944,0},{0.444445,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/EudemonEquipment/AttackAttr/Critical/Title" >
+                        <Property Name="Text" Value="x爆擊" />
+                        <Property Name="TextColours" Value="tl:FFFFFF00 tr:FFFFFF00 bl:FFFFFF00 br:FFFFFF00" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.042553,0},{0.5,0},{0.259944,0},{0.666667,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/EudemonEquipment/AttackAttr/Recover/Title" >
+                        <Property Name="Text" Value="x回氣" />
+                        <Property Name="TextColours" Value="tl:FFFFFF00 tr:FFFFFF00 bl:FFFFFF00 br:FFFFFF00" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.042553,0},{0.722222,0},{0.259944,0},{0.888889,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/EudemonEquipment/AttackAttr/Attack/Text" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HorzFormatting" Value="RightAligned" />
+                        <Property Name="Text" Value="x9999" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.369565,0},{0.277778,0},{0.608695,0},{0.444445,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/EudemonEquipment/AttackAttr/Critical/Text" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HorzFormatting" Value="RightAligned" />
+                        <Property Name="Text" Value="x9999" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.369565,0},{0.5,0},{0.608695,0},{0.666667,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/EudemonEquipment/AttackAttr/Recover/Text" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HorzFormatting" Value="RightAligned" />
+                        <Property Name="Text" Value="x999999" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.369565,0},{0.722222,0},{0.608695,0},{0.888889,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/EudemonEquipment/AttackAttr/Critical/DigText" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HorzFormatting" Value="RightAligned" />
+                        <Property Name="Text" Value="x98.76%" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.652174,0},{0.5,0},{0.956522,0},{0.666667,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/EudemonEquipment/AttackAttr/Recover/DigText" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HorzFormatting" Value="RightAligned" />
+                        <Property Name="Text" Value="x98.76%" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.652174,0},{0.722222,0},{0.956522,0},{0.888889,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/EudemonEquipment/AttackAttr/Attack/RankImg" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Image" Value="set:DejaVu image:AbRankRPlus" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.26087,0},{0.255556,0},{0.26087,20},{0.255556,20}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/EudemonEquipment/AttackAttr/Critical/RankImg" >
+                        <Property Name="Image" Value="set:DejaVu image:AbRankR" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.26087,0},{0.477778,0},{0.26087,20},{0.477778,20}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/EudemonEquipment/AttackAttr/Recover/RankImg" >
+                        <Property Name="Image" Value="set:DejaVu image:AbRankS" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.26087,0},{0.7,0},{0.26087,20},{0.7,20}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed4" Name="Root/EudemonEquipment/AttackAttr/Titlebar" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.043478,0},{0,0},{0.695652,0},{0.25,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/EudemonEquipment/AttackAttr/Titlebar/Text" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="x攻擊資訊" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.2,0},{0.866667,0},{0.8,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/EudemonEquipment/AttackAttr/Titlebar/Pic" >
+                        <Property Name="Image" Value="set:DejaVu image:Image01" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="Root/EudemonEquipment/DefenceAttr" >
+                <Property Name="UnifiedAreaRect" Value="{{0.0206186,0},{0.717949,0},{0.494845,0},{0.974359,0}}" />
+                <Window Type="DejaVu/Embed2" Name="Root/EudemonEquipment/DefenceAttr/bg" >
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.1,0},{1,0},{1,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/EudemonEquipment/DefenceAttr/Hp/Title" >
+                        <Property Name="Text" Value="xHP值" />
+                        <Property Name="TextColours" Value="tl:FFFFFF00 tr:FFFFFF00 bl:FFFFFF00 br:FFFFFF00" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0434783,0},{0.277778,0},{0.26087,0},{0.444444,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/EudemonEquipment/DefenceAttr/Defence/Title" >
+                        <Property Name="Text" Value="x防禦" />
+                        <Property Name="TextColours" Value="tl:FFFFFF00 tr:FFFFFF00 bl:FFFFFF00 br:FFFFFF00" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.042553,0},{0.5,0},{0.259944,0},{0.666667,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/EudemonEquipment/DefenceAttr/Dodge/Title" >
+                        <Property Name="Text" Value="x閃避" />
+                        <Property Name="TextColours" Value="tl:FFFFFF00 tr:FFFFFF00 bl:FFFFFF00 br:FFFFFF00" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.042553,0},{0.722222,0},{0.259944,0},{0.888889,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/EudemonEquipment/DefenceAttr/Hp/Text" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HorzFormatting" Value="RightAligned" />
+                        <Property Name="Text" Value="x9999" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.369565,0},{0.277778,0},{0.608695,0},{0.444445,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/EudemonEquipment/DefenceAttr/Defence/Text" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HorzFormatting" Value="RightAligned" />
+                        <Property Name="Text" Value="x9999" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.369565,0},{0.5,0},{0.608695,0},{0.666667,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/EudemonEquipment/DefenceAttr/Dodge/Text" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HorzFormatting" Value="RightAligned" />
+                        <Property Name="Text" Value="x999999" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.369565,0},{0.722222,0},{0.608695,0},{0.888889,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/EudemonEquipment/DefenceAttr/Defence/DigText" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HorzFormatting" Value="RightAligned" />
+                        <Property Name="Text" Value="x62.50%" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.652174,0},{0.5,0},{0.956522,0},{0.666667,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/EudemonEquipment/DefenceAttr/Dodge/DigText" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HorzFormatting" Value="RightAligned" />
+                        <Property Name="Text" Value="x2.50%" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.652174,0},{0.717448,0},{0.956522,0},{0.884115,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/EudemonEquipment/DefenceAttr/Dodge/RankImg" >
+                        <Property Name="Image" Value="set:DejaVu image:AbRankSPlus" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.26087,0},{0.7,0},{0.26087,20},{0.7,20}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/EudemonEquipment/DefenceAttr/Defence/RankImg" >
+                        <Property Name="Image" Value="set:DejaVu image:AbRankA" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.26087,0},{0.477778,0},{0.26087,20},{0.477778,20}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/EudemonEquipment/DefenceAttr/Hp/RankImg" >
+                        <Property Name="Image" Value="set:DejaVu image:AbRankAPlus" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.26087,0},{0.255556,0},{0.26087,20},{0.255556,20}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed4" Name="Root/EudemonEquipment/DefenceAttr/Titlebar" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0434783,0},{0,0},{0.695652,0},{0.25,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/EudemonEquipment/DefenceAttr/Titlebar/Text" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="x防禦資訊" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.2,0},{0.866667,0},{0.8,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/EudemonEquipment/DefenceAttr/Titlebar/Pic" >
+                        <Property Name="Image" Value="set:DejaVu image:Image02" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="Root/EudemonEquipment/OtherAttr" >
+                <Property Name="UnifiedAreaRect" Value="{{0.505155,0},{0.717949,0},{0.979381,0},{0.974359,0}}" />
+                <Window Type="DejaVu/Embed2" Name="Root/EudemonEquipment/OtherAttr/bg" >
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.1,0},{1,0},{1,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/EudemonEquipment/OtherAttr/CriticalDamage/Title" >
+                        <Property Name="Text" Value="x爆擊傷害" />
+                        <Property Name="TextColours" Value="tl:FFFFFF00 tr:FFFFFF00 bl:FFFFFF00 br:FFFFFF00" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.043478,0},{0.277778,0},{0.391304,0},{0.444445,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/EudemonEquipment/OtherAttr/Hit/Title" >
+                        <Property Name="Text" Value="x命中機率" />
+                        <Property Name="TextColours" Value="tl:FFFFFF00 tr:FFFFFF00 bl:FFFFFF00 br:FFFFFF00" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.043478,0},{0.5,0},{0.391304,0},{0.666667,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/EudemonEquipment/OtherAttr/Heal/Title" >
+                        <Property Name="Text" Value="x治療比例" />
+                        <Property Name="TextColours" Value="tl:FFFFFF00 tr:FFFFFF00 bl:FFFFFF00 br:FFFFFF00" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.043478,0},{0.722222,0},{0.391304,0},{0.888889,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/EudemonEquipment/OtherAttr/CriticalDamage" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HorzFormatting" Value="RightAligned" />
+                        <Property Name="Text" Value="x162.50%" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.695652,0},{0.277778,0},{0.956522,0},{0.444444,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/EudemonEquipment/OtherAttr/Hit/Text" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HorzFormatting" Value="RightAligned" />
+                        <Property Name="Text" Value="x22.50%" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.695652,0},{0.5,0},{0.956522,0},{0.666667,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/EudemonEquipment/OtherAttr/Heal/Text" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HorzFormatting" Value="RightAligned" />
+                        <Property Name="Text" Value="x22.50%" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.695652,0},{0.722222,0},{0.956522,0},{0.888889,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed4" Name="Root/EudemonEquipment/OtherAttr/Titlebar" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.043478,0},{0,0},{0.695652,0},{0.25,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/EudemonEquipment/OtherAttr/Titlebar/Text" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="x衍生資訊" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.2,0},{0.866667,0},{0.8,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/EudemonEquipment/OtherAttr/Titlebar/Pic" >
+                        <Property Name="Image" Value="set:DejaVu image:Image03" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="Root/EudemonEquipment/SpellAttr" >
+                <Property Name="UnifiedAreaRect" Value="{{0.505155,0},{0.448718,0},{0.979381,0},{0.705128,0}}" />
+                <Window Type="DejaVu/Embed2" Name="Root/EudemonEquipment/SpellAttr/bg" >
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.1,0},{1,0},{1,0}}" />
+                    <Window Type="DejaVu/SlotImage" Name="Root/EudemonEquipment/SpellAttr/Slot1" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.113043,0},{0.333333,0},{0.295652,0},{0.8,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/EudemonEquipment/SpellAttr/Slot2" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.408696,0},{0.333333,0},{0.591305,0},{0.8,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/EudemonEquipment/SpellAttr/Slot3" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.704348,0},{0.333333,0},{0.886957,0},{0.8,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed4" Name="Root/EudemonEquipment/SpellAttr/Titlebar" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.043478,0},{0,0},{0.695652,0},{0.25,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/EudemonEquipment/SpellAttr/Titlebar/Text" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="擁有技能" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.2,0},{0.8,0},{0.8,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/EudemonEquipment/SpellAttr/Titlebar/Pic" >
+                        <Property Name="Image" Value="set:DejaVu image:Image03" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

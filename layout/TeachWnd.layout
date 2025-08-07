@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/StaticImage" Name="Root/TeachWnd" >
+        <Property Name="BackgroundEnabled" Value="False" />
+        <Property Name="Font" Value="F001-scale" />
+        <Property Name="FrameEnabled" Value="False" />
+        <Property Name="Image" Value="set:DejaVuImage01 image:TeachWndBG" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,475},{0,385}}" />
+        <Window Type="DejaVu/Static" Name="Root/TeachWnd/Board" >
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="UnifiedAreaRect" Value="{{0.257895,0},{0.190476,0},{0.926316,0},{0.852814,0}}" />
+            <Window Type="DejaVu/EmbedTextLab2" Name="Root/TeachWnd/Board/Text" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" >hi
+
+TEst</Property>
+                <Property Name="UnifiedAreaRect" Value="{{0.0157281,0},{0.0207665,0},{0.984726,0},{0.921546,0}}" />
+                <Property Name="VertFormatting" Value="TopAligned" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/TeachWnd/Board/PageText" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="1 / 1" />
+                <Property Name="UnifiedAreaRect" Value="{{0.777559,0},{0.927124,0},{0.911417,0},{0.995752,0}}" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/TeachWnd/Board/PrevBtn" >
+                <Property Name="DisabledImage" Value="set:DejaVuImage image:NumberLeftP" />
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="HoverImage" Value="set:DejaVuImage image:NumberLeftH" />
+                <Property Name="NormalImage" Value="set:DejaVuImage image:NumberLeftN" />
+                <Property Name="PushedImage" Value="set:DejaVuImage image:NumberLeftP" />
+                <Property Name="UnifiedAreaRect" Value="{{0.735565,0},{0.940196,0},{0.773419,0},{0.987255,0}}" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/TeachWnd/Board/NextBtn" >
+                <Property Name="DisabledImage" Value="set:DejaVuImage image:NumberRightP" />
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="HoverImage" Value="set:DejaVuImage image:NumberRightH" />
+                <Property Name="NormalImage" Value="set:DejaVuImage image:NumberRightN" />
+                <Property Name="PushedImage" Value="set:DejaVuImage image:NumberRightP" />
+                <Property Name="UnifiedAreaRect" Value="{{0.914042,0},{0.940196,0},{0.951896,0},{0.987255,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/TeachWnd/MiniBtn" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.724627,0},{0.871623,0},{0.871996,0},{0.933961,0}}" />
+        </Window>
+        <Window Type="DejaVu/Combobox" Name="Root/TeachWnd/LevelList" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="MaxEditTextLength" Value="2147483647" />
+            <Property Name="UnifiedAreaRect" Value="{{0.085965,0},{0.41342,0},{0.233333,0},{0.843701,0}}" />
+        </Window>
+        <Window Type="DejaVu/ImageButton" Name="Root/TeachWnd/CloseBtn" >
+            <Property Name="DisabledImage" Value="set:DejaVu image:NewCloseButtonPressed" />
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="HoverImage" Value="set:DejaVu image:NewCloseButtonHover" />
+            <Property Name="NormalImage" Value="set:DejaVu image:NewCloseButtonNormal" />
+            <Property Name="PushedImage" Value="set:DejaVu image:NewCloseButtonPressed" />
+            <Property Name="UnifiedAreaRect" Value="{{0.884211,0},{0.0779221,0},{0.909474,0},{0.109091,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

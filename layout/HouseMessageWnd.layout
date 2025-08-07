@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="HouseMessageWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="Text" Value="房屋留言版x" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="TitlebarImage" Value="set:main image:EventsNormal" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,475},{0,645}}" />
+        <Window Type="DejaVu/Embed" Name="HouseMessageWnd/BG" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1.00218,0},{1,0}}" />
+            <Window Type="DejaVu/Static" Name="HouseMessageWnd/BG/MasterMsgBG" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.021552,0},{0.017699,0},{0.978209,0},{0.221239,0}}" />
+                <Window Type="DejaVu/Embed2" Name="HouseMessageWnd/BG/MasterMsgBG/BG" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0869565,0},{0.818594,0},{1,0}}" />
+                    <Window Type="DejaVu/Embed5" Name="HouseMessageWnd/BG/MasterMsgBG/BG/TextBG" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.027701,0},{0.238095,0},{0.972299,0},{0.904762,0}}" />
+                        <Window Type="DejaVu/MultiLineEditbox" Name="HouseMessageWnd/BG/MasterMsgBG/BG/TextBG/MsgEditBox" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="InheritsTooltipText" Value="False" />
+                            <Property Name="MaxTextLength" Value="2147483647" />
+                            <Property Name="Text" >
+</Property>
+                            <Property Name="TextParsingEnabled" Value="False" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.029412,0},{0.142857,0},{0.970588,0},{0.857143,0}}" />
+                        </Window>
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed4" Name="HouseMessageWnd/BG/MasterMsgBG/Title" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.022472,0},{0,0},{0.363381,0},{0.217391,0}}" />
+                    <Window Type="DejaVu/StaticImage" Name="HouseMessageWnd/BG/MasterMsgBG/Title/Img" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Image" Value="set:DejaVu image:Image05" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="HouseMessageWnd/BG/MasterMsgBG/Title/Text" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="版主心情x" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.2,0},{0.866667,0},{0.8,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Button" Name="HouseMessageWnd/BG/MasterMsgBG/SendBtn" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorizontalAlignment" Value="Right" />
+                    <Property Name="Text" Value="x更新" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.434783,0},{0.170455,0},{0.66087,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="HouseMessageWnd/BG/VisitorMsgBG" >
+                <Property Name="UnifiedAreaRect" Value="{{0.021786,0},{0.230089,0},{0.978443,0},{0.927434,0}}" />
+                <Window Type="DejaVu/Embed2" Name="HouseMessageWnd/BG/VisitorMsgBG/BG" >
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.024272,0},{1,0},{0.998891,0}}" />
+                    <Window Type="DejaVu/Embed2" Name="HouseMessageWnd/BG/VisitorMsgBG/BG/Msg" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0113636,0},{0.0651042,0},{0.988636,0},{0.682292,0}}" />
+                        <Window Type="DejaVu/MultiColumnList" Name="HouseMessageWnd/BG/VisitorMsgBG/BG/Msg/MessageMCL" >
+                            <Property Name="ColumnsMovable" Value="False" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0122052,0},{0.021097,0},{0.988949,0},{0.978903,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Embed5" Name="HouseMessageWnd/BG/VisitorMsgBG/BG/TextBG" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.011338,0},{0.695313,0},{0.988799,0},{0.98698,0}}" />
+                        <Window Type="DejaVu/Static" Name="HouseMessageWnd/BG/VisitorMsgBG/BG/TextBG/TextBG" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0232558,0},{0.0892857,0},{0.988372,0},{0.9375,0}}" />
+                            <Window Type="DejaVu/MultiLineEditbox" Name="HouseMessageWnd/BG/VisitorMsgBG/BG/TextBG/TextBG/Content" >
+                                <Property Name="BackgroundEnabled" Value="False" />
+                                <Property Name="MaxTextLength" Value="2147483647" />
+                                <Property Name="Text" >
+</Property>
+                                <Property Name="TextParsingEnabled" Value="False" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                            </Window>
+                        </Window>
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed4" Name="HouseMessageWnd/BG/VisitorMsgBG/Title" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.022421,0},{0,0},{0.36333,0},{0.0634518,0}}" />
+                    <Window Type="DejaVu/StaticImage" Name="HouseMessageWnd/BG/VisitorMsgBG/Title/Img" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Image" Value="set:DejaVu image:Image03" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="HouseMessageWnd/BG/VisitorMsgBG/Title/Text" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="留言內容x" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.2,0},{0.866667,0},{0.8,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Button" Name="HouseMessageWnd/BG/WriteMessageBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="Text" Value="x留言" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.021786,0},{-0.017699,0},{0.143791,0},{0.0283187,0}}" />
+                <Property Name="VerticalAlignment" Value="Bottom" />
+            </Window>
+            <Window Type="DejaVu/Button4" Name="HouseMessageWnd/BG/DeleteMessageBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="Text" Value="x刪除留言" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.198257,0},{-0.0176991,0},{-0.0326797,0},{0.0283186,0}}" />
+                <Property Name="VerticalAlignment" Value="Bottom" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="HouseMessageWnd/BG/MessageNumText" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="x留言數： 50 / 50" />
+                <Property Name="UnifiedAreaRect" Value="{{0.021552,0},{-0.016949,0},{0.457282,0},{0.0272988,0}}" />
+                <Property Name="VerticalAlignment" Value="Bottom" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

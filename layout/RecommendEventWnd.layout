@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/RecommendEventWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HorizontalAlignment" Value="Centre" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.675781,0},{0.585938,0}}" />
+        <Window Type="DejaVu/Embed3" Name="Root/RecommendEventWnd/Left" >
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="UnifiedAreaRect" Value="{{0.008671,0},{0.013333,0},{0.517341,0},{0.986666,0}}" />
+            <Window Type="DejaVu/Checkbox" Name="Root/RecommendEventWnd/Left/FilterCBX" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="x過濾已完成任務" />
+                <Property Name="UnifiedAreaRect" Value="{{0.014205,0},{0.011416,0},{0.440341,0},{0.0479457,0}}" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/RecommendEventWnd/Left/HelpBtn" >
+                <Property Name="DisabledImage" Value="set:DejaVu image:HelpButtonPressed" />
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0.943662,0},{0.012245,0},{0.986276,0},{0.0464916,0}}" />
+            </Window>
+            <Window Type="DejaVu/TabControl" Name="Root/RecommendEventWnd/Left/TabControl" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="TabHeight" Value="{0,20}" />
+                <Property Name="TabPanePosition" Value="Top" />
+                <Property Name="UnifiedAreaRect" Value="{{0.014205,0},{0.059361,0},{0.985796,0},{0.988585,0}}" />
+                <Window Type="DefaultWindow" Name="Root/RecommendEventWnd/Left/MissionTab" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="每日任務" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,342},{0,387}}" />
+                    <Window Type="DejaVu/MultiColumnList" Name="Root/RecommendEventWnd/Left/MissionTab/List" >
+                        <Property Name="ColumnsMovable" Value="False" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.008721,0},{0.007712,0},{0.991279,0},{0.992288,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DefaultWindow" Name="Root/RecommendEventWnd/Left/RecommendTab" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="每日推薦" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,342},{0,387}}" />
+                    <Property Name="Visible" Value="False" />
+                    <Window Type="DejaVu/MultiColumnList" Name="Root/RecommendEventWnd/Left/RecommendTab/List" >
+                        <Property Name="ColumnsMovable" Value="False" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.008721,0},{0.007712,0},{0.991279,0},{0.992288,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Embed3" Name="Root/RecommendEventWnd/Right" >
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="UnifiedAreaRect" Value="{{0.524566,0},{0.0133333,0},{0.991329,0},{0.986667,0}}" />
+            <Window Type="DejaVu/StaticText" Name="Root/RecommendEventWnd/Right/FinishTimesText" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="完成次數：1/1" />
+                <Property Name="TextColours" Value="tl:FFFFFF00 tr:FFFFFF00 bl:FFFFFF00 br:FFFFFF00" />
+                <Property Name="UnifiedAreaRect" Value="{{0.01548,0},{0.011416,0},{0.98452,0},{0.0570781,0}}" />
+            </Window>
+            <Window Type="DejaVu/VScrolledText" Name="Root/RecommendEventWnd/Right/MissionContent" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                <Property Name="LinespaceWindow" Value="True" />
+                <Property Name="Text" Value="11111111111111111111111111111111111111111111111111111111111" />
+                <Property Name="UnifiedAreaRect" Value="{{0.01548,0},{0.125571,0},{0.98452,0},{0.422375,0}}" />
+                <Property Name="VertFormatting" Value="TopAligned" />
+                <Property Name="VertScrollbar" Value="True" />
+            </Window>
+            <Window Type="DejaVu/Embed4" Name="Root/RecommendEventWnd/Right/ConditionBG" >
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="UnifiedAreaRect" Value="{{0.01548,0},{0.490868,0},{0.98452,0},{0.710046,0}}" />
+                <Window Type="DejaVu/ScrollablePane" Name="Root/RecommendEventWnd/Right/Condition" >
+                    <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorzOverlapSize" Value="0.01" />
+                    <Property Name="HorzScrollPosition" Value="0" />
+                    <Property Name="HorzStepSize" Value="0.1" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    <Property Name="VertOverlapSize" Value="0.01" />
+                    <Property Name="VertScrollPosition" Value="0" />
+                    <Property Name="VertStepSize" Value="0.1" />
+                    <AutoWindow NameSuffix="__auto_container__" >
+                        <Property Name="ChildExtentsArea" Value="l:0 t:0 r:0 b:0" />
+                        <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                        <Property Name="MouseInputPropagationEnabled" Value="True" />
+                    </AutoWindow>
+                </Window>
+                <Window Type="DejaVu/Static" Name="Root/RecommendEventWnd/Right/AutoFindBorder" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0159744,0},{0.0520833,0},{0.984026,0},{0.260417,0}}" />
+                    <Window Type="DejaVu/StaticText" Name="Root/RecommendEventWnd/Right/AutoFindBorder/NameText" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="12313" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0231023,0},{0,0},{0.930693,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/ImageButton" Name="Root/RecommendEventWnd/Right/AutoFindBorder/AutoBtn" >
+                        <Property Name="DisabledImage" Value="set:DejaVu image:AutoPathPressed" />
+                        <Property Name="Font" Value="F001-scale" />
+                        <Property Name="HorizontalAlignment" Value="Right" />
+                        <Property Name="HoverImage" Value="set:DejaVu image:AutoPathHover" />
+                        <Property Name="NormalImage" Value="set:DejaVu image:AutoPathNormal" />
+                        <Property Name="PushedImage" Value="set:DejaVu image:AutoPathPressed" />
+                        <Property Name="UnifiedAreaRect" Value="{{-0.0165017,0},{0.1,0},{0.0363036,0},{0.9,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed4" Name="Root/RecommendEventWnd/Right/BG4" >
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="UnifiedAreaRect" Value="{{0.01548,0},{0.778539,0},{0.98452,0},{0.988585,0}}" />
+                <Window Type="DejaVu/ScrollablePane" Name="Root/RecommendEventWnd/Right/Reward" >
+                    <Property Name="ContentArea" Value="l:0 t:0 r:288 b:83" />
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="HorzOverlapSize" Value="0.01" />
+                    <Property Name="HorzScrollPosition" Value="0" />
+                    <Property Name="HorzStepSize" Value="0.1" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.00639,0},{0.022727,0},{0.99361,0},{0.977272,0}}" />
+                    <Property Name="VertOverlapSize" Value="0.01" />
+                    <Property Name="VertScrollPosition" Value="0" />
+                    <Property Name="VertStepSize" Value="0.1" />
+                    <AutoWindow NameSuffix="__auto_container__" >
+                        <Property Name="ChildExtentsArea" Value="l:0 t:0 r:288 b:83" />
+                        <Property Name="ContentArea" Value="l:0 t:0 r:288 b:83" />
+                        <Property Name="MouseInputPropagationEnabled" Value="True" />
+                        <Window Type="DejaVu/Static" Name="Root/RecommendEventWnd/Right/Reward/ExpBorder" >
+                            <Property Name="Font" Value="F001-scale" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.02589,0},{0.0568182,0},{0.932039,0},{0.25,0}}" />
+                            <Window Type="DejaVu/StaticText" Name="Root/RecommendEventWnd/Right/Reward/ExpBorder/ExpTitle" >
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="Text" Value="獲得經驗：" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.214286,0},{1,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/StaticText" Name="Root/RecommendEventWnd/Right/Reward/ExpBorder/ExpText" >
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.232143,0},{0,0},{0.767857,0},{1,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/Static" Name="Root/RecommendEventWnd/Right/Reward/MoneyBorder" >
+                            <Property Name="Font" Value="F001-scale" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.02589,0},{0.306818,0},{0.932039,0},{0.5,0}}" />
+                            <Window Type="DejaVu/StaticText" Name="Root/RecommendEventWnd/Right/Reward/MoneyBorder/MoneyTitle" >
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="Text" Value="獲得金錢：" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.214286,0},{1,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/StaticImage" Name="Root/RecommendEventWnd/Right/Reward/MoneyBorder/MoneyBG" >
+                                <Property Name="Font" Value="F001-scale" />
+                                <Property Name="Image" Value="set:main image:Money" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.232143,0},{0,0},{0.767857,0},{1,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/StaticImage" Name="Root/RecommendEventWnd/Right/Reward/MoneyBorder/MallIcon" >
+                                <Property Name="Font" Value="F001-scale" />
+                                <Property Name="Image" Value="set:DejaVu image:ItemMallCoin3" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.464286,0},{0.117647,0},{0.514286,0},{0.941176,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/StaticText" Name="Root/RecommendEventWnd/Right/Reward/MoneyBorder/GoldText" >
+                                <Property Name="AlwaysOnTop" Value="True" />
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="HorzFormatting" Value="RightAligned" />
+                                <Property Name="Text" Value="99999" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.296429,0},{0,0},{0.457143,0},{1,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/StaticText" Name="Root/RecommendEventWnd/Right/Reward/MoneyBorder/SilverText" >
+                                <Property Name="AlwaysOnTop" Value="True" />
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="HorzFormatting" Value="RightAligned" />
+                                <Property Name="Text" Value="99" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.507143,0},{0,0},{0.578572,0},{1,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/StaticText" Name="Root/RecommendEventWnd/Right/Reward/MoneyBorder/CopperText" >
+                                <Property Name="AlwaysOnTop" Value="True" />
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="HorzFormatting" Value="RightAligned" />
+                                <Property Name="Text" Value="99" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.628571,0},{0,0},{0.7,0},{1,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/Static" Name="Root/RecommendEventWnd/Right/Reward/ItemBorder" >
+                            <Property Name="Font" Value="F001-scale" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.02589,0},{0.556818,0},{0.932039,0},{0.943182,0}}" />
+                            <Window Type="DejaVu/StaticText" Name="Root/RecommendEventWnd/Right/Reward/ItemBorder/ItemTitle" >
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="Text" Value="獲得獎勵：" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.214286,0},{0.5,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/StaticImage" Name="Root/RecommendEventWnd/Right/Reward/ItemBorder/Slot1" >
+                                <Property Name="Font" Value="F001-scale" />
+                                <Property Name="Image" Value="set:main image:noimage" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.232143,0},{0,0},{0.353572,0},{1,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/StaticImage" Name="Root/RecommendEventWnd/Right/Reward/ItemBorder/Slot2" >
+                                <Property Name="Font" Value="F001-scale" />
+                                <Property Name="Image" Value="set:main image:noimage" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.371429,0},{0,0},{0.492858,0},{1,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/StaticImage" Name="Root/RecommendEventWnd/Right/Reward/ItemBorder/Slot3" >
+                                <Property Name="Font" Value="F001-scale" />
+                                <Property Name="Image" Value="set:main image:noimage" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.510714,0},{0,0},{0.632143,0},{1,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/StaticImage" Name="Root/RecommendEventWnd/Right/Reward/ItemBorder/Slot4" >
+                                <Property Name="Font" Value="F001-scale" />
+                                <Property Name="Image" Value="set:main image:noimage" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.65,0},{0,0},{0.771429,0},{1,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/StaticImage" Name="Root/RecommendEventWnd/Right/Reward/ItemBorder/Slot5" >
+                                <Property Name="Font" Value="F001-scale" />
+                                <Property Name="Image" Value="set:main image:noimage" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.789286,0},{0,0},{0.910715,0},{1,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/Static" Name="Root/RecommendEventWnd/Right/Reward/BuffBorder" >
+                            <Property Name="Font" Value="F001-scale" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.02589,0},{0.556818,0},{0.932039,0},{0.943182,0}}" />
+                            <Window Type="DejaVu/StaticText" Name="Root/RecommendEventWnd/Right/Reward/BuffBorder/BuffTitle" >
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="Text" Value="獲得Buff：" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.214286,0},{0.5,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/StaticImage" Name="Root/RecommendEventWnd/Right/Reward/BuffBorder/Slot" >
+                                <Property Name="Font" Value="F001-scale" />
+                                <Property Name="Image" Value="set:main image:noimage" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.232143,0},{0,0},{0.353572,0},{1,0}}" />
+                            </Window>
+                        </Window>
+                    </AutoWindow>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/EmbedTextLab8" Name="Root/RecommendEventWnd/Right/MissionTitle" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="xLv100. 失竊的手寫稿" />
+                <Property Name="UnifiedAreaRect" Value="{{0.01548,0},{0.068493,0},{0.98452,0},{0.125571,0}}" />
+            </Window>
+            <Window Type="DejaVu/EmbedTextLab8" Name="Root/RecommendEventWnd/Right/ConditionTitle" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="x完成條件" />
+                <Property Name="UnifiedAreaRect" Value="{{0.01548,0},{0.43379,0},{0.98452,0},{0.490868,0}}" />
+            </Window>
+            <Window Type="DejaVu/EmbedTextLab8" Name="Root/RecommendEventWnd/Right/RewardTitle" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="x任務獎勵" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0154799,0},{0.721461,0},{0.98452,0},{0.778539,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/RecommendEventWnd/Right/CompleteImage" >
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="UnifiedAreaRect" Value="{{0.2,0},{0.2,0},{0.45,0},{0.45,0}}" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/RecommendEventWnd/Right/HelpBtn" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="DisabledImage" Value="set:DejaVu image:HelpButtonPressed" />
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0.93808,0},{0.0114155,0},{0.98452,0},{0.0456621,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

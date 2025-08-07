@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="SecondPassDlg" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="TitlebarImage" Value="set:main image:SystemNormal" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,281},{0,508}}" />
+        <Window Type="DejaVu/Embed" Name="SecondPassDlg/BackGround" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.000976563,0},{-0.00130208,0},{1.00098,0},{0.998698,0}}" />
+            <Window Type="DejaVu/Embed2" Name="SecondPassDlg/BackGround/TextHint" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0377358,0},{0.0257009,0},{0.962264,0},{0.252336,0}}" />
+                <Window Type="DejaVu/EmbedTextLab7" Name="SecondPassDlg/BackGround/TextHint/TitleText" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="x設置二次密碼" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.00816326,0},{0.0206186,0},{0.991837,0},{0.278351,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="SecondPassDlg/BackGround/TextHint/Text" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                    <Property Name="LinespaceWindow" Value="True" />
+                    <Property Name="Text" Value="x遊戲開始前密碼" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0296277,0},{0.329897,0},{0.972485,0},{0.948454,0}}" />
+                    <Property Name="VertFormatting" Value="TopAligned" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="SecondPassDlg/BackGround/InputBG" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0377358,0},{0.259953,0},{0.962264,0},{0.442623,0}}" />
+                <Window Type="DejaVu/EmbedTextLab7" Name="SecondPassDlg/BackGround/InputBG/Text1" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="x新的二次密碼" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.408163,0},{0.320513,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab7" Name="SecondPassDlg/BackGround/InputBG/Text2" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="x二次密碼確認" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.333333,0},{0.408163,0},{0.653846,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="SecondPassDlg/BackGround/InputBG/Input1" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.40914,0},{-0.0128205,0},{1.00098,0},{0.307692,0}}" />
+                    <Window Type="DejaVu/Zframe2" Name="SecondPassDlg/BackGround/InputBG/Input1/Frame" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1.04167,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="SecondPassDlg/BackGround/InputBG/Input2" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.408163,0},{0.333333,0},{1,0},{0.653846,0}}" />
+                    <Window Type="DejaVu/Zframe2" Name="SecondPassDlg/BackGround/InputBG/Input2/Frame" >
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Button" Name="SecondPassDlg/BackGround/InputBG/BtnInitialization" >
+                    <Property Name="Text" Value="x二次密碼初始化" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.204082,0},{0.333333,0},{0.795918,0},{0.653846,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="SecondPassDlg/BackGround/InputBG/Input3" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.408163,0},{0.666667,0},{1,0},{0.98718,0}}" />
+                    <Window Type="DejaVu/Zframe2" Name="SecondPassDlg/BackGround/InputBG/Input3/Frame" >
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab7" Name="SecondPassDlg/BackGround/InputBG/Text3" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="x確認新密碼" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.666667,0},{0.408163,0},{0.98718,0}}" />
+                </Window>
+                <Window Type="DejaVu/Button4" Name="SecondPassDlg/BackGround/InputBG/OblivionBtn" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="忘記密碼" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.204082,0},{0.666667,0},{0.795918,0},{0.987179,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed2" Name="SecondPassDlg/BackGround/ButtonBG" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0377358,0},{0.449937,0},{0.962264,0},{0.917227,0}}" />
+                <Window Type="DejaVu/Button3" Name="SecondPassDlg/BackGround/ButtonBG/Button1" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.040816,0},{0.05,0},{0.224489,0},{0.275,0}}" />
+                </Window>
+                <Window Type="DejaVu/Button3" Name="SecondPassDlg/BackGround/ButtonBG/Button2" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.22449,0},{0.05,0},{0.408163,0},{0.275,0}}" />
+                </Window>
+                <Window Type="DejaVu/Button3" Name="SecondPassDlg/BackGround/ButtonBG/Button3" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.408163,0},{0.05,0},{0.591837,0},{0.275,0}}" />
+                </Window>
+                <Window Type="DejaVu/Button3" Name="SecondPassDlg/BackGround/ButtonBG/Button4" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.591837,0},{0.05,0},{0.77551,0},{0.275,0}}" />
+                </Window>
+                <Window Type="DejaVu/Button3" Name="SecondPassDlg/BackGround/ButtonBG/Button5" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.77551,0},{0.05,0},{0.959184,0},{0.275,0}}" />
+                </Window>
+                <Window Type="DejaVu/Button3" Name="SecondPassDlg/BackGround/ButtonBG/Button6" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.0408163,0},{0.275,0},{0.22449,0},{0.5,0}}" />
+                </Window>
+                <Window Type="DejaVu/Button3" Name="SecondPassDlg/BackGround/ButtonBG/Button7" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.22449,0},{0.275,0},{0.408163,0},{0.5,0}}" />
+                </Window>
+                <Window Type="DejaVu/Button3" Name="SecondPassDlg/BackGround/ButtonBG/Button8" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.408163,0},{0.275,0},{0.591837,0},{0.5,0}}" />
+                </Window>
+                <Window Type="DejaVu/Button3" Name="SecondPassDlg/BackGround/ButtonBG/Button9" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.591837,0},{0.275,0},{0.77551,0},{0.5,0}}" />
+                </Window>
+                <Window Type="DejaVu/Button3" Name="SecondPassDlg/BackGround/ButtonBG/Button10" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.77551,0},{0.275,0},{0.959184,0},{0.5,0}}" />
+                </Window>
+                <Window Type="DejaVu/Button3" Name="SecondPassDlg/BackGround/ButtonBG/Button11" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.0408163,0},{0.5,0},{0.22449,0},{0.725,0}}" />
+                </Window>
+                <Window Type="DejaVu/Button3" Name="SecondPassDlg/BackGround/ButtonBG/Button12" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.22449,0},{0.5,0},{0.408163,0},{0.725,0}}" />
+                </Window>
+                <Window Type="DejaVu/Button3" Name="SecondPassDlg/BackGround/ButtonBG/Button13" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.408163,0},{0.5,0},{0.591837,0},{0.725,0}}" />
+                </Window>
+                <Window Type="DejaVu/Button3" Name="SecondPassDlg/BackGround/ButtonBG/Button14" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.591837,0},{0.5,0},{0.77551,0},{0.725,0}}" />
+                </Window>
+                <Window Type="DejaVu/Button3" Name="SecondPassDlg/BackGround/ButtonBG/Button15" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.77551,0},{0.5,0},{0.959184,0},{0.725,0}}" />
+                </Window>
+                <Window Type="DejaVu/Button3" Name="SecondPassDlg/BackGround/ButtonBG/Button16" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.0408163,0},{0.725,0},{0.22449,0},{0.95,0}}" />
+                </Window>
+                <Window Type="DejaVu/Button3" Name="SecondPassDlg/BackGround/ButtonBG/Button17" >
+                    <Property Name="Text" Value="xBackSpace" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.22449,0},{0.725,0},{0.591837,0},{0.95,0}}" />
+                </Window>
+                <Window Type="DejaVu/Button3" Name="SecondPassDlg/BackGround/ButtonBG/Button18" >
+                    <Property Name="Text" Value="xClear" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.591837,0},{0.725,0},{0.959184,0},{0.95,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Button" Name="SecondPassDlg/BackGround/Confirm" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="Text" Value="x確定" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.9274,0},{0.45283,0},{0.985948,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="SecondPassDlg/BackGround/Return" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="x返回" />
+                <Property Name="UnifiedAreaRect" Value="{{0.724414,0},{0.926562,0},{0.973471,0},{0.98511,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="SecondPassDlg/BackGround/OK" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="x確定" />
+                <Property Name="UnifiedAreaRect" Value="{{0.031445,0},{0.926301,0},{0.280502,0},{0.98485,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

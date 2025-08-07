@@ -1,0 +1,1379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="EudemonBattleFight" >
+        <Property Name="AlwaysOnTop" Value="True" />
+        <Property Name="HorizontalAlignment" Value="Centre" />
+        <Property Name="Text" Value="Tab" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.818359,0},{0.765928,0}}" />
+        <Property Name="VerticalAlignment" Value="Centre" />
+        <Window Type="DejaVu/Embed2" Name="EudemonBattleFight/BG" >
+            <Property Name="UnifiedAreaRect" Value="{{0.0119332,0},{0.0361664,0},{0.988067,0},{0.981917,0}}" />
+            <Window Type="DejaVu/Embed2" Name="EudemonBattleFight/ButtonBG" >
+                <Property Name="UnifiedAreaRect" Value="{{0.772394,0},{0.732314,0},{0.988776,0},{0.98088,0}}" />
+                <Window Type="DejaVu/EmbedTextLab7" Name="EudemonBattleFight/ButtonBG/Lab" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="x隊伍指令" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.01,0},{0.013333,0},{0.987401,0},{0.205641,0}}" />
+                </Window>
+                <Window Type="DejaVu/Button" Name="EudemonBattleFight/ButtonBG/Button1" >
+                    <Property Name="Text" Value="x進化" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0564972,0},{-0.315385,0},{0.485876,0},{-0.115385,0}}" />
+                    <Property Name="VerticalAlignment" Value="Bottom" />
+                </Window>
+                <Window Type="DejaVu/Button" Name="EudemonBattleFight/ButtonBG/Button4" >
+                    <Property Name="Text" Value="x加入小隊" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.514124,0},{-0.0769231,0},{0.943503,0},{0.123077,0}}" />
+                    <Property Name="VerticalAlignment" Value="Bottom" />
+                </Window>
+                <Window Type="DejaVu/Button" Name="EudemonBattleFight/ButtonBG/Button3" >
+                    <Property Name="Text" Value="x源神洗練" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0564972,0},{-0.0769231,0},{0.485876,0},{0.123077,0}}" />
+                    <Property Name="VerticalAlignment" Value="Bottom" />
+                </Window>
+                <Window Type="DejaVu/Button" Name="EudemonBattleFight/ButtonBG/Button2" >
+                    <Property Name="Text" Value="x源神資訊" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.514124,0},{-0.315385,0},{0.943503,0},{-0.115385,0}}" />
+                    <Property Name="VerticalAlignment" Value="Bottom" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed2" Name="EudemonBattleFight/Dialogue" >
+                <Property Name="UnifiedAreaRect" Value="{{0.012225,0},{0.732314,0},{0.43643,0},{0.98088,0}}" />
+                <Window Type="DejaVu/EmbedTextLab7" Name="EudemonBattleFight/Dialogue/Lab" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="x戰鬥資訊" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.005556,0},{0.013333,0},{0.994029,0},{0.205641,0}}" />
+                </Window>
+                <Window Type="DejaVu/ScrollablePane" Name="EudemonBattleFight/Dialogue/Pane" >
+                    <Property Name="ContentArea" Value="l:0 t:0 r:638 b:132" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorzOverlapSize" Value="0.01" />
+                    <Property Name="HorzScrollPosition" Value="0" />
+                    <Property Name="HorzStepSize" Value="0.1" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0144092,0},{0.2,0},{0.994236,0},{0.969231,0}}" />
+                    <Property Name="VertOverlapSize" Value="0.01" />
+                    <Property Name="VertScrollPosition" Value="0" />
+                    <Property Name="VertStepSize" Value="0.1" />
+                    <AutoWindow NameSuffix="__auto_container__" >
+                        <Property Name="ChildExtentsArea" Value="l:0 t:0 r:638 b:132" />
+                        <Property Name="ContentArea" Value="l:0 t:0 r:638 b:132" />
+                        <Property Name="MouseInputPropagationEnabled" Value="True" />
+                        <Window Type="DejaVu/StaticText" Name="EudemonBattleFight/Dialogue/Text" >
+                            <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                            <Property Name="LinespaceWindow" Value="True" />
+                            <Property Name="MousePassThroughEnabled" Value="True" />
+                            <Property Name="Text" Value="ksdjiowekrwserasevrsaewerqwevrweaervasedrwerwqerwr" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                            <Property Name="VertFormatting" Value="TopAligned" />
+                        </Window>
+                    </AutoWindow>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed2" Name="EudemonBattleFight/Infomation" >
+                <Property Name="InheritsAlpha" Value="False" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.012225,0},{0.047801,0},{0.987775,0},{0.722753,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="EudemonBattleFight/Infomation/WalkImg" >
+                    <Property Name="BackgroundColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FF000000" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="FrameColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FF000000" />
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                    <Property Name="Image" Value="set:main11 image:CookingBG" />
+                    <Property Name="InheritsAlpha" Value="False" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1.08647,0},{1.16714,0}}" />
+                    <Property Name="VerticalAlignment" Value="Centre" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="EudemonBattleFight/Infomation/WalkImg1" >
+                    <Property Name="BackgroundColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FF000000" />
+                    <Property Name="FrameColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FF00000" />
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                    <Property Name="Image" Value="set:main11 image:CookingBG" />
+                    <Property Name="InheritsAlpha" Value="False" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1.08647,0},{1.16714,0}}" />
+                    <Property Name="VerticalAlignment" Value="Centre" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="EudemonBattleFight/Infomation/Image" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    <Window Type="DejaVu/StaticImage" Name="EudemonBattleFight/Infomation/Image/BattleTeam" >
+                        <Property Name="Image" Value="set:main13 image:BattleBG2" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.00626566,0},{0.824363,0},{0.538847,0},{0.985836,0}}" />
+                        <Window Type="DejaVu/ProgressBarBG" Name="EudemonBattleFight/Infomation/Image/BattleTeam/TeamHP" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.238095,0},{0.690909,0},{1,0},{0.963636,0}}" />
+                            <Window Type="DejaVu/ProgressBar3" Name="EudemonBattleFight/Infomation/Image/BattleTeam/TeamHP/HP" >
+                                <Property Name="CurrentProgress" Value="1" />
+                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                <Property Name="StepSize" Value="0.01" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.015625,0},{0.2,0},{0.984375,0},{0.8,0}}" />
+                            </Window>
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Static" Name="EudemonBattleFight/Infomation/Image/BMBG" >
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.461153,0},{0.0141643,0},{0.993734,0},{0.175637,0}}" />
+                        <Window Type="DejaVu/StaticImage" Name="EudemonBattleFight/Infomation/BattleMonster" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="Image" Value="set:main13 image:BattleBG1" />
+                            <Property Name="MousePassThroughEnabled" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                            <Window Type="DejaVu/ProgressBarBG" Name="EudemonBattleFight/Infomation/BattleMonster/MonsterHP" >
+                                <Property Name="BackgroundEnabled" Value="False" />
+                                <Property Name="FrameEnabled" Value="False" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0363636,0},{0.761905,0},{0.309091,0}}" />
+                                <Window Type="DejaVu/ProgressBar" Name="EudemonBattleFight/Infomation/BattleMonster/MonsterHP/HP" >
+                                    <Property Name="CurrentProgress" Value="1" />
+                                    <Property Name="Font" Value="F001-9" />
+                                    <Property Name="MousePassThroughEnabled" Value="True" />
+                                    <Property Name="StepSize" Value="0.01" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.015625,0},{0.2,0},{0.984375,0},{0.8,0}}" />
+                                </Window>
+                            </Window>
+                            <Window Type="DejaVu/Static" Name="EudemonBattleFight/Infomation/BattleMonster/MonsterLV" >
+                                <Property Name="UnifiedAreaRect" Value="{{0.869048,0},{0.272727,0},{0.988095,0},{0.818182,0}}" />
+                                <Window Type="DejaVu/StaticImage" Name="EudemonBattleFight/Infomation/BattleMonster/MonsterLV/Lev2" >
+                                    <Property Name="Image" Value="set:DejaVu image:eight" />
+                                    <Property Name="MousePassThroughEnabled" Value="True" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.36,0},{0,0},{0.92,0},{0.933333,0}}" />
+                                </Window>
+                                <Window Type="DejaVu/StaticImage" Name="EudemonBattleFight/Infomation/BattleMonster/MonsterLV/Lev1" >
+                                    <Property Name="Image" Value="set:DejaVu image:seven" />
+                                    <Property Name="MousePassThroughEnabled" Value="True" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.56,0},{0.933333,0}}" />
+                                </Window>
+                            </Window>
+                            <Window Type="DejaVu/StaticImage" Name="EudemonBattleFight/Infomation/BattleMonster/MonsterAttr" >
+                                <Property Name="Image" Value="set:DejaVu image:Fire" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.809524,0},{0.272727,0},{0.857143,0},{0.636364,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/StaticImage" Name="EudemonBattleFight/Infomation/BattleMonster/MonsterName" >
+                            <Property Name="Image" Value="set:main3 image:CharacterList2" />
+                            <Property Name="MousePassThroughEnabled" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.357143,0},{0.327273,0},{0.833333,0},{0.781818,0}}" />
+                            <Window Type="DejaVu/StaticTextLab" Name="EudemonBattleFight/Infomation/BattleMonster/MonsterName/NameText" >
+                                <Property Name="HorzFormatting" Value="HorzCentred" />
+                                <Property Name="Text" Value="x怪物名稱" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                            </Window>
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="EudemonBattleFight/Infomation/Image/Progress" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Image" Value="set:main3 image:StepBG" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.01269,0},{0.058309,0},{0.228426,0},{0.204082,0}}" />
+                        <Window Type="DejaVu/StaticImage" Name="EudemonBattleFight/Infomation/Image/Progress/Img" >
+                            <Property Name="ClippedByParent" Value="False" />
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="Image" Value="set:main11 image:DestroyMission06" />
+                            <Property Name="MousePassThroughEnabled" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.058824,0},{-0.4,0},{0.411765,0},{0.8,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticTextLab" Name="EudemonBattleFight/Infomation/Image/Progress/Text" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="Font" Value="F001-12" />
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="xCLEAR" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.5,0},{0.470588,0},{0.9,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Static" Name="EudemonBattleFight/Infomation/Image/Progress/Number" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="MousePassThroughEnabled" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.470588,0},{0.2,0},{0.882353,0},{0.8,0}}" />
+                            <Window Type="DejaVu/StaticImage" Name="EudemonBattleFight/Infomation/Image/Progress/Number/Img2" >
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="Image" Value="set:DejaVu image:seven" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.285714,0},{0,0},{0.714285,0},{1,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/StaticImage" Name="EudemonBattleFight/Infomation/Image/Progress/Number/Img3" >
+                                <Property Name="Image" Value="set:DejaVu image:seven" />
+                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.571429,0},{0,0},{1,0},{1,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/StaticImage" Name="EudemonBattleFight/Infomation/Image/Progress/Number/Img1" >
+                                <Property Name="Image" Value="set:DejaVu image:one" />
+                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.428571,0},{1,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/StaticImage" Name="EudemonBattleFight/Infomation/Image/Progress/Percent" >
+                            <Property Name="ClippedByParent" Value="False" />
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="Image" Value="set:DejaVu image:percent" />
+                            <Property Name="MousePassThroughEnabled" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.882353,0},{0.2,0},{1.05882,0},{0.8,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="EudemonBattleFight/Infomation/Image/Forward" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HorizontalAlignment" Value="Centre" />
+                        <Property Name="Image" Value="set:main3 image:StepBG" />
+                        <Property Name="UnifiedAreaRect" Value="{{-0.279449,0},{0.160563,0},{-0.0726817,0},{0.321127,0}}" />
+                        <Property Name="VerticalAlignment" Value="Bottom" />
+                        <Window Type="DejaVu/StaticText" Name="EudemonBattleFight/Infomation/Image/Forward/Text" >
+                            <Property Name="Font" Value="F001-12" />
+                            <Property Name="HorzFormatting" Value="WordWrapCentred" />
+                            <Property Name="MousePassThroughEnabled" Value="True" />
+                            <Property Name="Text" Value="一二三四五一二三四五" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="EudemonBattleFight/Infomation/Image/Forward1" >
+                        <Property Name="HorizontalAlignment" Value="Centre" />
+                        <Property Name="Image" Value="set:main3 image:StepBG" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.16035,0},{0.206767,0},{0.320913,0}}" />
+                        <Property Name="VerticalAlignment" Value="Bottom" />
+                        <Window Type="DejaVu/StaticText" Name="EudemonBattleFight/Infomation/Image/Forward/Text1" >
+                            <Property Name="Font" Value="F001-12" />
+                            <Property Name="HorzFormatting" Value="WordWrapCentred" />
+                            <Property Name="MousePassThroughEnabled" Value="True" />
+                            <Property Name="Text" Value="x原地調查" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="EudemonBattleFight/Infomation/Image/Forward2" >
+                        <Property Name="HorizontalAlignment" Value="Centre" />
+                        <Property Name="Image" Value="set:main3 image:StepBG" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.279188,0},{0.16035,0},{0.485955,0},{0.320913,0}}" />
+                        <Property Name="VerticalAlignment" Value="Bottom" />
+                        <Window Type="DejaVu/StaticText" Name="EudemonBattleFight/Infomation/Image/Forward/Text2" >
+                            <Property Name="Font" Value="F001-12" />
+                            <Property Name="HorzFormatting" Value="WordWrapCentred" />
+                            <Property Name="MousePassThroughEnabled" Value="True" />
+                            <Property Name="Text" Value="x回頭探索" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Static" Name="EudemonBattleFight/Infomation/Image/BuffBG" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HorizontalAlignment" Value="Right" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{-0.0190355,0},{-0.0145773,0},{0.40736,0},{0.107872,0}}" />
+                        <Property Name="VerticalAlignment" Value="Bottom" />
+                        <Window Type="DejaVu/Static" Name="EudemonBattleFight/Infomation/Image/BuffBG/Slot0" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="MousePassThroughEnabled" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.125,0},{1,0}}" />
+                            <Window Type="DejaVu/SlotImage" Name="EudemonBattleFight/Infomation/Image/BuffBG/SlotWnd0" >
+                                <Property Name="AlwaysOnTop" Value="True" />
+                                <Property Name="ClippedByParent" Value="False" />
+                                <Property Name="HorizontalAlignment" Value="Centre" />
+                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                <Property Name="VerticalAlignment" Value="Centre" />
+                                <Window Type="DejaVu/StaticImage" Name="EudemonBattleFight/Infomation/Image/BuffBG/Slot/Image0" >
+                                    <Property Name="Image" Value="set:DejaVu image:RedItem" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.05,0},{0.95,0},{0.95,0}}" />
+                                </Window>
+                                <Window Type="DejaVu/StaticText" Name="EudemonBattleFight/Infomation/Image/BuffBG/Slot/Text0" >
+                                    <Property Name="HorzFormatting" Value="RightAligned" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                    <Property Name="VertFormatting" Value="BottomAligned" />
+                                </Window>
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/Static" Name="EudemonBattleFight/Infomation/Image/BuffBG/Slot1" >
+                            <Property Name="MousePassThroughEnabled" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.125,0},{0,0},{0.25,0},{1,0}}" />
+                            <Window Type="DejaVu/SlotImage" Name="EudemonBattleFight/Infomation/Image/BuffBG/SlotWnd1" >
+                                <Property Name="AlwaysOnTop" Value="True" />
+                                <Property Name="ClippedByParent" Value="False" />
+                                <Property Name="HorizontalAlignment" Value="Centre" />
+                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                <Property Name="VerticalAlignment" Value="Centre" />
+                                <Window Type="DejaVu/StaticImage" Name="EudemonBattleFight/Infomation/Image/BuffBG/Slot/Image1" >
+                                    <Property Name="Image" Value="set:DejaVu image:RedItem" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.05,0},{0.95,0},{0.95,0}}" />
+                                </Window>
+                                <Window Type="DejaVu/StaticText" Name="EudemonBattleFight/Infomation/Image/BuffBG/Slot/Text1" >
+                                    <Property Name="HorzFormatting" Value="RightAligned" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                    <Property Name="VertFormatting" Value="BottomAligned" />
+                                </Window>
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/Static" Name="EudemonBattleFight/Infomation/Image/BuffBG/Slot2" >
+                            <Property Name="MousePassThroughEnabled" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.25,0},{0,0},{0.375,0},{1,0}}" />
+                            <Window Type="DejaVu/SlotImage" Name="EudemonBattleFight/Infomation/Image/BuffBG/SlotWnd2" >
+                                <Property Name="AlwaysOnTop" Value="True" />
+                                <Property Name="ClippedByParent" Value="False" />
+                                <Property Name="HorizontalAlignment" Value="Centre" />
+                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                <Property Name="VerticalAlignment" Value="Centre" />
+                                <Window Type="DejaVu/StaticImage" Name="EudemonBattleFight/Infomation/Image/BuffBG/Slot/Image2" >
+                                    <Property Name="Image" Value="set:DejaVu image:RedItem" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.055556,0},{0.055556,0},{0.960318,0},{0.960318,0}}" />
+                                </Window>
+                                <Window Type="DejaVu/StaticText" Name="EudemonBattleFight/Infomation/Image/BuffBG/Slot/Text2" >
+                                    <Property Name="HorzFormatting" Value="RightAligned" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                    <Property Name="VertFormatting" Value="BottomAligned" />
+                                </Window>
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/Static" Name="EudemonBattleFight/Infomation/Image/BuffBG/Slot3" >
+                            <Property Name="MousePassThroughEnabled" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.375,0},{0,0},{0.5,0},{1,0}}" />
+                            <Window Type="DejaVu/SlotImage" Name="EudemonBattleFight/Infomation/Image/BuffBG/SlotWnd3" >
+                                <Property Name="AlwaysOnTop" Value="True" />
+                                <Property Name="ClippedByParent" Value="False" />
+                                <Property Name="HorizontalAlignment" Value="Centre" />
+                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                <Property Name="VerticalAlignment" Value="Centre" />
+                                <Window Type="DejaVu/StaticImage" Name="EudemonBattleFight/Infomation/Image/BuffBG/Slot/Image3" >
+                                    <Property Name="Image" Value="set:DejaVu image:RedItem" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.05,0},{0.95,0},{0.95,0}}" />
+                                </Window>
+                                <Window Type="DejaVu/StaticText" Name="EudemonBattleFight/Infomation/Image/BuffBG/Slot/Text3" >
+                                    <Property Name="HorzFormatting" Value="RightAligned" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                    <Property Name="VertFormatting" Value="BottomAligned" />
+                                </Window>
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/Static" Name="EudemonBattleFight/Infomation/Image/BuffBG/Slot4" >
+                            <Property Name="MousePassThroughEnabled" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0,0},{0.625,0},{1,0}}" />
+                            <Window Type="DejaVu/SlotImage" Name="EudemonBattleFight/Infomation/Image/BuffBG/SlotWnd4" >
+                                <Property Name="AlwaysOnTop" Value="True" />
+                                <Property Name="ClippedByParent" Value="False" />
+                                <Property Name="HorizontalAlignment" Value="Centre" />
+                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                <Property Name="VerticalAlignment" Value="Centre" />
+                                <Window Type="DejaVu/StaticImage" Name="EudemonBattleFight/Infomation/Image/BuffBG/Slot/Image4" >
+                                    <Property Name="Image" Value="set:DejaVu image:RedItem" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.05,0},{0.95,0},{0.95,0}}" />
+                                </Window>
+                                <Window Type="DejaVu/StaticText" Name="EudemonBattleFight/Infomation/Image/BuffBG/Slot/Text4" >
+                                    <Property Name="HorzFormatting" Value="RightAligned" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                    <Property Name="VertFormatting" Value="BottomAligned" />
+                                </Window>
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/Static" Name="EudemonBattleFight/Infomation/Image/BuffBG/Slot5" >
+                            <Property Name="MousePassThroughEnabled" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.625,0},{0,0},{0.75,0},{1,0}}" />
+                            <Window Type="DejaVu/SlotImage" Name="EudemonBattleFight/Infomation/Image/BuffBG/SlotWnd5" >
+                                <Property Name="AlwaysOnTop" Value="True" />
+                                <Property Name="ClippedByParent" Value="False" />
+                                <Property Name="HorizontalAlignment" Value="Centre" />
+                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                <Property Name="VerticalAlignment" Value="Centre" />
+                                <Window Type="DejaVu/StaticImage" Name="EudemonBattleFight/Infomation/Image/BuffBG/Slot/Image5" >
+                                    <Property Name="Image" Value="set:DejaVu image:RedItem" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.05,0},{0.95,0},{0.95,0}}" />
+                                </Window>
+                                <Window Type="DejaVu/StaticText" Name="EudemonBattleFight/Infomation/Image/BuffBG/Slot/Text5" >
+                                    <Property Name="HorzFormatting" Value="RightAligned" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                    <Property Name="VertFormatting" Value="BottomAligned" />
+                                </Window>
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/Static" Name="EudemonBattleFight/Infomation/Image/BuffBG/Slot6" >
+                            <Property Name="MousePassThroughEnabled" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.752436,0},{0,0},{0.877436,0},{1,0}}" />
+                            <Window Type="DejaVu/SlotImage" Name="EudemonBattleFight/Infomation/Image/BuffBG/SlotWnd6" >
+                                <Property Name="AlwaysOnTop" Value="True" />
+                                <Property Name="ClippedByParent" Value="False" />
+                                <Property Name="HorizontalAlignment" Value="Centre" />
+                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                <Property Name="VerticalAlignment" Value="Centre" />
+                                <Window Type="DejaVu/StaticImage" Name="EudemonBattleFight/Infomation/Image/BuffBG/Slot/Image6" >
+                                    <Property Name="Image" Value="set:DejaVu image:RedItem" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.05,0},{0.95,0},{0.95,0}}" />
+                                </Window>
+                                <Window Type="DejaVu/StaticText" Name="EudemonBattleFight/Infomation/Image/BuffBG/Slot/Text6" >
+                                    <Property Name="HorzFormatting" Value="RightAligned" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                    <Property Name="VertFormatting" Value="BottomAligned" />
+                                </Window>
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/Static" Name="EudemonBattleFight/Infomation/Image/BuffBG/Slot7" >
+                            <Property Name="MousePassThroughEnabled" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.875,0},{0,0},{1,0},{1,0}}" />
+                            <Window Type="DejaVu/SlotImage" Name="EudemonBattleFight/Infomation/Image/BuffBG/SlotWnd7" >
+                                <Property Name="AlwaysOnTop" Value="True" />
+                                <Property Name="ClippedByParent" Value="False" />
+                                <Property Name="HorizontalAlignment" Value="Centre" />
+                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                <Property Name="VerticalAlignment" Value="Centre" />
+                                <Window Type="DejaVu/StaticImage" Name="EudemonBattleFight/Infomation/Image/BuffBG/Slot/Image7" >
+                                    <Property Name="Image" Value="set:DejaVu image:RedItem" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.05,0},{0.95,0},{0.95,0}}" />
+                                </Window>
+                                <Window Type="DejaVu/StaticText" Name="EudemonBattleFight/Infomation/Image/BuffBG/Slot/Text7" >
+                                    <Property Name="HorzFormatting" Value="RightAligned" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                    <Property Name="VertFormatting" Value="BottomAligned" />
+                                </Window>
+                            </Window>
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Static" Name="EudemonBattleFight/Infomation/Image/BuffBG1" >
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0761421,0},{0.0145773,0},{0.449239,0},{0.137026,0}}" />
+                        <Window Type="DejaVu/Static" Name="EudemonBattleFight/Infomation/Image/BuffBG1/Slot7" >
+                            <Property Name="MousePassThroughEnabled" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.142857,0},{1,0}}" />
+                            <Window Type="DejaVu/SlotImage" Name="EudemonBattleFight/Infomation/Image/BuffBG1/SlotWnd7" >
+                                <Property Name="AlwaysOnTop" Value="True" />
+                                <Property Name="ClippedByParent" Value="False" />
+                                <Property Name="HorizontalAlignment" Value="Centre" />
+                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                <Property Name="VerticalAlignment" Value="Centre" />
+                                <Window Type="DejaVu/StaticImage" Name="EudemonBattleFight/Infomation/Image/BuffBG1/Slot/Image7" >
+                                    <Property Name="Image" Value="set:DejaVu image:RedItem" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.05,0},{0.95,0},{0.95,0}}" />
+                                </Window>
+                                <Window Type="DejaVu/StaticText" Name="EudemonBattleFight/Infomation/Image/BuffBG1/Slot/Text7" >
+                                    <Property Name="HorzFormatting" Value="RightAligned" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                    <Property Name="VertFormatting" Value="BottomAligned" />
+                                </Window>
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/Static" Name="EudemonBattleFight/Infomation/Image/BuffBG1/Slot6" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.142857,0},{0,0},{0.285714,0},{1,0}}" />
+                            <Window Type="DejaVu/SlotImage" Name="EudemonBattleFight/Infomation/Image/BuffBG1/SlotWnd6" >
+                                <Property Name="AlwaysOnTop" Value="True" />
+                                <Property Name="ClippedByParent" Value="False" />
+                                <Property Name="HorizontalAlignment" Value="Centre" />
+                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                <Property Name="VerticalAlignment" Value="Centre" />
+                                <Window Type="DejaVu/StaticImage" Name="EudemonBattleFight/Infomation/Image/BuffBG1/Slot/Image6" >
+                                    <Property Name="Image" Value="set:DejaVu image:RedItem" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.05,0},{0.95,0},{0.95,0}}" />
+                                </Window>
+                                <Window Type="DejaVu/StaticText" Name="EudemonBattleFight/Infomation/Image/BuffBG1/Slot/Text6" >
+                                    <Property Name="HorzFormatting" Value="RightAligned" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                    <Property Name="VertFormatting" Value="BottomAligned" />
+                                </Window>
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/Static" Name="EudemonBattleFight/Infomation/Image/BuffBG1/Slot5" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.285714,0},{0,0},{0.428571,0},{1,0}}" />
+                            <Window Type="DejaVu/SlotImage" Name="EudemonBattleFight/Infomation/Image/BuffBG1/SlotWnd5" >
+                                <Property Name="AlwaysOnTop" Value="True" />
+                                <Property Name="ClippedByParent" Value="False" />
+                                <Property Name="HorizontalAlignment" Value="Centre" />
+                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                <Property Name="VerticalAlignment" Value="Centre" />
+                                <Window Type="DejaVu/StaticImage" Name="EudemonBattleFight/Infomation/Image/BuffBG1/Slot/Image5" >
+                                    <Property Name="Image" Value="set:DejaVu image:RedItem" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.05,0},{0.95,0},{0.95,0}}" />
+                                </Window>
+                                <Window Type="DejaVu/StaticText" Name="EudemonBattleFight/Infomation/Image/BuffBG1/Slot/Text5" >
+                                    <Property Name="HorzFormatting" Value="RightAligned" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                    <Property Name="VertFormatting" Value="BottomAligned" />
+                                </Window>
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/Static" Name="EudemonBattleFight/Infomation/Image/BuffBG1/Slot4" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.428571,0},{0,0},{0.571428,0},{1,0}}" />
+                            <Window Type="DejaVu/SlotImage" Name="EudemonBattleFight/Infomation/Image/BuffBG1/SlotWnd4" >
+                                <Property Name="AlwaysOnTop" Value="True" />
+                                <Property Name="ClippedByParent" Value="False" />
+                                <Property Name="HorizontalAlignment" Value="Centre" />
+                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                <Property Name="VerticalAlignment" Value="Centre" />
+                                <Window Type="DejaVu/StaticImage" Name="EudemonBattleFight/Infomation/Image/BuffBG1/Slot/Image4" >
+                                    <Property Name="Image" Value="set:DejaVu image:RedItem" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.05,0},{0.95,0},{0.95,0}}" />
+                                </Window>
+                                <Window Type="DejaVu/StaticText" Name="EudemonBattleFight/Infomation/Image/BuffBG1/Slot/Text4" >
+                                    <Property Name="HorzFormatting" Value="RightAligned" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                    <Property Name="VertFormatting" Value="BottomAligned" />
+                                </Window>
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/Static" Name="EudemonBattleFight/Infomation/Image/BuffBG1/Slot3" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.571429,0},{0,0},{0.714286,0},{1,0}}" />
+                            <Window Type="DejaVu/SlotImage" Name="EudemonBattleFight/Infomation/Image/BuffBG1/SlotWnd3" >
+                                <Property Name="AlwaysOnTop" Value="True" />
+                                <Property Name="ClippedByParent" Value="False" />
+                                <Property Name="HorizontalAlignment" Value="Centre" />
+                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                <Property Name="VerticalAlignment" Value="Centre" />
+                                <Window Type="DejaVu/StaticImage" Name="EudemonBattleFight/Infomation/Image/BuffBG1/Slot/Image3" >
+                                    <Property Name="Image" Value="set:DejaVu image:RedItem" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.05,0},{0.95,0},{0.95,0}}" />
+                                </Window>
+                                <Window Type="DejaVu/StaticText" Name="EudemonBattleFight/Infomation/Image/BuffBG1/Slot/Text3" >
+                                    <Property Name="HorzFormatting" Value="RightAligned" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                    <Property Name="VertFormatting" Value="BottomAligned" />
+                                </Window>
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/Static" Name="EudemonBattleFight/Infomation/Image/BuffBG1/Slot2" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.714286,0},{0,0},{0.857143,0},{1,0}}" />
+                            <Window Type="DejaVu/SlotImage" Name="EudemonBattleFight/Infomation/Image/BuffBG1/SlotWnd2" >
+                                <Property Name="AlwaysOnTop" Value="True" />
+                                <Property Name="ClippedByParent" Value="False" />
+                                <Property Name="HorizontalAlignment" Value="Centre" />
+                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                <Property Name="VerticalAlignment" Value="Centre" />
+                                <Window Type="DejaVu/StaticImage" Name="EudemonBattleFight/Infomation/Image/BuffBG1/Slot/Image2" >
+                                    <Property Name="Image" Value="set:DejaVu image:RedItem" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.05,0},{0.95,0},{0.95,0}}" />
+                                </Window>
+                                <Window Type="DejaVu/StaticText" Name="EudemonBattleFight/Infomation/Image/BuffBG1/Slot/Text2" >
+                                    <Property Name="HorzFormatting" Value="RightAligned" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                    <Property Name="VertFormatting" Value="BottomAligned" />
+                                </Window>
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/Static" Name="EudemonBattleFight/Infomation/Image/BuffBG1/Slot1" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.857143,0},{0,0},{1,0},{1,0}}" />
+                            <Window Type="DejaVu/SlotImage" Name="EudemonBattleFight/Infomation/Image/BuffBG1/SlotWnd1" >
+                                <Property Name="AlwaysOnTop" Value="True" />
+                                <Property Name="ClippedByParent" Value="False" />
+                                <Property Name="HorizontalAlignment" Value="Centre" />
+                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                <Property Name="VerticalAlignment" Value="Centre" />
+                                <Window Type="DejaVu/StaticImage" Name="EudemonBattleFight/Infomation/Image/BuffBG1/Slot/Image1" >
+                                    <Property Name="Image" Value="set:DejaVu image:RedItem" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.05,0},{0.95,0},{0.95,0}}" />
+                                </Window>
+                                <Window Type="DejaVu/StaticText" Name="EudemonBattleFight/Infomation/Image/BuffBG1/Slot/Text1" >
+                                    <Property Name="HorzFormatting" Value="RightAligned" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                    <Property Name="VertFormatting" Value="BottomAligned" />
+                                </Window>
+                            </Window>
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Static" Name="EudemonBattleFight/Infomation/Image/Slots" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.006345,0},{0.014577,0},{0.0596445,0},{0.137026,0}}" />
+                        <Window Type="DejaVu/SlotImage" Name="EudemonBattleFight/Infomation/Image/SlotWnd" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="HorizontalAlignment" Value="Centre" />
+                            <Property Name="MousePassThroughEnabled" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                            <Window Type="DejaVu/StaticImage" Name="EudemonBattleFight/Infomation/Image/Slots/Image" >
+                                <Property Name="Image" Value="set:DejaVu image:RedItem" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.05,0},{0.95,0},{0.95,0}}" />
+                            </Window>
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/StaticText" Name="EudemonBattleFight/Infomation/Image/BattleMsg" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HorizontalAlignment" Value="Centre" />
+                        <Property Name="HorzFormatting" Value="WordWrapCentred" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="Text" Value="XXXX 使用了衝撞1111111111111111111" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.732394,0},{0.626566,0},{0.873239,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="EudemonBattleFight/Infomation/Image/Reward" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HorizontalAlignment" Value="Centre" />
+                        <Property Name="Image" Value="set:main3 image:StepBG" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.466472,0},{0.380711,0},{0.670554,0}}" />
+                        <Window Type="DejaVu/StaticText" Name="EudemonBattleFight/Infomation/Image/Reward/Text" >
+                            <Property Name="Font" Value="F001-12" />
+                            <Property Name="HorzFormatting" Value="WordWrapCentred" />
+                            <Property Name="LinespaceWindow" Value="True" />
+                            <Property Name="MousePassThroughEnabled" Value="True" />
+                            <Property Name="Text" Value="獲得啟源之力的祝福。經驗值+1500" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0333333,0},{0.142857,0},{0.966667,0},{0.857143,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticImage" Name="EudemonBattleFight/Infomation/Image/Reward/Img" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="ClippedByParent" Value="False" />
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="HorizontalAlignment" Value="Centre" />
+                            <Property Name="Image" Value="set:main2 image:GiftIcon" />
+                            <Property Name="MousePassThroughEnabled" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{-0.571429,0},{0.2,0},{0.285714,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Button" Name="EudemonBattleFight/Infomation/Image/TestBtn" >
+                        <Property Name="Alpha" Value="0.5" />
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="Run one Round" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.853383,0},{0.169972,0},{0.994987,0},{0.288952,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="EudemonBattleFight/Infomation/Image/Dress" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Image" Value="set:main image:noimage" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Static" Name="EudemonBattleFight/Infomation/Image/SlotBG" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0126904,0},{0.801749,0},{0.348985,0},{0.924198,0}}" />
+                        <Window Type="DejaVu/StaticImage" Name="EudemonBattleFight/Infomation/Image/SlotBG/HighLine" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="ClippedByParent" Value="False" />
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="Image" Value="set:DejaVu image:MissionCompleteHint" />
+                            <Property Name="MousePassThroughEnabled" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{-0.0188679,0},{0,0},{0.0188679,0},{1.66667,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                            <Property Name="Visible" Value="False" />
+                        </Window>
+                        <Window Type="DejaVu/StaticImage" Name="EudemonBattleFight/Infomation/Image/SlotBG/HighLine1" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="ClippedByParent" Value="False" />
+                            <Property Name="Image" Value="set:DejaVu image:MissionCompleteHint" />
+                            <Property Name="MousePassThroughEnabled" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{1,0},{0,0},{1.03774,0},{1.66667,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                            <Property Name="Visible" Value="False" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/StaticText" Name="EudemonBattleFight/Infomation/Image/BattleMsgCutscene" >
+                        <Property Name="Font" Value="F001-18" />
+                        <Property Name="HorizontalAlignment" Value="Centre" />
+                        <Property Name="HorzFormatting" Value="WordWrapCentred" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="Text" Value="XXXX 使用了衝撞1111111111111111111" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.254386,0},{0.290141,0}}" />
+                        <Property Name="VerticalAlignment" Value="Centre" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="EudemonBattleFight/Infomation/Image/SkillStart" >
+                        <Property Name="HorizontalAlignment" Value="Centre" />
+                        <Property Name="Image" Value="set:main3 image:StepBG" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.28169,0},{1,0},{0.56338,0}}" />
+                        <Property Name="VerticalAlignment" Value="Centre" />
+                        <Window Type="DejaVu/StaticText" Name="EudemonBattleFight/Infomation/Image/SkillStart/Text" >
+                            <Property Name="Font" Value="F001-24" />
+                            <Property Name="HorzFormatting" Value="WordWrapCentred" />
+                            <Property Name="Text" Value="123456123131231233223123" />
+                            <Property Name="TextFrame" Value="True" />
+                            <Property Name="TextFrameColour" Value="FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Embed2" Name="EudemonBattleFight/Infomation/Image/Fail" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="ClippedByParent" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{-0.006266,0},{-0.014085,0},{1.00627,0},{1.01408,0}}" />
+                        <Property Name="Visible" Value="False" />
+                        <Window Type="DejaVu/StaticText" Name="EudemonBattleFight/Infomation/Image/Fail/Text" >
+                            <Property Name="Font" Value="F001-18" />
+                            <Property Name="HorizontalAlignment" Value="Centre" />
+                            <Property Name="HorzFormatting" Value="WordWrapCentred" />
+                            <Property Name="MousePassThroughEnabled" Value="True" />
+                            <Property Name="Text" Value="XXXX 使用了衝撞1111111111111111111" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1.00251,0},{0.28169,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="EudemonBattleFight/Infomation/Image/CastingHint" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HorizontalAlignment" Value="Right" />
+                        <Property Name="Image" Value="set:DejaVu image:Emotion08" />
+                        <Property Name="UnifiedAreaRect" Value="{{-0.0125313,0},{0.183099,0},{0.0501253,0},{0.323944,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="EudemonBattleFight/Infomation/Image/FightStart" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HorizontalAlignment" Value="Centre" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.582707,0},{0.478873,0}}" />
+                        <Property Name="VerticalAlignment" Value="Centre" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="EudemonBattleFight/Infomation/Image/FightWin" >
+                        <Property Name="HorizontalAlignment" Value="Centre" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.582707,0},{0.478873,0}}" />
+                        <Property Name="VerticalAlignment" Value="Centre" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed2" Name="EudemonBattleFight/FW/Skill" >
+                <Property Name="UnifiedAreaRect" Value="{{0.437653,0},{0.732314,0},{0.770171,0},{0.98088,0}}" />
+                <Window Type="DejaVu/EmbedText7" Name="EudemonBattleFight/FW/Skill/Lab" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="x隊伍技能" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.007353,0},{0.015385,0},{0.992647,0},{0.207693,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="EudemonBattleFight/FW/Skill/leader1" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0808824,0},{0.253846,0},{0.235294,0},{0.576923,0}}" />
+                    <Window Type="DejaVu/StaticImage" Name="EudemonBattleFight/FW/Skill/leader1/Image" >
+                        <Property Name="Image" Value="set:DejaVu image:RedItem" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.047619,0},{0.047619,0},{0.952381,0},{0.952381,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="EudemonBattleFight/FW/Skill/BG" >
+                    <Property Name="Image" Value="set:main2 image:MagicStoneUpgrateBG" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.00367647,0},{0.253846,0},{0.996324,0},{0.946154,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="EudemonBattleFight/FW/Skill/leader2" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.308824,0},{0.253846,0},{0.463235,0},{0.576923,0}}" />
+                    <Window Type="DejaVu/StaticImage" Name="EudemonBattleFight/FW/Skill/leader2/Image" >
+                        <Property Name="Image" Value="set:DejaVu image:RedItem" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.047619,0},{0.047619,0},{0.952381,0},{0.952381,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="EudemonBattleFight/FW/Skill/leader3" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.536765,0},{0.253846,0},{0.691177,0},{0.576923,0}}" />
+                    <Window Type="DejaVu/StaticImage" Name="EudemonBattleFight/FW/Skill/leader3/Image" >
+                        <Property Name="Image" Value="set:DejaVu image:RedItem" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.047619,0},{0.047619,0},{0.952381,0},{0.952381,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="EudemonBattleFight/FW/Skill/leader4" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.764706,0},{0.253846,0},{0.919118,0},{0.576923,0}}" />
+                    <Window Type="DejaVu/StaticImage" Name="EudemonBattleFight/FW/Skill/leader4/Image" >
+                        <Property Name="Image" Value="set:DejaVu image:RedItem" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.047619,0},{0.047619,0},{0.952381,0},{0.952381,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="EudemonBattleFight/FW/Skill/leader5" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0808824,0},{0.615385,0},{0.235294,0},{0.938462,0}}" />
+                    <Window Type="DejaVu/StaticImage" Name="EudemonBattleFight/FW/Skill/leader5/Image" >
+                        <Property Name="Image" Value="set:DejaVu image:RedItem" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.047619,0},{0.047619,0},{0.952381,0},{0.952381,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="EudemonBattleFight/FW/Skill/leader6" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.308824,0},{0.615385,0},{0.463235,0},{0.938462,0}}" />
+                    <Window Type="DejaVu/StaticImage" Name="EudemonBattleFight/FW/Skill/leader6/Image" >
+                        <Property Name="Image" Value="set:DejaVu image:RedItem" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.047619,0},{0.047619,0},{0.952381,0},{0.952381,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="EudemonBattleFight/FW/Skill/leader7" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.536765,0},{0.615385,0},{0.691176,0},{0.938462,0}}" />
+                    <Window Type="DejaVu/StaticImage" Name="EudemonBattleFight/FW/Skill/leader7/Image" >
+                        <Property Name="Image" Value="set:DejaVu image:RedItem" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.047619,0},{0.047619,0},{0.952381,0},{0.952381,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="EudemonBattleFight/FW/Skill/leader8" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.764706,0},{0.615385,0},{0.919118,0},{0.938462,0}}" />
+                    <Window Type="DejaVu/StaticImage" Name="EudemonBattleFight/FW/Skill/leader8/Image" >
+                        <Property Name="Image" Value="set:DejaVu image:RedItem" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.047619,0},{0.047619,0},{0.952381,0},{0.952381,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="EudemonBattleFight/Talk" >
+                <Property Name="UnifiedAreaRect" Value="{{0.0122249,0},{0.0478011,0},{0.987775,0},{0.722753,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="EudemonBattleFight/Talk/Picture" >
+                    <Property Name="Image" Value="set:main image:noimage" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="EudemonBattleFight/Talk/Stage" >
+                    <Property Name="Image" Value="set:main image:noimage" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    <Window Type="DejaVu/Static" Name="EudemonBattleFight/Talk/Stage/Board" >
+                        <Property Name="BackgroundEnabled" Value="True" />
+                        <Property Name="FrameEnabled" Value="True" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.420259,0}}" />
+                        <Property Name="VerticalAlignment" Value="Bottom" />
+                        <Window Type="DejaVu/StaticText" Name="EudemonBattleFight/Talk/Stage/Board/Text" >
+                            <Property Name="Font" Value="F001-11" />
+                            <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                            <Property Name="LinespaceWindow" Value="True" />
+                            <Property Name="MousePassThroughEnabled" Value="True" />
+                            <Property Name="Text" Value="一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.006016,0},{0.082051,0},{0.993315,0},{0.979487,0}}" />
+                            <Property Name="VertFormatting" Value="TopAligned" />
+                        </Window>
+                        <Window Type="DejaVu/Button" Name="EudemonBattleFight/Talk/Stage/Board/CheckBtn" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="HorizontalAlignment" Value="Right" />
+                            <Property Name="Text" Value="x繼續" />
+                            <Property Name="UnifiedAreaRect" Value="{{-0.0127005,0},{0.733333,0},{0.0822193,0},{0.902564,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab4" Name="EudemonBattleFight/Talk/Name1" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="Text" Value="x一二三四五六七八" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0748663,0},{0.534483,0},{0.225267,0},{0.605603,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab4" Name="EudemonBattleFight/Talk/Name2" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="HorizontalAlignment" Value="Right" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="Text" Value="x一二三四五六七八" />
+                        <Property Name="UnifiedAreaRect" Value="{{-0.0748663,0},{0.534483,0},{0.0755348,0},{0.605603,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="EudemonBattleFight/Talk/MemoryText" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="Image" Value="set:main3 image:StepBG" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0125313,0},{0.0566572,0},{0.22807,0},{0.201133,0}}" />
+                        <Window Type="DejaVu/StaticText" Name="EudemonBattleFight/Talk/MemoryText/Text" >
+                            <Property Name="Font" Value="F001-12" />
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="MousePassThroughEnabled" Value="True" />
+                            <Property Name="Text" Value="x任務回憶" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.058824,0},{0.1,0},{0.941177,0},{0.9,0}}" />
+                        </Window>
+                    </Window>
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Embed4" Name="EudemonBattleFight/Title" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="UnifiedAreaRect" Value="{{0.023866,0},{0.018116,0},{0.202864,0},{0.0634059,0}}" />
+            <Window Type="DejaVu/StaticImage" Name="EudemonBattleFight/Title/Img" >
+                <Property Name="Image" Value="set:DejaVu image:Image18" />
+                <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="EudemonBattleFight/Title/Text" >
+                <Property Name="Text" Value="x啟源戰役" />
+                <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.2,0},{0.866667,0},{0.8,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Embed" Name="EudemonBattleFight/Ani" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Property Name="Visible" Value="False" />
+            <Window Type="DejaVu/StaticImage" Name="EudemonBattleFight/Ani/StartMission" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="Image" Value="set:main2 image:MagicStoneUpgrateBG" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.25,0}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+                <Window Type="DejaVu/StaticText" Name="EudemonBattleFight/Ani/StartMission/Text" >
+                    <Property Name="Font" Value="F001-36" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="Text" >xx123
+123123</Property>
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/FrameWindow" Name="EudemonBattleFight/CutsceneEdit" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="HelpButtonEnabled" Value="False" />
+            <Property Name="TitlebarEnabled" Value="True" />
+            <Property Name="TitlebarFont" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,490},{0,505}}" />
+            <Property Name="Visible" Value="False" />
+            <Window Type="DejaVu/Embed2" Name="EudemonBattleFight/Cutscene1" >
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,230},{0,426}}" />
+                <Window Type="DejaVu/Combobox" Name="EudemonBattleFight/Cutscene/Combo_Change" >
+                    <Property Name="MaxEditTextLength" Value="2147483647" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.304348,0},{0.00704225,0},{0.978261,0},{0.373239,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="EudemonBattleFight/Cutscene/Text_Pos" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="起始位置" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0657277,0},{0,58},{0.0657277,26}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="EudemonBattleFight/Cutscene/Edit_Pos_X" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="Text" Value="X" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.252174,0},{0.0657277,0},{0.252174,55},{0.0657277,26}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="EudemonBattleFight/Cutscene/Edit_Pos_Y" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="Text" Value="Y" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.495652,0},{0.0657277,0},{0.495652,55},{0.0657277,26}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="EudemonBattleFight/Cutscene/Edit_Pos_Z" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="Text" Value="Z" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.73913,0},{0.0657277,0},{0.73913,55},{0.0657277,26}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="EudemonBattleFight/Cutscene/Text_AttackPos" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="攻擊位置" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.187793,0},{0,58},{0.187793,26}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="EudemonBattleFight/Cutscene/Edit_AttackPos_X" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="Text" Value="X" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.252174,0},{0.187793,0},{0.252174,55},{0.187793,26}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="EudemonBattleFight/Cutscene/Edit_AttackPos_Y" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="Text" Value="Y" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.495652,0},{0.187793,0},{0.495652,55},{0.187793,26}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="EudemonBattleFight/Cutscene/Edit_AttackPos_Z" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="Text" Value="Z" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.73913,0},{0.187793,0},{0.73913,55},{0.187793,26}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="EudemonBattleFight/Cutscene/Text_AttackStartBzPos" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="開始BZ" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.25,0},{0,58},{0.25,26}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="EudemonBattleFight/Cutscene/Edit_AttackStartBzPos_X" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="Text" Value="X" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.252174,0},{0.25,0},{0.252174,55},{0.25,26}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="EudemonBattleFight/Cutscene/Edit_AttackStartBzPos_Y" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="Text" Value="Y" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.495652,0},{0.25,0},{0.495652,55},{0.25,26}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="EudemonBattleFight/Cutscene/Edit_AttackStartBzPos_Z" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="Text" Value="Z" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.73913,0},{0.25,0},{0.73913,55},{0.25,26}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="EudemonBattleFight/Cutscene/Text_AttackEndBzPos" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="返回BZ" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.316901,0},{0,58},{0.316901,26}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="EudemonBattleFight/Cutscene/Edit_AttackEndBzPos_X" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="Text" Value="X" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.252174,0},{0.316901,0},{0.252174,55},{0.316901,26}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="EudemonBattleFight/Cutscene/Edit_AttackEndBzPos_Y" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="Text" Value="Y" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.495652,0},{0.316901,0},{0.495652,55},{0.316901,26}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="EudemonBattleFight/Cutscene/Edit_AttackEndBzPos_Z" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="Text" Value="Z" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.73913,0},{0.316901,0},{0.73913,55},{0.316901,26}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="EudemonBattleFight/Cutscene/Text_RangedAttackBeginPos" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="特效" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.434272,0},{0,58},{0.434272,26}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="EudemonBattleFight/Cutscene/Edit_RangedAttackBeginPos_X" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="Text" Value="X" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.252174,0},{0.434272,0},{0.252174,55},{0.434272,26}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="EudemonBattleFight/Cutscene/Edit_RangedAttackBeginPos_Y" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="Text" Value="Y" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.495652,0},{0.434272,0},{0.495652,55},{0.434272,26}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="EudemonBattleFight/Cutscene/Edit_RangedAttackBeginPos_Z" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="Text" Value="Z" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.73913,0},{0.434272,0},{0.73913,55},{0.434272,26}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="EudemonBattleFight/Cutscene/Text_RangedAttackEndPos" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="命中" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.00201257,0},{0.525214,0},{0.00201257,58},{0.525214,26}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="EudemonBattleFight/Cutscene/Edit_RangedAttackEndPos_X" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="Text" Value="X" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.252174,0},{0.525822,0},{0.252174,55},{0.525822,26}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="EudemonBattleFight/Cutscene/Edit_RangedAttackEndPos_Y" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="Text" Value="Y" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.495652,0},{0.525822,0},{0.495652,55},{0.525822,26}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="EudemonBattleFight/Cutscene/Edit_RangedAttackEndPos_Z" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="Text" Value="Z" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.73913,0},{0.525822,0},{0.73913,55},{0.525822,26}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="EudemonBattleFight/Cutscene/Text_ChangeTeamPos" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="開始" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.00201257,0},{0.659983,0},{0.00201257,58},{0.659983,26}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="EudemonBattleFight/Cutscene/Edit_ChangeTeamPos_X" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="Text" Value="X" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.252174,0},{0.659624,0},{0.491304,0},{0.70892,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="EudemonBattleFight/Cutscene/Edit_ChangeTeamPos_Y" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="Text" Value="Y" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.495652,0},{0.659624,0},{0.734782,0},{0.70892,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="EudemonBattleFight/Cutscene/Edit_ChangeTeamPos_Z" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="Text" Value="Z" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.73913,0},{0.659624,0},{0.97826,0},{0.70892,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="EudemonBattleFight/Cutscene/Text_ChangeTeamBackPos" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="返回" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.7277,0},{0,58},{0.7277,26}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="EudemonBattleFight/Cutscene/Edit_ChangeTeamBackPos_X" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="Text" Value="X" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.252174,0},{0.7277,0},{0.252174,55},{0.7277,26}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="EudemonBattleFight/Cutscene/Edit_ChangeTeamBackPos_Y" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="Text" Value="Y" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.495652,0},{0.7277,0},{0.495652,55},{0.7277,26}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="EudemonBattleFight/Cutscene/Edit_ChangeTeamBackPos_Z" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="Text" Value="Z" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.73913,0},{0.7277,0},{0.73913,55},{0.7277,26}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="EudemonBattleFight/Cutscene/Text_ModelID" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="模型編號" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.798122,0},{0.252174,0},{0.856807,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="EudemonBattleFight/Cutscene/Edit_ModelID" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="Text" Value="0" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.252174,0},{0.798122,0},{0.982609,0},{0.856807,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="EudemonBattleFight/Cutscene/Text_EffectID" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="受擊特效" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.86385,0},{0.252174,0},{0.922535,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="EudemonBattleFight/Cutscene/Edit_EffectID" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="Text" Value="0" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.252174,0},{0.861502,0},{0.982609,0},{0.920187,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="EudemonBattleFight/Cutscene/Edit_RangedEffectID" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="Text" Value="0" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.252174,0},{0.92723,0},{0.982609,0},{0.985915,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="EudemonBattleFight/Cutscene/Text_RangedEffectID" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="飛行特效" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.92723,0},{0.252174,0},{0.985915,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="EudemonBattleFight/Cutscene/Label_Attack" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="近戰攻擊" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.129108,0},{1,0},{0.178404,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="EudemonBattleFight/Cutscene/Label_RangedAttack" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="遠程攻擊" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.373895,0},{0,230},{0.373895,26}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="EudemonBattleFight/Cutscene/Label_ChangeTeam" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="切換隊伍" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.586854,0},{0,230},{0.586854,26}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Button" Name="EudemonBattleFight/CutsceneEdit/Resize" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="x縮小" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,70},{0,26}}" />
+            </Window>
+            <Window Type="DejaVu/Embed2" Name="EudemonBattleFight/Cutscene" >
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.495781,0},{0,0},{0.495781,241},{0,426}}" />
+                <Window Type="DejaVu/Button" Name="EudemonBattleFight/Cutscene/Button_Attack_1" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="Text" Value="1" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.25,0},{0,0},{0.486515,0},{0.05,0}}" />
+                </Window>
+                <Window Type="DejaVu/Button" Name="EudemonBattleFight/Cutscene/Button_Attack_4" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="Text" Value="4" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.25,0},{0.05,0},{0.486515,0},{0.1,0}}" />
+                </Window>
+                <Window Type="DejaVu/Button" Name="EudemonBattleFight/Cutscene/Button_Attack_5" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="Text" Value="5" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.497925,0},{0.05,0},{0.73444,0},{0.1,0}}" />
+                </Window>
+                <Window Type="DejaVu/Button" Name="EudemonBattleFight/Cutscene/Button_Attack_2" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="Text" Value="2" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.497925,0},{0,0},{0.73444,0},{0.05,0}}" />
+                </Window>
+                <Window Type="DejaVu/Button" Name="EudemonBattleFight/Cutscene/Button_Attack_3" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="Text" Value="3" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.742739,0},{0,0},{0.979253,0},{0.05,0}}" />
+                </Window>
+                <Window Type="DejaVu/Button" Name="EudemonBattleFight/Cutscene/Button_Attack_6" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="Text" Value="6 " />
+                    <Property Name="UnifiedAreaRect" Value="{{0.742739,0},{0.05,0},{0.979253,0},{0.1,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="EudemonBattleFight/Cutscene/Text_Attack" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="近身攻擊" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.25,0},{0.1,0}}" />
+                </Window>
+                <Window Type="DejaVu/Button" Name="EudemonBattleFight/Cutscene/Button_ChangeTeam" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="Text" Value="切換隊伍ˏ" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0207469,0},{0.417308,0},{0.352697,0},{0.494231,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="EudemonBattleFight/Cutscene/Text_Dead" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="死亡" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.5,0},{0.2,0},{0.6,0}}" />
+                </Window>
+                <Window Type="DejaVu/Button" Name="EudemonBattleFight/Cutscene/Button_Dead_1" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="Text" Value="1" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.19917,0},{0.509615,0},{0.385892,0},{0.590384,0}}" />
+                </Window>
+                <Window Type="DejaVu/Button" Name="EudemonBattleFight/Cutscene/Button_Dead_2" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="Text" Value="2" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.39834,0},{0.509615,0},{0.585062,0},{0.590384,0}}" />
+                </Window>
+                <Window Type="DejaVu/Button" Name="EudemonBattleFight/Cutscene/Button_Dead_3" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="Text" Value="3" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.59751,0},{0.509615,0},{0.784232,0},{0.590385,0}}" />
+                </Window>
+                <Window Type="DejaVu/Button" Name="EudemonBattleFight/Cutscene/Button_Dead_4" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="Text" Value="4" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.792531,0},{0.509615,0},{0.979253,0},{0.590385,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="EudemonBattleFight/Cutscene/Text_RangedAttack" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="遠程攻擊" />
+                    <Property Name="UnifiedAreaRect" Value="{{-0.00204082,0},{0.2,0},{0.247959,0},{0.3,0}}" />
+                </Window>
+                <Window Type="DejaVu/Button" Name="EudemonBattleFight/Cutscene/Button_RangedAttack_1" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="Text" Value="1" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.25,0},{0.2,0},{0.486515,0},{0.25,0}}" />
+                </Window>
+                <Window Type="DejaVu/Button" Name="EudemonBattleFight/Cutscene/Button_RangedAttack_2" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="Text" Value="2" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.497925,0},{0.2,0},{0.73444,0},{0.25,0}}" />
+                </Window>
+                <Window Type="DejaVu/Button" Name="EudemonBattleFight/Cutscene/Button_RangedAttack_3" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="Text" Value="3" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.742739,0},{0.2,0},{0.979253,0},{0.25,0}}" />
+                </Window>
+                <Window Type="DejaVu/Button" Name="EudemonBattleFight/Cutscene/Button_RangedAttack_4" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="Text" Value="4" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.25,0},{0.25,0},{0.486515,0},{0.3,0}}" />
+                </Window>
+                <Window Type="DejaVu/Button" Name="EudemonBattleFight/Cutscene/Button_RangedAttack_5" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="Text" Value="5" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.497925,0},{0.25,0},{0.73444,0},{0.3,0}}" />
+                </Window>
+                <Window Type="DejaVu/Button" Name="EudemonBattleFight/Cutscene/Button_RangedAttack_6" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="Text" Value="6" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.742739,0},{0.25,0},{0.979253,0},{0.3,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="EudemonBattleFight/Cutscene/Text_CameraPos" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="攝影機位置" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.6,0},{0.25,0},{0.7,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="EudemonBattleFight/Cutscene/Edit_CameraPos_X" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="Text" Value="X" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.248047,0},{0.6,0},{0.498047,0},{0.7,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="EudemonBattleFight/Cutscene/Edit_CameraPos_Y" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="Text" Value="Y" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0.6,0},{0.75,0},{0.7,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="EudemonBattleFight/Cutscene/Edit_CameraPos_Z" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="Text" Value="Z" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.75,0},{0.6,0},{1,0},{0.7,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="EudemonBattleFight/Cutscene/Text_CameraRot" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="攝影機旋轉" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.7,0},{0.25,0},{0.8,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="EudemonBattleFight/Cutscene/Edit_CameraRot_X" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="Text" Value="X" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.25,0},{0.7,0},{0.5,0},{0.8,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="EudemonBattleFight/Cutscene/Edit_CameraRot_Y" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="Text" Value="Y" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0.7,0},{0.75,0},{0.8,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="EudemonBattleFight/Cutscene/Edit_CameraRot_Z" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="Text" Value="Z" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.75,0},{0.7,0},{1,0},{0.8,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="EudemonBattleFight/Cutscene/Text_AttackGoTime" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="攻擊時間" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.1,0},{0.32,0},{0.15,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="EudemonBattleFight/Cutscene/Edit_AttackGoTime" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="Text" Value="0" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.15,0},{0.32,0},{0.2,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="EudemonBattleFight/Cutscene/Edit_AttackBackTime" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="Text" Value="0" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.34,0},{0.15,0},{0.66,0},{0.2,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="EudemonBattleFight/Cutscene/Text_AttackBackTime" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="返回時間" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.34,0},{0.1,0},{0.66,0},{0.15,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="EudemonBattleFight/Cutscene/Text_AttackHurtDelay" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="受傷延遲" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.68,0},{0.1,0},{1,0},{0.15,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="EudemonBattleFight/Cutscene/Edit_AttackHurtDelay" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="Text" Value="0" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.68,0},{0.15,0},{1,0},{0.2,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="EudemonBattleFight/Cutscene/Text_RangedAttackShootDelay" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="發射特效延遲" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.3,0},{0.5,0},{0.35,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="EudemonBattleFight/Cutscene/Edit_RangedAttackShootDelay" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="Text" Value="0" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0207469,0},{0.351923,0},{0.477178,0},{0.401923,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="EudemonBattleFight/Cutscene/Text_RangedAttackFlyTime" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="特效飛行時間" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0.3,0},{1,0},{0.35,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="EudemonBattleFight/Cutscene/Edit_RangedAttackFlyTime" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="Text" Value="0" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.518672,0},{0.35,0},{0.975104,0},{0.4,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="EudemonBattleFight/Cutscene/Text_GoChangeTeamTime" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="換隊時間" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.36,0},{0.4,0},{0.650456,0},{0.45,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="EudemonBattleFight/Cutscene/Edit_GoChangeTeamTime" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="Text" Value="0" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.36,0},{0.45,0},{0.650456,0},{0.5,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="EudemonBattleFight/Cutscene/Text_BackChangeTeamTime" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="返回時間" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.68,0},{0.4,0},{0.970456,0},{0.45,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="EudemonBattleFight/Cutscene/Edit_BackChangeTeamTime" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="Text" Value="0" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.68,0},{0.45,0},{0.970456,0},{0.5,0}}" />
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

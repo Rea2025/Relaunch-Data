@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/ShopItem" >
+        <Property Name="AlwaysOnTop" Value="True" />
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,386},{0,52}}" />
+        <Window Type="DejaVu/Embed3" Name="Root/ShopItem/BG" >
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/SlotImage" Name="Root/ShopItem/BG/Icon" >
+                <Property Name="UnifiedAreaRect" Value="{{0.013513,0},{0.096154,0},{0.122321,0},{0.903846,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/ShopItem/BG/Name" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="一二三四五六七八九十一二" />
+                <Property Name="UnifiedAreaRect" Value="{{0.134715,0},{0.25,0},{0.549223,0},{0.75,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/ShopItem/BG/GoldBG" >
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="Image" Value="set:main image:GoldBG" />
+                <Property Name="UnifiedAreaRect" Value="{{0.595855,0},{0.346154,0},{0.803109,0},{0.634615,0}}" />
+                <Property Name="VertFormatting" Value="CentreAligned" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/ShopItem/BG/GoldBG/Gold" >
+                    <Property Name="HorzFormatting" Value="RightAligned" />
+                    <Property Name="Text" Value="99999" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.75,0},{1,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/ShopItem/BG/GoldBG/GoldImage" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Image" Value="set:main image:Gold" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.8125,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/ShopItem/BG/SilverBG" >
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="Image" Value="set:main image:SilverBG" />
+                <Property Name="UnifiedAreaRect" Value="{{0.544041,0},{0.346154,0},{0.958549,0},{0.634615,0}}" />
+                <Property Name="VertFormatting" Value="CentreAligned" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/ShopItem/BG/SilverBG/Silver" >
+                    <Property Name="HorzFormatting" Value="RightAligned" />
+                    <Property Name="Text" Value="999" />
+                    <Property Name="UnifiedAreaRect" Value="{{-0.15625,0},{0,0},{0.84375,0},{1,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/ShopItem/BG/SilverBG/SilverImage" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Image" Value="set:main image:Silver" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.869565,0},{0,0},{0.963315,0},{1,0}}" />
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

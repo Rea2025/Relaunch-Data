@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/Embed3" Name="Root/TreasureItem" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="MousePassThroughEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.341797,0},{0.0677083,0}}" />
+        <Window Type="DejaVu/SlotImage" Name="Root/TreasureItem/Slot" >
+            <Property Name="UnifiedAreaRect" Value="{{0.0142857,0},{0.0961538,0},{0.134286,0},{0.903846,0}}" />
+        </Window>
+        <Window Type="DejaVu/EmbedText2" Name="Root/TreasureItem/Text" >
+            <Property Name="HorzFormatting" Value="LeftAligned" />
+            <Property Name="ID" Value="1" />
+            <Property Name="LinespaceWindow" Value="True" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="Text" Value="一二三四武六七八九石一二三四" />
+            <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+            <Property Name="UnifiedAreaRect" Value="{{0.162857,0},{0.096154,0},{0.738356,0},{0.903846,0}}" />
+        </Window>
+        <Window Type="DejaVu/Zframe2" Name="Root/TreasureItem/SelectionBrush" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="ID" Value="2" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticText" Name="Root/TreasureItem/Order" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="ID" Value="3" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="Text" Value="x123" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/TreasureItem/ExchangeBtn" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HorizontalAlignment" Value="Right" />
+            <Property Name="ID" Value="4" />
+            <Property Name="Text" Value="x兌換條件" />
+            <Property Name="UnifiedAreaRect" Value="{{-0.02849,0},{0,0},{0.188034,0},{0.5,0}}" />
+            <Property Name="VerticalAlignment" Value="Centre" />
+        </Window>
+    </Window>
+</GUILayout>

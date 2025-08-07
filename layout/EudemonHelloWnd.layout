@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/Static" Name="Root/EudemonHelloWnd" >
+        <Property Name="HorizontalAlignment" Value="Right" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.266927,0},{0,610},{0.266927,482}}" />
+        <Window Type="DejaVu/StaticImage" Name="Root/EudemonHelloWnd/DressRoomWnd" >
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Embed9" Name="Root/EudemonHelloWnd/DressRoomWnd/BubbleFrame" >
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.185547,0},{0,0},{0.543164,0},{0.176302,0}}" />
+                <Window Type="DejaVu/StaticText" Name="Root/EudemonHelloWnd/DressRoomWnd/BubbleFrame/Text" >
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="Text" Value="x123123123123123" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.908257,0},{0.294118,0}}" />
+                    <Property Name="VertFormatting" Value="TopAligned" />
+                    <Property Name="VerticalAlignment" Value="Centre" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/EudemonHelloWnd/DressRoomWnd/BubbleFrame/CloseBtn" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorizontalAlignment" Value="Right" />
+                    <Property Name="HoverImage" Value="set:DejaVu image:CloseBtnHover" />
+                    <Property Name="NormalImage" Value="set:DejaVu image:CloseBtnNormal" />
+                    <Property Name="PushedImage" Value="set:DejaVu image:CloseBtnPush" />
+                    <Property Name="UnifiedAreaRect" Value="{{-0.022936,0},{0.058824,0},{-0.022936,16},{0.058824,16}}" />
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

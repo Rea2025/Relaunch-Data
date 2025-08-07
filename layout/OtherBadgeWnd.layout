@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/OtherBadgeWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="TitlebarImage" Value="set:main image:CharaterNormal" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,606},{0,649}}" />
+        <Window Type="DejaVu/Embed" Name="Root/OtherBadgeWnd/Embed" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.043937,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Static" Name="Root/OtherBadgeWnd/BadgeBG" >
+                <Property Name="UnifiedAreaRect" Value="{{0.0169492,0},{0.0183824,0},{0.983051,0},{0.981618,0}}" />
+                <Window Type="DejaVu/Embed2" Name="Root/OtherBadgeWnd/BadgeBG/bg" >
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.019084,0},{1,0},{1,0}}" />
+                    <Window Type="DejaVu/Embed2" Name="Root/OtherBadgeWnd/BadgeBG/bg/ScoreBG" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.719298,0},{0.0389105,0},{0.982456,0},{0.0972763,0}}" />
+                        <Window Type="DejaVu/StaticImage" Name="Root/OtherBadgeWnd/BadgeBG/bg/ScoreBG/Num4" >
+                            <Property Name="Image" Value="set:DejaVu image:nine" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.3,0},{0.1,0},{0.466667,0},{0.933333,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticImage" Name="Root/OtherBadgeWnd/BadgeBG/bg/ScoreBG/Num3" >
+                            <Property Name="Image" Value="set:DejaVu image:nine" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.433333,0},{0.1,0},{0.6,0},{0.933333,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticImage" Name="Root/OtherBadgeWnd/BadgeBG/bg/ScoreBG/Num2" >
+                            <Property Name="Image" Value="set:DejaVu image:nine" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.566667,0},{0.1,0},{0.733333,0},{0.933333,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticImage" Name="Root/OtherBadgeWnd/BadgeBG/bg/ScoreBG/Num5" >
+                            <Property Name="Image" Value="set:DejaVu image:nine" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.166667,0},{0.1,0},{0.333333,0},{0.933333,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticImage" Name="Root/OtherBadgeWnd/BadgeBG/bg/ScoreBG/Num1" >
+                            <Property Name="Image" Value="set:DejaVu image:nine" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.7,0},{0.1,0},{0.866667,0},{0.933333,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/ScrollablePane" Name="Root/OtherBadgeWnd/BadgeBG/bg/pane" >
+                        <Property Name="ContentArea" Value="l:0 t:0 r:504 b:403" />
+                        <Property Name="HorzOverlapSize" Value="0.01" />
+                        <Property Name="HorzScrollPosition" Value="0" />
+                        <Property Name="HorzStepSize" Value="0.1" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.017544,0},{0.097276,0},{0.982456,0},{0.980544,0}}" />
+                        <Property Name="VertOverlapSize" Value="0.01" />
+                        <Property Name="VertScrollPosition" Value="0" />
+                        <Property Name="VertStepSize" Value="0.1" />
+                        <AutoWindow NameSuffix="__auto_container__" >
+                            <Property Name="ChildExtentsArea" Value="l:0 t:0 r:504 b:403" />
+                            <Property Name="ContentArea" Value="l:0 t:0 r:504 b:403" />
+                            <Property Name="MouseInputPropagationEnabled" Value="True" />
+                            <Window Type="DejaVu/StaticImage" Name="Root/OtherBadgeWnd/BadgeBG/bg/pane/Grid" >
+                                <Property Name="HorizontalAlignment" Value="Centre" />
+                                <Property Name="Image" Value="set:main2 image:StrengthBG" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.916364,0},{0.887665,0}}" />
+                                <Property Name="VerticalAlignment" Value="Centre" />
+                                <Window Type="DejaVu/Embed2" Name="Root/OtherBadgeWnd/BadgeBG/bg/pane/Grid/Block1" >
+                                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.198413,0},{0.248139,0}}" />
+                                    <Window Type="DejaVu/StaticImage" Name="Root/OtherBadgeWnd/BadgeBG/bg/pane/Grid/Block1/Icon" >
+                                        <Property Name="Image" Value="set:main2 image:StrengthBG" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.05,0},{0.95,0},{0.95,0}}" />
+                                    </Window>
+                                </Window>
+                                <Window Type="DejaVu/Embed2" Name="Root/OtherBadgeWnd/BadgeBG/bg/pane/Grid/Block6" >
+                                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.25,0},{0.198413,0},{0.498139,0}}" />
+                                    <Window Type="DejaVu/StaticImage" Name="Root/OtherBadgeWnd/BadgeBG/bg/pane/Grid/Block6/Icon" >
+                                        <Property Name="Image" Value="set:main2 image:StrengthBG" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.05,0},{0.95,0},{0.95,0}}" />
+                                    </Window>
+                                </Window>
+                                <Window Type="DejaVu/Embed2" Name="Root/OtherBadgeWnd/BadgeBG/bg/pane/Grid/Block2" >
+                                    <Property Name="UnifiedAreaRect" Value="{{0.2,0},{0,0},{0.398413,0},{0.248139,0}}" />
+                                    <Window Type="DejaVu/StaticImage" Name="Root/OtherBadgeWnd/BadgeBG/bg/pane/Grid/Block2/Icon" >
+                                        <Property Name="Image" Value="set:main2 image:StrengthBG" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.05,0},{0.95,0},{0.95,0}}" />
+                                    </Window>
+                                </Window>
+                                <Window Type="DejaVu/Embed2" Name="Root/OtherBadgeWnd/BadgeBG/bg/pane/Grid/Block7" >
+                                    <Property Name="UnifiedAreaRect" Value="{{0.2,0},{0.25,0},{0.398413,0},{0.498139,0}}" />
+                                    <Window Type="DejaVu/StaticImage" Name="Root/OtherBadgeWnd/BadgeBG/bg/pane/Grid/Block7/Icon" >
+                                        <Property Name="Image" Value="set:main2 image:StrengthBG" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.05,0},{0.95,0},{0.95,0}}" />
+                                    </Window>
+                                </Window>
+                                <Window Type="DejaVu/Embed2" Name="Root/OtherBadgeWnd/BadgeBG/bg/pane/Grid/Blcok3" >
+                                    <Property Name="UnifiedAreaRect" Value="{{0.4,0},{0,0},{0.598413,0},{0.248139,0}}" />
+                                    <Window Type="DejaVu/StaticImage" Name="Root/OtherBadgeWnd/BadgeBG/bg/pane/Grid/Block3/Icon" >
+                                        <Property Name="Image" Value="set:main2 image:StrengthBG" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.05,0},{0.95,0},{0.95,0}}" />
+                                    </Window>
+                                </Window>
+                                <Window Type="DejaVu/Embed2" Name="Root/OtherBadgeWnd/BadgeBG/bg/pane/Grid/Block8" >
+                                    <Property Name="UnifiedAreaRect" Value="{{0.4,0},{0.25,0},{0.598413,0},{0.498139,0}}" />
+                                    <Window Type="DejaVu/StaticImage" Name="Root/OtherBadgeWnd/BadgeBG/bg/pane/Grid/Block8/Icon" >
+                                        <Property Name="Image" Value="set:main2 image:StrengthBG" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.05,0},{0.95,0},{0.95,0}}" />
+                                    </Window>
+                                </Window>
+                                <Window Type="DejaVu/Embed2" Name="Root/OtherBadgeWnd/BadgeBG/bg/pane/Grid/Block4" >
+                                    <Property Name="UnifiedAreaRect" Value="{{0.60119,0},{0,0},{0.799603,0},{0.248139,0}}" />
+                                    <Window Type="DejaVu/StaticImage" Name="Root/OtherBadgeWnd/BadgeBG/bg/pane/Grid/Block4/Icon" >
+                                        <Property Name="Image" Value="set:main2 image:StrengthBG" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.05,0},{0.95,0},{0.95,0}}" />
+                                    </Window>
+                                </Window>
+                                <Window Type="DejaVu/Embed2" Name="Root/OtherBadgeWnd/BadgeBG/bg/pane/Grid/Blcok9" >
+                                    <Property Name="UnifiedAreaRect" Value="{{0.60119,0},{0.25062,0},{0.799603,0},{0.498759,0}}" />
+                                    <Window Type="DejaVu/StaticImage" Name="Root/OtherBadgeWnd/BadgeBG/bg/pane/Grid/Block9/Icon" >
+                                        <Property Name="Image" Value="set:main2 image:StrengthBG" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.05,0},{0.95,0},{0.95,0}}" />
+                                    </Window>
+                                </Window>
+                                <Window Type="DejaVu/Embed2" Name="Root/OtherBadgeWnd/BadgeBG/bg/pane/Grid/Block5" >
+                                    <Property Name="UnifiedAreaRect" Value="{{0.801587,0},{0,0},{1,0},{0.248139,0}}" />
+                                    <Window Type="DejaVu/StaticImage" Name="Root/OtherBadgeWnd/BadgeBG/bg/pane/Grid/Block5/Icon" >
+                                        <Property Name="Image" Value="set:main2 image:StrengthBG" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.05,0},{0.95,0},{0.95,0}}" />
+                                    </Window>
+                                </Window>
+                                <Window Type="DejaVu/Embed2" Name="Root/OtherBadgeWnd/BadgeBG/bg/pane/Grid/Block10" >
+                                    <Property Name="UnifiedAreaRect" Value="{{0.801587,0},{0.25062,0},{1,0},{0.498759,0}}" />
+                                    <Window Type="DejaVu/StaticImage" Name="Root/OtherBadgeWnd/BadgeBG/bg/pane/Grid/Block10/Icon" >
+                                        <Property Name="Image" Value="set:main2 image:StrengthBG" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.05,0},{0.95,0},{0.95,0}}" />
+                                    </Window>
+                                </Window>
+                                <Window Type="DejaVu/Embed2" Name="Root/OtherBadgeWnd/BadgeBG/bg/pane/Grid/Block11" >
+                                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.5,0},{0.0992064,0},{0.748139,0}}" />
+                                    <Window Type="DejaVu/StaticImage" Name="Root/OtherBadgeWnd/BadgeBG/bg/pane/Grid/Block11/Icon" >
+                                        <Property Name="Image" Value="set:main2 image:StrengthBG" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.04,0},{0.04,0},{0.96,0},{0.96,0}}" />
+                                    </Window>
+                                </Window>
+                                <Window Type="DejaVu/Embed2" Name="Root/OtherBadgeWnd/BadgeBG/bg/pane/Grid/Block12" >
+                                    <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.5,0},{0.199206,0},{0.748139,0}}" />
+                                    <Window Type="DejaVu/StaticImage" Name="Root/OtherBadgeWnd/BadgeBG/bg/pane/Grid/Block12/Icon" >
+                                        <Property Name="Image" Value="set:main2 image:StrengthBG" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.04,0},{0.04,0},{0.96,0},{0.96,0}}" />
+                                    </Window>
+                                </Window>
+                                <Window Type="DejaVu/Embed2" Name="Root/OtherBadgeWnd/BadgeBG/bg/pane/Grid/Block13" >
+                                    <Property Name="UnifiedAreaRect" Value="{{0.2,0},{0.5,0},{0.299206,0},{0.748139,0}}" />
+                                    <Window Type="DejaVu/StaticImage" Name="Root/OtherBadgeWnd/BadgeBG/bg/pane/Grid/Block13/Icon" >
+                                        <Property Name="Image" Value="set:main2 image:StrengthBG" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.04,0},{0.04,0},{0.96,0},{0.96,0}}" />
+                                    </Window>
+                                </Window>
+                                <Window Type="DejaVu/Embed2" Name="Root/OtherBadgeWnd/BadgeBG/bg/pane/Grid/Block14" >
+                                    <Property Name="UnifiedAreaRect" Value="{{0.3,0},{0.5,0},{0.399206,0},{0.748139,0}}" />
+                                    <Window Type="DejaVu/StaticImage" Name="Root/OtherBadgeWnd/BadgeBG/bg/pane/Grid/Block14/Icon" >
+                                        <Property Name="Image" Value="set:main2 image:StrengthBG" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.04,0},{0.04,0},{0.96,0},{0.96,0}}" />
+                                    </Window>
+                                </Window>
+                                <Window Type="DejaVu/Embed2" Name="Root/OtherBadgeWnd/BadgeBG/bg/pane/Grid/Block15" >
+                                    <Property Name="UnifiedAreaRect" Value="{{0.4,0},{0.5,0},{0.499206,0},{0.748139,0}}" />
+                                    <Window Type="DejaVu/StaticImage" Name="Root/OtherBadgeWnd/BadgeBG/bg/pane/Grid/Block15/Icon" >
+                                        <Property Name="Image" Value="set:main2 image:StrengthBG" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.04,0},{0.04,0},{0.96,0},{0.96,0}}" />
+                                    </Window>
+                                </Window>
+                                <Window Type="DejaVu/Embed2" Name="Root/OtherBadgeWnd/BadgeBG/bg/pane/Grid/Blcok16" >
+                                    <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0.5,0},{0.599206,0},{0.748139,0}}" />
+                                    <Window Type="DejaVu/StaticImage" Name="Root/OtherBadgeWnd/BadgeBG/bg/pane/Grid/Block16/Icon" >
+                                        <Property Name="Image" Value="set:main2 image:StrengthBG" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.04,0},{0.04,0},{0.96,0},{0.96,0}}" />
+                                    </Window>
+                                </Window>
+                                <Window Type="DejaVu/Embed2" Name="Root/OtherBadgeWnd/BadgeBG/bg/pane/Grid/Block17" >
+                                    <Property Name="UnifiedAreaRect" Value="{{0.60119,0},{0.501241,0},{0.700396,0},{0.74938,0}}" />
+                                    <Window Type="DejaVu/StaticImage" Name="Root/OtherBadgeWnd/BadgeBG/bg/pane/Grid/Block17/Icon" >
+                                        <Property Name="Image" Value="set:main2 image:StrengthBG" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.04,0},{0.04,0},{0.96,0},{0.96,0}}" />
+                                    </Window>
+                                </Window>
+                                <Window Type="DejaVu/Embed2" Name="Root/OtherBadgeWnd/BadgeBG/bg/pane/Grid/Block18" >
+                                    <Property Name="UnifiedAreaRect" Value="{{0.7,0},{0.5,0},{0.799206,0},{0.748139,0}}" />
+                                    <Window Type="DejaVu/StaticImage" Name="Root/OtherBadgeWnd/BadgeBG/bg/pane/Grid/Block18/Icon" >
+                                        <Property Name="Image" Value="set:main2 image:StrengthBG" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.04,0},{0.04,0},{0.96,0},{0.96,0}}" />
+                                    </Window>
+                                </Window>
+                                <Window Type="DejaVu/Embed2" Name="Root/OtherBadgeWnd/BadgeBG/bg/pane/Grid/Block19" >
+                                    <Property Name="UnifiedAreaRect" Value="{{0.801587,0},{0.501241,0},{0.900793,0},{0.74938,0}}" />
+                                    <Window Type="DejaVu/StaticImage" Name="Root/OtherBadgeWnd/BadgeBG/bg/pane/Grid/Block19/Icon" >
+                                        <Property Name="Image" Value="set:main2 image:StrengthBG" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.04,0},{0.04,0},{0.96,0},{0.96,0}}" />
+                                    </Window>
+                                </Window>
+                                <Window Type="DejaVu/Embed2" Name="Root/OtherBadgeWnd/BadgeBG/bg/pane/Grid/Block20" >
+                                    <Property Name="UnifiedAreaRect" Value="{{0.9,0},{0.5,0},{0.999206,0},{0.748139,0}}" />
+                                    <Window Type="DejaVu/StaticImage" Name="Root/OtherBadgeWnd/BadgeBG/bg/pane/Grid/Block20/Icon" >
+                                        <Property Name="Image" Value="set:main2 image:StrengthBG" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.04,0},{0.04,0},{0.96,0},{0.96,0}}" />
+                                    </Window>
+                                </Window>
+                                <Window Type="DejaVu/Embed2" Name="Root/OtherBadgeWnd/BadgeBG/bg/pane/Grid/Block21" >
+                                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.751861,0},{0.0992064,0},{1,0}}" />
+                                    <Window Type="DejaVu/StaticImage" Name="Root/OtherBadgeWnd/BadgeBG/bg/pane/Grid/Block21/Icon" >
+                                        <Property Name="Image" Value="set:main2 image:StrengthBG" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.04,0},{0.04,0},{0.96,0},{0.96,0}}" />
+                                    </Window>
+                                </Window>
+                                <Window Type="DejaVu/Embed2" Name="Root/OtherBadgeWnd/BadgeBG/bg/pane/Grid/Block22" >
+                                    <Property Name="UnifiedAreaRect" Value="{{0.099206,0},{0.751861,0},{0.198412,0},{1,0}}" />
+                                    <Window Type="DejaVu/StaticImage" Name="Root/OtherBadgeWnd/BadgeBG/bg/pane/Grid/Block22/Icon" >
+                                        <Property Name="Image" Value="set:main2 image:StrengthBG" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.04,0},{0.04,0},{0.96,0},{0.96,0}}" />
+                                    </Window>
+                                </Window>
+                                <Window Type="DejaVu/Embed2" Name="Root/OtherBadgeWnd/BadgeBG/bg/pane/Grid/Block23" >
+                                    <Property Name="UnifiedAreaRect" Value="{{0.200397,0},{0.751861,0},{0.299603,0},{1,0}}" />
+                                    <Window Type="DejaVu/StaticImage" Name="Root/OtherBadgeWnd/BadgeBG/bg/pane/Grid/Block23/Icon" >
+                                        <Property Name="Image" Value="set:main2 image:StrengthBG" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.04,0},{0.04,0},{0.96,0},{0.96,0}}" />
+                                    </Window>
+                                </Window>
+                                <Window Type="DejaVu/Embed2" Name="Root/OtherBadgeWnd/BadgeBG/bg/pane/Grid/Block24" >
+                                    <Property Name="UnifiedAreaRect" Value="{{0.299603,0},{0.751861,0},{0.398809,0},{1,0}}" />
+                                    <Window Type="DejaVu/StaticImage" Name="Root/OtherBadgeWnd/BadgeBG/bg/pane/Grid/Block24/Icon" >
+                                        <Property Name="Image" Value="set:main2 image:StrengthBG" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.04,0},{0.04,0},{0.96,0},{0.96,0}}" />
+                                    </Window>
+                                </Window>
+                                <Window Type="DejaVu/Embed2" Name="Root/OtherBadgeWnd/BadgeBG/bg/pane/Grid/Block25" >
+                                    <Property Name="UnifiedAreaRect" Value="{{0.400794,0},{0.751861,0},{0.5,0},{1,0}}" />
+                                    <Window Type="DejaVu/StaticImage" Name="Root/OtherBadgeWnd/BadgeBG/bg/pane/Grid/Block25/Icon" >
+                                        <Property Name="Image" Value="set:main2 image:StrengthBG" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.04,0},{0.04,0},{0.96,0},{0.96,0}}" />
+                                    </Window>
+                                </Window>
+                                <Window Type="DejaVu/Embed2" Name="Root/OtherBadgeWnd/BadgeBG/bg/pane/Grid/Block26" >
+                                    <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0.751861,0},{0.599206,0},{1,0}}" />
+                                    <Window Type="DejaVu/StaticImage" Name="Root/OtherBadgeWnd/BadgeBG/bg/pane/Grid/Block26/Icon" >
+                                        <Property Name="Image" Value="set:main2 image:StrengthBG" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.04,0},{0.04,0},{0.96,0},{0.96,0}}" />
+                                    </Window>
+                                </Window>
+                                <Window Type="DejaVu/Embed2" Name="Root/OtherBadgeWnd/BadgeBG/bg/pane/Grid/Block27" >
+                                    <Property Name="UnifiedAreaRect" Value="{{0.60119,0},{0.751861,0},{0.700396,0},{1,0}}" />
+                                    <Window Type="DejaVu/StaticImage" Name="Root/OtherBadgeWnd/BadgeBG/bg/pane/Grid/Block27/Icon" >
+                                        <Property Name="Image" Value="set:main2 image:StrengthBG" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.04,0},{0.04,0},{0.96,0},{0.96,0}}" />
+                                    </Window>
+                                </Window>
+                                <Window Type="DejaVu/Embed2" Name="Root/OtherBadgeWnd/BadgeBG/bg/pane/Grid/Block28" >
+                                    <Property Name="UnifiedAreaRect" Value="{{0.700397,0},{0.751861,0},{0.799603,0},{1,0}}" />
+                                    <Window Type="DejaVu/StaticImage" Name="Root/OtherBadgeWnd/BadgeBG/bg/pane/Grid/Block28/Icon" >
+                                        <Property Name="Image" Value="set:main2 image:StrengthBG" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.04,0},{0.04,0},{0.96,0},{0.96,0}}" />
+                                    </Window>
+                                </Window>
+                                <Window Type="DejaVu/Embed2" Name="Root/OtherBadgeWnd/BadgeBG/bg/pane/Grid/Block29" >
+                                    <Property Name="UnifiedAreaRect" Value="{{0.801587,0},{0.751861,0},{0.900793,0},{1,0}}" />
+                                    <Window Type="DejaVu/StaticImage" Name="Root/OtherBadgeWnd/BadgeBG/bg/pane/Grid/Block29/Icon" >
+                                        <Property Name="Image" Value="set:main2 image:StrengthBG" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.04,0},{0.04,0},{0.96,0},{0.96,0}}" />
+                                    </Window>
+                                </Window>
+                                <Window Type="DejaVu/Embed2" Name="Root/OtherBadgeWnd/BadgeBG/bg/pane/Grid/Block30" >
+                                    <Property Name="UnifiedAreaRect" Value="{{0.900794,0},{0.751861,0},{1,0},{1,0}}" />
+                                    <Window Type="DejaVu/StaticImage" Name="Root/OtherBadgeWnd/BadgeBG/bg/pane/Grid/Block30/Icon" >
+                                        <Property Name="Image" Value="set:main2 image:StrengthBG" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.04,0},{0.04,0},{0.96,0},{0.96,0}}" />
+                                    </Window>
+                                </Window>
+                            </Window>
+                        </AutoWindow>
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab7" Name="Root/OtherBadgeWnd/BadgeBG/bg/Scoretext" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="x徽章積分" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.561404,0},{0.0389105,0},{0.719298,0},{0.0972763,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed4" Name="Root/OtherBadgeWnd/BadgeBG/Title" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.017544,0},{0,0},{0.280702,0},{0.0477099,0}}" />
+                    <Window Type="DejaVu/StaticImage" Name="Root/OtherBadgeWnd/BadgeBG/Title/Icon" >
+                        <Property Name="Image" Value="set:DejaVu image:Image08" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/OtherBadgeWnd/BadgeBG/Title/text" >
+                        <Property Name="Text" Value="x冒險者徽章" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.2,0},{0.866667,0},{0.8,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

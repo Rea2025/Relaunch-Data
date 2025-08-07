@@ -1,0 +1,643 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="NewMailListWnd" >
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,555},{-0.0199667,613}}" />
+        <Window Type="DejaVu/Button" Name="NewMailListWnd/NormalMailBtn" >
+            <Property Name="Text" Value="x一般郵件" />
+            <Property Name="UnifiedAreaRect" Value="{{0.018018,0},{0.0163132,0},{0.154955,0},{0.0587276,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="NewMailListWnd/AccountMailBtn" >
+            <Property Name="Text" Value="x帳號郵件" />
+            <Property Name="UnifiedAreaRect" Value="{{0.163964,0},{0.0163132,0},{0.300901,0},{0.0587276,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="NewMailListWnd/PaymentMailBtn" >
+            <Property Name="Text" Value="x付款取件" />
+            <Property Name="UnifiedAreaRect" Value="{{0.310451,0},{0.0163132,0},{0.447388,0},{0.0587276,0}}" />
+        </Window>
+        <Window Type="DejaVu/Embed2" Name="NewMailListWnd/ListArea" >
+            <Property Name="UnifiedAreaRect" Value="{{0.018018,0},{0.066884,0},{0.981982,0},{0.932109,0}}" />
+            <Window Type="DejaVu/EmbedText7" Name="NewMailListWnd/ListArea/SelectText" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="x選取" />
+                <Property Name="UnifiedAreaRect" Value="{{0.00373832,0},{0.00576923,0},{0.100935,0},{0.0538462,0}}" />
+            </Window>
+            <Window Type="DejaVu/EmbedTextLab7" Name="NewMailListWnd/ListArea/TypeText" >
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="x類型" />
+                <Property Name="UnifiedAreaRect" Value="{{0.100935,0},{0.006231,0},{0.198131,0},{0.0543079,0}}" />
+            </Window>
+            <Window Type="DejaVu/EmbedText7" Name="NewMailListWnd/ListArea/SenderText" >
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="x寄件者" />
+                <Property Name="UnifiedAreaRect" Value="{{0.198131,0},{0.006231,0},{0.459813,0},{0.0543079,0}}" />
+            </Window>
+            <Window Type="DejaVu/EmbedTextLab7" Name="NewMailListWnd/ListArea/MailTitle" >
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="x信件主旨" />
+                <Property Name="UnifiedAreaRect" Value="{{0.457944,0},{0.006231,0},{0.872897,0},{0.0543079,0}}" />
+            </Window>
+            <Window Type="DejaVu/EmbedTextLab7" Name="NewMailListWnd/ListArea/RemainText" >
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="x剩餘" />
+                <Property Name="UnifiedAreaRect" Value="{{0.872897,0},{0.006231,0},{0.998131,0},{0.0543079,0}}" />
+            </Window>
+            <Window Type="DejaVu/Embed5" Name="NewMailListWnd/ListArea/MailList" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.00373832,0},{0.0557692,0},{0.996262,0},{0.865385,0}}" />
+                <Window Type="DejaVu/Embed2" Name="NewMailListWnd/ListArea/MailList/Mail0" >
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1.00753,0},{0.1,0}}" />
+                    <Window Type="DejaVu/Embed3" Name="NewMailListWnd/ListArea/MailList/Mail0/Select" >
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.0971963,0},{1,0}}" />
+                        <Window Type="DejaVu/Checkbox" Name="NewMailListWnd/ListArea/MailList/Mail0/Select/CheckBox" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.384615,0},{0.285714,0},{0.807692,0},{0.809524,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Embed3" Name="NewMailListWnd/ListArea/MailList/Mail0/Type" >
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0971963,0},{0,0},{0.194393,0},{1,0}}" />
+                        <Window Type="DejaVu/SlotImage" Name="NewMailListWnd/ListArea/MailList/Mail0/Type/Item" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.153846,0},{0.119048,0},{0.807692,0},{0.928571,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Embed3" Name="NewMailListWnd/ListArea/MailList/Mail0/Sender" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.194393,0},{0,0},{0.456075,0},{1,0}}" />
+                        <Window Type="DejaVu/StaticTextLab" Name="NewMailListWnd/ListArea/MailList/Mail0/Sender/Text" >
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="MousePassThroughEnabled" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0714286,0},{0.192308,0},{0.928571,0},{0.769231,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Embed3" Name="NewMailListWnd/ListArea/MailList/Mail0/Title" >
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.456075,0},{0,0},{0.869159,0},{1,0}}" />
+                        <Window Type="DejaVu/StaticTextLab" Name="NewMailListWnd/ListArea/MailList/Mail0/Title/Text" >
+                            <Property Name="MousePassThroughEnabled" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0497738,0},{0.192308,0},{0.950226,0},{0.769231,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticImage" Name="NewMailListWnd/ListArea/MailList/Mail0/Title/Img" >
+                            <Property Name="Image" Value="set:main image:Badge" />
+                            <Property Name="MousePassThroughEnabled" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0226244,0},{0.0952381,0},{0.176471,0},{0.904762,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Embed3" Name="NewMailListWnd/ListArea/MailList/Mail0/Remain" >
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.869159,0},{0,0},{0.99157,0},{1,0}}" />
+                        <Window Type="DejaVu/StaticTextLab" Name="NewMailListWnd/ListArea/MailList/Mail0/Remain/Text" >
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="MousePassThroughEnabled" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0769231,0},{0.192308,0},{0.938462,0},{0.769231,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="NewMailListWnd/ListArea/MailList/Mail0/Brush" >
+                        <Property Name="Image" Value="set:DejaVu image:Zframe2Center" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.097928,0},{0,0},{1,0},{1,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed2" Name="NewMailListWnd/ListArea/MailList/Mail1" >
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.1,0},{1.00753,0},{0.2,0}}" />
+                    <Window Type="DejaVu/Embed3" Name="NewMailListWnd/ListArea/MailList/Mail1/Select" >
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.0971963,0},{1,0}}" />
+                        <Window Type="DejaVu/Checkbox" Name="NewMailListWnd/ListArea/MailList/Mail1/Select/CheckBox" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.384615,0},{0.285714,0},{0.807692,0},{0.809524,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Embed3" Name="NewMailListWnd/ListArea/MailList/Mail1/Type" >
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0971963,0},{0,0},{0.194393,0},{1,0}}" />
+                        <Window Type="DejaVu/SlotImage" Name="NewMailListWnd/ListArea/MailList/Mail1/Type/Item" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.153846,0},{0.119048,0},{0.807692,0},{0.928572,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Embed3" Name="NewMailListWnd/ListArea/MailList/Mail1/Sender" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.194393,0},{0,0},{0.456075,0},{1,0}}" />
+                        <Window Type="DejaVu/StaticTextLab" Name="NewMailListWnd/ListArea/MailList/Mail1/Sender/Text" >
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="MousePassThroughEnabled" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.071429,0},{0.192308,0},{0.928572,0},{0.769231,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Embed3" Name="NewMailListWnd/ListArea/MailList/Mail1/Title" >
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.456075,0},{0,0},{0.869159,0},{1,0}}" />
+                        <Window Type="DejaVu/StaticTextLab" Name="NewMailListWnd/ListArea/MailList/Mail1/Title/Text" >
+                            <Property Name="MousePassThroughEnabled" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.049774,0},{0.192308,0},{0.950226,0},{0.769231,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticImage" Name="NewMailListWnd/ListArea/MailList/Mail1/Title/Img" >
+                            <Property Name="Image" Value="set:main image:Badge" />
+                            <Property Name="MousePassThroughEnabled" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0226244,0},{0.0952381,0},{0.176471,0},{0.904762,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Embed3" Name="NewMailListWnd/ListArea/MailList/Mail1/Remain" >
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.869159,0},{0,0},{0.99157,0},{1,0}}" />
+                        <Window Type="DejaVu/StaticTextLab" Name="NewMailListWnd/ListArea/MailList/Mail1/Remain/Text" >
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="MousePassThroughEnabled" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.076923,0},{0.192308,0},{0.938461,0},{0.769231,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="NewMailListWnd/ListArea/MailList/Mail1/Brush" >
+                        <Property Name="Image" Value="set:DejaVu image:Zframe2Center" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.097928,0},{0,0},{1,0},{1,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed2" Name="NewMailListWnd/ListArea/MailList/Mail2" >
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.2,0},{1.00753,0},{0.3,0}}" />
+                    <Window Type="DejaVu/Embed3" Name="NewMailListWnd/ListArea/MailList/Mail2/Select" >
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.0971963,0},{1,0}}" />
+                        <Window Type="DejaVu/Checkbox" Name="NewMailListWnd/ListArea/MailList/Mail2/Select/CheckBox" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.384615,0},{0.285714,0},{0.807692,0},{0.809524,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Embed3" Name="NewMailListWnd/ListArea/MailList/Mail2/Type" >
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0971963,0},{0,0},{0.194393,0},{1,0}}" />
+                        <Window Type="DejaVu/SlotImage" Name="NewMailListWnd/ListArea/MailList/Mail2/Type/Item" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.153846,0},{0.119048,0},{0.807692,0},{0.928572,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Embed3" Name="NewMailListWnd/ListArea/MailList/Mail2/Sender" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.194393,0},{0,0},{0.456075,0},{1,0}}" />
+                        <Window Type="DejaVu/StaticTextLab" Name="NewMailListWnd/ListArea/MailList/Mail2/Sender/Text" >
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="MousePassThroughEnabled" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.071429,0},{0.192308,0},{0.928572,0},{0.769231,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Embed3" Name="NewMailListWnd/ListArea/MailList/Mail2/Title" >
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.456075,0},{0,0},{0.869159,0},{1,0}}" />
+                        <Window Type="DejaVu/StaticTextLab" Name="NewMailListWnd/ListArea/MailList/Mail2/Title/Text" >
+                            <Property Name="MousePassThroughEnabled" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.049774,0},{0.192308,0},{0.950226,0},{0.769231,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticImage" Name="NewMailListWnd/ListArea/MailList/Mail2/Title/Img" >
+                            <Property Name="Image" Value="set:main image:Badge" />
+                            <Property Name="MousePassThroughEnabled" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.022624,0},{0.096154,0},{0.17647,0},{0.905678,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Embed3" Name="NewMailListWnd/ListArea/MailList/Mail2/Remain" >
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.869159,0},{0,0},{0.99157,0},{1,0}}" />
+                        <Window Type="DejaVu/StaticTextLab" Name="NewMailListWnd/ListArea/MailList/Mail2/Remain/Text" >
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="MousePassThroughEnabled" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.076923,0},{0.192308,0},{0.938461,0},{0.769231,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="NewMailListWnd/ListArea/MailList/Mail2/Brush" >
+                        <Property Name="Image" Value="set:DejaVu image:Zframe2Center" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.097928,0},{0,0},{1,0},{1,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed2" Name="NewMailListWnd/ListArea/MailList/Mail3" >
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.3,0},{1.00753,0},{0.4,0}}" />
+                    <Window Type="DejaVu/Embed3" Name="NewMailListWnd/ListArea/MailList/Mail3/Select" >
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.0971963,0},{1,0}}" />
+                        <Window Type="DejaVu/Checkbox" Name="NewMailListWnd/ListArea/MailList/Mail3/Select/CheckBox" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.384615,0},{0.285714,0},{0.807692,0},{0.809524,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Embed3" Name="NewMailListWnd/ListArea/MailList/Mail3/Type" >
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0971963,0},{0,0},{0.194393,0},{1,0}}" />
+                        <Window Type="DejaVu/SlotImage" Name="NewMailListWnd/ListArea/MailList/Mail3/Type/Item" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.153846,0},{0.119048,0},{0.807692,0},{0.928572,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Embed3" Name="NewMailListWnd/ListArea/MailList/Mail3/Sender" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.194393,0},{0,0},{0.456075,0},{1,0}}" />
+                        <Window Type="DejaVu/StaticTextLab" Name="NewMailListWnd/ListArea/MailList/Mail3/Sender/Text" >
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="MousePassThroughEnabled" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.071429,0},{0.192308,0},{0.928572,0},{0.769231,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Embed3" Name="NewMailListWnd/ListArea/MailList/Mail3/Title" >
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.456075,0},{0,0},{0.869159,0},{1,0}}" />
+                        <Window Type="DejaVu/StaticTextLab" Name="NewMailListWnd/ListArea/MailList/Mail3/Title/Text" >
+                            <Property Name="MousePassThroughEnabled" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.049774,0},{0.192308,0},{0.950226,0},{0.769231,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticImage" Name="NewMailListWnd/ListArea/MailList/Mail3/Title/Img" >
+                            <Property Name="Image" Value="set:main image:Badge" />
+                            <Property Name="MousePassThroughEnabled" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.022624,0},{0.096154,0},{0.17647,0},{0.905678,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Embed3" Name="NewMailListWnd/ListArea/MailList/Mail3/Remain" >
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.869159,0},{0,0},{0.99157,0},{1,0}}" />
+                        <Window Type="DejaVu/StaticTextLab" Name="NewMailListWnd/ListArea/MailList/Mail3/Remain/Text" >
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="MousePassThroughEnabled" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.076923,0},{0.192308,0},{0.938461,0},{0.769231,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="NewMailListWnd/ListArea/MailList/Mail3/Brush" >
+                        <Property Name="Image" Value="set:DejaVu image:Zframe2Center" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.097928,0},{0,0},{1,0},{1,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed2" Name="NewMailListWnd/ListArea/MailList/Mail4" >
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.4,0},{1.00753,0},{0.5,0}}" />
+                    <Window Type="DejaVu/Embed3" Name="NewMailListWnd/ListArea/MailList/Mail4/Select" >
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.0971963,0},{1,0}}" />
+                        <Window Type="DejaVu/Checkbox" Name="NewMailListWnd/ListArea/MailList/Mail4/Select/CheckBox" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.384615,0},{0.285714,0},{0.807692,0},{0.809524,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Embed3" Name="NewMailListWnd/ListArea/MailList/Mail4/Type" >
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0971963,0},{0,0},{0.194393,0},{1,0}}" />
+                        <Window Type="DejaVu/SlotImage" Name="NewMailListWnd/ListArea/MailList/Mail4/Type/Item" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.153846,0},{0.119048,0},{0.807692,0},{0.928572,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Embed3" Name="NewMailListWnd/ListArea/MailList/Mail4/Sender" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.194393,0},{0,0},{0.456075,0},{1,0}}" />
+                        <Window Type="DejaVu/StaticTextLab" Name="NewMailListWnd/ListArea/MailList/Mail4/Sender/Text" >
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="MousePassThroughEnabled" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.071429,0},{0.2,0},{0.928572,0},{0.8,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Embed3" Name="NewMailListWnd/ListArea/MailList/Mail4/Title" >
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.456075,0},{0,0},{0.869159,0},{1,0}}" />
+                        <Window Type="DejaVu/StaticTextLab" Name="NewMailListWnd/ListArea/MailList/Mail4/Title/Text" >
+                            <Property Name="MousePassThroughEnabled" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.049774,0},{0.2,0},{0.950226,0},{0.8,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticImage" Name="NewMailListWnd/ListArea/MailList/Mail4/Title/Img" >
+                            <Property Name="Image" Value="set:main image:Badge" />
+                            <Property Name="MousePassThroughEnabled" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.022624,0},{0.096154,0},{0.17647,0},{0.905678,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Embed3" Name="NewMailListWnd/ListArea/MailList/Mail4/Remain" >
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.869159,0},{0,0},{0.99157,0},{1,0}}" />
+                        <Window Type="DejaVu/StaticTextLab" Name="NewMailListWnd/ListArea/MailList/Mail4/Remain/Text" >
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="MousePassThroughEnabled" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.076923,0},{0.2,0},{0.938461,0},{0.8,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="NewMailListWnd/ListArea/MailList/Mail4/Brush" >
+                        <Property Name="Image" Value="set:DejaVu image:Zframe2Center" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.097928,0},{0,0},{1,0},{1,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed2" Name="NewMailListWnd/ListArea/MailList/Mail5" >
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.5,0},{1.00753,0},{0.6,0}}" />
+                    <Window Type="DejaVu/Embed3" Name="NewMailListWnd/ListArea/MailList/Mail5/Select" >
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.0971963,0},{1,0}}" />
+                        <Window Type="DejaVu/Checkbox" Name="NewMailListWnd/ListArea/MailList/Mail5/Select/CheckBox" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.384615,0},{0.285714,0},{0.807692,0},{0.809524,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Embed3" Name="NewMailListWnd/ListArea/MailList/Mail5/Type" >
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0971963,0},{0,0},{0.194393,0},{1,0}}" />
+                        <Window Type="DejaVu/SlotImage" Name="NewMailListWnd/ListArea/MailList/Mail5/Type/Item" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.153846,0},{0.119048,0},{0.807692,0},{0.928572,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Embed3" Name="NewMailListWnd/ListArea/MailList/Mail5/Sender" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.194393,0},{0,0},{0.456075,0},{1,0}}" />
+                        <Window Type="DejaVu/StaticTextLab" Name="NewMailListWnd/ListArea/MailList/Mail5/Sender/Text" >
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="MousePassThroughEnabled" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.071429,0},{0.192308,0},{0.928572,0},{0.769231,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Embed3" Name="NewMailListWnd/ListArea/MailList/Mail5/Title" >
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.456075,0},{0,0},{0.869159,0},{1,0}}" />
+                        <Window Type="DejaVu/StaticTextLab" Name="NewMailListWnd/ListArea/MailList/Mail5/Title/Text" >
+                            <Property Name="MousePassThroughEnabled" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.049774,0},{0.192308,0},{0.950226,0},{0.769231,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticImage" Name="NewMailListWnd/ListArea/MailList/Mail5/Title/Img" >
+                            <Property Name="Image" Value="set:main image:Badge" />
+                            <Property Name="MousePassThroughEnabled" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.022624,0},{0.096154,0},{0.17647,0},{0.905678,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Embed3" Name="NewMailListWnd/ListArea/MailList/Mail5/Remain" >
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.869159,0},{0,0},{0.99157,0},{1,0}}" />
+                        <Window Type="DejaVu/StaticTextLab" Name="NewMailListWnd/ListArea/MailList/Mail5/Remain/Text" >
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="MousePassThroughEnabled" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.076923,0},{0.192308,0},{0.938461,0},{0.769231,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="NewMailListWnd/ListArea/MailList/Mail5/Brush" >
+                        <Property Name="Image" Value="set:DejaVu image:Zframe2Center" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.097928,0},{0,0},{1,0},{1,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed2" Name="NewMailListWnd/ListArea/MailList/Mail6" >
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.6,0},{1.00753,0},{0.7,0}}" />
+                    <Window Type="DejaVu/Embed3" Name="NewMailListWnd/ListArea/MailList/Mail6/Select" >
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.0971963,0},{1,0}}" />
+                        <Window Type="DejaVu/Checkbox" Name="NewMailListWnd/ListArea/MailList/Mail6/Select/CheckBox" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.384615,0},{0.285714,0},{0.807692,0},{0.809524,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Embed3" Name="NewMailListWnd/ListArea/MailList/Mail6/Type" >
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0971963,0},{0,0},{0.194393,0},{1,0}}" />
+                        <Window Type="DejaVu/SlotImage" Name="NewMailListWnd/ListArea/MailList/Mail6/Type/Item" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.153846,0},{0.119048,0},{0.807692,0},{0.928572,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Embed3" Name="NewMailListWnd/ListArea/MailList/Mail6/Sender" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.194393,0},{0,0},{0.456075,0},{1,0}}" />
+                        <Window Type="DejaVu/StaticTextLab" Name="NewMailListWnd/ListArea/MailList/Mail6/Sender/Text" >
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="MousePassThroughEnabled" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.071429,0},{0.192308,0},{0.928572,0},{0.769231,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Embed3" Name="NewMailListWnd/ListArea/MailList/Mail6/Title" >
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.456075,0},{0,0},{0.869159,0},{1,0}}" />
+                        <Window Type="DejaVu/StaticTextLab" Name="NewMailListWnd/ListArea/MailList/Mail6/Title/Text" >
+                            <Property Name="MousePassThroughEnabled" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.049774,0},{0.192308,0},{0.950226,0},{0.769231,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticImage" Name="NewMailListWnd/ListArea/MailList/Mail6/Title/Img" >
+                            <Property Name="Image" Value="set:main image:Badge" />
+                            <Property Name="MousePassThroughEnabled" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.022624,0},{0.096154,0},{0.17647,0},{0.905678,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Embed3" Name="NewMailListWnd/ListArea/MailList/Mail6/Remain" >
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.869159,0},{0,0},{0.99157,0},{1,0}}" />
+                        <Window Type="DejaVu/StaticTextLab" Name="NewMailListWnd/ListArea/MailList/Mail6/Remain/Text" >
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="MousePassThroughEnabled" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.076923,0},{0.192308,0},{0.938461,0},{0.769231,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="NewMailListWnd/ListArea/MailList/Mail6/Brush" >
+                        <Property Name="Image" Value="set:DejaVu image:Zframe2Center" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.097928,0},{0,0},{1,0},{1,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed2" Name="NewMailListWnd/ListArea/MailList/Mail7" >
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.7,0},{1.00753,0},{0.8,0}}" />
+                    <Window Type="DejaVu/Embed3" Name="NewMailListWnd/ListArea/MailList/Mail7/Select" >
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.0971963,0},{1,0}}" />
+                        <Window Type="DejaVu/Checkbox" Name="NewMailListWnd/ListArea/MailList/Mail7/Select/CheckBox" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.384615,0},{0.285714,0},{0.807692,0},{0.809524,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Embed3" Name="NewMailListWnd/ListArea/MailList/Mail7/Type" >
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0971963,0},{0,0},{0.194393,0},{1,0}}" />
+                        <Window Type="DejaVu/SlotImage" Name="NewMailListWnd/ListArea/MailList/Mail7/Type/Item" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.153846,0},{0.119048,0},{0.807692,0},{0.928572,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Embed3" Name="NewMailListWnd/ListArea/MailList/Mail7/Sender" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.194393,0},{0,0},{0.456075,0},{1,0}}" />
+                        <Window Type="DejaVu/StaticTextLab" Name="NewMailListWnd/ListArea/MailList/Mail7/Sender/Text" >
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="MousePassThroughEnabled" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.071429,0},{0.192308,0},{0.928572,0},{0.769231,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Embed3" Name="NewMailListWnd/ListArea/MailList/Mail7/Title" >
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.456075,0},{0,0},{0.869159,0},{1,0}}" />
+                        <Window Type="DejaVu/StaticTextLab" Name="NewMailListWnd/ListArea/MailList/Mail7/Title/Text" >
+                            <Property Name="MousePassThroughEnabled" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.049774,0},{0.192308,0},{0.950226,0},{0.769231,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticImage" Name="NewMailListWnd/ListArea/MailList/Mail7/Title/Img" >
+                            <Property Name="Image" Value="set:main image:Badge" />
+                            <Property Name="MousePassThroughEnabled" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.022624,0},{0.096154,0},{0.17647,0},{0.905678,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Embed3" Name="NewMailListWnd/ListArea/MailList/Mail7/Remain" >
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.869159,0},{0,0},{0.99157,0},{1,0}}" />
+                        <Window Type="DejaVu/StaticTextLab" Name="NewMailListWnd/ListArea/MailList/Mail7/Remain/Text" >
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="MousePassThroughEnabled" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.076923,0},{0.192308,0},{0.938461,0},{0.769231,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="NewMailListWnd/ListArea/MailList/Mail7/Brush" >
+                        <Property Name="Image" Value="set:DejaVu image:Zframe2Center" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.097928,0},{0,0},{1,0},{1,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed2" Name="NewMailListWnd/ListArea/MailList/Mail8" >
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.8,0},{1.00753,0},{0.9,0}}" />
+                    <Window Type="DejaVu/Embed3" Name="NewMailListWnd/ListArea/MailList/Mail8/Select" >
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.0971963,0},{1,0}}" />
+                        <Window Type="DejaVu/Checkbox" Name="NewMailListWnd/ListArea/MailList/Mail8/Select/CheckBox" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.384615,0},{0.285714,0},{0.807692,0},{0.809524,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Embed3" Name="NewMailListWnd/ListArea/MailList/Mail8/Type" >
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0971963,0},{0,0},{0.194393,0},{1,0}}" />
+                        <Window Type="DejaVu/SlotImage" Name="NewMailListWnd/ListArea/MailList/Mail8/Type/Item" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.153846,0},{0.119048,0},{0.807692,0},{0.928572,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Embed3" Name="NewMailListWnd/ListArea/MailList/Mail8/Sender" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.194393,0},{0,0},{0.456075,0},{1,0}}" />
+                        <Window Type="DejaVu/StaticTextLab" Name="NewMailListWnd/ListArea/MailList/Mail8/Sender/Text" >
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="MousePassThroughEnabled" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.071429,0},{0.192308,0},{0.928572,0},{0.769231,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Embed3" Name="NewMailListWnd/ListArea/MailList/Mail8/Title" >
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.456075,0},{0,0},{0.869159,0},{1,0}}" />
+                        <Window Type="DejaVu/StaticTextLab" Name="NewMailListWnd/ListArea/MailList/Mail8/Title/Text" >
+                            <Property Name="MousePassThroughEnabled" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.049774,0},{0.192308,0},{0.950226,0},{0.769231,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticImage" Name="NewMailListWnd/ListArea/MailList/Mail8/Title/Img" >
+                            <Property Name="Image" Value="set:main image:Badge" />
+                            <Property Name="MousePassThroughEnabled" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.022624,0},{0.096154,0},{0.17647,0},{0.905678,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Embed3" Name="NewMailListWnd/ListArea/MailList/Mail8/Remain" >
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.869159,0},{0,0},{0.99157,0},{1,0}}" />
+                        <Window Type="DejaVu/StaticTextLab" Name="NewMailListWnd/ListArea/MailList/Mail8/Remain/Text" >
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="MousePassThroughEnabled" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.076923,0},{0.192308,0},{0.938461,0},{0.769231,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="NewMailListWnd/ListArea/MailList/Mail8/Brush" >
+                        <Property Name="Image" Value="set:DejaVu image:Zframe2Center" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.097928,0},{0,0},{1,0},{1,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed2" Name="NewMailListWnd/ListArea/MailList/Mail9" >
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.9,0},{1.00753,0},{1,0}}" />
+                    <Window Type="DejaVu/Embed3" Name="NewMailListWnd/ListArea/MailList/Mail9/Select" >
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.0971963,0},{1,0}}" />
+                        <Window Type="DejaVu/Checkbox" Name="NewMailListWnd/ListArea/MailList/Mail9/Select/CheckBox" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.384615,0},{0.285714,0},{0.807692,0},{0.809524,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Embed3" Name="NewMailListWnd/ListArea/MailList/Mail9/Type" >
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0971963,0},{0,0},{0.194393,0},{1,0}}" />
+                        <Window Type="DejaVu/SlotImage" Name="NewMailListWnd/ListArea/MailList/Mail9/Type/Item" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.153846,0},{0.119048,0},{0.807692,0},{0.928572,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Embed3" Name="NewMailListWnd/ListArea/MailList/Mail9/Sender" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.194393,0},{0,0},{0.456075,0},{1,0}}" />
+                        <Window Type="DejaVu/StaticTextLab" Name="NewMailListWnd/ListArea/MailList/Mail9/Sender/Text" >
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="MousePassThroughEnabled" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.071429,0},{0.192308,0},{0.928572,0},{0.769231,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Embed3" Name="NewMailListWnd/ListArea/MailList/Mail9/Title" >
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.456075,0},{0,0},{0.869159,0},{1,0}}" />
+                        <Window Type="DejaVu/StaticTextLab" Name="NewMailListWnd/ListArea/MailList/Mail9/Title/Text" >
+                            <Property Name="MousePassThroughEnabled" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.049774,0},{0.192308,0},{0.950226,0},{0.769231,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticImage" Name="NewMailListWnd/ListArea/MailList/Mail9/Title/Img" >
+                            <Property Name="Image" Value="set:main image:Badge" />
+                            <Property Name="MousePassThroughEnabled" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.022624,0},{0.096154,0},{0.17647,0},{0.905678,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Embed3" Name="NewMailListWnd/ListArea/MailList/Mail9/Remain" >
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.869159,0},{0,0},{0.99157,0},{1,0}}" />
+                        <Window Type="DejaVu/StaticTextLab" Name="NewMailListWnd/ListArea/MailList/Mail9/Remain/Text" >
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="MousePassThroughEnabled" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.076923,0},{0.192308,0},{0.938461,0},{0.769231,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="NewMailListWnd/ListArea/MailList/Mail9/Brush" >
+                        <Property Name="Image" Value="set:DejaVu image:Zframe2Center" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.097928,0},{0,0},{1,0},{1,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="NewMailListWnd/ListArea/BeginBtn" >
+                <Property Name="DisabledImage" Value="set:DejaVu image:DoubledLeftArrowPressed" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HoverImage" Value="set:DejaVu image:DoubledLeftArrowHover" />
+                <Property Name="NormalImage" Value="set:DejaVu image:DoubledLeftArrowNormal" />
+                <Property Name="PushedImage" Value="set:DejaVu image:DoubledLeftArrowPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0.31215,0},{0.924125,0},{0.358878,0},{0.972763,0}}" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="NewMailListWnd/ListArea/PrevBtn" >
+                <Property Name="DisabledImage" Value="set:DejaVu image:ArrowLeftPressed" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HoverImage" Value="set:DejaVu image:ArrowLeftHover" />
+                <Property Name="NormalImage" Value="set:DejaVu image:ArrowLeftNormal" />
+                <Property Name="PushedImage" Value="set:DejaVu image:ArrowLeftPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0.358878,0},{0.924125,0},{0.405607,0},{0.972763,0}}" />
+            </Window>
+            <Window Type="DejaVu/EmbedText5" Name="NewMailListWnd/ListArea/ListPage" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="99 / 99" />
+                <Property Name="UnifiedAreaRect" Value="{{0.424299,0},{0.924125,0},{0.55514,0},{0.972763,0}}" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="NewMailListWnd/ListArea/NextBtn" >
+                <Property Name="DisabledImage" Value="set:DejaVu image:ArrowRightPressed" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HoverImage" Value="set:DejaVu image:ArrowRightHover" />
+                <Property Name="NormalImage" Value="set:DejaVu image:ArrowRightNormal" />
+                <Property Name="PushedImage" Value="set:DejaVu image:ArrowRightPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0.573832,0},{0.924125,0},{0.620561,0},{0.972763,0}}" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="NewMailListWnd/ListArea/EndBtn" >
+                <Property Name="DisabledImage" Value="set:DejaVu image:DoubledRightArrowPressed" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HoverImage" Value="set:DejaVu image:DoubledRightArrowHover" />
+                <Property Name="NormalImage" Value="set:DejaVu image:DoubledRightArrowNormal" />
+                <Property Name="PushedImage" Value="set:DejaVu image:DoubledRightArrowPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0.620561,0},{0.924125,0},{0.66729,0},{0.972763,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Button" Name="NewMailListWnd/ReplyMailBtn" >
+            <Property Name="Text" Value="x回覆信件" />
+            <Property Name="UnifiedAreaRect" Value="{{0.407207,0},{0.941272,0},{0.544144,0},{0.983687,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="NewMailListWnd/ReturnMailBtn" >
+            <Property Name="Text" Value="x退回郵件" />
+            <Property Name="UnifiedAreaRect" Value="{{0.553153,0},{0.941272,0},{0.69009,0},{0.983687,0}}" />
+        </Window>
+        <Window Type="DejaVu/Checkbox" Name="NewMailListWnd/SelectAll" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="Text" Value="x全選" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0558559,0},{0.865225,0},{0.192793,0},{0.906822,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="NewMailListWnd/DeleteMailBtn" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Text" Value="x刪除郵件" />
+            <Property Name="UnifiedAreaRect" Value="{{0.69009,0},{0.865225,0},{0.827027,0},{0.906822,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="NewMailListWnd/GetMailItemBtn" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Text" Value="x領取附件" />
+            <Property Name="UnifiedAreaRect" Value="{{0.836036,0},{0.865225,0},{0.972973,0},{0.906822,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

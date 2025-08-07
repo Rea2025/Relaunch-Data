@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/StaticImage" Name="Root/NewTeachingWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="MousePassThroughEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Window Type="DejaVu/Static" Name="Root/NewTeachingWnd/NextStopBlushBtn" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/StaticImage" Name="Root/NewTeachingWnd/Crosshair1" >
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="UnifiedAreaRect" Value="{{0.082781,0},{0.135501,0},{0.135761,0},{0.222222,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/NewTeachingWnd/Crosshair2" >
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.165563,0},{0.271003,0},{0.218543,0},{0.357724,0}}" />
+            </Window>
+            <Window Type="DejaVu/EmbedText" Name="Root/NewTeachingWnd/ExitText" >
+                <Property Name="Font" Value="F001-24" />
+                <Property Name="FrameColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFFF" />
+                <Property Name="Text" Value="x按下ESC離開教學" />
+                <Property Name="TextColours" Value="tl:FFFF0000 tr:FFFF0000 bl:FFFF0000 br:FFFF0000" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.273438,0},{0.104167,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/NewTeachingWnd/ArrowImage" >
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="Image" Value="set:main image:TutorialArrow" />
+                <Property Name="UnifiedAreaRect" Value="{{0.248344,0},{0.406504,0},{0.298013,0},{0.487805,0}}" />
+            </Window>
+            <Window Type="DejaVu/Embed11" Name="Root/NewTeachingWnd/TipTextBottom" >
+                <Property Name="Font" Value="F001-11" />
+                <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.451243,0},{0.609713,0},{0.616806,0},{0.724889,0}}" />
+                <Window Type="DejaVu/StaticText" Name="Root/NewTeachingWnd/TipTextBottom/Text" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                    <Property Name="LinespaceWindow" Value="True" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="Text" Value="x說明內文110000000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.723883,0},{0.693182,0}}" />
+                    <Property Name="VerticalAlignment" Value="Centre" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed15" Name="Root/NewTeachingWnd/TipTextLeft" >
+                <Property Name="Font" Value="F001-11" />
+                <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.261009,0},{0.476119,0},{0.426572,0},{0.591295,0}}" />
+                <Window Type="DejaVu/StaticText" Name="Root/NewTeachingWnd/TipTextLeft/Text" >
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                    <Property Name="LinespaceWindow" Value="True" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="Text" Value="x說明內文110000000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.723883,0},{0.693182,0}}" />
+                    <Property Name="VerticalAlignment" Value="Centre" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed9" Name="Root/NewTeachingWnd/TipTextTop" >
+                <Property Name="Font" Value="F001-11" />
+                <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.456517,0},{0.342526,0},{0.62208,0},{0.457702,0}}" />
+                <Window Type="DejaVu/StaticText" Name="Root/NewTeachingWnd/TipTextTop/Text" >
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                    <Property Name="LinespaceWindow" Value="True" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="Text" Value="x說明內文110000000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.723883,0},{0.693182,0}}" />
+                    <Property Name="VerticalAlignment" Value="Centre" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed10" Name="Root/NewTeachingWnd/TipTextRight" >
+                <Property Name="Font" Value="F001-11" />
+                <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.637571,0},{0.471172,0},{0.803134,0},{0.586348,0}}" />
+                <Window Type="DejaVu/StaticText" Name="Root/NewTeachingWnd/TipTextRight/Text" >
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                    <Property Name="LinespaceWindow" Value="True" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="Text" Value="x說明內文110000000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.723883,0},{0.693182,0}}" />
+                    <Property Name="VerticalAlignment" Value="Centre" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/NewTeachingWnd/MouseWindow" >
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.0488281,0},{0.0911458,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/NewTeachingWnd/AttachImage" >
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{-0.195313,0},{0.224609,0},{0.00520833,0}}" />
+                <Property Name="VerticalAlignment" Value="Bottom" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/NewTeachingWnd/TipImage" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,804},{0,535}}" />
+                <Window Type="DejaVu/ImageButton" Name="Root/NewTeachingWnd/TipImage/CloseBtn" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorizontalAlignment" Value="Right" />
+                    <Property Name="HoverImage" Value="set:DejaVu image:NewCloseButtonHover" />
+                    <Property Name="NormalImage" Value="set:DejaVu image:NewCloseButtonNormal" />
+                    <Property Name="PushedImage" Value="set:DejaVu image:NewCloseButtonPressed" />
+                    <Property Name="UnifiedAreaRect" Value="{{-0.0124533,0},{0.0186916,0},{0.0124533,0},{0.0560748,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/FrameWindow" Name="Root/NewTeachingWnd/HintWnd" >
+                <Property Name="CloseButtonEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HelpButtonEnabled" Value="False" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="TitlebarEnabled" Value="True" />
+                <Property Name="TitlebarFont" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,266},{0,241}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+                <Window Type="DejaVu/Embed" Name="Root/NewTeachingWnd/HintWnd/BG" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    <Window Type="DejaVu/Embed2" Name="Root/NewTeachingWnd/HintWnd/BG/Embed2" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.04,0},{0.062112,0},{0.96,0},{0.745342,0}}" />
+                        <Window Type="DejaVu/StaticText" Name="Root/NewTeachingWnd/HintWnd/BG/Text" >
+                            <Property Name="HorzFormatting" Value="WordWrapCentred" />
+                            <Property Name="Text" Value="123456" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Button" Name="Root/NewTeachingWnd/HintWnd/BG/Btn1" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.04,0},{-0.0621118,0},{0.344,0},{0.0993789,0}}" />
+                        <Property Name="VerticalAlignment" Value="Bottom" />
+                    </Window>
+                    <Window Type="DejaVu/Button" Name="Root/NewTeachingWnd/HintWnd/BG/Btn3" >
+                        <Property Name="HorizontalAlignment" Value="Right" />
+                        <Property Name="UnifiedAreaRect" Value="{{-0.04,0},{-0.0621118,0},{0.264,0},{0.0993789,0}}" />
+                        <Property Name="VerticalAlignment" Value="Bottom" />
+                    </Window>
+                    <Window Type="DejaVu/Button" Name="Root/NewTeachingWnd/HintWnd/BG/Btn2" >
+                        <Property Name="HorizontalAlignment" Value="Centre" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{-0.0621118,0},{0.304,0},{0.0993789,0}}" />
+                        <Property Name="VerticalAlignment" Value="Bottom" />
+                    </Window>
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

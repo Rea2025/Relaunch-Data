@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/FamilyCropWnd" >
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="Text" Value="x作物資訊x" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.284375,0},{0.0665829,0},{0.284375,328},{0.0665829,554}}" />
+        <Window Type="DejaVu/Static" Name="Root/FamilyCropWnd/Background" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,289},{0,502}}" />
+            <Window Type="DejaVu/StaticImage" Name="Root/FamilyCropWnd/View" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0212202,0},{0,269},{0.0212202,323}}" />
+                <Window Type="DejaVu/ImageButton" Name="Root/FamilyCropWnd/ReapBtn" >
+                    <Property Name="DisabledImage" Value="set:DejaVuImage image:DecomposeP" />
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="HoverImage" Value="set:DejaVuImage image:DecomposeH" />
+                    <Property Name="NormalImage" Value="set:DejaVuImage image:DecomposeN" />
+                    <Property Name="PushedImage" Value="set:DejaVuImage image:DecomposeP" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0171626,0},{0.0133166,0},{0.212038,0},{0.156231,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/FamilyCropWnd/Buff1" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameColours" Value="tl:FF0000FF tr:FF0000FF bl:FF0000FF br:FF0000FF" />
+                    <Property Name="ID" Value="1" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.862743,0},{0.0253791,0},{0.862743,32},{0.0253791,32}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/FamilyCropWnd/Buff1/Text" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="RightAligned" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                        <Property Name="VertFormatting" Value="BottomAligned" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/FamilyCropWnd/Buff2" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameColours" Value="tl:FF0000FF tr:FF0000FF bl:FF0000FF br:FF0000FF" />
+                    <Property Name="ID" Value="1" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.714826,0},{0.0251278,0},{0.714826,32},{0.0251278,32}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/FamilyCropWnd/Buff2/Text" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="RightAligned" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                        <Property Name="VertFormatting" Value="BottomAligned" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/FamilyCropWnd/Buff3" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameColours" Value="tl:FF0000FF tr:FF0000FF bl:FF0000FF br:FF0000FF" />
+                    <Property Name="ID" Value="1" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.566909,0},{0.0248765,0},{0.566909,32},{0.0248765,32}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/FamilyCropWnd/Buff3/Text" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="RightAligned" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                        <Property Name="VertFormatting" Value="BottomAligned" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/EmbedTextLab3" Name="Root/FamilyCropWnd/InfoFrame" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.695219,0},{0.917603,0},{0.866534,0}}" />
+                <Window Type="DejaVu/EmbedTextLab" Name="Root/FamilyCropWnd/Info/ProgressLabel" >
+                    <Property Name="ID" Value="381" />
+                    <Property Name="Text" Value="x進化率x" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0542277,0},{0.124967,0},{0.0542277,53},{0.124967,28}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab" Name="Root/FamilyCropWnd/Info/EnergyLabel" >
+                    <Property Name="ID" Value="381" />
+                    <Property Name="Text" Value="x水分x" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0554139,0},{0.50496,0},{0.0554139,53},{0.50496,28}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab3" Name="Root/FamilyCropWnd/Info/ReapText" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="ID" Value="301" />
+                    <Property Name="Text" Value="x收割有物品x" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.672801,0},{0.535076,0},{0.672801,82},{0.535076,27}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/FamilyCropWnd/Info/ProgressBarBG" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:DejaVuImage image:PetHpBarBG" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.280939,0},{0.333342,0},{0.280939,96},{0.333342,12}}" />
+                    <Window Type="DejaVu/CastingBarImage" Name="Root/FamilyCropWnd/Info/ProgressBar" >
+                        <Property Name="Image" Value="set:DejaVuImage image:PetHpBar" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/FamilyCropWnd/Info/EnergyBarBG" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:DejaVuImage image:LoveExpBar" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.27877,0},{0.666675,0},{0.27877,96},{0.666675,12}}" />
+                    <Window Type="DejaVu/CastingBarImage" Name="Root/FamilyCropWnd/Info/EnergyBar" >
+                        <Property Name="Image" Value="set:DejaVuImage image:ExpBarGreen" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="Root/FamilyCropWnd/Info/ProgressText" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="84.76%" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.29434,0},{0.174419,0},{0.29434,90},{0.174419,13}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="Root/FamilyCropWnd/Info/EnergyText" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="25.36%" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.29434,0},{0.523256,0},{0.29434,90},{0.523256,13}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedText" Name="Root/FamilyCropWnd/Info/ReapLabel" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="x收割資訊x" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.668011,0},{0.206673,0},{0.989529,0},{0.530005,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/EmbedTextLab3" Name="Root/FamilyCropWnd/LevelFrame" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.878244,0},{0,265},{0.878244,43}}" />
+                <Window Type="DejaVu/StaticText" Name="Root/FamilyCropWnd/Level/LevelText1" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="x第一階x" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.053715,0},{0.193012,0},{0.053715,53},{0.193012,13}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="Root/FamilyCropWnd/Level/LevelText2" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="x第二階x" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.271698,0},{0.186047,0},{0.271698,53},{0.186047,13}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="Root/FamilyCropWnd/Level/LevelText3" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="x第三階x" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.509434,0},{0.186047,0},{0.509434,53},{0.186047,13}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="Root/FamilyCropWnd/Level/LevelText4" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="x第四階x" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.74717,0},{0.186047,0},{0.74717,53},{0.186047,13}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/FamilyCropWnd/Level/LevelBulbBG1" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:DejaVuImage image:LoveExpBar" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.037736,0},{0.534884,0},{0.037736,52},{0.534884,11}}" />
+                    <Window Type="DejaVu/CastingBarImage" Name="Root/FamilyCropWnd/Level/LevelBulb1" >
+                        <Property Name="Image" Value="set:DejaVuImage image:ExpBarYellow" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/FamilyCropWnd/Level/LevelBulbBG2" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:DejaVuImage image:LoveExpBar" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.275236,0},{0.534633,0},{0.275236,52},{0.534633,11}}" />
+                    <Window Type="DejaVu/CastingBarImage" Name="Root/FamilyCropWnd/Level/LevelBulb2" >
+                        <Property Name="Image" Value="set:DejaVuImage image:ExpBarYellow" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/FamilyCropWnd/Level/LevelBulbBG3" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:DejaVuImage image:LoveExpBar" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.513208,0},{0.534884,0},{0.513208,52},{0.534884,11}}" />
+                    <Window Type="DejaVu/CastingBarImage" Name="Root/FamilyCropWnd/Level/LevelBulb3" >
+                        <Property Name="Image" Value="set:DejaVuImage image:ExpBarYellow" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/FamilyCropWnd/Level/LevelBulbBG4" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:DejaVuImage image:LoveExpBar" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.750943,0},{0.534884,0},{0.750943,52},{0.534884,11}}" />
+                    <Window Type="DejaVu/CastingBarImage" Name="Root/FamilyCropWnd/Level/LevelBulb4" >
+                        <Property Name="Image" Value="set:DejaVuImage image:ExpBarYellow" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

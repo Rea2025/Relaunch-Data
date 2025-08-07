@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/LootRuleWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.25125,0},{0.17,0},{0.25125,198},{0.17,281}}" />
+        <Property Name="UnifiedMinSize" Value="{{0,0},{0,0}}" />
+        <Window Type="DejaVu/Button" Name="Root/LootRuleWnd/AcceptBtn" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="ClippedByParent" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="Text" Value="A__A確定" />
+            <Property Name="UnifiedAreaRect" Value="{{0.037037,0},{0.903509,0},{0.469136,0},{1.00877,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/LootRuleWnd/ExitBtn" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="ClippedByParent" Value="False" />
+            <Property Name="Text" Value="A__A關閉" />
+            <Property Name="UnifiedAreaRect" Value="{{0.524691,0},{0.903509,0},{0.95679,0},{1.00877,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticTextLab" Name="Root/LootRuleWnd/LootText" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="Text" Value="A__A一般場景分配" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.617284,0},{0.105263,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticTextLab" Name="Root/LootRuleWnd/RollText1" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="Text" Value="A__A副本擲骰" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.447368,0},{0.617284,0},{0.552631,0}}" />
+        </Window>
+        <Window Type="DejaVu/Static" Name="Root/LootRuleWnd/Frame" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0526316,0},{0.987654,0},{0.421053,0}}" />
+            <Window Type="DejaVu/RadioButton" Name="Root/LootRuleWnd/RandRadioBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="GroupID" Value="1" />
+                <Property Name="HoverTextColour" Value="C8FFFFFF" />
+                <Property Name="NormalTextColour" Value="C8FFFFFF" />
+                <Property Name="PushedTextColour" Value="C8FFFFFF" />
+                <Property Name="Text" Value="A__A隨機制" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0625,0},{0.271429,0},{0.925,0},{0.461905,0}}" />
+            </Window>
+            <Window Type="DejaVu/RadioButton" Name="Root/LootRuleWnd/FreeRadioBtn" >
+                <Property Name="GroupID" Value="1" />
+                <Property Name="HoverTextColour" Value="C8FFFFFF" />
+                <Property Name="NormalTextColour" Value="C8FFFFFF" />
+                <Property Name="PushedTextColour" Value="C8FFFFFF" />
+                <Property Name="Text" Value="A__A自由制" />
+                <Property Name="UnifiedAreaRect" Value="{{0.06875,0},{0.214286,0},{0.93125,0},{0.404762,0}}" />
+                <Property Name="Visible" Value="False" />
+            </Window>
+            <Window Type="DejaVu/RadioButton" Name="Root/LootRuleWnd/onlyselfBtn" >
+                <Property Name="GroupID" Value="1" />
+                <Property Name="HoverTextColour" Value="C8FFFFFF" />
+                <Property Name="NormalTextColour" Value="C8FFFFFF" />
+                <Property Name="PushedTextColour" Value="C8FFFFFF" />
+                <Property Name="Text" Value="A__A開怪獨享制" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0625,0},{0.6,0},{0.925,0},{0.790476,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="Root/LootRuleWnd/DuplicateGB" >
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.5,0},{0.987654,0},{0.868421,0}}" />
+            <Window Type="DejaVu/RadioButton" Name="Root/LootRuleWnd/DuplicateGB/GreenBtn" >
+                <Property Name="GroupID" Value="2" />
+                <Property Name="HoverTextColour" Value="C8FFFFFF" />
+                <Property Name="NormalTextColour" Value="C8FFFFFF" />
+                <Property Name="PushedTextColour" Value="C8FFFFFF" />
+                <Property Name="Text" Value="A__A綠色品質裝備" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0625,0},{0.452381,0},{0.925,0},{0.642857,0}}" />
+            </Window>
+            <Window Type="DejaVu/RadioButton" Name="Root/LootRuleWnd/DuplicateGB/WhiteBtn" >
+                <Property Name="GroupID" Value="2" />
+                <Property Name="HoverTextColour" Value="C8FFFFFF" />
+                <Property Name="NormalTextColour" Value="C8FFFFFF" />
+                <Property Name="PushedTextColour" Value="C8FFFFFF" />
+                <Property Name="Text" Value="A__A白色品質裝備" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0625,0},{0.214286,0},{0.925,0},{0.404762,0}}" />
+            </Window>
+            <Window Type="DejaVu/RadioButton" Name="Root/LootRuleWnd/DuplicateGB/BlueBtn" >
+                <Property Name="GroupID" Value="2" />
+                <Property Name="HoverTextColour" Value="C8FFFFFF" />
+                <Property Name="NormalTextColour" Value="C8FFFFFF" />
+                <Property Name="PushedTextColour" Value="C8FFFFFF" />
+                <Property Name="Text" Value="A__A藍色品質裝備" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0625,0},{0.690476,0},{0.925,0},{0.880952,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

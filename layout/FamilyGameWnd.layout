@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="FamilyGameWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="Text" Value="  公會情報  " />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.421309,0},{0.581395,0}}" />
+        <Window Type="DejaVu/Embed" Name="FamilyGameWnd/BG" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Embed2" Name="FamilyGameWnd/BG/GameListArea" >
+                <Property Name="UnifiedAreaRect" Value="{{0.012837,0},{0.0782609,0},{0.986341,0},{0.926205,0}}" />
+                <Window Type="DejaVu/Embed4" Name="FamilyGameWnd/BG/GameListArea/TitleArea" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0131926,0},{0.0204918,0},{0.211082,0},{0.0717213,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="FamilyGameWnd/BG/GameListArea/TitleArea/Text" >
+                        <Property Name="Text" >x可開啟活動
+</Property>
+                        <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.2,0},{0.909929,0},{0.8,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="FamilyGameWnd/BG/GameListArea/TitleArea/Mark" >
+                        <Property Name="Image" Value="set:DejaVu image:Image13" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/ScrollablePane" Name="FamilyGameWnd/BG/GameListArea/TitleArea/ScrollablePane" >
+                    <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                    <Property Name="HorzOverlapSize" Value="0.01" />
+                    <Property Name="HorzScrollPosition" Value="0" />
+                    <Property Name="HorzStepSize" Value="0.1" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0131926,0},{0.143443,0},{0.985488,0},{0.973361,0}}" />
+                    <Property Name="VertOverlapSize" Value="0.01" />
+                    <Property Name="VertScrollPosition" Value="0" />
+                    <Property Name="VertStepSize" Value="0.1" />
+                    <AutoWindow NameSuffix="__auto_container__" >
+                        <Property Name="ChildExtentsArea" Value="l:0 t:0 r:0 b:0" />
+                        <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                        <Property Name="MouseInputPropagationEnabled" Value="True" />
+                    </AutoWindow>
+                </Window>
+                <Window Type="DejaVu/Button2" Name="FamilyGameWnd/BG/GameListArea/ObjectNameTitle" >
+                    <Property Name="Text" Value="x活動名稱" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.013193,0},{0.092213,0},{0.296526,0},{0.142808,0}}" />
+                </Window>
+                <Window Type="DejaVu/Button2" Name="FamilyGameWnd/BG/GameListArea/ObjectInfoTitle" >
+                    <Property Name="Text" Value="x活動簡介" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.30119,0},{0.0922619,0},{0.694048,0},{0.142857,0}}" />
+                </Window>
+                <Window Type="DejaVu/Button2" Name="FamilyGameWnd/BG/GameListArea/ObjectOpenCountTitle" >
+                    <Property Name="Text" Value="x剩餘開啟次數" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.697619,0},{0.0922619,0},{0.830952,0},{0.142857,0}}" />
+                </Window>
+                <Window Type="DejaVu/Button2" Name="FamilyGameWnd/BG/GameListArea/ObjectOpenStatusTitle" >
+                    <Property Name="Text" Value="x開啟狀態" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.833333,0},{0.0922619,0},{0.97619,0},{0.142857,0}}" />
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

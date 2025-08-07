@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="WeaponExteriorTransferWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="TitlebarImage" Value="set:main image:Combine" />
+        <Property Name="UnifiedAreaRect" Value="{{0.0229806,0},{0.0151562,0},{0.0229806,385},{0.0151562,558}}" />
+        <Window Type="DejaVu/Embed" Name="WeaponExteriorTransferWnd/BG" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1.00271,0},{1,0}}" />
+            <Window Type="DejaVu/StaticImage" Name="WitchCraftTransferWnd/Frame/ArrowPic" >
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="Image" Value="set:main image:EudemonArrow" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.355649,0},{0.542005,0},{0.449791,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="WeaponExteriorTransferWnd/BG/TransferBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="Text" Value="x附魔" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.924686,0},{0.205962,0},{0.979079,0}}" />
+            </Window>
+            <Window Type="DejaVu/Embed2" Name="WeaponExteriorTransferWnd/BG/Frame1" >
+                <Property Name="UnifiedAreaRect" Value="{{0.0271003,0},{0.041841,0},{0.97832,0},{0.345188,0}}" />
+                <Window Type="DejaVu/Embed3" Name="WeaponExteriorTransferWnd/BG/Frame1/ItemBG" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.028409,0},{0.314685,0},{0.971266,0},{0.673306,0}}" />
+                    <Window Type="DejaVu/SlotImage" Name="WeaponExteriorTransferWnd/BG/Frame1/ItemBG/ItemSlot" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.0140571,0},{0.096154,0},{0.14133,0},{0.903846,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Embed5" Name="WeaponExteriorTransferWnd/BG/Frame1/ItemBG/ItemNameBG" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.157576,0},{0.25,0},{0.969697,0},{0.75,0}}" />
+                        <Window Type="DejaVu/StaticTextLab" Name="WeaponExteriorTransferWnd/BG/Frame1/ItemBG/ItemNameBG/ItemName" >
+                            <Property Name="Text" Value="x一二三四五六七八九十一二三四" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0404545,0},{0,0},{0.965827,0},{1,0}}" />
+                        </Window>
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="WeaponExteriorTransferWnd/BG/Frame1/InstructionText" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="x請放入欲轉移外觀的裝備" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0285714,0},{0.140845,0},{0.971429,0},{0.316901,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="WeaponExteriorTransferWnd/BG/Frame1/DetailText" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="LinespaceWindow" Value="True" />
+                    <Property Name="Text" >x強化等級大於20，成品為綠色品質特效不保留
+x強化等級大於25，成品為綠色品質特效保留</Property>
+                    <Property Name="TextColours" Value="tl:FFC91B1F tr:FFC91B1F bl:FFC91B1F br:FFC91B1F" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.042857,0},{0.675862,0},{0.951428,0},{0.965517,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed4" Name="WeaponExteriorTransferWnd/BG/Title1" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0542005,0},{0.0209205,0},{0.460705,0},{0.0732218,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="WeaponExteriorTransferWnd/BG/Title1/Text" >
+                    <Property Name="Text" Value="x外觀轉移" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.2,0},{0.866667,0},{0.8,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="WeaponExteriorTransferWnd/BG/Title1/Icon" >
+                    <Property Name="Image" Value="set:DejaVu image:Image23" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed2" Name="WeaponExteriorTransferWnd/BG/Frame2" >
+                <Property Name="UnifiedAreaRect" Value="{{0.0271003,0},{0.483264,0},{0.97561,0},{0.702929,0}}" />
+                <Window Type="DejaVu/Embed3" Name="WeaponExteriorTransferWnd/BG/Frame2/ItemBG" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.0299309,0},{0.238095,0},{0.972788,0},{0.733333,0}}" />
+                    <Window Type="DejaVu/SlotImage" Name="WeaponExteriorTransferWnd/BG/Frame2/ItemBG/ItemSlot" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.015152,0},{0.096154,0},{0.142425,0},{0.903846,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Embed5" Name="WeaponExteriorTransferWnd/BG/Frame2/ItemBG/ItemNameBG" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.157576,0},{0.25,0},{0.969697,0},{0.75,0}}" />
+                        <Window Type="DejaVu/StaticTextLab" Name="WeaponExteriorTransferWnd/BG/Frame2/ItemBG/ItemNameBG/ItemName" >
+                            <Property Name="Text" Value="x一二三四五六七八九十一二三四" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0373134,0},{0,0},{0.962687,0},{1,0}}" />
+                        </Window>
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="WeaponExteriorTransferWnd/BG/Frame2/DetailText" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="x武器外觀成形後，原始武器將被破壞。" />
+                    <Property Name="TextColours" Value="tl:FFC91B1F tr:FFC91B1F bl:FFC91B1F br:FFC91B1F" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.043353,0},{0.733333,0},{0.969067,0},{0.971428,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed4" Name="WeaponExteriorTransferWnd/BG/Title2" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0542005,0},{0.462343,0},{0.460705,0},{0.514644,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="WeaponExteriorTransferWnd/BG/Title2/Text" >
+                    <Property Name="Text" Value="x外觀成品" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.2,0},{0.866667,0},{0.8,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="WeaponExteriorTransferWnd/BG/Title2/Icon" >
+                    <Property Name="Image" Value="set:DejaVu image:Image23" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed2" Name="WeaponExteriorTransferWnd/BG/Frame3" >
+                <Property Name="UnifiedAreaRect" Value="{{0.0271003,0},{0.732218,0},{0.97561,0},{0.914226,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="WeaponExteriorTransferWnd/BG/Frame3/BGImg" >
+                    <Property Name="Image" Value="set:main2 image:MagicStoneUpgrateBG" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.02849,0},{0.229885,0},{0.97151,0},{0.942529,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="WeaponExteriorTransferWnd/BG/Frame3/ItemSlot" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.437143,0},{0.344828,0},{0.557143,0},{0.827586,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed4" Name="WeaponExteriorTransferWnd/BG/Title3" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0542005,0},{0.711297,0},{0.460705,0},{0.763598,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="WeaponExteriorTransferWnd/BG/Title3/Text" >
+                    <Property Name="Text" >x消耗道具
+</Property>
+                    <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.2,0},{0.866667,0},{0.8,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="WeaponExteriorTransferWnd/BG/Title3/Icon" >
+                    <Property Name="Image" Value="set:DejaVu image:Image23" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

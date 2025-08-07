@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="AbilityReplaceWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="Text" Value="x秘石洗練" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="TitlebarImage" Value="set:main41 image:Replace" />
+        <Property Name="UnifiedAreaRect" Value="{{0.046354,0},{0.027426,0},{0.046354,900},{0.027426,550}}" />
+        <Window Type="DejaVu/Embed3" Name="AbilityReplaceWnd/BG" >
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Property Name="InheritsAlpha" Value="False" />
+            <Property Name="Text" Value="Tab" />
+            <Property Name="UnifiedAreaRect" Value="{{0.00113122,0},{0,0},{0.996606,0},{0.991379,0}}" />
+            <Window Type="DejaVu/Embed2" Name="AbilityReplaceWnd/BG/NewAbilityBG" >
+                <Property Name="UnifiedAreaRect" Value="{{0.00909091,0},{0.0217391,0},{0.497727,0},{0.276087,0}}" />
+                <Property Name="VertFormatting" Value="TopAligned" />
+                <Window Type="DejaVu/EmbedTextLab7" Name="AbilityReplaceWnd/BG/NewAbilityBG/Title" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="x新的能力" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.00465116,0},{0.00833333,0},{0.995349,0},{0.208333,0}}" />
+                </Window>
+                <Window Type="DejaVu/Button" Name="AbilityReplaceWnd/BG/NewAbilityBG/ChangeBtn" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="x更換能力" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.769767,0},{0.475,0},{0.983721,0},{0.708333,0}}" />
+                </Window>
+                <Window Type="DejaVu/Static" Name="AbilityReplaceWnd/BG/NewAbilityBG/SlotBG" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.034884,0},{0.418803,0},{0.132558,0},{0.777777,0}}" />
+                    <Window Type="DejaVu/SlotImage" Name="AbilityReplaceWnd/BG/NewAbilityBG/SlotBG/AbilitySlot0" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{-1,0},{1,0},{0,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="AbilityReplaceWnd/BG/NewAbilityBG/SlotBG/AbilitySlot1" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="AbilityReplaceWnd/BG/NewAbilityBG/SlotBG/AbilitySlot2" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{1,0},{1,0},{2,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Static" Name="AbilityReplaceWnd/BG/NewAbilityBG/AbilityTextBG" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.167442,0},{0.290598,0},{0.748837,0},{0.888889,0}}" />
+                    <Window Type="DejaVu/EmbedText2" Name="AbilityReplaceWnd/BG/NewAbilityBG/AbilityTextBG/AbilityText0" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                        <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{-1,0},{1,0},{0,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedText2" Name="AbilityReplaceWnd/BG/NewAbilityBG/AbilityTextBG/AbilityText1" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                        <Property Name="Text" Value="x傷害值+10%" />
+                        <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedText2" Name="AbilityReplaceWnd/BG/NewAbilityBG/AbilityTextBG/AbilityText2" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                        <Property Name="Text" Value="x傷害值+10%" />
+                        <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{1,0},{1,0},{2,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed2" Name="AbilityReplaceWnd/BG/OriginalAbilityBG" >
+                <Property Name="UnifiedAreaRect" Value="{{0.501136,0},{0.0217391,0},{0.989773,0},{0.276087,0}}" />
+                <Property Name="VertFormatting" Value="TopAligned" />
+                <Window Type="DejaVu/EmbedTextLab7" Name="AbilityReplaceWnd/BG/OriginalAbilityBG/Title" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="x原本能力" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.00465116,0},{0.00833333,0},{0.995349,0},{0.208333,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="AbilityReplaceWnd/BG/OriginalAbilityBG/AbilitySlot" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.034884,0},{0.416667,0},{0.132558,0},{0.775641,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedText2" Name="AbilityReplaceWnd/BG/OriginalAbilityBG/AbilityText" >
+                    <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                    <Property Name="Text" Value="x對王造成傷害+10%" />
+                    <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.167442,0},{0.291667,0},{0.748837,0},{0.891667,0}}" />
+                </Window>
+                <Window Type="DejaVu/Button" Name="AbilityReplaceWnd/BG/OriginalAbilityBG/KeepBtn" >
+                    <Property Name="Text" Value="x保留能力" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.769767,0},{0.475,0},{0.983721,0},{0.708333,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed2" Name="AbilityReplaceWnd/BG/ReplaceZoomBG" >
+                <Property Name="UnifiedAreaRect" Value="{{0.009091,0},{0.553238,0},{0.497727,0},{0.979325,0}}" />
+                <Property Name="VertFormatting" Value="TopAligned" />
+                <Window Type="DejaVu/SlotImage" Name="AbilityReplaceWnd/BG/ReplaceZoomBG/ItemSlot1" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0511628,0},{0.265306,0},{0.148837,0},{0.47449,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="AbilityReplaceWnd/BG/ReplaceZoomBG/ItemSlot2" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.213953,0},{0.265306,0},{0.311628,0},{0.47449,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="AbilityReplaceWnd/BG/ReplaceZoomBG/ItemSlot3" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.376744,0},{0.265306,0},{0.474419,0},{0.47449,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="AbilityReplaceWnd/BG/ReplaceZoomBG/ItemText1" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="x目標裝備" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.027907,0},{0.142857,0},{0.167442,0},{0.265306,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="AbilityReplaceWnd/BG/ReplaceZoomBG/ItemText2" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="x洗鍊道具" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.190698,0},{0.142857,0},{0.330233,0},{0.265306,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="AbilityReplaceWnd/BG/ReplaceZoomBG/ItemText3" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="x鎖定道具" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.353488,0},{0.142857,0},{0.493023,0},{0.265306,0}}" />
+                </Window>
+                <Window Type="DejaVu/Button" Name="AbilityReplaceWnd/BG/ReplaceZoomBG/Money" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="x秘石洗鍊" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.527907,0},{0.295918,0},{0.74186,0},{0.438776,0}}" />
+                </Window>
+                <Window Type="DejaVu/Button" Name="AbilityReplaceWnd/BG/ReplaceZoomBG/PreviewBtn" >
+                    <Property Name="Text" Value="x能力預覽" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.765116,0},{0.295918,0},{0.97907,0},{0.438776,0}}" />
+                </Window>
+                <Window Type="DejaVu/Embed2" Name="Root/CombineWnd/Wnd/Money" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.213953,0},{0.816327,0},{0.539535,0},{0.943878,0}}" />
+                    <Window Type="DejaVu/StaticImage" Name="AbilityReplaceWnd/BG/ReplaceZoomBG/Money/GoldImage" >
+                        <Property Name="Image" Value="set:main image:Gold" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0.2,0},{0.607143,0},{0.8,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="AbilityReplaceWnd/BG/ReplaceZoomBG/Money/SilverImage" >
+                        <Property Name="Image" Value="set:main image:Silver" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.857143,0},{0.2,0},{0.964286,0},{0.8,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="AbilityReplaceWnd/BG/ReplaceZoomBG/Money/Silver" >
+                        <Property Name="HorzFormatting" Value="RightAligned" />
+                        <Property Name="Text" Value="999" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.607143,0},{0.2,0},{0.821429,0},{0.8,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="AbilityReplaceWnd/BG/ReplaceZoomBG/Money/Gold" >
+                        <Property Name="HorzFormatting" Value="RightAligned" />
+                        <Property Name="Text" Value="x9999" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.071429,0},{0.2,0},{0.464286,0},{0.8,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab7" Name="AbilityReplaceWnd/BG/ReplaceZoomBG/Money/CostText" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="x洗鍊花費" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0511628,0},{0.816327,0},{0.213953,0},{0.943878,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="AbilityReplaceWnd/BG/ReplaceZoomBG/Text" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                    <Property Name="Text" Value="x※鎖定道具需於洗鍊前放入" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.386046,0},{0.510204,0},{0.804651,0},{0.693878,0}}" />
+                    <Property Name="VertFormatting" Value="TopAligned" />
+                </Window>
+                <Window Type="DejaVu/Static" Name="AbilityReplaceWnd/BG/ReplaceZoomBG/FashionPowerTIP" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.376744,0},{0.266332,0},{0.474418,0},{0.477387,0}}" />
+                    <Property Name="Visible" Value="False" />
+                    <Window Type="DejaVu/EmbedText3" Name="AbilityReplaceWnd/BG/ReplaceZoomBG/FashionPowerTIP/Text" >
+                        <Property Name="Font" Value="F001-12" />
+                        <Property Name="HorzFormatting" Value="WordWrapCentred" />
+                        <Property Name="Text" Value="？" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="AbilityReplaceWnd/BG/ReplaceZoomBG/FashionPowerTIP/Image" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HorizontalAlignment" Value="Centre" />
+                        <Property Name="Image" Value="set:DejaVu image:Image13" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.47619,0},{0.47619,0}}" />
+                        <Property Name="VerticalAlignment" Value="Centre" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed2" Name="AbilityReplaceWnd/BG/RuleBG" >
+                <Property Name="UnifiedAreaRect" Value="{{0.501136,0},{0.552174,0},{0.989773,0},{0.978261,0}}" />
+                <Property Name="VertFormatting" Value="TopAligned" />
+                <Window Type="DejaVu/EmbedTextLab7" Name="AbilityReplaceWnd/BG/RuleBG/Title" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="x洗鍊規則" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.00232558,0},{0.0102041,0},{1.00233,0},{0.132653,0}}" />
+                </Window>
+                <Window Type="DejaVu/VScrolledText" Name="AbilityReplaceWnd/BG/RuleBG/Text" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                    <Property Name="Text" Value="x洗鍊規則訊息" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0116279,0},{0.153061,0},{0.988372,0},{0.959184,0}}" />
+                    <Property Name="VertScrollbar" Value="True" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed2" Name="AbilityReplaceWnd/BG/NewAbilityBG1" >
+                <Property Name="UnifiedAreaRect" Value="{{0.00909091,0},{0.286957,0},{0.497727,0},{0.541304,0}}" />
+                <Property Name="VertFormatting" Value="TopAligned" />
+                <Window Type="DejaVu/EmbedTextLab7" Name="AbilityReplaceWnd/BG/NewAbilityBG1/Title" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="x新的能力2" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.00465116,0},{0.00833333,0},{0.995349,0},{0.208333,0}}" />
+                </Window>
+                <Window Type="DejaVu/Button" Name="AbilityReplaceWnd/BG/NewAbilityBG1/ChangeBtn" >
+                    <Property Name="Text" Value="x更換能力" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.769767,0},{0.475,0},{0.983721,0},{0.708333,0}}" />
+                </Window>
+                <Window Type="DejaVu/Static" Name="AbilityReplaceWnd/BG/NewAbilityBG1/SlotBG" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.034884,0},{0.418803,0},{0.132558,0},{0.777777,0}}" />
+                    <Window Type="DejaVu/SlotImage" Name="AbilityReplaceWnd/BG/NewAbilityBG1/SlotBG/AbilitySlot0" >
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{-1,0},{1,0},{0,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="AbilityReplaceWnd/BG/NewAbilityBG1/SlotBG/AbilitySlot1" >
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="AbilityReplaceWnd/BG/NewAbilityBG1/SlotBG/AbilitySlot2" >
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{1,0},{1,0},{2,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Static" Name="AbilityReplaceWnd/BG/NewAbilityBG1/AbilityTextBG" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.167442,0},{0.290598,0},{0.748837,0},{0.888889,0}}" />
+                    <Window Type="DejaVu/EmbedText2" Name="AbilityReplaceWnd/BG/NewAbilityBG1/AbilityTextBG/AbilityText0" >
+                        <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                        <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{-1,0},{1,0},{0,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedText2" Name="AbilityReplaceWnd/BG/NewAbilityBG1/AbilityTextBG/AbilityText1" >
+                        <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                        <Property Name="Text" Value="x傷害值+10%" />
+                        <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedText2" Name="AbilityReplaceWnd/BG/NewAbilityBG1/AbilityTextBG/AbilityText2" >
+                        <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                        <Property Name="Text" Value="x傷害值+10%" />
+                        <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{1,0},{1,0},{2,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed2" Name="AbilityReplaceWnd/BG/OriginalAbilityBG1" >
+                <Property Name="UnifiedAreaRect" Value="{{0.501136,0},{0.286957,0},{0.989773,0},{0.541304,0}}" />
+                <Property Name="VertFormatting" Value="TopAligned" />
+                <Window Type="DejaVu/EmbedTextLab7" Name="AbilityReplaceWnd/BG/OriginalAbilityBG1/Title" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="x原本能力2" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.00465116,0},{0.00833333,0},{0.995349,0},{0.208333,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="AbilityReplaceWnd/BG/OriginalAbilityBG1/AbilitySlot" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.034884,0},{0.416667,0},{0.132558,0},{0.775641,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedText2" Name="AbilityReplaceWnd/BG/OriginalAbilityBG1/AbilityText" >
+                    <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                    <Property Name="Text" Value="x對王造成傷害+10%" />
+                    <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.167442,0},{0.291667,0},{0.748837,0},{0.891667,0}}" />
+                </Window>
+                <Window Type="DejaVu/Button" Name="AbilityReplaceWnd/BG/OriginalAbilityBG1/KeepBtn" >
+                    <Property Name="Text" Value="x保留能力" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.769767,0},{0.475,0},{0.983721,0},{0.708333,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="AbilityReplaceWnd/BG/AbilityBG" >
+                <Property Name="UnifiedAreaRect" Value="{{0.00909091,0},{0.0217391,0},{0.989773,0},{0.541304,0}}" />
+                <Window Type="DejaVu/Embed3" Name="AbilityReplaceWnd/BG/AbilityBG/BG1" >
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.498262,0},{0.330544,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="AbilityReplaceWnd/BG/AbilityBG/BG1/Text" >
+                        <Property Name="Text" Value="x攻擊值+8999" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0825083,0},{0.328358,0},{0.577558,0},{0.656716,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="AbilityReplaceWnd/BG/AbilityBG/BG1/Max" >
+                        <Property Name="Text" Value="Max：90000" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.577558,0},{0.328358,0},{0.907591,0},{0.656716,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="AbilityReplaceWnd/BG/AbilityBG/BG1/Percent" >
+                        <Property Name="Text" >120%
+</Property>
+                        <Property Name="UnifiedAreaRect" Value="{{0.372093,0},{0.329114,0},{0.495349,0},{0.658228,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="AbilityReplaceWnd/BG/AbilityBG/BG1/PercentMax" >
+                        <Property Name="Text" >120%
+</Property>
+                        <Property Name="UnifiedAreaRect" Value="{{0.848837,0},{0.329114,0},{0.972093,0},{0.658228,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed3" Name="AbilityReplaceWnd/BG/AbilityBG/BG2" >
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.330544,0},{0.498262,0},{0.661088,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="AbilityReplaceWnd/BG/AbilityBG/BG2/Text" >
+                        <Property Name="Text" Value="x爆擊值+100000" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0825083,0},{0.328358,0},{0.577558,0},{0.656716,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="AbilityReplaceWnd/BG/AbilityBG/BG2/Max" >
+                        <Property Name="Text" Value="Max：90000" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.577558,0},{0.328358,0},{0.907591,0},{0.656716,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed3" Name="AbilityReplaceWnd/BG/AbilityBG/BG3" >
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.661088,0},{0.498262,0},{0.991632,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="AbilityReplaceWnd/BG/AbilityBG/BG3/Text" >
+                        <Property Name="Text" Value="x速度值+22222" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.082508,0},{0.328358,0},{0.577557,0},{0.656716,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="AbilityReplaceWnd/BG/AbilityBG/BG3/Max" >
+                        <Property Name="Text" Value="Max：90000" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.577558,0},{0.328358,0},{0.907591,0},{0.656716,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed3" Name="AbilityReplaceWnd/BG/AbilityBG/BG4" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.499421,0},{0,0},{0.997683,0},{0.330544,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="AbilityReplaceWnd/BG/AbilityBG/BG4/Text" >
+                        <Property Name="Text" Value="xHP值+8999" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0825083,0},{0.328358,0},{0.577558,0},{0.656716,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="AbilityReplaceWnd/BG/AbilityBG/BG4/Max" >
+                        <Property Name="Text" Value="Max：90000" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.577558,0},{0.328358,0},{0.907591,0},{0.656716,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed3" Name="AbilityReplaceWnd/BG/AbilityBG/BG5" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.499421,0},{0.330544,0},{0.997683,0},{0.661088,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="AbilityReplaceWnd/BG/AbilityBG/BG5/Text" >
+                        <Property Name="Text" Value="x防禦值+8999" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0825083,0},{0.328358,0},{0.577558,0},{0.656716,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="AbilityReplaceWnd/BG/AbilityBG/BG5/Max" >
+                        <Property Name="Text" Value="Max：90000" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.577558,0},{0.328358,0},{0.907591,0},{0.656716,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="AbilityReplaceWnd/BG/AbilityBG/BG5/Percent" >
+                        <Property Name="Text" >120%
+</Property>
+                        <Property Name="UnifiedAreaRect" Value="{{0.372093,0},{0.329114,0},{0.495349,0},{0.658228,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="AbilityReplaceWnd/BG/AbilityBG/BG5/PercentMax" >
+                        <Property Name="Text" >120%
+</Property>
+                        <Property Name="UnifiedAreaRect" Value="{{0.848837,0},{0.329114,0},{0.972093,0},{0.658228,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed3" Name="AbilityReplaceWnd/BG/AbilityBG/BG6" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.499421,0},{0.661088,0},{0.997683,0},{0.991632,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="AbilityReplaceWnd/BG/AbilityBG/BG6/Text" >
+                        <Property Name="Text" Value="x閃躲值+8999" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0825083,0},{0.328358,0},{0.577558,0},{0.656716,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="AbilityReplaceWnd/BG/AbilityBG/BG6/Max" >
+                        <Property Name="Text" Value="Max：90000" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.577558,0},{0.328358,0},{0.907591,0},{0.656716,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/FamilyGameQuestWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="TitlebarImage" Value="set:main2 image:QuestN" />
+        <Property Name="UnifiedAreaRect" Value="{{0.170213,0},{0.153275,0},{0.170213,500},{0.153275,365}}" />
+        <Window Type="DejaVu/Embed2" Name="Root/FamilyGameQuestWnd/Game" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.00619835,0},{-0.107718,0},{0.997934,0},{1.00456,0}}" />
+            <Window Type="DejaVu/Embed2" Name="Root/FamilyGameQuestWnd/Game/Queastion" >
+                <Property Name="UnifiedAreaRect" Value="{{0.01875,0},{0.129825,0},{0.977083,0},{0.526457,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/FamilyGameQuestWnd/Game/Question/Text" >
+                    <Property Name="Text" >x題目顯示位置
+</Property>
+                    <Property Name="UnifiedAreaRect" Value="{{0.017391,0},{0.208333,0},{0.995652,0},{0.916666,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed4" Name="Root/FamilyGameQuestWnd/Game/Title" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.100372,0},{0.29375,0},{0.204461,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/FamilyGameQuestWnd/Game/Title/Text" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="x亂問快答" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.269504,0},{0.166667,0},{0.87234,0},{0.666667,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/FamilyGameQuestWnd/Game/Title/Mark" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Image" Value="set:DejaVu image:Image14" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0992908,0},{0.166667,0},{0.198582,0},{0.666667,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/FamilyGameQuestWnd/Game/Button" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="x送出答案" />
+                <Property Name="UnifiedAreaRect" Value="{{0.333333,0},{0.897887,0},{0.333333,150},{0.897887,33}}" />
+            </Window>
+            <Window Type="DejaVu/Embed2" Name="Root/FamilyGameQuestWnd/Game/Result" >
+                <Property Name="UnifiedAreaRect" Value="{{0.0203078,0},{0.695509,0},{0.974474,0},{0.895509,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/FamilyGameQuestWnd/Game/Result/Text" >
+                    <Property Name="Text" >x結果顯示位置
+</Property>
+                    <Property Name="UnifiedAreaRect" Value="{{0.017467,0},{0.371228,0},{0.995633,0},{0.783926,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed4" Name="Root/FamilyGameQuestWnd/Game/ResultTitle" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.00105035,0},{0.660702,0},{0.2927,0},{0.776491,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/FamilyGameQuestWnd/Game/ResultTitle/Text" >
+                    <Property Name="Text" Value="x結果" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.271292,0},{0.193548,0},{0.874128,0},{0.677419,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/FamilyGameQuestWnd/Game/ResultTitle/Mark" >
+                    <Property Name="Image" Value="set:DejaVu image:Image14" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0992908,0},{0.193548,0},{0.198582,0},{0.677419,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Editbox" Name="Root/FamilyGameQuestWnd/Game/AnswerPlace" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="MaxTextLength" Value="2147483647" />
+                <Property Name="Text" Value="x輸入答案位置" />
+                <Property Name="TextParsingEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.016667,0},{0.536842,0},{0.977084,0},{0.640141,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

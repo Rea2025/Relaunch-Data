@@ -1,0 +1,1689 @@
+<?xml version="1.0" ?>
+<Falagard>
+	<!--
+    ***************************************************
+        Embed/Embed16
+	***************************************************
+    -->
+    <WidgetLook name="Embed/Embed16">
+	<PropertyDefinition name="FrameColours" initialValue="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" redrawOnWrite="true" /> 
+        <PropertyDefinition name="BackgroundColours" initialValue="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" redrawOnWrite="true" />
+        <PropertyDefinition name="TextPadding" initialValue="0" redrawOnWrite="true" />
+        <PropertyDefinition name="HorzFormatting" initialValue="LeftAligned" redrawOnWrite="true" />
+        <PropertyDefinition name="VertFormatting" initialValue="CentreAligned" redrawOnWrite="true" />
+        <Property name="BackgroundEnabled" value="True" />
+        <Property name="FrameEnabled" value="True" />
+        <ImagerySection name="label">
+            <TextComponent>
+                <Area>
+                    <Dim type="LeftEdge">
+                        <PropertyDim name="TextPadding" />
+                    </Dim>
+                    <Dim type="TopEdge">
+                        <PropertyDim name="TextPadding" />
+                    </Dim>
+                    <Dim type="RightEdge">
+                        <UnifiedDim scale="1" type="RightEdge">
+							<DimOperator op="Subtract">
+								<PropertyDim name="TextPadding" />
+							</DimOperator>
+                        </UnifiedDim>
+                    </Dim>
+                    <Dim type="BottomEdge">
+                        <UnifiedDim scale="1" type="BottomEdge">
+							<DimOperator op="Subtract">
+								<PropertyDim name="TextPadding" />
+							</DimOperator>
+                        </UnifiedDim>
+                    </Dim>
+                </Area>
+                <Colours topLeft="FF000000" topRight="FF000000" bottomLeft="FF000000" bottomRight="FF000000" />
+                <VertFormatProperty name="VertFormatting" />
+                <HorzFormatProperty name="HorzFormatting" />
+            </TextComponent>
+        </ImagerySection>
+        <StateImagery name="Enabled">
+            <Layer>
+                <Section section="label" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="Disabled">
+            <Layer>
+                <Section section="label" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="EnabledFrame">
+            <Layer>
+                <Section look="Embed/EmbedShared16" section="frame" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="DisabledFrame">
+            <Layer>
+                <Section look="Embed/EmbedShared16" section="frame" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="WithFrameEnabledBackground">
+            <Layer>
+                <Section look="Embed/EmbedShared16" section="background">
+					<ColourRectProperty name="BackgroundColours" />
+                </Section>
+            </Layer>
+        </StateImagery>
+        <StateImagery name="WithFrameDisabledBackground">
+            <Layer>
+                <Section look="Embed/EmbedShared16" section="background">
+					<ColourRectProperty name="BackgroundColours" />
+                </Section>
+            </Layer>
+        </StateImagery>
+        <StateImagery name="NoFrameEnabledBackground">
+            <Layer>
+                <Section look="Embed/EmbedShared16" section="background_noframe">
+					<ColourRectProperty name="BackgroundColours" />
+                </Section>
+            </Layer>
+        </StateImagery>
+        <StateImagery name="NoFrameDisabledBackground">
+            <Layer>
+                <Section look="Embed/EmbedShared16" section="background_noframe">
+					<ColourRectProperty name="BackgroundColours" />
+                </Section>
+            </Layer>
+        </StateImagery>
+    </WidgetLook>
+
+
+	 <!--
+    ***************************************************
+        Embed/EmbedText16
+    ***************************************************
+    -->
+  <WidgetLook name="Embed/EmbedText16">
+    <PropertyDefinition name="FrameColours" initialValue="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" redrawOnWrite="true" />
+    <PropertyDefinition name="BackgroundColours" initialValue="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" redrawOnWrite="true" />
+    <Property name="TextColours"  value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF"  />
+
+    <Property name="FrameEnabled" value="True" />
+    <Property name="BackgroundEnabled" value="True" />
+    <NamedArea name="WithFrameTextRenderArea">
+      <Area>
+        <Dim type="LeftEdge" >
+          <ImageDim imageset="Embed" image="embed16Left" dimension="Width" />
+        </Dim>
+        <Dim type="TopEdge" >
+          <ImageDim imageset="Embed" image="embed16Top" dimension="Height" />
+        </Dim>
+        <Dim type="RightEdge" >
+          <UnifiedDim scale="1" type="RightEdge">
+            <DimOperator op="Subtract">
+              <ImageDim imageset="Embed" image="embed16Right" dimension="Width" />
+            </DimOperator>
+          </UnifiedDim>
+        </Dim>
+        <Dim type="BottomEdge" >
+          <UnifiedDim scale="1" type="BottomEdge">
+            <DimOperator op="Subtract">
+              <ImageDim imageset="Embed" image="embed16Bottom" dimension="Height" />
+            </DimOperator>
+          </UnifiedDim>
+        </Dim>
+      </Area>
+    </NamedArea>
+    <NamedArea name="WithFrameTextRenderAreaHScroll">
+      <Area>
+        <Dim type="LeftEdge" >
+          <ImageDim imageset="Embed" image="embed16Left" dimension="Width" />
+        </Dim>
+        <Dim type="TopEdge" >
+          <ImageDim imageset="Embed" image="embed16Top" dimension="Height" />
+        </Dim>
+        <Dim type="RightEdge" >
+          <UnifiedDim scale="1" type="RightEdge">
+            <DimOperator op="Subtract">
+              <ImageDim imageset="Embed" image="embed16Right" dimension="Width" />
+            </DimOperator>
+          </UnifiedDim>
+        </Dim>
+        <Dim type="BottomEdge" >
+          <UnifiedDim scale="1" type="BottomEdge">
+            <DimOperator op="Subtract">
+              <WidgetDim widget="__auto_hscrollbar__" dimension="Height" />
+            </DimOperator>
+          </UnifiedDim>
+        </Dim>
+      </Area>
+    </NamedArea>
+    <NamedArea name="WithFrameTextRenderAreaVScroll">
+      <Area>
+        <Dim type="LeftEdge" >
+          <ImageDim imageset="Embed" image="embed16Left" dimension="Width" />
+        </Dim>
+        <Dim type="TopEdge" >
+          <ImageDim imageset="Embed" image="embed16Top" dimension="Height" />
+        </Dim>
+        <Dim type="RightEdge" >
+          <UnifiedDim scale="1" type="RightEdge">
+            <DimOperator op="Subtract">
+              <WidgetDim widget="__auto_vscrollbar__" dimension="Width" />
+            </DimOperator>
+          </UnifiedDim>
+        </Dim>
+        <Dim type="BottomEdge" >
+          <UnifiedDim scale="1" type="BottomEdge">
+            <DimOperator op="Subtract">
+              <ImageDim imageset="Embed" image="embed16Bottom" dimension="Height" />
+            </DimOperator>
+          </UnifiedDim>
+        </Dim>
+      </Area>
+    </NamedArea>
+    <NamedArea name="WithFrameTextRenderAreaHVScroll">
+      <Area>
+        <Dim type="LeftEdge" >
+          <ImageDim imageset="Embed" image="embed16Left" dimension="Width" />
+        </Dim>
+        <Dim type="TopEdge" >
+          <ImageDim imageset="Embed" image="embed16Top" dimension="Height" />
+        </Dim>
+        <Dim type="RightEdge" >
+          <UnifiedDim scale="1" type="RightEdge">
+            <DimOperator op="Subtract">
+              <WidgetDim widget="__auto_vscrollbar__" dimension="Width" />
+            </DimOperator>
+          </UnifiedDim>
+        </Dim>
+        <Dim type="BottomEdge" >
+          <UnifiedDim scale="1" type="BottomEdge">
+            <DimOperator op="Subtract">
+              <WidgetDim widget="__auto_hscrollbar__" dimension="Height" />
+            </DimOperator>
+          </UnifiedDim>
+        </Dim>
+      </Area>
+    </NamedArea>
+    <NamedArea name="NoFrameTextRenderArea">
+      <Area>
+        <Dim type="LeftEdge" >
+          <AbsoluteDim value="0" />
+        </Dim>
+        <Dim type="TopEdge" >
+          <AbsoluteDim value="0" />
+        </Dim>
+        <Dim type="RightEdge" >
+          <UnifiedDim scale="1" type="RightEdge" />
+        </Dim>
+        <Dim type="BottomEdge" >
+          <UnifiedDim scale="1" type="BottomEdge" />
+        </Dim>
+      </Area>
+    </NamedArea>
+    <NamedArea name="NoFrameTextRenderAreaHScroll">
+      <Area>
+        <Dim type="LeftEdge" >
+          <AbsoluteDim value="0" />
+        </Dim>
+        <Dim type="TopEdge" >
+          <AbsoluteDim value="0" />
+        </Dim>
+        <Dim type="RightEdge" >
+          <UnifiedDim scale="1" type="RightEdge" />
+        </Dim>
+        <Dim type="BottomEdge" >
+          <UnifiedDim scale="1" type="BottomEdge">
+            <DimOperator op="Subtract">
+              <WidgetDim widget="__auto_hscrollbar__" dimension="Height" />
+            </DimOperator>
+          </UnifiedDim>
+        </Dim>
+      </Area>
+    </NamedArea>
+    <NamedArea name="NoFrameTextRenderAreaVScroll">
+      <Area>
+        <Dim type="LeftEdge" >
+          <AbsoluteDim value="0" />
+        </Dim>
+        <Dim type="TopEdge" >
+          <AbsoluteDim value="0" />
+        </Dim>
+        <Dim type="RightEdge" >
+          <UnifiedDim scale="1" type="RightEdge">
+            <DimOperator op="Subtract">
+              <WidgetDim widget="__auto_vscrollbar__" dimension="Width" />
+            </DimOperator>
+          </UnifiedDim>
+        </Dim>
+        <Dim type="BottomEdge" >
+          <UnifiedDim scale="1" type="BottomEdge" />
+        </Dim>
+      </Area>
+    </NamedArea>
+    <NamedArea name="NoFrameTextRenderAreaHVScroll">
+      <Area>
+        <Dim type="LeftEdge" >
+          <AbsoluteDim value="0" />
+        </Dim>
+        <Dim type="TopEdge" >
+          <AbsoluteDim value="0" />
+        </Dim>
+        <Dim type="RightEdge" >
+          <UnifiedDim scale="1" type="RightEdge">
+            <DimOperator op="Subtract">
+              <WidgetDim widget="__auto_vscrollbar__" dimension="Width" />
+            </DimOperator>
+          </UnifiedDim>
+        </Dim>
+        <Dim type="BottomEdge" >
+          <UnifiedDim scale="1" type="BottomEdge">
+            <DimOperator op="Subtract">
+              <WidgetDim widget="__auto_hscrollbar__" dimension="Height" />
+            </DimOperator>
+          </UnifiedDim>
+        </Dim>
+      </Area>
+    </NamedArea>
+    <Child  type="Embed/HorizontalScrollbar" nameSuffix="__auto_hscrollbar__">
+      <Area>
+        <Dim type="LeftEdge" >
+          <AbsoluteDim value="0" />
+        </Dim>
+        <Dim type="TopEdge" >
+          <AbsoluteDim value="0" />
+        </Dim>
+        <Dim type="Width" >
+          <UnifiedDim scale="1" offset="-1" type="Width" />
+        </Dim>
+        <Dim type="Height" >
+          <AbsoluteDim value="22" />
+        </Dim>
+      </Area>
+      <VertAlignment type="BottomAligned" />
+    </Child>
+    <Child  type="Embed/VerticalScrollbar" nameSuffix="__auto_vscrollbar__">
+      <Area>
+        <Dim type="LeftEdge" >
+          <AbsoluteDim value="0" />
+        </Dim>
+        <Dim type="TopEdge" >
+          <AbsoluteDim value="0" />
+        </Dim>
+        <Dim type="Width" >
+          <AbsoluteDim value="22" />
+        </Dim>
+        <Dim type="Height" >
+          <UnifiedDim scale="1" offset="-4" type="Height" />
+        </Dim>
+      </Area>
+      <HorzAlignment type="RightAligned" />
+    </Child>
+    <StateImagery name="Enabled" />
+    <StateImagery name="Disabled" />
+    <StateImagery name="EnabledFrame">
+      <Layer>
+        <Section look="Embed/EmbedShared16" section="frame" />
+      </Layer>
+    </StateImagery>
+    <StateImagery name="DisabledFrame">
+      <Layer>
+        <Section look="Embed/EmbedShared16" section="frame" />
+      </Layer>
+    </StateImagery>
+    <StateImagery name="WithFrameEnabledBackground">
+      <Layer>
+        <Section look="Embed/EmbedShared16" section="background" />
+      </Layer>
+    </StateImagery>
+    <StateImagery name="WithFrameDisabledBackground">
+      <Layer>
+        <Section look="Embed/EmbedShared16" section="background" />
+      </Layer>
+    </StateImagery>
+    <StateImagery name="NoFrameEnabledBackground">
+      <Layer>
+        <Section look="Embed/EmbedShared16" section="background_noframe" />
+      </Layer>
+    </StateImagery>
+    <StateImagery name="NoFrameDisabledBackground">
+      <Layer>
+        <Section look="Embed/EmbedShared16" section="background_noframe" />
+      </Layer>
+    </StateImagery>
+  </WidgetLook>
+
+	 <!--
+    ***************************************************
+        Embed/EmbedTextLab16
+    ***************************************************
+    -->
+  <WidgetLook name="Embed/EmbedTextLab16">
+    <PropertyDefinition name="FrameColours" initialValue="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" redrawOnWrite="true" />
+    <PropertyDefinition name="BackgroundColours" initialValue="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" redrawOnWrite="true" />
+    <Property name="TextColours"  value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF"  />
+
+    <Property name="FrameEnabled" value="True" />
+    <Property name="BackgroundEnabled" value="True" />
+    <NamedArea name="WithFrameTextRenderArea">
+      <Area>
+        <Dim type="LeftEdge" >
+          <ImageDim imageset="Embed" image="embed16Left" dimension="Width" />
+        </Dim>
+        <Dim type="TopEdge" >
+          <ImageDim imageset="Embed" image="embed16Top" dimension="Height" />
+        </Dim>
+        <Dim type="RightEdge" >
+          <UnifiedDim scale="1" type="RightEdge">
+            <DimOperator op="Subtract">
+              <ImageDim imageset="Embed" image="embed16Right" dimension="Width" />
+            </DimOperator>
+          </UnifiedDim>
+        </Dim>
+        <Dim type="BottomEdge" >
+          <UnifiedDim scale="1" type="BottomEdge">
+            <DimOperator op="Subtract">
+              <ImageDim imageset="Embed" image="embed16Bottom" dimension="Height" />
+            </DimOperator>
+          </UnifiedDim>
+        </Dim>
+      </Area>
+    </NamedArea>
+    
+    <NamedArea name="NoFrameTextRenderArea">
+      <Area>
+        <Dim type="LeftEdge" >
+          <AbsoluteDim value="0" />
+        </Dim>
+        <Dim type="TopEdge" >
+          <AbsoluteDim value="0" />
+        </Dim>
+        <Dim type="RightEdge" >
+          <UnifiedDim scale="1" type="RightEdge" />
+        </Dim>
+        <Dim type="BottomEdge" >
+          <UnifiedDim scale="1" type="BottomEdge" />
+        </Dim>
+      </Area>
+    </NamedArea>
+    
+    <StateImagery name="Enabled" />
+    <StateImagery name="Disabled" />
+    <StateImagery name="EnabledFrame">
+      <Layer>
+        <Section look="Embed/EmbedShared16" section="frame" />
+      </Layer>
+    </StateImagery>
+    <StateImagery name="DisabledFrame">
+      <Layer>
+        <Section look="Embed/EmbedShared16" section="frame" />
+      </Layer>
+    </StateImagery>
+    <StateImagery name="WithFrameEnabledBackground">
+      <Layer>
+        <Section look="Embed/EmbedShared16" section="background" />
+      </Layer>
+    </StateImagery>
+    <StateImagery name="WithFrameDisabledBackground">
+      <Layer>
+        <Section look="Embed/EmbedShared16" section="background" />
+      </Layer>
+    </StateImagery>
+    <StateImagery name="NoFrameEnabledBackground">
+      <Layer>
+        <Section look="Embed/EmbedShared16" section="background_noframe" />
+      </Layer>
+    </StateImagery>
+    <StateImagery name="NoFrameDisabledBackground">
+      <Layer>
+        <Section look="Embed/EmbedShared16" section="background_noframe" />
+      </Layer>
+    </StateImagery>
+  </WidgetLook>
+
+	
+	<!--
+    ***************************************************
+        Embed/EmbedShared16
+    ***************************************************
+    -->
+  <WidgetLook name="Embed/EmbedShared16">
+    <ImagerySection name="frame">
+      <FrameComponent>
+        <Area>
+          <Dim type="LeftEdge" >
+            <AbsoluteDim value="0" />
+          </Dim>
+          <Dim type="TopEdge" >
+            <AbsoluteDim value="0" />
+          </Dim>
+          <Dim type="Width" >
+            <UnifiedDim scale="1" type="Width" />
+          </Dim>
+          <Dim type="Height" >
+            <UnifiedDim scale="1" type="Height" />
+          </Dim>
+        </Area>
+        <Image type="TopLeftCorner" imageset="Embed" image="embed16TopLeft" />
+        <Image type="TopRightCorner" imageset="Embed" image="embed16TopRight" />
+        <Image type="BottomLeftCorner" imageset="Embed" image="embed16BottomLeft" />
+        <Image type="BottomRightCorner" imageset="Embed" image="embed16BottomRight" />
+        <Image type="LeftEdge" imageset="Embed" image="embed16Left" />
+        <Image type="RightEdge" imageset="Embed" image="embed16Right" />
+        <Image type="TopEdge" imageset="Embed" image="embed16Top" />
+        <Image type="BottomEdge" imageset="Embed" image="embed16Bottom" />
+        <ColourRectProperty name="FrameColours" />
+      </FrameComponent>
+    </ImagerySection>
+    <ImagerySection name="background">
+      <ImageryComponent>
+        <Area>
+          <Dim type="LeftEdge" >
+            <ImageDim imageset="Embed" image="embed16Left" dimension="Width" />
+          </Dim>
+          <Dim type="TopEdge" >
+            <ImageDim imageset="Embed" image="embed16Top" dimension="Height" />
+          </Dim>
+          <Dim type="RightEdge" >
+            <UnifiedDim scale="1" type="RightEdge">
+              <DimOperator op="Subtract">
+                <ImageDim imageset="Embed" image="embed16Right" dimension="Width" />
+              </DimOperator>
+            </UnifiedDim>
+          </Dim>
+          <Dim type="BottomEdge" >
+            <UnifiedDim scale="1" type="BottomEdge">
+              <DimOperator op="Subtract">
+                <ImageDim imageset="Embed" image="embed16Bottom" dimension="Height" />
+              </DimOperator>
+            </UnifiedDim>
+          </Dim>
+        </Area>
+        <Image imageset="Embed" image="embed16Backdrop" />
+        <!--<ColourRectProperty name="BackgroundColours" />-->
+        <Colours topLeft="FFFFFFFF" topRight="FFFFFFFF" bottomLeft="FFFFFFFF" bottomRight="FFFFFFFF" />
+        <VertFormat type="Stretched" />
+        <HorzFormat type="Stretched" />
+      </ImageryComponent>
+    </ImagerySection>
+    <ImagerySection name="background_noframe">
+      <ImageryComponent>
+        <Area>
+          <Dim type="LeftEdge">
+            <AbsoluteDim value="0" />
+          </Dim>
+          <Dim type="TopEdge">
+            <AbsoluteDim value="0" />
+          </Dim>
+          <Dim type="RightEdge">
+            <UnifiedDim scale="1" type="RightEdge" />
+          </Dim>
+          <Dim type="BottomEdge">
+            <UnifiedDim scale="1" type="BottomEdge" />
+          </Dim>
+        </Area>
+        <Image imageset="Embed" image="embed16Backdrop" />
+        <!--<ColourRectProperty name="BackgroundColours" />-->
+        <Colours topLeft="FFFFFFFF" topRight="FFFFFFFF" bottomLeft="FFFFFFFF" bottomRight="FFFFFFFF" />
+        <VertFormat type="Stretched" />
+        <HorzFormat type="Stretched" />
+      </ImageryComponent>
+    </ImagerySection>
+  </WidgetLook>  
+
+	<!--
+    ***************************************************
+        Embed/Embed17
+	***************************************************
+    -->
+    <WidgetLook name="Embed/Embed17">
+	<PropertyDefinition name="FrameColours" initialValue="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" redrawOnWrite="true" /> 
+        <PropertyDefinition name="BackgroundColours" initialValue="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" redrawOnWrite="true" />
+        <PropertyDefinition name="TextPadding" initialValue="0" redrawOnWrite="true" />
+        <PropertyDefinition name="HorzFormatting" initialValue="LeftAligned" redrawOnWrite="true" />
+        <PropertyDefinition name="VertFormatting" initialValue="CentreAligned" redrawOnWrite="true" />
+        <Property name="BackgroundEnabled" value="True" />
+        <Property name="FrameEnabled" value="True" />
+        <ImagerySection name="label">
+            <TextComponent>
+                <Area>
+                    <Dim type="LeftEdge">
+                        <PropertyDim name="TextPadding" />
+                    </Dim>
+                    <Dim type="TopEdge">
+                        <PropertyDim name="TextPadding" />
+                    </Dim>
+                    <Dim type="RightEdge">
+                        <UnifiedDim scale="1" type="RightEdge">
+							<DimOperator op="Subtract">
+								<PropertyDim name="TextPadding" />
+							</DimOperator>
+                        </UnifiedDim>
+                    </Dim>
+                    <Dim type="BottomEdge">
+                        <UnifiedDim scale="1" type="BottomEdge">
+							<DimOperator op="Subtract">
+								<PropertyDim name="TextPadding" />
+							</DimOperator>
+                        </UnifiedDim>
+                    </Dim>
+                </Area>
+                <Colours topLeft="FF000000" topRight="FF000000" bottomLeft="FF000000" bottomRight="FF000000" />
+                <VertFormatProperty name="VertFormatting" />
+                <HorzFormatProperty name="HorzFormatting" />
+            </TextComponent>
+        </ImagerySection>
+        <StateImagery name="Enabled">
+            <Layer>
+                <Section section="label" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="Disabled">
+            <Layer>
+                <Section section="label" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="EnabledFrame">
+            <Layer>
+                <Section look="Embed/EmbedShared17" section="frame" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="DisabledFrame">
+            <Layer>
+                <Section look="Embed/EmbedShared17" section="frame" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="WithFrameEnabledBackground">
+            <Layer>
+                <Section look="Embed/EmbedShared17" section="background">
+					<ColourRectProperty name="BackgroundColours" />
+                </Section>
+            </Layer>
+        </StateImagery>
+        <StateImagery name="WithFrameDisabledBackground">
+            <Layer>
+                <Section look="Embed/EmbedShared17" section="background">
+					<ColourRectProperty name="BackgroundColours" />
+                </Section>
+            </Layer>
+        </StateImagery>
+        <StateImagery name="NoFrameEnabledBackground">
+            <Layer>
+                <Section look="Embed/EmbedShared17" section="background_noframe">
+					<ColourRectProperty name="BackgroundColours" />
+                </Section>
+            </Layer>
+        </StateImagery>
+        <StateImagery name="NoFrameDisabledBackground">
+            <Layer>
+                <Section look="Embed/EmbedShared17" section="background_noframe">
+					<ColourRectProperty name="BackgroundColours" />
+                </Section>
+            </Layer>
+        </StateImagery>
+    </WidgetLook>
+
+
+	 <!--
+    ***************************************************
+        Embed/EmbedText17
+    ***************************************************
+    -->
+  <WidgetLook name="Embed/EmbedText17">
+    <PropertyDefinition name="FrameColours" initialValue="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" redrawOnWrite="true" />
+    <PropertyDefinition name="BackgroundColours" initialValue="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" redrawOnWrite="true" />
+    <Property name="TextColours"  value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF"  />
+
+    <Property name="FrameEnabled" value="True" />
+    <Property name="BackgroundEnabled" value="True" />
+    <NamedArea name="WithFrameTextRenderArea">
+      <Area>
+        <Dim type="LeftEdge" >
+          <ImageDim imageset="Embed" image="embed17Left" dimension="Width" />
+        </Dim>
+        <Dim type="TopEdge" >
+          <ImageDim imageset="Embed" image="embed17Top" dimension="Height" />
+        </Dim>
+        <Dim type="RightEdge" >
+          <UnifiedDim scale="1" type="RightEdge">
+            <DimOperator op="Subtract">
+              <ImageDim imageset="Embed" image="embed17Right" dimension="Width" />
+            </DimOperator>
+          </UnifiedDim>
+        </Dim>
+        <Dim type="BottomEdge" >
+          <UnifiedDim scale="1" type="BottomEdge">
+            <DimOperator op="Subtract">
+              <ImageDim imageset="Embed" image="embed17Bottom" dimension="Height" />
+            </DimOperator>
+          </UnifiedDim>
+        </Dim>
+      </Area>
+    </NamedArea>
+    <NamedArea name="WithFrameTextRenderAreaHScroll">
+      <Area>
+        <Dim type="LeftEdge" >
+          <ImageDim imageset="Embed" image="embed17Left" dimension="Width" />
+        </Dim>
+        <Dim type="TopEdge" >
+          <ImageDim imageset="Embed" image="embed17Top" dimension="Height" />
+        </Dim>
+        <Dim type="RightEdge" >
+          <UnifiedDim scale="1" type="RightEdge">
+            <DimOperator op="Subtract">
+              <ImageDim imageset="Embed" image="embed17Right" dimension="Width" />
+            </DimOperator>
+          </UnifiedDim>
+        </Dim>
+        <Dim type="BottomEdge" >
+          <UnifiedDim scale="1" type="BottomEdge">
+            <DimOperator op="Subtract">
+              <WidgetDim widget="__auto_hscrollbar__" dimension="Height" />
+            </DimOperator>
+          </UnifiedDim>
+        </Dim>
+      </Area>
+    </NamedArea>
+    <NamedArea name="WithFrameTextRenderAreaVScroll">
+      <Area>
+        <Dim type="LeftEdge" >
+          <ImageDim imageset="Embed" image="embed17Left" dimension="Width" />
+        </Dim>
+        <Dim type="TopEdge" >
+          <ImageDim imageset="Embed" image="embed17Top" dimension="Height" />
+        </Dim>
+        <Dim type="RightEdge" >
+          <UnifiedDim scale="1" type="RightEdge">
+            <DimOperator op="Subtract">
+              <WidgetDim widget="__auto_vscrollbar__" dimension="Width" />
+            </DimOperator>
+          </UnifiedDim>
+        </Dim>
+        <Dim type="BottomEdge" >
+          <UnifiedDim scale="1" type="BottomEdge">
+            <DimOperator op="Subtract">
+              <ImageDim imageset="Embed" image="embed17Bottom" dimension="Height" />
+            </DimOperator>
+          </UnifiedDim>
+        </Dim>
+      </Area>
+    </NamedArea>
+    <NamedArea name="WithFrameTextRenderAreaHVScroll">
+      <Area>
+        <Dim type="LeftEdge" >
+          <ImageDim imageset="Embed" image="embed17Left" dimension="Width" />
+        </Dim>
+        <Dim type="TopEdge" >
+          <ImageDim imageset="Embed" image="embed17Top" dimension="Height" />
+        </Dim>
+        <Dim type="RightEdge" >
+          <UnifiedDim scale="1" type="RightEdge">
+            <DimOperator op="Subtract">
+              <WidgetDim widget="__auto_vscrollbar__" dimension="Width" />
+            </DimOperator>
+          </UnifiedDim>
+        </Dim>
+        <Dim type="BottomEdge" >
+          <UnifiedDim scale="1" type="BottomEdge">
+            <DimOperator op="Subtract">
+              <WidgetDim widget="__auto_hscrollbar__" dimension="Height" />
+            </DimOperator>
+          </UnifiedDim>
+        </Dim>
+      </Area>
+    </NamedArea>
+    <NamedArea name="NoFrameTextRenderArea">
+      <Area>
+        <Dim type="LeftEdge" >
+          <AbsoluteDim value="0" />
+        </Dim>
+        <Dim type="TopEdge" >
+          <AbsoluteDim value="0" />
+        </Dim>
+        <Dim type="RightEdge" >
+          <UnifiedDim scale="1" type="RightEdge" />
+        </Dim>
+        <Dim type="BottomEdge" >
+          <UnifiedDim scale="1" type="BottomEdge" />
+        </Dim>
+      </Area>
+    </NamedArea>
+    <NamedArea name="NoFrameTextRenderAreaHScroll">
+      <Area>
+        <Dim type="LeftEdge" >
+          <AbsoluteDim value="0" />
+        </Dim>
+        <Dim type="TopEdge" >
+          <AbsoluteDim value="0" />
+        </Dim>
+        <Dim type="RightEdge" >
+          <UnifiedDim scale="1" type="RightEdge" />
+        </Dim>
+        <Dim type="BottomEdge" >
+          <UnifiedDim scale="1" type="BottomEdge">
+            <DimOperator op="Subtract">
+              <WidgetDim widget="__auto_hscrollbar__" dimension="Height" />
+            </DimOperator>
+          </UnifiedDim>
+        </Dim>
+      </Area>
+    </NamedArea>
+    <NamedArea name="NoFrameTextRenderAreaVScroll">
+      <Area>
+        <Dim type="LeftEdge" >
+          <AbsoluteDim value="0" />
+        </Dim>
+        <Dim type="TopEdge" >
+          <AbsoluteDim value="0" />
+        </Dim>
+        <Dim type="RightEdge" >
+          <UnifiedDim scale="1" type="RightEdge">
+            <DimOperator op="Subtract">
+              <WidgetDim widget="__auto_vscrollbar__" dimension="Width" />
+            </DimOperator>
+          </UnifiedDim>
+        </Dim>
+        <Dim type="BottomEdge" >
+          <UnifiedDim scale="1" type="BottomEdge" />
+        </Dim>
+      </Area>
+    </NamedArea>
+    <NamedArea name="NoFrameTextRenderAreaHVScroll">
+      <Area>
+        <Dim type="LeftEdge" >
+          <AbsoluteDim value="0" />
+        </Dim>
+        <Dim type="TopEdge" >
+          <AbsoluteDim value="0" />
+        </Dim>
+        <Dim type="RightEdge" >
+          <UnifiedDim scale="1" type="RightEdge">
+            <DimOperator op="Subtract">
+              <WidgetDim widget="__auto_vscrollbar__" dimension="Width" />
+            </DimOperator>
+          </UnifiedDim>
+        </Dim>
+        <Dim type="BottomEdge" >
+          <UnifiedDim scale="1" type="BottomEdge">
+            <DimOperator op="Subtract">
+              <WidgetDim widget="__auto_hscrollbar__" dimension="Height" />
+            </DimOperator>
+          </UnifiedDim>
+        </Dim>
+      </Area>
+    </NamedArea>
+    <Child  type="Embed/HorizontalScrollbar" nameSuffix="__auto_hscrollbar__">
+      <Area>
+        <Dim type="LeftEdge" >
+          <AbsoluteDim value="0" />
+        </Dim>
+        <Dim type="TopEdge" >
+          <AbsoluteDim value="0" />
+        </Dim>
+        <Dim type="Width" >
+          <UnifiedDim scale="1" offset="-1" type="Width" />
+        </Dim>
+        <Dim type="Height" >
+          <AbsoluteDim value="22" />
+        </Dim>
+      </Area>
+      <VertAlignment type="BottomAligned" />
+    </Child>
+    <Child  type="Embed/VerticalScrollbar" nameSuffix="__auto_vscrollbar__">
+      <Area>
+        <Dim type="LeftEdge" >
+          <AbsoluteDim value="0" />
+        </Dim>
+        <Dim type="TopEdge" >
+          <AbsoluteDim value="0" />
+        </Dim>
+        <Dim type="Width" >
+          <AbsoluteDim value="22" />
+        </Dim>
+        <Dim type="Height" >
+          <UnifiedDim scale="1" offset="-4" type="Height" />
+        </Dim>
+      </Area>
+      <HorzAlignment type="RightAligned" />
+    </Child>
+    <StateImagery name="Enabled" />
+    <StateImagery name="Disabled" />
+    <StateImagery name="EnabledFrame">
+      <Layer>
+        <Section look="Embed/EmbedShared17" section="frame" />
+      </Layer>
+    </StateImagery>
+    <StateImagery name="DisabledFrame">
+      <Layer>
+        <Section look="Embed/EmbedShared17" section="frame" />
+      </Layer>
+    </StateImagery>
+    <StateImagery name="WithFrameEnabledBackground">
+      <Layer>
+        <Section look="Embed/EmbedShared17" section="background" />
+      </Layer>
+    </StateImagery>
+    <StateImagery name="WithFrameDisabledBackground">
+      <Layer>
+        <Section look="Embed/EmbedShared17" section="background" />
+      </Layer>
+    </StateImagery>
+    <StateImagery name="NoFrameEnabledBackground">
+      <Layer>
+        <Section look="Embed/EmbedShared17" section="background_noframe" />
+      </Layer>
+    </StateImagery>
+    <StateImagery name="NoFrameDisabledBackground">
+      <Layer>
+        <Section look="Embed/EmbedShared17" section="background_noframe" />
+      </Layer>
+    </StateImagery>
+  </WidgetLook>
+
+	 <!--
+    ***************************************************
+        Embed/EmbedTextLab17
+    ***************************************************
+    -->
+  <WidgetLook name="Embed/EmbedTextLab17">
+    <PropertyDefinition name="FrameColours" initialValue="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" redrawOnWrite="true" />
+    <PropertyDefinition name="BackgroundColours" initialValue="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" redrawOnWrite="true" />
+    <Property name="TextColours"  value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF"  />
+
+    <Property name="FrameEnabled" value="True" />
+    <Property name="BackgroundEnabled" value="True" />
+    <NamedArea name="WithFrameTextRenderArea">
+      <Area>
+        <Dim type="LeftEdge" >
+          <ImageDim imageset="Embed" image="embed17Left" dimension="Width" />
+        </Dim>
+        <Dim type="TopEdge" >
+          <ImageDim imageset="Embed" image="embed17Top" dimension="Height" />
+        </Dim>
+        <Dim type="RightEdge" >
+          <UnifiedDim scale="1" type="RightEdge">
+            <DimOperator op="Subtract">
+              <ImageDim imageset="Embed" image="embed17Right" dimension="Width" />
+            </DimOperator>
+          </UnifiedDim>
+        </Dim>
+        <Dim type="BottomEdge" >
+          <UnifiedDim scale="1" type="BottomEdge">
+            <DimOperator op="Subtract">
+              <ImageDim imageset="Embed" image="embed17Bottom" dimension="Height" />
+            </DimOperator>
+          </UnifiedDim>
+        </Dim>
+      </Area>
+    </NamedArea>
+    
+    <NamedArea name="NoFrameTextRenderArea">
+      <Area>
+        <Dim type="LeftEdge" >
+          <AbsoluteDim value="0" />
+        </Dim>
+        <Dim type="TopEdge" >
+          <AbsoluteDim value="0" />
+        </Dim>
+        <Dim type="RightEdge" >
+          <UnifiedDim scale="1" type="RightEdge" />
+        </Dim>
+        <Dim type="BottomEdge" >
+          <UnifiedDim scale="1" type="BottomEdge" />
+        </Dim>
+      </Area>
+    </NamedArea>
+    
+    <StateImagery name="Enabled" />
+    <StateImagery name="Disabled" />
+    <StateImagery name="EnabledFrame">
+      <Layer>
+        <Section look="Embed/EmbedShared17" section="frame" />
+      </Layer>
+    </StateImagery>
+    <StateImagery name="DisabledFrame">
+      <Layer>
+        <Section look="Embed/EmbedShared17" section="frame" />
+      </Layer>
+    </StateImagery>
+    <StateImagery name="WithFrameEnabledBackground">
+      <Layer>
+        <Section look="Embed/EmbedShared17" section="background" />
+      </Layer>
+    </StateImagery>
+    <StateImagery name="WithFrameDisabledBackground">
+      <Layer>
+        <Section look="Embed/EmbedShared17" section="background" />
+      </Layer>
+    </StateImagery>
+    <StateImagery name="NoFrameEnabledBackground">
+      <Layer>
+        <Section look="Embed/EmbedShared17" section="background_noframe" />
+      </Layer>
+    </StateImagery>
+    <StateImagery name="NoFrameDisabledBackground">
+      <Layer>
+        <Section look="Embed/EmbedShared17" section="background_noframe" />
+      </Layer>
+    </StateImagery>
+  </WidgetLook>
+
+	
+	<!--
+    ***************************************************
+        Embed/EmbedShared17
+    ***************************************************
+    -->
+  <WidgetLook name="Embed/EmbedShared17">
+    <ImagerySection name="frame">
+      <FrameComponent>
+        <Area>
+          <Dim type="LeftEdge" >
+            <AbsoluteDim value="0" />
+          </Dim>
+          <Dim type="TopEdge" >
+            <AbsoluteDim value="0" />
+          </Dim>
+          <Dim type="Width" >
+            <UnifiedDim scale="1" type="Width" />
+          </Dim>
+          <Dim type="Height" >
+            <UnifiedDim scale="1" type="Height" />
+          </Dim>
+        </Area>
+        <Image type="TopLeftCorner" imageset="Embed" image="embed17TopLeft" />
+        <Image type="TopRightCorner" imageset="Embed" image="embed17TopRight" />
+        <Image type="BottomLeftCorner" imageset="Embed" image="embed17BottomLeft" />
+        <Image type="BottomRightCorner" imageset="Embed" image="embed17BottomRight" />
+        <Image type="LeftEdge" imageset="Embed" image="embed17Left" />
+        <Image type="RightEdge" imageset="Embed" image="embed17Right" />
+        <Image type="TopEdge" imageset="Embed" image="embed17Top" />
+        <Image type="BottomEdge" imageset="Embed" image="embed17Bottom" />
+        <ColourRectProperty name="FrameColours" />
+      </FrameComponent>
+    </ImagerySection>
+    <ImagerySection name="background">
+      <ImageryComponent>
+        <Area>
+          <Dim type="LeftEdge" >
+            <ImageDim imageset="Embed" image="embed17Left" dimension="Width" />
+          </Dim>
+          <Dim type="TopEdge" >
+            <ImageDim imageset="Embed" image="embed17Top" dimension="Height" />
+          </Dim>
+          <Dim type="RightEdge" >
+            <UnifiedDim scale="1" type="RightEdge">
+              <DimOperator op="Subtract">
+                <ImageDim imageset="Embed" image="embed17Right" dimension="Width" />
+              </DimOperator>
+            </UnifiedDim>
+          </Dim>
+          <Dim type="BottomEdge" >
+            <UnifiedDim scale="1" type="BottomEdge">
+              <DimOperator op="Subtract">
+                <ImageDim imageset="Embed" image="embed17Bottom" dimension="Height" />
+              </DimOperator>
+            </UnifiedDim>
+          </Dim>
+        </Area>
+        <Image imageset="Embed" image="embed17Backdrop" />
+        <!--<ColourRectProperty name="BackgroundColours" />-->
+        <Colours topLeft="FFFFFFFF" topRight="FFFFFFFF" bottomLeft="FFFFFFFF" bottomRight="FFFFFFFF" />
+        <VertFormat type="Stretched" />
+        <HorzFormat type="Stretched" />
+      </ImageryComponent>
+    </ImagerySection>
+    <ImagerySection name="background_noframe">
+      <ImageryComponent>
+        <Area>
+          <Dim type="LeftEdge">
+            <AbsoluteDim value="0" />
+          </Dim>
+          <Dim type="TopEdge">
+            <AbsoluteDim value="0" />
+          </Dim>
+          <Dim type="RightEdge">
+            <UnifiedDim scale="1" type="RightEdge" />
+          </Dim>
+          <Dim type="BottomEdge">
+            <UnifiedDim scale="1" type="BottomEdge" />
+          </Dim>
+        </Area>
+        <Image imageset="Embed" image="embed17Backdrop" />
+        <!--<ColourRectProperty name="BackgroundColours" />-->
+        <Colours topLeft="FFFFFFFF" topRight="FFFFFFFF" bottomLeft="FFFFFFFF" bottomRight="FFFFFFFF" />
+        <VertFormat type="Stretched" />
+        <HorzFormat type="Stretched" />
+      </ImageryComponent>
+    </ImagerySection>
+  </WidgetLook>  
+
+	<!--
+    ***************************************************
+        Embed/Embed18
+	***************************************************
+    -->
+    <WidgetLook name="Embed/Embed18">
+	<PropertyDefinition name="FrameColours" initialValue="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" redrawOnWrite="true" /> 
+        <PropertyDefinition name="BackgroundColours" initialValue="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" redrawOnWrite="true" />
+        <PropertyDefinition name="TextPadding" initialValue="0" redrawOnWrite="true" />
+        <PropertyDefinition name="HorzFormatting" initialValue="LeftAligned" redrawOnWrite="true" />
+        <PropertyDefinition name="VertFormatting" initialValue="CentreAligned" redrawOnWrite="true" />
+        <Property name="BackgroundEnabled" value="True" />
+        <Property name="FrameEnabled" value="True" />
+        <ImagerySection name="label">
+            <TextComponent>
+                <Area>
+                    <Dim type="LeftEdge">
+                        <PropertyDim name="TextPadding" />
+                    </Dim>
+                    <Dim type="TopEdge">
+                        <PropertyDim name="TextPadding" />
+                    </Dim>
+                    <Dim type="RightEdge">
+                        <UnifiedDim scale="1" type="RightEdge">
+							<DimOperator op="Subtract">
+								<PropertyDim name="TextPadding" />
+							</DimOperator>
+                        </UnifiedDim>
+                    </Dim>
+                    <Dim type="BottomEdge">
+                        <UnifiedDim scale="1" type="BottomEdge">
+							<DimOperator op="Subtract">
+								<PropertyDim name="TextPadding" />
+							</DimOperator>
+                        </UnifiedDim>
+                    </Dim>
+                </Area>
+                <Colours topLeft="FF000000" topRight="FF000000" bottomLeft="FF000000" bottomRight="FF000000" />
+                <VertFormatProperty name="VertFormatting" />
+                <HorzFormatProperty name="HorzFormatting" />
+            </TextComponent>
+        </ImagerySection>
+        <StateImagery name="Enabled">
+            <Layer>
+                <Section section="label" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="Disabled">
+            <Layer>
+                <Section section="label" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="EnabledFrame">
+            <Layer>
+                <Section look="Embed/EmbedShared18" section="frame" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="DisabledFrame">
+            <Layer>
+                <Section look="Embed/EmbedShared18" section="frame" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="WithFrameEnabledBackground">
+            <Layer>
+                <Section look="Embed/EmbedShared18" section="background">
+					<ColourRectProperty name="BackgroundColours" />
+                </Section>
+            </Layer>
+        </StateImagery>
+        <StateImagery name="WithFrameDisabledBackground">
+            <Layer>
+                <Section look="Embed/EmbedShared18" section="background">
+					<ColourRectProperty name="BackgroundColours" />
+                </Section>
+            </Layer>
+        </StateImagery>
+        <StateImagery name="NoFrameEnabledBackground">
+            <Layer>
+                <Section look="Embed/EmbedShared18" section="background_noframe">
+					<ColourRectProperty name="BackgroundColours" />
+                </Section>
+            </Layer>
+        </StateImagery>
+        <StateImagery name="NoFrameDisabledBackground">
+            <Layer>
+                <Section look="Embed/EmbedShared18" section="background_noframe">
+					<ColourRectProperty name="BackgroundColours" />
+                </Section>
+            </Layer>
+        </StateImagery>
+    </WidgetLook>
+
+
+	 <!--
+    ***************************************************
+        Embed/EmbedText18
+    ***************************************************
+    -->
+  <WidgetLook name="Embed/EmbedText18">
+    <PropertyDefinition name="FrameColours" initialValue="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" redrawOnWrite="true" />
+    <PropertyDefinition name="BackgroundColours" initialValue="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" redrawOnWrite="true" />
+    <Property name="TextColours"  value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF"  />
+
+    <Property name="FrameEnabled" value="True" />
+    <Property name="BackgroundEnabled" value="True" />
+    <NamedArea name="WithFrameTextRenderArea">
+      <Area>
+        <Dim type="LeftEdge" >
+          <ImageDim imageset="Embed" image="embed18Left" dimension="Width" />
+        </Dim>
+        <Dim type="TopEdge" >
+          <ImageDim imageset="Embed" image="embed18Top" dimension="Height" />
+        </Dim>
+        <Dim type="RightEdge" >
+          <UnifiedDim scale="1" type="RightEdge">
+            <DimOperator op="Subtract">
+              <ImageDim imageset="Embed" image="embed18Right" dimension="Width" />
+            </DimOperator>
+          </UnifiedDim>
+        </Dim>
+        <Dim type="BottomEdge" >
+          <UnifiedDim scale="1" type="BottomEdge">
+            <DimOperator op="Subtract">
+              <ImageDim imageset="Embed" image="embed18Bottom" dimension="Height" />
+            </DimOperator>
+          </UnifiedDim>
+        </Dim>
+      </Area>
+    </NamedArea>
+    <NamedArea name="WithFrameTextRenderAreaHScroll">
+      <Area>
+        <Dim type="LeftEdge" >
+          <ImageDim imageset="Embed" image="embed18Left" dimension="Width" />
+        </Dim>
+        <Dim type="TopEdge" >
+          <ImageDim imageset="Embed" image="embed18Top" dimension="Height" />
+        </Dim>
+        <Dim type="RightEdge" >
+          <UnifiedDim scale="1" type="RightEdge">
+            <DimOperator op="Subtract">
+              <ImageDim imageset="Embed" image="embed18Right" dimension="Width" />
+            </DimOperator>
+          </UnifiedDim>
+        </Dim>
+        <Dim type="BottomEdge" >
+          <UnifiedDim scale="1" type="BottomEdge">
+            <DimOperator op="Subtract">
+              <WidgetDim widget="__auto_hscrollbar__" dimension="Height" />
+            </DimOperator>
+          </UnifiedDim>
+        </Dim>
+      </Area>
+    </NamedArea>
+    <NamedArea name="WithFrameTextRenderAreaVScroll">
+      <Area>
+        <Dim type="LeftEdge" >
+          <ImageDim imageset="Embed" image="embed18Left" dimension="Width" />
+        </Dim>
+        <Dim type="TopEdge" >
+          <ImageDim imageset="Embed" image="embed18Top" dimension="Height" />
+        </Dim>
+        <Dim type="RightEdge" >
+          <UnifiedDim scale="1" type="RightEdge">
+            <DimOperator op="Subtract">
+              <WidgetDim widget="__auto_vscrollbar__" dimension="Width" />
+            </DimOperator>
+          </UnifiedDim>
+        </Dim>
+        <Dim type="BottomEdge" >
+          <UnifiedDim scale="1" type="BottomEdge">
+            <DimOperator op="Subtract">
+              <ImageDim imageset="Embed" image="embed18Bottom" dimension="Height" />
+            </DimOperator>
+          </UnifiedDim>
+        </Dim>
+      </Area>
+    </NamedArea>
+    <NamedArea name="WithFrameTextRenderAreaHVScroll">
+      <Area>
+        <Dim type="LeftEdge" >
+          <ImageDim imageset="Embed" image="embed18Left" dimension="Width" />
+        </Dim>
+        <Dim type="TopEdge" >
+          <ImageDim imageset="Embed" image="embed18Top" dimension="Height" />
+        </Dim>
+        <Dim type="RightEdge" >
+          <UnifiedDim scale="1" type="RightEdge">
+            <DimOperator op="Subtract">
+              <WidgetDim widget="__auto_vscrollbar__" dimension="Width" />
+            </DimOperator>
+          </UnifiedDim>
+        </Dim>
+        <Dim type="BottomEdge" >
+          <UnifiedDim scale="1" type="BottomEdge">
+            <DimOperator op="Subtract">
+              <WidgetDim widget="__auto_hscrollbar__" dimension="Height" />
+            </DimOperator>
+          </UnifiedDim>
+        </Dim>
+      </Area>
+    </NamedArea>
+    <NamedArea name="NoFrameTextRenderArea">
+      <Area>
+        <Dim type="LeftEdge" >
+          <AbsoluteDim value="0" />
+        </Dim>
+        <Dim type="TopEdge" >
+          <AbsoluteDim value="0" />
+        </Dim>
+        <Dim type="RightEdge" >
+          <UnifiedDim scale="1" type="RightEdge" />
+        </Dim>
+        <Dim type="BottomEdge" >
+          <UnifiedDim scale="1" type="BottomEdge" />
+        </Dim>
+      </Area>
+    </NamedArea>
+    <NamedArea name="NoFrameTextRenderAreaHScroll">
+      <Area>
+        <Dim type="LeftEdge" >
+          <AbsoluteDim value="0" />
+        </Dim>
+        <Dim type="TopEdge" >
+          <AbsoluteDim value="0" />
+        </Dim>
+        <Dim type="RightEdge" >
+          <UnifiedDim scale="1" type="RightEdge" />
+        </Dim>
+        <Dim type="BottomEdge" >
+          <UnifiedDim scale="1" type="BottomEdge">
+            <DimOperator op="Subtract">
+              <WidgetDim widget="__auto_hscrollbar__" dimension="Height" />
+            </DimOperator>
+          </UnifiedDim>
+        </Dim>
+      </Area>
+    </NamedArea>
+    <NamedArea name="NoFrameTextRenderAreaVScroll">
+      <Area>
+        <Dim type="LeftEdge" >
+          <AbsoluteDim value="0" />
+        </Dim>
+        <Dim type="TopEdge" >
+          <AbsoluteDim value="0" />
+        </Dim>
+        <Dim type="RightEdge" >
+          <UnifiedDim scale="1" type="RightEdge">
+            <DimOperator op="Subtract">
+              <WidgetDim widget="__auto_vscrollbar__" dimension="Width" />
+            </DimOperator>
+          </UnifiedDim>
+        </Dim>
+        <Dim type="BottomEdge" >
+          <UnifiedDim scale="1" type="BottomEdge" />
+        </Dim>
+      </Area>
+    </NamedArea>
+    <NamedArea name="NoFrameTextRenderAreaHVScroll">
+      <Area>
+        <Dim type="LeftEdge" >
+          <AbsoluteDim value="0" />
+        </Dim>
+        <Dim type="TopEdge" >
+          <AbsoluteDim value="0" />
+        </Dim>
+        <Dim type="RightEdge" >
+          <UnifiedDim scale="1" type="RightEdge">
+            <DimOperator op="Subtract">
+              <WidgetDim widget="__auto_vscrollbar__" dimension="Width" />
+            </DimOperator>
+          </UnifiedDim>
+        </Dim>
+        <Dim type="BottomEdge" >
+          <UnifiedDim scale="1" type="BottomEdge">
+            <DimOperator op="Subtract">
+              <WidgetDim widget="__auto_hscrollbar__" dimension="Height" />
+            </DimOperator>
+          </UnifiedDim>
+        </Dim>
+      </Area>
+    </NamedArea>
+    <Child  type="Embed/HorizontalScrollbar" nameSuffix="__auto_hscrollbar__">
+      <Area>
+        <Dim type="LeftEdge" >
+          <AbsoluteDim value="0" />
+        </Dim>
+        <Dim type="TopEdge" >
+          <AbsoluteDim value="0" />
+        </Dim>
+        <Dim type="Width" >
+          <UnifiedDim scale="1" offset="-1" type="Width" />
+        </Dim>
+        <Dim type="Height" >
+          <AbsoluteDim value="22" />
+        </Dim>
+      </Area>
+      <VertAlignment type="BottomAligned" />
+    </Child>
+    <Child  type="Embed/VerticalScrollbar" nameSuffix="__auto_vscrollbar__">
+      <Area>
+        <Dim type="LeftEdge" >
+          <AbsoluteDim value="0" />
+        </Dim>
+        <Dim type="TopEdge" >
+          <AbsoluteDim value="0" />
+        </Dim>
+        <Dim type="Width" >
+          <AbsoluteDim value="22" />
+        </Dim>
+        <Dim type="Height" >
+          <UnifiedDim scale="1" offset="-4" type="Height" />
+        </Dim>
+      </Area>
+      <HorzAlignment type="RightAligned" />
+    </Child>
+    <StateImagery name="Enabled" />
+    <StateImagery name="Disabled" />
+    <StateImagery name="EnabledFrame">
+      <Layer>
+        <Section look="Embed/EmbedShared18" section="frame" />
+      </Layer>
+    </StateImagery>
+    <StateImagery name="DisabledFrame">
+      <Layer>
+        <Section look="Embed/EmbedShared18" section="frame" />
+      </Layer>
+    </StateImagery>
+    <StateImagery name="WithFrameEnabledBackground">
+      <Layer>
+        <Section look="Embed/EmbedShared18" section="background" />
+      </Layer>
+    </StateImagery>
+    <StateImagery name="WithFrameDisabledBackground">
+      <Layer>
+        <Section look="Embed/EmbedShared18" section="background" />
+      </Layer>
+    </StateImagery>
+    <StateImagery name="NoFrameEnabledBackground">
+      <Layer>
+        <Section look="Embed/EmbedShared18" section="background_noframe" />
+      </Layer>
+    </StateImagery>
+    <StateImagery name="NoFrameDisabledBackground">
+      <Layer>
+        <Section look="Embed/EmbedShared18" section="background_noframe" />
+      </Layer>
+    </StateImagery>
+  </WidgetLook>
+
+	 <!--
+    ***************************************************
+        Embed/EmbedTextLab18
+    ***************************************************
+    -->
+  <WidgetLook name="Embed/EmbedTextLab18">
+    <PropertyDefinition name="FrameColours" initialValue="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" redrawOnWrite="true" />
+    <PropertyDefinition name="BackgroundColours" initialValue="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" redrawOnWrite="true" />
+    <Property name="TextColours"  value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF"  />
+
+    <Property name="FrameEnabled" value="True" />
+    <Property name="BackgroundEnabled" value="True" />
+    <NamedArea name="WithFrameTextRenderArea">
+      <Area>
+        <Dim type="LeftEdge" >
+          <ImageDim imageset="Embed" image="embed18Left" dimension="Width" />
+        </Dim>
+        <Dim type="TopEdge" >
+          <ImageDim imageset="Embed" image="embed18Top" dimension="Height" />
+        </Dim>
+        <Dim type="RightEdge" >
+          <UnifiedDim scale="1" type="RightEdge">
+            <DimOperator op="Subtract">
+              <ImageDim imageset="Embed" image="embed18Right" dimension="Width" />
+            </DimOperator>
+          </UnifiedDim>
+        </Dim>
+        <Dim type="BottomEdge" >
+          <UnifiedDim scale="1" type="BottomEdge">
+            <DimOperator op="Subtract">
+              <ImageDim imageset="Embed" image="embed18Bottom" dimension="Height" />
+            </DimOperator>
+          </UnifiedDim>
+        </Dim>
+      </Area>
+    </NamedArea>
+    
+    <NamedArea name="NoFrameTextRenderArea">
+      <Area>
+        <Dim type="LeftEdge" >
+          <AbsoluteDim value="0" />
+        </Dim>
+        <Dim type="TopEdge" >
+          <AbsoluteDim value="0" />
+        </Dim>
+        <Dim type="RightEdge" >
+          <UnifiedDim scale="1" type="RightEdge" />
+        </Dim>
+        <Dim type="BottomEdge" >
+          <UnifiedDim scale="1" type="BottomEdge" />
+        </Dim>
+      </Area>
+    </NamedArea>
+    
+    <StateImagery name="Enabled" />
+    <StateImagery name="Disabled" />
+    <StateImagery name="EnabledFrame">
+      <Layer>
+        <Section look="Embed/EmbedShared18" section="frame" />
+      </Layer>
+    </StateImagery>
+    <StateImagery name="DisabledFrame">
+      <Layer>
+        <Section look="Embed/EmbedShared18" section="frame" />
+      </Layer>
+    </StateImagery>
+    <StateImagery name="WithFrameEnabledBackground">
+      <Layer>
+        <Section look="Embed/EmbedShared18" section="background" />
+      </Layer>
+    </StateImagery>
+    <StateImagery name="WithFrameDisabledBackground">
+      <Layer>
+        <Section look="Embed/EmbedShared18" section="background" />
+      </Layer>
+    </StateImagery>
+    <StateImagery name="NoFrameEnabledBackground">
+      <Layer>
+        <Section look="Embed/EmbedShared18" section="background_noframe" />
+      </Layer>
+    </StateImagery>
+    <StateImagery name="NoFrameDisabledBackground">
+      <Layer>
+        <Section look="Embed/EmbedShared18" section="background_noframe" />
+      </Layer>
+    </StateImagery>
+  </WidgetLook>
+
+	
+	<!--
+    ***************************************************
+        Embed/EmbedShared18
+    ***************************************************
+    -->
+  <WidgetLook name="Embed/EmbedShared18">
+    <ImagerySection name="frame">
+      <FrameComponent>
+        <Area>
+          <Dim type="LeftEdge" >
+            <AbsoluteDim value="0" />
+          </Dim>
+          <Dim type="TopEdge" >
+            <AbsoluteDim value="0" />
+          </Dim>
+          <Dim type="Width" >
+            <UnifiedDim scale="1" type="Width" />
+          </Dim>
+          <Dim type="Height" >
+            <UnifiedDim scale="1" type="Height" />
+          </Dim>
+        </Area>
+        <Image type="TopLeftCorner" imageset="Embed" image="embed18TopLeft" />
+        <Image type="TopRightCorner" imageset="Embed" image="embed18TopRight" />
+        <Image type="BottomLeftCorner" imageset="Embed" image="embed18BottomLeft" />
+        <Image type="BottomRightCorner" imageset="Embed" image="embed18BottomRight" />
+        <Image type="LeftEdge" imageset="Embed" image="embed18Left" />
+        <Image type="RightEdge" imageset="Embed" image="embed18Right" />
+        <Image type="TopEdge" imageset="Embed" image="embed18Top" />
+        <Image type="BottomEdge" imageset="Embed" image="embed18Bottom" />
+        <ColourRectProperty name="FrameColours" />
+      </FrameComponent>
+    </ImagerySection>
+    <ImagerySection name="background">
+      <ImageryComponent>
+        <Area>
+          <Dim type="LeftEdge" >
+            <ImageDim imageset="Embed" image="embed18Left" dimension="Width" />
+          </Dim>
+          <Dim type="TopEdge" >
+            <ImageDim imageset="Embed" image="embed18Top" dimension="Height" />
+          </Dim>
+          <Dim type="RightEdge" >
+            <UnifiedDim scale="1" type="RightEdge">
+              <DimOperator op="Subtract">
+                <ImageDim imageset="Embed" image="embed18Right" dimension="Width" />
+              </DimOperator>
+            </UnifiedDim>
+          </Dim>
+          <Dim type="BottomEdge" >
+            <UnifiedDim scale="1" type="BottomEdge">
+              <DimOperator op="Subtract">
+                <ImageDim imageset="Embed" image="embed18Bottom" dimension="Height" />
+              </DimOperator>
+            </UnifiedDim>
+          </Dim>
+        </Area>
+        <Image imageset="Embed" image="embed18Backdrop" />
+        <!--<ColourRectProperty name="BackgroundColours" />-->
+        <Colours topLeft="FFFFFFFF" topRight="FFFFFFFF" bottomLeft="FFFFFFFF" bottomRight="FFFFFFFF" />
+        <VertFormat type="Stretched" />
+        <HorzFormat type="Stretched" />
+      </ImageryComponent>
+    </ImagerySection>
+    <ImagerySection name="background_noframe">
+      <ImageryComponent>
+        <Area>
+          <Dim type="LeftEdge">
+            <AbsoluteDim value="0" />
+          </Dim>
+          <Dim type="TopEdge">
+            <AbsoluteDim value="0" />
+          </Dim>
+          <Dim type="RightEdge">
+            <UnifiedDim scale="1" type="RightEdge" />
+          </Dim>
+          <Dim type="BottomEdge">
+            <UnifiedDim scale="1" type="BottomEdge" />
+          </Dim>
+        </Area>
+        <Image imageset="Embed" image="embed18Backdrop" />
+        <!--<ColourRectProperty name="BackgroundColours" />-->
+        <Colours topLeft="FFFFFFFF" topRight="FFFFFFFF" bottomLeft="FFFFFFFF" bottomRight="FFFFFFFF" />
+        <VertFormat type="Stretched" />
+        <HorzFormat type="Stretched" />
+      </ImageryComponent>
+    </ImagerySection>
+  </WidgetLook>  
+
+	<!--
+    ***************************************************
+        Embed/Embed19
+	***************************************************
+    -->
+    <WidgetLook name="Embed/Embed19">
+	<PropertyDefinition name="FrameColours" initialValue="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" redrawOnWrite="true" /> 
+        <PropertyDefinition name="BackgroundColours" initialValue="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" redrawOnWrite="true" />
+        <PropertyDefinition name="TextPadding" initialValue="0" redrawOnWrite="true" />
+        <PropertyDefinition name="HorzFormatting" initialValue="LeftAligned" redrawOnWrite="true" />
+        <PropertyDefinition name="VertFormatting" initialValue="CentreAligned" redrawOnWrite="true" />
+        <Property name="BackgroundEnabled" value="True" />
+        <Property name="FrameEnabled" value="True" />
+		<ImagerySection name="frame">
+      <FrameComponent>
+        <Area>
+          <Dim type="LeftEdge" >
+            <AbsoluteDim value="0" />
+          </Dim>
+          <Dim type="TopEdge" >
+            <AbsoluteDim value="0" />
+          </Dim>
+          <Dim type="Width" >
+            <UnifiedDim scale="1" type="Width" />
+          </Dim>
+          <Dim type="Height" >
+            <UnifiedDim scale="1" type="Height" />
+          </Dim>
+        </Area>
+        <Image type="TopLeftCorner" imageset="main" image="CarvingFrametopleft" />
+        <Image type="TopRightCorner" imageset="main" image="CarvingFrametopright" />
+        <Image type="BottomLeftCorner" imageset="main" image="CarvingFramebottomleft" />
+        <Image type="BottomRightCorner" imageset="main" image="CarvingFramebottomright" />
+        <Image type="LeftEdge" imageset="main" image="CarvingFrameleft" />
+        <Image type="RightEdge" imageset="main" image="CarvingFrameright" />
+        <Image type="TopEdge" imageset="main" image="CarvingFrametop" />
+        <Image type="BottomEdge" imageset="main" image="CarvingFramebottom" />
+        <ColourRectProperty name="FrameColours" />
+      </FrameComponent>
+    </ImagerySection>
+    <ImagerySection name="background">
+      <ImageryComponent>
+        <Area>
+          <Dim type="LeftEdge">
+            <AbsoluteDim value="0" />
+          </Dim>
+          <Dim type="TopEdge">
+            <AbsoluteDim value="0" />
+          </Dim>
+          <Dim type="RightEdge">
+            <UnifiedDim scale="1" type="RightEdge" />
+          </Dim>
+          <Dim type="BottomEdge">
+            <UnifiedDim scale="1" type="BottomEdge" />
+          </Dim>
+        </Area>
+        <Image imageset="main" image="CarvingFramebackup" />
+        <Colours topLeft="FFFFFFFF" topRight="FFFFFFFF" bottomLeft="FFFFFFFF" bottomRight="FFFFFFFF" />
+        <VertFormat type="Stretched" />
+        <HorzFormat type="Stretched" />
+      </ImageryComponent>
+    </ImagerySection>
+	 <StateImagery name="Enabled">
+            <Layer>
+                <Section section="label" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="Disabled">
+            <Layer>
+                <Section section="label" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="EnabledFrame">
+            <Layer>
+                <Section section="frame" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="DisabledFrame">
+            <Layer>
+                <Section section="frame" />
+            </Layer>
+        </StateImagery>
+		 <StateImagery name="WithFrameEnabledBackground">
+      <Layer>
+        <Section section="background" />
+      </Layer>
+    </StateImagery>
+    <StateImagery name="WithFrameDisabledBackground">
+      <Layer>
+        <Section section="background" />
+      </Layer>
+    </StateImagery>
+    <StateImagery name="NoFrameEnabledBackground">
+      <Layer>
+        <Section section="background_noframe" />
+      </Layer>
+    </StateImagery>
+    <StateImagery name="NoFrameDisabledBackground">
+      <Layer>
+        <Section section="background_noframe" />
+      </Layer>
+    </StateImagery>
+    </WidgetLook>
+
+</Falagard>
+

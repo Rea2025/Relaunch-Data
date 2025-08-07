@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/MessageWnd" >
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.32125,0},{0.331104,0},{0.32125,276},{0.331104,174}}" />
+        <Property Name="UnifiedMinSize" Value="{{0,0},{0,0}}" />
+        <Window Type="DejaVu/MultiLineEditbox" Name="Root/MessageWnd/EditWnd" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="MaxTextLength" Value="160" />
+            <Property Name="NormalTextColour" Value="C8FFFFFF" />
+            <Property Name="Text" >
+</Property>
+            <Property Name="TextParsingEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0229008,0},{0.0566038,0},{0.977099,0},{0.716981,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/MessageWnd/OKBtn" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="ClippedByParent" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.072901,0},{0.813585,0},{0.364568,0},{1.01193,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/MessageWnd/CancelBtn" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="ClippedByParent" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.633333,0},{0.805898,0},{0.925,0},{1.00424,0}}" />
+        </Window>
+        <Window Type="DejaVu/Static" Name="Root/MessageWnd/static" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

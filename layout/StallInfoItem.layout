@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/Embed3" Name="StallInfoItem" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="MousePassThroughEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.249023,0},{0.0686016,0}}" />
+        <Window Type="DejaVu/EmbedTextLab2" Name="StallInfoItem/Text" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="ID" Value="1" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="Text" Value="一二三四五六七八九十" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="StallInfoItem/SelectionBrush" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="ID" Value="2" />
+            <Property Name="Image" Value="set:DejaVu image:Zframe2Center" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        </Window>
+        <Window Type="DejaVu/SlotImage" Name="StallInfoItem/Image" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0196078,0},{0,0},{0.184314,0},{0.807692,0}}" />
+            <Property Name="VerticalAlignment" Value="Centre" />
+            <Property Name="Visible" Value="False" />
+        </Window>
+        <Window Type="DejaVu/Static" Name="StallInfoItem/MoneyBG" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,147},{0,25}}" />
+            <Property Name="VerticalAlignment" Value="Centre" />
+            <Window Type="DejaVu/StaticImage" Name="StallInfoItem/MoneyBG/silver" >
+                <Property Name="Image" Value="set:main image:Silver" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.884615,0},{0.2,0},{1,0},{0.8,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="StallInfoItem/MoneyBG/gold" >
+                <Property Name="Image" Value="set:main image:Gold" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0.2,0},{0.615385,0},{0.8,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="StallInfoItem/MoneyBG/silverText" >
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="999" />
+                <Property Name="UnifiedAreaRect" Value="{{0.615385,0},{0.2,0},{0.846154,0},{0.8,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="StallInfoItem/MoneyBG/goldText" >
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="9999999" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.0213777,0},{0.2,0},{0.461538,0},{0.8,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Button" Name="StallInfoItem/Btn" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Property Name="Text" Value="取消" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.298039,0},{0.5,0}}" />
+            <Property Name="VerticalAlignment" Value="Centre" />
+            <Property Name="Visible" Value="False" />
+        </Window>
+    </Window>
+</GUILayout>

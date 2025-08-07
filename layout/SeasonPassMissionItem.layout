@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/Embed2" Name="SeasonPassMissionItem" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,810},{0,60}}" />
+        <Window Type="DejaVu/StaticImage" Name="SeasonPassMissionItem/Icon" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.037037,0},{0.333333,0},{0.0617284,0},{0.666667,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticText" Name="SeasonPassMissionItem/Name" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+            <Property Name="ID" Value="2" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="Text" Value="任務名稱" />
+            <Property Name="UnifiedAreaRect" Value="{{0.080247,0},{0.25,0},{0.327161,0},{0.75,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticText" Name="SeasonPassMissionItem/Num" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+            <Property Name="ID" Value="2" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="Text" Value="任務目標:%s/%s" />
+            <Property Name="UnifiedAreaRect" Value="{{0.327161,0},{0.25,0},{0.574075,0},{0.75,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="SeasonPassMissionItem/Receive" >
+            <Property Name="Text" Value="領取" />
+            <Property Name="UnifiedAreaRect" Value="{{0.802469,0},{0.25,0},{0.925926,0},{0.75,0}}" />
+        </Window>
+        <Window Type="DejaVu/SlotImage" Name="SeasonPassMissionItem/ItemSlot1" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.716049,0},{0.25,0},{0.753086,0},{0.75,0}}" />
+        </Window>
+        <Window Type="DejaVu/SlotImage" Name="SeasonPassMissionItem/ItemSlot2" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.67284,0},{0.25,0},{0.709877,0},{0.75,0}}" />
+        </Window>
+        <Window Type="DejaVu/SlotImage" Name="SeasonPassMissionItem/ItemSlot3" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.62963,0},{0.25,0},{0.666667,0},{0.75,0}}" />
+        </Window>
+        <Window Type="DejaVu/SlotImage" Name="SeasonPassMissionItem/MoneySlot" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.716049,0},{0.25,0},{0.753086,0},{0.75,0}}" />
+        </Window>
+        <Window Type="DejaVu/SlotImage" Name="SeasonPassMissionItem/PointSlot" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.759259,0},{0.25,0},{0.796296,0},{0.75,0}}" />
+        </Window>
+        <Window Type="DejaVu/ImageButton" Name="SeasonPassMissionItem/AutoGo" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HoverImage" Value="set:DejaVu image:AutoPathHover" />
+            <Property Name="NormalImage" Value="set:DejaVu image:AutoPathNormal" />
+            <Property Name="PushedImage" Value="set:DejaVu image:AutoPathPressed" />
+            <Property Name="UnifiedAreaRect" Value="{{0.938272,0},{0.25,0},{0.975309,0},{0.75,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

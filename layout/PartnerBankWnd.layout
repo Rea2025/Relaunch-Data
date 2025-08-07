@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/PartnerBankWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="Text" Value="寵物倉庫" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,445},{0,584}}" />
+        <Window Type="DejaVu/Static" Name="Root/PartnerBankWnd/Static" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.024482,0},{0.496222,0},{0.451977,0}}" />
+            <Window Type="DejaVu/StaticText" Name="Root/PartnerBankWnd/Static1/Text" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" Value="0/3" />
+                <Property Name="UnifiedAreaRect" Value="{{0.837859,0},{0.0157607,0},{0.95931,0},{0.0686242,0}}" />
+            </Window>
+            <Window Type="DejaVu/ListboxNoBG" Name="Root/PartnerBankWnd/Static1/List" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0640394,0},{0.0792952,0},{0.950739,0},{0.898678,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="Root/PartnerBankWnd/Static1/Page" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" Value="1/5" />
+                <Property Name="UnifiedAreaRect" Value="{{0.448276,0},{0.920705,0},{0.571429,0},{0.973568,0}}" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/PartnerBankWnd/Static1/Left" >
+                <Property Name="HoverImage" Value="set:DejaVuImage image:NumberLeftH" />
+                <Property Name="NormalImage" Value="set:DejaVuImage image:NumberLeftN" />
+                <Property Name="PushedImage" Value="set:DejaVuImage image:NumberLeftP" />
+                <Property Name="UnifiedAreaRect" Value="{{0.35468,0},{0.920705,0},{0.418719,0},{0.973568,0}}" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/PartnerBankWnd/Static1/Right" >
+                <Property Name="HoverImage" Value="set:DejaVuImage image:NumberRightH" />
+                <Property Name="NormalImage" Value="set:DejaVuImage image:NumberRightN" />
+                <Property Name="PushedImage" Value="set:DejaVuImage image:NumberRightP" />
+                <Property Name="UnifiedAreaRect" Value="{{0.566502,0},{0.920705,0},{0.630542,0},{0.973568,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="Root/PartnerBankWnd/Static2" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.503778,0},{0.024482,0},{1,0},{0.451977,0}}" />
+            <Window Type="DejaVu/StaticText" Name="Root/PartnerBankWnd/Static2/Page" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" Value="1/5" />
+                <Property Name="UnifiedAreaRect" Value="{{0.446639,0},{0.919559,0},{0.56809,0},{0.972422,0}}" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/PartnerBankWnd/Static2/Left" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HoverImage" Value="set:DejaVuImage image:NumberLeftH" />
+                <Property Name="NormalImage" Value="set:DejaVuImage image:NumberLeftN" />
+                <Property Name="PushedImage" Value="set:DejaVuImage image:NumberLeftP" />
+                <Property Name="UnifiedAreaRect" Value="{{0.35579,0},{0.920104,0},{0.420306,0},{0.972968,0}}" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/PartnerBankWnd/Static2/Right" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HoverImage" Value="set:DejaVuImage image:NumberRightH" />
+                <Property Name="NormalImage" Value="set:DejaVuImage image:NumberRightN" />
+                <Property Name="PushedImage" Value="set:DejaVuImage image:NumberRightP" />
+                <Property Name="UnifiedAreaRect" Value="{{0.567893,0},{0.922822,0},{0.632409,0},{0.975686,0}}" />
+            </Window>
+            <Window Type="DejaVu/ListboxNoBG" Name="Root/PartnerBankWnd/Static2/List" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0640394,0},{0.0792952,0},{0.950739,0},{0.898678,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="Root/PartnerBankWnd/Static2/Text" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" Value="10/31" />
+                <Property Name="UnifiedAreaRect" Value="{{0.800925,0},{0.0176211,0},{0.979999,0},{0.0704846,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/zStaticLab" Name="Root/PartnerBankWnd/Head1" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HorzFormatting" Value="WordWrapCentred" />
+            <Property Name="Text" Value="x攜帶寵物" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0489,0},{0,0},{0.220049,0},{0.0451977,0}}" />
+        </Window>
+        <Window Type="DejaVu/zStaticLab" Name="Root/PartnerBankWnd/Head2" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="HorzFormatting" Value="WordWrapCentred" />
+            <Property Name="Text" Value="x寵物倉庫" />
+            <Property Name="UnifiedAreaRect" Value="{{0.552567,0},{0,0},{0.723716,0},{0.0451977,0}}" />
+        </Window>
+        <Window Type="DejaVu/Static" Name="Root/PartnerBankWnd/Static3" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.482109,0},{1,0},{0.964218,0}}" />
+            <Window Type="DejaVu/Embed4" Name="Root/PartnerBankWnd/Static/EM13" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.02445,0},{0.058594,0},{0.471883,0},{0.328125,0}}" />
+                <Window Type="DejaVu/SlotImage" Name="Root/PartnerBankWnd/Face" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0327869,0},{0.362319,0},{0.229508,0},{0.884058,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/PartnerBankWnd/Info/Name" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" Value="xLV.100 一二" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.289617,0},{0.231884,0},{0.972678,0},{0.449275,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/PartnerBankWnd/Static/EM1/SI3" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:main image:MiniInfoHP" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.262295,0},{0.478261,0},{0.382514,0},{0.652174,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/PartnerBankWnd/Static/EM1/text13" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" Value="EXP" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.26776,0},{0.695652,0},{0.409836,0},{0.913043,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/PartnerBankWnd/Info/ExpImg" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:DejaVuImage image:LoveExpBar" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.404372,0},{0.695652,0},{0.939891,0},{0.898551,0}}" />
+                    <Window Type="DejaVu/CastingBarImage" Name="Root/PartnerBankWnd/Info/ExpImg/Exp" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Image" Value="set:DejaVuImage image:ExpBarYellow" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/PartnerBankWnd/Info/StatusText" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorizontalAlignment" Value="Right" />
+                    <Property Name="HorzFormatting" Value="RightAligned" />
+                    <Property Name="Text" Value="xstat" />
+                    <Property Name="UnifiedAreaRect" Value="{{-0.0327869,0},{0.0434783,0},{0.377049,0},{0.26087,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/PartnerBankWnd/Info/HpBarBack" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:DejaVuImage image:PetHpBarBG" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.404372,0},{0.478261,0},{0.939891,0},{0.681159,0}}" />
+                    <Window Type="DejaVu/CastingBarImage" Name="Root/PartnerBankWnd/Info/HpBarBack/HpBar" >
+                        <Property Name="Image" Value="set:DejaVuImage image:PetHpBar" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/PartnerBankWnd/Info/Star1" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:main image:MonsterStar" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0437158,0},{0.0869565,0},{0.125683,0},{0.304348,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/PartnerBankWnd/Info/Star2" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:main image:MonsterStar" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.136612,0},{0.0869565,0},{0.218579,0},{0.304348,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/PartnerBankWnd/Info/Star3" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:main image:MonsterStar" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.229508,0},{0.0869565,0},{0.311475,0},{0.304348,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/PartnerBankWnd/Info/Star4" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:main image:MonsterStar" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.322404,0},{0.0869565,0},{0.404372,0},{0.304348,0}}" />
+                    <Property Name="Visible" Value="False" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/PartnerBankWnd/Equip" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Image" Value="set:DejaVuImage image:PartnerEquipment" />
+                <Property Name="UnifiedAreaRect" Value="{{0.518337,0},{0.078125,0},{0.95599,0},{0.535156,0}}" />
+                <Window Type="DejaVu/SlotImage" Name="Root/PartnerBankWnd/Equip/Slot1" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.400301,0},{0.0674928,0},{0.601418,0},{0.375185,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/PartnerBankWnd/Equip/Slot2" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.410014,0},{0.60131,0},{0.611131,0},{0.909002,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/PartnerBankWnd/Equip/Slot3" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.149438,0},{0.147278,0},{0.350556,0},{0.45497,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/PartnerBankWnd/Equip/Slot4" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.660936,0},{0.145841,0},{0.862053,0},{0.453534,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/PartnerBankWnd/Equip/Slot5" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.142695,0},{0.535328,0},{0.343812,0},{0.843019,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/PartnerBankWnd/Equip/Slot6" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.653631,0},{0.529915,0},{0.854749,0},{0.837607,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/EmbedTextLab" Name="Root/PartnerBankWnd/Attr/hit" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="x命中值" />
+                <Property Name="UnifiedAreaRect" Value="{{0.246944,0},{0.328125,0},{0.364303,0},{0.421875,0}}" />
+            </Window>
+            <Window Type="DejaVu/EmbedTextLab3" Name="Root/PartnerBankWnd/Attr/hitValue" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="Text" Value="99999" />
+                <Property Name="UnifiedAreaRect" Value="{{0.363053,0},{0.328125,0},{0.475522,0},{0.421875,0}}" />
+            </Window>
+            <Window Type="DejaVu/EmbedTextLab" Name="Root/PartnerBankWnd/Attr/attack" >
+                <Property Name="Text" Value="x攻擊值" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0195599,0},{0.328125,0},{0.136919,0},{0.421875,0}}" />
+            </Window>
+            <Window Type="DejaVu/EmbedTextLab3" Name="Root/PartnerBankWnd/Attr/attackValue" >
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="Text" Value="99999" />
+                <Property Name="UnifiedAreaRect" Value="{{0.135669,0},{0.328125,0},{0.248138,0},{0.421875,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/PartnerBankWnd/EquipText" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" Value="x寵物裝備" />
+                <Property Name="UnifiedAreaRect" Value="{{0.528117,0},{0.00390625,0},{0.772616,0},{0.078125,0}}" />
+            </Window>
+            <Window Type="DejaVu/EmbedTextLab" Name="Root/PartnerBankWnd/Attr/defense" >
+                <Property Name="Text" Value="x防禦值" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0195599,0},{0.421875,0},{0.136919,0},{0.515625,0}}" />
+            </Window>
+            <Window Type="DejaVu/EmbedTextLab3" Name="Root/PartnerBankWnd/Attr/defenseValue" >
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="Text" Value="99999" />
+                <Property Name="UnifiedAreaRect" Value="{{0.134419,0},{0.421875,0},{0.246888,0},{0.515625,0}}" />
+            </Window>
+            <Window Type="DejaVu/EmbedTextLab" Name="Root/PartnerBankWnd/Attr/dodge" >
+                <Property Name="Text" Value="x閃躲值" />
+                <Property Name="UnifiedAreaRect" Value="{{0.246944,0},{0.421875,0},{0.364303,0},{0.515625,0}}" />
+            </Window>
+            <Window Type="DejaVu/EmbedTextLab3" Name="Root/PartnerBankWnd/Attr/dodgeValue" >
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="Text" Value="99999" />
+                <Property Name="UnifiedAreaRect" Value="{{0.361803,0},{0.421875,0},{0.474272,0},{0.515625,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/PartnerBankWnd/Battle/Text" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" Value="x戰鬥技能" />
+                <Property Name="UnifiedAreaRect" Value="{{0.528117,0},{0.535156,0},{0.772616,0},{0.613281,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/PartnerBankWnd/Battle/Slot1" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.518337,0},{0.609375,0},{0.606357,0},{0.75,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/PartnerBankWnd/Battle/Slot2" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.613846,0},{0.610422,0},{0.701866,0},{0.751047,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/PartnerBankWnd/Battle/Slot3" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.709947,0},{0.610422,0},{0.797966,0},{0.751047,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/PartnerBankWnd/together/Text" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" Value="x融合技能" />
+                <Property Name="UnifiedAreaRect" Value="{{0.528117,0},{0.75,0},{0.867971,0},{0.84375,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/PartnerBankWnd/together/Slot1" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.518337,0},{0.835938,0},{0.606357,0},{0.976563,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/PartnerBankWnd/together/Slot2" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.614368,0},{0.83507,0},{0.702387,0},{0.975695,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/PartnerBankWnd/together/Slot3" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.709067,0},{0.83507,0},{0.797086,0},{0.975695,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/PartnerBankWnd/together/Slot4" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.805014,0},{0.83507,0},{0.893034,0},{0.975695,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/PartnerBankWnd/together/Slot5" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.900962,0},{0.83507,0},{0.988982,0},{0.975695,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/PartnerBankWnd/Battle/Slot4" >
+                <Property Name="UnifiedAreaRect" Value="{{0.804948,0},{0.608567,0},{0.892967,0},{0.749192,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/PartnerBankWnd/Battle/Slot5" >
+                <Property Name="UnifiedAreaRect" Value="{{0.899949,0},{0.610169,0},{0.987968,0},{0.750794,0}}" />
+            </Window>
+            <Window Type="DejaVu/EmbedTextLab" Name="Root/PartnerBankWnd/Attr/light" >
+                <Property Name="Text" Value="x雷電" />
+                <Property Name="UnifiedAreaRect" Value="{{0.020151,0},{0.515605,0},{0.1913,0},{0.609355,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="Root/PartnerBankWnd/Attr/defense1/ThunderImage" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:main image:ThunderPoint" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.728571,0},{0.166667,0},{0.957142,0},{0.833334,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/EmbedTextLab" Name="Root/PartnerBankWnd/Attr/fire" >
+                <Property Name="Text" Value="x火燄" />
+                <Property Name="UnifiedAreaRect" Value="{{0.020151,0},{0.610547,0},{0.1913,0},{0.704297,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="Root/PartnerBankWnd/Attr/defense1/ThunderImage1" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:main image:FirePoint" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.728571,0},{0.166667,0},{0.957143,0},{0.833333,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/EmbedTextLab" Name="Root/PartnerBankWnd/Attr/ice" >
+                <Property Name="Text" Value="x冰霜" />
+                <Property Name="UnifiedAreaRect" Value="{{0.018901,0},{0.702031,0},{0.19005,0},{0.795781,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="Root/PartnerBankWnd/Attr/defense1/ThunderImage2" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:main image:IcePoint" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.728571,0},{0.166667,0},{0.957143,0},{0.833333,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/EmbedTextLab" Name="Root/PartnerBankWnd/Attr/wind" >
+                <Property Name="Text" Value="x蒼風" />
+                <Property Name="UnifiedAreaRect" Value="{{0.020151,0},{0.796973,0},{0.1913,0},{0.890723,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="Root/PartnerBankWnd/Attr/defense1/ThunderImage3" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:main image:WindPoint" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.728571,0},{0.166667,0},{0.957143,0},{0.833333,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/EmbedTextLab" Name="Root/PartnerBankWnd/Attr/dark" >
+                <Property Name="Text" Value="x幽冥" />
+                <Property Name="UnifiedAreaRect" Value="{{0.018901,0},{0.891913,0},{0.19005,0},{0.985663,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="Root/PartnerBankWnd/Attr/defense1/ThunderImage4" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:main image:DarkPoint" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.728571,0},{0.166667,0},{0.957143,0},{0.833333,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/EmbedTextLab3" Name="Root/PartnerBankWnd/Attr/lightValue" >
+                <Property Name="HorzFormatting" Value="WordWrapCentred" />
+                <Property Name="UnifiedAreaRect" Value="{{0.191919,0},{0.516816,0},{0.473193,0},{0.610566,0}}" />
+            </Window>
+            <Window Type="DejaVu/EmbedTextLab3" Name="Root/PartnerBankWnd/Attr/fireValue" >
+                <Property Name="HorzFormatting" Value="WordWrapCentred" />
+                <Property Name="UnifiedAreaRect" Value="{{0.191919,0},{0.6083,0},{0.473192,0},{0.70205,0}}" />
+            </Window>
+            <Window Type="DejaVu/EmbedTextLab3" Name="Root/PartnerBankWnd/Attr/iceValue" >
+                <Property Name="HorzFormatting" Value="WordWrapCentred" />
+                <Property Name="UnifiedAreaRect" Value="{{0.191919,0},{0.703242,0},{0.473192,0},{0.796992,0}}" />
+            </Window>
+            <Window Type="DejaVu/EmbedTextLab3" Name="Root/PartnerBankWnd/Attr/windValue" >
+                <Property Name="HorzFormatting" Value="WordWrapCentred" />
+                <Property Name="UnifiedAreaRect" Value="{{0.191919,0},{0.798183,0},{0.473193,0},{0.891933,0}}" />
+            </Window>
+            <Window Type="DejaVu/EmbedTextLab3" Name="Root/PartnerBankWnd/Attr/darkValue" >
+                <Property Name="HorzFormatting" Value="WordWrapCentred" />
+                <Property Name="UnifiedAreaRect" Value="{{0.191919,0},{0.889667,0},{0.471941,0},{0.983417,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/zStaticLab" Name="Root/PartnerBankWnd/Head3" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="HorzFormatting" Value="WordWrapCentred" />
+            <Property Name="Text" Value="x攜帶寵物" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0488998,0},{0.45951,0},{0.220049,0},{0.504708,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/PartnerBankWnd/ReviveBtn" >
+            <Property Name="ClippedByParent" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="Text" Value="x寵物復活" />
+            <Property Name="UnifiedAreaRect" Value="{{0.821442,0},{0.972213,0},{0.992592,0},{1.01741,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/PartnerBankWnd/FireBtn" >
+            <Property Name="ClippedByParent" Value="False" />
+            <Property Name="Text" Value="x解除契約" />
+            <Property Name="UnifiedAreaRect" Value="{{0.639064,0},{0.971318,0},{0.810213,0},{1.01652,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/Static" Name="BloodRollWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.205208,0},{0.230439,0},{0.205208,169},{0.230439,169}}" />
+        <Window Type="DejaVu/StaticImage" Name="BloodRollWnd/Energy" >
+            <Property Name="Image" Value="set:main21 image:BloodRollBase" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,169},{0,169}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+        </Window>
+        <Window Type="DejaVu/Static" Name="BloodRollWnd/SoulBG" >
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,169},{0,169}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+            <Window Type="DejaVu/StaticImage" Name="BloodRollWnd/SoulBG/Soul1" >
+                <Property Name="Image" Value="set:main21 image:BloodSoul_B" />
+                <Property Name="UnifiedAreaRect" Value="{{0.67278,0},{0.0928998,0},{0.797041,0},{0.21716,0}}" />
+				<Property Name="MousePassThroughEnabled" Value="True" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="BloodRollWnd/SoulBG/Soul2" >
+                <Property Name="Image" Value="set:main21 image:BloodSoul_B" />
+                <Property Name="UnifiedAreaRect" Value="{{0.829288,0},{0.551184,0},{0.953548,0},{0.675444,0}}" />
+				<Property Name="MousePassThroughEnabled" Value="True" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="BloodRollWnd/SoulBG/Soul3" >
+                <Property Name="Image" Value="set:main21 image:BloodSoul_B" />
+                <Property Name="UnifiedAreaRect" Value="{{0.435501,0},{0.826036,0},{0.559761,0},{0.950296,0}}" />
+				<Property Name="MousePassThroughEnabled" Value="True" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="BloodRollWnd/SoulBG/Soul4" >
+                <Property Name="Image" Value="set:main21 image:BloodSoul_B" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0535482,0},{0.550593,0},{0.177808,0},{0.674853,0}}" />
+				<Property Name="MousePassThroughEnabled" Value="True" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="BloodRollWnd/SoulBG/Soul5" >
+                <Property Name="Image" Value="set:main21 image:BloodSoul_B" />
+                <Property Name="UnifiedAreaRect" Value="{{0.207101,0},{0.0946746,0},{0.331361,0},{0.218935,0}}" />
+				<Property Name="MousePassThroughEnabled" Value="True" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="BloodRollWnd/Explode" >
+            <Property Name="Image" Value="set:main21 image:BloodExplode1" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,169},{0,169}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+        </Window>
+    </Window>
+</GUILayout>

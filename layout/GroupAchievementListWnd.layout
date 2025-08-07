@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/GroupAchievementListWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.3875,0},{0.0833334,0},{0.3875,302},{0.0833334,446}}" />
+        <Window Type="DejaVu/Static" Name="Root/GroupAchievementListWnd/Border" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/ImageButton" Name="Root/GroupAchievementListWnd/Border/helpBtn" >
+                <Property Name="DisabledImage" Value="set:DejaVu image:HelpButtonPressed" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0.928571,0},{0.0169972,0},{0.928571,12},{0.0169972,12}}" />
+                <Property Name="Visible" Value="False" />
+            </Window>
+            <Window Type="DejaVu/ScrollablePane" Name="Root/GroupAchievementListWnd/Border/ListPane" >
+                <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                <Property Name="ForceVertScrollbar" Value="True" />
+                <Property Name="HorzOverlapSize" Value="0.01" />
+                <Property Name="HorzScrollPosition" Value="0" />
+                <Property Name="HorzStepSize" Value="0.1" />
+                <Property Name="UnifiedAreaRect" Value="{{0.034559,0},{0.109524,0},{0.985441,0},{0.97381,0}}" />
+                <Property Name="VertOverlapSize" Value="0.01" />
+                <Property Name="VertScrollPosition" Value="0" />
+                <Property Name="VertStepSize" Value="0.1" />
+                <AutoWindow NameSuffix="__auto_container__" >
+                    <Property Name="ChildExtentsArea" Value="l:0 t:0 r:0 b:0" />
+                    <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                    <Property Name="MouseInputPropagationEnabled" Value="True" />
+                </AutoWindow>
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="Root/GroupAchievementListWnd/Border/NameTitleTxt" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" Value="x榮耀成就名稱 12345678" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0350002,0},{0.0150001,0},{0.970001,0},{0.0533335,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="Root/GroupAchievementListWnd/Border/FinishRateTxt" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" Value="x達成率 99.99%" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0338346,0},{0.0559796,0},{0.969925,0},{0.0941476,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

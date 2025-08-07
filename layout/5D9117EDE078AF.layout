@@ -1,0 +1,1051 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<library version="28">
+<!--========================================================================-->
+<fragment type="Vertex/Pixel" name="Fractional">
+    <inputs>
+        <resource type="float" variable="Input" />
+    </inputs>
+    <outputs>
+        <resource type="float" variable="Output" />
+    </outputs>
+    <code lang="hlsl/Cg" platform="D3D11/D3D10/DX9/Xenon/PS3" target="vs_1_1/ps_2_0/vs_4_0/gs_4_0/ps_4_0/hs_5_0/ds_5_0">
+    Output = frac(Input);
+    </code>
+</fragment>
+<!--========================================================================-->
+<fragment type="Vertex/Pixel" name="Reciprocal">
+    <inputs>
+        <resource type="float" variable="Input" />
+    </inputs>
+    <outputs>
+        <resource type="float" variable="Output" />
+    </outputs>
+    <code lang="hlsl/Cg" platform="D3D11/D3D10/DX9/Xenon/PS3" target="vs_1_1/ps_2_0/vs_4_0/gs_4_0/ps_4_0/hs_5_0/ds_5_0">
+    Output = 1.0 / Input;
+    </code>
+</fragment>
+<!--========================================================================-->
+<fragment type="Vertex/Pixel" name="SubFloat">
+    <inputs>
+        <resource type="float" variable="V1" />
+        <resource type="float" variable="V2" />
+    </inputs>
+    <outputs>
+        <resource type="float" variable="Output" />
+    </outputs>
+    <code lang="hlsl/Cg" platform="D3D11/D3D10/DX9/Xenon/PS3" target="vs_1_1/ps_2_0/vs_4_0/gs_4_0/ps_4_0/hs_5_0/ds_5_0">
+    Output = V1 - V2;
+    </code>
+</fragment>
+<!--========================================================================-->
+<fragment type="Vertex/Pixel" name="DotProduct">
+    <inputs>
+        <resource type="float" variable="V1" />
+        <resource type="float" variable="V2" />
+    </inputs>
+    <outputs>
+        <resource type="float" variable="Output" />
+    </outputs>
+    <code lang="hlsl/Cg" platform="D3D11/D3D10/DX9/Xenon/PS3" target="vs_1_1/ps_2_0/vs_4_0/gs_4_0/ps_4_0/hs_5_0/ds_5_0">
+    Output = dot(V1, V2);
+    </code>
+</fragment>
+<!--========================================================================-->
+<fragment type="Vertex/Pixel" name="MinimumVector">
+    <inputs>
+        <resource type="float" variable="V1" />
+        <resource type="float" variable="V2" />
+    </inputs>
+    <outputs>
+        <resource type="float" variable="Output" />
+    </outputs>
+    <code lang="hlsl/Cg" platform="D3D11/D3D10/DX9/Xenon/PS3" target="vs_1_1/ps_2_0/vs_4_0/gs_4_0/ps_4_0/hs_5_0/ds_5_0">
+    Output = min(V1, V2);
+    </code>
+</fragment>
+<!--========================================================================-->
+<fragment type="Vertex/Pixel" name="LerpVector">
+    <inputs>
+        <resource type="float" variable="V1" />
+        <resource type="float" variable="V2" />
+        <resource type="float" variable="Ratio" />
+    </inputs>
+    <outputs>
+        <resource type="float" variable="Output" />
+    </outputs>
+    <code lang="hlsl/Cg" platform="D3D11/D3D10/DX9/Xenon/PS3" target="vs_1_1/ps_2_0/vs_4_0/gs_4_0/ps_4_0/hs_5_0/ds_5_0">
+    Output = lerp(V1, V2, Ratio);
+    </code>
+</fragment>
+<!--========================================================================-->
+<fragment type="Vertex/Pixel" name="DotProduct4">
+    <inputs>
+        <resource type="float" variable="V11" default="(0.0)" />
+        <resource type="float" variable="V12" default="(0.0)" />
+        <resource type="float" variable="V13" default="(0.0)" />
+        <resource type="float" variable="V14" default="(0.0)" />
+        <resource type="float" variable="V21" default="(0.0)" />
+        <resource type="float" variable="V22" default="(0.0)" />
+        <resource type="float" variable="V23" default="(0.0)" />
+        <resource type="float" variable="V24" default="(0.0)" />
+    </inputs>
+    <outputs>
+        <resource type="float" variable="Output" />
+    </outputs>
+    <code lang="hlsl/Cg" platform="D3D11/D3D10/DX9/Xenon/PS3" target="vs_1_1/ps_2_0/vs_4_0/gs_4_0/ps_4_0/hs_5_0/ds_5_0">
+    Output = dot(float4(V11, V12, V13, V14), float4(V21, V22, V23, V24));
+    </code>
+</fragment>
+<!--========================================================================-->
+<fragment type="Vertex/Pixel" name="Distance">
+    <inputs>
+        <resource type="float" variable="V1" />
+        <resource type="float" variable="V2" />
+    </inputs>
+    <outputs>
+        <resource type="float" variable="Output" />
+    </outputs>
+    <code lang="hlsl/Cg" platform="D3D11/D3D10/DX9/Xenon/PS3" target="vs_1_1/ps_2_0/vs_4_0/gs_4_0/ps_4_0/hs_5_0/ds_5_0">
+    Output = distance(V1, V2);
+    </code>
+</fragment>
+<!--========================================================================-->
+<fragment type="Vertex/Pixel" name="SingleFaceQuadSample">
+    <inputs>
+        <resource type="sampler2D" variable="Texture" />
+        <resource type="sampler" variable="Sampler" />
+        <resource type="float2" variable="TexCoord" />
+        <resource type="float2" variable="DDX" />
+        <resource type="float2" variable="DDY" />
+        <resource type="int" variable="Face" default="(0)" />
+    </inputs>
+    <outputs>
+        <resource type="float4" variable="ColorOut" />
+    </outputs>
+    <code lang="hlsl/Cg" platform="DX9" target="ps_2_0">
+    TexCoord.y += 0.5;
+    float2 FracTexCoord = frac(TexCoord);
+
+    float2 FaceTexCoord;
+    if (Face == 0)
+    {
+        FaceTexCoord = float2(TexCoord.x, FracTexCoord.y * 0.25) + float2(0.0, 0.125);
+    }
+    if (Face == 1)
+    {
+        FaceTexCoord = float2(TexCoord.x, FracTexCoord.y * 0.25) + float2(0.0, 0.625);
+    }
+
+    ColorOut = tex2D(Texture, FaceTexCoord);
+    </code>
+    <code lang="hlsl/Cg" platform="DX9/Xenon/PS3" target="ps_3_0">
+    TexCoord.y += 0.5;
+    float2 FracTexCoord = frac(TexCoord);
+
+    float2 FaceTexCoord;
+    if (Face == 0)
+    {
+        FaceTexCoord = float2(TexCoord.x, FracTexCoord.y * 0.25) + float2(0.0, 0.125);
+    }
+    if (Face == 1)
+    {
+        FaceTexCoord = float2(TexCoord.x, FracTexCoord.y * 0.25) + float2(0.0, 0.625);
+    }
+
+    ColorOut = tex2Dgrad(Texture, FaceTexCoord, DDX, DDY);
+    </code>
+    <code lang="hlsl/Cg" platform="D3D11/D3D10" target="ps_4_0">
+    TexCoord.y += 0.5;
+    float2 FracTexCoord = frac(TexCoord);
+
+    float2 FaceTexCoord;
+    if (Face == 0)
+    {
+        FaceTexCoord = float2(TexCoord.x, FracTexCoord.y * 0.25) + float2(0.0, 0.125);
+    }
+    if (Face == 1)
+    {
+        FaceTexCoord = float2(TexCoord.x, FracTexCoord.y * 0.25) + float2(0.0, 0.625);
+    }
+
+    ColorOut = Texture.SampleGrad(Sampler, FaceTexCoord, DDX, DDY);
+    </code>
+</fragment>
+<!--========================================================================-->
+<fragment type="Vertex/Pixel" name="CalculateParallaxHeight">
+    <inputs>
+        <resource type="float2" variable="TexCoord" />
+        <resource type="float" variable="Sample" />
+        <resource type="float" variable="OffsetScale" default="(0.05)" />
+        <resource type="float3" variable="TangentSpaceEyeVec" default="(1.0, 0.0, 0.0)" />
+    </inputs>
+    <outputs>
+        <resource type="float2" variable="ParallaxOffsetUV" />
+    </outputs>
+    <code lang="hlsl/Cg" platform="D3D11/D3D10/DX9/Xenon/PS3" target="vs_1_1/ps_2_0/vs_4_0/gs_4_0/ps_4_0/hs_5_0/ds_5_0">
+    float2 Height = (Sample - 1.0) * OffsetScale;
+    ParallaxOffsetUV = TexCoord + Height * TangentSpaceEyeVec.xy;
+    </code>
+</fragment>
+<!--========================================================================-->
+<fragment type="Vertex/Pixel" name="TransformSilhouette">
+    <inputs>
+        <resource type="float3" variable="WorldPos" />
+        <resource type="float3" variable="Normal" />
+        <resource type="float4x4" variable="World" />
+        <resource type="float4x4" variable="ViewProjection" />
+        <resource type="float4" variable="Screen" />
+        <resource type="float4" variable="Silhouette" />
+        <resource type="float" variable="SilhouetteDepth" default="(768.0)" />
+    </inputs>
+    <outputs>
+        <resource type="float4" variable="ProjPos" />
+    </outputs>
+    <code lang="hlsl/Cg" platform="D3D11/D3D10/DX9/Xenon/PS3" target="vs_1_1/ps_2_0/vs_4_0/gs_4_0/ps_4_0/hs_5_0/ds_5_0">
+    float4 Original = mul(float4(WorldPos, 1.0), ViewProjection);
+    float3 Offset = 0.0;
+    if (Silhouette.w != 0.0)
+    {
+        float CalSilhouette = clamp (Silhouette.w - length(Original.rgb), 2.0, Silhouette.w);
+        float3 WorldNrm = mul(Normal, (float3x3)World);
+        float4 Transform = mul(float4(WorldPos + WorldNrm, 1.0), ViewProjection);
+        Offset.xy = Original.xy - Transform.xy;
+        Offset.x = Offset.x &gt; 0.0 ? 1.0 : -1.0;
+        Offset.y = Offset.y &gt; 0.0 ? 1.0 : -1.0;
+        Offset.xy *= Original.w * Screen.zw * CalSilhouette;
+        Offset.z = -1.0 / SilhouetteDepth;
+    }
+    ProjPos = float4(Original.xyz - Offset.xyz, Original.w);
+    </code>
+</fragment>
+<!--========================================================================-->
+<fragment type="Vertex/Pixel" name="ProjectPositionWorldToViewProj">
+    <inputs>
+        <resource type="float4" variable="WorldPosition" />
+        <resource type="float4x4" variable="ViewTransform" />
+        <resource type="float4x4" variable="ViewProjection" />
+    </inputs>
+    <outputs>
+        <resource type="float4" variable="ViewPos" />
+        <resource type="float4" variable="ProjPos" />
+    </outputs>
+    <code lang="hlsl/Cg" platform="D3D11/D3D10/DX9/Xenon/PS3" target="vs_1_1/ps_2_0/vs_4_0/gs_4_0/ps_4_0/hs_5_0/ds_5_0">
+    ViewPos = mul(WorldPosition, ViewTransform);
+    ProjPos = mul(WorldPosition, ViewProjection);
+    </code>
+</fragment>
+<!--========================================================================-->
+<fragment type="Vertex/Pixel" name="SplitRGB">
+    <inputs>
+        <resource type="float3" variable="Color" />
+    </inputs>
+    <outputs>
+        <resource type="float" variable="Red" />
+        <resource type="float" variable="Green" />
+        <resource type="float" variable="Blue" />
+    </outputs>
+    <code lang="hlsl/Cg" platform="D3D11/D3D10/DX9/Xenon/PS3" target="vs_1_1/ps_2_0/vs_4_0/gs_4_0/ps_4_0/hs_5_0/ds_5_0">
+    Red = Color.r;
+    Green = Color.g;
+    Blue = Color.b;
+    </code>
+</fragment>
+<!--========================================================================-->
+<fragment type="Vertex/Pixel" name="SplitRG">
+    <inputs>
+        <resource type="float2" variable="Color" />
+    </inputs>
+    <outputs>
+        <resource type="float" variable="Red" />
+        <resource type="float" variable="Green" />
+    </outputs>
+    <code lang="hlsl/Cg" platform="D3D11/D3D10/DX9/Xenon/PS3" target="vs_1_1/ps_2_0/vs_4_0/gs_4_0/ps_4_0/hs_5_0/ds_5_0">
+    Red = Color.r;
+    Green = Color.g;
+    </code>
+</fragment>
+<!--========================================================================-->
+<fragment type="Vertex/Pixel" name="CombineRG">
+    <inputs>
+        <resource type="float" variable="Red" />
+        <resource type="float" variable="Green" />
+    </inputs>
+    <outputs>
+        <resource type="float2" variable="Color" />
+    </outputs>
+    <code lang="hlsl/Cg" platform="D3D11/D3D10/DX9/Xenon/PS3" target="vs_1_1/ps_2_0/vs_4_0/gs_4_0/ps_4_0/hs_5_0/ds_5_0">
+    Color = float2(Red, Green);
+    </code>
+</fragment>
+<!--========================================================================-->
+<fragment type="Vertex/Pixel" name="CombineRGB">
+    <inputs>
+        <resource type="float" variable="Red" />
+        <resource type="float" variable="Green" />
+        <resource type="float" variable="Blue" />
+    </inputs>
+    <outputs>
+        <resource type="float3" variable="Color" />
+    </outputs>
+    <code lang="hlsl/Cg" platform="D3D11/D3D10/DX9/Xenon/PS3" target="vs_1_1/ps_2_0/vs_4_0/gs_4_0/ps_4_0/hs_5_0/ds_5_0">
+    Color = float3(Red, Green, Blue);
+    </code>
+</fragment>
+<!--========================================================================-->
+<fragment type="Vertex/Pixel" name="CombineRGBA">
+    <inputs>
+        <resource type="float" variable="Red" default="(0.0)" />
+        <resource type="float" variable="Green" default="(0.0)" />
+        <resource type="float" variable="Blue" default="(0.0)" />
+        <resource type="float" variable="Alpha" default="(0.0)" />
+    </inputs>
+    <outputs>
+        <resource type="float4" variable="Color" />
+    </outputs>
+    <code lang="hlsl/Cg" platform="D3D11/D3D10/DX9/Xenon/PS3" target="vs_1_1/ps_2_0/vs_4_0/gs_4_0/ps_4_0/hs_5_0/ds_5_0">
+    Color = float4(Red, Green, Blue, Alpha);
+    </code>
+</fragment>
+<!--========================================================================-->
+<fragment type="Vertex/Pixel" name="FloatToFloat2">
+    <inputs>
+        <resource type="float" variable="Input" />
+    </inputs>
+    <outputs>
+        <resource type="float2" variable="Output" />
+    </outputs>
+    <code lang="hlsl/Cg" platform="D3D11/D3D10/DX9/Xenon/PS3" target="vs_1_1/ps_2_0/vs_4_0/gs_4_0/ps_4_0/hs_5_0/ds_5_0">
+    Output = Input.rr;
+    </code>
+</fragment>
+<!--========================================================================-->
+<fragment type="Vertex/Pixel" name="FloatToFloat3">
+    <inputs>
+        <resource type="float" variable="Input" />
+    </inputs>
+    <outputs>
+        <resource type="float3" variable="Output" />
+    </outputs>
+    <code lang="hlsl/Cg" platform="D3D11/D3D10/DX9/Xenon/PS3" target="vs_1_1/ps_2_0/vs_4_0/gs_4_0/ps_4_0/hs_5_0/ds_5_0">
+    Output = Input.rrr;
+    </code>
+</fragment>
+<!--========================================================================-->
+<fragment type="Vertex/Pixel" name="Float3ToFloat2">
+    <inputs>
+        <resource type="float3" variable="Input" />
+    </inputs>
+    <outputs>
+        <resource type="float2" variable="Output" />
+    </outputs>
+    <code lang="hlsl/Cg" platform="D3D11/D3D10/DX9/Xenon/PS3" target="vs_1_1/ps_2_0/vs_4_0/gs_4_0/ps_4_0/hs_5_0/ds_5_0">
+    Output = Input.xy;
+    </code>
+</fragment>
+<!--========================================================================-->
+<fragment type="Vertex/Pixel" name="GrassWave">
+    <inputs>
+        <resource type="float" variable="Time" />
+        <resource type="float4" variable="EyeDir" />
+        <resource type="float3" variable="WorldPos" />
+        <resource type="float2" variable="TexCoord0" />
+        <resource type="float2" variable="TexCoord1" />
+        <resource type="float4x4" variable="ViewProjection" />
+    </inputs>
+    <outputs>
+        <resource type="float4" variable="ProjPos" />
+    </outputs>
+    <code lang="hlsl/Cg" platform="D3D11/D3D10/DX9/Xenon/PS3" target="vs_1_1/ps_2_0/vs_4_0/gs_4_0/ps_4_0/hs_5_0/ds_5_0">
+    float2 Side = normalize(float2(EyeDir.y, -EyeDir.x));
+    float Key = WorldPos.x * WorldPos.y + Time;
+    WorldPos.xy += Side * ((TexCoord0.x - 0.5) * TexCoord1.x);
+    float2 Wave;
+    sincos(Key, Wave.x, Wave.y);
+    WorldPos.xy += Wave * TexCoord1.y / 8.0;
+    ProjPos = mul(float4(WorldPos, 1.0), ViewProjection);
+    </code>
+</fragment>
+<!--========================================================================-->
+<fragment type="Vertex/Pixel" name="RangeOpacity">
+    <inputs>
+        <resource type="float4" variable="ProjectedPos" />
+        <resource type="float" variable="OpacityStr" />
+        <resource type="float" variable="OpacityLim" />
+    </inputs>
+    <outputs>
+        <resource type="float" variable="OutOpacity" />
+        <resource type="float4" variable="OutProjectedPos" />
+    </outputs>
+    <code lang="hlsl/Cg" platform="D3D11/D3D10/DX9/Xenon/PS3" target="vs_1_1/ps_2_0/vs_4_0/gs_4_0/ps_4_0/hs_5_0/ds_5_0">
+    float Range = OpacityLim - OpacityStr;
+    float Value = ProjectedPos.z - OpacityStr;
+    OutOpacity = saturate(1.0 - Value / Range);
+    OutProjectedPos = ProjectedPos;
+    if (Value &gt;= Range / 2.0)
+    {
+        OutProjectedPos.w = 1.0;
+    }
+    </code>
+</fragment>
+<!--========================================================================-->
+<fragment type="Vertex/Pixel" name="ParabolaSlopeOffset">
+    <inputs>
+        <resource type="float4" variable="EyePos" />
+        <resource type="float4" variable="WorldPos" />
+        <resource type="float3" variable="Parameters" />
+    </inputs>
+    <outputs>
+        <resource type="float4" variable="ParabolaPosOffset" />
+    </outputs>
+    <code lang="hlsl/Cg" platform="D3D11/D3D10/DX9/Xenon/PS3" target="vs_1_1/ps_2_0/vs_4_0/gs_4_0/ps_4_0/hs_5_0/ds_5_0">
+    float Range = distance(EyePos.xy, WorldPos.xy);
+    float x = (Range - Parameters.x) * Parameters.y;
+    float OffsetZ = x * x * Parameters.z;
+    ParabolaPosOffset = float4(0.0f, 0.0f, -OffsetZ, 0.0);
+    </code>
+</fragment>
+<!--========================================================================-->
+<fragment type="Vertex/Pixel" name="Particles">
+    <inputs>
+        <resource type="float3" variable="Position" />
+        <resource type="float4 " variable="ConstArray" />
+    </inputs>
+    <outputs>
+        <resource type="float4" variable="WorldPos" />
+    </outputs>
+    <code lang="hlsl/Cg" platform="D3D11/D3D10/DX9/Xenon/PS3" target="vs_1_1/ps_2_0/vs_4_0/gs_4_0/ps_4_0/hs_5_0/ds_5_0">
+    float PosIndex = Position.x;
+    float TraIndex = Position.y;
+    float VerIndex = Position.z;
+    float Rotate = ConstArray[TraIndex].x;
+    float Size = ConstArray[TraIndex].y;
+    float Sin, Cos;
+    sincos(Rotate, Sin, Cos);
+    float C1 = Size * (Cos + Sin);
+    float C2 = Size * (Cos - Sin);
+    float3 CamRt = ConstArray[0].xyz;
+    float3 CamUp = ConstArray[1].xyz;
+    float Scale = ConstArray[0].w;
+    float3 V0 = C2 * CamUp + C1 * CamRt;
+    float3 V1 = C1 * CamUp - C2 * CamRt;
+    Position = ConstArray[PosIndex];
+    if (VerIndex-- == 0)
+        Position = Position - V0;
+    if (VerIndex-- == 0)
+        Position = Position - V1;
+    if (VerIndex-- == 0)
+        Position = Position + V0;
+    if (VerIndex-- == 0)
+        Position = Position + V1;
+    WorldPos.xyz = Position * Scale;
+    WorldPos.w = 1.0;
+    </code>
+</fragment>
+<!--========================================================================-->
+<fragment type="Vertex/Pixel" name="ParticlesColor">
+    <inputs>
+        <resource type="float3" variable="Position" />
+        <resource type="float4 " variable="ConstArray" />
+    </inputs>
+    <outputs>
+        <resource type="float3" variable="Color" />
+        <resource type="float" variable="Opacity" />
+    </outputs>
+    <code lang="hlsl/Cg" platform="D3D11/D3D10/DX9/Xenon/PS3" target="vs_1_1/ps_2_0/vs_4_0/gs_4_0/ps_4_0/hs_5_0/ds_5_0">
+    float TraIndex = Position.y;
+    float Encode = ConstArray[TraIndex].z;
+    float4 Decode = Encode * float4(1.0, 64.0, 4096.0, 262144.0);
+    Decode = frac(Decode);
+    Decode.xyz -= Decode.yzw / 64.0;
+    Color = Decode.xyz;
+    Opacity = Decode.w;
+    </code>
+</fragment>
+<!--========================================================================-->
+<fragment type="Pixel" name="GetParticleOpacity">
+    <inputs>
+        <resource type="float3" variable="Depth" />
+        <resource type="float3" variable="ScreenPosition" />
+        <resource type="float4x4" variable="Proj" />
+    </inputs>
+    <outputs>
+        <resource type="float" variable="Opacity" />
+    </outputs>
+    <code lang="hlsl/Cg" platform="D3D11/D3D10/DX9/Xenon/PS3" target="vs_1_1/ps_2_0/vs_4_0/gs_4_0/ps_4_0/hs_5_0/ds_5_0">
+    float Q = Proj[2][2];
+    float ZnQ = Proj[3][2];
+    float Z = ZnQ / (Depth.x - Q);
+    if (Z == 0.0)
+        Opacity = 1.0;
+    else
+        Opacity = saturate(Z - ScreenPosition.z);
+    </code>
+</fragment>
+<!--========================================================================-->
+<fragment type="Vertex/Pixel" name="GetScreenPosition">
+    <inputs>
+        <resource type="float4" variable="ProjPosition" />
+        <resource type="float4" variable="ViewPosition" />
+        <resource type="float2" variable="TextureSize" default="(1536.0, 1024.0)" />
+    </inputs>
+    <outputs>
+        <resource type="float3" variable="ScreenPosition" />
+    </outputs>
+    <code lang="hlsl/Cg" platform="D3D11/D3D10/DX9/Xenon/PS3" target="vs_1_1/ps_2_0/vs_4_0/gs_4_0/ps_4_0/hs_5_0/ds_5_0">
+    ScreenPosition.x = 0.5 + (ProjPosition.x / ProjPosition.w * 0.5) + 0.5 / TextureSize.x;
+    ScreenPosition.y = 0.5 - (ProjPosition.y / ProjPosition.w * 0.5) + 0.5 / TextureSize.y;
+    ScreenPosition.z = ViewPosition.z;
+    </code>
+</fragment>
+<!--========================================================================-->
+<fragment type="Vertex/Pixel" name="Noise">
+    <inputs>
+        <resource type="float2" variable="Number" />
+        <resource type="float" variable="Noise" default="(2.0)" />
+    </inputs>
+    <outputs>
+        <resource type="float3" variable="Output" />
+    </outputs>
+    <code lang="hlsl/Cg" platform="D3D11/D3D10/DX9/Xenon/PS3" target="vs_1_1/ps_2_0/vs_4_0/gs_4_0/ps_4_0/hs_5_0/ds_5_0">
+    Output = Noise;
+    Number = round(Number * 512.0);
+    Number = Number / 512.0;
+    Output = frac(exp2(16) / (Number.x + Output));
+    Output = frac(exp2(16) / (Number.y + Output));
+    </code>
+</fragment>
+<!--========================================================================-->
+<fragment type="Vertex/Pixel" name="HairLuster">
+    <inputs>
+        <resource type="float3" variable="Diffuse" />
+        <resource type="float3" variable="Specular" default="(0.15, 0.15, 0.15)" />
+        <resource type="float3" variable="Normal" />
+        <resource type="float4" variable="View" />
+        <resource type="float" variable="LightPower" default="(128.0)" />
+        <resource type="float" variable="ErrorPower" default="(32.0)" />
+    </inputs>
+    <outputs>
+        <resource type="float3" variable="Output" />
+    </outputs>
+    <code lang="hlsl/Cg" platform="D3D11/D3D10/DX9/Xenon/PS3" target="vs_1_1/ps_2_0/vs_4_0/gs_4_0/ps_4_0/hs_5_0/ds_5_0">
+    Normal = normalize(Normal);
+    float Angle = (1.0 - View.z) / 3.0;
+    float Error = 1.0 - pow(abs(Normal.z), ErrorPower);
+    float3 Light = normalize(float3(Normal.x, Normal.y, Angle));
+    float LightNDotH = saturate(dot(Normal, Light) * Error);
+    float LightSpecIntensity = pow(LightNDotH, LightPower);
+    Output = Diffuse + Specular * LightSpecIntensity;
+    </code>
+</fragment>
+<!--========================================================================-->
+<fragment type="Vertex/Pixel" name="RealTimeHair">
+    <inputs>
+        <resource type="sampler2D" variable="BaseMap" />
+        <resource type="sampler" variable="BaseMapSampler" />
+        <resource type="float2" variable="TexCoord" />
+        <resource type="float4" variable="Diffuse" />
+        <resource type="float4" variable="Specular" />
+        <resource type="float4" variable="Ambient" />
+        <resource type="float3" variable="Normal" />
+        <resource type="float3" variable="LightVec" />
+        <resource type="float3" variable="ViewVector" />
+        <resource type="float3" variable="DyeingColor" />
+    </inputs>
+    <outputs>
+        <resource type="float3" variable="OutDiffuse" />
+        <resource type="float3" variable="OutSpecular" />
+        <resource type="float3" variable="OutAmbient" />
+    </outputs>
+    <code lang="hlsl/Cg" platform="D3D11/D3D10/DX9/Xenon/PS3" target="vs_1_1/ps_2_0/vs_4_0/gs_4_0/ps_4_0/hs_5_0/ds_5_0">
+
+#ifdef D3D10
+    float4 LightRange = BaseMap.Sample(BaseMapSampler, TexCoord);
+#else
+    float4 LightRange = tex2D(BaseMap, TexCoord);
+#endif
+    float3 H = normalize(LightVec + float3(ViewVector.x, ViewVector.y, -1.0));
+    float DotNL = dot(Normal, -LightVec);
+    float DotNU = dot(Normal, float3 (0.0, 0.0, 1.0));
+    float DotUV = dot(float3(0.0, 0.0, 1.0), ViewVector);
+    float Face = DotNU;
+    if (Face == 0.0)
+        Face += 0.01;
+    float3 FakeTangent = cross(Normal, float3(Normal.x, Normal.y, 0.0)) * Face;
+    FakeTangent = normalize(cross(Normal, FakeTangent));
+    float3 DiffuseColor = float3(Diffuse.xyz) * saturate(lerp(0.25, 1.0, DotNL));
+    float3 ShiftNormal = 0.5 * Normal;
+    float3 ShiftTangent = normalize(FakeTangent - ShiftNormal);
+    float MaxColor = max(DyeingColor.x, DyeingColor.y);
+    MaxColor = 1.0 - max(MaxColor.x, DyeingColor.z) / 3.0;
+    float DotTH = dot(ShiftTangent, H);
+    float SinTH = sqrt(1.0 - DotTH * DotTH);
+    float3 SpecularColor = float3(Specular.xyz) * pow(SinTH, 8.0);
+    OutSpecular = SpecularColor * max(DotNL, 0.0) * LightRange.r;
+    OutDiffuse = DiffuseColor * MaxColor;
+    OutAmbient = Ambient;
+    </code>
+</fragment>
+<!--========================================================================-->
+<fragment type="Vertex/Pixel" name="WaterVertex">
+    <inputs>
+        <resource type="float3" variable="Pos" />
+        <resource type="float3" variable="ViewDir" />
+        <resource type="float" variable="WaterZ" />
+        <resource type="float" variable="Time" />
+        <resource type="float4x4" variable="Proj" />
+        <resource type="float4x4" variable="World" />
+    </inputs>
+    <outputs>
+        <resource type="float" variable="OutWaterOffset" />
+        <resource type="float4" variable="OutWorldProj" />
+        <resource type="float4" variable="OutDualMove" />
+    </outputs>
+    <code lang="hlsl/Cg" platform="D3D11/D3D10/DX9/Xenon/PS3" target="vs_1_1/ps_2_0/vs_4_0/gs_4_0/ps_4_0/hs_5_0/ds_5_0">
+    float4x4 WorldProj = mul(World, Proj); 
+    float4 PojPos = mul(float4(Pos, 1.0), WorldProj);
+    float4 PojWaterPos = mul(float4(10000.0 * ViewDir.x, 10000.0 * ViewDir.y, Pos.z, 1.0), WorldProj);
+    float WaterOffset = PojWaterPos.y / PojWaterPos.w;
+    WaterOffset = 1.0 - (WaterOffset + 1.0) / 2.0 + 0.01;
+    float2 primary_motion = Time * float2 (0.09, 0.13);
+    float2 second_motion = Time * float2 (0.002, -0.001);
+    OutWaterOffset = WaterOffset;
+    OutWorldProj = PojPos;
+    OutDualMove.xy = primary_motion;
+    OutDualMove.zw = second_motion;
+    </code>
+</fragment>
+<!--========================================================================-->
+<fragment type="Vertex/Pixel" name="WaterBase">
+    <inputs>
+        <resource type="float4" variable="WorldProj" />
+        <resource type="float2" variable="TexCoord" />
+        <resource type="float4" variable="DualMove" />
+        <resource type="sampler2D" variable="DUDVMap" />
+        <resource type="sampler" variable="DUDVMapSampler" />
+        <resource type="sampler2D" variable="NormalMap" />
+        <resource type="sampler" variable="NormalMapSampler" />
+        <resource type="sampler2D" variable="DepthMap" />
+        <resource type="sampler" variable="DepthMapSampler" />
+        <resource type="float" variable="DUDVRange" />
+        <resource type="float3" variable="LightDir" />
+        <resource type="float3" variable="Specular" />
+        <resource type="float3" variable="Diffuse" />
+        <resource type="float3" variable="Ambient" />
+        <resource type="float3" variable="WaterColor" />
+        <resource type="float4" variable="Pos" />
+        <resource type="float3" variable="ViewPos" />
+        <resource type="float4" variable="VertexColor" />
+        <resource type="float4x4" variable="Proj" />
+        <resource type="float" variable="dist" default="(0.007)" />
+        <resource type="float" variable="shine" default="(128.0)" />
+        <resource type="float3" variable="NV40" />
+        <resource type="float" variable="FadeFactor" default="(20.0)" />
+        <resource type="float" variable="ReflectType" />
+        <resource type="float" variable="FogDensity" />
+        <resource type="float2" variable="FogStartEnd" default="(1600.0, 10000.0)" />
+        <resource type="float3" variable="FogColor" />
+    </inputs>
+    <outputs>
+        <resource type="float3" variable="RefractScreenTexCoord" />
+        <resource type="float3" variable="ReflectScreenTexCoord" />
+        <resource type="float3" variable="OutViewToPos" />
+        <resource type="float3" variable="BumpNormal" />
+        <resource type="float2" variable="DUDV" />
+        <resource type="float3" variable="SpecularAccum" />
+        <resource type="float3" variable="DiffuseAccum" />
+        <resource type="float3" variable="Color" />
+        <resource type="float" variable="ProjQ" />
+        <resource type="float" variable="amount" />
+    </outputs>
+    <code lang="hlsl/Cg" platform="D3D11/D3D10/DX9/Xenon/PS3" target="vs_1_1/ps_2_0/vs_4_0/gs_4_0/ps_4_0/hs_5_0/ds_5_0">
+    float3 WorldTexCoord = float3(WorldProj.x / WorldProj.w, WorldProj.y / WorldProj.w ,WorldProj.z / WorldProj.w);
+    WorldTexCoord = float3(WorldTexCoord.x * 0.5 + 0.5 ,1.0 - (WorldTexCoord.y + 1.0) / 2.0, WorldTexCoord.z);
+    float Q = -Proj[2][2];
+    WorldTexCoord.z = Q / (WorldTexCoord.z + Q);
+    ReflectScreenTexCoord = WorldTexCoord;
+    ReflectScreenTexCoord.y = 1.0 - ReflectScreenTexCoord.y;
+    WorldTexCoord.xy += float2(1.0 / 1280.0, 1.0 / 1024.0) / 2.0;
+    if (ReflectType != 0.0)
+        ReflectScreenTexCoord = WorldTexCoord;
+    float2 primary_motion = TexCoord + DualMove.xy;
+    float2 second_mot = TexCoord + DualMove.zw;
+#ifdef D3D10
+    float3 second_motion = DUDVMap.Sample(DUDVMapSampler, second_mot);
+#else
+    float3 second_motion = tex2D(DUDVMap, second_mot);
+#endif
+    second_motion = (second_motion * 2.0 - 1.0) * dist;
+    float2 MotionCoord = primary_motion + second_motion.xy;
+    MotionCoord *= 8.0;
+#ifdef D3D10
+    float4 Normmap = NormalMap.Sample(NormalMapSampler, MotionCoord);
+#else
+    float4 Normmap = tex2D(NormalMap, MotionCoord);
+#endif
+    float3 BumpNorm = normalize(Normmap.xyz * 2.0 - 1.0);
+    float DistanceOffset = (1.0 - saturate(WorldTexCoord.z / 130.0)) * 0.5 + 0.5;
+#ifdef D3D10
+    float3 dudv_Offset = DUDVMap.Sample(DUDVMapSampler, MotionCoord);
+#else
+    float3 dudv_Offset = tex2D(DUDVMap, MotionCoord);
+#endif
+    float2 dudv_Offsets = (dudv_Offset.xy * 2.0 - 1.0) * DUDVRange * DistanceOffset;
+    float3 L = normalize(LightDir);
+    float DotNL = dot(BumpNorm, L);
+    float3 BumpColor = DotNL * 0.35 + 1.0;
+    float3 Light_Reflection = normalize(reflect(BumpNorm, L));
+    float3 ViewToPos = normalize(ViewPos - Pos.xyz);
+    float DotRV = saturate(dot(Light_Reflection, ViewToPos));
+    float3 SpecularColor = Specular * pow(DotRV, shine);
+#ifdef D3D10
+    float3 ScreenDepth = DepthMap.Sample(DepthMapSampler, WorldTexCoord.xy);
+#else
+    float3 ScreenDepth = tex2D(DepthMap, WorldTexCoord.xy);
+#endif
+    if (NV40.x != 0.0)
+        ScreenDepth.x = dot(ScreenDepth,NV40);
+    ScreenDepth.x = Q / (ScreenDepth.x + Q);
+    float offset =  ScreenDepth.x - WorldTexCoord.z ; 
+    amount = saturate(offset / FadeFactor);
+    RefractScreenTexCoord = WorldTexCoord;
+    OutViewToPos = ViewToPos;
+    BumpNormal = BumpNorm;
+    DUDV = dudv_Offsets * amount;
+    SpecularAccum = SpecularColor * amount;
+    float3 DiffuseColor = WaterColor * Diffuse * BumpColor;
+    float3 AmbientColor = WaterColor * Ambient;
+    float3 FinalColor = (DiffuseColor + AmbientColor) * VertexColor.xyz;
+    ProjQ = Q;
+    DiffuseAccum = FinalColor;
+    float d = length(ViewPos - Pos.xyz);
+    float FogOut = saturate((FogStartEnd.y - d * FogDensity * 10000.0) / (FogStartEnd.y - FogStartEnd.x));
+    Color = lerp(FogColor, FinalColor, FogOut);
+    </code>
+</fragment>
+<!--========================================================================-->
+<fragment type="Vertex/Pixel" name="WaterRefract">
+    <inputs>
+        <resource type="sampler2D" variable="DepthMap" />
+        <resource type="sampler" variable="DepthMapSampler" />
+        <resource type="sampler2D" variable="ScreenMap" />
+        <resource type="sampler" variable="ScreenMapSampler" />
+        <resource type="float2" variable="DUDV" />
+        <resource type="float3" variable="BumpNormal" />
+        <resource type="float3" variable="ScreenTexCoord" />
+        <resource type="float3" variable="WaterColor" />
+        <resource type="float" variable="Opacity" />
+        <resource type="float" variable="Q" />
+        <resource type="float3" variable="NV40" />
+        <resource type="float3" variable="ViewToPos" />
+        <resource type="float" variable="AlphaFactor" default="(4.0)" />
+        <resource type="float" variable="amount" />
+        <resource type="float" variable="FadeFactor" default="(80.0)" />
+    </inputs>
+    <outputs>
+        <resource type="float3" variable="DiffuseAccum" />
+        <resource type="float3" variable="Refract" />
+        <resource type="float" variable="Alpha" />
+    </outputs>
+    <code lang="hlsl/Cg" platform="D3D11/D3D10/DX9/Xenon/PS3" target="vs_1_1/ps_2_0/vs_4_0/gs_4_0/ps_4_0/hs_5_0/ds_5_0">
+#ifdef D3D10
+    float3 Depth = DepthMap.Sample(DepthMapSampler, ScreenTexCoord.xy);
+#else
+    float3 Depth = tex2D(DepthMap, ScreenTexCoord.xy);
+#endif
+    if (NV40.x != 0.0)
+        Depth.x = dot(Depth,NV40);
+    Depth.x = Q / (Depth.x + Q);
+    float DotNV = dot(BumpNormal, ViewToPos);
+    float2 RefractVector = float2(0.0, ViewToPos.z * DotNV * 0.01);
+    RefractVector += DUDV * 0.4;
+    RefractVector.y = saturate(RefractVector.y);
+    float2 RefractCoord = ScreenTexCoord.xy + RefractVector.xy;
+    RefractCoord.xy = saturate(RefractCoord.xy);
+#ifdef D3D10
+    float3 RefractDepth = DepthMap.Sample(DepthMapSampler, RefractCoord + RefractVector.xy * float2(0.1, 0.1));
+#else
+    float3 RefractDepth = tex2D(DepthMap, RefractCoord + RefractVector.xy * float2(0.1, 0.1));
+#endif
+    if (NV40.x != 0.0)
+        RefractDepth.x = dot(RefractDepth,NV40);
+    RefractDepth.x = Q / (RefractDepth.x + Q);
+    float amount2 = saturate((RefractDepth.x - ScreenTexCoord.z) / FadeFactor);
+    if (RefractDepth.x + 0.5 &lt; ScreenTexCoord.z)
+    {
+         RefractCoord = ScreenTexCoord.xy;
+         amount2 = saturate((Depth.x - ScreenTexCoord.z) / FadeFactor);
+    }
+    amount2 = 0.5 + amount2 / 1.25;
+    amount2 = saturate(amount2);
+#ifdef D3D10
+    float3 RefractBase = ScreenMap.Sample(ScreenMapSampler, RefractCoord);
+#else
+    float3 RefractBase = tex2D(ScreenMap, RefractCoord);
+#endif
+    float3 RefractColor = lerp(RefractBase, WaterColor, Opacity * amount2);
+    Refract = RefractColor;
+    DiffuseAccum = RefractColor;
+    Alpha = Opacity * AlphaFactor;
+    </code>
+</fragment>
+<!--========================================================================-->
+<fragment type="Vertex/Pixel" name="WaterReflect">
+    <inputs>
+        <resource type="sampler2D" variable="DepthMap" />
+        <resource type="sampler" variable="DepthMapSampler" />
+        <resource type="sampler2D" variable="ScreenMap" />
+        <resource type="sampler" variable="ScreenMapSampler" />
+        <resource type="sampler2D" variable="ReflectMap" />
+        <resource type="sampler" variable="ReflectMapSampler" />
+        <resource type="float2" variable="DUDV" />
+        <resource type="float" variable="WaterOffset" />
+        <resource type="float3" variable="ScreenTexCoord" />
+        <resource type="float3" variable="WaterColor" />
+        <resource type="float" variable="Q" />
+        <resource type="float3" variable="NV40" />
+        <resource type="float" variable="amount" />
+        <resource type="float" variable="ReflectType" />
+    </inputs>
+    <outputs>
+        <resource type="float3" variable="DiffuseAccum" />
+        <resource type="float3" variable="Reflect" />
+    </outputs>
+    <code lang="hlsl/Cg" platform="D3D11/D3D10/DX9/Xenon/PS3" target="vs_1_1/ps_2_0/vs_4_0/gs_4_0/ps_4_0/hs_5_0/ds_5_0">
+    float3 ReflectScreen;
+    float3 ReflectColor;
+    if (ReflectType!=0.0)
+    {
+        float YOffset = WaterOffset - (ScreenTexCoord.y - WaterOffset);
+        float2 Coord = float2(ScreenTexCoord.x + DUDV.x, YOffset + DUDV.y);
+        Coord.x = saturate(Coord.x);
+#ifdef D3D10
+        float3 Depth = DepthMap.Sample(DepthMapSampler, Coord);
+#else
+        float3 Depth = tex2D(DepthMap, Coord);
+#endif
+        if (NV40.x != 0.0)
+            Depth.x = dot(Depth, NV40);
+        Depth.x = Q / (Depth.x + Q);
+        float2 SkyCoord = float2(Coord.x, 1.0 - 2.0 * WaterOffset + Coord.y);
+        float Blend = 1.0 - saturate(Coord.y / (0.25 + DUDV.y));
+        if (Depth.x + 20.0 &lt; ScreenTexCoord.z)
+            Blend = 1.0;
+#ifdef D3D10
+        ReflectScreen = ScreenMap.Sample(ScreenMapSampler, Coord.xy);
+        float3 ReflectSky = ReflectMap.Sample(ReflectMapSampler, SkyCoord);
+#else
+        ReflectScreen = tex2D(ScreenMap, Coord.xy);
+        float3 ReflectSky = tex2D(ReflectMap, SkyCoord);
+#endif
+        float3 ReflectBase = lerp(ReflectScreen, ReflectSky, Blend);
+        ReflectColor = lerp(ReflectBase, WaterColor, 0.45 * amount);
+    }
+    else
+    {
+#ifdef D3D10
+        ReflectScreen = ReflectMap.Sample(ReflectMapSampler, saturate(ScreenTexCoord+DUDV.xy));
+#else
+        ReflectScreen = tex2D(ReflectMap, saturate(ScreenTexCoord+DUDV.xy));
+#endif
+        ReflectColor = lerp(ReflectScreen, WaterColor, 0.15 * amount);
+    }
+    Reflect = ReflectColor * amount;
+    DiffuseAccum = ReflectScreen;
+    </code>
+</fragment>
+<!--========================================================================-->
+<fragment type="Vertex/Pixel" name="WaterFresnel">
+    <inputs>
+        <resource type="float3" variable="RefractColor" />
+        <resource type="float3" variable="ReflectColor" />
+        <resource type="float" variable="ReflectFactor" />
+        <resource type="float" variable="Opacity" />
+    </inputs>
+    <outputs>
+        <resource type="float3" variable="DiffuseAccum" />
+    </outputs>
+    <code lang="hlsl/Cg" platform="D3D11/D3D10/DX9/Xenon/PS3" target="vs_1_1/ps_2_0/vs_4_0/gs_4_0/ps_4_0/hs_5_0/ds_5_0">
+    float3 Screen = RefractColor + ReflectColor * ReflectFactor;
+    DiffuseAccum = Screen;
+    </code>
+</fragment>
+<!--========================================================================-->
+<fragment type="Vertex/Pixel" name="WaterEffect">
+    <inputs>
+        <resource type="sampler2D" variable="ChopMap" />
+        <resource type="sampler" variable="ChopMapSampler" />
+        <resource type="sampler2D" variable="DepthMap" />
+        <resource type="sampler" variable="DepthMapSampler" />
+        <resource type="float3" variable="WaterColor" />
+        <resource type="float3" variable="RefractColor" />
+        <resource type="float3" variable="BumpNormal" />
+        <resource type="float3" variable="ScreenTexCoord" />
+        <resource type="float2" variable="TexCoord" />
+        <resource type="float2" variable="DUDV" />
+        <resource type="float3" variable="WaveMove" />
+    </inputs>
+    <outputs>
+        <resource type="float3" variable="DiffuseAccum" />
+    </outputs>
+    <code lang="hlsl/Cg" platform="D3D11/D3D10/DX9/Xenon/PS3" target="vs_1_1/ps_2_0/vs_4_0/gs_4_0/ps_4_0/hs_5_0/ds_5_0">
+#ifdef D3D10
+    float WaterDepth = DepthMap.Sample(DepthMapSampler, ScreenTexCoord.xy);
+#else
+    float WaterDepth = tex2D(DepthMap, ScreenTexCoord.xy);
+#endif
+    WaterDepth = -1.00294 / (WaterDepth -1.00294);
+    float DepthCom = abs(WaterDepth - ScreenTexCoord.z);
+    float DepthRange =  (0.6 + BumpNormal.z * 0.4);
+    float Decrease = saturate(DepthRange - DepthCom / DepthRange);
+#ifdef D3D10
+    float3 ChopColor = ChopMap.Sample(ChopMapSampler, TexCoord * 16.0 + DUDV + WaveMove.xy);
+#else
+    float3 ChopColor = tex2D(ChopMap, TexCoord * 16.0 + DUDV + WaveMove.xy);
+#endif
+    float ChopDecrease = ChopColor.x * Decrease;
+    float3 Screen = lerp(WaterColor, RefractColor, Decrease);
+    Screen = lerp(Screen, ChopColor, ChopDecrease);
+    DiffuseAccum = Screen;
+    </code>
+</fragment>
+<!--========================================================================-->
+<fragment type="Vertex/Pixel" name="Clip">
+    <inputs>
+        <resource type="float" variable="Input" />
+    </inputs>
+    <outputs>
+        <resource type="float" variable="Output" />
+    </outputs>
+    <code lang="hlsl/Cg" platform="D3D11/D3D10/DX9/Xenon/PS3" target="vs_1_1/ps_2_0/vs_4_0/gs_4_0/ps_4_0/hs_5_0/ds_5_0">
+    clip(Input);
+    Output = Input;
+    </code>
+</fragment>
+<!--========================================================================-->
+<fragment type="Vertex/Pixel" name="DDXDDY">
+    <inputs>
+        <resource type="float4" variable="InputDDX" />
+        <resource type="float4" variable="InputDDY" />
+    </inputs>
+    <outputs>
+        <resource type="float4" variable="OutputDDX" />
+        <resource type="float4" variable="OutputDDY" />
+    </outputs>
+    <code lang="hlsl/Cg" platform="DX9" target="ps_2_0">
+    OutputDDX = 0;
+    OutputDDY = 0;
+    </code>
+    <code lang="hlsl/Cg" platform="D3D11/D3D10/DX9/Xenon/PS3" target="ps_3_0/ps_4_0">
+    OutputDDX = ddx(InputDDX);
+    OutputDDY = ddy(InputDDY);
+    </code>
+</fragment>
+<!--========================================================================-->
+<fragment type="float" name="SplitHighAndLowRatio">
+    <inputs>
+        <resource type="float" variable="Input" />
+    </inputs>
+    <outputs>
+        <resource type="float" variable="HighRatio" />
+        <resource type="float" variable="LowRatio" />
+    </outputs>
+    <code lang="hlsl/Cg" platform="D3D11/D3D10/DX9/Xenon/PS3" target="vs_1_1/ps_2_0/vs_4_0/gs_4_0/ps_4_0/hs_5_0/ds_5_0">
+    float DoubleInput = Input * 2.0;
+    HighRatio = saturate(DoubleInput - 1.0);
+    LowRatio = saturate(DoubleInput);
+    </code>
+</fragment>
+<!--========================================================================-->
+<fragment type="Pixel" name="WaterWorld">
+    <inputs>
+        <resource type="sampler2D" variable="DepthSample" />
+        <resource type="float2" variable="UV" />
+        <resource type="float3" variable="NV40" />
+        <resource type="float2" variable="QAndZnQ" />
+        <resource type="float" variable="NearPlane" />
+        <resource type="float" variable="InvertRange" />
+        <resource type="float4" variable="WaterWorldColor" />
+    </inputs>
+    <outputs>
+        <resource type="float3" variable="Color" />
+        <resource type="float" variable="Alpha" />
+    </outputs>
+    <code lang="hlsl/Cg" platform="D3D11/D3D10/DX9/Xenon/PS3" target="vs_1_1/ps_2_0/vs_4_0/gs_4_0/ps_4_0/hs_5_0/ds_5_0">
+
+   float3 DepthInfo = tex2D(DepthSample, UV).rga;
+   if (NV40.x != 0.0)
+   {
+       DepthInfo = floor(DepthInfo * 255.0 + 0.5);
+       DepthInfo.x = dot(DepthInfo, NV40.xyz / 255.0);
+   }
+   DepthInfo.x = QAndZnQ.y / (QAndZnQ.x - DepthInfo.x);
+	float Depth  = saturate((DepthInfo.x - NearPlane) * InvertRange);
+   Alpha = Depth * WaterWorldColor.a;
+   Color = WaterWorldColor.rgb;
+    </code>
+</fragment>
+<!--========================================================================-->
+<fragment type="Vertex/Pixel" name="BackLighting">
+    <inputs>
+        <resource type="float3" variable="Diffuse" default="(0.0, 0.0, 0.0)" />
+        <resource type="float3" variable="Ambient" default="(0.0, 0.0, 0.0)" />
+        <resource type="float4" variable="BackLightCircleParameter" default="(0.0, 0.0, 0.0, 0.0)" />
+        <resource type="float3" variable="Normal" default="(0.0, 0.0, 0.0)" />
+        <resource type="float3" variable="WorldViewVector" />
+        <resource type="float" variable="BackLightType" default="(0)" />
+    </inputs>
+    <outputs>
+        <resource type="float3" variable="OutDiffuse" />
+        <resource type="float3" variable="OutAmbient" />
+    </outputs>
+    <code lang="hlsl/Cg" platform="D3D11/D3D10/DX9/Xenon/PS3" target="vs_1_1/ps_2_0/vs_4_0/gs_4_0/ps_4_0/hs_5_0/ds_5_0">
+    float BackLightThickness = BackLightCircleParameter.r;
+    float BackLightIntensity = BackLightCircleParameter.g;
+
+    OutAmbient = Ambient;
+    OutDiffuse = Diffuse;
+
+    // Back Light.
+    if (BackLightType == 1)
+    {
+        float DotNL = dot(WorldViewVector, Normal);
+        if (DotNL != 0)
+        {
+            if (DotNL &lt;= (BackLightThickness / 2.0))
+            {
+                OutDiffuse = 0.0;
+                OutAmbient = 0.0;
+            }
+        }
+    }
+
+    // White Back Light
+    if (BackLightType == 2)
+    {
+        float DotNL = dot(-WorldViewVector, Normal);
+        if (DotNL != 0.0)
+        {
+            DotNL += BackLightThickness;
+            float LightIntensity2 = saturate(DotNL);
+            OutDiffuse += (LightIntensity2 * BackLightIntensity * 1.25);
+        }
+    }
+    </code>
+</fragment>
+<!--========================================================================-->
+<fragment type="Vertex/Pixel" name="MotionVectorComputation">
+    <inputs>
+        <resource type="float2" variable="CancelJitter" />        
+        <resource type="float4" variable="ProjPos" />
+        <resource type="float4" variable="ProjPosPrev" />
+    </inputs>
+    <outputs>
+        <resource type="float2" variable="Output" />
+    </outputs>
+    <code lang="hlsl/Cg" platform="DX9" target="ps_2_0">
+    Output = ((ProjPosPrev.xy / ProjPosPrev.w) - (ProjPos.xy / ProjPos.w)) - CancelJitter;
+    Output = Output * float2(0.5, -0.5);
+    </code>
+</fragment>
+<!--========================================================================-->
+</library>

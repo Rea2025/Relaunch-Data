@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/SearchInfoWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="ID" Value="1" />
+        <Property Name="UnifiedAreaRect" Value="{{0.063915,0},{0.071887,0},{0.063915,454},{0.071887,525}}" />
+        <Window Type="DefaultWindow" Name="Root/SearchInfoWnd/BG" >
+            <Property Name="Text" Value="在線搜尋" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,454},{0,525}}" />
+            <Window Type="DejaVu/Embed3" Name="Root/SearchInfoWnd/FilterBG" >
+                <Property Name="UnifiedAreaRect" Value="{{0.013216,0},{0.761905,0},{0.825991,0},{0.988572,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/SearchInfoWnd/Filter/LabelConditions" >
+                    <Property Name="Text" Value="x篩選條件" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.01355,0},{0.042017,0},{0.284553,0},{0.168067,0}}" />
+                </Window>
+                <Window Type="DejaVu/Embed4" Name="Root/SearchInfoWnd/Filter/BG2" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.01355,0},{0.210084,0},{0.98645,0},{0.957983,0}}" />
+                    <Window Type="DejaVu/EmbedTextLab8" Name="Root/SearchInfoWnd/Filter/LabelLevel" >
+                        <Property Name="Text" Value="x等級" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.317549,0},{0.292135,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab8" Name="Root/SearchInfoWnd/Filter/LabelOther" >
+                        <Property Name="Text" Value="x其他" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.317549,0},{0,0},{0.679666,0},{0.292135,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab8" Name="Root/SearchInfoWnd/Filter/LabelName" >
+                        <Property Name="Text" Value="x角色名稱" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.679666,0},{0,0},{1,0},{0.292135,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Embed4" Name="Root/SearchInfoWnd/Filter/LevelBG" >
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.292135,0},{0.317549,0},{1,0}}" />
+                        <Window Type="DejaVu/StaticTextLab" Name="Root/SearchInfoWnd/Filter/LevelMaxText" >
+                            <Property Name="Text" Value="x等級上限" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.048077,0},{0.079365,0},{0.618252,0},{0.460317,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticTextLab" Name="Root/SearchInfoWnd/Filter/LevelMinText" >
+                            <Property Name="Text" Value="x等級下限" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0438596,0},{0.539683,0},{0.614035,0},{0.920635,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Editbox" Name="Root/SearchInfoWnd/Filter/LevelMaxEdit" >
+                            <Property Name="MaxTextLength" Value="2" />
+                            <Property Name="Text" Value="999" />
+                            <Property Name="TextParsingEnabled" Value="False" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.657895,0},{0.079365,0},{0.956141,0},{0.460317,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Editbox" Name="Root/SearchInfoWnd/Filter/LevelMinEdit" >
+                            <Property Name="MaxTextLength" Value="2" />
+                            <Property Name="Text" Value="99" />
+                            <Property Name="TextParsingEnabled" Value="False" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.657895,0},{0.539683,0},{0.956141,0},{0.920635,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Embed4" Name="Root/SearchInfoWnd/Filter/OtherBG" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.317549,0},{0.292135,0},{0.679666,0},{1,0}}" />
+                        <Window Type="DejaVu/Checkbox" Name="Root/SearchInfoWnd/Filter/LoverCheckbox" >
+                            <Property Name="Text" Value="x過濾有情侶玩家" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.035714,0},{0.079365,0},{0.958791,0},{0.460317,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Checkbox" Name="Root/SearchInfoWnd/Filter/FamilyCheckbox" >
+                            <Property Name="Text" Value="x過濾有公會玩家" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.035714,0},{0.539683,0},{0.958791,0},{0.920635,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Embed4" Name="Root/SearchInfoWnd/Filter/NameBG" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.679666,0},{0.292135,0},{1,0},{1,0}}" />
+                        <Window Type="DejaVu/StaticTextLab" Name="Root/SearchInfoWnd/Filter/LabelInputName" >
+                            <Property Name="Text" Value="x輸入名稱" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.043478,0},{0.079365,0},{0.652174,0},{0.460317,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Editbox" Name="Root/SearchInfoWnd/Filter/NameEdit" >
+                            <Property Name="MaxTextLength" Value="16" />
+                            <Property Name="Text" Value="一二三四五六七八" />
+                            <Property Name="TextParsingEnabled" Value="False" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.043478,0},{0.539683,0},{0.956521,0},{0.920635,0}}" />
+                        </Window>
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/SearchInfoWnd/SearchBtn" >
+                <Property Name="Text" Value="x開始搜尋" />
+                <Property Name="UnifiedAreaRect" Value="{{0.837004,0},{0.914286,0},{0.986784,0},{0.946667,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/SearchInfoWnd/CloseBtn" >
+                <Property Name="Text" Value="x關閉" />
+                <Property Name="UnifiedAreaRect" Value="{{0.837004,0},{0.95619,0},{0.986784,0},{0.988571,0}}" />
+            </Window>
+            <Window Type="DejaVu/Embed3" Name="Root/SearchInfoWnd/MainWnd" >
+                <Property Name="UnifiedAreaRect" Value="{{0.014193,0},{0.011516,0},{0.987761,0},{0.752468,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/SearchInfoWnd/SearchInfoTitle" >
+                    <Property Name="Text" Value="x搜尋結果" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.011494,0},{0.013123,0},{0.282987,0},{0.052084,0}}" />
+                </Window>
+                <Window Type="DejaVu/Embed4" Name="Root/SearchInfoWnd/MainWnd/frame" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.011312,0},{0.064935,0},{0.988688,0},{0.923547,0}}" />
+                    <Window Type="DejaVu/MultiColumnList" Name="Root/SearchInfoWnd/MainWnd/MCL" >
+                        <Property Name="ColumnsMovable" Value="False" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab" Name="Root/SearchInfoWnd/MainWnd/PageNumber" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="1/1" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.450226,0},{0.935065,0},{0.549774,0},{0.987013,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/SearchInfoWnd/MainWnd/PrevBtn" >
+                    <Property Name="DisabledImage" Value="set:DejaVu image:ArrowLeftPressed" />
+                    <Property Name="HoverImage" Value="set:DejaVu image:ArrowLeftHover" />
+                    <Property Name="NormalImage" Value="set:DejaVu image:ArrowLeftNormal" />
+                    <Property Name="PushedImage" Value="set:DejaVu image:ArrowLeftPressed" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.414027,0},{0.935065,0},{0.447964,0},{0.987013,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/SearchInfoWnd/MainWnd/NextBtn" >
+                    <Property Name="DisabledImage" Value="set:DejaVu image:ArrowRightPressed" />
+                    <Property Name="HoverImage" Value="set:DejaVu image:ArrowRightHover" />
+                    <Property Name="NormalImage" Value="set:DejaVu image:ArrowRightNormal" />
+                    <Property Name="PushedImage" Value="set:DejaVu image:ArrowRightPressed" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.552036,0},{0.935065,0},{0.585973,0},{0.987013,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/SearchInfoWnd/MainWnd/Tutorial" >
+                    <Property Name="DisabledImage" Value="set:DejaVu image:HelpButtonPressed" />
+                    <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                    <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                    <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.954233,0},{0.012376,0},{0.98817,0},{0.051337,0}}" />
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

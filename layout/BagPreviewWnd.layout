@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="BagPreviewWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="TitlebarImage" Value="set:main image:BagNormal" />
+        <Property Name="UnifiedAreaRect" Value="{{0.291146,0},{0.32666,0},{0.291146,515},{0.32666,131}}" />
+        <Window Type="DejaVu/Embed" Name="BagPreviewWnd/Embed" >
+            <Property Name="ClippedByParent" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,498},{0,49}}" />
+            <Window Type="DejaVu/Embed" Name="BagPreviewWnd/Embed/TopPanel" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0199203,0},{0.0465116,0},{0.0199203,475},{0.0465116,30}}" />
+                <Window Type="DejaVu/Button" Name="BagPreviewWnd/Embed/TopPanel/BagPageBtn1" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="x頁面1" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0526316,0},{0.133333,0},{0.212632,0},{1,0}}" />
+                </Window>
+                <Window Type="DejaVu/Button" Name="BagPreviewWnd/Embed/TopPanel/BagPageBtn2" >
+                    <Property Name="Text" Value="x頁面2" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.223158,0},{0.133333,0},{0.383158,0},{1,0}}" />
+                </Window>
+                <Window Type="DejaVu/Button" Name="BagPreviewWnd/Embed/TopPanel/BagPageBtn3" >
+                    <Property Name="Text" Value="x頁面3" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.394205,0},{0.134387,0},{0.554205,0},{1.00105,0}}" />
+                </Window>
+                <Window Type="DejaVu/Button" Name="BagPreviewWnd/Embed/TopPanel/BagPageBtn4" >
+                    <Property Name="Text" >x頁面4
+</Property>
+                    <Property Name="UnifiedAreaRect" Value="{{0.564211,0},{0.133333,0},{0.724211,0},{1,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="BagPreviewWnd/Embed/TopPanel/NextBtn" >
+                    <Property Name="DisabledImage" Value="set:DejaVu image:ArrowRightPressed" />
+                    <Property Name="HoverImage" Value="set:DejaVu image:ArrowRightHover" />
+                    <Property Name="NormalImage" Value="set:DejaVu image:ArrowRightNormal" />
+                    <Property Name="PushedImage" Value="set:DejaVu image:ArrowRightPressed" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.734737,0},{0.166667,0},{0.785263,0},{0.966667,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="BagPreviewWnd/Embed/TopPanel/LastBtn" >
+                    <Property Name="DisabledImage" Value="set:DejaVu image:ArrowLeftPressed" />
+                    <Property Name="HoverImage" Value="set:DejaVu image:ArrowLeftHover" />
+                    <Property Name="NormalImage" Value="set:DejaVu image:ArrowLeftNormal" />
+                    <Property Name="PushedImage" Value="set:DejaVu image:ArrowLeftPressed" />
+                    <Property Name="UnifiedAreaRect" Value="{{-0.0105263,0},{0.166667,0},{0.04,0},{0.966667,0}}" />
+                </Window>
+                <Window Type="DejaVu/Combobox" Name="BagPreviewWnd/Embed/TopPanel/CharCombobox" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="MaxEditTextLength" Value="2147483647" />
+                    <Property Name="ReadOnly" Value="True" />
+                    <Property Name="Text" Value="character0" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.786047,0},{0.1687,0},{1.00933,0},{2.76391,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed2" Name="BagPreviewWnd/Embed/SlotContainer" >
+                <Property Name="UnifiedAreaRect" Value="{{0.0199203,0},{0.744186,0},{0.0199203,475},{0.744186,1}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

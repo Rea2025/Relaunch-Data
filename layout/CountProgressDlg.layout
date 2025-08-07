@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="CountProgressDlg" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="TitlebarImage" Value="set:main image:SystemNormal" />
+        <Property Name="UnifiedAreaRect" Value="{{0.357422,0},{0.307291,0},{0.357422,320},{0.307291,320}}" />
+        <Window Type="DejaVu/Embed" Name="CountProgressDlg/BG" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{-0.000976563,0},{0,0},{0.999023,0},{1,0}}" />
+            <Window Type="DejaVu/Embed2" Name="CountProgressDlg/BG/Embed" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.034483,0},{0.045249,0},{0.965517,0},{0.81448,0}}" />
+                <Window Type="DejaVu/ProgressBarBG" Name="CountProgressDlg/BG/Embed/ProgressBarBG" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.037037,0},{0.852941,0},{0.962963,0},{0.941176,0}}" />
+                    <Window Type="DejaVu/ProgressBar2" Name="CountProgressDlg/BG/Embed/ProgressBar" >
+                        <Property Name="CurrentProgress" Value="1" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="StepSize" Value="0.01" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.024,0},{0.266667,0},{0.98,0},{0.733334,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="CountProgressDlg/BG/Embed/Edit" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="Text" Value="999" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.407407,0},{0.648752,0},{0.592593,0},{0.79581,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="CountProgressDlg/BG/Embed/LBtn" >
+                    <Property Name="DisabledImage" Value="set:DejaVu image:ArrowLeftPressed" />
+                    <Property Name="HoverImage" Value="set:DejaVu image:ArrowLeftHover" />
+                    <Property Name="NormalImage" Value="set:DejaVu image:ArrowLeftNormal" />
+                    <Property Name="PushedImage" Value="set:DejaVu image:ArrowLeftPressed" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.314815,0},{0.647059,0},{0.388889,0},{0.794118,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="CountProgressDlg/BG/Embed/LLBtn" >
+                    <Property Name="DisabledImage" Value="set:DejaVu image:DoubledLeftArrowPressed" />
+                    <Property Name="HoverImage" Value="set:DejaVu image:DoubledLeftArrowHover" />
+                    <Property Name="NormalImage" Value="set:DejaVu image:DoubledLeftArrowNormal" />
+                    <Property Name="PushedImage" Value="set:DejaVu image:DoubledLeftArrowPressed" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.222222,0},{0.647059,0},{0.296296,0},{0.794118,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="CountProgressDlg/BG/Embed/RBtn" >
+                    <Property Name="DisabledImage" Value="set:DejaVu image:ArrowRightPressed" />
+                    <Property Name="HoverImage" Value="set:DejaVu image:ArrowRightHover" />
+                    <Property Name="NormalImage" Value="set:DejaVu image:ArrowRightNormal" />
+                    <Property Name="PushedImage" Value="set:DejaVu image:ArrowRightPressed" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.611111,0},{0.647059,0},{0.685185,0},{0.794118,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="CountProgressDlg/BG/Embed/RRBtn" >
+                    <Property Name="DisabledImage" Value="set:DejaVu image:DoubledRightArrowPressed" />
+                    <Property Name="HoverImage" Value="set:DejaVu image:DoubledRightArrowHover" />
+                    <Property Name="NormalImage" Value="set:DejaVu image:DoubledRightArrowNormal" />
+                    <Property Name="PushedImage" Value="set:DejaVu image:DoubledRightArrowPressed" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.703704,0},{0.647059,0},{0.777778,0},{0.794118,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="CountProgressDlg/BG/Embed/Text" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorzFormatting" Value="WordWrapCentred" />
+                    <Property Name="LinespaceWindow" Value="True" />
+                    <Property Name="Text" >x贈與此徽記可提高以下能力值：
+x閃躲值　1 ~ 3點
+x閃躲值　1 ~ 3點
+x閃躲值　1 ~ 3點</Property>
+                    <Property Name="UnifiedAreaRect" Value="{{0.037037,0},{0,0},{0.962963,0},{0.470588,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="CountProgressDlg/BG/Embed/ItemText" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="x請輸入物品數量" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0380859,0},{0.5,0},{0.964012,0},{0.647059,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Button" Name="CountProgressDlg/BG/OK" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="確定" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0344828,0},{0.837104,0},{0.296552,0},{0.954751,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="CountProgressDlg/BG/Cancel" >
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="Text" Value="取消" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.034483,0},{0.837104,0},{0.227586,0},{0.954751,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

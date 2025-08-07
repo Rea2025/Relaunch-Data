@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/mailitem" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="MousePassThroughEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,462},{0,52}}" />
+        <Window Type="DejaVu/Embed2" Name="Root/mailitem/backgrand" >
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Embed3" Name="Root/mailitem/backgrand/ItemEmb" >
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.112554,0},{1,0}}" />
+            </Window>
+            <Window Type="DejaVu/Embed3" Name="Root/mailitem/backgrand/NameEmb" >
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.112554,0},{0,0},{0.415584,0},{1,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/mailitem/backgrand/NameText" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.071429,0},{0.307692,0},{0.928572,0},{0.692307,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed3" Name="Root/mailitem/backgrand/TitleEmb" >
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.415584,0},{0,0},{0.848484,0},{1,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/mailitem/backgrand/TitleText" >
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.307692,0},{0.95,0},{0.692307,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/mailitem/backgrand/Pic" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Image" Value="set:main image:Badge" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.025,0},{0.096154,0},{0.235,0},{0.903846,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed3" Name="Root/mailitem/backgrand/TimeEmb" >
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.848485,0},{0,0},{1,0},{1,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/mailitem/backgrand/DayText" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.071429,0},{0.307692,0},{0.928572,0},{0.692307,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/mailitem/backgrand/TreasureImage" >
+                <Property Name="UnifiedAreaRect" Value="{{0.010823,0},{0.096154,0},{0.101732,0},{0.903846,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/mailitem/backgrand/brush" >
+                <Property Name="Image" Value="set:DejaVu image:Zframe2Center" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

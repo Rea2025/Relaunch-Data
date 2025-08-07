@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/NormalSkillWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="Text" Value="  一般技能  " />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,628},{0,412}}" />
+        <Window Type="DejaVu/Static" Name="Root/NormalSkillWnd/NormalAction" >
+            <Property Name="UnifiedAreaRect" Value="{{0.015924,0},{0.024272,0},{0.984077,0},{0.495728,0}}" />
+            <Window Type="DejaVu/Embed2" Name="Root/NormalSkillWnd/Wnd" >
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0510204,0},{1,0},{1,0}}" />
+                <Window Type="DejaVu/ScrollablePane" Name="Root/NormalSkillWnd/ScrollPane" >
+                    <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                    <Property Name="HorzOverlapSize" Value="0.01" />
+                    <Property Name="HorzScrollPosition" Value="0" />
+                    <Property Name="HorzStepSize" Value="0.1" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    <Property Name="VertOverlapSize" Value="0.01" />
+                    <Property Name="VertScrollPosition" Value="0" />
+                    <Property Name="VertStepSize" Value="0.1" />
+                    <AutoWindow NameSuffix="__auto_container__" >
+                        <Property Name="ChildExtentsArea" Value="l:0 t:0 r:0 b:0" />
+                        <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                        <Property Name="MouseInputPropagationEnabled" Value="True" />
+                    </AutoWindow>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed4" Name="Root/NormalSkillWnd/Index" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0164474,0},{0,0},{0.263158,0},{0.127551,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/NormalSkillWnd/Index/Text" >
+                    <Property Name="Font" Value="F001-9" />
+					<Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="Text" Value="x一般動作" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.2,0},{0.866667,0},{0.8,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/NormalSkillWnd/Index/Image" >
+				<Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="Image" Value="set:DejaVu image:Image14" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="Root/NormalSkillWnd/SpecialAction" >
+            <Property Name="UnifiedAreaRect" Value="{{0.015924,0},{0.504272,0},{0.984077,0},{0.975728,0}}" />
+            <Window Type="DejaVu/Embed2" Name="Root/NormalSkillWnd/SpecialAction/Wnd" >
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0510204,0},{1,0},{1,0}}" />
+                <Window Type="DejaVu/ScrollablePane" Name="Root/NormalSkillWnd/SpecialAction/ScrollPane" >
+                    <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                    <Property Name="HorzOverlapSize" Value="0.01" />
+                    <Property Name="HorzScrollPosition" Value="0" />
+                    <Property Name="HorzStepSize" Value="0.1" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    <Property Name="VertOverlapSize" Value="0.01" />
+                    <Property Name="VertScrollPosition" Value="0" />
+                    <Property Name="VertStepSize" Value="0.1" />
+                    <AutoWindow NameSuffix="__auto_container__" >
+                        <Property Name="ChildExtentsArea" Value="l:0 t:0 r:0 b:0" />
+                        <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                        <Property Name="MouseInputPropagationEnabled" Value="True" />
+                    </AutoWindow>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed4" Name="Root/NormalSkillWnd/SpecialAction/Index" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0164474,0},{0,0},{0.263158,0},{0.127551,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/NormalSkillWnd/SpecialAction/Index/Text" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="Text" Value="x特殊動作" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.2,0},{0.866667,0},{0.8,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/NormalSkillWnd/SpecialAction/Index/Image" >
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="Image" Value="set:DejaVu image:Image14" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

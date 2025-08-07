@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/Embed" Name="FightWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HorizontalAlignment" Value="Centre" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,849},{0,582}}" />
+        <Property Name="VerticalAlignment" Value="Centre" />
+        <Window Type="DefaultWindow" Name="FightWnd/Frame/bg" >
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="Text" Value="戰場" />
+            <Property Name="UnifiedAreaRect" Value="{{0.000829187,0},{-0.00105374,0},{1.00083,0},{0.998946,0}}" />
+            <Window Type="DejaVu/Static" Name="FightWnd/Frame/BFInfo" >
+                <Property Name="UnifiedAreaRect" Value="{{0.012121,0},{0.016103,0},{0.521212,0},{0.983897,0}}" />
+                <Window Type="DejaVu/EmbedTextLab4" Name="FightWnd/Frame/BFInfo/Title" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.02381,0},{0,0},{0.380953,0},{0.0422297,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="FightWnd/Frame/BFInfo/Title/Text" >
+                        <Property Name="Text" Value="x戰場資訊" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.2,0},{0.8,0},{0.8,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="FightWnd/Frame/BFInfo/Title/Icon" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Image" Value="set:DejaVu image:Image18" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed2" Name="FightWnd/Frame/BFInfo/Frame" >
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.016892,0},{1,0},{1,0}}" />
+                    <Window Type="DejaVu/StaticImage" Name="FightWnd/Frame/BFInfo/Frame/Map" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.02381,0},{0.084602,0},{0.976191,0},{0.761421,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Static" Name="FightWnd/Frame/BFInfo/Frame/Reward" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.0238095,0},{0.769882,0},{0.97619,0},{0.983079,0}}" />
+                        <Window Type="DejaVu/Embed2" Name="FightWnd/Frame/BFInfo/Frame/Reward/Frame" >
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.198413,0},{1,0},{1,0}}" />
+                            <Window Type="DejaVu/Embed2" Name="FightWnd/Frame/BFInfo/Frame/Reward/Frame/Gold" >
+                                <Property Name="UnifiedAreaRect" Value="{{0.225,0},{0.09901,0},{0.975,0},{0.346535,0}}" />
+                                <Window Type="DejaVu/StaticTextLab" Name="FightWnd/Frame/BFInfo/Frame/Reward/Frame/Gold/Text" >
+                                    <Property Name="Text" Value="x100個一塊錢" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.0166667,0},{0,0},{0.983333,0},{1,0}}" />
+                                </Window>
+                            </Window>
+                            <Window Type="DejaVu/SlotImage" Name="FightWnd/Frame/BFInfo/Frame/Reward/Frame/Icon1" >
+                                <Property Name="UnifiedAreaRect" Value="{{0.025,0},{0.485149,0},{0.13,0},{0.90099,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/SlotImage" Name="FightWnd/Frame/BFInfo/Frame/Reward/Frame/Icon2" >
+                                <Property Name="UnifiedAreaRect" Value="{{0.1425,0},{0.485149,0},{0.2475,0},{0.900991,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/SlotImage" Name="FightWnd/Frame/BFInfo/Frame/Reward/Frame/Icon3" >
+                                <Property Name="UnifiedAreaRect" Value="{{0.26,0},{0.485149,0},{0.365,0},{0.900991,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/SlotImage" Name="FightWnd/Frame/BFInfo/Frame/Reward/Frame/Icon4" >
+                                <Property Name="UnifiedAreaRect" Value="{{0.3775,0},{0.485149,0},{0.4825,0},{0.900991,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/SlotImage" Name="FightWnd/Frame/BFInfo/Frame/Reward/Frame/Icon5" >
+                                <Property Name="UnifiedAreaRect" Value="{{0.495,0},{0.485149,0},{0.6,0},{0.900991,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/SlotImage" Name="FightWnd/Frame/BFInfo/Frame/Reward/Frame/Icon6" >
+                                <Property Name="UnifiedAreaRect" Value="{{0.6125,0},{0.485149,0},{0.7175,0},{0.900991,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/SlotImage" Name="FightWnd/Frame/BFInfo/Frame/Reward/Frame/Icon7" >
+                                <Property Name="UnifiedAreaRect" Value="{{0.73,0},{0.485149,0},{0.835,0},{0.900991,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/SlotImage" Name="FightWnd/Frame/BFInfo/Frame/Reward/Frame/Icon8" >
+                                <Property Name="UnifiedAreaRect" Value="{{0.8475,0},{0.485149,0},{0.9525,0},{0.900991,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/EmbedTextLab7" Name="FightWnd/Frame/BFInfo/Frame/Reward/Frame/GoldTitle" >
+                                <Property Name="HorzFormatting" Value="HorzCentred" />
+                                <Property Name="Text" Value="x貨幣" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.025,0},{0.09901,0},{0.225,0},{0.346535,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/EmbedTextLab7" Name="FightWnd/Frame/BFInfo/Frame/Reward/Title" >
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="x相關獎勵" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.198413,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab7" Name="FightWnd/Frame/BFInfo/Frame/Title" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="x最後一戰（星期一 14：00～16：00）" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.02381,0},{0.042301,0},{0.976191,0},{0.0846022,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="FightWnd/Frame/BFRule" >
+                <Property Name="UnifiedAreaRect" Value="{{0.527273,0},{0.016103,0},{0.987879,0},{0.933977,0}}" />
+                <Window Type="DejaVu/Embed2" Name="FightWnd/Frame/BFRule/Frame" >
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.017825,0},{1,0},{1,0}}" />
+                    <Window Type="DejaVu/Static" Name="FightWnd/Frame/BFRule/Frame/PlayerGold" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.0263158,0},{0.8125,0},{0.973684,0},{0.982143,0}}" />
+                        <Window Type="DejaVu/Embed2" Name="FightWnd/Frame/BFRule/Frame/PlayerGold/Frame" >
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.263158,0},{1,0},{1,0}}" />
+                            <Window Type="DejaVu/Embed2" Name="FightWnd/Frame/BFRule/Frame/PlayerGold/CSGold" >
+                                <Property Name="UnifiedAreaRect" Value="{{0.25,0},{0.142857,0},{0.972222,0},{0.5,0}}" />
+                                <Window Type="DejaVu/StaticTextLab" Name="FightWnd/Frame/BFRule/Frame/PlayerGold/CSGold/Text" >
+                                    <Property Name="HorzFormatting" Value="RightAligned" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.961538,0},{1,0}}" />
+                                </Window>
+                            </Window>
+                            <Window Type="DejaVu/Embed2" Name="FightWnd/Frame/BFRule/Frame/PlayerGold/BFGold" >
+                                <Property Name="UnifiedAreaRect" Value="{{0.25,0},{0.5,0},{0.972222,0},{0.857143,0}}" />
+                                <Window Type="DejaVu/StaticTextLab" Name="FightWnd/Frame/BFRule/Frame/PlayerGold/BFGold/Text" >
+                                    <Property Name="HorzFormatting" Value="RightAligned" />
+                                    <Property Name="Text" Value="x100  個" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.961538,0},{1,0}}" />
+                                </Window>
+                            </Window>
+                            <Window Type="DejaVu/EmbedTextLab7" Name="FightWnd/Frame/BFRule/Frame/PlayerGold/CSGoldTitle" >
+                                <Property Name="HorzFormatting" Value="HorzCentred" />
+                                <Property Name="Text" Value="x一塊錢" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.027778,0},{0.142857,0},{0.25,0},{0.5,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/EmbedTextLab7" Name="FightWnd/Frame/BFRule/Frame/PlayerGold/BFGoldTitle" >
+                                <Property Name="HorzFormatting" Value="HorzCentred" />
+                                <Property Name="Text" Value="x五塊錢" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.027778,0},{0.5,0},{0.25,0},{0.857143,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/EmbedTextLab7" Name="FightWnd/Frame/BFRule/Frame/PlayerGold/Title" >
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="x目前狀態" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.263158,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Embed2" Name="FightWnd/Frame/BFRule/Frame/RuleFrame" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.026316,0},{0.089286,0},{0.973684,0},{0.803572,0}}" />
+                        <Window Type="DejaVu/EmbedText5" Name="FightWnd/Frame/BFRule/Frame/RuleFrame/PageText" >
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="x1 / 5" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.402778,0},{0.9125,0},{0.597222,0},{0.975,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticImage" Name="FightWnd/Frame/BFRule/Frame/RuleFrame/Image" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.027778,0},{0.025,0},{0.972222,0},{0.65,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Embed5" Name="FightWnd/Frame/BFRule/Frame/RuleFrame/TextFrame" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.0277778,0},{0.65,0},{0.972222,0},{0.9,0}}" />
+                            <Window Type="DejaVu/VScrolledText" Name="FightWnd/Frame/BFRule/Frame/RuleFrame/TextFrame/Text" >
+                                <Property Name="BackgroundEnabled" Value="False" />
+                                <Property Name="FrameEnabled" Value="False" />
+                                <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                                <Property Name="LinespaceWindow" Value="True" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.029412,0},{0.1,0},{1,0},{0.9,0}}" />
+                                <Property Name="VertFormatting" Value="TopAligned" />
+                                <Property Name="VertScrollbar" Value="True" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/ImageButton" Name="FightWnd/Frame/BFRule/Frame/RuleFrame/PrevBtn" >
+                            <Property Name="DisabledImage" Value="set:DejaVu image:ArrowLeftPressed" />
+                            <Property Name="HoverImage" Value="set:DejaVu image:ArrowLeftHover" />
+                            <Property Name="NormalImage" Value="set:DejaVu image:ArrowLeftNormal" />
+                            <Property Name="PushedImage" Value="set:DejaVu image:ArrowLeftPressed" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.319444,0},{0.9125,0},{0.388889,0},{0.975,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/ImageButton" Name="FightWnd/Frame/BFRule/Frame/RuleFrame/NextBtn" >
+                            <Property Name="DisabledImage" Value="set:DejaVu image:ArrowRightPressed" />
+                            <Property Name="HoverImage" Value="set:DejaVu image:ArrowRightHover" />
+                            <Property Name="NormalImage" Value="set:DejaVu image:ArrowRightNormal" />
+                            <Property Name="PushedImage" Value="set:DejaVu image:ArrowRightPressed" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.614911,0},{0.9125,0},{0.684356,0},{0.975,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab7" Name="FightWnd/Frame/BFRule/Frame/RuleTitle" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="x戰場情報" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0263158,0},{0.0446429,0},{0.973684,0},{0.0892857,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed4" Name="FightWnd/Frame/BFRule/Frame/Title" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.026316,0},{0,0},{0.421053,0},{0.0445633,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="FightWnd/Frame/BFRule/Frame/Title/Text" >
+                        <Property Name="Text" Value="x作戰準備" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.2,0},{0.8,0},{0.8,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="FightWnd/Frame/BFRule/Frame/Title/Icon" >
+                        <Property Name="Image" Value="set:DejaVu image:Image03" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Button" Name="FightWnd/Frame/ScheduleBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="x時刻表" />
+                <Property Name="UnifiedAreaRect" Value="{{0.527273,0},{0.942029,0},{0.619394,0},{0.983897,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="FightWnd/Frame/JoinBtn" >
+                <Property Name="Text" Value="x參加" />
+                <Property Name="UnifiedAreaRect" Value="{{0.895758,0},{0.942029,0},{0.987879,0},{0.983897,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="FightWnd/Frame/TeamBtn" >
+                <Property Name="Text" Value="x三人隊伍" />
+                <Property Name="UnifiedAreaRect" Value="{{0.801887,0},{0.94148,0},{0.893868,0},{0.982788,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

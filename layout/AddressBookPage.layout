@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/AddressBookPage" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.00107875,0},{0,234},{0.00107875,310}}" />
+        <Window Type="DefaultWindow" Name="Root/AddressBookPage/BG" >
+            <Property Name="Text" Value="好友" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.987179,0},{1,0}}" />
+            <Window Type="DejaVu/Button" Name="Root/AddressBookPage/BG/ConfrimBtn" >
+                <Property Name="Text" Value="確定" />
+                <Property Name="UnifiedAreaRect" Value="{{0.341991,0},{0.890323,0},{0.670995,0},{0.967742,0}}" />
+            </Window>
+            <Window Type="DejaVu/Embed2" Name="Root/AddressBookPage/innerBG" >
+                <Property Name="UnifiedAreaRect" Value="{{0.04329,0},{0.029032,0},{0.969697,0},{0.874193,0}}" />
+                <Window Type="DejaVu/Static" Name="Root/AddressBookPage/innerBG/ListFrame" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.009346,0},{0.007634,0},{0.990654,0},{0.992367,0}}" />
+                    <Window Type="DejaVu/MultiColumnList" Name="Root/AddressBookPage/innerBG/ListFrame/MultiColumnList" >
+                        <Property Name="ColumnsMovable" Value="False" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

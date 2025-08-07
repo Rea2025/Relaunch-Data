@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/TerritoryTimeWnd" >
+        <Property Name="HorizontalAlignment" Value="Right" />
+        <Property Name="MousePassThroughEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,184},{0,352}}" />
+        <Property Name="VerticalAlignment" Value="Bottom" />
+        <Window Type="DejaVu/StaticTextLab" Name="Root/TerritoryTimeWnd/TimeText" >
+            <Property Name="Font" Value="F001-20" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="Text" Value="x00:00:00" />
+            <Property Name="UnifiedAreaRect" Value="{{0.173729,0},{0.064444,0},{0.826271,0},{0.12,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticTextLab" Name="Root/TerritoryTimeWnd/TitleText" >
+            <Property Name="Font" Value="F001-12" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="Text" Value="x剩餘時間" />
+            <Property Name="UnifiedAreaRect" Value="{{0.127119,0},{0.00470588,0},{0.826271,0},{0.0564706,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/TerritoryTimeWnd/MiniMap" >
+            <Property Name="BackgroundColours" Value="tl:AAFFFFFF tr:AAFFFFFF bl:AAFFFFFF br:AAFFFFFF" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.23913,0},{0.390243,0},{0.978261,0},{0.620357,0}}" />
+            <Window Type="DejaVu/StaticImage" Name="Root/TerritoryTimeWnd/MiniMap/n0" >
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.0882353,0},{0.148148,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/TerritoryTimeWnd/MiniMap/n1" >
+                <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.05,0},{0.138235,0},{0.198148,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/TerritoryTimeWnd/MiniMap/n2" >
+                <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.1,0},{0.188235,0},{0.248148,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/TerritoryTimeWnd/MiniMap/n3" >
+                <Property Name="UnifiedAreaRect" Value="{{0.15,0},{0.15,0},{0.238235,0},{0.298148,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/TerritoryTimeWnd/MiniMap/n4" >
+                <Property Name="UnifiedAreaRect" Value="{{0.2,0},{0.2,0},{0.288235,0},{0.348148,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/TerritoryTimeWnd/MiniMap/n5" >
+                <Property Name="UnifiedAreaRect" Value="{{0.25,0},{0.25,0},{0.338235,0},{0.398148,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/TerritoryTimeWnd/MiniMap/n6" >
+                <Property Name="UnifiedAreaRect" Value="{{0.3,0},{0.3,0},{0.388235,0},{0.448148,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/TerritoryTimeWnd/MiniMap/n7" >
+                <Property Name="UnifiedAreaRect" Value="{{0.35,0},{0.35,0},{0.438235,0},{0.498148,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/TerritoryTimeWnd/MiniMap/n8" >
+                <Property Name="UnifiedAreaRect" Value="{{0.4,0},{0.4,0},{0.488235,0},{0.548148,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/TerritoryTimeWnd/MiniMap/n9" >
+                <Property Name="UnifiedAreaRect" Value="{{0.45,0},{0.45,0},{0.538235,0},{0.598148,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/TerritoryTimeWnd/MiniMap/n10" >
+                <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0.5,0},{0.558824,0},{0.598765,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/StaticTextLab" Name="Root/TerritoryTimeWnd/SubTimeText" >
+            <Property Name="Font" Value="F001-20" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Property Name="Text" Value="x00:00:00" />
+            <Property Name="UnifiedAreaRect" Value="{{0.173729,0},{0.189704,0},{0.826271,0},{0.24526,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticTextLab" Name="Root/TerritoryTimeWnd/SubTitleText" >
+            <Property Name="Font" Value="F001-12" />
+            <Property Name="Text" Value="x懲罰時間" />
+            <Property Name="UnifiedAreaRect" Value="{{0.127119,0},{0.129478,0},{0.826271,0},{0.181243,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,579 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/Embed3" Name="Root/ItemMallDress" >
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.966797,0},{0.691406,0}}" />
+        <Window Type="DejaVu/Embed2" Name="Root/ItemMallDress/ItemBG" >
+            <Property Name="UnifiedAreaRect" Value="{{0.010101,0},{0.076636,0},{0.29697,0},{0.981309,0}}" />
+            <Window Type="DejaVu/Embed2" Name="Root/ItemMallDress/ItemBG/Type" >
+                <Property Name="UnifiedAreaRect" Value="{{0.035211,0},{0.020661,0},{0.965662,0},{0.917821,0}}" />
+                <Window Type="DejaVu/EmbedTextLab7" Name="Root/ItemMallDress/ItemBG/Type/Title" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="x商品列表" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.00808081,0},{0.0037594,0},{0.991919,0},{0.0620301,0}}" />
+                </Window>
+                <Window Type="DejaVu/ScrollablePane" Name="Root/ItemMallDress/ItemBG/Type/Pane" >
+                    <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorzOverlapSize" Value="0.01" />
+                    <Property Name="HorzScrollPosition" Value="0" />
+                    <Property Name="HorzStepSize" Value="0.1" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.018182,0},{0.067669,0},{0.979798,0},{0.973684,0}}" />
+                    <Property Name="VertOverlapSize" Value="0.01" />
+                    <Property Name="VertScrollPosition" Value="0" />
+                    <Property Name="VertStepSize" Value="0.1" />
+                    <AutoWindow NameSuffix="__auto_container__" >
+                        <Property Name="ChildExtentsArea" Value="l:0 t:0 r:0 b:0" />
+                        <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                        <Property Name="MouseInputPropagationEnabled" Value="True" />
+                    </AutoWindow>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed2" Name="Root/ItemMallDress/ItemBG/BagBG" >
+                <Property Name="UnifiedAreaRect" Value="{{0.0352113,0},{0.420833,0},{0.964789,0},{0.758333,0}}" />
+                <Property Name="Visible" Value="False" />
+                <Window Type="DejaVu/EmbedTextLab7" Name="Root/ItemMallDress/ItemBG/BagBG/Title" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="x使用元氣幣購買福袋" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.007576,0},{0.014599,0},{0.992424,0},{0.16892,0}}" />
+                </Window>
+                <Window Type="DejaVu/Embed3" Name="Root/ItemMallDress/ItemBG/BagBG/Item" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.00757576,0},{0.166667,0},{0.992424,0},{0.987654,0}}" />
+                    <Property Name="UnifiedMinSize" Value="{{0,175},{0,38}}" />
+                    <Window Type="DejaVu/SlotImage" Name="Root/ItemMallDress/ItemBG/BagBG/Item/Slot" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.0387597,0},{0.112782,0},{0.201551,0},{0.428571,0}}" />
+                        <Property Name="UnifiedMinSize" Value="{{0,34},{0,34}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/ItemMallDress/ItemBG/BagBG/Item/CoinImage" >
+                        <Property Name="Image" Value="set:main image:ItemMallcoin2" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.884615,0},{0.526316,0},{0.942308,0},{0.639098,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Button" Name="Root/ItemMallDress/ItemBG/BagBG/Item/BuyBtn" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.0384615,0},{0.729323,0},{0.330769,0},{0.924812,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/ItemMallDress/ItemBG/BagBG/Item/SellDateText" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="HorzFormatting" Value="RightAligned" />
+                        <Property Name="Text" Value="aaaaaa" />
+                        <Property Name="TextColours" Value="tl:FFFF0000 tr:FFFF0000 bl:FFFF0000 br:FFFF0000" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.239334,0},{0.338346,0},{0.94318,0},{0.488722,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Button" Name="Root/ItemMallDress/ItemBG/BagBG/Item/GiftBtn" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.353846,0},{0.729323,0},{0.646154,0},{0.924812,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Button" Name="Root/ItemMallDress/ItemBG/BagBG/Item/DetailBtn" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.669231,0},{0.729323,0},{0.961538,0},{0.924812,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab" Name="Root/ItemMallDress/ItemBG/BagBG/Item/CoinText1" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="RightAligned" />
+                        <Property Name="Text" Value="9999" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.653846,0},{0.503759,0},{0.865385,0},{0.654135,0}}" />
+                        <Window Type="DejaVu/StaticTextLab" Name="Root/ItemMallDress/ItemBG/BagBG/Item/Line" >
+                            <Property Name="HorizontalAlignment" Value="Centre" />
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="-----------" />
+                            <Property Name="TextColours" Value="tl:FFFF0000 tr:FFFF0000 bl:FFFF0000 br:FFFF0000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.5,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab" Name="Root/ItemMallDress/ItemBG/BagBG/Item/CoinSPText" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="RightAligned" />
+                        <Property Name="Text" Value="9999" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.346154,0},{0.503759,0},{0.557692,0},{0.654135,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/ItemMallDress/ItemBG/BagBG/Item/CoinSPImage" >
+                        <Property Name="Image" Value="set:main image:ItemMallcoin2" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.576923,0},{0.526316,0},{0.634615,0},{0.639098,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/ItemMallDress/ItemBG/BagBG/Item/LevelLimit" >
+                        <Property Name="Text" Value="x限制等級：99" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.03876,0},{0.503759,0},{0.365683,0},{0.654135,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/ItemMallDress/ItemBG/BagBG/Item/HotImg" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="Image" Value="set:DejaVu image:Image01" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0193798,0},{0.037594,0},{0.135659,0},{0.263158,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Embed5" Name="Root/ItemMallDress/ItemBG/BagBG/Item/Name" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.238462,0},{0.112782,0},{0.961539,0},{0.300752,0}}" />
+                        <Window Type="DejaVu/StaticTextLab" Name="Root/ItemMallDress/ItemBG/BagBG/Item/Name/Text" >
+                            <Property Name="Text" Value="一二三四五六七巴九十" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.053191,0},{0,0},{0.973404,0},{1,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/ItemMallDress/ItemBG/BagBG/Item/SaleImg" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="Image" Value="set:DejaVu image:Image01" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0192308,0},{0.456,0},{0.134615,0},{0.68,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed3" Name="Root/ItemMallDress/ItemBG/BagBG/NotOpen" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.007576,0},{0.164474,0},{0.992424,0},{0.986842,0}}" />
+                    <Window Type="DejaVu/StaticText" Name="Root/ItemMallDress/ItemBG/BagBG/NotOpen/Text" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HorzFormatting" Value="WordWrapCentred" />
+                        <Property Name="Text" Value="saaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.038462,0},{0.08,0},{0.961539,0},{0.92,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed2" Name="Root/ItemMallDress/ItemBG/GiftItemBG" >
+                <Property Name="UnifiedAreaRect" Value="{{0.0352113,0},{0.76875,0},{0.964789,0},{0.979167,0}}" />
+                <Property Name="Visible" Value="False" />
+                <Window Type="DejaVu/EmbedTextLab7" Name="Root/ItemMallDress/ItemBG/GiftItemBG/Title" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="x使用幻想禮券購買" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.007576,0},{0.019802,0},{0.992424,0},{0.267327,0}}" />
+                </Window>
+                <Window Type="DejaVu/Embed3" Name="Root/ItemMallDress/ItemBG/GiftItemBG/BG" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.007576,0},{0.267327,0},{0.992424,0},{0.980198,0}}" />
+                    <Window Type="DejaVu/SlotImage" Name="Root/ItemMallDress/ItemBG/GiftItemBG/BG/Slot" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.0384615,0},{0.138889,0},{0.2,0},{0.722222,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Button" Name="Root/ItemMallDress/ItemBG/GiftItemBG/BG/BuyBtn" >
+                        <Property Name="Text" Value="x購買" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.669231,0},{0.555556,0},{0.961539,0},{0.902778,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/ItemMallDress/ItemBG/GiftItemBG/BG/Price" >
+                        <Property Name="HorzFormatting" Value="RightAligned" />
+                        <Property Name="Text" Value="999999" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.238462,0},{0.583333,0},{0.546154,0},{0.861111,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/ItemMallDress/ItemBG/GiftItemBG/BG/Coin" >
+                        <Property Name="Image" Value="set:main image:DressroomCoin" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.573077,0},{0.625,0},{0.630769,0},{0.833333,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Embed5" Name="Root/ItemMallDress/ItemBG/GiftItemBG/BG/Name" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.238462,0},{0.138889,0},{0.961539,0},{0.486111,0}}" />
+                        <Window Type="DejaVu/StaticTextLab" Name="Root/ItemMallDress/ItemBG/GiftItemBG/BG/Name/Text" >
+                            <Property Name="Text" Value="一二三四五六七八九十" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.053191,0},{0,0},{0.973404,0},{1,0}}" />
+                        </Window>
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed3" Name="Root/ItemMallDress/ItemBG/GiftItemBG/NotOpen" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.007576,0},{0.264706,0},{0.992424,0},{0.980392,0}}" />
+                    <Window Type="DejaVu/StaticText" Name="Root/ItemMallDress/ItemBG/GiftItemBG/NotOpen/Text" >
+                        <Property Name="HorzFormatting" Value="WordWrapCentred" />
+                        <Property Name="Text" Value="saaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.038462,0},{0.08,0},{0.961539,0},{0.92,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Editbox" Name="Root/ItemMallDress/ItemBG/Search" >
+                <Property Name="MaxTextLength" Value="60" />
+                <Property Name="TextParsingEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0357143,0},{0.924115,0},{0.697368,0},{0.976391,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/ItemMallDress/ItemBG/SearchButton" >
+                <Property Name="Text" Value="搜尋" />
+                <Property Name="UnifiedAreaRect" Value="{{0.697368,0},{0.924115,0},{0.964286,0},{0.976391,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Embed2" Name="Root/ItemMallDress/DressRoomBG" >
+            <Property Name="UnifiedAreaRect" Value="{{0.30202,0},{0.076636,0},{0.759596,0},{0.980591,0}}" />
+            <Window Type="DejaVu/Embed2" Name="Root/ItemMallDress/DressRoomBG/BG" >
+                <Property Name="UnifiedAreaRect" Value="{{0.022075,0},{0.020833,0},{0.977925,0},{0.979166,0}}" />
+                <Window Type="DejaVu/EmbedTextLab7" Name="Root/ItemMallDress/DressRoomBG/BG/Title" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="x試衣間" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.005714,0},{0.00431,0},{0.996476,0},{0.0586578,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/ItemMallDress/DressRoomBG/BG/StaticImage" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.0115473,0},{0.0630435,0},{0.988453,0},{0.986957,0}}" />
+                    <Window Type="DejaVu/Button" Name="Root/ItemMallDress/DressRoomBG/AllDefaultBtn" >
+                        <Property Name="Text" Value="x預設" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.3026,0},{-0.0117647,0},{0.482269,0},{0.0494118,0}}" />
+                        <Property Name="VerticalAlignment" Value="Bottom" />
+                    </Window>
+                    <Window Type="DejaVu/Static" Name="Root/ItemMallDress/DressRoomBG/StarBG" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.023641,0},{0.023529,0},{0.245863,0},{0.244705,0}}" />
+                        <Window Type="DejaVu/SlotImage" Name="Root/ItemMallDress/DressRoomBG/StarBuffSlot1" >
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.446809,0},{0.446809,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="Root/ItemMallDress/DressRoomBG/StarBuffSlot2" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0,0},{0.946809,0},{0.446809,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="Root/ItemMallDress/DressRoomBG/StarBuffSlot3" >
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.5,0},{0.446809,0},{0.946809,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="Root/ItemMallDress/DressRoomBG/StarBuffSlot4" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0.5,0},{0.946809,0},{0.946809,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Static" Name="Root/ItemMallDress/DressRoomBG/DefaultColorBG" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.01182,0},{0.011765,0},{0.082742,0},{0.258824,0}}" />
+                        <Window Type="DejaVu/Button" Name="Root/ItemMallDress/DressRoomBG/DefaultColorBG/Btn1" >
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.285714,0}}" />
+                            <Window Type="DejaVu/StaticImage" Name="Root/ItemMallDress/DressRoomBG/DefaultColorBG/Btn1/Img" >
+                                <Property Name="Image" Value="set:DejaVu image:Image13" />
+                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.166667,0},{0.166667,0},{0.833334,0},{0.833334,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/Button" Name="Root/ItemMallDress/DressRoomBG/DefaultColorBG/Btn2" >
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.333333,0},{1,0},{0.619048,0}}" />
+                            <Window Type="DejaVu/StaticImage" Name="Root/ItemMallDress/DressRoomBG/DefaultColorBG/Btn2/Img" >
+                                <Property Name="Image" Value="set:DejaVu image:Image13" />
+                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.166667,0},{0.166667,0},{0.833334,0},{0.833334,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/Button" Name="Root/ItemMallDress/DressRoomBG/DefaultColorBG/Btn3" >
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.666667,0},{1,0},{0.952381,0}}" />
+                            <Window Type="DejaVu/StaticImage" Name="Root/ItemMallDress/DressRoomBG/DefaultColorBG/Btn3/Img" >
+                                <Property Name="Image" Value="set:DejaVu image:Image13" />
+                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.166667,0},{0.166667,0},{0.833334,0},{0.833334,0}}" />
+                            </Window>
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Static" Name="Root/ItemMallDress/DressRoomBG/BG/StaticImage/SkinBG" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.846336,0},{0.0235294,0},{0.976359,0},{0.367059,0}}" />
+                        <Window Type="DejaVu/Button" Name="Root/ItemMallDress/DressRoomBG/BG/StaticImage/SkinBG/Skin0Btn" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="Text" Value="1" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.454545,0},{0.171233,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Button" Name="Root/ItemMallDress/DressRoomBG/BG/StaticImage/SkinBG/Skin1Btn" >
+                            <Property Name="Text" Value="2" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.205479,0},{0.454545,0},{0.376712,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Button" Name="Root/ItemMallDress/DressRoomBG/BG/StaticImage/SkinBG/Skin2Btn" >
+                            <Property Name="Text" Value="3" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.410959,0},{0.454545,0},{0.582192,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Button" Name="Root/ItemMallDress/DressRoomBG/BG/StaticImage/SkinBG/StarSkin0Btn" >
+                            <Property Name="DisabledImage" Value="set:main2 image:StarGold" />
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="HoverImage" Value="set:main2 image:StarGold" />
+                            <Property Name="NormalImage" Value="set:main2 image:StarGold" />
+                            <Property Name="PushedImage" Value="set:main2 image:StarGold" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.545455,0},{0,0},{1,0},{0.171233,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Button" Name="Root/ItemMallDress/DressRoomBG/BG/StaticImage/SkinBG/StarSkin1Btn" >
+                            <Property Name="DisabledImage" Value="set:main2 image:StarGold" />
+                            <Property Name="HoverImage" Value="set:main2 image:StarGold" />
+                            <Property Name="NormalImage" Value="set:main2 image:StarGold" />
+                            <Property Name="PushedImage" Value="set:main2 image:StarGold" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.545455,0},{0.205479,0},{1,0},{0.376712,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Button" Name="Root/ItemMallDress/DressRoomBG/BG/StaticImage/SkinBG/StarSkin2Btn" >
+                            <Property Name="DisabledImage" Value="set:main2 image:StarGold" />
+                            <Property Name="HoverImage" Value="set:main2 image:StarGold" />
+                            <Property Name="NormalImage" Value="set:main2 image:StarGold" />
+                            <Property Name="PushedImage" Value="set:main2 image:StarGold" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.545455,0},{0.410959,0},{1,0},{0.582192,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Button" Name="Root/ItemMallDress/DressRoomBG/BG/StaticImage/SkinBG/StarSkin3Btn" >
+                            <Property Name="DisabledImage" Value="set:main2 image:StarGold" />
+                            <Property Name="HoverImage" Value="set:main2 image:StarGold" />
+                            <Property Name="NormalImage" Value="set:main2 image:StarGold" />
+                            <Property Name="PushedImage" Value="set:main2 image:StarGold" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.545455,0},{0.616438,0},{1,0},{0.787671,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Button" Name="Root/ItemMallDress/DressRoomBG/BG/StaticImage/SkinBG/StarSkin4Btn" >
+                            <Property Name="DisabledImage" Value="set:main2 image:StarGold" />
+                            <Property Name="HoverImage" Value="set:main2 image:StarGold" />
+                            <Property Name="NormalImage" Value="set:main2 image:StarGold" />
+                            <Property Name="PushedImage" Value="set:main2 image:StarGold" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.545455,0},{0.821918,0},{1,0},{0.993151,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Button" Name="Root/ItemMallDress/DressRoomBG/BG/StaticImage/FullScrnBtn" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="x放大預覽" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.51773,0},{-0.0117647,0},{0.697399,0},{0.0494118,0}}" />
+                        <Property Name="VerticalAlignment" Value="Bottom" />
+                    </Window>
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/ItemMallDress/Btn" >
+            <Property Name="HorizontalAlignment" Value="Right" />
+            <Property Name="Text" Value="儲值" />
+            <Property Name="UnifiedAreaRect" Value="{{-0.010101,0},{-0.0186916,0},{0.0666667,0},{0.0299065,0}}" />
+            <Property Name="VerticalAlignment" Value="Bottom" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/ItemMallDress/TypeBtn1" >
+            <Property Name="Text" Value="x頭飾外觀" />
+            <Property Name="UnifiedAreaRect" Value="{{0.010101,0},{0.018692,0},{0.0868687,0},{0.0672901,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/ItemMallDress/TypeBtn2" >
+            <Property Name="Text" Value="x面部外觀" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0868687,0},{0.0186916,0},{0.163636,0},{0.0672897,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/ItemMallDress/TypeBtn3" >
+            <Property Name="Text" Value="x服飾外觀" />
+            <Property Name="UnifiedAreaRect" Value="{{0.163802,0},{0.0184162,0},{0.240647,0},{0.0662983,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/ItemMallDress/TypeBtn4" >
+            <Property Name="Text" Value="x背飾外觀" />
+            <Property Name="UnifiedAreaRect" Value="{{0.240404,0},{0.0186916,0},{0.317172,0},{0.0672897,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/ItemMallDress/TypeBtn5" >
+            <Property Name="Text" Value="x武器外觀" />
+            <Property Name="UnifiedAreaRect" Value="{{0.317172,0},{0.0186916,0},{0.393939,0},{0.0672897,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/ItemMallDress/TypeBtn6" >
+            <Property Name="Text" Value="x坐騎" />
+            <Property Name="UnifiedAreaRect" Value="{{0.393939,0},{0.0186916,0},{0.470707,0},{0.0672897,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/ItemMallDress/TypeBtn7" >
+            <Property Name="Text" Value="x源神" />
+            <Property Name="UnifiedAreaRect" Value="{{0.470707,0},{0.0186916,0},{0.547475,0},{0.0672897,0}}" />
+        </Window>
+        <Window Type="DejaVu/Checkbox" Name="Root/ItemMallDress/GenderFilier" >
+            <Property Name="Text" Value="x只顯示與角色同性別商品" />
+            <Property Name="UnifiedAreaRect" Value="{{0.59798,0},{0.018692,0},{0.90101,0},{0.065421,0}}" />
+        </Window>
+        <Window Type="DejaVu/Embed2" Name="Root/ItemMallDress/ColorBG" >
+            <Property Name="UnifiedAreaRect" Value="{{0.764646,0},{0.0772128,0},{0.989899,0},{0.922787,0}}" />
+            <Window Type="DejaVu/Embed2" Name="Root/ItemMallDress/ColorBG/CoinBG" >
+                <Property Name="UnifiedAreaRect" Value="{{0.044843,0},{0.759551,0},{0.955157,0},{0.977529,0}}" />
+                <Window Type="DejaVu/EmbedTextLab7" Name="Root/ItemMallDress/ColorBG/CoinBG/Title" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="x點數狀態" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.009852,0},{0.020619,0},{0.990148,0},{0.278351,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab7" Name="Root/ItemMallDress/ColorBG/CoinText" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="x元氣幣" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.024631,0},{0.329897,0},{0.41872,0},{0.587629,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab7" Name="Root/ItemMallDress/ColorBG/GiftCoinText" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="x幻想禮券" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0246305,0},{0.642857,0},{0.418719,0},{0.897959,0}}" />
+                </Window>
+                <Window Type="DejaVu/Embed2" Name="Root/ItemMallDress/CoinBG/NumBG" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.418719,0},{0.329897,0},{0.975369,0},{0.587629,0}}" />
+                    <Window Type="DejaVu/StaticImage" Name="Root/ItemMallDress/CoinBG/NumBG/Img" >
+                        <Property Name="Image" Value="set:main image:ItemMallcoin2" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.778761,0},{0.2,0},{0.911504,0},{0.8,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/ItemMallDress/CoinBG/NumBG/Num" >
+                        <Property Name="HorzFormatting" Value="RightAligned" />
+                        <Property Name="Text" Value="99999999" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.088496,0},{0,0},{0.734514,0},{1,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed2" Name="Root/ItemMallDress/CoinBG/GiftNumBG" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.418719,0},{0.642857,0},{0.975369,0},{0.897959,0}}" />
+                    <Window Type="DejaVu/StaticImage" Name="Root/ItemMallDress/CoinBG/GiftNumBG/Img" >
+                        <Property Name="Image" Value="set:main image:DressroomCoin" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.778761,0},{0.2,0},{0.911504,0},{0.8,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/ItemMallDress/CoinBG/GiftNumBG/Num" >
+                        <Property Name="HorzFormatting" Value="RightAligned" />
+                        <Property Name="Text" Value="99999999" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.088496,0},{0,0},{0.734514,0},{1,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed2" Name="Root/ItemMallDress/ColorBG/ActBG" >
+                <Property Name="UnifiedAreaRect" Value="{{0.044843,0},{0.548475,0},{0.955157,0},{0.746693,0}}" />
+                <Window Type="DejaVu/EmbedTextLab7" Name="Root/ItemMallDress/ColorBG/ActBG/Title" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="x動作預覽" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.009852,0},{0.022472,0},{0.990148,0},{0.303371,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImageItem" Name="Root/ItemMallDress/ColorBG/ActBG/Slot1" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.034483,0},{0.392857,0},{0.24138,0},{0.864767,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImageItem" Name="Root/ItemMallDress/ColorBG/ActBG/Slot2" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.275862,0},{0.392857,0},{0.482759,0},{0.864767,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImageItem" Name="Root/ItemMallDress/ColorBG/ActBG/Slot3" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.517241,0},{0.392857,0},{0.724138,0},{0.864767,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImageItem" Name="Root/ItemMallDress/ColorBG/ActBG/Slot4" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.758621,0},{0.392857,0},{0.965518,0},{0.864767,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed2" Name="Root/ItemMallDress/ColorBG/Color" >
+                <Property Name="UnifiedAreaRect" Value="{{0.044843,0},{0.0222717,0},{0.955157,0},{0.538975,0}}" />
+                <Window Type="DejaVu/EmbedTextLab7" Name="Root/ItemMallDress/ColorBG/Color/Title" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="x色盤" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.009852,0},{0.008621,0},{0.990148,0},{0.11638,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab7" Name="Root/ItemMallDress/ColorBG/Color/SectionText" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="x可染部位" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.049261,0},{0.159483,0},{0.44335,0},{0.267242,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImageItem" Name="Root/ItemMallDress/ColorBG/Color/Slot1BG" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.46798,0},{0.159483,0},{0.591133,0},{0.267241,0}}" />
+                    <Window Type="DejaVu/SlotImageItem" Name="Root/ItemMallDress/ColorBG/Color/Slot1" >
+                        <Property Name="HorizontalAlignment" Value="Centre" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.84,0},{0.84,0}}" />
+                        <Property Name="VerticalAlignment" Value="Centre" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/SlotImageItem" Name="Root/ItemMallDress/ColorBG/Color/Slot2BG" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.615764,0},{0.159483,0},{0.738916,0},{0.267241,0}}" />
+                    <Window Type="DejaVu/SlotImageItem" Name="Root/ItemMallDress/ColorBG/Color/Slot2" >
+                        <Property Name="HorizontalAlignment" Value="Centre" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.84,0},{0.84,0}}" />
+                        <Property Name="VerticalAlignment" Value="Centre" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/SlotImageItem" Name="Root/ItemMallDress/ColorBG/Color/Slot3BG" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.763244,0},{0.158156,0},{0.886397,0},{0.265915,0}}" />
+                    <Window Type="DejaVu/SlotImageItem" Name="Root/ItemMallDress/ColorBG/Color/Slot3" >
+                        <Property Name="HorizontalAlignment" Value="Centre" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.84,0},{0.84,0}}" />
+                        <Property Name="VerticalAlignment" Value="Centre" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed2" Name="Root/ItemMallDress/ColorBG/Color/ColorPaneBG" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.049261,0},{0.310345,0},{0.950739,0},{0.823276,0}}" />
+                    <Window Type="DejaVu/ScrollablePane" Name="Root/ItemMallDress/ColorBG/Color/ColorPaneBG/Pane" >
+                        <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HorzOverlapSize" Value="0.01" />
+                        <Property Name="HorzScrollPosition" Value="0" />
+                        <Property Name="HorzStepSize" Value="0.1" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.027322,0},{0.042017,0},{0.972677,0},{0.957983,0}}" />
+                        <Property Name="VertOverlapSize" Value="0.01" />
+                        <Property Name="VertScrollPosition" Value="0" />
+                        <Property Name="VertStepSize" Value="0.1" />
+                        <AutoWindow NameSuffix="__auto_container__" >
+                            <Property Name="ChildExtentsArea" Value="l:0 t:0 r:0 b:0" />
+                            <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                            <Property Name="MouseInputPropagationEnabled" Value="True" />
+                        </AutoWindow>
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Button" Name="Root/ItemMallDress/ColorBG/Color/DefaultBtn" >
+                    <Property Name="Text" Value="x預設" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.347612,0},{0.852804,0},{0.721996,0},{0.964873,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="Root/ItemMallDress/ColorBG/EudemonState" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.044843,0},{0.0222717,0},{0.955157,0},{0.538975,0}}" />
+                <Window Type="DejaVu/Embed2" Name="Root/ItemMallDress/ColorBG/EudemonStateBG" >
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.690763,0}}" />
+                    <Window Type="DejaVu/EmbedTextLab7" Name="Root/ItemMallDress/ColorBG/EudemonState/Title" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="x源神資訊" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.009852,0},{0.012739,0},{0.990148,0},{0.168019,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/ItemMallDress/ColorBG/EudemonState/Text1" >
+                        <Property Name="Text" Value="傷害" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.049261,0},{0.203822,0},{0.344828,0},{0.331211,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/ItemMallDress/ColorBG/EudemonState/Rank1" >
+                        <Property Name="Image" Value="set:DejaVu image:AbRankRPlus" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.369458,0},{0.22293,0},{0.44335,0},{0.318471,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/ItemMallDress/ColorBG/EudemonState/Value1" >
+                        <Property Name="HorzFormatting" Value="RightAligned" />
+                        <Property Name="Text" Value="999999" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.591133,0},{0.203822,0},{0.935961,0},{0.331211,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/ItemMallDress/ColorBG/EudemonState/Text2" >
+                        <Property Name="Text" Value="爆擊" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.049261,0},{0.33121,0},{0.344828,0},{0.458599,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/ItemMallDress/ColorBG/EudemonState/Text3" >
+                        <Property Name="Text" Value="速度" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.049261,0},{0.458599,0},{0.344828,0},{0.585987,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/ItemMallDress/ColorBG/EudemonState/Text4" >
+                        <Property Name="Text" Value="HP值" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.049261,0},{0.585987,0},{0.344828,0},{0.713376,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/ItemMallDress/ColorBG/EudemonState/Text5" >
+                        <Property Name="Text" Value="防禦" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.049261,0},{0.713376,0},{0.344828,0},{0.840765,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/ItemMallDress/ColorBG/EudemonState/Text6" >
+                        <Property Name="Text" Value="閃躲" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.049261,0},{0.840764,0},{0.344828,0},{0.968153,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/ItemMallDress/ColorBG/EudemonState/Rank2" >
+                        <Property Name="Image" Value="set:DejaVu image:AbRankRPlus" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.369458,0},{0.350318,0},{0.44335,0},{0.445859,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/ItemMallDress/ColorBG/EudemonState/Rank3" >
+                        <Property Name="Image" Value="set:DejaVu image:AbRankRPlus" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.369458,0},{0.477707,0},{0.44335,0},{0.573248,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/ItemMallDress/ColorBG/EudemonState/Rank4" >
+                        <Property Name="Image" Value="set:DejaVu image:AbRankRPlus" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.369458,0},{0.605096,0},{0.44335,0},{0.700637,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/ItemMallDress/ColorBG/EudemonState/Rank5" >
+                        <Property Name="Image" Value="set:DejaVu image:AbRankRPlus" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.369458,0},{0.732484,0},{0.44335,0},{0.828025,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/ItemMallDress/ColorBG/EudemonState/Rank6" >
+                        <Property Name="Image" Value="set:DejaVu image:AbRankRPlus" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.369458,0},{0.859873,0},{0.44335,0},{0.955414,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/ItemMallDress/ColorBG/EudemonState/Value2" >
+                        <Property Name="HorzFormatting" Value="RightAligned" />
+                        <Property Name="Text" Value="999999" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.591133,0},{0.33121,0},{0.935961,0},{0.458599,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/ItemMallDress/ColorBG/EudemonState/Value3" >
+                        <Property Name="HorzFormatting" Value="RightAligned" />
+                        <Property Name="Text" Value="999999" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.591133,0},{0.458599,0},{0.935961,0},{0.585987,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/ItemMallDress/ColorBG/EudemonState/Value4" >
+                        <Property Name="HorzFormatting" Value="RightAligned" />
+                        <Property Name="Text" Value="999999" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.591133,0},{0.585987,0},{0.935961,0},{0.713376,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/ItemMallDress/ColorBG/EudemonState/Value5" >
+                        <Property Name="HorzFormatting" Value="RightAligned" />
+                        <Property Name="Text" Value="999999" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.591133,0},{0.713376,0},{0.935961,0},{0.840764,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/ItemMallDress/ColorBG/EudemonState/Value6" >
+                        <Property Name="HorzFormatting" Value="RightAligned" />
+                        <Property Name="Text" Value="999999" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.591133,0},{0.840764,0},{0.935961,0},{0.968153,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed2" Name="Root/ItemMallDress/ColorBG/EudemonStateSkill" >
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.689655,0},{1,0},{1,0}}" />
+                    <Window Type="DejaVu/SlotImage" Name="Root/ItemMallDress/ColorBG/EudemonStateSkill/Slot1" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.118227,0},{0.208333,0},{0.325123,0},{0.791667,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/ItemMallDress/ColorBG/EudemonStateSkill/Slot2" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.399015,0},{0.208333,0},{0.605911,0},{0.791667,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/ItemMallDress/ColorBG/EudemonStateSkill/Slot3" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.679803,0},{0.208333,0},{0.886699,0},{0.791667,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/ItemMallDress/TSBtn" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="Text" Value="xTS儲值" />
+            <Property Name="UnifiedAreaRect" Value="{{0.831313,0},{-0.0190114,0},{0.908081,0},{0.0304182,0}}" />
+            <Property Name="VerticalAlignment" Value="Bottom" />
+            <Property Name="Visible" Value="False" />
+        </Window>
+    </Window>
+</GUILayout>

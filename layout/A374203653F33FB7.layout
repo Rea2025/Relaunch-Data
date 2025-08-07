@@ -1,0 +1,1027 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="EudemonExtendStorageWnd" >
+        <Property Name="Font" Value="F001-scale" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,838},{0,576}}" />
+        <Window Type="DejaVu/Static" Name="EudemonExtendStorageWnd/BG" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.011933,0},{0.017361,0},{0.988067,0},{0.982639,0}}" />
+            <Property Name="VertFormatting" Value="TopAligned" />
+            <Window Type="DejaVu/Static" Name="EudemonExtendStorageWnd/BG/ListArea" >
+                <Property Name="UnifiedAreaRect" Value="{{0.684597,0},{0,0},{1.00244,0},{0.998201,0}}" />
+                <Window Type="DejaVu/Embed4" Name="EudemonExtendStorageWnd/BG/ListArea/Title" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.037037,0},{0,0},{0.616188,0},{0.044964,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="EudemonExtendStorageWnd/BG/ListArea/Title/Text" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="x源神列表" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.2,0},{0.866667,0},{0.8,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="EudemonExtendStorageWnd/BG/ListArea/Title/Icon" >
+                        <Property Name="Image" Value="set:DejaVu image:Image08" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed2" Name="EudemonExtendStorageWnd/BG/ListArea/BG" >
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.018018,0},{0.999358,0},{1,0}}" />
+                    <Window Type="DejaVu/EmbedTextLab7" Name="EudemonExtendStorageWnd/BG/ListArea/BG/ScoreTitle" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="x源神分數" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0387597,0},{0.0458716,0},{0.426357,0},{0.0917431,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab2" Name="EudemonExtendStorageWnd/BG/ListArea/BG/Score" >
+                        <Property Name="Text" Value="999999" />
+                        <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.426357,0},{0.0458716,0},{0.968992,0},{0.0917431,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Embed2" Name="EudemonExtendStorageWnd/BG/ListArea/BG/EudemonTeam" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.03876,0},{0.100917,0},{0.962273,0},{0.262385,0}}" />
+                        <Window Type="DejaVu/EmbedTextLab7" Name="EudemonExtendStorageWnd/BG/ListArea/BG/EudemonTeam/Title" >
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="x小隊配置" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.991736,0},{0.284091,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="EudemonExtendStorageWnd/BG/ListArea/BG/EudemonTeam/Slot0" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.0625,0},{0.397727,0},{0.2375,0},{0.875,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="EudemonExtendStorageWnd/BG/ListArea/BG/EudemonTeam/Slot1" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.295833,0},{0.386364,0},{0.470833,0},{0.863636,0}}" />
+                            <Window Type="DejaVu/StaticImage" Name="EudemonExtendStorageWnd/BG/ListArea/BG/EudemonTeam/Slot1/Lock" >
+                                <Property Name="ClippedByParent" Value="False" />
+                                <Property Name="Image" Value="set:main image:Lock" />
+                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.214286,0},{-0.112084,0},{0.809524,0},{0.483154,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/StaticImage" Name="EudemonExtendStorageWnd/BG/ListArea/BG/EudemonTeam/Slot1/PicNum2" >
+                                <Property Name="ClippedByParent" Value="False" />
+                                <Property Name="Image" Value="set:DejaVu image:two" />
+                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.0952381,0},{0.5285,0},{0.571429,0},{1.00469,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/StaticImage" Name="EudemonExtendStorageWnd/BG/ListArea/BG/EudemonTeam/Slot1/PicNum1" >
+                                <Property Name="ClippedByParent" Value="False" />
+                                <Property Name="Image" Value="set:DejaVu image:five" />
+                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.428571,0},{0.5285,0},{0.904762,0},{1.00469,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="EudemonExtendStorageWnd/BG/ListArea/BG/EudemonTeam/Slot2" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.529167,0},{0.386364,0},{0.704167,0},{0.863636,0}}" />
+                            <Window Type="DejaVu/StaticImage" Name="EudemonExtendStorageWnd/BG/ListArea/BG/EudemonTeam/Slot2/Lock" >
+                                <Property Name="ClippedByParent" Value="False" />
+                                <Property Name="Image" Value="set:main image:Lock" />
+                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.214286,0},{-0.119048,0},{0.809524,0},{0.47619,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/StaticImage" Name="EudemonExtendStorageWnd/BG/ListArea/BG/EudemonTeam/Slot2/PicNum2" >
+                                <Property Name="ClippedByParent" Value="False" />
+                                <Property Name="Image" Value="set:DejaVu image:four" />
+                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.0952381,0},{0.5285,0},{0.571429,0},{1.00469,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/StaticImage" Name="EudemonExtendStorageWnd/BG/ListArea/BG/EudemonTeam/Slot2/PicNum1" >
+                                <Property Name="ClippedByParent" Value="False" />
+                                <Property Name="Image" Value="set:DejaVu image:zero" />
+                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.428571,0},{0.5285,0},{0.904762,0},{1.00469,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="EudemonExtendStorageWnd/BG/ListArea/BG/EudemonTeam/Slot3" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.758333,0},{0.386364,0},{0.933333,0},{0.863636,0}}" />
+                            <Window Type="DejaVu/StaticImage" Name="EudemonExtendStorageWnd/BG/ListArea/BG/EudemonTeam/Slot3/Lock" >
+                                <Property Name="ClippedByParent" Value="False" />
+                                <Property Name="Image" Value="set:main image:Lock" />
+                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.214286,0},{-0.119048,0},{0.809524,0},{0.47619,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/StaticImage" Name="EudemonExtendStorageWnd/BG/ListArea/BG/EudemonTeam/Slot3/PicNum2" >
+                                <Property Name="ClippedByParent" Value="False" />
+                                <Property Name="Image" Value="set:DejaVu image:nine" />
+                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.106029,0},{0.5285,0},{0.58222,0},{1.00469,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/StaticImage" Name="EudemonExtendStorageWnd/BG/ListArea/BG/EudemonTeam/Slot3/PicNum1" >
+                                <Property Name="ClippedByParent" Value="False" />
+                                <Property Name="Image" Value="set:DejaVu image:nine" />
+                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.428571,0},{0.5285,0},{0.904762,0},{1.00469,0}}" />
+                            </Window>
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab7" Name="EudemonExtendStorageWnd/BG/ListArea/BG/ClassComboTitle" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HorzFormatting" Value="WordWrapCentred" />
+                        <Property Name="Text" Value="x屬性分類" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.03876,0},{0.275229,0},{0.368217,0},{0.321101,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Combobox" Name="EudemonExtendStorageWnd/BG/ListArea/BG/ClassCombo" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="MaxEditTextLength" Value="2147483647" />
+                        <Property Name="ReadOnly" Value="True" />
+                        <Property Name="Text" Value="x選擇屬性" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.369897,0},{0.275229,0},{0.96292,0},{0.458716,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Embed2" Name="EudemonExtendStorageWnd/BG/ListArea/BG/EudemonList" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.03876,0},{0.330275,0},{0.960594,0},{0.861855,0}}" />
+                        <Window Type="DejaVu/EmbedTextLab7" Name="EudemonExtendStorageWnd/BG/ListArea/BG/EudemonList/Title" >
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="x源神選擇" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.0862069,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/ScrollablePane" Name="EudemonExtendStorageWnd/BG/ListArea/BG/EudemonList/Pane" >
+                            <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                            <Property Name="HorzOverlapSize" Value="0.01" />
+                            <Property Name="HorzScrollPosition" Value="0" />
+                            <Property Name="HorzStepSize" Value="0.1" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.008333,0},{0.086207,0},{1,0},{0.982759,0}}" />
+                            <Property Name="VertOverlapSize" Value="0.01" />
+                            <Property Name="VertScrollPosition" Value="0" />
+                            <Property Name="VertStepSize" Value="0.1" />
+                            <AutoWindow NameSuffix="__auto_container__" >
+                                <Property Name="ChildExtentsArea" Value="l:0 t:0 r:0 b:0" />
+                                <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                                <Property Name="MouseInputPropagationEnabled" Value="True" />
+                            </AutoWindow>
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Button" Name="EudemonExtendStorageWnd/BG/ListArea/BG/FeedBtn" >
+                        <Property Name="Text" Value="x贈予" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0387597,0},{-0.0733945,0},{0.333333,0},{-0.0256881,0}}" />
+                        <Property Name="VerticalAlignment" Value="Bottom" />
+                    </Window>
+                    <Window Type="DejaVu/Button" Name="EudemonExtendStorageWnd/BG/ListArea/BG/EvoBtn" >
+                        <Property Name="Text" Value="x進化" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.352713,0},{-0.0733945,0},{0.647287,0},{-0.0256881,0}}" />
+                        <Property Name="VerticalAlignment" Value="Bottom" />
+                    </Window>
+                    <Window Type="DejaVu/Button" Name="EudemonExtendStorageWnd/BG/ListArea/BG/SwitchBtn" >
+                        <Property Name="Text" Value="x替換成員" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.670543,0},{-0.0733945,0},{0.972868,0},{-0.0256881,0}}" />
+                        <Property Name="VerticalAlignment" Value="Bottom" />
+                    </Window>
+                    <Window Type="DejaVu/Button" Name="EudemonExtendStorageWnd/BG/ListArea/BG/ChangeSkinBtn" >
+                        <Property Name="Text" Value="x變換造型" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0387597,0},{-0.0183486,0},{0.333333,0},{0.0293578,0}}" />
+                        <Property Name="VerticalAlignment" Value="Bottom" />
+                    </Window>
+                    <Window Type="DejaVu/Button" Name="EudemonExtendStorageWnd/BG/ListArea/BG/ChangeBuffBtn" >
+                        <Property Name="Text" Value="x洗煉" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.352713,0},{-0.018349,0},{0.647287,0},{0.0293574,0}}" />
+                        <Property Name="VerticalAlignment" Value="Bottom" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="EudemonExtendStorageWnd/BG/BGListArea" >
+                <Property Name="UnifiedAreaRect" Value="{{0.684597,0},{0,0},{1.00244,0},{0.998201,0}}" />
+                <Window Type="DejaVu/Embed4" Name="EudemonExtendStorageWnd/BG/BGListArea/Title" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.037037,0},{0,0},{0.616188,0},{0.044964,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="EudemonExtendStorageWnd/BG/BGListArea/Title/Text" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="x背景列表" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.2,0},{0.866667,0},{0.8,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="EudemonExtendStorageWnd/BG/BGListArea/Title/Icon" >
+                        <Property Name="Image" Value="set:DejaVu image:Image08" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed2" Name="EudemonExtendStorageWnd/BG/BGListArea/BG" >
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.018018,0},{0.999358,0},{1,0}}" />
+                    <Window Type="DejaVu/Embed2" Name="EudemonExtendStorageWnd/BG/BGListArea/BG/EudemonBG" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.0387597,0},{0.0458716,0},{0.968992,0},{0.207339,0}}" />
+                        <Window Type="DejaVu/EmbedTextLab7" Name="EudemonExtendStorageWnd/BG/BGListArea/BG/EudemonBG/Title" >
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="x背景配置" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.991736,0},{0.284091,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="EudemonExtendStorageWnd/BG/BGListArea/BG/EudemonBG/Slot" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.0625,0},{0.397727,0},{0.2375,0},{0.875,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticText" Name="EudemonExtendStorageWnd/BG/BGListArea/BG/EudemonBG/CurrentBGText" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.297521,0},{0.488636,0},{0.81405,0},{0.772727,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab7" Name="EudemonExtendStorageWnd/BG/BGListArea/BG/ClassComboTitle" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HorzFormatting" Value="WordWrapCentred" />
+                        <Property Name="Text" Value="x分類" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0387597,0},{0.220183,0},{0.372093,0},{0.266055,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Combobox" Name="EudemonExtendStorageWnd/BG/BGListArea/BG/ClassCombo" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="MaxEditTextLength" Value="2147483647" />
+                        <Property Name="ReadOnly" Value="True" />
+                        <Property Name="Text" Value="x顯示全部" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.368217,0},{0.220183,0},{0.965116,0},{0.40367,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Embed2" Name="EudemonExtendStorageWnd/BG/BGListArea/BG/EudemonBGList" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.03876,0},{0.275229,0},{0.976744,0},{0.917431,0}}" />
+                        <Window Type="DejaVu/EmbedTextLab7" Name="EudemonExtendStorageWnd/BG/BGListArea/BG/EudemonBGList/Title" >
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="x背景選擇" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.991803,0},{0.0714286,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/ScrollablePane" Name="EudemonExtendStorageWnd/BG/BGListArea/BG/EudemonBGList/Pane" >
+                            <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="HorzOverlapSize" Value="0.01" />
+                            <Property Name="HorzScrollPosition" Value="0" />
+                            <Property Name="HorzStepSize" Value="0.1" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.00819672,0},{0.0811931,0},{0.991803,0},{0.981193,0}}" />
+                            <Property Name="VertOverlapSize" Value="0.01" />
+                            <Property Name="VertScrollPosition" Value="0" />
+                            <Property Name="VertStepSize" Value="0.1" />
+                            <AutoWindow NameSuffix="__auto_container__" >
+                                <Property Name="ChildExtentsArea" Value="l:0 t:0 r:0 b:0" />
+                                <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                                <Property Name="MouseInputPropagationEnabled" Value="True" />
+                            </AutoWindow>
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Button" Name="EudemonExtendStorageWnd/BG/BGListArea/BG/ResetBGBtn" >
+                        <Property Name="Text" Value="x重置" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.352713,0},{-0.0183486,0},{0.655039,0},{0.0293578,0}}" />
+                        <Property Name="VerticalAlignment" Value="Bottom" />
+                    </Window>
+                    <Window Type="DejaVu/Button" Name="EudemonExtendStorageWnd/BG/BGListArea/BG/SelectBGBtn" >
+                        <Property Name="Text" Value="x替換" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.666667,0},{-0.0183486,0},{0.965116,0},{0.0293578,0}}" />
+                        <Property Name="VerticalAlignment" Value="Bottom" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="EudemonExtendStorageWnd/BG/InfoArea" >
+                <Property Name="UnifiedAreaRect" Value="{{0.000533568,0},{0,0},{0.679018,0},{0.998201,0}}" />
+                <Window Type="DejaVu/Embed4" Name="EudemonExtendStorageWnd/BG/InfoArea/Title" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.018051,0},{0,0},{0.288809,0},{0.045045,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="EudemonExtendStorageWnd/BG/InfoArea/Title/Text" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="x源神資訊" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.2,0},{0.8,0},{0.8,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="EudemonExtendStorageWnd/BG/InfoArea/Title/Icon" >
+                        <Property Name="Image" Value="set:DejaVu image:Image13" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed2" Name="EudemonExtendStorageWnd/BG/InfoArea/BG" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.000788,0},{0.01767,0},{1.00079,0},{0.999652,0}}" />
+                    <Window Type="DejaVu/ImageButton" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/ChangeBGBtn" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HorizontalAlignment" Value="Right" />
+                        <Property Name="HoverImage" Value="set:main2 image:EudemonLink" />
+                        <Property Name="NormalImage" Value="set:main2 image:EudemonLink" />
+                        <Property Name="PushedImage" Value="set:main2 image:EudemonLink" />
+                        <Property Name="UnifiedAreaRect" Value="{{-0.0126126,0},{0,0},{0.0324324,0},{0.0458716,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Embed2" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Eudemon" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.018051,0},{0.045788,0},{0.983755,0},{0.622711,0}}" />
+                        <Window Type="DejaVu/StaticImage" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Eudemon/Img" >
+                            <Property Name="HorizontalAlignment" Value="Centre" />
+                            <Property Name="Image" Value="set:main2 image:EudemonEquipBG" />
+                            <Property Name="MousePassThroughEnabled" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.436567,0},{0.726115,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/StaticImage" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Eudemon/ModelView" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="RiseOnClick" Value="False" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.000861631,0},{0,0},{1.00086,0},{1,0}}" />
+                            <Property Name="ZOrderChangeEnabled" Value="False" />
+                            <Window Type="DejaVu/StaticText" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Eudemon/ModelView/BusyText" >
+                                <Property Name="AlwaysOnTop" Value="True" />
+                                <Property Name="Font" Value="F001-12" />
+                                <Property Name="HorzFormatting" Value="WordWrapCentred" />
+                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                <Property Name="Text" Value="x正與帳號中其他角色一同冒險，部分功能無法使用。" />
+                                <Property Name="TextColours" Value="tl:FFFF0000 tr:FFFF0000 bl:FFFF0000 br:FFFF0000" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.18097,0},{0.512739,0},{0.927239,0},{0.675159,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/Embed10" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Eudemon/ModelView/TalkBubble" >
+                                <Property Name="AlwaysOnTop" Value="True" />
+                                <Property Name="ClippedByParent" Value="False" />
+                                <Property Name="HorizontalAlignment" Value="Centre" />
+                                <Property Name="HorzFormatting" Value="CentreAligned" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.240672,0},{0.576433,0},{0.615672,0},{0.83121,0}}" />
+                                <Window Type="DejaVu/StaticText" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Eudemon/ModelView/TalkBubble/Text" >
+                                    <Property Name="Font" Value="F001-12" />
+                                    <Property Name="MousePassThroughEnabled" Value="True" />
+                                    <Property Name="Text" Value="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.12274,0},{-0.0474991,0},{0.971361,0},{0.5975,0}}" />
+                                    <Property Name="VerticalAlignment" Value="Centre" />
+                                </Window>
+                                <Window Type="DejaVu/StaticImage" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Eudemon/ModelView/TalkBubble/Next" >
+                                    <Property Name="HorizontalAlignment" Value="Right" />
+                                    <Property Name="Image" Value="set:main3 image:DownArrowLight" />
+                                    <Property Name="MousePassThroughEnabled" Value="True" />
+                                    <Property Name="UnifiedAreaRect" Value="{{-0.02,0},{-0.025,0},{0.12,0},{0.2375,0}}" />
+                                    <Property Name="VerticalAlignment" Value="Bottom" />
+                                    <Window Type="DejaVu/StaticImage" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Eudemon/ModelView/TalkBubble/Next/Ani" >
+                                        <Property Name="Image" Value="set:main3 image:DownArrowDark" />
+                                        <Property Name="MousePassThroughEnabled" Value="True" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                    </Window>
+                                </Window>
+                            </Window>
+                            <Window Type="DejaVu/Static" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Eudemon/ModelView/BuffExpBG" >
+                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                <Window Type="DejaVu/SlotImage" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Eudemon/ModelView/BuffExpBG/StarBtffSlot0" >
+                                    <Property Name="UnifiedAreaRect" Value="{{0.018657,0},{0.031847,0},{0.0970152,0},{0.165605,0}}" />
+                                </Window>
+                                <Window Type="DejaVu/SlotImage" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Eudemon/ModelView/BuffExpBG/StarBtffSlot1" >
+                                    <Property Name="UnifiedAreaRect" Value="{{0.115672,0},{0.0318471,0},{0.19403,0},{0.165605,0}}" />
+                                </Window>
+                                <Window Type="DejaVu/SlotImage" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Eudemon/ModelView/BuffExpBG/StarBtffSlot2" >
+                                    <Property Name="UnifiedAreaRect" Value="{{0.0186567,0},{0.197452,0},{0.0970149,0},{0.33121,0}}" />
+                                </Window>
+                                <Window Type="DejaVu/SlotImage" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Eudemon/ModelView/BuffExpBG/StarBtffSlot3" >
+                                    <Property Name="UnifiedAreaRect" Value="{{0.115672,0},{0.197452,0},{0.19403,0},{0.33121,0}}" />
+                                </Window>
+                                <Window Type="DejaVu/Static" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Eudemon/ModelView/BuffExpBG/Exp" >
+                                    <Property Name="AlwaysOnTop" Value="True" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.335821,0},{0.917197,0},{0.522388,0},{0.980892,0}}" />
+                                    <Window Type="DejaVu/StaticImage" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Eudemon/ModelView/BuffExpBG/Exp/IntNum2" >
+                                        <Property Name="Image" Value="set:DejaVu image:eight" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.2,0},{1,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/StaticImage" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Eudemon/ModelView/BuffExpBG/Exp/IntNum1" >
+                                        <Property Name="Image" Value="set:DejaVu image:eight" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.15,0},{0,0},{0.35,0},{1,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/StaticImage" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Eudemon/ModelView/BuffExpBG/Exp/DotPic" >
+                                        <Property Name="Image" Value="set:DejaVu image:point" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.35,0},{0.528359,0},{0.45,0},{1.02836,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/StaticImage" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Eudemon/ModelView/BuffExpBG/Exp/DecNum2" >
+                                        <Property Name="Image" Value="set:DejaVu image:eight" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.45,0},{0.25,0},{0.6,0},{1,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/StaticImage" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Eudemon/ModelView/BuffExpBG/Exp/DecNum1" >
+                                        <Property Name="Image" Value="set:DejaVu image:eight" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.57,0},{0.25,0},{0.72,0},{1,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/StaticImage" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Eudemon/ModelView/BuffExpBG/Exp/PercentPic" >
+                                        <Property Name="Image" Value="set:DejaVu image:percent" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.7,0},{0.25,0},{0.85,0},{1,0}}" />
+                                    </Window>
+                                </Window>
+                                <Window Type="DejaVu/ProgressBarBG" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Eudemon/ModelView/BuffExpBG/ExpBar" >
+                                    <Property Name="BackgroundEnabled" Value="False" />
+                                    <Property Name="FrameEnabled" Value="False" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.522388,0},{0.933121,0},{0.988806,0},{0.980892,0}}" />
+                                    <Window Type="DejaVu/ProgressBar2" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Eudemon/ModelView/BuffExpBG/ExpBar/Bar" >
+                                        <Property Name="CurrentProgress" Value="0" />
+                                        <Property Name="StepSize" Value="0.01" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.04,0},{0.266667,0},{0.96,0},{0.733333,0}}" />
+                                    </Window>
+                                </Window>
+                            </Window>
+                            <Window Type="DejaVu/Static" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Eudemon/ModelView/ChangeSkinBG" >
+                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                <Window Type="DejaVu/Button" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Eudemon/ModelView/ChangeSkinBG/SkinBtn0" >
+                                    <Property Name="Text" Value="1" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.0186567,0},{0.0318471,0},{0.0652985,0},{0.111465,0}}" />
+                                </Window>
+                                <Window Type="DejaVu/Button" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Eudemon/ModelView/ChangeSkinBG/StarSkinBtn0" >
+                                    <Property Name="Text" Value="2" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.0186567,0},{0.127389,0},{0.0652985,0},{0.207006,0}}" />
+                                    <Window Type="DejaVu/SlotImage" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Eudemon/ModelView/ChangeSkinBG/StarSkinBtn0/Lock" >
+                                        <Property Name="BackgroundEnabled" Value="False" />
+                                        <Property Name="FrameEnabled" Value="False" />
+                                        <Property Name="Image" Value="set:main image:GoldLockBtnNormal" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.4,0},{0,0},{1,0},{0.6,0}}" />
+                                    </Window>
+                                </Window>
+                                <Window Type="DejaVu/Button" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Eudemon/ModelView/ChangeSkinBG/StarSkinBtn1" >
+                                    <Property Name="Text" Value="3" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.0186567,0},{0.22293,0},{0.0652985,0},{0.302548,0}}" />
+                                    <Window Type="DejaVu/SlotImage" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Eudemon/ModelView/ChangeSkinBG/StarSkinBtn1/Lock" >
+                                        <Property Name="BackgroundEnabled" Value="False" />
+                                        <Property Name="FrameEnabled" Value="False" />
+                                        <Property Name="Image" Value="set:main image:GoldLockBtnNormal" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.4,0},{0,0},{1,0},{0.6,0}}" />
+                                    </Window>
+                                </Window>
+                                <Window Type="DejaVu/Button" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Eudemon/ModelView/ChangeSkinBG/SkinBtn1" >
+                                    <Property Name="DisabledImage" Value="set:main2 image:StarGold" />
+                                    <Property Name="HoverImage" Value="set:main2 image:StarGold" />
+                                    <Property Name="NormalImage" Value="set:main2 image:StarGold" />
+                                    <Property Name="PushedImage" Value="set:main2 image:StarGold" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.0746269,0},{0.0318471,0},{0.121269,0},{0.111465,0}}" />
+                                </Window>
+                                <Window Type="DejaVu/Button" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Eudemon/ModelView/ChangeSkinBG/SkinBtn2" >
+                                    <Property Name="DisabledImage" Value="set:main2 image:StarGold" />
+                                    <Property Name="HoverImage" Value="set:main2 image:StarGold" />
+                                    <Property Name="NormalImage" Value="set:main2 image:StarGold" />
+                                    <Property Name="PushedImage" Value="set:main2 image:StarGold" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.0746269,0},{0.127389,0},{0.121269,0},{0.207006,0}}" />
+                                </Window>
+                                <Window Type="DejaVu/Button" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Eudemon/ModelView/ChangeSkinBG/SkinBtn3" >
+                                    <Property Name="DisabledImage" Value="set:main2 image:StarGold" />
+                                    <Property Name="HoverImage" Value="set:main2 image:StarGold" />
+                                    <Property Name="NormalImage" Value="set:main2 image:StarGold" />
+                                    <Property Name="PushedImage" Value="set:main2 image:StarGold" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.0746269,0},{0.22293,0},{0.121269,0},{0.302548,0}}" />
+                                </Window>
+                                <Window Type="DejaVu/Button" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Eudemon/ModelView/ChangeSkinBG/SkinBtn4" >
+                                    <Property Name="DisabledImage" Value="set:main2 image:StarGold" />
+                                    <Property Name="HoverImage" Value="set:main2 image:StarGold" />
+                                    <Property Name="NormalImage" Value="set:main2 image:StarGold" />
+                                    <Property Name="PushedImage" Value="set:main2 image:StarGold" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.0746269,0},{0.318471,0},{0.121269,0},{0.398089,0}}" />
+                                </Window>
+                                <Window Type="DejaVu/Button" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Eudemon/ModelView/ChangeSkinBG/SkinBtn5" >
+                                    <Property Name="DisabledImage" Value="set:main2 image:StarGold" />
+                                    <Property Name="HoverImage" Value="set:main2 image:StarGold" />
+                                    <Property Name="NormalImage" Value="set:main2 image:StarGold" />
+                                    <Property Name="PushedImage" Value="set:main2 image:StarGold" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.0746269,0},{0.414013,0},{0.121269,0},{0.493631,0}}" />
+                                </Window>
+                                <Window Type="DejaVu/Button" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Eudemon/ModelView/ChangeSkinBG/ChangeSkinOKBtn" >
+                                    <Property Name="HorizontalAlignment" Value="Right" />
+                                    <Property Name="Text" Value="確定" />
+                                    <Property Name="UnifiedAreaRect" Value="{{-0.019011,0},{-0.031646,0},{0.125476,0},{0.0506325,0}}" />
+                                    <Property Name="VerticalAlignment" Value="Bottom" />
+                                </Window>
+                            </Window>
+                            <Window Type="DejaVu/Static" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Eudemon/ModelView/AttrMsgBG" >
+                                <Property Name="Font" Value="F001-scale" />
+                                <Property Name="HorizontalAlignment" Value="Centre" />
+                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.515924,0},{0.742537,0},{0.955414,0}}" />
+                                <Window Type="DejaVu/StaticText" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Eudemon/ModelView/AttrMsgBG/Attr1" >
+                                    <Property Name="AlwaysOnTop" Value="True" />
+                                    <Property Name="Font" Value="F001-12" />
+                                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                                    <Property Name="MousePassThroughEnabled" Value="True" />
+                                    <Property Name="Text" Value="x亞當 的攻擊值 提高 1 點" />
+                                    <Property Name="TextColours" Value="tl:FFFFFF00 tr:FFFFFF00 bl:FFFFFF00 br:FFFFFF00" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.00429681,0},{1,0},{0.170964,0}}" />
+                                </Window>
+                                <Window Type="DejaVu/StaticText" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Eudemon/ModelView/AttrMsgBG/Attr2" >
+                                    <Property Name="AlwaysOnTop" Value="True" />
+                                    <Property Name="Font" Value="F001-12" />
+                                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                                    <Property Name="MousePassThroughEnabled" Value="True" />
+                                    <Property Name="Text" Value="x亞當 的爆擊值 提高 2 點" />
+                                    <Property Name="TextColours" Value="tl:FFFFFF00 tr:FFFFFF00 bl:FFFFFF00 br:FFFFFF00" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.166667,0},{1,0},{0.333333,0}}" />
+                                </Window>
+                                <Window Type="DejaVu/StaticText" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Eudemon/ModelView/AttrMsgBG/Attr3" >
+                                    <Property Name="AlwaysOnTop" Value="True" />
+                                    <Property Name="Font" Value="F001-12" />
+                                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                                    <Property Name="MousePassThroughEnabled" Value="True" />
+                                    <Property Name="Text" Value="x亞當 的速度值 提高 3 點" />
+                                    <Property Name="TextColours" Value="tl:FFFFFF00 tr:FFFFFF00 bl:FFFFFF00 br:FFFFFF00" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.333333,0},{1,0},{0.5,0}}" />
+                                </Window>
+                                <Window Type="DejaVu/StaticText" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Eudemon/ModelView/AttrMsgBG/Attr4" >
+                                    <Property Name="AlwaysOnTop" Value="True" />
+                                    <Property Name="Font" Value="F001-12" />
+                                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                                    <Property Name="MousePassThroughEnabled" Value="True" />
+                                    <Property Name="Text" Value="x亞當 的HP值 提高 4 點" />
+                                    <Property Name="TextColours" Value="tl:FFFFFF00 tr:FFFFFF00 bl:FFFFFF00 br:FFFFFF00" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.5,0},{1,0},{0.666667,0}}" />
+                                </Window>
+                                <Window Type="DejaVu/StaticText" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Eudemon/ModelView/AttrMsgBG/Attr5" >
+                                    <Property Name="AlwaysOnTop" Value="True" />
+                                    <Property Name="Font" Value="F001-12" />
+                                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                                    <Property Name="MousePassThroughEnabled" Value="True" />
+                                    <Property Name="Text" Value="x亞當 的防禦值 提高 5 點" />
+                                    <Property Name="TextColours" Value="tl:FFFFFF00 tr:FFFFFF00 bl:FFFFFF00 br:FFFFFF00" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.666667,0},{1,0},{0.833333,0}}" />
+                                </Window>
+                                <Window Type="DejaVu/StaticText" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Eudemon/ModelView/AttrMsgBG/Attr6" >
+                                    <Property Name="AlwaysOnTop" Value="True" />
+                                    <Property Name="Font" Value="F001-12" />
+                                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                                    <Property Name="MousePassThroughEnabled" Value="True" />
+                                    <Property Name="Text" Value="x亞當 的閃避值 提高 6 點" />
+                                    <Property Name="TextColours" Value="tl:FFFFFF00 tr:FFFFFF00 bl:FFFFFF00 br:FFFFFF00" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.833333,0},{1,0},{1,0}}" />
+                                </Window>
+                            </Window>
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Embed2" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Describe" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.0180505,0},{0.631868,0},{0.983755,0},{0.979853,0}}" />
+                        <Window Type="DejaVu/TabControl" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Describe/Tab" >
+                            <Property Name="TabHeight" Value="{0,20}" />
+                            <Property Name="TabPanePosition" Value="Top" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.00162867,0},{0,0},{1.00162,0},{1,0}}" />
+                            <Window Type="DefaultWindow" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Describe/Tab/Tab1" >
+                                <Property Name="Text" Value="　源神簡介　" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,536},{0,165}}" />
+                                <Property Name="Visible" Value="False" />
+                                <Window Type="DejaVu/Embed2" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Describe/Tab/Tab1/BG" >
+                                    <Property Name="Font" Value="F001-9" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.019506,0},{0.060606,0},{0.980327,0},{0.939394,0}}" />
+                                    <Window Type="DejaVu/StaticTextLab" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Describe/Tab/Tab1/BG/NameTitle" >
+                                        <Property Name="Text" Value="x名稱" />
+                                        <Property Name="TextColours" Value="tl:FFFFFF00 tr:FFFFFF00 bl:FFFFFF00 br:FFFFFF00" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.0194175,0},{0.0896552,0},{0.174757,0},{0.193103,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/StaticTextLab" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Describe/Tab/Tab1/BG/OrderTitle" >
+                                        <Property Name="Text" Value="x位階" />
+                                        <Property Name="TextColours" Value="tl:FFFFFF00 tr:FFFFFF00 bl:FFFFFF00 br:FFFFFF00" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.0194175,0},{0.227586,0},{0.174757,0},{0.331034,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/StaticTextLab" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Describe/Tab/Tab1/BG/EudemonScoreTitle" >
+                                        <Property Name="Text" Value="x源神分數" />
+                                        <Property Name="TextColours" Value="tl:FFFFFF00 tr:FFFFFF00 bl:FFFFFF00 br:FFFFFF00" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.0194175,0},{0.365517,0},{0.174757,0},{0.468966,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/StaticTextLab" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Describe/Tab/Tab1/BG/CollectScoreTitle" >
+                                        <Property Name="Text" Value="x圖鑑積分" />
+                                        <Property Name="TextColours" Value="tl:FFFFFF00 tr:FFFFFF00 bl:FFFFFF00 br:FFFFFF00" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.0194175,0},{0.503448,0},{0.174757,0},{0.606897,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/StaticTextLab" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Describe/Tab/Tab1/BG/SkillTitle" >
+                                        <Property Name="Text" Value="x源神技能" />
+                                        <Property Name="TextColours" Value="tl:FFFFFF00 tr:FFFFFF00 bl:FFFFFF00 br:FFFFFF00" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.0194175,0},{0.744828,0},{0.174757,0},{0.848276,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/StaticTextLab" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Describe/Tab/Tab1/BG/NameText" >
+                                        <Property Name="Text" Value="一二三四五六" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.194175,0},{0.0896552,0},{0.359223,0},{0.193103,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/StaticTextLab" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Describe/Tab/Tab1/BG/OrderText" >
+                                        <Property Name="Text" Value="x守護者" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.194175,0},{0.227586,0},{0.359223,0},{0.331034,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/StaticTextLab" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Describe/Tab/Tab1/BG/EudemonScoreText" >
+                                        <Property Name="Text" Value="x999999" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.194175,0},{0.365517,0},{0.359223,0},{0.468966,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/StaticTextLab" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Describe/Tab/Tab1/BG/CollectScoreText" >
+                                        <Property Name="Text" Value="x999999" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.194175,0},{0.503448,0},{0.359223,0},{0.606897,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/Button" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Describe/Tab/Tab1/BG/ChangeNameBtn" >
+                                        <Property Name="Text" Value="x命名" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.378641,0},{0.0689655,0},{0.495146,0},{0.241379,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/SlotImage" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Describe/Tab/Tab1/BG/EudemonSkill0" >
+                                        <Property Name="UnifiedAreaRect" Value="{{0.194175,0},{0.668966,0},{0.275728,0},{0.958621,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/SlotImage" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Describe/Tab/Tab1/BG/EudemonSkill1" >
+                                        <Property Name="UnifiedAreaRect" Value="{{0.295146,0},{0.668966,0},{0.376699,0},{0.958621,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/SlotImage" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Describe/Tab/Tab1/BG/EudemonSkill2" >
+                                        <Property Name="UnifiedAreaRect" Value="{{0.396116,0},{0.668966,0},{0.47767,0},{0.958621,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/Embed2" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Describe/Tab/Tab1/BG/PaneBG" >
+                                        <Property Name="UnifiedAreaRect" Value="{{0.524272,0},{0.0689655,0},{0.980583,0},{0.931035,0}}" />
+                                        <Window Type="DejaVu/ScrollablePane" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Describe/Tab/Tab1/BG/PaneBG/Pane" >
+                                            <Property Name="ContentArea" Value="l:0 t:0 r:233 b:123" />
+                                            <Property Name="HorzOverlapSize" Value="0.01" />
+                                            <Property Name="HorzScrollPosition" Value="0" />
+                                            <Property Name="HorzStepSize" Value="0.1" />
+                                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.992565,0},{0.985185,0}}" />
+                                            <Property Name="VertOverlapSize" Value="0.01" />
+                                            <Property Name="VertScrollPosition" Value="0" />
+                                            <Property Name="VertStepSize" Value="0.1" />
+                                            <AutoWindow NameSuffix="__auto_container__" >
+                                                <Property Name="ChildExtentsArea" Value="l:0 t:0 r:233 b:123" />
+                                                <Property Name="ContentArea" Value="l:0 t:0 r:233 b:123" />
+                                                <Property Name="MouseInputPropagationEnabled" Value="True" />
+                                                <Window Type="DejaVu/StaticText" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Describe/Tab/Tab1/BG/PaneBG/Pane/Text" >
+                                                    <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                                                    <Property Name="LinespaceWindow" Value="True" />
+                                                    <Property Name="MousePassThroughEnabled" Value="True" />
+                                                    <Property Name="Text" Value="1233212333" />
+                                                    <Property Name="UnifiedAreaRect" Value="{{0.007018,0},{0.013333,0},{1,0},{1,0}}" />
+                                                    <Property Name="VertFormatting" Value="TopAligned" />
+                                                </Window>
+                                            </AutoWindow>
+                                        </Window>
+                                    </Window>
+                                </Window>
+                                <Window Type="DejaVu/Embed2" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Describe/Tab/Tab1/AttrUnknown" >
+                                    <Property Name="AlwaysOnTop" Value="True" />
+                                    <Property Name="ClippedByParent" Value="False" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.0186567,0},{0.0606061,0},{0.979478,0},{0.939394,0}}" />
+                                    <Window Type="DejaVu/StaticText" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Describe/Tab/Tab1/AttrUnknown/Text" >
+                                        <Property Name="Text" Value="x尚未取得源神" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.009709,0},{0.034483,0},{0.990292,0},{0.965517,0}}" />
+                                        <Property Name="VertFormatting" Value="TopAligned" />
+                                    </Window>
+                                </Window>
+                            </Window>
+                            <Window Type="DefaultWindow" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Describe/Tab/Tab2" >
+                                <Property Name="ID" Value="1" />
+                                <Property Name="Text" Value="　源神素質　" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,536},{0,165}}" />
+                                <Property Name="Visible" Value="False" />
+                                <Window Type="DejaVu/Embed2" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Describe/Tab/Tab2/BG" >
+                                    <Property Name="Font" Value="F001-9" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.019471,0},{0.0606061,0},{0.980292,0},{0.939394,0}}" />
+                                    <Window Type="DejaVu/StaticTextLab" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Describe/Tab/Tab2/BG/AttackTitle" >
+                                        <Property Name="Text" Value="x傷害" />
+                                        <Property Name="TextColours" Value="tl:FFFFFF00 tr:FFFFFF00 bl:FFFFFF00 br:FFFFFF00" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.0194175,0},{0.0896552,0},{0.116505,0},{0.193103,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/StaticTextLab" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Describe/Tab/Tab2/BG/CriticalTitle" >
+                                        <Property Name="Text" Value="x爆擊" />
+                                        <Property Name="TextColours" Value="tl:FFFFFF00 tr:FFFFFF00 bl:FFFFFF00 br:FFFFFF00" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.0194175,0},{0.227586,0},{0.116505,0},{0.331034,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/StaticTextLab" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Describe/Tab/Tab2/BG/RecoverTitle" >
+                                        <Property Name="Text" Value="x回氣" />
+                                        <Property Name="TextColours" Value="tl:FFFFFF00 tr:FFFFFF00 bl:FFFFFF00 br:FFFFFF00" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.0194175,0},{0.365517,0},{0.116505,0},{0.468966,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/StaticTextLab" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Describe/Tab/Tab2/BG/HpTitle" >
+                                        <Property Name="Text" Value="xHP值" />
+                                        <Property Name="TextColours" Value="tl:FFFFFF00 tr:FFFFFF00 bl:FFFFFF00 br:FFFFFF00" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.0194175,0},{0.503448,0},{0.116505,0},{0.606897,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/StaticTextLab" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Describe/Tab/Tab2/BG/DefenceTitle" >
+                                        <Property Name="Text" Value="x防禦" />
+                                        <Property Name="TextColours" Value="tl:FFFFFF00 tr:FFFFFF00 bl:FFFFFF00 br:FFFFFF00" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.0194175,0},{0.641379,0},{0.116505,0},{0.744828,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/StaticTextLab" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Describe/Tab/Tab2/BG/DodgeTitle" >
+                                        <Property Name="Text" Value="x閃避" />
+                                        <Property Name="TextColours" Value="tl:FFFFFF00 tr:FFFFFF00 bl:FFFFFF00 br:FFFFFF00" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.0194175,0},{0.77931,0},{0.116505,0},{0.882759,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/StaticTextLab" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Describe/Tab/Tab2/BG/EudemonStarTitle" >
+                                        <Property Name="Text" Value="x源神星級" />
+                                        <Property Name="TextColours" Value="tl:FFFFFF00 tr:FFFFFF00 bl:FFFFFF00 br:FFFFFF00" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.446602,0},{0.0896552,0},{0.601942,0},{0.193103,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/StaticTextLab" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Describe/Tab/Tab2/BG/EudemonLevelTitle" >
+                                        <Property Name="Text" Value="x源神等級" />
+                                        <Property Name="TextColours" Value="tl:FFFFFF00 tr:FFFFFF00 bl:FFFFFF00 br:FFFFFF00" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.446602,0},{0.227586,0},{0.601942,0},{0.331034,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/StaticTextLab" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Describe/Tab/Tab2/BG/ElementTitle" >
+                                        <Property Name="Text" Value="x源神屬性" />
+                                        <Property Name="TextColours" Value="tl:FFFFFF00 tr:FFFFFF00 bl:FFFFFF00 br:FFFFFF00" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.446602,0},{0.365517,0},{0.601942,0},{0.468966,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/StaticTextLab" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Describe/Tab/Tab2/BG/CriticalDamageTitle" >
+                                        <Property Name="Text" Value="x爆擊傷害" />
+                                        <Property Name="TextColours" Value="tl:FFFFFF00 tr:FFFFFF00 bl:FFFFFF00 br:FFFFFF00" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.446602,0},{0.503448,0},{0.601942,0},{0.606897,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/StaticTextLab" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Describe/Tab/Tab2/BG/HitChanceTitle" >
+                                        <Property Name="Text" Value="x命中機率" />
+                                        <Property Name="TextColours" Value="tl:FFFFFF00 tr:FFFFFF00 bl:FFFFFF00 br:FFFFFF00" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.446602,0},{0.641379,0},{0.601942,0},{0.744828,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/StaticTextLab" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Describe/Tab/Tab2/BG/HealRateTitle" >
+                                        <Property Name="Text" Value="x治療比例" />
+                                        <Property Name="TextColours" Value="tl:FFFFFF00 tr:FFFFFF00 bl:FFFFFF00 br:FFFFFF00" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.446602,0},{0.77931,0},{0.601942,0},{0.882759,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/StaticTextLab" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Describe/Tab/Tab2/BG/EudemonEquipTitle" >
+                                        <Property Name="Text" Value="x源神裝備" />
+                                        <Property Name="TextColours" Value="tl:FFFFFF00 tr:FFFFFF00 bl:FFFFFF00 br:FFFFFF00" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.796117,0},{0.0896552,0},{0.951456,0},{0.193103,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/StaticImage" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Describe/Tab/Tab2/BG/AttackRank" >
+                                        <Property Name="Image" Value="set:DejaVu image:AbRankRPlus" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.0970874,0},{0.0689655,0},{0.165049,0},{0.206897,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/StaticImage" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Describe/Tab/Tab2/BG/CriticalRank" >
+                                        <Property Name="Image" Value="set:DejaVu image:AbRankRPlus" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.097087,0},{0.206897,0},{0.165048,0},{0.344828,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/StaticImage" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Describe/Tab/Tab2/BG/RecoverRank" >
+                                        <Property Name="Image" Value="set:DejaVu image:AbRankRPlus" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.097087,0},{0.344828,0},{0.165048,0},{0.482759,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/StaticImage" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Describe/Tab/Tab2/BG/HpRank" >
+                                        <Property Name="Image" Value="set:DejaVu image:AbRankRPlus" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.097087,0},{0.482759,0},{0.165048,0},{0.62069,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/StaticImage" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Describe/Tab/Tab2/BG/DefRank" >
+                                        <Property Name="Image" Value="set:DejaVu image:AbRankRPlus" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.097087,0},{0.62069,0},{0.165048,0},{0.758621,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/StaticImage" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Describe/Tab/Tab2/BG/DodgeRank" >
+                                        <Property Name="Image" Value="set:DejaVu image:AbRankRPlus" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.097087,0},{0.758621,0},{0.165048,0},{0.896552,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/StaticTextLab" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Describe/Tab/Tab2/BG/AttackValue" >
+                                        <Property Name="HorzFormatting" Value="RightAligned" />
+                                        <Property Name="Text" Value="x999999" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.174757,0},{0.0896552,0},{0.281553,0},{0.193103,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/StaticTextLab" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Describe/Tab/Tab2/BG/CriticalValue" >
+                                        <Property Name="HorzFormatting" Value="RightAligned" />
+                                        <Property Name="Text" Value="x999999" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.174757,0},{0.227586,0},{0.281553,0},{0.331034,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/StaticTextLab" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Describe/Tab/Tab2/BG/RecoverValue" >
+                                        <Property Name="HorzFormatting" Value="RightAligned" />
+                                        <Property Name="Text" Value="x999999" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.174757,0},{0.365517,0},{0.281553,0},{0.468966,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/StaticTextLab" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Describe/Tab/Tab2/BG/HpValue" >
+                                        <Property Name="HorzFormatting" Value="RightAligned" />
+                                        <Property Name="Text" Value="x999999" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.174757,0},{0.503448,0},{0.281553,0},{0.606897,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/StaticTextLab" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Describe/Tab/Tab2/BG/DefValue" >
+                                        <Property Name="HorzFormatting" Value="RightAligned" />
+                                        <Property Name="Text" Value="x999999" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.174757,0},{0.641379,0},{0.281553,0},{0.744828,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/StaticTextLab" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Describe/Tab/Tab2/BG/DodgeValue" >
+                                        <Property Name="HorzFormatting" Value="RightAligned" />
+                                        <Property Name="Text" Value="x999999" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.174757,0},{0.77931,0},{0.281553,0},{0.882759,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/StaticTextLab" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Describe/Tab/Tab2/BG/LevelVaule" >
+                                        <Property Name="HorzFormatting" Value="RightAligned" />
+                                        <Property Name="Text" Value="x75" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.613422,0},{0.227586,0},{0.708738,0},{0.331034,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/StaticTextLab" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Describe/Tab/Tab2/BG/ElemantValue" >
+                                        <Property Name="HorzFormatting" Value="RightAligned" />
+                                        <Property Name="Text" Value="x暴風" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.592233,0},{0.365517,0},{0.708738,0},{0.468966,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/StaticTextLab" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Describe/Tab/Tab2/BG/CriticalRate" >
+                                        <Property Name="HorzFormatting" Value="RightAligned" />
+                                        <Property Name="Text" Value="x98.76%" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.300971,0},{0.262531,0},{0.417476,0},{0.365979,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/StaticTextLab" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Describe/Tab/Tab2/BG/RecoverRate" >
+                                        <Property Name="HorzFormatting" Value="RightAligned" />
+                                        <Property Name="Text" Value="x98.76%" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.300971,0},{0.365517,0},{0.417476,0},{0.468966,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/StaticTextLab" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Describe/Tab/Tab2/BG/DefRate" >
+                                        <Property Name="HorzFormatting" Value="RightAligned" />
+                                        <Property Name="Text" Value="x98.76%" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.300971,0},{0.641379,0},{0.417476,0},{0.744828,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/StaticTextLab" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Describe/Tab/Tab2/BG/DodgeRate" >
+                                        <Property Name="HorzFormatting" Value="RightAligned" />
+                                        <Property Name="Text" Value="x98.76%" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.300971,0},{0.77931,0},{0.417476,0},{0.882759,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/StaticTextLab" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Describe/Tab/Tab2/BG/CriticalDamageRate" >
+                                        <Property Name="HorzFormatting" Value="RightAligned" />
+                                        <Property Name="Text" Value="x22.50%" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.592233,0},{0.503448,0},{0.708738,0},{0.606897,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/StaticTextLab" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Describe/Tab/Tab2/BG/HitChanceRate" >
+                                        <Property Name="HorzFormatting" Value="RightAligned" />
+                                        <Property Name="Text" Value="x22.50%" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.592233,0},{0.641379,0},{0.708738,0},{0.744828,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/StaticTextLab" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Describe/Tab/Tab2/BG/HealRateRate" >
+                                        <Property Name="HorzFormatting" Value="RightAligned" />
+                                        <Property Name="Text" Value="x22.50%" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.592233,0},{0.77931,0},{0.708738,0},{0.882759,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/SlotImage" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Describe/Tab/Tab2/BG/EudemonEquip0" >
+                                        <Property Name="UnifiedAreaRect" Value="{{0.74485,0},{0.310345,0},{0.826403,0},{0.6,0}}" />
+                                        <Window Type="DejaVu/StaticImage" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Describe/Tab/Tab2/BG/EudemonEquip0/Img" >
+                                            <Property Name="Font" Value="F001-9" />
+                                            <Property Name="Image" Value="set:main2 image:EudemonEquipBase" />
+                                            <Property Name="MousePassThroughEnabled" Value="True" />
+                                            <Property Name="UnifiedAreaRect" Value="{{0.071429,0},{0.071429,0},{0.928572,0},{0.928572,0}}" />
+                                        </Window>
+                                    </Window>
+                                    <Window Type="DejaVu/SlotImage" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Describe/Tab/Tab2/BG/EudemonEquip1" >
+                                        <Property Name="UnifiedAreaRect" Value="{{0.865767,0},{0.310345,0},{0.94732,0},{0.6,0}}" />
+                                        <Window Type="DejaVu/StaticImage" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Describe/Tab/Tab2/BG/EudemonEquip1/Img" >
+                                            <Property Name="Image" Value="set:main2 image:EudemonEquipBase" />
+                                            <Property Name="MousePassThroughEnabled" Value="True" />
+                                            <Property Name="UnifiedAreaRect" Value="{{0.0714286,0},{0.0714286,0},{0.928571,0},{0.928571,0}}" />
+                                        </Window>
+                                    </Window>
+                                    <Window Type="DejaVu/SlotImage" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Describe/Tab/Tab2/BG/EudemonEquip2" >
+                                        <Property Name="UnifiedAreaRect" Value="{{0.804874,0},{0.657378,0},{0.886427,0},{0.947033,0}}" />
+                                        <Window Type="DejaVu/StaticImage" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Describe/Tab/Tab2/BG/EudemonEquip2/Img" >
+                                            <Property Name="Font" Value="F001-9" />
+                                            <Property Name="Image" Value="set:main2 image:EudemonPledgeBase" />
+                                            <Property Name="MousePassThroughEnabled" Value="True" />
+                                            <Property Name="UnifiedAreaRect" Value="{{0.071429,0},{0.071429,0},{0.928572,0},{0.928572,0}}" />
+                                        </Window>
+                                    </Window>
+                                    <Window Type="DejaVu/Embed2" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Describe/Tab/Tab2/BG/StarBG" >
+                                        <Property Name="FrameEnabled" Value="False" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.609709,0},{0.0896552,0},{0.765049,0},{0.227586,0}}" />
+                                        <Window Type="DejaVu/StaticImage" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Describe/Tab/Tab2/BG/StarBG/Star1" >
+                                            <Property Name="Image" Value="set:main2 image:Feeling02" />
+                                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.25,0},{1,0}}" />
+                                        </Window>
+                                        <Window Type="DejaVu/StaticImage" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Describe/Tab/Tab2/BG/StarBG/Star2" >
+                                            <Property Name="Image" Value="set:main2 image:Feeling02" />
+                                            <Property Name="UnifiedAreaRect" Value="{{0.216098,0},{0,0},{0.466098,0},{1,0}}" />
+                                        </Window>
+                                        <Window Type="DejaVu/StaticImage" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Describe/Tab/Tab2/BG/StarBG/Star3" >
+                                            <Property Name="Image" Value="set:main2 image:Feeling02" />
+                                            <Property Name="UnifiedAreaRect" Value="{{0.425,0},{0,0},{0.675,0},{1,0}}" />
+                                        </Window>
+                                        <Window Type="DejaVu/StaticImage" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Describe/Tab/Tab2/BG/StarBG/Star4" >
+                                            <Property Name="Image" Value="set:main2 image:Feeling02" />
+                                            <Property Name="UnifiedAreaRect" Value="{{0.6375,0},{0,0},{0.8875,0},{1,0}}" />
+                                        </Window>
+                                    </Window>
+                                </Window>
+                            </Window>
+                            <Window Type="DefaultWindow" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Describe/Tab/Tab3" >
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="ID" Value="2" />
+                                <Property Name="Text" Value="　源神祈願　" />
+                                <Property Name="UnifiedAreaRect" Value="{{-0.002369,0},{-0.00444027,0},{-0.002369,536},{-0.00444027,165}}" />
+                                <Property Name="Visible" Value="False" />
+                                <Window Type="DejaVu/Embed2" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Describe/Tab/Tab3/BG" >
+                                    <Property Name="Font" Value="F001-9" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.0174725,0},{0.060606,0},{0.978293,0},{0.939394,0}}" />
+                                    <Window Type="DejaVu/Embed2" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Describe/Tab/Tab3/BG/MissionBG" >
+                                        <Property Name="AlwaysOnTop" Value="True" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.0194175,0},{0.0689655,0},{0.549972,0},{0.920511,0}}" />
+                                        <Window Type="DejaVu/EmbedTextLab7" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Describe/Tab/Tab3/BG/MissionBG/Title" >
+                                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                                            <Property Name="Text" Value="x源神願望" />
+                                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.732601,0},{0.203252,0}}" />
+                                        </Window>
+                                        <Window Type="DejaVu/EmbedTextLab2" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Describe/Tab/Tab3/BG/MissionBG/Name" >
+                                            <Property Name="Text" Value="x任務名稱五六七八（1/5）" />
+                                            <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+                                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.203252,0},{0.996337,0},{0.406504,0}}" />
+                                        </Window>
+                                        <Window Type="DejaVu/StaticImage" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Describe/Tab/Tab3/BG/MissionBG/Shine" >
+                                            <Property Name="AlwaysOnTop" Value="True" />
+                                            <Property Name="Image" Value="set:DejaVu image:MissionCompleteHint" />
+                                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.203252,0},{0.996337,0},{0.406504,0}}" />
+                                        </Window>
+                                        <Window Type="DejaVu/SlotImage" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Describe/Tab/Tab3/BG/MissionBG/Slot0" >
+                                            <Property Name="UnifiedAreaRect" Value="{{0.014652,0},{0.609756,0},{0.168498,0},{0.95935,0}}" />
+                                            <Window Type="DejaVu/StaticImage" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Describe/Tab/Tab3/BG/MissionBG/Mark0" >
+                                                <Property Name="AlwaysOnTop" Value="True" />
+                                                <Property Name="Image" Value="set:main2 image:GiftStamp" />
+                                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.47619,0},{0.47619,0},{0.952381,0}}" />
+                                            </Window>
+                                        </Window>
+                                        <Window Type="DejaVu/SlotImage" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Describe/Tab/Tab3/BG/MissionBG/Slot1" >
+                                            <Property Name="UnifiedAreaRect" Value="{{0.18315,0},{0.609756,0},{0.336996,0},{0.951219,0}}" />
+                                            <Window Type="DejaVu/StaticImage" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Describe/Tab/Tab3/BG/MissionBG/Mark1" >
+                                                <Property Name="AlwaysOnTop" Value="True" />
+                                                <Property Name="Image" Value="set:main2 image:GiftStamp" />
+                                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.47619,0},{0.47619,0},{0.952381,0}}" />
+                                            </Window>
+                                        </Window>
+                                        <Window Type="DejaVu/SlotImage" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Describe/Tab/Tab3/BG/MissionBG/Slot2" >
+                                            <Property Name="UnifiedAreaRect" Value="{{0.347985,0},{0.609756,0},{0.501832,0},{0.951219,0}}" />
+                                            <Window Type="DejaVu/StaticImage" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Describe/Tab/Tab3/BG/MissionBG/Mark2" >
+                                                <Property Name="AlwaysOnTop" Value="True" />
+                                                <Property Name="Image" Value="set:main2 image:GiftStamp" />
+                                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.47619,0},{0.47619,0},{0.952381,0}}" />
+                                            </Window>
+                                        </Window>
+                                        <Window Type="DejaVu/SlotImage" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Describe/Tab/Tab3/BG/MissionBG/Slot3" >
+                                            <Property Name="UnifiedAreaRect" Value="{{0.512821,0},{0.609756,0},{0.666667,0},{0.951219,0}}" />
+                                            <Window Type="DejaVu/StaticImage" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Describe/Tab/Tab3/BG/MissionBG/Mark3" >
+                                                <Property Name="AlwaysOnTop" Value="True" />
+                                                <Property Name="Image" Value="set:main2 image:GiftStamp" />
+                                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.47619,0},{0.47619,0},{0.952381,0}}" />
+                                            </Window>
+                                        </Window>
+                                        <Window Type="DejaVu/Button" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Describe/Tab/Tab3/BG/MissionAbilityBtn" >
+                                            <Property Name="Font" Value="F001-9" />
+                                            <Property Name="Text" Value="x能力加成" />
+                                            <Property Name="UnifiedAreaRect" Value="{{0.732601,0},{0,0},{0.996337,0},{0.203252,0}}" />
+                                        </Window>
+                                        <Window Type="DejaVu/SlotImage" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Describe/Tab/Tab3/BG/MissionBG/Slot4" >
+                                            <Property Name="Font" Value="F001-9" />
+                                            <Property Name="UnifiedAreaRect" Value="{{0.802198,0},{0.609756,0},{0.956044,0},{0.951219,0}}" />
+                                            <Window Type="DejaVu/StaticImage" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Describe/Tab/Tab3/BG/MissionBG/Mark4" >
+                                                <Property Name="Font" Value="F001-9" />
+                                                <Property Name="Image" Value="set:main2 image:GiftStamp" />
+                                                <Property Name="UnifiedAreaRect" Value="{{0.0583447,0},{0.456995,0},{0.534535,0},{0.933186,0}}" />
+                                            </Window>
+                                        </Window>
+                                        <Window Type="DejaVu/StaticTextLab" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Describe/Tab/Tab3/BG/MissionBG/Text01" >
+                                            <Property Name="Font" Value="F001-9" />
+                                            <Property Name="Text" Value="指定道具" />
+                                            <Property Name="TextColours" Value="tl:FFFFFF00 tr:FFFFFF00 bl:FFFFFF00 br:FFFFFF00" />
+                                            <Property Name="UnifiedAreaRect" Value="{{0.25641,0},{0.317073,0},{0.648352,0},{0.699187,0}}" />
+                                        </Window>
+                                        <Window Type="DejaVu/StaticTextLab" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Describe/Tab/Tab3/BG/MissionBG/Text02" >
+                                            <Property Name="Font" Value="F001-9" />
+                                            <Property Name="Text" >通用道具
+</Property>
+                                            <Property Name="TextColours" Value="tl:FFFFFF00 tr:FFFFFF00 bl:FFFFFF00 br:FFFFFF00" />
+                                            <Property Name="UnifiedAreaRect" Value="{{0.785756,0},{0.3911,0},{1.03576,0},{0.6411,0}}" />
+                                        </Window>
+                                    </Window>
+                                    <Window Type="DejaVu/Embed2" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Describe/Tab/Tab3/BG/MissionReviewBG" >
+                                        <Property Name="UnifiedAreaRect" Value="{{0.561993,0},{0.0744968,0},{0.980583,0},{0.924138,0}}" />
+                                        <Window Type="DejaVu/MultiColumnListNoHeader" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Describe/Tab/Tab3/BG/MissionReviewBG/MCL" >
+                                            <Property Name="ColumnsMovable" Value="False" />
+                                            <Property Name="Font" Value="F001-9" />
+                                            <Property Name="UnifiedAreaRect" Value="{{0.012032,0},{0.0064856,0},{0.998143,0},{0.991736,0}}" />
+                                            <Window Type="DejaVu/StaticTextLab" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Describe/Tab/Tab3/BG/MissionReviewBG/MCL/" >
+                                                <Property Name="Font" Value="F001-9" />
+                                                <Property Name="UnifiedAreaRect" Value="{{-1.13838,0},{0.353916,0},{-0.88838,0},{0.603917,0}}" />
+                                            </Window>
+                                        </Window>
+                                    </Window>
+                                </Window>
+                            </Window>
+                            <Window Type="DefaultWindow" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Describe/Tab/Tab4" >
+                                <Property Name="ID" Value="3" />
+                                <Property Name="Text" Value="　源神技能　" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,536},{0,165}}" />
+                                <Property Name="Visible" Value="False" />
+                                <Window Type="DejaVu/Embed2" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Describe/Tab/Tab4/BG" >
+                                    <Property Name="Font" Value="F001-9" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.019506,0},{0.060606,0},{0.980327,0},{0.939394,0}}" />
+                                    <Window Type="DejaVu/SlotImage" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Describe/Tab/Tab4/BG/EudemonSkill0" >
+                                        <Property Name="UnifiedAreaRect" Value="{{0.038835,0},{0.0689655,0},{0.120388,0},{0.358621,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/SlotImage" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Describe/Tab/Tab4/BG/EudemonSkill1" >
+                                        <Property Name="UnifiedAreaRect" Value="{{0.330097,0},{0.0689655,0},{0.41165,0},{0.358621,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/SlotImage" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Describe/Tab/Tab4/BG/EudemonSkill2" >
+                                        <Property Name="UnifiedAreaRect" Value="{{0.621359,0},{0.0689655,0},{0.702913,0},{0.358621,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/StaticTextLab" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Describe/Tab/Tab4/BG/SpellNameText0" >
+                                        <Property Name="Text" Value="x技能名字" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.135922,0},{0.151724,0},{0.300971,0},{0.289655,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/StaticTextLab" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Describe/Tab/Tab4/BG/SpellNameText1" >
+                                        <Property Name="Text" Value="x技能名字" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.427184,0},{0.151724,0},{0.592233,0},{0.289655,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/StaticTextLab" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Describe/Tab/Tab4/BG/SpellNameText2" >
+                                        <Property Name="Text" Value="x技能名字" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.718447,0},{0.151724,0},{0.883495,0},{0.289655,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/EmbedTextLab5" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Describe/Tab/Tab4/BG/LevelText0" >
+                                        <Property Name="Font" Value="F001-9" />
+                                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                                        <Property Name="Text" Value="99" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.038835,0},{0.413793,0},{0.126214,0},{0.551724,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/EmbedTextLab5" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Describe/Tab/Tab4/BG/LevelText1" >
+                                        <Property Name="Font" Value="F001-9" />
+                                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                                        <Property Name="Text" Value="99" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.330097,0},{0.413793,0},{0.417476,0},{0.551724,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/EmbedTextLab5" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Describe/Tab/Tab4/BG/LevelText2" >
+                                        <Property Name="Font" Value="F001-9" />
+                                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                                        <Property Name="Text" Value="99" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.621359,0},{0.413793,0},{0.708738,0},{0.551724,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/Button" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Describe/Tab/Tab4/BG/StrengthenBtn0" >
+                                        <Property Name="Text" Value="x強化" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.15534,0},{0.758621,0},{0.271845,0},{0.931034,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/Button" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Describe/Tab/Tab4/BG/StrengthenBtn1" >
+                                        <Property Name="Text" Value="x強化" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.446602,0},{0.758621,0},{0.563107,0},{0.931034,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/Button" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Describe/Tab/Tab4/BG/StrengthenBtn2" >
+                                        <Property Name="Text" Value="x強化" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.737864,0},{0.758621,0},{0.854369,0},{0.931034,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/EmbedTextLab5" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Describe/Tab/Tab4/BG/ItemText0" >
+                                        <Property Name="Font" Value="F001-9" />
+                                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                                        <Property Name="Text" Value="2/3" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.038835,0},{0.758621,0},{0.15534,0},{0.931035,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/EmbedTextLab5" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Describe/Tab/Tab4/BG/ItemText1" >
+                                        <Property Name="Font" Value="F001-9" />
+                                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                                        <Property Name="Text" Value="2/3" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.330097,0},{0.758621,0},{0.446602,0},{0.931034,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/EmbedTextLab5" Name="EudemonExtendStorageWnd/BG/InfoArea/BG/Describe/Tab/Tab4/BG/ItemText2" >
+                                        <Property Name="Font" Value="F001-9" />
+                                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                                        <Property Name="Text" Value="2/3" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.621359,0},{0.758621,0},{0.737864,0},{0.931034,0}}" />
+                                    </Window>
+                                </Window>
+                            </Window>
+                        </Window>
+                    </Window>
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

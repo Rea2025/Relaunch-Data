@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/Login" >
+        <Property Name="MousePassThroughEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Property Name="ZOrderChangeEnabled" Value="False" />
+        <Window Type="DejaVu/StaticImage" Name="Root/Login/BackGroundImage" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{-0.00267591,0},{0.00417645,0},{0.997325,0},{1.00418,0}}" />
+            <Property Name="Visible" Value="False" />
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/Login/TitileImage" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{-0.0015625,0},{0.0025,0},{0.398438,0},{0.6425,0}}" />
+            <Property Name="ZOrderChangeEnabled" Value="False" />
+        </Window>
+        <Window Type="DejaVu/StaticTextLab" Name="Root/Login/VersionText" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="Text" Value="Ver : 3.0  001.001.02.12" />
+            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+            <Property Name="UnifiedAreaRect" Value="{{0.015625,0},{-0.0625,0},{0.257031,0},{-0.025,0}}" />
+            <Property Name="VerticalAlignment" Value="Bottom" />
+        </Window>
+        <Window Type="DejaVu/StaticTextLab" Name="Root/Login/WarentText" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-36" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="Text" Value="Click Start" />
+            <Property Name="TextColours" Value="tl:FFFFFF00 tr:FFFFFF00 bl:FFFFFF00 br:FFFFFF00" />
+            <Property Name="UnifiedAreaRect" Value="{{-0.0101562,0},{-0.39,0},{0.494531,0},{-0.27375,0}}" />
+            <Property Name="VerticalAlignment" Value="Bottom" />
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/Login/easyLogPhoto" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Property Name="HorzFormatting" Value="CentreAligned" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{-0.00625,0},{0,475},{-0.00625,50}}" />
+            <Property Name="UnifiedMaxSize" Value="{{0,475},{0,50}}" />
+            <Property Name="UnifiedMinSize" Value="{{0,475},{0,50}}" />
+            <Property Name="VerticalAlignment" Value="Bottom" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/Login/OfficialWebSiteButton" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.20573,0},{-0.01875,0},{0.291667,0},{0.01625,0}}" />
+            <Property Name="VerticalAlignment" Value="Bottom" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/Login/contractBtn" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.015625,0},{-0.01875,0},{0.101563,0},{0.01625,0}}" />
+            <Property Name="VerticalAlignment" Value="Bottom" />
+        </Window>
+        <Window Type="DejaVu/Static" Name="Root/Login/InputBG" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Property Name="UnifiedAreaRect" Value="{{0.000520833,0},{0,0},{0.469271,0},{0.2625,0}}" />
+            <Property Name="VertFormatting" Value="TopAligned" />
+            <Property Name="VerticalAlignment" Value="Bottom" />
+            <Window Type="DejaVu/Button" Name="Root/Login/StartButton" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="UnifiedAreaRect" Value="{{0.00152752,0},{0.514056,0},{0.184862,0},{0.646586,0}}" />
+            </Window>
+            <Window Type="DejaVu/Embed" Name="Root/Login/AccountBG" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0952381,0},{0.333333,0},{0.238095,0}}" />
+                <Window Type="DejaVu/Editbox" Name="Root/Login/AccountBG/AccountEdit" >
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                    <Property Name="MaxTextLength" Value="20" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.98,0},{0.933333,0}}" />
+                    <Property Name="ValidationString" Value="[a-zA-Z0-9]*" />
+                    <Property Name="VerticalAlignment" Value="Centre" />
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/Login/AccountBG/AccountEdit/TipText" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.928571,0}}" />
+                        <Property Name="VerticalAlignment" Value="Centre" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed" Name="Root/Login/PasswordBG" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.285714,0},{0.333333,0},{0.428571,0}}" />
+                <Window Type="DejaVu/Editbox" Name="Root/Login/PasswordBG/PasswordEdit" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                    <Property Name="MaskText" Value="True" />
+                    <Property Name="MaxTextLength" Value="20" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.98,0},{0.933333,0}}" />
+                    <Property Name="VerticalAlignment" Value="Centre" />
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/Login/PasswordBG/PasswordEdit/TipText" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                        <Property Name="VerticalAlignment" Value="Centre" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/Login/AccountStatic" >
+                <Property Name="Alpha" Value="0" />
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="BB" />
+                <Property Name="TextColours" Value="tl:FFFF00FF tr:FFFF00FF bl:FFFF00FF br:FF000000" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.233333,0},{0.0952381,0},{-0.103333,0},{0.238095,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/Login/PasswordStatic" >
+                <Property Name="Alpha" Value="0" />
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="密碼" />
+                <Property Name="TextColours" Value="tl:FFF00FFF tr:FFFFFFFF bl:FFFF00FF br:FFFFF00F" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.233333,0},{0.285714,0},{-0.103333,0},{0.428571,0}}" />
+            </Window>
+            <Window Type="DejaVu/Checkbox" Name="Root/Login/SaveAccountCheck" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="UnifiedAreaRect" Value="{{0.270833,0},{0.0990099,0},{0.4625,0},{0.242574,0}}" />
+            </Window>
+            <Window Type="DejaVu/Checkbox" Name="Root/Login/VKBCheck" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="UnifiedAreaRect" Value="{{0.270833,0},{0.287129,0},{0.4625,0},{0.430693,0}}" />
+            </Window>
+            <Window Type="DejaVu/Checkbox" Name="Root/Login/QuickStartCheck" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.604167,0},{0.504951,0},{0.854167,0},{0.648515,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/Login/CutsceneButton" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="HorizontalAlignment" Value="Right" />
+            <Property Name="UnifiedAreaRect" Value="{{-0.117188,0},{-0.01875,0},{-0.03125,0},{0.01625,0}}" />
+            <Property Name="VerticalAlignment" Value="Bottom" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/Login/ExitGameButton" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="HorizontalAlignment" Value="Right" />
+            <Property Name="UnifiedAreaRect" Value="{{-0.015625,0},{-0.01875,0},{0.0703125,0},{0.01625,0}}" />
+            <Property Name="VerticalAlignment" Value="Bottom" />
+        </Window>
+        <Window Type="DejaVu/Embed3" Name="Root/Login/Announcement" >
+            <Property Name="UnifiedAreaRect" Value="{{0.0195313,0},{0.58625,0},{0.253906,0},{0.87375,0}}" />
+            <Window Type="DejaVu/StaticTextLab" Name="Root/Login/Announcement/Text" >
+                <Property Name="Font" Value="F001-12" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="AA" />
+                <Property Name="TextColours" Value="tl:FFFFFF00 tr:FFFFFF00 bl:FFFFFF00 br:FFFFFF00" />
+                <Property Name="UnifiedAreaRect" Value="{{0.033333,0},{0.021739,0},{0.966666,0},{0.130435,0}}" />
+            </Window>
+            <Window Type="DejaVu/Embed5" Name="Root/Login/Announcement/ContentBG" >
+                <Property Name="UnifiedAreaRect" Value="{{0.033333,0},{0.152174,0},{0.966666,0},{0.956522,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="Root/Login/Announcement/ContentText" >
+                    <Property Name="LinespaceWindow" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    <Property Name="VertFormatting" Value="TopAligned" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/Login/PrivacypolicyBtn" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.109896,0},{-0.0184187,0},{0.195834,0},{0.0165811,0}}" />
+            <Property Name="VerticalAlignment" Value="Bottom" />
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="UpdatePlayerNodeTimesFilter" >
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.297994,0},{0.59387,0}}" />
+        <Window Type="DejaVu/Static" Name="UpdatePlayerNodeTimesFilter/Column" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,237},{0,27}}" />
+            <Window Type="DejaVu/Embed2" Name="UpdatePlayerNodeTimesFilter/Column/CheckBG" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.105932,0},{1,0}}" />
+                <Window Type="DejaVu/ImageCheckbox" Name="UpdatePlayerNodeTimesFilter/Column/CheckBG/CheckBox" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="DisabledImage" Value="set:DejaVu image:TreeListOpenedNormal" />
+                    <Property Name="HoverImage" Value="set:DejaVu image:TreeListClosed" />
+                    <Property Name="ID" Value="1" />
+                    <Property Name="NormalImage" Value="set:DejaVu image:TreeListClosedNormal" />
+                    <Property Name="PushedImage" Value="set:DejaVu image:TreeListOpenedNormal" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.208333,0},{0.2,0},{0.833333,0},{0.8,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/EmbedText2" Name="UpdatePlayerNodeTimesFilter/Column/Name" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="ID" Value="1001" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="XXText" />
+                <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+                <Property Name="UnifiedAreaRect" Value="{{0.211864,0},{0,0},{1.00424,0},{1,0}}" />
+            </Window>
+            <Window Type="DejaVu/Embed2" Name="UpdatePlayerNodeTimesFilter/Column/TickCheckBG" >
+                <Property Name="ID" Value="1002" />
+                <Property Name="UnifiedAreaRect" Value="{{0.105932,0},{0,0},{0.211864,0},{1,0}}" />
+                <Window Type="DejaVu/Checkbox" Name="UpdatePlayerNodeTimesFilter/Column/TickCheckBG/CheckBox" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.2,0},{0.185185,0},{0.84,0},{0.777778,0}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="UpdatePlayerNodeTimesFilter/ColumnNoBut" >
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.057816,0},{0,237},{0.057816,27}}" />
+            <Window Type="DejaVu/Embed2" Name="UpdatePlayerNodeTimesFilter/ColumnNoBut/CheckBG" >
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.105932,0},{1,0}}" />
+                <Window Type="DejaVu/ImageCheckbox" Name="UpdatePlayerNodeTimesFilter/Column/CheckBG/CheckBox1" >
+                    <Property Name="DisabledImage" Value="set:DejaVu image:TreeListOpenedNormal" />
+                    <Property Name="HoverImage" Value="set:DejaVu image:TreeListClosed" />
+                    <Property Name="ID" Value="1" />
+                    <Property Name="NormalImage" Value="set:DejaVu image:TreeListClosedNormal" />
+                    <Property Name="PushedImage" Value="set:DejaVu image:TreeListOpenedNormal" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.208333,0},{0.2,0},{0.833333,0},{0.8,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed2" Name="UpdatePlayerNodeTimesFilter/ColumnNoBut/TickCheckBG" >
+                <Property Name="ID" Value="1002" />
+                <Property Name="UnifiedAreaRect" Value="{{0.105932,0},{0,0},{0.211864,0},{1,0}}" />
+                <Window Type="DejaVu/Checkbox" Name="UpdatePlayerNodeTimesFilter/ColumnNoBut/TickCheckBG/CheckBox" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.2,0},{0.185185,0},{0.84,0},{0.777778,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/EmbedText2" Name="UpdatePlayerNodeTimesFilter/ColumnNoBut/Name" >
+                <Property Name="AlwaysOnTop" Value="False" />
+                <Property Name="ID" Value="1001" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="XXText" />
+                <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+                <Property Name="UnifiedAreaRect" Value="{{0.211864,0},{0,0},{1.00424,0},{1,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="UpdatePlayerNodeTimesFilter/Item" >
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.11828,0},{0,237},{0.11828,27}}" />
+            <Window Type="DejaVu/Embed2" Name="UpdatePlayerNodeTimesFilter/Item/CheckBG" >
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.105932,0},{1,0}}" />
+                <Window Type="DejaVu/Checkbox" Name="UpdatePlayerNodeTimesFilter/Item/CheckBG/CheckBox" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.208333,0},{0.2,0},{0.833333,0},{0.8,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/EmbedText2" Name="UpdatePlayerNodeTimesFilter/Item/Name" >
+                <Property Name="AlwaysOnTop" Value="False" />
+                <Property Name="HorzFormatting" Value="WordWrapCentred" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="XXText" />
+                <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+                <Property Name="UnifiedAreaRect" Value="{{0.105932,0},{0,0},{1.00424,0},{1,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

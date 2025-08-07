@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/Static" Name="CWorldServerListWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HorizontalAlignment" Value="Centre" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,600},{0,526}}" />
+        <Property Name="VerticalAlignment" Value="Centre" />
+        <Window Type="DejaVu/Embed" Name="CWorldServerListWnd/Static/" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.00190114,0},{1,0},{1.0019,0}}" />
+            <Property Name="VertFormatting" Value="VertCentred" />
+            <Window Type="DejaVu/StaticImage" Name="CWorldServerListWnd/Static/TipEmbed" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Image" Value="set:main3 image:StepBG" />
+                <Property Name="UnifiedAreaRect" Value="{{0.025,0},{0.0665399,0},{0.975,0},{0.171103,0}}" />
+                <Window Type="DejaVu/StaticText" Name="CWorldServerListWnd/Static/Tip" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                    <Property Name="HorzFormatting" Value="WordWrapCentred" />
+                    <Property Name="LinespaceWindow" Value="True" />
+                    <Property Name="Text" >x新進帳號在推薦伺服器創角，可享有三天角色經驗值與
+職業經驗值30%的加成。
+</Property>
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.954023,0},{0.818182,0}}" />
+                    <Property Name="VerticalAlignment" Value="Centre" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="CWorldServerListWnd/Static/ServerEmbed" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Image" Value="set:main3 image:BG" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.171103,0},{0.5,0},{0.931559,0}}" />
+                <Window Type="DejaVu/Listbox" Name="CWorldServerListWnd/Static/ServerListBox" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.125,0},{0.95,0},{0.875,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="CWorldServerListWnd/Static/BranchEmbed" >
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="Image" Value="set:main3 image:BG" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.171429,0},{0.5,0},{0.933334,0}}" />
+                <Window Type="DejaVu/Listbox" Name="CWorldServerListWnd/Static/BranchListBox" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.124688,0},{0.95,0},{0.872818,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Button" Name="CWorldServerListWnd/Static/OKButton" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="確定" />
+                <Property Name="UnifiedAreaRect" Value="{{0.733333,0},{0.940952,0},{0.86,0},{0.990476,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="CWorldServerListWnd/Static/CancelButton" >
+                <Property Name="Text" Value="返回" />
+                <Property Name="UnifiedAreaRect" Value="{{0.866667,0},{0.940952,0},{0.993333,0},{0.990476,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="CWorldServerListWnd/Static/TitlePic" >
+                <Property Name="Image" Value="set:main3 image:Title" />
+                <Property Name="UnifiedAreaRect" Value="{{0.275,0},{0,0},{0.725,0},{0.0570342,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="CWorldServerListWnd/Static/Title" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="x伺服器&amp;分流選擇" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.055556,0},{0.2,0},{0.944445,0},{0.8,0}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="CWorldServerListWnd/Static" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.3,0},{0.30038,0},{0.466667,0},{0.551331,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

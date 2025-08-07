@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="EudemonBattleAbility" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.317578,0},{0.219668,0},{0.814648,0},{0.891413,0}}" />
+        <Window Type="DejaVu/Embed" Name="EudemonBattleAbility/BG" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Static" Name="EudemonBattleAbility/BG/Detail0" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.020284,0},{0.0246914,0},{0.425963,0},{0.0987654,0}}" />
+                <Window Type="DejaVu/StaticText" Name="EudemonBattleAbility/BG/Detail0/Text" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="隊伍ID" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.4,0},{1,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="EudemonBattleAbility/BG/Detail0/Num" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="ReadOnly" Value="True" />
+                    <Property Name="Text" Value="999" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.4,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="EudemonBattleAbility/BG/Detail1" >
+                <Property Name="UnifiedAreaRect" Value="{{0.020284,0},{0.0987654,0},{0.425963,0},{0.17284,0}}" />
+                <Window Type="DejaVu/StaticText" Name="EudemonBattleAbility/BG/Detail1/Text" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="隊伍Order" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.4,0},{1,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="EudemonBattleAbility/BG/Detail1/Num" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="ReadOnly" Value="True" />
+                    <Property Name="Text" Value="999" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.4,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="EudemonBattleAbility/BG/Detail2" >
+                <Property Name="UnifiedAreaRect" Value="{{0.020284,0},{0.17284,0},{0.425963,0},{0.246914,0}}" />
+                <Window Type="DejaVu/StaticText" Name="EudemonBattleAbility/BG/Detail2/Text" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="源神名" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.4,0},{1,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="EudemonBattleAbility/BG/Detail2/Num" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="ReadOnly" Value="True" />
+                    <Property Name="Text" Value="999" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.4,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="EudemonBattleAbility/BG/Detail3" >
+                <Property Name="UnifiedAreaRect" Value="{{0.020284,0},{0.246914,0},{0.425963,0},{0.320988,0}}" />
+                <Window Type="DejaVu/StaticText" Name="EudemonBattleAbility/BG/Detail3/Text" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="等級" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.4,0},{1,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="EudemonBattleAbility/BG/Detail3/Num" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="ReadOnly" Value="True" />
+                    <Property Name="Text" Value="999" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.4,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="EudemonBattleAbility/BG/Detail4" >
+                <Property Name="UnifiedAreaRect" Value="{{0.020284,0},{0.320988,0},{0.425963,0},{0.395062,0}}" />
+                <Window Type="DejaVu/StaticText" Name="EudemonBattleAbility/BG/Detail4/Text" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="屬性" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.4,0},{1,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="EudemonBattleAbility/BG/Detail4/Num" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="ReadOnly" Value="True" />
+                    <Property Name="Text" Value="999" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.4,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="EudemonBattleAbility/BG/Detail5" >
+                <Property Name="UnifiedAreaRect" Value="{{0.020284,0},{0.395062,0},{0.425963,0},{0.469136,0}}" />
+                <Window Type="DejaVu/StaticText" Name="EudemonBattleAbility/BG/Detail5/Text" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="隊長BUFF" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.4,0},{1,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="EudemonBattleAbility/BG/Detail5/Num" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="ReadOnly" Value="True" />
+                    <Property Name="Text" Value="999" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.4,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="EudemonBattleAbility/BG/Detail6" >
+                <Property Name="UnifiedAreaRect" Value="{{0.020284,0},{0.469136,0},{0.425963,0},{0.54321,0}}" />
+                <Window Type="DejaVu/StaticText" Name="EudemonBattleAbility/BG/Detail6/Text" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="技能1" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.4,0},{1,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="EudemonBattleAbility/BG/Detail6/Num" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="ReadOnly" Value="True" />
+                    <Property Name="Text" Value="999" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.4,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="EudemonBattleAbility/BG/Detail7" >
+                <Property Name="UnifiedAreaRect" Value="{{0.020284,0},{0.54321,0},{0.425963,0},{0.617284,0}}" />
+                <Window Type="DejaVu/StaticText" Name="EudemonBattleAbility/BG/Detail7/Text" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="技能2" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.4,0},{1,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="EudemonBattleAbility/BG/Detail7/Num" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="ReadOnly" Value="True" />
+                    <Property Name="Text" Value="999" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.4,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="EudemonBattleAbility/BG/Detail8" >
+                <Property Name="UnifiedAreaRect" Value="{{0.020284,0},{0.617284,0},{0.425963,0},{0.691358,0}}" />
+                <Window Type="DejaVu/StaticText" Name="EudemonBattleAbility/BG/Detail8/Text" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="技能3" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.4,0},{1,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="EudemonBattleAbility/BG/Detail8/Num" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="ReadOnly" Value="True" />
+                    <Property Name="Text" Value="999" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.4,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="EudemonBattleAbility/BG/Detail9" >
+                <Property Name="UnifiedAreaRect" Value="{{0.446247,0},{0.0246914,0},{0.851927,0},{0.0987654,0}}" />
+                <Window Type="DejaVu/StaticText" Name="EudemonBattleAbility/BG/Detail9/Text" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="攻擊" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.4,0},{1,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="EudemonBattleAbility/BG/Detail9/Num" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="ReadOnly" Value="True" />
+                    <Property Name="Text" Value="999" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.4,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="EudemonBattleAbility/BG/Detail10" >
+                <Property Name="UnifiedAreaRect" Value="{{0.446247,0},{0.0987654,0},{0.851927,0},{0.17284,0}}" />
+                <Window Type="DejaVu/StaticText" Name="EudemonBattleAbility/BG/Detail10/Text" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="爆擊" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.4,0},{1,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="EudemonBattleAbility/BG/Detail10/Num" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="ReadOnly" Value="True" />
+                    <Property Name="Text" Value="999" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.4,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="EudemonBattleAbility/BG/Detail11" >
+                <Property Name="UnifiedAreaRect" Value="{{0.446247,0},{0.17284,0},{0.851927,0},{0.246914,0}}" />
+                <Window Type="DejaVu/StaticText" Name="EudemonBattleAbility/BG/Detail11/Text" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="速度" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.4,0},{1,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="EudemonBattleAbility/BG/Detail11/Num" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="ReadOnly" Value="True" />
+                    <Property Name="Text" Value="999" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.4,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="EudemonBattleAbility/BG/Detail12" >
+                <Property Name="UnifiedAreaRect" Value="{{0.446247,0},{0.246914,0},{0.851927,0},{0.320988,0}}" />
+                <Window Type="DejaVu/StaticText" Name="EudemonBattleAbility/BG/Detail12/Text" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="血量" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.4,0},{1,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="EudemonBattleAbility/BG/Detail12/Num" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="ReadOnly" Value="True" />
+                    <Property Name="Text" Value="999" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.4,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="EudemonBattleAbility/BG/Detail13" >
+                <Property Name="UnifiedAreaRect" Value="{{0.446247,0},{0.320988,0},{0.851927,0},{0.395062,0}}" />
+                <Window Type="DejaVu/StaticText" Name="EudemonBattleAbility/BG/Detail13/Text" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="防禦" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.4,0},{1,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="EudemonBattleAbility/BG/Detail13/Num" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="ReadOnly" Value="True" />
+                    <Property Name="Text" Value="999" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.4,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="EudemonBattleAbility/BG/Detail14" >
+                <Property Name="UnifiedAreaRect" Value="{{0.446247,0},{0.395062,0},{0.851927,0},{0.469136,0}}" />
+                <Window Type="DejaVu/StaticText" Name="EudemonBattleAbility/BG/Detail14/Text" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="閃躲" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.4,0},{1,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="EudemonBattleAbility/BG/Detail14/Num" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="ReadOnly" Value="True" />
+                    <Property Name="Text" Value="999" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.4,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="EudemonBattleAbility/BG/Detail15" >
+                <Property Name="UnifiedAreaRect" Value="{{0.446247,0},{0.469136,0},{0.851927,0},{0.54321,0}}" />
+                <Window Type="DejaVu/StaticText" Name="EudemonBattleAbility/BG/Detail15/Text" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="爆擊傷害" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.4,0},{1,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="EudemonBattleAbility/BG/Detail15/Num" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="ReadOnly" Value="True" />
+                    <Property Name="Text" Value="999" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.4,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="EudemonBattleAbility/BG/Detail16" >
+                <Property Name="UnifiedAreaRect" Value="{{0.446247,0},{0.54321,0},{0.851927,0},{0.617284,0}}" />
+                <Window Type="DejaVu/StaticText" Name="EudemonBattleAbility/BG/Detail16/Text" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="命中" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.4,0},{1,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="EudemonBattleAbility/BG/Detail16/Num" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="ReadOnly" Value="True" />
+                    <Property Name="Text" Value="999" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.4,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="EudemonBattleAbility/BG/Leader" >
+                <Property Name="UnifiedAreaRect" Value="{{0.020284,0},{0.740741,0},{0.183118,0},{0.938272,0}}" />
+                <Window Type="DejaVu/StaticText" Name="EudemonBattleAbility/BG/Leader/Text" >
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="隊長BUFF" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.86,0},{0.325,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="EudemonBattleAbility/BG/Leader/Slot" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.4375,0},{0.525,0},{0.9625,0}}" />
+                    <Window Type="DejaVu/StaticImage" Name="EudemonBattleAbility/BG/Leader/Slot0" >
+                        <Property Name="Image" Value="set:DejaVu image:RedItem" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.047619,0},{0.047619,0},{0.952381,0},{0.952381,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="EudemonBattleAbility/BG/SlotBG2" >
+                <Property Name="UnifiedAreaRect" Value="{{0.20284,0},{0.740741,0},{0.320487,0},{0.938272,0}}" />
+                <Window Type="DejaVu/SlotImage" Name="EudemonBattleAbility/BG/SlotBG2/Slot" >
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.4375,0},{0.724138,0},{0.9625,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="EudemonBattleAbility/BG/SlotBG2/Text" >
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="技能1" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.86,0},{0.325,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="EudemonBattleAbility/BG/SlotBG3" >
+                <Property Name="UnifiedAreaRect" Value="{{0.324544,0},{0.740741,0},{0.442191,0},{0.938272,0}}" />
+                <Window Type="DejaVu/SlotImage" Name="EudemonBattleAbility/BG/SlotBG3/Slot" >
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.4375,0},{0.724138,0},{0.9625,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="EudemonBattleAbility/BG/SlotBG3/Text" >
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" >技能2
+</Property>
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.86,0},{0.325,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="EudemonBattleAbility/BG/SlotBG4" >
+                <Property Name="UnifiedAreaRect" Value="{{0.446247,0},{0.740741,0},{0.563895,0},{0.938272,0}}" />
+                <Window Type="DejaVu/SlotImage" Name="EudemonBattleAbility/BG/SlotBG4/Slot" >
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.4375,0},{0.724138,0},{0.9625,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="EudemonBattleAbility/BG/SlotBG4/Text" >
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" >技能3
+</Property>
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.86,0},{0.325,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="EudemonBattleAbility/BG/SlotBG5" >
+                <Property Name="UnifiedAreaRect" Value="{{0.608519,0},{0.740741,0},{0.726166,0},{0.938272,0}}" />
+                <Window Type="DejaVu/SlotImage" Name="EudemonBattleAbility/BG/SlotBG5/Slot" >
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.4375,0},{0.724138,0},{0.9625,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="EudemonBattleAbility/BG/SlotBG5/Text" >
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" >裝備1
+</Property>
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.86,0},{0.325,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="EudemonBattleAbility/BG/SlotBG6" >
+                <Property Name="UnifiedAreaRect" Value="{{0.730223,0},{0.740741,0},{0.84787,0},{0.938272,0}}" />
+                <Window Type="DejaVu/SlotImage" Name="EudemonBattleAbility/BG/SlotBG6/Slot" >
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.4375,0},{0.724138,0},{0.9625,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="EudemonBattleAbility/BG/SlotBG6/Text" >
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="裝備2" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.86,0},{0.325,0}}" />
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

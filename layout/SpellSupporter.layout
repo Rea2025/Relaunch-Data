@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/Static" Name="SpellSupporter" >
+        <Property Name="UnifiedAreaRect" Value="{{0.283305,0},{0.0396158,0},{0.283305,120},{0.0396158,61}}" />
+        <Window Type="DejaVu/Embed3" Name="SpellSupporter/BG" >
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.065574,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/SlotImage" Name="SpellSupporter/BG/SpellSlot" >
+                <Property Name="UnifiedAreaRect" Value="{{0.058333,0},{0.122807,0},{0.408333,0},{0.859649,0}}" />
+            </Window>
+            <Window Type="DejaVu/Checkbox" Name="SpellSupporter/BG/ActiveCheck" >
+                <Property Name="UnifiedAreaRect" Value="{{0.45,0},{0.175439,0},{0.575,0},{0.438597,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="SpellSupporter/BG/ActiveText" >
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="x開啟" />
+                <Property Name="UnifiedAreaRect" Value="{{0.6,0},{0.175439,0},{0.941667,0},{0.438597,0}}" />
+            </Window>
+            <Window Type="DejaVu/Combobox" Name="SpellSupporter/BG/ComboBox" >
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="MaxEditTextLength" Value="2147483647" />
+                <Property Name="ReadOnly" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.45,0},{0.508772,0},{0.95,0},{1.91228,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

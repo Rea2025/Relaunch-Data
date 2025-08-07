@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/HouseTreasureSharingRewardItem" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="MousePassThroughEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0.06,0},{0,0},{0.94,0},{1,0}}" />
+        <Window Type="DejaVu/Embed3" Name="Root/HouseTreasureSharingRewardItem/ItemCell" >
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.26,0},{1,0}}" />
+            <Window Type="DejaVu/SlotImage" Name="Root/HouseTreasureSharingRewardItem/ItemCell/TreasureImage" >
+                <Property Name="UnifiedAreaRect" Value="{{0.25,0},{0.08,0},{0.75,0},{0.92,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/EmbedTextLab3" Name="Root/HouseTreasureSharingRewardItem/NoteTextCell" >
+            <Property Name="ID" Value="1" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.26,0},{0,0},{0.999568,0},{1,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

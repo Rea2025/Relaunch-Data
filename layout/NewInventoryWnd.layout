@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="NewInventoryWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="TitlebarImage" Value="set:main image:BagNormal" />
+        <Property Name="UnifiedAreaRect" Value="{{0.291016,0},{0.326503,0},{0.291016,511},{0.326503,211}}" />
+        <Window Type="DejaVu/Embed" Name="NewInventoryWnd/Embed" >
+            <Property Name="ClippedByParent" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,495},{0,130}}" />
+            <Window Type="DejaVu/Embed" Name="NewInventoryWnd/Embed/TopPanel" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.020202,0},{0.016,0},{0.020202,475},{0.016,30}}" />
+                <Window Type="DejaVu/Button" Name="NewInventoryWnd/Embed/TopPanel/BagPageBtn1" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="x頁面1" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0526316,0},{0.133333,0},{0.212632,0},{1,0}}" />
+                </Window>
+                <Window Type="DejaVu/Button" Name="NewInventoryWnd/Embed/TopPanel/BagPageBtn2" >
+                    <Property Name="Text" Value="x頁面2" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.223158,0},{0.133333,0},{0.383158,0},{1,0}}" />
+                </Window>
+                <Window Type="DejaVu/Button" Name="NewInventoryWnd/Embed/TopPanel/BagPageBtn3" >
+                    <Property Name="Text" Value="x頁面3" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.393684,0},{0.133333,0},{0.553684,0},{1,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="NewInventoryWnd/Embed/TopPanel/BagText" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                    <Property Name="HorzFormatting" Value="RightAligned" />
+                    <Property Name="Text" Value="9999/9999" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.336842,0},{0.133333,0},{0.543158,0},{1,0}}" />
+                </Window>
+                <Window Type="DejaVu/Button" Name="NewInventoryWnd/Embed/TopPanel/BagPageBtn4" >
+                    <Property Name="Text" >x頁面4
+</Property>
+                    <Property Name="UnifiedAreaRect" Value="{{0.564211,0},{0.133333,0},{0.724211,0},{1,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="NewInventoryWnd/Embed/TopPanel/LastBtn" >
+                    <Property Name="DisabledImage" Value="set:DejaVu image:ArrowLeftPressed" />
+                    <Property Name="HoverImage" Value="set:DejaVu image:ArrowLeftHover" />
+                    <Property Name="NormalImage" Value="set:DejaVu image:ArrowLeftNormal" />
+                    <Property Name="PushedImage" Value="set:DejaVu image:ArrowLeftPressed" />
+                    <Property Name="UnifiedAreaRect" Value="{{-0.0105263,0},{0.166667,0},{0.04,0},{0.966667,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="NewInventoryWnd/Embed/TopPanel/ClassifyBtn" >
+                    <Property Name="HoverImage" Value="set:DejaVu image:ArrowRightHover" />
+                    <Property Name="NormalImage" Value="set:DejaVu image:ArrowRightNormal" />
+                    <Property Name="PushedImage" Value="set:DejaVu image:ArrowRightPressed" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.957895,0},{0.166667,0},{1.00842,0},{0.966667,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="NewInventoryWnd/Embed/TopPanel/NextBtn" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="DisabledImage" Value="set:DejaVu image:ArrowRightPressed" />
+                    <Property Name="HoverImage" Value="set:DejaVu image:ArrowRightHover" />
+                    <Property Name="NormalImage" Value="set:DejaVu image:ArrowRightNormal" />
+                    <Property Name="PushedImage" Value="set:DejaVu image:ArrowRightPressed" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.734737,0},{0.166667,0},{0.785263,0},{0.966667,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed2" Name="NewInventoryWnd/Embed/SlotContainer" >
+                <Property Name="UnifiedAreaRect" Value="{{0.020202,0},{0.28,0},{0.020202,475},{0.28,1}}" />
+            </Window>
+            <Window Type="DejaVu/Embed" Name="NewInventoryWnd/Embed/DownPanel" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.010101,0},{0.32,0},{0.010101,485},{0.32,81}}" />
+                <Window Type="DejaVu/Static" Name="NewInventoryWnd/Embed/DownPanel/FunctionStatic" >
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.010309,0},{0,0},{0.604123,0},{0.938272,0}}" />
+                    <Property Name="VertFormatting" Value="VertCentred" />
+                    <Window Type="DejaVu/ImageButton" Name="NewInventoryWnd/Embed/DownPanel/FunctionStatic/AutoStackBtn" >
+                        <Property Name="Font" Value="F001-scale" />
+                        <Property Name="HoverImage" Value="set:DejaVu image:StackHover" />
+                        <Property Name="NormalImage" Value="set:DejaVu image:StackNormal" />
+                        <Property Name="PushedImage" Value="set:DejaVu image:StackPressed" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.125,0},{0.473684,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/ImageButton" Name="NewInventoryWnd/Embed/DownPanel/FunctionStatic/DecomposeBtn" >
+                        <Property Name="Font" Value="F001-scale" />
+                        <Property Name="HoverImage" Value="set:DejaVu image:BrokenHover" />
+                        <Property Name="NormalImage" Value="set:DejaVu image:BrokenNormal" />
+                        <Property Name="PushedImage" Value="set:DejaVu image:BrokenPressed" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.142361,0},{0,0},{0.267361,0},{0.473684,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/ImageButton" Name="NewInventoryWnd/Embed/DownPanel/FunctionStatic/StrengthenBtn" >
+                        <Property Name="Font" Value="F001-scale" />
+                        <Property Name="HoverImage" Value="set:DejaVu image:StrengthHover" />
+                        <Property Name="NormalImage" Value="set:DejaVu image:StrengthNormal" />
+                        <Property Name="PushedImage" Value="set:DejaVu image:StrengthPressed" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.284722,0},{0,0},{0.409722,0},{0.473684,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/ImageButton" Name="NewInventoryWnd/Embed/DownPanel/FunctionStatic/CombineCollectionBtn" >
+                        <Property Name="Font" Value="F001-scale" />
+                        <Property Name="HoverImage" Value="set:DejaVu image:SynthesisHover" />
+                        <Property Name="NormalImage" Value="set:DejaVu image:SynthesisNormal" />
+                        <Property Name="PushedImage" Value="set:DejaVu image:SynthesisPressed" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.427083,0},{0,0},{0.552083,0},{0.473684,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/ImageButton" Name="NewInventoryWnd/Embed/DownPanel/FunctionStatic/StallBtn" >
+                        <Property Name="DisabledImage" Value="set:DejaVu image:SalePressed" />
+                        <Property Name="Font" Value="F001-scale" />
+                        <Property Name="HoverImage" Value="set:DejaVu image:SaleHover" />
+                        <Property Name="NormalImage" Value="set:DejaVu image:SaleNormal" />
+                        <Property Name="PushedImage" Value="set:DejaVu image:SalePressed" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.569444,0},{0,0},{0.694444,0},{0.473684,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/ImageButton" Name="NewInventoryWnd/Embed/DownPanel/FunctionStatic/WeaponCaseBtn" >
+                        <Property Name="DisabledImage" Value="set:DejaVu image:WeaponCaseBtnPressed" />
+                        <Property Name="Font" Value="F001-scale" />
+                        <Property Name="HoverImage" Value="set:DejaVu image:WeaponCaseBtnHover" />
+                        <Property Name="NormalImage" Value="set:DejaVu image:WeaponCaseBtnNormal" />
+                        <Property Name="PushedImage" Value="set:DejaVu image:WeaponCaseBtnPressed" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.711806,0},{0,0},{0.836806,0},{0.473684,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/ImageButton" Name="NewInventoryWnd/Embed/DownPanel/FunctionStatic/ExtraBagBtn" >
+                        <Property Name="Font" Value="F001-scale" />
+                        <Property Name="HoverImage" Value="set:main4 image:BagHover" />
+                        <Property Name="NormalImage" Value="set:main4 image:BagNormal" />
+                        <Property Name="PushedImage" Value="set:main4 image:BagPressed" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.125,0},{0.473684,0}}" />
+                        <Property Name="VerticalAlignment" Value="Bottom" />
+                    </Window>
+                    <Window Type="DejaVu/ImageButton" Name="NewInventoryWnd/Embed/DownPanel/FunctionStatic/CoinBtn" >
+                        <Property Name="Font" Value="F001-scale" />
+                        <Property Name="HoverImage" Value="set:main4 image:CoinHover" />
+                        <Property Name="NormalImage" Value="set:main4 image:CoinNormal" />
+                        <Property Name="PushedImage" Value="set:main4 image:CoinPressed" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.142361,0},{0,0},{0.267361,0},{0.473684,0}}" />
+                        <Property Name="VerticalAlignment" Value="Bottom" />
+                    </Window>
+                    <Window Type="DejaVu/ImageButton" Name="NewInventoryWnd/Embed/DownPanel/FunctionStatic/TempBagBtn" >
+                        <Property Name="Font" Value="F001-scale" />
+                        <Property Name="HoverImage" Value="set:main4 image:BagHover" />
+                        <Property Name="NormalImage" Value="set:main4 image:BagNormal" />
+                        <Property Name="PushedImage" Value="set:main4 image:BagPressed" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.284722,0},{0,0},{0.409722,0},{0.473684,0}}" />
+                        <Property Name="VerticalAlignment" Value="Bottom" />
+                    </Window>
+                    <Window Type="DejaVu/ImageButton" Name="NewInventoryWnd/Embed/DownPanel/FunctionStatic/MoneyTransfer" >
+                        <Property Name="Font" Value="F001-scale" />
+                        <Property Name="HoverImage" Value="set:main4 image:TransferCoinHover" />
+                        <Property Name="NormalImage" Value="set:main4 image:TransferCoinNormal" />
+                        <Property Name="PushedImage" Value="set:main4 image:TransferCoinPressed" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.427083,0},{0,0},{0.552083,0},{0.473684,0}}" />
+                        <Property Name="VerticalAlignment" Value="Bottom" />
+                    </Window>
+                    <Window Type="DejaVu/ImageButton" Name="NewInventoryWnd/Embed/DownPanel/FunctionStatic/NormalCultivation" >
+                        <Property Name="Font" Value="F001-scale" />
+                        <Property Name="HoverImage" Value="set:main41 image:NormalFeedHover" />
+                        <Property Name="NormalImage" Value="set:main41 image:NormalFeedNormal" />
+                        <Property Name="PushedImage" Value="set:main41 image:NormalFeedPressed" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.569444,0},{0,0},{0.694444,0},{0.473684,0}}" />
+                        <Property Name="VerticalAlignment" Value="Bottom" />
+                    </Window>
+                    <Window Type="DejaVu/ImageButton" Name="NewInventoryWnd/Embed/DownPanel/FunctionStatic/ItemLockedBtn" >
+                        <Property Name="Font" Value="F001-scale" />
+                        <Property Name="HoverImage" Value="set:main image:GoldLockBtnHover" />
+                        <Property Name="NormalImage" Value="set:main image:GoldLockBtnNormal" />
+                        <Property Name="PushedImage" Value="set:main image:GoldLockBtnPressed" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.868056,0},{0.723684,0},{0.930556,0},{0.960526,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/ImageButton" Name="NewInventoryWnd/Embed/DownPanel/FunctionStatic/ItemUnlockBtn" >
+                        <Property Name="Font" Value="F001-scale" />
+                        <Property Name="HoverImage" Value="set:main image:UnGoldLockHover" />
+                        <Property Name="NormalImage" Value="set:main image:UnGoldLockNormal" />
+                        <Property Name="PushedImage" Value="set:main image:UnGoldLockPressed" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.923611,0},{0.723684,0},{0.986111,0},{0.960526,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab7" Name="NewInventoryWnd/Embed/DownPanel/MoneyText" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="x持有金錢" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.515464,0},{0,0},{0.67564,0},{0.308642,0}}" />
+                </Window>
+                <Window Type="DejaVu/Embed2" Name="NewInventoryWnd/Embed/DownPanel/Money" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.689312,0},{0,0},{0.989691,0},{0.308642,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="NewInventoryWnd/Embed/DownPanel/Money/GoldText" >
+                        <Property Name="HorzFormatting" Value="RightAligned" />
+                        <Property Name="Text" Value="9999999" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0272139,0},{0,0},{0.484972,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="NewInventoryWnd/Embed/DownPanel/Money/SliverText" >
+                        <Property Name="HorzFormatting" Value="RightAligned" />
+                        <Property Name="Text" Value="999" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.62241,0},{0,0},{0.836696,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="NewInventoryWnd/Embed/DownPanel/Money/GoldIcon" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Image" Value="set:main image:Gold" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.515267,0},{0.2,0},{0.622411,0},{0.8,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="NewInventoryWnd/Embed/DownPanel/Money/SilverIcon" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Image" Value="set:main image:Silver" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.856107,0},{0.2,0},{0.963249,0},{0.8,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab7" Name="NewInventoryWnd/Embed/DownPanel/ScrapText" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="x啟源碎片" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.515464,0},{0.641975,0},{0.676289,0},{0.950617,0}}" />
+                </Window>
+                <Window Type="DejaVu/Embed2" Name="NewInventoryWnd/Embed/DownPanel/Scrap" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.68866,0},{0.641975,0},{0.989691,0},{0.950617,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="NewInventoryWnd/Embed/DownPanel/ScrapCoinText" >
+                        <Property Name="HorzFormatting" Value="RightAligned" />
+                        <Property Name="Text" Value="9999999" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.159779,0},{-0.014026,0},{0.83835,0},{0.985974,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="NewInventoryWnd/Embed/DownPanel/Scrap/ScrapIcon" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Image" Value="set:main image:Coin2" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.856033,0},{0.2,0},{0.963175,0},{0.8,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab7" Name="NewInventoryWnd/Embed/DownPanel/GiftText" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="x招待券" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.515464,0},{0.320988,0},{0.676289,0},{0.62963,0}}" />
+                </Window>
+                <Window Type="DejaVu/Embed2" Name="NewInventoryWnd/Embed/DownPanel/Gift" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.68866,0},{0.320988,0},{0.989691,0},{0.62963,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="NewInventoryWnd/Embed/DownPanel/Gift/GiftCoinText" >
+                        <Property Name="HorzFormatting" Value="RightAligned" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="Text" Value="9999999" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.157937,0},{0,0},{0.836508,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="NewInventoryWnd/Embed/DownPanel/Gift/GiftCoin" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Image" Value="set:main image:Coin3" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.856033,0},{0.2,0},{0.963175,0},{0.8,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

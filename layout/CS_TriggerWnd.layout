@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/CS_TriggerWnd" >
+        <Property Name="ClippedByParent" Value="False" />
+        <Property Name="Font" Value="F001-10" />
+        <Property Name="HorizontalAlignment" Value="Centre" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.00107181,0},{1,0},{1.00107,0}}" />
+        <Property Name="VerticalAlignment" Value="Centre" />
+        <Window Type="DejaVu/FrameWindow" Name="Root/CS_TriggerWnd/Background" >
+            <Property Name="ClippedByParent" Value="False" />
+            <Property Name="HelpButtonEnabled" Value="False" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Property Name="TitlebarEnabled" Value="True" />
+            <Property Name="TitlebarFont" Value="F001-10" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,640},{0,680}}" />
+            <Property Name="VerticalAlignment" Value="Centre" />
+            <Window Type="DejaVu/Embed5" Name="Root/CS_TriggerWnd/Background/Border_Duration" >
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,400},{0,100}}" />
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_TriggerWnd/Background/Border_Duration/Text_Begin" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="Begin" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.375,0},{0.4,0},{0.375,40},{0.4,20}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/CS_TriggerWnd/Background/Border_Duration/Edit_Begin" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0.4,0},{0.5,80},{0.4,20}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_TriggerWnd/Background/Border_Duration/Text_Length" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="Length" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.025,0},{0.7,0},{0.025,50},{0.7,20}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/CS_TriggerWnd/Background/Border_Duration/Edit_Length" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.175,0},{0.7,0},{0.175,80},{0.7,20}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_TriggerWnd/Background/Border_Duration/Text_Pause" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="Pause" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.725,0},{0.4,0},{0.725,50},{0.4,20}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/CS_TriggerWnd/Background/Border_Duration/Check_Pause" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.875,0},{0.4,0},{0.875,20},{0.4,20}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_TriggerWnd/Background/Border_Duration/Text_Frequency" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="Frequency" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.4,0},{0.7,0},{0.4,80},{0.7,20}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/CS_TriggerWnd/Background/Border_Duration/Edit_Frequency" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.625,0},{0.7,0},{0.625,80},{0.7,20}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_TriggerWnd/Background/Border_Duration/Text_Name" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="Name" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.025,0},{0.4,0},{0.025,40},{0.4,20}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/CS_TriggerWnd/Background/Border_Duration/Edit_Name" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.15,0},{0.4,0},{0.15,80},{0.4,20}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_TriggerWnd/Background/Border_Duration/Text_Duration" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="Duration" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.025,0},{0.1,0},{0.025,100},{0.1,20}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed5" Name="Root/CS_TriggerWnd/Background/Border_Input" >
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.166667,0},{0,400},{0.166667,100}}" />
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_TriggerWnd/Background/Border_Input/Text_Type" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="Type" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.025,0},{0.4,0},{0.025,50},{0.4,20}}" />
+                </Window>
+                <Window Type="DejaVu/Combobox" Name="Root/CS_TriggerWnd/Background/Border_Input/Combo_Type" >
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="MaxEditTextLength" Value="2147483647" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.175,0},{0.4,0},{0.175,160},{0.4,100}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_TriggerWnd/Background/Border_Input/Text_Input" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="Input" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.025,0},{0.7,0},{0.025,50},{0.7,20}}" />
+                </Window>
+                <Window Type="DejaVu/Combobox" Name="Root/CS_TriggerWnd/Background/Border_Input/Combo_Input" >
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="MaxEditTextLength" Value="2147483647" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.174219,0},{0.7,0},{0.174219,160},{0.7,230}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_TriggerWnd/Background/Border_Input/Text_Number" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="Count" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.625,0},{0.4,0},{0.625,60},{0.4,20}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/CS_TriggerWnd/Background/Border_Input/Edit_Number" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.8,0},{0.4,0},{0.8,70},{0.4,20}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_TriggerWnd/Background/Border_Input/Text_Type1" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="Input" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.025,0},{0.1,0},{0.025,100},{0.1,20}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed5" Name="Root/CS_TriggerWnd/Background/Border_Success" >
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.333333,0},{0,300},{0.333333,300}}" />
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_TriggerWnd/Background/Border_Success/Text_Success" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="Success" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.333333,0},{0.0333333,0},{0.333333,100},{0.0333333,20}}" />
+                </Window>
+                <Window Type="DejaVu/Combobox" Name="Root/CS_TriggerWnd/Background/Border_Success/Combo_Object" >
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="MaxEditTextLength" Value="2147483647" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.233333,0},{0.5,0},{0.233333,100},{0.5,160}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_TriggerWnd/Background/Border_Success/Text_Object" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="Object" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0333333,0},{0.5,0},{0.0333333,50},{0.5,20}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_TriggerWnd/Background/Border_Success/Text_Type" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="Type" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0333333,0},{0.6,0},{0.0333333,50},{0.6,20}}" />
+                </Window>
+                <Window Type="DejaVu/Combobox" Name="Root/CS_TriggerWnd/Background/Border_Success/Combo_Type" >
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="MaxEditTextLength" Value="2147483647" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.233333,0},{0.6,0},{0.233333,100},{0.6,130}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_TriggerWnd/Background/Border_Success/Text_Index" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="Index" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0333333,0},{0.7,0},{0.0333333,50},{0.7,20}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_TriggerWnd/Background/Border_Success/Text_Name" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="Name" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0333333,0},{0.8,0},{0.0333333,50},{0.8,20}}" />
+                </Window>
+                <Window Type="DejaVu/Combobox" Name="Root/CS_TriggerWnd/Background/Border_Success/Combo_Name" >
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="MaxEditTextLength" Value="2147483647" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.233333,0},{0.8,0},{0.233333,100},{0.8,160}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_TriggerWnd/Background/Border_Success/Text_Value" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="Value" />
+                    
+                    <Property Name="UnifiedAreaRect" Value="{{0.0333333,0},{0.9,0},{0.0333333,50},{0.9,20}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/CS_TriggerWnd/Background/Border_Success/Edit_Value" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.233333,0},{0.9,0},{0.233333,100},{0.9,20}}" />
+                </Window>
+                <Window Type="DejaVu/Tree" Name="Root/CS_TriggerWnd/Background/Border_Success/Tree" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.633333,0},{0.5,0},{0.633333,100},{0.5,110}}" />
+                </Window>
+                <Window Type="DejaVu/Button" Name="Root/CS_TriggerWnd/Background/Border_Success/Button_Add" >
+                    <Property Name="Text" Value="Add" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.633333,0},{0.866667,0},{0.633333,50},{0.866667,30}}" />
+                </Window>
+                <Window Type="DejaVu/Button" Name="Root/CS_TriggerWnd/Background/Border_Success/Button_Delete" >
+                    <Property Name="Text" Value="Delete" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.8,0},{0.866667,0},{0.8,50},{0.866667,30}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_TriggerWnd/Background/Border_Success/Text_Function" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="Function" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.033333,0},{0.133333,0},{0.033333,80},{0.133333,20}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_TriggerWnd/Background/Border_Success/Text_Property" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="Property" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.333333,0},{0.4,0},{0.333333,80},{0.4,20}}" />
+                </Window>
+                <Window Type="DejaVu/Combobox" Name="Root/CS_TriggerWnd/Background/Border_Success/Combo_Function" >
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="MaxEditTextLength" Value="2147483647" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.333333,0},{0.133333,0},{0.333333,190},{0.133333,100}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_TriggerWnd/Background/Border_Success/Text_Time" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="Time" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0333333,0},{0.233333,0},{0.0333333,80},{0.233333,20}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/CS_TriggerWnd/Background/Border_Success/Edit_Time" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.333333,0},{0.233333,0},{0.333333,100},{0.233333,20}}" />
+                </Window>
+                <Window Type="DejaVu/Combobox" Name="Root/CS_TriggerWnd/Background/Border_Success/Combo_Index" >
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="MaxEditTextLength" Value="2147483647" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.233333,0},{0.7,0},{0.233333,100},{0.7,160}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed5" Name="Root/CS_TriggerWnd/Background/Border_Trigger" >
+                
+                <Property Name="UnifiedAreaRect" Value="{{0.641026,0},{0,0},{0.974359,0},{0.263333,0}}" />
+                <Window Type="DejaVu/Tree" Name="Root/CS_TriggerWnd/Background/Border_Trigger/Tree" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.025,0},{0.025,0},{0.975,0},{0.975,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/CS_TriggerWnd/Background/Button_Add" >
+                <Property Name="Text" Value="Add" />
+                <Property Name="UnifiedAreaRect" Value="{{0.641026,0},{0.266667,0},{0.807692,0},{0.331667,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/CS_TriggerWnd/Background/Button_Delete" >
+                <Property Name="Text" Value="Delete" />
+                <Property Name="UnifiedAreaRect" Value="{{0.809295,0},{0.266667,0},{0.975962,0},{0.331667,0}}" />
+            </Window>
+            <Window Type="DejaVu/Embed5" Name="Root/CS_TriggerWnd/Background/Border_Failure" >
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.496795,0},{0.333333,0},{0.496795,300},{0.333333,300}}" />
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_TriggerWnd/Background/Border_Failure/Text_Failure" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="Failure" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.333333,0},{0.0333333,0},{0.333333,100},{0.0333333,20}}" />
+                </Window>
+                <Window Type="DejaVu/Combobox" Name="Root/CS_TriggerWnd/Background/Border_Failure/Combo_Object" >
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="MaxEditTextLength" Value="2147483647" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.233333,0},{0.5,0},{0.233333,100},{0.5,160}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_TriggerWnd/Background/Border_Failure/Text_Object" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="Object" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0333333,0},{0.5,0},{0.0333333,50},{0.5,20}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_TriggerWnd/Background/Border_Failure/Text_Type" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="Type" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0333333,0},{0.6,0},{0.0333333,50},{0.6,20}}" />
+                </Window>
+                <Window Type="DejaVu/Combobox" Name="Root/CS_TriggerWnd/Background/Border_Failure/Combo_Type" >
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="MaxEditTextLength" Value="2147483647" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.233333,0},{0.6,0},{0.233333,100},{0.6,130}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_TriggerWnd/Background/Border_Failure/Text_Index" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="Index" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0333333,0},{0.7,0},{0.0333333,50},{0.7,20}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_TriggerWnd/Background/Border_Failure/Text_Name" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="Name" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0333333,0},{0.8,0},{0.0333333,50},{0.8,20}}" />
+                </Window>
+                <Window Type="DejaVu/Combobox" Name="Root/CS_TriggerWnd/Background/Border_Failure/Combo_Name" >
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="MaxEditTextLength" Value="2147483647" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.233333,0},{0.8,0},{0.233333,100},{0.8,160}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_TriggerWnd/Background/Border_Failure/Text_Value" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="Value" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0333333,0},{0.9,0},{0.0333333,50},{0.9,20}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/CS_TriggerWnd/Background/Border_Failure/Edit_Value" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.233333,0},{0.9,0},{0.233333,100},{0.9,20}}" />
+                </Window>
+                <Window Type="DejaVu/Tree" Name="Root/CS_TriggerWnd/Background/Border_Failure/Tree" >
+                    
+                    <Property Name="UnifiedAreaRect" Value="{{0.633333,0},{0.5,0},{0.633333,100},{0.5,110}}" />
+                </Window>
+                <Window Type="DejaVu/Button" Name="Root/CS_TriggerWnd/Background/Border_Failure/Button_Add" >
+                    <Property Name="Text" Value="Add" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.633333,0},{0.866667,0},{0.633333,50},{0.866667,30}}" />
+                </Window>
+                <Window Type="DejaVu/Button" Name="Root/CS_TriggerWnd/Background/Border_Failure/Button_Delete" >
+                    <Property Name="Text" Value="Delete" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.8,0},{0.866667,0},{0.8,50},{0.866667,30}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_TriggerWnd/Background/Border_Failure/Text_Function" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="Function" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.033333,0},{0.133333,0},{0.033333,80},{0.133333,20}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_TriggerWnd/Background/Border_Failure/Text_Property" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="Property" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.333333,0},{0.4,0},{0.333333,80},{0.4,20}}" />
+                </Window>
+                <Window Type="DejaVu/Combobox" Name="Root/CS_TriggerWnd/Background/Border_Failure/Combo_Function" >
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="MaxEditTextLength" Value="2147483647" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.333333,0},{0.133333,0},{0.333333,190},{0.133333,100}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_TriggerWnd/Background/Border_Failure/Text_Time" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="Time" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0333333,0},{0.233333,0},{0.0333333,80},{0.233333,20}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/CS_TriggerWnd/Background/Border_Failure/Edit_Time" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.333333,0},{0.233333,0},{0.333333,100},{0.233333,20}}" />
+                </Window>
+                <Window Type="DejaVu/Combobox" Name="Root/CS_TriggerWnd/Background/Border_Failure/Combo_Index" >
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="MaxEditTextLength" Value="2147483647" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.233333,0},{0.7,0},{0.233333,100},{0.7,160}}" />
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

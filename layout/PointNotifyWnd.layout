@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/PointNotifyWnd" >
+        <Property Name="AlwaysOnTop" Value="True" />
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HorizontalAlignment" Value="Centre" />
+        <Property Name="MousePassThroughEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0.390625,0},{0.351563,0},{0.390625,60},{0.351563,60}}" />
+        <Property Name="VerticalAlignment" Value="Centre" />
+        <Window Type="DejaVu/Static" Name="Root/PointNotifyWnd/bg" >
+            <Property Name="BackgroundEnabled" Value="True" />
+            <Property Name="ClippedByParent" Value="False" />
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="FrameEnabled" Value="True" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Property Name="VerticalAlignment" Value="Centre" />
+        </Window>
+        <Window Type="DejaVu/Static" Name="Root/PointNotifyWnd/Back" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="ClippedByParent" Value="False" />
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,40},{0,40}}" />
+            <Property Name="VertFormatting" Value="TopAligned" />
+            <Property Name="VerticalAlignment" Value="Centre" />
+            <Window Type="DejaVu/ImageButton" Name="Root/PointNotifyWnd/Back/CharBtn" >
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="HoverImage" Value="set:main image:ChaUpBtnNormal" />
+                <Property Name="NormalImage" Value="set:main image:ChaUpBtnNormal" />
+                <Property Name="PushedImage" Value="set:main image:ChaUpBtnPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="Root/PointNotifyWnd/Back/CharBtn/Mask" >
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="Image" Value="set:main image:ChaUpBtnHover" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+                <Window Type="DejaVu/Button" Name="Root/PointNotifyWnd/Back/CharBtn/Touch" >
+                    <Property Name="Alpha" Value="0" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/PointNotifyWnd/Back/AdvEnchantBtn" >
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="HoverImage" Value="set:main image:TravelPointBtnNormal" />
+                <Property Name="NormalImage" Value="set:main image:TravelPointBtnNormal" />
+                <Property Name="PushedImage" Value="set:main image:TravelPointBtnPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="Root/PointNotifyWnd/Back/AdvEnchantBtn/Mask" >
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="Image" Value="set:main image:TravelPointBtnHover" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+                <Window Type="DejaVu/Button" Name="Root/PointNotifyWnd/Back/AdvEnchantBtn/Touch" >
+                    <Property Name="Alpha" Value="0" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/PointNotifyWnd/Back/UpanisadBtn" >
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="HoverImage" Value="set:main image:SpecialSkillNormal" />
+                <Property Name="NormalImage" Value="set:main image:SpecialSkillNormal" />
+                <Property Name="PushedImage" Value="set:main image:SpecialSkillPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="Root/PointNotifyWnd/Back/UpanisadBtn/Mask" >
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="Image" Value="set:main image:SpecialSkillHover" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+                <Window Type="DejaVu/Button" Name="Root/PointNotifyWnd/Back/UpanisadBtn/Touch" >
+                    <Property Name="Alpha" Value="0" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/PointNotifyWnd/Back/WeaponExpertBtn" >
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="HoverImage" Value="set:main image:SkillUpBtnHover" />
+                <Property Name="NormalImage" Value="set:main image:SkillUpBtnNormal" />
+                <Property Name="PushedImage" Value="set:main image:SkillUpBtnPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="Root/PointNotifyWnd/Back/WeaponExpertBtn/Mask" >
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="Image" Value="set:main image:SkillUpBtnHover" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+                <Window Type="DejaVu/Button" Name="Root/PointNotifyWnd/Back/WeaponExpertBtn/Touch" >
+                    <Property Name="Alpha" Value="0" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/PointNotifyWnd/Back/QuestBtn" >
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="Root/PointNotifyWnd/Back/QuestBtn/Mask" >
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+                <Window Type="DejaVu/Button" Name="Root/PointNotifyWnd/Back/QuestBtn/Touch" >
+                    <Property Name="Alpha" Value="0" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/PointNotifyWnd/Back/FamilyGameQuestBtn" >
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="HoverImage" Value="set:main2 image:QuestH" />
+                <Property Name="NormalImage" Value="set:main2 image:QuestN" />
+                <Property Name="PushedImage" Value="set:main2 image:QuestD" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="Root/PointNotifyWnd/Back/FamilyGameQuestBtn/Mask" >
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="Image" Value="set:main2 image:QuestH" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+                <Window Type="DejaVu/Button" Name="Root/PointNotifyWnd/Back/FamilyGameQuestBtn/Touch" >
+                    <Property Name="Alpha" Value="0" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/PointNotifyWnd/Back/FamilyGameDiceBtn" >
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="HoverImage" Value="set:main2 image:DiceH" />
+                <Property Name="NormalImage" Value="set:main2 image:DiceN" />
+                <Property Name="PushedImage" Value="set:main2 image:DiceD" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="Root/PointNotifyWnd/Back/FamilyGameDiceBtn/Mask" >
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="Image" Value="set:main2 image:DiceH" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+                <Window Type="DejaVu/Button" Name="Root/PointNotifyWnd/Back/FamilyGameDiceBtn/Touch" >
+                    <Property Name="Alpha" Value="0" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/PointNotifyWnd/Back/FamilyGameCodeBtn" >
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="HoverImage" Value="set:main2 image:CodeH" />
+                <Property Name="NormalImage" Value="set:main2 image:CodeN" />
+                <Property Name="PushedImage" Value="set:main2 image:CodeD" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="Root/PointNotifyWnd/Back/FamilyGameCodeBtn/Mask" >
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="Image" Value="set:main2 image:CodeH" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+                <Window Type="DejaVu/Button" Name="Root/PointNotifyWnd/Back/FamilyGameCodeBtn/Touch" >
+                    <Property Name="Alpha" Value="0" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/PointNotifyWnd/Back/CrystalReplaceBtn" >
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="HoverImage" Value="set:main13 image:HolyCrystalReplace3" />
+                <Property Name="NormalImage" Value="set:main13 image:HolyCrystalReplace2" />
+                <Property Name="PushedImage" Value="set:main13 image:HolyCrystalReplace1" />
+                <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.05,0},{1.05,0},{1.05,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="Root/PointNotifyWnd/Back/CrystalReplaceBtn/Mask" >
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="Image" Value="set:main13 image:HolyCrystalReplace3" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+                <Window Type="DejaVu/Button" Name="Root/PointNotifyWnd/Back/CrystalReplaceBtn/Touch" >
+                    <Property Name="Alpha" Value="0" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/PointNotifyWnd/Back/SecretStoneReplaceBtn" >
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="HoverImage" Value="set:main13 image:HolyCrystalReplace3" />
+                <Property Name="NormalImage" Value="set:main13 image:HolyCrystalReplace2" />
+                <Property Name="PushedImage" Value="set:main13 image:HolyCrystalReplace1" />
+                <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.05,0},{1.05,0},{1.05,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="Root/PointNotifyWnd/Back/SecretStoneReplaceBtn/Mask" >
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="Image" Value="set:main13 image:HolyCrystalReplace3" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+                <Window Type="DejaVu/Button" Name="Root/PointNotifyWnd/Back/SecretStoneReplaceBtn/Touch" >
+                    <Property Name="Alpha" Value="0" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/PointNotifyWnd/Back/HolySpiritReplaceBtn" >
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="HoverImage" Value="set:main13 image:HolyCrystalReplace3" />
+                <Property Name="NormalImage" Value="set:main13 image:HolyCrystalReplace2" />
+                <Property Name="PushedImage" Value="set:main13 image:HolyCrystalReplace1" />
+                <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.05,0},{1.05,0},{1.05,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="Root/PointNotifyWnd/Back/HolySpiritReplaceBtn/Mask" >
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="Image" Value="set:main13 image:HolyCrystalReplace3" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+                <Window Type="DejaVu/Button" Name="Root/PointNotifyWnd/Back/HolySpiritReplaceBtn/Touch" >
+                    <Property Name="Alpha" Value="0" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/PointNotifyWnd/Back/FamilyGameMinorityRuleBtn" >
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="HoverImage" Value="set:main2 image:QuestH" />
+                <Property Name="NormalImage" Value="set:main2 image:QuestN" />
+                <Property Name="PushedImage" Value="set:main2 image:QuestD" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="Root/PointNotifyWnd/Back/FamilyGameMinorityRuleBtn/Mask" >
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="Image" Value="set:main2 image:QuestH" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+                <Window Type="DejaVu/Button" Name="Root/PointNotifyWnd/Back/FamilyGameMinorityRuleBtn/Touch" >
+                    <Property Name="Alpha" Value="0" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

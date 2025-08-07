@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/Embed3" Name="HolySwordBG" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HorizontalAlignment" Value="Centre" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{-0.195059,0},{0,240},{-0.195059,30}}" />
+        <Property Name="VerticalAlignment" Value="Bottom" />
+        <Window Type="DejaVu/StaticImage" Name="HolySwordBG/Icon" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="Image" Value="set:main15 image:WeaponTypeHolySword" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.041667,0},{0.166667,0},{0.125,0},{0.833334,0}}" />
+            <Property Name="ZOrderChangeEnabled" Value="False" />
+        </Window>
+        <Window Type="DejaVu/ProgressBarBG" Name="HolySwordBG/Bar" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.145833,0},{0.266667,0},{0.979166,0},{0.766667,0}}" />
+            <Property Name="ZOrderChangeEnabled" Value="False" />
+            <Window Type="DejaVu/ProgressBar2" Name="HolySwordBG/Bar/Progress" >
+                <Property Name="CurrentProgress" Value="1" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="StepSize" Value="0.01" />
+                <Property Name="UnifiedAreaRect" Value="{{0.025,0},{0.266667,0},{0.975,0},{0.733334,0}}" />
+                <Property Name="ZOrderChangeEnabled" Value="False" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="HolySwordBG/Bar/Progress/Light" >
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Property Name="ZOrderChangeEnabled" Value="False" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="HolySwordBG/Bar/Progress/Charge" >
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.0679012,0},{-0.49,0},{1.0679012,0},{1.51,0}}" />
+                <Property Name="ZOrderChangeEnabled" Value="False" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="HolySwordBG/BarBGBurst" >
+            <Property Name="ClippedByParent" Value="False" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="Image" Value="set:main15 image:Charge19" />
+            <Property Name="UnifiedAreaRect" Value="{{0.145833,0},{0.266667,0},{0.979166,0},{0.766667,0}}" />
+            <Property Name="Visible" Value="False" />
+            <Property Name="ZOrderChangeEnabled" Value="False" />
+        </Window>
+    </Window>
+</GUILayout>

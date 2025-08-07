@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="SkyFortuneBagDefault" >
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.807818,0},{0.696615,0}}" />
+        <Window Type="DejaVu/Embed3" Name="SkyFortuneBagDefault/Frame" >
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Property Name="InheritsAlpha" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1.0,0},{1.0,0}}" />
+            <Property Name="VertFormatting" Value="VertCentred" />
+            <Window Type="DejaVu/Embed2" Name="SkyFortuneBagDefault/Frame/MainComp" >
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0161453,0},{0.0149533,0},{0.982846,0},{0.97757,0}}" />
+                <Window Type="DejaVu/Embed2" Name="SkyFortuneBagDefault/Frame/MainComp/Performance" >
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.023301,0},{0.974948,0},{0.906796,0}}" />
+                    <Window Type="DejaVu/StaticImage" Name="SkyFortuneBagDefault/Frame/MainComp/Performance/Background" >
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticText" Name="SkyFortuneBagDefault/Frame/MainComp/Performance/Text" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="Font" Value="F001-15" />
+                        <Property Name="HorzFormatting" Value="WordWrapCentred" />
+                        <Property Name="Text" Value="x天井福袋未開啟" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.332292,0},{0.475935,0},{0.653491,0},{0.528683,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Button" Name="SkyFortuneBagDefault/Frame/MainComp/TempBagBtn" >
+                    <Property Name="Text" Value="x物品暫存" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.908142,0},{0.926214,0},{0.987474,0},{0.976699,0}}" />
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/NewbieLoginDayWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="TitlebarImage" Value="set:main16 image:GiftBtnNormal" />
+        <Property Name="UnifiedAreaRect" Value="{{0.146875,0},{0.070675,0},{0.146875,704},{0.0666044,740}}" />
+        <Window Type="DejaVu/TabControl" Name="Root/NewbieLoginDayWnd/TabControl" >
+            <Property Name="TabHeight" Value="{0,18.8959}" />
+            <Property Name="TabPanePosition" Value="Top" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0146199,0},{0,0},{0.453216,0},{0.0432277,0}}" />
+        </Window>
+        <Window Type="DejaVu/Embed" Name="Root/NewbieLoginDayWnd/BG" >
+            <Property Name="UnifiedAreaRect" Value="{{0.01462,0},{0.043228,0},{0.979532,0},{0.994237,0}}" />
+            <Window Type="DejaVu/Embed2" Name="Root/NewbieLoginDayWnd/BG/DayBG" >
+                <Property Name="UnifiedAreaRect" Value="{{0.015152,0},{0.015152,0},{0.287879,0},{0.984849,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="Root/NewbieLoginDayWnd/BG/DayBG/TitleIcon" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.0555556,0},{0.015625,0},{0.166667,0},{0.046875,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/NewbieLoginDayWnd/BG/DayBG/TitleText" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="aaa" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.194444,0},{0.015625,0},{0.972222,0},{0.046875,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/NewbieLoginDayWnd/BG/DayBG/Line" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.027778,0},{0.054688,0},{0.972222,0},{0.0593755,0}}" />
+                </Window>
+                <Window Type="DejaVu/Embed2" Name="Root/NewbieLoginDayWnd/BG/DayBG/DayList" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.055556,0},{0.078125,0},{0.944445,0},{0.984375,0}}" />
+                    <Window Type="DejaVu/Static" Name="Root/NewbieLoginDayWnd/BG/DayBG/DayList/Static" >
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                        <Window Type="DejaVu/MultiColumnListNoHeader" Name="Root/NewbieLoginDayWnd/BG/DayBG/DayList/Static/MCL" >
+                            <Property Name="ColumnsMovable" Value="False" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0625,0},{0.017241,0},{0.9375,0},{0.982758,0}}" />
+                        </Window>
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed2" Name="Root/NewbieLoginDayWnd/BG/ItemBG" >
+                <Property Name="UnifiedAreaRect" Value="{{0.301205,0},{0,0},{0.983434,0},{0.983713,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="Root/NewbieLoginDayWnd/BG/ItemBG/TitleIcon" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.0222222,0},{0.015625,0},{0.0666667,0},{0.046875,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/NewbieLoginDayWnd/BG/ItemBG/TitleText" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="bbb" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.088889,0},{0.015625,0},{0.355556,0},{0.046875,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/NewbieLoginDayWnd/BG/ItemBG/Line" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.011111,0},{0.054688,0},{0.988889,0},{0.0593755,0}}" />
+                </Window>
+                <Window Type="DejaVu/Embed2" Name="Root/NewbieLoginDayWnd/BG/ItemBG/ItemListBG" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.022222,0},{0.078125,0},{0.977778,0},{0.984375,0}}" />
+                    <Window Type="DejaVu/ScrollablePane" Name="Root/NewbieLoginDayWnd/BG/ItemBG/ItemListBG/List" >
+                        <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                        <Property Name="HorzOverlapSize" Value="0.01" />
+                        <Property Name="HorzScrollPosition" Value="0" />
+                        <Property Name="HorzStepSize" Value="0.1" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0232558,0},{0.0172414,0},{0.993023,0},{1,0}}" />
+                        <Property Name="VertOverlapSize" Value="0.01" />
+                        <Property Name="VertScrollPosition" Value="0" />
+                        <Property Name="VertStepSize" Value="0.1" />
+                        <AutoWindow NameSuffix="__auto_container__" >
+                            <Property Name="ChildExtentsArea" Value="l:0 t:0 r:0 b:0" />
+                            <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                            <Property Name="MouseInputPropagationEnabled" Value="True" />
+                        </AutoWindow>
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab7" Name="Root/NewbieLoginDayWnd/BG/ItemBG/ItemListBG/Title" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="aaa" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.023256,0},{0.017241,0},{0.953489,0},{0.0737382,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/ChannelLabel" Name="Root/NewbieLoginDayWnd/SubTitle" >
+            <Property Name="UnifiedAreaRect" Value="{{0.730994,0},{0,0},{0.877193,0},{0.0360231,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

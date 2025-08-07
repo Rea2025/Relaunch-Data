@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/StaticImage" Name="KnightContractWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="Image" Value="set:main4 image:KightContractBG" />
+        <Property Name="UnifiedAreaRect" Value="{{0.227539,0},{0.027343,0},{0.227539,560},{0.027343,720}}" />
+        <Window Type="DejaVu/Embed" Name="KnightContractWnd/BG" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0277778,0},{0.9375,0},{0.888889,0}}" />
+            <Property Name="VerticalAlignment" Value="Centre" />
+            <Window Type="DejaVu/Static" Name="KnightContractWnd/LoverInfo" >
+                <Property Name="UnifiedAreaRect" Value="{{0.019048,0},{0.016807,0},{0.495238,0},{0.274872,0}}" />
+                <Window Type="DejaVu/Embed2" Name="KnightContractWnd/LoverInfo/BG" >
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0625,0},{1,0},{1,0}}" />
+                    <Window Type="DejaVu/EmbedTextLab2" Name="KnightContractWnd/LoverInfo/NameText" >
+                        <Property Name="Text" Value="x一二三四五六七八" />
+                        <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.4,0},{0.166667,0},{0.96,0},{0.333334,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab2" Name="KnightContractWnd/LoverInfo/LevelText" >
+                        <Property Name="Text" Value="x40" />
+                        <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.4,0},{0.366667,0},{0.96,0},{0.533334,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab7" Name="KnightContractWnd/LoverInfo/Name" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="x名稱" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.04,0},{0.166667,0},{0.36,0},{0.333334,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab7" Name="KnightContractWnd/LoverInfo/Level" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="x等級" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.04,0},{0.366667,0},{0.36,0},{0.533334,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab7" Name="KnightContractWnd/LoverInfo/Gender" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="x性別" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.04,0},{0.566667,0},{0.36,0},{0.733334,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab7" Name="KnightContractWnd/LoverInfo/Class" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="x職業" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.04,0},{0.766667,0},{0.36,0},{0.933334,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab2" Name="KnightContractWnd/LoverInfo/GenderText" >
+                        <Property Name="Text" Value="x女" />
+                        <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.4,0},{0.566667,0},{0.96,0},{0.733334,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Embed2" Name="KnightContractWnd/LoverInfo/Class/BG" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.4,0},{0.766667,0},{0.96,0},{0.933334,0}}" />
+                        <Window Type="DejaVu/StaticImage" Name="KnightContractWnd/LoverInfo/Class/First" >
+                            <Property Name="Image" Value="set:main image:WeaponTypeSwordShield" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.285714,0},{0.08,0},{0.428571,0},{0.88,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticImage" Name="KnightContractWnd/LoverInfo/Class/Second" >
+                            <Property Name="Image" Value="set:main image:WeaponTypeTwoKnife" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.571429,0},{0.08,0},{0.714286,0},{0.88,0}}" />
+                        </Window>
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed4" Name="KnightContractWnd/LoverInfo/Title" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.04,0},{0,0},{0.64,0},{0.15625,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="KnightContractWnd/LoverInfo/Title/Text" >
+                        <Property Name="Text" Value="x領主資訊" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.2,0},{0.8,0},{0.8,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="KnightContractWnd/LoverInfo/Title/Icon" >
+                        <Property Name="Image" Value="set:DejaVu image:Image13" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="KnightContractWnd/ContractInfo" >
+                <Property Name="UnifiedAreaRect" Value="{{0.504762,0},{0.016807,0},{0.980952,0},{0.274872,0}}" />
+                <Window Type="DejaVu/Embed2" Name="KnightContractWnd/ContractInfo/BG" >
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0625,0},{1,0},{1,0}}" />
+                    <Window Type="DejaVu/EmbedTextLab2" Name="KnightContractWnd/ContractInfo/StartTimeText" >
+                        <Property Name="Text" Value="x2013/01/01" />
+                        <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.4,0},{0.166667,0},{0.96,0},{0.333334,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab2" Name="KnightContractWnd/ContractInfo/DaysText" >
+                        <Property Name="Text" Value="x99" />
+                        <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.4,0},{0.366667,0},{0.96,0},{0.533334,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab7" Name="KnightContractWnd/ContractInfo/StartTime" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="x契約簽訂" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.04,0},{0.166667,0},{0.36,0},{0.333334,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab7" Name="KnightContractWnd/ContractInfo/Days" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="x守護天數" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.04,0},{0.366667,0},{0.36,0},{0.533334,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab7" Name="KnightContractWnd/ContractInfo/PointCountDown" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="x徽章計時" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.04,0},{0.566667,0},{0.36,0},{0.733334,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab7" Name="KnightContractWnd/ContractInfo/Point" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="x守護徽章" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.04,0},{0.766667,0},{0.36,0},{0.933334,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab2" Name="KnightContractWnd/ContractInfo/PointCountDownText" >
+                        <Property Name="Text" Value="x56：30" />
+                        <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.4,0},{0.566667,0},{0.96,0},{0.733334,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Embed2" Name="KnightContractWnd/ContractInfo/Exp/BG" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.4,0},{0.766667,0},{0.96,0},{0.933334,0}}" />
+                        <Window Type="DejaVu/StaticTextLab" Name="KnightContractWnd/ContractInfo/Point/Text" >
+                            <Property Name="HorzFormatting" Value="RightAligned" />
+                            <Property Name="Text" Value="x999999" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.071429,0},{0,0},{0.75,0},{1,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticImage" Name="KnightContractWnd/ContractInfo/Coins/Icon" >
+                            <Property Name="Image" Value="set:main image:Coin6" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.785714,0},{0.08,0},{0.928571,0},{0.88,0}}" />
+                        </Window>
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed4" Name="KnightContractWnd/ContractInfo/Title" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.04,0},{0,0},{0.64,0},{0.15625,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="KnightContractWnd/ContractInfo/TitleText" >
+                        <Property Name="Text" Value="x守護契約" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.2,0},{0.8,0},{0.8,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="KnightContractWnd/ContractInfo/TitleIcon" >
+                        <Property Name="Image" Value="set:DejaVu image:Image20" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="KnightContractWnd/SelfMessage" >
+                <Property Name="UnifiedAreaRect" Value="{{0.019048,0},{0.282258,0},{0.495238,0},{0.640323,0}}" />
+                <Window Type="DejaVu/Embed2" Name="KnightContractWnd/SelfMessage/BG" >
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.045045,0},{1,0},{1,0}}" />
+                    <Window Type="DejaVu/MultiLineEditbox" Name="KnightContractWnd/SelfMessage/Text" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="MaxTextLength" Value="2147483647" />
+                        <Property Name="Text" >這裡要放十七個字
+一二三四五六七八九十一二三四五六七
+三
+四
+五
+六
+七
+八
+九
+十
+</Property>
+                        <Property Name="TextParsingEnabled" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.04,0},{0.117925,0},{0.96,0},{0.952831,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed4" Name="KnightContractWnd/SelfMessage/Title" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.04,0},{0,0},{0.64,0},{0.112613,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="KnightContractWnd/SelfMessage/Title/Text" >
+                        <Property Name="Text" Value="x騎士話語" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.2,0},{0.8,0},{0.8,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="KnightContractWnd/SelfMessage/Title/Icon" >
+                        <Property Name="Image" Value="set:DejaVu image:Image16" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="KnightContractWnd/LoverMessage" >
+                <Property Name="UnifiedAreaRect" Value="{{0.504762,0},{0.282258,0},{0.980952,0},{0.640323,0}}" />
+                <Window Type="DejaVu/Embed2" Name="KnightContractWnd/LoverMessage/BG" >
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.045045,0},{1,0},{1,0}}" />
+                    <Window Type="DejaVu/MultiLineEditbox" Name="KnightContractWnd/LoverMessage/Text" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="MaxTextLength" Value="2147483647" />
+                        <Property Name="ReadOnly" Value="True" />
+                        <Property Name="Text" >這裡也要放十七個字
+一二三四五六七八九十一二三四五六七
+三
+四
+五
+六
+七
+八
+九
+十
+</Property>
+                        <Property Name="TextParsingEnabled" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.04,0},{0.117925,0},{0.96,0},{0.952831,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed4" Name="KnightContractWnd/LoverMessage/Title" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.04,0},{0,0},{0.64,0},{0.112613,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="KnightContractWnd/LoverMessage/Title/Text" >
+                        <Property Name="Text" Value="x領主話語" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.2,0},{0.8,0},{0.8,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="KnightContractWnd/LoverMessage/Title/Icon" >
+                        <Property Name="Image" Value="set:DejaVu image:Image16" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="KnightContractWnd/LoverSpell" >
+                <Property Name="UnifiedAreaRect" Value="{{0.0190476,0},{0.769355,0},{0.980952,0},{0.933871,0}}" />
+                <Window Type="DejaVu/Embed2" Name="KnightContractWnd/LoverSpell/BG" >
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.098039,0},{1,0},{1,0}}" />
+                    <Window Type="DejaVu/Embed2" Name="KnightContractWnd/LoverSpell/BG2" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.0198413,0},{0.271739,0},{0.980158,0},{0.891304,0}}" />
+                        <Window Type="DejaVu/Embed3" Name="KnightContractWnd/LoverSpell/Using" >
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.360825,0},{1,0}}" />
+                            <Window Type="DejaVu/SlotImage" Name="KnightContractWnd/LoverSpell/Using/Icon" >
+                                <Property Name="UnifiedAreaRect" Value="{{0.038889,0},{0.122807,0},{0.280268,0},{0.859649,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/StaticTextLab" Name="KnightContractWnd/LoverSpell/Using/Name" >
+                                <Property Name="Text" Value="x騎士的忠誠" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.356322,0},{0.280702,0},{0.942529,0},{0.719298,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="KnightContractWnd/LoverSpell/Icon_1" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.42268,0},{0.122807,0},{0.509278,0},{0.859649,0}}" />
+                            <Window Type="DejaVu/StaticImage" Name="KnightContractWnd/LoverSpell/Icon_1/Lock" >
+                                <Property Name="AlwaysOnTop" Value="True" />
+                                <Property Name="HorizontalAlignment" Value="Centre" />
+                                <Property Name="Image" Value="set:main image:Lock" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.166667,0},{0.595238,0},{0.761905,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="KnightContractWnd/LoverSpell/Icon_2" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.528926,0},{0.122807,0},{0.615703,0},{0.859649,0}}" />
+                            <Window Type="DejaVu/StaticImage" Name="KnightContractWnd/LoverSpell/Icon_2/Lock" >
+                                <Property Name="AlwaysOnTop" Value="True" />
+                                <Property Name="HorizontalAlignment" Value="Centre" />
+                                <Property Name="Image" Value="set:main image:Lock" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.166667,0},{0.595238,0},{0.761905,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="KnightContractWnd/LoverSpell/Icon_3" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.636364,0},{0.122807,0},{0.723141,0},{0.859649,0}}" />
+                            <Window Type="DejaVu/StaticImage" Name="KnightContractWnd/LoverSpell/Icon_3/Lock" >
+                                <Property Name="AlwaysOnTop" Value="True" />
+                                <Property Name="HorizontalAlignment" Value="Centre" />
+                                <Property Name="Image" Value="set:main image:Lock" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.166667,0},{0.595238,0},{0.761905,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="KnightContractWnd/LoverSpell/Icon_4" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.743802,0},{0.122807,0},{0.830579,0},{0.859649,0}}" />
+                            <Window Type="DejaVu/StaticImage" Name="KnightContractWnd/LoverSpell/Icon_4/Lock" >
+                                <Property Name="AlwaysOnTop" Value="True" />
+                                <Property Name="HorizontalAlignment" Value="Centre" />
+                                <Property Name="Image" Value="set:main image:Lock" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.166667,0},{0.595238,0},{0.761905,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="KnightContractWnd/LoverSpell/Icon_5" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.85124,0},{0.122807,0},{0.938017,0},{0.859649,0}}" />
+                            <Window Type="DejaVu/StaticImage" Name="KnightContractWnd/LoverSpell/Icon_5/Lock" >
+                                <Property Name="AlwaysOnTop" Value="True" />
+                                <Property Name="HorizontalAlignment" Value="Centre" />
+                                <Property Name="Image" Value="set:main image:Lock" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.166667,0},{0.595238,0},{0.761905,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/ImageButton" Name="KnightContractWnd/LoverSpell/PageRight" >
+                            <Property Name="HorizontalAlignment" Value="Right" />
+                            <Property Name="HoverImage" Value="set:DejaVu image:ArrowRightHover" />
+                            <Property Name="NormalImage" Value="set:DejaVu image:ArrowRightNormal" />
+                            <Property Name="PushedImage" Value="set:DejaVu image:ArrowRightPressed" />
+                            <Property Name="UnifiedAreaRect" Value="{{-0.0103306,0},{0.280702,0},{0.0309917,0},{0.719298,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/ImageButton" Name="KnightContractWnd/LoverSpell/PageLeft" >
+                            <Property Name="HoverImage" Value="set:DejaVu image:ArrowLeftHover" />
+                            <Property Name="NormalImage" Value="set:DejaVu image:ArrowLeftNormal" />
+                            <Property Name="PushedImage" Value="set:DejaVu image:ArrowLeftPressed" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.371134,0},{0.280702,0},{0.412371,0},{0.719298,0}}" />
+                        </Window>
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed4" Name="KnightContractWnd/LoverSpell/Title" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.019841,0},{0,0},{0.31746,0},{0.245098,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="KnightContractWnd/LoverSpell/Title/Text" >
+                        <Property Name="Text" Value="x契約技能" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.2,0},{0.8,0},{0.8,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="KnightContractWnd/LoverSpell/Title/Icon" >
+                        <Property Name="Image" Value="set:DejaVu image:Image01" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="KnightContractWnd/Greeting" >
+                <Property Name="UnifiedAreaRect" Value="{{0.0190476,0},{0.648387,0},{0.980952,0},{0.76129,0}}" />
+                <Window Type="DejaVu/Embed2" Name="KnightContractWnd/Greeting/BG" >
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.1,0},{1,0},{1,0}}" />
+                    <Window Type="DejaVu/Editbox" Name="KnightContractWnd/Greeting/Text" >
+                        <Property Name="MaxTextLength" Value="2147483647" />
+                        <Property Name="Text" Value="一二三四五六七八九十一二三四五六七八九十一二三四五" />
+                        <Property Name="TextParsingEnabled" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.019802,0},{0.396825,0},{0.819802,0},{0.79365,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Button" Name="KnightContractWnd/Greeting/SendBtn" >
+                        <Property Name="HorizontalAlignment" Value="Right" />
+                        <Property Name="Text" Value="x傳達" />
+                        <Property Name="UnifiedAreaRect" Value="{{-0.019802,0},{0.396825,0},{0.130693,0},{0.793651,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed4" Name="KnightContractWnd/Greeting/Title" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.019802,0},{0,0},{0.316832,0},{0.357143,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="KnightContractWnd/Greeting/Title/Text" >
+                        <Property Name="Text" Value="x騎士的宣誓" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.2,0},{0.8,0},{0.8,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="KnightContractWnd/Greeting/Icon" >
+                        <Property Name="Image" Value="set:DejaVu image:Image13" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Button" Name="KnightContractWnd/SaveMessage" >
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="Text" Value="x儲存話語" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.0190476,0},{0.941935,0},{0.125714,0},{0.982258,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="KnightContractWnd/Breakup" >
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="Text" Value="x終止契約" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.173333,0},{0.941935,0},{-0.0285714,0},{0.982258,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="KnightContractWnd/LevelPic" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0535714,0},{0.0551724,0},{0.142857,0},{0.0965517,0}}" />
+            <Window Type="DejaVu/StaticImage" Name="KnightContractWnd/LevelPic/Img1" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Image" Value="set:DejaVu image:nine" />
+                <Property Name="UnifiedAreaRect" Value="{{0.4,0},{0,0},{1,0},{1,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="KnightContractWnd/LevelPic/Img2" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Image" Value="set:DejaVu image:one" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.6,0},{1,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/ImageButton" Name="KnightContractWnd/CloseBtn" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HoverImage" Value="set:DejaVu image:NewCloseButtonHover" />
+            <Property Name="NormalImage" Value="set:DejaVu image:NewCloseButtonNormal" />
+            <Property Name="PushedImage" Value="set:DejaVu image:NewCloseButtonPressed" />
+            <Property Name="UnifiedAreaRect" Value="{{0.928571,0},{0.0413793,0},{0.964286,0},{0.0689655,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/WebBrowser/defaultWindow" >
+        <Property Name="AlwaysOnTop" Value="True" />
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.132813,0},{0.106771,0},{0.132813,760},{0.106771,581}}" />
+        <Window Type="DejaVu/Embed3" Name="Root/WebBrowser/defaultWindow/FrameWindow" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Button" Name="Root/WebBrowser/defaultWindow/FrameWindow/Button" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.0131406,0},{-0.0172414,0},{0.086728,0},{0.0275862,0}}" />
+                <Property Name="VerticalAlignment" Value="Bottom" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/WebBrowser/defaultWindow/FrameWindow/StaticImage" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.013141,0},{0.017241,0},{0.986825,0},{0.929461,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

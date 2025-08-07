@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/Embed2" Name="ArcheologyItem" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,279},{0,25}}" />
+        <Window Type="DejaVu/StaticTextLab" Name="ArcheologyItem/Text" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="Text" Value="測試1234" />
+            <Property Name="UnifiedAreaRect" Value="{{0.125448,0},{0,0},{0.125448,225},{0,25}}" />
+        </Window>
+        <Window Type="DejaVu/ImageCheckbox" Name="ArcheologyItem/ChkBox" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="NormalImage" Value="set:DejaVu image:TreeListClosedNormal" />
+            <Property Name="PushedImage" Value="set:DejaVu image:TreeListOpenedNormal" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0188679,0},{0.2,0},{0.0188679,15},{0.2,15}}" />
+        </Window>
+    </Window>
+</GUILayout>

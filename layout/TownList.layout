@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/TownList" >
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0983333,0},{0,800},{0.0983333,462}}" />
+        <Property Name="UnifiedMinSize" Value="{{0,508},{0,462}}" />
+        <Window Type="DejaVu/Static" Name="Root/TownList/Static" >
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.270408,0},{1,0}}" />
+            <Window Type="DejaVu/Listbox" Name="Root/TownList/Static/TownList" >
+                <Property Name="UnifiedAreaRect" Value="{{0.028302,0},{0.363208,0},{0.971698,0},{0.929246,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/TownList/Static/Text1" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" Value="x城鎮清單" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0566038,0},{0.0141509,0},{0.481132,0},{0.0471698,0}}" />
+            </Window>
+            <Window Type="DejaVu/Embed" Name="Root/TownList/Static/Embed" >
+                <Property Name="UnifiedAreaRect" Value="{{0.0283019,0},{0.0613208,0},{0.971698,0},{0.349057,0}}" />
+                <Window Type="DejaVu/Checkbox" Name="Root/TownList/Static/Embed/Checkbox1" >
+                    <Property Name="Text" Value="x農場" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.06,0},{0.04918,0},{0.485,0},{0.213114,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/TownList/Static/Embed/Checkbox2" >
+                    <Property Name="Text" Value="x礦場" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.06,0},{0.213115,0},{0.485,0},{0.377049,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/TownList/Static/Embed/Checkbox3" >
+                    <Property Name="Text" Value="x祭壇" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.06,0},{0.377049,0},{0.485,0},{0.540983,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/TownList/Static/Embed/Checkbox4" >
+                    <Property Name="Text" Value="x煉金" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.53,0},{0.04918,0},{0.955,0},{0.213114,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/TownList/Static/Embed/Checkbox5" >
+                    <Property Name="Text" Value="x鑄造" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.53,0},{0.213115,0},{0.955,0},{0.377049,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/TownList/Static/Embed/Checkbox6" >
+                    <Property Name="Text" Value="x魔池" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.53,0},{0.377049,0},{0.955,0},{0.540983,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/TownList/Static/Embed/LevelUpLimit" >
+                    <Property Name="MaxTextLength" Value="3" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.53,0},{0.590164,0},{0.68,0},{0.754098,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/TownList/Static/Embed/LevelLowerLimitText" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" Value="x等級下限" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.24,0},{0.590164,0},{0.5,0},{0.754098,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/TownList/Static/Embed/LevelLowerLimit" >
+                    <Property Name="MaxTextLength" Value="3" />
+                    <Property Name="Text" Value="999" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.06,0},{0.590164,0},{0.21,0},{0.754098,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/TownList/Static/Embed/LevelupLimitText" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" Value="x等級上限" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.71,0},{0.590164,0},{0.97,0},{0.754098,0}}" />
+                </Window>
+                <Window Type="DejaVu/Button" Name="Root/TownList/Static/Embed/TownSerachBtn" >
+                    <Property Name="Text" Value="x城鎮搜尋" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.62,0},{0.803279,0},{0.97,0},{0.95082,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/TownList/Static/Embed/HelpBtn" >
+                <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0.90566,0},{0.0141509,0},{0.971698,0},{0.0471698,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/TownList/Static1/EnterTownBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="x進入" />
+                <Property Name="UnifiedAreaRect" Value="{{0.641509,0},{0.943396,0},{0.971698,0},{0.985849,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="Root/TownList/Static1" >
+            <Property Name="UnifiedAreaRect" Value="{{0.278061,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/StaticTextLab" Name="Root/TownList/Static1/LeaderText" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" Value="x會長：一二三四五六七巴" />
+                <Property Name="UnifiedAreaRect" Value="{{0.021201,0},{0.089623,0},{0.508833,0},{0.122642,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/TownList/Static1/MemberSerachBtn" >
+                <Property Name="Text" Value="x會員搜尋" />
+                <Property Name="UnifiedAreaRect" Value="{{0.385159,0},{0.235849,0},{0.508834,0},{0.278302,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/TownList/Static1/CloseBtn" >
+                <Property Name="Text" Value="x關閉" />
+                <Property Name="UnifiedAreaRect" Value="{{0.865724,0},{0.943396,0},{0.989399,0},{0.985849,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/TownList/Static1/FamilyNameText" >
+                <Property Name="Text" Value="xL01.阿卡貝拉友愛之鎮" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="UnifiedAreaRect" Value="{{0.003534,0},{0.004717,0},{0.996467,0},{0.0660378,0}}" />
+                <Window Type="DejaVu/ImageButton" Name="Root/TownList/Static1/FamilyNameText/HelpBtn" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                    <Property Name="ID" Value="1" />
+                    <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                    <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.964413,0},{0.153846,0},{0.989324,0},{0.692308,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/TownList/Static1/ExpText" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" Value="x聲望：" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0212014,0},{0.136792,0},{0.286219,0},{0.169811,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/TownList/Static1/MemberCountText" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" Value="x會員：" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0212014,0},{0.183962,0},{0.286219,0},{0.216981,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/TownList/Static1/BusinessTaxText" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" Value="x營業稅率：" />
+                <Property Name="UnifiedAreaRect" Value="{{0.021201,0},{0.231132,0},{0.286219,0},{0.264151,0}}" />
+            </Window>
+            <Window Type="DejaVu/Embed" Name="Root/TownList/Static1/BuildingListBorder" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.519435,0},{0.075472,0},{0.9894,0},{0.278302,0}}" />
+                <Window Type="DejaVu/ScrollablePane" Name="Root/TownList/Static1/BuildingListBorder/BuildingPane" >
+                    <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                    <Property Name="HorzOverlapSize" Value="0.01" />
+                    <Property Name="HorzScrollPosition" Value="0" />
+                    <Property Name="HorzStepSize" Value="0.1" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.012195,0},{0.05814,0},{0.984756,0},{0.953489,0}}" />
+                    <Property Name="VertOverlapSize" Value="0.01" />
+                    <Property Name="VertScrollPosition" Value="0" />
+                    <Property Name="VertStepSize" Value="0.1" />
+                    <AutoWindow NameSuffix="__auto_container__" >
+                        <Property Name="ChildExtentsArea" Value="l:0 t:0 r:0 b:0" />
+                        <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                        <Property Name="MouseInputPropagationEnabled" Value="True" />
+                    </AutoWindow>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Listbox" Name="Root/TownList/Static1/NPCList" >
+                <Property Name="ColumnsMovable" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.010601,0},{0.292453,0},{0.9894,0},{0.929245,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/TownList/Static1/InstanceType" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" Value="x城鎮類型：" />
+                <Property Name="UnifiedAreaRect" Value="{{0.29682,0},{0.136792,0},{0.508834,0},{0.169811,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

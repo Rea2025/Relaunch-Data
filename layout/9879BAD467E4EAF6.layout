@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/CommonDlg" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="Text" Value="權限設定" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.293945,0},{0.282443,0},{0.293945,302},{0.282443,365}}" />
+        <Window Type="DejaVu/Static" Name="Root/CommonDlg/BG" >
+            <Property Name="BackgroundEnabled" Value="True" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Button" Name="Root/CommonDlg/OKBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="確定" />
+                <Property Name="UnifiedAreaRect" Value="{{0.478723,0},{0.928793,0},{0.719858,0},{0.981425,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/CommonDlg/CancelBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="取消" />
+                <Property Name="UnifiedAreaRect" Value="{{0.737589,0},{0.928793,0},{0.978724,0},{0.981425,0}}" />
+            </Window>
+            <Window Type="DejaVu/Embed3" Name="Root/CommonDlg/PrivilegeBG" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.022222,0},{0.02,0},{0.979669,0},{0.914737,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/CommonDlg/PrivilegeBG/Text" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="職務權限" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.037037,0},{0.0276817,0},{0.307407,0},{0.103806,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/CommonDlg/PrivilegeBG/Icon1" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Image" Value="set:main image:noimage" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.325926,0},{0.0276817,0},{0.407407,0},{0.103806,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/CommonDlg/PrivilegeBG/Icon2" >
+                    <Property Name="Image" Value="set:main image:noimage" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.425926,0},{0.0276817,0},{0.507407,0},{0.103806,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/CommonDlg/PrivilegeBG/Icon3" >
+                    <Property Name="Image" Value="set:main image:noimage" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.525926,0},{0.0276817,0},{0.607407,0},{0.103806,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/CommonDlg/PrivilegeBG/Icon4" >
+                    <Property Name="Image" Value="set:main image:noimage" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.625926,0},{0.0276817,0},{0.707407,0},{0.103806,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/CommonDlg/PrivilegeBG/Icon5" >
+                    <Property Name="Image" Value="set:main image:noimage" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.725926,0},{0.0276817,0},{0.807407,0},{0.103806,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/CommonDlg/PrivilegeBG/Icon6" >
+                    <Property Name="Image" Value="set:main image:noimage" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.825926,0},{0.0276817,0},{0.907407,0},{0.103806,0}}" />
+                </Window>
+                <Window Type="DejaVu/Embed4" Name="Root/CommonDlg/PrivilegeBG/ScrollPaneBG" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.018868,0},{0.128028,0},{0.981132,0},{0.982699,0}}" />
+                    <Window Type="DejaVu/ScrollablePane" Name="Root/CommonDlg/PrivilegeBG/PrivilegePane" >
+                        <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                        <Property Name="Font" Value="F001-scale" />
+                        <Property Name="HorzOverlapSize" Value="0.01" />
+                        <Property Name="HorzScrollPosition" Value="0" />
+                        <Property Name="HorzStepSize" Value="0.1" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.992308,0},{1,0}}" />
+                        <Property Name="VertOverlapSize" Value="0.01" />
+                        <Property Name="VertScrollPosition" Value="0" />
+                        <Property Name="VertStepSize" Value="0.1" />
+                        <AutoWindow NameSuffix="__auto_container__" >
+                            <Property Name="ChildExtentsArea" Value="l:0 t:0 r:0 b:0" />
+                            <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                            <Property Name="MouseInputPropagationEnabled" Value="True" />
+                        </AutoWindow>
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/CommonDlg/CloseBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="NoUse" />
+                <Property Name="UnifiedAreaRect" Value="{{0.187826,0},{0.926094,0},{0.439677,0},{0.982761,0}}" />
+                <Property Name="Visible" Value="False" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

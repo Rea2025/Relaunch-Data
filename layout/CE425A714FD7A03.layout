@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/StaticImage" Name="/WorldMap1/MapPic" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="Image" Value="set:MapPicWorld1 image:BG" />
+        <Property Name="UnifiedAreaRect" Value="{{0.0530146,0},{0.0597826,0},{0.0530146,512},{0.0597826,512}}" />
+        <Window Type="DejaVu/ImageButton" Name="/WorldMap1/Land1" >
+            <Property Name="DisabledImage" Value="set:MapPicWorld1_Brush image:Land01" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HoverImage" Value="set:MapPicWorld1_Brush image:Land01" />
+            <Property Name="NormalImage" Value="set:main image:noimage" />
+            <Property Name="PushedImage" Value="set:MapPicWorld1_Brush image:Land01" />
+            <Property Name="UnifiedAreaRect" Value="{{0.246094,0},{0.376953,0},{0.720703,0},{0.933594,0}}" />
+        </Window>
+        <Window Type="DejaVu/ImageButton" Name="/WorldMap1/Land2" >
+            <Property Name="DisabledImage" Value="set:MapPicWorld1_Brush image:Land02" />
+            <Property Name="HoverImage" Value="set:MapPicWorld1_Brush image:Land02" />
+            <Property Name="ID" Value="1" />
+            <Property Name="NormalImage" Value="set:main image:noimage" />
+            <Property Name="PushedImage" Value="set:MapPicWorld1_Brush image:Land02" />
+            <Property Name="UnifiedAreaRect" Value="{{0.285156,0},{0.054688,0},{0.902344,0},{0.603516,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

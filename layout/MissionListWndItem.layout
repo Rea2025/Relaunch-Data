@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="MissionListWndItem" >
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Window Type="DejaVu/ImageCheckbox" Name="MissionListWndItem/Column" >
+            <Property Name="DisabledImage" Value="set:DejaVu image:TreeListOpened" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HoverImage" Value="set:DejaVu image:TreeListClosed" />
+            <Property Name="HoverTextColour" Value="FFFFFFFF" />
+            <Property Name="NormalImage" Value="set:DejaVu image:TreeListClosed" />
+            <Property Name="NormalTextColour" Value="FFFFFFFF" />
+            <Property Name="PushedImage" Value="set:DejaVu image:TreeListOpened" />
+            <Property Name="PushedTextColour" Value="FFFFFFFF" />
+            <Property Name="Text" Value="1234" />
+            <Property Name="UnifiedAreaRect" Value="{{0.125,0},{0.166667,0},{0.125,225},{0.166667,20}}" />
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="MissionListWndItem/Item-o" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.124892,0},{0.282087,0},{0.124892,225},{0.282087,20}}" />
+            <Window Type="DejaVu/StaticTextLab" Name="MissionListWndItem/Item-o/Name" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="ID" Value="2" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="戰" />
+                <Property Name="UnifiedAreaRect" Value="{{0.12549,0},{0.05,0},{0.870588,0},{0.95,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="MissionListWndItem/Item-o/State" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="ID" Value="3" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="Lv.99" />
+                <Property Name="UnifiedAreaRect" Value="{{0.817778,0},{0.05,0},{0.995556,0},{0.95,0}}" />
+            </Window>
+            <Window Type="DejaVu/Embed" Name="MissionListWndItem/Item-o/SelectFrame" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="ID" Value="4" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="MissionListWndItem/Item-o/StateImage" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="ID" Value="5" />
+                <Property Name="Image" Value="set:DejaVu image:GotQuest" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0266667,0},{0,0},{0.115556,0},{1,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Embed4" Name="MissionListWndItem/Item" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.130095,0},{0.332863,0},{0.130095,200},{0.332863,42}}" />
+            <Window Type="DejaVu/SlotImage" Name="MissionListWndItem/Item/MissionSlot" >
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.015,0},{0.0714286,0},{0.015,36},{0.0714286,36}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="MissionListWndItem/Item/Name" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="ID" Value="2" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="任務名稱" />
+                <Property Name="UnifiedAreaRect" Value="{{0.21,0},{0.071429,0},{0.96,0},{0.5,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="MissionListWndItem/Item/Type" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="ID" Value="6" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="類型" />
+                <Property Name="UnifiedAreaRect" Value="{{0.21,0},{0.47619,0},{0.435,0},{0.904761,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="MissionListWndItem/Item/State" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="ID" Value="3" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="狀態" />
+                <Property Name="UnifiedAreaRect" Value="{{0.82,0},{0.47619,0},{0.97,0},{0.904762,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="MissionListWndItem/Item/StateImage" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="ID" Value="5" />
+                <Property Name="Image" Value="set:DejaVu image:GotQuest" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.1,0},{0.47619,0}}" />
+            </Window>
+            <Window Type="DejaVu/Embed" Name="MissionListWndItem/Item/SelectFrame" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="ID" Value="4" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

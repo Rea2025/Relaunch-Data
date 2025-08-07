@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="ChangePanelInfoMCLItem" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="MousePassThroughEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0.0774967,0},{0.0844673,0},{0.327497,0},{0.334467,0}}" />
+        <Window Type="DejaVu/EmbedTextLab2" Name="ChangePanelInfoMCLItem/Text" >
+            <Property Name="ID" Value="1" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="Text" Value="一二三四五六七八九十" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="ChangePanelInfoMCLItem/SelectBrush" >
+            <Property Name="Alpha" Value="0.3" />
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="ID" Value="2" />
+            <Property Name="Image" Value="set:DejaVu image:HeaderBarSelectBrush" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="ChangePanelInfoMCLItem/Image" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Property Name="ID" Value="3" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.08,0},{0.285714,0},{0.88,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

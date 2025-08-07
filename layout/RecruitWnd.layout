@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/RecruitWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="TitlebarImage" Value="set:main image:SearchTeamNormal" />
+        <Property Name="UnifiedAreaRect" Value="{{0.262156,0},{0.317169,0},{0.262156,384},{0.317169,301}}" />
+        <Window Type="DejaVu/Embed" Name="Root/RecruitWnd/BG" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1.00089,0},{1.00064,0}}" />
+            <Window Type="DejaVu/Embed2" Name="Root/RecruitWnd/Infor" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.027174,0},{0.045662,0},{0.978261,0},{0.814893,0}}" />
+                <Window Type="DejaVu/EmbedTextLab7" Name="Root/RecruitWnd/Infor/NodeName" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="x場景名稱" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.028571,0},{0.058824,0},{0.242857,0},{0.205883,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab7" Name="Root/RecruitWnd/Infor/NodeLevel" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="x適合等級" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.028571,0},{0.235294,0},{0.242857,0},{0.382353,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab7" Name="Root/RecruitWnd/Infor/NodeBroadcast" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="x招募廣播" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.028571,0},{0.411765,0},{0.242857,0},{0.558824,0}}" />
+                </Window>
+                <Window Type="DejaVu/Combobox" Name="Root/RecruitWnd/Infor/NodeCombobox" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="MaxEditTextLength" Value="2147483647" />
+                    <Property Name="ReadOnly" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.242857,0},{0.058824,0},{0.971428,0},{0.711765,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedText5" Name="Root/RecruitWnd/Infor/LevelWnd" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.242857,0},{0.235294,0},{0.971428,0},{0.382353,0}}" />
+                </Window>
+                <Window Type="DejaVu/MultiLineEditbox" Name="Root/RecruitWnd/Infor/Editbox" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="MaxTextLength" Value="60" />
+                    <Property Name="NormalTextColour" Value="FFFFFFFFF" />
+                    <Property Name="Text" >
+</Property>
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.242857,0},{0.411765,0},{0.971428,0},{0.941177,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedText5" Name="Root/RecruitWnd/Infor/SelectNode" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.242857,0},{0.058824,0},{0.971428,0},{0.205883,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/RecruitWnd/BG/OKBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="x確定" />
+                <Property Name="UnifiedAreaRect" Value="{{0.546196,0},{0.837104,0},{0.752717,0},{0.954751,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/RecruitWnd/BG/CancelBtn" >
+                <Property Name="Text" Value="x取消" />
+                <Property Name="UnifiedAreaRect" Value="{{0.766304,0},{0.837104,0},{0.972826,0},{0.954751,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

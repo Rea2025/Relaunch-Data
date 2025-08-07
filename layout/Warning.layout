@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Warning" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="TitlebarImage" Value="set:main image:SystemNormal" />
+        <Property Name="UnifiedAreaRect" Value="{{0.265625,0},{0.248698,0},{0.265625,426},{0.248698,400}}" />
+        <Window Type="DejaVu/Embed" Name="Warning/BG" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Embed2" Name="Warning/BG/TextBG" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.02439,0},{0.03125,0},{0.97561,0},{0.871875,0}}" />
+                <Window Type="DejaVu/VScrolledText" Name="Warning/BG/TextBG/Text" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                    <Property Name="LinespaceWindow" Value="True" />
+                    <Property Name="Text" >「請注意！您所選擇的生存模式是一種極具挑戰與刺激的遊戲方式。您的這隻角色在死亡時(被其他玩家殺死例外)將再也無法升級，然後成為一位鬼魂，並且無法使用大多數的遊戲功能。」
+
+「生存模式的角色將擁有獨立的排行榜、LV40之後的經驗值需求將下降30%，並且有特殊的符號標記。」
+
+「這個模式僅提供給玩家額外的自我挑戰，除了考驗玩家的個人技術外，系統與伺服器穩定性、隊友的程度都屬於運氣範疇內，可能因為斷線或網路延遲而導致角色陣亡，請審慎思考並經過充分評估，再決定參加這個模式。」
+</Property>
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.027027,0},{0.037175,0},{0.972973,0},{0.962826,0}}" />
+                    <Property Name="VertFormatting" Value="TopAligned" />
+                    <Property Name="VertScrollbar" Value="True" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Button" Name="Warning/BG/Accept" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="接受" />
+                <Property Name="UnifiedAreaRect" Value="{{0.02439,0},{0.8875,0},{0.209756,0},{0.96875,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Warning/BG/Deny" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="Text" Value="拒絕" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.02439,0},{0.8875,0},{0.160976,0},{0.96875,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Warning/BG/Confirm" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="Text" Value="確認" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.8875,0},{0.185366,0},{0.96875,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

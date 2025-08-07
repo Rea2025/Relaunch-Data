@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/Embed3" Name="Root/AxeTacticWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HorizontalAlignment" Value="Centre" />
+        <Property Name="UnifiedAreaRect" Value="{{0.000976563,0},{-0.195313,0},{0.000976563,240},{-0.195313,30}}" />
+        <Property Name="VerticalAlignment" Value="Bottom" />
+        <Window Type="DejaVu/StaticImage" Name="Root/AxeTacticWnd/Icon" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="Image" Value="set:main image:WeaponTypeTwoAxe" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.042017,0},{0.166667,0},{0.126051,0},{0.833334,0}}" />
+        </Window>
+        <Window Type="DejaVu/Static" Name="Root/AxeTacticWnd/BarBG" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.141667,0},{0.233333,0},{0.975,0},{0.8,0}}" />
+            <Window Type="DejaVu/StaticImage" Name="Root/AxeTacticWnd/BarBG/Tick" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Image" Value="set:DejaVu image:LevelPoint" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.188262,0},{0,0},{0.248262,0},{0.705882,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/AxeTacticWnd/BarBG/Tick1" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="Image" Value="set:DejaVu image:LevelPoint" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.375,0},{0,0},{0.435,0},{0.705882,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/AxeTacticWnd/BarBG/Tick3" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="Image" Value="set:DejaVu image:LevelPoint" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.57,0},{0,0},{0.63,0},{0.705882,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/AxeTacticWnd/BarBG/Tick4" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="Image" Value="set:DejaVu image:LevelPoint" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.755,0},{0,0},{0.815,0},{0.705882,0}}" />
+            </Window>
+            <Window Type="DejaVu/ProgressBarBG" Name="Root/AxeTacticWnd/BarBG/FuryBG" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.117647,0},{1.01,0},{1,0}}" />
+                <Window Type="DejaVu/ProgressBar" Name="Root/AxeTacticWnd/BarBG/FuryBF/FuryBar" >
+                    <Property Name="CurrentProgress" Value="1" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="StepSize" Value="0.01" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.028782,0},{0.266667,0},{0.97182,0},{0.733334,0}}" />
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

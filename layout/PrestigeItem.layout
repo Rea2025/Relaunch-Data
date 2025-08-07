@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="PrestigeItem" >
+        <Property Name="UnifiedAreaRect" Value="{{0.000520833,0},{0.00217155,0},{0.000520833,370},{0.00217155,587}}" />
+        <Window Type="DejaVu/ImageCheckbox" Name="PrestigeItem/Column" >
+            <Property Name="DisabledImage" Value="set:DejaVu image:TreeListOpened" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HoverImage" Value="set:DejaVu image:TreeListClosed" />
+            <Property Name="NormalImage" Value="set:DejaVu image:TreeListClosed" />
+            <Property Name="PushedImage" Value="set:DejaVu image:TreeListOpened" />
+            <Property Name="Text" Value="1234" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,235},{0,20}}" />
+        </Window>
+        <Window Type="DejaVu/Embed2" Name="PrestigeItem/Item" >
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.049404,0},{0,209},{0.049404,52}}" />
+            <Window Type="DejaVu/StaticImage" Name="PrestigeItem/Item/selectframe" >
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="ID" Value="4" />
+                <Property Name="Image" Value="set:DejaVu image:ItemSelectionBrush" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="PrestigeItem/Item/SlotImage" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="ID" Value="1" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0430622,0},{0.173077,0},{0.0430622,34},{0.173077,34}}" />
+            </Window>
+            <Window Type="DejaVu/EmbedTextLab5" Name="PrestigeItem/Item/Amount" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="ID" Value="3" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="999999" />
+                <Property Name="UnifiedAreaRect" Value="{{0.248804,0},{0.461538,0},{0.248804,88},{0.461538,20}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="PrestigeItem/Item/Name" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="ID" Value="2" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="一二三四五六七八九十一二" />
+                <Property Name="UnifiedAreaRect" Value="{{0.248804,0},{0.192308,0},{0.248804,143},{0.192308,14}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

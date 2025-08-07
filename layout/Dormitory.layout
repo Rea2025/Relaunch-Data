@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/Dormitory" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="TitlebarImage" Value="set:main image:EudemonNormal" />
+        <Property Name="UnifiedAreaRect" Value="{{0.104687,0},{0.0374115,0},{0.104687,835},{0.0374115,677}}" />
+        <Window Type="DejaVu/TabControl" Name="Root/Dormitory/Tab" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="TabHeight" Value="{0,20}" />
+            <Property Name="TabPanePosition" Value="Top" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DefaultWindow" Name="Root/Dormitory/Tab/Tab 1" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="x源神宿舍" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Window Type="DejaVu/Static" Name="Root/Dormitory/Tab/Tab 1/TeamBG" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.643468,0},{0.00917431,0},{0.986569,0},{0.983486,0}}" />
+                    <Window Type="DejaVu/Embed2" Name="Root/Dormitory/Tab/Tab 1/TeamBG/BG" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.018797,0},{1,0},{1,0}}" />
+                        <Window Type="DejaVu/Embed2" Name="Root/Dormitory/Tab/Tab 1/TeamBG/BG/BG1" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.064057,0},{0.047985,0},{0.935943,0},{0.975048,0}}" />
+                            <Window Type="DejaVu/EmbedTextLab7" Name="Root/Dormitory/Tab/Tab 1/TeamBG/BG/BG1/Header" >
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="HorzFormatting" Value="HorzCentred" />
+                                <Property Name="Text" Value="x源神選擇" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.004587,0},{0.002083,0},{0.990826,0},{0.0541663,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/MultiColumnListNoHeader" Name="Root/Dormitory/Tab/Tab 1/TeamBG/BG/BG1/MCL" >
+                                <Property Name="ColumnsMovable" Value="False" />
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.009259,0},{0.051975,0},{0.99074,0},{0.989605,0}}" />
+                            </Window>
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Embed4" Name="Root/Dormitory/Tab/Tab 1/TeamBG/Title" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0355872,0},{0,0},{0.569395,0},{0.047081,0}}" />
+                        <Window Type="DejaVu/StaticImage" Name="Root/Dormitory/Tab/Tab 1/TeamBG/Title/Icon" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="Image" Value="set:DejaVu image:Image08" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticTextLab" Name="Root/Dormitory/Tab/Tab 1/TeamBG/Title/Text" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="Text" Value="x源神列表" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.2,0},{0.866667,0},{0.8,0}}" />
+                        </Window>
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Static" Name="Root/Dormitory/Tab/Tab 1/HouseBG" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.01221,0},{0.00917431,0},{0.632479,0},{0.678899,0}}" />
+                    <Window Type="DejaVu/Embed2" Name="Root/Dormitory/Tab/Tab 1/HouseBG/BG" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.029851,0},{1,0},{1,0}}" />
+                        <Window Type="DejaVu/StaticImage" Name="Root/Dormitory/Tab/Tab 1/HouseBG/BG/Image" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="Image" Value="set:main18 image:Partnerstudio" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.019685,0},{0.064972,0},{0.984252,0},{0.963277,0}}" />
+                            <Window Type="DejaVu/Static" Name="Root/Dormitory/Tab/Tab 1/HouseBG/BG/Image/Room1" >
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.030612,0},{0.179641,0},{0.193877,0},{0.419162,0}}" />
+                                <Window Type="DejaVu/SlotImage" Name="Root/Dormitory/Tab/Tab 1/HouseBG/BG/Image/Room1/Image1" >
+                                    <Property Name="Font" Value="F001-9" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.2375,0},{0,0},{0.7625,0},{0.525,0}}" />
+                                    <Window Type="DejaVu/StaticImage" Name="Root/Dormitory/Tab/Tab 1/HouseBG/BG/Image/Room1/Image1/Lock" >
+                                        <Property Name="ClippedByParent" Value="False" />
+                                        <Property Name="Image" Value="set:main image:Lock" />
+                                        <Property Name="MousePassThroughEnabled" Value="True" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.214286,0},{-0.112084,0},{0.809524,0},{0.483154,0}}" />
+                                    </Window>
+                                </Window>
+                                <Window Type="DejaVu/Button" Name="Root/Dormitory/Tab/Tab 1/HouseBG/BG/Image/Room1/Btn1" >
+                                    <Property Name="Font" Value="F001-9" />
+                                    <Property Name="Text" Value="x互動" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.666667,0},{1,0},{1.00417,0}}" />
+                                </Window>
+                            </Window>
+                            <Window Type="DejaVu/Static" Name="Root/Dormitory/Tab/Tab 1/HouseBG/BG/Image/Room2" >
+                                <Property Name="UnifiedAreaRect" Value="{{0.22449,0},{0.179641,0},{0.387755,0},{0.419162,0}}" />
+                                <Window Type="DejaVu/SlotImage" Name="Root/Dormitory/Tab/Tab 1/HouseBG/BG/Image/Room2/Image2" >
+                                    <Property Name="UnifiedAreaRect" Value="{{0.2375,0},{0,0},{0.7625,0},{0.525,0}}" />
+                                    <Window Type="DejaVu/StaticImage" Name="Root/Dormitory/Tab/Tab 1/HouseBG/BG/Image/Room2/Image2/Lock" >
+                                        <Property Name="ClippedByParent" Value="False" />
+                                        <Property Name="Image" Value="set:main image:Lock" />
+                                        <Property Name="MousePassThroughEnabled" Value="True" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.214286,0},{-0.112084,0},{0.809524,0},{0.483154,0}}" />
+                                    </Window>
+                                </Window>
+                                <Window Type="DejaVu/Button" Name="Root/Dormitory/Tab/Tab 1/HouseBG/BG/Image/Room2/Btn2" >
+                                    <Property Name="Text" Value="x互動" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.666667,0},{1,0},{1,0}}" />
+                                </Window>
+                            </Window>
+                            <Window Type="DejaVu/Static" Name="Root/Dormitory/Tab/Tab 1/HouseBG/BG/Image/Room3" >
+                                <Property Name="UnifiedAreaRect" Value="{{0.418367,0},{0.179641,0},{0.581632,0},{0.419162,0}}" />
+                                <Window Type="DejaVu/SlotImage" Name="Root/Dormitory/Tab/Tab 1/HouseBG/BG/Image/Room3/Image3" >
+                                    <Property Name="UnifiedAreaRect" Value="{{0.2375,0},{0,0},{0.7625,0},{0.525,0}}" />
+                                    <Window Type="DejaVu/StaticImage" Name="Root/Dormitory/Tab/Tab 1/HouseBG/BG/Image/Room3/Image3/Lock" >
+                                        <Property Name="ClippedByParent" Value="False" />
+                                        <Property Name="Image" Value="set:main image:Lock" />
+                                        <Property Name="MousePassThroughEnabled" Value="True" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.214286,0},{-0.112084,0},{0.809524,0},{0.483154,0}}" />
+                                    </Window>
+                                </Window>
+                                <Window Type="DejaVu/Button" Name="Root/Dormitory/Tab/Tab 1/HouseBG/BG/Image/Room3/Btn3" >
+                                    <Property Name="Text" Value="x互動" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.6625,0},{1,0},{1,0}}" />
+                                </Window>
+                            </Window>
+                            <Window Type="DejaVu/Static" Name="Root/Dormitory/Tab/Tab 1/HouseBG/BG/Image/Room4" >
+                                <Property Name="UnifiedAreaRect" Value="{{0.612245,0},{0.179641,0},{0.77551,0},{0.419162,0}}" />
+                                <Window Type="DejaVu/SlotImage" Name="Root/Dormitory/Tab/Tab 1/HouseBG/BG/Image/Room4/Image4" >
+                                    <Property Name="UnifiedAreaRect" Value="{{0.2375,0},{0,0},{0.7625,0},{0.525,0}}" />
+                                    <Window Type="DejaVu/StaticImage" Name="Root/Dormitory/Tab/Tab 1/HouseBG/BG/Image/Room4/Image4/Lock" >
+                                        <Property Name="ClippedByParent" Value="False" />
+                                        <Property Name="Image" Value="set:main image:Lock" />
+                                        <Property Name="MousePassThroughEnabled" Value="True" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.214286,0},{-0.112084,0},{0.809524,0},{0.483154,0}}" />
+                                    </Window>
+                                </Window>
+                                <Window Type="DejaVu/Button" Name="Root/Dormitory/Tab/Tab 1/HouseBG/BG/Image/Room4/Btn4" >
+                                    <Property Name="Text" Value="x互動" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.666667,0},{1,0},{1,0}}" />
+                                </Window>
+                            </Window>
+                            <Window Type="DejaVu/Static" Name="Root/Dormitory/Tab/Tab 1/HouseBG/BG/Image/Room5" >
+                                <Property Name="UnifiedAreaRect" Value="{{0.806122,0},{0.179641,0},{0.969387,0},{0.419162,0}}" />
+                                <Window Type="DejaVu/SlotImage" Name="Root/Dormitory/Tab/Tab 1/HouseBG/BG/Image/Room5/Image5" >
+                                    <Property Name="UnifiedAreaRect" Value="{{0.2375,0},{0,0},{0.7625,0},{0.525,0}}" />
+                                    <Window Type="DejaVu/StaticImage" Name="Root/Dormitory/Tab/Tab 1/HouseBG/BG/Image/Room5/Image5/Lock" >
+                                        <Property Name="ClippedByParent" Value="False" />
+                                        <Property Name="Image" Value="set:main image:Lock" />
+                                        <Property Name="MousePassThroughEnabled" Value="True" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.214286,0},{-0.112084,0},{0.809524,0},{0.483154,0}}" />
+                                    </Window>
+                                </Window>
+                                <Window Type="DejaVu/Button" Name="Root/Dormitory/Tab/Tab 1/HouseBG/BG/Image/Room5/Btn5" >
+                                    <Property Name="Text" Value="x互動" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.666667,0},{1,0},{1,0}}" />
+                                </Window>
+                            </Window>
+                            <Window Type="DejaVu/Static" Name="Root/Dormitory/Tab/Tab 1/HouseBG/BG/Image/Room6" >
+                                <Property Name="UnifiedAreaRect" Value="{{0.030612,0},{0.58805,0},{0.193877,0},{0.827571,0}}" />
+                                <Window Type="DejaVu/SlotImage" Name="Root/Dormitory/Tab/Tab 1/HouseBG/BG/Image/Room6/Image6" >
+                                    <Property Name="UnifiedAreaRect" Value="{{0.2375,0},{0,0},{0.7625,0},{0.525,0}}" />
+                                    <Window Type="DejaVu/StaticImage" Name="Root/Dormitory/Tab/Tab 1/HouseBG/BG/Image/Room6/Image6/Lock" >
+                                        <Property Name="ClippedByParent" Value="False" />
+                                        <Property Name="Image" Value="set:main image:Lock" />
+                                        <Property Name="MousePassThroughEnabled" Value="True" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.214286,0},{-0.112084,0},{0.809524,0},{0.483154,0}}" />
+                                    </Window>
+                                </Window>
+                                <Window Type="DejaVu/Button" Name="Root/Dormitory/Tab/Tab 1/HouseBG/BG/Image/Room6/Btn6" >
+                                    <Property Name="Text" Value="x互動" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.666667,0},{1,0},{1,0}}" />
+                                </Window>
+                            </Window>
+                            <Window Type="DejaVu/Static" Name="Root/Dormitory/Tab/Tab 1/HouseBG/BG/Image/Room7" >
+                                <Property Name="UnifiedAreaRect" Value="{{0.22449,0},{0.58805,0},{0.387755,0},{0.827571,0}}" />
+                                <Window Type="DejaVu/SlotImage" Name="Root/Dormitory/Tab/Tab 1/HouseBG/BG/Image/Room7/Image7" >
+                                    <Property Name="UnifiedAreaRect" Value="{{0.2375,0},{0,0},{0.7625,0},{0.525,0}}" />
+                                    <Window Type="DejaVu/StaticImage" Name="Root/Dormitory/Tab/Tab 1/HouseBG/BG/Image/Room7/Image7/Lock" >
+                                        <Property Name="ClippedByParent" Value="False" />
+                                        <Property Name="Image" Value="set:main image:Lock" />
+                                        <Property Name="MousePassThroughEnabled" Value="True" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.214286,0},{-0.112084,0},{0.809524,0},{0.483154,0}}" />
+                                    </Window>
+                                </Window>
+                                <Window Type="DejaVu/Button" Name="Root/Dormitory/Tab/Tab 1/HouseBG/BG/Image/Room7/Btn7" >
+                                    <Property Name="Text" Value="x互動" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.666667,0},{1,0},{1,0}}" />
+                                </Window>
+                            </Window>
+                            <Window Type="DejaVu/Static" Name="Root/Dormitory/Tab/Tab 1/HouseBG/BG/Image/Room8" >
+                                <Property Name="UnifiedAreaRect" Value="{{0.418367,0},{0.58805,0},{0.581632,0},{0.827571,0}}" />
+                                <Window Type="DejaVu/SlotImage" Name="Root/Dormitory/Tab/Tab 1/HouseBG/BG/Image/Room8/Image8" >
+                                    <Property Name="UnifiedAreaRect" Value="{{0.2375,0},{0,0},{0.7625,0},{0.525,0}}" />
+                                    <Window Type="DejaVu/StaticImage" Name="Root/Dormitory/Tab/Tab 1/HouseBG/BG/Image/Room8/Image8/Lock" >
+                                        <Property Name="ClippedByParent" Value="False" />
+                                        <Property Name="Image" Value="set:main image:Lock" />
+                                        <Property Name="MousePassThroughEnabled" Value="True" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.214286,0},{-0.112084,0},{0.809524,0},{0.483154,0}}" />
+                                    </Window>
+                                </Window>
+                                <Window Type="DejaVu/Button" Name="Root/Dormitory/Tab/Tab 1/HouseBG/BG/Image/Room8/Btn8" >
+                                    <Property Name="Text" Value="x互動" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.666667,0},{1,0},{1,0}}" />
+                                </Window>
+                            </Window>
+                            <Window Type="DejaVu/Static" Name="Root/Dormitory/Tab/Tab 1/HouseBG/BG/Image/Room9" >
+                                <Property Name="UnifiedAreaRect" Value="{{0.612245,0},{0.58805,0},{0.77551,0},{0.827571,0}}" />
+                                <Window Type="DejaVu/SlotImage" Name="Root/Dormitory/Tab/Tab 1/HouseBG/BG/Image/Room9/Image9" >
+                                    <Property Name="UnifiedAreaRect" Value="{{0.2375,0},{0,0},{0.7625,0},{0.525,0}}" />
+                                    <Window Type="DejaVu/StaticImage" Name="Root/Dormitory/Tab/Tab 1/HouseBG/BG/Image/Room9/Image9/Lock" >
+                                        <Property Name="ClippedByParent" Value="False" />
+                                        <Property Name="Image" Value="set:main image:Lock" />
+                                        <Property Name="MousePassThroughEnabled" Value="True" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.214286,0},{-0.112084,0},{0.809524,0},{0.483154,0}}" />
+                                    </Window>
+                                </Window>
+                                <Window Type="DejaVu/Button" Name="Root/Dormitory/Tab/Tab 1/HouseBG/BG/Image/Room9/Btn9" >
+                                    <Property Name="Text" Value="x互動" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.666667,0},{1,0},{1,0}}" />
+                                </Window>
+                            </Window>
+                            <Window Type="DejaVu/Static" Name="Root/Dormitory/Tab/Tab 1/HouseBG/BG/Image/Room10" >
+                                <Property Name="UnifiedAreaRect" Value="{{0.804082,0},{0.58805,0},{0.967347,0},{0.827571,0}}" />
+                                <Window Type="DejaVu/SlotImage" Name="Root/Dormitory/Tab/Tab 1/HouseBG/BG/Image/Room10/Image10" >
+                                    <Property Name="UnifiedAreaRect" Value="{{0.2375,0},{0,0},{0.7625,0},{0.525,0}}" />
+                                    <Window Type="DejaVu/StaticImage" Name="Root/Dormitory/Tab/Tab 1/HouseBG/BG/Image/Room10/Image10/Lock" >
+                                        <Property Name="ClippedByParent" Value="False" />
+                                        <Property Name="Image" Value="set:main image:Lock" />
+                                        <Property Name="MousePassThroughEnabled" Value="True" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.214286,0},{-0.112084,0},{0.809524,0},{0.483154,0}}" />
+                                    </Window>
+                                </Window>
+                                <Window Type="DejaVu/Button" Name="Root/Dormitory/Tab/Tab 1/HouseBG/BG/Image/Room10/Btn10" >
+                                    <Property Name="Text" Value="x互動" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.6625,0},{1,0},{1,0}}" />
+                                </Window>
+                            </Window>
+                            <Window Type="DejaVu/ImageButton" Name="Root/Dormitory/Tab/Tab 1/HouseBG/BG/Image/NextBtn" >
+                                <Property Name="DisabledImage" Value="set:DejaVu image:ArrowRightPressed" />
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="HoverImage" Value="set:DejaVu image:ArrowRightHover" />
+                                <Property Name="NormalImage" Value="set:DejaVu image:ArrowRightNormal" />
+                                <Property Name="PushedImage" Value="set:DejaVu image:ArrowRightPressed" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.530612,0},{0.91195,0},{0.581633,0},{0.990566,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/ImageButton" Name="Root/Dormitory/Tab/Tab 1/HouseBG/BG/Image/LastBtn" >
+                                <Property Name="DisabledImage" Value="set:DejaVu image:ArrowLeftPressed" />
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="HoverImage" Value="set:DejaVu image:ArrowLeftHover" />
+                                <Property Name="NormalImage" Value="set:DejaVu image:ArrowLeftNormal" />
+                                <Property Name="PushedImage" Value="set:DejaVu image:ArrowLeftPressed" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.418367,0},{0.91195,0},{0.469387,0},{0.990566,0}}" />
+                            </Window>
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Embed4" Name="Root/Dormitory/Tab/Tab 1/HouseBG/Title" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.019608,0},{0,0},{0.314884,0},{0.0684932,0}}" />
+                        <Window Type="DejaVu/StaticImage" Name="Root/Dormitory/Tab/Tab 1/HouseBG/Title/Icon" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="Image" Value="set:DejaVu image:Image25" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticTextLab" Name="Root/Dormitory/Tab/Tab 1/HouseBG/Title/Text" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="Text" Value="x小屋配置" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.2,0},{0.866667,0},{0.8,0}}" />
+                        </Window>
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Static" Name="Root/Dormitory/Tab/Tab 1/LoveBG" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.01221,0},{0.682569,0},{0.632479,0},{0.983486,0}}" />
+                    <Window Type="DejaVu/Embed4" Name="Root/Dormitory/Tab/Tab 1/LoveBG/Title" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.019685,0},{0,0},{0.314961,0},{0.15625,0}}" />
+                        <Window Type="DejaVu/StaticImage" Name="Root/Dormitory/Tab/Tab 1/LoveBG/Title/Icon" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="Image" Value="set:DejaVu image:Image08" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticTextLab" Name="Root/Dormitory/Tab/Tab 1/LoveBG/Title/Text" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="Text" Value="x親密度" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.2,0},{0.866667,0},{0.8,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Embed2" Name="Root/Dormitory/Tab/Tab 1/LoveBG/BG" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0625,0},{1,0},{1,0}}" />
+                        <Window Type="DejaVu/StaticTextLab" Name="Root/Dormitory/Tab/Tab 1/LoveBG/BG/RealName" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="Text" Value="x名稱" />
+                            <Property Name="TextColours" Value="tl:FFFFFF00 tr:FFFFFF00 bl:FFFFFF00 br:FFFFFF00" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0295276,0},{0.162338,0},{0.167323,0},{0.324675,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticTextLab" Name="Root/Dormitory/Tab/Tab 1/LoveBG/BG/Name" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="Text" Value="xxxxxxxxxx" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.187008,0},{0.162338,0},{0.383858,0},{0.324675,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticTextLab" Name="Root/Dormitory/Tab/Tab 1/LoveBG/BG/LoveLevel" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="Text" >x親密度加長
+</Property>
+                            <Property Name="TextColours" Value="tl:FFFFFF00 tr:FFFFFF00 bl:FFFFFF00 br:FFFFFF00" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.025591,0},{0.324675,0},{0.222441,0},{0.486166,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/ProgressBarBG" Name="Root/Dormitory/Tab/Tab 1/LoveBG/BG/ExpBar" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0255906,0},{0.5,0},{0.379921,0},{0.597403,0}}" />
+                            <Window Type="DejaVu/ProgressBar2" Name="Root/Dormitory/Tab/Tab 1/LoveBG/BG/ExpBar/Bar" >
+                                <Property Name="CurrentProgress" Value="0" />
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="StepSize" Value="0.01" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.044444,0},{0.266667,0},{0.955555,0},{0.733334,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/Static" Name="Root/Dormitory/Tab/Tab 1/LoveBG/BG/Exp" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.383858,0},{0.467532,0},{0.511811,0},{0.597403,0}}" />
+                            <Window Type="DejaVu/StaticImage" Name="Root/Dormitory/Tab/Tab 1/LoveBG/BG/Exp/Intnum2" >
+                                <Property Name="Image" Value="set:DejaVu image:eight" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,20},{0,20}}" />
+                            </Window>
+                            <Window Type="DejaVu/StaticImage" Name="Root/Dormitory/Tab/Tab 1/LoveBG/BG/Exp/Intnum1" >
+                                <Property Name="Image" Value="set:DejaVu image:eight" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.2,0},{0,0},{0.2,20},{0,20}}" />
+                            </Window>
+                            <Window Type="DejaVu/StaticImage" Name="Root/Dormitory/Tab/Tab 1/LoveBG/BG/Exp/DotPic" >
+                                <Property Name="Image" Value="set:DejaVu image:point" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.430769,0},{0.5,0},{0.430769,9},{0.5,10}}" />
+                            </Window>
+                            <Window Type="DejaVu/StaticImage" Name="Root/Dormitory/Tab/Tab 1/LoveBG/BG/Exp/DecNum" >
+                                <Property Name="Image" Value="set:DejaVu image:eight" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.538462,0},{0.2,0},{0.538462,15},{0.2,15}}" />
+                            </Window>
+                            <Window Type="DejaVu/StaticImage" Name="Root/Dormitory/Tab/Tab 1/LoveBG/BG/Exp/PercentPic" >
+                                <Property Name="Image" Value="set:DejaVu image:percent" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.753846,0},{0.2,0},{0.753846,15},{0.2,15}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/Button" Name="Root/Dormitory/Tab/Tab 1/LoveBG/BG/LevelPower" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="Text" Value="x位階能力" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.212598,0},{0.652174,0},{0.389764,0},{0.813665,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Button" Name="Root/Dormitory/Tab/Tab 1/LoveBG/BG/Gift" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="Text" Value="x贈禮" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0255906,0},{0.652174,0},{0.202756,0},{0.807453,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Static" Name="Root/Dormitory/Tab/Tab 1/LoveBG/BG/LoveLevelBG" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.629921,0},{0.779221,0},{0.891732,0},{0.961039,0}}" />
+                            <Window Type="DejaVu/StaticImage" Name="Root/Dormitory/Tab/Tab 1/LoveBG/BG/LoveLevelBG/Level1" >
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="Image" Value="set:main13 image:Life" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.210526,0},{1,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/StaticImage" Name="Root/Dormitory/Tab/Tab 1/LoveBG/BG/LoveLevelBG/Level2" >
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="Image" Value="set:main13 image:Life" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.259843,0},{0,0},{0.470369,0},{1,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/StaticImage" Name="Root/Dormitory/Tab/Tab 1/LoveBG/BG/LoveLevelBG/Level3" >
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="Image" Value="set:main13 image:Life" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.526316,0},{0,0},{0.736842,0},{1,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/StaticImage" Name="Root/Dormitory/Tab/Tab 1/LoveBG/BG/LoveLevelBG/Level4" >
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="Image" Value="set:main13 image:Life" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.789474,0},{0,0},{1,0},{1,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/StaticImage" Name="Root/Dormitory/Tab/Tab 1/LoveBG/BG/LoveRank" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.649606,0},{0.043478,0},{0.875984,0},{0.757764,0}}" />
+                            <Window Type="DejaVu/StaticImage" Name="Root/Dormitory/Tab/Tab 1/LoveBG/BG/LoveRank/Image" >
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/Static" Name="Root/Dormitory/Tab/Tab 1/LoveBG/BG/LoveRank/BG" >
+                                <Property Name="AlwaysOnTop" Value="True" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.313043,0},{0.408696,0},{0.704348,0},{0.634783,0}}" />
+                                <Window Type="DejaVu/StaticImage" Name="Root/Dormitory/Tab/Tab 1/LoveBG/BG/LoveRank/BG/Num2" >
+                                    <Property Name="AlwaysOnTop" Value="True" />
+                                    <Property Name="Image" Value="set:main3 image:nine" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.6,0},{0.967742,0}}" />
+                                </Window>
+                                <Window Type="DejaVu/StaticImage" Name="Root/Dormitory/Tab/Tab 1/LoveBG/BG/LoveRank/BG/Num1" >
+                                    <Property Name="AlwaysOnTop" Value="True" />
+                                    <Property Name="Image" Value="set:main3 image:nine" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.36,0},{0,0},{0.96,0},{0.967742,0}}" />
+                                </Window>
+                                <Window Type="DejaVu/StaticImage" Name="Root/Dormitory/Tab/Tab 1/LoveBG/BG/LoveRank/BG/Num3" >
+                                    <Property Name="AlwaysOnTop" Value="True" />
+                                    <Property Name="Image" Value="set:main3 image:nine" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.18,0},{0,0},{0.78,0},{0.967742,0}}" />
+                                </Window>
+                            </Window>
+                        </Window>
+                    </Window>
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

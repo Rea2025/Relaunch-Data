@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/castingbarWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HorizontalAlignment" Value="Centre" />
+        <Property Name="MousePassThroughEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.716667,0},{0,240},{0.716667,80}}" />
+        <Window Type="DejaVu/StaticTextLab" Name="Root/castingbarWnd/TextName" >
+            <Property Name="BackgroundColours" Value="tl:11FFFFFF tr:11FFFFFF bl:11FFFFFF br:11FFFFFF" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="Text" Value="四個中文" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0625,0},{0.333333,0},{0.375,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticTextLab" Name="Root/castingbarWnd/TextTime" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Property Name="HorzFormatting" Value="WordWrapCentred" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="Text" Value="Time" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.6875,0},{0.583333,0},{0.9375,0}}" />
+        </Window>
+        <Window Type="DejaVu/ProgressBarBG" Name="Root/castingbarWnd/CastingBarBG" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.125,0},{0.4,0},{0.875,0},{0.575,0}}" />
+            <Window Type="DejaVu/ProgressBarCasting" Name="Root/castingbarWnd/CastingBarBG/runningbar" >
+                <Property Name="CurrentProgress" Value="0" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="StepSize" Value="0.01" />
+                <Property Name="UnifiedAreaRect" Value="{{0.027778,0},{0.266667,0},{0.977778,0},{0.766667,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/castingbarWnd/CastingBarBG/Tag" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="Image" Value="set:DejaVu image:LevelPoint" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{-0.133333,0},{0.0666667,0},{0.666667,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

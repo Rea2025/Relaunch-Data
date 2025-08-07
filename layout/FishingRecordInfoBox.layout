@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/Embed3" Name="FishingRecordInfoBox" >
+        <Property Name="UnifiedAreaRect" Value="{{0.02,0},{0.055158,0},{0.02,320},{0.055158,200}}" />
+        <Window Type="DejaVu/SlotImage" Name="FishingRecordInfoBox/FishIcon" >
+            <Property Name="UnifiedAreaRect" Value="{{0.045833,0},{0.048781,0},{0.189583,0},{0.278781,0}}" />
+        </Window>
+        <Window Type="DejaVu/EmbedText7" Name="FishingRecordInfoBox/FishNameTitle" >
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="Text" Value="x魚名" />
+            <Property Name="UnifiedAreaRect" Value="{{0.203125,0},{0.05,0},{0.4,0},{0.16,0}}" />
+        </Window>
+        <Window Type="DejaVu/Embed5" Name="FishingRecordInfoBox/FishName" >
+            <Property Name="Text" Value="      短尾針鯊" />
+            <Property Name="UnifiedAreaRect" Value="{{0.409375,0},{0.055,0},{0.896875,0},{0.16,0}}" />
+        </Window>
+        <Window Type="DejaVu/Embed5" Name="FishingRecordInfoBox/ProductionPlace" >
+            <Property Name="Text" Value="      斯坎地漁港" />
+            <Property Name="UnifiedAreaRect" Value="{{0.409375,0},{0.17,0},{0.896875,0},{0.275,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="FishingRecordInfoBox/Star1" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Image" Value="set:main9 image:FishStar1" />
+            <Property Name="UnifiedAreaRect" Value="{{0.059375,0},{0.3,0},{0.146875,0},{0.44,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="FishingRecordInfoBox/Star2" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Image" Value="set:main9 image:FishStar2" />
+            <Property Name="UnifiedAreaRect" Value="{{0.209375,0},{0.3,0},{0.296875,0},{0.44,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="FishingRecordInfoBox/Star3" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Image" Value="set:main9 image:FishStar3" />
+            <Property Name="UnifiedAreaRect" Value="{{0.3625,0},{0.3,0},{0.45,0},{0.44,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="FishingRecordInfoBox/Star4" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Image" Value="set:main9 image:FishStar4" />
+            <Property Name="UnifiedAreaRect" Value="{{0.5125,0},{0.3,0},{0.6,0},{0.44,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="FishingRecordInfoBox/Star5" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Image" Value="set:main9 image:FishStar5" />
+            <Property Name="UnifiedAreaRect" Value="{{0.665625,0},{0.3,0},{0.753125,0},{0.44,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticText" Name="FishingRecordInfoBox/MaxLength" >
+            <Property Name="Text" Value="x最大記錄：    78   cm" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0625,0},{0.425,0},{0.765625,0},{0.545,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticText" Name="FishingRecordInfoBox/Amount" >
+            <Property Name="Text" Value="x總捕獲數：    11   條" />
+            <Property Name="UnifiedAreaRect" Value="{{0.065625,0},{0.525,0},{0.75625,0},{0.645,0}}" />
+        </Window>
+        <Window Type="DejaVu/EmbedText7" Name="FishingRecordInfoBox/ProductionPlaceTitle" >
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="Text" Value="x產地" />
+            <Property Name="UnifiedAreaRect" Value="{{0.203125,0},{0.165,0},{0.4,0},{0.275,0}}" />
+        </Window>
+        <Window Type="DejaVu/Zframe2" Name="FishingRecordInfoBox/SelectFrame" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        </Window>
+        <Window Type="DejaVu/EmbedText2" Name="FishingRecordInfoBox/Describtion" >
+            <Property Name="AlwaysOnTop" Value="False" />
+            <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+            <Property Name="Text" Value="來自熱帶區域的遠洋迴游魚類，體力旺盛非常難以征服。" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0416667,0},{0.668293,0},{0.9625,0},{0.95122,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

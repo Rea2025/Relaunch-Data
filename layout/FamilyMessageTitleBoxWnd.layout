@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/Embed3" Name="FamilyMessageTitleBoxWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="MouseInputPropagationEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.050781,0},{0,338},{0.050781,80}}" />
+        <Window Type="DejaVu/Embed2" Name="FamilyMessageTitleBoxWnd/e2" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.236686,0},{0.125,0},{0.970414,0},{0.4375,0}}" />
+            <Window Type="DejaVu/StaticTextLab" Name="FamilyMessageTitleBoxWnd/e2/tt" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="一二三四五六七八九十一二三四五六..." />
+                <Property Name="UnifiedAreaRect" Value="{{0.120968,0},{0,0},{1,0},{1,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/EmbedTextLab4" Name="FamilyMessageTitleBoxWnd/e4t11" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="Text" Value="標題" />
+            <Property Name="UnifiedAreaRect" Value="{{0.029586,0},{0.125,0},{0.266272,0},{0.4375,0}}" />
+            <Window Type="DejaVu/StaticImage" Name="FamilyMessageTitleBoxWnd/e2/s11" >
+                <Property Name="Image" Value="set:DejaVu image:NoticeIcon" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.125,0},{0.24,0},{0.3125,0},{0.84,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Embed2" Name="FamilyMessageTitleBoxWnd/e21" >
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.236686,0},{0.5625,0},{0.56213,0},{0.875,0}}" />
+            <Window Type="DejaVu/StaticTextLab" Name="FamilyMessageTitleBoxWnd/e21/tt" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="一二三四五六" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0909091,0},{0,0},{1,0},{1,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/EmbedTextLab4" Name="FamilyMessageTitleBoxWnd/e4t1" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="Text" Value="會員名稱" />
+            <Property Name="UnifiedAreaRect" Value="{{0.029586,0},{0.5625,0},{0.266272,0},{0.875,0}}" />
+        </Window>
+        <Window Type="DejaVu/EmbedTextLab2" Name="FamilyMessageTitleBoxWnd/e2tt" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="Text" Value="08/18 19:05:30" />
+            <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+            <Property Name="UnifiedAreaRect" Value="{{0.591716,0},{0.5625,0},{0.970414,0},{0.875,0}}" />
+        </Window>
+        <Window Type="DejaVu/Zframe2" Name="FamilyMessageTitleBoxWnd/SelectFrame" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

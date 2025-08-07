@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/NotifyWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="MousePassThroughEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Window Type="DejaVu/StaticTextLab" Name="Root/NotifyWnd/Detail" >
+            <Property Name="Font" Value="F001-24" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="Text" Value="1234detail" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,128},{1,0},{0,192}}" />
+        </Window>
+        <Window Type="DejaVu/StaticTextLab" Name="Root/NotifyWnd/Edit" >
+            <Property Name="Font" Value="F001-12" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="Text" Value="1234edit" />
+            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.188802,0},{1,0},{0.272135,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticTextLab" Name="Root/NotifyWnd/Message" >
+            <Property Name="Font" Value="F001-24" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="Text" Value="1234message" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.25,0},{1,0},{0.5,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/NotifyWnd/Left" >
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.5,-192},{0.375,-64},{0.5,0},{0.375,64}}" />
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/NotifyWnd/Right" >
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0.375,-64},{0.5,191},{0.375,64}}" />
+        </Window>
+        <Window Type="DejaVu/StaticTextLab" Name="Root/NotifyWnd/MessageDetail" >
+            <Property Name="Font" Value="F001-12" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="Text" Value="1234MessageDetail" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.410084,0},{1,0},{0.463866,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/NotifyWnd/BattleImage" >
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,256},{0,192}}" />
+            <Property Name="VerticalAlignment" Value="Centre" />
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/NotifyWnd/Dice" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.17038,0},{0.0625,0},{0.254259,0}}" />
+            <Property Name="VerticalAlignment" Value="Centre" />
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/NotifyWnd/Middle" >
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,256},{0,192}}" />
+        </Window>
+        <Window Type="DejaVu/Static" Name="Root/NotifyWnd/BattleText" >
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.136719,0},{1,0},{0.209636,0}}" />
+            <Window Type="DejaVu/StaticImage" Name="Root/NotifyWnd/BattleTextBG" >
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="Image" Value="set:main3 image:StepBG" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.15625,0},{0.948276,0}}" />
+                <Window Type="DejaVu/StaticText" Name="Root/NotifyWnd/BattleText/Text" >
+                    <Property Name="Font" Value="F001-20" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="Text" Value="離開戰鬥" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="Root/NotifyWnd/Text" >
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.136719,0},{1,0},{0.209635,0}}" />
+            <Window Type="DejaVu/StaticImage" Name="Root/NotifyWnd/TextBG" >
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="Image" Value="set:main3 image:StepBG" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.3125,0},{0.948276,0}}" />
+                <Window Type="DejaVu/StaticText" Name="Root/NotifyWnd/Text/Text" >
+                    <Property Name="Font" Value="F001-20" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="Text" Value="1234text" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

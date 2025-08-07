@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/EquipEvoWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="TitlebarImage" Value="set:main image:Produce" />
+        <Property Name="UnifiedAreaRect" Value="{{0.201172,0},{0.134115,0},{0.201172,631},{0.134115,530}}" />
+        <Window Type="DejaVu/Embed" Name="Root/EquipEvoWnd/Embed" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Static" Name="Root/EquipEvoWnd/Embed/Static" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.01626,0},{0.022222,0},{0.98374,0},{0.908889,0}}" />
+                <Window Type="DejaVu/Embed2" Name="Root/EquipEvoWnd/Embed/Static/Embed2" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.025063,0},{1,0},{1,0}}" />
+                    <Window Type="DejaVu/Embed2" Name="Root/Embed21" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.495798,0},{0.064267,0},{0.983193,0},{0.596401,0}}" />
+                        <Window Type="DejaVu/EmbedTextLab7" Name="Root/EquipEvoWnd/LevelTitle" >
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="x星等" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.155172,0},{0.830918,0},{0.431034,0},{0.951691,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticImage" Name="Root/Embed21/Imgs" >
+                            <Property Name="Image" Value="set:main2 image:MagicStoneUpgrateBG" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0344828,0},{0.227053,0},{0.965517,0},{0.661836,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Static" Name="Root/Embed21/Static" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.103448,0},{0.202899,0},{0.896552,0},{0.782609,0}}" />
+                            <Window Type="DejaVu/EmbedTextLab2" Name="Root/EquipEvoWnd/EquipName" >
+                                <Property Name="Text" Value="x請放入欲進行星等強化的裝備" />
+                                <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.791667,0},{1,0},{1,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/StaticImage" Name="Root/EquipEvoWnd/Flash" >
+                                <Property Name="HorizontalAlignment" Value="Centre" />
+                                <Property Name="Image" Value="set:main2 image:Light" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.434783,0},{0.833333,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/SlotImage" Name="Root/EquipEvoWnd/EquipSlot" >
+                                <Property Name="AlwaysOnTop" Value="True" />
+                                <Property Name="HorizontalAlignment" Value="Centre" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.241667,0},{0.182609,0},{0.591667,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/Embed2" Name="Root/EquipEvoWnd/Embed/LevelBG" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.431034,0},{0.830918,0},{0.844828,0},{0.951691,0}}" />
+                            <Window Type="DejaVu/StaticImage" Name="Root/EquipEvoWnd/LevelBG/Star1" >
+                                <Property Name="Image" Value="set:main2 image:StarGoldEmpty" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.041667,0},{0.08,0},{0.208334,0},{0.88,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/StaticImage" Name="Root/EquipEvoWnd/LevelBG/Star2" >
+                                <Property Name="Image" Value="set:main2 image:StarGoldEmpty" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.208333,0},{0.08,0},{0.375,0},{0.88,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/StaticImage" Name="Root/EquipEvoWnd/LevelBG/Star3" >
+                                <Property Name="Image" Value="set:main2 image:StarGoldEmpty" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.375,0},{0.08,0},{0.541667,0},{0.88,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/StaticImage" Name="Root/EquipEvoWnd/LevelBG/Star4" >
+                                <Property Name="Image" Value="set:main2 image:StarGoldEmpty" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.541667,0},{0.08,0},{0.708334,0},{0.88,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/StaticImage" Name="Root/EquipEvoWnd/LevelBG/Star5" >
+                                <Property Name="Image" Value="set:main2 image:StarGoldEmpty" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.708333,0},{0.08,0},{0.875,0},{0.88,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/EmbedTextLab7" Name="Root/EquipEvoWnd/EvoTitle" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="x星級進化" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.006897,0},{0.009662,0},{0.993104,0},{0.130435,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Embed2" Name="Root/EquipEvoWnd/MaterialBG" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.495798,0},{0.724936,0},{0.983193,0},{0.974293,0}}" />
+                        <Window Type="DejaVu/SlotImage" Name="Root/EquipEvoWnd/MaterialSlot" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="HorizontalAlignment" Value="Centre" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.103093,0},{0.144828,0},{0.536083,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/EmbedTextLab2" Name="Root/EquipEvoWnd/MaterialName" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="HorizontalAlignment" Value="Centre" />
+                            <Property Name="Text" Value="x請放入材料裝備" />
+                            <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.639175,0},{0.793103,0},{0.896907,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/EquipEvoWnd/Embed/Static/Embed2/Arrow" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Image" Value="set:main image:EquipmentEvoArrow" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.571429,0},{0.609254,0},{0.907563,0},{0.712082,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Embed2" Name="Root/EquipEvoWnd/Embed/Static/Embed2/AbilityBG" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.016807,0},{0.064267,0},{0.487395,0},{0.974293,0}}" />
+                        <Window Type="DejaVu/Static" Name="Root/EquipEvoWnd/Embed/Static/Embed2/AbilityBG/Static" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.007143,0},{0.00565,0},{0.992857,0},{0.429379,0}}" />
+                            <Window Type="DejaVu/EmbedTextLab7" Name="Root/EquipEvoWnd/ListLevelTitle" >
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="HorzFormatting" Value="HorzCentred" />
+                                <Property Name="Text" Value="x星等" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.289855,0},{0.166667,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/EmbedTextLab7" Name="Root/EquipEvoWnd/ListAtkTitle" >
+                                <Property Name="HorzFormatting" Value="HorzCentred" />
+                                <Property Name="Text" Value="x額外傷害值" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.289855,0},{0,0},{0.644927,0},{0.166667,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/EmbedTextLab7" Name="Root/EquipEvoWnd/ListHpTitle" >
+                                <Property Name="HorzFormatting" Value="HorzCentred" />
+                                <Property Name="Text" Value="x額外HP值" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.644928,0},{0,0},{1,0},{0.166667,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/Static" Name="Root/EquipEvoWnd/Embed/Static/Embed2/AbilityBG/Static/List" >
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.166667,0},{1,0},{0.333334,0}}" />
+                                <Window Type="DejaVu/EmbedTextLab2" Name="Root/EquipEvoWnd/List/Star1/AtkText" >
+                                    <Property Name="Font" Value="F001-9" />
+                                    <Property Name="Text" Value="555" />
+                                    <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.289855,0},{0,0},{0.644927,0},{1,0}}" />
+                                </Window>
+                                <Window Type="DejaVu/EmbedTextLab2" Name="Root/EquipEvoWnd/List/Star1/HpText" >
+                                    <Property Name="Text" Value="555" />
+                                    <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.644928,0},{0,0},{1,0},{1,0}}" />
+                                </Window>
+                                <Window Type="DejaVu/Embed2" Name="Root/EquipEvoWnd/Embed/Static/Embed2/AbilityBG/Static/List/Star" >
+                                    <Property Name="Font" Value="F001-9" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.289855,0},{1,0}}" />
+                                    <Window Type="DejaVu/StaticImage" Name="Root/EquipEvoWnd/List/Star1/Image" >
+                                        <Property Name="Font" Value="F001-9" />
+                                        <Property Name="Image" Value="set:main2 image:StarGold" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.0625,0},{0.08,0},{0.3125,0},{0.88,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/StaticTextLab" Name="Root/EquipEvoWnd/List/Star1/LevelText" >
+                                        <Property Name="Font" Value="F001-9" />
+                                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                                        <Property Name="Text" Value="1" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.3125,0},{0,0},{0.8125,0},{1,0}}" />
+                                    </Window>
+                                </Window>
+                            </Window>
+                            <Window Type="DejaVu/Static" Name="Root/EquipEvoWnd/Embed/Static/Embed2/AbilityBG/Static/List1" >
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.333333,0},{1,0},{0.5,0}}" />
+                                <Window Type="DejaVu/EmbedTextLab2" Name="Root/EquipEvoWnd/List/Star2/AtkText" >
+                                    <Property Name="Text" Value="555" />
+                                    <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.289855,0},{0,0},{0.644927,0},{1,0}}" />
+                                </Window>
+                                <Window Type="DejaVu/EmbedTextLab2" Name="Root/EquipEvoWnd/List/Star2/HpText" >
+                                    <Property Name="Text" Value="555" />
+                                    <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.644928,0},{0,0},{1,0},{1,0}}" />
+                                </Window>
+                                <Window Type="DejaVu/Embed2" Name="Root/EquipEvoWnd/Embed/Static/Embed2/AbilityBG/Static/List/Star1" >
+                                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.289855,0},{1,0}}" />
+                                    <Window Type="DejaVu/StaticImage" Name="Root/EquipEvoWnd/List/Star2/Image" >
+                                        <Property Name="Image" Value="set:main2 image:StarGold" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.0625,0},{0.08,0},{0.3125,0},{0.88,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/StaticTextLab" Name="Root/EquipEvoWnd/List/Star2/LevelText" >
+                                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                                        <Property Name="Text" Value="2" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.3125,0},{0,0},{0.8125,0},{1,0}}" />
+                                    </Window>
+                                </Window>
+                            </Window>
+                            <Window Type="DejaVu/Static" Name="Root/EquipEvoWnd/Embed/Static/Embed2/AbilityBG/Static/List2" >
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.5,0},{1,0},{0.666667,0}}" />
+                                <Window Type="DejaVu/EmbedTextLab2" Name="Root/EquipEvoWnd/List/Star3/AtkText" >
+                                    <Property Name="Text" Value="555" />
+                                    <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.289855,0},{0,0},{0.644927,0},{1,0}}" />
+                                </Window>
+                                <Window Type="DejaVu/EmbedTextLab2" Name="Root/EquipEvoWnd/List/Star3/HpText" >
+                                    <Property Name="Text" Value="555" />
+                                    <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.644928,0},{0,0},{1,0},{1,0}}" />
+                                </Window>
+                                <Window Type="DejaVu/Embed2" Name="Root/EquipEvoWnd/Embed/Static/Embed2/AbilityBG/Static/List/Star2" >
+                                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.289855,0},{1,0}}" />
+                                    <Window Type="DejaVu/StaticImage" Name="Root/EquipEvoWnd/List/Star3/Image" >
+                                        <Property Name="Image" Value="set:main2 image:StarGoldEmpty" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.0625,0},{0.08,0},{0.3125,0},{0.88,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/StaticTextLab" Name="Root/EquipEvoWnd/List/Star3/LevelText" >
+                                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                                        <Property Name="Text" Value="3" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.3125,0},{0,0},{0.8125,0},{1,0}}" />
+                                    </Window>
+                                </Window>
+                            </Window>
+                            <Window Type="DejaVu/Static" Name="Root/EquipEvoWnd/Embed/Static/Embed2/AbilityBG/Static/List3" >
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.666667,0},{1,0},{0.833334,0}}" />
+                                <Window Type="DejaVu/EmbedTextLab2" Name="Root/EquipEvoWnd/List/Star4/AtkText" >
+                                    <Property Name="Text" Value="555" />
+                                    <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.289855,0},{0,0},{0.644927,0},{1,0}}" />
+                                </Window>
+                                <Window Type="DejaVu/EmbedTextLab2" Name="Root/EquipEvoWnd/List/Star4/HpText" >
+                                    <Property Name="Text" Value="555" />
+                                    <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.644928,0},{0,0},{1,0},{1,0}}" />
+                                </Window>
+                                <Window Type="DejaVu/Embed2" Name="Root/EquipEvoWnd/Embed/Static/Embed2/AbilityBG/Static/List/Star3" >
+                                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.289855,0},{1,0}}" />
+                                    <Window Type="DejaVu/StaticImage" Name="Root/EquipEvoWnd/List/Star4/Image" >
+                                        <Property Name="Image" Value="set:main2 image:StarGoldEmpty" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.0625,0},{0.08,0},{0.3125,0},{0.88,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/StaticTextLab" Name="Root/EquipEvoWnd/List/Star4/LevelText" >
+                                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                                        <Property Name="Text" Value="4" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.3125,0},{0,0},{0.8125,0},{1,0}}" />
+                                    </Window>
+                                </Window>
+                            </Window>
+                            <Window Type="DejaVu/Static" Name="Root/EquipEvoWnd/Embed/Static/Embed2/AbilityBG/Static/List4" >
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.833333,0},{1,0},{1,0}}" />
+                                <Window Type="DejaVu/EmbedTextLab2" Name="Root/EquipEvoWnd/List/Star5/AtkText" >
+                                    <Property Name="Text" Value="555" />
+                                    <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.289855,0},{0,0},{0.644927,0},{1,0}}" />
+                                </Window>
+                                <Window Type="DejaVu/EmbedTextLab2" Name="Root/EquipEvoWnd/List/Star5/HpText" >
+                                    <Property Name="Text" Value="555" />
+                                    <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.644928,0},{0,0},{1,0},{1,0}}" />
+                                </Window>
+                                <Window Type="DejaVu/Embed2" Name="Root/EquipEvoWnd/Embed/Static/Embed2/AbilityBG/Static/List/Star4" >
+                                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.289855,0},{1,0}}" />
+                                    <Window Type="DejaVu/StaticImage" Name="Root/EquipEvoWnd/List/Star5/Image" >
+                                        <Property Name="Image" Value="set:main2 image:StarGoldEmpty" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.0625,0},{0.08,0},{0.3125,0},{0.88,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/StaticTextLab" Name="Root/EquipEvoWnd/List/Star5/LevelText" >
+                                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                                        <Property Name="Text" Value="5" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.3125,0},{0,0},{0.8125,0},{1,0}}" />
+                                    </Window>
+                                </Window>
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/EmbedTextLab7" Name="Root/EquipEvoWnd/IntroTitle" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="x說明" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.00714286,0},{0.429379,0},{0.992857,0},{0.5,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticText" Name="Root/EquipEvoWnd/IntroText" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                            <Property Name="LinespaceWindow" Value="True" />
+                            <Property Name="Text" >x星等加成數值屬於額外加成數值，即該裝備原本未擁有的數值仍然可以獲得加成。
+
+※只有與欲進化的裝備「同星等的裝備」或是對應星等的「啟源晶體」才能夠當作進化材料。</Property>
+                            <Property Name="UnifiedAreaRect" Value="{{0.035714,0},{0.514124,0},{0.964285,0},{0.971751,0}}" />
+                            <Property Name="VertFormatting" Value="TopAligned" />
+                        </Window>
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed4" Name="Root/EquipEvoWnd/Embed/Static/Title" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.016807,0},{0,0},{0.268908,0},{0.0626566,0}}" />
+                    <Window Type="DejaVu/StaticImage" Name="Root/EquipEvoWnd/Embed/Static/Title/Img" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Image" Value="set:DejaVu image:Image23" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/EquipEvoWnd/EquipTitle" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="x裝備進化" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.2,0},{0.866667,0},{0.8,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/EquipEvoWnd/EvoBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="Text" Value="x進化" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{-0.0222222,0},{0.123577,0},{0.0355556,0}}" />
+                <Property Name="VerticalAlignment" Value="Bottom" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

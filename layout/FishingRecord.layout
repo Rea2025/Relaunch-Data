@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/Embed" Name="FishingRecord" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.00124804,0},{0.00495868,0},{0.00124804,789},{0.00495868,540}}" />
+        <Window Type="DejaVu/Embed2" Name="FishingRecord/RecordInfo" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0184291,0},{0.115588,0},{0.0184291,514},{0.115588,469}}" />
+            <Window Type="DejaVu/VerticalScrollbar" Name="FishingRecord/RecordInfo/VScrollBar" >
+                <Property Name="DocumentSize" Value="1" />
+                <Property Name="OverlapSize" Value="0" />
+                <Property Name="PageSize" Value="0" />
+                <Property Name="ScrollPosition" Value="0" />
+                <Property Name="StepSize" Value="1" />
+                <Property Name="UnifiedAreaRect" Value="{{0.96788,0},{-0.00221271,0},{0.993172,0},{0.997785,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/StaticText" Name="FishingRecord/CollectProgress" >
+            <Property Name="Text" Value="x攻略數   12/120" />
+            <Property Name="UnifiedAreaRect" Value="{{0.781793,0},{0.0307839,0},{0.781793,148},{0.0307839,37}}" />
+        </Window>
+        <Window Type="DejaVu/Combobox" Name="FishingRecord/RegionSelect" >
+            <Property Name="MaxEditTextLength" Value="2147483647" />
+            <Property Name="Text" Value="選擇地區" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0192678,0},{0.0440613,0},{0.333647,0},{0.0977011,0}}" />
+        </Window>
+        <Window Type="DejaVu/RadioButton" Name="FishingRecord/RadioButton" >
+            <Property Name="Text" Value="x只顯示未開啟圖鑑" />
+            <Property Name="UnifiedAreaRect" Value="{{0.479252,0},{0.0441098,0},{0.707873,0},{0.0920022,0}}" />
+        </Window>
+        <Window Type="DejaVu/Embed2" Name="FishingRecord/FishInfo" >
+            <Property Name="UnifiedAreaRect" Value="{{0.681755,0},{0.114286,0},{0.667178,249},{0.114286,469}}" />
+            <Window Type="DejaVu/Embed2" Name="FishingRecord/FishInfo/Image" >
+                <Property Name="UnifiedAreaRect" Value="{{0.0421941,0},{0.0223714,0},{0.0421941,218},{0.0223714,255}}" />
+            </Window>
+            <Window Type="DejaVu/Embed5" Name="FishingRecord/FishInfo/FishName" >
+                <Property Name="Text" Value="      南洋鮪魚" />
+                <Property Name="UnifiedAreaRect" Value="{{0.240506,0},{0.577825,0},{0.240506,153},{0.577825,23}}" />
+            </Window>
+            <Window Type="DejaVu/Embed5" Name="FishingRecord/FishInfo/ProductionPlace" >
+                <Property Name="Text" Value="      日輪海岸" />
+                <Property Name="UnifiedAreaRect" Value="{{0.240506,0},{0.626866,0},{0.240506,153},{0.626866,23}}" />
+            </Window>
+            <Window Type="DejaVu/EmbedText7" Name="FishingRecord/FishInfo/FishNameTitle" >
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="魚名" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0421941,0},{0.573561,0},{0.0421941,47},{0.573561,24}}" />
+            </Window>
+            <Window Type="DejaVu/EmbedText7" Name="FishingRecord/FishInfo/ProductionPlaceTitle" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="產地" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0421941,0},{0.628998,0},{0.0421941,47},{0.628998,24}}" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="FishingRecord/FishInfo/Star1" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="NormalImage" Value="set:main2 image:StarGold" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0632911,0},{0.688699,0},{0.0632911,30},{0.688699,31}}" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="FishingRecord/FishInfo/Star2" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="NormalImage" Value="set:main2 image:StarGold" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0632911,0},{0.748401,0},{0.0632911,30},{0.748401,31}}" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="FishingRecord/FishInfo/Star3" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="NormalImage" Value="set:main2 image:StarGold" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0632911,0},{0.808102,0},{0.0632911,30},{0.808102,31}}" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="FishingRecord/FishInfo/Star4" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="NormalImage" Value="set:main2 image:StarGold" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0632911,0},{0.867804,0},{0.0632911,30},{0.867804,31}}" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="FishingRecord/FishInfo/Star5" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="NormalImage" Value="set:main2 image:StarGold" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0632911,0},{0.927505,0},{0.0632911,30},{0.927505,31}}" />
+            </Window>
+            <Window Type="DejaVu/Embed5" Name="FishingRecord/FishInfo/Star1Range" >
+                <Property Name="UnifiedAreaRect" Value="{{0.240506,0},{0.69936,0},{0.240506,153},{0.69936,23}}" />
+            </Window>
+            <Window Type="DejaVu/Embed5" Name="FishingRecord/FishInfo/Star2Range" >
+                <Property Name="UnifiedAreaRect" Value="{{0.240506,0},{0.759062,0},{0.240506,153},{0.759062,23}}" />
+            </Window>
+            <Window Type="DejaVu/Embed5" Name="FishingRecord/FishInfo/Star3Range" >
+                <Property Name="UnifiedAreaRect" Value="{{0.240506,0},{0.818763,0},{0.240506,153},{0.818763,23}}" />
+            </Window>
+            <Window Type="DejaVu/Embed5" Name="FishingRecord/FishInfo/Star4Range" >
+                <Property Name="UnifiedAreaRect" Value="{{0.240506,0},{0.8742,0},{0.240506,153},{0.8742,23}}" />
+            </Window>
+            <Window Type="DejaVu/Embed5" Name="FishingRecord/FishInfo/Star5Range" >
+                <Property Name="UnifiedAreaRect" Value="{{0.240506,0},{0.933902,0},{0.240506,153},{0.933902,23}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Embed4" Name="FishingRecord/RecordTitle" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="Text" Value="      x魚拓圖鑑" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0126743,0},{0.101852,0},{0.0126743,93},{0.101852,26}}" />
+            <Window Type="DejaVu/StaticImage" Name="FishingRecord/RecordTitle/Icon" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Image" Value="set:DejaVu image:Image03" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0537634,0},{0.153846,0},{0.0537634,18},{0.153846,19}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="MessageBoard/New" >
+        <Property Name="AlwaysOnTop" Value="True" />
+        <Property Name="Font" Value="F001-scale" />
+        <Property Name="HorizontalAlignment" Value="Centre" />
+        <Property Name="TitlebarEnabled" Value="False" />
+        <Property Name="TitlebarFont" Value="F001-scale" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,240},{0,366}}" />
+        <Property Name="VerticalAlignment" Value="Centre" />
+        <Window Type="DejaVu/Static" Name="MessageBoard/New/Title" >
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.03681,0},{0,203},{0.03681,54}}" />
+            <Window Type="DejaVu/Editbox" Name="MessageBoard/New/Title/Text" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="MaxTextLength" Value="30" />
+                <Property Name="NormalTextColour" Value="C8FFFFFF" />
+                <Property Name="SelectedTextColour" Value="FFFFFFFF" />
+                <Property Name="TextParsingEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0295567,0},{0.277778,0},{0.970443,0},{0.777778,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="MessageBoard/New/Content" >
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.257669,0},{0,204},{0.257669,244}}" />
+            <Window Type="DejaVu/Button" Name="MessageBoard/New/Content/Button/OK" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="ok" />
+                <Property Name="UnifiedAreaRect" Value="{{0.627451,0},{0.871901,0},{0.970588,0},{0.971074,0}}" />
+            </Window>
+            <Window Type="DejaVu/MultiLineEditbox" Name="MessageBoard/New/Content/Text" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="MaxTextLength" Value="451" />
+                <Property Name="NormalTextColour" Value="C8FFFFFF" />
+                <Property Name="SelectedTextColour" Value="FFFFFFFF" />
+                <Property Name="Text" >
+</Property>
+                <Property Name="TextParsingEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0294118,0},{0.0737705,0},{0.965686,0},{0.852459,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/StaticTextLab" Name="MessageBoard/New/Title/Label" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="Text" Value="Title" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0980392,0},{0,0},{0.446078,0},{0.0721003,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticTextLab" Name="MessageBoard/New/Content/Label" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="Text" Value="Content" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0980392,0},{0.220859,0},{0.441176,0},{0.294479,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

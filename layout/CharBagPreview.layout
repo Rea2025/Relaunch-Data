@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="CharBagPreview" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="TitlebarImage" Value="set:main image:BagNormal" />
+        <Property Name="UnifiedAreaRect" Value="{{0.291146,0},{0.32666,0},{0.291146,511},{0.32666,211}}" />
+        <Window Type="DejaVu/Embed" Name="CharBagPreview/Embed" >
+            <Property Name="ClippedByParent" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,495},{0,130}}" />
+            <Window Type="DejaVu/Embed" Name="CharBagPreview/Embed/TopPanel" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.020202,0},{0.016,0},{0.020202,475},{0.016,30}}" />
+                <Window Type="DejaVu/Button" Name="CharBagPreview/Embed/TopPanel/BagPageBtn1" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="x頁面1" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0526316,0},{0.133333,0},{0.212632,0},{1,0}}" />
+                </Window>
+                <Window Type="DejaVu/Button" Name="CharBagPreview/Embed/TopPanel/BagPageBtn2" >
+                    <Property Name="Text" Value="x頁面2" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.223158,0},{0.133333,0},{0.383158,0},{1,0}}" />
+                </Window>
+                <Window Type="DejaVu/Button" Name="CharBagPreview/Embed/TopPanel/BagPageBtn3" >
+                    <Property Name="Text" Value="x頁面3" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.393684,0},{0.133333,0},{0.553684,0},{1,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="CharBagPreview/Embed/TopPanel/BagText" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                    <Property Name="HorzFormatting" Value="RightAligned" />
+                    <Property Name="Text" Value="9999/9999" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.368421,0},{0.133333,0},{0.631579,0},{1,0}}" />
+                </Window>
+                <Window Type="DejaVu/Button" Name="CharBagPreview/Embed/TopPanel/BagPageBtn4" >
+                    <Property Name="Text" >x頁面4
+</Property>
+                    <Property Name="UnifiedAreaRect" Value="{{0.564211,0},{0.133333,0},{0.724211,0},{1,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="CharBagPreview/Embed/TopPanel/NextBtn" >
+                    <Property Name="DisabledImage" Value="set:DejaVu image:ArrowRightPressed" />
+                    <Property Name="HoverImage" Value="set:DejaVu image:ArrowRightHover" />
+                    <Property Name="NormalImage" Value="set:DejaVu image:ArrowRightNormal" />
+                    <Property Name="PushedImage" Value="set:DejaVu image:ArrowRightPressed" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.734737,0},{0.166667,0},{0.785263,0},{0.966667,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="CharBagPreview/Embed/TopPanel/LastBtn" >
+                    <Property Name="DisabledImage" Value="set:DejaVu image:ArrowLeftPressed" />
+                    <Property Name="HoverImage" Value="set:DejaVu image:ArrowLeftHover" />
+                    <Property Name="NormalImage" Value="set:DejaVu image:ArrowLeftNormal" />
+                    <Property Name="PushedImage" Value="set:DejaVu image:ArrowLeftPressed" />
+                    <Property Name="UnifiedAreaRect" Value="{{-0.0105263,0},{0.166667,0},{0.04,0},{0.966667,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed2" Name="CharBagPreview/Embed/SlotContainer" >
+                <Property Name="UnifiedAreaRect" Value="{{0.020202,0},{0.28,0},{0.020202,475},{0.28,1}}" />
+            </Window>
+            <Window Type="DejaVu/Embed" Name="CharBagPreview/Embed/DownPanel" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.010101,0},{0.32,0},{0.010101,485},{0.32,81}}" />
+                <Window Type="DejaVu/Static" Name="CharBagPreview/Embed/DownPanel/FunctionStatic" >
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0103093,0},{0,0},{0.507217,0},{0.938272,0}}" />
+                    <Property Name="VertFormatting" Value="VertCentred" />
+                    <Window Type="DejaVu/ImageButton" Name="CharBagPreview/Embed/DownPanel/FunctionStatic/ItemLockedBtn" >
+                        <Property Name="Font" Value="F001-scale" />
+                        <Property Name="HoverImage" Value="set:main image:GoldLockBtnHover" />
+                        <Property Name="NormalImage" Value="set:main image:GoldLockBtnNormal" />
+                        <Property Name="PushedImage" Value="set:main image:GoldLockBtnPressed" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.858921,0},{0.723684,0},{0.93361,0},{0.960526,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/ImageButton" Name="CharBagPreview/Embed/DownPanel/FunctionStatic/ItemUnlockBtn" >
+                        <Property Name="Font" Value="F001-scale" />
+                        <Property Name="HoverImage" Value="set:main image:UnGoldLockHover" />
+                        <Property Name="NormalImage" Value="set:main image:UnGoldLockNormal" />
+                        <Property Name="PushedImage" Value="set:main image:UnGoldLockPressed" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.925311,0},{0.723684,0},{1,0},{0.960526,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab7" Name="CharBagPreview/Embed/DownPanel/MoneyText" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="x持有金錢" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.515464,0},{0,0},{0.701031,0},{0.308642,0}}" />
+                </Window>
+                <Window Type="DejaVu/Embed2" Name="CharBagPreview/Embed/DownPanel/Money" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.701031,0},{0,0},{0.989691,0},{0.308642,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="CharBagPreview/Embed/DownPanel/Money/GoldText" >
+                        <Property Name="HorzFormatting" Value="RightAligned" />
+                        <Property Name="Text" Value="99999" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.071429,0},{0,0},{0.392858,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="CharBagPreview/Embed/DownPanel/Money/SliverText" >
+                        <Property Name="HorzFormatting" Value="RightAligned" />
+                        <Property Name="Text" Value="999" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.535714,0},{0,0},{0.75,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="CharBagPreview/Embed/DownPanel/Money/GoldIcon" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Image" Value="set:main image:Gold" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.428571,0},{0.2,0},{0.535714,0},{0.8,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="CharBagPreview/Embed/DownPanel/Money/SilverIcon" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Image" Value="set:main image:Silver" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.821429,0},{0.2,0},{0.928571,0},{0.8,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab7" Name="CharBagPreview/Embed/DownPanel/ScrapText" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="x啟源碎片" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.515464,0},{0.320988,0},{0.701031,0},{0.62963,0}}" />
+                </Window>
+                <Window Type="DejaVu/Embed2" Name="CharBagPreview/Embed/DownPanel/Scrap" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.701031,0},{0.320988,0},{0.989691,0},{0.62963,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="CharBagPreview/Embed/DownPanel/ScrapCoinText" >
+                        <Property Name="HorzFormatting" Value="RightAligned" />
+                        <Property Name="Text" Value="9999999" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.073271,0},{-0.014026,0},{0.751842,0},{0.985974,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="CharBagPreview/Embed/DownPanel/Scrap/ScrapIcon" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Image" Value="set:main image:Coin2" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.821429,0},{0.2,0},{0.928571,0},{0.8,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab7" Name="CharBagPreview/Embed/DownPanel/GiftText" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="x招待券" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.515464,0},{0.641975,0},{0.701031,0},{0.950617,0}}" />
+                </Window>
+                <Window Type="DejaVu/Embed2" Name="CharBagPreview/Embed/DownPanel/Gift" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.701031,0},{0.641975,0},{0.989691,0},{0.950617,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="CharBagPreview/Embed/DownPanel/Gift/GiftCoinText" >
+                        <Property Name="HorzFormatting" Value="RightAligned" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="Text" Value="9999999" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.071429,0},{0,0},{0.75,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="CharBagPreview/Embed/DownPanel/Gift/GiftCoin" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Image" Value="set:main image:Coin3" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.821429,0},{0.2,0},{0.928571,0},{0.8,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

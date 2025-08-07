@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="AchievementWndItem" >
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,245},{0,46}}" />
+        <Window Type="DejaVu/Embed12" Name="AchievementWndItem/Back" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Zframe2" Name="AchievementWndItem/Back/SelectFrame" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="ID" Value="4" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="AchievementWndItem/Back/Name" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                <Property Name="ID" Value="2" />
+                <Property Name="LinespaceWindow" Value="True" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="x任務名稱" />
+                <Property Name="UnifiedAreaRect" Value="{{0.163265,0},{0,0},{0.734694,0},{1,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="AchievementWndItem/Back/Icon" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0816327,0},{0.288889,0},{0.155102,0},{0.688889,0}}" />
+            </Window>
+            <Window Type="DejaVu/EmbedText2" Name="AchievementWndItem/Back/RankPoint" >
+                <Property Name="AlwaysOnTop" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+                <Property Name="UnifiedAreaRect" Value="{{0.767347,0},{0,0},{0.995918,0},{1,0}}" />
+            </Window>
+            <Window Type="DejaVu/EmbedTextLab2" Name="AchievementWndItem/Back/Back1" >
+                <Property Name="AlwaysOnTop" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.763265,0},{1,0}}" />
+            </Window>
+            <Window Type="DejaVu/Checkbox" Name="AchievementWndItem/Back/TraceCheck" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Selected" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0204082,0},{0.282609,0},{0.102041,0},{0.717391,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/CommonDlg" >
+        <Property Name="HorizontalAlignment" Value="Centre" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,480},{0,400}}" />
+        <Property Name="UnifiedMinSize" Value="{{0,237},{0,180}}" />
+        <Property Name="VerticalAlignment" Value="Centre" />
+        <Window Type="DejaVu/StaticTextLab" Name="Root/CommonDlg/MsgText" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorzFormatting" Value="WordWrapCentred" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0460493,0},{0.980238,0},{0.934368,0},{0.990435,0}}" />
+            <Property Name="Visible" Value="False" />
+        </Window>
+        <Window Type="DejaVu/Editbox" Name="Root/CommonDlg/EditBox" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="MaxTextLength" Value="16" />
+            <Property Name="NormalTextColour" Value="FFFFFFFF" />
+            <Property Name="TextParsingEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.18408,0},{0.525969,0},{0.81592,0},{0.704264,0}}" />
+            <Property Name="Visible" Value="False" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/CommonDlg/OKBtn" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="ClippedByParent" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.313743,0},{0.904899,0},{0.313743,70},{0.904899,24}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/CommonDlg/CloseBtn" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.533022,0},{0.904899,0},{0.533022,72},{0.904899,24}}" />
+        </Window>
+        <Window Type="DejaVu/Static" Name="Root/CommonDlg/static" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{-0.00254372,0},{-0.0213465,0},{0.997456,0},{0.0985219,0}}" />
+            <Window Type="DejaVu/Border" Name="Root/CommonDlg/static/border" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.034483,0},{0.047619,0},{0.965518,0},{0.555556,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/CommonDlg/CancelBtn" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="ClippedByParent" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.533022,0},{0.904899,0},{0.533022,70},{0.904899,24}}" />
+        </Window>
+        <Window Type="DejaVu/StaticTextLab" Name="Root/CommonDlg/AlignBG" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.315315,0},{0.720461,0},{0.315315,165},{0.720461,24}}" />
+            <Window Type="DejaVu/StaticText" Name="Root/CommonDlg/AlignBG/Title" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" Value=" x 戰場聲望 x" />
+                <Property Name="UnifiedAreaRect" Value="{{0.030303,0},{0.166667,0},{0.442424,0},{0.944444,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/CommonDlg/AlignBG/Number" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="Text" Value="9999999" />
+                <Property Name="UnifiedAreaRect" Value="{{0.49697,0},{0.166667,0},{0.909091,0},{0.944445,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/StaticTextLab" Name="Root/CommonDlg/CoinBG" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.315315,0},{0.789625,0},{0.315315,165},{0.789625,24}}" />
+            <Window Type="DejaVu/StaticTextLab" Name="Root/CommonDlg/CoinBG/Title" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" Value="x 戰場金幣 x" />
+                <Property Name="UnifiedAreaRect" Value="{{0.030303,0},{0.166667,0},{0.442424,0},{0.958333,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/CommonDlg/CoinBG/Icon" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Image" Value="set:DejaVuImage image:TerritoryCoins" />
+                <Property Name="UnifiedAreaRect" Value="{{0.448485,0},{0.166667,0},{0.987879,0},{0.958333,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/CommonDlg/CoinBG/Icon/Number" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="RightAligned" />
+                    <Property Name="Text" Value="999999" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.101124,0},{0,0},{0.842697,0},{1,0}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/StaticTextLab" Name="Root/CommonDlg/ExpBG" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.315315,0},{0.651297,0},{0.315315,165},{0.651297,24}}" />
+            <Window Type="DejaVu/StaticText" Name="Root/CommonDlg/ExpBG/Title" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" Value=" x 經驗值 x" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0317725,0},{0.166667,0},{0.443893,0},{0.944444,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/CommonDlg/ExpBG/Number" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="Text" Value="1" />
+                <Property Name="UnifiedAreaRect" Value="{{0.49697,0},{0.166667,0},{0.909091,0},{0.944445,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Border" Name="Root/CommonDlg/EnergyBG" >
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0172911,0},{1.00225,0},{0.645533,0}}" />
+            <Window Type="DejaVu/StaticText" Name="Root/CommonDlg/EnergyBG/CampTitle1" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="紅軍" />
+                <Property Name="UnifiedAreaRect" Value="{{0.281532,0},{0.0458716,0},{0.529279,0},{0.133028,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="Root/CommonDlg/EnergyBG/CampTitle2" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="藍軍" />
+                <Property Name="UnifiedAreaRect" Value="{{0.675676,0},{0.0458716,0},{0.925676,0},{0.133028,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="Root/CommonDlg/EnergyBG/BaseTitle" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="基礎得分" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.229358,0},{0.157658,0},{0.316514,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="Root/CommonDlg/EnergyBG/CrystalTitle1" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="柱子統計" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.412844,0},{0.157658,0},{0.5,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="Root/CommonDlg/EnergyBG/KillTitle" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="擊殺統計" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.59633,0},{0.157658,0},{0.683486,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="Root/CommonDlg/EnergyBG/TotalTitle" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="總計" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.825688,0},{0.157658,0},{0.912844,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="Root/CommonDlg/EnergyBG/Base1" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="233" />
+                <Property Name="UnifiedAreaRect" Value="{{0.236486,0},{0.229358,0},{0.574324,0},{0.316514,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="Root/CommonDlg/EnergyBG/Base2" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="250" />
+                <Property Name="UnifiedAreaRect" Value="{{0.630631,0},{0.229358,0},{0.968468,0},{0.316514,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="Root/CommonDlg/EnergyBG/Crystal1" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="4 x 50 = 500" />
+                <Property Name="UnifiedAreaRect" Value="{{0.236486,0},{0.412844,0},{0.574324,0},{0.5,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="Root/CommonDlg/EnergyBG/Crystal2" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="1 x 50 = 100" />
+                <Property Name="UnifiedAreaRect" Value="{{0.630631,0},{0.412844,0},{0.968468,0},{0.5,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="Root/CommonDlg/EnergyBG/Kill1" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="120 / 100 x 25 = 100" />
+                <Property Name="UnifiedAreaRect" Value="{{0.236486,0},{0.59633,0},{0.574324,0},{0.683486,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="Root/CommonDlg/EnergyBG/Kill2" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" >120 / 100 x 25 = 100
+</Property>
+                <Property Name="UnifiedAreaRect" Value="{{0.630631,0},{0.59633,0},{0.968468,0},{0.683486,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="Root/CommonDlg/EnergyBG/Total1" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="888" />
+                <Property Name="UnifiedAreaRect" Value="{{0.236486,0},{0.825688,0},{0.574324,0},{0.912844,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="Root/CommonDlg/EnergyBG/Total2" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="777" />
+                <Property Name="UnifiedAreaRect" Value="{{0.630631,0},{0.825688,0},{0.968468,0},{0.912844,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/TerritoryTimeWnd/PlayerNumBoard/lineImg" >
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.018018,0},{0.146789,0},{0.975225,0},{0.151376,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/TerritoryTimeWnd/PlayerNumBoard/lineImg1" >
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.018018,0},{0.779817,0},{0.977477,0},{0.784404,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

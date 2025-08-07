@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="drop" >
+        <Property Name="CloseButtonEnabled" Value="False" />
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="HorizontalAlignment" Value="Centre" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="TitlebarImage" Value="set:main image:SystemNormal" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,266},{0,241}}" />
+        <Property Name="VerticalAlignment" Value="Centre" />
+        <Window Type="DejaVu/Embed" Name="drop/frame" >
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Button" Name="drop/frame/confirm" >
+                <Property Name="Text" Value="xOK" />
+                <Property Name="UnifiedAreaRect" Value="{{0.04,0},{0.776398,0},{0.344,0},{0.937889,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="drop/frame/cancel" >
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="Text" Value="xCancel" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.776398,0},{0.304,0},{0.937888,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="drop/frame/close" >
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="Text" Value="xClose" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.04,0},{0.776398,0},{0.264,0},{0.937888,0}}" />
+            </Window>
+            <Window Type="DejaVu/Static" Name="drop/frame/bg" >
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="UnifiedAreaRect" Value="{{0.04,0},{0.062112,0},{0.96,0},{0.745342,0}}" />
+                <Window Type="DejaVu/Embed2" Name="drop/frame/frame" >
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    <Window Type="DejaVu/StaticText" Name="drop/frame/frame/text" >
+                        <Property Name="HorzFormatting" Value="WordWrapCentred" />
+                        <Property Name="LinespaceWindow" Value="True" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="Text" Value="是否要丟棄？" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.021739,0},{0.590909,0},{0.978261,0},{0.818182,0}}" />
+                        <Property Name="VertFormatting" Value="TopAligned" />
+                    </Window>
+                    <Window Type="DejaVu/StaticText" Name="drop/frame/frame/item_name" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HorizontalAlignment" Value="Centre" />
+                        <Property Name="HorzFormatting" Value="WordWrapCentred" />
+                        <Property Name="LinespaceWindow" Value="True" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="Text" >一二三四五六七八九十一二
+111111111111111111</Property>
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.227273,0},{0.956522,0},{0.587771,0}}" />
+                        <Property Name="VertFormatting" Value="TopAligned" />
+                    </Window>
+                    <Window Type="DejaVu/Editbox" Name="drop/frame/frame/Edit" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HorizontalAlignment" Value="Centre" />
+                        <Property Name="MaxTextLength" Value="200" />
+                        <Property Name="TextParsingEnabled" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.590909,0},{0.652174,0},{0.818182,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="drop/MsgLb" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorzFormatting" Value="WordWrapCentred" />
+                <Property Name="LinespaceWindow" Value="True" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.04,0},{0.062112,0},{0.96,0},{0.745342,0}}" />
+            </Window>
+			<Window Type="DejaVu/StaticText" Name="drop/frame/ps4hinttext" >
+                <Property Name="Font" Value="F001-12" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="O1234 X1234" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0558247,0},{0.778663,0},{0.947952,0},{0.964072,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

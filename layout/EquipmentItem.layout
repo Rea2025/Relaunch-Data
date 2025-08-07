@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/Embed4" Name="EquipmentItem" >
+        <Property Name="MousePassThroughEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,280},{0,55}}" />
+        <Window Type="DejaVu/SlotImage" Name="EquipmentItem/Icon" >
+            <Property Name="UnifiedAreaRect" Value="{{0.017699,0},{0,0},{0.181985,0},{0.836364,0}}" />
+            <Property Name="VerticalAlignment" Value="Centre" />
+        </Window>
+        <Window Type="DejaVu/StaticTextLab" Name="EquipmentItem/Name" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="Text" Value="一二三四五六七八九十一二" />
+            <Property Name="UnifiedAreaRect" Value="{{0.196429,0},{0.127273,0},{0.732143,0},{0.490909,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticTextLab" Name="EquipmentItem/Info" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="Text" Value="一二三四五六七八九十一二" />
+            <Property Name="UnifiedAreaRect" Value="{{0.196429,0},{-0.127273,0},{0.732143,0},{0.236363,0}}" />
+            <Property Name="VerticalAlignment" Value="Bottom" />
+        </Window>
+        <Window Type="DejaVu/EmbedTextLab3" Name="EquipmentItem/State" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="Text" Value="test" />
+            <Property Name="UnifiedAreaRect" Value="{{0.753425,0},{0,0},{0.960568,0},{0.545455,0}}" />
+            <Property Name="VerticalAlignment" Value="Centre" />
+        </Window>
+        <Window Type="DejaVu/Zframe" Name="EquipmentItem/SelectRect" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

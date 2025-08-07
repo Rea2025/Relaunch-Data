@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/PetDuelRecord" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="Text" Value="Title" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.292714,0},{0.0702341,0},{0.292714,270},{0.0702341,300}}" />
+        <Property Name="UnifiedMinSize" Value="{{0,0},{0,0}}" />
+        <Window Type="DejaVu/Static" Name="Root/PetDuelRecord/InfoStatic" >
+            <Property Name="UnifiedAreaRect" Value="{{0.017094,0},{0.027523,0},{0.995726,0},{0.553839,0}}" />
+            <Window Type="DejaVu/EmbedTextLab" Name="Root/PetDuelRecord/InfoStatic/DuelCountText" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0393013,0},{0.153846,0},{0.344978,0},{0.338462,0}}" />
+            </Window>
+            <Window Type="DejaVu/EmbedTextLab3" Name="Root/PetDuelRecord/InfoStatic/DuelCount" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.344978,0},{0.153846,0},{0.956332,0},{0.338462,0}}" />
+            </Window>
+            <Window Type="DejaVu/EmbedTextLab" Name="Root/PetDuelRecord/InfoStatic/WinCountText" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0393013,0},{0.338462,0},{0.344978,0},{0.523077,0}}" />
+            </Window>
+            <Window Type="DejaVu/EmbedTextLab3" Name="Root/PetDuelRecord/InfoStatic/WinCount" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.344978,0},{0.338462,0},{0.956332,0},{0.523077,0}}" />
+            </Window>
+            <Window Type="DejaVu/EmbedTextLab3" Name="Root/PetDuelRecord/InfoStatic/LoseCount" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.344978,0},{0.523077,0},{0.956332,0},{0.707692,0}}" />
+            </Window>
+            <Window Type="DejaVu/EmbedTextLab" Name="Root/PetDuelRecord/InfoStatic/LoseCountText" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0393013,0},{0.523077,0},{0.344978,0},{0.707692,0}}" />
+            </Window>
+            <Window Type="DejaVu/EmbedTextLab" Name="Root/PetDuelRecord/InfoStatic/RankMonthlyText" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="abcdef" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0393013,0},{0.707692,0},{0.279476,0},{0.892308,0}}" />
+            </Window>
+            <Window Type="DejaVu/EmbedTextLab" Name="Root/PetDuelRecord/InfoStatic/RankDailyText" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.497817,0},{0.708333,0},{0.737991,0},{0.908333,0}}" />
+            </Window>
+            <Window Type="DejaVu/EmbedTextLab3" Name="Root/PetDuelRecord/InfoStatic/RankMonthly" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="12346" />
+                <Property Name="UnifiedAreaRect" Value="{{0.279476,0},{0.708333,0},{0.497817,0},{0.908333,0}}" />
+            </Window>
+            <Window Type="DejaVu/EmbedTextLab3" Name="Root/PetDuelRecord/InfoStatic/RankDaily" >
+                <Property Name="Text" Value="12346" />
+                <Property Name="UnifiedAreaRect" Value="{{0.737991,0},{0.708333,0},{0.956332,0},{0.908333,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/zStaticLab" Name="Root/PetDuelRecord/InfoTitle" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0854701,0},{0,0},{0.384615,0},{0.097166,0}}" />
+        </Window>
+        <Window Type="DejaVu/Static" Name="Root/PetDuelRecord/DeclareStatic" >
+            <Property Name="UnifiedAreaRect" Value="{{0.017094,0},{0.62753,0},{0.991453,0},{0.97166,0}}" />
+            <Window Type="DejaVu/Button" Name="Root/PetDuelRecord/DeclareStatic/SetBtn" >
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="Text" Value="x12345678" />
+                <Property Name="UnifiedAreaRect" Value="{{0.631579,0},{0.647059,0},{0.960526,0},{0.952941,0}}" />
+            </Window>
+            <Window Type="DejaVu/Editbox" Name="Root/PetDuelRecord/DeclareStatic/DeclareInput" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="MaxTextLength" Value="60" />
+                <Property Name="NormalTextColour" Value="FFFFFFFF" />
+                <Property Name="Text" Value="ddddd" />
+                <Property Name="TextParsingEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.035088,0},{0.235294,0},{0.956141,0},{0.564706,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/zStaticLab" Name="Root/PetDuelRecord/DeclareTitle" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0854701,0},{0.587045,0},{0.384615,0},{0.684211,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/AdventureEnchant" >
+        <Property Name="Font" Value="F001-scale" />
+        <Property Name="HelpButtonEnabled" Value="True" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-scale" />
+        <Property Name="TitlebarImage" Value="set:main image:TravelPoint" />
+        <Property Name="UnifiedAreaRect" Value="{{0.366211,0},{0.252604,0},{0.366211,420},{0.252604,416}}" />
+        <Window Type="DejaVu/Embed" Name="Root/AdventureEnchant/BG" >
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Static" Name="Root/AdventureEnchant/BG/Static" >
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="UnifiedAreaRect" Value="{{0.024752,0},{0.029762,0},{0.975247,0},{0.877976,0}}" />
+                <Window Type="DejaVu/Embed2" Name="Root/AdventureEnchant/BG/Static/BG" >
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.035088,0},{1,0},{1,0}}" />
+                    <Window Type="DejaVu/EmbedText2" Name="Root/AdventureEnchant/Context" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="LinespaceWindow" Value="True" />
+                        <Property Name="Text" >x玩家可以學習各種冒險特質，並使角色獲得增益效果。
+x請選擇要學習的冒險特質：</Property>
+                        <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.026042,0},{0.090909,0},{0.973959,0},{0.254545,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Embed2" Name="Root/AdventureEnchant/BG/Static/BG/SlotBG" >
+                        <Property Name="Font" Value="F001-scale" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0260417,0},{0.272727,0},{0.973958,0},{0.963636,0}}" />
+                        <Window Type="DejaVu/Static" Name="Root/AdventureEnchant/BG/Static/BG/SlotBG/Static" >
+                            <Property Name="Font" Value="F001-scale" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.005495,0},{0.010526,0},{0.994506,0},{0.989473,0}}" />
+                            <Window Type="DejaVu/Embed3" Name="Root/AdventureEnchant/Slot1" >
+                                <Property Name="Font" Value="F001-scale" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.5,0},{0.333333,0}}" />
+                                <Window Type="DejaVu/StaticText" Name="Root/AdventureEnchant/Slot1/Name" >
+                                    <Property Name="AlwaysOnTop" Value="True" />
+                                    <Property Name="Font" Value="F001-9" />
+                                    <Property Name="MousePassThroughEnabled" Value="True" />
+                                    <Property Name="Text" Value="x一般技能" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.344444,0},{0.258065,0},{0.944444,0},{0.741936,0}}" />
+                                </Window>
+                                <Window Type="DejaVu/Zframe2" Name="Root/AdventureEnchant/Slot1/Brush" >
+                                    <Property Name="Font" Value="F001-scale" />
+                                    <Property Name="MousePassThroughEnabled" Value="True" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                </Window>
+                                <Window Type="DejaVu/SlotImage" Name="Root/AdventureEnchant/Slot1/Icon" >
+                                    <Property Name="AlwaysOnTop" Value="True" />
+                                    <Property Name="Font" Value="F001-scale" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.055556,0},{0.16129,0},{0.288889,0},{0.838709,0}}" />
+                                    <Window Type="DejaVu/SlotImageItem" Name="Root/AdventureEnchant/Slot1/Icon/Image" >
+                                        <Property Name="Font" Value="F001-scale" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                    </Window>
+                                </Window>
+                            </Window>
+                            <Window Type="DejaVu/Embed3" Name="Root/AdventureEnchant/Slot2" >
+                                <Property Name="Font" Value="F001-scale" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0,0},{1,0},{0.333333,0}}" />
+                                <Window Type="DejaVu/SlotImage" Name="Root/AdventureEnchant/Slot2/Icon" >
+                                    <Property Name="AlwaysOnTop" Value="True" />
+                                    <Property Name="Font" Value="F001-scale" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.055556,0},{0.16129,0},{0.288889,0},{0.838709,0}}" />
+                                    <Window Type="DejaVu/SlotImageItem" Name="Root/AdventureEnchant/Slot2/Icon/Image" >
+                                        <Property Name="Font" Value="F001-scale" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                    </Window>
+                                </Window>
+                                <Window Type="DejaVu/StaticText" Name="Root/AdventureEnchant/Slot2/Name" >
+                                    <Property Name="AlwaysOnTop" Value="True" />
+                                    <Property Name="MousePassThroughEnabled" Value="True" />
+                                    <Property Name="Text" Value="x一般技能" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.344444,0},{0.258065,0},{0.944444,0},{0.741936,0}}" />
+                                </Window>
+                                <Window Type="DejaVu/Zframe2" Name="Root/AdventureEnchant/Slot2/Brush" >
+                                    <Property Name="Font" Value="F001-scale" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                </Window>
+                            </Window>
+                            <Window Type="DejaVu/Embed3" Name="Root/AdventureEnchant/Slot3" >
+                                <Property Name="Font" Value="F001-scale" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.333333,0},{0.5,0},{0.666667,0}}" />
+                                <Window Type="DejaVu/SlotImage" Name="Root/AdventureEnchant/Slot3/Icon" >
+                                    <Property Name="AlwaysOnTop" Value="True" />
+                                    <Property Name="Font" Value="F001-scale" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.055556,0},{0.16129,0},{0.288889,0},{0.838709,0}}" />
+                                    <Window Type="DejaVu/SlotImageItem" Name="Root/AdventureEnchant/Slot3/Icon/Image" >
+                                        <Property Name="Font" Value="F001-scale" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                    </Window>
+                                </Window>
+                                <Window Type="DejaVu/StaticText" Name="Root/AdventureEnchant/Slot3/Name" >
+                                    <Property Name="AlwaysOnTop" Value="True" />
+                                    <Property Name="MousePassThroughEnabled" Value="True" />
+                                    <Property Name="Text" Value="x一般技能" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.344444,0},{0.258065,0},{0.944444,0},{0.741936,0}}" />
+                                </Window>
+                                <Window Type="DejaVu/Zframe2" Name="Root/AdventureEnchant/Slot3/Brush" >
+                                    <Property Name="Font" Value="F001-scale" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                </Window>
+                            </Window>
+                            <Window Type="DejaVu/Embed3" Name="Root/AdventureEnchant/Slot4" >
+                                <Property Name="Font" Value="F001-scale" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0.333333,0},{1,0},{0.666667,0}}" />
+                                <Window Type="DejaVu/SlotImage" Name="Root/AdventureEnchant/Slot4/Icon" >
+                                    <Property Name="AlwaysOnTop" Value="True" />
+                                    <Property Name="Font" Value="F001-scale" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.055556,0},{0.16129,0},{0.288889,0},{0.838709,0}}" />
+                                    <Window Type="DejaVu/SlotImageItem" Name="Root/AdventureEnchant/Slot4/Icon/Image" >
+                                        <Property Name="Font" Value="F001-scale" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                    </Window>
+                                </Window>
+                                <Window Type="DejaVu/StaticText" Name="Root/AdventureEnchant/Slot4/Name" >
+                                    <Property Name="AlwaysOnTop" Value="True" />
+                                    <Property Name="MousePassThroughEnabled" Value="True" />
+                                    <Property Name="Text" Value="x一般技能" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.344444,0},{0.258065,0},{0.944444,0},{0.741936,0}}" />
+                                </Window>
+                                <Window Type="DejaVu/Zframe2" Name="Root/AdventureEnchant/Slot4/Brush" >
+                                    <Property Name="Font" Value="F001-scale" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                </Window>
+                            </Window>
+                            <Window Type="DejaVu/Embed3" Name="Root/AdventureEnchant/Slot5" >
+                                <Property Name="Font" Value="F001-scale" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.666667,0},{0.5,0},{1,0}}" />
+                                <Window Type="DejaVu/SlotImage" Name="Root/AdventureEnchant/Slot5/Icon" >
+                                    <Property Name="AlwaysOnTop" Value="True" />
+                                    <Property Name="Font" Value="F001-scale" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.055556,0},{0.16129,0},{0.288889,0},{0.838709,0}}" />
+                                    <Window Type="DejaVu/SlotImageItem" Name="Root/AdventureEnchant/Slot5/Icon/Image" >
+                                        <Property Name="Font" Value="F001-scale" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                    </Window>
+                                </Window>
+                                <Window Type="DejaVu/StaticText" Name="Root/AdventureEnchant/Slot5/Name" >
+                                    <Property Name="AlwaysOnTop" Value="True" />
+                                    <Property Name="MousePassThroughEnabled" Value="True" />
+                                    <Property Name="Text" Value="x一般技能" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.344444,0},{0.258065,0},{0.944444,0},{0.741936,0}}" />
+                                </Window>
+                                <Window Type="DejaVu/Zframe2" Name="Root/AdventureEnchant/Slot5/Brush" >
+                                    <Property Name="Font" Value="F001-scale" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                </Window>
+                            </Window>
+                            <Window Type="DejaVu/Embed3" Name="Root/AdventureEnchant/Slot6" >
+                                <Property Name="Font" Value="F001-scale" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0.666667,0},{1,0},{1,0}}" />
+                                <Window Type="DejaVu/SlotImage" Name="Root/AdventureEnchant/Slot6/Icon" >
+                                    <Property Name="AlwaysOnTop" Value="True" />
+                                    <Property Name="Font" Value="F001-scale" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.055556,0},{0.16129,0},{0.288889,0},{0.838709,0}}" />
+                                    <Window Type="DejaVu/SlotImageItem" Name="Root/AdventureEnchant/Slot6/Icon/Image" >
+                                        <Property Name="Font" Value="F001-scale" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                    </Window>
+                                </Window>
+                                <Window Type="DejaVu/StaticText" Name="Root/AdventureEnchant/Slot6/Name" >
+                                    <Property Name="AlwaysOnTop" Value="True" />
+                                    <Property Name="MousePassThroughEnabled" Value="True" />
+                                    <Property Name="Text" Value="x一般技能" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.344444,0},{0.258065,0},{0.944444,0},{0.741936,0}}" />
+                                </Window>
+                                <Window Type="DejaVu/Zframe2" Name="Root/AdventureEnchant/Slot6/Brush" >
+                                    <Property Name="Font" Value="F001-scale" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                </Window>
+                            </Window>
+                        </Window>
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed4" Name="Root/AdventureEnchant/Title" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.026042,0},{0,0},{0.416667,0},{0.0877193,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/AdventureEnchant/Title/Text" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="x冒險之路" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.2,0},{0.866667,0},{0.8,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/AdventureEnchant/Title/Image" >
+                        <Property Name="Font" Value="F001-scale" />
+                        <Property Name="Image" Value="set:DejaVu image:Image13" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/AdventureEnchant/OkBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="x確定" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0247525,0},{-0.0297619,0},{0.212871,0},{0.0476191,0}}" />
+                <Property Name="VerticalAlignment" Value="Bottom" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/AdventureEnchant/CancelBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="Text" Value="x取消" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.0247525,0},{-0.0297619,0},{0.163366,0},{0.0476191,0}}" />
+                <Property Name="VerticalAlignment" Value="Bottom" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

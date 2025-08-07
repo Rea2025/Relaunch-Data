@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="FamilyIsland" >
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,760},{0,478}}" />
+        <Window Type="DejaVu/Static" Name="FamilyIsland/Equipments" >
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0251046,0},{0.407895,0},{0.705021,0}}" />
+            <Window Type="DejaVu/zStaticLab" Name="FamilyIsland/Equipments/Title" >
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="Equipments" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0645161,0},{-0.0369231,0},{0.290323,0},{0.04,0}}" />
+            </Window>
+            <Window Type="DejaVu/ScrollablePane" Name="FamilyIsland/Equipments/List" >
+                <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="HorzOverlapSize" Value="0.01" />
+                <Property Name="HorzScrollPosition" Value="0" />
+                <Property Name="HorzStepSize" Value="0.1" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{-0.018462,0},{0.967742,0},{0.904615,0}}" />
+                <Property Name="VertOverlapSize" Value="0.01" />
+                <Property Name="VertScrollPosition" Value="0" />
+                <Property Name="VertStepSize" Value="0.1" />
+                <Property Name="VerticalAlignment" Value="Bottom" />
+                <AutoWindow NameSuffix="__auto_container__" >
+                    <Property Name="ChildExtentsArea" Value="l:0 t:0 r:0 b:0" />
+                    <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                    <Property Name="MouseInputPropagationEnabled" Value="True" />
+                </AutoWindow>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="FamilyIsland/EquipmentDescription" >
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.407895,0},{0.251046,0}}" />
+            <Property Name="VertFormatting" Value="VertCentred" />
+            <Property Name="VerticalAlignment" Value="Bottom" />
+            <Window Type="DejaVu/zStaticLab" Name="FamilyIsland/EquipmentDescription/Title" >
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="Description" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0645161,0},{-0.1,0},{0.290323,0},{0.108333,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="FamilyIsland/EquipmentDescription/Content" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="Text" Value="一二三四五六七八九十一二三四五六七八九十一二三四五" />
+                <Property Name="UnifiedAreaRect" Value="{{0.00645161,0},{-0.025,0},{0.987097,0},{0.791667,0}}" />
+                <Property Name="VertFormatting" Value="TopAligned" />
+                <Property Name="VerticalAlignment" Value="Bottom" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="FamilyIsland/MapInfo" >
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="HorizontalAlignment" Value="Right" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.578947,0},{1,0}}" />
+            <Window Type="DejaVu/StaticImage" Name="FamilyIsland/MapInfo/Image" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="Image" Value="set:Island image:NewImage1" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.020921,0},{0.96,0},{0.799164,0}}" />
+                <Window Type="DejaVu/ImageButton" Name="FamilyIsland/MapInfo/Image/SpringBtn" >
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="HoverImage" Value="set:worldmapcity image:CityHover" />
+                    <Property Name="NormalImage" Value="set:worldmapcity image:CityNormal" />
+                    <Property Name="PushedImage" Value="set:worldmapcity image:CityHover" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.421853,0},{0.484773,0},{0.492943,0},{0.565418,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="FamilyIsland/MapInfo/Image/TemplateBtn" >
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="HoverImage" Value="set:worldmapcity image:CityHover" />
+                    <Property Name="NormalImage" Value="set:worldmapcity image:CityNormal" />
+                    <Property Name="PushedImage" Value="set:worldmapcity image:CityHover" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.723892,0},{0.246913,0},{0.799721,0},{0.332935,0}}" />
+                    <Property Name="Visible" Value="False" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="FamilyIsland/MapInfo/Image/TransportBtn" >
+                    <Property Name="DisabledImage" Value="set:DejaVuImage image:TranProtalP" />
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="HoverImage" Value="set:DejaVuImage image:TranProtalH" />
+                    <Property Name="NormalImage" Value="set:DejaVuImage image:TranProtalN" />
+                    <Property Name="PushedImage" Value="set:DejaVuImage image:TranProtalP" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.893365,0},{0.0134409,0},{0.988152,0},{0.120968,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="FamilyIsland/MapInfo/Image/FamilyFarmBtn" >
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="HoverImage" Value="set:worldmapcity image:CityHover" />
+                    <Property Name="NormalImage" Value="set:worldmapcity image:CityNormal" />
+                    <Property Name="PushedImage" Value="set:worldmapcity image:CityHover" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.237577,0},{0.352362,0},{0.308667,0},{0.433007,0}}" />
+                    <Property Name="Visible" Value="False" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/FrameWindow" Name="FamilyIsland/MapInfo/Introduce" >
+                <Property Name="CloseButtonEnabled" Value="False" />
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="HelpButtonEnabled" Value="False" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="TitlebarEnabled" Value="False" />
+                <Property Name="TitlebarFont" Value="F001-scale" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.822176,0},{0.959091,0},{0.98954,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="FamilyIsland/MapInfo/Introduce/Title" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="Introduce" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{-0.25,0},{0.518135,0},{0.25,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="FamilyIsland/MapInfo/Introduce/Content" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                    <Property Name="Text" Value="一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1.03627,0},{0.75,0}}" />
+                    <Property Name="VerticalAlignment" Value="Bottom" />
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/Unbind" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="Text" Value="unlock" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,234},{0,198}}" />
+        <Window Type="DejaVu/SlotImage" Name="Root/Unbind/ItemIcon" >
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="UnifiedAreaRect" Value="{{0.393256,0},{0.0988458,0},{0.393256,36},{0.0988458,36}}" />
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/Unbind/Money" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="Image" Value="set:main image:noimage" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0422032,0},{0.578781,0},{0.0422032,161},{0.578781,19}}" />
+            <Window Type="DejaVu/StaticTextLab" Name="Root/Unbind/Money/Gold" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="Text" Value="9999" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0246094,0},{0.13724,0},{0.446484,0},{0.845574,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/Unbind/Money/Silver" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="Text" Value="99" />
+                <Property Name="UnifiedAreaRect" Value="{{0.534162,0},{0.157895,0},{0.677019,0},{0.842105,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/Unbind/Money/Copper" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="Text" >99
+</Property>
+                <Property Name="UnifiedAreaRect" Value="{{0.770186,0},{0.157895,0},{0.913043,0},{0.842105,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/Unbind/YES" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="Text" Value="ok" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0340909,0},{0.81295,0},{0.431818,0},{0.985611,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/Unbind/NO" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="Text" Value="close" />
+            <Property Name="UnifiedAreaRect" Value="{{0.578302,0},{0.815625,0},{0.97603,0},{0.988286,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticTextLab" Name="Root/Unbind/Text" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="Text" Value="need" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0625,0},{0.438849,0},{0.460227,0},{0.582734,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

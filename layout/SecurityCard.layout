@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/SecurityCard" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.149269,0},{0.0194903,0},{0.149269,256},{0.0194903,190}}" />
+        <Window Type="DejaVu/Static" Name="Root/SecurityCard/Frame" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Static" Name="Root/SecurityCard/Frame/Border" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.025,0},{0.130701,0},{0.975,0},{0.735965,0}}" />
+                <Window Type="DejaVu/StaticText" Name="Root/SecurityCard/Frame/Border/GuideText" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="x請輸入掌中寶：" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0526316,0},{0,0},{0.960526,0},{0.328358,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/SecurityCard/Frame/Border/CodeEdit" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="MaxTextLength" Value="6" />
+                    <Property Name="NormalTextColour" Value="C8FFFFFF" />
+                    <Property Name="Text" >
+</Property>
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.068421,0},{0.494493,0},{0.924999,0},{0.799565,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="Root/SecurityCard/Frame/ErrorMsg" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorzFormatting" Value="WordWrapCentred" />
+                <Property Name="UnifiedAreaRect" Value="{{0.025,0},{0.0394737,0},{0.980403,0},{0.191228,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/SecurityCard/Frame/SendBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="x確定" />
+                <Property Name="UnifiedAreaRect" Value="{{0.350417,0},{0.780438,0},{0.668599,0},{0.955621,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

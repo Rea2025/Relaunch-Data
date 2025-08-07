@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/CS_ModelWnd2" >
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="Text" Value="模組選單" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,280},{0,800}}" />
+        <Window Type="DejaVu/Static" Name="Root/CS_ModelWnd2/Background" >
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.985915,0},{0.995671,0}}" />
+            <Window Type="DejaVu/SlotImage" Name="Root/CS_ModelWnd2/Background/Image_Model" >
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.362622,0}}" />
+            </Window>
+            <Window Type="DejaVu/Tree" Name="Root/CS_ModelWnd2/Background/Tree_Model" >
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.446304,0},{0.961538,0},{1.00418,0}}" />
+            </Window>
+            <Window Type="DejaVu/Embed" Name="Root/CS_ModelWnd2/Background/Border" >
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.362622,0},{1,0},{0.446304,0}}" />
+                <Window Type="DejaVu/Button" Name="Root/CS_ModelWnd2/Background/Border/Btn_Born" >
+                    <Property Name="Font" Value="F001-10" />
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                    <Property Name="Text" Value="產生模組" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.95,0},{0.8,0}}" />
+                    <Property Name="VerticalAlignment" Value="Centre" />
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/LocalInfo" >
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.0451908,0},{0.123456,0},{0.00833333,418},{0.122162,485}}" />
+        <Window Type="DejaVu/HorizontalScrollbar" Name="Root/LocalInfo/TimeControlBar" >
+            <Property Name="DocumentSize" Value="1" />
+            <Property Name="OverlapSize" Value="0" />
+            <Property Name="PageSize" Value="0" />
+            <Property Name="ScrollPosition" Value="0" />
+            <Property Name="StepSize" Value="1" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0251397,0},{0.0723982,0},{0.0251397,272},{0.0723982,26}}" />
+        </Window>
+        <Window Type="DejaVu/StaticText" Name="Root/LocalInfo/TimeTex" >
+            <Property Name="Text" Value="0.0" />
+            <Property Name="UnifiedAreaRect" Value="{{0.801329,0},{0.0590187,0},{0.801329,70},{0.0590187,27}}" />
+        </Window>
+        <Window Type="DejaVu/StaticText" Name="Root/LocalInfo/FPSTex" >
+            <Property Name="UnifiedAreaRect" Value="{{0.0192308,0},{0,0},{0.326923,0},{0.0591716,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/LocalInfo/FreeCameraBtn" >
+            <Property Name="Text" Value="free camera" />
+            <Property Name="UnifiedAreaRect" Value="{{0.671351,0},{-0.00452489,0},{0.671351,111},{-0.00452489,26}}" />
+        </Window>
+        <Window Type="DejaVu/Editbox" Name="Root/LocalInfo/MapEdit" >
+            <Property Name="MaxTextLength" Value="2147483647" />
+            <Property Name="TextParsingEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0251397,0},{0.144796,0},{0.0251397,58},{0.144796,33}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/LocalInfo/ChangeMapBtn" >
+            <Property Name="Text" Value="map" />
+            <Property Name="UnifiedAreaRect" Value="{{0.216145,0},{0.152665,0},{0.216145,39},{0.152665,30}}" />
+        </Window>
+        <Window Type="DejaVu/Editbox" Name="Root/LocalInfo/XGotoEdit" >
+            <Property Name="MaxTextLength" Value="2147483647" />
+            <Property Name="TextParsingEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0251397,0},{0.244344,0},{0.0251397,54},{0.244344,33}}" />
+        </Window>
+        <Window Type="DejaVu/Editbox" Name="Root/LocalInfo/YGotoEdit" >
+            <Property Name="MaxTextLength" Value="2147483647" />
+            <Property Name="TextParsingEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.187151,0},{0.244344,0},{0.187151,54},{0.244344,33}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/LocalInfo/GotoBtn" >
+            <Property Name="Text" Value="Goto" />
+            <Property Name="UnifiedAreaRect" Value="{{0.357542,0},{0.246606,0},{0.357542,39},{0.246606,30}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/LocalInfo/ParabolaBtn" >
+            <Property Name="UnifiedAreaRect" Value="{{0.0139665,0},{0.902715,0},{0.0139665,89},{0.902715,33}}" />
+        </Window>
+        <Window Type="DejaVu/HorizontalScrollbar" Name="Root/LocalInfo/MaxViewControlBar" >
+            <Property Name="DocumentSize" Value="1" />
+            <Property Name="OverlapSize" Value="0" />
+            <Property Name="PageSize" Value="0" />
+            <Property Name="ScrollPosition" Value="0" />
+            <Property Name="StepSize" Value="1" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0228544,0},{0.353933,0},{0.0228544,267},{0.353933,26}}" />
+        </Window>
+        <Window Type="DejaVu/StaticText" Name="Root/LocalInfo/MaxViewTex" >
+            <Property Name="Text" Value="0.0" />
+            <Property Name="UnifiedAreaRect" Value="{{0.780364,0},{0.340553,0},{0.780364,67},{0.340553,27}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/LocalInfo/OceanColor" >
+            <Property Name="Text" Value="海霧色" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0244425,0},{0.514359,0},{0.240494,0},{0.598771,0}}" />
+        </Window>
+        <Window Type="DejaVu/HorizontalScrollbar" Name="Root/LocalInfo/OceanFogRange" >
+            <Property Name="DocumentSize" Value="1" />
+            <Property Name="OverlapSize" Value="0" />
+            <Property Name="PageSize" Value="0" />
+            <Property Name="ScrollPosition" Value="0" />
+            <Property Name="StepSize" Value="1" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0206598,0},{0.624709,0},{0.6984,0},{0.68066,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticText" Name="Root/LocalInfo/OceanFogRangeTex" >
+            <Property Name="Text" >海面霧色遠近
+
+</Property>
+            <Property Name="UnifiedAreaRect" Value="{{0.691843,0},{0.594059,0},{1.05438,0},{0.717822,0}}" />
+        </Window>
+        <Window Type="DejaVu/HorizontalScrollbar" Name="Root/LocalInfo/OceanHeight" >
+            <Property Name="DocumentSize" Value="1" />
+            <Property Name="OverlapSize" Value="0" />
+            <Property Name="PageSize" Value="0" />
+            <Property Name="ScrollPosition" Value="0" />
+            <Property Name="StepSize" Value="1" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0237635,0},{0.717335,0},{0.698595,0},{0.766818,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticText" Name="Root/LocalInfo/OceanHeightTex" >
+            <Property Name="Text" >海面高度
+</Property>
+            <Property Name="UnifiedAreaRect" Value="{{0.694864,0},{0.680693,0},{1.0574,0},{0.804455,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/LocalInfo/OceanToggle" >
+            <Property Name="Text" Value="海面開關" />
+            <Property Name="UnifiedAreaRect" Value="{{0.306407,0},{0.507426,0},{0.557103,0},{0.594059,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

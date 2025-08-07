@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/ItemTip" >
+        <Property Name="MousePassThroughEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,302},{-0.0311653,761}}" />
+        <Window Type="DejaVu/TipTextLab" Name="Root/ItemTip/ItemTipWnd" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Static" Name="Root/ItemTip/Info" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.016667,0},{0.003942,0},{0.016667,290},{0.003942,45}}" />
+                <Window Type="DejaVu/SlotImage" Name="Root/ItemTip/Slot" >
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.016393,0},{0.096154,0},{0.161221,0},{1.02949,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="Root/ItemTip/Name" >
+                    <Property Name="Font" Value="F001-10" />
+                    <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="Text" Value="破舊的 唯我獨尊斬馬槍刀+19 ID :12345" />
+                    <Property Name="TextColours" Value="tl:FFFFFF00 tr:FFFFFF00 bl:FFFFFF00 br:FFFFFF00" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.186207,0},{0.111111,0},{0.844828,0},{0.555555,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/ItemTip/Type" >
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="Text" Value="劍盾 " />
+                    <Property Name="UnifiedAreaRect" Value="{{0.196552,0},{0.555556,0},{0.713793,0},{1,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/ItemTip/AtkSpeed" >
+                    <Property Name="HorizontalAlignment" Value="Right" />
+                    <Property Name="HorzFormatting" Value="RightAligned" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="Text" Value="攻速 1.3秒" />
+                    <Property Name="UnifiedAreaRect" Value="{{-0.017241,0},{0.555556,0},{0.244828,0},{1,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/ItemTip/Attribute" >
+                    <Property Name="HorizontalAlignment" Value="Right" />
+                    <Property Name="Image" Value="set:DejaVu image:Thunder" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{-0.016393,0},{0.096154,0},{0.0525725,0},{0.540598,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/ItemTip/Locked" >
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="Text" >x已鎖定
+</Property>
+                    <Property Name="UnifiedAreaRect" Value="{{0.558621,0},{0.555556,0},{0.731035,0},{1,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/ItemTip/Tier" >
+                    <Property Name="HorizontalAlignment" Value="Right" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="Text" Value="tier" />
+                    <Property Name="UnifiedAreaRect" Value="{{-0.432651,0},{0.555556,0},{-0.294417,0},{1,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="Root/ItemTip/Static1" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.016667,0},{0.074286,0},{0.983334,0},{0.241429,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="Root/ItemTip/line1" >
+                    <Property Name="Image" Value="set:DejaVu image:Line" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.03937,0},{1,0},{0.055118,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="Root/ItemTip/StaticBG1" >
+                    <Property Name="BackgroundEnabled" Value="True" />
+                    <Property Name="FrameEnabled" Value="True" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.016393,0},{0.094488,0},{0.983606,0},{1,0}}" />
+                    <Window Type="DejaVu/StaticText" Name="Root/ItemTip/TextArea1" >
+                        <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="Text" >裝備綁定
+
+
+
+
+
+
+
+
+
+
+
+等級需求  30
+
+
+
+
+
+
+
+
+
+
+
+性別限制
+
+
+
+
+
+
+
+
+
+
+
+聲望需求  30
+
+
+
+
+
+
+
+
+
+
+
+傷害加成  120%
+
+
+
+
+
+
+
+
+
+
+
+耐久度  20/100</Property>
+                        <Property Name="UnifiedAreaRect" Value="{{0.033898,0},{0,0},{0.966101,0},{1,0}}" />
+                        <Window Type="DejaVu/StaticTextLab" Name="Root/ItemTip/ModifiedTimes" >
+                            <Property Name="ClippedByParent" Value="False" />
+                            <Property Name="HorizontalAlignment" Value="Right" />
+                            <Property Name="HorzFormatting" Value="RightAligned" />
+                            <Property Name="MousePassThroughEnabled" Value="True" />
+                            <Property Name="Text" Value="?寥活??OO/XX" />
+                            <Property Name="UnifiedAreaRect" Value="{{-0.0190114,0},{-0.104348,0},{0.361217,0},{0.0695652,0}}" />
+                            <Property Name="VerticalAlignment" Value="Bottom" />
+                        </Window>
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="Root/ItemTip/Static2" >
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.015873,0},{0.241787,0},{0.984127,0},{0.412615,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="Root/ItemTip/line2" >
+                    <Property Name="Image" Value="set:DejaVu image:Line" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0416667,0},{1,0},{0.0583333,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="Root/ItemTip/StaticBG2" >
+                    <Property Name="BackgroundEnabled" Value="True" />
+                    <Property Name="FrameEnabled" Value="True" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.016447,0},{0.092308,0},{0.98366,0},{1,0}}" />
+                    <Window Type="DejaVu/StaticText" Name="Root/ItemTip/TextArea2" >
+                        <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.033898,0},{0,0},{0.966101,0},{0.552632,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticText" Name="Root/ItemTip/AddBG/GemBG" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="Text" >1234567890123456789012345
+
+
+
+
+
+</Property>
+                        <Property Name="UnifiedAreaRect" Value="{{0.0274021,0},{0.555556,0},{0.964286,0},{1,0}}" />
+                        <Property Name="VertFormatting" Value="TopAligned" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="Root/ItemTip/Static3" >
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.015873,0},{0.412615,0},{0.984127,0},{0.544021,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="Root/ItemTip/line3" >
+                    <Property Name="Image" Value="set:DejaVu image:Line" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.05,0},{1,0},{0.07,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="Root/ItemTip/StaticBG3" >
+                    <Property Name="BackgroundEnabled" Value="True" />
+                    <Property Name="FrameEnabled" Value="True" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.017241,0},{0.123711,0},{0.984454,0},{1.00371,0}}" />
+                    <Window Type="DejaVu/StaticText" Name="Root/ItemTip/TextArea3" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HorzFormatting" Value="WordWrapJustified" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="Text" >強化 + 5：爆擊值 + 850
+
+
+
+
+
+
+
+
+
+
+
+強化 + 10：回氣值 + 712
+
+
+
+
+
+
+
+
+
+
+
+強化 + 15：回氣值 + 712
+
+
+
+
+
+
+
+
+
+
+
+強化 + 20：回氣值 + 712</Property>
+                        <Property Name="UnifiedAreaRect" Value="{{0.033898,0},{0,0},{0.966101,0},{1,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="Root/ItemTip/Static4" >
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.016667,0},{0.544286,0},{0.984921,0},{0.696717,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="Root/ItemTip/line4" >
+                    <Property Name="Image" Value="set:DejaVu image:Line" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.046729,0},{1,0},{0.0654206,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="Root/ItemTip/StaticBG4" >
+                    <Property Name="BackgroundEnabled" Value="True" />
+                    <Property Name="FrameEnabled" Value="True" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.017241,0},{0.107143,0},{0.984454,0},{1.00369,0}}" />
+                    <Window Type="DejaVu/StaticText" Name="Root/ItemTip/TextArea4" >
+                        <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="Text" >自命不凡的天上地下唯我獨尊（3/3）
+
+
+
+
+
+
+
+
+
+
+
+天上地下項鍊
+
+
+
+
+
+
+
+
+
+
+
+自命不凡戒指
+
+
+
+
+
+
+
+
+
+
+
+唯我獨尊斬馬槍刀
+
+
+
+
+
+
+
+
+
+
+
+3 件效果：傷害值 + 952</Property>
+                        <Property Name="UnifiedAreaRect" Value="{{0.033898,0},{0,0},{0.966101,0},{1,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="Root/ItemTip/Static5" >
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0165563,0},{0.696452,0},{0.983444,0},{0.848883,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="Root/ItemTip/line5" >
+                    <Property Name="Image" Value="set:DejaVu image:Line" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.046729,0},{1,0},{0.0654206,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="Root/ItemTip/StaticBG5" >
+                    <Property Name="BackgroundEnabled" Value="True" />
+                    <Property Name="FrameEnabled" Value="True" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.017241,0},{0.107143,0},{0.984454,0},{1.00369,0}}" />
+                    <Window Type="DejaVu/StaticText" Name="Root/ItemTip/TextArea5" >
+                        <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="Text" >聖能Lv1:OOXXX
+
+
+
+
+聖能Lv2:OOXXX
+
+
+
+
+聖能Lv3:OOXXX
+
+
+
+
+Tip說明XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</Property>
+                        <Property Name="UnifiedAreaRect" Value="{{0.033898,0},{0,0},{0.966101,0},{1,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="Root/ItemTip/Static6" >
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0165563,0},{0.848883,0},{0.983444,0},{0.9159,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="Root/ItemTip/line6" >
+                    <Property Name="Image" Value="set:DejaVu image:Line" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0961538,0},{1,0},{0.134615,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="Root/ItemTip/StaticBG6" >
+                    <Property Name="BackgroundEnabled" Value="True" />
+                    <Property Name="FrameEnabled" Value="True" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.016393,0},{0.235294,0},{0.983606,0},{1,0}}" />
+                    <Window Type="DejaVu/StaticText" Name="Root/ItemTip/TextArea6" >
+                        <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="Text" Value="我命由我不由天，自視非凡的套裝。" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.035714,0},{0,0},{0.964285,0},{1,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="Root/ItemTip/Static7" >
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0165563,0},{0.917232,0},{0.983444,0},{0.983718,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="Root/ItemTip/line7" >
+                    <Property Name="Image" Value="set:DejaVu image:Line" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0961538,0},{1,0},{0.134615,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="Root/ItemTip/StaticBG7" >
+                    <Property Name="BackgroundEnabled" Value="True" />
+                    <Property Name="FrameEnabled" Value="True" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.016393,0},{0.235294,0},{0.983606,0},{1,0}}" />
+                    <Window Type="DejaVu/StaticText" Name="Root/ItemTip/TextArea7" >
+                        <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="Text" Value="x來自花果山潑猴的毛" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.035714,0},{0,0},{0.964285,0},{1,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="Root/ItemTip/Combine" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.764286,0},{1,0},{0.764286,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="Root/ItemTip/NowEquip" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="Font" Value="F001-12" />
+                <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="TextColours" Value="tl:FFFFFF00 tr:FFFFFF00 bl:FFFFFF00 br:FFFFFF00" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0331126,0},{0.00262812,0},{0.966887,0},{0.0354796,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/ItemTip/Itemline" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="Image" Value="set:DejaVu image:Line" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0158228,0},{0.00131406,0},{0.981013,0},{0.00394218,0}}" />
+                <Property Name="Visible" Value="False" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

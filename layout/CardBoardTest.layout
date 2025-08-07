@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/StaticImage" Name="CardBoardTest" >
+        <Property Name="BackgroundEnabled" Value="True" />
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HorizontalAlignment" Value="Centre" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,820},{0,650}}" />
+        <Property Name="VerticalAlignment" Value="Centre" />
+        <Window Type="DejaVu/StaticImage" Name="CardBoardTest/Board" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0121951,0},{0.0615385,0},{0.987805,0},{0.984615,0}}" />
+            <Window Type="DejaVu/StaticImage" Name="CardBoardTest/Board/Test" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.00100098,0},{-0.00141243,0},{0.998999,0},{0.998588,0}}" />
+                <Window Type="DejaVu/Button3" Name="CardBoardTest/Board/Test/UpdateMobIDBtn" >
+                    <Property Name="Text" Value="刷新模型" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.880567,0},{0.928532,0},{0.980567,0},{0.961865,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="CardBoardTest/Board/Test/BattleIDTextbox" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.877565,0},{0.833899,0},{0.977565,0},{0.867232,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="CardBoardTest/Board/Test/CardIDTextbox" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.878467,0},{0.880227,0},{0.978467,0},{0.91356,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="CardBoardTest/Board/Test/t1" >
+                    <Property Name="Text" Value="對戰編號" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.802295,0},{0.831921,0},{0.870117,0},{0.864407,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="CardBoardTest/Board/Test/t2" >
+                    <Property Name="Text" Value="卡片編號" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.803589,0},{0.879379,0},{0.868408,0},{0.907627,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="CardBoardTest/Board/Test/Skill1" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.0114501,0},{0.682767,0},{0.05145,0},{0.736101,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="CardBoardTest/Board/Test/Skill2" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.0699221,0},{0.682767,0},{0.109922,0},{0.736101,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="CardBoardTest/Board/Test/CardControl" >
+                    <Property Name="Image" Value="set:main4 image:KightContractBG" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0125243,0},{0.744351,0},{0.262525,0},{0.994351,0}}" />
+                    <Window Type="DejaVu/Editbox" Name="CardBoardTest/Board/Test/CardControl/CameraLookAt" >
+                        <Property Name="MaxTextLength" Value="2147483647" />
+                        <Property Name="Text" Value="0" />
+                        <Property Name="TextParsingEnabled" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0.0666667,0},{0.9,0},{0.2,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Editbox" Name="CardBoardTest/Board/Test/CardControl/CameraHeight" >
+                        <Property Name="MaxTextLength" Value="2147483647" />
+                        <Property Name="Text" Value="0" />
+                        <Property Name="TextParsingEnabled" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0.466667,0},{0.9,0},{0.6,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Editbox" Name="CardBoardTest/Board/Test/CardControl/CameraDistance" >
+                        <Property Name="MaxTextLength" Value="2147483647" />
+                        <Property Name="Text" Value="0" />
+                        <Property Name="TextParsingEnabled" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0.266667,0},{0.9,0},{0.4,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Editbox" Name="CardBoardTest/Board/Test/CardControl/CameraAngle" >
+                        <Property Name="MaxTextLength" Value="2147483647" />
+                        <Property Name="Text" Value="0" />
+                        <Property Name="TextParsingEnabled" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0.666667,0},{0.9,0},{0.8,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticText" Name="CardBoardTest/Board/Test/CardControl/t1" >
+                        <Property Name="Text" Value="LOOK點高低" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.0666667,0},{0.45,0},{0.2,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticText" Name="CardBoardTest/Board/Test/CardControl/t2" >
+                        <Property Name="Text" Value="攝影機距離" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.266667,0},{0.45,0},{0.4,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticText" Name="CardBoardTest/Board/Test/CardControl/t3" >
+                        <Property Name="Text" Value="攝影機高度" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.466667,0},{0.45,0},{0.6,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticText" Name="CardBoardTest/Board/Test/CardControl/t4" >
+                        <Property Name="Text" Value="攝影機角度" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.666667,0},{0.45,0},{0.8,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticText" Name="CardBoardTest/Board/Test/CardControl/t5" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="卡牌" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.866667,0},{1,0},{1,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="CardBoardTest/Board/Test/NPCControl" >
+                    <Property Name="Image" Value="set:main4 image:KightContractBG" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.744681,0},{0.15192,0},{0.994994,0},{0.402337,0}}" />
+                    <Window Type="DejaVu/Editbox" Name="CardBoardTest/Board/Test/NPCControl/CameraLookAt" >
+                        <Property Name="MaxTextLength" Value="2147483647" />
+                        <Property Name="Text" Value="0" />
+                        <Property Name="TextParsingEnabled" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0.0666667,0},{0.9,0},{0.2,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Editbox" Name="CardBoardTest/Board/Test/NPCControl/CameraHeight" >
+                        <Property Name="MaxTextLength" Value="2147483647" />
+                        <Property Name="Text" Value="0" />
+                        <Property Name="TextParsingEnabled" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0.466667,0},{0.9,0},{0.6,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Editbox" Name="CardBoardTest/Board/Test/NPCControl/CameraDistance" >
+                        <Property Name="MaxTextLength" Value="2147483647" />
+                        <Property Name="Text" Value="0" />
+                        <Property Name="TextParsingEnabled" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0.266667,0},{0.9,0},{0.4,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Editbox" Name="CardBoardTest/Board/Test/NPCControl/CameraAngle" >
+                        <Property Name="MaxTextLength" Value="2147483647" />
+                        <Property Name="Text" Value="0" />
+                        <Property Name="TextParsingEnabled" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0.666667,0},{0.9,0},{0.8,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticText" Name="CardBoardTest/Board/Test/NPCControl/t1" >
+                        <Property Name="Text" Value="LOOK點高低" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.0666667,0},{0.45,0},{0.2,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticText" Name="CardBoardTest/Board/Test/NPCControl/t2" >
+                        <Property Name="Text" Value="攝影機距離" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.266667,0},{0.45,0},{0.4,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticText" Name="CardBoardTest/Board/Test/NPCControl/t3" >
+                        <Property Name="Text" Value="攝影機高度" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.466667,0},{0.45,0},{0.6,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticText" Name="CardBoardTest/Board/Test/NPCControl/t4" >
+                        <Property Name="Text" Value="攝影機角度" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.666667,0},{0.45,0},{0.8,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticText" Name="CardBoardTest/Board/Test/NPCControl/t5" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="NPC" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.866667,0},{1,0},{1,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="CardBoardTest/Board/Test/SpellControl" >
+                    <Property Name="Image" Value="set:main4 image:KightContractBG" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.744502,0},{0.422316,0},{0.994501,0},{0.799435,0}}" />
+                    <Window Type="DejaVu/Editbox" Name="CardBoardTest/Board/Test/SpellControl/SpellID" >
+                        <Property Name="MaxTextLength" Value="2147483647" />
+                        <Property Name="Text" Value="0" />
+                        <Property Name="TextParsingEnabled" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.516016,0},{0.116624,0},{0.916016,0},{0.205513,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Editbox" Name="CardBoardTest/Board/Test/SpellControl/EffectID" >
+                        <Property Name="MaxTextLength" Value="2147483647" />
+                        <Property Name="Text" Value="0" />
+                        <Property Name="TextParsingEnabled" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0.405013,0},{0.9,0},{0.493902,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Editbox" Name="CardBoardTest/Board/Test/SpellControl/EffectScale" >
+                        <Property Name="MaxTextLength" Value="2147483647" />
+                        <Property Name="Text" Value="0" />
+                        <Property Name="TextParsingEnabled" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0.530973,0},{0.9,0},{0.619469,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Editbox" Name="CardBoardTest/Board/Test/SpellControl/FlySpeed" >
+                        <Property Name="MaxTextLength" Value="2147483647" />
+                        <Property Name="Text" Value="0" />
+                        <Property Name="TextParsingEnabled" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0.654867,0},{0.9,0},{0.743363,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Editbox" Name="CardBoardTest/Board/Test/SpellControl/EffectLength" >
+                        <Property Name="MaxTextLength" Value="2147483647" />
+                        <Property Name="Text" Value="0" />
+                        <Property Name="TextParsingEnabled" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0.779449,0},{0.9,0},{0.868338,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticText" Name="CardBoardTest/Board/Test/SpellControl/t0" >
+                        <Property Name="Text" Value="技能編號" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0700198,0},{0.108614,0},{0.47002,0},{0.19711,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticText" Name="CardBoardTest/Board/Test/SpellControl/t1" >
+                        <Property Name="Text" Value="特效編號" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.405013,0},{0.45,0},{0.493902,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticText" Name="CardBoardTest/Board/Test/SpellControl/t2" >
+                        <Property Name="Text" Value="特效縮放" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.529825,0},{0.45,0},{0.618714,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticText" Name="CardBoardTest/Board/Test/SpellControl/t3" >
+                        <Property Name="Text" Value="飛行速度" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.654637,0},{0.45,0},{0.743526,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticText" Name="CardBoardTest/Board/Test/SpellControl/t4" >
+                        <Property Name="Text" Value="特效作用長度" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.779449,0},{0.45,0},{0.868338,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticText" Name="CardBoardTest/Board/Test/SpellControl/t5" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="卡牌技能" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.904261,0},{1,0},{0.99315,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Button3" Name="CardBoardTest/Board/Test/SpellControl/LoadSpell" >
+                        <Property Name="Text" Value="讀取技能資料" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.255761,0},{0.245318,0},{0.74076,0},{0.333814,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Button3" Name="CardBoardTest/Board/Test/SpellControl/Shoot" >
+                        <Property Name="Text" Value="發射測試" />
+						<Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0318348,0},{0.885394,0},{0.345898,0},{0.973889,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="CardBoardTest/Board/Test/EffectControl" >
+                    <Property Name="Image" Value="set:main4 image:KightContractBG" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.279492,0},{0.741526,0},{0.529491,0},{0.991526,0}}" />
+                    <Window Type="DejaVu/Editbox" Name="CardBoardTest/Board/Test/EffectControl/ID" >
+                        <Property Name="MaxTextLength" Value="2147483647" />
+                        <Property Name="Text" Value="0" />
+                        <Property Name="TextParsingEnabled" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0.0666667,0},{0.9,0},{0.2,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Editbox" Name="CardBoardTest/Board/Test/EffectControl/Scale" >
+                        <Property Name="MaxTextLength" Value="2147483647" />
+                        <Property Name="Text" Value="100" />
+                        <Property Name="TextParsingEnabled" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0.266667,0},{0.9,0},{0.4,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Editbox" Name="CardBoardTest/Board/Test/EffectControl/LinkNode" >
+                        <Property Name="MaxTextLength" Value="2147483647" />
+                        <Property Name="Text" Value="L04" />
+                        <Property Name="TextParsingEnabled" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0.466667,0},{0.9,0},{0.6,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticText" Name="CardBoardTest/Board/Test/EffectControl/t1" >
+                        <Property Name="Text" Value="特效編號" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.0666667,0},{0.45,0},{0.2,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticText" Name="CardBoardTest/Board/Test/EffectControl/t2" >
+                        <Property Name="Text" Value="特效縮放" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.266667,0},{0.45,0},{0.4,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticText" Name="CardBoardTest/Board/Test/EffectControl/t3" >
+                        <Property Name="Text" Value="連接點" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.466667,0},{0.45,0},{0.6,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticText" Name="CardBoardTest/Board/Test/EffectControl/t5" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="卡牌特效" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.866667,0},{1,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Button3" Name="CardBoardTest/Board/Test/EffectControl/EffectTest" >
+                        <Property Name="Text" Value="特效測試" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0475575,0},{0.692091,0},{0.429688,0},{0.825424,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Button4" Name="CardBoardTest/Board/Test/EffectControl/EffectStop" >
+                        <Property Name="Text" Value="停止" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.648439,0},{0.691525,0},{0.898439,0},{0.824859,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/ImageButton" Name="CardBoardTest/Btn" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HorizontalAlignment" Value="Right" />
+            <Property Name="NormalImage" Value="set:DejaVu image:NewCloseButtonNormal" />
+            <Property Name="UnifiedAreaRect" Value="{{-0.0121951,0},{0.0153846,0},{0.0121951,0},{0.0461538,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

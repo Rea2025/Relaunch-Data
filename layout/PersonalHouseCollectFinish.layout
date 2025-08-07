@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/PersonalHouseCollectFinish" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="Text" Value="x採集成果" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,306},{0,232}}" />
+        <Window Type="DejaVu/Static" Name="Root/PersonalHouseCollectFinish/BG" >
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.067039,0},{0,270},{0.067039,168}}" />
+            <Window Type="DejaVu/StaticTextLab" Name="Root/PersonalHouseCollectFinish/MsgText" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" Value="xR3種植：自由放任" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0740741,0},{0.107784,0},{0.0740741,180},{0.107784,20}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/PersonalHouseCollectFinish/Text2" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" Value="x採集時間：00：14：14" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0740741,0},{0.227545,0},{0.0740741,180},{0.227545,20}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/PersonalHouseCollectFinish/Text3" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" Value="x採集成果：" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0740741,0},{0.347305,0},{0.0740741,180},{0.347305,20}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/PersonalHouseCollectFinish/Slot1BG" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.166667,0},{0.502994,0},{0.166667,36},{0.502994,36}}" />
+                <Window Type="DejaVu/StaticImage" Name="Root/PersonalHouseCollectFinish/Slot1" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="ID" Value="1" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/PersonalHouseCollectFinish/Slot2BG" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.344444,0},{0.502994,0},{0.344444,36},{0.502994,36}}" />
+                <Window Type="DejaVu/StaticImage" Name="Root/PersonalHouseCollectFinish/Slot2" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="ID" Value="2" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/PersonalHouseCollectFinish/Slot3BG" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.522222,0},{0.502994,0},{0.522222,36},{0.502994,36}}" />
+                <Window Type="DejaVu/StaticImage" Name="Root/PersonalHouseCollectFinish/Slot3" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="ID" Value="3" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/PersonalHouseCollectFinish/Slot4BG" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.7,0},{0.505649,0},{0.7,36},{0.505649,36}}" />
+                <Window Type="DejaVu/StaticImage" Name="Root/PersonalHouseCollectFinish/Slot4" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="ID" Value="4" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/PersonalHouseCollectFinish/Btn1" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="ID" Value="91" />
+                <Property Name="Text" Value="x放入倉庫" />
+                <Property Name="UnifiedAreaRect" Value="{{0.218519,0},{0.783753,0},{0.218519,70},{0.783753,24}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/PersonalHouseCollectFinish/Btn2" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="ID" Value="92" />
+                <Property Name="Text" Value="x放進背包" />
+                <Property Name="UnifiedAreaRect" Value="{{0.522222,0},{0.783753,0},{0.522222,70},{0.783753,24}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/StaticTextLab" Name="Root/PersonalHouseCollectFinish/Head" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="Text" Value="x採集成果發表" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0740741,0},{0,0},{0.0740741,90},{0,24}}" />
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/Static" Name="Root/NpcSituationSpeech" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HorizontalAlignment" Value="Centre" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,720},{0,600}}" />
+        <Property Name="VerticalAlignment" Value="Centre" />
+        <Window Type="DejaVu/Embed3" Name="Root/NpcSituationSpeech/BG" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.006944,0},{0.008333,0},{0.993055,0},{0.716666,0}}" />
+            <Window Type="DejaVu/StaticImage" Name="Root/NpcSituationSpeech/BG/Picture" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/NpcSituationSpeech/BG/Stage" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Embed4" Name="Root/NpcSituationSpeech/Board" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.00694444,0},{0.725,0},{0.993056,0},{0.991667,0}}" />
+            <Window Type="DejaVu/StaticText" Name="Root/NpcSituationSpeech/Board/Text" >
+                <Property Name="Font" Value="F001-12" />
+                <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                <Property Name="LinespaceWindow" Value="True" />
+                <Property Name="Text" >一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四
+一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四
+一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四
+一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四
+一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四</Property>
+                <Property Name="UnifiedAreaRect" Value="{{0.070423,0},{0.125,0},{0.929578,0},{0.739507,0}}" />
+                <Property Name="VertFormatting" Value="TopAligned" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/NpcSituationSpeech/Board/CloseBtn" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="x關閉" />
+                <Property Name="UnifiedAreaRect" Value="{{0.847887,0},{0.8125,0},{0.943662,0},{0.9625,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/NpcSituationSpeech/Board/CheckBtn" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="Text" Value="x繼續" />
+                <Property Name="UnifiedAreaRect" Value="{{0.74507,0},{0.8125,0},{0.840845,0},{0.9625,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/NpcSituationSpeech/Board/SkipBtn" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="Text" Value="x略過" />
+                <Property Name="UnifiedAreaRect" Value="{{0.056338,0},{0.8125,0},{0.152113,0},{0.9625,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/NpcSituationSpeech/Board/BackBtn" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="Text" Value="x回選單" />
+                <Property Name="UnifiedAreaRect" Value="{{0.642254,0},{0.8125,0},{0.738029,0},{0.9625,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/NpcSituationSpeech/Board/LastPageBtn" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="Text" Value="x下一頁" />
+                <Property Name="UnifiedAreaRect" Value="{{0.74507,0},{0.8625,0},{0.840845,0},{0.96875,0}}" />
+                <Property Name="Visible" Value="False" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/NpcSituationSpeech/Board/NextPageBtn" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="Text" Value="x上一頁" />
+                <Property Name="UnifiedAreaRect" Value="{{0.74507,0},{0.8125,0},{0.840845,0},{0.9625,0}}" />
+                <Property Name="Visible" Value="False" />
+            </Window>
+            <Window Type="DejaVu/Listbox2NoBG" Name="Root/NpcSituationSpeech/Board/Select" >
+                <Property Name="DistributeCapturedInputs" Value="True" />
+                <Property Name="Font" Value="F001-12" />
+                <Property Name="UnifiedAreaRect" Value="{{0.070423,0},{0.125,0},{0.929578,0},{0.8125,0}}" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/NpcSituationSpeech/Board/HelpBtn" >
+                <Property Name="DisabledImage" Value="set:DejaVu image:HelpButtonPressed" />
+                <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0.971831,0},{0.03125,0},{0.992958,0},{0.125,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/EmbedTextLab" Name="Root/NpcSituationSpeech/Name1" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="Text" Value="一二三四五六七八" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0972222,0},{0.7,0},{0.25,0},{0.741667,0}}" />
+        </Window>
+        <Window Type="DejaVu/EmbedTextLab" Name="Root/NpcSituationSpeech/Name2" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="Text" Value="一二三四五六七八" />
+            <Property Name="UnifiedAreaRect" Value="{{0.763889,0},{0.7,0},{0.916667,0},{0.741667,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

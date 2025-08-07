@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/TextureTool" >
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.195229,0},{0.209129,0},{0.195229,640},{0.209129,512}}" />
+        <Window Type="DejaVu/StaticImage" Name="Root/TextureTool/Base" >
+            <Property Name="FrameEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0512821,0},{0.0861781,0},{0.0512821,256},{0.0861781,256}}" />
+        </Window>
+        <Window Type="DejaVu/HorizontalScrollbar" Name="Root/TextureTool/P1" >
+            <Property Name="DocumentSize" Value="1" />
+            <Property Name="OverlapSize" Value="0" />
+            <Property Name="PageSize" Value="0" />
+            <Property Name="ScrollPosition" Value="0" />
+            <Property Name="StepSize" Value="1" />
+            <Property Name="UnifiedAreaRect" Value="{{0.051282,0},{0.691082,0},{0.051282,256},{0.691082,16}}" />
+        </Window>
+        <Window Type="DejaVu/HorizontalScrollbar" Name="Root/TextureTool/P2" >
+            <Property Name="DocumentSize" Value="1" />
+            <Property Name="OverlapSize" Value="0" />
+            <Property Name="PageSize" Value="0" />
+            <Property Name="ScrollPosition" Value="0" />
+            <Property Name="StepSize" Value="1" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0512821,0},{0.724537,0},{0.0512821,256},{0.724537,17}}" />
+        </Window>
+        <Window Type="DejaVu/HorizontalScrollbar" Name="Root/TextureTool/Textures" >
+            <Property Name="DocumentSize" Value="1" />
+            <Property Name="OverlapSize" Value="0" />
+            <Property Name="PageSize" Value="0" />
+            <Property Name="ScrollPosition" Value="0" />
+            <Property Name="StepSize" Value="1" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0512821,0},{0,0},{0.0512821,544},{0,16}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/TextureTool/SaveDDS" >
+            <Property Name="Text" Value="SaveDDS" />
+            <Property Name="UnifiedAreaRect" Value="{{0.051282,0},{0.798534,0},{0.051282,120},{0.798534,32}}" />
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/TextureTool/Normal" >
+            <Property Name="FrameEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.512821,0},{0.0861781,0},{0.512821,256},{0.0861781,256}}" />
+        </Window>
+        <Window Type="DejaVu/HorizontalScrollbar" Name="Root/TextureTool/S1" >
+            <Property Name="DocumentSize" Value="1" />
+            <Property Name="OverlapSize" Value="0" />
+            <Property Name="PageSize" Value="0" />
+            <Property Name="ScrollPosition" Value="0" />
+            <Property Name="StepSize" Value="1" />
+            <Property Name="UnifiedAreaRect" Value="{{0.512821,0},{0.691082,0},{0.512821,256},{0.691082,16}}" />
+        </Window>
+        <Window Type="DejaVu/Checkbox" Name="Root/TextureTool/SpecularSwitch" >
+            <Property Name="Text" Value="Specular" />
+            <Property Name="UnifiedAreaRect" Value="{{0.512821,0},{0.798534,0},{0.512821,80},{0.798534,16}}" />
+        </Window>
+        <Window Type="DejaVu/Checkbox" Name="Root/TextureTool/NormalSwitch" >
+            <Property Name="Text" Value="Normal" />
+            <Property Name="UnifiedAreaRect" Value="{{0.512821,0},{0.838534,0},{0.512821,80},{0.838534,16}}" />
+        </Window>
+        <Window Type="DejaVu/Checkbox" Name="Root/TextureTool/ParallaxSwitch" >
+            <Property Name="Text" Value="Parallax" />
+            <Property Name="UnifiedAreaRect" Value="{{0.641026,0},{0.798534,0},{0.641026,80},{0.798534,16}}" />
+        </Window>
+        <Window Type="DejaVu/HorizontalScrollbar" Name="Root/TextureTool/S2" >
+            <Property Name="DocumentSize" Value="1" />
+            <Property Name="OverlapSize" Value="0" />
+            <Property Name="PageSize" Value="0" />
+            <Property Name="ScrollPosition" Value="0" />
+            <Property Name="StepSize" Value="1" />
+            <Property Name="UnifiedAreaRect" Value="{{0.512821,0},{0.725445,0},{0.512821,256},{0.725445,16}}" />
+        </Window>
+        <Window Type="DejaVu/HorizontalScrollbar" Name="Root/TextureTool/S3" >
+            <Property Name="DocumentSize" Value="1" />
+            <Property Name="OverlapSize" Value="0" />
+            <Property Name="PageSize" Value="0" />
+            <Property Name="ScrollPosition" Value="0" />
+            <Property Name="StepSize" Value="1" />
+            <Property Name="UnifiedAreaRect" Value="{{0.512821,0},{0.757545,0},{0.512821,256},{0.757545,16}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/TextureTool/SaveNRM" >
+            <Property Name="Text" Value="SaveNRM" />
+            <Property Name="UnifiedAreaRect" Value="{{0.269231,0},{0.797407,0},{0.269231,120},{0.797407,32}}" />
+        </Window>
+        <Window Type="DejaVu/RadioButton" Name="Root/TextureTool/TerrainTexture" >
+            <Property Name="GroupID" Value="1" />
+            <Property Name="Text" Value="TerrainTexture" />
+            <Property Name="UnifiedAreaRect" Value="{{0.051282,0},{0.038726,0},{0.051282,128},{0.038726,16}}" />
+        </Window>
+        <Window Type="DejaVu/RadioButton" Name="Root/TextureTool/ObjectTexture" >
+            <Property Name="GroupID" Value="1" />
+            <Property Name="Text" Value="ObjectTexture" />
+            <Property Name="UnifiedAreaRect" Value="{{0.25641,0},{0.038726,0},{0.25641,156},{0.038726,16}}" />
+        </Window>
+        <Window Type="DejaVu/Checkbox" Name="Root/TextureTool/Inverse" >
+            <Property Name="Text" Value="Inverse" />
+            <Property Name="UnifiedAreaRect" Value="{{0.793269,0},{0.838534,0},{0.793269,80},{0.838534,16}}" />
+        </Window>
+        <Window Type="DejaVu/Checkbox" Name="Root/TextureTool/TessFlat" >
+            <Property Name="Text" Value="Flat" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0512821,0},{0.882845,0},{0.0512821,48},{0.882845,16}}" />
+        </Window>
+        <Window Type="DejaVu/Checkbox" Name="Root/TextureTool/TessPhong" >
+            <Property Name="Text" Value="Phong" />
+            <Property Name="UnifiedAreaRect" Value="{{0.136544,0},{0.882863,0},{0.136544,61},{0.882863,16}}" />
+        </Window>
+        <Window Type="DejaVu/Checkbox" Name="Root/TextureTool/TessPN" >
+            <Property Name="Text" Value="PNTriangles" />
+            <Property Name="UnifiedAreaRect" Value="{{0.240385,0},{0.882845,0},{0.240385,80},{0.882845,16}}" />
+        </Window>
+        <Window Type="DejaVu/HorizontalScrollbar" Name="Root/TextureTool/T1" >
+            <Property Name="DocumentSize" Value="1" />
+            <Property Name="OverlapSize" Value="0" />
+            <Property Name="PageSize" Value="0" />
+            <Property Name="ScrollPosition" Value="0" />
+            <Property Name="StepSize" Value="1" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0512821,0},{0.929141,0},{0.0512821,256},{0.929141,17}}" />
+        </Window>
+        <Window Type="DejaVu/Checkbox" Name="Root/TextureTool/TessAdaptiveDistance" >
+            <Property Name="Text" Value="AdaptiveDistance" />
+            <Property Name="UnifiedAreaRect" Value="{{0.512821,0},{0.881944,0},{0.512821,118},{0.881944,16}}" />
+        </Window>
+        <Window Type="DejaVu/Checkbox" Name="Root/TextureTool/TessAdaptiveScreen" >
+            <Property Name="Text" Value="AdaptiveScreen" />
+            <Property Name="UnifiedAreaRect" Value="{{0.724359,0},{0.881944,0},{0.724359,111},{0.881944,16}}" />
+        </Window>
+        <Window Type="DejaVu/HorizontalScrollbar" Name="Root/TextureTool/TA1" >
+            <Property Name="DocumentSize" Value="1" />
+            <Property Name="OverlapSize" Value="0" />
+            <Property Name="PageSize" Value="0" />
+            <Property Name="ScrollPosition" Value="0" />
+            <Property Name="StepSize" Value="1" />
+            <Property Name="UnifiedAreaRect" Value="{{0.512821,0},{0.928241,0},{0.512821,256},{0.928241,17}}" />
+        </Window>
+        <Window Type="DejaVu/HorizontalScrollbar" Name="Root/TextureTool/TA2" >
+            <Property Name="DocumentSize" Value="1" />
+            <Property Name="OverlapSize" Value="0" />
+            <Property Name="PageSize" Value="0" />
+            <Property Name="ScrollPosition" Value="0" />
+            <Property Name="StepSize" Value="1" />
+            <Property Name="UnifiedAreaRect" Value="{{0.512821,0},{0.960648,0},{0.512821,256},{0.960648,17}}" />
+        </Window>
+    </Window>
+</GUILayout>

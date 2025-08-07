@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="FamilyIslandSpring" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="Text" Value="一二三四" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,236},{0,410}}" />
+        <Window Type="DejaVu/Static" Name="FamilyIslandSpring/Background" >
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.98,0},{0.960784,0}}" />
+            <Property Name="VerticalAlignment" Value="Centre" />
+            <Window Type="DejaVu/StaticTextLab" Name="FamilyIslandSpring/Name" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="Text" Value="一二三四五" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.969388,0},{0.058309,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="FamilyIslandSpring/Image" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="Image" Value="set:hotspring image:hotspring" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.058309,0},{0.943878,0},{0.35277,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="FamilyIslandSpring/Description" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                <Property Name="Text" >一二三四五六七八九十一二三四五六
+
+七八九十一二三四五六七八九十</Property>
+                <Property Name="UnifiedAreaRect" Value="{{0.00510204,0},{0.387609,0},{0.938776,0},{0.577114,0}}" />
+                <Property Name="VertFormatting" Value="TopAligned" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="FamilyIslandSpring/EffectTime" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="Text" Value="EffectTime:" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0510204,0},{0.877551,0},{0.357143,0},{0.93586,0}}" />
+            </Window>
+            <Window Type="DejaVu/EmbedTextLab3" Name="FamilyIslandSpring/RemainTime" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="12" />
+                <Property Name="UnifiedAreaRect" Value="{{0.370751,0},{0.871522,0},{0.927409,0},{0.941493,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="FamilyIslandSpring/TargetBuffer" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.139467,0},{0.631558,0},{0.394569,0},{0.777331,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="FamilyIslandSpring/NowBufferItem" >
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.675734,0},{0.255102,0},{0.821506,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="FamilyIslandSpring/SpringEnchant" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="一二" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.58309,0},{0.306122,0},{0.641399,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

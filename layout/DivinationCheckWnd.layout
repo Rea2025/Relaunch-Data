@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/DivinationCheckWnd" >
+        <Property Name="AlwaysOnTop" Value="True" />
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="TitlebarImage" Value="set:main image:SystemNormal" />
+        <Property Name="UnifiedAreaRect" Value="{{0.264569,0},{0.247644,0},{0.264569,332},{0.247644,296}}" />
+        <Window Type="DejaVu/Embed" Name="Root/DivinationCheckWnd/Warning" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Embed2" Name="Root/DivinationCheckWnd/Warning/TextBG" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0512957,0},{0.03125,0},{0.977172,0},{0.80865,0}}" />
+                <Window Type="DejaVu/StaticText" Name="Root/DivinationCheckWnd/Warning/TextBG/Text" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="FrameColours" Value="ffffffff" />
+                    <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                    <Property Name="LinespaceWindow" Value="True" />
+                    <Property Name="Text" >
+
+
+                 免費次數      %s1
+
+                 是否花費道具進行占卜
+                 (目前持有道具：%s2)
+
+           ※占卜運勢只會保留最新的占卜結果
+</Property>
+                    <Property Name="UnifiedAreaRect" Value="{{0.0122487,0},{0.0212946,0},{0.982919,0},{0.969513,0}}" />
+                    <Property Name="VertFormatting" Value="TopAligned" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/DivinationCheckWnd/Warning/TextBG/Item" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.787685,0},{0.318523,0},{0.924204,0},{0.556618,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/DivinationCheckWnd/Warning/Deny" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="Text" Value="拒絕" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.0253165,0},{0.847222,0},{0.164557,0},{0.962963,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/DivinationCheckWnd/Warning/Confirm" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="Text" Value="確認" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.35443,0},{0.847222,0},{-0.164557,0},{0.962963,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

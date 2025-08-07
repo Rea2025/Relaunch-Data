@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="TriggerAreaFilter" >
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.322266,0},{0.248698,0}}" />
+        <Window Type="DejaVu/Static" Name="TriggerAreaFilter/Column" >
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.954545,0},{0.13089,0}}" />
+            <Window Type="DejaVu/Embed2" Name="TriggerAreaFilter/Column/CheckBG" >
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.0862069,0},{1,0}}" />
+                <Window Type="DejaVu/ImageCheckbox" Name="TriggerAreaFilter/Column/CheckBG/CheckBox" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="DisabledImage" Value="set:DejaVu image:TreeListOpenedNormal" />
+                    <Property Name="HoverImage" Value="set:DejaVu image:TreeListClosed" />
+                    <Property Name="ID" Value="1" />
+                    <Property Name="NormalImage" Value="set:DejaVu image:TreeListClosedNormal" />
+                    <Property Name="PushedImage" Value="set:DejaVu image:TreeListOpenedNormal" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.208333,0},{0.2,0},{0.833333,0},{0.8,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed2" Name="TriggerAreaFilter/Column/Times" >
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.726644,0},{0,0},{1,0},{1,0}}" />
+                <Window Type="DejaVu/Button" Name="TriggerAreaFilter/Column/Btn" >
+                    <Property Name="ID" Value="1002" />
+                    <Property Name="Text" Value="1/3" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/EmbedText2" Name="TriggerAreaFilter/Column/Name" >
+                <Property Name="ID" Value="1001" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="XXText" />
+                <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+                <Property Name="UnifiedAreaRect" Value="{{0.086505,0},{0,0},{0.726643,0},{1,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="TriggerAreaFilter/Item" >
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.209424,0},{0.954545,0},{0.340314,0}}" />
+            <Window Type="DejaVu/Embed2" Name="TriggerAreaFilter/Item/Times" >
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.730159,0},{0,0},{1,0},{1,0}}" />
+            </Window>
+            <Window Type="DejaVu/EmbedText2" Name="TriggerAreaFilter/Item/Name" >
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="XXText" />
+                <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.730159,0},{1,0}}" />
+            </Window>
+            <Window Type="DejaVu/Zframe2" Name="TriggerAreaFilter/Item/SelectFrame" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1.00344,0},{1,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

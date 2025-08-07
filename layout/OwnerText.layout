@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="MessageBoard/OwnerText" >
+        <Property Name="AlwaysOnTop" Value="True" />
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HorizontalAlignment" Value="Centre" />
+        <Property Name="TitlebarEnabled" Value="False" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,491},{0,212}}" />
+        <Property Name="VerticalAlignment" Value="Centre" />
+        <Window Type="DejaVu/StaticTextLab" Name="MessageBoard/OwnerText/Content/Label" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="Text" Value="OwnerText" />
+            <Property Name="UnifiedAreaRect" Value="{{0.043956,0},{0,0},{0.197802,0},{0.139535,0}}" />
+        </Window>
+        <Window Type="DejaVu/Static" Name="MessageBoard/OwnerText/Content" >
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0710059,0},{0,455},{0.0710059,160}}" />
+            <Window Type="DejaVu/Button" Name="MessageBoard/OwnerText/Content/Button/OK" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="Modify" />
+                <Property Name="UnifiedAreaRect" Value="{{0.806593,0},{0.83125,0},{0.96044,0},{0.98125,0}}" />
+            </Window>
+            <Window Type="DejaVu/MultiLineEditbox" Name="MessageBoard/OwnerText/Content/Text" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="MaxTextLength" Value="451" />
+                <Property Name="NormalTextColour" Value="C8FFFFFF" />
+                <Property Name="SelectedTextColour" Value="FFFFFFFF" />
+                <Property Name="Text" >
+</Property>
+                <Property Name="TextParsingEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.03956,0},{0.1875,0},{0.960439,0},{0.8125,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

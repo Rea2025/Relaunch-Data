@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/EudemonLink2Wnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="TitlebarImage" Value="set:main image:EudemonNormal" />
+        <Property Name="UnifiedAreaRect" Value="{{0.0212155,0},{0.0921691,0},{0.0212155,500},{0.0921691,656}}" />
+        <Window Type="DejaVu/Embed" Name="Root/EudemonLink2Wnd/Embed" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.00206612,0},{0,0},{1.00413,0},{0.989583,0}}" />
+            <Window Type="DejaVu/Embed2" Name="Root/EudemonLink2Wnd/Embed/BG" >
+                <Property Name="UnifiedAreaRect" Value="{{0.0289855,0},{0.0368421,0},{0.573499,0},{0.980702,0}}" />
+                <Window Type="DejaVu/EmbedTextLab7" Name="Root/EudemonLink2Wnd/Embed/BG/ClassComboTitle" >
+                    <Property Name="HorzFormatting" Value="WordWrapCentred" />
+                    <Property Name="Text" Value="x屬性分類" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0378788,0},{0.0371747,0},{0.367424,0},{0.0836431,0}}" />
+                </Window>
+                <Window Type="DejaVu/Combobox" Name="Root/EudemonLink2Wnd/Embed/BG/ClassCombo" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="MaxEditTextLength" Value="2147483647" />
+                    <Property Name="ReadOnly" Value="True" />
+                    <Property Name="Text" Value="x顯示全部" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.367424,0},{0.0371747,0},{0.962121,0},{0.226766,0}}" />
+                </Window>
+                <Window Type="DejaVu/Embed2" Name="Root/EudemonLink2Wnd/Embed/BG/EudemonBGList" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.0378788,0},{0.135688,0},{0.969697,0},{0.990706,0}}" />
+                    <Window Type="DejaVu/EmbedTextLab7" Name="Root/EudemonLink2Wnd/Embed/BG/EudemonBGList/Title" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="x源神選擇" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.987805,0},{0.0543478,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/ScrollablePane" Name="Root/EudemonLink2Wnd/Embed/BG/EudemonBGList/Pane" >
+                        <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                        <Property Name="HorzOverlapSize" Value="0.01" />
+                        <Property Name="HorzScrollPosition" Value="0" />
+                        <Property Name="HorzStepSize" Value="0.1" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.00813008,0},{0.0608696,0},{0.987805,0},{0.993478,0}}" />
+                        <Property Name="VertOverlapSize" Value="0.01" />
+                        <Property Name="VertScrollPosition" Value="0" />
+                        <Property Name="VertStepSize" Value="0.1" />
+                        <AutoWindow NameSuffix="__auto_container__" >
+                            <Property Name="ChildExtentsArea" Value="l:0 t:0 r:0 b:0" />
+                            <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                            <Property Name="MouseInputPropagationEnabled" Value="True" />
+                        </AutoWindow>
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab7" Name="Root/EudemonLink2Wnd/Embed/BG/RankComboTitle" >
+                    <Property Name="HorzFormatting" Value="WordWrapCentred" />
+                    <Property Name="Text" Value="x星級篩選" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0378788,0},{0.0817844,0},{0.367424,0},{0.128253,0}}" />
+                </Window>
+                <Window Type="DejaVu/Combobox" Name="Root/EudemonLink2Wnd/Embed/BG/RankCombo" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="MaxEditTextLength" Value="2147483647" />
+                    <Property Name="ReadOnly" Value="True" />
+                    <Property Name="Text" Value="x顯示全部" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.367424,0},{0.0817844,0},{0.962121,0},{0.271375,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed4" Name="Root/EudemonLink2Wnd/Embed/BGTitle" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0227743,0},{0.0175439,0},{0.335404,0},{0.0614035,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/EudemonLink2Wnd/Embed/BGTitle/Text" >
+                    <Property Name="Text" Value="x源神連結" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.2,0},{0.866667,0},{0.8,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/EudemonLink2Wnd/Embed/BGTitle/Icon" >
+                    <Property Name="Image" Value="set:DejaVu image:Image08" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0986842,0},{0.2,0},{0.197368,0},{0.8,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed2" Name="Root/EudemonLink2Wnd/Embed/PrizeList" >
+                <Property Name="UnifiedAreaRect" Value="{{0.63159,0},{0.251254,0},{0.944219,0},{0.640728,0}}" />
+                <Window Type="DejaVu/ScrollablePane" Name="Root/EudemonLink2Wnd/Embed/PrizeList/Pane" >
+                    <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                    <Property Name="HorzOverlapSize" Value="0.01" />
+                    <Property Name="HorzScrollPosition" Value="0" />
+                    <Property Name="HorzStepSize" Value="0.1" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1.13158,0},{1,0}}" />
+                    <Property Name="VertOverlapSize" Value="0.01" />
+                    <Property Name="VertScrollPosition" Value="0" />
+                    <Property Name="VertStepSize" Value="0.1" />
+                    <AutoWindow NameSuffix="__auto_container__" >
+                        <Property Name="ChildExtentsArea" Value="l:0 t:0 r:0 b:0" />
+                        <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                        <Property Name="MouseInputPropagationEnabled" Value="True" />
+                    </AutoWindow>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/EudemonLink2Wnd/Embed/Text1" >
+                <Property Name="Text" Value="x可能獲得的獎勵：" />
+                <Property Name="UnifiedAreaRect" Value="{{0.606625,0},{0.210526,0},{0.931677,0},{0.247368,0}}" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/EudemonLink2Wnd/Embed/LeftBtn" >
+                <Property Name="DisabledImage" Value="set:DejaVu image:ArrowLeftPressed" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="HoverImage" Value="set:DejaVu image:ArrowLeftHover" />
+                <Property Name="NormalImage" Value="set:DejaVu image:ArrowLeftNormal" />
+                <Property Name="PushedImage" Value="set:DejaVu image:ArrowLeftPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0.178054,0},{-0.219298,0},{0.219462,0},{-0.175439,0}}" />
+                <Property Name="VerticalAlignment" Value="Bottom" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/EudemonLink2Wnd/Embed/FirstBtn" >
+                <Property Name="DisabledImage" Value="set:DejaVu image:DoubledLeftArrowPressed" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="HoverImage" Value="set:DejaVu image:DoubledLeftArrowHover" />
+                <Property Name="NormalImage" Value="set:DejaVu image:DoubledLeftArrowNormal" />
+                <Property Name="PushedImage" Value="set:DejaVu image:DoubledLeftArrowPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0.138716,0},{-0.219298,0},{0.180124,0},{-0.175439,0}}" />
+                <Property Name="VerticalAlignment" Value="Bottom" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/EudemonLink2Wnd/Embed/RightBtn" >
+                <Property Name="DisabledImage" Value="set:DejaVu image:ArrowRightPressed" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="HoverImage" Value="set:DejaVu image:ArrowRightHover" />
+                <Property Name="NormalImage" Value="set:DejaVu image:ArrowRightNormal" />
+                <Property Name="PushedImage" Value="set:DejaVu image:ArrowRightPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0.376812,0},{-0.219298,0},{0.418219,0},{-0.175439,0}}" />
+                <Property Name="VerticalAlignment" Value="Bottom" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/EudemonLink2Wnd/Embed/LastBtn" >
+                <Property Name="DisabledImage" Value="set:DejaVu image:DoubledRightArrowPressed" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="HoverImage" Value="set:DejaVu image:DoubledRightArrowHover" />
+                <Property Name="NormalImage" Value="set:DejaVu image:DoubledRightArrowNormal" />
+                <Property Name="PushedImage" Value="set:DejaVu image:DoubledRightArrowPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0.416149,0},{-0.219298,0},{0.457557,0},{-0.175439,0}}" />
+                <Property Name="VerticalAlignment" Value="Bottom" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/EudemonLink2Wnd/Embed/text2" >
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="x連結次數" />
+                <Property Name="UnifiedAreaRect" Value="{{0.619048,0},{0.692982,0},{0.944099,0},{0.729825,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/EudemonLink2Wnd/Embed/LinkBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="x連結" />
+                <Property Name="UnifiedAreaRect" Value="{{0.697723,0},{0.912281,0},{0.859213,0},{0.957895,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/EudemonLink2Wnd/Embed/text3" >
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="x持有的源神連結券：s%1" />
+                <Property Name="UnifiedAreaRect" Value="{{0.603455,0},{0.65614,0},{0.955023,0},{0.692982,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/EudemonLink2Wnd/Embed/text4" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorzFormatting" Value="WordWrapCentred" />
+                <Property Name="Text" >x最大次數=背包空格數
+</Property>
+                <Property Name="UnifiedAreaRect" Value="{{0.619568,0},{0.786276,0},{0.94565,0},{0.846103,0}}" />
+                <Property Name="VertFormatting" Value="TopAligned" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/EudemonLink2Wnd/Embed/text5" >
+                <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                <Property Name="Text" >x花費金錢即可與源神進行連結，並獲得獨特獎勵
+
+若持有源神連結券，每張能抵一次連結的費用</Property>
+                <Property Name="TextColours" Value="tl:FFFF0000 tr:FFFF0000 bl:FFFF0000 br:FFFF0000" />
+                <Property Name="UnifiedAreaRect" Value="{{0.620191,0},{0.0399173,0},{0.943172,0},{0.20041,0}}" />
+            </Window>
+            <Window Type="DejaVu/EmbedTextLab7" Name="Root/EudemonLink2Wnd/Embed/CostText" >
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="x花費" />
+                <Property Name="UnifiedAreaRect" Value="{{0.57971,0},{0.842105,0},{0.724638,0},{0.885965,0}}" />
+            </Window>
+            <Window Type="DejaVu/Embed2" Name="Root/EudemonLink2Wnd/Embed/Money" >
+                <Property Name="UnifiedAreaRect" Value="{{0.724638,0},{0.842105,0},{0.983532,0},{0.885965,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="Root/EudemonLink2Wnd/Embed/GoldImage" >
+                    <Property Name="Image" Value="set:main image:Gold" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0.2,0},{0.607143,0},{0.8,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/EudemonLink2Wnd/Embed/SilverImage" >
+                    <Property Name="Image" Value="set:main image:Silver" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.857143,0},{0.2,0},{0.964286,0},{0.8,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/EudemonLink2Wnd/Embed/Silver" >
+                    <Property Name="HorzFormatting" Value="RightAligned" />
+                    <Property Name="Text" Value="999" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.607143,0},{0.2,0},{0.821429,0},{0.8,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/EudemonLink2Wnd/Embed/Gold" >
+                    <Property Name="HorzFormatting" Value="RightAligned" />
+                    <Property Name="Text" Value="x9999" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.071429,0},{0.2,0},{0.464286,0},{0.8,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Editbox" Name="Root/EudemonLink2Wnd/Embed/PageText" >
+                <Property Name="MaxTextLength" Value="2147483647" />
+                <Property Name="TextParsingEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.703312,0},{0.735965,0},{0.852744,0},{0.779825,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

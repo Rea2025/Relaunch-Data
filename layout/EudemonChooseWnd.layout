@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/EudemonChooseWnd" >
+        <Property Name="CloseButtonEnabled" Value="False" />
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="True" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="TitlebarImage" Value="set:main image:EudemonNormal" />
+        <Property Name="UnifiedAreaRect" Value="{{0.112304,0},{0.095052,0},{0.112304,805},{0.095052,633}}" />
+        <Window Type="DejaVu/Embed" Name="Root/EudemonChooseWnd/bk" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Static" Name="Root/EudemonChooseWnd/Info" >
+                <Property Name="UnifiedAreaRect" Value="{{0.328264,0},{0.0180832,0},{0.987326,0},{0.981917,0}}" />
+                <Window Type="DejaVu/Embed2" Name="Root/EudemonChooseWnd/Info/bk" >
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0187617,0},{1,0},{1,0}}" />
+                    <Window Type="DejaVu/Embed2" Name="Root/EudemonChooseWnd/Info/ModelView/bk" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.0200123,0},{0.0489099,0},{0.98155,0},{0.62826,0}}" />
+                        <Window Type="DejaVu/StaticImage" Name="Root/EudemonChooseWnd/Info/Star" >
+                            <Property Name="Image" Value="set:main2 image:BG" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.02,0},{0.148515,0},{0.02,90},{0.148515,20}}" />
+                            <Window Type="DejaVu/StaticImage" Name="Root/EudemonChooseWnd/Info/Star1" >
+                                <Property Name="Image" Value="set:main2 image:Feeling02" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.0555556,0},{0,0},{0.277778,0},{1,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/StaticImage" Name="Root/EudemonChooseWnd/Info/Star2" >
+                                <Property Name="Image" Value="set:main2 image:Feeling02" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.277778,0},{0,0},{0.5,0},{1,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/StaticImage" Name="Root/EudemonChooseWnd/Info/Star3" >
+                                <Property Name="Image" Value="set:main2 image:Feeling02" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0,0},{0.722222,0},{1,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/StaticImage" Name="Root/EudemonChooseWnd/Info/Star4" >
+                                <Property Name="Image" Value="set:main2 image:Feeling02" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.722222,0},{0,0},{0.944444,0},{1,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/Static" Name="Root/EudemonChooseWnd/Info/NowLevel" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.06,0},{0.0330033,0},{0.06,50},{0.0330033,30}}" />
+                            <Window Type="DejaVu/StaticImage" Name="Root/EudemonChooseWnd/Info/NowLevel/PicNum1" >
+                                <Property Name="Image" Value="set:DejaVu image:one" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.36,0},{0.0643765,0},{0.92,0},{0.99771,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/StaticImage" Name="Root/EudemonChooseWnd/Info/NowLevel/PicNum2" >
+                                <Property Name="Image" Value="set:DejaVu image:one" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0666667,0},{0.56,0},{1,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/StaticImage" Name="Root/EudemonChooseWnd/Info/ModelView" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Embed2" Name="Root/EudemonChooseWnd/Info/Describe" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.0192308,0},{0.636711,0},{0.651923,0},{0.98088,0}}" />
+                        <Window Type="DejaVu/Embed7" Name="Root/EudemonChooseWnd/Info/Describe/Title" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.006079,0},{0.011111,0},{0.993921,0},{0.15,0}}" />
+                            <Window Type="DejaVu/StaticTextLab" Name="Root/EudemonChooseWnd/Info/Describe/Title/Text" >
+                                <Property Name="Text" Value="x守護者" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.0615385,0},{0,0},{0.676924,0},{1,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/MultiLineEditbox" Name="Root/EudemonChooseWnd/Info/Describe/Text" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="LinespaceWindow" Value="True" />
+                            <Property Name="MaxTextLength" Value="2147483647" />
+                            <Property Name="NormalTextColour" Value="FFFFFFFF" />
+                            <Property Name="ReadOnly" Value="True" />
+                            <Property Name="Text" >一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十
+</Property>
+                            <Property Name="TextParsingEnabled" Value="False" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.009119,0},{0.15,0},{0.990882,0},{0.983333,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Embed2" Name="Root/EudemonChooseWnd/Info/Spell" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.661538,0},{0.636711,0},{0.980769,0},{0.803059,0}}" />
+                        <Window Type="DejaVu/EmbedTextLab7" Name="Root/EudemonChooseWnd/Info/Spell/Title" >
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="x技能" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.012048,0},{0.022989,0},{0.987952,0},{0.310345,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="Root/EudemonChooseWnd/Info/Spell/Slot1" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.060241,0},{0.402299,0},{0.313253,0},{0.885058,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="Root/EudemonChooseWnd/Info/Spell/Slot2" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.373494,0},{0.402299,0},{0.626506,0},{0.885058,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="Root/EudemonChooseWnd/Info/Spell/Slot3" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.686747,0},{0.402299,0},{0.939759,0},{0.885058,0}}" />
+                        </Window>
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed4" Name="Root/EudemonChooseWnd/Info/Title" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.018657,0},{0,0},{0.307119,0},{0.0469043,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/EudemonChooseWnd/Info/Title/Text" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="x幻獸資訊" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.2,0},{0.8,0},{0.8,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/EudemonChooseWnd/Info/Title/Icon" >
+                        <Property Name="Image" Value="set:DejaVu image:Image13" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="Root/EudemonChooseWnd/Choose" >
+                <Property Name="UnifiedAreaRect" Value="{{0.0126743,0},{0.0180832,0},{0.321926,0},{0.981917,0}}" />
+                <Window Type="DejaVu/Embed2" Name="Root/EudemonChooseWnd/Choose/Back" >
+                    <Property Name="UnifiedAreaRect" Value="{{-0.000976563,0},{0.018762,0},{0.999023,0},{1,0}}" />
+                    <Window Type="DejaVu/Embed2" Name="Root/EudemonChooseWnd/Choose/Style" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.0409836,0},{0.824092,0},{0.959016,0},{0.98088,0}}" />
+                        <Window Type="DejaVu/EmbedTextLab7" Name="Root/EudemonChooseWnd/Choose/Style/Title" >
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="x造型選擇" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.008368,0},{0.022989,0},{0.990511,0},{0.327867,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Static" Name="Root/EudemonChooseWnd/Choose/Style/bk" >
+                            <Property Name="HorizontalAlignment" Value="Centre" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.451219,0},{0.647321,0},{0.878049,0}}" />
+                            <Window Type="DejaVu/EmbedTextLab5" Name="Root/EudemonChooseWnd/Choose/Style/NumText" >
+                                <Property Name="Font" Value="F001-11" />
+                                <Property Name="HorizontalAlignment" Value="Centre" />
+                                <Property Name="HorzFormatting" Value="HorzCentred" />
+                                <Property Name="Text" Value="-- / --" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.142857,0},{0.482759,0},{0.857143,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/ImageButton" Name="Root/EudemonChooseWnd/Choose/Style/LeftBtn" >
+                                <Property Name="HoverImage" Value="set:main3 image:LeftBtnHover" />
+                                <Property Name="NormalImage" Value="set:main3 image:LeftBtnNormal" />
+                                <Property Name="PushedImage" Value="set:main3 image:LeftBtnPressed" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.0344828,0},{0.2,0},{0.0344828,15},{0.2,20}}" />
+                            </Window>
+                            <Window Type="DejaVu/ImageButton" Name="Root/EudemonChooseWnd/Choose/Style/RightBtn" >
+                                <Property Name="HoverImage" Value="set:main3 image:RightBtnHover" />
+                                <Property Name="NormalImage" Value="set:main3 image:RightBtnNormal" />
+                                <Property Name="PushedImage" Value="set:main3 image:RightBtnPressed" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.862069,0},{0.2,0},{0.862069,15},{0.2,20}}" />
+                            </Window>
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Embed2" Name="Root/EudemonChooseWnd/Choose/MCL" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.040984,0},{0.047801,0},{0.959017,0},{0.814531,0}}" />
+                        <Window Type="DejaVu/EmbedTextLab7" Name="Root/EudemonChooseWnd/Choose/MCL/Header" >
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="x幻獸選擇" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.00892857,0},{0.005,0},{0.991071,0},{0.0675,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/MultiColumnListNoHeader" Name="Root/EudemonChooseWnd/Choose/MCL/List" >
+                            <Property Name="ColumnsMovable" Value="False" />
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.008929,0},{0.0675,0},{0.991072,0},{0.995181,0}}" />
+                        </Window>
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed4" Name="Root/EudemonChooseWnd/Choose/Title" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.040984,0},{0,0},{0.655738,0},{0.0469043,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/EudemonChooseWnd/Choose/Title/Text" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="x幻獸列表" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.2,0},{0.866667,0},{0.8,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/EudemonChooseWnd/Choose/Title/Icon" >
+                        <Property Name="Image" Value="set:DejaVu image:Image08" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/EudemonChooseWnd/OkBtn" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="Text" Value="x確定" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.0697085,0},{-0.0361664,0},{0.026616,0},{0.0108499,0}}" />
+                <Property Name="VerticalAlignment" Value="Bottom" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

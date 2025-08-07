@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/KusoEvolveWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.372917,0},{0.0781841,0},{0.372917,261},{0.0781841,323}}" />
+        <Window Type="DejaVu/Button" Name="Root/KusoEvolveWnd/StartBtn" >
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Property Name="Text" Value="x進化物品x" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,62},{0,24}}" />
+            <Property Name="VerticalAlignment" Value="Bottom" />
+        </Window>
+        <Window Type="DejaVu/Static" Name="Root/KusoEvolveWnd/InputBG" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0322923,0},{0.103592,0},{0.0322923,197},{0.103592,81}}" />
+        </Window>
+        <Window Type="DejaVu/Static" Name="Root/KusoEvolveWnd/OutputFrame" >
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Property Name="UnifiedAreaRect" Value="{{-3.72529e-009,0},{0.574715,0},{-3.72529e-009,213},{0.574715,81}}" />
+            <Window Type="DejaVu/ScrollablePane" Name="Root/KusoEvolveWnd/OutputBG" >
+                <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorzOverlapSize" Value="0.01" />
+                <Property Name="HorzScrollPosition" Value="0" />
+                <Property Name="HorzStepSize" Value="0.1" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Property Name="VertOverlapSize" Value="0.01" />
+                <Property Name="VertScrollPosition" Value="0" />
+                <Property Name="VertStepSize" Value="0.1" />
+                <AutoWindow NameSuffix="__auto_container__" >
+                    <Property Name="ChildExtentsArea" Value="l:0 t:0 r:0 b:0" />
+                    <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                    <Property Name="MouseInputPropagationEnabled" Value="True" />
+                </AutoWindow>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/StaticText" Name="Root/KusoEvolveWnd/InputLabel" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="Text" Value="請放入原料：x" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0355556,0},{0.0185185,0},{0.0355556,130},{0.0185185,21}}" />
+        </Window>
+        <Window Type="DejaVu/StaticText" Name="Root/KusoEvolveWnd/OutputLabel" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="Text" Value="可獲得的成品：x" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0355556,0},{0.492593,0},{0.0355556,130},{0.492593,21}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/KusoEvolveWnd/ViewInputBtn" >
+            <Property Name="Text" Value="x觀看原料x" />
+            <Property Name="UnifiedAreaRect" Value="{{0.65104,0},{0.00391591,0},{0.65104,62},{0.00391591,24}}" />
+        </Window>
+        <Window Type="DejaVu/ImageButton" Name="Root/KusoEvolveWnd/QMarkBtn" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="ClippedByParent" Value="False" />
+            <Property Name="HorizontalAlignment" Value="Right" />
+            <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+            <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+            <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+            <Property Name="UnifiedAreaRect" Value="{{-0.0222222,0},{-0.062963,0},{-0.0222222,12},{-0.062963,12}}" />
+        </Window>
+        <Window Type="DejaVu/StaticText" Name="Root/KusoEvolveWnd/OutputInfoText" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="Text" Value="成品：30個" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0355556,0},{0.403704,0},{0.0355556,129},{0.403704,21}}" />
+        </Window>
+        <Window Type="DejaVu/StaticText" Name="Root/KusoEvolveWnd/AmountInfoText" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="Text" Value="下個仍需：35/40x" />
+            <Property Name="UnifiedAreaRect" Value="{{0.515556,0},{0.403704,0},{0.515556,129},{0.403704,21}}" />
+        </Window>
+    </Window>
+</GUILayout>

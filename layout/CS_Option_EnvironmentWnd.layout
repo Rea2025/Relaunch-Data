@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/CS_Option_EnvironmentWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HorizontalAlignment" Value="Centre" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Window Type="DejaVu/Static" Name="Root/CS_Option_EnvironmentWnd/Background" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Embed" Name="Root/CS_Option_EnvironmentWnd/Background/Border_Environment" >
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_Option_EnvironmentWnd/Background/Border_Environment/Text_Hour" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="時" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.125,0},{0.2,0},{0.375,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/CS_Option_EnvironmentWnd/Background/Border_Environment/Edit_Hour" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.2,0},{0.125,0},{0.35,0},{0.375,0}}" />
+                </Window>
+                <Window Type="DejaVu/HorizontalScrollbar" Name="Root/CS_Option_EnvironmentWnd/Background/Border_Environment/Scrollbar_Time" >
+                    <Property Name="DocumentSize" Value="1" />
+                    <Property Name="OverlapSize" Value="0" />
+                    <Property Name="PageSize" Value="0" />
+                    <Property Name="ScrollPosition" Value="0" />
+                    <Property Name="StepSize" Value="1" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.5,0},{0.95,0},{0.75,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/CS_Option_EnvironmentWnd/Background/Border_Environment/Edit_Minute" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0.125,0},{0.65,0},{0.375,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_Option_EnvironmentWnd/Background/Border_Environment/Text_Minute" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="分" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.35,0},{0.125,0},{0.5,0},{0.375,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_Option_EnvironmentWnd/Background/Border_Environment/Text_Second" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="秒" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.65,0},{0.125,0},{0.8,0},{0.375,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/CS_Option_EnvironmentWnd/Background/Border_Environment/Edit_Second" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.8,0},{0.125,0},{0.95,0},{0.375,0}}" />
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

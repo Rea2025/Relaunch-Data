@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/DungeonSweepWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="Text" Value="x副本掃蕩" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="TitlebarImage" Value="set:main3 image:DungeonBtnNormal" />
+        <Property Name="UnifiedAreaRect" Value="{{0.407787,0},{0.164557,0},{0.407787,335},{0.164557,330}}" />
+        <Window Type="DejaVu/Embed" Name="Root/DungeonSweepWnd/Static" >
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1.00313,0},{1,0}}" />
+            <Window Type="DejaVu/Embed2" Name="Root/DungeonSweepWnd/Static/Embed2" >
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.24,0},{0.943574,0},{0.644,0}}" />
+                <Window Type="DejaVu/ScrollablePane" Name="Root/DungeonSweepWnd/Static/Embed2/ScrollablePane" >
+                    <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorzOverlapSize" Value="0.01" />
+                    <Property Name="HorzScrollPosition" Value="0" />
+                    <Property Name="HorzStepSize" Value="0.1" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.016556,0},{0.049505,0},{0.996688,0},{0.990099,0}}" />
+                    <Property Name="VertOverlapSize" Value="0.01" />
+                    <Property Name="VertScrollPosition" Value="0" />
+                    <Property Name="VertStepSize" Value="0.1" />
+                    <AutoWindow NameSuffix="__auto_container__" >
+                        <Property Name="ChildExtentsArea" Value="l:0 t:0 r:0 b:0" />
+                        <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                        <Property Name="MouseInputPropagationEnabled" Value="True" />
+                    </AutoWindow>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/DungeonSweepWnd/Static/SweepBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="Text" Value="x再次掃蕩" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.15674,0},{-0.04,0},{0.125392,0},{0.08,0}}" />
+                <Property Name="VerticalAlignment" Value="Bottom" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/DungeonSweepWnd/Static/Exitbtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="Text" Value="x離開" />
+                <Property Name="UnifiedAreaRect" Value="{{0.15674,0},{-0.04,0},{0.438872,0},{0.08,0}}" />
+                <Property Name="VerticalAlignment" Value="Bottom" />
+            </Window>
+            <Window Type="DejaVu/EmbedText12" Name="Root/DungeonSweepWnd/Static/Title" >
+                <Property Name="Font" Value="F001-12" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="-掃蕩結果-" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.06,0},{0.470219,0},{0.22,0}}" />
+            </Window>
+            <Window Type="DejaVu/Static" Name="Root/DungeonSweepWnd/Static/AavailableStuff/NodeLimit" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="UnifiedAreaRect" Value="{{0.23511,0},{-0.18,0},{0.705329,0},{-0.04,0}}" />
+                <Property Name="VerticalAlignment" Value="Bottom" />
+                <Window Type="DejaVu/EmbedText7" Name="Root/DungeonSweepWnd/Static/AavailableStuff/NodeLimit/Title" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="x副本剩餘次數" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.714286,0},{0.714286,0}}" />
+                    <Property Name="VerticalAlignment" Value="Centre" />
+                </Window>
+                <Window Type="DejaVu/EmbedText2" Name="Root/DungeonSweepWnd/Static/AavailableStuff/NodeLimit/Text" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="1" />
+                    <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.714286,0},{-0.00105485,0},{1,0},{0.713231,0}}" />
+                    <Property Name="VerticalAlignment" Value="Centre" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="Root/DungeonSweepWnd/Static/AavailableStuff/SweepItem" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.219436,0},{-0.18,0},{0.219436,0},{-0.04,0}}" />
+                <Property Name="VerticalAlignment" Value="Bottom" />
+                <Window Type="DejaVu/EmbedText2" Name="Root/DungeonSweepWnd/Static/AavailableStuff/SweepItem/Text" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="5/1" />
+                    <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.321429,0},{0,0},{0.964286,0},{0.714286,0}}" />
+                    <Property Name="VerticalAlignment" Value="Centre" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/DungeonSweepWnd/Static/AavailableStuff/SweepItem/Item" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0357143,0},{0,0},{0.285714,0},{1,0}}" />
+                    <Property Name="VerticalAlignment" Value="Centre" />
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

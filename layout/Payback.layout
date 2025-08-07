@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/Payback" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="Text" Value="x零元返還" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="TitlebarImage" Value="set:main3 image:BtnPaybackNormal" />
+        <Property Name="UnifiedAreaRect" Value="{{0.052083,0},{0.105485,0},{0.052083,900},{0.105485,630}}" />
+        <Window Type="DejaVu/Embed5" Name="Root/Payback/BannerEmbed" >
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1.00679,0},{0.0545455,0}}" />
+            <Property Name="Visible" Value="False" />
+            <Window Type="DejaVu/StaticTextLab" Name="Root/Payback/BannerEmbed/Run" >
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" >xxxxx
+</Property>
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.0904977,0},{1.03448,0}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/TabControl" Name="Root/Payback/TabControl" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="TabHeight" Value="{0,20}" />
+            <Property Name="TabPanePosition" Value="Top" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.018182,0},{0.995475,0},{1,0}}" />
+        </Window>
+        <Window Type="DejaVu/EmbedText" Name="Root/Payback/InfoEmbed" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-11" />
+            <Property Name="HorizontalAlignment" Value="Right" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="Text" Value="?" />
+            <Property Name="UnifiedAreaRect" Value="{{-0.00565611,0},{0,0},{0.0282805,0},{0.0545455,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/Payback/TempAreaBtn" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HorizontalAlignment" Value="Right" />
+            <Property Name="Text" Value="x物品暫存區" />
+            <Property Name="UnifiedAreaRect" Value="{{-0.0452489,0},{0,0},{0.0904977,0},{0.0545455,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

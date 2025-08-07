@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/Embed3" Name="BookBG" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HorizontalAlignment" Value="Centre" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{-0.195313,0},{0,170},{-0.195313,65}}" />
+        <Property Name="VerticalAlignment" Value="Bottom" />
+        <Window Type="DejaVu/StaticImage" Name="BookBG/Icon" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="Image" Value="set:main image:WeaponTypeBook" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0588235,0},{0.307692,0},{0.176471,0},{0.615385,0}}" />
+        </Window>
+        <Window Type="DejaVu/ProgressBarBG" Name="BookBG/BarBG" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.205882,0},{0.615385,0},{0.970588,0},{0.846154,0}}" />
+            <Window Type="DejaVu/ProgressBar5" Name="BookBG/BarBG/Progress" >
+                <Property Name="CurrentProgress" Value="0" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="StepSize" Value="0.01" />
+                <Property Name="UnifiedAreaRect" Value="{{0.038462,0},{0.266667,0},{0.961539,0},{0.733334,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/SlotImage" Name="BookBG/Slot" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.264706,0},{0.076923,0},{0.441177,0},{0.538461,0}}" />
+            <Window Type="DejaVu/StaticImage" Name="BookBG/Slot/Frame1" >
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Image" Value="set:DejaVu image:PurpleItem" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.033333,0},{0.033333,0},{0.966666,0},{0.966666,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="BookBG/Slot/Frame2" >
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Image" Value="set:DejaVu image:PurpleItem" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.033333,0},{-0.033333,0},{1.03333,0},{1.03333,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/SlotImage" Name="BookBG/Slot1" >
+            <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0.0769231,0},{0.676471,0},{0.538462,0}}" />
+        </Window>
+        <Window Type="DejaVu/SlotImage" Name="BookBG/Slot2" >
+            <Property Name="UnifiedAreaRect" Value="{{0.735294,0},{0.0769231,0},{0.911765,0},{0.538462,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

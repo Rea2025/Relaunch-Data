@@ -1,0 +1,657 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="EudemonCollectionWnd" >
+        <Property Name="Font" Value="F001-scale" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,838},{0,574}}" />
+        <Window Type="DejaVu/Static" Name="EudemonCollectionWnd/BG" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.011933,0},{0.017361,0},{0.990453,0},{0.98426,0}}" />
+            <Property Name="VertFormatting" Value="TopAligned" />
+            <Window Type="DejaVu/Static" Name="EudemonCollectionWnd/BG/PairArea" >
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.72561,0},{1,0}}" />
+                <Window Type="DejaVu/Embed4" Name="EudemonCollectionWnd/BG/PairArea/Title" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.016835,0},{0,0},{0.287879,0},{0.044964,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="EudemonCollectionWnd/BG/PairArea/Title/Text" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="配對資訊" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.2,0},{0.825673,0},{0.8,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="EudemonCollectionWnd/BG/PairArea/Title/Image" >
+                        <Property Name="Image" Value="set:DejaVu image:Image13" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0931677,0},{0.2,0},{0.186335,0},{0.8,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed2" Name="EudemonCollectionWnd/BG/PairArea/BG" >
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.017986,0},{1,0},{0.999968,0}}" />
+                    <Window Type="DejaVu/Checkbox" Name="EudemonCollectionWnd/BG/PairArea/BG/NonOwnedCheck" >
+                        <Property Name="Text" Value="x僅顯示未擁有配對" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.016835,0},{0.03663,0},{0.445406,0},{0.0824175,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Checkbox" Name="EudemonCollectionWnd/BG/PairArea/BG/OwnedCheck" >
+                        <Property Name="Text" Value="x僅顯示已擁有的配對" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.554622,0},{0.03663,0},{0.986555,0},{0.0824176,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Combobox" Name="EudemonCollectionWnd/BG/PairArea/BG/ClassCombo" >
+                        <Property Name="MaxEditTextLength" Value="2147483647" />
+                        <Property Name="ReadOnly" Value="True" />
+                        <Property Name="Text" Value="選擇類別" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.016835,0},{0.091575,0},{0.302549,0},{0.275061,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Combobox" Name="EudemonCollectionWnd/BG/PairArea/BG/TypeCombo" >
+                        <Property Name="MaxEditTextLength" Value="2147483647" />
+                        <Property Name="ReadOnly" Value="True" />
+                        <Property Name="Text" Value="選擇類型" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.310924,0},{0.091743,0},{0.596638,0},{0.275229,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Embed2" Name="EudemonCollectionWnd/BG/PairArea/BG/List" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.016807,0},{0.146789,0},{0.991597,0},{0.981651,0}}" />
+                        <Window Type="DejaVu/Embed2" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.00862069,0},{0.010989,0},{0.991379,0},{0.901099,0}}" />
+                            <Window Type="DejaVu/Embed2" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item1" >
+                                <Property Name="UnifiedAreaRect" Value="{{0.00800621,0},{0.0109127,0},{0.990462,0},{0.196098,0}}" />
+                                <Window Type="DejaVu/SlotImage" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item1/Eudemon1" >
+                                    <Property Name="UnifiedAreaRect" Value="{{0.00892857,0},{0.213333,0},{0.0839286,0},{0.773333,0}}" />
+                                </Window>
+                                <Window Type="DejaVu/SlotImage" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item1/Eudemon2" >
+                                    <Property Name="UnifiedAreaRect" Value="{{0.0928571,0},{0.213333,0},{0.167857,0},{0.773333,0}}" />
+                                </Window>
+                                <Window Type="DejaVu/SlotImage" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item1/Eudemon3" >
+                                    <Property Name="UnifiedAreaRect" Value="{{0.178571,0},{0.213333,0},{0.253571,0},{0.773333,0}}" />
+                                </Window>
+                                <Window Type="DejaVu/StaticImage" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item1/StarReward1" >
+                                    <Property Name="Font" Value="F001-9" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.253571,0},{0.053333,0},{0.916071,0},{0.266666,0}}" />
+                                    <Window Type="DejaVu/StaticImage" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item1/StarReward1/Star1" >
+                                        <Property Name="Image" Value="set:main2 image:StarGold" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.013477,0},{0.058823,0},{0.0539083,0},{0.996323,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/StaticTextLab" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item1/StarReward1/Text" >
+                                        <Property Name="Text" Value="對雷電、寒冰屬性造成傷害上升 2% " />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.188679,0},{0,0},{0.997304,0},{1,0}}" />
+                                    </Window>
+                                </Window>
+                                <Window Type="DejaVu/StaticImage" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item1/StarReward2" >
+                                    <Property Name="UnifiedAreaRect" Value="{{0.253571,0},{0.28,0},{0.916071,0},{0.493333,0}}" />
+                                    <Window Type="DejaVu/StaticImage" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item1/StarReward2/Star1" >
+                                        <Property Name="Image" Value="set:main2 image:StarGold" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.0134771,0},{0.0625,0},{0.0539084,0},{1,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/StaticImage" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item1/StarReward2/Star2" >
+                                        <Property Name="Image" Value="set:main2 image:StarGold" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.0539084,0},{0.0625,0},{0.0943396,0},{1,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/StaticTextLab" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item1/StarReward2/Text" >
+                                        <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                                        <Property Name="Text" Value="對雷電、寒冰屬性造成傷害上升 2% " />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.188679,0},{0,0},{0.997304,0},{1,0}}" />
+                                    </Window>
+                                </Window>
+                                <Window Type="DejaVu/StaticImage" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item1/StarReward3" >
+                                    <Property Name="UnifiedAreaRect" Value="{{0.253571,0},{0.506667,0},{0.916071,0},{0.72,0}}" />
+                                    <Window Type="DejaVu/StaticImage" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item1/StarReward3/Star1" >
+                                        <Property Name="Image" Value="set:main2 image:StarGold" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.013477,0},{0.058823,0},{0.0539083,0},{0.996323,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/StaticImage" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item1/StarReward3/Star2" >
+                                        <Property Name="Image" Value="set:main2 image:StarGold" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.053908,0},{0.058823,0},{0.0943393,0},{0.996323,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/StaticImage" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item1/StarReward3/Star3" >
+                                        <Property Name="Image" Value="set:main2 image:StarGold" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.09434,0},{0.058823,0},{0.134771,0},{0.996323,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/StaticTextLab" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item1/StarReward3/Text" >
+                                        <Property Name="Text" Value="對雷電、寒冰屬性造成傷害上升 2% " />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.188679,0},{0,0},{0.997304,0},{1,0}}" />
+                                    </Window>
+                                </Window>
+                                <Window Type="DejaVu/StaticImage" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item1/StarReward4" >
+                                    <Property Name="UnifiedAreaRect" Value="{{0.253571,0},{0.733333,0},{0.916071,0},{0.946666,0}}" />
+                                    <Window Type="DejaVu/StaticImage" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item1/StarReward4/Star1" >
+                                        <Property Name="Image" Value="set:main2 image:StarGold" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.013477,0},{0.058823,0},{0.0539083,0},{0.996323,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/StaticImage" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item1/StarReward4/Star2" >
+                                        <Property Name="Image" Value="set:main2 image:StarGold" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.053908,0},{0.058823,0},{0.0943393,0},{0.996323,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/StaticImage" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item1/StarReward4/Star3" >
+                                        <Property Name="Image" Value="set:main2 image:StarGold" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.09434,0},{0.058823,0},{0.134771,0},{0.996323,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/StaticImage" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item1/StarReward4/Star4" >
+                                        <Property Name="Image" Value="set:main2 image:StarGold" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.134771,0},{0.058823,0},{0.175202,0},{0.996323,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/StaticTextLab" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item1/StarReward4/Text" >
+                                        <Property Name="Text" Value="對雷電、寒冰屬性造成傷害上升 2% " />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.188679,0},{0,0},{0.997304,0},{1,0}}" />
+                                    </Window>
+                                </Window>
+                                <Window Type="DejaVu/ImageButton" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item1/TalkBtn" >
+                                    <Property Name="AlwaysOnTop" Value="True" />
+                                    <Property Name="DisabledImage" Value="set:main11 image:Collecthover" />
+                                    <Property Name="HoverImage" Value="set:main11 image:Collecthover" />
+                                    <Property Name="NormalImage" Value="set:main11 image:Collect" />
+                                    <Property Name="PushedImage" Value="set:main11 image:Collectpress" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.915315,0},{0.211136,0},{0.990991,0},{0.771135,0}}" />
+                                </Window>
+                                <Window Type="DejaVu/StaticTextLab" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item1/JPBG" >
+                                    <Property Name="AlwaysOnTop" Value="True" />
+                                    <Property Name="Font" Value="F001-9" />
+                                    <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                                    <Property Name="TextFrame" Value="True" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.258929,0},{0.0266667,0},{0.908929,0},{0.933333,0}}" />
+                                    <Window Type="DejaVu/StaticTextLab" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item1/JPBG/Text" >
+                                        <Property Name="UnifiedAreaRect" Value="{{0.013736,0},{0.073529,0},{0.986263,0},{0.92647,0}}" />
+                                    </Window>
+                                </Window>
+                            </Window>
+                            <Window Type="DejaVu/Embed2" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item2" >
+                                <Property Name="UnifiedAreaRect" Value="{{0.00877193,0},{0.209877,0},{0.991228,0},{0.395062,0}}" />
+                                <Window Type="DejaVu/SlotImage" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item2/Eudemon1" >
+                                    <Property Name="UnifiedAreaRect" Value="{{0.00892857,0},{0.213333,0},{0.0839286,0},{0.773333,0}}" />
+                                </Window>
+                                <Window Type="DejaVu/SlotImage" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item2/Eudemon2" >
+                                    <Property Name="UnifiedAreaRect" Value="{{0.0928571,0},{0.213333,0},{0.167857,0},{0.773333,0}}" />
+                                </Window>
+                                <Window Type="DejaVu/SlotImage" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item2/Eudemon3" >
+                                    <Property Name="UnifiedAreaRect" Value="{{0.178571,0},{0.213333,0},{0.253571,0},{0.773333,0}}" />
+                                </Window>
+                                <Window Type="DejaVu/StaticImage" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item2/StarReward1" >
+                                    <Property Name="UnifiedAreaRect" Value="{{0.253571,0},{0.053333,0},{0.916071,0},{0.266666,0}}" />
+                                    <Window Type="DejaVu/StaticImage" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item2/StarReward1/Star1" >
+                                        <Property Name="Image" Value="set:main2 image:StarGold" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.013477,0},{0.058823,0},{0.0539083,0},{0.996323,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/StaticTextLab" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item2/StarReward1/Text" >
+                                        <Property Name="Text" Value="對雷電、寒冰屬性造成傷害上升 2% " />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.188679,0},{0,0},{0.997304,0},{1,0}}" />
+                                    </Window>
+                                </Window>
+                                <Window Type="DejaVu/StaticImage" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item2/StarReward2" >
+                                    <Property Name="UnifiedAreaRect" Value="{{0.253571,0},{0.28,0},{0.916071,0},{0.493333,0}}" />
+                                    <Window Type="DejaVu/StaticImage" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item2/StarReward2/Star1" >
+                                        <Property Name="Image" Value="set:main2 image:StarGold" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.0134771,0},{0.0625,0},{0.0539084,0},{1,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/StaticImage" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item2/StarReward2/Star2" >
+                                        <Property Name="Image" Value="set:main2 image:StarGold" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.0539084,0},{0.0625,0},{0.0943396,0},{1,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/StaticTextLab" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item2/StarReward2/Text" >
+                                        <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                                        <Property Name="Text" Value="對雷電、寒冰屬性造成傷害上升 2% " />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.188679,0},{0,0},{0.997304,0},{1,0}}" />
+                                    </Window>
+                                </Window>
+                                <Window Type="DejaVu/StaticImage" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item2/StarReward3" >
+                                    <Property Name="UnifiedAreaRect" Value="{{0.253571,0},{0.506667,0},{0.916071,0},{0.72,0}}" />
+                                    <Window Type="DejaVu/StaticImage" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item2/StarReward3/Star1" >
+                                        <Property Name="Image" Value="set:main2 image:StarGold" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.013477,0},{0.058823,0},{0.0539083,0},{0.996323,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/StaticImage" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item2/StarReward3/Star2" >
+                                        <Property Name="Image" Value="set:main2 image:StarGold" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.053908,0},{0.058823,0},{0.0943393,0},{0.996323,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/StaticImage" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item2/StarReward3/Star3" >
+                                        <Property Name="Image" Value="set:main2 image:StarGold" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.09434,0},{0.058823,0},{0.134771,0},{0.996323,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/StaticTextLab" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item2/StarReward3/Text" >
+                                        <Property Name="Text" Value="對雷電、寒冰屬性造成傷害上升 2% " />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.188679,0},{0,0},{0.997304,0},{1,0}}" />
+                                    </Window>
+                                </Window>
+                                <Window Type="DejaVu/StaticImage" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item2/StarReward4" >
+                                    <Property Name="UnifiedAreaRect" Value="{{0.253571,0},{0.733333,0},{0.916071,0},{0.946666,0}}" />
+                                    <Window Type="DejaVu/StaticImage" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item2/StarReward4/Star1" >
+                                        <Property Name="Image" Value="set:main2 image:StarGold" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.013477,0},{0.058823,0},{0.0539083,0},{0.996323,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/StaticImage" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item2/StarReward4/Star2" >
+                                        <Property Name="Image" Value="set:main2 image:StarGold" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.053908,0},{0.058823,0},{0.0943393,0},{0.996323,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/StaticImage" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item2/StarReward4/Star3" >
+                                        <Property Name="Image" Value="set:main2 image:StarGold" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.09434,0},{0.058823,0},{0.134771,0},{0.996323,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/StaticImage" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item2/StarReward4/Star4" >
+                                        <Property Name="Image" Value="set:main2 image:StarGold" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.134771,0},{0.058823,0},{0.175202,0},{0.996323,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/StaticTextLab" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item2/StarReward4/Text" >
+                                        <Property Name="Text" Value="對雷電、寒冰屬性造成傷害上升 2% " />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.188679,0},{0,0},{0.997304,0},{1,0}}" />
+                                    </Window>
+                                </Window>
+                                <Window Type="DejaVu/ImageButton" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item2/TalkBtn" >
+                                    <Property Name="AlwaysOnTop" Value="True" />
+                                    <Property Name="DisabledImage" Value="set:main11 image:Collecthover" />
+                                    <Property Name="HoverImage" Value="set:main11 image:Collecthover" />
+                                    <Property Name="NormalImage" Value="set:main11 image:Collect" />
+                                    <Property Name="PushedImage" Value="set:main11 image:Collectpress" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.915315,0},{0.213333,0},{0.990991,0},{0.773333,0}}" />
+                                </Window>
+                                <Window Type="DejaVu/StaticTextLab" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item2/JPBG" >
+                                    <Property Name="AlwaysOnTop" Value="True" />
+                                    <Property Name="Font" Value="F001-9" />
+                                    <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                                    <Property Name="TextFrame" Value="True" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.258929,0},{0.0266667,0},{0.908929,0},{0.933333,0}}" />
+                                    <Window Type="DejaVu/StaticTextLab" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item2/JPBG/Text" >
+                                        <Property Name="UnifiedAreaRect" Value="{{0.013736,0},{0.073529,0},{0.986263,0},{0.92647,0}}" />
+                                    </Window>
+                                </Window>
+                            </Window>
+                            <Window Type="DejaVu/Embed2" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item3" >
+                                <Property Name="UnifiedAreaRect" Value="{{0.00877193,0},{0.407407,0},{0.991228,0},{0.592593,0}}" />
+                                <Window Type="DejaVu/SlotImage" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item3/Eudemon1" >
+                                    <Property Name="UnifiedAreaRect" Value="{{0.00892857,0},{0.213333,0},{0.0839286,0},{0.773333,0}}" />
+                                </Window>
+                                <Window Type="DejaVu/SlotImage" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item3/Eudemon2" >
+                                    <Property Name="UnifiedAreaRect" Value="{{0.0928571,0},{0.213333,0},{0.167857,0},{0.773333,0}}" />
+                                </Window>
+                                <Window Type="DejaVu/SlotImage" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item3/Eudemon3" >
+                                    <Property Name="UnifiedAreaRect" Value="{{0.178571,0},{0.213333,0},{0.253571,0},{0.773333,0}}" />
+                                </Window>
+                                <Window Type="DejaVu/StaticImage" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item3/StarReward1" >
+                                    <Property Name="UnifiedAreaRect" Value="{{0.253571,0},{0.053333,0},{0.916071,0},{0.266666,0}}" />
+                                    <Window Type="DejaVu/StaticImage" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item3/StarReward1/Star1" >
+                                        <Property Name="Image" Value="set:main2 image:StarGold" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.013477,0},{0.058823,0},{0.0539083,0},{0.996323,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/StaticTextLab" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item3/StarReward1/Text" >
+                                        <Property Name="Text" Value="對雷電、寒冰屬性造成傷害上升 2% " />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.188679,0},{0,0},{0.997304,0},{1,0}}" />
+                                    </Window>
+                                </Window>
+                                <Window Type="DejaVu/StaticImage" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item3/StarReward2" >
+                                    <Property Name="UnifiedAreaRect" Value="{{0.253571,0},{0.28,0},{0.916071,0},{0.493333,0}}" />
+                                    <Window Type="DejaVu/StaticImage" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item3/StarReward2/Star1" >
+                                        <Property Name="Image" Value="set:main2 image:StarGold" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.0134771,0},{0.0625,0},{0.0539084,0},{1,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/StaticImage" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item3/StarReward2/Star2" >
+                                        <Property Name="Image" Value="set:main2 image:StarGold" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.0539084,0},{0.0625,0},{0.0943396,0},{1,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/StaticTextLab" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item3/StarReward2/Text" >
+                                        <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                                        <Property Name="Text" Value="對雷電、寒冰屬性造成傷害上升 2% " />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.188679,0},{0,0},{0.997304,0},{1,0}}" />
+                                    </Window>
+                                </Window>
+                                <Window Type="DejaVu/StaticImage" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item3/StarReward3" >
+                                    <Property Name="UnifiedAreaRect" Value="{{0.253571,0},{0.506667,0},{0.916071,0},{0.72,0}}" />
+                                    <Window Type="DejaVu/StaticImage" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item3/StarReward3/Star1" >
+                                        <Property Name="Image" Value="set:main2 image:StarGold" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.013477,0},{0.058823,0},{0.0539083,0},{0.996323,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/StaticImage" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item3/StarReward3/Star2" >
+                                        <Property Name="Image" Value="set:main2 image:StarGold" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.053908,0},{0.058823,0},{0.0943393,0},{0.996323,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/StaticImage" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item3/StarReward3/Star3" >
+                                        <Property Name="Image" Value="set:main2 image:StarGold" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.09434,0},{0.058823,0},{0.134771,0},{0.996323,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/StaticTextLab" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item3/StarReward3/Text" >
+                                        <Property Name="Text" Value="對雷電、寒冰屬性造成傷害上升 2% " />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.189855,0},{0,0},{0.99848,0},{1,0}}" />
+                                    </Window>
+                                </Window>
+                                <Window Type="DejaVu/StaticImage" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item3/StarReward4" >
+                                    <Property Name="UnifiedAreaRect" Value="{{0.253571,0},{0.733333,0},{0.916071,0},{0.946666,0}}" />
+                                    <Window Type="DejaVu/StaticImage" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item3/StarReward4/Star1" >
+                                        <Property Name="Image" Value="set:main2 image:StarGold" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.013477,0},{0.058823,0},{0.0539083,0},{0.996323,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/StaticImage" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item3/StarReward4/Star2" >
+                                        <Property Name="Image" Value="set:main2 image:StarGold" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.053908,0},{0.058823,0},{0.0943393,0},{0.996323,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/StaticImage" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item3/StarReward4/Star3" >
+                                        <Property Name="Image" Value="set:main2 image:StarGold" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.09434,0},{0.058823,0},{0.134771,0},{0.996323,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/StaticImage" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item3/StarReward4/Star4" >
+                                        <Property Name="Image" Value="set:main2 image:StarGold" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.134771,0},{0.058823,0},{0.175202,0},{0.996323,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/StaticTextLab" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item3/StarReward4/Text" >
+                                        <Property Name="Text" Value="對雷電、寒冰屬性造成傷害上升 2% " />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.188679,0},{0,0},{0.997304,0},{1,0}}" />
+                                    </Window>
+                                </Window>
+                                <Window Type="DejaVu/ImageButton" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item3/TalkBtn" >
+                                    <Property Name="AlwaysOnTop" Value="True" />
+                                    <Property Name="DisabledImage" Value="set:main11 image:Collecthover" />
+                                    <Property Name="HoverImage" Value="set:main11 image:Collecthover" />
+                                    <Property Name="NormalImage" Value="set:main11 image:Collect" />
+                                    <Property Name="PushedImage" Value="set:main11 image:Collectpress" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.916071,0},{0.205595,0},{0.991071,0},{0.765595,0}}" />
+                                </Window>
+                                <Window Type="DejaVu/StaticTextLab" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item3/JPBG" >
+                                    <Property Name="AlwaysOnTop" Value="True" />
+                                    <Property Name="Font" Value="F001-9" />
+                                    <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                                    <Property Name="TextFrame" Value="True" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.258929,0},{0.0266667,0},{0.908929,0},{0.933333,0}}" />
+                                    <Window Type="DejaVu/StaticTextLab" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item3/JPBG/Text" >
+                                        <Property Name="UnifiedAreaRect" Value="{{0.013736,0},{0.073529,0},{0.986263,0},{0.92647,0}}" />
+                                    </Window>
+                                </Window>
+                            </Window>
+                            <Window Type="DejaVu/Embed2" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item4" >
+                                <Property Name="UnifiedAreaRect" Value="{{0.00877193,0},{0.604938,0},{0.991228,0},{0.790123,0}}" />
+                                <Window Type="DejaVu/SlotImage" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item4/Eudemon1" >
+                                    <Property Name="UnifiedAreaRect" Value="{{0.00892857,0},{0.213333,0},{0.0839286,0},{0.773333,0}}" />
+                                </Window>
+                                <Window Type="DejaVu/SlotImage" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item4/Eudemon2" >
+                                    <Property Name="UnifiedAreaRect" Value="{{0.0928571,0},{0.213333,0},{0.167857,0},{0.773333,0}}" />
+                                </Window>
+                                <Window Type="DejaVu/SlotImage" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item4/Eudemon3" >
+                                    <Property Name="UnifiedAreaRect" Value="{{0.178571,0},{0.213333,0},{0.253571,0},{0.773333,0}}" />
+                                </Window>
+                                <Window Type="DejaVu/StaticImage" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item4/StarReward1" >
+                                    <Property Name="UnifiedAreaRect" Value="{{0.253571,0},{0.053333,0},{0.916071,0},{0.266666,0}}" />
+                                    <Window Type="DejaVu/StaticImage" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item4/StarReward1/Star1" >
+                                        <Property Name="Image" Value="set:main2 image:StarGold" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.013477,0},{0.058823,0},{0.0539083,0},{0.996323,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/StaticTextLab" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item4/StarReward1/Text" >
+                                        <Property Name="Text" Value="對雷電、寒冰屬性造成傷害上升 2% " />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.188679,0},{0,0},{0.997304,0},{1,0}}" />
+                                    </Window>
+                                </Window>
+                                <Window Type="DejaVu/StaticImage" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item4/StarReward2" >
+                                    <Property Name="UnifiedAreaRect" Value="{{0.253571,0},{0.28,0},{0.916071,0},{0.493333,0}}" />
+                                    <Window Type="DejaVu/StaticImage" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item4/StarReward2/Star1" >
+                                        <Property Name="Image" Value="set:main2 image:StarGold" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.0134771,0},{0.0625,0},{0.0539084,0},{1,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/StaticImage" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item4/StarReward2/Star2" >
+                                        <Property Name="Image" Value="set:main2 image:StarGold" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.0539084,0},{0.0625,0},{0.0943396,0},{1,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/StaticTextLab" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item4/StarReward2/Text" >
+                                        <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                                        <Property Name="Text" Value="對雷電、寒冰屬性造成傷害上升 2% " />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.188679,0},{0,0},{0.997304,0},{1,0}}" />
+                                    </Window>
+                                </Window>
+                                <Window Type="DejaVu/StaticImage" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item4/StarReward3" >
+                                    <Property Name="UnifiedAreaRect" Value="{{0.253571,0},{0.506667,0},{0.916071,0},{0.72,0}}" />
+                                    <Window Type="DejaVu/StaticImage" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item4/StarReward3/Star1" >
+                                        <Property Name="Image" Value="set:main2 image:StarGold" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.013477,0},{0.058823,0},{0.0539083,0},{0.996323,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/StaticImage" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item4/StarReward3/Star2" >
+                                        <Property Name="Image" Value="set:main2 image:StarGold" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.053908,0},{0.058823,0},{0.0943393,0},{0.996323,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/StaticImage" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item4/StarReward3/Star3" >
+                                        <Property Name="Image" Value="set:main2 image:StarGold" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.09434,0},{0.058823,0},{0.134771,0},{0.996323,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/StaticTextLab" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item4/StarReward3/Text" >
+                                        <Property Name="Text" Value="對雷電、寒冰屬性造成傷害上升 2% " />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.189855,0},{0,0},{0.99848,0},{1,0}}" />
+                                    </Window>
+                                </Window>
+                                <Window Type="DejaVu/StaticImage" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item4/StarReward4" >
+                                    <Property Name="UnifiedAreaRect" Value="{{0.253571,0},{0.733333,0},{0.916071,0},{0.946666,0}}" />
+                                    <Window Type="DejaVu/StaticImage" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item4/StarReward4/Star1" >
+                                        <Property Name="Image" Value="set:main2 image:StarGold" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.013477,0},{0.058823,0},{0.0539083,0},{0.996323,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/StaticImage" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item4/StarReward4/Star2" >
+                                        <Property Name="Image" Value="set:main2 image:StarGold" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.053908,0},{0.058823,0},{0.0943393,0},{0.996323,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/StaticImage" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item4/StarReward4/Star3" >
+                                        <Property Name="Image" Value="set:main2 image:StarGold" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.09434,0},{0.058823,0},{0.134771,0},{0.996323,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/StaticImage" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item4/StarReward4/Star4" >
+                                        <Property Name="Image" Value="set:main2 image:StarGold" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.134771,0},{0.058823,0},{0.175202,0},{0.996323,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/StaticTextLab" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item4/StarReward4/Text" >
+                                        <Property Name="Text" Value="對雷電、寒冰屬性造成傷害上升 2% " />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.188679,0},{0,0},{0.997304,0},{1,0}}" />
+                                    </Window>
+                                </Window>
+                                <Window Type="DejaVu/ImageButton" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item4/TalkBtn" >
+                                    <Property Name="AlwaysOnTop" Value="True" />
+                                    <Property Name="DisabledImage" Value="set:main11 image:Collecthover" />
+                                    <Property Name="HoverImage" Value="set:main11 image:Collecthover" />
+                                    <Property Name="NormalImage" Value="set:main11 image:Collect" />
+                                    <Property Name="PushedImage" Value="set:main11 image:Collectpress" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.915292,0},{0.213333,0},{0.990292,0},{0.773333,0}}" />
+                                </Window>
+                                <Window Type="DejaVu/StaticTextLab" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item4/JPBG" >
+                                    <Property Name="AlwaysOnTop" Value="True" />
+                                    <Property Name="Font" Value="F001-9" />
+                                    <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                                    <Property Name="TextFrame" Value="True" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.258929,0},{0.0266667,0},{0.908929,0},{0.933333,0}}" />
+                                    <Window Type="DejaVu/StaticTextLab" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item4/JPBG/Text" >
+                                        <Property Name="UnifiedAreaRect" Value="{{0.013736,0},{0.073529,0},{0.986263,0},{0.92647,0}}" />
+                                    </Window>
+                                </Window>
+                            </Window>
+                            <Window Type="DejaVu/Embed2" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item5" >
+                                <Property Name="UnifiedAreaRect" Value="{{0.00877193,0},{0.802469,0},{0.991228,0},{0.987654,0}}" />
+                                <Window Type="DejaVu/SlotImage" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item5/Eudemon1" >
+                                    <Property Name="UnifiedAreaRect" Value="{{0.00892857,0},{0.213333,0},{0.0839286,0},{0.773333,0}}" />
+                                </Window>
+                                <Window Type="DejaVu/SlotImage" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item5/Eudemon2" >
+                                    <Property Name="UnifiedAreaRect" Value="{{0.0928571,0},{0.213333,0},{0.167857,0},{0.773333,0}}" />
+                                </Window>
+                                <Window Type="DejaVu/SlotImage" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item5/Eudemon3" >
+                                    <Property Name="UnifiedAreaRect" Value="{{0.178571,0},{0.213333,0},{0.253571,0},{0.773333,0}}" />
+                                </Window>
+                                <Window Type="DejaVu/StaticImage" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item5/StarReward1" >
+                                    <Property Name="UnifiedAreaRect" Value="{{0.253571,0},{0.053333,0},{0.916071,0},{0.266666,0}}" />
+                                    <Window Type="DejaVu/StaticImage" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item5/StarReward1/Star1" >
+                                        <Property Name="Image" Value="set:main2 image:StarGold" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.013477,0},{0.058823,0},{0.0539083,0},{0.996323,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/StaticTextLab" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item5/StarReward1/Text" >
+                                        <Property Name="Text" Value="對雷電、寒冰屬性造成傷害上升 2% " />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.188679,0},{0,0},{0.997304,0},{1,0}}" />
+                                    </Window>
+                                </Window>
+                                <Window Type="DejaVu/StaticImage" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item5/StarReward2" >
+                                    <Property Name="UnifiedAreaRect" Value="{{0.253571,0},{0.28,0},{0.916071,0},{0.493333,0}}" />
+                                    <Window Type="DejaVu/StaticImage" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item5/StarReward2/Star1" >
+                                        <Property Name="Image" Value="set:main2 image:StarGold" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.0134771,0},{0.0625,0},{0.0539084,0},{1,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/StaticImage" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item5/StarReward2/Star2" >
+                                        <Property Name="Image" Value="set:main2 image:StarGold" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.0539084,0},{0.0625,0},{0.0943396,0},{1,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/StaticTextLab" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item5/StarReward2/Text" >
+                                        <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                                        <Property Name="Text" Value="對雷電、寒冰屬性造成傷害上升 2% " />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.188679,0},{0,0},{0.997304,0},{1,0}}" />
+                                    </Window>
+                                </Window>
+                                <Window Type="DejaVu/StaticImage" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item5/StarReward3" >
+                                    <Property Name="UnifiedAreaRect" Value="{{0.253571,0},{0.506667,0},{0.916071,0},{0.72,0}}" />
+                                    <Window Type="DejaVu/StaticImage" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item5/StarReward3/Star1" >
+                                        <Property Name="Image" Value="set:main2 image:StarGold" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.013477,0},{0.058823,0},{0.0539083,0},{0.996323,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/StaticImage" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item5/StarReward3/Star2" >
+                                        <Property Name="Image" Value="set:main2 image:StarGold" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.053908,0},{0.058823,0},{0.0943393,0},{0.996323,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/StaticImage" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item5/StarReward3/Star3" >
+                                        <Property Name="Image" Value="set:main2 image:StarGold" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.09434,0},{0.058823,0},{0.134771,0},{0.996323,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/StaticTextLab" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item5/StarReward3/Text" >
+                                        <Property Name="Text" Value="對雷電、寒冰屬性造成傷害上升 2% " />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.189855,0},{0,0},{0.99848,0},{1,0}}" />
+                                    </Window>
+                                </Window>
+                                <Window Type="DejaVu/StaticImage" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item5/StarReward4" >
+                                    <Property Name="UnifiedAreaRect" Value="{{0.253571,0},{0.733333,0},{0.916071,0},{0.946666,0}}" />
+                                    <Window Type="DejaVu/StaticImage" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item5/StarReward4/Star1" >
+                                        <Property Name="Image" Value="set:main2 image:StarGold" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.013477,0},{0.058823,0},{0.0539083,0},{0.996323,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/StaticImage" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item5/StarReward4/Star2" >
+                                        <Property Name="Image" Value="set:main2 image:StarGold" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.053908,0},{0.058823,0},{0.0943393,0},{0.996323,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/StaticImage" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item5/StarReward4/Star3" >
+                                        <Property Name="Image" Value="set:main2 image:StarGold" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.09434,0},{0.058823,0},{0.134771,0},{0.996323,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/StaticImage" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item5/StarReward4/Star4" >
+                                        <Property Name="Image" Value="set:main2 image:StarGold" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.134771,0},{0.058823,0},{0.175202,0},{0.996323,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/StaticTextLab" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item5/StarReward4/Text" >
+                                        <Property Name="Text" Value="對雷電、寒冰屬性造成傷害上升 2% " />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.188679,0},{0,0},{0.997304,0},{1,0}}" />
+                                    </Window>
+                                </Window>
+                                <Window Type="DejaVu/ImageButton" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item5/TalkBtn" >
+                                    <Property Name="AlwaysOnTop" Value="True" />
+                                    <Property Name="DisabledImage" Value="set:main11 image:Collecthover" />
+                                    <Property Name="HoverImage" Value="set:main11 image:Collecthover" />
+                                    <Property Name="NormalImage" Value="set:main11 image:Collect" />
+                                    <Property Name="PushedImage" Value="set:main11 image:Collectpress" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.916071,0},{0.213333,0},{0.991071,0},{0.773333,0}}" />
+                                </Window>
+                                <Window Type="DejaVu/StaticTextLab" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item5/JPBG" >
+                                    <Property Name="AlwaysOnTop" Value="True" />
+                                    <Property Name="Font" Value="F001-9" />
+                                    <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                                    <Property Name="TextFrame" Value="True" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.259738,0},{0.0189282,0},{0.909738,0},{0.925595,0}}" />
+                                    <Window Type="DejaVu/StaticTextLab" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListItem/Item5/JPBG/Text" >
+                                        <Property Name="UnifiedAreaRect" Value="{{0.013736,0},{0.073529,0},{0.986263,0},{0.92647,0}}" />
+                                    </Window>
+                                </Window>
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/ImageButton" Name="EudemonCollectionWnd/BG/PairArea/BG/List/BeginBtn" >
+                            <Property Name="DisabledImage" Value="set:DejaVu image:DoubledLeftArrowPressed" />
+                            <Property Name="HoverImage" Value="set:DejaVu image:DoubledLeftArrowHover" />
+                            <Property Name="NormalImage" Value="set:DejaVu image:DoubledLeftArrowNormal" />
+                            <Property Name="PushedImage" Value="set:DejaVu image:DoubledLeftArrowPressed" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.285217,0},{0.923077,0},{0.328695,0},{0.978022,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/ImageButton" Name="EudemonCollectionWnd/BG/PairArea/BG/List/PrevBtn" >
+                            <Property Name="DisabledImage" Value="set:DejaVu image:ArrowLeftPressed" />
+                            <Property Name="HoverImage" Value="set:DejaVu image:ArrowLeftHover" />
+                            <Property Name="NormalImage" Value="set:DejaVu image:ArrowLeftNormal" />
+                            <Property Name="PushedImage" Value="set:DejaVu image:ArrowLeftPressed" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.33913,0},{0.923077,0},{0.382608,0},{0.978022,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/EmbedText5" Name="EudemonCollectionWnd/BG/PairArea/BG/List/ListPage" >
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="1 / 99" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.406957,0},{0.923077,0},{0.537391,0},{0.978022,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/ImageButton" Name="EudemonCollectionWnd/BG/PairArea/BG/List/NextBtn" >
+                            <Property Name="DisabledImage" Value="set:DejaVu image:ArrowRightPressed" />
+                            <Property Name="HoverImage" Value="set:DejaVu image:ArrowRightHover" />
+                            <Property Name="NormalImage" Value="set:DejaVu image:ArrowRightNormal" />
+                            <Property Name="PushedImage" Value="set:DejaVu image:ArrowRightPressed" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.561739,0},{0.923077,0},{0.605217,0},{0.978022,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/ImageButton" Name="EudemonCollectionWnd/BG/PairArea/BG/List/EndBtn" >
+                            <Property Name="DisabledImage" Value="set:DejaVu image:DoubledRightArrowPressed" />
+                            <Property Name="HoverImage" Value="set:DejaVu image:DoubledRightArrowHover" />
+                            <Property Name="NormalImage" Value="set:DejaVu image:DoubledRightArrowNormal" />
+                            <Property Name="PushedImage" Value="set:DejaVu image:DoubledRightArrowPressed" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.612174,0},{0.923077,0},{0.655652,0},{0.978022,0}}" />
+                        </Window>
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="EudemonCollectionWnd/BG/ScoreArea" >
+                <Property Name="UnifiedAreaRect" Value="{{0.731707,0},{0,0},{1,0},{1,0}}" />
+                <Window Type="DejaVu/Embed4" Name="EudemonCollectionWnd/BG/ScoreArea/Title" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.045872,0},{0,0},{0.614054,0},{0.045045,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="EudemonCollectionWnd/BG/ScoreArea/Title/Text" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="積分資訊" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.28,0},{0.2,0},{0.88,0},{0.8,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="EudemonCollectionWnd/BG/ScoreArea/Title/Image" >
+                        <Property Name="Image" Value="set:DejaVu image:Image08" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.12,0},{0.2,0},{0.24,0},{0.8,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed2" Name="EudemonCollectionWnd/BG/ScoreArea/BG" >
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.018051,0},{1.00008,0},{1,0}}" />
+                    <Window Type="DejaVu/Embed2" Name="EudemonCollectionWnd/BG/ScoreArea/BG/EudemonSchedule" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.022936,0},{0.045956,0},{0.977481,0},{0.192745,0}}" />
+                        <Window Type="DejaVu/EmbedTextLab7" Name="EudemonCollectionWnd/BG/ScoreArea/BG/EudemonSchedule/Text" >
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="x源神進度" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1.01449,0},{0.3125,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticTextLab" Name="EudemonCollectionWnd/BG/ScoreArea/BG/EudemonSchedule/ItemNum" >
+                            <Property Name="Text" Value="x源神數量" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.024155,0},{0.3125,0},{0.619393,0},{0.625,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticTextLab" Name="EudemonCollectionWnd/BG/ScoreArea/BG/EudemonSchedule/ItemScore" >
+                            <Property Name="Text" Value="x源神積分" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0241546,0},{0.625,0},{0.628019,0},{0.9375,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticTextLab" Name="EudemonCollectionWnd/BG/ScoreArea/BG/EudemonSchedule/Num" >
+                            <Property Name="HorzFormatting" Value="RightAligned" />
+                            <Property Name="Text" Value="xxx / xxx" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.619048,0},{0.3125,0},{0.976191,0},{0.625,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticTextLab" Name="EudemonCollectionWnd/BG/ScoreArea/BG/EudemonSchedule/Score" >
+                            <Property Name="HorzFormatting" Value="RightAligned" />
+                            <Property Name="Text" Value="xxx" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.619048,0},{0.625,0},{0.976191,0},{0.9375,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Embed2" Name="EudemonCollectionWnd/BG/ScoreArea/BG/Ability" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0227273,0},{0.201835,0},{0.977273,0},{0.93211,0}}" />
+                        <Window Type="DejaVu/ScrollablePane" Name="EudemonCollectionWnd/BG/ScoreArea/BG/Ability/Pane" >
+                            <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                            <Property Name="HorzOverlapSize" Value="0.01" />
+                            <Property Name="HorzScrollPosition" Value="0" />
+                            <Property Name="HorzStepSize" Value="0.1" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.023585,0},{0,0},{0.971452,0},{0.984655,0}}" />
+                            <Property Name="VertOverlapSize" Value="0.01" />
+                            <Property Name="VertScrollPosition" Value="0" />
+                            <Property Name="VertStepSize" Value="0.1" />
+                            <AutoWindow NameSuffix="__auto_container__" >
+                                <Property Name="ChildExtentsArea" Value="l:0 t:0 r:0 b:0" />
+                                <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                                <Property Name="MouseInputPropagationEnabled" Value="True" />
+                            </AutoWindow>
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Button" Name="EudemonCollectionWnd/BG/ScoreArea/BG/RewardBtn" >
+                        <Property Name="Text" Value="x積分獎勵" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.625082,0},{0.942164,0},{0.963045,0},{0.990672,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

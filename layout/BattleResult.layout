@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/BattleResult" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="TitlebarImage" Value="set:main image:ArenaNormal" />
+        <Property Name="UnifiedAreaRect" Value="{{0.222657,0},{0.067709,0},{0.222657,496},{0.067709,461}}" />
+        <Window Type="DejaVu/Embed" Name="Root/BattleResult/BackGround" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Static" Name="Root/BattleResult/BackGround/List" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.020833,0},{0.026954,0},{0.979166,0},{0.893096,0}}" />
+                <Window Type="DejaVu/Embed2" Name="Root/BattleResult/BackGround/List/BG" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.00101902,0},{0.03125,0},{1.00102,0},{1,0}}" />
+                    <Window Type="DejaVu/MultiColumnList" Name="Root/BattleResult/BackGround/List/BG/ResultMCL" >
+                        <Property Name="ColumnsMovable" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.021739,0},{0.078125,0},{0.978261,0},{0.96875,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/MultiColumnList" Name="Root/BattleResult/BackGround/List/BG/ResultMCL2" >
+                        <Property Name="ColumnsMovable" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.021739,445},{0.078125,0},{0.978261,445},{0.96875,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed4" Name="Root/BattleResult/BackGround/List/Title" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.021739,0},{0,0},{0.021739,150},{0,25}}" />
+                    <Window Type="DejaVu/StaticImage" Name="Root/BattleResult/BackGround/List/Title/Img" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Image" Value="set:DejaVu image:Image18" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/BattleResult/BackGround/List/Title/Text" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="x戰場情況" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.3,0},{0.2,0},{0.9,0},{0.8,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+			<Window Type="DejaVu/Button" Name="Root/BattleResult/BackGround/ChangeBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="Text" Value="x變更密碼" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.189583,0},{0.905512,0},{-0.03125,0},{0.973753,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/BattleResult/BackGround/LeaveBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="Text" Value="x退出" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.0208333,0},{0.905512,0},{0.1375,0},{0.973753,0}}" />
+            </Window>
+            <Window Type="DejaVu/Static" Name="Root/BattleResult/BackGround/GoldFrame" >
+                <Property Name="UnifiedAreaRect" Value="{{0.020833,0},{0.905512,0},{0.020833,280},{0.905512,25}}" />
+                <Window Type="DejaVu/Embed2" Name="Root/BattleResult/BackGround/GoldFrame/GoleEmbed" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.357143,0},{0,0},{0.857143,0},{1,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/BattleResult/BackGround/GoldFrame/GoldEmbed/GoldText" >
+                        <Property Name="HorzFormatting" Value="RightAligned" />
+                        <Property Name="Text" Value="x122" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.785714,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/BattleResult/BackGround/GoldFrame/GoldIcon" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Image" Value="set:main image:WarCoin" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.857143,0},{0.2,0},{0.964286,0},{0.8,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab7" Name="Root/BattleResult/BackGround/GoldFrame/TitleText" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="獲得獎勵" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.357143,0},{1,0}}" />
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

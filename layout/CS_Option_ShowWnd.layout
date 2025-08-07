@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/CS_Option_ShowWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HorizontalAlignment" Value="Centre" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Window Type="DejaVu/Static" Name="Root/CS_Option_ShowWnd/Background" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Embed" Name="Root/CS_Option_ShowWnd/Background/Border_Show" >
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{-0.00101112,0},{1,0},{0.998989,0}}" />
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_Option_ShowWnd/Background/Border_Show/Text_Player" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="玩家" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.0625,0},{0.35,0},{0.1875,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/CS_Option_ShowWnd/Background/Border_Show/Check_Player" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.375,0},{0.0625,0},{0.475,0},{0.1875,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_Option_ShowWnd/Background/Border_Show/Text_Character" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="其他角色" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.525,0},{0.0625,0},{0.825,0},{0.1875,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/CS_Option_ShowWnd/Background/Border_Show/Check_Character" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.85,0},{0.0625,0},{0.95,0},{0.1875,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_Option_ShowWnd/Background/Border_Show/Text_Object" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="物件" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.525,0},{0.25,0},{0.825,0},{0.375,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/CS_Option_ShowWnd/Background/Border_Show/Check_Object" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.85,0},{0.25,0},{0.95,0},{0.375,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_Option_ShowWnd/Background/Border_Show/Text_OtherPlayer" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="其他玩家" />
+
+                    <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.25,0},{0.35,0},{0.375,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/CS_Option_ShowWnd/Background/Border_Show/Check_OtherPlayer" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.375,0},{0.25,0},{0.475,0},{0.375,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/CS_Option_ShowWnd/Background/Border_Show/Check_Background" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.375,0},{0.5625,0},{0.475,0},{0.6875,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_Option_ShowWnd/Background/Border_Show/Text_Background" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="背景" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.5625,0},{0.35,0},{0.6875,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_Option_ShowWnd/Background/Border_Show/Text_Mirror" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="鏡像" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.75,0},{0.35,0},{0.875,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/CS_Option_ShowWnd/Background/Border_Show/Check_Mirror" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.375,0},{0.75,0},{0.475,0},{0.875,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_Option_ShowWnd/Background/Border_Show/Text_Event" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="事件" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.525,0},{0.5625,0},{0.825,0},{0.6875,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/CS_Option_ShowWnd/Background/Border_Show/Check_Event" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.85,0},{0.5625,0},{0.95,0},{0.6875,0}}" />
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

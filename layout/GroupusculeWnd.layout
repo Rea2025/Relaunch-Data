@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/GroupusculeWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="Text" Value="x小 圈 圈" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,796},{0,600}}" />
+        <Window Type="DejaVu/Button" Name="Root/GroupusculeWnd/ExitBtn" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="Text" Value="x退出 圈 圈" />
+            <Property Name="UnifiedAreaRect" Value="{{0.684211,0},{0.954972,0},{0.776316,0},{1,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/GroupusculeWnd/DisbandBtn" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="Text" Value="x解散 圈 圈" />
+            <Property Name="UnifiedAreaRect" Value="{{0.223684,0},{0.954972,0},{0.315789,0},{1,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/GroupusculeWnd/RecruitBtn" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="Text" Value="x邀請 圈 圈" />
+            <Property Name="UnifiedAreaRect" Value="{{0.578947,0},{0.954972,0},{0.671053,0},{1,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/GroupusculeWnd/NoticeBtn" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="Text" Value="x編 圈 圈 話" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0131579,0},{0.954972,0},{0.105263,0},{1,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/GroupusculeWnd/KickOutBtn" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="Text" Value="x踢出 圈 圈" />
+            <Property Name="UnifiedAreaRect" Value="{{0.118421,0},{0.954972,0},{0.210526,0},{1,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/GroupusculeWnd/TeamBtn" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="Text" Value="x組 小 小 圈" />
+            <Property Name="UnifiedAreaRect" Value="{{0.894737,0},{0.954972,0},{0.986842,0},{1,0}}" />
+        </Window>
+        <Window Type="DejaVu/Static" Name="Root/GroupusculeWnd/BG" >
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.945155,0}}" />
+            <Window Type="DejaVu/EmbedTextLab2" Name="Root/GroupusculeWnd/BG/Name" >
+                <Property Name="Font" Value="F001-10" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="x百合香" />
+                <Property Name="UnifiedAreaRect" Value="{{0.006579,0},{0.007737,0},{0.401316,0},{0.0541587,0}}" />
+            </Window>
+            <Window Type="DejaVu/EmbedTextLab2" Name="Root/GroupusculeWnd/BG/Notice" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                <Property Name="Text" Value="x圈圈叉叉" />
+                <Property Name="UnifiedAreaRect" Value="{{0.006579,0},{0.052224,0},{0.401316,0},{0.292069,0}}" />
+                <Property Name="VertFormatting" Value="TopAligned" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/GroupusculeWnd/BG/AccumulateClosePoint" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="Text" Value="x本日累積次數 : 123456789" />
+                <Property Name="UnifiedAreaRect" Value="{{0.421053,0},{0.00193424,0},{0.986842,0},{0.032882,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="Root/GroupusculeWnd/BG/AccumulateClosePoint/Pic" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorizontalAlignment" Value="Right" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{-0.0625,0},{0.0372093,0},{0.9375,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/GroupusculeWnd/BG/PageText" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="Text" Value="10/11" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.0552632,0},{0.0309478,0}}" />
+                <Property Name="VerticalAlignment" Value="Bottom" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/GroupusculeWnd/BG/PrevBtn" >
+                <Property Name="DisabledImage" Value="set:DejaVuImage image:NumberLeftP" />
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="HoverImage" Value="set:DejaVuImage image:NumberLeftH" />
+                <Property Name="NormalImage" Value="set:DejaVuImage image:NumberLeftN" />
+                <Property Name="PushedImage" Value="set:DejaVuImage image:NumberLeftP" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.0394737,0},{-0.00580271,0},{-0.025,0},{0.0154739,0}}" />
+                <Property Name="VerticalAlignment" Value="Bottom" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/GroupusculeWnd/BG/FirstBtn" >
+                <Property Name="DisabledImage" Value="set:DejaVuImage image:NumberLeftMostP" />
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="HoverImage" Value="set:DejaVuImage image:NumberLeftMostH" />
+                <Property Name="NormalImage" Value="set:DejaVuImage image:NumberLeftMostN" />
+                <Property Name="PushedImage" Value="set:DejaVuImage image:NumberLeftMostP" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.0578947,0},{-0.00580271,0},{-0.0434211,0},{0.0154739,0}}" />
+                <Property Name="VerticalAlignment" Value="Bottom" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/GroupusculeWnd/BG/NextBtn" >
+                <Property Name="DisabledImage" Value="set:DejaVuImage image:NumberRightP" />
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="HoverImage" Value="set:DejaVuImage image:NumberRightH" />
+                <Property Name="NormalImage" Value="set:DejaVuImage image:NumberRightN" />
+                <Property Name="PushedImage" Value="set:DejaVuImage image:NumberRightP" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0394737,0},{-0.00580271,0},{0.0539474,0},{0.0154739,0}}" />
+                <Property Name="VerticalAlignment" Value="Bottom" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/GroupusculeWnd/BG/LastBtn" >
+                <Property Name="DisabledImage" Value="set:DejaVuImage image:NumberRightMostP" />
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="HoverImage" Value="set:DejaVuImage image:NumberRightMostH" />
+                <Property Name="NormalImage" Value="set:DejaVuImage image:NumberRightMostN" />
+                <Property Name="PushedImage" Value="set:DejaVuImage image:NumberRightMostP" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0578947,0},{-0.00580271,0},{0.0723684,0},{0.0154739,0}}" />
+                <Property Name="VerticalAlignment" Value="Bottom" />
+            </Window>
+            <Window Type="DejaVu/EmbedTextLab2" Name="Root/GroupusculeWnd/BG/Members" >
+                <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                <Property Name="UnifiedAreaRect" Value="{{0.00657895,0},{0.29207,0},{0.993421,0},{0.969052,0}}" />
+                <Property Name="VertFormatting" Value="TopAligned" />
+                <Window Type="DejaVu/Zframe" Name="Root/GroupusculeWnd/BG/Members/SelectFrame" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="FrameColours" Value="tl:FFFFFF00 tr:FFFFFF00 bl:FFFFFF00 br:FFFFFF00" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.3,0},{0.3,0},{0.55,0},{0.55,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/ScrollablePane" Name="Root/GroupusculeWnd/BG/Reward" >
+                <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorzOverlapSize" Value="0.01" />
+                <Property Name="HorzScrollPosition" Value="0" />
+                <Property Name="HorzStepSize" Value="0.1" />
+                <Property Name="UnifiedAreaRect" Value="{{0.407895,0},{0.030948,0},{0.993421,0},{0.29207,0}}" />
+                <Property Name="VertOverlapSize" Value="0.01" />
+                <Property Name="VertScrollPosition" Value="0" />
+                <Property Name="VertStepSize" Value="0.1" />
+                <AutoWindow NameSuffix="__auto_container__" >
+                    <Property Name="ChildExtentsArea" Value="l:0 t:0 r:0 b:0" />
+                    <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                    <Property Name="MouseInputPropagationEnabled" Value="True" />
+                </AutoWindow>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/GroupusculeWnd/WhisperBtn" >
+            <Property Name="Text" Value="x耳邊吹氣" />
+            <Property Name="UnifiedAreaRect" Value="{{0.789474,0},{0.954972,0},{0.881579,0},{1,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

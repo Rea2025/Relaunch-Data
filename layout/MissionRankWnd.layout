@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/MissionRankWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,264},{0,404}}" />
+        <Window Type="DejaVu/Embed2" Name="Root/MissionRankWnd/Frame2" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.984848,0},{0.990099,0}}" />
+            <Window Type="DejaVu/ScrollablePane" Name="Root/MissionRankWnd/Frame2/Pane" >
+                <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorzOverlapSize" Value="0.01" />
+                <Property Name="HorzScrollPosition" Value="0" />
+                <Property Name="HorzStepSize" Value="0.1" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1.00385,0},{1,0}}" />
+                <Property Name="VertOverlapSize" Value="0.01" />
+                <Property Name="VertScrollPosition" Value="0" />
+                <Property Name="VertStepSize" Value="0.1" />
+                <AutoWindow NameSuffix="__auto_container__" >
+                    <Property Name="ChildExtentsArea" Value="l:0 t:0 r:0 b:0" />
+                    <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                    <Property Name="MouseInputPropagationEnabled" Value="True" />
+                </AutoWindow>
+            </Window>
+            <Window Type="DejaVu/EmbedTextLab7" Name="Root/MissionRankWnd/Frame2/MissionName" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="#任務名稱" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.712281,0},{0.0623441,0}}" />
+            </Window>
+            <Window Type="DejaVu/EmbedTextLab7" Name="Root/MissionRankWnd/Frame2/RankPoint" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="#積分" />
+                <Property Name="UnifiedAreaRect" Value="{{0.712281,0},{0,0},{0.93909,0},{0.0623441,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

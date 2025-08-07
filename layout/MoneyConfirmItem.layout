@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/MoneyConfirmItem" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,150},{0,20}}" />
+        <Window Type="DejaVu/StaticImage" Name="Root/MoneyConfirmItem/GoldBG" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="Image" Value="set:main image:GoldBG" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.6,0},{1,0}}" />
+            <Window Type="DejaVu/StaticTextLab" Name="Root/MoneyConfirmItem/GoldBG/Gold" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="Text" Value="999999" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0016276,0},{0,0},{0.779405,0},{1,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/MoneyConfirmItem/GoldBG/Image" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Image" Value="set:main image:Gold" />
+                <Property Name="UnifiedAreaRect" Value="{{0.833333,0},{0.15,0},{1,0},{0.9,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/MoneyConfirmItem/SilverBG" >
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="Image" Value="set:main image:SilverBG" />
+            <Property Name="UnifiedAreaRect" Value="{{0.6,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/StaticTextLab" Name="Root/MoneyConfirmItem/SilverBG/Silver" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="Text" Value="999" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.583333,0},{1,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/MoneyConfirmItem/SilverBG/Image" >
+                <Property Name="Image" Value="set:main image:Silver" />
+                <Property Name="UnifiedAreaRect" Value="{{0.666667,0},{0.15,0},{0.916667,0},{0.9,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

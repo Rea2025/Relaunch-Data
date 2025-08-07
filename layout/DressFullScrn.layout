@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/Static" Name="DressFullScrn" >
+        <Property Name="AlwaysOnTop" Value="True" />
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Window Type="DejaVu/Static" Name="DressFullScrn/ExtraControlBG" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Property Name="UnifiedAreaRect" Value="{{0.00520833,0},{-0.0485232,0},{0.00520833,200},{-0.0485232,80}}" />
+            <Property Name="VerticalAlignment" Value="Bottom" />
+            <Window Type="DejaVu/ImageButton" Name="DressFullScrn/ExtraControlBG/TurnLeftBtn" >
+                <Property Name="DisabledImage" Value="set:main image:TurnLeftPressed" />
+                <Property Name="HoverImage" Value="set:main image:TurnLeftHover" />
+                <Property Name="NormalImage" Value="set:main image:TurnLeftNormal" />
+                <Property Name="PushedImage" Value="set:main image:TurnLeftPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.125,0},{0.333333,0},{0.625,0}}" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="DressFullScrn/ExtraControlBG/TurnRightBtn" >
+                <Property Name="DisabledImage" Value="set:main image:TurnRightPressed" />
+                <Property Name="HoverImage" Value="set:main image:TurnRightHover" />
+                <Property Name="NormalImage" Value="set:main image:TurnRightNormal" />
+                <Property Name="PushedImage" Value="set:main image:TurnRightPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0.66569,0},{0.125,0},{0.999023,0},{0.625,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="DressFullScrn/ExtraControlBG/TIP" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="企劃調整用" />
+                <Property Name="UnifiedAreaRect" Value="{{0.025038,0},{0.683676,0},{1.01095,0},{0.933676,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/StaticTextLab" Name="DressFullScrn/CloseWndTxt" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-14" />
+            <Property Name="Text" Value="x按ESC可關閉視窗" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.25,0},{0.0585938,0}}" />
+        </Window>
+        <Window Type="DejaVu/Embed2" Name="DressFullScrn/Black" >
+            <Property Name="Alpha" Value="0.7" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/StaticImage" Name="DressFullScrn/Black/Img" >
+                <Property Name="UnifiedAreaRect" Value="{{0.00283477,0},{-0.00025446,0},{1.00161,0},{0.995292,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

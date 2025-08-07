@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/AutoSupportWndV2" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="Text" Value="x開啟小幫手" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="TitlebarImage" Value="set:main2 image:AutoSupportNormal" />
+        <Property Name="UnifiedAreaRect" Value="{{0.248958,0},{0.135021,0},{0.248958,560},{0.135021,620}}" />
+        <Window Type="DejaVu/Embed2" Name="Root/AutoSupportWndV2/OptionGroup" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,525},{0,465}}" />
+            <Window Type="DejaVu/Embed2" Name="Root/AutoSupportWndV2/OptionGroup/HealSetting" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0107527,0},{0.980952,0},{0.387097,0}}" />
+                <Window Type="DejaVu/Static" Name="Root/AutoSupportWndV2/HealSettingGroup/Sit" >
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.285714,0},{1,0},{0.428571,0}}" />
+                    <Window Type="DejaVu/Checkbox" Name="Root/AutoSupportWndV2/HealSettingGroup/Sit/CheckBox" >
+                        <Property Name="Text" Value="x生命值低於" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.019418,0},{0,0},{0.23301,0},{1,0}}" />
+                        <Property Name="VerticalAlignment" Value="Centre" />
+                    </Window>
+                    <Window Type="DejaVu/Editbox" Name="Root/AutoSupportWndV2/HealSettingGroup/Sit/EditBox" >
+                        <Property Name="MaxTextLength" Value="2147483647" />
+                        <Property Name="TextParsingEnabled" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.229126,0},{0,0},{0.326213,0},{1,0}}" />
+                        <Property Name="VerticalAlignment" Value="Centre" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/AutoSupportWndV2/HealSettingGroup/Sit/Text" >
+                        <Property Name="Text" Value="x%時坐下至完全回復" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.351456,0},{0,0},{0.739806,0},{1,0}}" />
+                        <Property Name="VerticalAlignment" Value="Centre" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Static" Name="Root/AutoSupportWndV2/HealSettingGroup/LowHealth01" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.428571,0},{1,0},{0.714286,0}}" />
+                    <Window Type="DejaVu/Checkbox" Name="Root/AutoSupportWndV2/HealSettingGroup/LowHealth01/CheckBox" >
+                        <Property Name="Text" Value="x生命值低於" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0194175,0},{-0.12,0},{0.23301,0},{0.38,0}}" />
+                        <Property Name="VerticalAlignment" Value="Bottom" />
+                    </Window>
+                    <Window Type="DejaVu/Editbox" Name="Root/AutoSupportWndV2/HealSettingGroup/LowHealth01/EditBox" >
+                        <Property Name="MaxTextLength" Value="2147483647" />
+                        <Property Name="TextParsingEnabled" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.229126,0},{-0.12,0},{0.326213,0},{0.38,0}}" />
+                        <Property Name="VerticalAlignment" Value="Bottom" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/AutoSupportWndV2/HealSettingGroup/LowHealth01/Text" >
+                        <Property Name="Text" Value="x%時 使用" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.351456,0},{-0.12,0},{0.497087,0},{0.38,0}}" />
+                        <Property Name="VerticalAlignment" Value="Bottom" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/AutoSupportWndV2/HealSettingGroup/LowHealth01/ItemSlot1" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.485437,0},{0,0},{0.553398,0},{0.7,0}}" />
+                        <Property Name="VerticalAlignment" Value="Centre" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/AutoSupportWndV2/HealSettingGroup/LowHealth01/ItemSlot2" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.572816,0},{0,0},{0.640777,0},{0.7,0}}" />
+                        <Property Name="VerticalAlignment" Value="Centre" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/AutoSupportWndV2/HealSettingGroup/LowHealth01/ItemSlot3" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.660194,0},{0,0},{0.728155,0},{0.7,0}}" />
+                        <Property Name="VerticalAlignment" Value="Centre" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/AutoSupportWndV2/HealSettingGroup/LowHealth01/ItemSlot4" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.747573,0},{0,0},{0.815534,0},{0.7,0}}" />
+                        <Property Name="VerticalAlignment" Value="Centre" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Static" Name="Root/AutoSupportWndV2/HealSettingGroup/LowHealth02" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.714286,0},{1,0},{1,0}}" />
+                    <Window Type="DejaVu/Checkbox" Name="Root/AutoSupportWndV2/HealSettingGroup/LowHealth02/CheckBox" >
+                        <Property Name="Text" Value="x生命值低於" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0194175,0},{-0.22,0},{0.23301,0},{0.28,0}}" />
+                        <Property Name="VerticalAlignment" Value="Bottom" />
+                    </Window>
+                    <Window Type="DejaVu/Editbox" Name="Root/AutoSupportWndV2/HealSettingGroup/LowHealth02/EditBox" >
+                        <Property Name="MaxTextLength" Value="2147483647" />
+                        <Property Name="TextParsingEnabled" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.229126,0},{-0.22,0},{0.326213,0},{0.28,0}}" />
+                        <Property Name="VerticalAlignment" Value="Bottom" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/AutoSupportWndV2/HealSettingGroup/LowHealth02/Text" >
+                        <Property Name="Text" Value="x%時 使用" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.351456,0},{-0.22,0},{0.497087,0},{0.28,0}}" />
+                        <Property Name="VerticalAlignment" Value="Bottom" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/AutoSupportWndV2/HealSettingGroup/LowHealth02/ItemSlot1" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.485437,0},{0,0},{0.553398,0},{0.7,0}}" />
+                        <Property Name="VerticalAlignment" Value="Centre" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/AutoSupportWndV2/HealSettingGroup/LowHealth02/ItemSlot2" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.572816,0},{0,0},{0.640777,0},{0.7,0}}" />
+                        <Property Name="VerticalAlignment" Value="Centre" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/AutoSupportWndV2/HealSettingGroup/LowHealth02/ItemSlot3" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.660194,0},{0,0},{0.728155,0},{0.7,0}}" />
+                        <Property Name="VerticalAlignment" Value="Centre" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/AutoSupportWndV2/HealSettingGroup/LowHealth02/ItemSlot4" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.747573,0},{0,0},{0.815534,0},{0.7,0}}" />
+                        <Property Name="VerticalAlignment" Value="Centre" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Static" Name="Root/AutoSupportWndV2/HealSettingGroup/TitleArea" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.285714,0}}" />
+                    <Window Type="DejaVu/StaticImage" Name="Root/AutoSupportWndV2/HealSettingGroup/TitleArea/BG" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Image" Value="set:main3 image:CharacterList" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.00970874,0},{0,0},{0.495146,0},{0.8,0}}" />
+                        <Property Name="VerticalAlignment" Value="Centre" />
+                        <Window Type="DejaVu/StaticImage" Name="Root/AutoSupportWndV2/HealSettingGroup/TitleArea/BG/Image" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="Image" Value="set:main image:Item" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.02,0},{0,0},{0.14,0},{0.75,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/StaticText" Name="Root/AutoSupportWndV2/HealSettingGroup/TitleArea/BG/Text" >
+                            <Property Name="Font" Value="F001-11" />
+                            <Property Name="Text" Value="x回復設定" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.16,0},{0,0},{0.88,0},{1,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/AutoSupportWndV2/HealSettingGroup/TitleArea/HintBG" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Image" Value="set:DejaVu image:Nofoto" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.38835,0},{0,0},{0.38835,25},{0,25}}" />
+                        <Property Name="VerticalAlignment" Value="Centre" />
+                        <Window Type="DejaVu/StaticText" Name="Root/AutoSupportWndV2/HealSettingGroup/TitleArea/HintBG/Text" >
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="!" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                        </Window>
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed2" Name="Root/AutoSupportWndV2/OptionGroup/ItemSetting" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.397849,0},{0.980952,0},{0.72043,0}}" />
+                <Window Type="DejaVu/Static" Name="Root/AutoSupportWndV2/ItemSettingGroup/AutoUse01" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.333333,0},{1,0},{0.666667,0}}" />
+                    <Window Type="DejaVu/Checkbox" Name="Root/AutoSupportWndV2/ItemSettingGroup/AutoUse01/CheckBox" >
+                        <Property Name="Text" Value="x持續狀態使用" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.019418,0},{0,0},{0.271845,0},{0.5,0}}" />
+                        <Property Name="VerticalAlignment" Value="Centre" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/AutoSupportWndV2/ItemSettingGroup/AutoUse01/ItemSlot1" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.281553,0},{0,0},{0.349515,0},{0.7,0}}" />
+                        <Property Name="VerticalAlignment" Value="Centre" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/AutoSupportWndV2/ItemSettingGroup/AutoUse01/ItemSlot2" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.368932,0},{0,0},{0.436893,0},{0.7,0}}" />
+                        <Property Name="VerticalAlignment" Value="Centre" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/AutoSupportWndV2/ItemSettingGroup/AutoUse01/ItemSlot3" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.456311,0},{0,0},{0.524272,0},{0.7,0}}" />
+                        <Property Name="VerticalAlignment" Value="Centre" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/AutoSupportWndV2/ItemSettingGroup/AutoUse01/ItemSlot4" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.543689,0},{0,0},{0.61165,0},{0.7,0}}" />
+                        <Property Name="VerticalAlignment" Value="Centre" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/AutoSupportWndV2/ItemSettingGroup/AutoUse01/ItemSlot5" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.631068,0},{0,0},{0.699029,0},{0.7,0}}" />
+                        <Property Name="VerticalAlignment" Value="Centre" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/AutoSupportWndV2/ItemSettingGroup/AutoUse01/ItemSlot6" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.718447,0},{0,0},{0.786408,0},{0.7,0}}" />
+                        <Property Name="VerticalAlignment" Value="Centre" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/AutoSupportWndV2/ItemSettingGroup/AutoUse01/ItemSlot7" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.805825,0},{0,0},{0.873786,0},{0.7,0}}" />
+                        <Property Name="VerticalAlignment" Value="Centre" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/AutoSupportWndV2/ItemSettingGroup/AutoUse01/ItemSlot8" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.893204,0},{0,0},{0.961165,0},{0.7,0}}" />
+                        <Property Name="VerticalAlignment" Value="Centre" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Static" Name="Root/AutoSupportWndV2/ItemSettingGroup/AutoUse02" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.666667,0},{1,0},{1,0}}" />
+                    <Window Type="DejaVu/Checkbox" Name="Root/AutoSupportWndV2/ItemSettingGroup/AutoUse02/CheckBox" >
+                        <Property Name="Text" Value="x持續狀態使用" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.019418,0},{0,0},{0.271845,0},{0.5,0}}" />
+                        <Property Name="VerticalAlignment" Value="Centre" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/AutoSupportWndV2/ItemSettingGroup/AutoUse02/ItemSlot1" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.281553,0},{0,0},{0.349515,0},{0.7,0}}" />
+                        <Property Name="VerticalAlignment" Value="Centre" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/AutoSupportWndV2/ItemSettingGroup/AutoUse02/ItemSlot2" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.368932,0},{0,0},{0.436893,0},{0.7,0}}" />
+                        <Property Name="VerticalAlignment" Value="Centre" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/AutoSupportWndV2/ItemSettingGroup/AutoUse02/ItemSlot3" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.456311,0},{0,0},{0.524272,0},{0.7,0}}" />
+                        <Property Name="VerticalAlignment" Value="Centre" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/AutoSupportWndV2/ItemSettingGroup/AutoUse02/ItemSlot4" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.543689,0},{0,0},{0.61165,0},{0.7,0}}" />
+                        <Property Name="VerticalAlignment" Value="Centre" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/AutoSupportWndV2/ItemSettingGroup/AutoUse02/ItemSlot5" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.631068,0},{0,0},{0.699029,0},{0.7,0}}" />
+                        <Property Name="VerticalAlignment" Value="Centre" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/AutoSupportWndV2/ItemSettingGroup/AutoUse02/ItemSlot6" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.718447,0},{0,0},{0.786408,0},{0.7,0}}" />
+                        <Property Name="VerticalAlignment" Value="Centre" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/AutoSupportWndV2/ItemSettingGroup/AutoUse02/ItemSlot7" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.805825,0},{0,0},{0.873786,0},{0.7,0}}" />
+                        <Property Name="VerticalAlignment" Value="Centre" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/AutoSupportWndV2/ItemSettingGroup/AutoUse02/ItemSlot8" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.893204,0},{0,0},{0.961165,0},{0.7,0}}" />
+                        <Property Name="VerticalAlignment" Value="Centre" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Static" Name="Root/AutoSupportWndV2/ItemSettingGroup/TitleArea" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.333333,0}}" />
+                    <Window Type="DejaVu/StaticImage" Name="Root/AutoSupportWndV2/ItemSettingGroup/TitleArea/BG" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Image" Value="set:main3 image:CharacterList" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.00970874,0},{0,0},{0.495146,0},{0.8,0}}" />
+                        <Property Name="VerticalAlignment" Value="Centre" />
+                        <Window Type="DejaVu/StaticImage" Name="Root/AutoSupportWndV2/ItemSettingGroup/TitleArea/BG/Image" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="Image" Value="set:main image:BagNormal" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.02,0},{0,0},{0.14,0},{0.75,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/StaticText" Name="Root/AutoSupportWndV2/ItemSettingGroup/TitleArea/BG/Text" >
+                            <Property Name="Font" Value="F001-11" />
+                            <Property Name="Text" Value="x道具使用設定" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.16,0},{0,0},{0.88,0},{1,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/AutoSupportWndV2/ItemSettingGroup/TitleArea/HintBG" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Image" Value="set:DejaVu image:Nofoto" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.38835,0},{0,0},{0.38835,25},{0,25}}" />
+                        <Property Name="VerticalAlignment" Value="Centre" />
+                        <Window Type="DejaVu/StaticText" Name="Root/AutoSupportWndV2/ItemSettingGroup/TitleArea/HintBG/Text" >
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="!" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                        </Window>
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed2" Name="Root/AutoSupportWndV2/OptionGroup/DiscardSetting" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.731183,0},{0.980952,0},{0.989247,0}}" />
+                <Window Type="DejaVu/Static" Name="Root/AutoSupportWndV2/DiscardSettingGroup/AutoDiscard" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.416667,0},{1,0},{0.983333,0}}" />
+                    <Window Type="DejaVu/Checkbox" Name="Root/AutoSupportWndV2/DiscardSettingGroup/AutoDiscard/MainCheckBox" >
+                        <Property Name="Text" Value="x自動丟棄" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0194175,0},{0,0},{0.283495,0},{0.367647,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Embed2" Name="Root/AutoSupportWndV2/DiscardSettingGroup/AutoDiscard/RarityOptions" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HorizontalAlignment" Value="Centre" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.455882,0},{0.951456,0},{0.897059,0}}" />
+                        <Window Type="DejaVu/Checkbox" Name="Root/AutoSupportWndV2/RarityOptions/GreyCheckBox" >
+                            <Property Name="Text" Value="x灰色" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0204082,0},{0,0},{0.142857,0},{0.666667,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/Checkbox" Name="Root/AutoSupportWndV2/RarityOptions/WhiteCheckBox" >
+                            <Property Name="Text" Value="x白色" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.159184,0},{0,0},{0.281633,0},{0.666667,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/Checkbox" Name="Root/AutoSupportWndV2/RarityOptions/GreenCheckBox" >
+                            <Property Name="Text" Value="x綠色" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.3,0},{0,0},{0.422449,0},{0.666667,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                            <Window Type="DejaVu/Static" Name="Root/AutoSupportWndV2/RarityOptions/GreenCheckBox/Mask" >
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/Checkbox" Name="Root/AutoSupportWndV2/RarityOptions/BlueCheckBox" >
+                            <Property Name="Text" Value="x藍色" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.440816,0},{0,0},{0.563265,0},{0.666667,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                            <Window Type="DejaVu/Static" Name="Root/AutoSupportWndV2/RarityOptions/BlueCheckBox/Mask" >
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/Checkbox" Name="Root/AutoSupportWndV2/RarityOptions/OrangeCheckBox" >
+                            <Property Name="Text" Value="x橘色" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.579592,0},{0,0},{0.702041,0},{0.666667,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                            <Window Type="DejaVu/Static" Name="Root/AutoSupportWndV2/RarityOptions/OrangeCheckBox/Mask" >
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/Checkbox" Name="Root/AutoSupportWndV2/RarityOptions/PurpleCheckBox" >
+                            <Property Name="Text" Value="x紫色" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.720408,0},{0,0},{0.842857,0},{0.666667,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                            <Window Type="DejaVu/Static" Name="Root/AutoSupportWndV2/RarityOptions/PurpleCheckBox/Mask" >
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/Checkbox" Name="Root/AutoSupportWndV2/RarityOptions/GoldCheckBox" >
+                            <Property Name="Text" Value="x金色" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.859184,0},{0,0},{0.981633,0},{0.666667,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                            <Window Type="DejaVu/Static" Name="Root/AutoSupportWndV2/RarityOptions/GoldCheckBox/Mask" >
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/Embed2" Name="Root/AutoSupportWndV2/GreyCover" >
+                            <Property Name="Alpha" Value="0.6" />
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                        </Window>
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Static" Name="Root/AutoSupportWndV2/DiscardSettingGroup/TitleArea" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.416667,0}}" />
+                    <Window Type="DejaVu/StaticImage" Name="Root/AutoSupportWndV2/DiscardSettingGroup/TitleArea/BG" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Image" Value="set:main3 image:CharacterList" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.00970874,0},{0,0},{0.495146,0},{0.8,0}}" />
+                        <Property Name="VerticalAlignment" Value="Centre" />
+                        <Window Type="DejaVu/StaticImage" Name="Root/AutoSupportWndV2/DiscardSettingGroup/TitleArea/BG/Image" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="Image" Value="set:main image:SystemNormal" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.02,0},{0,0},{0.14,0},{0.75,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/StaticText" Name="Root/AutoSupportWndV2/DiscardSettingGroup/TitleArea/BG/Text" >
+                            <Property Name="Font" Value="F001-11" />
+                            <Property Name="Text" Value="x道具丟棄設定" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.16,0},{0,0},{0.88,0},{1,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/AutoSupportWndV2/DiscardSettingGroup/TitleArea/HintBG" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Image" Value="set:DejaVu image:Nofoto" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.38835,0},{0,0},{0.38835,25},{0,25}}" />
+                        <Property Name="VerticalAlignment" Value="Centre" />
+                        <Window Type="DejaVu/StaticText" Name="Root/AutoSupportWndV2/DiscardSettingGroup/TitleArea/HintBG/Text" >
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="!" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                        </Window>
+                    </Window>
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="Root/AutoSupportWndV2/ButtonsStatic" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,525},{0,70}}" />
+            <Property Name="VerticalAlignment" Value="Bottom" />
+            <Window Type="DejaVu/Button" Name="Root/AutoSupportWndV2/ButtonsStatic/ResetBtn" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="Text" Value="x重置" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.00054,0},{0,0},{0.189936,0},{0.428571,0}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+            </Window>
+            <Window Type="DejaVu/Embed3" Name="Root/AutoSupportWndV2/ButtonsStatic/SupportBG" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="UnifiedAreaRect" Value="{{0.019048,0},{-0.001055,0},{0.019048,220},{-0.001055,65}}" />
+                <Property Name="VertFormatting" Value="TopAligned" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+                <Window Type="DejaVu/StaticImage" Name="Root/AutoSupportWndV2/ButtonsStatic/SupportBG/Image" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Image" Value="set:main2 image:AutoSupportNormal" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.068182,0},{-0.036364,0},{0.068182,45},{-0.036364,45}}" />
+                    <Property Name="VerticalAlignment" Value="Centre" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/AutoSupportWndV2/ButtonsStatic/SupportBG/Checkbox" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="x開啟小幫手" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.318182,0},{0,0},{0.318182,145},{0,25}}" />
+                    <Property Name="VerticalAlignment" Value="Centre" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/AutoSupportWndV2/ButtonsStatic/Help" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="Image" Value="set:DejaVu image:Nofoto" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,30},{0,30}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+                <Window Type="DejaVu/StaticText" Name="Root/AutoSupportWnd/ButtonsStatic/Help/Text" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="?" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

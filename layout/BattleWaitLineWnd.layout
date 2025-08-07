@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/Embed3" Name="Root/BattleWaitLineWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.200195,0},{0.201823,0},{0.200195,270},{0.201823,186}}" />
+        <Window Type="DejaVu/Embed" Name="Root/BattleWaitLineWnd/Frame" >
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.037037,0},{0.053763,0},{0.962963,0},{0.946236,0}}" />
+            <Window Type="DejaVu/Button" Name="Root/BattleWaitLineWnd/Frame/CancelBtn" >
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="Text" Value="x離開序列" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.783133,0},{0.304,0},{0.939759,0}}" />
+            </Window>
+            <Window Type="DejaVu/Embed2" Name="Root/BattleWaitLineWnd/Frame/Info" >
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.04,0},{0.060241,0},{0.96,0},{0.753012,0}}" />
+                <Window Type="DejaVu/EmbedTextLab7" Name="Root/BattleWaitLineWnd/Frame/Info/TitleText" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="Text" Value="x戰場等候中" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.00975748,0},{0.020072,0},{0.992366,0},{0.237463,0}}" />
+                </Window>
+                <Window Type="DejaVu/Static" Name="Root/BattleWaitLineWnd/Frame/Info/Time" >
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.043478,0},{0.347826,0},{0.956521,0},{0.565217,0}}" />
+                    <Window Type="DejaVu/EmbedTextLab7" Name="Root/BattleWaitLineWnd/Frame/Info/Time/Title" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="x等候時間" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.428571,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Embed2" Name="Root/BattleWaitLineWnd/Frame/Info/Time/TextBG" >
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.428571,0},{0,0},{1,0},{1,0}}" />
+                        <Window Type="DejaVu/StaticTextLab" Name="Root/BattleWaitLineWnd/Frame/Info/Time/TextBG/Text" >
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="MousePassThroughEnabled" Value="True" />
+                            <Property Name="Text" Value="x10 : 00" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                        </Window>
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Static" Name="Root/BattleWaitLineWnd/Frame/Info/WaitNum" >
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.043478,0},{0.652174,0},{0.956521,0},{0.869565,0}}" />
+                    <Window Type="DejaVu/EmbedTextLab7" Name="Root/BattleWaitLineWnd/Frame/Info/WaitNum/Title" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="x戰場人數" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.428571,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Embed2" Name="Root/BattleWaitLineWnd/Frame/Info/WaitNum/TextBG" >
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.428571,0},{0,0},{1,0},{1,0}}" />
+                        <Window Type="DejaVu/StaticTextLab" Name="Root/BattleWaitLineWnd/Frame/Info/WaitNum/TextBG/Text" >
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="MousePassThroughEnabled" Value="True" />
+                            <Property Name="Text" Value="x1 / 10" />
+                            <Property Name="UnifiedAreaRect" Value="{{-0.0117187,0},{0,0},{0.988281,0},{1,0}}" />
+                        </Window>
+                    </Window>
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

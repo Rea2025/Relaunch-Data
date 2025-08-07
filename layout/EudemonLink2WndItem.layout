@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="/EudemonLink2WndItem" >
+        <Property Name="Font" Value="F001-scale" />
+        <Property Name="MousePassThroughEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,220},{0,62}}" />
+        <Window Type="DejaVu/Embed3" Name="/EudemonLink2WndItem/Block" >
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/SlotImage" Name="/EudemonLink2WndItem/Face" >
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0454545,0},{0.16129,0},{0.0454545,42},{0.16129,42}}" />
+                <Window Type="DejaVu/SlotImage" Name="/EudemonLink2WndItem/FaceMask" >
+                    <Property Name="Alpha" Value="0.5" />
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="Image" Value="set:CDAni image:MaskGray" />
+                    <Property Name="UnifiedAreaRect" Value="{{-0.02381,0},{-0.02381,0},{1.02381,0},{1.02381,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="/EudemonLink2WndItem/InfoText" >
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value=" 一二三四五六" />
+                <Property Name="UnifiedAreaRect" Value="{{0.281818,0},{0.16129,0},{0.736363,0},{0.483871,0}}" />
+            </Window>
+            <Window Type="DejaVu/Static" Name="/EudemonLink2WndItem/Level" >
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.75,0},{0.0806452,0},{0.75,50},{0.0806452,30}}" />
+                <Window Type="DejaVu/StaticImage" Name="/EudemonLink2WndItem/Level/PicNum2" >
+                    <Property Name="Image" Value="set:DejaVu image:seven" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0666667,0},{0.56,0},{1,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="/EudemonLink2WndItem/Level/PicNum1" >
+                    <Property Name="Image" Value="set:DejaVu image:eight" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.36,0},{0.0666667,0},{0.92,0},{1,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="/EudemonLink2WndItem/Star" >
+                <Property Name="Image" Value="set:main2 image:BG" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.281818,0},{0.564516,0},{0.281818,90},{0.564516,20}}" />
+                <Window Type="DejaVu/StaticImage" Name="/EudemonLink2WndItem/Star1" >
+                    <Property Name="Image" Value="set:main2 image:Feeling02" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0555556,0},{0,0},{0.277778,0},{1,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="/EudemonLink2WndItem/Star2" >
+                    <Property Name="Image" Value="set:main2 image:Feeling02" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.277778,0},{0,0},{0.5,0},{1,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="/EudemonLink2WndItem/Star3" >
+                    <Property Name="Image" Value="set:main2 image:Feeling02" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0,0},{0.722222,0},{1,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="/EudemonLink2WndItem/Star4" >
+                    <Property Name="Image" Value="set:main2 image:Feeling02" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.722222,0},{0,0},{0.944444,0},{1,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="/EudemonLink2WndItem/Price" >
+                <Property Name="Image" Value="set:main2 image:BG" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.713636,0},{0.564516,0},{0.713636,53},{0.564516,20}}" />
+                <Window Type="DejaVu/StaticImage" Name="/EudemonLink2WndItem/Price/GoldIcon" >
+                    <Property Name="Image" Value="set:main image:Gold" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.622642,0},{0.15,0},{0.622642,15},{0.15,15}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="/EudemonLink2WndItem/Price/PriceText" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="6" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.150943,0},{-0.05,0},{0.660377,0},{1.05,0}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="/EudemonLink2WndItem/SelectRect" >
+            <Property Name="Alpha" Value="0.75" />
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="Image" Value="set:CDAni image:MaskGray" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.00178571,0},{1,0},{1.00179,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

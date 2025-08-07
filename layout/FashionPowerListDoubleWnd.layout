@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="FashionPowerListDoubleWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="TitlebarImage" Value="set:main image:Combine" />
+        <Property Name="UnifiedAreaRect" Value="{{0.045313,0},{0.027426,0},{0.045313,350},{0.027426,650}}" />
+        <Window Type="DejaVu/Embed" Name="FashionPowerListDoubleWnd/BG" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1.00299,0},{1.01064,0}}" />
+            <Window Type="DejaVu/Embed2" Name="FashionPowerListDoubleWnd/BG/SuccessListGroup" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.008865,0},{0.931138,0},{0.478723,0}}" />
+                <Window Type="DejaVu/VScrolledText" Name="FashionPowerListDoubleWnd/BG/SuccessListGroup/ScrollText" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.016077,0},{0.0972393,0},{0.948553,0},{1,0}}" />
+                    <Property Name="VertScrollbar" Value="True" />
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab7" Name="FashionPowerListDoubleWnd/BG/SuccessListGroup/Title" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="x升階成功可獲得能力" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.99359,0},{0.0932836,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed2" Name="FashionPowerListDoubleWnd/BG/FailedListGroup" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.487589,0},{0.937126,0},{0.962766,0}}" />
+                <Window Type="DejaVu/VScrolledText" Name="FashionPowerListDoubleWnd/BG/FailedListGroup/ScrollText" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.016077,0},{0.105194,0},{0.948553,0},{1.00284,0}}" />
+                    <Property Name="VertScrollbar" Value="True" />
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab7" Name="FashionPowerListDoubleWnd/BG/FailedListGroup/Title" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="x升階失敗可獲得能力" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.987261,0},{0.0922509,0}}" />
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

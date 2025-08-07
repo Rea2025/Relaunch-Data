@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="SkyTowerListItem" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="MousePassThroughEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0.0774967,0},{0.0844673,0},{0.327497,0},{0.334467,0}}" />
+        <Window Type="DejaVu/EmbedTextLab2" Name="SkyTowerListItem/Text" >
+            <Property Name="ID" Value="1" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="Text" Value="一二三四五六七八九十" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="SkyTowerListItem/SelectBrush" >
+            <Property Name="Alpha" Value="0.3" />
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="ID" Value="2" />
+            <Property Name="Image" Value="set:DejaVu image:HeaderBarBackdropHover" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        </Window>
+        <Window Type="DejaVu/Embed2" Name="SkyTowerListItem/GuildNameBG" >
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="ID" Value="3" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+            <Window Type="DejaVu/StaticImage" Name="SkyTowerListItem/GuildNameBG/LockIcon" >
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="ID" Value="1" />
+                <Property Name="Image" Value="set:main image:LockBtnNormal" />
+                <Property Name="UnifiedAreaRect" Value="{{0.02439,0},{0.2,0},{0.0975607,0},{0.8,0}}" />
+				<Property Name="MousePassThroughEnabled" Value="True" />
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="SkyTowerListItem/GuildNameBG/NameText" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="ID" Value="2" />
+                <Property Name="Text" Value="x一二三四五六七八九十" />
+                <Property Name="UnifiedAreaRect" Value="{{0.121951,0},{0,0},{1,0},{1,0}}" />
+				<Property Name="MousePassThroughEnabled" Value="True" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="ZoneMapFilterItemCloumn" >
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{-0.00130208,0},{0.472122,0},{0.998698,0}}" />
+        <Window Type="DejaVu/EmbedText2" Name="ZoneMapFilterItemCloumn/Column" >
+            <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+            <Property Name="Text" Value="1234" />
+            <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,245},{0,25}}" />
+            <Window Type="DejaVu/ImageCheckbox" Name="ZoneMapFilterItemCloumn/Column/CheckBox" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="DisabledImage" Value="set:DejaVu image:TreeListOpenedNormal" />
+                <Property Name="HoverImage" Value="set:DejaVu image:TreeListClosed" />
+                <Property Name="ID" Value="1" />
+                <Property Name="NormalImage" Value="set:DejaVu image:TreeListClosedNormal" />
+                <Property Name="PushedImage" Value="set:DejaVu image:TreeListOpenedNormal" />
+                <Property Name="Text" Value="1234" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0204082,0},{0.208333,0},{0.0204082,15},{0.208333,15}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Embed2" Name="ZoneMapFilterItemCloumn/Item" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{-0.00875,0},{0.116277,0},{-0.00875,245},{0.116277,25}}" />
+            <Window Type="DejaVu/SlotImage" Name="ZoneMapFilterItemCloumn/Item/Slot" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="ID" Value="1" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.902536,0},{0.104167,0},{0.969203,0},{0.770834,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="ZoneMapFilterItemCloumn/Item/FilterTime" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="11:00~13:00" />
+                <Property Name="TextColours" Value="tl:FFFFFF00 tr:FFFFFF00 bl:FFFFFF00 br:FFFFFF00" />
+                <Property Name="UnifiedAreaRect" Value="{{0.286895,0},{0.32954,0},{0.633188,0},{0.633888,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="ZoneMapFilterItemCloumn/Item/Difficult" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="ID" Value="2" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="個人" />
+                <Property Name="UnifiedAreaRect" Value="{{0.194082,0},{0.32954,0},{0.408876,0},{0.633888,0}}" />
+            </Window>
+            <Window Type="DejaVu/Static" Name="ZoneMapFilterItemCloumn/Item/SelectFrame" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="ID" Value="4" />
+                <Property Name="UnifiedAreaRect" Value="{{0.234277,0},{0,0},{1,0},{0.975261,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="ZoneMapFilterItemCloumn/Item/FilterTitle" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="ID" Value="3" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="哈哈哈哈哈哈哈哈哈" />
+                <Property Name="UnifiedAreaRect" Value="{{0.178343,0},{0,0},{0.820905,0},{0.958333,0}}" />
+            </Window>
+            <Window Type="DejaVu/Checkbox" Name="ZoneMapFilterItemCloumn/Item/Checkbox" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="ID" Value="5" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0798209,0},{0,0},{0.188195,0},{0.916667,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

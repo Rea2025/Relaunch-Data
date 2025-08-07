@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/Embed2" Name="MoneytransferCurrencyChangeWndItem" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.21633,0},{0.0512226,0}}" />
+        <Window Type="DejaVu/StaticImage" Name="MoneytransferCurrencyChangeWndItem/Block" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Image" Value="set:CDAni image:MaskGray" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/StaticText" Name="MoneytransferCurrencyChangeWndItem/Block/Text" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="等級需求：%s1" />
+                <Property Name="TextColours" Value="tl:FFFF0000 tr:FFFF0000 bl:FFFF0000 br:FFFF0000" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.5,0}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/RadioButton" Name="MoneytransferCurrencyChangeWndItem/RadioButton" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0363636,0},{0.233333,0},{0.127273,0},{0.733333,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticTextLab" Name="MoneytransferCurrencyChangeWndItem/CurrencyName" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.140078,0},{0.25,0},{0.661479,0},{0.75,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="MoneytransferCurrencyChangeWndItem/Img1" >
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="UnifiedAreaRect" Value="{{0.797665,0},{0.25,0},{0.867704,0},{0.7,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="MoneytransferCurrencyChangeWndItem/Img2" >
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="UnifiedAreaRect" Value="{{0.894942,0},{0.25,0},{0.964981,0},{0.7,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/CS_ActionBarWnd" >
+        <Property Name="AlwaysOnTop" Value="True" />
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.15,0},{0,0},{0.85,0},{0.1,0}}" />
+        <Property Name="VerticalAlignment" Value="Bottom" />
+        <Window Type="DejaVu/Embed" Name="Root/CS_ActionBarWnd/TimeSet" >
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.2,0},{1,0}}" />
+            <Property Name="VerticalAlignment" Value="Centre" />
+            <Window Type="DejaVu/EmbedText5" Name="Root/CS_ActionBarWnd/TimeSet/Text_NowTime" >
+                <Property Name="Font" Value="F001-12" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="現在時間" />
+                <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.025,0},{0.475,0},{0.325,0}}" />
+            </Window>
+            <Window Type="DejaVu/EmbedText5" Name="Root/CS_ActionBarWnd/TimeSet/Text_Length" >
+                <Property Name="Font" Value="F001-12" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="時間長度" />
+                <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.35,0},{0.475,0},{0.65,0}}" />
+            </Window>
+            <Window Type="DejaVu/Editbox" Name="Root/CS_ActionBarWnd/TimeSet/Edit_Start" >
+                <Property Name="MaxTextLength" Value="2147483647" />
+                <Property Name="TextParsingEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0.025,0},{0.95,0},{0.325,0}}" />
+            </Window>
+            <Window Type="DejaVu/Editbox" Name="Root/CS_ActionBarWnd/TimeSet/Edit_Length" >
+                <Property Name="MaxTextLength" Value="2147483647" />
+                <Property Name="TextParsingEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0.35,0},{0.95,0},{0.65,0}}" />
+            </Window>
+            <Window Type="DejaVu/EmbedText5" Name="Root/CS_ActionBarWnd/TimeSet/Text_ObjectTime" >
+                <Property Name="Font" Value="F001-12" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="物件時間" />
+                <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.675,0},{0.475,0},{0.975,0}}" />
+            </Window>
+            <Window Type="DejaVu/Checkbox" Name="Root/CS_ActionBarWnd/TimeSet/Check_ObjectTime" >
+                <Property Name="UnifiedAreaRect" Value="{{0.85,0},{0.675,0},{0.95,0},{0.95,0}}" />
+            </Window>
+            <Window Type="DejaVu/Editbox" Name="Root/CS_ActionBarWnd/TimeSet/Edit_ObjectTime" >
+                <Property Name="MaxTextLength" Value="2147483647" />
+                <Property Name="TextParsingEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0.675,0},{0.8,0},{0.95,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Embed" Name="Root/CS_ActionBarWnd/TimeBar" >
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="UnifiedAreaRect" Value="{{0.2,0},{0,0},{0.8,0},{1,0}}" />
+            <Property Name="VertFormatting" Value="VertCentred" />
+            <Property Name="VerticalAlignment" Value="Centre" />
+            <Window Type="DejaVu/Embed" Name="Root/CS_ActionBarWnd/TimeBar/Bar_Back" >
+                <Property Name="UnifiedAreaRect" Value="{{0.15,0},{0.3,0},{0.85,0},{0.95,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="Root/CS_ActionBarWnd/TimeBar/Bar_Back/Image_Type" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.02,0},{1,0}}" />
+                    <Property Name="VerticalAlignment" Value="Centre" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/CS_ActionBarWnd/TimeBar/Bar_Back/Control" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="Image" Value="set:cutScene image:MainBar" />
+                    <Property Name="UnifiedAreaRect" Value="{{-0.02,0},{-0.5,0},{0.02,0},{0,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/EmbedText5" Name="Root/CS_ActionBarWnd/TimeBar/Text_Start" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-12" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="0.0" />
+                <Property Name="UnifiedAreaRect" Value="{{0.025,0},{0.3,0},{0.125,0},{0.9,0}}" />
+            </Window>
+            <Window Type="DejaVu/EmbedText5" Name="Root/CS_ActionBarWnd/TimeBar/Text_End" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-12" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="999" />
+                <Property Name="UnifiedAreaRect" Value="{{0.875,0},{0.3,0},{0.975,0},{0.9,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Embed" Name="Root/CS_ActionBarWnd/PlayBar" >
+            <Property Name="UnifiedAreaRect" Value="{{0.8,0},{0,0},{0.95,0},{0.5,0}}" />
+            <Window Type="DejaVu/ImageButton" Name="Root/CS_ActionBarWnd/PlayBar/Play" >
+                <Property Name="DisabledImage" Value="set:cutScene image:play" />
+                <Property Name="HoverImage" Value="set:cutScene image:playHover" />
+                <Property Name="NormalImage" Value="set:cutScene image:play" />
+                <Property Name="PushedImage" Value="set:cutScene image:playPush" />
+                <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.1,0},{0.3,0},{0.9,0}}" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/CS_ActionBarWnd/PlayBar/Pause" >
+                <Property Name="HoverImage" Value="set:cutScene image:pauseHover" />
+                <Property Name="InheritsAlpha" Value="False" />
+                <Property Name="NormalImage" Value="set:cutScene image:pause" />
+                <Property Name="PushedImage" Value="set:cutScene image:pausePush" />
+                <Property Name="UnifiedAreaRect" Value="{{0.4,0},{0.1,0},{0.6,0},{0.9,0}}" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/CS_ActionBarWnd/PlayBar/Stop" >
+                <Property Name="HoverImage" Value="set:cutScene image:stopHover" />
+                <Property Name="InheritsAlpha" Value="False" />
+                <Property Name="NormalImage" Value="set:cutScene image:stop" />
+                <Property Name="PushedImage" Value="set:cutScene image:stopPush" />
+                <Property Name="UnifiedAreaRect" Value="{{0.7,0},{0.1,0},{0.9,0},{0.9,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Embed" Name="Root/CS_ActionBarWnd/Control" >
+            <Property Name="UnifiedAreaRect" Value="{{0.8,0},{0.5,0},{0.95,0},{1,0}}" />
+            <Window Type="DejaVu/Button" Name="Root/CS_ActionBarWnd/Control/Button_Add" >
+                <Property Name="Font" Value="F001-12" />
+                <Property Name="Text" Value="新增" />
+                <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.1,0},{0.45,0},{0.9,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/CS_ActionBarWnd/Control/Button_Delete" >
+                <Property Name="Font" Value="F001-12" />
+                <Property Name="Text" Value="刪除" />
+                <Property Name="UnifiedAreaRect" Value="{{0.55,0},{0.1,0},{0.95,0},{0.9,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Embed" Name="Root/CS_ActionBarWnd/SelectTimeLine" >
+            <Property Name="ClippedByParent" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.4,0},{-0.4,0},{0.6,0},{0,0}}" />
+            <Window Type="DejaVu/Combobox" Name="Root/CS_ActionBarWnd/SelectTimeLine/Combo_TimeLine" >
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="MaxEditTextLength" Value="2147483647" />
+                <Property Name="ReadOnly" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.1,0},{0.95,0},{3,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Embed" Name="Root/CS_ActionBarWnd/Speed" >
+            <Property Name="ClippedByParent" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.6,0},{-0.4,0},{0.8,0},{0,0}}" />
+            <Window Type="DejaVu/EmbedText5" Name="Root/CS_ActionBarWnd/Speed/Text_Move" >
+                <Property Name="Font" Value="F001-12" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="移動" />
+                <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.1,0},{0.25,0},{0.9,0}}" />
+            </Window>
+            <Window Type="DejaVu/Editbox" Name="Root/CS_ActionBarWnd/Speed/Edit_Move" >
+                <Property Name="MaxTextLength" Value="2147483647" />
+                <Property Name="TextParsingEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.25,0},{0.1,0},{0.5,0},{0.9,0}}" />
+            </Window>
+            <Window Type="DejaVu/EmbedText5" Name="Root/CS_ActionBarWnd/Speed/Text_Rotate" >
+                <Property Name="Font" Value="F001-12" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="旋轉" />
+                <Property Name="UnifiedAreaRect" Value="{{0.75,0},{0.1,0},{0.95,0},{0.95,0}}" />
+            </Window>
+            <Window Type="DejaVu/Editbox" Name="Root/CS_ActionBarWnd/Speed/Edit_Rotate" >
+                <Property Name="MaxTextLength" Value="2147483647" />
+                <Property Name="TextParsingEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0.1,0},{0.75,0},{0.9,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Embed" Name="Root/CS_ActionBarWnd/Zoom" >
+            <Property Name="ClippedByParent" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.2,0},{-0.4,0},{0.3,0},{0,0}}" />
+            <Window Type="DejaVu/EmbedText5" Name="Root/CS_ActionBarWnd/Zoom/Text_Zoom" >
+                <Property Name="Font" Value="F001-12" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="縮放" />
+                <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.1,0},{0.45,0},{0.9,0}}" />
+            </Window>
+            <Window Type="DejaVu/Editbox" Name="Root/CS_ActionBarWnd/Zoom/Edit_Zoom" >
+                <Property Name="MaxTextLength" Value="2147483647" />
+                <Property Name="TextParsingEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0.1,0},{0.95,0},{0.9,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Embed" Name="Root/CS_ActionBarWnd/OffsetTime" >
+            <Property Name="ClippedByParent" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.3,0},{-0.4,0},{0.4,0},{0,0}}" />
+            <Window Type="DejaVu/EmbedText5" Name="Root/CS_ActionBarWnd/OffsetTime/Text_OffsetTime" >
+                <Property Name="Font" Value="F001-12" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="位移" />
+                <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.1,0},{0.45,0},{0.9,0}}" />
+            </Window>
+            <Window Type="DejaVu/Editbox" Name="Root/CS_ActionBarWnd/OffsetTime/Edit_OffsetTime" >
+                <Property Name="MaxTextLength" Value="2147483647" />
+                <Property Name="TextParsingEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0.1,0},{0.95,0},{0.9,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/ArenaSnowGalleryScoreWnd" >
+        <Property Name="HorizontalAlignment" Value="Centre" />
+        <Property Name="MousePassThroughEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.055,0},{0,107},{0.055,118}}" />
+        <Window Type="DejaVu/StaticImage" Name="Root/ArenaSnowGalleryScoreWnd/FlagBG0" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="Image" Value="set:main image:ArenaRedTeamIcon" />
+            <Property Name="UnifiedAreaRect" Value="{{0.00934579,0},{0,0},{0.429907,0},{0.991525,0}}" />
+            <Window Type="DejaVu/SlotImage" Name="Root/ArenaSnowGalleryScoreWnd/FlagBG0/WinCount" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Image" Value="set:main image:WinCountNumber0" />
+                <Property Name="UnifiedAreaRect" Value="{{0.222222,0},{0.42735,0},{0.777778,0},{0.717949,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/ArenaSnowGalleryScoreWnd/FlagBG1" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="Image" Value="set:main image:ArenaBlueTeamIcon" />
+            <Property Name="UnifiedAreaRect" Value="{{0.560748,0},{0,0},{0.981308,0},{0.991525,0}}" />
+            <Window Type="DejaVu/SlotImage" Name="Root/ArenaSnowGalleryScoreWnd/FlagBG1/WinCount" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Image" Value="set:main image:WinCountNumber0" />
+                <Property Name="UnifiedAreaRect" Value="{{0.222222,0},{0.42735,0},{0.777778,0},{0.717949,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

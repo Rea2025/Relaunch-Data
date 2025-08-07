@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/KusoSwapWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="Text" Value="x能力轉換器x" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.41875,0},{0.214824,0},{0.41875,334},{0.214824,259}}" />
+        <Window Type="DejaVu/ImageButton" Name="Root/KusoSwapWnd/QMarkBtn" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="ClippedByParent" Value="False" />
+            <Property Name="HorizontalAlignment" Value="Right" />
+            <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+            <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+            <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+            <Property Name="UnifiedAreaRect" Value="{{-0.0167785,0},{-0.0769231,0},{-0.0167785,12},{-0.0769231,12}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/KusoSwapWnd/StartBtn" >
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Property Name="Text" Value="x確定x" />
+            <Property Name="UnifiedAreaRect" Value="{{-0.20625,0},{-0.00125628,0},{-0.20625,62},{-0.00125628,24}}" />
+            <Property Name="VerticalAlignment" Value="Bottom" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/KusoSwapWnd/CancelBtn" >
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Property Name="Text" Value="x取消x" />
+            <Property Name="UnifiedAreaRect" Value="{{0.202247,0},{0,0},{0.202247,62},{0,24}}" />
+            <Property Name="VerticalAlignment" Value="Bottom" />
+        </Window>
+        <Window Type="DejaVu/Static" Name="Root/KusoSwapWnd/BG" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0145631,0},{0.959732,0},{0.834951,0}}" />
+            <Window Type="DejaVu/SlotImage" Name="Root/KusoSwapWnd/Slot1" >
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.104895,0},{0.168539,0},{-0.104895,40},{0.168539,40}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/KusoSwapWnd/Slot2" >
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="UnifiedAreaRect" Value="{{0.104895,0},{0.168539,0},{0.104895,40},{0.168539,40}}" />
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="Root/KusoSwapWnd/ItemInfo1" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="Text" >攻擊值+320
++392點HP</Property>
+                <Property Name="TextColours" Value="tl:FFFFBB88 tr:FFFFBB88 bl:FFFFBB88 br:FFFFBB88" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.321678,0},{0.196629,0},{-0.0524475,0},{0.477528,0}}" />
+                <Property Name="VertFormatting" Value="TopAligned" />
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="Root/KusoSwapWnd/ItemInfo2" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="Text" Value="+392點HP" />
+                <Property Name="TextColours" Value="tl:FFFFBB88 tr:FFFFBB88 bl:FFFFBB88 br:FFFFBB88" />
+                <Property Name="UnifiedAreaRect" Value="{{0.343009,0},{0.196629,0},{0.607552,0},{0.477528,0}}" />
+                <Property Name="VertFormatting" Value="TopAligned" />
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="Root/KusoSwapWnd/NoticeText" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="※注意！能力及將互換！" />
+                <Property Name="TextColours" Value="tl:FFFFFF88 tr:FFFFFF88 bl:FFFFFF88 br:FFFFFF88" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.514793,0},{0.758741,0},{0.64497,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="Root/KusoSwapWnd/ChanceLabel" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" Value="成功機率x" />
+                <Property Name="UnifiedAreaRect" Value="{{0.289252,0},{0.707125,0},{0.49008,0},{0.840291,0}}" />
+            </Window>
+            <Window Type="DejaVu/EmbedTextLab3" Name="Root/KusoSwapWnd/ChanceText" >
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="100.0%" />
+                <Property Name="UnifiedAreaRect" Value="{{0.485531,0},{0.707395,0},{0.684849,0},{0.845296,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

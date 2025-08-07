@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/NpcTextSpeech" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="Text" Value="Title" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.2925,0},{0.07,0},{0.2925,368},{0.07,403}}" />
+        <Property Name="UnifiedMinSize" Value="{{0,0},{0,0}}" />
+        <Window Type="DejaVu/Static" Name="Root/NpcTextSpeech/Backgrand" >
+            <Property Name="UnifiedAreaRect" Value="{{0.0150602,0},{0.0114286,0},{0.990964,0},{0.925714,0}}" />
+            <Window Type="DejaVu/Listbox2NoBG" Name="Root/NpcTextSpeech/Backgrand/Listbox" >
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="DistributeCapturedInputs" Value="True" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0154321,0},{0.015625,0},{0.996914,0},{0.984375,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/NpcTextSpeech/closeBtn" >
+            <Property Name="ClippedByParent" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.74911,0},{0.945238,0},{0.968546,0},{1.01381,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

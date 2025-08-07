@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/WeaponCaseV2" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="TitlebarImage" Value="set:main image:WeaponCase" />
+        <Property Name="UnifiedAreaRect" Value="{{0.316406,0},{0.27474,0},{0.316406,337},{0.27474,531}}" />
+        <Window Type="DejaVu/Embed" Name="Root/WeaponCaseV2/BG" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/StaticImage" Name="Root/WeaponCaseV2/BG/BackGroundImage1" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0342679,0},{0.414634,0},{0.968847,0},{0.898004,0}}" />
+                <Window Type="DejaVu/Embed2" Name="Root/WeaponCaseV2/BG/BuffBG" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    <Window Type="DejaVu/MultiColumnListNoHeader" Name="Root/WeaponCaseV2/BG/BuffBG/List" >
+                        <Property Name="ColumnsMovable" Value="False" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.007143,0},{0.010417,0},{0.992857,0},{0.989584,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed2" Name="Root/WeaponCaseV2/BG/BackGround" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0342679,0},{0.0243902,0},{0.968847,0},{0.40133,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/WeaponCaseV2/BG/BackGroundImage" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="Image" Value="set:main9 image:WeaponCase1" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0342679,0},{0.0243902,0},{0.968847,0},{0.40133,0}}" />
+                <Window Type="DejaVu/Static" Name="Root/WeaponCaseV2/BG/WeaponCaseBG" >
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    <Window Type="DejaVu/SlotImage" Name="Root/WeaponCaseV2/BG/WeaponCaseBG/slot1" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.146667,0},{0.0705882,0},{0.286667,0},{0.317647,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/WeaponCaseV2/BG/WeaponCaseBG/slot2" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.43,0},{0.0705882,0},{0.57,0},{0.317647,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/WeaponCaseV2/BG/WeaponCaseBG/slot3" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.713333,0},{0.0705882,0},{0.853333,0},{0.317647,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/WeaponCaseV2/BG/WeaponCaseBG/slot4" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.146667,0},{0.382353,0},{0.286667,0},{0.629412,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/WeaponCaseV2/BG/WeaponCaseBG/slot5" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.43,0},{0.382353,0},{0.57,0},{0.629412,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/WeaponCaseV2/BG/WeaponCaseBG/slot6" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.713333,0},{0.382353,0},{0.853333,0},{0.629412,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/WeaponCaseV2/BG/WeaponCaseBG/slot7" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.146667,0},{0.694118,0},{0.286667,0},{0.941176,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/WeaponCaseV2/BG/WeaponCaseBG/slot8" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.43,0},{0.694118,0},{0.57,0},{0.941176,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/WeaponCaseV2/BG/WeaponCaseBG/slot9" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.713333,0},{0.694118,0},{0.853333,0},{0.941177,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/WeaponCaseV2/BG/Btn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="x聖櫃獎勵" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0778816,0},{0.910112,0},{0.482866,0},{0.977528,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/WeaponCaseV2/BG/AwakenBtn" >
+                <Property Name="Text" Value="x聖櫃覺醒" />
+                <Property Name="UnifiedAreaRect" Value="{{0.514019,0},{0.910112,0},{0.919003,0},{0.977528,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

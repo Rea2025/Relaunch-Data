@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/CS_ErrorWnd" >
+        <Property Name="ClippedByParent" Value="False" />
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.4,0},{0.3,0},{0.6,0},{0.6,0}}" />
+        <Window Type="DejaVu/FrameWindow" Name="Root/CS_ErrorWnd/Background" >
+            <Property Name="ClippedByParent" Value="False" />
+            <Property Name="CloseButtonEnabled" Value="False" />
+            <Property Name="HelpButtonEnabled" Value="False" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Property Name="TitlebarEnabled" Value="True" />
+            <Property Name="TitlebarFont" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/EmbedText5" Name="Root/CS_ErrorWnd/Background/Text_Error" >
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="Error" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.8,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/CS_ErrorWnd/Background/Button_Close" >
+                <Property Name="Font" Value="F001-12" />
+                <Property Name="Text" Value="確定" />
+                <Property Name="UnifiedAreaRect" Value="{{0.3,0},{0.83,0},{0.7,0},{0.98,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

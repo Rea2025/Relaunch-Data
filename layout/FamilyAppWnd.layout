@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="FamilyAppWnd" >
+        <Property Name="HorizontalAlignment" Value="Centre" />
+        <Property Name="Text" Value="X小島權利狀" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,290},{0,338}}" />
+        <Property Name="UnifiedMinSize" Value="{{0,1},{0,1}}" />
+        <Property Name="VerticalAlignment" Value="Centre" />
+        <Window Type="DejaVu/StaticImage" Name="FamilyAppWnd/Qualifications" >
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0531915,0},{1,0},{0.464539,0}}" />
+            <Window Type="DejaVu/zStaticLab" Name="FamilyAppWnd/Qualifications/Title" >
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="A__A申請資格" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0787402,0},{-0.102564,0},{0.354331,0},{0.0940171,0}}" />
+            </Window>
+            <Window Type="DejaVu/BorderText" Name="FamilyAppWnd/Qualifications/Text" >
+                <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                <Property Name="Text" >X(1)申請人為會長
+X(2)角色等級大於LV20
+X(3)所屬公會等級大於3
+X(4)公會會員人數大於30
+
+X需求資金：2000金</Property>
+                <Property Name="UnifiedAreaRect" Value="{{0.023622,0},{0.12931,0},{0.980315,0},{0.931035,0}}" />
+                <Property Name="VertScrollbar" Value="True" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/ImageButton" Name="FamilyAppWnd/HelpBtn" >
+            <Property Name="ClippedByParent" Value="False" />
+            <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+            <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+            <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+            <Property Name="Text" Value="?" />
+            <Property Name="UnifiedAreaRect" Value="{{0.936519,0},{-0.0610391,0},{0.936519,12},{-0.0610391,12}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="FamilyAppWnd/CloseBtn" >
+            <Property Name="Text" Value="A__AöӬ" />
+            <Property Name="UnifiedAreaRect" Value="{{0.023622,0},{0.915789,0},{0.299213,0},{1,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="FamilyAppWnd/OKBtn" >
+            <Property Name="Text" Value="A__Aݔɷ" />
+            <Property Name="UnifiedAreaRect" Value="{{0.700787,0},{0.915789,0},{0.976378,0},{1,0}}" />
+        </Window>
+        <Window Type="DejaVu/Static" Name="FamilyAppWnd/Description" >
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.515789,0},{0.996063,0},{0.905263,0}}" />
+            <Window Type="DejaVu/BorderText" Name="FamilyAppWnd/Description/Text" >
+                <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                <Property Name="Text" >X小島說明
+二
+三
+四
+五
+六
+</Property>
+                <Property Name="UnifiedAreaRect" Value="{{0.0197628,0},{0.136364,0},{0.980237,0},{0.954545,0}}" />
+                <Property Name="VertScrollbar" Value="True" />
+            </Window>
+            <Window Type="DejaVu/zStaticLab" Name="FamilyAppWnd/Description/Title" >
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="A__A小島說明" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0790514,0},{-0.109091,0},{0.355731,0},{0.1,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

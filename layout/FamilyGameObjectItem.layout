@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/Static" Name="FamilyGameObjectItem" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.392578,0},{0.0704846,0}}" />
+        <Window Type="DejaVu/Embed2" Name="FamilyGameObjectItem/BG" >
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Embed2" Name="FamilyGameObjectItem/BG/GameNameArea" >
+                <Property Name="UnifiedAreaRect" Value="{{0.005,0},{0.0625,0},{0.29107,0},{0.9375,0}}" />
+                <Window Type="DejaVu/SlotImage" Name="FamilyGameObjectItem/BG/GameNameArea/ObjectImage" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.0328638,0},{0.163934,0},{0.230047,0},{0.852459,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="FamilyGameObjectItem/BG/GameNameArea/Text" >
+                    <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                    <Property Name="Text" >x活動名稱
+
+</Property>
+                    <Property Name="UnifiedAreaRect" Value="{{0.249234,0},{0.115096,0},{0.976933,0},{0.836407,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="FamilyGameObjectItem/BG/GameNameArea/FLvText" >
+                    <Property Name="Text" Value="x公會等級" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.495652,0},{-0.047619,0},{1.21739,0},{0.666667,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="FamilyGameObjectItem/BG/GameNameArea/CLvText" >
+                    <Property Name="Text" Value="x角色等級" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.495652,0},{0.285714,0},{1.21739,0},{1,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed2" Name="FamilyGameObjectItem/BG/GameInfoArea" >
+                <Property Name="UnifiedAreaRect" Value="{{0.29602,0},{0.0833333,0},{0.701493,0},{0.958333,0}}" />
+                <Window Type="DejaVu/StaticText" Name="FamilyGameObjectItem/BG/GameInfoArea/Text" >
+                    <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                    <Property Name="Text" Value="x活動簡介" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.006536,0},{0.016129,0},{0.993464,0},{0.983871,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed2" Name="FamilyGameObjectItem/BG/CountArea" >
+                <Property Name="UnifiedAreaRect" Value="{{0.706468,0},{0.0625,0},{0.840796,0},{0.9375,0}}" />
+                <Window Type="DejaVu/StaticText" Name="FamilyGameObjectItem/BG/CountArea/Text" >
+                    <Property Name="HorzFormatting" Value="WordWrapCentred" />
+                    <Property Name="Text" Value="x剩餘開啟次數" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.105263,0},{0.142857,0},{0.894737,0},{0.857143,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed2" Name="FamilyGameObjectItem/BG/GameActivityArea" >
+                <Property Name="UnifiedAreaRect" Value="{{0.843284,0},{0.0625,0},{0.987562,0},{0.9375,0}}" />
+                <Window Type="DejaVu/StaticText" Name="FamilyGameObjectItem/BG/GameActivityArea/Text" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0833333,0},{0.516129,0},{0.916667,0},{0.919355,0}}" />
+                </Window>
+                <Window Type="DejaVu/Button" Name="FamilyGameObjectItem/BG/GameActivityArea/Touch" >
+                    <Property Name="Alpha" Value="0" />
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.155172,0},{0.071429,0},{0.827586,0},{0.52381,0}}" />
+                </Window>
+                <Window Type="DejaVu/Button" Name="FamilyGameObjectItem/BG/GameActivityArea/GameBtn" >
+                    <Property Name="Text" Value="x開啟活動" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.157407,0},{0.0806452,0},{0.833333,0},{0.532258,0}}" />
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="CutSceneReview" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="Text" Value="x劇情回顧" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="TitlebarImage" Value="set:main image:DiaryNormal" />
+        <Property Name="UnifiedAreaRect" Value="{{0.148438,0},{0.113804,0},{0.148438,445},{0.113804,631}}" />
+        <Window Type="DejaVu/Embed" Name="CutSceneReview/BG" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1.00233,0},{1,0}}" />
+            <Window Type="DejaVu/EmbedTextLab7" Name="CutSceneReview/BG/ChapterTitle" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="x篇章選擇" />
+                <Property Name="UnifiedAreaRect" Value="{{0.02331,0},{0.0217786,0},{0.32634,0},{0.0671506,0}}" />
+            </Window>
+            <Window Type="DejaVu/Combobox" Name="CutSceneReview/BG/ChapterChooseBar" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="MaxEditTextLength" Value="2147483647" />
+                <Property Name="UnifiedAreaRect" Value="{{0.317016,0},{0.0217786,0},{0.689977,0},{0.31216,0}}" />
+            </Window>
+            <Window Type="DejaVu/Embed2" Name="CutSceneReview/BG/ListBG" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.02331,0},{0.0871143,0},{0.979021,0},{0.912886,0}}" />
+                <Window Type="DejaVu/Static" Name="CutSceneReview/BG/ListBG/NcsList" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.00486618,0},{0.0043956,0},{0.992701,0},{0.993407,0}}" />
+                    <Window Type="DejaVu/Embed2" Name="CutSceneReview/BG/ListBG/NcsList/InfoBox1" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.997537,0},{0.2,0}}" />
+                        <Window Type="DejaVu/Embed3" Name="CutSceneReview/BG/ListBG/NcsList/InfoBox1/InfoBoxBG" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.997537,0},{0.991229,0}}" />
+                            <Window Type="DejaVu/StaticTextLab" Name="CutSceneReview/BG/ListBG/NcsList/InfoBox1/InfoBoxBG/CSTitle" >
+                                <Property Name="Font" Value="F001-12" />
+                                <Property Name="HorzFormatting" Value="HorzCentred" />
+                                <Property Name="Text" Value="標題文字五六七八九十" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.345679,0},{0.111111,0},{0.765432,0},{0.388889,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/StaticText" Name="CutSceneReview/BG/ListBG/NcsList/InfoBox1/InfoBoxBG/CSText" >
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                                <Property Name="LinespaceWindow" Value="True" />
+                                <Property Name="Text" Value="影片簡介最多五十個字，一行二十五個字九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.222222,0},{0.388889,0},{0.962963,0},{0.833333,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/StaticImage" Name="CutSceneReview/BG/ListBG/NcsList/InfoBox1/InfoBoxBG/Img" >
+                                <Property Name="AlwaysOnTop" Value="True" />
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.0246914,0},{0.111111,0},{0.197531,0},{0.888889,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/Zframe2" Name="CutSceneReview/BG/ListBG/NcsList/InfoBox1/SelectFrame" >
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Static" Name="CutSceneReview/BG/ListBG/NcsList/InfoBox1/LockBG" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="BackgroundEnabled" Value="True" />
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.971809,0}}" />
+                            <Window Type="DejaVu/StaticImage" Name="CutSceneReview/BG/ListBG/NcsList/InfoBox1/LockBG/LockImg" >
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="Image" Value="set:main image:LargeLock" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.449383,0},{-0.111111,0},{0.553086,0},{0.355556,0}}" />
+                                <Property Name="VerticalAlignment" Value="Centre" />
+                            </Window>
+                            <Window Type="DejaVu/StaticTextLab" Name="CutSceneReview/BG/ListBG/NcsList/InfoBox1/LockBG/LockText" >
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="HorzFormatting" Value="HorzCentred" />
+                                <Property Name="Text" Value="解鎖任務 : 一二三四五六七八九十一二三四五六七八九十" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.118519,0},{0.218391,0},{0.883951,0},{0.494253,0}}" />
+                                <Property Name="VerticalAlignment" Value="Centre" />
+                            </Window>
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Embed2" Name="CutSceneReview/BG/ListBG/NcsList/InfoBox3" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.4,0},{0.997537,0},{0.6,0}}" />
+                        <Window Type="DejaVu/Embed3" Name="CutSceneReview/BG/ListBG/NcsList/InfoBox3/InfoBoxBG" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.997537,0},{0.991229,0}}" />
+                            <Window Type="DejaVu/StaticImage" Name="CutSceneReview/BG/ListBG/NcsList/InfoBox3/InfoBoxBG/Img" >
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.0246914,0},{0.111111,0},{0.197531,0},{0.888889,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/StaticTextLab" Name="CutSceneReview/BG/ListBG/NcsList/InfoBox3/InfoBoxBG/CSTitle" >
+                                <Property Name="Font" Value="F001-12" />
+                                <Property Name="HorzFormatting" Value="HorzCentred" />
+                                <Property Name="Text" Value="標題文字五六七八九十" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.345679,0},{0.111111,0},{0.765432,0},{0.388889,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/StaticText" Name="CutSceneReview/BG/ListBG/NcsList/InfoBox3/InfoBoxBG/CSText" >
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                                <Property Name="LinespaceWindow" Value="True" />
+                                <Property Name="Text" Value="影片簡介最多五十個字，一行二十五個字九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.222222,0},{0.388889,0},{0.962963,0},{0.833333,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/Static" Name="CutSceneReview/BG/ListBG/NcsList/InfoBox3/LockBG" >
+                            <Property Name="BackgroundEnabled" Value="True" />
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.971809,0}}" />
+                            <Window Type="DejaVu/StaticImage" Name="CutSceneReview/BG/ListBG/NcsList/InfoBox3/LockBG/LockImg" >
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="Image" Value="set:main image:LargeLock" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.449383,0},{-0.111111,0},{0.553086,0},{0.355556,0}}" />
+                                <Property Name="VerticalAlignment" Value="Centre" />
+                            </Window>
+                            <Window Type="DejaVu/StaticTextLab" Name="CutSceneReview/BG/ListBG/NcsList/InfoBox3/LockBG/LockText" >
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="HorzFormatting" Value="HorzCentred" />
+                                <Property Name="Text" >解鎖任務 : 一二三四五六七八九十一二三四五六七八九十
+</Property>
+                                <Property Name="UnifiedAreaRect" Value="{{0.118519,0},{0.218391,0},{0.883951,0},{0.494253,0}}" />
+                                <Property Name="VerticalAlignment" Value="Centre" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/Zframe2" Name="CutSceneReview/BG/ListBG/NcsList/InfoBox3/SelectFrame" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Embed2" Name="CutSceneReview/BG/ListBG/NcsList/InfoBox5" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.8,0},{0.997537,0},{1,0}}" />
+                        <Window Type="DejaVu/Embed3" Name="CutSceneReview/BG/ListBG/NcsList/InfoBox5/InfoBoxBG" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.997537,0},{0.991229,0}}" />
+                            <Window Type="DejaVu/StaticImage" Name="CutSceneReview/BG/ListBG/NcsList/InfoBox5/InfoBoxBG/Img" >
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.0246914,0},{0.111111,0},{0.197531,0},{0.888889,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/StaticTextLab" Name="CutSceneReview/BG/ListBG/NcsList/InfoBox5/InfoBoxBG/CSTitle" >
+                                <Property Name="Font" Value="F001-12" />
+                                <Property Name="HorzFormatting" Value="HorzCentred" />
+                                <Property Name="Text" Value="標題文字五六七八九十" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.345679,0},{0.111111,0},{0.765432,0},{0.388889,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/StaticText" Name="CutSceneReview/BG/ListBG/NcsList/InfoBox5/InfoBoxBG/CSText" >
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                                <Property Name="LinespaceWindow" Value="True" />
+                                <Property Name="Text" Value="影片簡介最多五十個字，一行二十五個字九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.222222,0},{0.388889,0},{0.962963,0},{0.833333,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/Static" Name="CutSceneReview/BG/ListBG/NcsList/InfoBox5/LockBG" >
+                            <Property Name="BackgroundEnabled" Value="True" />
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.971809,0}}" />
+                            <Window Type="DejaVu/StaticImage" Name="CutSceneReview/BG/ListBG/NcsList/InfoBox5/LockBG/LockImg" >
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="Image" Value="set:main image:LargeLock" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.449383,0},{-0.111111,0},{0.553086,0},{0.355556,0}}" />
+                                <Property Name="VerticalAlignment" Value="Centre" />
+                            </Window>
+                            <Window Type="DejaVu/StaticTextLab" Name="CutSceneReview/BG/ListBG/NcsList/InfoBox5/LockBG/LockText" >
+                                <Property Name="AlwaysOnTop" Value="True" />
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="HorzFormatting" Value="HorzCentred" />
+                                <Property Name="Text" Value="解鎖任務 : 一二三四五六七八九十一二三四五六七八九十" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.118519,0},{0.218391,0},{0.883951,0},{0.494253,0}}" />
+                                <Property Name="VerticalAlignment" Value="Centre" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/Zframe2" Name="CutSceneReview/BG/ListBG/NcsList/InfoBox5/SelectFrame" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Embed2" Name="CutSceneReview/BG/ListBG/NcsList/InfoBox2" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.1994,0},{0.997537,0},{0.3994,0}}" />
+                        <Window Type="DejaVu/Embed3" Name="CutSceneReview/BG/ListBG/NcsList/InfoBox2/InfoBoxBG" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.997537,0},{0.991229,0}}" />
+                            <Window Type="DejaVu/StaticImage" Name="CutSceneReview/BG/ListBG/NcsList/InfoBox2/InfoBoxBG/Img" >
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.0246914,0},{0.111111,0},{0.197531,0},{0.888889,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/StaticTextLab" Name="CutSceneReview/BG/ListBG/NcsList/InfoBox2/InfoBoxBG/CSTitle" >
+                                <Property Name="Font" Value="F001-12" />
+                                <Property Name="HorzFormatting" Value="HorzCentred" />
+                                <Property Name="Text" Value="標題文字五六七八九十" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.345679,0},{0.111111,0},{0.765432,0},{0.388889,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/StaticText" Name="CutSceneReview/BG/ListBG/NcsList/InfoBox2/InfoBoxBG/CSText" >
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                                <Property Name="LinespaceWindow" Value="True" />
+                                <Property Name="Text" Value="影片簡介最多五十個字，一行二十五個字九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.222222,0},{0.388889,0},{0.962963,0},{0.833333,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/Zframe2" Name="CutSceneReview/BG/ListBG/NcsList/InfoBox2/SelectFrame" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Static" Name="CutSceneReview/BG/ListBG/NcsList/InfoBox2/LockBG" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="BackgroundEnabled" Value="True" />
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.971809,0}}" />
+                            <Window Type="DejaVu/StaticImage" Name="CutSceneReview/BG/ListBG/NcsList/InfoBox2/LockBG/LockImg" >
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="Image" Value="set:main image:LargeLock" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.449383,0},{-0.111111,0},{0.553086,0},{0.355556,0}}" />
+                                <Property Name="VerticalAlignment" Value="Centre" />
+                            </Window>
+                            <Window Type="DejaVu/StaticTextLab" Name="CutSceneReview/BG/ListBG/NcsList/InfoBox2/LockBG/LockText" >
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="HorzFormatting" Value="HorzCentred" />
+                                <Property Name="Text" Value="解鎖任務 : 一二三四五六七八九十一二三四五六七八九十" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.118519,0},{0.218391,0},{0.883951,0},{0.494253,0}}" />
+                                <Property Name="VerticalAlignment" Value="Centre" />
+                            </Window>
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Embed2" Name="CutSceneReview/BG/ListBG/NcsList/InfoBox4" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.6,0},{0.997537,0},{0.8,0}}" />
+                        <Window Type="DejaVu/Embed3" Name="CutSceneReview/BG/ListBG/NcsList/InfoBox4/InfoBoxBG" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.997537,0},{0.991229,0}}" />
+                            <Window Type="DejaVu/StaticImage" Name="CutSceneReview/BG/ListBG/NcsList/InfoBox4/InfoBoxBG/Img" >
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.0246914,0},{0.111111,0},{0.197531,0},{0.888889,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/StaticTextLab" Name="CutSceneReview/BG/ListBG/NcsList/InfoBox4/InfoBoxBG/CSTitle" >
+                                <Property Name="Font" Value="F001-12" />
+                                <Property Name="HorzFormatting" Value="HorzCentred" />
+                                <Property Name="Text" Value="標題文字五六七八九十" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.345679,0},{0.111111,0},{0.765432,0},{0.388889,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/StaticText" Name="CutSceneReview/BG/ListBG/NcsList/InfoBox4/InfoBoxBG/CSText" >
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                                <Property Name="LinespaceWindow" Value="True" />
+                                <Property Name="Text" Value="影片簡介最多五十個字，一行二十五個字九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.222222,0},{0.388889,0},{0.962963,0},{0.833333,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/Static" Name="CutSceneReview/BG/ListBG/NcsList/InfoBox4/LockBG" >
+                            <Property Name="BackgroundEnabled" Value="True" />
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.971809,0}}" />
+                            <Window Type="DejaVu/StaticImage" Name="CutSceneReview/BG/ListBG/NcsList/InfoBox4/LockBG/LockImg" >
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="Image" Value="set:main image:LargeLock" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.449383,0},{-0.111111,0},{0.553086,0},{0.355556,0}}" />
+                                <Property Name="VerticalAlignment" Value="Centre" />
+                            </Window>
+                            <Window Type="DejaVu/StaticTextLab" Name="CutSceneReview/BG/ListBG/NcsList/InfoBox4/LockBG/LockText" >
+                                <Property Name="AlwaysOnTop" Value="True" />
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="HorzFormatting" Value="HorzCentred" />
+                                <Property Name="Text" Value="解鎖任務 : 一二三四五六七八九十一二三四五六七八九十" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.118519,0},{0.218391,0},{0.883951,0},{0.494253,0}}" />
+                                <Property Name="VerticalAlignment" Value="Centre" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/Zframe2" Name="CutSceneReview/BG/ListBG/NcsList/InfoBox4/SelectFrame" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                        </Window>
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Button" Name="CutSceneReview/BG/Btn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="x觀看影片" />
+                <Property Name="UnifiedAreaRect" Value="{{0.780886,0},{0.92922,0},{0.97669,0},{0.976407,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="CutSceneReview/BG/UnlockText" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="Text" Value="x解鎖影片 : 2 / 20" />
+                <Property Name="UnifiedAreaRect" Value="{{0.703544,0},{0.0217786,0},{0.972028,0},{0.0689655,0}}" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="CutSceneReview/BG/BeginBtn" >
+                <Property Name="DisabledImage" Value="set:DejaVu image:DoubledLeftArrowPressed" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HoverImage" Value="set:DejaVu image:DoubledLeftArrowHover" />
+                <Property Name="NormalImage" Value="set:DejaVu image:DoubledLeftArrowNormal" />
+                <Property Name="PushedImage" Value="set:DejaVu image:DoubledLeftArrowPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0.300699,0},{0.92922,0},{0.358974,0},{0.974592,0}}" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="CutSceneReview/BG/PrevBtn" >
+                <Property Name="DisabledImage" Value="set:DejaVu image:ArrowLeftPressed" />
+                <Property Name="HoverImage" Value="set:DejaVu image:ArrowLeftHover" />
+                <Property Name="NormalImage" Value="set:DejaVu image:ArrowLeftNormal" />
+                <Property Name="PushedImage" Value="set:DejaVu image:ArrowLeftPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0.358974,0},{0.92922,0},{0.417249,0},{0.974592,0}}" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="CutSceneReview/BG/NextBtn" >
+                <Property Name="DisabledImage" Value="set:DejaVu image:ArrowRightPressed" />
+                <Property Name="HoverImage" Value="set:DejaVu image:ArrowRightHover" />
+                <Property Name="NormalImage" Value="set:DejaVu image:ArrowRightNormal" />
+                <Property Name="PushedImage" Value="set:DejaVu image:ArrowRightPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0.582751,0},{0.92922,0},{0.641026,0},{0.974592,0}}" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="CutSceneReview/BG/EndBtn" >
+                <Property Name="DisabledImage" Value="set:DejaVu image:DoubledRightArrowPressed" />
+                <Property Name="HoverImage" Value="set:DejaVu image:DoubledRightArrowHover" />
+                <Property Name="NormalImage" Value="set:DejaVu image:DoubledRightArrowNormal" />
+                <Property Name="PushedImage" Value="set:DejaVu image:DoubledRightArrowPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0.641026,0},{0.92922,0},{0.699301,0},{0.974592,0}}" />
+            </Window>
+            <Window Type="DejaVu/EmbedText5" Name="CutSceneReview/BG/ListPage" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="x1 / 4" />
+                <Property Name="UnifiedAreaRect" Value="{{0.431235,0},{0.92922,0},{0.571096,0},{0.974592,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

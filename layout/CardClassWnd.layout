@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/CardClassWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="TitlebarImage" Value="set:main13 image:CardNormal" />
+        <Property Name="UnifiedAreaRect" Value="{{0.339844,0},{0.0598958,0},{0.339844,345},{0.0598958,649}}" />
+        <Window Type="DejaVu/Embed" Name="Root/CardClassWnd/Embed" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Static" Name="Root/CardClassWnd/Embed/ClassBG" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0303951,0},{0.26362,0},{0.969605,0},{0.982425,0}}" />
+                <Window Type="DejaVu/Embed2" Name="Root/CardClassWnd/Embed/ClassBG/Embed2" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.02445,0},{1,0},{1,0}}" />
+                    <Window Type="DejaVu/Embed2" Name="Root/CardClassWnd/Embed/ClassBG/Embed2/Embed2" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0313222,0},{0.052632,0},{0.966597,0},{0.974938,0}}" />
+                        <Window Type="DejaVu/ScrollablePane" Name="Root/CardClassWnd/Embed/ClassBG/Embed2/Embed2/Static" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.00692,0},{0.005495,0},{0.993079,0},{0.994506,0}}" />
+                        </Window>
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed4" Name="Root/CardClassWnd/Embed/ClassBG/Title" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.032787,0},{0,0},{0.518224,0},{0.0611247,0}}" />
+                    <Window Type="DejaVu/StaticImage" Name="Root/CardClassWnd/Embed/ClassBG/Title/Img" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Image" Value="set:DejaVu image:Image17" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/CardClassWnd/Embed/ClassBG/Title/Text" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="釣魚位階" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.2,0},{0.866667,0},{0.8,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="Root/CardClassWnd/Embed/Rank" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0313716,0},{0.017575,0},{0.970581,0},{0.254833,0}}" />
+                <Window Type="DejaVu/Embed2" Name="Root/CardClassWnd/Embed/Rank/Embed2" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.074074,0},{1,0},{1,0}}" />
+                    <Window Type="DejaVu/Embed2" Name="Root/CardClassWnd/Embed/Rank/Embed2/BG" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.032362,0},{0.2,0},{0.967637,0},{0.92,0}}" />
+                        <Window Type="DejaVu/Embed12" Name="Root/CardClassWnd/Embed/Rank/Embed2/BG/ProduceRankItem" >
+                            <Property Name="MousePassThroughEnabled" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.00692042,0},{0.0222222,0},{0.99308,0},{0.977778,0}}" />
+                            <Window Type="DejaVu/ProgressBarBG" Name="Root/CardClassWnd/Embed/Rank/Embed2/BG/ProduceRankItem/ProgressBar" >
+                                <Property Name="BackgroundEnabled" Value="False" />
+                                <Property Name="FrameEnabled" Value="False" />
+                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.280702,0},{0.662791,0},{0.947369,0},{0.83721,0}}" />
+                                <Window Type="DejaVu/ProgressBar2" Name="Root/CardClassWnd/Embed/Rank/Embed2/BG/ProduceRankItem/ProgressBar/Value1" >
+                                    <Property Name="CurrentProgress" Value="1" />
+                                    <Property Name="StepSize" Value="0.01" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.031579,0},{0.266667,0},{0.968421,0},{0.733334,0}}" />
+                                </Window>
+                            </Window>
+                            <Window Type="DejaVu/Static" Name="Root/CardClassWnd/Embed/Rank/Embed2/BG/ProduceRankItem/LevelBG1" >
+                                <Property Name="UnifiedAreaRect" Value="{{0.0701754,0},{0.523256,0},{0.245614,0},{0.872093,0}}" />
+                                <Window Type="DejaVu/StaticImage" Name="Root/CardClassWnd/Embed/Rank/Embed2/BG/ProduceRankItem/LevelBG1/Num21" >
+                                    <Property Name="Image" Value="set:DejaVu image:eight" />
+                                    <Property Name="MousePassThroughEnabled" Value="True" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.6,0},{1,0}}" />
+                                </Window>
+                                <Window Type="DejaVu/StaticImage" Name="Root/CardClassWnd/Embed/Rank/Embed2/BG/ProduceRankItem/LevelBG1/Num11" >
+                                    <Property Name="Image" Value="set:DejaVu image:eight" />
+                                    <Property Name="MousePassThroughEnabled" Value="True" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.4,0},{0,0},{1,0},{1,0}}" />
+                                </Window>
+                            </Window>
+                            <Window Type="DejaVu/StaticTextLab" Name="Root/CardClassWnd/Embed/Rank/Embed2/BG/ProduceRankItem/Title1" >
+                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                <Property Name="Text" Value="卡牌達人" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.070175,0},{0.174419,0},{0.947368,0},{0.465117,0}}" />
+                            </Window>
+                        </Window>
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed4" Name="Root/CardClassWnd/Embed/Rank/Title" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.032362,0},{0,0},{0.517799,0},{0.185185,0}}" />
+                    <Window Type="DejaVu/StaticImage" Name="Root/CardClassWnd/Embed/Rank/Title/Img" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Image" Value="set:DejaVu image:Image13" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/CardClassWnd/Embed/Rank/Title/Text" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="當前階級" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.2,0},{0.866667,0},{0.8,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

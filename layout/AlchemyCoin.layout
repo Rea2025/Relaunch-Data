@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="AlchemyCoin" >
+        <Property Name="MousePassThroughEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0.001953,0},{0.035,0},{0.238281,0},{0.16651,0}}" />
+        <Window Type="DejaVu/Embed3" Name="AlchemyCoin/BG" >
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/EmbedTextLab7" Name="AlchemyCoin/BG/Title" >
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="" />
+                <Property Name="UnifiedAreaRect" Value="{{0.040816,0},{0.098039,0},{0.959183,0},{0.343137,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="AlchemyCoin/BG/Slot" >
+                <Property Name="UnifiedAreaRect" Value="{{0.040816,0},{0.441176,0},{0.21437,0},{0.857018,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="AlchemyCoin/BG/Slot/SpecialText" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="TextColours" Value="tl:FFFF0000 tr:FFFF0000 bl:FFFF0000 br:FFFF0000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.5,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Button" Name="AlchemyCoin/BG/Buy" >
+                <Property Name="Text" Value="x購買" />
+                <Property Name="UnifiedAreaRect" Value="{{0.644628,0},{0.524752,0},{0.958678,0},{0.782178,0}}" />
+            </Window>
+            <Window Type="DejaVu/Static" Name="AlchemyCoin/BG/CostBG" >
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.256198,0},{0.643564,0},{0.603306,0},{0.841584,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="AlchemyCoin/BG/CostBG/Img" >
+                    <Property Name="Image" Value="set:main image:ItemMallcoin2" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.821429,0},{0.15,0},{1,0},{0.9,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="AlchemyCoin/BG/CostBG/Num" >
+                    <Property Name="HorzFormatting" Value="RightAligned" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="Text" Value="999999" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.77381,0},{1,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="AlchemyCoin/BG/CostBG/Num/Line" >
+                        <Property Name="HorizontalAlignment" Value="Centre" />
+                        <Property Name="HorzFormatting" Value="RightAligned" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="Text" Value="-----------" />
+                        <Property Name="TextColours" Value="tl:FFFF0000 tr:FFFF0000 bl:FFFF0000 br:FFFF0000" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.5,0}}" />
+                        <Property Name="VerticalAlignment" Value="Centre" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="AlchemyCoin/BG/CostBGSP" >
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.256198,0},{0.445545,0},{0.603306,0},{0.643564,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="AlchemyCoin/BG/CostBGSP/Img" >
+                    <Property Name="Image" Value="set:main image:ItemMallcoin2" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.821429,0},{0.15,0},{1,0},{0.9,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="AlchemyCoin/BG/CostBGSP/Num" >
+                    <Property Name="HorzFormatting" Value="RightAligned" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="Text" Value="999999" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.77381,0},{1,0}}" />
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

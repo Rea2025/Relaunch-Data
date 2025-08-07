@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/JewlryStudy" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.20375,0},{0.019377,0},{0.20375,400},{0.019377,524}}" />
+        <Window Type="DejaVu/Static" Name="Root/JewlryStudy/Background" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.00166389,0},{1,0},{1.00166,0}}" />
+            <Window Type="DejaVu/Embed" Name="Root/JewlryStudy/Background/Box" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.015625,0},{0.119342,0},{0.984375,0},{0.855967,0}}" />
+                <Window Type="DejaVu/ScrollablePane" Name="Root/JewlryStudy/Background/Box/ScrollPane" >
+                    <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="ForceVertScrollbar" Value="True" />
+                    <Property Name="HorzOverlapSize" Value="0.01" />
+                    <Property Name="HorzScrollPosition" Value="0" />
+                    <Property Name="HorzStepSize" Value="0.1" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0177721,0},{0.0108727,0},{0.988162,0},{0.988208,0}}" />
+                    <Property Name="VertOverlapSize" Value="0.01" />
+                    <Property Name="VertScrollPosition" Value="0" />
+                    <Property Name="VertStepSize" Value="0.1" />
+                    <AutoWindow NameSuffix="__auto_container__" >
+                        <Property Name="ChildExtentsArea" Value="l:0 t:0 r:0 b:0" />
+                        <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                        <Property Name="MouseInputPropagationEnabled" Value="True" />
+                    </AutoWindow>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="Root/JewlryStudy/Background/BG" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.015625,0},{0.0123457,0},{0.135417,0},{0.106996,0}}" />
+                <Window Type="DejaVu/SlotImage" Name="Root/JewlryStudy/Background/BG/Slot" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.130435,0},{0.130435,0},{0.869565,0},{0.869565,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/JewlryStudy/Background/InfoText" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" >珠寶學
+透過不斷的分析珠寶，進而了解用各
+種技術來對珠寶進行加工的人類專屬
+技能。</Property>
+                <Property Name="UnifiedAreaRect" Value="{{0.151042,0},{0.00823045,0},{0.651042,0},{0.111111,0}}" />
+            </Window>
+            <Window Type="DejaVu/Static" Name="Root/JewlryStudy/Background/BG1" >
+                <Property Name="UnifiedAreaRect" Value="{{0.666667,0},{0.0123457,0},{0.786458,0},{0.106996,0}}" />
+                <Window Type="DejaVu/SlotImage" Name="Root/JewlryStudy/Background/BG/Slot1" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.130435,0},{0.130435,0},{0.869565,0},{0.869565,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/JewlryStudy/Background/StudyBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="分析" />
+                <Property Name="UnifiedAreaRect" Value="{{0.802083,0},{0.0703934,0},{0.984375,0},{0.10766,0}}" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/JewlryStudy/Background/HelpBtn" >
+                <Property Name="DisabledImage" Value="set:DejaVu image:HelpButtonHover" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0.947917,0},{0.0124224,0},{0.984375,0},{0.0414079,0}}" />
+            </Window>
+            <Window Type="DejaVu/Static" Name="Root/JewlryStudy/Background/BG2" >
+                <Property Name="UnifiedAreaRect" Value="{{0.015625,0},{0.868313,0},{0.135417,0},{0.987655,0}}" />
+                <Window Type="DejaVu/SlotImage" Name="Root/JewlryStudy/Background/BG/Slot2" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.130435,0},{0.344828,0},{0.869565,0},{0.931035,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/JewlryStudy/Background/BG3/Text1" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="精品" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.068966,0},{1,0},{0.310345,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/JewlryStudy/Background/CreateBtn" >
+                <Property Name="Text" Value="精工" />
+                <Property Name="UnifiedAreaRect" Value="{{0.802083,0},{0.950617,0},{0.984375,0},{0.987654,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/JewlryStudy/Background/InfoText1" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" >施展所有既能所消耗的MP
+減少999點</Property>
+                <Property Name="UnifiedAreaRect" Value="{{0.151042,0},{0.868313,0},{0.515625,0},{0.987655,0}}" />
+            </Window>
+            <Window Type="DejaVu/Static" Name="Root/JewlryStudy/Background/BG3" >
+                <Property Name="UnifiedAreaRect" Value="{{0.546875,0},{0.868313,0},{0.770833,0},{0.987654,0}}" />
+                <Window Type="DejaVu/SlotImage" Name="Root/JewlryStudy/Background/Embed/ItemSlot0" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.0697674,0},{0.344828,0},{0.465116,0},{0.931035,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/JewlryStudy/Background/Embed/ItemNumText0" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="9/9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.588235,0},{1,0},{1,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/JewlryStudy/Background/Embed/ItemSlot1" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.534884,0},{0.344828,0},{0.930233,0},{0.931035,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/JewlryStudy/Background/Embed/ItemNumText1" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="9/9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.588235,0},{1,0},{1,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/JewlryStudy/Background/BG3/Text" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="精工需求" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.068966,0},{1,0},{0.310345,0}}" />
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

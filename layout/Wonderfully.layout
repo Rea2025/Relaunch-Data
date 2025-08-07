@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/Wonderfully" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.136421,0},{0.0496454,0},{0.136421,650},{0.0496454,380}}" />
+        <Window Type="DejaVu/Static" Name="Root/Wonderfully/Book" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.020661,0},{0.067278,0},{0.561378,0},{0.954128,0}}" />
+            <Window Type="DejaVu/StaticText" Name="Root/Wonderfully/Book/Content" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                <Property Name="Text" >派二三四五六七八九十一二三是  測議
+</Property>
+                <Property Name="UnifiedAreaRect" Value="{{0.033333,0},{0.082057,0},{0.967068,0},{0.87516,0}}" />
+                <Property Name="VertFormatting" Value="TopAligned" />
+				<Property Name="VertScrollbar" Value="True" />
+            </Window>
+            <Window Type="DejaVu/zStaticLab" Name="Root/Wonderfully/Book/Title" >
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="X書籍內容" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0813253,0},{-0.037931,0},{0.277108,0},{0.0448276,0}}" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/Wonderfully/Book/PrePageBtn" >
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="HoverImage" Value="set:DejaVuImage image:NumberLeftN" />
+                <Property Name="NormalImage" Value="set:DejaVuImage image:NumberLeftN" />
+                <Property Name="PushedImage" Value="set:DejaVuImage image:NumberLeftP" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.105422,0},{-0.0172414,0},{-0.060241,0},{0.0344828,0}}" />
+                <Property Name="VerticalAlignment" Value="Bottom" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/Wonderfully/Book/NextPageBtn" >
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="HoverImage" Value="set:DejaVuImage image:NumberRightN" />
+                <Property Name="NormalImage" Value="set:DejaVuImage image:NumberRightN" />
+                <Property Name="PushedImage" Value="set:DejaVuImage image:NumberRightP" />
+                <Property Name="UnifiedAreaRect" Value="{{0.105422,0},{-0.0172414,0},{0.150602,0},{0.0344828,0}}" />
+                <Property Name="VerticalAlignment" Value="Bottom" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/Wonderfully/Book/PageNumber" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="12" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{-0.0103448,0},{0.120482,0},{0.0586207,0}}" />
+                <Property Name="VerticalAlignment" Value="Bottom" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="Root/Wonderfully/Item" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HorizontalAlignment" Value="Right" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0711009,0},{0.423453,0},{0.285168,0}}" />
+            <Window Type="DejaVu/zStaticLab" Name="Root/Wonderfully/Item/Title" >
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="x承接物品" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0461538,0},{-0.171429,0},{0.296154,0},{0.171429,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/Wonderfully/Item/Name" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="Text" Value="一二三四五六七八九十" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.030769,0},{0,0},{0.661539,0},{0.5,0}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/Wonderfully/Item/Icon" >
+                <Property Name="UnifiedAreaRect" Value="{{0.0769231,0},{0,0},{0.211538,0},{0.5,0}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="Root/Wonderfully/Appellation" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HorizontalAlignment" Value="Right" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.33104,0},{0.423453,0},{0.545107,0}}" />
+            <Window Type="DejaVu/zStaticLab" Name="Root/Wonderfully/Appellation/Title" >
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="x獲得稱號" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0461538,0},{-0.171429,0},{0.296154,0},{0.171429,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/Wonderfully/Appellation/Content" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="Text" Value="一二三四五六七八九十" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.923077,0},{0.5,0}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

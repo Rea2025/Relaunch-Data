@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/Static" Name="Root/SkillProduceWnd" >
+        <Property Name="Font" Value="F001-scale" />
+        <Property Name="HorizontalAlignment" Value="Centre" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.7,0},{0.821667,0}}" />
+        <Window Type="DejaVu/Embed3" Name="Root/SkillProduceWnd/Left" >
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="UnifiedAreaRect" Value="{{0.008929,0},{0.010142,0},{0.358929,0},{0.989858,0}}" />
+            <Window Type="DejaVu/Embed4" Name="Root/SkillProduceWnd/Left/ProduceBG" >
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="UnifiedAreaRect" Value="{{0.02551,0},{0.010352,0},{0.97449,0},{0.944099,0}}" />
+                <Window Type="DejaVu/EmbedTextLab2" Name="Root/SkillProduceWnd/Left/TypeText" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="生產類型" />
+                    <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.0554324,0}}" />
+                    <Window Type="DejaVu/ImageButton" Name="Root/SkillProduceWnd/Left/HelpBtn" >
+                        <Property Name="DisabledImage" Value="set:DejaVu image:HelpButtonPressed" />
+                        <Property Name="Font" Value="F001-scale" />
+                        <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                        <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                        <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.892473,0},{0.2,0},{0.973118,0},{0.92,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/ScrollablePane" Name="Root/SkillProduceWnd/Left/ProduceBG/SkillPane" >
+                    <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="HorzOverlapSize" Value="0.01" />
+                    <Property Name="HorzScrollPosition" Value="0" />
+                    <Property Name="HorzStepSize" Value="0.1" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.026882,0},{0.055432,0},{0.978495,0},{0.986696,0}}" />
+                    <Property Name="VertOverlapSize" Value="0.01" />
+                    <Property Name="VertScrollPosition" Value="0" />
+                    <Property Name="VertStepSize" Value="0.1" />
+                    <AutoWindow NameSuffix="__auto_container__" >
+                        <Property Name="ChildExtentsArea" Value="l:0 t:0 r:0 b:0" />
+                        <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                        <Property Name="MouseInputPropagationEnabled" Value="True" />
+                    </AutoWindow>
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Embed3" Name="Root/SkillProduceWnd/Right" >
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="UnifiedAreaRect" Value="{{0.367857,0},{0.010142,0},{0.991071,0},{0.989858,0}}" />
+            <Window Type="DejaVu/Embed4" Name="Root/SkillProduceWnd/Right/ContentBG" >
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="UnifiedAreaRect" Value="{{0.014327,0},{0.010352,0},{0.985674,0},{0.221532,0}}" />
+                <Window Type="DejaVu/Embed2" Name="Root/SkillProduceWnd/Right/ContentBG/TextBG" >
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.245098,0}}" />
+                    <Window Type="DejaVu/StaticText" Name="Root/SkillProduceWnd/Right/ContentBG/NameText" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="技能名稱" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.023599,0},{0.12,0},{0.274336,0},{0.8,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/ImageButton" Name="Root/SkillProduceWnd/Right/ContentBG/HelpBtn" >
+                        <Property Name="DisabledImage" Value="set:DejaVu image:HelpButtonPressed" />
+                        <Property Name="Font" Value="F001-scale" />
+                        <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                        <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                        <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.941003,0},{0.2,0},{0.985251,0},{0.92,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="Root/SkillProduceWnd/Right/ContentBG/IntroText" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" >一二三四五六七八九十一二三四五六七八九十一二
+一二三四五六七八九十一二三四五六七八九十一二</Property>
+                    <Property Name="UnifiedAreaRect" Value="{{0.159292,0},{0.343137,0},{0.970501,0},{0.67647,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="Root/SkillProduceWnd/Right/ContentBG/LevelText" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="LV.999" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.029499,0},{0.764706,0},{0.147493,0},{0.901961,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/SkillProduceWnd/Right/ContentBG/ItemSlot" >
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="Image" Value="set:main image:noimage" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.029499,0},{0.343137,0},{0.129794,0},{0.67647,0}}" />
+                </Window>
+                <Window Type="DejaVu/ProgressBarBG" Name="Root/SkillProduceWnd/Right/ContentBG/ExpBar" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.165899,0},{0.755725,0},{0.963134,0},{0.91603,0}}" />
+                    <Window Type="DejaVu/ProgressBarSkill" Name="Root/SkillProduceWnd/Right/ContentBG/ExpBar/BarImg" >
+                        <Property Name="CurrentProgress" Value="0" />
+                        <Property Name="Font" Value="F001-scale" />
+                        <Property Name="StepSize" Value="0.01" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0215839,0},{0.237507,0},{0.984583,0},{0.762493,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticText" Name="Root/SkillProduceWnd/Right/ContentBG/ExpBar/ExpText" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HorizontalAlignment" Value="Centre" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="100%" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.251445,0},{0.809524,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/EmbedTextLab2" Name="Root/SkillProduceWnd/Right/ResultText" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="成品" />
+                <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+                <Property Name="UnifiedAreaRect" Value="{{0.014327,0},{0.778468,0},{0.226361,0},{0.830228,0}}" />
+            </Window>
+            <Window Type="DejaVu/EmbedTextLab2" Name="Root/SkillProduceWnd/Right/MaterialText" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="所需材料" />
+                <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+                <Property Name="UnifiedAreaRect" Value="{{0.226361,0},{0.778468,0},{0.985673,0},{0.830228,0}}" />
+            </Window>
+            <Window Type="DejaVu/Embed4" Name="Root/SkillProduceWnd/Right/ResultBG" >
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="UnifiedAreaRect" Value="{{0.014327,0},{0.830228,0},{0.226361,0},{0.989648,0}}" />
+                <Window Type="DejaVu/SlotImage" Name="Root/SkillProduceWnd/Right/ResultBG/ItemSlot" >
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="Image" Value="set:main image:noimage" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.27027,0},{0.272727,0},{0.729729,0},{0.714285,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed4" Name="Root/SkillProduceWnd/Right/MaterialBG" >
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="UnifiedAreaRect" Value="{{0.226361,0},{0.830228,0},{0.985673,0},{0.989648,0}}" />
+                <Window Type="DejaVu/Static" Name="Root/SkillProduceWnd/Right/MaterialBG/Material1" >
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.037736,0},{0.064935,0},{0.962264,0},{0.246753,0}}" />
+                    <Window Type="DejaVu/StaticText" Name="Root/SkillProduceWnd/Right/MaterialBG/Material1/NameText" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="一二三四五六七八九十" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.510204,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticText" Name="Root/SkillProduceWnd/Right/MaterialBG/Material1/NumText" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HorzFormatting" Value="RightAligned" />
+                        <Property Name="Text" Value="x 5" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.755102,0},{0,0},{1,0},{1,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Static" Name="Root/SkillProduceWnd/Right/MaterialBG/Material2" >
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.037736,0},{0.298701,0},{0.962264,0},{0.480519,0}}" />
+                    <Window Type="DejaVu/StaticText" Name="Root/SkillProduceWnd/Right/MaterialBG/Material2/NameText" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="一二三四五六七八九十" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.510204,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticText" Name="Root/SkillProduceWnd/Right/MaterialBG/Material2/NumText" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HorzFormatting" Value="RightAligned" />
+                        <Property Name="Text" Value="x 5" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.755102,0},{0,0},{1,0},{1,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Static" Name="Root/SkillProduceWnd/Right/MaterialBG/Material3" >
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.037736,0},{0.532468,0},{0.962264,0},{0.714286,0}}" />
+                    <Window Type="DejaVu/StaticText" Name="Root/SkillProduceWnd/Right/MaterialBG/Material3/NameText" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="一二三四五六七八九十" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.510204,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticText" Name="Root/SkillProduceWnd/Right/MaterialBG/Material3/NumText" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HorzFormatting" Value="RightAligned" />
+                        <Property Name="Text" Value="x 5" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.755102,0},{0,0},{1,0},{1,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Static" Name="Root/SkillProduceWnd/Right/MaterialBG/Material4" >
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.037736,0},{0.766234,0},{0.962264,0},{0.948052,0}}" />
+                    <Window Type="DejaVu/StaticText" Name="Root/SkillProduceWnd/Right/MaterialBG/Material4/NameText" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="一二三四五六七八九十" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.510204,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticText" Name="Root/SkillProduceWnd/Right/MaterialBG/Material4/NumText" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HorzFormatting" Value="RightAligned" />
+                        <Property Name="Text" Value="x 5" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.755102,0},{0,0},{1,0},{1,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed4" Name="Root/SkillProduceWnd/Right/TreeBG" >
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="UnifiedAreaRect" Value="{{0.014327,0},{0.231884,0},{0.985674,0},{0.768116,0}}" />
+                <Window Type="DejaVu/ScrollablePane" Name="Root/SkillProduceWnd/Right/TreeBG/ItemListPane" >
+                    <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="HorzOverlapSize" Value="0.01" />
+                    <Property Name="HorzScrollPosition" Value="0" />
+                    <Property Name="HorzStepSize" Value="0.1" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    <Property Name="VertOverlapSize" Value="0.01" />
+                    <Property Name="VertScrollPosition" Value="0" />
+                    <Property Name="VertStepSize" Value="0.1" />
+                    <AutoWindow NameSuffix="__auto_container__" >
+                        <Property Name="ChildExtentsArea" Value="l:0 t:0 r:0 b:0" />
+                        <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                        <Property Name="MouseInputPropagationEnabled" Value="True" />
+                    </AutoWindow>
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

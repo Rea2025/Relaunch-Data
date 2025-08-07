@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="MessageBoardDelete" >
+        <Property Name="AlwaysOnTop" Value="True" />
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HorizontalAlignment" Value="Centre" />
+        <Property Name="TitlebarEnabled" Value="False" />
+        <Property Name="TitlebarFont" Value="F001-scale" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,238},{0,410}}" />
+        <Property Name="VerticalAlignment" Value="Centre" />
+        <Window Type="DejaVu/Static" Name="MessageBoardDelete/Title" >
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.033333,0},{0,202},{0.033333,54}}" />
+            <Window Type="DejaVu/StaticTextLab" Name="MessageBoardDelete/Title/Label" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="Title" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0990099,0},{-0.222222,0},{0.450495,0},{0.222222,0}}" />
+            </Window>
+            <Window Type="DejaVu/EmbedTextLab2" Name="MessageBoardDelete/Title/Text" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="TitleTitle" />
+                <Property Name="UnifiedAreaRect" Value="{{0.029703,0},{0.277778,0},{0.975248,0},{0.722222,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="MessageBoardDelete/Content" >
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.227027,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/StaticTextLab" Name="MessageBoardDelete/Content/Label" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="Content" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0990099,0},{-0.041958,0},{0.445545,0},{0.041958,0}}" />
+            </Window>
+            <Window Type="DejaVu/MultiLineEditbox" Name="MessageBoardDelete/Content/Text" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="MaxTextLength" Value="2147483647" />
+                <Property Name="NormalTextColour" Value="C8FFFFFF" />
+                <Property Name="ReadOnly" Value="True" />
+                <Property Name="SelectedTextColour" Value="FFFFFFFF" />
+                <Property Name="Text" >
+</Property>
+                <Property Name="TextParsingEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.029703,0},{0.0629371,0},{0.975248,0},{0.727273,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="MessageBoardDelete/Content/Sender/Label" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" Value="Sender" />
+                <Property Name="UnifiedAreaRect" Value="{{0.029703,0},{0.734266,0},{0.277228,0},{0.811189,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="MessageBoardDelete/Content/Date/Label" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" Value="Date" />
+                <Property Name="UnifiedAreaRect" Value="{{0.029703,0},{0.811189,0},{0.277228,0},{0.888112,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="MessageBoardDelete/Content/Button/Close" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="Close" />
+                <Property Name="UnifiedAreaRect" Value="{{0.627451,0},{0.891228,0},{0.973986,0},{0.975144,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="MessageBoardDelete/Content/Button/OK" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="OK" />
+                <Property Name="UnifiedAreaRect" Value="{{0.254902,0},{0.891228,0},{0.601437,0},{0.975144,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="MessageBoardDelete/Content/Sender/Name" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" Value="Name" />
+                <Property Name="UnifiedAreaRect" Value="{{0.292079,0},{0.734266,0},{0.712871,0},{0.811189,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="MessageBoardDelete/Content/Date/PostTime" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" Value="12/31 00：00" />
+                <Property Name="UnifiedAreaRect" Value="{{0.292079,0},{0.811189,0},{0.712871,0},{0.888112,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

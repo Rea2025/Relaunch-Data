@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/PartnerWndItem" >
+        <Property Name="Font" Value="F001-scale" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,180},{0,60}}" />
+        <Window Type="DejaVu/Embed4" Name="Root/PartnerWndItem/Block" >
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/SlotImage" Name="Root/PartnerWndItem/Face" >
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0333333,0},{0.2,0},{0.233333,0},{0.8,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/PartnerWndItem/InfoText" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="LV.100 一二三" />
+                <Property Name="UnifiedAreaRect" Value="{{0.267641,0},{0.0833333,0},{0.950974,0},{0.416667,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/PartnerWndItem/HPImg" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Image" Value="set:main image:MiniInfoHP" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.248859,0},{0.413621,0},{0.371081,0},{0.613621,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/PartnerWndItem/HpBarBack" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Image" Value="set:DejaVu image:PetHpBarBG" />
+                <Property Name="UnifiedAreaRect" Value="{{0.405556,0},{0.383333,0},{0.938889,0},{0.583333,0}}" />
+                <Window Type="DejaVu/ProgressBar" Name="Root/PartnerWndItem/HpBarBack/HpBar" >
+                    <Property Name="Image" Value="set:DejaVu image:PetHpBar" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/PartnerWndItem/EXPImg" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="EXP" />
+                <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.6,0},{0.408326,0},{0.933333,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/PartnerWndItem/ExpBarBack" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Image" Value="set:DejaVu image:LoveExpBar" />
+                <Property Name="UnifiedAreaRect" Value="{{0.405556,0},{0.65,0},{0.938889,0},{0.85,0}}" />
+                <Window Type="DejaVu/ProgressBar" Name="Root/PartnerWndItem/ExpBarBack/ExpBar" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Image" Value="set:DejaVu image:ExpBarYellow" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/PartnerWndItem/StausText" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="戰鬥" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.0348958,0},{0.0833333,0},{0.502344,0},{0.416667,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/PartnerWndItem/Star3" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Image" Value="set:main image:MonsterStar" />
+                <Property Name="UnifiedAreaRect" Value="{{0.233333,0},{0.0333333,0},{0.316667,0},{0.283333,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/PartnerWndItem/Star4" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Image" Value="set:main image:MonsterStar" />
+                <Property Name="UnifiedAreaRect" Value="{{0.327778,0},{0.0333333,0},{0.411111,0},{0.283333,0}}" />
+                <Property Name="Visible" Value="False" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Embed" Name="Root/PartnerWndItem/SelectRect" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.00125,0},{1,0},{1.00125,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

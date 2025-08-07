@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="HousePrivilege" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="TitlebarImage" Value="set:main image:Bank" />
+        <Property Name="UnifiedAreaRect" Value="{{0.292277,0},{0.0247399,0},{0.292277,230},{0.0247399,286}}" />
+        <Window Type="DejaVu/Static" Name="HousePrivilege/BG" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0233645,0},{0,0},{0.981308,0},{0.825243,0}}" />
+            <Window Type="DejaVu/Embed2" Name="HousePrivilege/BG/EntranceBG" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0572457,0},{1,0},{0.998422,0}}" />
+                <Window Type="DejaVu/EmbedTextLab7" Name="HousePrivilege/BG/EntranceBG/LoverLog" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="x守護騎士" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.04878,0},{0.34375,0},{0.536585,0},{0.5,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab7" Name="HousePrivilege/BG/EntranceBG/FriendLog" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="x好友名單" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.04878,0},{0.5,0},{0.536585,0},{0.65625,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab7" Name="HousePrivilege/BG/EntranceBG/FamilyLog" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="x公會成員" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.04878,0},{0.65625,0},{0.536585,0},{0.8125,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="HousePrivilege/BG/EntranceBG/YES" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Image" Value="set:main11 image:TeamAccept" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.609756,0},{0.15625,0},{0.731707,0},{0.3125,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab7" Name="HousePrivilege/BG/EntranceBG/OtherLog" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="x其他成員" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.04878,0},{0.8125,0},{0.536585,0},{0.96875,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="HousePrivilege/BG/EntranceBG/NO" >
+                    <Property Name="Image" Value="set:main11 image:TeamDeny" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.804878,0},{0.15625,0},{0.926829,0},{0.3125,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="HousePrivilege/BG/EntranceBG/LoverYes" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.634146,0},{0.375,0},{0.707882,0},{0.46875,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="HousePrivilege/BG/EntranceBG/FriendYes" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.634146,0},{0.53125,0},{0.707882,0},{0.625,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="HousePrivilege/BG/EntranceBG/FamilyYes" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.634146,0},{0.6875,0},{0.707882,0},{0.78125,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="HousePrivilege/BG/EntranceBG/OtherYes" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.634146,0},{0.84375,0},{0.707882,0},{0.9375,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="HousePrivilege/BG/EntranceBG/LoverNo" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.829268,0},{0.375,0},{0.902439,0},{0.46875,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="HousePrivilege/BG/EntranceBG/FriendNo" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.829268,0},{0.53125,0},{0.902439,0},{0.625,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="HousePrivilege/BG/EntranceBG/FamilyNo" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.829268,0},{0.6875,0},{0.902439,0},{0.78125,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="HousePrivilege/BG/EntranceBG/OtherNo" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.829268,0},{0.84375,0},{0.902439,0},{0.9375,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/EmbedTextLab4" Name="HousePrivilege/BG/Title" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.04878,0},{0,0},{0.780487,0},{0.147059,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="HousePrivilege/BG/Title/Img" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Image" Value="set:DejaVu image:RemarkIcon" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="HousePrivilege/BG/Title/Text" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="x進入權限" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.2,0},{0.8,0},{0.8,0}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Button" Name="HousePrivilege/Btn" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="Text" Value="x套用" />
+            <Property Name="UnifiedAreaRect" Value="{{0.630841,0},{0.849515,0},{0.981308,0},{0.975728,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,728 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/CardSystemV2" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="HorizontalAlignment" Value="Centre" />
+        <Property Name="Text" Value="卡牌對戰" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="TitlebarImage" Value="set:main13 image:CardNormal" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,981},{0,700}}" />
+        <Property Name="VerticalAlignment" Value="Centre" />
+        <Window Type="DejaVu/Embed" Name="Root/CardSystemV2/base" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Static" Name="Root/CardSystemV2/base/LeftStatic" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0103627,0},{0.016129,0},{0.53886,0},{0.983871,0}}" />
+                <Window Type="DejaVu/Embed2" Name="Root/CardSystemV2/base/LeftStatic/CardEdit" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0166667,0},{1,0},{1,0}}" />
+                    <Window Type="DejaVu/Static" Name="Root/CardSystemV2/base/LeftStatic/CardEdit/TopStatic" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0196078,0},{0.0423729,0},{0.980392,0},{0.0864407,0}}" />
+                        <Window Type="DejaVu/Button" Name="Root/CardSystemV2/base/LeftStatic/CardEdit/TopStatic/bt1" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="Text" Value="1" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.0530612,0},{1,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Button" Name="Root/CardSystemV2/base/LeftStatic/CardEdit/TopStatic/bt2" >
+                            <Property Name="Text" Value="2" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0530612,0},{0,0},{0.106122,0},{1,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Button" Name="Root/CardSystemV2/base/LeftStatic/CardEdit/TopStatic/bt3" >
+                            <Property Name="Text" Value="3" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.106122,0},{0,0},{0.159184,0},{1,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Button" Name="Root/CardSystemV2/base/LeftStatic/CardEdit/TopStatic/bt4" >
+                            <Property Name="Text" Value="4" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.159184,0},{0,0},{0.212245,0},{1,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Button" Name="Root/CardSystemV2/base/LeftStatic/CardEdit/TopStatic/bt5" >
+                            <Property Name="Text" Value="5" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.212245,0},{0,0},{0.265306,0},{1,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Button" Name="Root/CardSystemV2/base/LeftStatic/CardEdit/TopStatic/FightBt" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="Text" Value="隨機對戰" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.27551,0},{0,0},{0.430612,0},{1,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/EmbedTextLab7" Name="Root/CardSystemV2/base/LeftStatic/CardEdit/TopStatic/FightPointLab" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="決鬥點數" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.440816,0},{0,0},{0.583673,0},{0.961538,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/EmbedTextLab7" Name="Root/CardSystemV2/base/LeftStatic/CardEdit/TopStatic/FightPowerLab" >
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="戰鬥力" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.726531,0},{0,0},{0.869388,0},{0.961538,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/EmbedTextLab5" Name="Root/CardSystemV2/base/LeftStatic/CardEdit/TopStatic/FightPointText" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="20/30" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.583673,0},{0,0},{0.726531,0},{0.961538,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/EmbedTextLab5" Name="Root/CardSystemV2/base/LeftStatic/CardEdit/TopStatic/FightPowerText" >
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="999999" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.869388,0},{0,0},{1,0},{0.961538,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Static" Name="Root/CardSystemV2/base/LeftStatic/CardEdit/CardStatic" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0196078,0},{0.0949153,0},{0.980392,0},{1,0}}" />
+                        <Window Type="DejaVu/Embed2" Name="Root/CardSystemV2/base/LeftStatic/CardEdit/CardStatic/top" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.277154,0}}" />
+                            <Window Type="DejaVu/StaticImage" Name="Root/CardSystemV2/base/LeftStatic/CardEdit/TopCardStatic/top/Cardimg1" >
+                                <Property Name="UnifiedAreaRect" Value="{{0.0204082,0},{0.0675676,0},{0.204082,0},{0.932432,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/StaticImage" Name="Root/CardSystemV2/base/LeftStatic/CardEdit/TopCardStatic/top/Cardimg2" >
+                                <Property Name="UnifiedAreaRect" Value="{{0.214286,0},{0.0675676,0},{0.397959,0},{0.932432,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/StaticImage" Name="Root/CardSystemV2/base/LeftStatic/CardEdit/TopCardStatic/top/Cardimg3" >
+                                <Property Name="UnifiedAreaRect" Value="{{0.408163,0},{0.0675676,0},{0.591837,0},{0.932432,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/StaticImage" Name="Root/CardSystemV2/base/LeftStatic/CardEdit/TopCardStatic/top/Cardimg4" >
+                                <Property Name="UnifiedAreaRect" Value="{{0.602041,0},{0.0675676,0},{0.785714,0},{0.932432,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/StaticImage" Name="Root/CardSystemV2/base/LeftStatic/CardEdit/TopCardStatic/top/Cardimg5" >
+                                <Property Name="UnifiedAreaRect" Value="{{0.795918,0},{0.0675676,0},{0.979592,0},{0.932432,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/Embed2" Name="Root/CardSystemV2/base/LeftStatic/CardEdit/CardStatic/bot" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.286517,0},{1,0},{0.923221,0}}" />
+                            <Window Type="DejaVu/StaticImage" Name="Root/CardSystemV2/base/LeftStatic/CardEdit/CardStatic/bot/BigCard" >
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.0204082,0},{0.0294118,0},{0.479592,0},{0.970588,0}}" />
+                                <Window Type="DejaVu/StaticImage" Name="Root/CardSystemV2/base/LeftStatic/CardEdit/CardStatic/bot/BigCard/BigCard1" >
+                                    <Property Name="Font" Value="F001-9" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                </Window>
+                                <Window Type="DejaVu/StaticImage" Name="Root/CardSystemV2/base/LeftStatic/CardEdit/CardStatic/bot/BigCard/BigCard2" >
+                                    <Property Name="Font" Value="F001-9" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                    <Window Type="DejaVu/StaticImage" Name="Root/CardSystemV2/base/LeftStatic/CardEdit/CardStatic/bot/BigCard/BigCard2/Attr" >
+                                        <Property Name="Font" Value="F001-9" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.788889,0},{0.847656,0},{0.966667,0},{0.972656,0}}" />
+                                    </Window>
+                                </Window>
+                                <Window Type="DejaVu/StaticText" Name="Root/CardSystemV2/base/LeftStatic/CardEdit/CardStatic/bot/BigCard/Text" >
+                                    <Property Name="AlwaysOnTop" Value="True" />
+                                    <Property Name="Font" Value="F001-12" />
+                                    <Property Name="HorzFormatting" Value="WordWrapCentred" />
+                                    <Property Name="LinespaceWindow" Value="True" />
+                                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                                    <Property Name="UnifiedAreaRect" Value="{{-0.00444444,0},{-0.053125,0},{0.995556,0},{0.134375,0}}" />
+                                    <Property Name="VerticalAlignment" Value="Bottom" />
+                                    <Property Name="ZOrderChangeEnabled" Value="False" />
+                                </Window>
+                                <Window Type="DejaVu/StaticText" Name="Root/CardSystemV2/base/LeftStatic/CardEdit/CardStatic/bot/BigCard/Text1" >
+                                    <Property Name="AlwaysOnTop" Value="True" />
+                                    <Property Name="Font" Value="F001-12" />
+                                    <Property Name="HorzFormatting" Value="WordWrapCentred" />
+                                    <Property Name="LinespaceWindow" Value="True" />
+                                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.00444444,0},{-0.053125,0},{1.00444,0},{0.134375,0}}" />
+                                    <Property Name="VerticalAlignment" Value="Bottom" />
+                                    <Property Name="ZOrderChangeEnabled" Value="False" />
+                                </Window>
+                                <Window Type="DejaVu/StaticText" Name="Root/CardSystemV2/base/LeftStatic/CardEdit/CardStatic/bot/BigCard/Text2" >
+                                    <Property Name="AlwaysOnTop" Value="True" />
+                                    <Property Name="Font" Value="F001-12" />
+                                    <Property Name="HorzFormatting" Value="WordWrapCentred" />
+                                    <Property Name="LinespaceWindow" Value="True" />
+                                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                                    <Property Name="UnifiedAreaRect" Value="{{-0.00444444,0},{-0.059375,0},{0.995556,0},{0.128125,0}}" />
+                                    <Property Name="VerticalAlignment" Value="Bottom" />
+                                    <Property Name="ZOrderChangeEnabled" Value="False" />
+                                </Window>
+                                <Window Type="DejaVu/StaticText" Name="Root/CardSystemV2/base/LeftStatic/CardEdit/CardStatic/bot/BigCard/Text3" >
+                                    <Property Name="AlwaysOnTop" Value="True" />
+                                    <Property Name="Font" Value="F001-12" />
+                                    <Property Name="HorzFormatting" Value="WordWrapCentred" />
+                                    <Property Name="LinespaceWindow" Value="True" />
+                                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.00444444,0},{-0.059375,0},{1.00444,0},{0.128125,0}}" />
+                                    <Property Name="VerticalAlignment" Value="Bottom" />
+                                    <Property Name="ZOrderChangeEnabled" Value="False" />
+                                </Window>
+                                <Window Type="DejaVu/StaticText" Name="Root/CardSystemV2/base/LeftStatic/CardEdit/CardStatic/bot/BigCard/Text4" >
+                                    <Property Name="AlwaysOnTop" Value="True" />
+                                    <Property Name="Font" Value="F001-12" />
+                                    <Property Name="HorzFormatting" Value="WordWrapCentred" />
+                                    <Property Name="LinespaceWindow" Value="True" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0,0},{-0.05625,0},{1,0},{0.13125,0}}" />
+                                    <Property Name="VerticalAlignment" Value="Bottom" />
+                                    <Property Name="ZOrderChangeEnabled" Value="False" />
+                                </Window>
+                                <Window Type="DejaVu/StaticTextLab" Name="Root/CardSystemV2/base/LeftStatic/CardEdit/CardStatic/bot/BigCard/Level" >
+                                    <Property Name="AlwaysOnTop" Value="True" />
+                                    <Property Name="Font" Value="F001-18" />
+                                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.077777,0},{0.0800781,0},{0.211111,0},{0.134766,0}}" />
+                                </Window>
+                                <Window Type="DejaVu/StaticImage" Name="Root/CardSystemV2/base/LeftStatic/CardEdit/CardStatic/bot/BigCard/Effect" >
+                                    <Property Name="AlwaysOnTop" Value="True" />
+                                    <Property Name="Font" Value="F001-9" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                </Window>
+                            </Window>
+                            <Window Type="DejaVu/Static" Name="Root/CardSystemV2/base/LeftStatic/CardEdit/CardStatic/bot/Right" >
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.489796,0},{0.0294118,0},{1,0},{0.970588,0}}" />
+                                <Window Type="DejaVu/EmbedTextLab5" Name="Root/CardSystemV2/base/LeftStatic/CardEdit/CardStatic/bot/Right/text" >
+                                    <Property Name="Font" Value="F001-9" />
+                                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                                    <Property Name="Text" Value="Lv 50" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.28,0},{0,0},{0.96,0},{0.078125,0}}" />
+                                </Window>
+                                <Window Type="DejaVu/EmbedTextLab5" Name="Root/CardSystemV2/base/LeftStatic/CardEdit/CardStatic/bot/Right/text1" >
+                                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                                    <Property Name="Text" Value="光" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.28,0},{0.078125,0},{0.96,0},{0.15625,0}}" />
+                                </Window>
+                                <Window Type="DejaVu/EmbedTextLab5" Name="Root/CardSystemV2/base/LeftStatic/CardEdit/CardStatic/bot/Right/text2" >
+                                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                                    <Property Name="Text" Value="10 秒" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.28,0},{0.234375,0},{0.959999,0},{0.3125,0}}" />
+                                </Window>
+                                <Window Type="DejaVu/EmbedTextLab5" Name="Root/CardSystemV2/base/LeftStatic/CardEdit/CardStatic/bot/Right/text3" >
+                                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.28,0},{0,0},{0.96,0},{0.078125,0}}" />
+                                    <Window Type="DejaVu/StaticImage" Name="Root/CardSystemV2/base/LeftStatic/CardEdit/CardStatic/bot/Right/text5/img1" >
+                                        <Property Name="Image" Value="set:main2 image:Feeling02" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.205882,0},{0.12,0},{0.323529,0},{0.92,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/StaticImage" Name="Root/CardSystemV2/base/LeftStatic/CardEdit/CardStatic/bot/Right/text5/img3" >
+                                        <Property Name="Image" Value="set:main2 image:Feeling02" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.323529,0},{0.12,0},{0.441176,0},{0.92,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/StaticImage" Name="Root/CardSystemV2/base/LeftStatic/CardEdit/CardStatic/bot/Right/text5/img4" >
+                                        <Property Name="Image" Value="set:main2 image:Feeling02" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.441176,0},{0.12,0},{0.558824,0},{0.92,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/StaticImage" Name="Root/CardSystemV2/base/LeftStatic/CardEdit/CardStatic/bot/Right/text5/img5" >
+                                        <Property Name="Image" Value="set:main2 image:Feeling02" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.558824,0},{0.12,0},{0.676471,0},{0.92,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/StaticImage" Name="Root/CardSystemV2/base/LeftStatic/CardEdit/CardStatic/bot/Right/text5/img6" >
+                                        <Property Name="Image" Value="set:main2 image:Feeling02" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.676471,0},{0.12,0},{0.794118,0},{0.92,0}}" />
+                                    </Window>
+                                </Window>
+                                <Window Type="DejaVu/EmbedTextLab5" Name="Root/CardSystemV2/base/LeftStatic/CardEdit/CardStatic/bot/Right/text4" >
+                                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                                    <Property Name="Text" Value="1234567" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.28,0},{0.15625,0},{0.96,0},{0.234375,0}}" />
+                                    <Window Type="DejaVu/StaticImage" Name="Root/CardSystemV2/base/LeftStatic/CardEdit/CardStatic/bot/Right/text5/img2" >
+                                        <Property Name="Image" Value="set:DejaVu image:AbRankSPlus" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.117647,0},{0.2,0},{0.270588,0},{0.8,0}}" />
+                                    </Window>
+                                </Window>
+                                <Window Type="DejaVu/EmbedTextLab5" Name="Root/CardSystemV2/base/LeftStatic/CardEdit/CardStatic/bot/Right/text5" >
+                                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                                    <Property Name="Text" Value="1234567" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.28,0},{0.078125,0},{0.96,0},{0.15625,0}}" />
+                                    <Window Type="DejaVu/StaticImage" Name="Root/CardSystemV2/base/LeftStatic/CardEdit/CardStatic/bot/Right/text5/img" >
+                                        <Property Name="Font" Value="F001-9" />
+                                        <Property Name="Image" Value="set:DejaVu image:AbRankSPlus" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.117647,0},{0.2,0},{0.270588,0},{0.8,0}}" />
+                                    </Window>
+                                </Window>
+                                <Window Type="DejaVu/SlotImage" Name="Root/CardSystemV2/base/LeftStatic/CardEdit/CardStatic/bot/Right/2" >
+                                    <Property Name="Font" Value="F001-9" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.644,0},{0.81875,0},{0.812,0},{0.95,0}}" />
+                                    <Property Name="Visible" Value="False" />
+                                    <Window Type="DejaVu/StaticImage" Name="Root/CardSystemV2/base/LeftStatic/CardEdit/CardStatic/bot/Right/2/Lock2" >
+                                        <Property Name="AlwaysOnTop" Value="True" />
+                                        <Property Name="ClippedByParent" Value="False" />
+                                        <Property Name="Image" Value="set:main image:Lock" />
+                                        <Property Name="MousePassThroughEnabled" Value="True" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.213605,0},{-0.22161,0},{0.808843,0},{0.37839,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/StaticImage" Name="Root/CardSystemV2/base/LeftStatic/CardEdit/CardStatic/bot/Right/2/TenDigitImage2" >
+                                        <Property Name="AlwaysOnTop" Value="True" />
+                                        <Property Name="ClippedByParent" Value="False" />
+                                        <Property Name="Image" Value="set:DejaVu image:one" />
+                                        <Property Name="MousePassThroughEnabled" Value="True" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.0874504,0},{0.705815,0},{0.563641,0},{1.18082,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/StaticImage" Name="Root/CardSystemV2/base/LeftStatic/CardEdit/CardStatic/bot/Right/2/SingleDigitImage2" >
+                                        <Property Name="AlwaysOnTop" Value="True" />
+                                        <Property Name="ClippedByParent" Value="False" />
+                                        <Property Name="Image" Value="set:DejaVu image:zero" />
+                                        <Property Name="MousePassThroughEnabled" Value="True" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.428571,0},{0.7,0},{0.904762,0},{1.175,0}}" />
+                                    </Window>
+                                </Window>
+                                <Window Type="DejaVu/SlotImage" Name="Root/CardSystemV2/base/LeftStatic/CardEdit/CardStatic/bot/Right/131" >
+                                    <Property Name="UnifiedAreaRect" Value="{{0.436,0},{0.578125,0},{0.604,0},{0.709375,0}}" />
+                                    <Property Name="Visible" Value="False" />
+                                    <Window Type="DejaVu/StaticImage" Name="Root/CardSystemV2/base/LeftStatic/CardEdit/CardStatic/bot/Right/131/Lock7" >
+                                        <Property Name="AlwaysOnTop" Value="True" />
+                                        <Property Name="ClippedByParent" Value="False" />
+                                        <Property Name="Image" Value="set:main image:Lock" />
+                                        <Property Name="MousePassThroughEnabled" Value="True" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.213605,0},{-0.22161,0},{0.808843,0},{0.37839,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/StaticImage" Name="Root/CardSystemV2/base/LeftStatic/CardEdit/CardStatic/bot/Right/131/TenDigitImage7" >
+                                        <Property Name="AlwaysOnTop" Value="True" />
+                                        <Property Name="ClippedByParent" Value="False" />
+                                        <Property Name="Image" Value="set:DejaVu image:one" />
+                                        <Property Name="MousePassThroughEnabled" Value="True" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.0874504,0},{0.705815,0},{0.563641,0},{1.18082,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/StaticImage" Name="Root/CardSystemV2/base/LeftStatic/CardEdit/CardStatic/bot/Right/131/SingleDigitImage7" >
+                                        <Property Name="AlwaysOnTop" Value="True" />
+                                        <Property Name="ClippedByParent" Value="False" />
+                                        <Property Name="Image" Value="set:DejaVu image:zero" />
+                                        <Property Name="MousePassThroughEnabled" Value="True" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.428571,0},{0.7,0},{0.904762,0},{1.175,0}}" />
+                                    </Window>
+                                </Window>
+                                <Window Type="DejaVu/SlotImage" Name="Root/CardSystemV2/base/LeftStatic/CardEdit/CardStatic/bot/Right/132" >
+                                    <Property Name="UnifiedAreaRect" Value="{{0.644,0},{0.578125,0},{0.812,0},{0.709375,0}}" />
+                                    <Property Name="Visible" Value="False" />
+                                    <Window Type="DejaVu/StaticImage" Name="Root/CardSystemV2/base/LeftStatic/CardEdit/CardStatic/bot/Right/132/Lock8" >
+                                        <Property Name="AlwaysOnTop" Value="True" />
+                                        <Property Name="ClippedByParent" Value="False" />
+                                        <Property Name="Image" Value="set:main image:Lock" />
+                                        <Property Name="MousePassThroughEnabled" Value="True" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.213605,0},{-0.22161,0},{0.808843,0},{0.37839,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/StaticImage" Name="Root/CardSystemV2/base/LeftStatic/CardEdit/CardStatic/bot/Right/132/TenDigitImage8" >
+                                        <Property Name="AlwaysOnTop" Value="True" />
+                                        <Property Name="ClippedByParent" Value="False" />
+                                        <Property Name="Image" Value="set:DejaVu image:one" />
+                                        <Property Name="MousePassThroughEnabled" Value="True" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.0874504,0},{0.705815,0},{0.563641,0},{1.18082,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/StaticImage" Name="Root/CardSystemV2/base/LeftStatic/CardEdit/CardStatic/bot/Right/132/SingleDigitImage8" >
+                                        <Property Name="AlwaysOnTop" Value="True" />
+                                        <Property Name="ClippedByParent" Value="False" />
+                                        <Property Name="Image" Value="set:DejaVu image:zero" />
+                                        <Property Name="MousePassThroughEnabled" Value="True" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.428571,0},{0.7,0},{0.904762,0},{1.175,0}}" />
+                                    </Window>
+                                </Window>
+                                <Window Type="DejaVu/EmbedTextLab7" Name="Root/CardSystemV2/base/LeftStatic/CardEdit/CardStatic/bot/Right/Lab1" >
+                                    <Property Name="Font" Value="F001-9" />
+                                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                                    <Property Name="Text" Value="等級" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.28,0},{0.078125,0}}" />
+                                    <Property Name="Visible" Value="False" />
+                                </Window>
+                                <Window Type="DejaVu/EmbedTextLab7" Name="Root/CardSystemV2/base/LeftStatic/CardEdit/CardStatic/bot/Right/Lab2" >
+                                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                                    <Property Name="Text" Value="屬性" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0756022,0},{0.28,0},{0.153727,0}}" />
+                                    <Property Name="Visible" Value="False" />
+                                </Window>
+                                <Window Type="DejaVu/EmbedTextLab7" Name="Root/CardSystemV2/base/LeftStatic/CardEdit/CardStatic/bot/Right/Lab3" >
+                                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                                    <Property Name="Text" Value="稀有度" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.28,0},{0.078125,0}}" />
+                                </Window>
+                                <Window Type="DejaVu/EmbedTextLab7" Name="Root/CardSystemV2/base/LeftStatic/CardEdit/CardStatic/bot/Right/Lab4" >
+                                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                                    <Property Name="Text" Value="傷害" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.078125,0},{0.28,0},{0.15625,0}}" />
+                                </Window>
+                                <Window Type="DejaVu/EmbedTextLab7" Name="Root/CardSystemV2/base/LeftStatic/CardEdit/CardStatic/bot/Right/Lab6" >
+                                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                                    <Property Name="Text" Value="昏迷冷卻" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.234375,0},{0.28,0},{0.3125,0}}" />
+                                </Window>
+                                <Window Type="DejaVu/EmbedTextLab7" Name="Root/CardSystemV2/base/LeftStatic/CardEdit/CardStatic/bot/Right/Lab5" >
+                                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                                    <Property Name="Text" Value="HP" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.15625,0},{0.28,0},{0.234375,0}}" />
+                                </Window>
+                                <Window Type="DejaVu/Embed2" Name="Root/CardSystemV2/base/LeftStatic/CardEdit/CardStatic/bot/Right/Introduction" >
+                                    <Property Name="Font" Value="F001-9" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.625,0},{0.96,0},{0.909375,0}}" />
+                                    <Window Type="DejaVu/EmbedTextLab7" Name="Root/CardSystemV2/base/LeftStatic/CardEdit/CardStatic/bot/Right/Introduction/Lab9" >
+                                        <Property Name="Font" Value="F001-9" />
+                                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                                        <Property Name="Text" Value="卡牌簡介" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.00833333,0},{0.021978,0},{0.991667,0},{0.296703,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/ScrollablePane" Name="Root/CardSystemV2/base/LeftStatic/CardEdit/CardStatic/bot/Right/Introduction/ScrollablePane" >
+                                        <Property Name="ContentArea" Value="l:0 t:0 r:205 b:85" />
+                                        <Property Name="HorzOverlapSize" Value="0.01" />
+                                        <Property Name="HorzScrollPosition" Value="0" />
+                                        <Property Name="HorzStepSize" Value="0.1" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.041667,0},{0.340659,0},{0.958334,0},{0.945055,0}}" />
+                                        <Property Name="VertOverlapSize" Value="0.01" />
+                                        <Property Name="VertScrollPosition" Value="0" />
+                                        <Property Name="VertStepSize" Value="0.1" />
+                                        <AutoWindow NameSuffix="__auto_container__" >
+                                            <Property Name="ChildExtentsArea" Value="l:0 t:0 r:205 b:85" />
+                                            <Property Name="ContentArea" Value="l:0 t:0 r:205 b:85" />
+                                            <Property Name="MouseInputPropagationEnabled" Value="True" />
+                                            <Window Type="DejaVu/StaticText" Name="Root/CardSystemV2/base/LeftStatic/CardEdit/CardStatic/bot/Right/Introduction/ScrollablePane/Text" >
+                                                <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                                                <Property Name="LinespaceWindow" Value="True" />
+                                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0363636,0},{1,0},{1.54545,0}}" />
+                                                <Property Name="VertFormatting" Value="TopAligned" />
+                                            </Window>
+                                        </AutoWindow>
+                                    </Window>
+                                </Window>
+                                <Window Type="DejaVu/Embed2" Name="Root/CardSystemV2/base/LeftStatic/CardEdit/CardStatic/bot/Right/MainSkill" >
+                                    <Property Name="Font" Value="F001-9" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.328125,0},{0.38,0},{0.609375,0}}" />
+                                    <Window Type="DejaVu/SlotImage" Name="Root/CardSystemV2/base/LeftStatic/CardEdit/CardStatic/bot/Right/12" >
+                                        <Property Name="UnifiedAreaRect" Value="{{0.0421053,0},{0.388889,0},{0.484211,0},{0.855556,0}}" />
+                                        <Window Type="DejaVu/StaticImage" Name="Root/CardSystemV2/base/LeftStatic/CardEdit/CardStatic/bot/Right/12/Lock51" >
+                                            <Property Name="AlwaysOnTop" Value="True" />
+                                            <Property Name="ClippedByParent" Value="False" />
+                                            <Property Name="Image" Value="set:main image:Lock" />
+                                            <Property Name="MousePassThroughEnabled" Value="True" />
+                                            <Property Name="UnifiedAreaRect" Value="{{0.213605,0},{-0.22161,0},{0.808843,0},{0.37839,0}}" />
+                                        </Window>
+                                        <Window Type="DejaVu/StaticImage" Name="Root/CardSystemV2/base/LeftStatic/CardEdit/CardStatic/bot/Right/12/TenDigitImage51" >
+                                            <Property Name="AlwaysOnTop" Value="True" />
+                                            <Property Name="ClippedByParent" Value="False" />
+                                            <Property Name="Image" Value="set:DejaVu image:one" />
+                                            <Property Name="MousePassThroughEnabled" Value="True" />
+                                            <Property Name="UnifiedAreaRect" Value="{{0.0874504,0},{0.705815,0},{0.563641,0},{1.18082,0}}" />
+                                        </Window>
+                                        <Window Type="DejaVu/StaticImage" Name="Root/CardSystemV2/base/LeftStatic/CardEdit/CardStatic/bot/Right/12/SingleDigitImage51" >
+                                            <Property Name="AlwaysOnTop" Value="True" />
+                                            <Property Name="ClippedByParent" Value="False" />
+                                            <Property Name="Image" Value="set:DejaVu image:zero" />
+                                            <Property Name="MousePassThroughEnabled" Value="True" />
+                                            <Property Name="UnifiedAreaRect" Value="{{0.428571,0},{0.7,0},{0.904762,0},{1.175,0}}" />
+                                        </Window>
+                                    </Window>
+                                    <Window Type="DejaVu/SlotImage" Name="Root/CardSystemV2/base/LeftStatic/CardEdit/CardStatic/bot/Right/13" >
+                                        <Property Name="UnifiedAreaRect" Value="{{0.515789,0},{0.388889,0},{0.957895,0},{0.855556,0}}" />
+                                        <Window Type="DejaVu/StaticImage" Name="Root/CardSystemV2/base/LeftStatic/CardEdit/CardStatic/bot/Right/13/Lock61" >
+                                            <Property Name="AlwaysOnTop" Value="True" />
+                                            <Property Name="ClippedByParent" Value="False" />
+                                            <Property Name="Image" Value="set:main image:Lock" />
+                                            <Property Name="MousePassThroughEnabled" Value="True" />
+                                            <Property Name="UnifiedAreaRect" Value="{{0.213605,0},{-0.22161,0},{0.808843,0},{0.37839,0}}" />
+                                        </Window>
+                                        <Window Type="DejaVu/StaticImage" Name="Root/CardSystemV2/base/LeftStatic/CardEdit/CardStatic/bot/Right/13/TenDigitImage61" >
+                                            <Property Name="AlwaysOnTop" Value="True" />
+                                            <Property Name="ClippedByParent" Value="False" />
+                                            <Property Name="Image" Value="set:DejaVu image:one" />
+                                            <Property Name="MousePassThroughEnabled" Value="True" />
+                                            <Property Name="UnifiedAreaRect" Value="{{0.0874504,0},{0.705815,0},{0.563641,0},{1.18082,0}}" />
+                                        </Window>
+                                        <Window Type="DejaVu/StaticImage" Name="Root/CardSystemV2/base/LeftStatic/CardEdit/CardStatic/bot/Right/13/SingleDigitImage61" >
+                                            <Property Name="AlwaysOnTop" Value="True" />
+                                            <Property Name="ClippedByParent" Value="False" />
+                                            <Property Name="Image" Value="set:DejaVu image:zero" />
+                                            <Property Name="MousePassThroughEnabled" Value="True" />
+                                            <Property Name="UnifiedAreaRect" Value="{{0.428571,0},{0.7,0},{0.904762,0},{1.175,0}}" />
+                                        </Window>
+                                    </Window>
+                                    <Window Type="DejaVu/EmbedTextLab7" Name="Root/CardSystemV2/base/LeftStatic/CardEdit/CardStatic/bot/Right/MainSkill/Lab7" >
+                                        <Property Name="Font" Value="F001-9" />
+                                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                                        <Property Name="Text" Value="主動技能" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.02,0},{0.02,0},{0.98,0},{0.297778,0}}" />
+                                    </Window>
+                                </Window>
+                                <Window Type="DejaVu/Embed2" Name="Root/CardSystemV2/base/LeftStatic/CardEdit/CardStatic/bot/Right/TeamSkill" >
+                                    <Property Name="Font" Value="F001-9" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.384,0},{0.328125,0},{0.96,0},{0.609375,0}}" />
+                                    <Window Type="DejaVu/SlotImage" Name="Root/CardSystemV2/base/LeftStatic/CardEdit/CardStatic/bot/Right/1" >
+                                        <Property Name="UnifiedAreaRect" Value="{{0.0347222,0},{0.388889,0},{0.326389,0},{0.855556,0}}" />
+                                        <Window Type="DejaVu/StaticImage" Name="Root/CardSystemV2/base/LeftStatic/CardEdit/CardStatic/bot/Right/1/Lock11" >
+                                            <Property Name="AlwaysOnTop" Value="True" />
+                                            <Property Name="ClippedByParent" Value="False" />
+                                            <Property Name="Image" Value="set:main image:Lock" />
+                                            <Property Name="MousePassThroughEnabled" Value="True" />
+                                            <Property Name="UnifiedAreaRect" Value="{{0.213605,0},{-0.22161,0},{0.808843,0},{0.37839,0}}" />
+                                        </Window>
+                                        <Window Type="DejaVu/StaticImage" Name="Root/CardSystemV2/base/LeftStatic/CardEdit/CardStatic/bot/Right/1/TenDigitImage11" >
+                                            <Property Name="AlwaysOnTop" Value="True" />
+                                            <Property Name="ClippedByParent" Value="False" />
+                                            <Property Name="Image" Value="set:DejaVu image:one" />
+                                            <Property Name="MousePassThroughEnabled" Value="True" />
+                                            <Property Name="UnifiedAreaRect" Value="{{0.0952381,0},{0.690476,0},{0.571429,0},{1.16667,0}}" />
+                                        </Window>
+                                        <Window Type="DejaVu/StaticImage" Name="Root/CardSystemV2/base/LeftStatic/CardEdit/CardStatic/bot/Right/1/SingleDigitImage11" >
+                                            <Property Name="AlwaysOnTop" Value="True" />
+                                            <Property Name="ClippedByParent" Value="False" />
+                                            <Property Name="Image" Value="set:DejaVu image:zero" />
+                                            <Property Name="MousePassThroughEnabled" Value="True" />
+                                            <Property Name="UnifiedAreaRect" Value="{{0.428571,0},{0.7,0},{0.904762,0},{1.175,0}}" />
+                                        </Window>
+                                    </Window>
+                                    <Window Type="DejaVu/SlotImage" Name="Root/CardSystemV2/base/LeftStatic/CardEdit/CardStatic/bot/Right/111" >
+                                        <Property Name="UnifiedAreaRect" Value="{{0.673611,0},{0.388889,0},{0.965278,0},{0.855556,0}}" />
+                                        <Window Type="DejaVu/StaticImage" Name="Root/CardSystemV2/base/LeftStatic/CardEdit/CardStatic/bot/Right/111/Lock41" >
+                                            <Property Name="AlwaysOnTop" Value="True" />
+                                            <Property Name="ClippedByParent" Value="False" />
+                                            <Property Name="Image" Value="set:main image:Lock" />
+                                            <Property Name="MousePassThroughEnabled" Value="True" />
+                                            <Property Name="UnifiedAreaRect" Value="{{0.213605,0},{-0.22161,0},{0.808843,0},{0.37839,0}}" />
+                                        </Window>
+                                        <Window Type="DejaVu/StaticImage" Name="Root/CardSystemV2/base/LeftStatic/CardEdit/CardStatic/bot/Right/111/TenDigitImage41" >
+                                            <Property Name="AlwaysOnTop" Value="True" />
+                                            <Property Name="ClippedByParent" Value="False" />
+                                            <Property Name="Image" Value="set:DejaVu image:one" />
+                                            <Property Name="MousePassThroughEnabled" Value="True" />
+                                            <Property Name="UnifiedAreaRect" Value="{{0.0874504,0},{0.705815,0},{0.563641,0},{1.18082,0}}" />
+                                        </Window>
+                                        <Window Type="DejaVu/StaticImage" Name="Root/CardSystemV2/base/LeftStatic/CardEdit/CardStatic/bot/Right/111/SingleDigitImage41" >
+                                            <Property Name="AlwaysOnTop" Value="True" />
+                                            <Property Name="ClippedByParent" Value="False" />
+                                            <Property Name="Image" Value="set:DejaVu image:zero" />
+                                            <Property Name="MousePassThroughEnabled" Value="True" />
+                                            <Property Name="UnifiedAreaRect" Value="{{0.450754,0},{0.7,0},{0.926945,0},{1.175,0}}" />
+                                        </Window>
+                                    </Window>
+                                    <Window Type="DejaVu/SlotImage" Name="Root/CardSystemV2/base/LeftStatic/CardEdit/CardStatic/bot/Right/11" >
+                                        <Property Name="UnifiedAreaRect" Value="{{0.354167,0},{0.388889,0},{0.645833,0},{0.855556,0}}" />
+                                        <Window Type="DejaVu/StaticImage" Name="Root/CardSystemV2/base/LeftStatic/CardEdit/CardStatic/bot/Right/11/Lock31" >
+                                            <Property Name="AlwaysOnTop" Value="True" />
+                                            <Property Name="ClippedByParent" Value="False" />
+                                            <Property Name="Image" Value="set:main image:Lock" />
+                                            <Property Name="MousePassThroughEnabled" Value="True" />
+                                            <Property Name="UnifiedAreaRect" Value="{{0.213605,0},{-0.22161,0},{0.808843,0},{0.37839,0}}" />
+                                        </Window>
+                                        <Window Type="DejaVu/StaticImage" Name="Root/CardSystemV2/base/LeftStatic/CardEdit/CardStatic/bot/Right/11/TenDigitImage31" >
+                                            <Property Name="AlwaysOnTop" Value="True" />
+                                            <Property Name="ClippedByParent" Value="False" />
+                                            <Property Name="Image" Value="set:DejaVu image:one" />
+                                            <Property Name="MousePassThroughEnabled" Value="True" />
+                                            <Property Name="UnifiedAreaRect" Value="{{0.0874504,0},{0.705815,0},{0.563641,0},{1.18082,0}}" />
+                                        </Window>
+                                        <Window Type="DejaVu/StaticImage" Name="Root/CardSystemV2/base/LeftStatic/CardEdit/CardStatic/bot/Right/11/SingleDigitImage31" >
+                                            <Property Name="AlwaysOnTop" Value="True" />
+                                            <Property Name="ClippedByParent" Value="False" />
+                                            <Property Name="Image" Value="set:DejaVu image:zero" />
+                                            <Property Name="MousePassThroughEnabled" Value="True" />
+                                            <Property Name="UnifiedAreaRect" Value="{{0.428571,0},{0.7,0},{0.904762,0},{1.175,0}}" />
+                                        </Window>
+                                    </Window>
+                                    <Window Type="DejaVu/EmbedTextLab7" Name="Root/CardSystemV2/base/LeftStatic/CardEdit/CardStatic/bot/Right/TeamSkill/Lab8" >
+                                        <Property Name="Font" Value="F001-9" />
+                                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                                        <Property Name="Text" Value="隊伍技能" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.0142857,0},{0.0222222,0},{0.985714,0},{0.3,0}}" />
+                                    </Window>
+                                </Window>
+                                <Window Type="DejaVu/StaticTextLab" Name="Root/CardSystemV2/base/LeftStatic/CardEdit/CardStatic/bot/Right/Text1" >
+                                    <Property Name="AlwaysOnTop" Value="True" />
+                                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                                    <Property Name="Text" Value="主動技能" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.0364453,0},{0.305257,0},{0.316445,0},{0.383382,0}}" />
+                                    <Property Name="Visible" Value="False" />
+                                </Window>
+                                <Window Type="DejaVu/StaticTextLab" Name="Root/CardSystemV2/base/LeftStatic/CardEdit/CardStatic/bot/Right/Text11" >
+                                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                                    <Property Name="Text" Value="隊伍技能" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.69082,0},{0.294711,0},{0.970821,0},{0.372835,0}}" />
+                                    <Property Name="Visible" Value="False" />
+                                </Window>
+                                <Window Type="DejaVu/EmbedTextLab7" Name="Root/CardSystemV2/base/LeftStatic/CardEdit/CardStatic/bot/Right/Lab7" >
+                                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                                    <Property Name="Text" Value="突破獎勵" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.921875,0},{0.28,0},{1,0}}" />
+                                </Window>
+                                <Window Type="DejaVu/EmbedTextLab5" Name="Root/CardSystemV2/base/LeftStatic/CardEdit/CardStatic/bot/Right/Text6" >
+                                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                                    <Property Name="Text" Value="傷害值+10" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.28,0},{0.921875,0},{0.66,0},{1,0}}" />
+                                </Window>
+                                <Window Type="DejaVu/Button" Name="Root/CardSystemV2/base/LeftStatic/CardEdit/CardStatic/bot/Right/bt" >
+                                    <Property Name="HorizontalAlignment" Value="Right" />
+                                    <Property Name="Text" Value="能力加成" />
+                                    <Property Name="UnifiedAreaRect" Value="{{-0.04,0},{0.921875,0},{0.264,0},{1.00312,0}}" />
+                                </Window>
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/Static" Name="Root/CardSystemV2/base/LeftStatic/CardEdit/CardStatic/BottomStatic" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.932584,0},{1,0},{0.981273,0}}" />
+                            <Window Type="DejaVu/Button" Name="Root/CardSystemV2/base/LeftStatic/CardEdit/CardStatic/BottomStatic/bt1" >
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="Text" Value="替換卡牌" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.155102,0},{1,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/Button" Name="Root/CardSystemV2/base/LeftStatic/CardEdit/CardStatic/BottomStatic/bt11" >
+                                <Property Name="Text" Value="卡牌強化" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.165306,0},{0,0},{0.320408,0},{1,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/Button" Name="Root/CardSystemV2/base/LeftStatic/CardEdit/CardStatic/BottomStatic/bt13" >
+                                <Property Name="Text" Value="自動組牌" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.330612,0},{0,0},{0.485714,0},{1,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/Button" Name="Root/CardSystemV2/base/LeftStatic/CardEdit/CardStatic/BottomStatic/bt15" >
+                                <Property Name="Text" Value="測試牌桌" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.679592,0},{0,0},{0.834694,0},{1,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/Button" Name="Root/CardSystemV2/base/LeftStatic/CardEdit/CardStatic/BottomStatic/bt12" >
+                                <Property Name="Text" Value="發話設定" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.844898,0},{0,0},{1,0},{1,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/Button" Name="Root/CardSystemV2/base/LeftStatic/CardEdit/CardStatic/BottomStatic/bt14" >
+                                <Property Name="Text" Value="卡牌突破" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.495918,0},{0,0},{0.65102,0},{1,0}}" />
+                            </Window>
+                        </Window>
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed4" Name="Root/CardSystemV2/base/LeftStatic/Title" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0196078,0},{0,0},{0.313726,0},{0.0416667,0}}" />
+                    <Window Type="DejaVu/StaticImage" Name="Root/CardSystemV2/base/LeftStatic/Title/Img" >
+                        <Property Name="Image" Value="set:DejaVu image:Image06" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/CardSystemV2/base/LeftStatic/Title/text" >
+                        <Property Name="Text" Value="卡牌編輯" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.2,0},{0.866667,0},{0.8,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="Root/CardSystemV2/base/RightStatic" >
+                <Property Name="UnifiedAreaRect" Value="{{0.544041,0},{0.016129,0},{0.989637,0},{0.983871,0}}" />
+                <Window Type="DejaVu/Embed2" Name="Root/CardSystemV2/base/RightStatic/CardEdit" >
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0166667,0},{1,0},{1,0}}" />
+                    <Window Type="DejaVu/Static" Name="Root/CardSystemV2/base/RightStatic/CardEdit/TopStatic" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.0232558,0},{0.059322,0},{0.976744,0},{0.101695,0}}" />
+                        <Window Type="DejaVu/EmbedTextLab7" Name="Root/CardSystemV2/base/RightStatic/CardEdit/TopStatic/Lab1" >
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="稀有度" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.170732,0},{1,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/EmbedTextLab7" Name="Root/CardSystemV2/base/RightStatic/CardEdit/TopStatic/Lab2" >
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="屬性" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.487805,0},{0,0},{0.658537,0},{1,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Combobox" Name="Root/CardSystemV2/base/RightStatic/CardEdit/TopStatic/combo1" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="ClippedByParent" Value="False" />
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="MaxEditTextLength" Value="2147483647" />
+                            <Property Name="ReadOnly" Value="True" />
+                            <Property Name="Text" Value="顯示全部" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.170732,0},{0,0},{0.47561,0},{7.61698,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Combobox" Name="Root/CardSystemV2/base/RightStatic/CardEdit/TopStatic/combo2" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="ClippedByParent" Value="False" />
+                            <Property Name="MaxEditTextLength" Value="2147483647" />
+                            <Property Name="ReadOnly" Value="True" />
+                            <Property Name="Text" Value="顯示全部" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.658537,0},{0,0},{1,0},{7.61697,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Embed2" Name="Root/CardSystemV2/base/RightStatic/CardEdit/card" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0232558,0},{0.110169,0},{0.976744,0},{0.930508,0}}" />
+                        <Window Type="DejaVu/Static" Name="Root/CardSystemV2/base/RightStatic/CardEdit/card/cover" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                            <Window Type="DejaVu/ScrollablePane" Name="Root/CardSystemV2/base/RightStatic/CardEdit/card/cover/SP" >
+                                <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="HorzOverlapSize" Value="0.01" />
+                                <Property Name="HorzScrollPosition" Value="0" />
+                                <Property Name="HorzStepSize" Value="0.1" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.02439,0},{0.010331,0},{0.97561,0},{0.98967,0}}" />
+                                <Property Name="VertOverlapSize" Value="0.01" />
+                                <Property Name="VertScrollPosition" Value="0" />
+                                <Property Name="VertStepSize" Value="0.1" />
+                                <AutoWindow NameSuffix="__auto_container__" >
+                                    <Property Name="ChildExtentsArea" Value="l:0 t:0 r:0 b:0" />
+                                    <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                                    <Property Name="MouseInputPropagationEnabled" Value="True" />
+                                </AutoWindow>
+                            </Window>
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Static" Name="Root/CardSystemV2/base/RightStatic/CardEdit/buttomstatic" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0232558,0},{0.940678,0},{0.976744,0},{0.983051,0}}" />
+                        <Window Type="DejaVu/EmbedTextLab7" Name="Root/CardSystemV2/base/RightStatic/CardEdit/buttomstatic/Lab1" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="決鬥硬幣" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.170732,0},{1,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Embed5" Name="Root/CardSystemV2/base/RightStatic/CardEdit/buttomstatic/embed" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.170732,0},{0,0},{0.47561,0},{1,0}}" />
+                            <Window Type="DejaVu/StaticImage" Name="Root/CardSystemV2/base/RightStatic/CardEdit/buttomstatic/coin" >
+                                <Property Name="Image" Value="set:main image:CardCoin" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.8,0},{0.2,0},{0.92,0},{0.8,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/StaticTextLab" Name="Root/CardSystemV2/base/RightStatic/CardEdit/buttomstatic/embed/Text" >
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="HorzFormatting" Value="RightAligned" />
+                                <Property Name="Text" Value="1234569" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.76,0},{1,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/EmbedTextLab7" Name="Root/CardSystemV2/base/RightStatic/CardEdit/buttomstatic/Lab2" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="卡牌積分" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.487805,0},{0,0},{0.658537,0},{1,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Embed2" Name="Root/CardSystemV2/base/RightStatic/CardEdit/buttomstatic/ScoreBG" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.658537,0},{0,0},{1,0},{1,0}}" />
+                            <Window Type="DejaVu/StaticTextLab" Name="Root/CardSystemV2/base/RightStatic/CardEdit/buttomstatic/ScoreBG/Score" >
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="HorzFormatting" Value="RightAligned" />
+                                <Property Name="Text" Value="123456789" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.928571,0},{1,0}}" />
+                            </Window>
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab7" Name="Root/CardSystemV2/base/RightStatic/CardEdit/Title" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="排序" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.488372,0},{0.008475,0},{0.651163,0},{0.0508479,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Combobox" Name="Root/CardSystemV2/base/RightStatic/CardEdit/ComboBox" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="MaxEditTextLength" Value="2147483647" />
+                        <Property Name="ReadOnly" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.651163,0},{0.008475,0},{0.976744,0},{0.262712,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed4" Name="Root/CardSystemV2/base/RightStatic/Title" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0232558,0},{0,0},{0.372093,0},{0.0416667,0}}" />
+                    <Window Type="DejaVu/StaticImage" Name="Root/CardSystemV2/base/RightStatic/Title/Img" >
+                        <Property Name="Image" Value="set:DejaVu image:Image09" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/CardSystemV2/base/RightStatic/Title/text" >
+                        <Property Name="Text" Value="收藏冊" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.2,0},{0.866667,0},{0.8,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/StaticText" Name="Root/CardSystemV2/WaitHint" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="Text" Value="x讀取中" />
+            <Property Name="UnifiedAreaRect" Value="{{0.26875,0},{0.345311,0},{0.595312,0},{0.387724,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

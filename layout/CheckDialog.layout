@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="MessageBoard/CheckDialog" >
+        <Property Name="AlwaysOnTop" Value="True" />
+        <Property Name="Font" Value="F001-scale" />
+        <Property Name="HorizontalAlignment" Value="Centre" />
+        <Property Name="TitlebarEnabled" Value="False" />
+        <Property Name="TitlebarFont" Value="F001-scale" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,200},{0,130}}" />
+        <Property Name="VerticalAlignment" Value="Centre" />
+        <Window Type="DejaVu/Button" Name="MessageBoard/CheckDialog/Btn/OK" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="Text" Value="OK" />
+            <Property Name="UnifiedAreaRect" Value="{{0.054878,0},{0.733333,0},{0.481707,0},{1,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="MessageBoard/CheckDialog/Btn/No" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="Text" Value="No" />
+            <Property Name="UnifiedAreaRect" Value="{{0.518293,0},{0.733333,0},{0.945122,0},{1,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticTextLab" Name="MessageBoard/CheckDialog/Text" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="Text" Value="need to pay" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.166667,0},{0.914634,0},{0.388889,0}}" />
+        </Window>
+        <Window Type="DefaultWindow" Name="MessageBoard/CheckDialog/Money" >
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.055556,0},{1,0},{0.244445,0}}" />
+            <Property Name="VerticalAlignment" Value="Centre" />
+            <Window Type="DejaVu/StaticImage" Name="MessageBoard/CheckDialog/CopperBG" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Image" Value="set:DejaVu image:CopperBG" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.763636,0},{0,0},{0.987879,0},{1.11765,0}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+                <Window Type="DejaVu/StaticTextLab" Name="MessageBoard/CheckDialog/Copper" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="Text" Value="22" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.054054,0},{0,0},{0.756757,0},{1.11765,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="MessageBoard/CheckDialog/SilverBG" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Image" Value="set:DejaVu image:SilverBG" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.539394,0},{0,0},{0.763636,0},{1.11765,0}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+                <Window Type="DejaVu/StaticTextLab" Name="MessageBoard/CheckDialog/Silver" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="Text" Value="22" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.054054,0},{0,0},{0.72973,0},{1.11765,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="MessageBoard/CheckDialog/GoldBG" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Image" Value="set:DejaVu image:GoldBG" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.539394,0},{1.11765,0}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+                <Window Type="DejaVu/StaticTextLab" Name="MessageBoard/CheckDialog/Gold" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="RightAligned" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="Text" Value="123456" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.818182,0},{1.11765,0}}" />
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

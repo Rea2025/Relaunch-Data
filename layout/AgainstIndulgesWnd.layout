@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/AgainstIndulgesWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="TitlebarImage" Value="set:main image:SystemNormal" />
+        <Property Name="UnifiedAreaRect" Value="{{0.316211,0},{0.374773,0},{0.316211,306},{0.374773,252}}" />
+        <Window Type="DejaVu/Embed" Name="Root/AgainstIndulgesWnd/Static" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{-0.00130208,0},{1,0},{0.998698,0}}" />
+            <Window Type="DejaVu/Static" Name="Root/AgainstIndulgesWnd/Static/BG" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.034483,0},{0.05814,0},{0.965517,0},{0.767442,0}}" />
+                <Window Type="DejaVu/Embed2" Name="Root/AgainstIndulgesWnd/Static/Boder" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.081967,0},{1,0},{1,0}}" />
+                    <Window Type="DejaVu/EmbedTextLab7" Name="Root/AgainstIndulgesWnd/Static/Boder/StaticTextlab" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="累積在線時間" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.037037,0},{0.223214,0},{0.407407,0},{0.446428,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab7" Name="Root/AgainstIndulgesWnd/Static/Boder/StaticTextlab1" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="累積離線時間" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.037037,0},{0.455357,0},{0.407407,0},{0.678571,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab2" Name="Root/AgainstIndulgesWnd/Static/Boder/EmbedTextlab" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="25分" />
+                        <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.407407,0},{0.223214,0},{0.962963,0},{0.446428,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab2" Name="Root/AgainstIndulgesWnd/Static/Boder/EmbedTextlab1" >
+                        <Property Name="Text" Value="2小時" />
+                        <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.407407,0},{0.455357,0},{0.962963,0},{0.678571,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab7" Name="Root/AgainstIndulgesWnd/Static/Boder/StaticTextlab2" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="目前狀態" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.037037,0},{0.6875,0},{0.407407,0},{0.910714,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab2" Name="Root/AgainstIndulgesWnd/Static/Boder/EmbedTextlab2" >
+                        <Property Name="Text" Value="無收益" />
+                        <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.407407,0},{0.6875,0},{0.962963,0},{0.910714,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed4" Name="Root/AgainstIndulgesWnd/Static/BG/Title" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.037037,0},{0,0},{0.592593,0},{0.204918,0}}" />
+                    <Window Type="DejaVu/StaticImage" Name="Root/AgainstIndulgesWnd/Static/BG/Title/Icon" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Image" Value="set:DejaVu image:Image22" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/AgainstIndulgesWnd/Static/HTextLab" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="防沉迷系統時間" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.2,0},{0.866667,0},{0.8,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/AgainstIndulgesWnd/Static/Boder/Buttn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="確定" />
+                <Property Name="UnifiedAreaRect" Value="{{0.368966,0},{0.796512,0},{0.631034,0},{0.94186,0}}" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/AgainstIndulgesWnd/Static/HelpBTn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.87931,0},{0.796512,0},{0.965517,0},{0.94186,0}}" />
+                <Property Name="Visible" Value="False" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

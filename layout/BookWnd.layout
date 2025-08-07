@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/StaticImage" Name="Root/BookWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="Image" Value="set:DejaVu image:Emotion17" />
+        <Property Name="UnifiedAreaRect" Value="{{0.178711,0},{0.191406,0},{0.178711,675},{0.191406,445}}" />
+        <Window Type="DejaVu/StaticText" Name="Root/BookWnd/LeftText" >
+            <Property Name="Font" Value="F001-10" />
+            <Property Name="LinespaceWindow" Value="True" />
+            <Property Name="Text" >—勇猛獵人—
+
+斐爾得知了女孩的名字叫做伊芙，他很想說
+這樣柔弱的名字跟她實在很不搭，但要是被
+伊芙知道了，鐵定會被她狠狠地揍一頓。
+
+想到她那有力的拳風，斐爾嘴角不禁微微地
+上揚，不知道是不是因為個性互補的關係，
+懦弱的斐爾和強勢的伊芙兩個人非常聊得來
+。
+
+只是斐爾始終不敢開口向伊芙表白，他害怕
+要是失敗連朋友也做不成。
+
+這天斐爾如同往常帶著他的素描簿到處寫生
+，練習自己的繪畫能力。
+
+「唉，要怎麼樣讓她知道呢？」看著遠方的
+犀牛群，他手中的筆沒停下口中邊喃喃自語
+。
+
+斐爾邊思考著絲毫沒發現犀牛離他越來越近
+，準備攻擊這個闖入自己地盤的不速之客。</Property>
+            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+            <Property Name="UnifiedAreaRect" Value="{{0.106667,0},{0.0786517,0},{0.474074,0},{0.87655,0}}" />
+            <Property Name="VertFormatting" Value="TopAligned" />
+        </Window>
+        <Window Type="DejaVu/StaticText" Name="Root/BookWnd/RightText" >
+            <Property Name="Font" Value="F001-10" />
+            <Property Name="LinespaceWindow" Value="True" />
+            <Property Name="Text" >畫紙上的犀牛越畫越大隻，他總覺得比例越
+來越奇怪。
+
+「奇怪，難道一思考伊芙的事情連畫技都會
+退步嗎？這不太可能吧。」斐爾感到非常疑
+惑。
+
+「還是我多心了吧？」這麼說完又繼續開始
+畫他未完成的犀牛。</Property>
+            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+            <Property Name="UnifiedAreaRect" Value="{{0.521481,0},{0.0786517,0},{0.888889,0},{0.876405,0}}" />
+            <Property Name="VertFormatting" Value="TopAligned" />
+        </Window>
+        <Window Type="DejaVu/ImageButton" Name="Root/BookWnd/Arrow_Left" >
+            <Property Name="DisabledImage" Value="set:DejaVu image:ArrowLeftPressed" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HoverImage" Value="set:DejaVu image:ArrowLeftHover" />
+            <Property Name="NormalImage" Value="set:DejaVu image:ArrowLeftNormal" />
+            <Property Name="PushedImage" Value="set:DejaVu image:ArrowLeftPressed" />
+            <Property Name="UnifiedAreaRect" Value="{{0.143704,0},{0.898876,0},{0.165926,0},{0.94382,0}}" />
+        </Window>
+        <Window Type="DejaVu/ImageButton" Name="Root/BookWnd/Arrow_Right" >
+            <Property Name="DisabledImage" Value="set:DejaVu image:ArrowRightPressed" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HoverImage" Value="set:DejaVu image:ArrowRightHover" />
+            <Property Name="NormalImage" Value="set:DejaVu image:ArrowRightNormal" />
+            <Property Name="PushedImage" Value="set:DejaVu image:ArrowRightPressed" />
+            <Property Name="UnifiedAreaRect" Value="{{0.82963,0},{0.898876,0},{0.851852,0},{0.94382,0}}" />
+        </Window>
+        <Window Type="DejaVu/ImageButton" Name="Root/BookWnd/Arrow_DoubleLeft" >
+            <Property Name="DisabledImage" Value="set:DejaVu image:DoubledLeftArrowPressed" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HoverImage" Value="set:DejaVu image:DoubledLeftArrowHover" />
+            <Property Name="NormalImage" Value="set:DejaVu image:DoubledLeftArrowNormal" />
+            <Property Name="PushedImage" Value="set:DejaVu image:DoubledLeftArrowPressed" />
+            <Property Name="UnifiedAreaRect" Value="{{0.114074,0},{0.898876,0},{0.136296,0},{0.94382,0}}" />
+        </Window>
+        <Window Type="DejaVu/ImageButton" Name="Root/BookWnd/Arrow_DoubleRight" >
+            <Property Name="DisabledImage" Value="set:DejaVu image:DoubledRightArrowPressed" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HoverImage" Value="set:DejaVu image:DoubledRightArrowHover" />
+            <Property Name="NormalImage" Value="set:DejaVu image:DoubledRightArrowNormal" />
+            <Property Name="PushedImage" Value="set:DejaVu image:DoubledRightArrowPressed" />
+            <Property Name="UnifiedAreaRect" Value="{{0.859259,0},{0.898876,0},{0.881481,0},{0.94382,0}}" />
+        </Window>
+        <Window Type="DejaVu/ImageButton" Name="Root/BookWnd/CloseBtn" >
+            <Property Name="DisabledImage" Value="set:DejaVu image:NewCloseButtonPressed" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HoverImage" Value="set:DejaVu image:NewCloseButtonHover" />
+            <Property Name="NormalImage" Value="set:DejaVu image:NewCloseButtonNormal" />
+            <Property Name="PushedImage" Value="set:DejaVu image:NewCloseButtonPressed" />
+            <Property Name="UnifiedAreaRect" Value="{{0.891852,0},{0.0314607,0},{0.922963,0},{0.0786517,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

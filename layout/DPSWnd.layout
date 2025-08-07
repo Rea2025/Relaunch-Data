@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/Embed" Name="DPSWnd" >
+        <Property Name="UnifiedAreaRect" Value="{{0.687939,0},{0.292214,0},{0.850189,0},{0.716886,0}}" />
+        <Window Type="DejaVu/Embed3" Name="DPSWnd/TitleArea" >
+            <Property Name="UnifiedAreaRect" Value="{{0.0333333,0},{0.0238095,0},{0.0333333,280},{0.0238095,25}}" />
+            <Window Type="DejaVu/StaticText" Name="DPSWnd/TitleArea/Title" >
+                <Property Name="Text" Value="x戰鬥記錄器" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0357143,0},{0,0},{0.321429,0},{1,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="DPSWnd/TitleArea/ResetBtn" >
+                <Property Name="Text" Value="x重置" />
+                <Property Name="UnifiedAreaRect" Value="{{0.732143,0},{0,0},{1,0},{1,0}}" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="DPSWnd/TitleArea/AttackReportBtn" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="HoverImage" Value="set:DejaVu image:Attack" />
+                <Property Name="NormalImage" Value="set:DejaVu image:Attack" />
+                <Property Name="PushedImage" Value="set:DejaVu image:Attack" />
+                <Property Name="UnifiedAreaRect" Value="{{0.339286,0},{0,0},{0.339286,25},{0,25}}" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="DPSWnd/TitleArea/HealReportBtn" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="HoverImage" Value="set:DejaVu image:AP" />
+                <Property Name="NormalImage" Value="set:DejaVu image:AP" />
+                <Property Name="PushedImage" Value="set:DejaVu image:AP" />
+                <Property Name="UnifiedAreaRect" Value="{{0.428571,0},{0,0},{0.428571,25},{0,25}}" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="DPSWnd/TitleArea/HurtReportBtn" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="HoverImage" Value="set:DejaVu image:BrokenHeart" />
+                <Property Name="NormalImage" Value="set:DejaVu image:BrokenHeart" />
+                <Property Name="PushedImage" Value="set:DejaVu image:BrokenHeart" />
+                <Property Name="UnifiedAreaRect" Value="{{0.607143,0},{0,0},{0.607143,25},{0,25}}" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="DPSWnd/TitleArea/HateBtn" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="HoverImage" Value="set:DejaVu image:Emotion08" />
+                <Property Name="NormalImage" Value="set:DejaVu image:Emotion08" />
+                <Property Name="PushedImage" Value="set:DejaVu image:Emotion08" />
+                <Property Name="UnifiedAreaRect" Value="{{0.517857,0},{0,0},{0.607143,0},{1,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="DPSWnd/DPSArea1" >
+            <Property Name="BackgroundEnabled" Value="True" />
+            <Property Name="FrameEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0333333,0},{0.0833333,0},{0.0333333,280},{0.0833333,75}}" />
+            <Window Type="DejaVu/StaticText" Name="DPSWnd/DPSArea1/Name" >
+                <Property Name="Text" Value="xName" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0357143,0},{0,0},{0.5,0},{0.333333,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="DPSWnd/DPSArea1/DPSText" >
+                <Property Name="Text" Value="1234567890 = 1234567890/s" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0357143,0},{0.333333,0},{0.964286,0},{0.666667,0}}" />
+            </Window>
+            <Window Type="DejaVu/ProgressBarBG" Name="DPSWnd/DPSArea1/ProgressBarBG" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0357143,0},{0.666667,0},{0.964286,0},{0.866667,0}}" />
+                <Window Type="DejaVu/ImageProgressBar" Name="DPSWnd/DPSArea1/ProgressBarBG/ProgressBar" >
+                    <Property Name="CurrentProgress" Value="0" />
+                    <Property Name="StepSize" Value="0.01" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0307692,0},{0.133333,0},{0.984615,0},{0.6,0}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="DPSWnd/DPSArea2" >
+            <Property Name="BackgroundEnabled" Value="True" />
+            <Property Name="FrameEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0333333,0},{0.261905,0},{0.0333333,280},{0.261905,75}}" />
+            <Window Type="DejaVu/StaticText" Name="DPSWnd/DPSArea2/Name" >
+                <Property Name="Text" Value="xName" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0357143,0},{0,0},{0.5,0},{0.333333,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="DPSWnd/DPSArea2/DPSText" >
+                <Property Name="Text" Value="1234567890 = 1234567890/s" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0357143,0},{0.333333,0},{0.964286,0},{0.666667,0}}" />
+            </Window>
+            <Window Type="DejaVu/ProgressBarBG" Name="DPSWnd/DPSArea2/ProgressBarBG" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0357143,0},{0.666667,0},{0.964286,0},{0.866667,0}}" />
+                <Window Type="DejaVu/ImageProgressBar" Name="DPSWnd/DPSArea2/ProgressBarBG/ProgressBar" >
+                    <Property Name="CurrentProgress" Value="0" />
+                    <Property Name="StepSize" Value="0.01" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0307692,0},{0.133333,0},{0.984615,0},{0.6,0}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="DPSWnd/DPSArea3" >
+            <Property Name="BackgroundEnabled" Value="True" />
+            <Property Name="FrameEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0333333,0},{0.440476,0},{0.0333333,280},{0.440476,75}}" />
+            <Window Type="DejaVu/StaticText" Name="DPSWnd/DPSArea3/Name" >
+                <Property Name="Text" Value="xName" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0357143,0},{0,0},{0.5,0},{0.333333,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="DPSWnd/DPSArea3/DPSText" >
+                <Property Name="Text" Value="1234567890 = 1234567890/s" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0357143,0},{0.333333,0},{0.964286,0},{0.666667,0}}" />
+            </Window>
+            <Window Type="DejaVu/ProgressBarBG" Name="DPSWnd/DPSArea3/ProgressBarBG" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0357143,0},{0.666667,0},{0.964286,0},{0.866667,0}}" />
+                <Window Type="DejaVu/ImageProgressBar" Name="DPSWnd/DPSArea3/ProgressBarBG/ProgressBar" >
+                    <Property Name="CurrentProgress" Value="0" />
+                    <Property Name="StepSize" Value="0.01" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0307692,0},{0.133333,0},{0.984615,0},{0.6,0}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="DPSWnd/DPSArea4" >
+            <Property Name="BackgroundEnabled" Value="True" />
+            <Property Name="FrameEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0333333,0},{0.619048,0},{0.0333333,280},{0.619048,75}}" />
+            <Window Type="DejaVu/StaticText" Name="DPSWnd/DPSArea4/Name" >
+                <Property Name="Text" Value="xName" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0357143,0},{0,0},{0.5,0},{0.333333,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="DPSWnd/DPSArea4/DPSText" >
+                <Property Name="Text" Value="1234567890 = 1234567890/s" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0357143,0},{0.333333,0},{0.964286,0},{0.666667,0}}" />
+            </Window>
+            <Window Type="DejaVu/ProgressBarBG" Name="DPSWnd/DPSArea4/ProgressBarBG" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0357143,0},{0.666667,0},{0.964286,0},{0.866667,0}}" />
+                <Window Type="DejaVu/ImageProgressBar" Name="DPSWnd/DPSArea4/ProgressBarBG/ProgressBar" >
+                    <Property Name="CurrentProgress" Value="0" />
+                    <Property Name="StepSize" Value="0.01" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0307692,0},{0.133333,0},{0.984615,0},{0.6,0}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="DPSWnd/DPSArea5" >
+            <Property Name="BackgroundEnabled" Value="True" />
+            <Property Name="FrameEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0333333,0},{0.797619,0},{0.0333333,280},{0.797619,75}}" />
+            <Window Type="DejaVu/StaticText" Name="DPSWnd/DPSArea5/Name" >
+                <Property Name="Text" Value="xName" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0357143,0},{0,0},{0.5,0},{0.333333,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="DPSWnd/DPSArea5/DPSText" >
+                <Property Name="Text" Value="1234567890 = 1234567890/s" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0357143,0},{0.333333,0},{0.964286,0},{0.666667,0}}" />
+            </Window>
+            <Window Type="DejaVu/ProgressBarBG" Name="DPSWnd/DPSArea5/ProgressBarBG" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0357143,0},{0.666667,0},{0.964286,0},{0.866667,0}}" />
+                <Window Type="DejaVu/ImageProgressBar" Name="DPSWnd/DPSArea5/ProgressBarBG/ProgressBar" >
+                    <Property Name="CurrentProgress" Value="0" />
+                    <Property Name="StepSize" Value="0.01" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0307692,0},{0.133333,0},{0.984615,0},{0.6,0}}" />
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

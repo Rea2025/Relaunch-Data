@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="HousePetEvolutionWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="TitlebarImage" Value="set:main image:Produce" />
+        <Property Name="UnifiedAreaRect" Value="{{0.192188,0},{0.166835,0},{0.192188,655},{0.166835,387}}" />
+        <Window Type="DejaVu/Embed" Name="HousePetEvolutionWnd/Embed" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1.00156,0},{1,0}}" />
+            <Window Type="DejaVu/Button" Name="HousePetEvolutionWnd/Embed/MakeBtn" >
+                <Property Name="Text" Value="x進化" />
+                <Property Name="UnifiedAreaRect" Value="{{0.86698,0},{0.879479,0},{0.985915,0},{0.964169,0}}" />
+            </Window>
+            <Window Type="DejaVu/Static" Name="HousePetEvolutionWnd/Embed/MakeItemList" >
+                <Property Name="UnifiedAreaRect" Value="{{0.0156495,0},{0.0325733,0},{0.508607,0},{0.967427,0}}" />
+                <Window Type="DejaVu/Embed2" Name="HousePetEvolutionWnd/Embed/MakeItemList/BG" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.000672193,0},{0.034843,0},{1.00067,0},{1,0}}" />
+                    <Window Type="DejaVu/Embed2" Name="HousePetEvolutionWnd/Embed/MakeItemList/BG/ListBG" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.031348,0},{0.184116,0},{0.967856,0},{0.963899,0}}" />
+                        <Window Type="DejaVu/ScrollablePane" Name="HousePetEvolutionWnd/Embed/MakeItemList/BG/ListBG/List" >
+                            <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                            <Property Name="HorzOverlapSize" Value="0.01" />
+                            <Property Name="HorzScrollPosition" Value="0" />
+                            <Property Name="HorzStepSize" Value="0.1" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                            <Property Name="VertOverlapSize" Value="0.01" />
+                            <Property Name="VertScrollPosition" Value="0" />
+                            <Property Name="VertStepSize" Value="0.1" />
+                            <AutoWindow NameSuffix="__auto_container__" >
+                                <Property Name="ChildExtentsArea" Value="l:0 t:0 r:0 b:0" />
+                                <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                                <Property Name="MouseInputPropagationEnabled" Value="True" />
+                            </AutoWindow>
+                        </Window>
+                        <Window Type="DejaVu/EmbedTextLab7" Name="HousePetEvolutionWnd/Embed/MakeItemList/BG/ListBG/Title" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="x寵物名稱" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.001129,0},{0,0},{0.950282,0},{0.115741,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Button" Name="HousePetEvolutionWnd/Embed/MakeItemList/BG/LearnBtn" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="x進化學習" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.031348,0},{0.072202,0},{0.272618,0},{0.166065,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed4" Name="HousePetEvolutionWnd/Embed/MakeItemList/Title" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0330762,0},{0,0},{0.509266,0},{0.087108,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="HousePetEvolutionWnd/Embed/MakeItemList/Title/Text" >
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="Text" Value="x寵物清單" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.214742,0},{0.866667,0},{0.814742,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="HousePetEvolutionWnd/Embed/MakeItemList/Title/Img" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Image" Value="set:DejaVu image:Image20" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="HousePetEvolutionWnd/Embed/NeedItem" >
+                <Property Name="UnifiedAreaRect" Value="{{0.516432,0},{0.032573,0},{0.985916,0},{0.846905,0}}" />
+                <Window Type="DejaVu/Embed4" Name="HousePetEvolutionWnd/Embed/NeedItem/Title" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.033333,0},{0,0},{0.526754,0},{0.0972763,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="HousePetEvolutionWnd/Embed/NeedItem/Title/Text" >
+                        <Property Name="Text" Value="x需求物品" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.184571,0},{0.8,0},{0.784571,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="HousePetEvolutionWnd/Embed/NeedItem/Title/Img" >
+                        <Property Name="Image" Value="set:DejaVu image:Image23" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0986842,0},{0.2,0},{0.197368,0},{0.8,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed2" Name="HousePetEvolutionWnd/Embed/NeedItem/BG" >
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0389105,0},{1,0},{1,0}}" />
+                    <Window Type="DejaVu/Embed2" Name="HousePetEvolutionWnd/Embed/NeedItem/BG/ItemList" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.033333,0},{0.101215,0},{0.966666,0},{0.959515,0}}" />
+                        <Window Type="DejaVu/Static" Name="HousePetEvolutionWnd/Embed/NeedItem/BG/ItemList/SlotItem1" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.007042,0},{0.009434,0},{0.992957,0},{0.254717,0}}" />
+                            <Window Type="DejaVu/Embed3" Name="HousePetEvolutionWnd/Embed/NeedItem/BG/ItemList/SlotItem1/Item" >
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.75,0},{1,0}}" />
+                                <Window Type="DejaVu/SlotImage" Name="HousePetEvolutionWnd/Embed/NeedItem/BG/ItemList/SlotItem1/Item/SlotImg" >
+                                    <Property Name="UnifiedAreaRect" Value="{{0.0238095,0},{0.0961538,0},{0.22381,0},{0.903846,0}}" />
+                                </Window>
+                                <Window Type="DejaVu/StaticTextLab" Name="HousePetEvolutionWnd/Embed/NeedItem/BG/ItemList/SlotItem1/Item/SlotText" >
+                                    <Property Name="Text" Value="x材料1" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.271429,0},{0.288462,0},{0.952381,0},{0.711539,0}}" />
+                                </Window>
+                            </Window>
+                            <Window Type="DejaVu/EmbedTextLab3" Name="HousePetEvolutionWnd/Embed/NeedItem/BG/ItemList/SlotItem1/NeedNum" >
+                                <Property Name="HorzFormatting" Value="HorzCentred" />
+                                <Property Name="Text" Value="x0/3" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.75,0},{0,0},{1,0},{1,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/Static" Name="HousePetEvolutionWnd/Embed/NeedItem/BG/ItemList/SlotItem2" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.00704225,0},{0.254717,0},{0.992958,0},{0.5,0}}" />
+                            <Window Type="DejaVu/Embed3" Name="HousePetEvolutionWnd/Embed/NeedItem/BG/ItemList/SlotItem2/Item" >
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.75,0},{1,0}}" />
+                                <Window Type="DejaVu/SlotImage" Name="HousePetEvolutionWnd/Embed/NeedItem/BG/ItemList/SlotItem2/Item/SlotImg" >
+                                    <Property Name="UnifiedAreaRect" Value="{{0.0238095,0},{0.0961538,0},{0.22381,0},{0.903846,0}}" />
+                                </Window>
+                                <Window Type="DejaVu/StaticTextLab" Name="HousePetEvolutionWnd/Embed/NeedItem/BG/ItemList/SlotItem2/Item/SlotText" >
+                                    <Property Name="Text" Value="x材料2" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.271429,0},{0.288462,0},{0.952381,0},{0.711539,0}}" />
+                                </Window>
+                            </Window>
+                            <Window Type="DejaVu/EmbedTextLab3" Name="HousePetEvolutionWnd/Embed/NeedItem/BG/ItemList/SlotItem2/NeedNum" >
+                                <Property Name="HorzFormatting" Value="HorzCentred" />
+                                <Property Name="Text" Value="x0/3" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.75,0},{0,0},{1,0},{1,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/Static" Name="HousePetEvolutionWnd/Embed/NeedItem/BG/ItemList/SlotItem3" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.00704225,0},{0.5,0},{0.992958,0},{0.745283,0}}" />
+                            <Window Type="DejaVu/Embed3" Name="HousePetEvolutionWnd/Embed/NeedItem/BG/ItemList/SlotItem3/Item" >
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.75,0},{1,0}}" />
+                                <Window Type="DejaVu/SlotImage" Name="HousePetEvolutionWnd/Embed/NeedItem/BG/ItemList/SlotItem3/Item/SlotImg" >
+                                    <Property Name="UnifiedAreaRect" Value="{{0.0238095,0},{0.0961538,0},{0.22381,0},{0.903846,0}}" />
+                                </Window>
+                                <Window Type="DejaVu/StaticTextLab" Name="HousePetEvolutionWnd/Embed/NeedItem/BG/ItemList/SlotItem3/Item/SlotText" >
+                                    <Property Name="Text" Value="x材料3" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.271429,0},{0.288462,0},{0.952381,0},{0.711539,0}}" />
+                                </Window>
+                            </Window>
+                            <Window Type="DejaVu/EmbedTextLab3" Name="HousePetEvolutionWnd/Embed/NeedItem/BG/ItemList/SlotItem3/NeedNum" >
+                                <Property Name="HorzFormatting" Value="HorzCentred" />
+                                <Property Name="Text" Value="x0/3" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.75,0},{0,0},{1,0},{1,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/Static" Name="HousePetEvolutionWnd/Embed/NeedItem/BG/ItemList/SlotItem4" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.00704225,0},{0.745283,0},{0.992958,0},{0.990566,0}}" />
+                            <Window Type="DejaVu/Embed3" Name="HousePetEvolutionWnd/Embed/NeedItem/BG/ItemList/SlotItem4/Item" >
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.75,0},{1,0}}" />
+                                <Window Type="DejaVu/SlotImage" Name="HousePetEvolutionWnd/Embed/NeedItem/BG/ItemList/SlotItem4/Item/SlotImg" >
+                                    <Property Name="UnifiedAreaRect" Value="{{0.0238095,0},{0.0961538,0},{0.22381,0},{0.903846,0}}" />
+                                </Window>
+                                <Window Type="DejaVu/StaticTextLab" Name="HousePetEvolutionWnd/Embed/NeedItem/BG/ItemList/SlotItem4/Item/SlotText" >
+                                    <Property Name="Text" Value="x材料4" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.271429,0},{0.288462,0},{0.952381,0},{0.711539,0}}" />
+                                </Window>
+                            </Window>
+                            <Window Type="DejaVu/EmbedTextLab3" Name="HousePetEvolutionWnd/Embed/NeedItem/BG/ItemList/SlotItem4/NeedNum" >
+                                <Property Name="HorzFormatting" Value="HorzCentred" />
+                                <Property Name="Text" Value="x0/3" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.75,0},{0,0},{1,0},{1,0}}" />
+                            </Window>
+                        </Window>
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/EmbedTextLab7" Name="HousePetEvolutionWnd/Embed/PriceTitleText" >
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="x費用" />
+                <Property Name="UnifiedAreaRect" Value="{{0.516432,0},{0.88049,0},{0.625978,0},{0.961923,0}}" />
+            </Window>
+            <Window Type="DejaVu/Embed2" Name="HousePetEvolutionWnd/Embed/PriceTextBG" >
+                <Property Name="UnifiedAreaRect" Value="{{0.625978,0},{0.879479,0},{0.86072,0},{0.960912,0}}" />
+                <Window Type="DejaVu/Static" Name="HousePetEvolutionWnd/Embed/PriceTextBG/PriceText" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.066667,0},{0,0},{0.933334,0},{1,0}}" />
+                    <Window Type="DejaVu/StaticImage" Name="HousePetEvolutionWnd/Embed/PriceTextBG/PriceText/SilverImg" >
+                        <Property Name="Image" Value="set:main image:Silver" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.884615,0},{0.2,0},{1,0},{0.8,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="HousePetEvolutionWnd/Embed/PriceTextBG/PriceText/GoldImg" >
+                        <Property Name="Image" Value="set:main image:Gold" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.461538,0},{0.2,0},{0.576923,0},{0.8,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="HousePetEvolutionWnd/Embed/PriceTextBG/PriceText/SilverText" >
+                        <Property Name="HorzFormatting" Value="RightAligned" />
+                        <Property Name="Text" Value="999" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.615385,0},{0.2,0},{0.846154,0},{0.8,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="HousePetEvolutionWnd/Embed/PriceTextBG/PriceText/GoldText" >
+                        <Property Name="HorzFormatting" Value="RightAligned" />
+                        <Property Name="Text" Value="99999" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.038462,0},{0.2,0},{0.423077,0},{0.8,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

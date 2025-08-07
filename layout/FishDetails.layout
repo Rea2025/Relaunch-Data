@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="FishDetails" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.0527346,0},{0.0679738,0},{0.0527346,255},{0.0679738,600}}" />
+        <Window Type="DejaVu/Embed" Name="FishDetails/Embed" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.000976563,0},{0,0},{1.00516,0},{1,0}}" />
+            <Window Type="DejaVu/Static" Name="FishDetails/Embed/DetailBG" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.043786,0},{0.019231,0},{0.961371,0},{0.980769,0}}" />
+                <Window Type="DejaVu/Embed2" Name="FishDetails/Embed/DetailBG/Details" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    <Window Type="DejaVu/EmbedTextLab7" Name="FishDetails/Embed/DetailBG/Details/Title" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="x詳細資訊" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.00909091,0},{0.004,0},{0.990909,0},{0.054,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Embed2" Name="FishDetails/Embed/DetailBG/Details/Img" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0227273,0},{0.06,0},{0.977273,0},{0.48,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab7" Name="FishDetails/Embed/DetailBG/Details/NameTitle" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="x魚名" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0227273,0},{0.5,0},{0.409091,0},{0.55,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab5" Name="FishDetails/Embed/DetailBG/Details/NameText" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.409091,0},{0.5,0},{0.977273,0},{0.55,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab7" Name="FishDetails/Embed/DetailBG/Details/OrgnTitle" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="x產地" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0227273,0},{0.55,0},{0.409091,0},{0.6,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab5" Name="FishDetails/Embed/DetailBG/Details/NameText1" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.409091,0},{0.55,0},{0.977273,0},{0.6,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="FishDetails/Embed/DetailBG/Details/Star1" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Image" Value="set:main9 image:FishStar1" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0681818,0},{0.63,0},{0.204545,0},{0.69,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="FishDetails/Embed/DetailBG/Details/Star2" >
+                        <Property Name="Image" Value="set:main9 image:FishStar2" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0681818,0},{0.7,0},{0.204545,0},{0.76,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="FishDetails/Embed/DetailBG/Details/Star3" >
+                        <Property Name="Image" Value="set:main9 image:FishStar3" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0681818,0},{0.77,0},{0.204545,0},{0.83,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="FishDetails/Embed/DetailBG/Details/Star4" >
+                        <Property Name="Image" Value="set:main9 image:FishStar4" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0681818,0},{0.84,0},{0.204545,0},{0.9,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="FishDetails/Embed/DetailBG/Details/Star17" >
+                        <Property Name="Image" Value="set:main9 image:FishStar5" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0681818,0},{0.91,0},{0.204545,0},{0.97,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="FishDetails/Embed/DetailBG/Details/Size1" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.227273,0},{0.63,0},{0.727273,0},{0.69,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="FishDetails/Embed/DetailBG/Details/CM1" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="xCM" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.818182,0},{0.63,0},{0.931818,0},{0.69,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="FishDetails/Embed/DetailBG/Details/Size2" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.227273,0},{0.7,0},{0.727273,0},{0.76,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="FishDetails/Embed/DetailBG/Details/Size3" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.227273,0},{0.77,0},{0.727273,0},{0.83,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="FishDetails/Embed/DetailBG/Details/Size4" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.227273,0},{0.84,0},{0.727273,0},{0.9,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="FishDetails/Embed/DetailBG/Details/Size5" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.227273,0},{0.91,0},{0.727273,0},{0.97,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="FishDetails/Embed/DetailBG/Details/CM2" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="xCM" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.818182,0},{0.7,0},{0.931818,0},{0.76,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="FishDetails/Embed/DetailBG/Details/CM3" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="xCM" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.818182,0},{0.77,0},{0.931818,0},{0.83,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="FishDetails/Embed/DetailBG/Details/CM4" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="xCM" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.818182,0},{0.84,0},{0.931818,0},{0.9,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="FishDetails/Embed/DetailBG/Details/CM5" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="xCM" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.818182,0},{0.91,0},{0.931818,0},{0.97,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

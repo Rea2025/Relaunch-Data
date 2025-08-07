@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="HolyCrystalAbilityReplaceConfirmWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="TitlebarImage" Value="set:main13 image:CrystalReplace" />
+        <Property Name="UnifiedAreaRect" Value="{{0.366211,0},{0.401041,0},{0.366211,266},{0.401041,241}}" />
+        <Window Type="DejaVu/Embed" Name="HolyCrystalAbilityReplaceConfirmWnd/BG" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Embed2" Name="HolyCrystalAbilityReplaceConfirmWnd/BG/TextBG" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.04,0},{0.0625,0},{0.96,0},{0.74375,0}}" />
+                <Window Type="DejaVu/StaticText" Name="HolyCrystalAbilityReplaceConfirmWnd/BG/TextBG/Text" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="x確認訊息" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0434783,0},{0,0},{0.956522,0},{0.681818,0}}" />
+                    <Property Name="VerticalAlignment" Value="Centre" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Button" Name="HolyCrystalAbilityReplaceConfirmWnd/BG/ConfirmBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="x確定" />
+                <Property Name="UnifiedAreaRect" Value="{{0.04,0},{0.78882,0},{0.344,0},{0.950311,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="HolyCrystalAbilityReplaceConfirmWnd/BG/CancelBtn" >
+                <Property Name="Text" Value="x取消" />
+                <Property Name="UnifiedAreaRect" Value="{{0.652,0},{0.78882,0},{0.956,0},{0.950311,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

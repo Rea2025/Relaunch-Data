@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/Mission" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HorizontalAlignment" Value="Centre" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,585},{0,447}}" />
+        <Property Name="VerticalAlignment" Value="Centre" />
+        <Window Type="DejaVu/Static" Name="Root/Mission/Control" >
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.411966,0},{0.116331,0}}" />
+            <Property Name="UnifiedMinSize" Value="{{0,1},{0,1}}" />
+            <Window Type="DejaVu/StaticTextLab" Name="Root/Mission/Control/Text" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" Value="x承接任務 25/25 件" />
+                <Property Name="UnifiedAreaRect" Value="{{0.049793,0},{0.115385,0},{0.580913,0},{0.378994,0}}" />
+                <Property Name="UnifiedMinSize" Value="{{0,128},{0,14}}" />
+            </Window>
+            <Window Type="DejaVu/Checkbox" Name="Root/Mission/Control/traceBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HoverTextColour" Value="FFFFFFFF" />
+                <Property Name="NormalTextColour" Value="FFFFFFFF" />
+                <Property Name="PushedTextColour" Value="FFFFFFFF" />
+                <Property Name="Selected" Value="True" />
+                <Property Name="Text" Value="x開放追蹤" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0497925,0},{0.5,0},{0.547718,0},{0.846154,0}}" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/Mission/Control/HelpBtn" >
+                <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0.917012,0},{0.115385,0},{0.975104,0},{0.384615,0}}" />
+                <Property Name="UnifiedMinSize" Value="{{0,14},{0,14}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="Root/Mission/Page" >
+            <Property Name="UnifiedAreaRect" Value="{{0.422222,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Static" Name="Root/Mission/Page/Static" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Window Type="DejaVu/Button" Name="Root/Mission/Page/Static/ShareBtn" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="x分享任務" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0177515,0},{0.946309,0},{0.224852,0},{0.986577,0}}" />
+                    <Property Name="UnifiedMinSize" Value="{{0,70},{0,18}}" />
+                </Window>
+                <Window Type="DejaVu/Button" Name="Root/Mission/Page/Static/GiveUpBtn" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="x放棄任務" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.242604,0},{0.946309,0},{0.449704,0},{0.986577,0}}" />
+                    <Property Name="UnifiedMinSize" Value="{{0,70},{0,18}}" />
+                </Window>
+                <Window Type="DejaVu/Button" Name="Root/Mission/Page/Static/ExitBtn" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="x離開" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.775148,0},{0.946309,0},{0.982248,0},{0.986577,0}}" />
+                    <Property Name="UnifiedMinSize" Value="{{0,70},{0,18}}" />
+                </Window>
+                <Window Type="DejaVu/Embed" Name="Root/Mission/Page/Static/TargetBoard" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.017751,0},{0.53915,0},{0.982248,0},{0.932886,0}}" />
+                    <Window Type="DejaVu/ScrollablePane" Name="Root/Mission/Page/Static/TargetBoard/pane" >
+                        <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                        <Property Name="ContentPaneAutoSized" Value="False" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HorzOverlapSize" Value="0.01" />
+                        <Property Name="HorzScrollPosition" Value="0" />
+                        <Property Name="HorzStepSize" Value="0.1" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0184049,0},{0.0344828,0},{0.981595,0},{0.954023,0}}" />
+                        <Property Name="VertOverlapSize" Value="0.01" />
+                        <Property Name="VertScrollPosition" Value="0" />
+                        <Property Name="VertStepSize" Value="0.1" />
+                        <AutoWindow NameSuffix="__auto_container__" >
+                            <Property Name="ChildExtentsArea" Value="l:0 t:0 r:0 b:0" />
+                            <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                            <Property Name="ContentPaneAutoSized" Value="False" />
+                            <Property Name="MouseInputPropagationEnabled" Value="True" />
+                        </AutoWindow>
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Listbox" Name="Root/Mission/Page/Static/StoryList" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0177515,0},{0.0671141,0},{0.982248,0},{0.525727,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/Mission/Page/Static/Titletext" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.035503,0},{0.013423,0},{0.775148,0},{0.0581657,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/Mission/Page/Static/statusText" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" Value="x完成" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.798817,0},{0.013423,0},{0.964497,0},{0.0581657,0}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="Root/Mission/TreeStatic" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.129754,0},{0.411966,0},{1,0}}" />
+            <Window Type="DejaVu/Tree" Name="Root/Mission/TreeStatic/tree" >
+                <Property Name="UnifiedAreaRect" Value="{{0.024896,0},{0.015424,0},{0.975103,0},{0.902313,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/Mission/TreeStatic/TextDetail" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="一二三四五" />
+                <Property Name="TextColours" Value="tl:FF000001 tr:FF000001 bl:FF000001 br:FF000001" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0248963,0},{0.917738,0},{0.975104,0},{0.984576,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

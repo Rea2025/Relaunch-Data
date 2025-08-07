@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="CharBankPreview" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="TitlebarImage" Value="set:main image:Bank" />
+        <Property Name="UnifiedAreaRect" Value="{{0.242188,0},{0.283854,0},{0.242188,511},{0.283854,359}}" />
+        <Window Type="DejaVu/Embed" Name="CharBankPreview/bank/Embed" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,495},{0,273}}" />
+            <Window Type="DejaVu/Embed2" Name="CharBankPreview/bank/TopPanel" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.020202,0},{0.03663,0},{0.020202,475},{0.03663,29}}" />
+                <Window Type="DejaVu/Combobox" Name="CharBankPreview/Embed/TopPanel/CharCombobox" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="MaxEditTextLength" Value="2147483647" />
+                    <Property Name="ReadOnly" Value="True" />
+                    <Property Name="Text" Value="character0" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.778947,0},{0.137931,0},{0.778947,106},{0.137931,100}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="CharBankPreview/bank/Embed/StorageBG" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0215947,0},{0.148397,0},{0.977151,0},{0.977839,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

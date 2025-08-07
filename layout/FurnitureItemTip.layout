@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/FurnitureItemTip" >
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,305},{0,165}}" />
+        <Window Type="DejaVu/TipTextLab" Name="Root/FurnitureItemTip/FurnitureItemTipWnd" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,305},{0,165}}" />
+            <Window Type="DejaVu/Static" Name="Root/FurnitureItemTip/FurnitureItemTipWnd/Info" >
+                <Property Name="UnifiedAreaRect" Value="{{0.0163934,0},{0.030303,0},{0.0163934,295},{0.030303,45}}" />
+                <Window Type="DejaVu/SlotImage" Name="Root/FurnitureItemTip/FurnitureItemTipWnd/Info/SlotImage" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.0169492,0},{0.0444444,0},{0.159322,0},{0.977778,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="Root/FurnitureItemTip/FurnitureItemTipWnd/Info/NameText" >
+                    <Property Name="Font" Value="F001-12" />
+                    <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                    <Property Name="Text" Value="x浪人菇菇布偶" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.183051,0},{0,0},{0.962712,0},{0.444444,0}}" />
+                    <Property Name="VertFormatting" Value="TopAligned" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/FurnitureItemTip/FurnitureItemTipWnd/Info/Type" >
+                    <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                    <Property Name="Text" Value="x小屋傢俱類型" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.183572,0},{0.555556,0},{0.963233,0},{1,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="Root/FurnitureItemTip/FurnitureItemTipWnd/PointBG" >
+                <Property Name="UnifiedAreaRect" Value="{{0.0163934,0},{0.333333,0},{0.0163934,295},{0.333333,50}}" />
+                <Window Type="DejaVu/StaticImage" Name="Root/FurnitureItemTip/FurnitureItemTipWnd/PointBG/LinePoint" >
+                    <Property Name="Image" Value="set:DejaVu image:Line" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.06,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="Root/FurnitureItemTip/FurnitureItemTipWnd/PointBG/Point" >
+                    <Property Name="BackgroundEnabled" Value="True" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="FrameEnabled" Value="True" />
+                    <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0169492,0},{0.12,0},{0.983051,0},{1,0}}" />
+                    <Window Type="DejaVu/StaticText" Name="Root/FurnitureItemTip/FurnitureItemTipWnd/PointBG/Point/Text" >
+                        <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                        <Property Name="Text" >x裝飾分數：1234567890
+x建設點數：1234567890</Property>
+                        <Property Name="UnifiedAreaRect" Value="{{0.0175439,0},{0,0},{0.982456,0},{1,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="Root/FurnitureItemTip/FurnitureItemTipWnd/TipBG" >
+                <Property Name="UnifiedAreaRect" Value="{{0.0163934,0},{0.666667,0},{0.0163934,295},{0.666667,50}}" />
+                <Window Type="DejaVu/StaticImage" Name="Root/FurnitureItemTip/FurnitureItemTipWnd/TipBG/LineTip" >
+                    <Property Name="Image" Value="set:DejaVu image:Line" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.06,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="Root/FurnitureItemTip/FurnitureItemTipWnd/TipBG/Tip" >
+                    <Property Name="BackgroundEnabled" Value="True" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="FrameEnabled" Value="True" />
+                    <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0169492,0},{0.12,0},{0.983051,0},{1,0}}" />
+                    <Window Type="DejaVu/StaticText" Name="Root/FurnitureItemTip/FurnitureItemTipWnd/TipBG/Tip/Text" >
+                        <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                        <Property Name="Text" Value="xTIP說明：XXXXXXXXXXXXXXXXXXXXXXX" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0175439,0},{0,0},{0.982456,0},{1,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

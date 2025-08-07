@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/Embed3" Name="Root/QuizGameScoreWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HorizontalAlignment" Value="Right" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.4,0},{0,360},{0.4,245}}" />
+        <Window Type="DejaVu/Static" Name="Root/QuizGameScoreWnd/Frame" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.026385,0},{0.048544,0},{0.973607,0},{0.787319,0}}" />
+            <Window Type="DejaVu/MultiColumnList" Name="Root/QuizGameScoreWnd/Frame/MCL" >
+                <Property Name="ColumnsMovable" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/QuizGameScoreWnd/Line" >
+            <Property Name="Image" Value="set:DejaVu image:Line" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0138889,0},{0.8,0},{0.986111,0},{0.808163,0}}" />
+        </Window>
+        <Window Type="DejaVu/SlotImage" Name="Root/QuizGameScoreWnd/Slot" >
+            <Property Name="UnifiedAreaRect" Value="{{0.772222,0},{0.828571,0},{0.772222,32},{0.828571,32}}" />
+        </Window>
+        <Window Type="DejaVu/StaticTextLab" Name="Root/QuizGameScoreWnd/Text" >
+            <Property Name="Text" Value="目前獎勵物品：" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0694444,0},{0.828571,0},{0.569444,0},{0.959184,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

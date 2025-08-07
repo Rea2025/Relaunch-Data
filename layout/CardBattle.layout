@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="CardBattle" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.245117,0},{0.277344,0},{0.245117,546},{0.277344,384}}" />
+        <Window Type="DejaVu/Embed" Name="CardBattle/BG" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Static" Name="CardBattle/BG/Static" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.018868,0},{0.032895,0},{0.981132,0},{0.865132,0}}" />
+                <Window Type="DejaVu/Embed2" Name="CardBattle/BG/Static/Embed2" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.039526,0},{1,0},{1,0}}" />
+                    <Window Type="DejaVu/Embed2" Name="CardBattle/BG/Static/Embed2/CardBG" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.019608,0},{0.349794,0},{0.980392,0},{0.958848,0}}" />
+                        <Window Type="DejaVu/StaticImage" Name="CardBattle/BG/Static/Embed2/CardBG/Card" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="Image" Value="set:DejaVu image:StrengthNormal" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.020408,0},{0.067568,0},{0.204081,0},{0.932433,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticImage" Name="CardBattle/BG/Static/Embed2/CardBG/Card1" >
+                            <Property Name="Image" Value="set:DejaVu image:StrengthNormal" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.214286,0},{0.0675676,0},{0.397959,0},{0.932432,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticImage" Name="CardBattle/BG/Static/Embed2/CardBG/Card2" >
+                            <Property Name="Image" Value="set:DejaVu image:StrengthNormal" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.407655,0},{0.0659351,0},{0.591328,0},{0.9308,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticImage" Name="CardBattle/BG/Static/Embed2/CardBG/Card3" >
+                            <Property Name="Image" Value="set:DejaVu image:StrengthNormal" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.602041,0},{0.0675676,0},{0.785714,0},{0.932432,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticImage" Name="CardBattle/BG/Static/Embed2/CardBG/Card4" >
+                            <Property Name="Image" Value="set:DejaVu image:StrengthNormal" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.795918,0},{0.0675676,0},{0.979592,0},{0.932432,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Embed5" Name="CardBattle/BG/Static/Embed2/Text" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.019608,0},{0.102881,0},{0.980392,0},{0.205762,0}}" />
+                        <Window Type="DejaVu/StaticTextLab" Name="CardBattle/BG/Static/Embed2/Text/Text" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="Text" Value="請選擇欲進行對戰的牌組，按下確定鈕即可排入對戰佇列。" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.020408,0},{0,0},{0.979592,0},{1,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Button" Name="CardBattle/BG/Static/Embed2/Btn1" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="1" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.019608,0},{0.226337,0},{0.0686276,0},{0.329218,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Button" Name="CardBattle/BG/Static/Embed2/Btn11" >
+                        <Property Name="Text" Value="2" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0784314,0},{0.226337,0},{0.127451,0},{0.329218,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Button" Name="CardBattle/BG/Static/Embed2/Btn12" >
+                        <Property Name="Text" Value="3" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.137255,0},{0.226337,0},{0.186275,0},{0.329218,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Button" Name="CardBattle/BG/Static/Embed2/Btn13" >
+                        <Property Name="Text" Value="4" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.196078,0},{0.226337,0},{0.245098,0},{0.329218,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Button" Name="CardBattle/BG/Static/Embed2/Btn14" >
+                        <Property Name="Text" Value="5" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.254902,0},{0.226337,0},{0.303922,0},{0.329218,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab7" Name="CardBattle/BG/Static/Embed2/Number" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="戰鬥力" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.529412,0},{0.226337,0},{0.686275,0},{0.329218,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab2" Name="CardBattle/BG/Static/Embed2/Num" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="999999" />
+                        <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.686275,0},{0.226337,0},{0.980392,0},{0.329218,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed4" Name="CardBattle/BG/Static/Title" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.019608,0},{0,0},{0.313726,0},{0.0988142,0}}" />
+                    <Window Type="DejaVu/StaticImage" Name="CardBattle/BG/Static/Title/Img" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Image" Value="set:DejaVu image:Image02" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="CardBattle/BG/Static/Title/Text" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="牌組選擇" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.2,0},{0.866667,0},{0.8,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Button" Name="CardBattle/BG/Btn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="Text" Value="確定" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{-0.0328947,0},{0.143396,0},{0.0526316,0}}" />
+                <Property Name="VerticalAlignment" Value="Bottom" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

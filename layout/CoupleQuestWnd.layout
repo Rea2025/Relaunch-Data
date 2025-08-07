@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/CoupleQuestWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="TitlebarImage" Value="set:main image:DiaryNormal" />
+        <Property Name="UnifiedAreaRect" Value="{{0.268555,0},{0.147136,0},{0.268555,401},{0.147136,579}}" />
+        <Window Type="DejaVu/Embed" Name="Root/CoupleQuestWnd/Static" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/StaticImage" Name="Root/CoupleQuestWnd/TypeIcon" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0393258,0},{0,0},{0.224719,0},{0.0279851,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/CoupleQuestWnd/CancelBtn" >
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="Text" Value="x拒絕" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.025974,0},{-0.0200401,0},{0.171429,0},{0.0320642,0}}" />
+                <Property Name="VerticalAlignment" Value="Bottom" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/CoupleQuestWnd/AcceptBtn" >
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="Text" Value="x接受" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.026364,0},{-0.0200401,0},{0.171039,0},{0.0320642,0}}" />
+                <Property Name="VerticalAlignment" Value="Bottom" />
+            </Window>
+            <Window Type="DejaVu/Checkbox" Name="Root/CoupleQuestWnd/TraceBtn" >
+                <Property Name="Text" Value="x開啟追蹤任務介面" />
+                <Property Name="UnifiedAreaRect" Value="{{0.025974,0},{-0.02004,0},{0.38961,0},{0.0300602,0}}" />
+                <Property Name="VerticalAlignment" Value="Bottom" />
+            </Window>
+            <Window Type="DejaVu/Static" Name="Root/CoupleQuestWnd/Content" >
+                <Property Name="UnifiedAreaRect" Value="{{0.0269506,0},{0.02004,0},{0.975003,0},{0.917836,0}}" />
+                <Window Type="DejaVu/Embed2" Name="Root/CoupleQuestWnd/Content/BG" >
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.022321,0},{1,0},{1,0}}" />
+                    <Window Type="DejaVu/Embed2" Name="Root/CoupleQuestWnd/Content/Summary" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.027397,0},{0.057078,0},{0.972602,0},{0.326484,0}}" />
+                        <Window Type="DejaVu/EmbedTextLab7" Name="Root/CoupleQuestWnd/Content/Summary/Title" >
+                            <Property Name="Text" Value="x任務簡介" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.005797,0},{0.016949,0},{0.994203,0},{0.228813,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/ScrollablePane" Name="Root/CoupleQuestWnd/Content/Summary/Pane" >
+                            <Property Name="ContentArea" Value="l:0 t:0 r:318 b:76" />
+                            <Property Name="HorzOverlapSize" Value="0.01" />
+                            <Property Name="HorzScrollPosition" Value="0" />
+                            <Property Name="HorzStepSize" Value="0.1" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.02029,0},{0.271186,0},{0.97971,0},{0.915254,0}}" />
+                            <Property Name="VertOverlapSize" Value="0.01" />
+                            <Property Name="VertScrollPosition" Value="0" />
+                            <Property Name="VertStepSize" Value="0.1" />
+                            <AutoWindow NameSuffix="__auto_container__" >
+                                <Property Name="ChildExtentsArea" Value="l:0 t:0 r:318 b:76" />
+                                <Property Name="ContentArea" Value="l:0 t:0 r:318 b:76" />
+                                <Property Name="MouseInputPropagationEnabled" Value="True" />
+                                <Window Type="DejaVu/StaticText" Name="Root/CoupleQuestWnd/Content/Summary/Text" >
+                                    <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.006042,0},{0,0},{0.960725,0},{1,0}}" />
+                                    <Property Name="VertFormatting" Value="TopAligned" />
+                                </Window>
+                            </AutoWindow>
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Embed2" Name="Root/CoupleQuestWnd/Content/Condition" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.0263672,0},{0.3379,0},{0.971573,0},{0.723744,0}}" />
+                        <Window Type="DejaVu/EmbedTextLab7" Name="Root/CoupleQuestWnd/Content/Condition/Title" >
+                            <Property Name="Text" Value="x完成條件" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.005797,0},{0.011834,0},{0.994203,0},{0.159763,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/ScrollablePane" Name="Root/CoupleQuestWnd/Content/Condition/Pane" >
+                            <Property Name="ContentArea" Value="l:0 t:0 r:316 b:127" />
+                            <Property Name="HorzOverlapSize" Value="0.01" />
+                            <Property Name="HorzScrollPosition" Value="0" />
+                            <Property Name="HorzStepSize" Value="0.1" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.02029,0},{0.189349,0},{0.97971,0},{0.940828,0}}" />
+                            <Property Name="VertOverlapSize" Value="0.01" />
+                            <Property Name="VertScrollPosition" Value="0" />
+                            <Property Name="VertStepSize" Value="0.1" />
+                            <AutoWindow NameSuffix="__auto_container__" >
+                                <Property Name="ChildExtentsArea" Value="l:0 t:0 r:316 b:127" />
+                                <Property Name="ContentArea" Value="l:0 t:0 r:316 b:127" />
+                                <Property Name="MouseInputPropagationEnabled" Value="True" />
+                                <Window Type="DejaVu/StaticText" Name="Root/CoupleQuestWnd/Content/Condition/Text" >
+                                    <Property Name="AlwaysOnTop" Value="True" />
+                                    <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                                    <Property Name="LinespaceWindow" Value="True" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.954683,0},{1,0}}" />
+                                    <Property Name="VertFormatting" Value="TopAligned" />
+                                </Window>
+                            </AutoWindow>
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Embed2" Name="Root/CoupleQuestWnd/Content/Reward" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.027397,0},{0.73516,0},{0.972602,0},{0.977169,0}}" />
+                        <Window Type="DejaVu/EmbedTextLab7" Name="Root/CoupleQuestWnd/Content/Reward/Title" >
+                            <Property Name="Text" Value="x任務獎勵" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.005797,0},{0.018868,0},{0.994203,0},{0.254717,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/ScrollablePane" Name="Root/CoupleQuestWnd/Content/Reward/Pane" >
+                            <Property Name="ContentArea" Value="l:0 t:0 r:316 b:64" />
+                            <Property Name="HorzOverlapSize" Value="0.01" />
+                            <Property Name="HorzScrollPosition" Value="0" />
+                            <Property Name="HorzStepSize" Value="0.1" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.02029,0},{0.301887,0},{0.97971,0},{0.905661,0}}" />
+                            <Property Name="VertOverlapSize" Value="0.01" />
+                            <Property Name="VertScrollPosition" Value="0" />
+                            <Property Name="VertStepSize" Value="0.1" />
+                            <AutoWindow NameSuffix="__auto_container__" >
+                                <Property Name="ChildExtentsArea" Value="l:0 t:0 r:316 b:64" />
+                                <Property Name="ContentArea" Value="l:0 t:0 r:316 b:64" />
+                                <Property Name="MouseInputPropagationEnabled" Value="True" />
+                                <Window Type="DejaVu/StaticText" Name="Root/CoupleQuestWnd/Content/Reward/Text" >
+                                    <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.954683,0},{1,0}}" />
+                                </Window>
+                            </AutoWindow>
+                        </Window>
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed4" Name="Root/CoupleQuestWnd/Content/Title" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.027397,0},{0,0},{0.438356,0},{0.0558036,0}}" />
+                    <Window Type="DejaVu/StaticImage" Name="Root/CoupleQuestWnd/Content/Title/Img" >
+                        <Property Name="Image" Value="set:DejaVu image:Image03" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/CoupleQuestWnd/Content/Title/Text" >
+                        <Property Name="Text" Value="x任務內容" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.2,0},{0.866667,0},{0.8,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

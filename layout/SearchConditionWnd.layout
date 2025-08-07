@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/SearchConditionWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,233},{0,404}}" />
+        <Property Name="UnifiedMinSize" Value="{{0,159},{0,404}}" />
+        <Window Type="DejaVu/StaticTextLab" Name="Root/SearchConditionWnd/ClassesFilterTitle" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HorzFormatting" Value="WordWrapCentred" />
+            <Property Name="Text" Value="x職業篩選" />
+            <Property Name="UnifiedAreaRect" Value="{{0.211382,0},{0,0},{0.780488,0},{0.0683761,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticTextLab" Name="Root/SearchConditionWnd/StatusFilterTitle" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HorzFormatting" Value="WordWrapCentred" />
+            <Property Name="UnifiedAreaRect" Value="{{0.211382,0},{0.452991,0},{0.780488,0},{0.521368,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticTextLab" Name="Root/SearchConditionWnd/OthersFilterTitle" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HorzFormatting" Value="WordWrapCentred" />
+            <Property Name="UnifiedAreaRect" Value="{{0.211382,0},{0.792023,0},{0.780488,0},{0.860399,0}}" />
+        </Window>
+        <Window Type="DejaVu/Static" Name="Root/SearchConditionWnd/ClassFilter" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.034188,0},{1,0},{0.435897,0}}" />
+            <Window Type="DejaVu/ScrollablePane" Name="Root/SearchConditionWnd/ClassFilter/ClassPane" >
+                <Property Name="ContentArea" Value="l:0 t:0 r:135 b:20" />
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="HorzOverlapSize" Value="0.01" />
+                <Property Name="HorzScrollPosition" Value="0" />
+                <Property Name="HorzStepSize" Value="0.1" />
+                <Property Name="UnifiedAreaRect" Value="{{0.055,0},{0.110496,0},{0.978734,0},{0.931277,0}}" />
+                <Property Name="VertOverlapSize" Value="0.01" />
+                <Property Name="VertScrollPosition" Value="0" />
+                <Property Name="VertStepSize" Value="0.1" />
+                <AutoWindow NameSuffix="__auto_container__" >
+                    <Property Name="ChildExtentsArea" Value="l:0 t:0 r:135 b:20" />
+                    <Property Name="ContentArea" Value="l:0 t:0 r:135 b:20" />
+                    <Property Name="MouseInputPropagationEnabled" Value="True" />
+                    <Window Type="DejaVu/Checkbox" Name="Root/SearchConditionWnd/ClassFilter/ClassCheckBox1" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HoverTextColour" Value="C8FFFFFF" />
+                        <Property Name="NormalTextColour" Value="C8FFFFFF" />
+                        <Property Name="PushedTextColour" Value="C8FFFFFF" />
+                        <Property Name="Text" Value="x武尊" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0604396,0},{0.0517241,0},{0.659341,0},{0.172414,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Checkbox" Name="Root/SearchConditionWnd/ClassFilter/ClassCheckBox2" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HoverTextColour" Value="C8FFFFFF" />
+                        <Property Name="NormalTextColour" Value="C8FFFFFF" />
+                        <Property Name="PushedTextColour" Value="C8FFFFFF" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,11},{0,6},{0,120},{0,20}}" />
+                    </Window>
+                    <Window Type="DejaVu/Checkbox" Name="Root/SearchConditionWnd/ClassFilter/ClassCheckBox3" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HoverTextColour" Value="C8FFFFFF" />
+                        <Property Name="NormalTextColour" Value="C8FFFFFF" />
+                        <Property Name="PushedTextColour" Value="C8FFFFFF" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,11},{0,6},{0,120},{0,20}}" />
+                    </Window>
+                    <Window Type="DejaVu/Checkbox" Name="Root/SearchConditionWnd/ClassFilter/ClassCheckBox4" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HoverTextColour" Value="C8FFFFFF" />
+                        <Property Name="NormalTextColour" Value="C8FFFFFF" />
+                        <Property Name="PushedTextColour" Value="C8FFFFFF" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,11},{0,6},{0,120},{0,20}}" />
+                    </Window>
+                    <Window Type="DejaVu/Checkbox" Name="Root/SearchConditionWnd/ClassFilter/ClassCheckBox5" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HoverTextColour" Value="C8FFFFFF" />
+                        <Property Name="NormalTextColour" Value="C8FFFFFF" />
+                        <Property Name="PushedTextColour" Value="C8FFFFFF" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,11},{0,6},{0,120},{0,20}}" />
+                    </Window>
+                    <Window Type="DejaVu/Checkbox" Name="Root/SearchConditionWnd/ClassFilter/ClassCheckBox6" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HoverTextColour" Value="C8FFFFFF" />
+                        <Property Name="NormalTextColour" Value="C8FFFFFF" />
+                        <Property Name="PushedTextColour" Value="C8FFFFFF" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,11},{0,6},{0,120},{0,20}}" />
+                    </Window>
+                    <Window Type="DejaVu/Checkbox" Name="Root/SearchConditionWnd/ClassFilter/ClassCheckBox7" >
+                        <Property Name="HoverTextColour" Value="C8FFFFFF" />
+                        <Property Name="NormalTextColour" Value="C8FFFFFF" />
+                        <Property Name="PushedTextColour" Value="C8FFFFFF" />
+                        <Property Name="Text" Value="x武尊" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.142857,0},{0.0517241,0},{0.741758,0},{0.172414,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Checkbox" Name="Root/SearchConditionWnd/ClassFilter/ClassCheckBox8" >
+                        <Property Name="HoverTextColour" Value="C8FFFFFF" />
+                        <Property Name="NormalTextColour" Value="C8FFFFFF" />
+                        <Property Name="PushedTextColour" Value="C8FFFFFF" />
+                        <Property Name="Text" Value="x武尊" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.142857,0},{0.0517241,0},{0.741758,0},{0.172414,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Checkbox" Name="Root/SearchConditionWnd/ClassFilter/ClassCheckBox9" >
+                        <Property Name="HoverTextColour" Value="C8FFFFFF" />
+                        <Property Name="NormalTextColour" Value="C8FFFFFF" />
+                        <Property Name="PushedTextColour" Value="C8FFFFFF" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.142857,0},{0.0517241,0},{0.741758,0},{0.172414,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Checkbox" Name="Root/SearchConditionWnd/ClassFilter/ClassCheckBox10" >
+                        <Property Name="HoverTextColour" Value="C8FFFFFF" />
+                        <Property Name="NormalTextColour" Value="C8FFFFFF" />
+                        <Property Name="PushedTextColour" Value="C8FFFFFF" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.142857,0},{0.0517241,0},{0.741758,0},{0.172414,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Checkbox" Name="Root/SearchConditionWnd/ClassFilter/ClassCheckBox11" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HoverTextColour" Value="C8FFFFFF" />
+                        <Property Name="NormalTextColour" Value="C8FFFFFF" />
+                        <Property Name="PushedTextColour" Value="C8FFFFFF" />
+                        <Property Name="Text" Value="x" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.142857,0},{0.0517241,0},{0.741758,0},{0.172414,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Checkbox" Name="Root/SearchConditionWnd/ClassFilter/ClassCheckBox12" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HoverTextColour" Value="C8FFFFFF" />
+                        <Property Name="NormalTextColour" Value="C8FFFFFF" />
+                        <Property Name="PushedTextColour" Value="C8FFFFFF" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.142857,0},{0.0517241,0},{0.741758,0},{0.172414,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Checkbox" Name="Root/SearchConditionWnd/ClassFilter/ClassCheckBox13" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HoverTextColour" Value="C8FFFFFF" />
+                        <Property Name="NormalTextColour" Value="C8FFFFFF" />
+                        <Property Name="PushedTextColour" Value="C8FFFFFF" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.142857,0},{0.0517241,0},{0.741758,0},{0.172414,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Checkbox" Name="Root/SearchConditionWnd/ClassFilter/ClassCheckBox14" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HoverTextColour" Value="C8FFFFFF" />
+                        <Property Name="NormalTextColour" Value="C8FFFFFF" />
+                        <Property Name="PushedTextColour" Value="C8FFFFFF" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.142857,0},{0.0517241,0},{0.741758,0},{0.172414,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Checkbox" Name="Root/SearchConditionWnd/ClassFilter/ClassCheckBox15" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HoverTextColour" Value="C8FFFFFF" />
+                        <Property Name="NormalTextColour" Value="C8FFFFFF" />
+                        <Property Name="PushedTextColour" Value="C8FFFFFF" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.142857,0},{0.0517241,0},{0.741758,0},{0.172414,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Checkbox" Name="Root/SearchConditionWnd/ClassFilter/ClassCheckBox16" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HoverTextColour" Value="C8FFFFFF" />
+                        <Property Name="NormalTextColour" Value="C8FFFFFF" />
+                        <Property Name="PushedTextColour" Value="C8FFFFFF" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.142857,0},{0.0517241,0},{0.741758,0},{0.172414,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Checkbox" Name="Root/SearchConditionWnd/ClassFilter/ClassCheckBox17" >
+                        <Property Name="HoverTextColour" Value="C8FFFFFF" />
+                        <Property Name="NormalTextColour" Value="C8FFFFFF" />
+                        <Property Name="PushedTextColour" Value="C8FFFFFF" />
+                        <Property Name="Text" Value="x" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.142857,0},{0.0517241,0},{0.741758,0},{0.172414,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Checkbox" Name="Root/SearchConditionWnd/ClassFilter/ClassCheckBox18" >
+                        <Property Name="HoverTextColour" Value="C8FFFFFF" />
+                        <Property Name="NormalTextColour" Value="C8FFFFFF" />
+                        <Property Name="PushedTextColour" Value="C8FFFFFF" />
+                        <Property Name="Text" Value="x" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.142857,0},{0.0517241,0},{0.741758,0},{0.172414,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Checkbox" Name="Root/SearchConditionWnd/ClassFilter/ClassCheckBox19" >
+                        <Property Name="HoverTextColour" Value="C8FFFFFF" />
+                        <Property Name="NormalTextColour" Value="C8FFFFFF" />
+                        <Property Name="PushedTextColour" Value="C8FFFFFF" />
+                        <Property Name="Text" Value="x" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,11},{0,6},{0,120},{0,20}}" />
+                    </Window>
+                    <Window Type="DejaVu/Checkbox" Name="Root/SearchConditionWnd/ClassFilter/ClassCheckBox20" >
+                        <Property Name="HoverTextColour" Value="C8FFFFFF" />
+                        <Property Name="NormalTextColour" Value="C8FFFFFF" />
+                        <Property Name="PushedTextColour" Value="C8FFFFFF" />
+                        <Property Name="Text" Value="x" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,11},{0,6},{0,120},{0,20}}" />
+                    </Window>
+                    <Window Type="DejaVu/Checkbox" Name="Root/SearchConditionWnd/ClassFilter/ClassCheckBox21" >
+                        <Property Name="HoverTextColour" Value="C8FFFFFF" />
+                        <Property Name="NormalTextColour" Value="C8FFFFFF" />
+                        <Property Name="PushedTextColour" Value="C8FFFFFF" />
+                        <Property Name="Text" Value="x" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.142857,0},{0.0517241,0},{0.741758,0},{0.172414,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Checkbox" Name="Root/SearchConditionWnd/ClassFilter/ClassCheckBox22" >
+                        <Property Name="HoverTextColour" Value="C8FFFFFF" />
+                        <Property Name="NormalTextColour" Value="C8FFFFFF" />
+                        <Property Name="PushedTextColour" Value="C8FFFFFF" />
+                        <Property Name="Text" Value="x" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.142857,0},{0.0517241,0},{0.741758,0},{0.172414,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Checkbox" Name="Root/SearchConditionWnd/ClassFilter/ClassCheckBox23" >
+                        <Property Name="HoverTextColour" Value="C8FFFFFF" />
+                        <Property Name="NormalTextColour" Value="C8FFFFFF" />
+                        <Property Name="PushedTextColour" Value="C8FFFFFF" />
+                        <Property Name="Text" Value="x" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.142857,0},{0.0517241,0},{0.741758,0},{0.172414,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Checkbox" Name="Root/SearchConditionWnd/ClassFilter/ClassCheckBox24" >
+                        <Property Name="HoverTextColour" Value="C8FFFFFF" />
+                        <Property Name="NormalTextColour" Value="C8FFFFFF" />
+                        <Property Name="PushedTextColour" Value="C8FFFFFF" />
+                        <Property Name="Text" Value="x" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.142857,0},{0.0517241,0},{0.741758,0},{0.172414,0}}" />
+                    </Window>
+                </AutoWindow>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="Root/SearchConditionWnd/StatusFilter" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.487179,0},{1,0},{0.774928,0}}" />
+            <Window Type="DejaVu/Checkbox" Name="Root/SearchConditionWnd/StatusFilter/StatusCheckBoxA" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HoverTextColour" Value="C8FFFFFF" />
+                <Property Name="NormalTextColour" Value="C8FFFFFF" />
+                <Property Name="PushedTextColour" Value="C8FFFFFF" />
+                <Property Name="Text" Value="x尋求隊友" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0854701,0},{0.136364,0},{0.897436,0},{0.318182,0}}" />
+            </Window>
+            <Window Type="DejaVu/Checkbox" Name="Root/SearchConditionWnd/StatusFilter/StatusCheckBoxB" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HoverTextColour" Value="C8FFFFFF" />
+                <Property Name="NormalTextColour" Value="C8FFFFFF" />
+                <Property Name="PushedTextColour" Value="C8FFFFFF" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0854701,0},{0.329545,0},{0.905983,0},{0.511364,0}}" />
+            </Window>
+            <Window Type="DejaVu/Checkbox" Name="Root/SearchConditionWnd/StatusFilter/StatusCheckBoxC" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HoverTextColour" Value="C8FFFFFF" />
+                <Property Name="NormalTextColour" Value="C8FFFFFF" />
+                <Property Name="PushedTextColour" Value="C8FFFFFF" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0854701,0},{0.522727,0},{0.905983,0},{0.704545,0}}" />
+            </Window>
+            <Window Type="DejaVu/Checkbox" Name="Root/SearchConditionWnd/StatusFilter/StatusCheckBoxD" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HoverTextColour" Value="C8FFFFFF" />
+                <Property Name="NormalTextColour" Value="C8FFFFFF" />
+                <Property Name="PushedTextColour" Value="C8FFFFFF" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0854701,0},{0.727273,0},{0.905983,0},{0.909091,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="Root/SearchConditionWnd/OtherFilter" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.82906,0},{1,0},{1.00285,0}}" />
+            <Window Type="DejaVu/Checkbox" Name="Root/SearchConditionWnd/OtherFilter/OtherCheckBoxA" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HoverTextColour" Value="C8FFFFFF" />
+                <Property Name="NormalTextColour" Value="C8FFFFFF" />
+                <Property Name="PushedTextColour" Value="C8FFFFFF" />
+                <Property Name="Text" Value="x排除不組隊" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0854701,0},{0.230769,0},{0.905983,0},{0.538462,0}}" />
+            </Window>
+            <Window Type="DejaVu/Checkbox" Name="Root/SearchConditionWnd/OtherFilter/OtherCheckBoxB" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HoverTextColour" Value="C8FFFFFF" />
+                <Property Name="NormalTextColour" Value="C8FFFFFF" />
+                <Property Name="PushedTextColour" Value="C8FFFFFF" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0854701,0},{0.557692,0},{0.905983,0},{0.865385,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

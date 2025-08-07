@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/SearchTeamWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="TitlebarImage" Value="set:main image:SearchTeamNormal" />
+        <Property Name="UnifiedAreaRect" Value="{{0.153203,0},{0.061771,0},{0.153203,674},{0.061771,685}}" />
+        <Window Type="DejaVu/TabControl" Name="Root/SearchTeamWnd/TabControl" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="TabHeight" Value="{0,20}" />
+            <Property Name="TabPanePosition" Value="Top" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DefaultWindow" Name="Root/SearchTeamWnd/TabControl/SearchTeam" >
+                <Property Name="Text" Value="x尋求組隊" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Property Name="Visible" Value="False" />
+            </Window>
+            <Window Type="DefaultWindow" Name="Root/SearchTeamWnd/TabControl/Dungeon" >
+                <Property Name="Text" Value="x隊伍配對" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

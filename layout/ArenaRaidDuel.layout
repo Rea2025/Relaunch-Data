@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/ArenaRaidDuel" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HorizontalAlignment" Value="Centre" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,768},{0,391}}" />
+        <Property Name="VerticalAlignment" Value="Centre" />
+        <Window Type="DejaVu/StaticImage" Name="Root/ArenaRaidDuel/BackGround" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HorzFormatting" Value="Tiled" />
+            <Property Name="Image" Value="set:DejaVu image:Totem1" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0325444,0},{0.99661,0},{1,0}}" />
+            <Property Name="VertFormatting" Value="TopAligned" />
+            <Window Type="DejaVu/StaticImage" Name="Root/ArenaRaidDuel/BackGround/BlueTeamBG/Flag" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="Image" Value="set:main image:ArenaBlueTeamIcon" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.0356164,0},{0.0611621,0},{0.0315068,0},{0.41896,0}}" />
+                <Window Type="DejaVu/SlotImage" Name="Root/ArenaRaidDuel/BackGround/BlueTeamBG/Flag/WinCount" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:main image:WinCountNumber2" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.222222,0},{0.42735,0},{0.777778,0},{0.717949,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/ArenaRaidDuel/BackGround/RedTeamBG/Flag" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="Image" Value="set:main image:ArenaRedTeamIcon" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0356164,0},{0.0611621,0},{0.10274,0},{0.41896,0}}" />
+                <Window Type="DejaVu/SlotImage" Name="Root/ArenaRaidDuel/BackGround/RedTeamBG/Flag/WinCount" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:main image:WinCountNumber1" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.222222,0},{0.42735,0},{0.777778,0},{0.717949,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed2" Name="Root/ArenaRaidDuel/BackGround/RedTeamBG" >
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.0205479,0},{0.0550459,0},{0.378082,0},{0.972477,0}}" />
+                <Window Type="DejaVu/StaticText" Name="Root/ArenaRaidDuel/BackGround/RedTeamBG/MemberNameTitleText" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="X角色名稱X" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.209622,0},{0.01,0},{0.491409,0},{0.0733333,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="Root/ArenaRaidDuel/BackGround/RedTeamBG/LevelTitleText" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="x等級X" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.525925,0},{0.01,0},{0.677128,0},{0.0733333,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="Root/ArenaRaidDuel/BackGround/RedTeamBG/JobTitleText" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="x職業X" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.668461,0},{0.01,0},{0.819664,0},{0.0733333,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="Root/ArenaRaidDuel/BackGround/RedTeamBG/FamilyNameTitleText" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="X擊殺數X" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.815236,0},{0.01,0},{0.987057,0},{0.0733333,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/ArenaRaidDuel/BackGround/RedTeamBG/WinnerImage" >
+                    <Property Name="Alpha" Value="0.7" />
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                    <Property Name="Image" Value="set:main image:WinnerImage" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.713208,0},{0.283333,0}}" />
+                    <Property Name="VerticalAlignment" Value="Centre" />
+                </Window>
+                <Window Type="DejaVu/Border" Name="Root/ArenaRaidDuel/BackGround/RedTeamBG/MemberContent" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.025245,0},{0.076101,0},{0.987509,0},{0.976101,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed2" Name="Root/ArenaRaidDuel/BackGround/BlueTeamBG" >
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0205479,0},{0.0550459,0},{0.419178,0},{0.972477,0}}" />
+                <Window Type="DejaVu/StaticText" Name="Root/ArenaRaidDuel/BackGround/BlueTeamBG/MemberNameTitleText" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="X角色名稱X" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.210038,0},{0.01,0},{0.493057,0},{0.0733333,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="Root/ArenaRaidDuel/BackGround/BlueTeamBG/LevelTitleText" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="X等級X" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.524027,0},{0.01,0},{0.674971,0},{0.0733333,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="Root/ArenaRaidDuel/BackGround/BlueTeamBG/JobTitleText" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="X職業X" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.669632,0},{0.01,0},{0.820575,0},{0.0733333,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="Root/ArenaRaidDuel/BackGround/BlueTeamBG/FamilyNameTitleText" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="X擊殺數X" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.815236,0},{0.01,0},{0.985974,0},{0.0733333,0}}" />
+                </Window>
+                <Window Type="DejaVu/Border" Name="Root/ArenaRaidDuel/BackGround/BlueTeamBG/MemberContent" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0264151,0},{0.0766667,0},{0.988679,0},{0.976667,0}}" />
+                    <Window Type="DejaVu/SlotImage" Name="Root/ArenaRaidDuel/BackGround/BlueTeamBG/WinnerImage" >
+                        <Property Name="Alpha" Value="0.7" />
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="Font" Value="F001-scale" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorizontalAlignment" Value="Centre" />
+                        <Property Name="Image" Value="set:main image:WinnerImage" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.741176,0},{0.314815,0}}" />
+                        <Property Name="VerticalAlignment" Value="Centre" />
+                    </Window>
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/zStaticLab" Name="Root/ArenaRaidDuel/BackGround/Round" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-12" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="Text" Value="x雙方隊伍x" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0355191,0},{0,0},{0.147541,0},{0.0650888,0}}" />
+        </Window>
+        <Window Type="DejaVu/ImageButton" Name="Root/ArenaRaidDuel/BackGround/HelpBtn" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="ClippedByParent" Value="False" />
+            <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+            <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+            <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+            <Property Name="UnifiedAreaRect" Value="{{0.981702,0},{-0.0502959,0},{0.981702,12},{-0.0502959,12}}" />
+            <Property Name="Visible" Value="False" />
+        </Window>
+    </Window>
+</GUILayout>

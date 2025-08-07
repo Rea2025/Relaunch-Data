@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="MessageBoard" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HorizontalAlignment" Value="Centre" />
+        <Property Name="Text" Value="MessageBoard" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.6225,0},{0.87,0}}" />
+        <Property Name="VerticalAlignment" Value="Centre" />
+        <Window Type="DejaVu/Static" Name="MessageBoard/Board" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.006494,0},{0.391579,0},{0.991342,0},{0.997123,0}}" />
+            <Window Type="DejaVu/Listbox" Name="MessageBoard/Board/List" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.064725,0},{0.971429,0},{0.854369,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="MessageBoard/Board/Button/Post" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="Post" />
+                <Property Name="UnifiedAreaRect" Value="{{0.806593,0},{0.876761,0},{0.96044,0},{0.961268,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="MessageBoard/Board/AvailablePost" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" Value="Available Space" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0263736,0},{0.876761,0},{0.246154,0},{0.961268,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="MessageBoard/Board/PageNumber" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="10/10" />
+                <Property Name="UnifiedAreaRect" Value="{{0.461538,0},{0.876761,0},{0.538462,0},{0.961268,0}}" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="MessageBoard/Board/Button/PageLeft" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HoverImage" Value="set:DejaVu image:NumberLeftH" />
+                <Property Name="NormalImage" Value="set:DejaVu image:NumberLeftN" />
+                <Property Name="PushedImage" Value="set:DejaVu image:NumberLeftP" />
+                <Property Name="UnifiedAreaRect" Value="{{0.415385,0},{0.894366,0},{0.448352,0},{0.947183,0}}" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="MessageBoard/Board/Button/PageRight" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HoverImage" Value="set:DejaVu image:NumberRightH" />
+                <Property Name="NormalImage" Value="set:DejaVu image:NumberRightN" />
+                <Property Name="PushedImage" Value="set:DejaVu image:NumberRightP" />
+                <Property Name="UnifiedAreaRect" Value="{{0.553846,0},{0.894366,0},{0.586813,0},{0.947183,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/StaticTextLab" Name="MessageBoard/Owner/Label" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="Text" Value="OwnerTitle" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0497836,0},{0,0},{0.201299,0},{0.0505263,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticTextLab" Name="MessageBoard/Board/Label" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="Text" Value="Board" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0497836,0},{0.366316,0},{0.201299,0},{0.416842,0}}" />
+        </Window>
+        <Window Type="DejaVu/Static" Name="MessageBoard/Owner" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.006494,0},{0.025263,0},{0.991342,0},{0.353621,0}}" />
+            <Window Type="DejaVu/Button" Name="MessageBoard/Owner/Setup" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="Setup" />
+                <Property Name="UnifiedAreaRect" Value="{{0.806593,0},{0.805195,0},{0.96044,0},{0.961039,0}}" />
+            </Window>
+            <Window Type="DejaVu/MultiLineEditbox" Name="MessageBoard/Owner/Text" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="MaxTextLength" Value="450" />
+                <Property Name="NormalTextColour" Value="C8FFFFFF" />
+                <Property Name="ReadOnly" Value="True" />
+                <Property Name="SelectedTextColour" Value="FFFFFFFF" />
+                <Property Name="Text" >
+</Property>
+                <Property Name="TextParsingEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0131868,0},{0.116883,0},{0.986813,0},{0.766234,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

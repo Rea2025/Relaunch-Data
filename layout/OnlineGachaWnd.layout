@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="OnlineGachaWnd" >
+        <Property Name="HorizontalAlignment" Value="Centre" />
+        <Property Name="MousePassThroughEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,1035},{0,648}}" />
+        <Property Name="VerticalAlignment" Value="Centre" />
+        <Window Type="DejaVu/StaticImage" Name="OnlineGachaWnd/Display" >
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0421875,0},{0.00843882,0},{0.985417,0},{0.968355,0}}" />
+            <Window Type="DejaVu/StaticImage" Name="OnlineGachaWnd/Display/BG" >
+                <Property Name="UnifiedAreaRect" Value="{{0.000520833,0},{0,0},{1.00052,0},{0.833333,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="OnlineGachaWnd/Display/BG/Character" >
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0617452,0},{0.119784,0},{0.0617452,540},{0.119784,521}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="OnlineGachaWnd/Display/BG/Character/ActivityTime" >
+                        <Property Name="Font" Value="F001-14" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="Text" Value="x剩餘時間：XX日XX時XX分" />
+                        <Property Name="TextFrame" Value="True" />
+                        <Property Name="TextFrameColour" Value="FF000000" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.069444,0},{0.027397,0},{0.680555,0},{0.0986299,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="OnlineGachaWnd/Display/BG/Character/Goal" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.774074,0},{0.182342,0},{0.774074,64},{0.182342,64}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="OnlineGachaWnd/Display/BG/Title" >
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.202899,0},{0.037037,0},{0.666667,0},{0.22963,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="OnlineGachaWnd/Display/HelpBtn" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                    <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                    <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                    <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.439614,0},{-0.410714,0},{0.439614,40},{-0.410714,40}}" />
+                    <Property Name="VerticalAlignment" Value="Centre" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="OnlineGachaWnd/Display/CloseBtn" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                    <Property Name="HoverImage" Value="set:DejaVu image:CloseBtnHover" />
+                    <Property Name="NormalImage" Value="set:DejaVu image:CloseBtnNormal" />
+                    <Property Name="PushedImage" Value="set:DejaVu image:CloseBtnPressed" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.478261,0},{-0.410714,0},{0.478261,40},{-0.410714,35}}" />
+                    <Property Name="VerticalAlignment" Value="Centre" />
+                </Window>
+                <Window Type="DejaVu/ScrollablePane" Name="OnlineGachaWnd/Display/BG/List" >
+                    <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                    <Property Name="HorzOverlapSize" Value="0.01" />
+                    <Property Name="HorzScrollPosition" Value="0" />
+                    <Property Name="HorzStepSize" Value="0.1" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.521739,0},{0.246575,0},{0.956522,0},{0.821918,0}}" />
+                    <Property Name="VertOverlapSize" Value="0.01" />
+                    <Property Name="VertScrollPosition" Value="0" />
+                    <Property Name="VertStepSize" Value="0.1" />
+                    <AutoWindow NameSuffix="__auto_container__" >
+                        <Property Name="ChildExtentsArea" Value="l:0 t:0 r:0 b:0" />
+                        <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                        <Property Name="MouseInputPropagationEnabled" Value="True" />
+                    </AutoWindow>
+                </Window>
+                <Window Type="DejaVu/Button" Name="OnlineGachaWnd/Display/BG/GetBtn" >
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="Text" Value="x10連抽" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.521739,0},{0.849315,0},{0.631884,0},{0.920548,0}}" />
+                    <Window Type="DejaVu/StaticImage" Name="OnlineGachaWnd/Display/BG/GetBtn/Hint" >
+                        <Property Name="HorizontalAlignment" Value="Right" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.197368,0},{0.625,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="OnlineGachaWnd/Display/BG/RemainGacha" >
+                    <Property Name="Font" Value="F001-12" />
+                    <Property Name="HorizontalAlignment" Value="Right" />
+                    <Property Name="HorzFormatting" Value="RightAligned" />
+                    <Property Name="Text" Value="剩餘抽獎次數：XXX" />
+                    <Property Name="TextFrame" Value="True" />
+                    <Property Name="TextFrameColour" Value="FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{-0.043478,0},{0.835616,0},{0.246377,0},{0.882191,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="OnlineGachaWnd/Display/BG/GachaSummary" >
+                    <Property Name="Font" Value="F001-12" />
+                    <Property Name="HorizontalAlignment" Value="Right" />
+                    <Property Name="HorzFormatting" Value="RightAligned" />
+                    <Property Name="Text" Value="累積抽獎次數：XXX/XXX" />
+                    <Property Name="TextFrame" Value="True" />
+                    <Property Name="TextFrameColour" Value="FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{-0.0434783,0},{0.883212,0},{0.246377,0},{0.930657,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="OnlineGachaWnd/Display/Banner" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.811355,0},{1,0},{0.978022,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

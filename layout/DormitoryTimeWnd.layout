@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/DormitoryTimeWnd" >
+        <Property Name="HorizontalAlignment" Value="Right" />
+        <Property Name="MousePassThroughEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,184},{0,352}}" />
+        <Property Name="VerticalAlignment" Value="Bottom" />
+        <Window Type="DejaVu/StaticTextLab" Name="Root/DormitoryTimeWnd/TimeText" >
+            <Property Name="Font" Value="F001-20" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="Text" Value="x00:00:00" />
+            <Property Name="UnifiedAreaRect" Value="{{0.173729,0},{0.064444,0},{0.826271,0},{0.12,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticTextLab" Name="Root/DormitoryTimeWnd/TitleText" >
+            <Property Name="Font" Value="F001-12" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="Text" Value="x剩餘時間" />
+            <Property Name="UnifiedAreaRect" Value="{{0.127119,0},{0.00470588,0},{0.826271,0},{0.0564706,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

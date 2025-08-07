@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/Static" Name="ArenaListItem" >
+        <Property Name="Font" Value="F001-scale" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.270508,0},{0.492188,0}}" />
+        <Window Type="DejaVu/Embed2" Name="ArenaListItem/Item" >
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,262},{0,54}}" />
+            <Window Type="DejaVu/StaticImage" Name="ArenaListItem/Item/SelectFrame" >
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="Image" Value="set:DejaVu image:ItemSelectionBrush" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="ArenaListItem/Item/Icon" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="Image" Value="set:main image:noimage" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.038168,0},{0.185185,0},{0.167939,0},{0.814815,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="ArenaListItem/Item/NameText" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="自由PK場五六七八九十" />
+                <Property Name="UnifiedAreaRect" Value="{{0.206107,0},{0.185185,0},{0.683206,0},{0.444444,0}}" />
+                <Property Name="VertFormatting" Value="TopAligned" />
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="ArenaListItem/Item/TimeText" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="開放時間　週一 15：00" />
+                <Property Name="TextColours" Value="tl:FFFFFF00 tr:FFFFFF00 bl:FFFFFF00 br:FFFFFF00" />
+                <Property Name="UnifiedAreaRect" Value="{{0.206107,0},{0.555556,0},{0.70229,0},{0.814815,0}}" />
+                <Property Name="VertFormatting" Value="TopAligned" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="ArenaListItem/Item/JoinBtn" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="x報名" />
+                <Property Name="UnifiedAreaRect" Value="{{0.70229,0},{0.537037,0},{0.961832,0},{0.851852,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

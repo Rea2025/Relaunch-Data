@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/StallUI" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="Text" Value="x擺攤" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="TitlebarImage" Value="set:main image:Sell" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,680},{0,734}}" />
+        <Window Type="DejaVu/Embed" Name="Root/StallUI/Embed" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Embed2" Name="Root/StallUI/BG" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0150602,0},{0.030581,0},{0.98494,0},{0.937309,0}}" />
+                <Window Type="DejaVu/Embed3" Name="Root/StallUI/Item" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.185497,0}}" />
+                    <Window Type="DejaVu/EmbedTextLab7" Name="Root/StallUI/Item/Text1" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="x擺攤價格" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.015528,0},{0.7,0},{0.139752,0},{0.927273,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Embed3" Name="Root/StallUI/ItemBG" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.015528,0},{0.227273,0},{0.543478,0},{0.7,0}}" />
+                        <Window Type="DejaVu/SlotImage" Name="Root/StallUI/ItemBG/ItemSlot" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.014706,0},{0.096154,0},{0.138235,0},{0.903846,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticTextLab" Name="Root/StallUI/ItemBG/Name" >
+                            <Property Name="Text" Value="一二三四五六七八九十一二" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.182353,0},{0.307692,0},{0.970588,0},{0.692308,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab7" Name="Root/StallUI/Item/Text3" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="x宣傳文字" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.559006,0},{0.227273,0},{0.984472,0},{0.454546,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/MultiLineEditbox" Name="Root/StallUI/Item/EditBox" >
+                        <Property Name="MaxTextLength" Value="50" />
+                        <Property Name="NormalTextColour" Value="ffffffff" />
+                        <Property Name="Text" >一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十
+</Property>
+                        <Property Name="TextParsingEnabled" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.559006,0},{0.454545,0},{0.984472,0},{0.936363,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Button" Name="Root/StallUI/Item/SetProductBtn" >
+                        <Property Name="Text" Value="x物品上架" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.425466,0},{0.7,0},{0.543478,0},{0.936364,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/StallUI/Item/GoldEdit" >
+                        <Property Name="Image" Value="set:main image:Money" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.139752,0},{0.7,0},{0.326087,0},{0.927273,0}}" />
+                        <Window Type="DejaVu/Editbox" Name="Root/StallUI/Item/GoldEdit/goldBG" >
+                            <Property Name="MaxTextLength" Value="5" />
+                            <Property Name="ReadOnly" Value="True" />
+                            <Property Name="TextParsingEnabled" Value="False" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.458333,0},{1,0}}" />
+                            <Window Type="DejaVu/Editbox" Name="Root/StallUI/Item/GoldEdit/goldedit" >
+                                <Property Name="BackgroundEnabled" Value="False" />
+                                <Property Name="MaxTextLength" Value="5" />
+                                <Property Name="TextParsingEnabled" Value="False" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/Editbox" Name="Root/StallUI/Item/GoldEdit/silverBG" >
+                            <Property Name="MaxTextLength" Value="2" />
+                            <Property Name="ReadOnly" Value="True" />
+                            <Property Name="TextParsingEnabled" Value="False" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.583333,0},{0,0},{0.875,0},{1,0}}" />
+                            <Window Type="DejaVu/Editbox" Name="Root/StallUI/Item/GoldEdit/silveredit" >
+                                <Property Name="BackgroundEnabled" Value="False" />
+                                <Property Name="MaxTextLength" Value="3" />
+                                <Property Name="TextParsingEnabled" Value="False" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/StaticImage" Name="Root/StallUI/Item/GoldEdit/goldImg" >
+                            <Property Name="Image" Value="set:main image:Gold" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.458333,0},{0.2,0},{0.583333,0},{0.8,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticImage" Name="Root/StallUI/Item/GoldEdit/SilverImg" >
+                            <Property Name="Image" Value="set:main image:Silver" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.875,0},{0.2,0},{1,0},{0.8,0}}" />
+                        </Window>
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed2" Name="Root/StallUI/Stall" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.015528,0},{0.182125,0},{0.984472,0},{0.946037,0}}" />
+                    <Window Type="DejaVu/MultiColumnList" Name="Root/StallUI/Stall/List" >
+                        <Property Name="ColumnsMovable" Value="False" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/StallUI/BG/FirstPageBtn" >
+                    <Property Name="DisabledImage" Value="set:DejaVu image:DoubledLeftArrowPressed" />
+                    <Property Name="HoverImage" Value="set:DejaVu image:DoubledLeftArrowHover" />
+                    <Property Name="NormalImage" Value="set:DejaVu image:DoubledLeftArrowNormal" />
+                    <Property Name="PushedImage" Value="set:DejaVu image:DoubledLeftArrowPressed" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.375776,0},{0.940978,0},{0.406832,0},{0.983137,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/StallUI/BG/PrevPageBtn" >
+                    <Property Name="DisabledImage" Value="set:DejaVu image:ArrowLeftPressed" />
+                    <Property Name="HoverImage" Value="set:DejaVu image:ArrowLeftHover" />
+                    <Property Name="NormalImage" Value="set:DejaVu image:ArrowLeftNormal" />
+                    <Property Name="PushedImage" Value="set:DejaVu image:ArrowLeftPressed" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.406832,0},{0.940978,0},{0.437888,0},{0.983137,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab5" Name="Root/StallUI/BG/PageNumber" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="1/99" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.445652,0},{0.940978,0},{0.554348,0},{0.983137,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/StallUI/BG/NextPageBtn" >
+                    <Property Name="DisabledImage" Value="set:DejaVu image:ArrowRightPressed" />
+                    <Property Name="HoverImage" Value="set:DejaVu image:ArrowRightHover" />
+                    <Property Name="NormalImage" Value="set:DejaVu image:ArrowRightNormal" />
+                    <Property Name="PushedImage" Value="set:DejaVu image:ArrowRightPressed" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.562112,0},{0.940978,0},{0.593168,0},{0.983137,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/StallUI/BG/LastPageBtn" >
+                    <Property Name="DisabledImage" Value="set:DejaVu image:DoubledRightArrowPressed" />
+                    <Property Name="HoverImage" Value="set:DejaVu image:DoubledRightArrowHover" />
+                    <Property Name="NormalImage" Value="set:DejaVu image:DoubledRightArrowNormal" />
+                    <Property Name="PushedImage" Value="set:DejaVu image:DoubledRightArrowPressed" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.593168,0},{0.940978,0},{0.624224,0},{0.983137,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/StallUI/StallBtn" >
+                <Property Name="Text" Value="x開始擺攤" />
+                <Property Name="UnifiedAreaRect" Value="{{0.870482,0},{0.944954,0},{0.98494,0},{0.984709,0}}" />
+            </Window>
+            <Window Type="DejaVu/Embed2" Name="Root/StallUI/Money" >
+                <Property Name="UnifiedAreaRect" Value="{{0.135542,0},{0.944954,0},{0.361446,0},{0.98318,0}}" />
+                <Window Type="DejaVu/StaticText" Name="Root/StallUI/Money/goldText" >
+                    <Property Name="HorzFormatting" Value="RightAligned" />
+                    <Property Name="Text" Value="999999" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.4,0},{0.8,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="Root/StallUI/Money/silverText" >
+                    <Property Name="HorzFormatting" Value="RightAligned" />
+                    <Property Name="Text" Value="999" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.566667,0},{0.2,0},{0.733334,0},{0.8,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/StallUI/Money/goldImg" >
+                    <Property Name="Image" Value="set:main image:Gold" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.433333,0},{0.2,0},{0.546667,0},{0.8,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/StallUI/Money/silverImg" >
+                    <Property Name="Image" Value="set:main image:Silver" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.766667,0},{0.2,0},{0.88,0},{0.8,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed4" Name="Root/StallUI/Title" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.01506,0},{0.01529,0},{0.240964,0},{0.0535163,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/StallUI/Title/Text" >
+                    <Property Name="Text" Value="x擺攤上架" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.2,0},{0.8,0},{0.8,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/StallUI/Title/Img" >
+                    <Property Name="Image" Value="set:DejaVu image:Image16" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/EmbedTextLab7" Name="Root/StallUI/MoneyText" >
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="x個人金錢" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0150602,0},{0.944954,0},{0.135542,0},{0.98318,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

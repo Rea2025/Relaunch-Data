@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="DKPExchangeGDKPWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="TitlebarImage" Value="set:main4 image:TreasureBtnNormal" />
+        <Property Name="UnifiedAreaRect" Value="{{0.230468,0},{0.359375,0},{0.230468,260},{0.359375,265}}" />
+        <Window Type="DejaVu/Embed" Name="DKPExchangeGDKPWnd/BG" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1.0041,0},{1,0}}" />
+            <Window Type="DejaVu/Embed2" Name="DKPExchangeGDKPWnd/BG/ExchangeBG" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0400106,0},{0.05145,0},{0.959224,0},{0.613612,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="DKPExchangeGDKPWnd/BG/ExchangeBG/Text1" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="輸入兌換數量(1-99)" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.111111,0},{0.144231,0},{0.888889,0},{0.336539,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="DKPExchangeGDKPWnd/BG/ExchangeBG/Text2" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="金色神域點數" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.111111,0},{0.384615,0},{0.888889,0},{0.576923,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="DKPExchangeGDKPWnd/BG/ExchangeBG/Number" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.355556,0},{0.663462,0},{0.644444,0},{0.903846,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="DKPExchangeGDKPWnd/BG/ExchangeBG/Up" >
+                    <Property Name="DisabledImage" Value="set:DejaVu image:ArrowRightPressed" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HoverImage" Value="set:DejaVu image:ArrowRightHover" />
+                    <Property Name="NormalImage" Value="set:DejaVu image:ArrowRightNormal" />
+                    <Property Name="PushedImage" Value="set:DejaVu image:ArrowRightPressed" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.666667,0},{0.663462,0},{0.755556,0},{0.903846,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="DKPExchangeGDKPWnd/BG/ExchangeBG/UpMax" >
+                    <Property Name="DisabledImage" Value="set:DejaVu image:DoubledRightArrowPressed" />
+                    <Property Name="HoverImage" Value="set:DejaVu image:DoubledRightArrowHover" />
+                    <Property Name="NormalImage" Value="set:DejaVu image:DoubledRightArrowNormal" />
+                    <Property Name="PushedImage" Value="set:DejaVu image:DoubledRightArrowPressed" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.755556,0},{0.663462,0},{0.844444,0},{0.903846,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="DKPExchangeGDKPWnd/BG/ExchangeBG/Down" >
+                    <Property Name="DisabledImage" Value="set:DejaVu image:ArrowLeftPressed" />
+                    <Property Name="HoverImage" Value="set:DejaVu image:ArrowLeftHover" />
+                    <Property Name="NormalImage" Value="set:DejaVu image:ArrowLeftNormal" />
+                    <Property Name="PushedImage" Value="set:DejaVu image:ArrowLeftPressed" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.244444,0},{0.663462,0},{0.333333,0},{0.903846,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="DKPExchangeGDKPWnd/BG/ExchangeBG/DownMax" >
+                    <Property Name="DisabledImage" Value="set:DejaVu image:DoubledLeftArrowPressed" />
+                    <Property Name="HoverImage" Value="set:DejaVu image:DoubledLeftArrowHover" />
+                    <Property Name="NormalImage" Value="set:DejaVu image:DoubledLeftArrowNormal" />
+                    <Property Name="PushedImage" Value="set:DejaVu image:DoubledLeftArrowPressed" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.155556,0},{0.663462,0},{0.244444,0},{0.903846,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Button" Name="DKPExchangeGDKPWnd/BG/Btn1" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="x兌換" />
+                <Property Name="UnifiedAreaRect" Value="{{0.040984,0},{-0.054054,0},{0.352459,0},{0.0864865,0}}" />
+                <Property Name="VerticalAlignment" Value="Bottom" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="DKPExchangeGDKPWnd/BG/Btn2" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="x取消" />
+                <Property Name="UnifiedAreaRect" Value="{{0.651639,0},{-0.0540541,0},{0.963115,0},{0.0864865,0}}" />
+                <Property Name="VerticalAlignment" Value="Bottom" />
+            </Window>
+            <Window Type="DejaVu/Embed2" Name="DKPExchangeGDKPWnd/BG/Need" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0400114,0},{0.643243,0},{0.960197,0},{0.778378,0}}" />
+                <Window Type="DejaVu/EmbedText7" Name="DKPExchangeGDKPWnd/BG/Need/Title" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="x需求數量" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.4,0},{1,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="DKPExchangeGDKPWnd/BG/Need/Num" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorzFormatting" Value="RightAligned" />
+                    <Property Name="Text" Value="200000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.444444,0},{0,0},{0.866666,0},{1,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="DKPExchangeGDKPWnd/BG/Need/Img" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Image" Value="set:main image:DKPCoin" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.888889,0},{0.115385,0},{0.977778,0},{0.915385,0}}" />
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

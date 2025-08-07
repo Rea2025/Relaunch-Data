@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="ReviveMenuUI" >
+        <Property Name="CloseButtonEnabled" Value="False" />
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="TitlebarImage" Value="set:main image:SystemNormal" />
+        <Property Name="UnifiedAreaRect" Value="{{0.355469,0},{0.325521,0},{0.355469,266},{0.325521,324}}" />
+        <Window Type="DejaVu/Embed" Name="ReviveMenuUI/Background" >
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Embed2" Name="ReviveMenuUI/Background/Embed" >
+                <Property Name="UnifiedAreaRect" Value="{{0.04,0},{0.0409836,0},{0.96,0},{0.959016,0}}" />
+                <Window Type="DejaVu/Button" Name="ReviveMenuUI/Background/Embed/NearbyBtn" >
+                    <Property Name="Text" Value="x就近復活" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0434783,0},{-0.183036,0},{0.478261,0},{-0.0669643,0}}" />
+                    <Property Name="VerticalAlignment" Value="Bottom" />
+                </Window>
+                <Window Type="DejaVu/Button" Name="ReviveMenuUI/Background/Embed/ItemmallBtn" >
+                    <Property Name="Text" Value="x虛寶復活" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0434783,0},{-0.0446429,0},{0.478261,0},{0.0714286,0}}" />
+                    <Property Name="VerticalAlignment" Value="Bottom" />
+                </Window>
+                <Window Type="DejaVu/Button" Name="ReviveMenuUI/Background/Embed/StayHereBtn" >
+                    <Property Name="HorizontalAlignment" Value="Right" />
+                    <Property Name="Text" Value="x原地復活" />
+                    <Property Name="UnifiedAreaRect" Value="{{-0.0434783,0},{-0.183036,0},{0.391304,0},{-0.0669643,0}}" />
+                    <Property Name="VerticalAlignment" Value="Bottom" />
+                </Window>
+                <Window Type="DejaVu/Embed2" Name="ReviveMenuUI/Background/Embed/CountDownBG" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorizontalAlignment" Value="Right" />
+                    <Property Name="UnifiedAreaRect" Value="{{-0.0434783,0},{-0.0446429,0},{0.391304,0},{0.0714286,0}}" />
+                    <Property Name="VerticalAlignment" Value="Bottom" />
+                    <Window Type="DejaVu/StaticTextLab" Name="ReviveMenuUI/Background/Embed/CountDownBG/Text" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="60  秒" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0,0},{0.95,0},{1,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab7" Name="ReviveMenuUI/Background/Embed/InfoTitle" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="x死亡紀錄" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.043478,0},{0.044643,0},{0.956521,0},{0.15625,0}}" />
+                </Window>
+                <Window Type="DejaVu/Embed2" Name="ReviveMenuUI/Background/Embed/InfoBG" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.043478,0},{0.15625,0},{0.956521,0},{0.65625,0}}" />
+                    <Window Type="DejaVu/StaticText" Name="ReviveMenuUI/Background/Embed/InfoBG/content" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                        <Property Name="LinespaceWindow" Value="True" />
+                        <Property Name="Text" >一二三四五六
+一二三四五六
+</Property>
+                        <Property Name="UnifiedAreaRect" Value="{{0.047619,0},{0.089286,0},{0.952381,0},{0.910715,0}}" />
+                        <Property Name="VertFormatting" Value="TopAligned" />
+                        <Property Name="VertScrollbar" Value="True" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/EmbedText7" Name="ReviveMenuUI/Background/Embed/TextTime" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="HorizontalAlignment" Value="Right" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="tim" />
+                    <Property Name="UnifiedAreaRect" Value="{{-0.043478,0},{-0.1875,0},{0.391305,0},{-0.0714286,0}}" />
+                    <Property Name="VerticalAlignment" Value="Bottom" />
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

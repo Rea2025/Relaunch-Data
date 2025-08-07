@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/BuyMsgDlg" >
+        <Property Name="AlwaysOnTop" Value="True" />
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="SizingEnabled" Value="True" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.375977,0},{0.325,0},{0.375977,266},{0.325,288}}" />
+        <Window Type="DejaVu/Embed" Name="Root/BuyMsgDlg/Static" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Embed2" Name="Root/BuyMsgDlg/Static/Embed" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.048077,0},{0.92,0},{0.802885,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/BuyMsgDlg/MsgLb" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                    <Property Name="HorzFormatting" Value="WordWrapCentred" />
+                    <Property Name="Text" Value="X是否購買下列物品" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.063694,0},{0.913043,0},{0.22293,0}}" />
+                </Window>
+                <Window Type="DejaVu/Embed2" Name="Root/BuyMsgDlg/Money" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.347826,0},{0.77707,0},{0.956522,0},{0.936306,0}}" />
+                    <Window Type="DejaVu/Static" Name="Root/BuyMsgDlg/MoneyBG" >
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                        <Window Type="DejaVu/StaticImage" Name="Root/BuyMsgDlg/SilverImg" >
+                            <Property Name="Image" Value="set:main image:Silver" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.857143,0},{0.2,0},{0.964286,0},{0.8,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticImage" Name="Root/BuyMsgDlg/GoldImg" >
+                            <Property Name="Image" Value="set:main image:Gold" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.428571,0},{0.2,0},{0.535714,0},{0.8,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticTextLab" Name="Root/BuyMsgDlg/Silver" >
+                            <Property Name="HorzFormatting" Value="RightAligned" />
+                            <Property Name="Text" Value="9999" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.107143,0},{0.2,0},{0.821429,0},{0.8,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticTextLab" Name="Root/BuyMsgDlg/Gold" >
+                            <Property Name="HorzFormatting" Value="RightAligned" />
+                            <Property Name="Text" Value="99999" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0928571,0},{0.2,0},{0.414286,0},{0.8,0}}" />
+                        </Window>
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab7" Name="Root/BuyMsgDlg/MoneyTitle" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="x價格" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.043478,0},{0.77707,0},{0.347826,0},{0.936306,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/BuyMsgDlg/Slot" >
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.286624,0},{0.182609,0},{0.55414,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/BuyMsgDlg/ItemName" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                    <Property Name="HorzFormatting" Value="WordWrapCentred" />
+                    <Property Name="Text" Value="一二三四五六七八九十一二" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.55414,0},{0.913043,0},{0.713376,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/BuyMsgDlg/Btn1" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="Btn1" />
+                <Property Name="UnifiedAreaRect" Value="{{0.04,0},{0.826923,0},{0.344,0},{0.951923,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/BuyMsgDlg/Btn3" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="Text" Value="Btn3" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.04,0},{0.826923,0},{0.264,0},{0.951923,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/BuyMsgDlg/Btn2" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="Text" Value="Btn2" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.826923,0},{0.304,0},{0.951923,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/ChanceLuckyBag" >
+        <Property Name="CloseButtonEnabled" Value="False" />
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HorizontalAlignment" Value="Centre" />
+        <Property Name="Text" Value="寶盒結果" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,312},{0,203}}" />
+        <Property Name="VerticalAlignment" Value="Centre" />
+        <Window Type="DejaVu/Static" Name="Root/ChanceLuckyBag/Static" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.00347215,0},{0.0789785,0},{1.00347,0},{1.00527,0}}" />
+            <Window Type="DejaVu/ImageButton" Name="Root/ChanceLuckyBag/Static/" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0.926471,0},{0.0410959,0},{0.977941,0},{0.136986,0}}" />
+                <Property Name="Visible" Value="False" />
+            </Window>
+            <Window Type="DejaVu/HintTextLab" Name="Root/ChanceLuckyBag/Static/Border/StaticTextLab" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" Value="x抽重消失機率99.9%x" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0639743,0},{0.496437,0},{0.656701,0},{0.664376,0}}" />
+            </Window>
+            <Window Type="DejaVu/Embed4" Name="Root/ChanceLuckyBag/Static/Border/BG1" >
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.159049,0},{0.888446,0},{0.459524,0}}" />
+                <Window Type="DejaVu/SlotImage" Name="Root/ChanceLuckyBag/Static/Border/BG1/Icon" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.0256348,0},{0,0},{0.156247,0},{0.761905,0}}" />
+                    <Property Name="VerticalAlignment" Value="Centre" />
+                </Window>
+                <Window Type="DejaVu/HintTextLab" Name="Root/ChanceLuckyBag/Static/Border/BG1/HintTextLab" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                    <Property Name="Text" Value="一大堆icon哈哈哈哈哈" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.269388,0},{0,0},{0.946939,0},{0.857143,0}}" />
+                    <Property Name="VerticalAlignment" Value="Centre" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/ChanceLuckyBag/Static/Border/Button" >
+                <Property Name="Text" Value="領取" />
+                <Property Name="UnifiedAreaRect" Value="{{0.407273,0},{0.763359,0},{0.68,0},{0.946565,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/ChanceLuckyBag/Static/Border/Button1" >
+                <Property Name="Text" Value="重抽" />
+                <Property Name="UnifiedAreaRect" Value="{{0.701818,0},{0.763359,0},{0.974545,0},{0.946565,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/zStaticLab" Name="Root/ChanceLuckyBag/StaticTextLab" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="Text" Value="x領取內容x" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0694445,0},{0.0163044,0},{0.380342,0},{0.180874,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

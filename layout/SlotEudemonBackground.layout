@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="SlotEudemonBackground" >
+        <Property Name="UnifiedAreaRect" Value="{{0.048828,0},{0.065104,0},{0.292969,0},{0.335937,0}}" />
+        <Window Type="DejaVu/StaticImage" Name="SlotEudemonBackground/Item" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.141907,0},{0.238806,0}}" />
+            <Window Type="DejaVu/SlotImage" Name="SlotEudemonBackground/Item/Icon" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.976744,0},{0.976744,0}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="SlotEudemonBackground/Item/Light" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="Image" Value="set:main2 image:Light" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1.34783,0},{1.34783,0}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+                <Property Name="Visible" Value="False" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/CS_CameraViewWnd" >
+        <Property Name="ClippedByParent" Value="False" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{-0.15,0},{0.3,0},{0.3,0}}" />
+        <Property Name="VerticalAlignment" Value="Bottom" />
+        <Window Type="DejaVu/Static" Name="Root/CS_CameraViewWnd/Background" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.9,0}}" />
+            <Window Type="DejaVu/StaticImage" Name="Root/CS_CameraViewWnd/Background/View" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Editbox" Name="Root/CS_CameraViewWnd/Edit_Rect_Left" >
+            <Property Name="MaxTextLength" Value="2147483647" />
+            <Property Name="TextParsingEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.25,0},{0.1,0}}" />
+            <Property Name="VerticalAlignment" Value="Bottom" />
+            <Window Type="DejaVu/StaticText" Name="Root/CS_CameraViewWnd/Edit_Rect_Left/Text" >
+                <Property Name="Font" Value="F001-12" />
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="左" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.3,0},{1,0}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Editbox" Name="Root/CS_CameraViewWnd/Edit_Rect_Right" >
+            <Property Name="MaxTextLength" Value="2147483647" />
+            <Property Name="TextParsingEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.25,0},{0,0},{0.5,0},{0.1,0}}" />
+            <Property Name="VerticalAlignment" Value="Bottom" />
+            <Window Type="DejaVu/StaticText" Name="Root/CS_CameraViewWnd/Edit_Rect_Right/Text" >
+                <Property Name="Font" Value="F001-12" />
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="右" />
+                <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.05,0},{0.35,0},{1.05,0}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Editbox" Name="Root/CS_CameraViewWnd/Edit_Rect_Top" >
+            <Property Name="MaxTextLength" Value="2147483647" />
+            <Property Name="TextParsingEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0,0},{0.75,0},{0.1,0}}" />
+            <Property Name="VerticalAlignment" Value="Bottom" />
+            <Window Type="DejaVu/StaticText" Name="Root/CS_CameraViewWnd/Edit_Rect_Top/Text" >
+                <Property Name="Font" Value="F001-12" />
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="上" />
+                <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.1,0},{0.4,0},{1.1,0}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Editbox" Name="Root/CS_CameraViewWnd/Edit_Rect_Bottom" >
+            <Property Name="MaxTextLength" Value="2147483647" />
+            <Property Name="TextParsingEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.75,0},{0,0},{1,0},{0.1,0}}" />
+            <Property Name="VerticalAlignment" Value="Bottom" />
+            <Window Type="DejaVu/StaticText" Name="Root/CS_CameraViewWnd/Edit_Rect_Bottom/Text" >
+                <Property Name="Font" Value="F001-12" />
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="下" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.3,0},{1,0}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

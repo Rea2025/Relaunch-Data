@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/spellitem" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="UnifiedMaxSize" Value="{{0,174},{0,47}}" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,174},{0,47}}" />
+        <Property Name="UnifiedMinSize" Value="{{0,174},{0,47}}" />
+        <Window Type="DejaVu/Embed4" Name="Root/spellitem/backgrand" >
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,174},{0,47}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Window Type="DejaVu/SlotImage" Name="Root/spellitem/backgrand/TreasureImage" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0248227,0},{0.148936,0},{0.0248227,34},{0.148936,34}}" />
+                <Window Type="DejaVu/Embed" Name="Root/spellitem/backgrand/TreasureImage/frame" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,34},{0,34}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/spellitem/backgrand/TitleText" >
+                <Property Name="Text" Value="x動作" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.264805,0},{0.0442199,0},{0.264805,120},{0.0442199,42}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

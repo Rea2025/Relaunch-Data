@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="WitchCraftTransferWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="TitlebarImage" Value="set:main image:Combine" />
+        <Property Name="UnifiedAreaRect" Value="{{0.287109,0},{0.102865,0},{0.287109,385},{0.102865,577}}" />
+        <Window Type="DejaVu/Embed" Name="WitchCraftTransferWnd/Frame" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1.00271,0},{1,0}}" />
+            <Window Type="DejaVu/Static" Name="WitchCraftTransferWnd/Frame/FromArea" >
+                <Property Name="UnifiedAreaRect" Value="{{0.0271003,0},{0.0201207,0},{0.973662,0},{0.295775,0}}" />
+                <Window Type="DejaVu/Embed2" Name="WitchCraftTransferWnd/Frame/FromArea/Frame" >
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.070423,0},{1,0},{1,0}}" />
+                    <Window Type="DejaVu/Embed3" Name="WitchCraftTransferWnd/Frame/FromArea/Frame/Item" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.0285714,0},{0.354331,0},{0.971429,0},{0.76378,0}}" />
+                        <Window Type="DejaVu/SlotImage" Name="WitchCraftTransferWnd/Frame/FromArea/Frame/Item/Slot" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.0140571,0},{0.096154,0},{0.14133,0},{0.903846,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Embed5" Name="WitchCraftTransferWnd/Frame/FromArea/Frame/Item/TextArea" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.157576,0},{0.25,0},{0.969697,0},{0.75,0}}" />
+                            <Window Type="DejaVu/StaticTextLab" Name="WitchCraftTransferWnd/Frame/FromArea/Frame/Item/TextArea/Text" >
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="Text" Value="x一二三四五六七八九十一二三四" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.038661,0},{0,0},{0.964034,0},{1,0}}" />
+                            </Window>
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="WitchCraftTransferWnd/Frame/FromArea/Frame/Text" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="x請放入欲抽取附魔能力的裝備" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0428571,0},{0.15748,0},{0.957143,0},{0.354331,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed4" Name="WitchCraftTransferWnd/Frame/FromArea/Title" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.028571,0},{0,0},{0.457142,0},{0.182482,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="WitchCraftTransferWnd/Frame/FromArea/Title/Text" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="x抽取能力" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.268939,0},{0.2,0},{0.868939,0},{0.8,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="WitchCraftTransferWnd/Frame/FromArea/Title/Img" >
+                        <Property Name="Image" Value="set:DejaVu image:Image23" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="WitchCraftTransferWnd/Frame/ToArea" >
+                <Property Name="UnifiedAreaRect" Value="{{0.0271003,0},{0.406439,0},{0.972688,0},{0.682093,0}}" />
+                <Window Type="DejaVu/Embed2" Name="WitchCraftTransferWnd/Frame/ToArea/Frame" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.00102891,0},{0.0704225,0},{1.00103,0},{1,0}}" />
+                    <Window Type="DejaVu/Embed3" Name="WitchCraftTransferWnd/Frame/ToArea/Frame/Item" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.028571,0},{0.354331,0},{0.971428,0},{0.76378,0}}" />
+                        <Window Type="DejaVu/SlotImage" Name="WitchCraftTransferWnd/Frame/ToArea/Frame/Item/Slot" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.015152,0},{0.096154,0},{0.142425,0},{0.903846,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Embed5" Name="WitchCraftTransferWnd/Frame/ToArea/Frame/Item/TextArea" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.157576,0},{0.25,0},{0.969697,0},{0.75,0}}" />
+                            <Window Type="DejaVu/StaticTextLab" Name="WitchCraftTransferWnd/Frame/ToArea/Frame/Item/TextArea/Text" >
+                                <Property Name="Text" Value="x一二三四五六七八九十一二三四" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.0373134,0},{0,0},{0.962687,0},{1,0}}" />
+                            </Window>
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="WitchCraftTransferWnd/Frame/ToArea/Frame/Text" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="x請放入欲轉入附魔能力的裝備" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.042857,0},{0.15748,0},{0.957143,0},{0.35433,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed4" Name="WitchCraftTransferWnd/Frame/ToArea/Title" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.028571,0},{0,0},{0.457142,0},{0.182482,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="WitchCraftTransferWnd/Frame/ToArea/Title/Text" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="x附加能力" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.2,0},{0.866667,0},{0.8,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="WitchCraftTransferWnd/Frame/ToArea/Title/Img" >
+                        <Property Name="Image" Value="set:DejaVu image:Image23" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="WitchCraftTransferWnd/Frame/ArrowPic" >
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="Image" Value="set:main image:EudemonArrow" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.305835,0},{0.540058,0},{0.396378,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="WitchCraftTransferWnd/Frame/TransferBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="Text" Value="附魔" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.926829,0},{0.205962,0},{0.979675,0}}" />
+            </Window>
+            <Window Type="DejaVu/Static" Name="WitchCraftTransferWnd/Frame/Item" >
+                <Property Name="UnifiedAreaRect" Value="{{0.0271,0},{0.692153,0},{0.975609,0},{0.907445,0}}" />
+                <Window Type="DejaVu/Embed2" Name="WitchCraftTransferWnd/Frame/Item/Frame" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.00102997,0},{0.098039,0},{1.00103,0},{1,0}}" />
+                    <Window Type="DejaVu/StaticImage" Name="WitchCraftTransferWnd/Frame/Item/Frame/BGImg" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Image" Value="set:main2 image:MagicStoneUpgrateBG" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.027545,0},{0.210703,0},{0.967716,0},{0.942662,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="WitchCraftTransferWnd/Frame/Item/Frame/SlotItem" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.250712,0},{0.257732,0},{0.37037,0},{0.690722,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="WitchCraftTransferWnd/Frame/Item/Frame/SlotCard" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+						<Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.621083,0},{0.257732,0},{0.740741,0},{0.690722,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="WitchCraftTransferWnd/Frame/Item/Frame/Tip" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="x進行附魔轉移將使用附魔卡作為轉移媒介。" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0569801,0},{0.680412,0},{0.940171,0},{0.938144,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed4" Name="WitchCraftTransferWnd/Frame/Item/Title" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.027597,0},{-0.002604,0},{0.456168,0},{0.242494,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="WitchCraftTransferWnd/Frame/Item/Title/Text" >
+                        <Property Name="Text" Value="x消耗道具" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.2,0},{0.866667,0},{0.8,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="WitchCraftTransferWnd/Frame/Item/Title/Img" >
+                        <Property Name="Image" Value="set:DejaVu image:Image23" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

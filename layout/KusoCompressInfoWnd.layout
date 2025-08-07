@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/KusoCompressInfoWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="HorizontalAlignment" Value="Centre" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.132409,0},{0,325},{0.132409,390}}" />
+        <Window Type="DejaVu/Static" Name="Root/KusoCompressInfoWnd/Static" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.017341,0},{0.949011,0},{0.959721,0}}" />
+            <Window Type="DejaVu/StaticTextLab" Name="Root/KusoCompressInfoWnd/Title" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" Value="x可能獲得的物品(隨機取一)：x" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0291971,0},{0.0175879,0},{0.766423,0},{0.0703518,0}}" />
+            </Window>
+            <Window Type="DejaVu/MultiColumnList" Name="Root/KusoCompressInfoWnd/MCL" >
+                <Property Name="ColumnsMovable" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.091195,0},{0.909884,0},{0.95283,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

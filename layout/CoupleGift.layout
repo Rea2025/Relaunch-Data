@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/CoupleGift" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="TitlebarImage" Value="set:main image:CommunityNormal" />
+        <Property Name="UnifiedAreaRect" Value="{{0.334,0},{0.201439,0},{0.334,296},{0.201439,386}}" />
+        <Window Type="DejaVu/Embed" Name="Root/CoupleGift/BG1" >
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Embed2" Name="Root/CoupleGift/BG2" >
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.065359,0},{0.928571,0},{0.866013,0}}" />
+                <Window Type="DejaVu/Embed2" Name="Root/CoupleGift/BG3" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.038462,0},{0.346939,0},{0.961539,0},{0.959184,0}}" />
+                    <Window Type="DejaVu/StaticImage" Name="Root/CoupleGift/BG4" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Image" Value="set:main2 image:EudemonEquipBG" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.208333,0},{0.033333,0},{0.791666,0},{0.966666,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/CoupleGift/BG3/Slot" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="HorizontalAlignment" Value="Centre" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.266667,0},{0.175,0},{0.546667,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab2" Name="Root/CoupleGift/BG3/Hint" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="x請放入追求禮品" />
+                        <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.083333,0},{0.646667,0},{0.916666,0},{0.813334,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab7" Name="Root/CoupleGift/BG2/Title1" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="x愛慕對象" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.038462,0},{0.102041,0},{0.346154,0},{0.204082,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab7" Name="Root/CoupleGift/BG2/Title2" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="x愛慕值" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.038462,0},{0.22449,0},{0.346154,0},{0.326531,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab2" Name="Root/CoupleGift/BG2/Text1" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="x一二三四五" />
+                    <Property Name="TextColours" Value="tl:FFFFEFFF tr:FFFFEFFF bl:FFFFEFFF br:FFFFEFFF" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.346154,0},{0.102041,0},{0.961539,0},{0.204082,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedText2" Name="Root/CoupleGift/BG2/Text2" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="x100" />
+                    <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.346154,0},{0.22449,0},{0.961539,0},{0.326531,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/CoupleGift/Btn1" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="Text" Value="x贈送" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.882353,0},{0.271429,0},{0.96732,0}}" />
+            </Window>
+            <Window Type="DejaVu/Embed4" Name="Root/CoupleGift/Title" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0714286,0},{0.0326797,0},{0.607143,0},{0.114379,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/CoupleGift/TitleText" >
+                    <Property Name="Text" Value="x贈送禮物" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.224199,0},{0.2,0},{0.858348,0},{0.8,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/CoupleGift/TitleImage" >
+                    <Property Name="Image" Value="set:DejaVu image:Image20" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

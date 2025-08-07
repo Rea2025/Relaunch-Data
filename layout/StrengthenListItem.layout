@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/Static" Name="Root/StrengthenListItem" >
+        <Property Name="BackgroundEnabled" Value="False" />
+        <Property Name="Font" Value="F001-scale" />
+        <Property Name="FrameEnabled" Value="False" />
+        <Property Name="HorizontalAlignment" Value="Centre" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,150},{0,20}}" />
+        <Window Type="DejaVu/EmbedTextLab2" Name="Root/StrengthenListItem/RankText" >
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.233333,0},{1,0}}" />
+        </Window>
+        <Window Type="DejaVu/EmbedTextLab2" Name="Root/StrengthenListItem/AttackText" >
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="UnifiedAreaRect" Value="{{0.233333,0},{0,0},{1,0},{1,0}}" />
+        </Window>
+        <Window Type="DejaVu/EmbedTextLab2" Name="Root/StrengthenListItem/MagicText" >
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Property Name="Visible" Value="False" />
+        </Window>
+    </Window>
+</GUILayout>

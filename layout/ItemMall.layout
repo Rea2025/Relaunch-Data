@@ -1,0 +1,616 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/ItemMall" >
+        <Property Name="HelpButtonEnabled" Value="True" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="TitlebarImage" Value="set:main image:ItemMallNormal" />
+        <Property Name="UnifiedAreaRect" Value="{{0.007806,0},{0.058981,0},{0.007806,1006},{0.0574973,675}}" />
+        <Property Name="UnifiedMinSize" Value="{{0,1},{0,1}}" />
+        <Window Type="DejaVu/TabControl" Name="Root/ItemMall/tab" >
+            <Property Name="TabHeight" Value="{0,20}" />
+            <Property Name="TabPanePosition" Value="Top" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.053279,0},{1,-100},{0.099683,0}}" />
+            <Window Type="DefaultWindow" Name="Root/ItemMall/tab/Tab1" >
+                <Property Name="Text" Value="Global" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,890},{0,2}}" />
+                <Property Name="Visible" Value="False" />
+            </Window>
+            <Window Type="DefaultWindow" Name="Root/ItemMall/tab/Tab2" >
+                <Property Name="ID" Value="1" />
+                <Property Name="Text" Value="Team" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,890},{0,2}}" />
+                <Property Name="Visible" Value="False" />
+            </Window>
+            <Window Type="DefaultWindow" Name="Root/ItemMall/tab/Tab3" >
+                <Property Name="ID" Value="2" />
+                <Property Name="Text" Value="forever" />
+                <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.05,0},{0.05,890},{0.05,2}}" />
+                <Property Name="Visible" Value="False" />
+            </Window>
+            <Window Type="DefaultWindow" Name="Root/ItemMall/tab/Tab4" >
+                <Property Name="ID" Value="3" />
+                <Property Name="Text" Value="Alchemy" />
+                <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.05,0},{0.05,890},{0.05,2}}" />
+                <Property Name="Visible" Value="False" />
+            </Window>
+            <Window Type="DefaultWindow" Name="Root/ItemMall/tab/Tab5" >
+                <Property Name="ID" Value="4" />
+                <Property Name="Text" Value="XX" />
+                <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.05,0},{0.05,890},{0.05,2}}" />
+                <Property Name="Visible" Value="False" />
+            </Window>
+            <Window Type="DefaultWindow" Name="Root/ItemMall/tab/Tab6" >
+                <Property Name="ID" Value="5" />
+                <Property Name="Text" Value="XXX" />
+                <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.05,0},{0.05,890},{0.05,2}}" />
+                <Property Name="Visible" Value="False" />
+            </Window>
+            <Window Type="DefaultWindow" Name="Root/ItemMall/tab/Tab7" >
+                <Property Name="Text" Value="XXX" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,890},{0,2}}" />
+                <Property Name="Visible" Value="False" />
+            </Window>
+            <Window Type="DefaultWindow" Name="Root/ItemMall/tab/Tab8" >
+                <Property Name="Text" Value="Tab" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,890},{0,2}}" />
+                <Property Name="Visible" Value="False" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Embed3" Name="Root/ItemMall/Frame" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Property Name="InheritsAlpha" Value="False" />
+            <Property Name="Text" Value="Tab" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.10084,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Button" Name="Root/ItemMall/Frame/GetBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.010101,0},{-0.0196078,0},{0.0868687,0},{0.0294118,0}}" />
+                <Property Name="VerticalAlignment" Value="Bottom" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/ItemMall/Frame/AddBtn" >
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.010101,0},{-0.0196078,0},{0.0666667,0},{0.0294118,0}}" />
+                <Property Name="VerticalAlignment" Value="Bottom" />
+            </Window>
+            <Window Type="DejaVu/Embed2" Name="Root/ItemMall/Frame/LeftComp" >
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="UnifiedAreaRect" Value="{{0.010101,0},{0.019608,0},{0.208081,0},{0.916804,0}}" />
+                <Window Type="DejaVu/Embed2" Name="Root/ItemMall/Frame/LeftComp/TypeList" >
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.05102,0},{0.020833,0},{0.948979,0},{0.979166,0}}" />
+                    <Window Type="DejaVu/EmbedText7" Name="Root/ItemMall/Frame/LeftComp/TypeList/Title" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HorizontalAlignment" Value="Centre" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.004348,0},{0.977273,0},{0.0586958,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Embed2" Name="Root/ItemMall/Frame/LeftComp/TypeList/PaneBG" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.011364,0},{0.058696,0},{0.988637,0},{0.995653,0}}" />
+                        <Window Type="DejaVu/ScrollablePane" Name="Root/ItemMall/Frame/LeftComp/TypeList/PaneBG/Pane" >
+                            <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="HorzOverlapSize" Value="0.01" />
+                            <Property Name="HorzScrollPosition" Value="0" />
+                            <Property Name="HorzStepSize" Value="0.1" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                            <Property Name="VertOverlapSize" Value="0.01" />
+                            <Property Name="VertScrollPosition" Value="0" />
+                            <Property Name="VertStepSize" Value="0.1" />
+                            <AutoWindow NameSuffix="__auto_container__" >
+                                <Property Name="ChildExtentsArea" Value="l:0 t:0 r:0 b:0" />
+                                <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                                <Property Name="MouseInputPropagationEnabled" Value="True" />
+                            </AutoWindow>
+                        </Window>
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed2" Name="Root/ItemMall/Frame/MidComp" >
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="UnifiedAreaRect" Value="{{0.213131,0},{0.018692,0},{0.759596,0},{0.915888,0}}" />
+                <Window Type="DejaVu/ImageButton" Name="Root/ItemMall/Frame/MidComp/LeftBtn" >
+                    <Property Name="DisabledImage" Value="set:DejaVu image:ArrowLeftPressed" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                    <Property Name="HoverImage" Value="set:DejaVu image:ArrowLeftHover" />
+                    <Property Name="NormalImage" Value="set:DejaVu image:ArrowLeftNormal" />
+                    <Property Name="PushedImage" Value="set:DejaVu image:ArrowLeftPressed" />
+                    <Property Name="UnifiedAreaRect" Value="{{-0.092593,0},{-0.020661,0},{-0.055556,0},{0.0309919,0}}" />
+                    <Property Name="VerticalAlignment" Value="Bottom" />
+                </Window>
+                <Window Type="DejaVu/EmbedText5" Name="Root/ItemMall/Frame/MidComp/PageText" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="11/22" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{-0.020661,0},{0.12963,0},{0.0309919,0}}" />
+                    <Property Name="VerticalAlignment" Value="Bottom" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/ItemMall/Frame/MidComp/FirstBtn" >
+                    <Property Name="DisabledImage" Value="set:DejaVu image:DoubledLeftArrowPressed" />
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                    <Property Name="HoverImage" Value="set:DejaVu image:DoubledLeftArrowHover" />
+                    <Property Name="NormalImage" Value="set:DejaVu image:DoubledLeftArrowNormal" />
+                    <Property Name="PushedImage" Value="set:DejaVu image:DoubledLeftArrowPressed" />
+                    <Property Name="UnifiedAreaRect" Value="{{-0.12963,0},{-0.020661,0},{-0.092593,0},{0.0309919,0}}" />
+                    <Property Name="VerticalAlignment" Value="Bottom" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/ItemMall/Frame/MidComp/RightBtn" >
+                    <Property Name="DisabledImage" Value="set:DejaVu image:ArrowRightPressed" />
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                    <Property Name="HoverImage" Value="set:DejaVu image:ArrowRightHover" />
+                    <Property Name="NormalImage" Value="set:DejaVu image:ArrowRightNormal" />
+                    <Property Name="PushedImage" Value="set:DejaVu image:ArrowRightPressed" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.092593,0},{-0.020661,0},{0.12963,0},{0.0309919,0}}" />
+                    <Property Name="VerticalAlignment" Value="Bottom" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/ItemMall/Frame/MidComp/LastBtn" >
+                    <Property Name="DisabledImage" Value="set:DejaVu image:DoubledRightArrowPressed" />
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                    <Property Name="HoverImage" Value="set:DejaVu image:DoubledRightArrowHover" />
+                    <Property Name="NormalImage" Value="set:DejaVu image:DoubledRightArrowNormal" />
+                    <Property Name="PushedImage" Value="set:DejaVu image:DoubledRightArrowPressed" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.12963,0},{-0.020661,0},{0.166667,0},{0.0309919,0}}" />
+                    <Property Name="VerticalAlignment" Value="Bottom" />
+                </Window>
+                <Window Type="DejaVu/Embed2" Name="Root/ItemMall/Frame/MidComp/ItemsBack" >
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.020661,0},{0.962963,0},{0.904959,0}}" />
+                    <Window Type="DejaVu/EmbedText7" Name="Root/ItemMall/Frame/MidComp/ItemsBack/Title" >
+                        <Property Name="HorizontalAlignment" Value="Centre" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.004673,0},{0.992308,0},{0.0630842,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed2" Name="Root/ItemMall/Frame/RightComp" >
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="UnifiedAreaRect" Value="{{0.764646,0},{0.018692,0},{0.989899,0},{0.914019,0}}" />
+                <Window Type="DejaVu/Embed2" Name="Root/ItemMall/Frame/RightComp/CoinList" >
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.044843,0},{0.720251,0},{0.955157,0},{0.979124,0}}" />
+                    <Window Type="DejaVu/EmbedText7" Name="Root/ItemMall/Frame/RightComp/CoinList/Title" >
+                        <Property Name="HorizontalAlignment" Value="Centre" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.017391,0},{0.982609,0},{0.220643,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab7" Name="Root/ItemMall/Frame/RightComp/CoinList/CoinName1" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.024631,0},{0.298387,0},{0.41872,0},{0.5,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab7" Name="Root/ItemMall/Frame/RightComp/CoinList/CoinName2" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.024631,0},{0.508065,0},{0.41872,0},{0.709678,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab7" Name="Root/ItemMall/Frame/RightComp/CoinList/CoinName3" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.024631,0},{0.717742,0},{0.41872,0},{0.919355,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Embed2" Name="Root/ItemMall/Frame/RightComp/CoinList/CoinArea1" >
+                        <Property Name="Font" Value="F001-scale" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.418719,0},{0.298387,0},{0.975369,0},{0.5,0}}" />
+                        <Window Type="DejaVu/StaticTextLab" Name="Root/ItemMall/Frame/RightComp/CoinList/CoinArea1/Text" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="HorzFormatting" Value="RightAligned" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.730769,0},{1,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticImage" Name="Root/ItemMall/Frame/RightComp/CoinList/CoinArea1/Image" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="Image" Value="set:main image:ItemMallcoin2" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.807692,0},{0.2,0},{0.923077,0},{0.8,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Embed2" Name="Root/ItemMall/Frame/RightComp/CoinList/CoinArea2" >
+                        <Property Name="Font" Value="F001-scale" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.418719,0},{0.508065,0},{0.975369,0},{0.709678,0}}" />
+                        <Window Type="DejaVu/StaticTextLab" Name="Root/ItemMall/Frame/RightComp/CoinList/CoinArea2/Text" >
+                            <Property Name="HorzFormatting" Value="RightAligned" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.730769,0},{1,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticImage" Name="Root/ItemMall/Frame/RightComp/CoinList/CoinArea2/Image" >
+                            <Property Name="Image" Value="set:main image:ItemMallcoin2" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.807692,0},{0.2,0},{0.923077,0},{0.8,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Embed2" Name="Root/ItemMall/Frame/RightComp/CoinList/CoinArea3" >
+                        <Property Name="Font" Value="F001-scale" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.418719,0},{0.717742,0},{0.975369,0},{0.919355,0}}" />
+                        <Window Type="DejaVu/StaticTextLab" Name="Root/ItemMall/Frame/RightComp/CoinList/CoinArea3/Text" >
+                            <Property Name="HorzFormatting" Value="RightAligned" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.730769,0},{1,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticImage" Name="Root/ItemMall/Frame/RightComp/CoinList/CoinArea3/Image" >
+                            <Property Name="Image" Value="set:main image:ItemMallcoin2" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.807692,0},{0.2,0},{0.923077,0},{0.8,0}}" />
+                        </Window>
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed2" Name="Root/ItemMall/Frame/RightComp/BuyList" >
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.044843,0},{0.020877,0},{0.955157,0},{0.640919,0}}" />
+                    <Window Type="DejaVu/EmbedText7" Name="Root/ItemMall/Frame/RightComp/BuyList/Title" >
+                        <Property Name="HorizontalAlignment" Value="Centre" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.00673401,0},{0.980296,0},{0.0909091,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Button" Name="Root/ItemMall/Frame/RightComp/GetAllBtn" >
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.65762,0},{0.340807,0},{0.7119,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Checkbox" Name="Root/ItemMall/Frame/gender" >
+                <Property Name="Text" Value="只顯示與角色同性別的商品" />
+                <Property Name="UnifiedAreaRect" Value="{{0.213131,0},{0.925234,0},{0.516162,0},{0.971963,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/ItemMall/Frame/TSBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="xTS網頁" />
+                <Property Name="UnifiedAreaRect" Value="{{0.831313,0},{-0.0186916,0},{0.908081,0},{0.0299065,0}}" />
+                <Property Name="VerticalAlignment" Value="Bottom" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/ItemMall/Frame/netBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="x網頁連結" />
+                <Property Name="UnifiedAreaRect" Value="{{0.831313,0},{-0.0187266,0},{0.908081,0},{0.0299625,0}}" />
+                <Property Name="VerticalAlignment" Value="Bottom" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/ItemMall/Frame/PhoneBindingBtn" >
+                <Property Name="Text" Value="x手機綁定" />
+                <Property Name="UnifiedAreaRect" Value="{{0.749495,0},{-0.0189036,0},{0.826263,0},{0.0302457,0}}" />
+                <Property Name="VerticalAlignment" Value="Bottom" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Embed5" Name="Root/ItemMall/Frame/Marquee" >
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.0504348,0}}" />
+            <Window Type="DejaVu/StaticTextLab" Name="Root/ItemMall/Frame/Marquee/Run" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="UnifiedAreaRect" Value="{{0.30303,0},{0,0},{0.555556,0},{1,0}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Embed3" Name="Root/ItemMall/Alchemy" >
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Property Name="InheritsAlpha" Value="False" />
+            <Property Name="Text" Value="Tab" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.10084,0},{1,0},{1,0}}" />
+            <Window Type="DefaultWindow" Name="Root/ItemMall/Alchemy/BG" >
+                <Property Name="Text" Value="  元氣鋪  " />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Window Type="DejaVu/Button" Name="Root/ItemMall/Alchemy/AddBtn" >
+                    <Property Name="HorizontalAlignment" Value="Right" />
+                    <Property Name="Text" Value="x儲值" />
+                    <Property Name="UnifiedAreaRect" Value="{{-0.010101,0},{-0.0186916,0},{0.0666667,0},{0.0299065,0}}" />
+                    <Property Name="VerticalAlignment" Value="Bottom" />
+                </Window>
+                <Window Type="DejaVu/Embed2" Name="Root/ItemMall/Alchemy/LeftComp" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.010101,0},{0.018868,0},{0.177778,0},{0.981485,0}}" />
+                    <Window Type="DejaVu/Embed2" Name="Root/ItemMall/Alchemy/LeftComp/Temp" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.060241,0},{0.48932,0},{0.939759,0},{0.920388,0}}" />
+                        <Window Type="DejaVu/EmbedTextLab7" Name="Root/ItemMall/Alchemy/LeftComp/Temp/Title" >
+                            <Property Name="HorizontalAlignment" Value="Centre" />
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="x煉化暫存" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.00900901,0},{0.972603,0},{0.121622,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Button" Name="Root/ItemMall/Alchemy/LeftComp/TakeAll" >
+                        <Property Name="Text" Value="x全部領取" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.271084,0},{0.930097,0},{0.728916,0},{0.980583,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Embed2" Name="Root/ItemMall/Alchemy/LeftComp/TypeList" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.060241,0},{0.019417,0},{0.939759,0},{0.479611,0}}" />
+                        <Window Type="DejaVu/EmbedTextLab7" Name="Root/ItemMall/Alchemy/LeftComp/TypeList/Title" >
+                            <Property Name="HorizontalAlignment" Value="Centre" />
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="x選擇類型" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.00843882,0},{0.972603,0},{0.113924,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/VScrolledText" Name="Root/ItemMall/Alchemy/LeftComp/TypeList/TypeTree" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="Font" Value="F001-scale" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.013699,0},{0.113924,0},{0.986302,0},{0.991561,0}}" />
+                            <Property Name="VertScrollbar" Value="True" />
+                            <Window Type="DejaVu/Listbox" Name="Root/ItemMall/Alchemy/LeftComp/TypeList/TypeTree/Tree" >
+                                <Property Name="Font" Value="F001-scale" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                            </Window>
+                        </Window>
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed2" Name="Root/ItemMall/Alchemy/MidComp" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.183013,0},{0.0186916,0},{0.700708,0},{0.981308,0}}" />
+                    <Property Name="VertFormatting" Value="TopAligned" />
+                    <Window Type="DejaVu/Embed2" Name="Root/ItemMall/Alchemy/MidComp/Item" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.0195313,0},{0.0194175,0},{0.980469,0},{0.836893,0}}" />
+                        <Window Type="DejaVu/EmbedTextLab7" Name="Root/ItemMall/Alchemy/MidComp/Item/Title" >
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="x煉化系統" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.324544,0},{0.004751,0},{0.979716,0},{0.0641334,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Embed2" Name="Root/ItemMall/Alchemy/MidComp/Item/ItemBG" >
+                            <Property Name="MousePassThroughEnabled" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.324544,0},{0.087886,0},{0.979716,0},{0.976247,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/EmbedTextLab7" Name="Root/ItemMall/Alchemy/MidComp/Item/Title2" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="x選擇煉化貨幣" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.004057,0},{0.004751,0},{0.324544,0},{0.0641334,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticText" Name="Root/ItemMall/Alchemy/MidComp/Item/Test" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0385396,0},{0.0961538,0},{0.296146,0},{0.600962,0}}" />
+                            <Property Name="VertFormatting" Value="TopAligned" />
+                        </Window>
+                        <Window Type="DejaVu/ImageButton" Name="Root/ItemMall/Alchemy/MidComp/Item/Probability" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="HorizontalAlignment" Value="Right" />
+                            <Property Name="HoverImage" Value="set:main image:DiaryHover" />
+                            <Property Name="NormalImage" Value="set:main image:DiaryNormal" />
+                            <Property Name="PushedImage" Value="set:main image:DiaryPressed" />
+                            <Property Name="UnifiedAreaRect" Value="{{-0.030426,0},{0.00486618,0},{0.0182556,0},{0.0632603,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Embed2" Name="Root/ItemMall/Alchemy/MidComp/Manual" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.859922,0},{1,0},{0.980545,0}}" />
+                        <Window Type="DejaVu/Embed3" Name="Root/ItemMall/Alchemy/MidComp/Manual/GetItemBG" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.019493,0},{0,0},{0.766082,0},{1,0}}" />
+                            <Window Type="DejaVu/SlotImage" Name="Root/ItemMall/Alchemy/MidComp/Manual/GetItemBG/Slot" >
+                                <Property Name="UnifiedAreaRect" Value="{{0.02611,0},{0.16129,0},{0.135771,0},{0.838709,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/StaticText" Name="Root/ItemMall/Alchemy/MidComp/Manual/GetItemBG/Text" >
+                                <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                                <Property Name="Text" Value="x煉化結果：手染壞的．防風大衣" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.16188,0},{0.16129,0},{0.762402,0},{0.838709,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/Button" Name="Root/ItemMall/Alchemy/MidComp/Manual/GetItemBG/Btn" >
+                                <Property Name="HorizontalAlignment" Value="Right" />
+                                <Property Name="Text" Value="x領取" />
+                                <Property Name="UnifiedAreaRect" Value="{{-0.0261097,0},{0,0},{0.172324,0},{0.419355,0}}" />
+                                <Property Name="VerticalAlignment" Value="Centre" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/Button4" Name="Root/ItemMall/Alchemy/MidComp/Manual/Continue" >
+                            <Property Name="HorizontalAlignment" Value="Right" />
+                            <Property Name="Text" Value="x煉化" />
+                            <Property Name="UnifiedAreaRect" Value="{{-0.0194932,0},{-0.483871,0},{0.175439,0},{0,0}}" />
+                            <Property Name="VerticalAlignment" Value="Bottom" />
+                        </Window>
+                        <Window Type="DejaVu/Button4" Name="Root/ItemMall/Alchemy/MidComp/Manual/AutoSwitch" >
+                            <Property Name="HorizontalAlignment" Value="Right" />
+                            <Property Name="Text" Value="x自動煉化" />
+                            <Property Name="UnifiedAreaRect" Value="{{-0.0194932,0},{0,0},{0.175439,0},{0.483871,0}}" />
+                            <Property Name="VerticalAlignment" Value="Bottom" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Embed2" Name="Root/ItemMall/Alchemy/MidComp/Auto" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.859922,0},{1,0},{0.980545,0}}" />
+                        <Window Type="DejaVu/Embed2" Name="Root/ItemMall/Alchemy/MidComp/Auto/AutoNum" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.204678,0},{0,0},{0.565302,0},{1,0}}" />
+                            <Window Type="DejaVu/StaticTextLab" Name="Root/ItemMall/Alchemy/MidComp/Auto/AutoNum/Text" >
+                                <Property Name="Font" Value="F001-10" />
+                                <Property Name="HorzFormatting" Value="HorzCentred" />
+                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                <Property Name="Text" Value="x請輸入煉金次數" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.048387,0},{0.989189,0},{0.370968,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/Editbox" Name="Root/ItemMall/Alchemy/MidComp/Auto/AutoNum/Editbox" >
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="MaxTextLength" Value="5" />
+                                <Property Name="Text" Value="100" />
+                                <Property Name="TextParsingEnabled" Value="False" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.275676,0},{0.483871,0},{0.713514,0},{0.887097,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/ImageButton" Name="Root/ItemMall/Alchemy/MidComp/Auto/AutoNum/LBtn" >
+                                <Property Name="DisabledImage" Value="set:DejaVu image:ArrowLeftPressed" />
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="HoverImage" Value="set:DejaVu image:ArrowLeftHover" />
+                                <Property Name="NormalImage" Value="set:DejaVu image:ArrowLeftNormal" />
+                                <Property Name="PushedImage" Value="set:DejaVu image:ArrowLeftPressed" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.108108,0},{0.483871,0},{0.216216,0},{0.887097,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/ImageButton" Name="Root/ItemMall/Alchemy/MidComp/Auto/AutoNum/RBtn" >
+                                <Property Name="DisabledImage" Value="set:DejaVu image:ArrowRightPressed" />
+                                <Property Name="HoverImage" Value="set:DejaVu image:ArrowRightHover" />
+                                <Property Name="NormalImage" Value="set:DejaVu image:ArrowRightNormal" />
+                                <Property Name="PushedImage" Value="set:DejaVu image:ArrowRightPressed" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.767568,0},{0.483871,0},{0.875676,0},{0.887097,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/ImageButton" Name="Root/ItemMall/Alchemy/MidComp/Auto/AutoNum/LLBtn" >
+                                <Property Name="DisabledImage" Value="set:DejaVu image:DoubledLeftArrowPressed" />
+                                <Property Name="HoverImage" Value="set:DejaVu image:DoubledLeftArrowHover" />
+                                <Property Name="NormalImage" Value="set:DejaVu image:DoubledLeftArrowNormal" />
+                                <Property Name="PushedImage" Value="set:DejaVu image:DoubledLeftArrowPressed" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.483871,0},{0.108108,0},{0.887097,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/ImageButton" Name="Root/ItemMall/Alchemy/MidComp/Auto/AutoNum/RRBtn" >
+                                <Property Name="DisabledImage" Value="set:DejaVu image:DoubledRightArrowPressed" />
+                                <Property Name="HoverImage" Value="set:DejaVu image:DoubledRightArrowHover" />
+                                <Property Name="NormalImage" Value="set:DejaVu image:DoubledRightArrowNormal" />
+                                <Property Name="PushedImage" Value="set:DejaVu image:DoubledRightArrowPressed" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.881081,0},{0.483871,0},{0.989189,0},{0.887097,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/Button4" Name="Root/ItemMall/Alchemy/MidComp/Auto/StartAutoSwitch" >
+                            <Property Name="HorizontalAlignment" Value="Right" />
+                            <Property Name="Text" Value="x開始自動煉化" />
+                            <Property Name="UnifiedAreaRect" Value="{{-0.019493,0},{0,0},{0.175439,0},{0.483871,0}}" />
+                            <Property Name="VerticalAlignment" Value="Bottom" />
+                        </Window>
+                        <Window Type="DejaVu/Button4" Name="Root/ItemMall/Alchemy/MidComp/Auto/Return" >
+                            <Property Name="HorizontalAlignment" Value="Right" />
+                            <Property Name="Text" Value="x返回" />
+                            <Property Name="UnifiedAreaRect" Value="{{-0.019493,0},{-0.483871,0},{0.175439,0},{-5.96046e-008,0}}" />
+                            <Property Name="VerticalAlignment" Value="Bottom" />
+                        </Window>
+                        <Window Type="DejaVu/Button4" Name="Root/ItemMall/Alchemy/MidComp/Auto/AutoStopSwitch" >
+                            <Property Name="HorizontalAlignment" Value="Right" />
+                            <Property Name="Text" Value="x設定停止目標" />
+                            <Property Name="UnifiedAreaRect" Value="{{-0.224172,0},{0,0},{-0.0292402,0},{0.483871,0}}" />
+                            <Property Name="VerticalAlignment" Value="Bottom" />
+                        </Window>
+                        <Window Type="DejaVu/Checkbox" Name="Root/ItemMall/Alchemy/MidComp/Auto/IconItemCheckbox" >
+                            <Property Name="HorizontalAlignment" Value="Right" />
+                            <Property Name="Text" Value="x目標" />
+                            <Property Name="UnifiedAreaRect" Value="{{-0.224172,0},{0,0},{-0.0292398,0},{0.483871,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Embed2" Name="Root/ItemMall/Alchemy/MidComp/AutoStop" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.859922,0},{1,0},{0.980545,0}}" />
+                        <Window Type="DejaVu/StaticTextLab" Name="Root/ItemMall/Alchemy/MidComp/AutoStop/Text" >
+                            <Property Name="Font" Value="F001-12" />
+                            <Property Name="MousePassThroughEnabled" Value="True" />
+                            <Property Name="Text" Value="x請點選道具來設定自動鍊金時的停止目標" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.038986,0},{0.048387,0},{0.760234,0},{0.532258,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Checkbox" Name="Root/ItemMall/Alchemy/MidComp/AutoStop/FastSelect" >
+                            <Property Name="Font" Value="F001-12" />
+                            <Property Name="Text" Value="x將所有公告品項設為停止目標" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.038986,0},{0.483871,0},{0.760234,0},{0.967742,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Button4" Name="Root/ItemMall/Alchemy/MidComp/AutoStop/Complete" >
+                            <Property Name="HorizontalAlignment" Value="Right" />
+                            <Property Name="Text" Value="x設定完成" />
+                            <Property Name="UnifiedAreaRect" Value="{{-0.019493,0},{0,0},{0.175439,0},{0.483871,0}}" />
+                            <Property Name="VerticalAlignment" Value="Bottom" />
+                        </Window>
+                        <Window Type="DejaVu/Button4" Name="Root/ItemMall/Alchemy/MidComp/AutoStop/Return" >
+                            <Property Name="HorizontalAlignment" Value="Right" />
+                            <Property Name="Text" Value="x返回" />
+                            <Property Name="UnifiedAreaRect" Value="{{-0.019493,0},{-0.483871,0},{0.175439,0},{-5.96046e-008,0}}" />
+                            <Property Name="VerticalAlignment" Value="Bottom" />
+                        </Window>
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed2" Name="Root/ItemMall/Alchemy/RightComp" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.705763,0},{0.018692,0},{0.989601,0},{0.923365,0}}" />
+                    <Window Type="DejaVu/Embed2" Name="Root/ItemMall/Alchemy/RightComp/ShopBG" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.035461,0},{0.020661,0},{0.964287,0},{0.71281,0}}" />
+                        <Window Type="DejaVu/EmbedTextLab7" Name="Root/ItemMall/Alchemy/RightComp/Shop/Title" >
+                            <Property Name="HorizontalAlignment" Value="Centre" />
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="x購買煉化幣" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.00597015,0},{0.984674,0},{0.080597,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/ScrollablePane" Name="Root/ItemMall/Alchemy/RightComp/ShopBG/Pane" >
+                            <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="HorzOverlapSize" Value="0.01" />
+                            <Property Name="HorzScrollPosition" Value="0" />
+                            <Property Name="HorzStepSize" Value="0.1" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.007576,0},{0.080597,0},{0.992424,0},{0.99403,0}}" />
+                            <Property Name="VertOverlapSize" Value="0.01" />
+                            <Property Name="VertScrollPosition" Value="0" />
+                            <Property Name="VertStepSize" Value="0.1" />
+                            <AutoWindow NameSuffix="__auto_container__" >
+                                <Property Name="ChildExtentsArea" Value="l:0 t:0 r:0 b:0" />
+                                <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                                <Property Name="MouseInputPropagationEnabled" Value="True" />
+                            </AutoWindow>
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Embed2" Name="Root/ItemMall/Alchemy/RightComp/CoinBG" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.035461,0},{0.72314,0},{0.964539,0},{0.979338,0}}" />
+                        <Window Type="DejaVu/EmbedTextLab7" Name="Root/ItemMall/Alchemy/RightComp/CoinBG/Title" >
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="x點數狀態" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.007634,0},{0.016129,0},{0.992367,0},{0.217742,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/EmbedTextLab7" Name="Root/ItemMall/Alchemy/RightComp/CoinBG/CoinTitle1" >
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="x元氣幣" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.038168,0},{0.298387,0},{0.343512,0},{0.5,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/EmbedTextLab7" Name="Root/ItemMall/Alchemy/RightComp/CoinBG/CoinTitle2" >
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="x煉化幣" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0381679,0},{0.508065,0},{0.343512,0},{0.709678,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/EmbedTextLab7" Name="Root/ItemMall/Alchemy/RightComp/CoinBG/CoinTitle3" >
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="x煉化碎片" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0389313,0},{0.720968,0},{0.344275,0},{0.922581,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Embed2" Name="Root/ItemMall/Alchemy/RightComp/CoinBG/Num1" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.343511,0},{0.298387,0},{0.961832,0},{0.5,0}}" />
+                            <Window Type="DejaVu/StaticImage" Name="Root/ItemMall/Alchemy/RightComp/CoinBG/Img1" >
+                                <Property Name="Image" Value="set:main image:ItemMallcoin2" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.84472,0},{0.2,0},{0.937888,0},{0.8,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/StaticTextLab" Name="Root/ItemMall/Alchemy/RightComp/CoinBG/Text1" >
+                                <Property Name="HorzFormatting" Value="RightAligned" />
+                                <Property Name="Text" Value="999999" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.061728,0},{0,0},{0.78395,0},{1,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/Embed2" Name="Root/ItemMall/Alchemy/RightComp/CoinBG/Num2" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.343511,0},{0.508065,0},{0.961832,0},{0.709678,0}}" />
+                            <Window Type="DejaVu/StaticImage" Name="Root/ItemMall/Alchemy/RightComp/CoinBG/Img2" >
+                                <Property Name="Image" Value="set:main image:RefineCoin" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.84472,0},{0.2,0},{0.937888,0},{0.8,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/StaticTextLab" Name="Root/ItemMall/Alchemy/RightComp/CoinBG/Text2" >
+                                <Property Name="HorzFormatting" Value="RightAligned" />
+                                <Property Name="Text" Value="999999" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.061728,0},{0,0},{0.78395,0},{1,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/Embed2" Name="Root/ItemMall/Alchemy/RightComp/CoinBG/Num3" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.343511,0},{0.717742,0},{0.961832,0},{0.919355,0}}" />
+                            <Window Type="DejaVu/StaticImage" Name="Root/ItemMall/Alchemy/RightComp/CoinBG/Img3" >
+                                <Property Name="Image" Value="set:main image:RefineShatter" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.84472,0},{0.2,0},{0.937888,0},{0.8,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/StaticTextLab" Name="Root/ItemMall/Alchemy/RightComp/CoinBG/Text3" >
+                                <Property Name="HorzFormatting" Value="RightAligned" />
+                                <Property Name="Text" Value="999999" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.061728,0},{0,0},{0.78395,0},{1,0}}" />
+                            </Window>
+                        </Window>
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Button" Name="Root/ItemMall/Alchemy/TSBtn" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="xTS儲值" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.831696,0},{-0.0186916,0},{0.908463,0},{0.0299066,0}}" />
+                    <Property Name="VerticalAlignment" Value="Bottom" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed2" Name="Root/ItemMall/Alchemy/Black" >
+                <Property Name="Alpha" Value="0.7" />
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Embed3" Name="Root/ItemMall/SkyFortuneFrame" >
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Property Name="InheritsAlpha" Value="False" />
+            <Property Name="Text" Value="Tab" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.10017,0},{1,0},{1,0}}" />
+            <Property Name="Visible" Value="False" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/ItemMall/Frame/NewHandBtn" >
+            <Property Name="HorizontalAlignment" Value="Right" />
+            <Property Name="Text" Value="x新手禮包" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0515599,0},{0.0767677,0},{0.101401,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

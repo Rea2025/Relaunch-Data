@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="EudemonCollectAbility" >
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.104167,0},{0.399393,0}}" />
+        <Window Type="DejaVu/EmbedText2" Name="EudemonCollectAbility/Column" >
+            <Property Name="HorzFormatting" Value="LeftAligned" />
+            <Property Name="Text" Value="     x六大屬性" />
+            <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,200},{0,25}}" />
+            <Window Type="DejaVu/ImageCheckbox" Name="EudemonCollectAbility/Column/CheckBox" >
+                <Property Name="DisabledImage" Value="set:DejaVu image:TreeListOpenedNormal" />
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="HoverImage" Value="set:DejaVu image:TreeListClosed" />
+                <Property Name="NormalImage" Value="set:DejaVu image:TreeListClosedNormal" />
+                <Property Name="PushedImage" Value="set:DejaVu image:TreeListOpenedNormal" />
+                <Property Name="UnifiedAreaRect" Value="{{0.034483,0},{0.2,0},{0.100562,0},{0.8,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Embed2" Name="EudemonCollectAbility/Item" >
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.202532,0},{0,200},{0.202532,25}}" />
+            <Window Type="DejaVu/EmbedTextLab7" Name="EudemonCollectAbility/Item/Text" >
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="傷害值" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.6,0},{1,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="EudemonCollectAbility/Item/Num" >
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="UnifiedAreaRect" Value="{{0.6,0},{0,0},{1,0},{1,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

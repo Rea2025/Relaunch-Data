@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="SkyTowerGroup" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="TitlebarImage" Value="set:main image:SkyTower" />
+        <Property Name="UnifiedAreaRect" Value="{{0.356445,0},{0.145833,0},{0.356445,260},{0.145833,596}}" />
+        <Window Type="DejaVu/Embed" Name="SkyTowerGroup/bg" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/EmbedText2" Name="SkyTowerGroup/bg/TutorialText" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                <Property Name="LinespaceWindow" Value="True" />
+                <Property Name="Text" >XX◎每個禮拜六的凌晨06：00之前已決定攻略組別的玩家，將會在06：00鎖定組別。
+◎天空之塔開放之前玩家可以任意選擇攻略組，而未選擇的玩家在天空之塔進行期間，一旦決定了攻略組別就無法再度更換。
+◎在天空之塔開放期間未進入過天空之塔的玩家，會在天空之塔關閉後被移出該攻略組別。</Property>
+                <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0409836,0},{0.581395,0},{0.959016,0},{0.920543,0}}" />
+                <Property Name="VertFormatting" Value="TopAligned" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="SkyTowerGroup/bg/confirm" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="Text" Value="確定" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{-0.0193798,0},{0.311475,0},{0.0310078,0}}" />
+                <Property Name="VerticalAlignment" Value="Bottom" />
+            </Window>
+            <Window Type="DejaVu/Embed2" Name="SkyTowerGroup/bg/Static" >
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="UnifiedAreaRect" Value="{{0.040984,0},{0.01938,0},{0.959017,0},{0.579458,0}}" />
+                <Window Type="DejaVu/EmbedText7" Name="SkyTowerGroup/bg/Static/ListTitle" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.00892857,0},{0,0},{0.991071,0},{0.0865052,0}}" />
+                </Window>
+                <Window Type="DejaVu/Listbox" Name="SkyTowerGroup/bg/Static/List" >
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.008929,0},{0.093426,0},{0.991072,0},{0.979239,0}}" />
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="FamilyBulletinDlg" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="TitlebarImage" Value="set:main image:GuildNormal" />
+        <Property Name="UnifiedAreaRect" Value="{{0.311523,0},{0.1875,0},{0.311523,413},{0.1875,480}}" />
+        <Window Type="DejaVu/Embed" Name="FamilyBulletinDlg/e1" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Static" Name="FamilyBulletinDlg/ss111" >
+                <Property Name="UnifiedAreaRect" Value="{{0.025189,0},{0.025,0},{0.974811,0},{0.8975,0}}" />
+                <Window Type="DejaVu/Embed2" Name="FamilyBulletinDlg/ss/e2111" >
+                    <Property Name="UnifiedAreaRect" Value="{{-0.00102837,0},{0.028653,0},{0.998972,0},{1,0}}" />
+                    <Window Type="DejaVu/EmbedTextLab7" Name="FamilyBulletinDlg/ss/e2/fake/e76" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="標題" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.026525,0},{0.073746,0},{0.230769,0},{0.147492,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Editbox" Name="FamilyBulletinDlg/ss/e2111/Title" >
+                        <Property Name="MaxTextLength" Value="2147483647" />
+                        <Property Name="TextParsingEnabled" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.230769,0},{0.073746,0},{0.973475,0},{0.147492,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/MultiLineEditbox" Name="FamilyBulletinDlg/ss/e2111/Content" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="LinespaceWindow" Value="True" />
+                        <Property Name="MaxTextLength" Value="2147483647" />
+                        <Property Name="Text" >
+</Property>
+                        <Property Name="TextParsingEnabled" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0265252,0},{0.176991,0},{0.973475,0},{0.970501,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="FamilyBulletinDlg/ss/e2111/TextNum" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HorzFormatting" Value="RightAligned" />
+                        <Property Name="Text" Value="內容字數： 200 / 260" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.477454,0},{0.0147493,0},{0.94695,0},{0.0737463,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed4" Name="FamilyBulletinDlg/ss/e4111" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0265252,0},{0,0},{0.424403,0},{0.0716332,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="FamilyBulletinDlg/ss/e4/tt111" >
+                        <Property Name="Text" Value="編輯留言" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.2,0},{0.8,0},{0.8,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="FamilyBulletinDlg/ss/e4/i112" >
+                        <Property Name="Image" Value="set:DejaVu image:Image06" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Button" Name="FamilyBulletinDlg/e1/b1" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="修改" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0251889,0},{0.91,0},{0.216625,0},{0.975,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="FamilyBulletinDlg/e1/b11" >
+                <Property Name="Text" Value="取消" />
+                <Property Name="UnifiedAreaRect" Value="{{0.783375,0},{0.91,0},{0.974811,0},{0.975,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/MiniInfoSP" >
+        <Property Name="HorizontalAlignment" Value="Centre" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{-0.0176263,0},{0,800},{-0.0176263,25}}" />
+        <Property Name="VerticalAlignment" Value="Bottom" />
+        <Window Type="DejaVu/StaticImage" Name="Root/MiniInfoSP/SP" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="Image" Value="set:main image:MiniInfoSp" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.995,0},{1,0}}" />
+            <Window Type="DejaVu/StaticText" Name="Root/MiniInfoSP/SP/SPText" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="BackgroundColours" Value="tl:00000000 tr:00000000 bl:00000000 br:00000000" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-12" />
+                <Property Name="FrameColours" Value="tl:00000000 tr:00000000 bl:00000000 br:00000000" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="x1000" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0288948,0},{0.04,0},{0.129397,0},{0.92,0}}" />
+            </Window>
+            <Window Type="DejaVu/ProgressBar" Name="Root/MiniInfoSP/SP/SPBar/Red" >
+                <Property Name="CurrentProgress" Value="1" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="StepSize" Value="0.01" />
+                <Property Name="UnifiedAreaRect" Value="{{0.133166,0},{0.2,0},{0.981156,0},{0.8,0}}" />
+            </Window>
+            <Window Type="DejaVu/ProgressBarShadow" Name="Root/MiniInfoSP/SP/SPBar/Shadow" >
+                <Property Name="CurrentProgress" Value="1" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="StepSize" Value="0.01" />
+                <Property Name="UnifiedAreaRect" Value="{{0.133166,0},{0.2,0},{0.981156,0},{0.84,0}}" />
+                <Window Type="DejaVu/ProgressBar" Name="Root/MiniInfoSP/SP/SPBar/Shadow/Purple" >
+                    <Property Name="CurrentProgress" Value="1" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="StepSize" Value="0.01" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/MiniInfoSP/SP/Tutorial" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0.981156,0},{0.24,0},{0.996231,0},{0.72,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/MiniInfoSP/SP/SPText/SPIcon" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Image" Value="set:main image:MiniInfoSPIcon" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0201005,0},{0.2,0},{0.0477387,0},{0.8,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="Root/MiniInfoSP/SP/TimerText" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" Value="2.0 Sec" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="UnifiedAreaRect" Value="{{0.163316,0},{0.124225,0},{0.290201,0},{0.804225,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

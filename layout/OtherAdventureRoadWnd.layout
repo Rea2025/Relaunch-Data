@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/OtherAdventureRoadWnd" >
+        <Property Name="Font" Value="F001-scale" />
+        <Property Name="ID" Value="1" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,590},{0,544}}" />
+        <Window Type="DefaultWindow" Name="Root/OtherAdventureRoadWnd/BG" >
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Static" Name="Root/OtherAdventureRoadWnd/BG/Static" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="UnifiedAreaRect" Value="{{0.016949,0},{0.018382,0},{0.983051,0},{0.924632,0}}" />
+                <Window Type="DejaVu/Embed2" Name="Root/OtherAdventureRoadWnd/BG/BG" >
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.020284,0},{1,0},{1,0}}" />
+                    <Window Type="DejaVu/Static" Name="Root/OtherAdventureRoadWnd/BG/BG/BG" >
+                        <Property Name="Font" Value="F001-scale" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0223118,0},{0.05176,0},{0.96968,0},{0.966874,0}}" />
+                        <Window Type="DejaVu/Embed2" Name="Root/OtherAdventureRoadWnd/SlotBG" >
+                            <Property Name="Font" Value="F001-scale" />
+                            <Property Name="HorizontalAlignment" Value="Centre" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.818519,0},{1,0}}" />
+                        </Window>
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed4" Name="Root/OtherAdventureRoadWnd/Title" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.018182,0},{0,0},{0.28134,0},{0.0507099,0}}" />
+                    <Window Type="DejaVu/StaticImage" Name="Root/OtherAdventureRoadWnd/Icon" >
+                        <Property Name="Font" Value="F001-scale" />
+                        <Property Name="Image" Value="set:DejaVu image:Image13" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/OtherAdventureRoadWnd/Title/Text" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" >x冒險旅途的抉擇
+</Property>
+                        <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.2,0},{0.866667,0},{0.8,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

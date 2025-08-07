@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="CardBattlePVPWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="TitlebarImage" Value="set:main13 image:CardNormal" />
+        <Property Name="UnifiedAreaRect" Value="{{0.225521,0},{0.0842993,0},{0.225521,546},{0.0842993,707}}" />
+        <Window Type="DejaVu/Embed" Name="CardBattlePVPWnd/BG" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Static" Name="CardBattlePVPWnd/BG/Static" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0188679,0},{0.0175439,0},{0.981132,0},{0.421053,0}}" />
+                <Window Type="DejaVu/Embed2" Name="CardBattlePVPWnd/BG/Static/Embed2" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0434783,0},{1,0},{1.00395,0}}" />
+                    <Window Type="DejaVu/Embed2" Name="CardBattlePVPWnd/BG/Static/Embed2/CardBG" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0196078,0},{0.35124,0},{0.980392,0},{0.96281,0}}" />
+                        <Window Type="DejaVu/StaticImage" Name="CardBattlePVPWnd/BG/Static/Embed2/CardBG/Card" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="Image" Value="set:DejaVu image:StrengthNormal" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.020408,0},{0.067568,0},{0.204081,0},{0.932433,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticImage" Name="CardBattlePVPWnd/BG/Static/Embed2/CardBG/Card1" >
+                            <Property Name="Image" Value="set:DejaVu image:StrengthNormal" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.214286,0},{0.0675676,0},{0.397959,0},{0.932432,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticImage" Name="CardBattlePVPWnd/BG/Static/Embed2/CardBG/Card2" >
+                            <Property Name="Image" Value="set:DejaVu image:StrengthNormal" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.407655,0},{0.0659351,0},{0.591328,0},{0.9308,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticImage" Name="CardBattlePVPWnd/BG/Static/Embed2/CardBG/Card3" >
+                            <Property Name="Image" Value="set:DejaVu image:StrengthNormal" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.602041,0},{0.0675676,0},{0.785714,0},{0.932432,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticImage" Name="CardBattlePVPWnd/BG/Static/Embed2/CardBG/Card4" >
+                            <Property Name="Image" Value="set:DejaVu image:StrengthNormal" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.795918,0},{0.0675676,0},{0.979592,0},{0.932432,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Button" Name="CardBattlePVPWnd/BG/Static/Embed2/Btn1" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="1" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0196078,0},{0.227273,0},{0.0686275,0},{0.330579,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Button" Name="CardBattlePVPWnd/BG/Static/Embed2/Btn11" >
+                        <Property Name="Text" Value="2" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0784314,0},{0.227273,0},{0.127451,0},{0.330579,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Button" Name="CardBattlePVPWnd/BG/Static/Embed2/Btn12" >
+                        <Property Name="Text" Value="3" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.137255,0},{0.227273,0},{0.186275,0},{0.330579,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Button" Name="CardBattlePVPWnd/BG/Static/Embed2/Btn13" >
+                        <Property Name="Text" Value="4" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.196078,0},{0.227273,0},{0.245098,0},{0.330579,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Button" Name="CardBattlePVPWnd/BG/Static/Embed2/Btn14" >
+                        <Property Name="Text" Value="5" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.254902,0},{0.227273,0},{0.303922,0},{0.330579,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab7" Name="CardBattlePVPWnd/BG/Static/Embed2/Number" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="戰鬥力" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.529412,0},{0.227273,0},{0.686275,0},{0.330579,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab2" Name="CardBattlePVPWnd/BG/Static/Embed2/Num" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="999999" />
+                        <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.686275,0},{0.227273,0},{0.980392,0},{0.330579,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Embed5" Name="CardBattlePVPWnd/BG/Static/Embed2/BG" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.0196078,0},{0.103306,0},{0.980392,0},{0.206612,0}}" />
+                        <Window Type="DejaVu/StaticTextLab" Name="CardBattlePVPWnd/BG/Static/Embed2/BG/ChoiceText" >
+                            <Property Name="Text" Value="請選擇欲進行對戰的牌組與決鬥類型，按下確定鈕即可排入對戰佇列。" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.020408,0},{0,0},{0.979592,0},{1,0}}" />
+                        </Window>
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed4" Name="CardBattlePVPWnd/BG/Static/Title" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0196078,0},{0,0},{0.313726,0},{0.0988142,0}}" />
+                    <Window Type="DejaVu/StaticImage" Name="CardBattlePVPWnd/BG/Static/Title/Img" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Image" Value="set:DejaVu image:Image02" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="CardBattlePVPWnd/BG/Static/Title/Text" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="牌組選擇" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.2,0},{0.866667,0},{0.8,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Button" Name="CardBattlePVPWnd/BG/Btn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="Text" Value="確定" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{-0.015949,0},{0.143396,0},{0.0255183,0}}" />
+                <Property Name="VerticalAlignment" Value="Bottom" />
+            </Window>
+            <Window Type="DejaVu/Static" Name="CardBattlePVPWnd/BG/StaticList" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0188679,0},{0.427432,0},{0.981132,0},{0.934609,0}}" />
+                <Window Type="DejaVu/Embed2" Name="CardBattlePVPWnd/BG/StaticList/Embed2" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0314465,0},{1,0},{1,0}}" />
+                    <Window Type="DejaVu/Embed2" Name="CardBattlePVPWnd/BG/StaticList/Embed2/RewardBG" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0196078,0},{0.694805,0},{0.980392,0},{0.967532,0}}" />
+                        <Window Type="DejaVu/EmbedTextLab7" Name="CardBattlePVPWnd/BG/StaticList/Embed2/RewardBG/Title" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="Text" Value="相關獎勵" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.004082,0},{0.025316,0},{0.995919,0},{0.322935,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="CardBattlePVPWnd/BG/StaticList/Embed2/RewardBG/Slot" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0163265,0},{0.380952,0},{0.102041,0},{0.880952,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="CardBattlePVPWnd/BG/StaticList/Embed2/RewardBG/Slot1" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.114286,0},{0.380952,0},{0.2,0},{0.880952,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="CardBattlePVPWnd/BG/StaticList/Embed2/RewardBG/Slot11" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.212245,0},{0.380952,0},{0.297959,0},{0.880952,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="CardBattlePVPWnd/BG/StaticList/Embed2/RewardBG/Slot12" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.310204,0},{0.380952,0},{0.395918,0},{0.880952,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="CardBattlePVPWnd/BG/StaticList/Embed2/RewardBG/Slot13" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.408163,0},{0.380952,0},{0.493878,0},{0.880952,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="CardBattlePVPWnd/BG/StaticList/Embed2/RewardBG/Slot14" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.506122,0},{0.380952,0},{0.591837,0},{0.880952,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="CardBattlePVPWnd/BG/StaticList/Embed2/RewardBG/Slot15" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.604082,0},{0.380952,0},{0.689796,0},{0.880952,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="CardBattlePVPWnd/BG/StaticList/Embed2/RewardBG/Slot16" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.702041,0},{0.380952,0},{0.787755,0},{0.880952,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="CardBattlePVPWnd/BG/StaticList/Embed2/RewardBG/Slot17" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.8,0},{0.380952,0},{0.885714,0},{0.880952,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="CardBattlePVPWnd/BG/StaticList/Embed2/RewardBG/Slot18" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.897959,0},{0.380952,0},{0.983673,0},{0.880952,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Embed2" Name="CardBattlePVPWnd/BG/StaticList/Embed2/ListBG" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0196078,0},{0.0811688,0},{0.980392,0},{0.678571,0}}" />
+                        <Window Type="DejaVu/EmbedTextLab7" Name="CardBattlePVPWnd/BG/StaticList/Embed2/ListBG/Title" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="決鬥類型" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.00408163,0},{0.0108696,0},{0.253061,0},{0.146739,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/EmbedTextLab7" Name="CardBattlePVPWnd/BG/StaticList/Embed2/ListBG/Title2" >
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="戰鬥力限制" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.00408163,0},{0.146739,0},{0.253061,0},{0.282609,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/EmbedTextLab7" Name="CardBattlePVPWnd/BG/StaticList/Embed2/ListBG/Title3" >
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="限制屬性" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.00408163,0},{0.282609,0},{0.253061,0},{0.418478,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/EmbedTextLab7" Name="CardBattlePVPWnd/BG/StaticList/Embed2/ListBG/Title4" >
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="限制星級" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.00408163,0},{0.418478,0},{0.253061,0},{0.554348,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/EmbedTextLab7" Name="CardBattlePVPWnd/BG/StaticList/Embed2/ListBG/Title5" >
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="卡牌限制" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.00408163,0},{0.554348,0},{0.253061,0},{0.690217,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/EmbedTextLab7" Name="CardBattlePVPWnd/BG/StaticList/Embed2/ListBG/Title6" >
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="環境效果" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.00408163,0},{0.690217,0},{0.253061,0},{0.961957,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/EmbedTextLab2" Name="CardBattlePVPWnd/BG/StaticList/Embed2/ListBG/Text" >
+                            <Property Name="HorzFormatting" Value="LeftAligned" />
+                            <Property Name="Text" Value="不限" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.253061,0},{0.146739,0},{0.995918,0},{0.282609,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/EmbedTextLab2" Name="CardBattlePVPWnd/BG/StaticList/Embed2/ListBG/Text2" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="HorzFormatting" Value="LeftAligned" />
+                            <Property Name="Text" Value="火焰" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.253061,0},{0.282609,0},{0.995918,0},{0.418478,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/EmbedTextLab2" Name="CardBattlePVPWnd/BG/StaticList/Embed2/ListBG/Text3" >
+                            <Property Name="HorzFormatting" Value="LeftAligned" />
+                            <Property Name="Text" Value="二、四、五" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.253061,0},{0.418478,0},{0.995918,0},{0.554348,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/EmbedTextLab2" Name="CardBattlePVPWnd/BG/StaticList/Embed2/ListBG/Text4" >
+                            <Property Name="HorzFormatting" Value="LeftAligned" />
+                            <Property Name="Text" Value="四星卡二張、五星卡一張" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.253061,0},{0.554348,0},{0.995918,0},{0.690217,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/EmbedTextLab2" Name="CardBattlePVPWnd/BG/StaticList/Embed2/ListBG/BuffBG" >
+                            <Property Name="HorzFormatting" Value="LeftAligned" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.253061,0},{0.690217,0},{0.995918,0},{0.961957,0}}" />
+                            <Window Type="DejaVu/SlotImage" Name="CardBattlePVPWnd/BG/StaticList/Embed2/BuffBG/ListBG/Icon" >
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.0137363,0},{0.08,0},{0.129121,0},{0.92,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/Combobox" Name="CardBattlePVPWnd/BG/StaticList/Embed2/ListBG/FightTypeCB" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="MaxEditTextLength" Value="2147483647" />
+                            <Property Name="ReadOnly" Value="True" />
+                            <Property Name="Text" Value="火之對決" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.253061,0},{0.00543478,0},{0.995918,0},{0.548913,0}}" />
+                        </Window>
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed4" Name="CardBattlePVPWnd/BG/StaticList/Title" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0196078,0},{0,0},{0.313726,0},{0.0786164,0}}" />
+                    <Window Type="DejaVu/StaticImage" Name="CardBattlePVPWnd/BG/StaticList/Title/Img" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Image" Value="set:DejaVu image:Image18" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="CardBattlePVPWnd/BG/StaticList/Title/Text" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="決鬥資訊" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.2,0},{0.866667,0},{0.8,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

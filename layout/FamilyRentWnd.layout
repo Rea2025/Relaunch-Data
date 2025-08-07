@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="FamilyRentWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="Text" Value="  公會情報  " />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.421309,0},{0.581395,0}}" />
+        <Window Type="DejaVu/Embed" Name="FamilyRentWnd/BG" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Static" Name="FamilyRentWnd/BG/FamilyShareCoinsArea" >
+                <Property Name="UnifiedAreaRect" Value="{{0.012837,0},{0.93913,0},{0.397946,0},{0.982609,0}}" />
+                <Window Type="DejaVu/Embed2" Name="FamilyRentWnd/BG/FamilyShareCoinsArea/CoinsBG" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.4,0},{0,0},{1,0},{1,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="FamilyRentWnd/BG/FamilyShareCoinsArea/CoinsBG/Text" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="Text" Value="123456" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                        <Window Type="DejaVu/StaticImage" Name="FamilyRentWnd/BG/FamilyShareCoinsArea/CoinsBG/Text/Img" >
+                            <Property Name="HorizontalAlignment" Value="Right" />
+                            <Property Name="Image" Value="set:main4 image:GuildGold" />
+                            <Property Name="MousePassThroughEnabled" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{-0.0277778,0},{0.08,0},{0.0833333,0},{0.88,0}}" />
+                        </Window>
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab7" Name="FamilyRentWnd/BG/FamilyShareCoinsArea/Title" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="Text" Value="x公會共用貨幣" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.4,0},{1,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Checkbox" Name="FamilyRentWnd/BG/CanRentCheckbox" >
+                <Property Name="Text" Value="x顯示可租用" />
+                <Property Name="UnifiedAreaRect" Value="{{0.42362,0},{0.937391,0},{0.616175,0},{0.98087,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="FamilyRentWnd/BG/RentCounter" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="Text" Value="x當前可租用總數： 0 / 5" />
+                <Property Name="UnifiedAreaRect" Value="{{0.699615,0},{0.00869565,0},{0.983312,0},{0.0504348,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="FamilyRentWnd/BG/RentBiologyBtn" >
+                <Property Name="Text" Value="x人員租用" />
+                <Property Name="UnifiedAreaRect" Value="{{0.012837,0},{0.0173913,0},{0.110398,0},{0.0626087,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="FamilyRentWnd/BG/RentCutSceneBtn" >
+                <Property Name="Text" Value="x佈景租用" />
+                <Property Name="UnifiedAreaRect" Value="{{0.12837,0},{0.0173913,0},{0.225931,0},{0.0626087,0}}" />
+            </Window>
+            <Window Type="DejaVu/Embed2" Name="FamilyRentWnd/BG/RentListArea" >
+                <Property Name="UnifiedAreaRect" Value="{{0.012837,0},{0.0782609,0},{0.986341,0},{0.926205,0}}" />
+                <Window Type="DejaVu/Embed4" Name="FamilyRentWnd/BG/RentListArea/TitleArea" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0131926,0},{0.0204918,0},{0.211082,0},{0.0717213,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="FamilyRentWnd/BG/RentListArea/TitleArea/Text" >
+                        <Property Name="Text" Value="x可租用物件" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.2,0},{0.909929,0},{0.8,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="FamilyRentWnd/BG/RentListArea/TitleArea/Img" >
+                        <Property Name="Image" Value="set:DejaVu image:Image13" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/ScrollablePane" Name="FamilyRentWnd/BG/RentListArea/RentPane" >
+                    <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                    <Property Name="HorzOverlapSize" Value="0.01" />
+                    <Property Name="HorzScrollPosition" Value="0" />
+                    <Property Name="HorzStepSize" Value="0.1" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0131926,0},{0.143443,0},{0.985488,0},{0.973361,0}}" />
+                    <Property Name="VertOverlapSize" Value="0.01" />
+                    <Property Name="VertScrollPosition" Value="0" />
+                    <Property Name="VertStepSize" Value="0.1" />
+                    <AutoWindow NameSuffix="__auto_container__" >
+                        <Property Name="ChildExtentsArea" Value="l:0 t:0 r:0 b:0" />
+                        <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                        <Property Name="MouseInputPropagationEnabled" Value="True" />
+                    </AutoWindow>
+                </Window>
+                <Window Type="DejaVu/Button2" Name="FamilyRentWnd/BG/RentListArea/ObjectNameTitle" >
+                    <Property Name="Text" Value="x物件名稱" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.013193,0},{0.092213,0},{0.298153,0},{0.143443,0}}" />
+                </Window>
+                <Window Type="DejaVu/Button2" Name="FamilyRentWnd/BG/RentListArea/ObjectNeedCoinTitle" >
+                    <Property Name="Text" Value="x需求資源" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.298153,0},{0.092213,0},{0.440633,0},{0.143443,0}}" />
+                </Window>
+                <Window Type="DejaVu/Button2" Name="FamilyRentWnd/BG/RentListArea/ObjectInfoTitle" >
+                    <Property Name="Text" Value="x物件簡介" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.440633,0},{0.0922131,0},{0.725594,0},{0.143443,0}}" />
+                </Window>
+                <Window Type="DejaVu/Button2" Name="FamilyRentWnd/BG/RentListArea/ObjectLevelTitle" >
+                    <Property Name="Text" Value="x所需階級" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.725594,0},{0.092213,0},{0.820581,0},{0.143443,0}}" />
+                </Window>
+                <Window Type="DejaVu/Button2" Name="FamilyRentWnd/BG/RentListArea/ObjectRentTitle" >
+                    <Property Name="Text" Value="x租用資訊" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.82058,0},{0.092213,0},{0.96306,0},{0.143443,0}}" />
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

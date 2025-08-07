@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/SevenDaysWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="TitlebarImage" Value="set:main4 image:CalendarBtnNormal" />
+        <Property Name="UnifiedAreaRect" Value="{{0.060278,0},{0.071072,0},{0.060278,754},{0.071072,656}}" />
+        <Window Type="DejaVu/TabControl" Name="Root/SevenDaysWnd/TabControler" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="TabHeight" Value="{0,20}" />
+            <Property Name="TabPanePosition" Value="Top" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{-0.001055,0},{1,0},{0.0515766,0}}" />
+        </Window>
+        <Window Type="DejaVu/ChannelLabel" Name="Root/SevenDaysWnd/SubTitle" >
+            <Property Name="UnifiedAreaRect" Value="{{0.850264,0},{-0.00168777,0},{0.996463,0},{0.0343353,0}}" />
+        </Window>
+        <Window Type="DefaultWindow" Name="Root/SevenDaysWnd/Tab" >
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="UnifiedAreaRect" Value="{{0.00458587,0},{0.0491228,0},{1.00459,0},{1.00526,0}}" />
+            <Window Type="DejaVu/Static" Name="Root/SevenDaysWnd/Tab/DayList" >
+                <Property Name="UnifiedAreaRect" Value="{{0.00816326,0},{0.0110701,0},{0.278912,0},{0.987085,0}}" />
+                <Window Type="DejaVu/Embed4" Name="Root/SevenDaysWnd/Tab/DayList/Lab" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0333333,0},{0,0},{0.838889,0},{0.0529301,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/SevenDaysWnd/Tab/DayList/LabText" >
+                        <Property Name="Text" >x天數
+</Property>
+                        <Property Name="UnifiedAreaRect" Value="{{0.298611,0},{0.214286,0},{0.895833,0},{0.821429,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/SevenDaysWnd/Tab/DayList/LabImage" >
+                        <Property Name="Image" Value="set:DejaVu image:Image20" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.111111,0},{0.214286,0},{0.222222,0},{0.821429,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed2" Name="Root/SevenDaysWnd/Tab/DayList/ListController" >
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0189036,0},{1.01005,0},{0.992439,0}}" />
+                    <Window Type="DejaVu/Embed2" Name="Root/SevenDaysWnd/Tab/DayList/ListController/Border" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.0603015,0},{0.0330097,0},{0.964824,0},{0.656311,0}}" />
+                        <Window Type="DejaVu/MultiColumnListNoHeader" Name="Root/SevenDaysWnd/Tab/DayList/ListController/Border/MCL" >
+                            <Property Name="ColumnsMovable" Value="False" />
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0463039,0},{0.004158,0},{0.976377,0},{0.981289,0}}" />
+                        </Window>
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Button" Name="Root/SevenDaysWnd/Tab/DayList/Btn" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="領取全部" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.244444,0},{0.676749,0},{0.688889,0},{0.727788,0}}" />
+                </Window>
+                <Window Type="DejaVu/Embed4" Name="Root/SevenDaysWnd/Tab/DayList/Lab1" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0333333,0},{0.73724,0},{0.838889,0},{0.79017,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/SevenDaysWnd/Tab/DayList/LabText1" >
+                        <Property Name="Text" >x天數
+</Property>
+                        <Property Name="UnifiedAreaRect" Value="{{0.298611,0},{0.214286,0},{0.895833,0},{0.821429,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/SevenDaysWnd/Tab/DayList/LabImage1" >
+                        <Property Name="Image" Value="set:DejaVu image:Image20" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.111111,0},{0.214286,0},{0.222222,0},{0.821429,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed2" Name="Root/SevenDaysWnd/Tab/QuestList/ListController/Border1" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0611111,0},{0.78828,0},{0.955556,0},{0.977316,0}}" />
+                    <Window Type="DejaVu/ScrollablePane" Name="Root/SevenDaysWnd/Tab/QuestList/ListController/Border1/ListPane" >
+                        <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                        <Property Name="HorzOverlapSize" Value="0.01" />
+                        <Property Name="HorzScrollPosition" Value="0" />
+                        <Property Name="HorzStepSize" Value="0.1" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0334613,0},{0.448279,0},{0.98971,0},{0.992868,0}}" />
+                        <Property Name="VertOverlapSize" Value="0.01" />
+                        <Property Name="VertScrollPosition" Value="0" />
+                        <Property Name="VertStepSize" Value="0.1" />
+                        <AutoWindow NameSuffix="__auto_container__" >
+                            <Property Name="ChildExtentsArea" Value="l:0 t:0 r:0 b:0" />
+                            <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                            <Property Name="MouseInputPropagationEnabled" Value="True" />
+                        </AutoWindow>
+                    </Window>
+                    <Window Type="DejaVu/Button" Name="Root/SevenDaysWnd/Tab/QuestList/ListController/Border1/Btn" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="領取" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.528471,0},{0.076918,0},{0.955598,0},{0.326918,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticText" Name="Root/SevenDaysWnd/Tab/QuestList/ListController/Border1/Text" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="任務：25/40" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0611453,0},{0.0683917,0},{0.526781,0},{0.336479,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="Root/SevenDaysWnd/Tab/QuestList" >
+                <Property Name="UnifiedAreaRect" Value="{{0.282993,0},{0.0110701,0},{1.00544,0},{0.987085,0}}" />
+                <Window Type="DejaVu/Embed4" Name="Root/SevenDaysWnd/Tab/QuestList/Lab" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0222635,0},{0,0},{0.32282,0},{0.0537428,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/SevenDaysWnd/Tab/QuestList/LabText" >
+                        <Property Name="Text" >x第一天
+</Property>
+                        <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.2,0},{0.866667,0},{0.8,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/SevenDaysWnd/Tab/QuestList/LabImage" >
+                        <Property Name="Image" Value="set:DejaVu image:Image03" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed2" Name="Root/SevenDaysWnd/Tab/QuestList/ListController" >
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0206767,0},{0.994297,0},{0.994361,0}}" />
+                    <Window Type="DejaVu/Embed2" Name="Root/SevenDaysWnd/Tab/QuestList/ListController/Border" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.0185874,0},{0.0490196,0},{0.979554,0},{0.976471,0}}" />
+                        <Window Type="DejaVu/ScrollablePane" Name="Root/SevenDaysWnd/Tab/QuestList/ListController/Border/ListPane" >
+                            <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                            <Property Name="HorzOverlapSize" Value="0.01" />
+                            <Property Name="HorzScrollPosition" Value="0" />
+                            <Property Name="HorzStepSize" Value="0.1" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.00773694,0},{0.0672042,0},{1,0},{0.991635,0}}" />
+                            <Property Name="VertOverlapSize" Value="0.01" />
+                            <Property Name="VertScrollPosition" Value="0" />
+                            <Property Name="VertStepSize" Value="0.1" />
+                            <AutoWindow NameSuffix="__auto_container__" >
+                                <Property Name="ChildExtentsArea" Value="l:0 t:0 r:0 b:0" />
+                                <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                                <Property Name="MouseInputPropagationEnabled" Value="True" />
+                            </AutoWindow>
+                        </Window>
+                        <Window Type="DejaVu/EmbedTextLab7" Name="Root/SevenDaysWnd/Tab/QuestList/ListController/Border/MissionName" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="#任務名稱" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.00773694,0},{0.00422833,0},{0.994197,0},{0.0655391,0}}" />
+                        </Window>
+                    </Window>
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

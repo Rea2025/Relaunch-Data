@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="EudemonDungeonWnd" >
+        <Property Name="Font" Value="F001-scale" />
+        <Property Name="UnifiedAreaRect" Value="{{0.00104167,0},{0,0},{0.00104167,838},{0,576}}" />
+        <Window Type="DejaVu/Static" Name="EudemonDungeonWnd/BG" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0134955,0},{0.017361,0},{0.98963,0},{0.982639,0}}" />
+            <Property Name="VertFormatting" Value="TopAligned" />
+            <Window Type="DejaVu/Static" Name="EudemonDungeonWnd/BG/ListArea" >
+                <Property Name="UnifiedAreaRect" Value="{{0.684597,0},{0,0},{1.00244,0},{0.998201,0}}" />
+                <Window Type="DejaVu/Embed4" Name="EudemonDungeonWnd/BG/ListArea/Title" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.037037,0},{0,0},{0.616188,0},{0.044964,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="EudemonDungeonWnd/BG/ListArea/Title/Text" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="x源神列表" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.2,0},{0.866667,0},{0.8,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="EudemonDungeonWnd/BG/ListArea/Title/Icon" >
+                        <Property Name="Image" Value="set:DejaVu image:Image08" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed2" Name="EudemonDungeonWnd/BG/ListArea/BG" >
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.018018,0},{0.999358,0},{1,0}}" />
+                    <Window Type="DejaVu/Embed2" Name="EudemonDungeonWnd/BG/ListArea/BG/ChooseEudemon" >
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0775194,0},{0.0587156,0},{0.930233,0},{0.172477,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab7" Name="EudemonDungeonWnd/BG/ListArea/BG/ClassComboTitle" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HorzFormatting" Value="WordWrapCentred" />
+                        <Property Name="Text" Value="x屬性分類" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.03876,0},{0.208408,0},{0.368217,0},{0.25428,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Combobox" Name="EudemonDungeonWnd/BG/ListArea/BG/ClassCombo" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="MaxEditTextLength" Value="2147483647" />
+                        <Property Name="ReadOnly" Value="True" />
+                        <Property Name="Text" Value="x選擇屬性" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.369897,0},{0.208408,0},{0.96292,0},{0.391895,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Embed2" Name="EudemonDungeonWnd/BG/ListArea/BG/EudemonList" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.0387597,0},{0.26422,0},{0.968992,0},{0.919266,0}}" />
+                        <Window Type="DejaVu/EmbedTextLab7" Name="EudemonDungeonWnd/BG/ListArea/BG/EudemonList/Title" >
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="x源神選擇" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{3.72529e-009,0},{1,0},{0.0778816,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/ScrollablePane" Name="EudemonDungeonWnd/BG/ListArea/BG/EudemonList/Pane" >
+                            <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                            <Property Name="HorzOverlapSize" Value="0.01" />
+                            <Property Name="HorzScrollPosition" Value="0" />
+                            <Property Name="HorzStepSize" Value="0.1" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.008333,0},{0.086207,0},{1,0},{0.989925,0}}" />
+                            <Property Name="VertOverlapSize" Value="0.01" />
+                            <Property Name="VertScrollPosition" Value="0" />
+                            <Property Name="VertStepSize" Value="0.1" />
+                            <AutoWindow NameSuffix="__auto_container__" >
+                                <Property Name="ChildExtentsArea" Value="l:0 t:0 r:0 b:0" />
+                                <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                                <Property Name="MouseInputPropagationEnabled" Value="True" />
+                            </AutoWindow>
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Button" Name="EudemonDungeonWnd/BG/ListArea/BG/EnterBtn" >
+                        <Property Name="Text" Value="x進入副本" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.352713,0},{-0.018349,0},{0.647287,0},{0.0293574,0}}" />
+                        <Property Name="VerticalAlignment" Value="Bottom" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="EudemonDungeonWnd/BG/BG02" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.290954,0},{0,0},{0.678485,0},{0.410072,0}}" />
+                <Window Type="DejaVu/Embed2" Name="EudemonDungeonWnd/BG/ControlFramewor" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0526316,0},{1,0},{1.01053,0}}" />
+                    <Window Type="DejaVu/Embed2" Name="EudemonDungeonWnd/BG/ControlFramewor/BG" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.028249,0},{0.108696,0},{0.971752,0},{0.956522,0}}" />
+                        <Window Type="DejaVu/MultiColumnList" Name="EudemonDungeonWnd/BG/ControlFramewor/InstanceListBox" >
+                            <Property Name="ColumnsMovable" Value="False" />
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="ForceVertScrollbar" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.005988,0},{0.010256,0},{0.994012,0},{0.989743,0}}" />
+                            <Property Name="ColumnHeader" Value="text:x副本名稱 width:{0.7,0} id:0" />
+                            <Property Name="ColumnHeader" Value="text:x副本次數 width:{0.3,0} id:1" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Embed2" Name="EudemonDungeonWnd/BG/ControlFramewor/GroupPaneBG" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.028249,0},{0.108696,0},{0.971752,0},{0.956522,0}}" />
+                        <Window Type="DejaVu/ScrollablePane" Name="EudemonDungeonWnd/BG/ControlFramewor/GroupPane" >
+                            <Property Name="ContentArea" Value="l:0 t:0 r:285 b:24" />
+                            <Property Name="HorzOverlapSize" Value="0.01" />
+                            <Property Name="HorzScrollPosition" Value="0" />
+                            <Property Name="HorzStepSize" Value="0.1" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                            <Property Name="VertOverlapSize" Value="0.01" />
+                            <Property Name="VertScrollPosition" Value="0" />
+                            <Property Name="VertStepSize" Value="0.1" />
+                            <AutoWindow NameSuffix="__auto_container__" >
+                                <Property Name="ChildExtentsArea" Value="l:0 t:0 r:285 b:24" />
+                                <Property Name="ContentArea" Value="l:0 t:0 r:285 b:24" />
+                                <Property Name="MouseInputPropagationEnabled" Value="True" />
+                                <Window Type="DejaVu/Static" Name="EudemonDungeonWnd/BG/ControlFramewor/GroupPane/HeaderBG" >
+                                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.952096,0},{0.128205,0}}" />
+                                    <Window Type="DejaVu/Button2" Name="EudemonDungeonWnd/BG/ControlFramewor/GroupPane/Header1" >
+                                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.0862069,0},{1,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/Button2" Name="EudemonDungeonWnd/BG/ControlFramewor/GroupPane/Header2" >
+                                        <Property Name="Text" Value="x副本名稱" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.086207,0},{0,0},{0.724138,0},{1,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/Button2" Name="EudemonDungeonWnd/BG/ControlFramewor/GroupPane/Header3" >
+                                        <Property Name="Text" Value="x剩餘次數" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.724138,0},{0,0},{1,0},{1,0}}" />
+                                    </Window>
+                                </Window>
+                            </AutoWindow>
+                        </Window>
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed4" Name="EudemonDungeonWnd/BG/ControlFramewor/choiceTip" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0318471,0},{0,0},{0.512739,0},{0.111111,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="EudemonDungeonWnd/BG/ControlFramewor/choiceTip/Text" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="x副本清單" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.2,0},{0.866667,0},{0.8,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="EudemonDungeonWnd/BG/ControlFramewor/choiceTip/Icon" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Image" Value="set:DejaVu image:Image16" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="EudemonDungeonWnd/BG/BackGround/PicBG" >
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.284841,0},{0.706835,0}}" />
+                <Window Type="DejaVu/Embed2" Name="EudemonDungeonWnd/BG/BackGround/PicBG/BG" >
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.02849,0},{1,0},{1.0057,0}}" />
+                    <Window Type="DejaVu/StaticImage" Name="EudemonDungeonWnd/BG/BackGround/PicBG/BG/Pic" >
+                        <Property Name="Image" Value="set:main5 image:S004NormalBtn" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.038462,0},{0.057471,0},{0.961539,0},{0.195402,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="EudemonDungeonWnd/BG/BackGround/PicBG/BG/Pic2" >
+                        <Property Name="Image" Value="set:main6 image:S104NormalBtn" />
+                        <Property Name="Text" Value="x裝備等級" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.038462,0},{0.218391,0},{0.961539,0},{0.977012,0}}" />
+                        <Window Type="DejaVu/StaticTextLab" Name="EudemonDungeonWnd/BG/BackGround/PicBG/BG/Pic2/Title" >
+                            <Property Name="Font" Value="F001-12" />
+                            <Property Name="Text" Value="x阿古斯深穴（單人模式）" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.041667,0},{0.030303,0},{0.958334,0},{0.106061,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticText" Name="EudemonDungeonWnd/BG/BackGround/PicBG/BG/Pic2/Content" >
+                            <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                            <Property Name="Text" Value="x阿古斯教團傳說中的魔神沉眠之地，現已成為巨型魔物的藏身處。" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.041667,0},{0.136364,0},{0.958334,0},{0.5,0}}" />
+                            <Property Name="VertFormatting" Value="TopAligned" />
+                        </Window>
+                        <Window Type="DejaVu/StaticImage" Name="EudemonDungeonWnd/BG/BackGround/PicBG/BG/Pic2/Slot1" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.0416667,0},{-0.030303,0},{0.25,0},{0.121212,0}}" />
+                            <Property Name="VerticalAlignment" Value="Bottom" />
+                        </Window>
+                        <Window Type="DejaVu/StaticImage" Name="EudemonDungeonWnd/BG/BackGround/PicBG/BG/Pic2/Slot2" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.291667,0},{-0.030303,0},{0.5,0},{0.121212,0}}" />
+                            <Property Name="VerticalAlignment" Value="Bottom" />
+                        </Window>
+                        <Window Type="DejaVu/StaticTextLab" Name="EudemonDungeonWnd/BG/BackGround/PicBG/BG/Pic2/EquipLevelTitle" >
+                            <Property Name="Text" Value="x裝備等級：" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.465116,0},{0.893471,0},{0.744186,0},{0.979382,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticTextLab" Name="EudemonDungeonWnd/BG/BackGround/PicBG/BG/Pic2/EquipLevel" >
+                            <Property Name="Font" Value="F001-20" />
+                            <Property Name="Text" Value="260" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.790698,0},{0.876289,0},{1.04651,0},{0.9622,0}}" />
+                        </Window>
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed4" Name="EudemonDungeonWnd/BG/BackGround/PicBG/Title" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.045454,0},{0,0},{0.701976,0},{0.064433,0}}" />
+                    <Window Type="DejaVu/StaticImage" Name="EudemonDungeonWnd/BG/BackGround/PicBG/Title/Img" >
+                        <Property Name="Image" Value="set:DejaVu image:Image19" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="EudemonDungeonWnd/BG/BackGround/PicBG/Title/Text" >
+                        <Property Name="Text" Value="x副本地圖" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.2,0},{0.866667,0},{0.8,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="EudemonDungeonWnd/BG/BackGround/MonsterList" >
+                <Property Name="UnifiedAreaRect" Value="{{0.290954,0},{0.419065,0},{0.678485,0},{0.706835,0}}" />
+                <Window Type="DejaVu/Embed2" Name="EudemonDungeonWnd/BG/BackGround/MonsterList/BG" >
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0632911,0},{1,0},{1.00633,0}}" />
+                    <Window Type="DejaVu/Static" Name="EudemonDungeonWnd/BG/BackGround/MonsterList/BG/ListBG" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.00564972,0},{0.157233,0},{0.99435,0},{0.974843,0}}" />
+                        <Window Type="DejaVu/MultiColumnListNoHeader" Name="EudemonDungeonWnd/BG/BackGround/MonsterList/BG/List" >
+                            <Property Name="ColumnsMovable" Value="False" />
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                        </Window>
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed4" Name="EudemonDungeonWnd/BG/BackGround/MonsterList/Title" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0318471,0},{0,0},{0.512739,0},{0.158228,0}}" />
+                    <Window Type="DejaVu/StaticImage" Name="EudemonDungeonWnd/BG/BackGround/MonsterList/Title/Img" >
+                        <Property Name="Image" Value="set:DejaVu image:Image16" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="EudemonDungeonWnd/BG/BackGround/MonsterList/Title/Text" >
+                        <Property Name="Text" Value="x王怪列表" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.2,0},{0.866667,0},{0.8,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="EudemonDungeonWnd/BG/BackGround/EudemonList" >
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.715827,0},{0.336186,0},{0.998201,0}}" />
+                <Window Type="DejaVu/Embed2" Name="EudemonDungeonWnd/BG/BackGround/EudemonList/BG" >
+                    <Property Name="UnifiedAreaRect" Value="{{-0.00158712,0},{0.0632911,0},{0.998413,0},{1.00633,0}}" />
+                    <Window Type="DejaVu/Static" Name="EudemonDungeonWnd/BG/BackGround/EudemonList/BG/ListBG" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.00564972,0},{0.157233,0},{0.99435,0},{0.974843,0}}" />
+                        <Window Type="DejaVu/ScrollablePane" Name="EudemonDungeonWnd/BG/BackGround/EudemonList/BG/Pane" >
+                            <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                            <Property Name="HorzOverlapSize" Value="0.01" />
+                            <Property Name="HorzScrollPosition" Value="0" />
+                            <Property Name="HorzStepSize" Value="0.1" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.008333,0},{0.086207,0},{1,0},{0.989925,0}}" />
+                            <Property Name="VertOverlapSize" Value="0.01" />
+                            <Property Name="VertScrollPosition" Value="0" />
+                            <Property Name="VertStepSize" Value="0.1" />
+                            <AutoWindow NameSuffix="__auto_container__" >
+                                <Property Name="ChildExtentsArea" Value="l:0 t:0 r:0 b:0" />
+                                <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                                <Property Name="MouseInputPropagationEnabled" Value="True" />
+                            </AutoWindow>
+                        </Window>
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed4" Name="EudemonDungeonWnd/BG/BackGround/EudemonList/Title" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.036364,0},{0,0},{0.585455,0},{0.159236,0}}" />
+                    <Window Type="DejaVu/StaticImage" Name="EudemonDungeonWnd/BG/BackGround/EudemonList/Title/Img" >
+                        <Property Name="Image" Value="set:DejaVu image:Image13" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="EudemonDungeonWnd/BG/BackGround/EudemonList/Title/Text" >
+                        <Property Name="Text" Value="x源神列表" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.2,0},{0.866667,0},{0.8,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="EudemonDungeonWnd/BG/BackGround/EnchantList" >
+                <Property Name="UnifiedAreaRect" Value="{{0.342298,0},{0.715827,0},{0.678484,0},{0.998201,0}}" />
+                <Window Type="DejaVu/Embed2" Name="EudemonDungeonWnd/BG/BackGround/EnchantList/BG" >
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0632911,0},{1,0},{1.00633,0}}" />
+                    <Window Type="DejaVu/Static" Name="EudemonDungeonWnd/BG/BackGround/EnchantList/BG/ListBG" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.00564972,0},{0.157233,0},{0.99435,0},{0.974843,0}}" />
+                        <Window Type="DejaVu/ScrollablePane" Name="EudemonDungeonWnd/BG/BackGround/EnchantList/BG/Pane" >
+                            <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                            <Property Name="HorzOverlapSize" Value="0.01" />
+                            <Property Name="HorzScrollPosition" Value="0" />
+                            <Property Name="HorzStepSize" Value="0.1" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.008333,0},{0.086207,0},{1,0},{0.989925,0}}" />
+                            <Property Name="VertOverlapSize" Value="0.01" />
+                            <Property Name="VertScrollPosition" Value="0" />
+                            <Property Name="VertStepSize" Value="0.1" />
+                            <AutoWindow NameSuffix="__auto_container__" >
+                                <Property Name="ChildExtentsArea" Value="l:0 t:0 r:0 b:0" />
+                                <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                                <Property Name="MouseInputPropagationEnabled" Value="True" />
+                            </AutoWindow>
+                        </Window>
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed4" Name="EudemonDungeonWnd/BG/BackGround/EnchantList/Title" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.036364,0},{0,0},{0.585455,0},{0.159236,0}}" />
+                    <Window Type="DejaVu/StaticImage" Name="EudemonDungeonWnd/BG/BackGround/EnchantList/Title/Img" >
+                        <Property Name="Image" Value="set:DejaVu image:Image15" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="EudemonDungeonWnd/BG/BackGround/EnchantList/Title/Text" >
+                        <Property Name="Text" Value="x效果列表" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.2,0},{0.866667,0},{0.8,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

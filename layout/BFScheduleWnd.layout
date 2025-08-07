@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="BFScheduleWnd" >
+        <Property Name="Font" Value="F001-scale" />
+        <Property Name="HelpButtonEnabled" Value="True" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.37207,0},{0.126302,0},{0.695312,0},{0.739583,0}}" />
+        <Window Type="DejaVu/Static" Name="BFScheduleWnd/Static" >
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="FrameEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.006431,0},{0.004662,0},{0.993569,0},{0.997669,0}}" />
+            <Window Type="DejaVu/Embed3" Name="BFScheduleWnd/Static/BG" >
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="UnifiedAreaRect" Value="{{0.016287,0},{0.011737,0},{0.983714,0},{0.988263,0}}" />
+                <Window Type="DejaVu/Checkbox" Name="BFScheduleWnd/FilterCbx" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="x過濾已進行的戰場" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.016835,0},{0.012019,0},{0.420875,0},{0.0456728,0}}" />
+                </Window>
+                <Window Type="DejaVu/Embed4" Name="BFScheduleWnd/BG2" >
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.016835,0},{0.057692,0},{0.983165,0},{0.98798,0}}" />
+                    <Window Type="DejaVu/ScrollablePane" Name="BFScheduleWnd/ListPane" >
+                        <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                        <Property Name="Font" Value="F001-scale" />
+                        <Property Name="HorzOverlapSize" Value="0.01" />
+                        <Property Name="HorzScrollPosition" Value="0" />
+                        <Property Name="HorzStepSize" Value="0.1" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.017422,0},{0.01292,0},{0.982579,0},{0.989664,0}}" />
+                        <Property Name="VertOverlapSize" Value="0.01" />
+                        <Property Name="VertScrollPosition" Value="0" />
+                        <Property Name="VertStepSize" Value="0.1" />
+                        <AutoWindow NameSuffix="__auto_container__" >
+                            <Property Name="ChildExtentsArea" Value="l:0 t:0 r:0 b:0" />
+                            <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                            <Property Name="MouseInputPropagationEnabled" Value="True" />
+                        </AutoWindow>
+                    </Window>
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

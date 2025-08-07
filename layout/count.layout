@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="count" >
+        <Property Name="CloseButtonEnabled" Value="False" />
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="TitlebarImage" Value="set:main image:SystemNormal" />
+        <Property Name="UnifiedAreaRect" Value="{{0.32767,0},{0.226812,0},{0.32767,216},{0.226812,181}}" />
+        <Window Type="DejaVu/Embed" Name="count/frame/bg" >
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Button" Name="count/frame/bg/cancel" >
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="Text" Value="取消" />
+                <Property Name="UnifiedAreaRect" Value="{{0.229167,0},{0.690692,0},{0.229167,71},{0.690692,22}}" />
+            </Window>
+            <Window Type="DejaVu/Embed2" Name="count/frame/bg/count" >
+                <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.346535,0},{0.95,0},{0.643565,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="count/frame/bg/count/text" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="倒數　　秒" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.055556,0},{0.166667,0},{0.944445,0},{0.866667,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="count/MsgText" >
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="x正在切換至" />
+                <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.089109,0},{0.95,0},{0.306931,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="count/frame/bg/cancel1" >
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="Text" Value="返回選角" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.246875,0},{0.697213,0},{-0.246875,71},{0.697213,22}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

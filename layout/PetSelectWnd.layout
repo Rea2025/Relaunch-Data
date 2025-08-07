@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/PetSelectWnd" >
+        <Property Name="CloseButtonEnabled" Value="False" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="Text" Value="x select pet" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,225},{0,329}}" />
+        <Window Type="DejaVu/Static" Name="Root/PetSelectWnd/Static" >
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0434783,0},{1,0},{0.894928,0}}" />
+            <Window Type="DejaVu/ScrollablePane" Name="Root/PetSelectWnd/Static/List" >
+                <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="HorzOverlapSize" Value="0.01" />
+                <Property Name="HorzScrollPosition" Value="0" />
+                <Property Name="HorzStepSize" Value="0.1" />
+                <Property Name="UnifiedAreaRect" Value="{{0.015873,0},{0.06383,0},{0.984127,0},{0.974468,0}}" />
+                <Property Name="VertOverlapSize" Value="0.01" />
+                <Property Name="VertScrollPosition" Value="0" />
+                <Property Name="VertStepSize" Value="0.1" />
+                <AutoWindow NameSuffix="__auto_container__" >
+                    <Property Name="ChildExtentsArea" Value="l:0 t:0 r:0 b:0" />
+                    <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                    <Property Name="MouseInputPropagationEnabled" Value="True" />
+                </AutoWindow>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/zStaticLab" Name="Root/PetSelectWnd/Title" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="Text" Value="axx" />
+            <Property Name="UnifiedAreaRect" Value="{{0.114943,0},{0,0},{0.485313,0},{0.0851064,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/PetSelectWnd/OKBtn" >
+            <Property Name="Text" Value="xSure" />
+            <Property Name="UnifiedAreaRect" Value="{{0.21164,0},{0.913043,0},{0.582011,0},{1,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/PetSelectWnd/CloseBtn" >
+            <Property Name="Text" Value="xNop" />
+            <Property Name="UnifiedAreaRect" Value="{{0.619048,0},{0.913043,0},{0.989418,0},{1,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="RecommendActvitiyTreeItem" >
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{-0.0026127,0},{0.472122,0},{0.997387,0}}" />
+        <Window Type="DejaVu/Embed2" Name="RecommendActvitiyTreeItem/Item" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.116798,0},{0,345},{0.116798,25}}" />
+            <Window Type="DejaVu/EmbedTextLab2" Name="RecommendActvitiyTreeItem/Item/Point" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="999" />
+                <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+                <Property Name="UnifiedAreaRect" Value="{{0.536232,0},{0,0},{0.768116,0},{1,0}}" />
+            </Window>
+            <Window Type="DejaVu/EmbedTextLab2" Name="RecommendActvitiyTreeItem/Item/Name" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="ID" Value="3" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="哈哈哈哈哈哈哈哈哈" />
+                <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.000777,0},{0,0},{0.535455,0},{1,0}}" />
+            </Window>
+            <Window Type="DejaVu/EmbedTextLab2" Name="RecommendActvitiyTreeItem/Item/State" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="ID" Value="6" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="x1/999" />
+                <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+                <Property Name="UnifiedAreaRect" Value="{{0.768116,0},{0,0},{1,0},{1,0}}" />
+            </Window>
+            <Window Type="DejaVu/Zframe2" Name="RecommendActvitiyTreeItem/Item/SelectFrame" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="ID" Value="4" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/ImageCheckbox" Name="RecommendActvitiyTreeItem/Column" >
+            <Property Name="DisabledImage" Value="set:DejaVu image:TreeListOpened" />
+            <Property Name="HoverImage" Value="set:DejaVu image:TreeListClosed" />
+            <Property Name="HoverTextColour" Value="FFFFFFFF00" />
+            <Property Name="NormalImage" Value="set:DejaVu image:TreeListClosed" />
+            <Property Name="NormalTextColour" Value="FFFFFFFF00" />
+            <Property Name="PushedImage" Value="set:DejaVu image:TreeListOpened" />
+            <Property Name="PushedTextColour" Value="FFFFFFFF00" />
+            <Property Name="Text" Value="1111" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0730717,0},{0,345},{0.0730717,25}}" />
+        </Window>
+    </Window>
+</GUILayout>

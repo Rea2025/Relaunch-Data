@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/TipTextLab" Name="Root/BeginnerTutorialDlg" >
+        <Property Name="AlwaysOnTop" Value="True" />
+        <Property Name="HorizontalAlignment" Value="Centre" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,490},{0,80}}" />
+        <Property Name="UnifiedMinSize" Value="{{0,50},{0,50}}" />
+        <Property Name="VerticalAlignment" Value="Bottom" />
+        <Window Type="DefaultWindow" Name="Root/BeginnerTutorialDlg/IconStyle" >
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DefaultWindow" Name="Root/BeginnerTutorialDlg/IconStyle/Icon" >
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.286344,0},{0,0},{0.515418,0},{1,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="Root/BeginnerTutorialDlg/IconStyle/Icon/Square" >
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.384615,0},{1,0}}" />
+                    <Property Name="VerticalAlignment" Value="Centre" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/BeginnerTutorialDlg/IconStyle/Icon/Rect" >
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.6,0}}" />
+                    <Property Name="VerticalAlignment" Value="Centre" />
+                </Window>
+                <Window Type="DejaVu/Button" Name="Root/BeginnerTutorialDlg/IconStyle/Icon/Button" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="Text" Value="ok la" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.634615,0},{0.6,0}}" />
+                    <Property Name="VerticalAlignment" Value="Centre" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/BeginnerTutorialDlg/IconStyle/Icon/LeftRect" >
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.495495,0},{1,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/BeginnerTutorialDlg/IconStyle/Icon/RightRect" >
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="HorizontalAlignment" Value="Right" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.495495,0},{1,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/BeginnerTutorialDlg/IconStyle/Title" >
+                <Property Name="Font" Value="F001-12" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="xCC" />
+                <Property Name="TextColours" Value="tl:FFFFFF00 tr:FFFFFF00 bl:FFFFFF00 br:FFFFFF00" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,130},{0,40}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="Root/BeginnerTutorialDlg/IconStyle/Content" >
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="xDD" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,214},{0,40}}" />
+            </Window>
+        </Window>
+        <Window Type="DefaultWindow" Name="Root/BeginnerTutorialDlg/TextStyle" >
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/StaticTextLab" Name="Root/BeginnerTutorialDlg/TextStyle/Title" >
+                <Property Name="Font" Value="F001-12" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="xBB" />
+                <Property Name="TextColours" Value="tl:FFFFFF00 tr:FFFFFF00 bl:FFFFFF00 br:FFFFFF00" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0220264,0},{0,0},{0.34141,0},{1,0}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="Root/BeginnerTutorialDlg/TextStyle/Content" >
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="xAA" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.630631,0},{1,0}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/ImageButton" Name="Root/BeginnerTutorialDlg/CloseBtn" >
+            <Property Name="DisabledImage" Value="set:DejaVu image:NewCloseButtonPressed" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HoverImage" Value="set:DejaVu image:NewCloseButtonHover" />
+            <Property Name="NormalImage" Value="set:DejaVu image:NewCloseButtonNormal" />
+            <Property Name="PushedImage" Value="set:DejaVu image:NewCloseButtonPressed" />
+            <Property Name="UnifiedAreaRect" Value="{{0.94898,0},{0.0625,0},{0.94898,20},{0.0625,20}}" />
+        </Window>
+    </Window>
+</GUILayout>

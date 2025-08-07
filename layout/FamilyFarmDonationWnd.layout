@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/FamilyFarmDonationWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="Text" Value="作物貢獻" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.376042,0},{0.0479319,0},{0.760416,0},{0.692093,0}}" />
+        <Window Type="DejaVu/Static" Name="Root/FamilyFarmDonationWnd/Frame" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0316366,0},{0.96262,0},{0.981773,0}}" />
+            <Window Type="DejaVu/MultiColumnList" Name="Root/FamilyFarmDonationWnd/DonorMCL" >
+                <Property Name="ColumnsMovable" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0551876,0},{0.917785,0},{0.794702,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/FamilyFarmDonationWnd/Slot1" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0333501,0},{0.809068,0},{0.0333501,34},{0.809068,34}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/FamilyFarmDonationWnd/Slot2" >
+                <Property Name="UnifiedAreaRect" Value="{{0.146302,0},{0.810154,0},{0.146302,34},{0.810154,34}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/FamilyFarmDonationWnd/Slot3" >
+                <Property Name="UnifiedAreaRect" Value="{{0.258452,0},{0.810154,0},{0.258452,34},{0.810154,34}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/FamilyFarmDonationWnd/Slot4" >
+                <Property Name="UnifiedAreaRect" Value="{{0.370601,0},{0.810154,0},{0.370601,34},{0.810154,34}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/FamilyFarmDonationWnd/Slot5" >
+                <Property Name="UnifiedAreaRect" Value="{{0.482751,0},{0.810154,0},{0.482751,34},{0.810154,34}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/FamilyFarmDonationWnd/Slot6" >
+                <Property Name="UnifiedAreaRect" Value="{{0.0341526,0},{0.89404,0},{0.0341526,34},{0.89404,34}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/FamilyFarmDonationWnd/Slot7" >
+                <Property Name="UnifiedAreaRect" Value="{{0.146302,0},{0.89404,0},{0.146302,34},{0.89404,34}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/FamilyFarmDonationWnd/Slot8" >
+                <Property Name="UnifiedAreaRect" Value="{{0.258452,0},{0.89404,0},{0.258452,34},{0.89404,34}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/FamilyFarmDonationWnd/Slot9" >
+                <Property Name="UnifiedAreaRect" Value="{{0.370601,0},{0.89404,0},{0.370601,34},{0.89404,34}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/FamilyFarmDonationWnd/Slot10" >
+                <Property Name="UnifiedAreaRect" Value="{{0.482751,0},{0.89404,0},{0.482751,34},{0.89404,34}}" />
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="Root/FamilyFarmDonationWnd/PointLabel" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" Value="本次貢獻點" />
+                <Property Name="UnifiedAreaRect" Value="{{0.604165,0},{0.814054,0},{0.823197,0},{0.879199,0}}" />
+            </Window>
+            <Window Type="DejaVu/EmbedTextLab3" Name="Root/FamilyFarmDonationWnd/PointText" >
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="ID" Value="301" />
+                <Property Name="Text" Value="9999" />
+                <Property Name="UnifiedAreaRect" Value="{{0.797599,0},{0.815681,0},{0.797599,47},{0.815681,28}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/FamilyFarmDonationWnd/DonateBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="x上繳" />
+                <Property Name="UnifiedAreaRect" Value="{{0.660354,0},{0.906244,0},{0.910354,0},{0.965426,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/zStaticLab" Name="Root/FamilyFarmDonationWnd/ListLabel" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="HorzFormatting" Value="WordWrapCentred" />
+            <Property Name="Text" Value="x貢獻清單" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0640919,0},{0.00899275,0},{0.0640919,66},{0.00899275,24}}" />
+        </Window>
+        <Window Type="DejaVu/ImageButton" Name="Root/FamilyFarmDonationWnd/QMarkBtn" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="ClippedByParent" Value="False" />
+            <Property Name="HorizontalAlignment" Value="Right" />
+            <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+            <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+            <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+            <Property Name="UnifiedAreaRect" Value="{{-0.015015,0},{-0.0356394,0},{-0.015015,12},{-0.0356394,12}}" />
+        </Window>
+    </Window>
+</GUILayout>

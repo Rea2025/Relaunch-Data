@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/Embed2" Name="Root/AutoSupportAdvance" >
+        <Property Name="UnifiedAreaRect" Value="{{0.2,0},{0.2,0},{0.564583,0},{0.775137,0}}" />
+        <Window Type="DejaVu/ScrollablePane" Name="Root/AutoSupportAdvance/ScrollablePane" >
+            <Property Name="ContentArea" Value="l:0 t:0 r:543 b:500" />
+            <Property Name="HorzOverlapSize" Value="0.01" />
+            <Property Name="HorzScrollPosition" Value="0" />
+            <Property Name="HorzStepSize" Value="0.1" />
+            <Property Name="UnifiedAreaRect" Value="{{0.003571,0},{-0.002375,0},{1.00357,0},{0.99581,0}}" />
+            <Property Name="VertOverlapSize" Value="0.01" />
+            <Property Name="VertScrollPosition" Value="0" />
+            <Property Name="VertStepSize" Value="0.1" />
+            <AutoWindow NameSuffix="__auto_container__" >
+                <Property Name="ChildExtentsArea" Value="l:0 t:0 r:543 b:500" />
+                <Property Name="ContentArea" Value="l:0 t:0 r:543 b:500" />
+                <Property Name="MouseInputPropagationEnabled" Value="True" />
+                <Window Type="DejaVu/Static" Name="Root/AutoSupportAdvance/ScrollablePane/HealSetting" >
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,543},{0,180}}" />
+                    <Window Type="DejaVu/EmbedTextLab7" Name="Root/AutoSupportAdvance/ScrollablePane/HealSetting/Title" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="x回復設定" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,543},{0,25}}" />
+                    </Window>
+                    <Window Type="DejaVu/Static" Name="Root/AutoSupportAdvance/ScrollablePane/HealSetting/Sit" >
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.167598,0},{0,543},{0.167598,45}}" />
+                        <Window Type="DejaVu/Checkbox" Name="Root/AutoSupportAdvance/ScrollablePane/HealSetting/Sit/CheckBox" >
+                            <Property Name="Text" Value="x生命值低於" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.018416,0},{0.222222,0},{0.018416,100},{0.222222,25}}" />
+                        </Window>
+                        <Window Type="DejaVu/Editbox" Name="Root/AutoSupportAdvance/ScrollablePane/HealSetting/Sit/EditBox" >
+                            <Property Name="MaxTextLength" Value="2147483647" />
+                            <Property Name="TextParsingEnabled" Value="False" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.220994,0},{0.222222,0},{0.220994,50},{0.222222,25}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticTextLab" Name="Root/AutoSupportAdvance/ScrollablePane/HealSetting/Sit/Text" >
+                            <Property Name="Text" Value="x%時坐下至完全回復" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.331492,0},{0.222222,0},{0.331492,150},{0.222222,25}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Static" Name="Root/AutoSupportAdvance/ScrollablePane/HealSetting/UseItem1" >
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.391061,0},{0,543},{0.391061,45}}" />
+                        <Window Type="DejaVu/Checkbox" Name="Root/AutoSupportAdvance/ScrollablePane/HealSetting/UseItem1/CheckBox" >
+                            <Property Name="Text" Value="x生命值低於" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.018416,0},{0.222222,0},{0.018416,100},{0.222222,28}}" />
+                        </Window>
+                        <Window Type="DejaVu/Editbox" Name="Root/AutoSupportAdvance/ScrollablePane/HealSetting/UseItem1/EditBox" >
+                            <Property Name="MaxTextLength" Value="2147483647" />
+                            <Property Name="TextParsingEnabled" Value="False" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.220994,0},{0.222222,0},{0.220994,50},{0.222222,25}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticTextLab" Name="Root/AutoSupportAdvance/ScrollablePane/HealSetting/UseItem1/Text" >
+                            <Property Name="Text" Value="x%時 使用" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.331492,0},{0.222222,0},{0.331492,70},{0.222222,25}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="Root/AutoSupportAdvance/ScrollablePane/HealSetting/UseItem1/Item0" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.478821,0},{0.222222,0},{0.478821,30},{0.222222,30}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="Root/AutoSupportAdvance/ScrollablePane/HealSetting/UseItem1/Item1" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.543278,0},{0.222222,0},{0.543278,30},{0.222222,30}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="Root/AutoSupportAdvance/ScrollablePane/HealSetting/UseItem1/Item2" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.607735,0},{0.222222,0},{0.607735,30},{0.222222,30}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="Root/AutoSupportAdvance/ScrollablePane/HealSetting/UseItem1/Item3" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.672192,0},{0.222222,0},{0.672192,30},{0.222222,30}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Static" Name="Root/AutoSupportAdvance/ScrollablePane/HealSetting/UseItem2" >
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.614525,0},{0,543},{0.614525,45}}" />
+                        <Window Type="DejaVu/Checkbox" Name="Root/AutoSupportAdvance/ScrollablePane/HealSetting/UseItem2/CheckBox" >
+                            <Property Name="Text" Value="x生命值低於" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.018416,0},{0.222222,0},{0.018416,100},{0.222222,28}}" />
+                        </Window>
+                        <Window Type="DejaVu/Editbox" Name="Root/AutoSupportAdvance/ScrollablePane/HealSetting/UseItem2/EditBox" >
+                            <Property Name="MaxTextLength" Value="2147483647" />
+                            <Property Name="TextParsingEnabled" Value="False" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.220994,0},{0.222222,0},{0.220994,50},{0.222222,25}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticTextLab" Name="Root/AutoSupportAdvance/ScrollablePane/HealSetting/UseItem2/Text" >
+                            <Property Name="Text" Value="x%時 使用" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.331492,0},{0.222222,0},{0.331492,70},{0.222222,25}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="Root/AutoSupportAdvance/ScrollablePane/HealSetting/UseItem2/Item0" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.478821,0},{0.222222,0},{0.478821,30},{0.222222,30}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="Root/AutoSupportAdvance/ScrollablePane/HealSetting/UseItem2/Item1" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.543278,0},{0.222222,0},{0.543278,30},{0.222222,30}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="Root/AutoSupportAdvance/ScrollablePane/HealSetting/UseItem2/Item2" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.607735,0},{0.222222,0},{0.607735,30},{0.222222,30}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="Root/AutoSupportAdvance/ScrollablePane/HealSetting/UseItem2/Item3" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.672192,0},{0.266667,0},{0.672192,30},{0.266667,30}}" />
+                        </Window>
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Static" Name="Root/AutoSupportAdvance/ScrollablePane/MoveSetting" >
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,543},{0,164}}" />
+                    <Window Type="DejaVu/EmbedTextLab7" Name="Root/AutoSupportAdvance/ScrollablePane/MoveSetting/Title" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="x移動設定" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,543},{0,25}}" />
+                    </Window>
+                    <Window Type="DejaVu/Static" Name="Root/AutoSupportAdvance/ScrollablePane/MoveSetting/MoveSetting" >
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.184049,0},{0,543},{0.184049,40}}" />
+                        <Window Type="DejaVu/Checkbox" Name="Root/AutoSupportAdvance/ScrollablePane/MoveSetting/MoveSetting/S" >
+                            <Property Name="Text" Value="x近距離" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0184162,0},{0.25,0},{0.0184162,100},{0.25,25}}" />
+                        </Window>
+                        <Window Type="DejaVu/Checkbox" Name="Root/AutoSupportAdvance/ScrollablePane/MoveSetting/MoveSetting/M" >
+                            <Property Name="Text" Value="x中距離" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.220994,0},{0.25,0},{0.220994,100},{0.25,25}}" />
+                        </Window>
+                        <Window Type="DejaVu/Checkbox" Name="Root/AutoSupportAdvance/ScrollablePane/MoveSetting/MoveSetting/L" >
+                            <Property Name="Text" Value="x遠距離" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.423573,0},{0.25,0},{0.423573,100},{0.25,25}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Static" Name="Root/AutoSupportAdvance/ScrollablePane/MoveSetting/Dodge" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.0184162,0},{0.490798,0},{0.0184162,543},{0.490798,97}}" />
+                        <Window Type="DejaVu/Checkbox" Name="Root/AutoSupportAdvance/ScrollablePane/MoveSetting/Dodge/CheckBox" >
+                            <Property Name="Text" Value="x自動迴避" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.018416,0},{0.1,0},{0.018416,100},{0.1,25}}" />
+                        </Window>
+                        <Window Type="DejaVu/Checkbox" Name="Root/AutoSupportAdvance/ScrollablePane/MoveSetting/Dodge/Elite" >
+                            <Property Name="Text" Value="x菁英" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0562852,0},{0.333333,0},{0.0562852,100},{0.333333,25}}" />
+                        </Window>
+                        <Window Type="DejaVu/Checkbox" Name="Root/AutoSupportAdvance/ScrollablePane/MoveSetting/Dodge/BOSS" >
+                            <Property Name="Text" Value="x頭目" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.262664,0},{0.333333,0},{0.262664,100},{0.333333,25}}" />
+                        </Window>
+                        <Window Type="DejaVu/Checkbox" Name="Root/AutoSupportAdvance/ScrollablePane/MoveSetting/Dodge/RedMob" >
+                            <Property Name="Text" Value="x高於角色等級5以上怪物" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.469043,0},{0.333333,0},{0.469043,200},{0.333333,25}}" />
+                        </Window>
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Static" Name="Root/AutoSupportAdvance/ScrollablePane/BattleSetting" >
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,543},{0,500}}" />
+                    <Window Type="DejaVu/EmbedTextLab7" Name="Root/AutoSupportAdvance/ScrollablePane/BattleSetting/Title" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="x戰鬥設定" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,543},{0,25}}" />
+                    </Window>
+                    <Window Type="DejaVu/Static" Name="Root/AutoSupportAdvance/ScrollablePane/BattleSetting/FristPunch" >
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.071599,0},{0,543},{0.071599,60}}" />
+                        <Window Type="DejaVu/Checkbox" Name="Root/AutoSupportAdvance/ScrollablePane/BattleSetting/FristPunch/CheckBox" >
+                            <Property Name="Text" Value="x初次攻擊使用" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0184162,0},{0.166667,0},{0.0184162,136},{0.166667,25}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="Root/AutoSupportAdvance/ScrollablePane/BattleSetting/FristPunch/Spell0" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.276243,0},{0.166667,0},{0.276243,30},{0.166667,30}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="Root/AutoSupportAdvance/ScrollablePane/BattleSetting/FristPunch/Spell1" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.3407,0},{0.166667,0},{0.3407,30},{0.166667,30}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Static" Name="Root/AutoSupportAdvance/ScrollablePane/BattleSetting/Attack" >
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.190931,0},{0,543},{0.190931,97}}" />
+                        <Window Type="DejaVu/Checkbox" Name="Root/AutoSupportAdvance/ScrollablePane/BattleSetting/Attack/CheckBox" >
+                            <Property Name="Text" Value="x一般攻擊使用" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0184162,0},{0.1,0},{0.0184162,136},{0.1,25}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="Root/AutoSupportAdvance/ScrollablePane/BattleSetting/Attack/Spell0" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.0552486,0},{0.4,0},{0.0552486,30},{0.4,30}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="Root/AutoSupportAdvance/ScrollablePane/BattleSetting/Attack/Spell1" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.119705,0},{0.4,0},{0.119705,30},{0.4,30}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="Root/AutoSupportAdvance/ScrollablePane/BattleSetting/Attack/Spell2" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.184162,0},{0.4,0},{0.184162,30},{0.4,30}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="Root/AutoSupportAdvance/ScrollablePane/BattleSetting/Attack/Spell3" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.248619,0},{0.4,0},{0.248619,30},{0.4,30}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="Root/AutoSupportAdvance/ScrollablePane/BattleSetting/Attack/Spell4" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.313076,0},{0.4,0},{0.313076,30},{0.4,30}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="Root/AutoSupportAdvance/ScrollablePane/BattleSetting/Attack/Spell5" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.377532,0},{0.4,0},{0.377532,30},{0.4,30}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="Root/AutoSupportAdvance/ScrollablePane/BattleSetting/Attack/Spell6" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.441989,0},{0.4,0},{0.441989,30},{0.4,30}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="Root/AutoSupportAdvance/ScrollablePane/BattleSetting/Attack/Spell7" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.506446,0},{0.4,0},{0.506446,30},{0.4,30}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Static" Name="Root/AutoSupportAdvance/ScrollablePane/BattleSetting/Buff" >
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.381862,0},{0,543},{0.381862,97}}" />
+                        <Window Type="DejaVu/Checkbox" Name="Root/AutoSupportAdvance/ScrollablePane/BattleSetting/Buff/CheckBox" >
+                            <Property Name="Text" Value="x持續狀態使用" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.018416,0},{0,0},{0.018416,200},{0,25}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="Root/AutoSupportAdvance/ScrollablePane/BattleSetting/Buff/Spell0" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.0552486,0},{0.402062,0},{0.0552486,30},{0.402062,30}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="Root/AutoSupportAdvance/ScrollablePane/BattleSetting/Buff/Spell1" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.119705,0},{0.402062,0},{0.119705,30},{0.402062,30}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="Root/AutoSupportAdvance/ScrollablePane/BattleSetting/Buff/Spell2" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.184162,0},{0.402062,0},{0.184162,30},{0.402062,30}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="Root/AutoSupportAdvance/ScrollablePane/BattleSetting/Buff/Spell3" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.248619,0},{0.402062,0},{0.248619,30},{0.402062,30}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="Root/AutoSupportAdvance/ScrollablePane/BattleSetting/Buff/Spell4" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.313076,0},{0.402062,0},{0.313076,30},{0.402062,30}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="Root/AutoSupportAdvance/ScrollablePane/BattleSetting/Buff/Spell5" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.377532,0},{0.402062,0},{0.377532,30},{0.402062,30}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="Root/AutoSupportAdvance/ScrollablePane/BattleSetting/Buff/Spell6" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.441989,0},{0.402062,0},{0.441989,30},{0.402062,30}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="Root/AutoSupportAdvance/ScrollablePane/BattleSetting/Buff/Spell7" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.506446,0},{0.402062,0},{0.506446,30},{0.402062,30}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Static" Name="Root/AutoSupportAdvance/ScrollablePane/BattleSetting/Besiege" >
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.572792,0},{0,543},{0.572792,97}}" />
+                        <Window Type="DejaVu/Checkbox" Name="Root/AutoSupportAdvance/ScrollablePane/BattleSetting/Besiege/CheckBox" >
+                            <Property Name="Text" Value="x受到" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.018416,0},{0.103093,0},{0.018416,60},{0.103093,25}}" />
+                        </Window>
+                        <Window Type="DejaVu/Editbox" Name="Root/AutoSupportAdvance/ScrollablePane/BattleSetting/Besiege/EditBox" >
+                            <Property Name="MaxTextLength" Value="2147483647" />
+                            <Property Name="TextParsingEnabled" Value="False" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.14733,0},{0.103093,0},{0.14733,50},{0.103093,25}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticTextLab" Name="Root/AutoSupportAdvance/ScrollablePane/BattleSetting/Besiege/Text" >
+                            <Property Name="Text" Value="x個敵人攻擊時使用" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.239411,0},{0.103093,0},{0.239411,150},{0.103093,25}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="Root/AutoSupportAdvance/ScrollablePane/BattleSetting/Besiege/Spell0" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.0552486,0},{0.402062,0},{0.0552486,30},{0.402062,30}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="Root/AutoSupportAdvance/ScrollablePane/BattleSetting/Besiege/Spell1" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.119705,0},{0.402062,0},{0.119705,30},{0.402062,30}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="Root/AutoSupportAdvance/ScrollablePane/BattleSetting/Besiege/Spell2" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.184162,0},{0.402062,0},{0.184162,30},{0.402062,30}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="Root/AutoSupportAdvance/ScrollablePane/BattleSetting/Besiege/Spell3" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.248619,0},{0.402062,0},{0.248619,30},{0.402062,30}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="Root/AutoSupportAdvance/ScrollablePane/BattleSetting/Besiege/Spell4" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.313076,0},{0.402062,0},{0.313076,30},{0.402062,30}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="Root/AutoSupportAdvance/ScrollablePane/BattleSetting/Besiege/Spell5" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.377532,0},{0.402062,0},{0.377532,30},{0.402062,30}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="Root/AutoSupportAdvance/ScrollablePane/BattleSetting/Besiege/Spell6" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.441989,0},{0.402062,0},{0.441989,30},{0.402062,30}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="Root/AutoSupportAdvance/ScrollablePane/BattleSetting/Besiege/Spell7" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.506446,0},{0.402062,0},{0.506446,30},{0.402062,30}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Static" Name="Root/AutoSupportAdvance/ScrollablePane/BattleSetting/Time" >
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.763723,0},{0,543},{0.763723,97}}" />
+                        <Window Type="DejaVu/Checkbox" Name="Root/AutoSupportAdvance/ScrollablePane/BattleSetting/Time/CheckBox" >
+                            <Property Name="Text" Value="x每" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.018416,0},{0,0},{0.018416,50},{0,25}}" />
+                        </Window>
+                        <Window Type="DejaVu/Editbox" Name="Root/AutoSupportAdvance/ScrollablePane/BattleSetting/Time/EditBox" >
+                            <Property Name="MaxTextLength" Value="2147483647" />
+                            <Property Name="TextParsingEnabled" Value="False" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.110497,0},{0,0},{0.110497,50},{0,25}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticTextLab" Name="Root/AutoSupportAdvance/ScrollablePane/BattleSetting/Time/Text" >
+                            <Property Name="Text" Value="x秒定期施放" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.220994,0},{0,0},{0.220994,80},{0,25}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="Root/AutoSupportAdvance/ScrollablePane/BattleSetting/Time/Spell0" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.0552486,0},{0.402062,0},{0.0552486,30},{0.402062,30}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="Root/AutoSupportAdvance/ScrollablePane/BattleSetting/Time/Spell1" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.119705,0},{0.402062,0},{0.119705,30},{0.402062,30}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="Root/AutoSupportAdvance/ScrollablePane/BattleSetting/Time/Spell2" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.184162,0},{0.402062,0},{0.184162,30},{0.402062,30}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="Root/AutoSupportAdvance/ScrollablePane/BattleSetting/Time/Spell3" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.248619,0},{0.402062,0},{0.248619,30},{0.402062,30}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="Root/AutoSupportAdvance/ScrollablePane/BattleSetting/Time/Spell4" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.313076,0},{0.402062,0},{0.313076,30},{0.402062,30}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="Root/AutoSupportAdvance/ScrollablePane/BattleSetting/Time/Spell5" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.377532,0},{0.402062,0},{0.377532,30},{0.402062,30}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="Root/AutoSupportAdvance/ScrollablePane/BattleSetting/Time/Spell6" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.441989,0},{0.402062,0},{0.441989,30},{0.402062,30}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="Root/AutoSupportAdvance/ScrollablePane/BattleSetting/Time/Spell7" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.506446,0},{0.402062,0},{0.506446,30},{0.402062,30}}" />
+                        </Window>
+                    </Window>
+                </Window>
+            </AutoWindow>
+        </Window>
+    </Window>
+</GUILayout>

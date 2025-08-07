@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/TransportWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="Text" Value="x傳送點" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="TitlebarImage" Value="set:main image:Map" />
+        <Property Name="UnifiedAreaRect" Value="{{0.114315,0},{0.150142,0},{0.114315,831},{0.150142,570}}" />
+        <Window Type="DejaVu/TabControl" Name="Root/TransportWnd/TabControl" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="TabHeight" Value="{0,20}" />
+            <Property Name="TabPanePosition" Value="Top" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.993865,0},{1,0}}" />
+            <Window Type="DefaultWindow" Name="Root/TransportWnd/Tab1" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="x一般場景" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,810},{0,465}}" />
+            </Window>
+            <Window Type="DefaultWindow" Name="Root/TransportWnd/Tab2" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="x副本" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,810},{0,465}}" />
+                <Property Name="Visible" Value="False" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="Root/TransportWnd/Static" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0510204,0},{0.993865,0},{1,0}}" />
+            <Window Type="DejaVu/Static" Name="Root/TransportWnd/MainWnd" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="x一般場景" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Window Type="DejaVu/Embed2" Name="Root/TransportWnd/MapSelectBG" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.0123457,0},{0.0222222,0},{0.462963,0},{0.98,0}}" />
+                    <Window Type="DejaVu/ScrollablePane" Name="Root/TransportWnd/MapSelectPane" >
+                        <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                        <Property Name="HorzOverlapSize" Value="0.01" />
+                        <Property Name="HorzScrollPosition" Value="0" />
+                        <Property Name="HorzStepSize" Value="0.1" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0136986,0},{0.011236,0},{0.986301,0},{0.988764,0}}" />
+                        <Property Name="VertOverlapSize" Value="0.01" />
+                        <Property Name="VertScrollPosition" Value="0" />
+                        <Property Name="VertStepSize" Value="0.1" />
+                        <AutoWindow NameSuffix="__auto_container__" >
+                            <Property Name="ChildExtentsArea" Value="l:0 t:0 r:0 b:0" />
+                            <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                            <Property Name="MouseInputPropagationEnabled" Value="True" />
+                        </AutoWindow>
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Static" Name="Root/TransportWnd/MapBG2" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.469136,0},{0.0222222,0},{0.987654,0},{0.98,0}}" />
+                    <Window Type="DejaVu/EmbedTextLab4" Name="Root/TransportWnd/MapName" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.02381,0},{0,0},{0.380953,0},{0.0561798,0}}" />
+                        <Window Type="DejaVu/StaticTextLab" Name="Root/TransportWnd/MapNameText" >
+                            <Property Name="Text" Value="斯坎地漁港" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.2,0},{0.8,0},{0.8,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticImage" Name="Root/TransportWnd/MapNameImg" >
+                            <Property Name="Image" Value="set:DejaVu image:Image19" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Embed2" Name="Root/TransportWnd/MapBG" >
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.022472,0},{1,0},{1,0}}" />
+                        <Window Type="DejaVu/StaticImage" Name="Root/TransportWnd/Map" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.02381,0},{0.057471,0},{0.976191,0},{0.977011,0}}" />
+                        </Window>
+                    </Window>
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

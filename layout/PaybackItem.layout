@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="PaybackItem" >
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,256},{0,440}}" />
+        <Property Name="VerticalAlignment" Value="Centre" />
+        <Window Type="DejaVu/Static" Name="PaybackItem/Item" >
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,256},{0,440}}" />
+            <Property Name="VerticalAlignment" Value="Centre" />
+            <Window Type="DejaVu/StaticImage" Name="PaybackItem/Item/Timebg" >
+                <Property Name="Font" Value="F001-11" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="Image" Value="set:main3 image:StepBG" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.0909091,0}}" />
+                <Window Type="DejaVu/StaticText" Name="PaybackItem/Item/Timebg/Text" >
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="x下架倒數: 12天06時" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.960938,0},{1,0}}" />
+                    <Property Name="VerticalAlignment" Value="Centre" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed12" Name="PaybackItem/Item/bg" >
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.102273,0},{0.976563,0},{1,0}}" />
+                <Property Name="VertFormatting" Value="TopAligned" />
+                <Window Type="DejaVu/Embed12" Name="PaybackItem/Item/DarkGroup/BGImage" >
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+                <Window Type="DejaVu/Embed8" Name="PaybackItem/Item/bg/BuyBG" >
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.594937,0},{0.9,0},{0.701266,0}}" />
+                    <Window Type="DejaVu/Embed2" Name="PaybackItem/Item/bg/BuyBG/PriceArea" >
+                        <Property Name="Font" Value="F001-scale" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0444444,0},{0,0},{0.577778,0},{0.595238,0}}" />
+                        <Property Name="VerticalAlignment" Value="Centre" />
+                        <Window Type="DejaVu/StaticTextLab" Name="PaybackItem/Item/bg/BuyBG/PriceArea/Text" >
+                            <Property Name="HorzFormatting" Value="RightAligned" />
+                            <Property Name="Text" Value="x999999" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.65,0},{1,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticImage" Name="PaybackItem/Item/bg/BuyBG/PriceArea/Image" >
+                            <Property Name="Image" Value="set:main image:ItemMallcoin2" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.8,0},{0.2,0},{0.9,0},{0.8,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticText" Name="PaybackItem/Item/bg/BuyBG/PriceArea/CurrencyText" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="HorizontalAlignment" Value="Right" />
+                            <Property Name="Text" Value="xUSD" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.333333,0},{1,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Button" Name="PaybackItem/Item/bg/BuyBG/BuyBtn" >
+                        <Property Name="HorizontalAlignment" Value="Right" />
+                        <Property Name="Text" Value="x購買" />
+                        <Property Name="UnifiedAreaRect" Value="{{-0.0444444,0},{0,0},{0.275556,0},{0.595238,0}}" />
+                        <Property Name="VerticalAlignment" Value="Centre" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="PaybackItem/Item/bg/ReturnFrame" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                    <Property Name="Image" Value="set:main image:LoginRewardFrame" />
+                    <Property Name="UnifiedAreaRect" Value="{{-0.004,0},{0.721519,0},{0.2,0},{0.850633,0}}" />
+                </Window>
+                <Window Type="DejaVu/Static" Name="PaybackItem/Item/bg/ItemImageHolder" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.729114,0},{0.18,0},{0.843038,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedText3" Name="PaybackItem/Item/bg/ReturnTime" >
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="x05天20時返還" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.886076,0},{0.48,0},{0.95443,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="PaybackItem/Item/bg/ItemBG" >
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                    <Property Name="Image" Value="set:DejaVu image:embed2Backdrop" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.139241,0},{0.8,0},{0.582278,0}}" />
+                    <Window Type="DejaVu/Static" Name="PaybackItem/Item/bg/ItemBG/StaticModelHold" >
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                        <Property Name="VerticalAlignment" Value="Bottom" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="PaybackItem/Item/bg/ItemBG/Image" >
+                        <Property Name="HorizontalAlignment" Value="Centre" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                        <Property Name="VerticalAlignment" Value="Centre" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedText3" Name="PaybackItem/Item/bg/ItemBG/LimitTime" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="x限購%s1次" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.025,0},{-0.0285714,0},{0.475,0},{0.114286,0}}" />
+                        <Property Name="VerticalAlignment" Value="Bottom" />
+                    </Window>
+                    <Window Type="DejaVu/Button3" Name="PaybackItem/Item/bg/ItemBG/MoreInfoBtn" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HorizontalAlignment" Value="Right" />
+                        <Property Name="Text" Value="x預覽" />
+                        <Property Name="UnifiedAreaRect" Value="{{-0.025,0},{-0.028571,0},{0.275,0},{0.142858,0}}" />
+                        <Property Name="VerticalAlignment" Value="Bottom" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Static" Name="PaybackItem/Item/DarkGroup" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.405063,0}}" />
+                    <Property Name="VerticalAlignment" Value="Bottom" />
+                    <Window Type="DejaVu/Embed8" Name="PaybackItem/Item/DarkGroup/BG" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HorizontalAlignment" Value="Centre" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.9,0},{0.90625,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticText" Name="PaybackItem/Item/DarkGroup/Text" >
+                        <Property Name="Font" Value="F001-11" />
+                        <Property Name="HorizontalAlignment" Value="Centre" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="x返還時間: 00:00:00" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{-0.34375,0},{0.78,0},{-0.21875,0}}" />
+                        <Property Name="VerticalAlignment" Value="Bottom" />
+                    </Window>
+                    <Window Type="DejaVu/Button" Name="PaybackItem/Item/DarkGroup/BuyBtn" >
+                        <Property Name="HorizontalAlignment" Value="Centre" />
+                        <Property Name="Text" Value="x加購" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{-0.15625,0},{0.312,0},{0.0125,0}}" />
+                        <Property Name="VerticalAlignment" Value="Bottom" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="PaybackItem/Item/DarkGroup/LcokImage" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="HorizontalAlignment" Value="Centre" />
+                        <Property Name="Image" Value="set:main image:Lock" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{-0.15625,0},{0.12,0},{0.03125,0}}" />
+                        <Property Name="VerticalAlignment" Value="Centre" />
+                    </Window>
+                    <Window Type="DejaVu/Static" Name="PaybackItem/Item/DarkGroup/ChestImage" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HorizontalAlignment" Value="Centre" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{-0.125,0},{0.6,0},{0.4375,0}}" />
+                        <Property Name="VerticalAlignment" Value="Centre" />
+                        <Window Type="DejaVu/StaticImage" Name="PaybackItem/Item/DarkGroup/ChestImage/Image" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="HorizontalAlignment" Value="Centre" />
+                            <Property Name="Image" Value="set:main24 image:Chest1" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{-0.222222,0},{0.633333,0},{0.666667,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/EmbedText2" Name="PaybackItem/Item/bg/Title" >
+                    <Property Name="Font" Value="F001-10" />
+                    <Property Name="Text" Value="xHP治療劑限定" />
+                    <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.0455696,0},{0.8,0},{0.121519,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="PaybackItem/Item/bg/AmountBG" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorizontalAlignment" Value="Right" />
+                    <Property Name="Image" Value="set:main24 image:Star" />
+                    <Property Name="UnifiedAreaRect" Value="{{-0.08,0},{0.0177215,0},{0.12,0},{0.144304,0}}" />
+                    <Window Type="DejaVu/StaticText" Name="PaybackItem/Item/bg/AmountBG/Text" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HorizontalAlignment" Value="Centre" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="X999" />
+                        <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                        <Property Name="VerticalAlignment" Value="Centre" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Static" Name="PaybackItem/Item/bg/LockGroup" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    <Window Type="DejaVu/Embed2" Name="PaybackItem/Item/bg/LockGroup/BG" >
+                        <Property Name="Alpha" Value="0.6" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

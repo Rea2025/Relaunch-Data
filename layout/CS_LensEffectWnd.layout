@@ -1,0 +1,882 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/CS_LensEffectWnd" >
+        <Property Name="ClippedByParent" Value="False" />
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HorizontalAlignment" Value="Right" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.25,0},{0.85,0}}" />
+        <Window Type="DejaVu/FrameWindow" Name="Root/CS_LensEffectWnd/Background" >
+            <Property Name="ClippedByParent" Value="False" />
+            <Property Name="HelpButtonEnabled" Value="False" />
+            <Property Name="HorizontalAlignment" Value="Right" />
+            <Property Name="TitlebarEnabled" Value="True" />
+            <Property Name="TitlebarFont" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Embed" Name="Root/CS_LensEffectWnd/Background/Border_FOV" >
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.05,0}}" />
+                <Window Type="DejaVu/HorizontalScrollbar" Name="Root/CS_LensEffectWnd/Background/Border_FOV/Scroll" >
+                    <Property Name="DocumentSize" Value="1" />
+                    <Property Name="OverlapSize" Value="0" />
+                    <Property Name="PageSize" Value="0" />
+                    <Property Name="ScrollPosition" Value="0" />
+                    <Property Name="StepSize" Value="1" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.35,0},{0.2,0},{0.7,0},{0.8,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="Root/CS_LensEffectWnd/Background/Border_FOV/Text_Min" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="0" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.25,0},{0.2,0},{0.35,0},{0.8,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="Root/CS_LensEffectWnd/Background/Border_FOV/Text_Max" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="1" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.7,0},{0.2,0},{0.8,0},{0.8,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/CS_LensEffectWnd/Background/Border_FOV/Edit" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.8,0},{0.2,0},{0.98,0},{0.8,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_LensEffectWnd/Background/Border_FOV/Text" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="視角" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.08,0},{0.2,0},{0.25,0},{0.8,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/CS_LensEffectWnd/Background/Border_FOV/Check_Use" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.02,0},{0.2,0},{0.06,0},{0.8,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed" Name="Root/CS_LensEffectWnd/Background/Border_HueOffset" >
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.05,0},{1,0},{0.1,0}}" />
+                <Window Type="DejaVu/HorizontalScrollbar" Name="Root/CS_LensEffectWnd/Background/Border_HueOffset/Scroll" >
+                    <Property Name="DocumentSize" Value="1" />
+                    <Property Name="OverlapSize" Value="0" />
+                    <Property Name="PageSize" Value="0" />
+                    <Property Name="ScrollPosition" Value="0" />
+                    <Property Name="StepSize" Value="1" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.35,0},{0.2,0},{0.7,0},{0.8,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="Root/CS_LensEffectWnd/Background/Border_HueOffset/Text_Min" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="0" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.25,0},{0.2,0},{0.35,0},{0.8,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="Root/CS_LensEffectWnd/Background/Border_HueOffset/Text_Max" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="1" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.7,0},{0.2,0},{0.8,0},{0.8,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/CS_LensEffectWnd/Background/Border_HueOffset/Edit" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.8,0},{0.2,0},{0.98,0},{0.8,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_LensEffectWnd/Background/Border_HueOffset/Text" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="色相偏移" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.08,0},{0.2,0},{0.25,0},{0.8,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/CS_LensEffectWnd/Background/Border_HueOffset/Check_Use" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.02,0},{0.2,0},{0.06,0},{0.8,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed" Name="Root/CS_LensEffectWnd/Background/Border_Saturation" >
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.1,0},{1,0},{0.15,0}}" />
+                <Window Type="DejaVu/HorizontalScrollbar" Name="Root/CS_LensEffectWnd/Background/Border_Saturation/Scroll" >
+                    <Property Name="DocumentSize" Value="1" />
+                    <Property Name="OverlapSize" Value="0" />
+                    <Property Name="PageSize" Value="0" />
+                    <Property Name="ScrollPosition" Value="0" />
+                    <Property Name="StepSize" Value="1" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.35,0},{0.2,0},{0.7,0},{0.8,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="Root/CS_LensEffectWnd/Background/Border_Saturation/Text_Min" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="0" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.25,0},{0.2,0},{0.35,0},{0.8,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="Root/CS_LensEffectWnd/Background/Border_Saturation/Text_Max" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="1" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.7,0},{0.2,0},{0.8,0},{0.8,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/CS_LensEffectWnd/Background/Border_Saturation/Edit" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.8,0},{0.2,0},{0.98,0},{0.8,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_LensEffectWnd/Background/Border_Saturation/Text" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="色彩飽和" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.08,0},{0.2,0},{0.25,0},{0.8,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/CS_LensEffectWnd/Background/Border_Saturation/Check_Use" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.02,0},{0.2,0},{0.06,0},{0.8,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed" Name="Root/CS_LensEffectWnd/Background/Border_LightBalanceL" >
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.2,0},{1,0},{0.25,0}}" />
+                <Window Type="DejaVu/HorizontalScrollbar" Name="Root/CS_LensEffectWnd/Background/Border_LightBalanceL/Scroll" >
+                    <Property Name="DocumentSize" Value="1" />
+                    <Property Name="OverlapSize" Value="0" />
+                    <Property Name="PageSize" Value="0" />
+                    <Property Name="ScrollPosition" Value="0" />
+                    <Property Name="StepSize" Value="1" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.35,0},{0.2,0},{0.7,0},{0.8,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="Root/CS_LensEffectWnd/Background/Border_LightBalanceL/Text_Min" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="0" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.25,0},{0.2,0},{0.35,0},{0.8,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="Root/CS_LensEffectWnd/Background/Border_LightBalanceL/Text_Max" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="1" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.7,0},{0.2,0},{0.8,0},{0.8,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/CS_LensEffectWnd/Background/Border_LightBalanceL/Edit" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.8,0},{0.2,0},{0.98,0},{0.8,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_LensEffectWnd/Background/Border_LightBalanceL/Text" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="低光源平衡" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.08,0},{0.2,0},{0.25,0},{0.8,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/CS_LensEffectWnd/Background/Border_LightBalanceL/Check_Use" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.02,0},{0.2,0},{0.06,0},{0.8,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed" Name="Root/CS_LensEffectWnd/Background/Border_LightBalanceH" >
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.15,0},{1,0},{0.2,0}}" />
+                <Window Type="DejaVu/HorizontalScrollbar" Name="Root/CS_LensEffectWnd/Background/Border_LightBalanceH/Scroll" >
+                    <Property Name="DocumentSize" Value="1" />
+                    <Property Name="OverlapSize" Value="0" />
+                    <Property Name="PageSize" Value="0" />
+                    <Property Name="ScrollPosition" Value="0" />
+                    <Property Name="StepSize" Value="1" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.35,0},{0.2,0},{0.7,0},{0.8,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="Root/CS_LensEffectWnd/Background/Border_LightBalanceH/Text_Min" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="0" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.25,0},{0.2,0},{0.35,0},{0.8,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="Root/CS_LensEffectWnd/Background/Border_LightBalanceH/Text_Max" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="1" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.7,0},{0.2,0},{0.8,0},{0.8,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/CS_LensEffectWnd/Background/Border_LightBalanceH/Edit" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.8,0},{0.2,0},{0.98,0},{0.8,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_LensEffectWnd/Background/Border_LightBalanceH/Text" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="高光源平衡" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.08,0},{0.2,0},{0.25,0},{0.8,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/CS_LensEffectWnd/Background/Border_LightBalanceH/Check_Use" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.02,0},{0.2,0},{0.06,0},{0.8,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed" Name="Root/CS_LensEffectWnd/Background/Border_SplitColorL" >
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.35,0},{1,0},{0.45,0}}" />
+                <Window Type="DejaVu/HorizontalScrollbar" Name="Root/CS_LensEffectWnd/Background/Border_SplitColorLR/Scroll" >
+                    <Property Name="DocumentSize" Value="1" />
+                    <Property Name="OverlapSize" Value="0" />
+                    <Property Name="PageSize" Value="0" />
+                    <Property Name="ScrollPosition" Value="0" />
+                    <Property Name="StepSize" Value="1" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.35,0},{0.05,0},{0.7,0},{0.35,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="Root/CS_LensEffectWnd/Background/Border_SplitColorLR/Text_Min" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="0" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.25,0},{0.05,0},{0.35,0},{0.35,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="Root/CS_LensEffectWnd/Background/Border_SplitColorLR/Text_Max" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="1" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.7,0},{0.05,0},{0.8,0},{0.35,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/CS_LensEffectWnd/Background/Border_SplitColorLR/Edit" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.8,0},{0.05,0},{0.98,0},{0.35,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_LensEffectWnd/Background/Border_SplitColorL/Text" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="分色-低" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.02,0},{0.5,0},{0.2,0},{0.8,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_LensEffectWnd/Background/Border_SplitColorLR/Text" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="R" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.2,0},{0.05,0},{0.25,0},{0.35,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_LensEffectWnd/Background/Border_SplitColorLG/Text" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="G" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.2,0},{0.35,0},{0.25,0},{0.65,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_LensEffectWnd/Background/Border_SplitColorLB/Text" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="B" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.2,0},{0.65,0},{0.25,0},{0.95,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="Root/CS_LensEffectWnd/Background/Border_SplitColorLG/Text_Min" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="0" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.25,0},{0.35,0},{0.35,0},{0.65,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="Root/CS_LensEffectWnd/Background/Border_SplitColorLB/Text_Min" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="0" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.25,0},{0.65,0},{0.35,0},{0.95,0}}" />
+                </Window>
+                <Window Type="DejaVu/HorizontalScrollbar" Name="Root/CS_LensEffectWnd/Background/Border_SplitColorLG/Scroll" >
+                    <Property Name="DocumentSize" Value="1" />
+                    <Property Name="OverlapSize" Value="0" />
+                    <Property Name="PageSize" Value="0" />
+                    <Property Name="ScrollPosition" Value="0" />
+                    <Property Name="StepSize" Value="1" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.35,0},{0.35,0},{0.7,0},{0.65,0}}" />
+                </Window>
+                <Window Type="DejaVu/HorizontalScrollbar" Name="Root/CS_LensEffectWnd/Background/Border_SplitColorLB/Scroll" >
+                    <Property Name="DocumentSize" Value="1" />
+                    <Property Name="OverlapSize" Value="0" />
+                    <Property Name="PageSize" Value="0" />
+                    <Property Name="ScrollPosition" Value="0" />
+                    <Property Name="StepSize" Value="1" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.35,0},{0.65,0},{0.7,0},{0.95,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="Root/CS_LensEffectWnd/Background/Border_SplitColorLG/Text_Max" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="1" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.7,0},{0.35,0},{0.8,0},{0.65,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="Root/CS_LensEffectWnd/Background/Border_SplitColorLB/Text_Max" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="1" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.7,0},{0.65,0},{0.8,0},{0.95,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/CS_LensEffectWnd/Background/Border_SplitColorLG/Edit" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.8,0},{0.35,0},{0.98,0},{0.65,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/CS_LensEffectWnd/Background/Border_SplitColorLB/Edit" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.8,0},{0.65,0},{0.98,0},{0.95,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/CS_LensEffectWnd/Background/Border_SplitColorLR/Check_Use" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.2,0},{0.2,0},{0.5,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/CS_LensEffectWnd/Background/Border_SplitColorLG/Check_Use" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.0571429,0},{0.25,0}}" />
+                    <Property Name="Visible" Value="False" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/CS_LensEffectWnd/Background/Border_SplitColorLB/Check_Use" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.0571429,0},{0.25,0}}" />
+                    <Property Name="Visible" Value="False" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed" Name="Root/CS_LensEffectWnd/Background/Border_SplitColorH" >
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.25,0},{1,0},{0.35,0}}" />
+                <Window Type="DejaVu/HorizontalScrollbar" Name="Root/CS_LensEffectWnd/Background/Border_SplitColorHR/Scroll" >
+                    <Property Name="DocumentSize" Value="1" />
+                    <Property Name="OverlapSize" Value="0" />
+                    <Property Name="PageSize" Value="0" />
+                    <Property Name="ScrollPosition" Value="0" />
+                    <Property Name="StepSize" Value="1" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.35,0},{0.05,0},{0.7,0},{0.35,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="Root/CS_LensEffectWnd/Background/Border_SplitColorHR/Text_Min" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="0" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.25,0},{0.05,0},{0.35,0},{0.35,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="Root/CS_LensEffectWnd/Background/Border_SplitColorHR/Text_Max" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="1" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.7,0},{0.05,0},{0.8,0},{0.35,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/CS_LensEffectWnd/Background/Border_SplitColorHR/Edit" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.8,0},{0.05,0},{0.98,0},{0.35,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_LensEffectWnd/Background/Border_SplitColorH/Text" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="分色-高" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.02,0},{0.5,0},{0.2,0},{0.8,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_LensEffectWnd/Background/Border_SplitColorHR/Text" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="R" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.2,0},{0.05,0},{0.25,0},{0.35,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_LensEffectWnd/Background/Border_SplitColorHG/Text" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="G" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.2,0},{0.35,0},{0.25,0},{0.65,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_LensEffectWnd/Background/Border_SplitColorHB/Text" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="B" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.2,0},{0.65,0},{0.25,0},{0.95,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="Root/CS_LensEffectWnd/Background/Border_SplitColorHG/Text_Min" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="0" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.25,0},{0.35,0},{0.35,0},{0.65,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="Root/CS_LensEffectWnd/Background/Border_SplitColorHB/Text_Min" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="0" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.25,0},{0.65,0},{0.35,0},{0.95,0}}" />
+                </Window>
+                <Window Type="DejaVu/HorizontalScrollbar" Name="Root/CS_LensEffectWnd/Background/Border_SplitColorHG/Scroll" >
+                    <Property Name="DocumentSize" Value="1" />
+                    <Property Name="OverlapSize" Value="0" />
+                    <Property Name="PageSize" Value="0" />
+                    <Property Name="ScrollPosition" Value="0" />
+                    <Property Name="StepSize" Value="1" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.35,0},{0.35,0},{0.7,0},{0.65,0}}" />
+                </Window>
+                <Window Type="DejaVu/HorizontalScrollbar" Name="Root/CS_LensEffectWnd/Background/Border_SplitColorHB/Scroll" >
+                    <Property Name="DocumentSize" Value="1" />
+                    <Property Name="OverlapSize" Value="0" />
+                    <Property Name="PageSize" Value="0" />
+                    <Property Name="ScrollPosition" Value="0" />
+                    <Property Name="StepSize" Value="1" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.35,0},{0.65,0},{0.7,0},{0.95,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="Root/CS_LensEffectWnd/Background/Border_SplitColorHG/Text_Max" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="1" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.7,0},{0.35,0},{0.8,0},{0.65,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="Root/CS_LensEffectWnd/Background/Border_SplitColorHB/Text_Max" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="1" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.7,0},{0.65,0},{0.8,0},{0.95,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/CS_LensEffectWnd/Background/Border_SplitColorHG/Edit" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.8,0},{0.35,0},{0.98,0},{0.65,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/CS_LensEffectWnd/Background/Border_SplitColorHB/Edit" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.8,0},{0.65,0},{0.98,0},{0.95,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/CS_LensEffectWnd/Background/Border_SplitColorHR/Check_Use" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.2,0},{0.2,0},{0.5,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/CS_LensEffectWnd/Background/Border_SplitColorHG/Check_Use" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.0571429,0},{0.25,0}}" />
+                    <Property Name="Visible" Value="False" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/CS_LensEffectWnd/Background/Border_SplitColorHB/Check_Use" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.0571429,0},{0.25,0}}" />
+                    <Property Name="Visible" Value="False" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed" Name="Root/CS_LensEffectWnd/Background/Border_ColorBalanceH" >
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.45,0},{1,0},{0.55,0}}" />
+                <Window Type="DejaVu/HorizontalScrollbar" Name="Root/CS_LensEffectWnd/Background/Border_ColorBalanceHR/Scroll" >
+                    <Property Name="DocumentSize" Value="1" />
+                    <Property Name="OverlapSize" Value="0" />
+                    <Property Name="PageSize" Value="0" />
+                    <Property Name="ScrollPosition" Value="0" />
+                    <Property Name="StepSize" Value="1" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.35,0},{0.05,0},{0.7,0},{0.35,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="Root/CS_LensEffectWnd/Background/Border_ColorBalanceHR/Text_Min" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="0" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.25,0},{0.05,0},{0.35,0},{0.35,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="Root/CS_LensEffectWnd/Background/Border_ColorBalanceHR/Text_Max" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="1" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.7,0},{0.05,0},{0.8,0},{0.35,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/CS_LensEffectWnd/Background/Border_ColorBalanceHR/Edit" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.8,0},{0.05,0},{0.98,0},{0.35,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_LensEffectWnd/Background/Border_ColorBalanceH/Text" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="色彩平衡-高" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.02,0},{0.5,0},{0.2,0},{0.8,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_LensEffectWnd/Background/Border_ColorBalanceHR/Text" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="R" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.2,0},{0.05,0},{0.25,0},{0.35,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_LensEffectWnd/Background/Border_ColorBalanceHG/Text" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="G" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.2,0},{0.35,0},{0.25,0},{0.65,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_LensEffectWnd/Background/Border_ColorBalanceHB/Text" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="B" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.2,0},{0.65,0},{0.25,0},{0.95,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="Root/CS_LensEffectWnd/Background/Border_ColorBalanceHG/Text_Min" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="0" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.25,0},{0.35,0},{0.35,0},{0.65,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="Root/CS_LensEffectWnd/Background/Border_ColorBalanceHB/Text_Min" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="0" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.25,0},{0.65,0},{0.35,0},{0.95,0}}" />
+                </Window>
+                <Window Type="DejaVu/HorizontalScrollbar" Name="Root/CS_LensEffectWnd/Background/Border_ColorBalanceHG/Scroll" >
+                    <Property Name="DocumentSize" Value="1" />
+                    <Property Name="OverlapSize" Value="0" />
+                    <Property Name="PageSize" Value="0" />
+                    <Property Name="ScrollPosition" Value="0" />
+                    <Property Name="StepSize" Value="1" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.35,0},{0.35,0},{0.7,0},{0.65,0}}" />
+                </Window>
+                <Window Type="DejaVu/HorizontalScrollbar" Name="Root/CS_LensEffectWnd/Background/Border_ColorBalanceHB/Scroll" >
+                    <Property Name="DocumentSize" Value="1" />
+                    <Property Name="OverlapSize" Value="0" />
+                    <Property Name="PageSize" Value="0" />
+                    <Property Name="ScrollPosition" Value="0" />
+                    <Property Name="StepSize" Value="1" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.35,0},{0.65,0},{0.7,0},{0.95,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="Root/CS_LensEffectWnd/Background/Border_ColorBalanceHG/Text_Max" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="1" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.7,0},{0.35,0},{0.8,0},{0.65,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="Root/CS_LensEffectWnd/Background/Border_ColorBalanceHB/Text_Max" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="1" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.7,0},{0.65,0},{0.8,0},{0.95,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/CS_LensEffectWnd/Background/Border_ColorBalanceHG/Edit" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.8,0},{0.35,0},{0.98,0},{0.65,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/CS_LensEffectWnd/Background/Border_ColorBalanceHB/Edit" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.8,0},{0.65,0},{0.98,0},{0.95,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/CS_LensEffectWnd/Background/Border_ColorBalanceHR/Check_Use" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.2,0},{0.2,0},{0.5,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/CS_LensEffectWnd/Background/Border_ColorBalanceHG/Check_Use" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.0571429,0},{0.25,0}}" />
+                    <Property Name="Visible" Value="False" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/CS_LensEffectWnd/Background/Border_ColorBalanceHB/Check_Use" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.0571429,0},{0.25,0}}" />
+                    <Property Name="Visible" Value="False" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed" Name="Root/CS_LensEffectWnd/Background/Border_ColorBalanceM" >
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.55,0},{1,0},{0.65,0}}" />
+                <Window Type="DejaVu/HorizontalScrollbar" Name="Root/CS_LensEffectWnd/Background/Border_ColorBalanceMR/Scroll" >
+                    <Property Name="DocumentSize" Value="1" />
+                    <Property Name="OverlapSize" Value="0" />
+                    <Property Name="PageSize" Value="0" />
+                    <Property Name="ScrollPosition" Value="0" />
+                    <Property Name="StepSize" Value="1" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.35,0},{0.05,0},{0.7,0},{0.35,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="Root/CS_LensEffectWnd/Background/Border_ColorBalanceMR/Text_Min" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="0" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.25,0},{0.05,0},{0.35,0},{0.35,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="Root/CS_LensEffectWnd/Background/Border_ColorBalanceMR/Text_Max" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="1" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.7,0},{0.05,0},{0.8,0},{0.35,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/CS_LensEffectWnd/Background/Border_ColorBalanceMR/Edit" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.8,0},{0.05,0},{0.98,0},{0.35,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_LensEffectWnd/Background/Border_ColorBalanceM/Text" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="色彩平衡-中" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.02,0},{0.5,0},{0.2,0},{0.8,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_LensEffectWnd/Background/Border_ColorBalanceMR/Text" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="R" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.2,0},{0.05,0},{0.25,0},{0.35,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_LensEffectWnd/Background/Border_ColorBalanceMG/Text" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="G" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.2,0},{0.35,0},{0.25,0},{0.65,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_LensEffectWnd/Background/Border_ColorBalanceMB/Text" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="B" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.2,0},{0.65,0},{0.25,0},{0.95,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="Root/CS_LensEffectWnd/Background/Border_ColorBalanceMG/Text_Min" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="0" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.25,0},{0.35,0},{0.35,0},{0.65,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="Root/CS_LensEffectWnd/Background/Border_ColorBalanceMB/Text_Min" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="0" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.25,0},{0.65,0},{0.35,0},{0.95,0}}" />
+                </Window>
+                <Window Type="DejaVu/HorizontalScrollbar" Name="Root/CS_LensEffectWnd/Background/Border_ColorBalanceMG/Scroll" >
+                    <Property Name="DocumentSize" Value="1" />
+                    <Property Name="OverlapSize" Value="0" />
+                    <Property Name="PageSize" Value="0" />
+                    <Property Name="ScrollPosition" Value="0" />
+                    <Property Name="StepSize" Value="1" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.35,0},{0.35,0},{0.7,0},{0.65,0}}" />
+                </Window>
+                <Window Type="DejaVu/HorizontalScrollbar" Name="Root/CS_LensEffectWnd/Background/Border_ColorBalanceMB/Scroll" >
+                    <Property Name="DocumentSize" Value="1" />
+                    <Property Name="OverlapSize" Value="0" />
+                    <Property Name="PageSize" Value="0" />
+                    <Property Name="ScrollPosition" Value="0" />
+                    <Property Name="StepSize" Value="1" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.35,0},{0.65,0},{0.7,0},{0.95,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="Root/CS_LensEffectWnd/Background/Border_ColorBalanceMG/Text_Max" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="1" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.7,0},{0.35,0},{0.8,0},{0.65,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="Root/CS_LensEffectWnd/Background/Border_ColorBalanceMB/Text_Max" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="1" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.7,0},{0.65,0},{0.8,0},{0.95,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/CS_LensEffectWnd/Background/Border_ColorBalanceMG/Edit" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.8,0},{0.35,0},{0.98,0},{0.65,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/CS_LensEffectWnd/Background/Border_ColorBalanceMB/Edit" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.8,0},{0.65,0},{0.98,0},{0.95,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/CS_LensEffectWnd/Background/Border_ColorBalanceMR/Check_Use" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.2,0},{0.2,0},{0.5,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/CS_LensEffectWnd/Background/Border_ColorBalanceMG/Check_Use" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.0571429,0},{0.25,0}}" />
+                    <Property Name="Visible" Value="False" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/CS_LensEffectWnd/Background/Border_ColorBalanceMB/Check_Use" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.0571429,0},{0.25,0}}" />
+                    <Property Name="Visible" Value="False" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed" Name="Root/CS_LensEffectWnd/Background/Border_ColorBalanceL" >
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.65,0},{1,0},{0.75,0}}" />
+                <Window Type="DejaVu/HorizontalScrollbar" Name="Root/CS_LensEffectWnd/Background/Border_ColorBalanceLR/Scroll" >
+                    <Property Name="DocumentSize" Value="1" />
+                    <Property Name="OverlapSize" Value="0" />
+                    <Property Name="PageSize" Value="0" />
+                    <Property Name="ScrollPosition" Value="0" />
+                    <Property Name="StepSize" Value="1" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.35,0},{0.05,0},{0.7,0},{0.35,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="Root/CS_LensEffectWnd/Background/Border_ColorBalanceLR/Text_Min" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="0" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.25,0},{0.05,0},{0.35,0},{0.35,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="Root/CS_LensEffectWnd/Background/Border_ColorBalanceLR/Text_Max" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="1" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.7,0},{0.05,0},{0.8,0},{0.35,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/CS_LensEffectWnd/Background/Border_ColorBalanceLR/Edit" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.8,0},{0.05,0},{0.98,0},{0.35,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_LensEffectWnd/Background/Border_ColorBalanceL/Text" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="色彩平衡-低" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.02,0},{0.5,0},{0.2,0},{0.8,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_LensEffectWnd/Background/Border_ColorBalanceLR/Text" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="R" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.2,0},{0.05,0},{0.25,0},{0.35,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_LensEffectWnd/Background/Border_ColorBalanceLG/Text" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="G" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.2,0},{0.35,0},{0.25,0},{0.65,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_LensEffectWnd/Background/Border_ColorBalanceLB/Text" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="B" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.2,0},{0.65,0},{0.25,0},{0.95,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="Root/CS_LensEffectWnd/Background/Border_ColorBalanceLG/Text_Min" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="0" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.25,0},{0.35,0},{0.35,0},{0.65,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="Root/CS_LensEffectWnd/Background/Border_ColorBalanceLB/Text_Min" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="0" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.25,0},{0.65,0},{0.35,0},{0.95,0}}" />
+                </Window>
+                <Window Type="DejaVu/HorizontalScrollbar" Name="Root/CS_LensEffectWnd/Background/Border_ColorBalanceLG/Scroll" >
+                    <Property Name="DocumentSize" Value="1" />
+                    <Property Name="OverlapSize" Value="0" />
+                    <Property Name="PageSize" Value="0" />
+                    <Property Name="ScrollPosition" Value="0" />
+                    <Property Name="StepSize" Value="1" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.35,0},{0.35,0},{0.7,0},{0.65,0}}" />
+                </Window>
+                <Window Type="DejaVu/HorizontalScrollbar" Name="Root/CS_LensEffectWnd/Background/Border_ColorBalanceLB/Scroll" >
+                    <Property Name="DocumentSize" Value="1" />
+                    <Property Name="OverlapSize" Value="0" />
+                    <Property Name="PageSize" Value="0" />
+                    <Property Name="ScrollPosition" Value="0" />
+                    <Property Name="StepSize" Value="1" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.35,0},{0.65,0},{0.7,0},{0.95,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="Root/CS_LensEffectWnd/Background/Border_ColorBalanceLG/Text_Max" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="1" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.7,0},{0.35,0},{0.8,0},{0.65,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="Root/CS_LensEffectWnd/Background/Border_ColorBalanceLB/Text_Max" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="1" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.7,0},{0.65,0},{0.8,0},{0.95,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/CS_LensEffectWnd/Background/Border_ColorBalanceLG/Edit" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.8,0},{0.35,0},{0.98,0},{0.65,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/CS_LensEffectWnd/Background/Border_ColorBalanceLB/Edit" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.8,0},{0.65,0},{0.98,0},{0.95,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/CS_LensEffectWnd/Background/Border_ColorBalanceLR/Check_Use" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.2,0},{0.2,0},{0.5,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/CS_LensEffectWnd/Background/Border_ColorBalanceLG/Check_Use" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.0571429,0},{0.25,0}}" />
+                    <Property Name="Visible" Value="False" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/CS_LensEffectWnd/Background/Border_ColorBalanceLB/Check_Use" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.0571429,0},{0.25,0}}" />
+                    <Property Name="Visible" Value="False" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/CS_LensEffectWnd/Background/Border/Button_Default" >
+                <Property Name="Text" Value="初始化" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.95,0},{1,0},{1,0}}" />
+            </Window>
+            <Window Type="DejaVu/Embed" Name="Root/CS_LensEffectWnd/Background/Border_Screen" >
+                <Property Name="UnifiedAreaRect" Value="{{-0.00208333,0},{0.75,0},{0.697917,0},{0.8,0}}" />
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_LensEffectWnd/Background/Border_Screen/Text_Monochrome" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="黑白" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.15,0},{0.2,0},{0.3,0},{0.8,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/CS_LensEffectWnd/Background/Border_Screen/Check_Monochrome" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.2,0},{0.15,0},{0.8,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_LensEffectWnd/Background/Border_Screen/Text_Sepia" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="泛黃" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.45,0},{0.2,0},{0.6,0},{0.8,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/CS_LensEffectWnd/Background/Border_Screen/Check_Sepia" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.35,0},{0.2,0},{0.45,0},{0.8,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/CS_LensEffectWnd/Background/Border_Screen/Check_Negative" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.65,0},{0.2,0},{0.75,0},{0.8,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_LensEffectWnd/Background/Border_Screen/Text_Negative" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="負片" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.75,0},{0.2,0},{0.9,0},{0.8,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed" Name="Root/CS_LensEffectWnd/Background/Border_MontionBlur" >
+                <Property Name="UnifiedAreaRect" Value="{{0.7,0},{0.75,0},{1,0},{0.8,0}}" />
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_LensEffectWnd/Background/Border_MontionBlur/Text_MontionBlur" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="動態模糊" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.35,0},{0.2,0},{0.95,0},{0.8,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/CS_LensEffectWnd/Background/Border_MontionBlur/Check_MontionBlur" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.3,0},{0.8,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed" Name="Root/CS_LensEffectWnd/Background/Border_DOF" >
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.8,0},{1,0},{0.9,0}}" />
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_LensEffectWnd/Background/Border_DOF/Text_DOF" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="景深" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0857143,0},{0.0625,0},{0.0857143,50},{0.0625,20}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/CS_LensEffectWnd/Background/Border_DOF/Check_DOF" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.0285714,0},{0.0625,0},{0.0857143,0},{0.3125,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_LensEffectWnd/Background/Border_DOF/Text_DOFWeight" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="權重" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0285714,0},{0.375,0},{0.0285714,70},{0.375,20}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/CS_LensEffectWnd/Background/Border_DOF/Edit_DOFWeight" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.028571,0},{0.6875,0},{0.028571,70},{0.6875,20}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_LensEffectWnd/Background/Border_DOF/Text_DOFBeginP" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="前景前端" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.257143,0},{0.0625,0},{0.257143,60},{0.0625,20}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/CS_LensEffectWnd/Background/Border_DOF/Edit_DOFBeginP" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.442857,0},{0.0625,0},{0.442857,60},{0.0625,20}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_LensEffectWnd/Background/Border_DOF/Text_EndP" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="前景末端" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.257143,0},{0.375,0},{0.257143,60},{0.375,20}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/CS_LensEffectWnd/Background/Border_DOF/Edit_DOFEndP" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.442857,0},{0.375,0},{0.442857,60},{0.375,20}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_LensEffectWnd/Background/Border_DOF/Text_DOFRangeP" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="前景範圍" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.257143,0},{0.6875,0},{0.257143,60},{0.6875,20}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/CS_LensEffectWnd/Background/Border_DOF/Edit_DOFRangeP" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.442857,0},{0.6875,0},{0.442857,60},{0.6875,20}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_LensEffectWnd/Background/Border_DOF/Text_DOFBeginN" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="背景前端" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.628571,0},{0.0625,0},{0.628571,60},{0.0625,20}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/CS_LensEffectWnd/Background/Border_DOF/Edit_DOFBeginN" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.814286,0},{0.0625,0},{0.814286,60},{0.0625,20}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_LensEffectWnd/Background/Border_DOF/Text_EndN" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="背景末端" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.628571,0},{0.375,0},{0.628571,60},{0.375,20}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/CS_LensEffectWnd/Background/Border_DOF/Edit_DOFEndN" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.814286,0},{0.375,0},{0.814286,60},{0.375,20}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_LensEffectWnd/Background/Border_DOF/Text_DOFRangeN" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="背景範圍" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.628571,0},{0.6875,0},{0.628571,60},{0.6875,20}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/CS_LensEffectWnd/Background/Border_DOF/Edit_DOFRangeN" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.814286,0},{0.6875,0},{0.814286,60},{0.6875,20}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed" Name="Root/CS_LensEffectWnd/Background/Border_FocusBlur" >
+               <Property Name="UnifiedAreaRect" Value="{{0,0},{0.9,0},{1,0},{0.95,0}}" />
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_LensEffectWnd/Background/Border_FocusBlur/Text_FocusBlur" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="速線" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.085714,0},{0.166667,0},{0.085714,40},{0.166667,20}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/CS_LensEffectWnd/Background/Border_FocusBlur/Check_FocusBlur" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.028571,0},{0.166667,0},{0.0857139,0},{0.833334,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/CS_LensEffectWnd/Background/Border_FocusBlur/Edit_FBlurRadius" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.442857,0},{0.166667,0},{0.442857,60},{0.166667,20}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/CS_LensEffectWnd/Background/Border_FocusBlur/Edit_FBlurStrength" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.814286,0},{0.166667,0},{0.814286,60},{0.166667,20}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_LensEffectWnd/Background/Border_FocusBlur/Text_FBlurRadius" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="大小" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.257143,0},{0.166667,0},{0.257143,60},{0.166667,20}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_LensEffectWnd/Background/Border_FocusBlur/Text_FBlurStrength" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="強度" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.628571,0},{0.166667,0},{0.628571,60},{0.166667,20}}" />
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

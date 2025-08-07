@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/MaillistWnd" >
+        <Property Name="UnifiedAreaRect" Value="{{-0.000156,0},{0,0},{-0.000156,501},{0,578}}" />
+        <Window Type="DejaVu/Embed2" Name="Root/MaillistWnd/MailListEmb" >
+            <Property Name="UnifiedAreaRect" Value="{{0.01996,0},{0.070934,0},{0.98004,0},{0.570934,0}}" />
+            <Window Type="DejaVu/EmbedTextLab7" Name="Root/MaillistWnd/MailListEmb/Type" >
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="類型" />
+                <Property Name="UnifiedAreaRect" Value="{{0.004158,0},{0.00692042,0},{0.112266,0},{0.0934256,0}}" />
+            </Window>
+            <Window Type="DejaVu/EmbedText7" Name="Root/MaillistWnd/MailListEmb/Sender" >
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="寄件者" />
+                <Property Name="UnifiedAreaRect" Value="{{0.112266,0},{0.00692042,0},{0.403326,0},{0.0934256,0}}" />
+            </Window>
+            <Window Type="DejaVu/EmbedTextLab7" Name="Root/MaillistWnd/MailListEmb/Title" >
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="信件主旨" />
+                <Property Name="UnifiedAreaRect" Value="{{0.403326,0},{0.00692042,0},{0.819127,0},{0.0934256,0}}" />
+            </Window>
+            <Window Type="DejaVu/EmbedTextLab7" Name="Root/MaillistWnd/MailListEmb/TimeLimit" >
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="剩餘" />
+                <Property Name="UnifiedAreaRect" Value="{{0.819127,0},{0.00692042,0},{0.964657,0},{0.0934256,0}}" />
+            </Window>
+            <Window Type="DejaVu/ScrollablePane" Name="Root/MaillistWnd/MailListEmb/ScrollablePane" >
+                <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                <Property Name="HorzOverlapSize" Value="0.01" />
+                <Property Name="HorzScrollPosition" Value="0" />
+                <Property Name="HorzStepSize" Value="0.1" />
+                <Property Name="UnifiedAreaRect" Value="{{0.004158,0},{0.00692,0},{0.995842,0},{0.993079,0}}" />
+                <Property Name="VertOverlapSize" Value="0.01" />
+                <Property Name="VertScrollPosition" Value="0" />
+                <Property Name="VertStepSize" Value="0.1" />
+                <AutoWindow NameSuffix="__auto_container__" >
+                    <Property Name="ChildExtentsArea" Value="l:0 t:0 r:0 b:0" />
+                    <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                    <Property Name="MouseInputPropagationEnabled" Value="True" />
+                </AutoWindow>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Embed2" Name="Root/MaillistWnd/ContentEmb" >
+            <Property Name="UnifiedAreaRect" Value="{{0.0199601,0},{0.579585,0},{0.98004,0},{0.82872,0}}" />
+            <Window Type="DejaVu/Embed5" Name="Root/MaillistWnd/ContentEmb/TextEmb" >
+                <Property Name="UnifiedAreaRect" Value="{{0.004158,0},{0.013889,0},{0.995842,0},{0.986111,0}}" />
+                <Window Type="DejaVu/MultiLineEditbox" Name="Root/MaillistWnd/ContentEmb/TextEmb/MultiLineEdit" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="NormalTextColour" Value="C8FFFFFF" />
+                    <Property Name="ReadOnly" Value="True" />
+                    <Property Name="Text" >
+</Property>
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.178571,0},{1,0},{1,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab7" Name="Root/MaillistWnd/ContentEmb/TitleText" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="標題" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.167715,0},{0.178571,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab5" Name="Root/MaillistWnd/ContentEmb/TitleContent" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.167715,0},{0,0},{1,0},{0.178571,0}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/MaillistWnd/NormalBtn" >
+            <Property Name="Text" Value="一般郵件" />
+            <Property Name="UnifiedAreaRect" Value="{{0.020481,0},{0.017921,0},{0.172178,0},{0.0629037,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/MaillistWnd/AccountBtn" >
+            <Property Name="Text" Value="帳號郵件" />
+            <Property Name="UnifiedAreaRect" Value="{{0.181637,0},{0.017921,0},{0.333334,0},{0.0629037,0}}" />
+        </Window>
+		<Window Type="DejaVu/Button" Name="Root/MaillistWnd/PayBtn" >
+            <Property Name="Text" Value="付款取件" />
+            <Property Name="UnifiedAreaRect" Value="{{0.342793,0},{0.017921,0},{0.49449,0},{0.0629037,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/MaillistWnd/ReplyBtn" >
+            <Property Name="Text" Value="回覆信件" />
+            <Property Name="UnifiedAreaRect" Value="{{0.343313,0},{0.937716,0},{0.49501,0},{0.982699,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/MaillistWnd/ReturnBtn" >
+            <Property Name="Text" Value="退回郵件" />
+            <Property Name="UnifiedAreaRect" Value="{{0.502994,0},{0.937276,0},{0.654691,0},{0.982079,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/MaillistWnd/DeleteBtn" >
+            <Property Name="Text" Value="刪除郵件" />
+            <Property Name="UnifiedAreaRect" Value="{{0.664671,0},{0.937276,0},{0.816368,0},{0.982079,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/MaillistWnd/GetBtn" >
+            <Property Name="Text" Value="領取附件" />
+            <Property Name="UnifiedAreaRect" Value="{{0.828343,0},{0.937716,0},{0.98004,0},{0.982699,0}}" />
+        </Window>
+        <Window Type="DejaVu/Embed2" Name="Root/MaillistWnd/ContentEmb/ItemE" >
+            <Property Name="UnifiedAreaRect" Value="{{0.01996,0},{0.83218,0},{0.98004,0},{0.929066,0}}" />
+            <Window Type="DejaVu/Embed3" Name="Root/MaillistWnd/ContentEmb/ItemEmb" >
+                <Property Name="UnifiedAreaRect" Value="{{0.004158,0},{0.035714,0},{0.995842,0},{0.964285,0}}" />
+                <Window Type="DejaVu/SlotImage" Name="Root/MaillistWnd/ContentEmb/ItemEmb/ItemSlot" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.010482,0},{0.096154,0},{0.0985323,0},{0.903846,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="Root/MaillistWnd/ContentEmb/ItemEmb/ItemName" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.109015,0},{0.307692,0},{0.42348,0},{0.692307,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedText7" Name="Root/MaillistWnd/ContentEmb/ItemEmb/MoneyText" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="金錢" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.496855,0},{0.269231,0},{0.66457,0},{0.75,0}}" />
+                </Window>
+                <Window Type="DejaVu/Embed2" Name="Root/MaillistWnd/ContentEmb/ItemEmb/MoneyEmb" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.66457,0},{0.269231,0},{0.979035,0},{0.75,0}}" />
+                    <Window Type="DejaVu/Static" Name="Root/MaillistWnd/ContentEmb/ItemEmb/MoneyEmb/Emb" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.066667,0},{0,0},{0.933334,0},{1,0}}" />
+                        <Window Type="DejaVu/StaticImage" Name="Root/MaillistWnd/ContentEmb/ItemEmb/MoneyEmb/SilverImage" >
+                            <Property Name="Image" Value="set:main image:Silver" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.884615,0},{0.2,0},{1,0},{0.8,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticImage" Name="Root/MaillistWnd/ContentEmb/ItemEmb/MoneyEmb/GoldImage" >
+                            <Property Name="Image" Value="set:main image:Gold" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.423077,0},{0.2,0},{0.538462,0},{0.8,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticTextLab" Name="Root/MaillistWnd/ContentEmb/ItemEmb/MoneyEmb/Silver" >
+                            <Property Name="HorzFormatting" Value="RightAligned" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.576923,0},{0.2,0},{0.846154,0},{0.8,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticTextLab" Name="Root/MaillistWnd/ContentEmb/ItemEmb/MoneyEmb/Gold" >
+                            <Property Name="HorzFormatting" Value="RightAligned" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.2,0},{0.384615,0},{0.8,0}}" />
+                        </Window>
+                    </Window>
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

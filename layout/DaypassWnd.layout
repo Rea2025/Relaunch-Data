@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/StaticImage" Name="DaypassWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="Image" Value="set:main41 image:daypass_bg" />
+        <Property Name="UnifiedAreaRect" Value="{{0.192708,0},{0.17827,0},{0.192708,1005},{0.17827,550}}" />
+        <Window Type="DejaVu/ImageButton" Name="DaypassWnd/CloseBtn" >
+            <Property Name="DisabledImage" Value="set:main41 image:BtnCloseP" />
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="HoverImage" Value="set:main41 image:BtnCloseH" />
+            <Property Name="NormalImage" Value="set:main41 image:BtnCloseN" />
+            <Property Name="PushedImage" Value="set:main41 image:BtnCloseP" />
+            <Property Name="UnifiedAreaRect" Value="{{0.928358,0},{0.172727,0},{0.976119,0},{0.26,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticTextLab" Name="DaypassWnd/Slogan" >
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="Text" Value="儲值%s1點後連續登入3日領取好禮" />
+            <Property Name="UnifiedAreaRect" Value="{{0.338308,0},{0.447273,0},{0.657711,0},{0.498182,0}}" />
+        </Window>
+        <Window Type="DejaVu/ImageTextButton" Name="DaypassWnd/MoreBtn" >
+            <Property Name="DisabledImage" Value="set:main41 image:BtnMoreP" />
+            <Property Name="Font" Value="F001-18" />
+            <Property Name="HoverImage" Value="set:main41 image:BtnMoreH" />
+            <Property Name="NormalImage" Value="set:main41 image:BtnMoreN" />
+            <Property Name="PushedImage" Value="set:main41 image:BtnMoreP" />
+            <Property Name="UnifiedAreaRect" Value="{{0.240796,0},{0.84,0},{0.282587,0},{0.916364,0}}" />
+        </Window>
+        <Window Type="DejaVu/ImageTextButton" Name="DaypassWnd/BuyBtn" >
+            <Property Name="DisabledImage" Value="set:main41 image:BtnBuyP" />
+            <Property Name="Font" Value="F001-14" />
+            <Property Name="HoverImage" Value="set:main41 image:BtnBuyH" />
+            <Property Name="NormalImage" Value="set:main41 image:BtnBuyN" />
+            <Property Name="PushedImage" Value="set:main41 image:BtnBuyP" />
+            <Property Name="Text" Value="前往儲值" />
+            <Property Name="UnifiedAreaRect" Value="{{0.427861,0},{0.741818,0},{0.565174,0},{0.856364,0}}" />
+            <Window Type="DejaVu/StaticImage" Name="DaypassWnd/BuyBtn/Climit" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="Image" Value="set:DejaVu image:Climit" />
+                <Property Name="UnifiedAreaRect" Value="{{0.891304,0},{0,0},{1,0},{0.238095,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/StaticTextLab" Name="DaypassWnd/BuyLimitText" >
+            <Property Name="Font" Value="F001-10" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="Text" Value="若當日未領取獎勵，則隔日無法領取新的次日獎勵" />
+            <Property Name="UnifiedAreaRect" Value="{{0.303483,0},{0.64,0},{0.696517,0},{0.729091,0}}" />
+        </Window>
+        <Window Type="DejaVu/ImageButton" Name="DaypassWnd/QuestionBtn" >
+            <Property Name="DisabledImage" Value="set:main41 image:BtnQuestionN" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HoverImage" Value="set:main41 image:BtnQuestionN" />
+            <Property Name="NormalImage" Value="set:main41 image:BtnQuestionN" />
+            <Property Name="PushedImage" Value="set:main41 image:BtnQuestionN" />
+            <Property Name="UnifiedAreaRect" Value="{{0.649751,0},{0.432727,0},{0.691542,0},{0.509091,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticText" Name="DaypassWnd/Title" >
+            <Property Name="Font" Value="F001-20" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="Text" >儲值就送！三大好禮
+每日登入領獎</Property>
+            <Property Name="UnifiedAreaRect" Value="{{0.272396,0},{0.167721,0},{0.726042,0},{0.312236,0}}" />
+        </Window>
+        <Window Type="DejaVu/ImageTextButton" Name="DaypassWnd/MoreBtn1" >
+            <Property Name="DisabledImage" Value="set:main41 image:BtnMoreP" />
+            <Property Name="Font" Value="F001-18" />
+            <Property Name="HoverImage" Value="set:main41 image:BtnMoreH" />
+            <Property Name="NormalImage" Value="set:main41 image:BtnMoreN" />
+            <Property Name="PushedImage" Value="set:main41 image:BtnMoreP" />
+            <Property Name="UnifiedAreaRect" Value="{{0.885572,0},{0.830909,0},{0.927363,0},{0.907273,0}}" />
+        </Window>
+        <Window Type="DejaVu/ImageTextButton" Name="DaypassWnd/DayBtn1" >
+            <Property Name="DisabledImage" Value="set:main41 image:BtnDayP" />
+            <Property Name="HoverImage" Value="set:main41 image:BtnDayH" />
+            <Property Name="NormalImage" Value="set:main41 image:BtnDayN" />
+            <Property Name="PushedImage" Value="set:main41 image:BtnDayP" />
+            <Property Name="Text" Value="第1天 " />
+            <Property Name="UnifiedAreaRect" Value="{{0.333333,0},{0.361818,0},{0.439801,0},{0.429091,0}}" />
+            <Window Type="DejaVu/StaticImage" Name="DaypassWnd/DayBtn1/Climit" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="Image" Value="set:DejaVu image:Climit" />
+                <Property Name="UnifiedAreaRect" Value="{{0.841121,0},{0.0540541,0},{0.943925,0},{0.405405,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/ImageTextButton" Name="DaypassWnd/DayBtn2" >
+            <Property Name="DisabledImage" Value="set:main41 image:BtnDayP" />
+            <Property Name="HoverImage" Value="set:main41 image:BtnDayH" />
+            <Property Name="NormalImage" Value="set:main41 image:BtnDayN" />
+            <Property Name="PushedImage" Value="set:main41 image:BtnDayP" />
+            <Property Name="Text" Value="第2天 " />
+            <Property Name="UnifiedAreaRect" Value="{{0.443781,0},{0.361818,0},{0.550249,0},{0.429091,0}}" />
+            <Window Type="DejaVu/StaticImage" Name="DaypassWnd/DayBtn2/Climit" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="Image" Value="set:DejaVu image:Climit" />
+                <Property Name="UnifiedAreaRect" Value="{{0.841121,0},{0.0540541,0},{0.943925,0},{0.405405,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/ImageTextButton" Name="DaypassWnd/DayBtn3" >
+            <Property Name="DisabledImage" Value="set:main41 image:BtnDayP" />
+            <Property Name="HoverImage" Value="set:main41 image:BtnDayH" />
+            <Property Name="NormalImage" Value="set:main41 image:BtnDayN" />
+            <Property Name="PushedImage" Value="set:main41 image:BtnDayP" />
+            <Property Name="Text" Value="第3天 " />
+            <Property Name="UnifiedAreaRect" Value="{{0.554229,0},{0.361818,0},{0.660697,0},{0.429091,0}}" />
+            <Window Type="DejaVu/StaticImage" Name="DaypassWnd/DayBtn3/Climit" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="Image" Value="set:DejaVu image:Climit" />
+                <Property Name="UnifiedAreaRect" Value="{{0.841121,0},{0.0540541,0},{0.943925,0},{0.405405,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/ImageTextButton" Name="DaypassWnd/BuyPage1" >
+            <Property Name="DisabledImage" Value="set:main41 image:BtnPageP" />
+            <Property Name="Font" Value="F001-10" />
+            <Property Name="HoverImage" Value="set:main41 image:BtnPageH" />
+            <Property Name="NormalImage" Value="set:main41 image:BtnPageN" />
+            <Property Name="PushedImage" Value="set:main41 image:BtnPageP" />
+            <Property Name="Text" Value="儲值980幻想幣" />
+            <Property Name="Tooltip" Value="0" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0238806,0},{0.0345455,0},{0.163184,0},{0.110909,0}}" />
+            <Window Type="DejaVu/StaticImage" Name="DaypassWnd/BuyPage1/Climit" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="Image" Value="set:DejaVu image:Climit" />
+                <Property Name="UnifiedAreaRect" Value="{{0.892857,0},{0,0},{1,0},{0.357143,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/ImageTextButton" Name="DaypassWnd/BuyPage2" >
+            <Property Name="DisabledImage" Value="set:main41 image:BtnPageP" />
+            <Property Name="Font" Value="F001-10" />
+            <Property Name="HoverImage" Value="set:main41 image:BtnPageH" />
+            <Property Name="NormalImage" Value="set:main41 image:BtnPageN" />
+            <Property Name="PushedImage" Value="set:main41 image:BtnPageP" />
+            <Property Name="Text" Value="儲值980幻想幣" />
+            <Property Name="Tooltip" Value="0" />
+            <Property Name="UnifiedAreaRect" Value="{{0.177114,0},{0.0345455,0},{0.316418,0},{0.110909,0}}" />
+            <Window Type="DejaVu/StaticImage" Name="DaypassWnd/BuyPage2/Climit" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="Image" Value="set:DejaVu image:Climit" />
+                <Property Name="UnifiedAreaRect" Value="{{0.892857,0},{0,0},{1,0},{0.357143,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/ImageTextButton" Name="DaypassWnd/BuyPage3" >
+            <Property Name="DisabledImage" Value="set:main41 image:BtnPageP" />
+            <Property Name="Font" Value="F001-10" />
+            <Property Name="HoverImage" Value="set:main41 image:BtnPageH" />
+            <Property Name="NormalImage" Value="set:main41 image:BtnPageN" />
+            <Property Name="PushedImage" Value="set:main41 image:BtnPageP" />
+            <Property Name="Text" Value="儲值980幻想幣" />
+            <Property Name="Tooltip" Value="0" />
+            <Property Name="UnifiedAreaRect" Value="{{0.676617,0},{0.0345455,0},{0.81592,0},{0.110909,0}}" />
+            <Window Type="DejaVu/StaticImage" Name="DaypassWnd/BuyPage3/Climit" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="Image" Value="set:DejaVu image:Climit" />
+                <Property Name="UnifiedAreaRect" Value="{{0.892857,0},{0,0},{1,0},{0.357143,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/ImageTextButton" Name="DaypassWnd/BuyPage4" >
+            <Property Name="DisabledImage" Value="set:main41 image:BtnPageP" />
+            <Property Name="Font" Value="F001-10" />
+            <Property Name="HoverImage" Value="set:main41 image:BtnPageH" />
+            <Property Name="NormalImage" Value="set:main41 image:BtnPageN" />
+            <Property Name="PushedImage" Value="set:main41 image:BtnPageP" />
+            <Property Name="Text" Value="儲值980幻想幣" />
+            <Property Name="Tooltip" Value="0" />
+            <Property Name="UnifiedAreaRect" Value="{{0.831841,0},{0.0345455,0},{0.971144,0},{0.110909,0}}" />
+            <Window Type="DejaVu/StaticImage" Name="DaypassWnd/BuyPage4/Climit" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="Image" Value="set:DejaVu image:Climit" />
+                <Property Name="UnifiedAreaRect" Value="{{0.892857,0},{0,0},{1,0},{0.357143,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/SlotImage" Name="DaypassWnd/Slot" >
+            <Property Name="UnifiedAreaRect" Value="{{0.39801,0},{0.536364,0},{0.442786,0},{0.618182,0}}" />
+        </Window>
+        <Window Type="DejaVu/Static" Name="DaypassWnd/MinX" >
+            <Property Name="UnifiedAreaRect" Value="{{0.318408,0},{0.536364,0},{0.363184,0},{0.618182,0}}" />
+        </Window>
+        <Window Type="DejaVu/Static" Name="DaypassWnd/MaxX" >
+            <Property Name="UnifiedAreaRect" Value="{{0.636816,0},{0.536364,0},{0.681592,0},{0.618182,0}}" />
+        </Window>
+        <Window Type="DejaVu/Static" Name="DaypassWnd/PreviewLeft" >
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Static" Name="DaypassWnd/PreviewLeft/Model" >
+                <Property Name="UnifiedAreaRect" Value="{{0.076617,0},{0.252727,0},{0.291542,0},{1.04,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="DaypassWnd/PreviewLeft/Image" >
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.318408,0},{0.0636364,0},{-0.119403,0},{0.609091,0}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="DaypassWnd/PreviewRight" >
+            <Property Name="UnifiedAreaRect" Value="{{0.000520833,0},{0,0},{1.00052,0},{1,0}}" />
+            <Window Type="DejaVu/Static" Name="DaypassWnd/PreviewRight/Model" >
+                <Property Name="UnifiedAreaRect" Value="{{0.712827,0},{0.253184,0},{0.927966,0},{1.04046,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="DaypassWnd/PreviewRight/Image" >
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="UnifiedAreaRect" Value="{{0.318725,0},{0.063636,0},{0.517928,0},{0.609091,0}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

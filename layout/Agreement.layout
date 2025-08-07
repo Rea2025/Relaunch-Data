@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/Agreement" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="TitlebarImage" Value="set:main image:SystemNormal" />
+        <Property Name="UnifiedAreaRect" Value="{{0.207031,0},{0.136719,0},{0.207031,616},{0.136719,591}}" />
+        <Window Type="DejaVu/Embed" Name="Root/Agreement/Static" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Button" Name="Root/Agreement/Static/CloseBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="Text" Value="x關閉" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.0166667,0},{0.92955,0},{0.11,0},{0.98043,0}}" />
+            </Window>
+            <Window Type="DejaVu/Embed5" Name="Root/ContractWnd/BG2" >
+                <Property Name="UnifiedAreaRect" Value="{{0.0183333,0},{0.0273973,0},{0.985,0},{0.927593,0}}" />
+                <Window Type="DejaVu/MultiLineEditbox" Name="Root/Agreement/Static/BorderText" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="NormalTextColour" Value="CFFFFFFFF" />
+                    <Property Name="ReadOnly" Value="True" />
+                    <Property Name="Text" >11111
+</Property>
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.003448,0},{0.006522,0},{0.003448,576},{0.006522,456}}" />
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

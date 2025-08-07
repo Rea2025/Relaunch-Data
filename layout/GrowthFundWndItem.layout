@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="GrowthFundWndItem" >
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.216146,0},{0.0949367,0}}" />
+        <Window Type="DejaVu/Embed3" Name="GrowthFundWndItem/Item" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Static" Name="GrowthFundWndItem/Item/BG" >
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Window Type="DejaVu/StaticText" Name="GrowthFundWndItem/Item/BG/Text" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="x購買後立即獲得" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0452261,0},{0.0618557,0},{0.574467,0},{0.309278,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="GrowthFundWndItem/Item/BG/Image" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Image" Value="set:main2 image:GiftIcon" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.046569,0},{0.406593,0},{0.147774,0},{0.87326,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="GrowthFundWndItem/Item/BG/Slot1" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.22439,0},{0.411111,0},{0.325595,0},{0.877778,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="GrowthFundWndItem/Item/BG/Slot2" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.336585,0},{0.411111,0},{0.43779,0},{0.877778,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="GrowthFundWndItem/Item/BG/Slot3" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.446078,0},{0.406593,0},{0.547283,0},{0.87326,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="GrowthFundWndItem/Item/BG/Slot4" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.556373,0},{0.406593,0},{0.657578,0},{0.87326,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="GrowthFundWndItem/Item/BG/Slot5" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.666667,0},{0.406593,0},{0.767872,0},{0.87326,0}}" />
+                </Window>
+                <Window Type="DejaVu/Button" Name="GrowthFundWndItem/Item/BG/ReceiveBtn" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="x領取" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.786765,0},{0.582418,0},{0.969898,0},{0.871307,0}}" />
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/RadarUI" >
+        <Property Name="Font" Value="F001-scale" />
+        <Property Name="HorizontalAlignment" Value="Right" />
+        <Property Name="MousePassThroughEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.03125,0},{0,630},{0.03125,280}}" />
+        <Window Type="DefaultWindow" Name="Root/RadarUI/Radar" >
+            <Property Name="ClippedByParent" Value="False" />
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="HorizontalAlignment" Value="Right" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.444444,0},{1,0}}" />
+            <Window Type="DejaVu/StaticImage" Name="Root/RadarUI/Radar/Map" >
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="Image" Value="set:main image:noimage" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="Root/RadarUI/Radar/Map/ArrowImage" >
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.3,0},{0.3,0},{0.352083,0},{0.376923,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/RadarUI/Radar/Map/AttentionImage" >
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.3,0},{0.3,0},{0.352083,0},{0.376923,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/RadarUI/Radar/BG" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="UnifiedAreaRect" Value="{{0.00754975,0},{-0.0267913,0},{1.00755,0},{0.973208,0}}" />
+                <Window Type="DejaVu/StaticText" Name="Root/RadarUI/Radar/BG/TimeText" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="Text" Value="xAm 10:12" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.375,0},{0.678571,0},{0.696429,0},{0.767857,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="Root/RadarUI/Radar/BG/LocationText" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="Text" Value="X:400 Y:300" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.375,0},{0.107143,0},{0.696429,0},{0.196429,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab3" Name="Root/RadarUI/Radar/BG/NameBG" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.264881,0},{0.00588095,0},{0.764881,0},{0.095167,0}}" />
+                    <Window Type="DejaVu/StaticText" Name="Root/RadarUI/Radar/BG/NameBG/NameText" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="x一二三四五六漁港" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                        <Window Type="DejaVu/ImageButton" Name="Root/RadarUI/Radar/BG/NameBG/NameText/DynamicNodeBtn" >
+                            <Property Name="DisabledImage" Value="set:DejaVu image:ComboboxListButtonDisable" />
+                            <Property Name="HoverImage" Value="set:DejaVu image:ComboboxListButtonHover" />
+                            <Property Name="NormalImage" Value="set:DejaVu image:ComboboxListButtonNormal" />
+                            <Property Name="PushedImage" Value="set:DejaVu image:ComboboxListButtonNormal" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.835714,0},{0.12,0},{0.978571,0},{0.92,0}}" />
+                        </Window>
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/RadarUI/Radar/BG/MapBtn" >
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="HoverImage" Value="set:main image:MapHover" />
+                    <Property Name="NormalImage" Value="set:main image:MapNormal" />
+                    <Property Name="PushedImage" Value="set:main image:MapPressed" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.767857,0},{0.017857,0},{0.910714,0},{0.160714,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/RadarUI/Radar/BG/ZoomInBtn" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HoverImage" Value="set:main image:SmallZoomInHover" />
+                    <Property Name="ID" Value="1" />
+                    <Property Name="NormalImage" Value="set:main image:SmallZoomInNormal" />
+                    <Property Name="PushedImage" Value="set:main image:SmallZoomInPressed" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.875,0},{0.339286,0},{0.946429,0},{0.410714,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/RadarUI/Radar/BG/ZoomOutBtn" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HoverImage" Value="set:main image:SmallZoomOutHover" />
+                    <Property Name="ID" Value="4294967295" />
+                    <Property Name="NormalImage" Value="set:main image:SmallZoomOutNormal" />
+                    <Property Name="PushedImage" Value="set:main image:SmallZoomOutPressed" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.875,0},{0.410714,0},{0.946429,0},{0.482143,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/RadarUI/Radar/BG/HideOtherPlayerBtn" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HoverImage" Value="set:main image:HideOtherPlayerHover" />
+                    <Property Name="NormalImage" Value="set:main image:HideOtherPlayerNormal" />
+                    <Property Name="PushedImage" Value="set:main image:HideOtherPlayerPressed" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.857143,0},{0.160714,0},{1,0},{0.303571,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/RadarUI/Radar/BG/CoordinateImage" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Image" Value="set:DejaVu image:Coordinate" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.285714,0},{0.107143,0},{0.375,0},{0.196429,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/RadarUI/Radar/BG/TimeImage" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Image" Value="set:DejaVu image:Time" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.285714,0},{0.678571,0},{0.375,0},{0.767857,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/RadarUI/Radar/BG/RankBtn" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="HoverImage" Value="set:main image:RankingHover" />
+                    <Property Name="NormalImage" Value="set:main image:RankingNormal" />
+                    <Property Name="PushedImage" Value="set:main image:RankingPressed" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.821429,0},{0.5,0},{1,0},{0.678571,0}}" />
+                    <Window Type="DejaVu/StaticImage" Name="Root/RadarUI/Radar/BG/RankBtn/Num1" >
+                        <Property Name="Font" Value="F001-scale" />
+                        <Property Name="Image" Value="set:DejaVu image:two" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.06,0},{0.5,0},{0.56,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/RadarUI/Radar/BG/RankBtn/Num2" >
+                        <Property Name="Font" Value="F001-scale" />
+                        <Property Name="Image" Value="set:DejaVu image:zero" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.44,0},{0.5,0},{0.94,0},{1,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/RadarUI/Radar/BG/ColosseumBtn" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="HoverImage" Value="set:main image:ArenaHover" />
+                    <Property Name="NormalImage" Value="set:main image:ArenaNormal" />
+                    <Property Name="PushedImage" Value="set:main image:ArenaPressed" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.807143,0},{0.667857,0},{0.985714,0},{0.846429,0}}" />
+                    <Window Type="DejaVu/StaticImage" Name="Root/RadarUI/Radar/BG/ColosseumBtn/Num1" >
+                        <Property Name="Image" Value="set:DejaVu image:two" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.06,0},{0.5,0},{0.56,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/RadarUI/Radar/BG/ColosseumBtn/Num2" >
+                        <Property Name="Image" Value="set:DejaVu image:zero" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.44,0},{0.5,0},{0.94,0},{1,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/RadarUI/Radar/BG/SearchTeamBtn" >
+                    <Property Name="HoverImage" Value="set:main image:SearchTeamHover" />
+                    <Property Name="NormalImage" Value="set:main image:SearchTeamNormal" />
+                    <Property Name="PushedImage" Value="set:main image:SearchTeamPressed" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.589286,0},{0.178571,0},{0.767857,0}}" />
+                    <Window Type="DejaVu/StaticImage" Name="Root/RadarUI/Radar/BG/SearchTeamBtn/Num1" >
+                        <Property Name="Image" Value="set:DejaVu image:two" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.06,0},{0.5,0},{0.56,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/RadarUI/Radar/BG/SearchTeamBtn/Num2" >
+                        <Property Name="Image" Value="set:DejaVu image:zero" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.44,0},{0.5,0},{0.94,0},{1,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/RadarUI/Radar/BG/MailBtn" >
+                    <Property Name="HoverImage" Value="set:main image:MailboxHover" />
+                    <Property Name="NormalImage" Value="set:main image:MailboxNormal" />
+                    <Property Name="PushedImage" Value="set:main image:MailboxPressed" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.128571,0},{0.742857,0},{0.307143,0},{0.921429,0}}" />
+                    <Window Type="DejaVu/StaticImage" Name="Root/RadarUI/Radar/BG/MailBtn/Num1" >
+                        <Property Name="Image" Value="set:DejaVu image:one" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0654688,0},{0.5,0},{0.565469,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/RadarUI/Radar/BG/MailBtn/Num2" >
+                        <Property Name="Image" Value="set:DejaVu image:zero" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.450938,0},{0.5,0},{0.950938,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/RadarUI/Radar/BG/MailBtn/MailNum" >
+                        <Property Name="Font" Value="F001-scale" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.6,0},{0,0},{1,0},{0.4,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/RadarUI/Radar/BG/FriendBtn" >
+                    <Property Name="HoverImage" Value="set:main image:CommunityHover" />
+                    <Property Name="NormalImage" Value="set:main image:CommunityNormal" />
+                    <Property Name="PushedImage" Value="set:main image:CommunityPressed" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.403571,0},{0.178571,0},{0.582143,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/RadarUI/Radar/BG/KnightContractBtn" >
+                    <Property Name="HoverImage" Value="set:main image:KnightContractHover" />
+                    <Property Name="NormalImage" Value="set:main image:KnightContractNormal" />
+                    <Property Name="PushedImage" Value="set:main image:KnightContractPressed" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0460937,0},{0.0730653,0},{0.224665,0},{0.251637,0}}" />
+                    <Property Name="Visible" Value="False" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/RadarUI/Radar/BG/TreasureIndexBtn" >
+                    <Property Name="HoverImage" Value="set:main4 image:TreasureBtnHover" />
+                    <Property Name="NormalImage" Value="set:main4 image:TreasureBtnNormal" />
+                    <Property Name="PushedImage" Value="set:main4 image:TreasureBtnPressed" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.00357143,0},{0.235714,0},{0.182143,0},{0.414286,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/RadarUI/Radar/BG/SkyTowerBtn" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HoverImage" Value="set:main11 image:SkyTowerHover" />
+                    <Property Name="NormalImage" Value="set:main11 image:SkyTowerNormal" />
+                    <Property Name="PushedImage" Value="set:main11 image:SkyTowerPressed" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.678571,0},{0.8,0},{0.857143,0},{0.978571,0}}" />
+                    <Window Type="DejaVu/StaticImage" Name="Root/RadarUI/Radar/BG/SkyTowerBtn/Num1" >
+                        <Property Name="Font" Value="F001-scale" />
+                        <Property Name="Image" Value="set:DejaVu image:six" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.06,0},{0.5,0},{0.56,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/RadarUI/Radar/BG/SkyTowerBtn/Num2" >
+                        <Property Name="Font" Value="F001-scale" />
+                        <Property Name="Image" Value="set:DejaVu image:zero" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.44,0},{0.493237,0},{0.94,0},{0.993237,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/RadarUI/Radar/BG/PVPMapType" >
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.175,0},{0.00714286,0},{0.264286,0},{0.0964286,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/RadarUI/Radar/BG/GiftFlowerBtn" >
+                    <Property Name="HoverImage" Value="set:main16 image:GiftBtnHover" />
+                    <Property Name="NormalImage" Value="set:main16 image:GiftBtnNormal" />
+                    <Property Name="PushedImage" Value="set:main16 image:GiftBtnPressed" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.510714,0},{0.821429,0},{0.689286,0},{1,0}}" />
+                    <Window Type="DejaVu/StaticImage" Name="Root/RadarUI/Radar/BG/GiftFlowerBtn/Num1" >
+                        <Property Name="Font" Value="F001-scale" />
+                        <Property Name="Image" Value="set:DejaVu image:four" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.06,0},{0.5,0},{0.56,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/RadarUI/Radar/BG/GiftFlowerBtn/Num2" >
+                        <Property Name="Font" Value="F001-scale" />
+                        <Property Name="Image" Value="set:DejaVu image:zero" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.44,0},{0.5,0},{0.94,0},{1,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/RadarUI/Radar/BG/PlayerRoomBtn" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="HoverImage" Value="set:main16 image:HouseRadarHover" />
+                    <Property Name="NormalImage" Value="set:main16 image:HouseRadarNormal" />
+                    <Property Name="PushedImage" Value="set:main16 image:HouseRadarPressed" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.314286,0},{0.814286,0},{0.492857,0},{0.992857,0}}" />
+                    <Window Type="DejaVu/StaticImage" Name="Root/RadarUI/Radar/BG/PlayerRoomBtn/Num1" >
+                        <Property Name="Image" Value="set:DejaVu image:two" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.06,0},{0.5,0},{0.56,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/RadarUI/Radar/BG/PlayerRoomBtn/Num2" >
+                        <Property Name="Image" Value="set:DejaVu image:zero" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.436971,0},{0.5,0},{0.936971,0},{1,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/RadarUI/Radar/BG/CheckInBtn" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HoverImage" Value="set:main2 image:CheckinHover" />
+                    <Property Name="NormalImage" Value="set:main2 image:CheckinNormal" />
+                    <Property Name="PushedImage" Value="set:main2 image:CheckinPressed" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0892857,0},{0.0785714,0},{0.267857,0},{0.257143,0}}" />
+                    <Window Type="DejaVu/StaticImage" Name="Root/RadarUI/Radar/BG/CheckInBtn/Num1" >
+                        <Property Name="Image" Value="set:DejaVu image:two" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.06,0},{0.5,0},{0.56,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/RadarUI/Radar/BG/CheckInBtn/Num2" >
+                        <Property Name="Image" Value="set:DejaVu image:zero" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.44,0},{0.5,0},{0.94,0},{1,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/RadarUI/Radar/BG/UIiconShrink" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HoverImage" Value="set:main2 image:uiiconopen2" />
+                    <Property Name="NormalImage" Value="set:main2 image:uiiconopen2" />
+                    <Property Name="PushedImage" Value="set:main2 image:uiiconopen2" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.142857,0},{0.0142857,0},{0.25,0},{0.0857143,0}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="Root/RadarUI/NewbieLoginDay" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="HorizontalAlignment" Value="Right" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{-0.460317,0},{0,0},{-0.380952,0},{0.178571,0}}" />
+            <Property Name="VertFormatting" Value="TopAligned" />
+            <Window Type="DejaVu/ImageButton" Name="Root/RadarUI/NewbieLoginDay/Btn" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="HoverImage" Value="set:main4 image:CalendarBtnHover" />
+                <Property Name="NormalImage" Value="set:main4 image:CalendarBtnNormal" />
+                <Property Name="PushedImage" Value="set:main4 image:CalendarBtnPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="Root/RadarUI/NewbieLoginDay/Btn/Hint" >
+                    <Property Name="HorizontalAlignment" Value="Right" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.4,0},{0.4,0}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="Root/RadarUI/GrowthFund" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="HorizontalAlignment" Value="Right" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{-0.460317,0},{0,0},{-0.380952,0},{0.178571,0}}" />
+            <Window Type="DejaVu/ImageButton" Name="Root/RadarUI/GrowthFund/Btn" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="HoverImage" Value="set:main2 image:GrowthFundHover" />
+                <Property Name="NormalImage" Value="set:main2 image:GrowthFundNormal" />
+                <Property Name="PushedImage" Value="set:main2 image:GrowthFundPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="Root/RadarUI/GrowthFund/Btn/Hint" >
+                    <Property Name="HorizontalAlignment" Value="Right" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.4,0},{0.4,0}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="Root/RadarUI/OnlineGacha" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="HorizontalAlignment" Value="Right" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{-0.460317,0},{0,0},{-0.380952,0},{0.178571,0}}" />
+            <Window Type="DejaVu/ImageButton" Name="Root/RadarUI/OnlineGacha/Btn" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="HoverImage" Value="set:main4 image:GachaFreeHover" />
+                <Property Name="NormalImage" Value="set:main4 image:GachaFreeNormal" />
+                <Property Name="PushedImage" Value="set:main4 image:GachaFreePressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="Root/RadarUI/OnlineGacha/Btn/Hint" >
+                    <Property Name="HorizontalAlignment" Value="Right" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.4,0},{0.4,0}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="Root/RadarUI/NewHandSale" >
+            <Property Name="ClippedByParent" Value="False" />
+            <Property Name="HorizontalAlignment" Value="Right" />
+            <Property Name="UnifiedAreaRect" Value="{{-0.460317,0},{0,0},{-0.380952,0},{0.25,0}}" />
+            <Window Type="DejaVu/ImageButton" Name="Root/RadarUI/NewHandSale/Btn" >
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="HoverImage" Value="set:main40 image:BtnNewbieH" />
+                <Property Name="NormalImage" Value="set:main40 image:BtnNewbieN" />
+                <Property Name="PushedImage" Value="set:main40 image:BtnNewbieP" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.714286,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="Root/RadarUI/NewHandSale/Txt" >
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="1234" />
+                <Property Name="TextFrame" Value="True" />
+                <Property Name="TextFrameColour" Value="55000000" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.571429,0},{1,0},{1.05714,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="Root/RadarUI/DayPass" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="HorizontalAlignment" Value="Right" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{-0.460317,0},{0,0},{-0.380952,0},{0.178571,0}}" />
+            <Window Type="DejaVu/ImageButton" Name="Root/RadarUI/DayPass/Btn" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="HoverImage" Value="set:main41 image:BtnDaypassH" />
+                <Property Name="NormalImage" Value="set:main41 image:BtnDaypassN" />
+                <Property Name="PushedImage" Value="set:main41 image:BtnDaypassP" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="Root/RadarUI/DayPass/Btn/Hint" >
+                    <Property Name="HorizontalAlignment" Value="Right" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.4,0},{0.4,0}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="Root/RadarUI/Payback" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="HorizontalAlignment" Value="Right" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{-0.460317,0},{0,0},{-0.380952,0},{0.196429,0}}" />
+            <Window Type="DejaVu/StaticText" Name="Root/RadarUI/Payback/Txt" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="1234" />
+                <Property Name="TextFrame" Value="True" />
+                <Property Name="TextFrameColour" Value="FF000000" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.272727,0}}" />
+                <Property Name="VerticalAlignment" Value="Bottom" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/RadarUI/Payback/Btn" >
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="HoverImage" Value="set:main3 image:BtnPaybackHover" />
+                <Property Name="NormalImage" Value="set:main3 image:BtnPaybackNormal" />
+                <Property Name="PushedImage" Value="set:main3 image:BtnPaybackPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.909091,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="Root/RadarUI/Payback/Btn/Hint" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="HorizontalAlignment" Value="Right" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.4,0},{0.4,0}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="Root/RadarUI/LimitedTime" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="HorizontalAlignment" Value="Right" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{-0.460317,0},{0,0},{-0.380952,0},{0.196429,0}}" />
+            <Window Type="DejaVu/StaticText" Name="Root/RadarUI/LimitedTime/Txt" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="1234" />
+                <Property Name="TextFrame" Value="True" />
+                <Property Name="TextFrameColour" Value="FF000000" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.272727,0}}" />
+                <Property Name="VerticalAlignment" Value="Bottom" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/RadarUI/LimitedTime/Btn" >
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="HoverImage" Value="set:main38 image:BtnLimitimeH" />
+                <Property Name="NormalImage" Value="set:main38 image:BtnLimitimeN" />
+                <Property Name="PushedImage" Value="set:main38 image:BtnLimitimeP" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.909091,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="Root/RadarUI/LimitedTime/Btn/Hint" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="HorizontalAlignment" Value="Right" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.4,0},{0.4,0}}" />
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

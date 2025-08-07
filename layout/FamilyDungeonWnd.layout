@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/TabContentPane" Name="Root/FamilyDungeonWnd" >
+        <Property Name="BackgroundEnabled" Value="False" />
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="FrameEnabled" Value="False" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,779},{0,575}}" />
+        <Window Type="DejaVu/Static" Name="Root/FamilyDungeonWnd/MapProgress" >
+            <Property Name="UnifiedAreaRect" Value="{{0.012837,0},{0.017391,0},{0.577664,0},{0.982608,0}}" />
+            <Window Type="DejaVu/Embed4" Name="Root/FamilyDungeonWnd/MapProgress/Title" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.022727,0},{0,0},{0.363636,0},{0.045045,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="Root/FamilyDungeonWnd/MapProgress/Title/Icon" >
+                    <Property Name="Image" Value="set:DejaVu image:Image15" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/FamilyDungeonWnd/MapProgress/Title/Text" >
+                    <Property Name="Text" Value="x地圖進度" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.2,0},{0.866667,0},{0.8,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed2" Name="Root/FamilyDungeonWnd/MapProgress/Frame" >
+                <Property Name="UnifiedAreaRect" Value="{{0.00167182,0},{0.018018,0},{1.00167,0},{1,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="Root/FamilyDungeonWnd/MapProgress/Frame/DiagramBG" >
+                    <Property Name="Image" Value="set:main2 image:StrengthBG" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.024456,0},{0.0445382,0},{0.979001,0},{0.81518,0}}" />
+                    <Window Type="DejaVu/ImageRadioButton" Name="Root/FamilyDungeonWnd/MapProgress/Frame/DiagramBG/NodeItem" >
+                        <Property Name="DisabledImage" Value="set:main11 image:BattlePress" />
+                        <Property Name="HoverImage" Value="set:main11 image:BattleHover" />
+                        <Property Name="NormalImage" Value="set:main11 image:BattleNormal" />
+                        <Property Name="PushedImage" Value="set:main11 image:BattleSelect" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.0833333,0},{0.0833333,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/MultiLineEditbox" Name="Root/FamilyDungeonWnd/MapProgress/Frame/ContentText" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="Text" >
+</Property>
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0204543,0},{0.825998,0},{0.9835,0},{0.986045,0}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="Root/FamilyDungeonWnd/DetailInfo" >
+            <Property Name="UnifiedAreaRect" Value="{{0.584082,0},{0.017391,0},{0.987163,0},{0.928695,0}}" />
+            <Window Type="DejaVu/Embed4" Name="Root/FamilyDungeonWnd/DetailInfo/Title" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.031847,0},{0,0},{0.509554,0},{0.0477099,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="Root/FamilyDungeonWnd/DetailInfo/Title/Icon" >
+                    <Property Name="Image" Value="set:DejaVu image:Image15" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/FamilyDungeonWnd/DetailInfo/Title/Text" >
+                    <Property Name="Text" Value="x詳細資訊" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.2,0},{0.866667,0},{0.8,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed2" Name="Root/FamilyDungeonWnd/DetailInfo/Frame" >
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.019084,0},{1,0},{1,0}}" />
+                <Window Type="DejaVu/Embed2" Name="Root/FamilyDungeonWnd/DetailInfo/Frame/ExtraAwardFrame" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.031847,0},{0.803502,0},{0.968153,0},{0.980545,0}}" />
+                    <Window Type="DejaVu/EmbedTextLab7" Name="Root/FamilyDungeonWnd/DetailInfo/Frame/ExtraAwardFrame/Title" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="x過關獎勵" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.006803,0},{0.021978,0},{0.993198,0},{0.296703,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Embed3" Name="Root/FamilyDungeonWnd/DetailInfo/Frame/ExtraAwardFrame/ItemFrame" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.006803,0},{0.296703,0},{0.993198,0},{0.978022,0}}" />
+                        <Window Type="DejaVu/SlotImage" Name="Root/FamilyDungeonWnd/DetailInfo/Frame/ExtraAwardFrame/ItemFrame/Icon" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.034483,0},{0.16129,0},{0.179311,0},{0.838709,0}}" />
+                            <Window Type="DejaVu/StaticImage" Name="Root/FamilyDungeonWnd/DetailInfo/Frame/ExtraAwardFrame/ItemFrame/Icon/MarkIcon" >
+                                <Property Name="AlwaysOnTop" Value="True" />
+                                <Property Name="Image" Value="set:main11 image:Stamp" />
+                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.404762,0},{0.595238,0},{1,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/EmbedText2" Name="Root/FamilyDungeonWnd/DetailInfo/Frame/ExtraAwardFrame/ItemFrame/Text" >
+                            <Property Name="HorzFormatting" Value="LeftAligned" />
+                            <Property Name="Text" Value="x1234567890" />
+                            <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.216416,0},{0.16129,0},{0.96814,0},{0.838709,0}}" />
+                        </Window>
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed2" Name="Root/FamilyDungeonWnd/DetailInfo/Frame/DetailFrame" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.031847,0},{0.048638,0},{0.968153,0},{0.793774,0}}" />
+                    <Window Type="DejaVu/EmbedTextLab7" Name="Root/FamilyDungeonWnd/DetailInfo/Frame/DetailFrame/Title" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="x場景簡述" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.006803,0},{0.005222,0},{0.993198,0},{0.0704961,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab7" Name="Root/FamilyDungeonWnd/DetailInfo/Frame/DetailFrame/CostText" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="x可獲得公會硬幣" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.006803,0},{0.86423,0},{0.496599,0},{0.929504,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab7" Name="Root/FamilyDungeonWnd/DetailInfo/Frame/DetailFrame/ClearText" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="x副本剩餘次數" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.496599,0},{0.86423,0},{0.986395,0},{0.929504,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab2" Name="Root/FamilyDungeonWnd/DetailInfo/Frame/DetailFrame/CostNum" >
+                        <Property Name="Text" Value="x10" />
+                        <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.006803,0},{0.929504,0},{0.496599,0},{0.994778,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab2" Name="Root/FamilyDungeonWnd/DetailInfo/Frame/DetailFrame/ClearNum" >
+                        <Property Name="Text" Value="x10/100" />
+                        <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.496599,0},{0.929504,0},{0.986395,0},{0.994778,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/FamilyDungeonWnd/DetailInfo/Frame/DetailFrame/NodeImage" >
+                        <Property Name="Image" Value="set:main2 image:StrengthBG" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.006803,0},{0.070496,0},{0.993198,0},{0.853786,0}}" />
+                        <Window Type="DejaVu/StaticImage" Name="Root/FamilyDungeonWnd/DetailInfo/Frame/DetailFrame/NodeImage/NodeIcon0" >
+                            <Property Name="Image" Value="set:main image:Archeology" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0344828,0},{-0.0333333,0},{0.206897,0},{0.133333,0}}" />
+                            <Property Name="VerticalAlignment" Value="Bottom" />
+                        </Window>
+                        <Window Type="DejaVu/StaticImage" Name="Root/FamilyDungeonWnd/DetailInfo/Frame/DetailFrame/NodeImage/NodeIcon1" >
+                            <Property Name="Image" Value="set:main image:Archeology" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.224138,0},{-0.0333333,0},{0.396552,0},{0.133333,0}}" />
+                            <Property Name="VerticalAlignment" Value="Bottom" />
+                        </Window>
+                        <Window Type="DejaVu/StaticImage" Name="Root/FamilyDungeonWnd/DetailInfo/Frame/DetailFrame/NodeImage/NodeIcon2" >
+                            <Property Name="Image" Value="set:main image:Archeology" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.413793,0},{-0.0333333,0},{0.586207,0},{0.133333,0}}" />
+                            <Property Name="VerticalAlignment" Value="Bottom" />
+                        </Window>
+                    </Window>
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/FamilyDungeonWnd/EnterBtn" >
+            <Property Name="HorizontalAlignment" Value="Right" />
+            <Property Name="Text" Value="x確認進入" />
+            <Property Name="UnifiedAreaRect" Value="{{-0.012837,0},{-0.017391,0},{0.084724,0},{0.0278264,0}}" />
+            <Property Name="VerticalAlignment" Value="Bottom" />
+        </Window>
+    </Window>
+</GUILayout>

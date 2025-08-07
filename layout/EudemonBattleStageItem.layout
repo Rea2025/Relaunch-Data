@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/ImageRadioButton" Name="EudemonBattleStageItem" >
+        <Property Name="NormalImage" Value="set:main11 image:CookingBG" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,190},{0,75}}" />
+        <Window Type="DejaVu/StaticTextLab" Name="EudemonBattleStageItem/state" >
+            <Property Name="HorizontalAlignment" Value="Right" />
+            <Property Name="HorzFormatting" Value="WordWrapRightAligned" />
+            <Property Name="ID" Value="1" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="Text" >1231
+討伐中-59：59</Property>
+            <Property Name="UnifiedAreaRect" Value="{{-0.026316,0},{0.666667,0},{0.210526,0},{0.933334,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticTextLab" Name="EudemonBattleStageItem/Num" >
+            <Property Name="ID" Value="3" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="Text" Value="99" />
+            <Property Name="TextColours" Value="tl:FF00FF00 tr:FF00FF00 bl:FF00FF00 br:FF00FF00" />
+            <Property Name="UnifiedAreaRect" Value="{{0.368421,0},{0.666667,0},{0.5,0},{0.933334,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticText" Name="EudemonBattleStageItem/Name" >
+            <Property Name="Font" Value="F001-12" />
+            <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+            <Property Name="ID" Value="2" />
+            <Property Name="LinespaceWindow" Value="True" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="Text" Value="名字三四五六七八九十" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0526316,0},{0,0},{0.947368,0},{0.266667,0}}" />
+            <Property Name="VerticalAlignment" Value="Centre" />
+        </Window>
+        <Window Type="DejaVu/Zframe2" Name="EudemonBattleTeamItem/SelectFrame" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="ID" Value="7" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticText" Name="EudemonBattleStageItem/APText" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="ID" Value="4" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="Text" Value="x所需體力" />
+            <Property Name="UnifiedAreaRect" Value="{{0.026316,0},{0.666667,0},{0.368421,0},{0.933334,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticText" Name="EudemonBattleStageItem/Star" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="ID" Value="5" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.026316,0},{0.066667,0},{0.973684,0},{0.333334,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticText" Name="EudemonBattleStageItem/TimeLimit" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HorzFormatting" Value="RightAligned" />
+            <Property Name="ID" Value="8" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.026316,0},{0.066667,0},{0.973684,0},{0.333334,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

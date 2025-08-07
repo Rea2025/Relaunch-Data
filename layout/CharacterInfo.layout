@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/CharacterInfo" >
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="TitlebarImage" Value="set:main image:CharaterNormal" />
+        <Property Name="UnifiedAreaRect" Value="{{0.311523,0},{0.091146,0},{0.311523,360},{0.091146,649}}" />
+        <Window Type="DejaVu/TabControl" Name="Root/CharacterInfo/TabControl" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="TabHeight" Value="{0,20}" />
+            <Property Name="TabPanePosition" Value="Top" />
+            <Property Name="UnifiedAreaRect" Value="{{-0.000976563,0},{0,0},{0.999023,0},{1,0}}" />
+            <Window Type="DefaultWindow" Name="Root/CharacterInfo/TabControl/TabInfo" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="x裝備效果" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,344},{0,544}}" />
+                <Window Type="DejaVu/TabControl" Name="Root/CharacterInfo/TabControl/TabInfo/TabControl" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="TabHeight" Value="{0,20}" />
+                    <Property Name="TabPanePosition" Value="Top" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.013369,0},{0.0183824,0},{0.986631,0},{0.981618,0}}" />
+                    <Window Type="DejaVu/TabContentPane" Name="Root/CharacterInfo/TabControl/TabInfo/TabControl/Equipment" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="Text" Value="x裝備清單" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,335},{0,499}}" />
+                        <Window Type="DejaVu/Embed2" Name="Root/CharacterInfo/TabControl/TabInfo/TabControl/Equipment/BG" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.0291262,0},{0.0180361,0},{0.967638,0},{0.981964,0}}" />
+                            <Window Type="DejaVu/EmbedTextLab7" Name="Root/CharacterInfo/TabControl/TabInfo/TabControl/Equipment/BG/Title" >
+                                <Property Name="HorzFormatting" Value="HorzCentred" />
+                                <Property Name="Text" Value="x裝備清單" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.006472,0},{0.003817,0},{0.993527,0},{0.0515269,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/ScrollablePane" Name="Root/CharacterInfo/TabControl/TabInfo/TabControl/Equipment/BG/ScrollPane" >
+                                <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                                <Property Name="HorzOverlapSize" Value="0.01" />
+                                <Property Name="HorzScrollPosition" Value="0" />
+                                <Property Name="HorzStepSize" Value="0.1" />
+                                <Property Name="Text" Value="111111111111111111111" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.016181,0},{0.061069,0},{0.983819,0},{0.990458,0}}" />
+                                <Property Name="VertOverlapSize" Value="0.01" />
+                                <Property Name="VertScrollPosition" Value="0" />
+                                <Property Name="VertStepSize" Value="0.1" />
+                                <AutoWindow NameSuffix="__auto_container__" >
+                                    <Property Name="ChildExtentsArea" Value="l:0 t:0 r:0 b:0" />
+                                    <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                                    <Property Name="MouseInputPropagationEnabled" Value="True" />
+                                </AutoWindow>
+                            </Window>
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/TabContentPane" Name="Root/CharacterInfo/TabControl/TabInfo/TabControl/Ult" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="Text" Value="x奧義清單" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,335},{0,499}}" />
+                        <Property Name="Visible" Value="False" />
+                        <Window Type="DejaVu/Embed2" Name="Root/CharacterInfo/TabControl/TabInfo/TabControl/Ult/BG" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.0291262,0},{0.0180361,0},{0.967638,0},{0.981964,0}}" />
+                            <Window Type="DejaVu/EmbedTextLab7" Name="Root/CharacterInfo/TabControl/TabInfo/TabControl/Ult/BG/Title" >
+                                <Property Name="HorzFormatting" Value="HorzCentred" />
+                                <Property Name="Text" Value="x奧義清單" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.006472,0},{0.003817,0},{0.993527,0},{0.0515269,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/ScrollablePane" Name="Root/CharacterInfo/TabControl/TabInfo/TabControl/Ult/BG/ScrollPane" >
+                                <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                                <Property Name="HorzOverlapSize" Value="0.01" />
+                                <Property Name="HorzScrollPosition" Value="0" />
+                                <Property Name="HorzStepSize" Value="0.1" />
+                                <Property Name="Text" Value="111111111111111111111" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.016181,0},{0.061069,0},{0.983819,0},{0.990458,0}}" />
+                                <Property Name="VertOverlapSize" Value="0.01" />
+                                <Property Name="VertScrollPosition" Value="0" />
+                                <Property Name="VertStepSize" Value="0.1" />
+                                <AutoWindow NameSuffix="__auto_container__" >
+                                    <Property Name="ChildExtentsArea" Value="l:0 t:0 r:0 b:0" />
+                                    <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                                    <Property Name="MouseInputPropagationEnabled" Value="True" />
+                                </AutoWindow>
+                            </Window>
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/TabContentPane" Name="Root/CharacterInfo/TabControl/TabInfo/TabControl/Gem" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="Text" Value="x秘石清單" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,335},{0,499}}" />
+                        <Property Name="Visible" Value="False" />
+                        <Window Type="DejaVu/Embed2" Name="Root/CharacterInfo/TabControl/TabInfo/TabControl/Gem/BG" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.0291262,0},{0.0180361,0},{0.967638,0},{0.981964,0}}" />
+                            <Window Type="DejaVu/EmbedTextLab7" Name="Root/CharacterInfo/TabControl/TabInfo/TabControl/Gem/BG/Title" >
+                                <Property Name="HorzFormatting" Value="HorzCentred" />
+                                <Property Name="Text" Value="x秘石清單" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.006472,0},{0.003817,0},{0.993527,0},{0.0515269,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/ScrollablePane" Name="Root/CharacterInfo/TabControl/TabInfo/TabControl/Gem/BG/ScrollPane" >
+                                <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                                <Property Name="HorzOverlapSize" Value="0.01" />
+                                <Property Name="HorzScrollPosition" Value="0" />
+                                <Property Name="HorzStepSize" Value="0.1" />
+                                <Property Name="Text" Value="111111111111111111111" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.016181,0},{0.061069,0},{0.983819,0},{0.990458,0}}" />
+                                <Property Name="VertOverlapSize" Value="0.01" />
+                                <Property Name="VertScrollPosition" Value="0" />
+                                <Property Name="VertStepSize" Value="0.1" />
+                                <AutoWindow NameSuffix="__auto_container__" >
+                                    <Property Name="ChildExtentsArea" Value="l:0 t:0 r:0 b:0" />
+                                    <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                                    <Property Name="MouseInputPropagationEnabled" Value="True" />
+                                </AutoWindow>
+                            </Window>
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/TabContentPane" Name="Root/CharacterInfo/TabControl/TabInfo/TabControl/FasionPower" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="Text" Value="x時裝洗鍊" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,335},{0,499}}" />
+                        <Property Name="Visible" Value="False" />
+                        <Window Type="DejaVu/Embed2" Name="Root/CharacterInfo/TabControl/TabInfo/TabControl/FasionPower/BG" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.0291262,0},{0.0180361,0},{0.967638,0},{0.981964,0}}" />
+                            <Window Type="DejaVu/EmbedTextLab7" Name="Root/CharacterInfo/TabControl/TabInfo/TabControl/FasionPower/BG/Title" >
+                                <Property Name="HorzFormatting" Value="HorzCentred" />
+                                <Property Name="Text" Value="x時裝洗鍊" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.006472,0},{0.003817,0},{0.993527,0},{0.0515269,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/ScrollablePane" Name="Root/CharacterInfo/TabControl/TabInfo/TabControl/FasionPower/BG/ScrollPane" >
+                                <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                                <Property Name="HorzOverlapSize" Value="0.01" />
+                                <Property Name="HorzScrollPosition" Value="0" />
+                                <Property Name="HorzStepSize" Value="0.1" />
+                                <Property Name="Text" Value="111111111111111111111" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.016181,0},{0.061069,0},{0.983819,0},{0.990458,0}}" />
+                                <Property Name="VertOverlapSize" Value="0.01" />
+                                <Property Name="VertScrollPosition" Value="0" />
+                                <Property Name="VertStepSize" Value="0.1" />
+                                <AutoWindow NameSuffix="__auto_container__" >
+                                    <Property Name="ChildExtentsArea" Value="l:0 t:0 r:0 b:0" />
+                                    <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                                    <Property Name="MouseInputPropagationEnabled" Value="True" />
+                                </AutoWindow>
+                            </Window>
+                        </Window>
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DefaultWindow" Name="Root/CharacterInfo/TabControl/TabAtk" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="x攻擊表現" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,344},{0,544}}" />
+                <Property Name="Visible" Value="False" />
+                <Window Type="DejaVu/TabControl" Name="Root/CharacterInfo/TabControl/TabAtk/TabControl" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="TabHeight" Value="{0,20}" />
+                    <Property Name="TabPanePosition" Value="Top" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.013369,0},{0.018382,0},{0.986631,0},{0.981617,0}}" />
+                    <Window Type="DefaultWindow" Name="Root/CharacterInfo/TabControl/TabAtk/Default" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="x通用表現" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,335},{0,499}}" />
+                        <Window Type="DejaVu/Embed2" Name="Root/CharacterInfo/TabControl/TabAtk/Default/BG" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.0303951,0},{0.0183824,0},{0.969605,0},{0.981618,0}}" />
+                            <Window Type="DejaVu/EmbedTextLab7" Name="Root/CharacterInfo/TabControl/TabAtk/Default/Title" >
+                                <Property Name="HorzFormatting" Value="HorzCentred" />
+                                <Property Name="Text" Value="x攻擊表現" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.006472,0},{0.003817,0},{0.993527,0},{0.0515269,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/ScrollablePane" Name="Root/CharacterInfo/TabControl/TabAtk/Default/Pane" >
+                                <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                                <Property Name="HorzOverlapSize" Value="0.01" />
+                                <Property Name="HorzScrollPosition" Value="0" />
+                                <Property Name="HorzStepSize" Value="0.1" />
+                                <Property Name="Text" >111111111111111111
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+111</Property>
+                                <Property Name="UnifiedAreaRect" Value="{{0.016181,0},{0.061069,0},{0.983819,0},{0.990458,0}}" />
+                                <Property Name="VertOverlapSize" Value="0.01" />
+                                <Property Name="VertScrollPosition" Value="0" />
+                                <Property Name="VertStepSize" Value="0.1" />
+                                <AutoWindow NameSuffix="__auto_container__" >
+                                    <Property Name="ChildExtentsArea" Value="l:0 t:0 r:0 b:0" />
+                                    <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                                    <Property Name="MouseInputPropagationEnabled" Value="True" />
+                                </AutoWindow>
+                            </Window>
+                        </Window>
+                    </Window>
+                    <Window Type="DefaultWindow" Name="Root/CharacterInfo/TabControl/TabAtk/Weapon" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="x武器表現" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,335},{0,499}}" />
+                        <Property Name="Visible" Value="False" />
+                        <Window Type="DejaVu/Embed2" Name="Root/CharacterInfo/TabControl/TabAtk/Weapon/BG" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.0303951,0},{0.0183824,0},{0.969605,0},{0.981618,0}}" />
+                            <Window Type="DejaVu/EmbedTextLab7" Name="Root/CharacterInfo/TabControl/TabAtk/Weapon/Title" >
+                                <Property Name="HorzFormatting" Value="HorzCentred" />
+                                <Property Name="Text" Value="x攻擊表現-武器相關" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.006472,0},{0.003817,0},{0.993527,0},{0.0515269,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/ScrollablePane" Name="Root/CharacterInfo/TabControl/TabAtk/Weapon/Pane" >
+                                <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                                <Property Name="HorzOverlapSize" Value="0.01" />
+                                <Property Name="HorzScrollPosition" Value="0" />
+                                <Property Name="HorzStepSize" Value="0.1" />
+                                <Property Name="Text" >111111111111111111
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+111</Property>
+                                <Property Name="UnifiedAreaRect" Value="{{0.016181,0},{0.061069,0},{0.983819,0},{0.990458,0}}" />
+                                <Property Name="VertOverlapSize" Value="0.01" />
+                                <Property Name="VertScrollPosition" Value="0" />
+                                <Property Name="VertStepSize" Value="0.1" />
+                                <AutoWindow NameSuffix="__auto_container__" >
+                                    <Property Name="ChildExtentsArea" Value="l:0 t:0 r:0 b:0" />
+                                    <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                                    <Property Name="MouseInputPropagationEnabled" Value="True" />
+                                </AutoWindow>
+                            </Window>
+                        </Window>
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DefaultWindow" Name="Root/CharacterInfo/TabControl/TabDef" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="x防禦表現" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,344},{0,544}}" />
+                <Property Name="Visible" Value="False" />
+                <Window Type="DejaVu/TabControl" Name="Root/CharacterInfo/TabControl/TabDef/TabControl" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="TabHeight" Value="{0,20}" />
+                    <Property Name="TabPanePosition" Value="Top" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.013369,0},{0.018382,0},{0.986631,0},{0.981617,0}}" />
+                    <Window Type="DefaultWindow" Name="Root/CharacterInfo/TabControl/TabDef/Default" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="x通用表現" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,335},{0,499}}" />
+                        <Window Type="DejaVu/Embed2" Name="Root/CharacterInfo/TabControl/TabDef/Default/BG" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.0303951,0},{0.0183824,0},{0.969605,0},{0.981618,0}}" />
+                            <Window Type="DejaVu/EmbedTextLab7" Name="Root/CharacterInfo/TabControl/TabDef/Default/Title" >
+                                <Property Name="HorzFormatting" Value="HorzCentred" />
+                                <Property Name="Text" Value="x防禦表現" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.006472,0},{0.003817,0},{0.993527,0},{0.0515269,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/ScrollablePane" Name="Root/CharacterInfo/TabControl/TabDef/Default/Pane" >
+                                <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                                <Property Name="HorzOverlapSize" Value="0.01" />
+                                <Property Name="HorzScrollPosition" Value="0" />
+                                <Property Name="HorzStepSize" Value="0.1" />
+                                <Property Name="Text" >111111111111111111
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+111</Property>
+                                <Property Name="UnifiedAreaRect" Value="{{0.016181,0},{0.061069,0},{0.983819,0},{0.990458,0}}" />
+                                <Property Name="VertOverlapSize" Value="0.01" />
+                                <Property Name="VertScrollPosition" Value="0" />
+                                <Property Name="VertStepSize" Value="0.1" />
+                                <AutoWindow NameSuffix="__auto_container__" >
+                                    <Property Name="ChildExtentsArea" Value="l:0 t:0 r:0 b:0" />
+                                    <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                                    <Property Name="MouseInputPropagationEnabled" Value="True" />
+                                </AutoWindow>
+                            </Window>
+                        </Window>
+                    </Window>
+                    <Window Type="DefaultWindow" Name="Root/CharacterInfo/TabControl/TabDef/Weapon" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="x武器表現" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,335},{0,499}}" />
+                        <Property Name="Visible" Value="False" />
+                        <Window Type="DejaVu/Embed2" Name="Root/CharacterInfo/TabControl/TabDef/Weapon/BG" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.0303951,0},{0.0183824,0},{0.969605,0},{0.981618,0}}" />
+                            <Window Type="DejaVu/EmbedTextLab7" Name="Root/CharacterInfo/TabControl/TabDef/Weapon/Title" >
+                                <Property Name="HorzFormatting" Value="HorzCentred" />
+                                <Property Name="Text" Value="x防禦表現-武器相關" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.006472,0},{0.003817,0},{0.993527,0},{0.0515269,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/ScrollablePane" Name="Root/CharacterInfo/TabControl/TabDef/Weapon/Pane" >
+                                <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                                <Property Name="HorzOverlapSize" Value="0.01" />
+                                <Property Name="HorzScrollPosition" Value="0" />
+                                <Property Name="HorzStepSize" Value="0.1" />
+                                <Property Name="Text" >111111111111111111
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+111</Property>
+                                <Property Name="UnifiedAreaRect" Value="{{0.016181,0},{0.061069,0},{0.983819,0},{0.990458,0}}" />
+                                <Property Name="VertOverlapSize" Value="0.01" />
+                                <Property Name="VertScrollPosition" Value="0" />
+                                <Property Name="VertStepSize" Value="0.1" />
+                                <AutoWindow NameSuffix="__auto_container__" >
+                                    <Property Name="ChildExtentsArea" Value="l:0 t:0 r:0 b:0" />
+                                    <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                                    <Property Name="MouseInputPropagationEnabled" Value="True" />
+                                </AutoWindow>
+                            </Window>
+                        </Window>
+                    </Window>
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

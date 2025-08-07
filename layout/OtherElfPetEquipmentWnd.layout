@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/OtherElfPetEquipmentWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="Text" Value="x" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.00125,0},{0,0},{0.00125,446},{0,472}}" />
+        <Window Type="DejaVu/Static" Name="Root/OtherElfPetEquipmentWnd/Info" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.00243902,0},{0.105012,0},{0.00243902,404},{0.105012,374}}" />
+            <Window Type="DejaVu/Embed4" Name="Root/OtherElfPetEquipmentWnd/Info/NamePad" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0247525,0},{0.0427807,0},{0.480198,0},{0.229947,0}}" />
+                <Window Type="DejaVu/SlotImage" Name="Root/OtherElfPetEquipmentWnd/Info/NamePad/Face" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0327869,0},{0.355952,0},{0.229508,0},{0.870238,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/OtherElfPetEquipmentWnd/Info/NamePad/Name" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" Value="xLV.100 巴卡" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.288115,0},{0.22619,0},{0.971175,0},{0.511904,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/OtherElfPetEquipmentWnd/Info/NamePad/HpText" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:main image:MiniInfoHP" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.262295,0},{0.485714,0},{0.382514,0},{0.657143,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/OtherElfPetEquipmentWnd/Info/NamePad/ExpText" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" Value="EXP" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.26776,0},{0.7,0},{0.409837,0},{0.914286,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/OtherElfPetEquipmentWnd/Info/NamePad/ExpBarBack" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:DejaVuImage image:LoveExpBar" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.404372,0},{0.714286,0},{0.939891,0},{0.914286,0}}" />
+                    <Window Type="DejaVu/CastingBarImage" Name="Root/OtherElfPetEquipmentWnd/Info/NamePad/ExpBarBack/ExpBar" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Image" Value="set:DejaVuImage image:ExpBarYellow" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/OtherElfPetEquipmentWnd/Info/NamePad/HpBarBack" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:DejaVuImage image:PetHpBarBG" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.404372,0},{0.5,0},{0.939891,0},{0.7,0}}" />
+                    <Window Type="DejaVu/CastingBarImage" Name="Root/OtherElfPetEquipmentWnd/Info/NamePad/HPBarBack/HPBar" >
+                        <Property Name="Image" Value="set:DejaVuImage image:PetHpBar" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/OtherElfPetEquipmentWnd/Info/NamePad/Star1" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:main image:MonsterStar" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0437158,0},{0.0857143,0},{0.125683,0},{0.3,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/OtherElfPetEquipmentWnd/Info/NamePad/Star2" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:main image:MonsterStar" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.136612,0},{0.0857143,0},{0.218579,0},{0.3,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/OtherElfPetEquipmentWnd/Info/NamePad/Star3" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:main image:MonsterStar" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.228261,0},{0.0857143,0},{0.309783,0},{0.3,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/OtherElfPetEquipmentWnd/Info/NamePad/Star4" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:main image:MonsterStar" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.320652,0},{0.0857143,0},{0.402174,0},{0.3,0}}" />
+                    <Property Name="Visible" Value="False" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/OtherElfPetEquipmentWnd/Equip" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Image" Value="set:DejaVuImage image:PartnerEquipment" />
+                <Property Name="UnifiedAreaRect" Value="{{0.532178,0},{0.676471,0},{0.977723,0},{0.989305,0}}" />
+                <Window Type="DejaVu/SlotImage" Name="Root/OtherElfPetEquipmentWnd/Equip/Slot1" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.400301,0},{0.0674928,0},{0.601418,0},{0.375185,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/OtherElfPetEquipmentWnd/Equip/Slot2" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.410014,0},{0.60131,0},{0.611131,0},{0.909002,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/OtherElfPetEquipmentWnd/Equip/Slot3" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.149438,0},{0.147278,0},{0.350556,0},{0.45497,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/OtherElfPetEquipmentWnd/Equip/Slot4" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.660936,0},{0.145841,0},{0.862053,0},{0.453534,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/OtherElfPetEquipmentWnd/Equip/Slot5" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.142695,0},{0.535328,0},{0.343812,0},{0.843019,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/OtherElfPetEquipmentWnd/Equip/Slot6" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.653631,0},{0.529915,0},{0.854749,0},{0.837607,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/EmbedTextLab" Name="Root/OtherElfPetEquipmentWnd/Info/AttText" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="xǰ;?" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0221836,0},{0.238606,0},{0.141586,0},{0.302949,0}}" />
+            </Window>
+            <Window Type="DejaVu/EmbedTextLab3" Name="Root/OtherElfPetEquipmentWnd/Info/Att" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="Text" Value="99999" />
+                <Property Name="UnifiedAreaRect" Value="{{0.136816,0},{0.238606,0},{0.251244,0},{0.302949,0}}" />
+            </Window>
+            <Window Type="DejaVu/EmbedTextLab" Name="Root/OtherElfPetEquipmentWnd/Info/HitText" >
+                <Property Name="Text" Value="x?Ĥ?" />
+                <Property Name="UnifiedAreaRect" Value="{{0.248756,0},{0.238606,0},{0.368159,0},{0.302949,0}}" />
+            </Window>
+            <Window Type="DejaVu/EmbedTextLab3" Name="Root/OtherElfPetEquipmentWnd/Info/Hit" >
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="Text" Value="99999" />
+                <Property Name="UnifiedAreaRect" Value="{{0.365672,0},{0.238606,0},{0.480099,0},{0.302949,0}}" />
+            </Window>
+            <Window Type="DejaVu/EmbedTextLab" Name="Root/OtherElfPetEquipmentWnd/Info/DefText" >
+                <Property Name="Text" Value="xȾ߭?" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0199005,0},{0.302949,0},{0.139303,0},{0.367292,0}}" />
+            </Window>
+            <Window Type="DejaVu/EmbedTextLab3" Name="Root/OtherElfPetEquipmentWnd/Info/Def" >
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="Text" Value="99999" />
+                <Property Name="UnifiedAreaRect" Value="{{0.136816,0},{0.302949,0},{0.251244,0},{0.367292,0}}" />
+            </Window>
+            <Window Type="DejaVu/EmbedTextLab" Name="Root/OtherElfPetEquipmentWnd/Info/DodText" >
+                <Property Name="Text" Value="xлغ?" />
+                <Property Name="UnifiedAreaRect" Value="{{0.248756,0},{0.302949,0},{0.368159,0},{0.367292,0}}" />
+            </Window>
+            <Window Type="DejaVu/EmbedTextLab3" Name="Root/OtherElfPetEquipmentWnd/Info/Dod" >
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="Text" Value="99999" />
+                <Property Name="UnifiedAreaRect" Value="{{0.365672,0},{0.302949,0},{0.480099,0},{0.367292,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/OtherElfPetEquipmentWnd/Info/MixTechText" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" Value="x?Ы??" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0298507,0},{0.691689,0},{0.278607,0},{0.731903,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/OtherElfPetEquipmentWnd/Info/BattleTechSlot1" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0199005,0},{0.731903,0},{0.109453,0},{0.828418,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/OtherElfPetEquipmentWnd/Info/BattleTechSlot2" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.116915,0},{0.731903,0},{0.206468,0},{0.828418,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/OtherElfPetEquipmentWnd/Info/BattleTechSlot3" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.21393,0},{0.731903,0},{0.303483,0},{0.828418,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/OtherElfPetEquipmentWnd/Info/BattleTechText" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" Value="x????" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0298507,0},{0.839142,0},{0.278607,0},{0.879357,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/OtherElfPetEquipmentWnd/Info/MixTechSlot1" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0199005,0},{0.882038,0},{0.109453,0},{0.978552,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/OtherElfPetEquipmentWnd/Info/MixTechSlot2" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.116915,0},{0.882038,0},{0.206468,0},{0.978552,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/OtherElfPetEquipmentWnd/Info/MixTechSlot3" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.21393,0},{0.882038,0},{0.303483,0},{0.978552,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/OtherElfPetEquipmentWnd/Info/MixTechSlot4" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.308445,0},{0.882038,0},{0.397857,0},{0.979474,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/OtherElfPetEquipmentWnd/Info/MixTechSlot5" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.40546,0},{0.882038,0},{0.494872,0},{0.979474,0}}" />
+            </Window>
+            <Window Type="DejaVu/EmbedTextLab" Name="Root/OtherElfPetEquipmentWnd/Info/LightText" >
+                <Property Name="Text" Value="xٰٱ??" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0199005,0},{0.367292,0},{0.19403,0},{0.431635,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="Root/OtherElfPetEquipmentWnd/Attr/light/icon" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorizontalAlignment" Value="Right" />
+                    <Property Name="Image" Value="set:main image:ThunderPoint" />
+                    <Property Name="UnifiedAreaRect" Value="{{-0.041667,0},{0.125,0},{0.177511,0},{0.791667,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/EmbedTextLab3" Name="Root/OtherElfPetEquipmentWnd/Info/Light" >
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="UnifiedAreaRect" Value="{{0.19403,0},{0.367292,0},{0.480099,0},{0.431635,0}}" />
+            </Window>
+            <Window Type="DejaVu/EmbedTextLab" Name="Root/OtherElfPetEquipmentWnd/Info/FireText" >
+                <Property Name="Text" Value="xĵ?" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0199005,0},{0.431635,0},{0.19403,0},{0.495979,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="Root/OtherElfPetEquipmentWnd/Attr/light/icon1" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorizontalAlignment" Value="Right" />
+                    <Property Name="Image" Value="set:main image:FirePoint" />
+                    <Property Name="UnifiedAreaRect" Value="{{-0.041667,0},{0.125,0},{0.186904,0},{0.791667,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/EmbedTextLab3" Name="Root/OtherElfPetEquipmentWnd/Info/Fire" >
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="UnifiedAreaRect" Value="{{0.19403,0},{0.431635,0},{0.480099,0},{0.495979,0}}" />
+            </Window>
+            <Window Type="DejaVu/EmbedTextLab" Name="Root/OtherElfPetEquipmentWnd/Info/WindText" >
+                <Property Name="Text" Value="xۡͷ" />
+                <Property Name="UnifiedAreaRect" Value="{{0.019802,0},{0.558824,0},{0.193069,0},{0.622995,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="Root/OtherElfPetEquipmentWnd/Attr/light/icon111" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorizontalAlignment" Value="Right" />
+                    <Property Name="Image" Value="set:main image:WindPoint" />
+                    <Property Name="UnifiedAreaRect" Value="{{-0.041667,0},{0.125,0},{0.186904,0},{0.791667,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/EmbedTextLab3" Name="Root/OtherElfPetEquipmentWnd/Info/Wind" >
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="UnifiedAreaRect" Value="{{0.193069,0},{0.558824,0},{0.480198,0},{0.622995,0}}" />
+            </Window>
+            <Window Type="DejaVu/EmbedTextLab" Name="Root/OtherElfPetEquipmentWnd/Info/DarkText" >
+                <Property Name="Text" Value="x幽冥" />
+                <Property Name="UnifiedAreaRect" Value="{{0.019802,0},{0.622995,0},{0.193069,0},{0.687166,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="Root/OtherElfPetEquipmentWnd/Attr/light/icon1111" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorizontalAlignment" Value="Right" />
+                    <Property Name="Image" Value="set:main image:DarkPoint" />
+                    <Property Name="UnifiedAreaRect" Value="{{-0.041667,0},{0.125,0},{0.186904,0},{0.791667,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/EmbedTextLab3" Name="Root/OtherElfPetEquipmentWnd/Info/Dark" >
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="UnifiedAreaRect" Value="{{0.193069,0},{0.622995,0},{0.480198,0},{0.687166,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/OtherElfPetEquipmentWnd/Info/BattleTechSlot4" >
+                <Property Name="UnifiedAreaRect" Value="{{0.308445,0},{0.73357,0},{0.397998,0},{0.830085,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/OtherElfPetEquipmentWnd/Info/BattleTechSlot5" >
+                <Property Name="UnifiedAreaRect" Value="{{0.40671,0},{0.731903,0},{0.496262,0},{0.828418,0}}" />
+            </Window>
+            <Window Type="DejaVu/EmbedTextLab" Name="Root/OtherElfPetEquipmentWnd/Info/IceText" >
+                <Property Name="Text" Value="x?w" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0200501,0},{0.495979,0},{0.195489,0},{0.560322,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="Root/OtherElfPetEquipmentWnd/Attr/light/icon11" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorizontalAlignment" Value="Right" />
+                    <Property Name="Image" Value="set:main image:IcePoint" />
+                    <Property Name="UnifiedAreaRect" Value="{{-0.041667,0},{0.125,0},{0.186904,0},{0.791667,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/EmbedTextLab3" Name="Root/OtherElfPetEquipmentWnd/Info/Ice" >
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="UnifiedAreaRect" Value="{{0.19403,0},{0.495979,0},{0.480099,0},{0.560322,0}}" />
+            </Window>
+            <Window Type="DejaVu/Embed4" Name="Root/OtherElfPetEquipmentWnd/Pet" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="UnifiedAreaRect" Value="{{0.532178,0},{0.0427807,0},{0.975248,0},{0.668449,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="Root/OtherElfPetEquipmentWnd/Pet/View" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/zStaticLab" Name="Root/OtherElfPetEquipmentWnd/Info/NamePad/PetText" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="HorzFormatting" Value="WordWrapCentred" />
+            <Property Name="Text" Value="xInfo" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0512195,0},{0.0763723,0},{0.219512,0},{0.131265,0}}" />
+        </Window>
+        <Window Type="DejaVu/TipTextLab" Name="Root/OtherElfPetEquipmentWnd/BossName" >
+            <Property Name="Font" Value="F001-12" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="Text" >xComeOn Pikachu
+</Property>
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,408},{0,24}}" />
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/AutoLinkCheckWnd" >
+        <Property Name="AlwaysOnTop" Value="True" />
+        <Property Name="ClippedByParent" Value="False" />
+        <Property Name="DistributeCapturedInputs" Value="True" />
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="HorizontalAlignment" Value="Centre" />
+        <Property Name="RiseOnClick" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="TitlebarImage" Value="set:main image:SystemNormal" />
+        <Property Name="UnifiedAreaRect" Value="{{-0,0},{0.28,0},{0,400},{0.28,320}}" />
+        <Window Type="DejaVu/Embed" Name="Root/AutoLinkCheckWnd/static" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/StaticText" Name="Root/AutoLinkCheckWnd/Content" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorzFormatting" Value="WordWrapCentred" />
+                <Property Name="Text" >x將開始進行自動連結。
+連結期間，此源神的對話將隨機自動進行。
+若能量值不足，
+會自動消耗背包中的「源神能量光珠」等補充能量值的道具來補充。
+自動連結將在背包已滿、連結次數不足、手動取消或登出遊戲時停止。</Property>
+                <Property Name="UnifiedAreaRect" Value="{{0.0568182,0},{0.0512821,0},{0.920455,0},{0.692308,0}}" />
+            </Window>
+            <Window Type="DejaVu/Checkbox" Name="Root/AutoLinkCheckWnd/CheckBox" >
+                <Property Name="Font" Value="F001-10" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="Text" Value="x今日不再提示" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.666667,0},{0.347916,0},{0.791667,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/AutoLinkCheckWnd/Confirm" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="Text" Value="OK!" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.283854,0},{0.833333,0},{-0.0234375,0},{0.958333,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/AutoLinkCheckWnd/Cancel" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="Text" Value="Cancel" />
+                <Property Name="UnifiedAreaRect" Value="{{0.278646,0},{0.833333,0},{0.539063,0},{0.958333,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

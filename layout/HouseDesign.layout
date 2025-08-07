@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/HouseDesign" >
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.359375,0},{0.361433,0}}" />
+        <Window Type="DejaVu/Embed2" Name="Root/HouseDesign/BG" >
+            <Property Name="UnifiedAreaRect" Value="{{0.27551,0},{0.058252,0},{0.982507,0},{0.886731,0}}" />
+            <Window Type="DejaVu/EmbedTextLab7" Name="Root/HouseDesign/BG/Title" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="x家具列表" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.123239,0}}" />
+            </Window>
+            <Window Type="DejaVu/ScrollablePane" Name="Root/HouseDesign/BG/ItemList" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                <Property Name="HorzOverlapSize" Value="0.01" />
+                <Property Name="HorzScrollPosition" Value="0" />
+                <Property Name="HorzStepSize" Value="0.1" />
+                <Property Name="UnifiedAreaRect" Value="{{0.00409836,0},{0.161972,0},{0.997951,0},{0.971831,0}}" />
+                <Property Name="VertOverlapSize" Value="0.01" />
+                <Property Name="VertScrollPosition" Value="0" />
+                <Property Name="VertStepSize" Value="0.1" />
+                <AutoWindow NameSuffix="__auto_container__" >
+                    <Property Name="ChildExtentsArea" Value="l:0 t:0 r:0 b:0" />
+                    <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                    <Property Name="MouseInputPropagationEnabled" Value="True" />
+                </AutoWindow>
+            </Window>
+        </Window>
+        <Window Type="DefaultWindow" Name="Root/HouseDesign/TypeTree" >
+            <Property Name="UnifiedAreaRect" Value="{{0.014493,0},{0.058309,0},{0.268116,0},{0.553936,0}}" />
+            <Window Type="DejaVu/EmbedTextLab7" Name="Root/HouseDesign/TypeTree/Title" >
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="x選擇裝潢" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.205882,0}}" />
+            </Window>
+            <Window Type="DejaVu/Zframe2" Name="Root/HouseDesign/TypeTree/Select" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.235294,0},{1,0},{0.470588,0}}" />
+            </Window>
+            <Window Type="DejaVu/Embed2" Name="Root/HouseDesign/TypeTree/Item1" >
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.235294,0},{1,0},{0.470588,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/HouseDesign/TypeTree/Item1/Text" >
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="Text" Value="x裝潢紀錄1" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.057143,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed2" Name="Root/HouseDesign/TypeTree/Item2" >
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.5,0},{1,0},{0.735294,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/HouseDesign/TypeTree/Item2/Text" >
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="Text" Value="x裝潢紀錄2" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0571429,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed2" Name="Root/HouseDesign/TypeTree/Item3" >
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.764706,0},{1,0},{1,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/HouseDesign/TypeTree/Item3/Text" >
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="Text" Value="x裝潢紀錄3" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.057143,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/HouseDesign/SaveBtn" >
+            <Property Name="Text" Value="x保存當前" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0131195,0},{0.582524,0},{0.129738,0},{0.679612,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/HouseDesign/ApplyBtn" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="Text" Value="x套用佈置" />
+            <Property Name="UnifiedAreaRect" Value="{{0.150146,0},{0.582524,0},{0.266764,0},{0.679612,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/HouseDesign/RenameBtn" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="Text" Value="x佈置改名" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0131195,0},{0.711974,0},{0.129738,0},{0.809061,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/HouseDesign/DeleteBtn" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="Text" Value="x刪除佈置" />
+            <Property Name="UnifiedAreaRect" Value="{{0.150146,0},{0.711974,0},{0.266764,0},{0.809061,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

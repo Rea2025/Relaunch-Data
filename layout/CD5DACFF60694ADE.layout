@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/FamilyStorageLogWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="TitlebarImage" Value="set:main image:GuildNormal" />
+        <Property Name="UnifiedAreaRect" Value="{{0.0195313,0},{0.268229,0},{0.0195313,416},{0.268229,396}}" />
+        <Window Type="DejaVu/Embed" Name="Root/FamilyStorageLogWnd/BG" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Embed2" Name="Root/FamilyStorageLogWnd/BG2" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.025,0},{0.031646,0},{0.975,0},{0.968355,0}}" />
+                <Window Type="DejaVu/Listbox" Name="Root/FamilyStorageLogWnd/ListBox" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.026316,0},{0.033784,0},{0.973684,0},{0.966216,0}}" />
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

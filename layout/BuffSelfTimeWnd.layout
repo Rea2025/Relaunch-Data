@@ -1,0 +1,1288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="BuffSelfTimeWnd" >
+        <Property Name="MousePassThroughEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.115911,0},{0,380},{0.115911,181}}" />
+        <Window Type="DejaVu/TipTextLab" Name="BuffSelfTimeWnd/tip" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.368421,0},{0.121547,0}}" />
+            <Window Type="DejaVu/StaticText" Name="BuffSelfTimeWnd/tip/text" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="自身效果狀態" />
+                <Property Name="UnifiedAreaRect" Value="{{0.307143,0},{-0.0909091,0},{0.991497,0},{1,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/SlotImage" Name="BuffSelfTimeWnd/slot_1" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="Image" Value="set:main image:noimage" />
+            <Property Name="UnifiedAreaRect" Value="{{0.00263158,0},{0.121547,0},{0.00263158,38},{0.121547,38}}" />
+            <Window Type="DejaVu/StaticImage" Name="BuffSelfTimeWnd/slot_1/Image" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Image" Value="set:DejaVu image:BlueItem" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0789474,0},{0.0789474,0},{0.921053,0},{0.921053,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="BuffSelfTimeWnd/slot_1/Text" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.078947,0},{0.078947,0},{0.921052,0},{0.921052,0}}" />
+                <Property Name="VertFormatting" Value="BottomAligned" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="BuffSelfTimeWnd/slot_1/Time" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="1.5" />
+                <Property Name="TextColours" Value="tl:FFFF0000 tr:FFFF0000 bl:FFFF0000 br:FFFF0000" />
+                <Property Name="UnifiedAreaRect" Value="{{0.131579,0},{1,0},{0.921053,0},{1.39474,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="BuffSelfTimeWnd/bg" >
+            <Property Name="BackgroundEnabled" Value="True" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.121547,0},{1,0},{1,0}}" />
+        </Window>
+        <Window Type="DejaVu/ImageButton" Name="BuffSelfTimeWnd/unlock" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="HoverImage" Value="set:main image:UnLockBtnHover" />
+            <Property Name="NormalImage" Value="set:main image:UnLockBtnNormal" />
+            <Property Name="PushedImage" Value="set:main image:UnLockBtnPressed" />
+            <Property Name="UnifiedAreaRect" Value="{{0.00789474,0},{0.0220588,0},{0.00789474,15},{0.0220588,15}}" />
+        </Window>
+        <Window Type="DejaVu/ImageButton" Name="BuffSelfTimeWnd/add" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="DisabledImage" Value="set:DejaVu image:TreeListOpenedNormal" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HoverImage" Value="set:DejaVu image:TreeListClosed" />
+            <Property Name="NormalImage" Value="set:DejaVu image:TreeListClosedNormal" />
+            <Property Name="PushedImage" Value="set:DejaVu image:TreeListOpenedNormal" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0526316,0},{0.0220588,0},{0.0526316,15},{0.0220588,15}}" />
+        </Window>
+        <Window Type="DejaVu/ImageCheckbox" Name="BuffSelfTimeWnd/rotate" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="DisabledImage" Value="set:main image:RotateBarBtnNormal" />
+            <Property Name="HoverImage" Value="set:main image:RotateBarBtnHover" />
+            <Property Name="NormalImage" Value="set:main image:RotateBarBtnNormal" />
+            <Property Name="PushedImage" Value="set:main image:RotateBarBtnPressed" />
+            <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.0220588,0},{0.1,15},{0.0220588,15}}" />
+        </Window>
+        <Window Type="DejaVu/SlotImage" Name="BuffSelfTimeWnd/drag_handle" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="Image" Value="set:main image:Buff3" />
+            <Property Name="UnifiedAreaRect" Value="{{0.284211,0},{-0.348066,0},{0.284211,49},{-0.348066,43}}" />
+        </Window>
+        <Window Type="DejaVu/SlotImage" Name="BuffSelfTimeWnd/slot_2" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Image" Value="set:main image:noimage" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0184211,0},{0.121547,0},{0.0184211,38},{0.121547,38}}" />
+            <Window Type="DejaVu/StaticImage" Name="BuffSelfTimeWnd/slot_2/Image" >
+                <Property Name="Image" Value="set:DejaVu image:BlueItem" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0789474,0},{0.0789474,0},{0.921053,0},{0.921053,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="BuffSelfTimeWnd/slot_2/Text" >
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.078947,0},{0.078947,0},{0.921052,0},{0.921052,0}}" />
+                <Property Name="VertFormatting" Value="BottomAligned" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="BuffSelfTimeWnd/slot_2/Time" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="1.5" />
+                <Property Name="TextColours" Value="tl:FFFF0000 tr:FFFF0000 bl:FFFF0000 br:FFFF0000" />
+                <Property Name="UnifiedAreaRect" Value="{{0.131579,0},{1,0},{0.921053,0},{1.39474,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/SlotImage" Name="BuffSelfTimeWnd/slot_3" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Image" Value="set:main image:noimage" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0342105,0},{0.121547,0},{0.0342105,38},{0.121547,38}}" />
+            <Window Type="DejaVu/StaticImage" Name="BuffSelfTimeWnd/slot_3/Image" >
+                <Property Name="Image" Value="set:DejaVu image:BlueItem" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0789474,0},{0.0789474,0},{0.921053,0},{0.921053,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="BuffSelfTimeWnd/slot_3/Text" >
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.078947,0},{0.078947,0},{0.921052,0},{0.921052,0}}" />
+                <Property Name="VertFormatting" Value="BottomAligned" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="BuffSelfTimeWnd/slot_3/Time" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="1.5" />
+                <Property Name="TextColours" Value="tl:FFFF0000 tr:FFFF0000 bl:FFFF0000 br:FFFF0000" />
+                <Property Name="UnifiedAreaRect" Value="{{0.131579,0},{1,0},{0.921053,0},{1.39474,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/SlotImage" Name="BuffSelfTimeWnd/slot_4" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Image" Value="set:main image:noimage" />
+            <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.121547,0},{0.05,38},{0.121547,38}}" />
+            <Window Type="DejaVu/StaticImage" Name="BuffSelfTimeWnd/slot_4/Image" >
+                <Property Name="Image" Value="set:DejaVu image:BlueItem" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0789474,0},{0.0789474,0},{0.921053,0},{0.921053,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="BuffSelfTimeWnd/slot_4/Text" >
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.078947,0},{0.078947,0},{0.921052,0},{0.921052,0}}" />
+                <Property Name="VertFormatting" Value="BottomAligned" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="BuffSelfTimeWnd/slot_4/Time" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="1.5" />
+                <Property Name="TextColours" Value="tl:FFFF0000 tr:FFFF0000 bl:FFFF0000 br:FFFF0000" />
+                <Property Name="UnifiedAreaRect" Value="{{0.131579,0},{1,0},{0.921053,0},{1.39474,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/SlotImage" Name="BuffSelfTimeWnd/slot_5" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Image" Value="set:main image:noimage" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0657895,0},{0.121547,0},{0.0657895,38},{0.121547,38}}" />
+            <Window Type="DejaVu/StaticImage" Name="BuffSelfTimeWnd/slot_5/Image" >
+                <Property Name="Image" Value="set:DejaVu image:BlueItem" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0789474,0},{0.0789474,0},{0.921053,0},{0.921053,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="BuffSelfTimeWnd/slot_5/Text" >
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.078947,0},{0.078947,0},{0.921052,0},{0.921052,0}}" />
+                <Property Name="VertFormatting" Value="BottomAligned" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="BuffSelfTimeWnd/slot_5/Time" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="1.5" />
+                <Property Name="TextColours" Value="tl:FFFF0000 tr:FFFF0000 bl:FFFF0000 br:FFFF0000" />
+                <Property Name="UnifiedAreaRect" Value="{{0.131579,0},{1,0},{0.921053,0},{1.39474,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/SlotImage" Name="BuffSelfTimeWnd/slot_6" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Image" Value="set:main image:noimage" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0815789,0},{0.121547,0},{0.0815789,38},{0.121547,38}}" />
+            <Window Type="DejaVu/StaticImage" Name="BuffSelfTimeWnd/slot_6/Image" >
+                <Property Name="Image" Value="set:DejaVu image:BlueItem" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0789474,0},{0.0789474,0},{0.921053,0},{0.921053,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="BuffSelfTimeWnd/slot_6/Text" >
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.078947,0},{0.078947,0},{0.921052,0},{0.921052,0}}" />
+                <Property Name="VertFormatting" Value="BottomAligned" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="BuffSelfTimeWnd/slot_6/Time" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="1.5" />
+                <Property Name="TextColours" Value="tl:FFFF0000 tr:FFFF0000 bl:FFFF0000 br:FFFF0000" />
+                <Property Name="UnifiedAreaRect" Value="{{0.131579,0},{1,0},{0.921053,0},{1.39474,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/SlotImage" Name="BuffSelfTimeWnd/slot_7" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Image" Value="set:main image:noimage" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0973684,0},{0.121547,0},{0.0973684,38},{0.121547,38}}" />
+            <Window Type="DejaVu/StaticImage" Name="BuffSelfTimeWnd/slot_7/Image" >
+                <Property Name="Image" Value="set:DejaVu image:BlueItem" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0789474,0},{0.0789474,0},{0.921053,0},{0.921053,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="BuffSelfTimeWnd/slot_7/Text" >
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.078947,0},{0.078947,0},{0.921052,0},{0.921052,0}}" />
+                <Property Name="VertFormatting" Value="BottomAligned" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="BuffSelfTimeWnd/slot_7/Time" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="1.5" />
+                <Property Name="TextColours" Value="tl:FFFF0000 tr:FFFF0000 bl:FFFF0000 br:FFFF0000" />
+                <Property Name="UnifiedAreaRect" Value="{{0.131579,0},{1,0},{0.921053,0},{1.39474,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/SlotImage" Name="BuffSelfTimeWnd/slot_8" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Image" Value="set:main image:noimage" />
+            <Property Name="UnifiedAreaRect" Value="{{0.113158,0},{0.121547,0},{0.113158,38},{0.121547,38}}" />
+            <Window Type="DejaVu/StaticImage" Name="BuffSelfTimeWnd/slot_8/Image" >
+                <Property Name="Image" Value="set:DejaVu image:BlueItem" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0789474,0},{0.0789474,0},{0.921053,0},{0.921053,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="BuffSelfTimeWnd/slot_8/Text" >
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.078947,0},{0.078947,0},{0.921052,0},{0.921052,0}}" />
+                <Property Name="VertFormatting" Value="BottomAligned" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="BuffSelfTimeWnd/slot_8/Time" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="1.5" />
+                <Property Name="TextColours" Value="tl:FFFF0000 tr:FFFF0000 bl:FFFF0000 br:FFFF0000" />
+                <Property Name="UnifiedAreaRect" Value="{{0.131579,0},{1,0},{0.921053,0},{1.39474,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/SlotImage" Name="BuffSelfTimeWnd/slot_9" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Image" Value="set:main image:noimage" />
+            <Property Name="UnifiedAreaRect" Value="{{0.128947,0},{0.121547,0},{0.128947,38},{0.121547,38}}" />
+            <Window Type="DejaVu/StaticImage" Name="BuffSelfTimeWnd/slot_9/Image" >
+                <Property Name="Image" Value="set:DejaVu image:BlueItem" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0789474,0},{0.0789474,0},{0.921053,0},{0.921053,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="BuffSelfTimeWnd/slot_9/Text" >
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.078947,0},{0.078947,0},{0.921052,0},{0.921052,0}}" />
+                <Property Name="VertFormatting" Value="BottomAligned" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="BuffSelfTimeWnd/slot_9/Time" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="1.5" />
+                <Property Name="TextColours" Value="tl:FFFF0000 tr:FFFF0000 bl:FFFF0000 br:FFFF0000" />
+                <Property Name="UnifiedAreaRect" Value="{{0.131579,0},{1,0},{0.921053,0},{1.39474,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/SlotImage" Name="BuffSelfTimeWnd/slot_10" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Image" Value="set:main image:noimage" />
+            <Property Name="UnifiedAreaRect" Value="{{0.144737,0},{0.121547,0},{0.144737,38},{0.121547,38}}" />
+            <Window Type="DejaVu/StaticImage" Name="BuffSelfTimeWnd/slot_10/Image" >
+                <Property Name="Image" Value="set:DejaVu image:BlueItem" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0789474,0},{0.0789474,0},{0.921053,0},{0.921053,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="BuffSelfTimeWnd/slot_10/Text" >
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.078947,0},{0.078947,0},{0.921052,0},{0.921052,0}}" />
+                <Property Name="VertFormatting" Value="BottomAligned" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="BuffSelfTimeWnd/slot_10/Time" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="1.5" />
+                <Property Name="TextColours" Value="tl:FFFF0000 tr:FFFF0000 bl:FFFF0000 br:FFFF0000" />
+                <Property Name="UnifiedAreaRect" Value="{{0.131579,0},{1,0},{0.921053,0},{1.39474,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/SlotImage" Name="BuffSelfTimeWnd/slot_11" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Image" Value="set:main image:noimage" />
+            <Property Name="UnifiedAreaRect" Value="{{0.160526,0},{0.121547,0},{0.160526,38},{0.121547,38}}" />
+            <Window Type="DejaVu/StaticImage" Name="BuffSelfTimeWnd/slot_11/Image" >
+                <Property Name="Image" Value="set:DejaVu image:BlueItem" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0789474,0},{0.0789474,0},{0.921053,0},{0.921053,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="BuffSelfTimeWnd/slot_11/Text" >
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.078947,0},{0.078947,0},{0.921052,0},{0.921052,0}}" />
+                <Property Name="VertFormatting" Value="BottomAligned" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="BuffSelfTimeWnd/slot_11/Time" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="1.5" />
+                <Property Name="TextColours" Value="tl:FFFF0000 tr:FFFF0000 bl:FFFF0000 br:FFFF0000" />
+                <Property Name="UnifiedAreaRect" Value="{{0.131579,0},{1,0},{0.921053,0},{1.39474,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/SlotImage" Name="BuffSelfTimeWnd/slot_12" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Image" Value="set:main image:noimage" />
+            <Property Name="UnifiedAreaRect" Value="{{0.176316,0},{0.121547,0},{0.176316,38},{0.121547,38}}" />
+            <Window Type="DejaVu/StaticImage" Name="BuffSelfTimeWnd/slot_12/Image" >
+                <Property Name="Image" Value="set:DejaVu image:BlueItem" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0789474,0},{0.0789474,0},{0.921053,0},{0.921053,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="BuffSelfTimeWnd/slot_12/Text" >
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.078947,0},{0.078947,0},{0.921052,0},{0.921052,0}}" />
+                <Property Name="VertFormatting" Value="BottomAligned" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="BuffSelfTimeWnd/slot_12/Time" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="1.5" />
+                <Property Name="TextColours" Value="tl:FFFF0000 tr:FFFF0000 bl:FFFF0000 br:FFFF0000" />
+                <Property Name="UnifiedAreaRect" Value="{{0.131579,0},{1,0},{0.921053,0},{1.39474,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/SlotImage" Name="BuffSelfTimeWnd/slot_13" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Image" Value="set:main image:noimage" />
+            <Property Name="UnifiedAreaRect" Value="{{0.192105,0},{0.121547,0},{0.192105,38},{0.121547,38}}" />
+            <Window Type="DejaVu/StaticImage" Name="BuffSelfTimeWnd/slot_13/Image" >
+                <Property Name="Image" Value="set:DejaVu image:BlueItem" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0789474,0},{0.0789474,0},{0.921053,0},{0.921053,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="BuffSelfTimeWnd/slot_13/Text" >
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.078947,0},{0.078947,0},{0.921052,0},{0.921052,0}}" />
+                <Property Name="VertFormatting" Value="BottomAligned" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="BuffSelfTimeWnd/slot_13/Time" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="1.5" />
+                <Property Name="TextColours" Value="tl:FFFF0000 tr:FFFF0000 bl:FFFF0000 br:FFFF0000" />
+                <Property Name="UnifiedAreaRect" Value="{{0.131579,0},{1,0},{0.921053,0},{1.39474,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/SlotImage" Name="BuffSelfTimeWnd/slot_14" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Image" Value="set:main image:noimage" />
+            <Property Name="UnifiedAreaRect" Value="{{0.207895,0},{0.121547,0},{0.207895,38},{0.121547,38}}" />
+            <Window Type="DejaVu/StaticImage" Name="BuffSelfTimeWnd/slot_14/Image" >
+                <Property Name="Image" Value="set:DejaVu image:BlueItem" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0789474,0},{0.0789474,0},{0.921053,0},{0.921053,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="BuffSelfTimeWnd/slot_14/Text" >
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.078947,0},{0.078947,0},{0.921052,0},{0.921052,0}}" />
+                <Property Name="VertFormatting" Value="BottomAligned" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="BuffSelfTimeWnd/slot_14/Time" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="1.5" />
+                <Property Name="TextColours" Value="tl:FFFF0000 tr:FFFF0000 bl:FFFF0000 br:FFFF0000" />
+                <Property Name="UnifiedAreaRect" Value="{{0.131579,0},{1,0},{0.921053,0},{1.39474,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/SlotImage" Name="BuffSelfTimeWnd/slot_15" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Image" Value="set:main image:noimage" />
+            <Property Name="UnifiedAreaRect" Value="{{0.223684,0},{0.121547,0},{0.223684,38},{0.121547,38}}" />
+            <Window Type="DejaVu/StaticImage" Name="BuffSelfTimeWnd/slot_15/Image" >
+                <Property Name="Image" Value="set:DejaVu image:BlueItem" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0789474,0},{0.0789474,0},{0.921053,0},{0.921053,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="BuffSelfTimeWnd/slot_15/Text" >
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.078947,0},{0.078947,0},{0.921052,0},{0.921052,0}}" />
+                <Property Name="VertFormatting" Value="BottomAligned" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="BuffSelfTimeWnd/slot_15/Time" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="1.5" />
+                <Property Name="TextColours" Value="tl:FFFF0000 tr:FFFF0000 bl:FFFF0000 br:FFFF0000" />
+                <Property Name="UnifiedAreaRect" Value="{{0.131579,0},{1,0},{0.921053,0},{1.39474,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/SlotImage" Name="BuffSelfTimeWnd/slot_16" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Image" Value="set:main image:noimage" />
+            <Property Name="UnifiedAreaRect" Value="{{0.236842,0},{0.121547,0},{0.236842,38},{0.121547,38}}" />
+            <Window Type="DejaVu/StaticImage" Name="BuffSelfTimeWnd/slot_16/Image" >
+                <Property Name="Image" Value="set:DejaVu image:BlueItem" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0789474,0},{0.0789474,0},{0.921053,0},{0.921053,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="BuffSelfTimeWnd/slot_16/Text" >
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.078947,0},{0.078947,0},{0.921052,0},{0.921052,0}}" />
+                <Property Name="VertFormatting" Value="BottomAligned" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="BuffSelfTimeWnd/slot_16/Time" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="1.5" />
+                <Property Name="TextColours" Value="tl:FFFF0000 tr:FFFF0000 bl:FFFF0000 br:FFFF0000" />
+                <Property Name="UnifiedAreaRect" Value="{{0.131579,0},{1,0},{0.921053,0},{1.39474,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/SlotImage" Name="BuffSelfTimeWnd/slot_17" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Image" Value="set:main image:noimage" />
+            <Property Name="UnifiedAreaRect" Value="{{0.252632,0},{0.121547,0},{0.252632,38},{0.121547,38}}" />
+            <Window Type="DejaVu/StaticImage" Name="BuffSelfTimeWnd/slot_17/Image" >
+                <Property Name="Image" Value="set:DejaVu image:BlueItem" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0789474,0},{0.0789474,0},{0.921053,0},{0.921053,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="BuffSelfTimeWnd/slot_17/Text" >
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.078947,0},{0.078947,0},{0.921052,0},{0.921052,0}}" />
+                <Property Name="VertFormatting" Value="BottomAligned" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="BuffSelfTimeWnd/slot_17/Time" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="1.5" />
+                <Property Name="TextColours" Value="tl:FFFF0000 tr:FFFF0000 bl:FFFF0000 br:FFFF0000" />
+                <Property Name="UnifiedAreaRect" Value="{{0.131579,0},{1,0},{0.921053,0},{1.39474,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/SlotImage" Name="BuffSelfTimeWnd/slot_18" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Image" Value="set:main image:noimage" />
+            <Property Name="UnifiedAreaRect" Value="{{0.268421,0},{0.121547,0},{0.268421,38},{0.121547,38}}" />
+            <Window Type="DejaVu/StaticImage" Name="BuffSelfTimeWnd/slot_18/Image" >
+                <Property Name="Image" Value="set:DejaVu image:BlueItem" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0789474,0},{0.0789474,0},{0.921053,0},{0.921053,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="BuffSelfTimeWnd/slot_18/Text" >
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.078947,0},{0.078947,0},{0.921052,0},{0.921052,0}}" />
+                <Property Name="VertFormatting" Value="BottomAligned" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="BuffSelfTimeWnd/slot_18/Time" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="1.5" />
+                <Property Name="TextColours" Value="tl:FFFF0000 tr:FFFF0000 bl:FFFF0000 br:FFFF0000" />
+                <Property Name="UnifiedAreaRect" Value="{{0.131579,0},{1,0},{0.921053,0},{1.39474,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/SlotImage" Name="BuffSelfTimeWnd/slot_19" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Image" Value="set:main image:noimage" />
+            <Property Name="UnifiedAreaRect" Value="{{0.284211,0},{0.121547,0},{0.284211,38},{0.121547,38}}" />
+            <Window Type="DejaVu/StaticImage" Name="BuffSelfTimeWnd/slot_19/Image" >
+                <Property Name="Image" Value="set:DejaVu image:BlueItem" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0789474,0},{0.0789474,0},{0.921053,0},{0.921053,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="BuffSelfTimeWnd/slot_19/Text" >
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.078947,0},{0.078947,0},{0.921052,0},{0.921052,0}}" />
+                <Property Name="VertFormatting" Value="BottomAligned" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="BuffSelfTimeWnd/slot_19/Time" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="1.5" />
+                <Property Name="TextColours" Value="tl:FFFF0000 tr:FFFF0000 bl:FFFF0000 br:FFFF0000" />
+                <Property Name="UnifiedAreaRect" Value="{{0.131579,0},{1,0},{0.921053,0},{1.39474,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/SlotImage" Name="BuffSelfTimeWnd/slot_20" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Image" Value="set:main image:noimage" />
+            <Property Name="UnifiedAreaRect" Value="{{0.3,0},{0.121547,0},{0.3,38},{0.121547,38}}" />
+            <Window Type="DejaVu/StaticImage" Name="BuffSelfTimeWnd/slot_20/Image" >
+                <Property Name="Image" Value="set:DejaVu image:BlueItem" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0789474,0},{0.0789474,0},{0.921053,0},{0.921053,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="BuffSelfTimeWnd/slot_20/Text" >
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.078947,0},{0.078947,0},{0.921052,0},{0.921052,0}}" />
+                <Property Name="VertFormatting" Value="BottomAligned" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="BuffSelfTimeWnd/slot_20/Time" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="1.5" />
+                <Property Name="TextColours" Value="tl:FFFF0000 tr:FFFF0000 bl:FFFF0000 br:FFFF0000" />
+                <Property Name="UnifiedAreaRect" Value="{{0.131579,0},{1,0},{0.921053,0},{1.39474,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/SlotImage" Name="BuffSelfTimeWnd/slot_21" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Image" Value="set:main image:noimage" />
+            <Property Name="UnifiedAreaRect" Value="{{0.315789,0},{0.121547,0},{0.315789,38},{0.121547,38}}" />
+            <Window Type="DejaVu/StaticImage" Name="BuffSelfTimeWnd/slot_21/Image" >
+                <Property Name="Image" Value="set:DejaVu image:BlueItem" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0789474,0},{0.0789474,0},{0.921053,0},{0.921053,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="BuffSelfTimeWnd/slot_21/Text" >
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.078947,0},{0.078947,0},{0.921052,0},{0.921052,0}}" />
+                <Property Name="VertFormatting" Value="BottomAligned" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="BuffSelfTimeWnd/slot_21/Time" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="1.5" />
+                <Property Name="TextColours" Value="tl:FFFF0000 tr:FFFF0000 bl:FFFF0000 br:FFFF0000" />
+                <Property Name="UnifiedAreaRect" Value="{{0.131579,0},{1,0},{0.921053,0},{1.39474,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/SlotImage" Name="BuffSelfTimeWnd/slot_22" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Image" Value="set:main image:noimage" />
+            <Property Name="UnifiedAreaRect" Value="{{0.331579,0},{0.121547,0},{0.331579,38},{0.121547,38}}" />
+            <Window Type="DejaVu/StaticImage" Name="BuffSelfTimeWnd/slot_22/Image" >
+                <Property Name="Image" Value="set:DejaVu image:BlueItem" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0789474,0},{0.0789474,0},{0.921053,0},{0.921053,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="BuffSelfTimeWnd/slot_22/Text" >
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.078947,0},{0.078947,0},{0.921052,0},{0.921052,0}}" />
+                <Property Name="VertFormatting" Value="BottomAligned" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="BuffSelfTimeWnd/slot_22/Time" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="1.5" />
+                <Property Name="TextColours" Value="tl:FFFF0000 tr:FFFF0000 bl:FFFF0000 br:FFFF0000" />
+                <Property Name="UnifiedAreaRect" Value="{{0.131579,0},{1,0},{0.921053,0},{1.39474,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/SlotImage" Name="BuffSelfTimeWnd/slot_23" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Image" Value="set:main image:noimage" />
+            <Property Name="UnifiedAreaRect" Value="{{0.35,0},{0.121547,0},{0.35,38},{0.121547,38}}" />
+            <Window Type="DejaVu/StaticImage" Name="BuffSelfTimeWnd/slot_23/Image" >
+                <Property Name="Image" Value="set:DejaVu image:BlueItem" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0789474,0},{0.0789474,0},{0.921053,0},{0.921053,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="BuffSelfTimeWnd/slot_23/Text" >
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.078947,0},{0.078947,0},{0.921052,0},{0.921052,0}}" />
+                <Property Name="VertFormatting" Value="BottomAligned" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="BuffSelfTimeWnd/slot_23/Time" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="1.5" />
+                <Property Name="TextColours" Value="tl:FFFF0000 tr:FFFF0000 bl:FFFF0000 br:FFFF0000" />
+                <Property Name="UnifiedAreaRect" Value="{{0.131579,0},{1,0},{0.921053,0},{1.39474,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/SlotImage" Name="BuffSelfTimeWnd/slot_24" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Image" Value="set:main image:noimage" />
+            <Property Name="UnifiedAreaRect" Value="{{0.365789,0},{0.121547,0},{0.365789,38},{0.121547,38}}" />
+            <Window Type="DejaVu/StaticImage" Name="BuffSelfTimeWnd/slot_24/Image" >
+                <Property Name="Image" Value="set:DejaVu image:BlueItem" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0789474,0},{0.0789474,0},{0.921053,0},{0.921053,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="BuffSelfTimeWnd/slot_24/Text" >
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.078947,0},{0.078947,0},{0.921052,0},{0.921052,0}}" />
+                <Property Name="VertFormatting" Value="BottomAligned" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="BuffSelfTimeWnd/slot_24/Time" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="1.5" />
+                <Property Name="TextColours" Value="tl:FFFF0000 tr:FFFF0000 bl:FFFF0000 br:FFFF0000" />
+                <Property Name="UnifiedAreaRect" Value="{{0.131579,0},{1,0},{0.921053,0},{1.39474,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/SlotImage" Name="BuffSelfTimeWnd/slot_25" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Image" Value="set:main image:noimage" />
+            <Property Name="UnifiedAreaRect" Value="{{0.381579,0},{0.121547,0},{0.381579,38},{0.121547,38}}" />
+            <Window Type="DejaVu/StaticImage" Name="BuffSelfTimeWnd/slot_25/Image" >
+                <Property Name="Image" Value="set:DejaVu image:BlueItem" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0789474,0},{0.0789474,0},{0.921053,0},{0.921053,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="BuffSelfTimeWnd/slot_25/Text" >
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.078947,0},{0.078947,0},{0.921052,0},{0.921052,0}}" />
+                <Property Name="VertFormatting" Value="BottomAligned" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="BuffSelfTimeWnd/slot_25/Time" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="1.5" />
+                <Property Name="TextColours" Value="tl:FFFF0000 tr:FFFF0000 bl:FFFF0000 br:FFFF0000" />
+                <Property Name="UnifiedAreaRect" Value="{{0.131579,0},{1,0},{0.921053,0},{1.39474,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/SlotImage" Name="BuffSelfTimeWnd/slot_26" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Image" Value="set:main image:noimage" />
+            <Property Name="UnifiedAreaRect" Value="{{0.397368,0},{0.121547,0},{0.397368,38},{0.121547,38}}" />
+            <Window Type="DejaVu/StaticImage" Name="BuffSelfTimeWnd/slot_26/Image" >
+                <Property Name="Image" Value="set:DejaVu image:BlueItem" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0789474,0},{0.0789474,0},{0.921053,0},{0.921053,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="BuffSelfTimeWnd/slot_26/Text" >
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.078947,0},{0.078947,0},{0.921052,0},{0.921052,0}}" />
+                <Property Name="VertFormatting" Value="BottomAligned" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="BuffSelfTimeWnd/slot_26/Time" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="1.5" />
+                <Property Name="TextColours" Value="tl:FFFF0000 tr:FFFF0000 bl:FFFF0000 br:FFFF0000" />
+                <Property Name="UnifiedAreaRect" Value="{{0.131579,0},{1,0},{0.921053,0},{1.39474,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/SlotImage" Name="BuffSelfTimeWnd/slot_27" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Image" Value="set:main image:noimage" />
+            <Property Name="UnifiedAreaRect" Value="{{0.413158,0},{0.121547,0},{0.413158,38},{0.121547,38}}" />
+            <Window Type="DejaVu/StaticImage" Name="BuffSelfTimeWnd/slot_27/Image" >
+                <Property Name="Image" Value="set:DejaVu image:BlueItem" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0789474,0},{0.0789474,0},{0.921053,0},{0.921053,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="BuffSelfTimeWnd/slot_27/Text" >
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.078947,0},{0.078947,0},{0.921052,0},{0.921052,0}}" />
+                <Property Name="VertFormatting" Value="BottomAligned" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="BuffSelfTimeWnd/slot_27/Time" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="1.5" />
+                <Property Name="TextColours" Value="tl:FFFF0000 tr:FFFF0000 bl:FFFF0000 br:FFFF0000" />
+                <Property Name="UnifiedAreaRect" Value="{{0.131579,0},{1,0},{0.921053,0},{1.39474,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/SlotImage" Name="BuffSelfTimeWnd/slot_28" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Image" Value="set:main image:noimage" />
+            <Property Name="UnifiedAreaRect" Value="{{0.428947,0},{0.121547,0},{0.428947,38},{0.121547,38}}" />
+            <Window Type="DejaVu/StaticImage" Name="BuffSelfTimeWnd/slot_28/Image" >
+                <Property Name="Image" Value="set:DejaVu image:BlueItem" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0789474,0},{0.0789474,0},{0.921053,0},{0.921053,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="BuffSelfTimeWnd/slot_28/Text" >
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.078947,0},{0.078947,0},{0.921052,0},{0.921052,0}}" />
+                <Property Name="VertFormatting" Value="BottomAligned" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="BuffSelfTimeWnd/slot_28/Time" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="1.5" />
+                <Property Name="TextColours" Value="tl:FFFF0000 tr:FFFF0000 bl:FFFF0000 br:FFFF0000" />
+                <Property Name="UnifiedAreaRect" Value="{{0.131579,0},{1,0},{0.921053,0},{1.39474,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/SlotImage" Name="BuffSelfTimeWnd/slot_29" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Image" Value="set:main image:noimage" />
+            <Property Name="UnifiedAreaRect" Value="{{0.444737,0},{0.121547,0},{0.444737,38},{0.121547,38}}" />
+            <Window Type="DejaVu/StaticImage" Name="BuffSelfTimeWnd/slot_29/Image" >
+                <Property Name="Image" Value="set:DejaVu image:BlueItem" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0789474,0},{0.0789474,0},{0.921053,0},{0.921053,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="BuffSelfTimeWnd/slot_29/Text" >
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.078947,0},{0.078947,0},{0.921052,0},{0.921052,0}}" />
+                <Property Name="VertFormatting" Value="BottomAligned" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="BuffSelfTimeWnd/slot_29/Time" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="1.5" />
+                <Property Name="TextColours" Value="tl:FFFF0000 tr:FFFF0000 bl:FFFF0000 br:FFFF0000" />
+                <Property Name="UnifiedAreaRect" Value="{{0.131579,0},{1,0},{0.921053,0},{1.39474,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/SlotImage" Name="BuffSelfTimeWnd/slot_30" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Image" Value="set:main image:noimage" />
+            <Property Name="UnifiedAreaRect" Value="{{0.460526,0},{0.121547,0},{0.460526,38},{0.121547,38}}" />
+            <Window Type="DejaVu/StaticImage" Name="BuffSelfTimeWnd/slot_30/Image" >
+                <Property Name="Image" Value="set:DejaVu image:BlueItem" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0789474,0},{0.0789474,0},{0.921053,0},{0.921053,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="BuffSelfTimeWnd/slot_30/Text" >
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.078947,0},{0.078947,0},{0.921052,0},{0.921052,0}}" />
+                <Property Name="VertFormatting" Value="BottomAligned" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="BuffSelfTimeWnd/slot_30/Time" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="1.5" />
+                <Property Name="TextColours" Value="tl:FFFF0000 tr:FFFF0000 bl:FFFF0000 br:FFFF0000" />
+                <Property Name="UnifiedAreaRect" Value="{{0.131579,0},{1,0},{0.921053,0},{1.39474,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="BuffSelfTimeWnd/icon_Anim1" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.00263158,0},{0.121547,0},{0.00263158,38},{0.121547,38}}" />
+            <Window Type="DejaVu/SlotImage" Name="BuffSelfTimeWnd/icon_Anim1/Slot" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+                <Window Type="DejaVu/StaticImage" Name="BuffSelfTimeWnd/icon_Anim1/Image" >
+                    <Property Name="Image" Value="set:DejaVu image:RedItem" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0263158,0},{0.0263158,0},{0.921053,0},{0.921053,0}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="BuffSelfTimeWnd/icon_Anim2" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0184211,0},{0.121547,0},{0.0184211,38},{0.121547,38}}" />
+            <Window Type="DejaVu/SlotImage" Name="BuffSelfTimeWnd/icon_Anim2/Slot" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+                <Window Type="DejaVu/StaticImage" Name="BuffSelfTimeWnd/icon_Anim2/Image" >
+                    <Property Name="Image" Value="set:DejaVu image:RedItem" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0263158,0},{0.0263158,0},{0.921053,0},{0.921053,0}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="BuffSelfTimeWnd/icon_Anim3" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0342105,0},{0.121547,0},{0.0342105,38},{0.121547,38}}" />
+            <Window Type="DejaVu/SlotImage" Name="BuffSelfTimeWnd/icon_Anim3/Slot" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+                <Window Type="DejaVu/StaticImage" Name="BuffSelfTimeWnd/icon_Anim3/Image" >
+                    <Property Name="Image" Value="set:DejaVu image:RedItem" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0263158,0},{0.0263158,0},{0.921053,0},{0.921053,0}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="BuffSelfTimeWnd/icon_Anim4" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.121547,0},{0.05,38},{0.121547,38}}" />
+            <Window Type="DejaVu/SlotImage" Name="BuffSelfTimeWnd/icon_Anim4/Slot" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+                <Window Type="DejaVu/StaticImage" Name="BuffSelfTimeWnd/icon_Anim4/Image" >
+                    <Property Name="Image" Value="set:DejaVu image:RedItem" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0263158,0},{0.0263158,0},{0.921053,0},{0.921053,0}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="BuffSelfTimeWnd/icon_Anim5" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0657895,0},{0.121547,0},{0.0657895,38},{0.121547,38}}" />
+            <Window Type="DejaVu/SlotImage" Name="BuffSelfTimeWnd/icon_Anim5/Slot" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+                <Window Type="DejaVu/StaticImage" Name="BuffSelfTimeWnd/icon_Anim5/Image" >
+                    <Property Name="Image" Value="set:DejaVu image:RedItem" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0263158,0},{0.0263158,0},{0.921053,0},{0.921053,0}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="BuffSelfTimeWnd/icon_Anim6" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0815789,0},{0.121547,0},{0.0815789,38},{0.121547,38}}" />
+            <Window Type="DejaVu/SlotImage" Name="BuffSelfTimeWnd/icon_Anim6/Slot" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+                <Window Type="DejaVu/StaticImage" Name="BuffSelfTimeWnd/icon_Anim6/Image" >
+                    <Property Name="Image" Value="set:DejaVu image:RedItem" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0263158,0},{0.0263158,0},{0.921053,0},{0.921053,0}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="BuffSelfTimeWnd/icon_Anim7" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0973684,0},{0.121547,0},{0.0973684,38},{0.121547,38}}" />
+            <Window Type="DejaVu/SlotImage" Name="BuffSelfTimeWnd/icon_Anim7/Slot" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+                <Window Type="DejaVu/StaticImage" Name="BuffSelfTimeWnd/icon_Anim7/Image" >
+                    <Property Name="Image" Value="set:DejaVu image:RedItem" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0263158,0},{0.0263158,0},{0.921053,0},{0.921053,0}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="BuffSelfTimeWnd/icon_Anim8" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.113158,0},{0.121547,0},{0.113158,38},{0.121547,38}}" />
+            <Window Type="DejaVu/SlotImage" Name="BuffSelfTimeWnd/icon_Anim8/Slot" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+                <Window Type="DejaVu/StaticImage" Name="BuffSelfTimeWnd/icon_Anim8/Image" >
+                    <Property Name="Image" Value="set:DejaVu image:RedItem" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0263158,0},{0.0263158,0},{0.921053,0},{0.921053,0}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="BuffSelfTimeWnd/icon_Anim9" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.128947,0},{0.121547,0},{0.128947,38},{0.121547,38}}" />
+            <Window Type="DejaVu/SlotImage" Name="BuffSelfTimeWnd/icon_Anim9/Slot" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+                <Window Type="DejaVu/StaticImage" Name="BuffSelfTimeWnd/icon_Anim9/Image" >
+                    <Property Name="Image" Value="set:DejaVu image:RedItem" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0263158,0},{0.0263158,0},{0.921053,0},{0.921053,0}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="BuffSelfTimeWnd/icon_Anim10" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.144737,0},{0.121547,0},{0.144737,38},{0.121547,38}}" />
+            <Window Type="DejaVu/SlotImage" Name="BuffSelfTimeWnd/icon_Anim10/Slot" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+                <Window Type="DejaVu/StaticImage" Name="BuffSelfTimeWnd/icon_Anim10/Image" >
+                    <Property Name="Image" Value="set:DejaVu image:RedItem" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0263158,0},{0.0263158,0},{0.921053,0},{0.921053,0}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="BuffSelfTimeWnd/icon_Anim11" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.160526,0},{0.121547,0},{0.160526,38},{0.121547,38}}" />
+            <Window Type="DejaVu/SlotImage" Name="BuffSelfTimeWnd/icon_Anim11/Slot" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+                <Window Type="DejaVu/StaticImage" Name="BuffSelfTimeWnd/icon_Anim11/Image" >
+                    <Property Name="Image" Value="set:DejaVu image:RedItem" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0263158,0},{0.0263158,0},{0.921053,0},{0.921053,0}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="BuffSelfTimeWnd/icon_Anim12" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.176316,0},{0.121547,0},{0.176316,38},{0.121547,38}}" />
+            <Window Type="DejaVu/SlotImage" Name="BuffSelfTimeWnd/icon_Anim12/Slot" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+                <Window Type="DejaVu/StaticImage" Name="BuffSelfTimeWnd/icon_Anim12/Image" >
+                    <Property Name="Image" Value="set:DejaVu image:RedItem" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0263158,0},{0.0263158,0},{0.921053,0},{0.921053,0}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="BuffSelfTimeWnd/icon_Anim13" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.192105,0},{0.121547,0},{0.192105,38},{0.121547,38}}" />
+            <Window Type="DejaVu/SlotImage" Name="BuffSelfTimeWnd/icon_Anim13/Slot" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+                <Window Type="DejaVu/StaticImage" Name="BuffSelfTimeWnd/icon_Anim13/Image" >
+                    <Property Name="Image" Value="set:DejaVu image:RedItem" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0263158,0},{0.0263158,0},{0.921053,0},{0.921053,0}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="BuffSelfTimeWnd/icon_Anim14" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.207895,0},{0.121547,0},{0.207895,38},{0.121547,38}}" />
+            <Window Type="DejaVu/SlotImage" Name="BuffSelfTimeWnd/icon_Anim14/Slot" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+                <Window Type="DejaVu/StaticImage" Name="BuffSelfTimeWnd/icon_Anim14/Image" >
+                    <Property Name="Image" Value="set:DejaVu image:RedItem" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0263158,0},{0.0263158,0},{0.921053,0},{0.921053,0}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="BuffSelfTimeWnd/icon_Anim15" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.223684,0},{0.121547,0},{0.223684,38},{0.121547,38}}" />
+            <Window Type="DejaVu/SlotImage" Name="BuffSelfTimeWnd/icon_Anim15/Slot" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+                <Window Type="DejaVu/StaticImage" Name="BuffSelfTimeWnd/icon_Anim15/Image" >
+                    <Property Name="Image" Value="set:DejaVu image:RedItem" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0263158,0},{0.0263158,0},{0.921053,0},{0.921053,0}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="BuffSelfTimeWnd/icon_Anim16" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.239474,0},{0.121547,0},{0.239474,38},{0.121547,38}}" />
+            <Window Type="DejaVu/SlotImage" Name="BuffSelfTimeWnd/icon_Anim16/Slot" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+                <Window Type="DejaVu/StaticImage" Name="BuffSelfTimeWnd/icon_Anim16/Image" >
+                    <Property Name="Image" Value="set:DejaVu image:RedItem" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0263158,0},{0.0263158,0},{0.921053,0},{0.921053,0}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="BuffSelfTimeWnd/icon_Anim17" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.255263,0},{0.121547,0},{0.255263,38},{0.121547,38}}" />
+            <Window Type="DejaVu/SlotImage" Name="BuffSelfTimeWnd/icon_Anim17/Slot" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+                <Window Type="DejaVu/StaticImage" Name="BuffSelfTimeWnd/icon_Anim17/Image" >
+                    <Property Name="Image" Value="set:DejaVu image:RedItem" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0263158,0},{0.0263158,0},{0.921053,0},{0.921053,0}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="BuffSelfTimeWnd/icon_Anim18" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.271053,0},{0.121547,0},{0.271053,38},{0.121547,38}}" />
+            <Window Type="DejaVu/SlotImage" Name="BuffSelfTimeWnd/icon_Anim18/Slot" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+                <Window Type="DejaVu/StaticImage" Name="BuffSelfTimeWnd/icon_Anim18/Image" >
+                    <Property Name="Image" Value="set:DejaVu image:RedItem" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0263158,0},{0.0263158,0},{0.921053,0},{0.921053,0}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="BuffSelfTimeWnd/icon_Anim19" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.286842,0},{0.121547,0},{0.286842,38},{0.121547,38}}" />
+            <Window Type="DejaVu/SlotImage" Name="BuffSelfTimeWnd/icon_Anim19/Slot" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+                <Window Type="DejaVu/StaticImage" Name="BuffSelfTimeWnd/icon_Anim19/Image" >
+                    <Property Name="Image" Value="set:DejaVu image:RedItem" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0263158,0},{0.0263158,0},{0.921053,0},{0.921053,0}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="BuffSelfTimeWnd/icon_Anim20" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.302632,0},{0.121547,0},{0.302632,38},{0.121547,38}}" />
+            <Window Type="DejaVu/SlotImage" Name="BuffSelfTimeWnd/icon_Anim20/Slot" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+                <Window Type="DejaVu/StaticImage" Name="BuffSelfTimeWnd/icon_Anim20/Image" >
+                    <Property Name="Image" Value="set:DejaVu image:RedItem" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0263158,0},{0.0263158,0},{0.921053,0},{0.921053,0}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="BuffSelfTimeWnd/icon_Anim21" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.318421,0},{0.121547,0},{0.318421,38},{0.121547,38}}" />
+            <Window Type="DejaVu/SlotImage" Name="BuffSelfTimeWnd/icon_Anim21/Slot" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+                <Window Type="DejaVu/StaticImage" Name="BuffSelfTimeWnd/icon_Anim21/Image" >
+                    <Property Name="Image" Value="set:DejaVu image:RedItem" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0263158,0},{0.0263158,0},{0.921053,0},{0.921053,0}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="BuffSelfTimeWnd/icon_Anim22" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.334211,0},{0.121547,0},{0.334211,38},{0.121547,38}}" />
+            <Window Type="DejaVu/SlotImage" Name="BuffSelfTimeWnd/icon_Anim22/Slot" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+                <Window Type="DejaVu/StaticImage" Name="BuffSelfTimeWnd/icon_Anim22/Image" >
+                    <Property Name="Image" Value="set:DejaVu image:RedItem" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0263158,0},{0.0263158,0},{0.921053,0},{0.921053,0}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="BuffSelfTimeWnd/icon_Anim23" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.35,0},{0.121547,0},{0.35,38},{0.121547,38}}" />
+            <Window Type="DejaVu/SlotImage" Name="BuffSelfTimeWnd/icon_Anim23/Slot" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+                <Window Type="DejaVu/StaticImage" Name="BuffSelfTimeWnd/icon_Anim23/Image" >
+                    <Property Name="Image" Value="set:DejaVu image:RedItem" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0263158,0},{0.0263158,0},{0.921053,0},{0.921053,0}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="BuffSelfTimeWnd/icon_Anim24" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.365789,0},{0.121547,0},{0.365789,38},{0.121547,38}}" />
+            <Window Type="DejaVu/SlotImage" Name="BuffSelfTimeWnd/icon_Anim24/Slot" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+                <Window Type="DejaVu/StaticImage" Name="BuffSelfTimeWnd/icon_Anim24/Image" >
+                    <Property Name="Image" Value="set:DejaVu image:RedItem" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0263158,0},{0.0263158,0},{0.921053,0},{0.921053,0}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="BuffSelfTimeWnd/icon_Anim25" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.381579,0},{0.121547,0},{0.381579,38},{0.121547,38}}" />
+            <Window Type="DejaVu/SlotImage" Name="BuffSelfTimeWnd/icon_Anim25/Slot" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+                <Window Type="DejaVu/StaticImage" Name="BuffSelfTimeWnd/icon_Anim25/Image" >
+                    <Property Name="Image" Value="set:DejaVu image:RedItem" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0263158,0},{0.0263158,0},{0.921053,0},{0.921053,0}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="BuffSelfTimeWnd/icon_Anim26" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.397368,0},{0.121547,0},{0.397368,38},{0.121547,38}}" />
+            <Window Type="DejaVu/SlotImage" Name="BuffSelfTimeWnd/icon_Anim26/Slot" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+                <Window Type="DejaVu/StaticImage" Name="BuffSelfTimeWnd/icon_Anim26/Image" >
+                    <Property Name="Image" Value="set:DejaVu image:RedItem" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0263158,0},{0.0263158,0},{0.921053,0},{0.921053,0}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="BuffSelfTimeWnd/icon_Anim27" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.413158,0},{0.121547,0},{0.413158,38},{0.121547,38}}" />
+            <Window Type="DejaVu/SlotImage" Name="BuffSelfTimeWnd/icon_Anim27/Slot" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+                <Window Type="DejaVu/StaticImage" Name="BuffSelfTimeWnd/icon_Anim27/Image" >
+                    <Property Name="Image" Value="set:DejaVu image:RedItem" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0263158,0},{0.0263158,0},{0.921053,0},{0.921053,0}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="BuffSelfTimeWnd/icon_Anim28" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.428947,0},{0.121547,0},{0.428947,38},{0.121547,38}}" />
+            <Window Type="DejaVu/SlotImage" Name="BuffSelfTimeWnd/icon_Anim28/Slot" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+                <Window Type="DejaVu/StaticImage" Name="BuffSelfTimeWnd/icon_Anim28/Image" >
+                    <Property Name="Image" Value="set:DejaVu image:RedItem" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0263158,0},{0.0263158,0},{0.921053,0},{0.921053,0}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="BuffSelfTimeWnd/icon_Anim29" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.444737,0},{0.121547,0},{0.444737,38},{0.121547,38}}" />
+            <Window Type="DejaVu/SlotImage" Name="BuffSelfTimeWnd/icon_Anim29/Slot" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+                <Window Type="DejaVu/StaticImage" Name="BuffSelfTimeWnd/icon_Anim29/Image" >
+                    <Property Name="Image" Value="set:DejaVu image:RedItem" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0263158,0},{0.0263158,0},{0.921053,0},{0.921053,0}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="BuffSelfTimeWnd/icon_Anim30" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.460526,0},{0.121547,0},{0.460526,38},{0.121547,38}}" />
+            <Window Type="DejaVu/SlotImage" Name="BuffSelfTimeWnd/icon_Anim30/Slot" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+                <Window Type="DejaVu/StaticImage" Name="BuffSelfTimeWnd/icon_Anim30/Image" >
+                    <Property Name="Image" Value="set:DejaVu image:RedItem" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0263158,0},{0.0263158,0},{0.921053,0},{0.921053,0}}" />
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

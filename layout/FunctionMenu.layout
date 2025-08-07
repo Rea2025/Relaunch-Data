@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/FunctionMenu" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HorizontalAlignment" Value="Centre" />
+        <Property Name="MousePassThroughEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{-0.000520833,0},{0,0},{0.999479,0},{0.121335,0}}" />
+        <Property Name="VerticalAlignment" Value="Bottom" />
+        <Window Type="DejaVu/StaticImage" Name="Root/FunctionMenu/bg" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HorizontalAlignment" Value="Right" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{-0.009766,0},{0,0},{-0.009766,800},{0,60}}" />
+            <Property Name="VerticalAlignment" Value="Bottom" />
+            <Window Type="DejaVu/ImageButton" Name="Root/FunctionMenu/bg/button_1" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="HoverImage" Value="set:main image:CharaterHover" />
+                <Property Name="NormalImage" Value="set:main image:CharaterNormal" />
+                <Property Name="PushedImage" Value="set:main image:CharaterPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.375,0},{0,0},{-0.3125,0},{0.833333,0}}" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/FunctionMenu/bg/button_2" >
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="HoverImage" Value="set:main image:BagHover" />
+                <Property Name="NormalImage" Value="set:main image:BagNormal" />
+                <Property Name="PushedImage" Value="set:main image:BagPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.3125,0},{0,0},{-0.25,0},{0.833333,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="Root/FunctionMenu/bg/button_2/Num" >
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.6,0},{0,0},{1,0},{0.4,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/FunctionMenu/bg/button_3" >
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="HoverImage" Value="set:main image:DiaryHover" />
+                <Property Name="NormalImage" Value="set:main image:DiaryNormal" />
+                <Property Name="PushedImage" Value="set:main image:DiaryPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.1875,0},{0,0},{-0.125,0},{0.833333,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="Root/FunctionMenu/bg/button_3/Num" >
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.6,0},{0,0},{1,0},{0.4,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/FunctionMenu/bg/button_5" >
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="HoverImage" Value="set:main image:SkillHover" />
+                <Property Name="NormalImage" Value="set:main image:SkillNormal" />
+                <Property Name="PushedImage" Value="set:main image:SkillPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.25,0},{0,0},{-0.1875,0},{0.833333,0}}" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/FunctionMenu/bg/button_6" >
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="HoverImage" Value="set:main image:GuildHover" />
+                <Property Name="NormalImage" Value="set:main image:GuildNormal" />
+                <Property Name="PushedImage" Value="set:main image:GuildPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.125,0},{0,0},{-0.0625,0},{0.833333,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="Root/FunctionMenu/bg/button_6/Num1" >
+                    <Property Name="Image" Value="set:DejaVu image:one" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.06,0},{0.5,0},{0.56,0},{1,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/FunctionMenu/bg/button_6/Num2" >
+                    <Property Name="Image" Value="set:DejaVu image:zero" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.44,0},{0.5,0},{0.94,0},{1,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/FunctionMenu/bg/button_7" >
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="HoverImage" Value="set:main image:ItemMallHover" />
+                <Property Name="NormalImage" Value="set:main image:ItemMallNormal" />
+                <Property Name="PushedImage" Value="set:main image:ItemMallPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.0625,0},{0,0},{0,0},{0.833333,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="Root/FunctionMenu/bg/button_7/Num" >
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.6,0},{0,0},{1,0},{0.4,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/FunctionMenu/bg/button_7/Num1" >
+                    <Property Name="Image" Value="set:DejaVu image:six" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.06,0},{0.5,0},{0.56,0},{1,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/FunctionMenu/bg/button_7/Num2" >
+                    <Property Name="Image" Value="set:DejaVu image:zero" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.44,0},{0.5,0},{0.94,0},{1,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/FunctionMenu/bg/button_8" >
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="HoverImage" Value="set:main image:SystemHover" />
+                <Property Name="NormalImage" Value="set:main image:SystemNormal" />
+                <Property Name="PushedImage" Value="set:main image:SystemPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.0625,0},{0.833333,0}}" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/FunctionMenu/bg/PetStorageBtn" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="HoverImage" Value="set:main image:EudemonStorageHover" />
+                <Property Name="NormalImage" Value="set:main image:EudemonStorageNormal" />
+                <Property Name="PushedImage" Value="set:main image:EudemonStoragePressed" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.5,0},{0,0},{-0.4375,0},{0.833333,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="Root/FunctionMenu/bg/PetStorageBtn/EudemonBattleHint" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorizontalAlignment" Value="Right" />
+                    <Property Name="Image" Value="set:main image:EudemonStorageNormal" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.4,0},{0.4,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/FunctionMenu/bg/PetBtn" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="HoverImage" Value="set:main image:EudemonHover" />
+                <Property Name="NormalImage" Value="set:main image:EudemonNormal" />
+                <Property Name="PushedImage" Value="set:main image:EudemonPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.4375,0},{0,0},{-0.375,0},{0.833333,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="Root/FunctionMenu/bg/PetBtn/Num" >
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.6,0},{0,0},{1,0},{0.4,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/FunctionMenu/bg/CardBtn" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="HoverImage" Value="set:main13 image:CardHover" />
+                <Property Name="NormalImage" Value="set:main13 image:CardNormal" />
+                <Property Name="PushedImage" Value="set:main13 image:CardPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.5625,0},{0,0},{-0.5,0},{0.833333,0}}" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/FunctionMenu/bg/button_9" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="HoverImage" Value="set:main4 image:BattlePassBtnHover" />
+                <Property Name="NormalImage" Value="set:main4 image:BattlePassBtnNormal" />
+                <Property Name="PushedImage" Value="set:main4 image:BattlePassBtnPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.630208,0},{0,0},{-0.570208,0},{0.8,0}}" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/FunctionMenu/bg/UIiconShrink" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HoverImage" Value="set:main2 image:uiiconopen1" />
+                <Property Name="NormalImage" Value="set:main2 image:uiiconopen1" />
+                <Property Name="PushedImage" Value="set:main2 image:uiiconopen1" />
+                <Property Name="UnifiedAreaRect" Value="{{0.9425,0},{-0.583333,0},{0.98,0},{-0.0833333,0}}" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/FunctionMenu/bg/button_10" >
+                <Property Name="DisabledImage" Value="set:main50 image:EventPostPressed" />
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="HoverImage" Value="set:main50 image:EventPostHover" />
+                <Property Name="NormalImage" Value="set:main50 image:EventPostNormal" />
+                <Property Name="PushedImage" Value="set:main50 image:EventPostPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.697917,0},{0,0},{-0.635417,0},{0.833333,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="Root/FunctionMenu/bg/button_10/Num" >
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.6,0},{0,0},{1,0},{0.4,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/FunctionMenu/bg/button_11" >
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="HoverImage" Value="set:main3 image:DungeonBtnHover" />
+                <Property Name="NormalImage" Value="set:main3 image:DungeonBtnNormal" />
+                <Property Name="PushedImage" Value="set:main3 image:DungeonBtnPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.760417,0},{0,0},{-0.700417,0},{0.8,0}}" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/FunctionMenu/bg/button_11-1" >
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="HoverImage" Value="set:main3 image:LeaveDungeonBtnHover" />
+                <Property Name="NormalImage" Value="set:main3 image:LeaveDungeonBtnNormal" />
+                <Property Name="PushedImage" Value="set:main3 image:LeaveDungeonBtnPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.76,0},{0,0},{-0.7,0},{0.8,0}}" />
+                <Property Name="Visible" Value="False" />
+                <Window Type="DejaVu/StaticText" Name="Root/FunctionMenu/bg/button_11-1/Text" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="x離開" />
+                    <Property Name="TextFrame" Value="True" />
+                    <Property Name="TextFrameColour" Value="FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.3125,0}}" />
+                    <Property Name="VerticalAlignment" Value="Bottom" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Embed8" Name="Root/FunctionMenu/BGBar" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.375,0}}" />
+            <Property Name="VerticalAlignment" Value="Bottom" />
+            <Window Type="DejaVu/Static" Name="Root/FunctionMenu/MiniInfoExp" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.010823,0},{0,0},{0.010823,564},{0,78}}" />
+                <Property Name="VerticalAlignment" Value="Bottom" />
+                <Window Type="DejaVu/StaticImage" Name="Root/FunctionMenu/Experience" >
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.248227,0},{-0.217949,0},{0.886525,0},{-2.83122e-007,0}}" />
+                    <Property Name="VerticalAlignment" Value="Bottom" />
+                    <Window Type="DejaVu/ProgressBarBG" Name="Root/FunctionMenu/Experience/ExpBarBG" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.882353,0}}" />
+                        <Property Name="VerticalAlignment" Value="Bottom" />
+                        <Window Type="DejaVu/ProgressBar2" Name="Root/FunctionMenu/Experience/ExpBar" >
+                            <Property Name="CurrentProgress" Value="0" />
+                            <Property Name="StepSize" Value="0.01" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.015278,0},{0.24,0},{0.981945,0},{0.773333,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/FunctionMenu/Experience/Point25" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="Image" Value="set:DejaVu image:LevelPoint" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.240278,0},{0,0},{0.273611,0},{0.705882,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/FunctionMenu/Experience/Point50" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="Image" Value="set:DejaVu image:LevelPoint" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.483333,0},{0,0},{0.516667,0},{0.705882,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/FunctionMenu/Experience/Point75" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="Image" Value="set:DejaVu image:LevelPoint" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.725,0},{0,0},{0.758333,0},{0.705882,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/FunctionMenu/Experience/ExpRateText" >
+                    <Property Name="BackgroundColours" Value="tl:00000000 tr:00000000 bl:00000000 br:00000000" />
+                    <Property Name="FrameColours" Value="tl:00000000 tr:00000000 bl:00000000 br:00000000" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{-0.128205,0},{0.241135,0},{0.25641,0}}" />
+                    <Property Name="VerticalAlignment" Value="Bottom" />
+                    <Window Type="DejaVu/StaticImage" Name="Root/FunctionMenu/Experience/point" >
+                        <Property Name="Image" Value="set:DejaVu image:point" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.367647,0},{0.566667,0},{0.441176,0},{0.9,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/FunctionMenu/Experience/percent" >
+                        <Property Name="Image" Value="set:DejaVu image:percent" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.808824,0},{0,0},{0.992648,0},{0.833333,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Static" Name="Root/FunctionMenu/Experience/IntNum" >
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.367647,0},{1,0}}" />
+                        <Window Type="DejaVu/StaticImage" Name="Root/FunctionMenu/Experience/IntNum/Num1" >
+                            <Property Name="MousePassThroughEnabled" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.6,0},{1,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticImage" Name="Root/FunctionMenu/Experience/IntNum/Num2" >
+                            <Property Name="Image" Value="set:DejaVu image:zero" />
+                            <Property Name="MousePassThroughEnabled" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.42,0},{0,0},{1.02,0},{1,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Static" Name="Root/FunctionMenu/Experience/DecimalNum" >
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.441176,0},{0.133333,0},{0.808823,0},{0.8,0}}" />
+                        <Window Type="DejaVu/StaticImage" Name="Root/FunctionMenu/Experience/DecimalNum/Num1" >
+                            <Property Name="Image" Value="set:DejaVu image:zero" />
+                            <Property Name="MousePassThroughEnabled" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.4,0},{1,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticImage" Name="Root/FunctionMenu/Experience/DecimalNum/Num2" >
+                            <Property Name="Image" Value="set:DejaVu image:zero" />
+                            <Property Name="MousePassThroughEnabled" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.3,0},{0,0},{0.7,0},{1,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticImage" Name="Root/FunctionMenu/Experience/DecimalNum/Num3" >
+                            <Property Name="Image" Value="set:DejaVu image:zero" />
+                            <Property Name="MousePassThroughEnabled" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.6,0},{0,0},{1,0},{1,0}}" />
+                        </Window>
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Static" Name="Root/FunctionMenu/AttackPointBG" >
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.221631,0},{-0.410256,0},{0.91844,0},{0.128206,0}}" />
+                    <Property Name="VerticalAlignment" Value="Bottom" />
+                    <Window Type="DejaVu/StaticImage" Name="Root/FunctionMenu/AttackPoint25" >
+                        <Property Name="Image" Value="set:DejaVu image:AttackPP" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.249364,0},{0.571429,0},{0.300254,0},{1.04762,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/FunctionMenu/AttackPoint50" >
+                        <Property Name="Image" Value="set:DejaVu image:AttackPP" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.470738,0},{0.571429,0},{0.521629,0},{1.04762,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/FunctionMenu/AttackPoint75" >
+                        <Property Name="Image" Value="set:DejaVu image:AttackPP" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.692112,0},{0.571429,0},{0.743003,0},{1.04762,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/FunctionMenu/AttackPoint100" >
+                        <Property Name="Image" Value="set:DejaVu image:AttackPP" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.913486,0},{0.571429,0},{0.964377,0},{1.04762,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Static" Name="Root/FunctionMenu/DefensePointBG" >
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.221631,0},{-0.410256,0},{0.91844,0},{0.128206,0}}" />
+                    <Property Name="VerticalAlignment" Value="Bottom" />
+                    <Window Type="DejaVu/StaticImage" Name="Root/FunctionMenu/DefensePoint25" >
+                        <Property Name="Image" Value="set:DejaVu image:DefendPP" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.249364,0},{0.309524,0},{0.300254,0},{0.785714,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/FunctionMenu/DefensePoint50" >
+                        <Property Name="Image" Value="set:DejaVu image:DefendPP" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.470738,0},{0.309524,0},{0.521629,0},{0.785714,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/FunctionMenu/DefensePoint75" >
+                        <Property Name="Image" Value="set:DejaVu image:DefendPP" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.692112,0},{0.309524,0},{0.743003,0},{0.785714,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/FunctionMenu/DefensePoint100" >
+                        <Property Name="Image" Value="set:DejaVu image:DefendPP" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.913486,0},{0.309524,0},{0.964377,0},{0.785714,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Static" Name="Root/FunctionMenu/AdventurePointBG" >
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.221631,0},{-0.410256,0},{0.91844,0},{0.128206,0}}" />
+                    <Property Name="VerticalAlignment" Value="Bottom" />
+                    <Window Type="DejaVu/StaticImage" Name="Root/FunctionMenu/AdventurePoint100" >
+                        <Property Name="Font" Value="F001-scale" />
+                        <Property Name="Image" Value="set:DejaVu image:AdventurePP" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.913486,0},{0.047619,0},{0.964377,0},{0.52381,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

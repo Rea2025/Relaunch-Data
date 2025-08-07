@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="ItemMallFiliter" >
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.167969,0},{0.561198,0}}" />
+        <Window Type="DejaVu/EmbedText2" Name="ItemMallFiliter/Column" >
+            <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+            <Property Name="Text" Value="      雙刀" />
+            <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0510441,0},{0,157},{0.0510441,25}}" />
+            <Window Type="DejaVu/ImageCheckbox" Name="ItemMallFiliter/Column/CheckBox" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="DisabledImage" Value="set:DejaVu image:TreeListOpenedNormal" />
+                <Property Name="HoverImage" Value="set:DejaVu image:TreeListClosed" />
+                <Property Name="ID" Value="1" />
+                <Property Name="NormalImage" Value="set:DejaVu image:TreeListClosedNormal" />
+                <Property Name="PushedImage" Value="set:DejaVu image:TreeListOpenedNormal" />
+                <Property Name="UnifiedAreaRect" Value="{{0.022026,0},{0.208333,0},{0.123937,0},{0.800926,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Embed2" Name="ItemMallFiliter/Item" >
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.215777,0},{0,157},{0.215777,25}}" />
+            <Window Type="DejaVu/SlotImage" Name="ItemMallFiliter/Item/Slot" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="ID" Value="1" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.902536,0},{0.104167,0},{0.969203,0},{0.770834,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="ItemMallFiliter/Item/FilterTime" >
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="11:00~13:00" />
+                <Property Name="TextColours" Value="tl:FFFFFF00 tr:FFFFFF00 bl:FFFFFF00 br:FFFFFF00" />
+                <Property Name="UnifiedAreaRect" Value="{{0.286895,0},{0.32954,0},{0.633188,0},{0.633888,0}}" />
+                <Property Name="Visible" Value="False" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="ItemMallFiliter/Item/Difficult" >
+                <Property Name="ID" Value="2" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="個人" />
+                <Property Name="UnifiedAreaRect" Value="{{0.194082,0},{0.32954,0},{0.408876,0},{0.633888,0}}" />
+                <Property Name="Visible" Value="False" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="ItemMallFiliter/Item/FilterTitle" >
+                <Property Name="ID" Value="3" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="哈哈哈哈哈哈哈哈哈" />
+                <Property Name="UnifiedAreaRect" Value="{{0.141509,0},{0,0},{0.801887,0},{0.96,0}}" />
+            </Window>
+            <Window Type="DejaVu/Checkbox" Name="ItemMallFiliter/Item/Checkbox" >
+                <Property Name="ID" Value="5" />
+                <Property Name="UnifiedAreaRect" Value="{{0.022026,0},{0.2,0},{0.0927807,0},{0.8,0}}" />
+                <Property Name="Visible" Value="False" />
+            </Window>
+            <Window Type="DejaVu/Zframe2" Name="ItemMallFiliter/Item/SelectFrame" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

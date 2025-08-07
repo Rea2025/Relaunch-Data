@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/OptionMenuWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="Text" Value="x系統選項" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="TitlebarImage" Value="set:main image:SystemNormal" />
+        <Property Name="UnifiedAreaRect" Value="{{0.21582,0},{0.302084,0},{0.21582,582},{0.302084,354}}" />
+        <Window Type="DejaVu/Embed" Name="Root/OptionMenuWnd/BG" >
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Embed2" Name="Root/OptionMenuWnd/BG/background" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.017668,0},{0.036496,0},{0.300354,0},{0.963503,0}}" />
+                <Window Type="DejaVu/Button" Name="Root/OptionMenuWnd/Btn1" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="x系統設定" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.1875,0},{0.166667,0},{0.8125,0},{0.269842,0}}" />
+                </Window>
+                <Window Type="DejaVu/Button" Name="Root/OptionMenuWnd/Btn3" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="x介面歸位" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.1875,0},{0.283465,0},{0.8125,0},{0.385827,0}}" />
+                </Window>
+                <Window Type="DejaVu/Button" Name="Root/OptionMenuWnd/Btn4" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="x繼續遊戲" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.1875,0},{0.857143,0},{0.8125,0},{0.960318,0}}" />
+                </Window>
+                <Window Type="DejaVu/Button" Name="Root/OptionMenuWnd/Btn5" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="x返回選角" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.1875,0},{0.405512,0},{0.8125,0},{0.507874,0}}" />
+                </Window>
+                <Window Type="DejaVu/Button" Name="Root/OptionMenuWnd/Btn6" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="x離開遊戲" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.1875,0},{0.527559,0},{0.8125,0},{0.629921,0}}" />
+                </Window>
+                <Window Type="DejaVu/Button" Name="Root/OptionMenuWnd/ChangeZoneBtn" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="x切換分流" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.1875,0},{0.0393701,0},{0.8125,0},{0.141732,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed2" Name="Root/OptionMenuWnd/BG/LoginReward/BG/RewardBG" >
+                <Property Name="UnifiedAreaRect" Value="{{0.309187,0},{0.036496,0},{0.46113,0},{0.343065,0}}" />
+                <Window Type="DejaVu/EmbedTextLab7" Name="Root/OptionMenuWnd/BG/LoginReward/BG/RewardBG0/Title" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="x第一天" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.023256,0},{0.02381,0},{0.976744,0},{0.321429,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/OptionMenuWnd/BG/LoginReward/BG/RewardBG0/Slot" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.267442,0},{0.404762,0},{0.755814,0},{0.904762,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/OptionMenuWnd/BG/LoginReward/BG/RewardBG0/Mark" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="Image" Value="set:main image:LoginMark" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.186047,0},{0.571429,0},{0.534884,0},{0.928571,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed2" Name="Root/OptionMenuWnd/BG/LoginReward/BG/RewardBG1" >
+                <Property Name="UnifiedAreaRect" Value="{{0.462766,0},{0.036765,0},{0.614709,0},{0.343334,0}}" />
+                <Window Type="DejaVu/EmbedTextLab7" Name="Root/OptionMenuWnd/BG/LoginReward/BG/RewardBG1/Title" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="ID" Value="1" />
+                    <Property Name="Text" Value="x第二天" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.023256,0},{0.02381,0},{0.976744,0},{0.321429,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/OptionMenuWnd/BG/LoginReward/BG/RewardBG1/Slot" >
+                    <Property Name="ID" Value="1" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.267442,0},{0.404762,0},{0.755814,0},{0.904762,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/OptionMenuWnd/BG/LoginReward/BG/RewardBG1/Mark" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="ID" Value="1" />
+                    <Property Name="Image" Value="set:main image:LoginMark" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.186047,0},{0.571429,0},{0.534884,0},{0.928571,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed2" Name="Root/OptionMenuWnd/BG/LoginReward/BG/RewardBG2" >
+                <Property Name="UnifiedAreaRect" Value="{{0.616608,0},{0.036496,0},{0.768551,0},{0.343065,0}}" />
+                <Window Type="DejaVu/EmbedTextLab7" Name="Root/OptionMenuWnd/BG/LoginReward/BG/RewardBG2/Title" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="ID" Value="2" />
+                    <Property Name="Text" Value="x第三天" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.023256,0},{0.02381,0},{0.976744,0},{0.321429,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/OptionMenuWnd/BG/LoginReward/BG/RewardBG2/Slot" >
+                    <Property Name="ID" Value="2" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.267442,0},{0.404762,0},{0.755814,0},{0.904762,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/OptionMenuWnd/BG/LoginReward/BG/RewardBG2/Mark" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="ID" Value="2" />
+                    <Property Name="Image" Value="set:main image:LoginMark" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.186047,0},{0.571429,0},{0.534884,0},{0.928571,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed2" Name="Root/OptionMenuWnd/BG/LoginReward/BG/RewardBG3" >
+                <Property Name="UnifiedAreaRect" Value="{{0.309187,0},{0.346715,0},{0.46113,0},{0.653284,0}}" />
+                <Window Type="DejaVu/EmbedTextLab7" Name="Root/OptionMenuWnd/BG/LoginReward/BG/RewardBG3/Title" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="ID" Value="3" />
+                    <Property Name="Text" Value="x第四天" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.023256,0},{0.02381,0},{0.976744,0},{0.321429,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/OptionMenuWnd/BG/LoginReward/BG/RewardBG3/Slot" >
+                    <Property Name="ID" Value="3" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.267442,0},{0.404762,0},{0.755814,0},{0.904762,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/OptionMenuWnd/BG/LoginReward/BG/RewardBG3/Mark" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="ID" Value="3" />
+                    <Property Name="Image" Value="set:main image:LoginMark" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.186047,0},{0.571429,0},{0.534884,0},{0.928571,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed2" Name="Root/OptionMenuWnd/BG/LoginReward/BG/RewardBG4" >
+                <Property Name="UnifiedAreaRect" Value="{{0.462766,0},{0.345588,0},{0.614709,0},{0.652157,0}}" />
+                <Window Type="DejaVu/EmbedTextLab7" Name="Root/OptionMenuWnd/BG/LoginReward/BG/RewardBG4/Title" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="ID" Value="4" />
+                    <Property Name="Text" Value="x第五天" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.023256,0},{0.02381,0},{0.976744,0},{0.321429,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/OptionMenuWnd/BG/LoginReward/BG/RewardBG4/Slot" >
+                    <Property Name="ID" Value="4" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.267442,0},{0.404762,0},{0.755814,0},{0.904762,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/OptionMenuWnd/BG/LoginReward/BG/RewardBG4/Mark" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="ID" Value="4" />
+                    <Property Name="Image" Value="set:main image:LoginMark" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.186047,0},{0.571429,0},{0.534884,0},{0.928571,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed2" Name="Root/OptionMenuWnd/BG/LoginReward/BG/RewardBG5" >
+                <Property Name="UnifiedAreaRect" Value="{{0.616608,0},{0.346715,0},{0.768551,0},{0.653284,0}}" />
+                <Window Type="DejaVu/EmbedTextLab7" Name="Root/OptionMenuWnd/BG/LoginReward/BG/RewardBG5/Title" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="ID" Value="5" />
+                    <Property Name="Text" Value="x第六天" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.023256,0},{0.02381,0},{0.976744,0},{0.321429,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/OptionMenuWnd/BG/LoginReward/BG/RewardBG5/Slot" >
+                    <Property Name="ID" Value="5" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.267442,0},{0.404762,0},{0.755814,0},{0.904762,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/OptionMenuWnd/BG/LoginReward/BG/RewardBG5/Mark" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="ID" Value="5" />
+                    <Property Name="Image" Value="set:main image:LoginMark" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.186047,0},{0.571429,0},{0.534884,0},{0.928571,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed2" Name="Root/OptionMenuWnd/BG/LoginReward/BG/RewardBG6" >
+                <Property Name="UnifiedAreaRect" Value="{{0.309187,0},{0.656934,0},{0.46113,0},{0.963503,0}}" />
+                <Window Type="DejaVu/EmbedTextLab7" Name="Root/OptionMenuWnd/BG/LoginReward/BG/RewardBG6/Title" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="ID" Value="6" />
+                    <Property Name="Text" Value="x第七天" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.023256,0},{0.02381,0},{0.976744,0},{0.321429,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/OptionMenuWnd/BG/LoginReward/BG/RewardBG6/Slot" >
+                    <Property Name="ID" Value="6" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.267442,0},{0.404762,0},{0.755814,0},{0.904762,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/OptionMenuWnd/BG/LoginReward/BG/RewardBG6/Mark" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="ID" Value="6" />
+                    <Property Name="Image" Value="set:main image:LoginMark" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.186047,0},{0.571429,0},{0.534884,0},{0.928571,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed2" Name="Root/OptionMenuWnd/BG/LoginReward/BG/RewardBG7" >
+                <Property Name="UnifiedAreaRect" Value="{{0.462898,0},{0.656934,0},{0.614841,0},{0.963503,0}}" />
+                <Window Type="DejaVu/EmbedTextLab7" Name="Root/OptionMenuWnd/BG/LoginReward/BG/RewardBG7/Title" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="ID" Value="7" />
+                    <Property Name="Text" Value="x第八天" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.023256,0},{0.02381,0},{0.976744,0},{0.321429,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/OptionMenuWnd/BG/LoginReward/BG/RewardBG7/Slot" >
+                    <Property Name="ID" Value="7" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.267442,0},{0.404762,0},{0.755814,0},{0.904762,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/OptionMenuWnd/BG/LoginReward/BG/RewardBG7/Mark" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="ID" Value="7" />
+                    <Property Name="Image" Value="set:main image:LoginMark" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.186047,0},{0.571429,0},{0.534884,0},{0.928571,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed2" Name="Root/OptionMenuWnd/BG/LoginReward/BG/RewardBG8" >
+                <Property Name="UnifiedAreaRect" Value="{{0.616608,0},{0.656934,0},{0.768551,0},{0.963503,0}}" />
+                <Window Type="DejaVu/EmbedTextLab7" Name="Root/OptionMenuWnd/BG/LoginReward/BG/RewardBG8/Title" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="ID" Value="8" />
+                    <Property Name="Text" Value="x第九天" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.023256,0},{0.02381,0},{0.976744,0},{0.321429,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/OptionMenuWnd/BG/LoginReward/BG/RewardBG8/Slot" >
+                    <Property Name="ID" Value="8" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.267442,0},{0.404762,0},{0.755814,0},{0.904762,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/OptionMenuWnd/BG/LoginReward/BG/RewardBG8/Mark" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="ID" Value="8" />
+                    <Property Name="Image" Value="set:main image:LoginMark" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.186047,0},{0.571429,0},{0.534884,0},{0.928571,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed2" Name="Root/OptionMenuWnd/BG/LoginReward/BG/RewardBG9" >
+                <Property Name="UnifiedAreaRect" Value="{{0.776596,0},{0.036765,0},{0.981543,0},{0.452823,0}}" />
+                <Window Type="DejaVu/EmbedTextLab7" Name="Root/OptionMenuWnd/BG/LoginReward/BG/RewardBG9/Title" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="ID" Value="9" />
+                    <Property Name="Text" Value="x第十天" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.017241,0},{0.017544,0},{0.982758,0},{0.236842,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/OptionMenuWnd/BG/LoginReward/BG/RewardBG9/Mark" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="ID" Value="9" />
+                    <Property Name="Image" Value="set:main image:LoginMark" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.172414,0},{0.526316,0},{0.517241,0},{0.877193,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/OptionMenuWnd/BG/LoginReward/BG/RewardBG9/CarvingFrame" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Image" Value="set:main image:LoginRewardFrame" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.189655,0},{0.27193,0},{0.810345,0},{0.903509,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/OptionMenuWnd/BG/LoginReward/BG/RewardBG9/Slot" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                    <Property Name="ID" Value="9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.342105,0},{0.491379,0},{0.842105,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/EmbedText2" Name="Root/OptionMenuWnd/BG/LoginReward/BG/Text" >
+                <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                <Property Name="LinespaceWindow" Value="True" />
+                <Property Name="Text" Value="累積登入每天都可以獲得獎勵，每十天將會重置累積天數。" />
+                <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+                <Property Name="UnifiedAreaRect" Value="{{0.777385,0},{0.470803,0},{0.982332,0},{0.963504,0}}" />
+                <Property Name="VertFormatting" Value="TopAligned" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

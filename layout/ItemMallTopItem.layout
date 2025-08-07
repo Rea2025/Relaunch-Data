@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/Embed3" Name="Root/ItemMallTopItem" >
+        <Property Name="UnifiedAreaRect" Value="{{0.00488069,0},{0.00490509,0},{0.00488069,230},{0.00490509,102}}" />
+        <Property Name="UnifiedMinSize" Value="{{0,175},{0,38}}" />
+        <Window Type="DejaVu/SlotImage" Name="Root/ItemMallTopItem/Slot" >
+            <Property Name="UnifiedAreaRect" Value="{{0.0434783,0},{0.0980392,0},{0.226087,0},{0.509804,0}}" />
+            <Property Name="UnifiedMinSize" Value="{{0,34},{0,34}}" />
+            <Window Type="DejaVu/StaticText" Name="Root/ItemMallTopItem/Slot/SPText" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="x特賣" />
+                <Property Name="TextColours" Value="tl:FFFF0000 tr:FFFF0000 bl:FFFF0000 br:FFFF0000" />
+                <Property Name="UnifiedAreaRect" Value="{{0.00534784,0},{0,0},{1.00535,0},{0.47619,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/EmbedTextLab" Name="Root/ItemMallTopItem/CoinText" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorzFormatting" Value="RightAligned" />
+            <Property Name="Text" Value="99999" />
+            <Property Name="UnifiedAreaRect" Value="{{0.673913,0},{0.392157,0},{0.869565,0},{0.588235,0}}" />
+            <Window Type="DejaVu/StaticTextLab" Name="Root/ItemMallTopItem/CoinText/Line" >
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="-----------" />
+                <Property Name="TextColours" Value="tl:FFFF0000 tr:FFFF0000 bl:FFFF0000 br:FFFF0000" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.5,0}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/ItemMallTopItem/CoinImage" >
+            <Property Name="Image" Value="set:main image:ItemMallcoin1" />
+            <Property Name="UnifiedAreaRect" Value="{{0.891304,0},{0.421569,0},{0.956522,0},{0.568627,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/ItemMallTopItem/BuyBtn" >
+            <Property Name="UnifiedAreaRect" Value="{{0.626087,0},{0.647059,0},{0.956522,0},{0.901961,0}}" />
+        </Window>
+        <Window Type="DejaVu/EmbedTextLab5" Name="Root/ItemMallTopItem/Title" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.269565,0},{0.098039,0},{0.956522,0},{0.343137,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticTextLab" Name="Root/ItemMallTopItem/LevelLimit" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="Text" Value="限制等級：99" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0434783,0},{0.676471,0},{0.413043,0},{0.872549,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/ItemMallTopItem/CoinSPImage" >
+            <Property Name="Image" Value="set:main image:ItemMallcoin1" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.543478,0},{0.421569,0},{0.608696,0},{0.568627,0}}" />
+        </Window>
+        <Window Type="DejaVu/EmbedTextLab" Name="Root/ItemMallTopItem/CoinSPText" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorzFormatting" Value="RightAligned" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="Text" Value="99999" />
+            <Property Name="UnifiedAreaRect" Value="{{0.304348,0},{0.392157,0},{0.517391,0},{0.588235,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

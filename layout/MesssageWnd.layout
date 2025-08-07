@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/MesssageWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="Text" Value="x編輯簡介" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.367187,0},{0.374661,0},{0.367187,290},{0.374661,159}}" />
+        <Window Type="DejaVu/Embed3" Name="Root/MesssageWnd/frame/bg" >
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Embed4" Name="Root/MesssageWnd/frame/bg/background" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.018519,0},{0.042735,0},{0.981482,0},{0.769231,0}}" />
+                <Window Type="DejaVu/MultiLineEditbox" Name="Root/MesssageWnd/EditWnd" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="NormalTextColour" Value="FFFFFFFF" />
+                    <Property Name="Text" >123
+</Property>
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0192308,0},{0.0588235,0},{0.980769,0},{0.941176,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/MesssageWnd/OKBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="x確定" />
+                <Property Name="UnifiedAreaRect" Value="{{0.466667,0},{0.811966,0},{0.718518,0},{0.957265,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/MesssageWnd/CancelBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="x取消" />
+                <Property Name="UnifiedAreaRect" Value="{{0.72963,0},{0.811966,0},{0.981481,0},{0.957265,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

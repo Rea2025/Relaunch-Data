@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="HouseFarmWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.154688,0},{0.10116,0},{0.154688,515},{0.10116,427}}" />
+        <Window Type="DejaVu/Embed" Name="HouseFarmWnd/Embed" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{-0.000521,0},{0.001054,0},{1.00148,0},{1.00105,0}}" />
+            <Window Type="DejaVu/Static" Name="HouseFarmWnd/Embed/UseItem" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.02004,0},{0.028818,0},{0.981964,0},{0.308357,0}}" />
+                <Window Type="DejaVu/Embed2" Name="HouseFarmWnd/Embed/UseItem/Bg" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{-0.000742,0},{0.098515,0},{0.999261,0},{0.995422,0}}" />
+                    <Window Type="DejaVu/Embed2" Name="HouseFarmWnd/Embed/UseItem/Bg/ItemBg" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.020833,0},{0.287356,0},{0.541666,0},{0.885057,0}}" />
+                        <Window Type="DejaVu/SlotImage" Name="HouseFarmWnd/Embed/UseItem/Bg/ItemBg/Item" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.02,0},{0.096154,0},{0.188,0},{0.903846,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticText" Name="HouseFarmWnd/Embed/UseItem/Bg/ItemBg/ItemText" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="Text" Value="x放入種子" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.208,0},{0.279951,0},{0.96,0},{0.664566,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Embed2" Name="HouseFarmWnd/Embed/UseItem/Bg/ItemmallBg" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.5625,0},{0.282269,0},{0.979167,0},{0.87997,0}}" />
+                        <Window Type="DejaVu/SlotImage" Name="HouseFarmWnd/Embed/UseItem/Bg/ItemmallBg/Item" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.025,0},{0.0961538,0},{0.235,0},{0.903846,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticTextLab" Name="HouseFarmWnd/Embed/UseItem/Bg/ItemmallBg/ItemText" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="Text" Value="x放入虛寶" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.26,0},{0.288462,0},{0.95,0},{0.673077,0}}" />
+                        </Window>
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed4" Name="HouseFarmWnd/Embed/UseItem/Title" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.02079,0},{0,0},{0.33264,0},{0.257732,0}}" />
+                    <Window Type="DejaVu/StaticImage" Name="HouseFarmWnd/Embed/UseItem/Title/Image" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Image" Value="set:DejaVu image:Image24" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticText" Name="HouseFarmWnd/Embed/UseItem/Title/Text" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="x栽種作物" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.2,0},{0.866667,0},{0.8,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="HouseFarmWnd/Embed/Grow" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.02004,0},{0.322767,0},{0.983968,0},{0.881845,0}}" />
+                <Window Type="DejaVu/Embed2" Name="HouseFarmWnd/Embed/Grow/bg" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0515464,0},{0.997921,0},{1,0}}" />
+                    <Window Type="DejaVu/StaticImage" Name="HouseFarmWnd/Embed/Grow/bg/WaterImage" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Image" Value="set:main2 image:EudemonEquipBG" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.020292,0},{0.136612,0},{0.291125,0},{0.571395,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticText" Name="HouseFarmWnd/Embed/Grow/bg/WaterText" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="x澆水次數" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.302083,0},{0.187812,0},{0.489583,0},{0.296508,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticText" Name="HouseFarmWnd/Embed/Grow/bg/WaterNum" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="x00/99" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.302083,0},{0.353261,0},{0.489583,0},{0.461957,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="HouseFarmWnd/Embed/Grow/bg/TimeImage" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Image" Value="set:main9 image:WeaponCase1" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0.13587,0},{0.770833,0},{0.570653,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticText" Name="HouseFarmWnd/Embed/Grow/bg/TimeText" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="x剩餘時間" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.791667,0},{0.190217,0},{0.979167,0},{0.298913,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticText" Name="HouseFarmWnd/Embed/Grow/bg/Time" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="x00:00:00" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.791667,0},{0.353261,0},{0.979167,0},{0.461957,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Embed2" Name="HouseFarmWnd/Embed/Grow/bg/ProgressBarEmbed" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.020833,0},{0.597826,0},{0.979166,0},{0.945652,0}}" />
+                        <Window Type="DejaVu/StaticText" Name="HouseFarmWnd/Embed/Grow/bg/ProgressBarEmbed/Text" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="Text" Value="x作物成長率" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0223245,0},{0.15625,0},{0.272325,0},{0.46875,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/ProgressBarBG" Name="HouseFarmWnd/Embed/Grow/bg/ProgressBarEmbed/ProgressBarBG" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0217391,0},{0.625,0},{0.978261,0},{0.859375,0}}" />
+                            <Window Type="DejaVu/ProgressBar2" Name="HouseFarmWnd/Embed/Grow/bg/ProgressBarEmbed/ProgressBarBG/Bar" >
+                                <Property Name="CurrentProgress" Value="0" />
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="StepSize" Value="0.01" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.015909,0},{0.362838,0},{0.975093,0},{0.696171,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/StaticText" Name="HouseFarmWnd/Embed/Grow/bg/ProgressBarEmbed/FinishText" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="HorzFormatting" Value="RightAligned" />
+                            <Property Name="Text" Value="x99%" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.652759,0},{0.150768,0},{0.978846,0},{0.463268,0}}" />
+                        </Window>
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed4" Name="HouseFarmWnd/Embed/Grow/Title" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.02025,0},{-0.00228129,0},{0.3321,0},{0.126585,0}}" />
+                    <Window Type="DejaVu/StaticImage" Name="HouseFarmWnd/Embed/Grow/Title/Image" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Image" Value="set:DejaVu image:Image22" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticText" Name="HouseFarmWnd/Embed/Grow/Title/Text" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="x成長狀態" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.2,0},{0.866667,0},{0.8,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Button2" Name="HouseFarmWnd/Embed/ClearMoundBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="x剷除" />
+                <Property Name="UnifiedAreaRect" Value="{{0.02004,0},{0.896254,0},{0.172345,0},{0.971182,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button2" Name="HouseFarmWnd/Embed/HarvestBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="x採收" />
+                <Property Name="UnifiedAreaRect" Value="{{0.182365,0},{0.896254,0},{0.33467,0},{0.971182,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button2" Name="HouseFarmWnd/Embed/CropBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="x種植" />
+                <Property Name="UnifiedAreaRect" Value="{{0.829659,0},{0.896254,0},{0.981964,0},{0.971182,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/Embed3" Name="Root/DamageDisplay" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.125691,0},{0.34576,0},{0.482044,0}}" />
+        <Window Type="DejaVu/EmbedTextLab7" Name="Root/DamageDisplay/TitleBar" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="Text" Value="x戰況" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0105708,0},{0.0348837,0},{0.993658,0},{0.135659,0}}" />
+            <Window Type="DejaVu/ImageButton" Name="Root/DamageDisplay/TitleBar/ExitBtn" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HoverImage" Value="set:main image:CloseBarBtnHover" />
+                <Property Name="NormalImage" Value="set:main image:CloseBarBtnNormal" />
+                <Property Name="PushedImage" Value="set:main image:CloseBarBtnPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0.88172,0},{0.0384615,0},{0.88172,24},{0.0384615,24}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/ImageButton" Name="Root/DamageDisplay/dropdown_add" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HoverImage" Value="set:main image:AddBarBtnHover" />
+            <Property Name="NormalImage" Value="set:main image:AddBarBtnNormal" />
+            <Property Name="PushedImage" Value="set:main image:AddBarBtnPressed" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0211416,0},{0.158915,0},{0.0718816,0},{0.251938,0}}" />
+        </Window>
+        <Window Type="DejaVu/ImageButton" Name="Root/DamageDisplay/dropdown_sub" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HoverImage" Value="set:main image:SmallZoomOutHover" />
+            <Property Name="NormalImage" Value="set:main image:SmallZoomOutNormal" />
+            <Property Name="PushedImage" Value="set:main image:SmallZoomOutPressed" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0211416,0},{0.158915,0},{0.0718816,0},{0.251938,0}}" />
+        </Window>
+        <Window Type="DejaVu/Embed3" Name="Root/DamageDisplay/Battletime" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0845666,0},{0.158915,0},{0.302326,0},{0.271318,0}}" />
+            <Window Type="DejaVu/StaticText" Name="Root/DamageDisplay/Battletime/Text" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="Text" Value="x戰鬥時間" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Embed3" Name="Root/DamageDisplay/Total damage" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.433404,0},{0.158915,0},{0.651163,0},{0.271318,0}}" />
+            <Window Type="DejaVu/StaticText" Name="Root/DamageDisplay/Total damage/Test" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="Text" Value="X總傷害值" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Embed3" Name="Root/DamageDisplay/DPS" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.739958,0},{0.158915,0},{0.957717,0},{0.271318,0}}" />
+            <Window Type="DejaVu/StaticText" Name="Root/DamageDisplay/DPS/Test" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="Text" Value="XDPS" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

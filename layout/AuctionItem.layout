@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/StaticImage" Name="AuctionItem" >
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,303},{0,36}}" />
+        <Window Type="DejaVu/Embed2" Name="AuctionItem/IconFrame" >
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.125413,0},{1,0}}" />
+            <Window Type="DejaVu/SlotImage" Name="AuctionItem/Icon" >
+                <Property Name="UnifiedAreaRect" Value="{{0.105263,0},{0.0555556,0},{0.947368,0},{0.944444,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="AuctionItem/Number" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="Text" Value="999" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.131579,0},{-0.0833333,0},{0.552632,0},{0.361111,0}}" />
+                <Property Name="VertFormatting" Value="BottomAligned" />
+                <Property Name="VerticalAlignment" Value="Bottom" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Embed2" Name="AuctionItem/InfoFrame" >
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="UnifiedAreaRect" Value="{{0.125413,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/StaticTextLab" Name="AuctionItem/Name" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="一二三四五六七八九十一二" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0150943,0},{0.0526316,0},{0.890566,0},{0.552632,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="AuctionItem/GoldBG" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="Image" Value="set:DejaVu image:GoldBG" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.241509,0},{0,0},{0.0528302,0},{0.5,0}}" />
+                <Property Name="VerticalAlignment" Value="Bottom" />
+                <Window Type="DejaVu/StaticTextLab" Name="AuctionItem/Gold" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="RightAligned" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="Text" Value="123456" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0526316,0},{0.818182,0},{0.947368,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="AuctionItem/SilverBG" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="Image" Value="set:DejaVu image:SilverBG" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.120755,0},{0,0},{0,0},{0.5,0}}" />
+                <Property Name="VerticalAlignment" Value="Bottom" />
+                <Window Type="DejaVu/StaticTextLab" Name="AuctionItem/Silver" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="Text" Value="22" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.135135,0},{0.0526316,0},{0.810811,0},{0.947368,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="AuctionItem/CopperBG" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="Image" Value="set:DejaVu image:CopperBG" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.120755,0},{0.5,0}}" />
+                <Property Name="VerticalAlignment" Value="Bottom" />
+                <Window Type="DejaVu/StaticTextLab" Name="AuctionItem/Copper" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="Text" >22
+</Property>
+                    <Property Name="UnifiedAreaRect" Value="{{0.135135,0},{0.0526316,0},{0.810811,0},{0.947368,0}}" />
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

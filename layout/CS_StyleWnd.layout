@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/CS_StyleWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HorizontalAlignment" Value="Right" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.2,0},{0.7,0}}" />
+        <Window Type="DejaVu/FrameWindow" Name="Root/CS_StyleWnd/Background" >
+            <Property Name="HelpButtonEnabled" Value="False" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Property Name="TitlebarEnabled" Value="True" />
+            <Property Name="TitlebarFont" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Embed" Name="Root/CS_StyleWnd/Background/Border_PreView" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.4,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="Root/CS_StyleWnd/Background/Border_PreView/PreView" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    <Property Name="VerticalAlignment" Value="Centre" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/ScrollablePane" Name="Root/CS_StyleWnd/Background/ScrollablePane" >
+                <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                <Property Name="HorzOverlapSize" Value="0.01" />
+                <Property Name="HorzScrollPosition" Value="0" />
+                <Property Name="HorzStepSize" Value="0.1" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.41,0},{1,0},{1,0}}" />
+                <Property Name="VertOverlapSize" Value="0.01" />
+                <Property Name="VertScrollPosition" Value="0" />
+                <Property Name="VertStepSize" Value="0.1" />
+                <AutoWindow NameSuffix="__auto_container__" >
+                    <Property Name="ChildExtentsArea" Value="l:0 t:0 r:0 b:0" />
+                    <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                    <Property Name="MouseInputPropagationEnabled" Value="True" />
+                </AutoWindow>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Embed" Name="Root/CS_StyleWnd/Background/ScrollablePane/Border" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Embed" Name="Root/CS_StyleWnd/Background/Border_Face" >
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.5,0},{0.05,0}}" />
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_StyleWnd/Background/Border_Face/Text_Face" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="臉型" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0606061,0},{0.25,0},{0.30303,0},{0.75,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed" Name="Root/CS_StyleWnd/Background/Border_Hair" >
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0,0},{1,0},{0.05,0}}" />
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_StyleWnd/Background/Border_Hair/Text_Hair" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="髮型" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0606061,0},{0.25,0},{0.30303,0},{0.75,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed" Name="Root/CS_StyleWnd/Background/Border_HairColor" >
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0.05,0},{1,0},{0.1,0}}" />
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_StyleWnd/Background/Border_HairColor/Text_HairColor" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="髮色" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0606061,0},{0.25,0},{0.30303,0},{0.75,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed" Name="Root/CS_StyleWnd/Background/Border_SkinColor" >
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0.1,0},{1,0},{0.15,0}}" />
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_StyleWnd/Background/Border_SkinColor/Text_SkinColor" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="膚色" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0606061,0},{0.25,0},{0.30303,0},{0.75,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed" Name="Root/CS_StyleWnd/Background/Border_EyesColor" >
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.05,0},{0.5,0},{0.1,0}}" />
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_StyleWnd/Background/Border_EyesColor/Text_EyesColor" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="瞳色" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0606061,0},{0.25,0},{0.30303,0},{0.75,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed" Name="Root/CS_StyleWnd/Background/Border_Weapon" >
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.15,0},{1,0},{0.25,0}}" />
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_StyleWnd/Background/Border_Weapon/Text_Weapon" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="武器" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.030303,0},{0.357143,0},{0.151515,0},{0.642857,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/CS_StyleWnd/Background/Border_Weapon/Edit_Weapon" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.181818,0},{0.142857,0},{0.424242,0},{0.428571,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/CS_StyleWnd/Background/Border_Weapon/Edit_Effect" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.181818,0},{0.571429,0},{0.424242,0},{0.857143,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed" Name="Root/CS_StyleWnd/Background/Border_Chest" >
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.25,0},{1,0},{0.45,0}}" />
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_StyleWnd/Background/Border_Chest/Text_Chest" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="衣服" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.030303,0},{0.375,0},{0.151515,0},{0.5,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/CS_StyleWnd/Background/Border_Chest/Edit_Chest" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.181818,0},{0.0625,0},{0.424242,0},{0.1875,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/CS_StyleWnd/Background/Border_Chest/Edit_ChestColor_1" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.181818,0},{0.4375,0},{0.424242,0},{0.5625,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/CS_StyleWnd/Background/Border_Chest/Edit_ChestColor_2" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.181818,0},{0.625,0},{0.424242,0},{0.75,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/CS_StyleWnd/Background/Border_Chest/Edit_ChestColor_3" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.181818,0},{0.8125,0},{0.424242,0},{0.9375,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/CS_StyleWnd/Background/Border_Chest/Edit_Effect" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.181818,0},{0.25,0},{0.424242,0},{0.375,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed" Name="Root/CS_StyleWnd/Background/Border_Head" >
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.45,0},{1,0},{0.65,0}}" />
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_StyleWnd/Background/Border_Head/Text_Head" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="頭部" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.030303,0},{0.375,0},{0.151515,0},{0.5,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/CS_StyleWnd/Background/Border_Head/Edit_Head" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.181818,0},{0.0625,0},{0.424242,0},{0.1875,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/CS_StyleWnd/Background/Border_Head/Edit_HeadColor_1" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.181818,0},{0.4375,0},{0.424242,0},{0.5625,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/CS_StyleWnd/Background/Border_Head/Edit_HeadColor_2" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.181818,0},{0.625,0},{0.424242,0},{0.75,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/CS_StyleWnd/Background/Border_Head/Edit_HeadColor_3" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.181818,0},{0.8125,0},{0.424242,0},{0.9375,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/CS_StyleWnd/Background/Border_Head/Edit_Effect" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.181818,0},{0.25,0},{0.424242,0},{0.375,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed" Name="Root/CS_StyleWnd/Background/Border_Back" >
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.65,0},{1,0},{0.75,0}}" />
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_StyleWnd/Background/Border_Back/Text_Back" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="背部" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.030303,0},{0.357143,0},{0.151515,0},{0.642857,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/CS_StyleWnd/Background/Border_Back/Edit_Back" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.181818,0},{0.142857,0},{0.424242,0},{0.428571,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/CS_StyleWnd/Background/Border_Back/Edit_Effect" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.181818,0},{0.571429,0},{0.424242,0},{0.857143,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed" Name="Root/CS_StyleWnd/Background/Border_FaceE" >
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.75,0},{1,0},{0.85,0}}" />
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_StyleWnd/Background/Border_FaceE/Text_FaceE" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="臉飾" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.030303,0},{0.357143,0},{0.151515,0},{0.642857,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/CS_StyleWnd/Background/Border_FaceE/Edit_FaceE" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.181818,0},{0.142857,0},{0.424242,0},{0.428571,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/CS_StyleWnd/Background/Border_FaceE/Edit_Effect" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.181818,0},{0.571429,0},{0.424242,0},{0.857143,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed" Name="Root/CS_StyleWnd/Background/Border_Swoosh" >
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.85,0},{0.33,0},{0.9,0}}" />
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_StyleWnd/Background/Border_Swoosh/Text_Swoosh" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="刀光" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.127273,0},{0.25,0},{0.490909,0},{0.75,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/CS_StyleWnd/Background/Border_Swoosh/Check_Swoosh" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.6875,0},{0.25,0},{0.9375,0},{0.75,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed" Name="Root/CS_StyleWnd/Background/Border_Hold" >
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.67,0},{0.85,0},{1,0},{0.9,0}}" />
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_StyleWnd/Background/Border_Hold/Text_Hold" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="手持" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.127273,0},{0.25,0},{0.490909,0},{0.75,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/CS_StyleWnd/Background/Border_Hold/Check_Hold" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.6875,0},{0.25,0},{0.9375,0},{0.75,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed" Name="Root/CS_StyleWnd/Background/Border_Shield" >
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.33,0},{0.85,0},{0.67,0},{0.9,0}}" />
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_StyleWnd/Background/Border_Shield/Text_Shield" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="盾牌" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.127273,0},{0.25,0},{0.490909,0},{0.75,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/CS_StyleWnd/Background/Border_Shield/Check_Shield" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.6875,0},{0.25,0},{0.9375,0},{0.75,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed" Name="Root/CS_StyleWnd/Background/Border_Expression" >
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.1,0},{0.5,0},{0.15,0}}" />
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_StyleWnd/Background/Border_Expression/Text_Expression" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="表情" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0606061,0},{0.25,0},{0.30303,0},{0.75,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Combobox" Name="Root/CS_StyleWnd/Background/Border_Face/Combo_Face" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="MaxEditTextLength" Value="2147483647" />
+                <Property Name="UnifiedAreaRect" Value="{{0.181818,0},{0.00625,0},{0.484848,0},{0.25625,0}}" />
+            </Window>
+            <Window Type="DejaVu/Combobox" Name="Root/CS_StyleWnd/Background/Border_FaceE/Combo_FaceE" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="MaxEditTextLength" Value="2147483647" />
+                <Property Name="UnifiedAreaRect" Value="{{0.45,0},{0.76,0},{0.95,0},{1,0}}" />
+            </Window>
+            <Window Type="DejaVu/Combobox" Name="Root/CS_StyleWnd/Background/Border_Back/Combo_Back" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="MaxEditTextLength" Value="2147483647" />
+                <Property Name="UnifiedAreaRect" Value="{{0.45,0},{0.66,0},{0.95,0},{1,0}}" />
+            </Window>
+            <Window Type="DejaVu/Combobox" Name="Root/CS_StyleWnd/Background/Border_Head/Combo_HeadColor_3" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="MaxEditTextLength" Value="2147483647" />
+                <Property Name="UnifiedAreaRect" Value="{{0.45,0},{0.61,0},{0.95,0},{1,0}}" />
+            </Window>
+            <Window Type="DejaVu/Combobox" Name="Root/CS_StyleWnd/Background/Border_Head/Combo_HeadColor_2" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="MaxEditTextLength" Value="2147483647" />
+                <Property Name="UnifiedAreaRect" Value="{{0.45,0},{0.57,0},{0.95,0},{0.97,0}}" />
+            </Window>
+            <Window Type="DejaVu/Combobox" Name="Root/CS_StyleWnd/Background/Border_Head/Combo_HeadColor_1" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="MaxEditTextLength" Value="2147483647" />
+                <Property Name="UnifiedAreaRect" Value="{{0.45,0},{0.535,0},{0.95,0},{0.935,0}}" />
+            </Window>
+            <Window Type="DejaVu/Combobox" Name="Root/CS_StyleWnd/Background/Border_Head/Combo_Head" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="MaxEditTextLength" Value="2147483647" />
+                <Property Name="UnifiedAreaRect" Value="{{0.45,0},{0.46,0},{0.95,0},{0.86,0}}" />
+            </Window>
+            <Window Type="DejaVu/Combobox" Name="Root/CS_StyleWnd/Background/Border_Chest/Combo_ChestColor_3" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="MaxEditTextLength" Value="2147483647" />
+                <Property Name="UnifiedAreaRect" Value="{{0.45,0},{0.41,0},{0.95,0},{0.81,0}}" />
+            </Window>
+            <Window Type="DejaVu/Combobox" Name="Root/CS_StyleWnd/Background/Border_Chest/Combo_ChestColor_2" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="MaxEditTextLength" Value="2147483647" />
+                <Property Name="UnifiedAreaRect" Value="{{0.45,0},{0.37,0},{0.95,0},{0.77,0}}" />
+            </Window>
+            <Window Type="DejaVu/Combobox" Name="Root/CS_StyleWnd/Background/Border_Chest/Combo_ChestColor_1" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="MaxEditTextLength" Value="2147483647" />
+                <Property Name="UnifiedAreaRect" Value="{{0.45,0},{0.335,0},{0.95,0},{0.735,0}}" />
+            </Window>
+            <Window Type="DejaVu/Combobox" Name="Root/CS_StyleWnd/Background/Border_Chest/Combo_Chest" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="MaxEditTextLength" Value="2147483647" />
+                <Property Name="UnifiedAreaRect" Value="{{0.45,0},{0.26,0},{0.95,0},{0.66,0}}" />
+            </Window>
+            <Window Type="DejaVu/Combobox" Name="Root/CS_StyleWnd/Background/Border_Weapon/Combo_Weapon" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="MaxEditTextLength" Value="2147483647" />
+                <Property Name="UnifiedAreaRect" Value="{{0.45,0},{0.16,0},{0.95,0},{0.56,0}}" />
+            </Window>
+            <Window Type="DejaVu/Combobox" Name="Root/CS_StyleWnd/Background/Border_SkinColor/Combo_SkinColor" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="MaxEditTextLength" Value="2147483647" />
+                <Property Name="UnifiedAreaRect" Value="{{0.666667,0},{0.106383,0},{0.969697,0},{0.356696,0}}" />
+            </Window>
+            <Window Type="DejaVu/Combobox" Name="Root/CS_StyleWnd/Background/Border_HairColor/Combo_HairColor" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="MaxEditTextLength" Value="2147483647" />
+                <Property Name="UnifiedAreaRect" Value="{{0.666667,0},{0.0563204,0},{0.969697,0},{0.306633,0}}" />
+            </Window>
+            <Window Type="DejaVu/Combobox" Name="Root/CS_StyleWnd/Background/Border_Hair/Combo_Hair" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="MaxEditTextLength" Value="2147483647" />
+                <Property Name="UnifiedAreaRect" Value="{{0.666667,0},{0.00625782,0},{0.969697,0},{0.256571,0}}" />
+            </Window>
+            <Window Type="DejaVu/Combobox" Name="Root/CS_StyleWnd/Background/Border_EyesColor/Combo_EyesColor" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="MaxEditTextLength" Value="2147483647" />
+                <Property Name="UnifiedAreaRect" Value="{{0.181818,0},{0.0563204,0},{0.484848,0},{0.306633,0}}" />
+            </Window>
+            <Window Type="DejaVu/Combobox" Name="Root/CS_StyleWnd/Background/Border_Expression/Combo_Expression" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="MaxEditTextLength" Value="2147483647" />
+                <Property Name="UnifiedAreaRect" Value="{{0.181818,0},{0.106383,0},{0.484848,0},{0.356696,0}}" />
+            </Window>
+            <Window Type="DejaVu/Combobox" Name="Root/CS_StyleWnd/Background/Border_FaceE/Combo_Effect" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="MaxEditTextLength" Value="2147483647" />
+                <Property Name="UnifiedAreaRect" Value="{{0.45,0},{0.8,0},{0.95,0},{1,0}}" />
+            </Window>
+            <Window Type="DejaVu/Combobox" Name="Root/CS_StyleWnd/Background/Border_Back/Combo_Effect" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="MaxEditTextLength" Value="2147483647" />
+                <Property Name="UnifiedAreaRect" Value="{{0.45,0},{0.7,0},{0.95,0},{1,0}}" />
+            </Window>
+            <Window Type="DejaVu/Combobox" Name="Root/CS_StyleWnd/Background/Border_Head/Combo_Effect" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="MaxEditTextLength" Value="2147483647" />
+                <Property Name="UnifiedAreaRect" Value="{{0.45,0},{0.5,0},{0.95,0},{0.9,0}}" />
+            </Window>
+            <Window Type="DejaVu/Combobox" Name="Root/CS_StyleWnd/Background/Border_Chest/Combo_Effect" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="MaxEditTextLength" Value="2147483647" />
+                <Property Name="UnifiedAreaRect" Value="{{0.45,0},{0.3,0},{0.95,0},{0.7,0}}" />
+            </Window>
+            <Window Type="DejaVu/Combobox" Name="Root/CS_StyleWnd/Background/Border_Weapon/Combo_Effect" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="MaxEditTextLength" Value="2147483647" />
+                <Property Name="UnifiedAreaRect" Value="{{0.45,0},{0.21,0},{0.95,0},{0.61,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

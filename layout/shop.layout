@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/shop" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.275391,0},{0.240885,0},{0.275391,426},{0.240885,527}}" />
+        <Window Type="DejaVu/TabControl" Name="Root/shop/tab" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="TabHeight" Value="{0,20}" />
+            <Property Name="TabPanePosition" Value="Top" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DefaultWindow" Name="Root/shop/tab/Tabsell" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="  商品  " />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,410},{0,422}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/shop/shiftTipText" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="Text" Value="xx對道具按SHIFT加左鍵可以選擇購買數量" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.036585,0},{0.86019,0},{0.646341,0},{0.907583,0}}" />
+                </Window>
+                <Window Type="DejaVu/Embed2" Name="Root/shop/tab/Tabsell/panel" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.02439,0},{0.023697,0},{0.97561,0},{0.772512,0}}" />
+                    <Window Type="DejaVu/Static" Name="Root/shop/tab/Tabsell/panel/ItemViewBG" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.005128,0},{0.006329,0},{0.994872,0},{0.993671,0}}" />
+                        <Window Type="DejaVu/Static" Name="Root/shop/tab/Tabsell/panel/ItemViewBGFrame" >
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                            <Window Type="DejaVu/VerticalScrollbar" Name="Root/shop/tab/Tabsell/panel/ScrollBar" >
+                                <Property Name="DocumentSize" Value="1" />
+                                <Property Name="OverlapSize" Value="0" />
+                                <Property Name="PageSize" Value="0" />
+                                <Property Name="ScrollPosition" Value="0" />
+                                <Property Name="StepSize" Value="1" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.96114,0},{0,0},{1,0},{1,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/Static" Name="Root/shop/tab/Tabsell/panel/border" >
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                            </Window>
+                        </Window>
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed2" Name="Root/shop/tab/Tabsell/panel/MoneyImage" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.219512,0},{0.919431,0},{0.585366,0},{0.978673,0}}" />
+                    <Window Type="DejaVu/EmbedTextLab" Name="Root/shop/tab/Tabsell/panel/MoneyImage/GoldText" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="RightAligned" />
+                        <Property Name="Text" Value="999999" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.00268,0},{0,0},{0.469347,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab" Name="Root/shop/tab/Tabsell/panel/MoneyImage/SilverText" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="RightAligned" />
+                        <Property Name="Text" Value="999" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.6,0},{0,0},{0.8,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/shop/tab/Tabsell/panel/MoneyImage/GoldImage" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Image" Value="set:main image:Gold" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0.2,0},{0.6,0},{0.8,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/shop/tab/Tabsell/panel/MoneyImage/SilverImage" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Image" Value="set:main image:Silver" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.833333,0},{0.2,0},{0.933333,0},{0.8,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/shop/tab/Tabsell/panel/fixAllBtn" >
+                    <Property Name="DisabledImage" Value="set:DejaVu image:FixAllDisabled" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HoverImage" Value="set:DejaVu image:FixAllHover" />
+                    <Property Name="NormalImage" Value="set:DejaVu image:FixAllNormal" />
+                    <Property Name="PushedImage" Value="set:DejaVu image:FixAllPressed" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.787805,0},{0.890995,0},{0.87561,0},{0.976303,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/shop/tab/Tabsell/panel/fixoneBtn" >
+                    <Property Name="DisabledImage" Value="set:DejaVu image:FixDisabled" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HoverImage" Value="set:DejaVu image:FixHover" />
+                    <Property Name="NormalImage" Value="set:DejaVu image:FixNormal" />
+                    <Property Name="PushedImage" Value="set:DejaVu image:FixPressed" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.687805,0},{0.890995,0},{0.77561,0},{0.976303,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/shop/tab/Tabsell/panel/QuicklySell" >
+                    <Property Name="DisabledImage" Value="set:DejaVu image:SellAllDisabled" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HoverImage" Value="set:DejaVu image:SellAllHover" />
+                    <Property Name="NormalImage" Value="set:DejaVu image:SellAllNormal" />
+                    <Property Name="PushedImage" Value="set:DejaVu image:SellAllPressed" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.887805,0},{0.890995,0},{0.97561,0},{0.976303,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab7" Name="Root/shop/tab/Tabsell/panel/BankName" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="個人金錢" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.02439,0},{0.919431,0},{0.219512,0},{0.978673,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/shop/tab/Tabsell/panel/HelpBtn" >
+                    <Property Name="DisabledImage" Value="set:DejaVu image:HelpButtonPressed" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                    <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                    <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.941176,0},{0.0147493,0},{0.985294,0},{0.058997,0}}" />
+                </Window>
+                <Window Type="DejaVu/Embed2" Name="Root/shop/tab/Tabsell/panel/CoinsImage" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.219512,0},{0.919431,0},{0.585366,0},{0.978673,0}}" />
+                    <Window Type="DejaVu/EmbedTextLab" Name="Root/shop/tab/Tabsell/panel/CoinsImage/GoldText" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="RightAligned" />
+                        <Property Name="Text" Value="999999" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.798368,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/shop/tab/Tabsell/panel/CoinsImage/GoldImage" >
+                        <Property Name="Image" Value="set:main image:Silver" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.833333,0},{0.2,0},{0.933333,0},{0.8,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/shop/tab/Tabsell/panel/NextPage" >
+                    <Property Name="DisabledImage" Value="set:DejaVu image:ArrowRightPressed" />
+                    <Property Name="HoverImage" Value="set:DejaVu image:ArrowRightHover" />
+                    <Property Name="NormalImage" Value="set:DejaVu image:ArrowRightNormal" />
+                    <Property Name="PushedImage" Value="set:DejaVu image:ArrowRightPressed" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.597561,0},{0.78436,0},{0.646342,0},{0.843602,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/shop/tab/Tabsell/panel/PrePage" >
+                    <Property Name="DisabledImage" Value="set:DejaVu image:ArrowLeftPressed" />
+                    <Property Name="HoverImage" Value="set:DejaVu image:ArrowLeftHover" />
+                    <Property Name="NormalImage" Value="set:DejaVu image:ArrowLeftNormal" />
+                    <Property Name="PushedImage" Value="set:DejaVu image:ArrowLeftPressed" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.353659,0},{0.78436,0},{0.40244,0},{0.843602,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab2" Name="Root/shop/tab/Tabsell/panel/PageNumber" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="1 / 3" />
+                    <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.414634,0},{0.78436,0},{0.585366,0},{0.843602,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DefaultWindow" Name="Root/shop/tab/TabBuy" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="  買回  " />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,410},{0,422}}" />
+                <Property Name="Visible" Value="False" />
+                <Window Type="DejaVu/Embed2" Name="Root/shop/tab/TabBuy/panel" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.02439,0},{0.023697,0},{0.97561,0},{0.772512,0}}" />
+                    <Window Type="DejaVu/Static" Name="Root/shop/tab/TabBuy/panel/ItemViewBG" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.005128,0},{0.006329,0},{0.994872,0},{0.993671,0}}" />
+                        <Window Type="DejaVu/Static" Name="Root/shop/tab/TabBuy/panel/ItemViewBGFrame" >
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                            <Window Type="DejaVu/VerticalScrollbar" Name="Root/shop/tab/TabBuy/panel/ScrollBar" >
+                                <Property Name="DocumentSize" Value="1" />
+                                <Property Name="OverlapSize" Value="0" />
+                                <Property Name="PageSize" Value="0" />
+                                <Property Name="ScrollPosition" Value="0" />
+                                <Property Name="StepSize" Value="1" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.96114,0},{0,0},{1,0},{1,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/Static" Name="Root/shop/tab/TabBuy/panel/border" >
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                            </Window>
+                        </Window>
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab7" Name="Root/shop/tab/TabBuy/panel/BankName" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="個人金錢" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.02439,0},{0.919431,0},{0.219512,0},{0.978673,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/shop/tab/TabBuy/panel/QuicklySell" >
+                    <Property Name="DisabledImage" Value="set:DejaVu image:SellAllDisabled" />
+                    <Property Name="HoverImage" Value="set:DejaVu image:SellAllHover" />
+                    <Property Name="NormalImage" Value="set:DejaVu image:SellAllNormal" />
+                    <Property Name="PushedImage" Value="set:DejaVu image:SellAllPressed" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.887805,0},{0.890995,0},{0.97561,0},{0.976303,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/shop/tab/TabBuy/panel/fixoneBtn" >
+                    <Property Name="DisabledImage" Value="set:DejaVu image:FixDisabled" />
+                    <Property Name="HoverImage" Value="set:DejaVu image:FixHover" />
+                    <Property Name="NormalImage" Value="set:DejaVu image:FixNormal" />
+                    <Property Name="PushedImage" Value="set:DejaVu image:FixPressed" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.687805,0},{0.890995,0},{0.77561,0},{0.976303,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/shop/tab/TabBuy/panel/fixAllBtn" >
+                    <Property Name="DisabledImage" Value="set:DejaVu image:FixAllDisabled" />
+                    <Property Name="HoverImage" Value="set:DejaVu image:FixAllHover" />
+                    <Property Name="NormalImage" Value="set:DejaVu image:FixAllNormal" />
+                    <Property Name="PushedImage" Value="set:DejaVu image:FixAllPressed" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.787805,0},{0.890995,0},{0.87561,0},{0.976303,0}}" />
+                </Window>
+                <Window Type="DejaVu/Embed2" Name="Root/shop/tab/TabBuy/panel/MoneyImage" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.219512,0},{0.919431,0},{0.585366,0},{0.978673,0}}" />
+                    <Window Type="DejaVu/EmbedTextLab" Name="Root/shop/tab/TabBuy/panel/MoneyImage/GoldText" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="RightAligned" />
+                        <Property Name="Text" Value="999999" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.466667,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab" Name="Root/shop/tab/TabBuy/panel/MoneyImage/SilverText" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="RightAligned" />
+                        <Property Name="Text" Value="999" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.6,0},{0,0},{0.8,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/shop/tab/TabBuy/panel/MoneyImage/GoldStaticText" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.480392,0},{-0.0148115,0},{0.700392,0},{0.985188,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/shop/tab/TabBuy/panel/MoneyImage/SilverStaticText" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.8,0},{0,0},{1,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/shop/tab/TabBuy/panel/MoneyImage/GoldImage" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Image" Value="set:main image:Gold" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0.2,0},{0.6,0},{0.8,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/shop/tab/TabBuy/panel/MoneyImage/SilverImage" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Image" Value="set:main image:Silver" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.833333,0},{0.2,0},{0.933333,0},{0.8,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/shop/tab/TabBuy/panel/HelpBtn" >
+                    <Property Name="DisabledImage" Value="set:DejaVu image:HelpButtonPressed" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                    <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                    <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.941176,0},{0.0147493,0},{0.985294,0},{0.058997,0}}" />
+                </Window>
+                <Window Type="DejaVu/Embed2" Name="Root/shop/tab/TabBuy/panel/CoinsImage" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.219512,0},{0.919431,0},{0.585366,0},{0.978673,0}}" />
+                    <Window Type="DejaVu/EmbedTextLab" Name="Root/shop/tab/TabBuy/panel/CoinsImage/GoldText" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="RightAligned" />
+                        <Property Name="Text" Value="999999" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.798368,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/shop/tab/TabBuy/panel/CoinsImage/GoldImage" >
+                        <Property Name="Image" Value="set:main image:Silver" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.833333,0},{0.2,0},{0.933333,0},{0.8,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/shop/tab/TabBuy/panel/PrePage" >
+                    <Property Name="DisabledImage" Value="set:DejaVu image:ArrowLeftPressed" />
+                    <Property Name="HoverImage" Value="set:DejaVu image:ArrowLeftHover" />
+                    <Property Name="NormalImage" Value="set:DejaVu image:ArrowLeftNormal" />
+                    <Property Name="PushedImage" Value="set:DejaVu image:ArrowLeftPressed" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.353659,0},{0.78436,0},{0.40244,0},{0.843602,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab2" Name="Root/shop/tab/TabBuy/panel/PageNumber" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="1 / 3" />
+                    <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.414634,0},{0.78436,0},{0.585366,0},{0.843602,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/shop/tab/TabBuy/panel/NextPage" >
+                    <Property Name="DisabledImage" Value="set:DejaVu image:ArrowRightPressed" />
+                    <Property Name="HoverImage" Value="set:DejaVu image:ArrowRightHover" />
+                    <Property Name="NormalImage" Value="set:DejaVu image:ArrowRightNormal" />
+                    <Property Name="PushedImage" Value="set:DejaVu image:ArrowRightPressed" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.597561,0},{0.78436,0},{0.646342,0},{0.843602,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/shop/BuybackTip" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="Text" Value="x最大買回數量" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0365854,0},{0.86019,0},{0.646341,0},{0.907583,0}}" />
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

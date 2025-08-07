@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/Static" Name="DragonWingWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.205208,0},{0.230769,0},{0.205208,185},{0.230769,155}}" />
+        <Window Type="DejaVu/StaticImage" Name="DragonWingWnd/Energyslot" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="Image" Value="set:main15 image:Energyslot" />
+            <Property Name="UnifiedAreaRect" Value="{{0.286056,0},{0.281594,0},{0.724835,0},{0.72161,0}}" />
+        </Window>
+		<Window Type="DejaVu/Static" Name="DragonWingWnd/WingBG" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/StaticImage" Name="DragonWingWnd/WingBG/BottomleftWing" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Image" Value="set:main15 image:BottomleftWings" />
+                <Property Name="UnifiedAreaRect" Value="{{0.055351,0},{0.5,0},{0.295203,0},{0.75,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="DragonWingWnd/WingBG/TopleftWing" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Image" Value="set:main15 image:TopleftlWing" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0553506,0},{0.284091,0},{0.295203,0},{0.534091,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="DragonWingWnd/WingBG/ToprightWing" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Image" Value="set:main15 image:UpperrightWings" />
+                <Property Name="UnifiedAreaRect" Value="{{0.710332,0},{0.284091,0},{0.950184,0},{0.534091,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="DragonWingWnd/WingBG/BottomrightWing" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Image" Value="set:main15 image:BottomrightWings" />
+                <Property Name="UnifiedAreaRect" Value="{{0.710332,0},{0.5,0},{0.950184,0},{0.75,0}}" />
+            </Window>
+        </Window>
+		<Window Type="DejaVu/StaticImage" Name="DragonWingWnd/DragonAwakening" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="Image" Value="set:main15 image:DragonAwakening" />
+            <Property Name="UnifiedAreaRect" Value="{{-0.0184502,0},{0.204545,0},{1.0369,0},{0.829545,0}}" />
+        </Window>
+        <Window Type="DejaVu/Static" Name="DragonWingWnd/Loli" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.28813,0},{0.316911,0},{0.720129,0},{0.740532,0}}" />
+        </Window>
+        <Window Type="DejaVu/EmbedText3" Name="DragonWingWnd/Ltip" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="ClippedByParent" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="Text" >X幻龍天翼
+每施展一次錘型或砲型技能會改變天翼顏色，
+當任兩片天翼變色時，下一擊錘型或砲型技能，
+會依照天翼顏色組合發動能量轉換進行充能。</Property>
+            <Property Name="UnifiedAreaRect" Value="{{0.664865,0},{-0.225806,0},{2.55676,0},{0.451613,0}}" />
+        </Window>
+        <Window Type="DejaVu/Static" Name="DragonWingWnd/ChargeBG" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.000706714,0},{0,0},{1.00071,0},{1,0}}" />
+            <Window Type="DejaVu/StaticImage" Name="DragonWingWnd/ChargeBG/Energyframe" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="Image" Value="set:main15 image:Energyframe" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.260148,0},{0.268182,0},{0.741697,0},{0.756818,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="DragonWingWnd/ChargeBG/BlueEnergy" >
+                <Property Name="Image" Value="set:main15 image:BlueEnergy5" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.292857,0},{0.280851,0},{0.739286,0},{0.72766,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="DragonWingWnd/ChargeBG/PinkEnergy" >
+                <Property Name="Image" Value="set:main15 image:PinkEnergy5" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.292857,0},{0.289362,0},{0.739286,0},{0.73617,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="DragonWingWnd/ChargeBG/EnergyFlash" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Image" Value="set:main15 image:EnergyFlash" />
+                <Property Name="UnifiedAreaRect" Value="{{0.380357,0},{0.382979,0},{0.630357,0},{0.634043,0}}" />
+            </Window>
+            <Window Type="DejaVu/Static" Name="DragonWingWnd/ChargeBG/time" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.364865,0},{0.354839,0},{0.632432,0},{0.674194,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="DragonWingWnd/ChargeBG/time/T1" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Image" Value="set:DejaVu image:three" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.151515,0},{0.333333,0},{0.555555,0},{0.737373,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="DragonWingWnd/ChargeBG/time/T2" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Image" Value="set:DejaVu image:zero" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.454545,0},{0.333333,0},{0.858586,0},{0.737374,0}}" />
+                </Window>
+            </Window>
+        </Window>                
+    </Window>
+</GUILayout>

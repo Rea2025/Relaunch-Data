@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/AchiViewWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,350},{0,305}}" />
+        <Window Type="DefaultWindow" Name="Root/AchiViewWnd/MainBorder" >
+            <Property Name="Text" Value="x觀看成就" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,350},{0,305}}" />
+            <Window Type="DejaVu/Embed3" Name="Root/AchiViewWnd/MainBorder/BG" >
+                <Property Name="UnifiedAreaRect" Value="{{0.017143,0},{0.019672,0},{0.982857,0},{0.908197,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/AchiViewWnd/MainBorder/AchiPanelTitle" >
+                    <Property Name="Text" Value="x生涯成就報告書" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.013774,0},{0.017123,0},{0.309632,0},{0.0687835,0}}" />
+                </Window>
+                <Window Type="DejaVu/Embed4" Name="Root/AchiViewWnd/MainBorder/AchiFrame" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.014793,0},{0.088561,0},{0.985207,0},{0.490775,0}}" />
+                    <Window Type="DejaVu/MultiColumnList" Name="Root/AchiViewWnd/MainBorder/AchiMCL" >
+                        <Property Name="ColumnsMovable" Value="False" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/AchiViewWnd/MainBorder/CollectPanelTitle" >
+                    <Property Name="Text" Value="x收藏清單" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.013661,0},{0.509506,0},{0.309519,0},{0.561167,0}}" />
+                </Window>
+                <Window Type="DejaVu/Embed4" Name="Root/AchiViewWnd/MainBorder/CollectFrame" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.014793,0},{0.579336,0},{0.985207,0},{0.98155,0}}" />
+                    <Window Type="DejaVu/MultiColumnList" Name="Root/AchiViewWnd/MainBorder/CollectMCL" >
+                        <Property Name="ColumnsMovable" Value="False" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/AchiViewWnd/CloseBtn" >
+                <Property Name="Text" Value="x關閉" />
+                <Property Name="UnifiedAreaRect" Value="{{0.788571,0},{0.92459,0},{0.982857,0},{0.980328,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="CardNpcInfoWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="TitlebarImage" Value="set:main13 image:CardNormal" />
+        <Property Name="UnifiedAreaRect" Value="{{0.233398,0},{0.276042,0},{0.233398,546},{0.276042,330}}" />
+        <Window Type="DejaVu/Embed" Name="CardNpcInfoWnd/BG" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Static" Name="CardNpcInfoWnd/BG/Statics" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0188679,0},{0.04,0},{0.981132,0},{0.96,0}}" />
+                <Window Type="DejaVu/Embed2" Name="CardNpcInfoWnd/BG/Statics/Embed2" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0434783,0},{1,0},{1,0}}" />
+                    <Window Type="DejaVu/Embed2" Name="CardNpcInfoWnd/BG/Statics/Embed2/CardBG" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.019608,0},{0.281818,0},{0.980392,0},{0.954545,0}}" />
+                        <Window Type="DejaVu/StaticImage" Name="CardNpcInfoWnd/BG/Statics/Embed2/CardBG/Card1" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="Image" Value="set:main13 image:CardBackground" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.020408,0},{0.067568,0},{0.204081,0},{0.932433,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticImage" Name="CardNpcInfoWnd/BG/Statics/Embed2/CardBG/Card11" >
+                            <Property Name="Image" Value="set:main13 image:CardBackground" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.214286,0},{0.0675676,0},{0.397959,0},{0.932432,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticImage" Name="CardNpcInfoWnd/BG/Statics/Embed2/CardBG/Card12" >
+                            <Property Name="Image" Value="set:main13 image:CardBackground" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.408163,0},{0.0675676,0},{0.591837,0},{0.932432,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticImage" Name="CardNpcInfoWnd/BG/Statics/Embed2/CardBG/Card13" >
+                            <Property Name="Image" Value="set:main13 image:CardBackground" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.602041,0},{0.0675676,0},{0.785714,0},{0.932432,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticImage" Name="CardNpcInfoWnd/BG/Statics/Embed2/CardBG/Card14" >
+                            <Property Name="Image" Value="set:main13 image:CardBackground" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.795918,0},{0.0675676,0},{0.979592,0},{0.932432,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="CardNpcInfoWnd/BG/Statics/Embed2/Slot" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.898039,0},{0.0454545,0},{0.980392,0},{0.236364,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="CardNpcInfoWnd/BG/Statics/Embed2/Slot1" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.805882,0},{0.0454545,0},{0.888235,0},{0.236364,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="CardNpcInfoWnd/BG/Statics/Embed2/Text" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HorzFormatting" Value="RightAligned" />
+                        <Property Name="Text" Value="對手優勢：" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.501961,0},{0.0454545,0},{0.796078,0},{0.236364,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed4" Name="CardNpcInfoWnd/BG/Statics/Title" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.019608,0},{0,0},{0.313726,0},{0.108696,0}}" />
+                    <Window Type="DejaVu/StaticImage" Name="CardNpcInfoWnd/BG/Statics/Title/Img" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Image" Value="set:DejaVu image:Image13" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="CardNpcInfoWnd/BG/Statics/Title/Text" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="對手情報" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.2,0},{0.866667,0},{0.8,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

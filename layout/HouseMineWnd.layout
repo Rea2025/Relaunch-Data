@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="HouseMineWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.315104,0},{0.167846,0},{0.315104,295},{0.167846,500}}" />
+        <Window Type="DejaVu/Embed" Name="HouseMineWnd/Frame" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1.00358,0},{1,0}}" />
+            <Window Type="DejaVu/Static" Name="HouseMineWnd/Frame/MineAreaInfo" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0358423,0},{0.671429,0},{0.985663,0},{0.902381,0}}" />
+                <Window Type="DejaVu/Embed2" Name="HouseMineWnd/Frame/MineAreaInfo/Frame" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.984962,0},{1,0}}" />
+                    <Window Type="DejaVu/Embed2" Name="HouseMineWnd/Frame/MineAreaInfo/Frame/Mineral" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.038462,0},{0.103093,0},{0.961539,0},{0.927835,0}}" />
+                        <Window Type="DejaVu/EmbedText7" Name="HouseMineWnd/Frame/MineInfo/Frame/Mineral/Title" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="x有機會挖掘到以下礦物" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.316456,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="HouseMineWnd/Frame/MineAreaInfo/Frame/Mineral/Icon1" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.020243,0},{0.379747,0},{0.195243,0},{0.904747,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="HouseMineWnd/Frame/MineAreaInfo/Frame/Mineral/Icon2" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.216667,0},{0.375,0},{0.391667,0},{0.9,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="HouseMineWnd/Frame/MineAreaInfo/Frame/Mineral/Icon3" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.4125,0},{0.375,0},{0.5875,0},{0.9,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="HouseMineWnd/Frame/MineAreaInfo/Frame/Mineral/Icon4" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.608333,0},{0.375,0},{0.783333,0},{0.9,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="HouseMineWnd/Frame/MineAreaInfo/Frame/Mineral/Icon5" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.804167,0},{0.375,0},{0.979167,0},{0.9,0}}" />
+                        </Window>
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="HouseMineWnd/Frame/TeamInfo" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0358423,0},{0.0238095,0},{0.97491,0},{0.52381,0}}" />
+                <Window Type="DejaVu/Embed2" Name="HouseMineWnd/Frame/TeamInfo/Frame" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.047393,0},{0.996198,0},{0.999774,0}}" />
+                    <Window Type="DejaVu/StaticText" Name="HouseMineWnd/Frame/TeamInfo/Title/Text1" >
+                        <Property Name="Text" Value="x可租用水獺隻數：" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.09542,0},{0.124378,0},{0.706107,0},{0.199005,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticText" Name="HouseMineWnd/Frame/TeamInfo/Title/OtterNumberText" >
+                        <Property Name="HorzFormatting" Value="RightAligned" />
+                        <Property Name="Text" >X/X
+
+
+
+</Property>
+                        <Property Name="UnifiedAreaRect" Value="{{0.725191,0},{0.124378,0},{0.963509,0},{0.223881,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Static" Name="HouseMineWnd/Frame/TeamInfo/Frame/Static" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.019084,0},{0.248756,0},{0.980622,0},{0.973756,0}}" />
+                        <Window Type="DejaVu/EmbedText7" Name="HouseMineWnd/Frame/TeamInfo/Frame/Static/Title" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="x水獺資訊" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.166667,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/MultiColumnList" Name="HouseMineWnd/Frame/TeamInfo/Frame/Static/OtterTeamMLC" >
+                            <Property Name="ColumnsMovable" Value="False" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.163738,0},{1,0},{0.963738,0}}" />
+                        </Window>
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed4" Name="HouseMineWnd/Frame/TeamInfo/Title" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.038168,0},{0,0},{0.615091,0},{0.119048,0}}" />
+                    <Window Type="DejaVu/StaticText" Name="HouseMineWnd/Frame/TeamInfo/Title/Text" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="x水獺租用" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.268049,0},{0.190034,0},{0.868049,0},{0.790034,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="HouseMineWnd/Frame/TeamInfo/Title/Img" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Image" Value="set:DejaVu image:Image05" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.099338,0},{0.2,0},{0.198676,0},{0.8,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Button" Name="HouseMineWnd/Frame/GOBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="x租用" />
+                <Property Name="UnifiedAreaRect" Value="{{0.702509,0},{0.914286,0},{0.967742,0},{0.976191,0}}" />
+            </Window>
+            <Window Type="DejaVu/Embed2" Name="HouseMineWnd/Frame/Item" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0358423,0},{0.535714,0},{0.971326,0},{0.659524,0}}" />
+                <Window Type="DejaVu/SlotImage" Name="HouseMineWnd/Frame/Item/Image" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.019084,0},{0.0961538,0},{0.179389,0},{0.903846,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="HouseMineWnd/Frame/Item/Text" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="x放入虛寶" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.206107,0},{0.25,0},{0.969466,0},{0.730769,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Button" Name="HouseMineWnd/Frame/ReleaseColdBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="x解除冷卻" />
+                <Property Name="UnifiedAreaRect" Value="{{0.426523,0},{0.914286,0},{0.684588,0},{0.976191,0}}" />
+            </Window>
+            <Window Type="DejaVu/Embed2" Name="HouseMineWnd/Frame/Coin" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.035842,0},{0.914286,0},{0.394265,0},{0.97381,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="HouseMineWnd/Frame/Coin/Img" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Image" Value="set:main16 image:HouseCoin" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.8,0},{0.2,0},{0.95,0},{0.8,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="HouseMineWnd/Frame/Coin/Text" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorzFormatting" Value="RightAligned" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.08,0},{0.8,0},{0.88,0}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="HouseMineWnd/Mask" >
+            <Property Name="UnifiedAreaRect" Value="{{0.0228698,0},{0.003797,0},{1.02188,0},{1.0038,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

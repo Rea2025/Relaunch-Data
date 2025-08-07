@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="TargetChantWnd" >
+        <Property Name="HorizontalAlignment" Value="Centre" />
+        <Property Name="UnifiedAreaRect" Value="{{0.175521,0},{0.0390295,0},{0.175521,200},{0.0390295,60}}" />
+        <Window Type="DejaVu/Static" Name="TargetChantWnd/Bg" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.355556,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/EmbedTextLab3" Name="TargetChantWnd/Bg/SpellName" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="x一二三四五六七八" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.551724,0}}" />
+            </Window>
+            <Window Type="DejaVu/ProgressBarBG" Name="TargetChantWnd/Bg/ChantBarBg" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.586207,0},{0.971963,0},{1,0}}" />
+                <Window Type="DejaVu/ProgressBar2" Name="TargetChantWnd/Bg/ChantBar1" >
+                    <Property Name="CurrentProgress" Value="1" />
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="StepSize" Value="0.01" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.025,0},{0.266667,0},{0.975,0},{0.8,0}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/ImageButton" Name="TargetChantWnd/UnLock" >
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="HoverImage" Value="set:main image:UnLockBtnHover" />
+            <Property Name="NormalImage" Value="set:main image:UnLockBtnNormal" />
+            <Property Name="PushedImage" Value="set:main image:UnLockBtnPressed" />
+            <Property Name="UnifiedAreaRect" Value="{{0.025,0},{0.0909091,0},{0.1,0},{0.363636,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

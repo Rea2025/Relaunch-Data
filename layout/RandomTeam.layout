@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/RandomTeam" >
+        <Property Name="MousePassThroughEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Window Type="DejaVu/FrameWindow" Name="Root/RandomTeam/BG" >
+            <Property Name="HelpButtonEnabled" Value="False" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Property Name="TitlebarEnabled" Value="True" />
+            <Property Name="TitlebarFont" Value="F001-9" />
+            <Property Name="TitlebarImage" Value="set:main image:SearchTeamNormal" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,340},{0,597}}" />
+            <Property Name="VerticalAlignment" Value="Centre" />
+            <Window Type="DejaVu/Embed" Name="Root/RandomTeam/Main" >
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Window Type="DejaVu/Static" Name="Root/RandomTeam/Main/bg" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.030864,0},{0.669246,0},{0.969136,0},{0.920697,0}}" />
+                    <Window Type="DejaVu/Embed2" Name="Root/RandomTeam/Main/bg/TypeChoose" >
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0625,0},{1,0},{1,0}}" />
+                        <Window Type="DejaVu/ImageRadioButton" Name="Root/RandomTeam/Main/bg/TypeChoose/Type1" >
+                            <Property Name="DisabledImage" Value="set:main4 image:TankIconPressed" />
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="HoverImage" Value="set:main4 image:TankIconHover" />
+                            <Property Name="NormalImage" Value="set:main4 image:TankIconNormal" />
+                            <Property Name="PushedImage" Value="set:main4 image:TankIconNormal" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.052632,0},{0.245902,0},{0.31579,0},{0.90164,0}}" />
+                            <Window Type="DejaVu/Zframe2" Name="Root/RandomTeam/Main/bg/TypeChoose/Type1/Select" >
+                                <Property Name="AlwaysOnTop" Value="True" />
+                                <Property Name="ID" Value="100" />
+                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/ImageRadioButton" Name="Root/RandomTeam/Main/bg/TypeChoose/Type2" >
+                            <Property Name="DisabledImage" Value="set:main4 image:HealerIconPressed" />
+                            <Property Name="HoverImage" Value="set:main4 image:HealerIconHover" />
+                            <Property Name="NormalImage" Value="set:main4 image:HealerIconNormal" />
+                            <Property Name="PushedImage" Value="set:main4 image:HealerIconNormal" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.368421,0},{0.245902,0},{0.631579,0},{0.90164,0}}" />
+                            <Window Type="DejaVu/Zframe2" Name="Root/RandomTeam/Main/bg/TypeChoose/Type2/Select" >
+                                <Property Name="AlwaysOnTop" Value="True" />
+                                <Property Name="ID" Value="101" />
+                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/ImageRadioButton" Name="Root/RandomTeam/Main/bg/TypeChoose/Type3" >
+                            <Property Name="DisabledImage" Value="set:main4 image:DPSIconPressed" />
+                            <Property Name="HoverImage" Value="set:main4 image:DPSIconHover" />
+                            <Property Name="NormalImage" Value="set:main4 image:DPSIconNormal" />
+                            <Property Name="PushedImage" Value="set:main4 image:DPSIconNormal" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.684211,0},{0.245902,0},{0.947369,0},{0.90164,0}}" />
+                            <Window Type="DejaVu/Zframe2" Name="Root/RandomTeam/Main/bg/TypeChoose/Type3/Select" >
+                                <Property Name="AlwaysOnTop" Value="True" />
+                                <Property Name="ID" Value="102" />
+                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                            </Window>
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab4" Name="Root/RandomTeam/Main/bg/Title" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.033333,0},{0,0},{0.526754,0},{0.192308,0}}" />
+                        <Window Type="DejaVu/StaticTextLab" Name="Root/RandomTeam/Main/bg/Title/Text" >
+                            <Property Name="MousePassThroughEnabled" Value="True" />
+                            <Property Name="Text" Value="x定位選擇" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.2,0},{0.866667,0},{0.8,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticImage" Name="Root/RandomTeam/Main/bg/Title/Icon" >
+                            <Property Name="Image" Value="set:DejaVu image:Image13" />
+                            <Property Name="MousePassThroughEnabled" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                        </Window>
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Button" Name="Root/RandomTeam/Main/Confirm" >
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                    <Property Name="Text" Value="x確定" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{-0.0193424,0},{0.234568,0},{0.0309478,0}}" />
+                    <Property Name="VerticalAlignment" Value="Bottom" />
+                </Window>
+                <Window Type="DejaVu/Static" Name="Root/RandomTeam/Main/bg/Location" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.0308642,0},{0.0193424,0},{0.969136,0},{0.659574,0}}" />
+                    <Window Type="DejaVu/Embed2" Name="Root/RandomTeam/Main/bg/LocationBG" >
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.030211,0},{1,0},{0.999999,0}}" />
+                        <Window Type="DejaVu/Embed2" Name="Root/RandomTeam/Main/bg/LocationBG/BG" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.032895,0},{0.077882,0},{0.967106,0},{0.968848,0}}" />
+                            <Window Type="DejaVu/MultiColumnList" Name="Root/RandomTeam/Main/bg/LocationBG/BG/MCL" >
+                                <Property Name="ColumnsMovable" Value="False" />
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                            </Window>
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Embed4" Name="Root/RandomTeam/Main/bg/LocTitle" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.032895,0},{0,0},{0.526316,0},{0.0755287,0}}" />
+                        <Window Type="DejaVu/StaticImage" Name="Root/RandomTeam/Main/bg/Icon" >
+                            <Property Name="Image" Value="set:DejaVu image:Image19" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticTextLab" Name="Root/RandomTeam/Main/bg/LocationChooseText" >
+                            <Property Name="Text" Value="x場景選擇" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.3,0},{0.2,0},{0.9,0},{0.8,0}}" />
+                        </Window>
+                    </Window>
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Embed3" Name="Root/RandomTeam/Message" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.244141,0},{0.12625,0}}" />
+            <Property Name="VerticalAlignment" Value="Centre" />
+            <Window Type="DejaVu/StaticTextLab" Name="Root/RandomTeam/Message/Text" >
+                <Property Name="Font" Value="F001-12" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="x組隊完成" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.346535,0},{0.92,0},{0.594059,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/RandomTeam/Message/Btn" >
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="Text" Value="x副本傳送" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.643564,0},{0.304,0},{0.90099,0}}" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/RandomTeam/Message/close" >
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="HoverImage" Value="set:DejaVu image:NewCloseButtonHover" />
+                <Property Name="NormalImage" Value="set:DejaVu image:NewCloseButtonNormal" />
+                <Property Name="PushedImage" Value="set:DejaVu image:NewCloseButtonPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.02,0},{0.049505,0},{-0.02,20},{0.049505,20}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/RandomTeam/Message/NodeName" >
+                <Property Name="Font" Value="F001-12" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="x砂之殿堂五六（五人模式）" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0990099,0},{0.92,0},{0.346535,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

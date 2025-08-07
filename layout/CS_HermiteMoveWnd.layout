@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/CS_HermiteMoveWnd" >
+        <Property Name="ClippedByParent" Value="False" />
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HorizontalAlignment" Value="Right" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.18,0},{0.5,0}}" />
+        <Window Type="DejaVu/FrameWindow" Name="Root/CS_HermiteMoveWnd/Background" >
+            <Property Name="ClippedByParent" Value="False" />
+            <Property Name="HelpButtonEnabled" Value="False" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Property Name="TitlebarEnabled" Value="True" />
+            <Property Name="TitlebarFont" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Embed" Name="Root/CS_HermiteMoveWnd/Background/Border_Fly" >
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.5,0},{0.5,0},{0.6,0}}" />
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_HermiteMoveWnd/Background/Border_Fly/Text_Fly" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="飛行" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.2,0},{0.45,0},{0.8,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/CS_HermiteMoveWnd/Background/Border_Fly/Check_Fly" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0.25,0},{0.95,0},{0.8,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed" Name="Root/CS_HermiteMoveWnd/Background/Border_Position" >
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.15,0},{0.5,0},{0.4,0}}" />
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_HermiteMoveWnd/Background/Border_Position/Text_X" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="X" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.1,0},{0.3,0},{0.35,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_HermiteMoveWnd/Background/Border_Position/Text_Y" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="Y" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.35,0},{0.3,0},{0.65,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/CS_HermiteMoveWnd/Background/Border_Position/Edit_X" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.35,0},{0.05,0},{0.95,0},{0.35,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/CS_HermiteMoveWnd/Background/Border_Position/Edit_Y" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.35,0},{0.35,0},{0.95,0},{0.65,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_HermiteMoveWnd/Background/Border_Position/Text_Z" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="Z" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.65,0},{0.3,0},{0.95,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/CS_HermiteMoveWnd/Background/Border_Position/Edit_Z" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.35,0},{0.65,0},{0.95,0},{0.95,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed" Name="Root/CS_HermiteMoveWnd/Background/Border_Parent" >
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.15,0}}" />
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_HermiteMoveWnd/Background/Border_Parent/Text_Parent" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="連結點" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.2,0},{0.25,0},{0.8,0}}" />
+                </Window>
+                <Window Type="DejaVu/Combobox" Name="Root/CS_HermiteMoveWnd/Background/Border_Parent/Combo_Parent" >
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="MaxEditTextLength" Value="2147483647" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.3,0},{0.05,0},{0.95,0},{6,0}}" />
+                </Window>
+                <Window Type="DejaVu/Combobox" Name="Root/CS_HermiteMoveWnd/Background/Border_Parent/Combo_ParentNode" >
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="MaxEditTextLength" Value="2147483647" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.3,0},{0.55,0},{0.95,0},{6,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/CS_HermiteMoveWnd/Background/Button_Mapping" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="定位" />
+                <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0.8,0},{1,0},{0.9,0}}" />
+            </Window>
+            <Window Type="DejaVu/Embed" Name="Root/CS_HermiteMoveWnd/Background/Border_Reverse" >
+                <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0.5,0},{1,0},{0.6,0}}" />
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_HermiteMoveWnd/Background/Border_Reverse/Text_Reverse" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="迴轉" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.2,0},{0.45,0},{0.8,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/CS_HermiteMoveWnd/Background/Border_Reverse/Check_Reverse" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0.2,0},{0.95,0},{0.8,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed" Name="Root/CS_HermiteMoveWnd/Background/Border_Count" >
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.6,0},{0.5,0},{0.7,0}}" />
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_HermiteMoveWnd/Background/Border_Count/Text_Count" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="次數" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.2,0},{0.4,0},{0.8,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/CS_HermiteMoveWnd/Background/Border_Count/Edit_Count" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0.2,0},{0.95,0},{0.8,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed" Name="Root/CS_HermiteMoveWnd/Background/Border_FrontLength" >
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.9,0},{0.5,0},{1,0}}" />
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_HermiteMoveWnd/Background/Border_FrontLength/Text_FrontLength" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="前線段長" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.2,0},{0.45,0},{0.8,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="Root/CS_HermiteMoveWnd/Background/Border_FrontLength/SText_FrontLength" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="0" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0.2,0},{0.95,0},{0.8,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed" Name="Root/CS_HermiteMoveWnd/Background/Border_BackLength" >
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0.9,0},{1,0},{1,0}}" />
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_HermiteMoveWnd/Background/Border_BackLength/Text_BackLength" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="後線段長" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.2,0},{0.45,0},{0.8,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="Root/CS_HermiteMoveWnd/Background/Border_BackLength/SText_BackLength" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="0" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0.25,0},{0.95,0},{0.75,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed" Name="Root/CS_HermiteMoveWnd/Background/Border_Rotate" >
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0.15,0},{1,0},{0.4,0}}" />
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_HermiteMoveWnd/Background/Border_Rotate/Text_X" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="X" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.7,0},{0.05,0},{0.95,0},{0.35,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_HermiteMoveWnd/Background/Border_Rotate/Text_Y" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="Y" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.7,0},{0.35,0},{0.95,0},{0.65,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/CS_HermiteMoveWnd/Background/Border_Rotate/Edit_X" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.05,0},{0.65,0},{0.35,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/CS_HermiteMoveWnd/Background/Border_Rotate/Edit_Y" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.35,0},{0.65,0},{0.65,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_HermiteMoveWnd/Background/Border_Rotate/Text_Z" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="Z" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.7,0},{0.65,0},{0.95,0},{0.95,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/CS_HermiteMoveWnd/Background/Border_Rotate/Edit_Z" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.65,0},{0.65,0},{0.95,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed" Name="Root/CS_HermiteMoveWnd/Background/Border_LinearType" >
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.4,0},{1,0},{0.5,0}}" />
+                <Window Type="DejaVu/Combobox" Name="Root/CS_HermiteMoveWnd/Background/Border_LinearType/Combobox_Type" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="MaxEditTextLength" Value="2147483647" />
+                    <Property Name="ReadOnly" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.35,0},{0.2,0},{0.95,0},{5,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_HermiteMoveWnd/Background/Border_LinearType/Text_Type" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="型態" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.2,0},{0.3,0},{0.8,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed" Name="Root/CS_HermiteMoveWnd/Background/Border_Weight" >
+                <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0.6,0},{1,0},{0.7,0}}" />
+                <Window Type="DejaVu/Editbox" Name="Root/CS_HermiteMoveWnd/Background/Border_Weight/Edit_Weight" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0.2,0},{0.95,0},{0.8,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_HermiteMoveWnd/Background/Border_Weight/Text_Weight" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="權重" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.2,0},{0.4,0},{0.8,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed" Name="Root/CS_HermiteMoveWnd/Background/Border_Direction" >
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.7,0},{0.5,0},{0.9,0}}" />
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_HermiteMoveWnd/Background/Border_Direction/Text_X" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="X" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.05,0},{0.3,0},{0.35,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_HermiteMoveWnd/Background/Border_Direction/Text_Y" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="Y" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.35,0},{0.3,0},{0.65,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/CS_HermiteMoveWnd/Background/Border_Direction/Edit_X" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.35,0},{0.05,0},{0.95,0},{0.35,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/CS_HermiteMoveWnd/Background/Border_Direction/Edit_Y" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.35,0},{0.35,0},{0.95,0},{0.65,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_HermiteMoveWnd/Background/Border_Direction/Text_Z" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="Z" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.65,0},{0.3,0},{0.95,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/CS_HermiteMoveWnd/Background/Border_Direction/Edit_Z" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.35,0},{0.65,0},{0.95,0},{0.95,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed" Name="Root/CS_HermiteMoveWnd/Background/Border_Auto" >
+                <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0.7,0},{1,0},{0.8,0}}" />
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_HermiteMoveWnd/Background/Border_Auto/Text_Auto" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="自動" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.2,0},{0.4,0},{0.8,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/CS_HermiteMoveWnd/Background/Border_Auto/Check_Auto" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0.2,0},{0.95,0},{0.8,0}}" />
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="community/interperson" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HorizontalAlignment" Value="Centre" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,849},{0,582}}" />
+        <Property Name="VerticalAlignment" Value="Centre" />
+        <Window Type="DefaultWindow" Name="community/interperson/bg" >
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="Text" Value="人際關係" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Embed2" Name="community/interperson/friends" >
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.011779,0},{0.034364,0},{0.988222,0},{0.800687,0}}" />
+                <Window Type="DejaVu/Embed2" Name="community/interperson/friends/listBorder" >
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.012063,0},{0.056054,0},{0.987938,0},{0.977579,0}}" />
+                    <Window Type="DejaVu/ScrollablePane" Name="community/interperson/friends/listBorder/listPane" >
+                        <Property Name="ContentArea" Value="l:0 t:0 r:805 b:407" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HorzOverlapSize" Value="0.01" />
+                        <Property Name="HorzScrollPosition" Value="0" />
+                        <Property Name="HorzStepSize" Value="0.1" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.002472,0},{0.004866,0},{0.997528,0},{0.995134,0}}" />
+                        <Property Name="VertOverlapSize" Value="0.01" />
+                        <Property Name="VertScrollPosition" Value="0" />
+                        <Property Name="VertStepSize" Value="0.1" />
+                        <AutoWindow NameSuffix="__auto_container__" >
+                            <Property Name="ChildExtentsArea" Value="l:0 t:0 r:805 b:407" />
+                            <Property Name="ContentArea" Value="l:0 t:0 r:805 b:407" />
+                            <Property Name="MouseInputPropagationEnabled" Value="True" />
+                            <Window Type="DejaVu/MultiColumnList" Name="community/interperson/friends/list" >
+                                <Property Name="ColumnsMovable" Value="False" />
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                            </Window>
+                        </AutoWindow>
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed4" Name="community/interperson/Title" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.011919,0},{-0.0215517,0},{0.193087,0},{0.0344828,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="community/interperson/TitleText" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="Text" Value="x好友列表" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.2,0},{0.866667,0},{0.808696,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="community/interperson/TitleImage" >
+                        <Property Name="Image" Value="set:DejaVu image:Image13" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="community/interperson/friends/HelloText" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorzFormatting" Value="RightAligned" />
+                    <Property Name="Text" Value="剩餘打招呼次數：10" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.73462,0},{0.013453,0},{0.975874,0},{0.0582961,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="community/interperson/friends/friendsnum" >
+                    <Property Name="Text" Value="x目前好友人數：5 / 50" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.205066,0},{0.011211,0},{0.506634,0},{0.056054,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Button" Name="community/interperson/addFriendBtn" >
+                <Property Name="Text" Value="x加入好友" />
+                <Property Name="UnifiedAreaRect" Value="{{0.896349,0},{0.934708,0},{0.985866,0},{0.979381,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="community/interperson/addBlockBtn" >
+                <Property Name="Text" Value="x加入封鎖" />
+                <Property Name="UnifiedAreaRect" Value="{{0.107185,0},{0.93535,0},{0.196702,0},{0.980024,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="community/interperson/showBlockListBtn" >
+                <Property Name="Text" Value="x封鎖名單" />
+                <Property Name="UnifiedAreaRect" Value="{{0.202591,0},{0.93535,0},{0.292108,0},{0.980024,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="community/interperson/deleteFriendBtn" >
+                <Property Name="Text" Value="x刪除好友" />
+                <Property Name="UnifiedAreaRect" Value="{{0.011779,0},{0.93535,0},{0.101296,0},{0.980024,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="community/interperson/PersonCardBtn" >
+                <Property Name="Text" Value="x名片設定" />
+                <Property Name="UnifiedAreaRect" Value="{{0.795623,0},{0.93388,0},{0.88514,0},{0.978553,0}}" />
+            </Window>
+            <Window Type="DejaVu/Static" Name="community/interperson/Hello" >
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.011779,0},{0.809278,0},{0.497056,0},{0.929553,0}}" />
+                <Window Type="DejaVu/Embed2" Name="community/interperson/HelloBG" >
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.142857,0},{1,0},{1,0}}" />
+                    <Window Type="DejaVu/Button" Name="community/interperson/HelloBG/Config" >
+                        <Property Name="Text" Value="x設定" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.771883,0},{0.416667,0},{0.973475,0},{0.85,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Editbox" Name="community/interperson/HelloBG/Input" >
+                        <Property Name="MaxTextLength" Value="2147483647" />
+                        <Property Name="TextParsingEnabled" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.026525,0},{0.416667,0},{0.745358,0},{0.833334,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed4" Name="community/interperson/HelloTitle" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.026525,0},{0,0},{0.424403,0},{0.357143,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="community/interperson/Hello/Text" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="Text" Value="x問候語" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.2,0},{0.866667,0},{0.783333,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="community/interperson/Hello/Image" >
+                        <Property Name="Image" Value="set:DejaVu image:Image14" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="community/interperson/Victory" >
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.502945,0},{0.809278,0},{0.988222,0},{0.929553,0}}" />
+                <Window Type="DejaVu/Embed2" Name="community/interperson/VictoryBG" >
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.142857,0},{1,0},{1,0}}" />
+                    <Window Type="DejaVu/Button" Name="community/interperson/Victory/Config" >
+                        <Property Name="Text" Value="x設定" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.771883,0},{0.416667,0},{0.973475,0},{0.85,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Editbox" Name="community/interperson/Victory/Input" >
+                        <Property Name="MaxTextLength" Value="2147483647" />
+                        <Property Name="TextParsingEnabled" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.026525,0},{0.416667,0},{0.745358,0},{0.833334,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed4" Name="community/interperson/VictoryTitle" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.026525,0},{0,0},{0.424403,0},{0.357143,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="community/interperson/Victory/Text" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="Text" Value="x勝利宣言" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.2,0},{0.866667,0},{0.783333,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="community/interperson/Victory/Image" >
+                        <Property Name="Image" Value="set:DejaVu image:Image14" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

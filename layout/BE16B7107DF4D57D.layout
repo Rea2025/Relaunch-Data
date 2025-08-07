@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/CommonDlg" >
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.39875,0},{0.304348,0},{0.39875,237},{0.304348,180}}" />
+        <Property Name="UnifiedMinSize" Value="{{0,237},{0,180}}" />
+        <Window Type="DejaVu/StaticTextLab" Name="Root/CommonDlg/MsgText" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorzFormatting" Value="WordWrapCentred" />
+            <Property Name="UnifiedAreaRect" Value="{{0.052716,0},{0.065238,0},{0.941035,0},{0.509602,0}}" />
+        </Window>
+        <Window Type="DejaVu/Editbox" Name="Root/CommonDlg/EditBox" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="MaxTextLength" Value="16" />
+            <Property Name="NormalTextColour" Value="FFFFFFFF" />
+            <Property Name="TextParsingEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.18408,0},{0.525969,0},{0.81592,0},{0.704264,0}}" />
+            <Property Name="Visible" Value="False" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/CommonDlg/OKBtn" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="ClippedByParent" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0845771,0},{0.787402,0},{0.432836,0},{0.976378,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/CommonDlg/CloseBtn" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.563218,0},{0.791191,0},{0.920361,0},{0.977238,0}}" />
+        </Window>
+        <Window Type="DejaVu/Static" Name="Root/CommonDlg/static" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{-0.00375,0},{0,0},{0.99625,0},{1,0}}" />
+            <Window Type="DejaVu/Border" Name="Root/CommonDlg/static/border" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.034483,0},{0.047619,0},{0.965518,0},{0.555556,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/CommonDlg/CancelBtn" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="ClippedByParent" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.562474,0},{0.790698,0},{0.910733,0},{0.976745,0}}" />
+        </Window>
+        <Window Type="DejaVu/RadioButton" Name="Root/CommonDlg/ManualBtn" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="DisabledTextColour" Value="FFFFFFFF" />
+            <Property Name="HoverTextColour" Value="FFFFFFFF" />
+            <Property Name="NormalTextColour" Value="FFFFFFFF" />
+            <Property Name="PushedTextColour" Value="FFFFFFFF" />
+            <Property Name="Text" Value="手動" />
+            <Property Name="UnifiedAreaRect" Value="{{0.562636,0},{0.552321,0},{0.861143,0},{0.709801,0}}" />
+        </Window>
+        <Window Type="DejaVu/RadioButton" Name="Root/CommonDlg/AutoBtn" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="DisabledTextColour" Value="FFFFFFFF" />
+            <Property Name="HoverTextColour" Value="FFFFFFFF" />
+            <Property Name="NormalTextColour" Value="FFFFFFFF" />
+            <Property Name="PushedTextColour" Value="FFFFFFFF" />
+            <Property Name="Text" Value="自動" />
+            <Property Name="UnifiedAreaRect" Value="{{0.162817,0},{0.551181,0},{0.461324,0},{0.708661,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

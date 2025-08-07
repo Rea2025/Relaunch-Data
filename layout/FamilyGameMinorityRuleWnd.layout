@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/FamilyGameMinorityRuleWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="TitlebarImage" Value="set:main2 image:QuestN" />
+        <Property Name="UnifiedAreaRect" Value="{{0.170213,0},{0.154329,0},{0.170213,500},{0.154329,350}}" />
+        <Window Type="DejaVu/Embed2" Name="Root/FamilyGameMinorityRuleWnd/Game" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.00413223,0},{-0.114815,0},{0.995868,0},{0.996296,0}}" />
+            <Window Type="DejaVu/Embed4" Name="Root/FamilyGameMinorityRuleWnd/Game/Title" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.100372,0},{0.29375,0},{0.204461,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/FamilyGameMinorityRuleWnd/Game/Title/Text" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="x少數決" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.269504,0},{0.166667,0},{0.87234,0},{0.666667,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/FamilyGameMinorityRuleWnd/Game/Title/Mark" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Image" Value="set:DejaVu image:Image14" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0992908,0},{0.166667,0},{0.198582,0},{0.666667,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/FamilyGameMinorityRuleWnd/Game/Button" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="x進行選擇" />
+                <Property Name="UnifiedAreaRect" Value="{{0.410417,0},{0.891245,0},{0.410417,76},{0.891245,26}}" />
+            </Window>
+            <Window Type="DejaVu/Embed2" Name="Root/FamilyGameMinorityRuleWnd/Game/Result" >
+                <Property Name="UnifiedAreaRect" Value="{{0.0208333,0},{0.687732,0},{0.979167,0},{0.873606,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/FamilyGameMinorityRuleWnd/Game/Result/Text" >
+                    <Property Name="Text" Value="x結果顯示" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0173913,0},{0.4,0},{0.995652,0},{0.9,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed4" Name="Root/FamilyGameMinorityRuleWnd/Game/ResultTitle" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.654275,0},{0.29375,0},{0.758364,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/FamilyGameMinorityRuleWnd/Game/ResultTitle/Text" >
+                    <Property Name="Text" Value="x結果" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.269504,0},{0.178571,0},{0.87234,0},{0.714286,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/FamilyGameMinorityRuleWnd/Game/ResultTitle/Mark" >
+                    <Property Name="Image" Value="set:DejaVu image:Image14" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0992908,0},{0.178571,0},{0.198582,0},{0.714286,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/FamilyGameMinorityRuleWnd/Item1" >
+                <Property Name="UnifiedAreaRect" Value="{{0.09375,0},{0.241636,0},{0.302083,0},{0.613383,0}}" />
+                <Window Type="DejaVu/Zframe2" Name="Root/FamilyGameMinorityRuleWnd/Item1/SelectFrame" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/FamilyGameMinorityRuleWnd/Item1/Text" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="x結果1" />
+                    <Property Name="TextColours" Value="tl:FFFF0000 tr:FFFF0000 bl:FFFF0000 br:FFFF0000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.803571,0},{1,0},{0.982143,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/FamilyGameMinorityRuleWnd/Item2" >
+                <Property Name="UnifiedAreaRect" Value="{{0.395833,0},{0.241636,0},{0.604166,0},{0.613383,0}}" />
+                <Window Type="DejaVu/Zframe2" Name="Root/FamilyGameMinorityRuleWnd/Item2/SelectFrame" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/FamilyGameMinorityRuleWnd/Item2/Text" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="x結果2" />
+                    <Property Name="TextColours" Value="tl:FFFF0000 tr:FFFF0000 bl:FFFF0000 br:FFFF0000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.803571,0},{1,0},{0.982143,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/FamilyGameMinorityRuleWnd/Item3" >
+                <Property Name="UnifiedAreaRect" Value="{{0.697917,0},{0.241636,0},{0.90625,0},{0.613383,0}}" />
+                <Window Type="DejaVu/Zframe2" Name="Root/FamilyGameMinorityRuleWnd/Item3/SelectFrame" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/FamilyGameMinorityRuleWnd/Item3/Text" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="x結果3" />
+                    <Property Name="TextColours" Value="tl:FFFF0000 tr:FFFF0000 bl:FFFF0000 br:FFFF0000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.803571,0},{1,0},{0.982143,0}}" />
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

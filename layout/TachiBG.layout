@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/Embed3" Name="TachiBG" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HorizontalAlignment" Value="Centre" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{-0.195059,0},{0,240},{-0.195059,30}}" />
+        <Property Name="VerticalAlignment" Value="Bottom" />
+        <Window Type="DejaVu/StaticImage" Name="TachiBG/Icon" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="Image" Value="set:main image:WeaponTypeTachi" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.041667,0},{0.166667,0},{0.125,0},{0.833334,0}}" />
+        </Window>
+        <Window Type="DejaVu/ProgressBarBG" Name="TachiBG/Bar" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.145833,0},{0.266667,0},{0.979166,0},{0.766667,0}}" />
+            <Window Type="DejaVu/ProgressBar6" Name="TachiBG/Bar/Progress" >
+                <Property Name="CurrentProgress" Value="1" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="StepSize" Value="0.01" />
+                <Property Name="UnifiedAreaRect" Value="{{0.025,0},{0.266667,0},{0.975,0},{0.733334,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

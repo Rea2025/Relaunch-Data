@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/Embed3" Name="Root/CookingWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HorizontalAlignment" Value="Centre" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{-0.0651042,0},{0,800},{-0.0651042,370}}" />
+        <Property Name="VerticalAlignment" Value="Bottom" />
+        <Window Type="DejaVu/ImageButton" Name="Root/CookingWnd/CloseBtn" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HoverImage" Value="set:DejaVu image:CloseBtnHover" />
+            <Property Name="NormalImage" Value="set:DejaVu image:CloseBtnNormal" />
+            <Property Name="PushedImage" Value="set:DejaVu image:CloseBtnPressed" />
+            <Property Name="UnifiedAreaRect" Value="{{0.955,0},{0.027027,0},{0.9875,0},{0.0810811,0}}" />
+        </Window>
+        <Window Type="DejaVu/Embed2" Name="Root/CookingWnd/MealsPlan" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0125,0},{0.0945946,0},{0.3075,0},{0.340541,0}}" />
+            <Window Type="DejaVu/EmbedTextLab7" Name="Root/CookingWnd/MealsPlan/TitleText" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="x料理成品" />
+                <Property Name="UnifiedAreaRect" Value="{{0.01,0},{0.022472,0},{0.992301,0},{0.297197,0}}" />
+            </Window>
+            <Window Type="DejaVu/Embed3" Name="Root/CookingWnd/MealsPlan/BG" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.01,0},{0.296703,0},{0.992301,0},{0.978022,0}}" />
+                <Window Type="DejaVu/SlotImage" Name="Root/CookingWnd/MealsPlan/BG/MealsSlot" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.045045,0},{0.16129,0},{0.226079,0},{0.838709,0}}" />
+                </Window>
+                <Window Type="DejaVu/Embed5" Name="Root/CookingWnd/MealsPlan/BG/MealsBG" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.267241,0},{0.16129,0},{0.956896,0},{0.838709,0}}" />
+                    <Window Type="DejaVu/StaticText" Name="Root/CookingWnd/MealsPlan/BG/MealsBG/MealsName" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                        <Property Name="LinespaceWindow" Value="True" />
+                        <Property Name="Text" Value="一二三四五六七巴九十一二" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.03125,0},{0,0},{0.96875,0},{1,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Embed2" Name="Root/CookingWnd/MaterialPlan" >
+            <Property Name="UnifiedAreaRect" Value="{{0.71125,0},{0.094595,0},{0.98625,0},{0.340541,0}}" />
+            <Window Type="DejaVu/EmbedTextLab7" Name="Root/CookingWnd/MaterialPlan/TitleText" >
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="x所需食材" />
+                <Property Name="UnifiedAreaRect" Value="{{0.01,0},{0.022472,0},{0.991818,0},{0.297197,0}}" />
+            </Window>
+            <Window Type="DejaVu/Embed3" Name="Root/CookingWnd/MaterialPlan/BG" >
+                <Property Name="UnifiedAreaRect" Value="{{0.009091,0},{0.296703,0},{0.990909,0},{0.978022,0}}" />
+                <Window Type="DejaVu/SlotImage" Name="Root/CookingWnd/MaterialPlan/BG/Slot1" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.046296,0},{0.16129,0},{0.24074,0},{0.838709,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/CookingWnd/MaterialPlan/BG/Slot2" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.287037,0},{0.16129,0},{0.481481,0},{0.838709,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/CookingWnd/MaterialPlan/BG/Slot3" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.527778,0},{0.16129,0},{0.722222,0},{0.838709,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/CookingWnd/MaterialPlan/BG/Slot4" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.768519,0},{0.16129,0},{0.962963,0},{0.83871,0}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Embed2" Name="Root/CookingWnd/PointBarPlan" >
+            <Property Name="UnifiedAreaRect" Value="{{0.3075,0},{0.094595,0},{0.71125,0},{0.340541,0}}" />
+            <Window Type="DejaVu/EmbedTextLab7" Name="Root/CookingWnd/PointBarPlan/TitleText" >
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="x料理評價" />
+                <Property Name="UnifiedAreaRect" Value="{{0.005333,0},{0.021978,0},{0.992949,0},{0.296703,0}}" />
+            </Window>
+            <Window Type="DejaVu/Embed3" Name="Root/CookingWnd/PointBarPlan/BG" >
+                <Property Name="UnifiedAreaRect" Value="{{0.005333,0},{0.296703,0},{0.992949,0},{0.978022,0}}" />
+                <Window Type="DejaVu/ProgressBarBG" Name="Root/CookingWnd/PointBarPlan/BG/ProgressBarBG" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.031348,0},{0.596774,0},{0.968652,0},{0.838709,0}}" />
+                    <Window Type="DejaVu/ImageProgressBar" Name="Root/CookingWnd/PointBarPlan/BarBG/Bar" >
+                        <Property Name="CurrentProgress" Value="0" />
+                        <Property Name="Font" Value="F001-scale" />
+                        <Property Name="StepSize" Value="1" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.022099,0},{0.266667,0},{0.9779,0},{0.733334,0}}" />
+                        <Window Type="DejaVu/StaticImage" Name="Root/CookingWnd/PointBarPlan/BG/MarkOrange" >
+                            <Property Name="ClippedByParent" Value="False" />
+                            <Property Name="Image" Value="set:main11 image:MarkOrange" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.36014,0},{-2.28571,0},{0.423077,0},{-0.714286,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticImage" Name="Root/CookingWnd/PointBarPlan/BG/MarkPurple" >
+                            <Property Name="ClippedByParent" Value="False" />
+                            <Property Name="Image" Value="set:main11 image:MarkPurple" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.614642,0},{-2.30229,0},{0.677579,0},{-0.730859,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticImage" Name="Root/CookingWnd/PointBarPlan/BG/MarkGold" >
+                            <Property Name="ClippedByParent" Value="False" />
+                            <Property Name="Image" Value="set:main11 image:MarkGold" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.837982,0},{-2.28571,0},{0.900919,0},{-0.714286,0}}" />
+                        </Window>
+                    </Window>
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/CookingWnd/PlayingPlan" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="Image" Value="set:main11 image:CookingBG" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0125,0},{0.354054,0},{0.9875,0},{0.975676,0}}" />
+            <Window Type="DejaVu/Static" Name="Root/CookingWnd/TimeBG" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.884615,0},{0,0},{1,0},{0.130435,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="Root/CookingWnd/TimeBG/Time3" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Image" Value="set:DejaVu image:9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.333333,0},{1,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/CookingWnd/TimeBG/Time2" >
+                    <Property Name="Image" Value="set:DejaVu image:9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.222222,0},{0,0},{0.555556,0},{1,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/CookingWnd/TimeBG/Point" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Image" Value="set:DejaVu image:point2" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.533333,0},{0.5,0},{0.7,0},{1,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/CookingWnd/TimeBG/Time1" >
+                    <Property Name="Image" Value="set:DejaVu image:9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.666667,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/CookingWnd/TipText" >
+                <Property Name="Font" Value="F001-24" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="x點擊滑鼠左鍵挑出錯誤的食材" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.00072522,0},{0.53131,0},{0.640301,0},{0.748701,0}}" />
+                <Property Name="VertFormatting" Value="TopAligned" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/CookingWnd/DeadLine" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Image" Value="set:main11 image:DeadLineLight" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.16084,0},{0.0434783,0},{0.180071,0},{0.765217,0}}" />
+            </Window>
+            <Window Type="DejaVu/Static" Name="Root/CookingWnd/WrongMaterialPlan" >
+                <Property Name="UnifiedAreaRect" Value="{{0.373216,0},{0.07763,0},{0.655267,0},{0.473282,0}}" />
+                <Window Type="DejaVu/EmbedTextLab7" Name="Root/CookingWnd/WrongMaterialPlan/TitleText" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="x錯誤食材" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.01,0},{0.022472,0},{0.991818,0},{0.297197,0}}" />
+                </Window>
+                <Window Type="DejaVu/Embed3" Name="Root/CookingWnd/WrongMaterialPlan/BG" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.009091,0},{0.296703,0},{0.990909,0},{0.978022,0}}" />
+                    <Window Type="DejaVu/SlotImage" Name="Root/CookingWnd/WrongMaterialPlan/BG/Slot1" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.046296,0},{0.16129,0},{0.24074,0},{0.838709,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/CookingWnd/WrongMaterialPlan/BG/Slot2" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.287037,0},{0.16129,0},{0.481481,0},{0.838709,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/CookingWnd/WrongMaterialPlan/BG/Slot3" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.527778,0},{0.16129,0},{0.722222,0},{0.838709,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/CookingWnd/WrongMaterialPlan/BG/Slot4" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.768519,0},{0.16129,0},{0.962963,0},{0.83871,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

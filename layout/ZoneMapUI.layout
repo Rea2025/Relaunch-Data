@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/ZoneMapUI" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="Text" Value="區域地圖 - 納維亞聖域" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="TitlebarImage" Value="set:main image:Map" />
+        <Property Name="UnifiedAreaRect" Value="{{0.131836,0},{0.0638013,0},{0.131836,766},{0.00295887,680}}" />
+        <Window Type="DejaVu/Embed" Name="Root/ZoneMapUI/BG" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Embed2" Name="Root/ZoneMapUI/SearchBG" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.013333,0},{0.016667,0},{0.626666,0},{0.983334,0}}" />
+                <Window Type="DejaVu/EmbedTextLab7" Name="Root/ZoneMapUI/SelectMapLab" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="x選擇地圖：" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.021739,0},{0.017699,0},{0.23913,0},{0.0601769,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/ZoneMapUI/SelectMapLab2" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="x一" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.500427,0},{0.0176991,0},{0.52434,0},{0.0690266,0}}" />
+                    <Property Name="Visible" Value="False" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/ZoneMapUI/SelectMapLab3" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="x一" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.721735,0},{0.0176991,0},{0.745649,0},{0.0690266,0}}" />
+                    <Property Name="Visible" Value="False" />
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab7" Name="Root/ZoneMapUI/SearchBG/MonsterLab" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="x怪物：" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.021739,0},{0.120354,0},{0.23913,0},{0.162832,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab7" Name="Root/ZoneMapUI/SearchBG/NPCLab" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="xNPC：" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.021739,0},{0.069027,0},{0.23913,0},{0.111505,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/ZoneMapUI/SearchBG/FindMonsterBtn" >
+                    <Property Name="DisabledImage" Value="set:DejaVu image:AutoPathPressed" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HoverImage" Value="set:DejaVu image:AutoPathHover" />
+                    <Property Name="NormalImage" Value="set:DejaVu image:AutoPathNormal" />
+                    <Property Name="PushedImage" Value="set:DejaVu image:AutoPathPressed" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.869565,0},{0.120354,0},{0.923913,0},{0.162832,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/ZoneMapUI/SearchBG/TeleportMonsterBtn" >
+                    <Property Name="DisabledImage" Value="set:main2 image:MapTeleportPressed" />
+                    <Property Name="HoverImage" Value="set:main2 image:MapTeleportHover" />
+                    <Property Name="NormalImage" Value="set:main2 image:MapTeleportNormal" />
+                    <Property Name="PushedImage" Value="set:main2 image:MapTeleportPressed" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.923913,0},{0.120354,0},{0.978261,0},{0.162832,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/ZoneMapUI/SearchBG/FindNpcBtn" >
+                    <Property Name="DisabledImage" Value="set:DejaVu image:AutoPathPressed" />
+                    <Property Name="HoverImage" Value="set:DejaVu image:AutoPathHover" />
+                    <Property Name="NormalImage" Value="set:DejaVu image:AutoPathNormal" />
+                    <Property Name="PushedImage" Value="set:DejaVu image:AutoPathPressed" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.869565,0},{0.0690266,0},{0.923913,0},{0.111504,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/ZoneMapUI/SearchBG/TeleportNpcBtn" >
+                    <Property Name="DisabledImage" Value="set:main2 image:MapTeleportPressed" />
+                    <Property Name="HoverImage" Value="set:main2 image:MapTeleportHover" />
+                    <Property Name="NormalImage" Value="set:main2 image:MapTeleportNormal" />
+                    <Property Name="PushedImage" Value="set:main2 image:MapTeleportPressed" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.923913,0},{0.0690266,0},{0.978261,0},{0.111504,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/ZoneMapUI/SearchBG/ZoomSwitch" >
+                    <Property Name="Font" Value="F001-13" />
+                    <Property Name="Text" Value="鎖定角色縮放地圖" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.543478,0},{0.938931,0},{0.869565,0},{0.982824,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab7" Name="Root/ZoneMapUI/MapBG/CoordinateLab" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="x座標：" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0217391,0},{0.939655,0},{0.23913,0},{0.982759,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab5" Name="Root/ZoneMapUI/MapBG/CoordinateBG" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.23913,0},{0.939823,0},{0.521739,0},{0.982926,0}}" />
+                    <Window Type="DefaultWindow" Name="Root/ZoneMapUI/MapBG/CoordinateX" >
+                        <Property Name="Font" Value="F001-scale" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.461538,0},{1,0}}" />
+                        <Window Type="DejaVu/StaticTextLab" Name="Root/ZoneMapUI/MapBG/CoordinateX/Label" >
+                            <Property Name="HorzFormatting" Value="RightAligned" />
+                            <Property Name="Text" Value="X：" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.5,0},{1,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/EmbedTextLab2" Name="Root/ZoneMapUI/MapBG/CoordinateX/Value" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="Text" Value="123" />
+                            <Property Name="TextColours" Value="tl:C8FFFFFF tr:C8FFFFFF bl:C8FFFFFF br:C8FFFFFF" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0,0},{1,0},{1,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DefaultWindow" Name="Root/ZoneMapUI/MapBG/CoordinateY" >
+                        <Property Name="Font" Value="F001-scale" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.461538,0},{0,0},{0.923077,0},{1,0}}" />
+                        <Window Type="DejaVu/StaticTextLab" Name="Root/ZoneMapUI/MapBG/CoordinateY/Label" >
+                            <Property Name="HorzFormatting" Value="RightAligned" />
+                            <Property Name="Text" Value="Y：" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.5,0},{1,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/EmbedTextLab2" Name="Root/ZoneMapUI/MapBG/CoordinateY/Value" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="Text" Value="456" />
+                            <Property Name="TextColours" Value="tl:C8FFFFFF tr:C8FFFFFF bl:C8FFFFFF br:C8FFFFFF" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0,0},{1,0},{1,0}}" />
+                        </Window>
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed2" Name="Root/ZoneMapUI/MapBG/SmallMaps" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0217391,0},{0.172414,0},{0.978261,0},{0.931035,0}}" />
+                    <Window Type="DejaVu/StaticImage" Name="Root/ZoneMapUI/MapBG/SmallMaps/RadarMap" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/ZoneMapUI/MapBG/SmallMaps/LandMap" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/ZoneMapUI/MapBG/SmallMaps/WorldMap" >
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                        <Property Name="UnifiedMinSize" Value="{{0.1,0},{0.1,0}}" />
+                        <Window Type="DejaVu/StaticImage" Name="Root/ZoneMapUI/MapBG/SmallMaps/WorldMap/CharImg1" >
+                            <Property Name="ClippedByParent" Value="False" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.244076,0},{0.950237,0},{0.265403,0},{0.983412,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticImage" Name="Root/ZoneMapUI/MapBG/SmallMaps/WorldMap/CharImg2" >
+                            <Property Name="ClippedByParent" Value="False" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.218009,0},{0.950237,0},{0.239336,0},{0.983412,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticImage" Name="Root/ZoneMapUI/MapBG/SmallMaps/WorldMap/CharImg3" >
+                            <Property Name="ClippedByParent" Value="False" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.191943,0},{0.950237,0},{0.21327,0},{0.983412,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticImage" Name="Root/ZoneMapUI/MapBG/SmallMaps/WorldMap/CharImg4" >
+                            <Property Name="ClippedByParent" Value="False" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.168246,0},{0.950237,0},{0.189573,0},{0.983412,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticImage" Name="Root/ZoneMapUI/MapBG/SmallMaps/WorldMap/CharImg5" >
+                            <Property Name="ClippedByParent" Value="False" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.14218,0},{0.950237,0},{0.163507,0},{0.983412,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticImage" Name="Root/ZoneMapUI/MapBG/SmallMaps/WorldMap/CharImg6" >
+                            <Property Name="ClippedByParent" Value="False" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.113744,0},{0.950237,0},{0.135071,0},{0.983412,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticImage" Name="Root/ZoneMapUI/MapBG/SmallMaps/WorldMap/CharImg7" >
+                            <Property Name="ClippedByParent" Value="False" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0876777,0},{0.950237,0},{0.109005,0},{0.983412,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticImage" Name="Root/ZoneMapUI/MapBG/SmallMaps/WorldMap/CharImg8" >
+                            <Property Name="ClippedByParent" Value="False" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0616114,0},{0.950237,0},{0.0829384,0},{0.983412,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticImage" Name="Root/ZoneMapUI/MapBG/SmallMaps/WorldMap/CharImg9" >
+                            <Property Name="ClippedByParent" Value="False" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0331754,0},{0.950237,0},{0.0545024,0},{0.983412,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticImage" Name="Root/ZoneMapUI/MapBG/SmallMaps/WorldMap/CharImg10" >
+                            <Property Name="ClippedByParent" Value="False" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.007109,0},{0.950237,0},{0.028436,0},{0.983412,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticImage" Name="Root/ZoneMapUI/MapBG/SmallMaps/WorldMap/LoverImg" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.265403,0},{0.950237,0},{0.28673,0},{0.983412,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticImage" Name="Root/ZoneMapUI/MapBG/SmallMaps/WorldMap/PlayerImg" >
+                            <Property Name="ClippedByParent" Value="False" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.291469,0},{0.950237,0},{0.312796,0},{0.983412,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/StaticText" Name="Root/ZoneMapUI/MapBG/SmallMaps/Text" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                        <Property Name="LinespaceWindow" Value="True" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="Text" Value="一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.102273,0},{0.0340909,0},{0.977273,0},{0.125,0}}" />
+                        <Property Name="VertFormatting" Value="TopAligned" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/ZoneMapUI/MapBG/SmallMaps/Img" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Image" Value="set:DejaVu image:AutoPathNormal" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.022727,0},{0.022727,0},{0.0795452,0},{0.0795452,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/ZoneMapUI/MapBG/SmallMaps/GlobalMap" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/ZoneMapUI/MapBG/SmallMaps/GalaxyMap" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Static" Name="Root/ZoneMapUI/SearchBG/MapFrame" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.869565,0},{0.794828,0}}" />
+                    <Window Type="DejaVu/Combobox" Name="Root/ZoneMapUI/NodeCombobox" >
+                        <Property Name="MaxEditTextLength" Value="2147483647" />
+                        <Property Name="ReadOnly" Value="True" />
+                        <Property Name="Text" Value="x納維亞聖城" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.275,0},{0.021692,0},{0.975,0},{0.318872,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Combobox" Name="Root/ZoneMapUI/SearchBG/NPCComboBox" >
+                        <Property Name="MaxEditTextLength" Value="2147483647" />
+                        <Property Name="ReadOnly" Value="True" />
+                        <Property Name="Text" Value="一二三四五六七八九十一二" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.275,0},{0.086768,0},{0.975,0},{0.145336,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Combobox" Name="Root/ZoneMapUI/SearchBG/MonsterComboBox" >
+                        <Property Name="MaxEditTextLength" Value="2147483647" />
+                        <Property Name="ReadOnly" Value="True" />
+                        <Property Name="Text" Value="一二三四五六七八九十一二" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.275,0},{0.151844,0},{0.975,0},{0.210412,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed2" Name="Root/ZoneMapUI/BG1" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.633333,0},{0.017094,0},{0.986666,0},{0.983761,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/ZoneMapUI/MapBG/AlphaLabel" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="x調整透明度：" />
+                    <Property Name="UnifiedAreaRect" Value="{{-0.473256,0},{0.9346,0},{-0.150911,0},{0.98562,0}}" />
+                </Window>
+                <Window Type="DejaVu/HorizontalScrollbar" Name="Root/ZoneMapUI/MapBG/AlphaSilderBar" >
+                    <Property Name="DocumentSize" Value="1" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="OverlapSize" Value="0" />
+                    <Property Name="PageSize" Value="0" />
+                    <Property Name="ScrollPosition" Value="0" />
+                    <Property Name="StepSize" Value="1" />
+                    <Property Name="UnifiedAreaRect" Value="{{-0.479231,0},{0.9475,0},{-0.0694559,0},{0.978112,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/ZoneMapUI/SearchBG/Title" >
+                    <Property Name="Text" Value="x尋找目標：" />
+                    <Property Name="UnifiedAreaRect" Value="{{-0.78129,0},{0.949074,0},{-0.049614,0},{0.992964,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab7" Name="Root/ZoneMapUI/FilterBG/Title" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="x圖標顯示：" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0377358,0},{0.0176991,0},{0.962264,0},{0.060177,0}}" />
+                </Window>
+                <Window Type="DejaVu/Static" Name="Root/ZoneMapUI/FilterBG" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.037736,0},{0.060345,0},{0.962264,0},{0.982759,0}}" />
+                    <Window Type="DejaVu/Checkbox" Name="Root/ZoneMapUI/FilterBG/TownFiltersCheckbox" >
+                        <Property Name="Text" Value="x城市功能" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0512821,0},{0.0175439,0},{0.564103,0},{0.0701754,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Button" Name="Root/ZoneMapUI/CloseBtn" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="x關閉" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.861103,0},{0.943753,0},{0.965398,0},{0.976258,0}}" />
+                    <Property Name="Visible" Value="False" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/ZoneMapUI/HintText" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="x*在地圖上使用滑鼠滾輪可以縮放地圖大小，按住左鍵可以移動地圖。x" />
+                    <Property Name="UnifiedAreaRect" Value="{{-0.683591,0},{0.952766,0},{-0.0378859,0},{0.985271,0}}" />
+                </Window>
+                <Window Type="DejaVu/ScrollablePane" Name="Root/ZoneMapUI/FilterBG/Pane" >
+                    <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorzOverlapSize" Value="0.01" />
+                    <Property Name="HorzScrollPosition" Value="0" />
+                    <Property Name="HorzStepSize" Value="0.1" />
+                    <Property Name="Text" Value="123456" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.037736,0},{0.063717,0},{0.962264,0},{0.980531,0}}" />
+                    <Property Name="VertOverlapSize" Value="0.01" />
+                    <Property Name="VertScrollPosition" Value="0" />
+                    <Property Name="VertStepSize" Value="0.1" />
+                    <AutoWindow NameSuffix="__auto_container__" >
+                        <Property Name="ChildExtentsArea" Value="l:0 t:0 r:0 b:0" />
+                        <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                        <Property Name="MouseInputPropagationEnabled" Value="True" />
+                    </AutoWindow>
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/ZoneMapUI/Tutorial" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="DisabledImage" Value="set:DejaVu image:HelpButtonPressed" />
+                    <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                    <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                    <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.89255,0},{0.0209037,0},{0.960475,0},{0.0527622,0}}" />
+                    <Property Name="Visible" Value="False" />
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

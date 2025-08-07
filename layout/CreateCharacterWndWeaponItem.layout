@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="CreateCharacterWndWeaponItem" >
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.165104,0},{0.0907173,0}}" />
+        <Window Type="DejaVu/Static" Name="CreateCharacterWndWeaponItem/Item" >
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.930233,0}}" />
+            <Window Type="DejaVu/ImageButton" Name="CreateCharacterWndWeaponItem/Item/Btn" >
+                <Property Name="HoverImage" Value="set:main38 image:GLCreateJob_H" />
+                <Property Name="NormalImage" Value="set:main38 image:GLCreateJob_N" />
+                <Property Name="PushedImage" Value="set:main38 image:GLCreateJob_P" />
+                <Property Name="UnifiedAreaRect" Value="{{0.321767,0},{0.0375,0},{0.993691,0},{1,0}}" />
+                <Window Type="DejaVu/StaticText" Name="CreateCharacterWndWeaponItem/Item/Btn/Text" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.305164,0},{0.233766,0},{0.737089,0},{0.753247,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="CreateCharacterWndWeaponItem/Item/Image" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.283912,0},{0.0125,0},{0.545741,0},{1.025,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

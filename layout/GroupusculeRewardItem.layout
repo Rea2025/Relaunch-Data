@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="GroupusculeRewardItem" >
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.348953,0},{0.0737705,0}}" />
+        <Window Type="DejaVu/Embed4" Name="GroupusculeRewardItem/Item" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/StaticTextLab" Name="GroupusculeRewardItem/Item/Name" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="ID" Value="3" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="x好人卡" />
+                <Property Name="UnifiedAreaRect" Value="{{0.128571,0},{0.130435,0},{0.757142,0},{0.434783,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="GroupusculeRewardItem/Item/Qualification" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="ID" Value="2" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="x告白即可獲得" />
+                <Property Name="UnifiedAreaRect" Value="{{0.128571,0},{0.565217,0},{0.757143,0},{0.869565,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="GroupusculeRewardItem/Item/Slot" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="ID" Value="1" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0228571,0},{0.111111,0},{0.0228571,34},{0.111111,34}}" />
+            </Window>
+            <Window Type="DejaVu/Zframe" Name="GroupusculeRewardItem/Item/SelectFrame" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="ID" Value="4" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="GroupusculeRewardItem/Item/GetBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="ID" Value="5" />
+                <Property Name="Text" Value="x領卡" />
+                <Property Name="UnifiedAreaRect" Value="{{0.771429,0},{0.195652,0},{0.971429,0},{0.73913,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

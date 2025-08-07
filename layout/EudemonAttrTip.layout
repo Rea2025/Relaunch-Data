@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/TipTextLab" Name="Root/EudemonAttrTip" >
+        <Property Name="BackgroundEnabled" Value="False" />
+        <Property Name="FrameEnabled" Value="False" />
+        <Property Name="MousePassThroughEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.175781,0},{0.331025,0}}" />
+        <Window Type="DejaVu/Static" Name="Root/EudemonAttrTip/Info" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,180},{0,65}}" />
+            <Window Type="DejaVu/StaticText" Name="Root/EudemonAttrTip/Info/Name" >
+                <Property Name="Font" Value="F001-10" />
+                <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="x雅典娜123456789" />
+                <Property Name="TextColours" Value="tl:FFFFFF00 tr:FFFFFF00 bl:FFFFFF00 br:FFFFFF00" />
+                <Property Name="UnifiedAreaRect" Value="{{0.029412,0},{0,0},{0.668301,0},{0.307692,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/EudemonAttrTip/Info/Score" >
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="x源神分數:999999" />
+                <Property Name="UnifiedAreaRect" Value="{{0.029412,0},{0.611201,0},{0.723856,0},{0.918893,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/EudemonAttrTip/Info/StarBG" >
+                <Property Name="Image" Value="set:main2 image:BG" />
+                <Property Name="UnifiedAreaRect" Value="{{0.029412,0},{0.307692,0},{0.529412,0},{0.615384,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="Root/EudemonAttrTip/Info/Star1" >
+                    <Property Name="Image" Value="set:main2 image:Feeling02" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0555556,0},{0,0},{0.277778,0},{1,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/EudemonAttrTip/Info/Star2" >
+                    <Property Name="Image" Value="set:main2 image:Feeling02" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.277778,0},{0,0},{0.5,0},{1,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/EudemonAttrTip/Info/Star3" >
+                    <Property Name="Image" Value="set:main2 image:Feeling02" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0,0},{0.722222,0},{1,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/EudemonAttrTip/Info/Star4" >
+                    <Property Name="Image" Value="set:main2 image:Feeling02" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.722222,0},{0,0},{0.944444,0},{1,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="Root/EudemonAttrTip/Info/NowLevel" >
+                <Property Name="BackgroundEnabled" Value="True" />
+                <Property Name="FrameEnabled" Value="True" />
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.0277778,0},{0.0769231,0},{0.25,0},{0.538462,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="Root/EudemonAttrTip/Info/NowLevel/PicNum2" >
+                    <Property Name="Image" Value="set:DejaVu image:two" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.06,0},{0,0},{0.62,0},{0.933333,0}}" />
+                    <Property Name="VerticalAlignment" Value="Centre" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/EudemonAttrTip/Info/NowLevel/PicNum1" >
+                    <Property Name="Image" Value="set:DejaVu image:eight" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.42,0},{0,0},{0.98,0},{0.933333,0}}" />
+                    <Property Name="VerticalAlignment" Value="Centre" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="Root/EudemonAttrTip/Attr" >
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.416667,0},{0,180},{0.416667,140}}" />
+            <Window Type="DejaVu/StaticTextLab" Name="Root/EudemonAttrTip/Attr/AttackTitle" >
+                <Property Name="Text" Value="x傷害" />
+                <Property Name="TextColours" Value="tl:FFFFFF00 tr:FFFFFF00 bl:FFFFFF00 br:FFFFFF00" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0277778,0},{0.0719424,0},{0.383333,0},{0.18705,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/EudemonAttrTip/Attr/CriticalTitle" >
+                <Property Name="Text" Value="x爆擊" />
+                <Property Name="TextColours" Value="tl:FFFFFF00 tr:FFFFFF00 bl:FFFFFF00 br:FFFFFF00" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0277778,0},{0.223022,0},{0.383333,0},{0.338129,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/EudemonAttrTip/Attr/RecoverTitle" >
+                <Property Name="Text" Value="x回氣" />
+                <Property Name="TextColours" Value="tl:FFFFFF00 tr:FFFFFF00 bl:FFFFFF00 br:FFFFFF00" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0277778,0},{0.374101,0},{0.383333,0},{0.489209,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/EudemonAttrTip/Attr/AttackValue" >
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="Text" Value="x9999" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.0277778,0},{0.0719424,0},{0.383333,0},{0.18705,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/EudemonAttrTip/Attr/CriticalValue" >
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="Text" Value="x9999" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.0277778,0},{0.223022,0},{0.383333,0},{0.338129,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/EudemonAttrTip/Attr/RecoverValue" >
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="Text" Value="x999999" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.0277778,0},{0.374101,0},{0.383333,0},{0.489209,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/EudemonAttrTip/Attr/AttackRank" >
+                <Property Name="Image" Value="set:DejaVu image:AbRankRPlus" />
+                <Property Name="UnifiedAreaRect" Value="{{0.409091,0},{0.071429,0},{0.603535,0},{0.214286,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/EudemonAttrTip/Attr/CriticalRank" >
+                <Property Name="Image" Value="set:DejaVu image:AbRankR" />
+                <Property Name="UnifiedAreaRect" Value="{{0.409091,0},{0.221429,0},{0.603535,0},{0.364286,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/EudemonAttrTip/Attr/RecoverRank" >
+                <Property Name="Image" Value="set:DejaVu image:AbRankS" />
+                <Property Name="UnifiedAreaRect" Value="{{0.409091,0},{0.371429,0},{0.603535,0},{0.514286,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/EudemonAttrTip/Attr/HpTitle" >
+                <Property Name="Text" Value="xHP值" />
+                <Property Name="TextColours" Value="tl:FFFFFF00 tr:FFFFFF00 bl:FFFFFF00 br:FFFFFF00" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0277778,0},{0.517986,0},{0.383333,0},{0.633093,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/EudemonAttrTip/Attr/HpRank" >
+                <Property Name="Image" Value="set:DejaVu image:AbRankAPlus" />
+                <Property Name="UnifiedAreaRect" Value="{{0.409091,0},{0.521429,0},{0.603535,0},{0.664286,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/EudemonAttrTip/Attr/DefTitle" >
+                <Property Name="Text" Value="x防禦" />
+                <Property Name="TextColours" Value="tl:FFFFFF00 tr:FFFFFF00 bl:FFFFFF00 br:FFFFFF00" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0277778,0},{0.66187,0},{0.383333,0},{0.776978,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/EudemonAttrTip/Attr/DodgeTitle" >
+                <Property Name="Text" Value="x閃避" />
+                <Property Name="TextColours" Value="tl:FFFFFF00 tr:FFFFFF00 bl:FFFFFF00 br:FFFFFF00" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0277778,0},{0.81295,0},{0.383333,0},{0.928058,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/EudemonAttrTip/Attr/DefRank" >
+                <Property Name="Image" Value="set:DejaVu image:AbRankAPlus" />
+                <Property Name="UnifiedAreaRect" Value="{{0.409091,0},{0.664286,0},{0.603535,0},{0.807143,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/EudemonAttrTip/Attr/DodgeRank" >
+                <Property Name="Image" Value="set:DejaVu image:AbRankAPlus" />
+                <Property Name="UnifiedAreaRect" Value="{{0.409091,0},{0.814286,0},{0.603535,0},{0.957143,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/EudemonAttrTip/Attr/HpValue" >
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="Text" Value="x9999" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.0277778,0},{0.517986,0},{0.383333,0},{0.633093,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/EudemonAttrTip/Attr/DodgeValue" >
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="Text" Value="x9999" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.0277778,0},{0.81295,0},{0.383333,0},{0.928058,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/EudemonAttrTip/Attr/DefValue" >
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="Text" Value="x9999" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.0277778,0},{0.669065,0},{0.383333,0},{0.784173,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/StaticText" Name="Root/EudemonAttrTip/LeaderSkill" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="LinespaceWindow" Value="True" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="Text" >x隊長技能
+對1231231235%12312312</Property>
+            <Property Name="UnifiedAreaRect" Value="{{0.027778,0},{0.271967,0},{0.972222,0},{0.39749,0}}" />
+            <Property Name="VertFormatting" Value="TopAligned" />
+        </Window>
+    </Window>
+</GUILayout>

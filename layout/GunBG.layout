@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/Embed3" Name="GunBG" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HorizontalAlignment" Value="Centre" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{-0.195313,0},{0,190},{-0.195313,40}}" />
+        <Property Name="VerticalAlignment" Value="Bottom" />
+        <Window Type="DejaVu/StaticImage" Name="GunBG/Icon" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="Image" Value="set:main image:WeaponTypeTwoGun" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.052632,0},{0.25,0},{0.157895,0},{0.75,0}}" />
+        </Window>
+        <Window Type="DejaVu/SlotImage" Name="GunBG/Slot" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.210526,0},{0.125,0},{0.368421,0},{0.875,0}}" />
+            <Window Type="DejaVu/StaticImage" Name="GunBG/Slot/Frame" >
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Image" Value="set:DejaVu image:GoldItem" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.033333,0},{0.033333,0},{0.966666,0},{0.966666,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="GunBG/Slot/Frame2" >
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Image" Value="set:DejaVu image:GoldItem" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.0333333,0},{-0.0333333,0},{1.03333,0},{1.03333,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/SlotImage" Name="GunBG/Slot1" >
+            <Property Name="UnifiedAreaRect" Value="{{0.421053,0},{0.125,0},{0.578947,0},{0.875,0}}" />
+        </Window>
+        <Window Type="DejaVu/SlotImage" Name="GunBG/Slot2" >
+            <Property Name="UnifiedAreaRect" Value="{{0.605263,0},{0.125,0},{0.763158,0},{0.875,0}}" />
+        </Window>
+        <Window Type="DejaVu/SlotImage" Name="GunBG/Slot3" >
+            <Property Name="UnifiedAreaRect" Value="{{0.789474,0},{0.125,0},{0.947368,0},{0.875,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

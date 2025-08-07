@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="ShadowConfig/" >
+        <Property Name="Font" Value="F001-scale" />
+        <Property Name="Text" Value="PCF" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.3,0},{0.3,0},{0.3,512},{0.3,494}}" />
+        <Window Type="DefaultWindow" Name="ShadowConfig/ShadowDistance/" >
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,474},{0,27}}" />
+            <Window Type="DejaVu/StaticTextLab" Name="ShadowConfig/ShadowDistance/Value" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="0" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.185654,0},{1,0}}" />
+            </Window>
+            <Window Type="DejaVu/HorizontalScrollbar" Name="ShadowConfig/ShadowDistance/ScrollBar" >
+                <Property Name="DocumentSize" Value="1" />
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="OverlapSize" Value="0" />
+                <Property Name="PageSize" Value="0" />
+                <Property Name="ScrollPosition" Value="0" />
+                <Property Name="StepSize" Value="1" />
+                <Property Name="UnifiedAreaRect" Value="{{0.232019,0},{0.145492,0},{0.812188,0},{1.14549,0}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="ShadowConfig/ShadowDistance/Title" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="影子距離" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.226852,0},{1,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DefaultWindow" Name="ShadowConfig/MapSize/" >
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0596026,0},{0,474},{0.0596026,27}}" />
+            <Window Type="DejaVu/StaticTextLab" Name="ShadowConfig/MapSize/Value" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="0" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.185654,0},{1,0}}" />
+            </Window>
+            <Window Type="DejaVu/HorizontalScrollbar" Name="ShadowConfig/MapSize/ScrollBar" >
+                <Property Name="DocumentSize" Value="1" />
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="OverlapSize" Value="0" />
+                <Property Name="PageSize" Value="0" />
+                <Property Name="ScrollPosition" Value="0" />
+                <Property Name="StepSize" Value="1" />
+                <Property Name="UnifiedAreaRect" Value="{{0.232019,0},{0.136364,0},{0.812188,0},{1.13636,0}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="ShadowConfig/MapSize/Title" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="MapSize" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.226852,0},{1,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DefaultWindow" Name="ShadowConfig/ZBias/" >
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.119205,0},{0,474},{0.119205,27}}" />
+            <Window Type="DejaVu/StaticTextLab" Name="ShadowConfig/ZBias/Value" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="0" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.185654,0},{1,0}}" />
+            </Window>
+            <Window Type="DejaVu/HorizontalScrollbar" Name="ShadowConfig/ZBias/ScrollBar" >
+                <Property Name="DocumentSize" Value="1" />
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="OverlapSize" Value="0" />
+                <Property Name="PageSize" Value="0" />
+                <Property Name="ScrollPosition" Value="0" />
+                <Property Name="StepSize" Value="1" />
+                <Property Name="UnifiedAreaRect" Value="{{0.232019,0},{0.136364,0},{0.812188,0},{1.13636,0}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="ShadowConfig/ZBias/Title" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="深度修正(紅)" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.226852,0},{1,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DefaultWindow" Name="ShadowConfig/ZBias1/" >
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.178808,0},{0,474},{0.178808,27}}" />
+            <Window Type="DejaVu/StaticTextLab" Name="ShadowConfig/ZBias1/Value" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="0" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.185654,0},{1,0}}" />
+            </Window>
+            <Window Type="DejaVu/HorizontalScrollbar" Name="ShadowConfig/ZBias1/ScrollBar" >
+                <Property Name="DocumentSize" Value="1" />
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="OverlapSize" Value="0" />
+                <Property Name="PageSize" Value="0" />
+                <Property Name="ScrollPosition" Value="0" />
+                <Property Name="StepSize" Value="1" />
+                <Property Name="UnifiedAreaRect" Value="{{0.232019,0},{0.136364,0},{0.812188,0},{1.13636,0}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="ShadowConfig/ZBias1/Title" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="深度修正(綠)" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.226852,0},{1,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DefaultWindow" Name="ShadowConfig/ZBias2/" >
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.238411,0},{0,474},{0.238411,27}}" />
+            <Window Type="DejaVu/StaticTextLab" Name="ShadowConfig/ZBias2/Value" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="0" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.185654,0},{1,0}}" />
+            </Window>
+            <Window Type="DejaVu/HorizontalScrollbar" Name="ShadowConfig/ZBias2/ScrollBar" >
+                <Property Name="DocumentSize" Value="1" />
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="OverlapSize" Value="0" />
+                <Property Name="PageSize" Value="0" />
+                <Property Name="ScrollPosition" Value="0" />
+                <Property Name="StepSize" Value="1" />
+                <Property Name="UnifiedAreaRect" Value="{{0.232019,0},{0.136364,0},{0.812188,0},{1.13636,0}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="ShadowConfig/ZBias2/Title" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="深度修正(藍)" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.226852,0},{1,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DefaultWindow" Name="ShadowConfig/ZBias3/" >
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.298013,0},{0,474},{0.298013,27}}" />
+            <Window Type="DejaVu/StaticTextLab" Name="ShadowConfig/ZBias3/Value" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="0" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.185654,0},{1,0}}" />
+            </Window>
+            <Window Type="DejaVu/HorizontalScrollbar" Name="ShadowConfig/ZBias3/ScrollBar" >
+                <Property Name="DocumentSize" Value="1" />
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="OverlapSize" Value="0" />
+                <Property Name="PageSize" Value="0" />
+                <Property Name="ScrollPosition" Value="0" />
+                <Property Name="StepSize" Value="1" />
+                <Property Name="UnifiedAreaRect" Value="{{0.232019,0},{0.136364,0},{0.812188,0},{1.13636,0}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="ShadowConfig/ZBias3/Title" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="深度修正(青)" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.226852,0},{1,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DefaultWindow" Name="ShadowConfig/ShadowTerm/" >
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.357616,0},{0,474},{0.357616,27}}" />
+            <Window Type="DejaVu/StaticTextLab" Name="ShadowConfig/ShadowTerm/Value" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="0" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.185654,0},{1,0}}" />
+            </Window>
+            <Window Type="DejaVu/HorizontalScrollbar" Name="ShadowConfig/ShadowTerm/ScrollBar" >
+                <Property Name="DocumentSize" Value="1" />
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="OverlapSize" Value="0" />
+                <Property Name="PageSize" Value="0" />
+                <Property Name="ScrollPosition" Value="0" />
+                <Property Name="StepSize" Value="1" />
+                <Property Name="UnifiedAreaRect" Value="{{0.232019,0},{0.136364,0},{0.812188,0},{1.13636,0}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="ShadowConfig/ShadowTerm/Title" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="影子深淺" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.226852,0},{1,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DefaultWindow" Name="ShadowConfig/ShadowColorR/" >
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.417219,0},{0,474},{0.417219,27}}" />
+            <Window Type="DejaVu/StaticTextLab" Name="ShadowConfig/ShadowColorR/Value" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="0" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.185654,0},{1,0}}" />
+            </Window>
+            <Window Type="DejaVu/HorizontalScrollbar" Name="ShadowConfig/ShadowColorR/ScrollBar" >
+                <Property Name="DocumentSize" Value="1" />
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="OverlapSize" Value="0" />
+                <Property Name="PageSize" Value="0" />
+                <Property Name="ScrollPosition" Value="0" />
+                <Property Name="StepSize" Value="1" />
+                <Property Name="UnifiedAreaRect" Value="{{0.232019,0},{0.136364,0},{0.812188,0},{1.13636,0}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="ShadowConfig/ShadowColorR/Title" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="影子顏色(紅)" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.226852,0},{1,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DefaultWindow" Name="ShadowConfig/ShadowColorG/" >
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.472406,0},{0,474},{0.472406,27}}" />
+            <Window Type="DejaVu/StaticTextLab" Name="ShadowConfig/ShadowColorG/Value" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="0" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.185654,0},{1,0}}" />
+            </Window>
+            <Window Type="DejaVu/HorizontalScrollbar" Name="ShadowConfig/ShadowColorG/ScrollBar" >
+                <Property Name="DocumentSize" Value="1" />
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="OverlapSize" Value="0" />
+                <Property Name="PageSize" Value="0" />
+                <Property Name="ScrollPosition" Value="0" />
+                <Property Name="StepSize" Value="1" />
+                <Property Name="UnifiedAreaRect" Value="{{0.232019,0},{0.136364,0},{0.812188,0},{1.13636,0}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="ShadowConfig/ShadowColorG/Title" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="影子顏色(綠)" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.226852,0},{1,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DefaultWindow" Name="ShadowConfig/ShadowColorB/" >
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.532009,0},{0,474},{0.532009,27}}" />
+            <Window Type="DejaVu/StaticTextLab" Name="ShadowConfig/ShadowColorB/Value" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="0" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.185654,0},{1,0}}" />
+            </Window>
+            <Window Type="DejaVu/HorizontalScrollbar" Name="ShadowConfig/ShadowColorB/ScrollBar" >
+                <Property Name="DocumentSize" Value="1" />
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="OverlapSize" Value="0" />
+                <Property Name="PageSize" Value="0" />
+                <Property Name="ScrollPosition" Value="0" />
+                <Property Name="StepSize" Value="1" />
+                <Property Name="UnifiedAreaRect" Value="{{0.232019,0},{0.136364,0},{0.812188,0},{1.13636,0}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="ShadowConfig/ShadowColorB/Title" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="影子顏色(綠)" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.226852,0},{1,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DefaultWindow" Name="ShadowConfig/SplitWeight/" >
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.591612,0},{0,474},{0.591612,27}}" />
+            <Window Type="DejaVu/StaticTextLab" Name="ShadowConfig/SplitWeight/Value" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="0" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.185654,0},{1,0}}" />
+            </Window>
+            <Window Type="DejaVu/HorizontalScrollbar" Name="ShadowConfig/SplitWeight/ScrollBar" >
+                <Property Name="DocumentSize" Value="1" />
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="OverlapSize" Value="0" />
+                <Property Name="PageSize" Value="0" />
+                <Property Name="ScrollPosition" Value="0" />
+                <Property Name="StepSize" Value="1" />
+                <Property Name="UnifiedAreaRect" Value="{{0.232019,0},{0.136364,0},{0.812188,0},{1.13636,0}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="ShadowConfig/SplitWeight/Title" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="切割權重" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.226852,0},{1,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Checkbox" Name="ShadowConfig/SplitColor" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="Text" Value="SpliteColor" />
+            <Property Name="UnifiedAreaRect" Value="{{0.136192,0},{0.860773,0},{0.136192,84.0001},{0.860773,24.9398}}" />
+        </Window>
+        <Window Type="DejaVu/Checkbox" Name="ShadowConfig/Shadow" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="Text" Value="Shadow" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0078125,0},{0.859459,0},{0.136845,0},{0.9197,0}}" />
+        </Window>
+        <Window Type="DejaVu/Checkbox" Name="ShadowConfig/HUD" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="Text" Value="HUD" />
+            <Property Name="UnifiedAreaRect" Value="{{0.300733,0},{0.860961,0},{0.300733,47},{0.860961,24.9398}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="ShadowConfig/SwitchBtn" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="Text" Value="VSM" />
+            <Property Name="UnifiedAreaRect" Value="{{0.827236,0},{0,0},{0.827236,83},{0,26}}" />
+            <Property Name="VerticalAlignment" Value="Bottom" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="ShadowConfig/SaveBtn" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="Text" Value="Save" />
+            <Property Name="UnifiedAreaRect" Value="{{0.615854,0},{0,0},{0.615854,80},{0,26}}" />
+            <Property Name="VerticalAlignment" Value="Bottom" />
+        </Window>
+        <Window Type="DefaultWindow" Name="ShadowConfig/LightAngle" >
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.651214,0},{0,474},{0.651214,27}}" />
+            <Window Type="DejaVu/StaticTextLab" Name="ShadowConfig/LightAngle/Value" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="0" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.185654,0},{1,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="ShadowConfig/LightAngle/Title" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="光線仰角" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.227848,0},{1,0}}" />
+            </Window>
+            <Window Type="DejaVu/HorizontalScrollbar" Name="ShadowConfig/LightAngle/ScrollBar" >
+                <Property Name="DocumentSize" Value="1" />
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="OverlapSize" Value="0" />
+                <Property Name="PageSize" Value="0" />
+                <Property Name="ScrollPosition" Value="0" />
+                <Property Name="StepSize" Value="1" />
+                <Property Name="UnifiedAreaRect" Value="{{0.232068,0},{0.148148,0},{0.812237,0},{1.14815,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DefaultWindow" Name="ShadowConfig/LightRotate" >
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.710817,0},{0,474},{0.710817,27}}" />
+            <Window Type="DejaVu/StaticTextLab" Name="ShadowConfig/LightRotate/Value" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="0" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.185654,0},{1,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="ShadowConfig/LightRotate/Title" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="光線轉動" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.227848,0},{1,0}}" />
+            </Window>
+            <Window Type="DejaVu/HorizontalScrollbar" Name="ShadowConfig/LightRotate/ScrollBar" >
+                <Property Name="DocumentSize" Value="1" />
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="OverlapSize" Value="0" />
+                <Property Name="PageSize" Value="0" />
+                <Property Name="ScrollPosition" Value="0" />
+                <Property Name="StepSize" Value="1" />
+                <Property Name="UnifiedAreaRect" Value="{{0.232068,0},{0.148148,0},{0.812237,0},{1.14815,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Checkbox" Name="ShadowConfig/ForceSwitch" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="Text" Value="強制關閉" />
+            <Property Name="UnifiedAreaRect" Value="{{0.00718518,0},{-0.00603567,0},{0.154362,0},{0.0542052,0}}" />
+            <Property Name="VerticalAlignment" Value="Bottom" />
+        </Window>
+        <Window Type="DejaVu/Checkbox" Name="ShadowConfig/High" >
+            <Property Name="Text" Value="High" />
+            <Property Name="UnifiedAreaRect" Value="{{0.396827,0},{0.858333,0},{0.396827,47.9999},{0.858333,24.9398}}" />
+        </Window>
+        <Window Type="DejaVu/Checkbox" Name="ShadowConfig/ShadowFrustum" >
+            <Property Name="Text" Value="ShadowFrustum" />
+            <Property Name="UnifiedAreaRect" Value="{{0.146484,0},{0.932433,0},{0.369897,0},{0.992674,0}}" />
+        </Window>
+        <Window Type="DejaVu/Checkbox" Name="ShadowConfig/Skip" >
+            <Property Name="Text" Value="Skip" />
+            <Property Name="UnifiedAreaRect" Value="{{0.363808,0},{0.932295,0},{0.363808,44.8781},{0.932295,24.9398}}" />
+        </Window>
+        <Window Type="DejaVu/Checkbox" Name="ShadowConfig/ZTest" >
+            <Property Name="Text" Value="ZTest" />
+            <Property Name="UnifiedAreaRect" Value="{{0.451287,0},{0.930981,0},{0.451287,60.1921},{0.930981,24.9398}}" />
+        </Window>
+        <Window Type="DejaVu/Checkbox" Name="ShadowConfig/Backfaces" >
+            <Property Name="Text" Value="Backfaces" />
+            <Property Name="UnifiedAreaRect" Value="{{0.497984,0},{0.857488,0},{0.497984,78},{0.857488,25}}" />
+        </Window>
+    </Window>
+</GUILayout>

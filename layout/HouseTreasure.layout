@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="HouseTreasure" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.12207,0},{0.113281,0},{0.12207,386},{0.113281,540}}" />
+        <Window Type="DejaVu/Embed" Name="HouseTreasure/BG" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1.00282,0},{1,0}}" />
+            <Window Type="DejaVu/Static" Name="HouseTreasure/BG/BG1" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.027027,0},{0.021739,0},{0.972754,0},{0.293478,0}}" />
+                <Window Type="DejaVu/Embed2" Name="HouseTreasure/BG/BG1/TreasureInfor" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.001023,0},{0.076923,0},{1.00102,0},{0.996923,0}}" />
+                    <Window Type="DejaVu/SlotImage" Name="HouseTreasure/BG/BG1/TreasureInfor/SlotImg" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.760684,0},{0.217391,0},{0.880342,0},{0.582609,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Button" Name="HouseTreasure/BG/BG1/TreasureInfor/Btn" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="分享秘寶" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.712251,0},{0.669565,0},{0.928775,0},{0.895652,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Static" Name="HouseTreasure/BG/BG1/TreasureInfor/InforBG" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.042735,0},{0.217391,0},{0.641026,0},{0.869565,0}}" />
+                        <Window Type="DejaVu/Static" Name="HouseTreasure/BG/BG1/TreasureInfor/InforBG/Slot1" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.333333,0}}" />
+                            <Window Type="DejaVu/EmbedTextLab7" Name="HouseTreasure/BG/BG1/TreasureInfor/InforBG/Slot1/Title" >
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="HorzFormatting" Value="HorzCentred" />
+                                <Property Name="Text" Value="當前訪客人數" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.571429,0},{1,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/EmbedTextLab2" Name="HouseTreasure/BG/BG1/TreasureInfor/InforBG/Slot1/Text" >
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="Text" Value="99 / 99" />
+                                <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.571429,0},{0,0},{1,0},{1,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/Static" Name="HouseTreasure/BG/BG1/TreasureInfor/InforBG/Slot11" >
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.333333,0},{1,0},{0.666667,0}}" />
+                            <Window Type="DejaVu/EmbedTextLab7" Name="HouseTreasure/BG/BG1/TreasureInfor/InforBG/Slot2/Title" >
+                                <Property Name="HorzFormatting" Value="HorzCentred" />
+                                <Property Name="Text" Value="分享秘寶人數" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.571429,0},{1,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/EmbedTextLab2" Name="HouseTreasure/BG/BG1/TreasureInfor/InforBG/Slot2/Text" >
+                                <Property Name="Text" Value="99" />
+                                <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.573075,0},{0,0},{1.00165,0},{1,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/Static" Name="HouseTreasure/BG/BG1/TreasureInfor/InforBG/Slot12" >
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.666667,0},{1,0},{1,0}}" />
+                            <Window Type="DejaVu/EmbedTextLab7" Name="HouseTreasure/BG/BG1/TreasureInfor/InforBG/Slot3/Title" >
+                                <Property Name="HorzFormatting" Value="HorzCentred" />
+                                <Property Name="Text" Value="升級獎勵尚須人數" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.571429,0},{1,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/EmbedTextLab2" Name="HouseTreasure/BG/BG1/TreasureInfor/InforBG/Slot3/Text" >
+                                <Property Name="Text" Value="99" />
+                                <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.571429,0},{0,0},{1,0},{1,0}}" />
+                            </Window>
+                        </Window>
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab4" Name="HouseTreasure/BG/BG1/Title" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.029586,0},{0,0},{0.456936,0},{0.2,0}}" />
+                    <Window Type="DejaVu/StaticImage" Name="HouseTreasure/BG/BG1/Title/Img" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Image" Value="set:DejaVu image:Image24" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="HouseTreasure/BG/BG1/Title/Text" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="寶箱資訊" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.2,0},{0.866667,0},{0.8,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="HouseTreasure/BG/BG2" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.027027,0},{0.304348,0},{0.973728,0},{0.978261,0}}" />
+                <Window Type="DejaVu/Embed2" Name="HouseTreasure/BG/BG2/Body" >
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0322581,0},{1,0},{1,0}}" />
+                    <Window Type="DejaVu/MultiColumnList" Name="HouseTreasure/BG/BG2/Body/VisitorInfor" >
+                        <Property Name="ColumnsMovable" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.02849,0},{0.083333,0},{0.97151,0},{0.81,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Button" Name="HouseTreasure/BG/BG2/Body/OpenBtn" >
+                        <Property Name="Text" Value="開啟寶箱" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.754986,0},{0.88,0},{0.97151,0},{0.966667,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Button" Name="HouseTreasure/BG/BG2/Body/TreasureInforBtn" >
+                        <Property Name="Text" Value="獎勵資訊" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.02849,0},{0.88,0},{0.245014,0},{0.966667,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Button" Name="HouseTreasure/BG/BG2/Body/VisitorInforBtn" >
+                        <Property Name="Text" Value="訪客資訊" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.02849,0},{0.88,0},{0.245014,0},{0.966667,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/MultiColumnList" Name="HouseTreasure/BG/BG2/Body/TreasureInfor" >
+                        <Property Name="ColumnsMovable" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.02849,0},{0.083333,0},{0.97151,0},{0.81,0}}" />
+                        <Window Type="DejaVu/Static" Name="HouseTreasure/BG/BG2/Body/TreasureInfor/Header" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.006,0},{0.009174,0},{0.994,0},{0.123853,0}}" />
+                            <Window Type="DejaVu/Button2" Name="HouseTreasure/BG/BG2/Body/TreasureInfor/Header/Column1" >
+                                <Property Name="Text" Value="獎勵" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.26,0},{1,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/Button2" Name="HouseTreasure/BG/BG2/Body/TreasureInfor/Header/Column2" >
+                                <Property Name="Text" Value="說明" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.26,0},{0,0},{1,0},{1,0}}" />
+                            </Window>
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="HouseTreasure/BG/BG2/Body/Help" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="※參與人數越多，主人開啟秘寶時可獲得越多獎勵。" />
+                        <Property Name="TextColours" Value="tl:FFC91B1F tr:FFC91B1F bl:FFC91B1F br:FFC91B1F" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.02849,0},{0.82,0},{0.97151,0},{0.87,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab4" Name="HouseTreasure/BG/BG2/Title" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0284091,0},{0,0},{0.454545,0},{0.0806452,0}}" />
+                    <Window Type="DejaVu/StaticImage" Name="HouseTreasure/BG/BG2/Title/Img" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Image" Value="set:DejaVu image:Image03" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticText" Name="HouseTreasure/BG/BG2/Title/Text" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="參加資訊" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.2,0},{0.866667,0},{0.8,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="HouseTreasure/BG/UILocker" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="BackgroundEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Property Name="Visible" Value="False" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

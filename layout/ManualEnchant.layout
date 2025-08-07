@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/Static" Name="Root/ManualEnchant" >
+        <Property Name="UnifiedAreaRect" Value="{{0.200195,0},{0.199667,0},{0.200195,1},{0.199667,1}}" />
+        <Property Name="VertFormatting" Value="TopAligned" />
+        <Window Type="DejaVu/Static" Name="Root/ManualEnchant/Background" >
+            <Property Name="BackgroundEnabled" Value="True" />
+            <Property Name="ClippedByParent" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,50},{0,70}}" />
+        </Window>
+        <Window Type="DejaVu/Static" Name="Root/ManualEnchant/Slot" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="ClippedByParent" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{4,0},{4,0},{4,42},{4,66}}" />
+            <Window Type="DejaVu/SlotImage" Name="Root/ManualEnchant/Slot/Skill" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,42},{0,42}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/ManualEnchant/Slot/Time" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="Text" Value="01:23" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0952381,0},{0.681818,0},{0.0952381,42},{0.681818,15}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

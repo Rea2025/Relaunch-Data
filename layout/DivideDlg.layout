@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/Embed3" Name="Root/DivideDlg" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.400391,0},{0.420573,0},{0.400391,220},{0.420573,156}}" />
+        <Window Type="DejaVu/Embed2" Name="Root/DivideDlg/bg" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.045455,0},{0.064103,0},{0.954546,0},{0.73718,0}}" />
+            <Window Type="DejaVu/StaticTextLab" Name="Root/DivideDlg/Title" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="輸入物品數量(1-100)" />
+                <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.190476,0},{0.95,0},{0.333333,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/DivideDlg/ItemName" >
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="幻化水晶" />
+                <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.428571,0},{0.95,0},{0.571429,0}}" />
+            </Window>
+            <Window Type="DejaVu/Editbox" Name="Root/DivideDlg/editbox" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="MaxTextLength" Value="3" />
+                <Property Name="Text" Value="100" />
+                <Property Name="TextParsingEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.375,0},{0.666667,0},{0.625,0},{0.904762,0}}" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/DivideDlg/LBtn" >
+                <Property Name="DisabledImage" Value="set:DejaVu image:ArrowLeftPressed" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HoverImage" Value="set:DejaVu image:ArrowLeftHover" />
+                <Property Name="NormalImage" Value="set:DejaVu image:ArrowLeftNormal" />
+                <Property Name="PushedImage" Value="set:DejaVu image:ArrowLeftPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0.25,0},{0.666667,0},{0.35,0},{0.904762,0}}" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/DivideDlg/RBtn" >
+                <Property Name="DisabledImage" Value="set:DejaVu image:ArrowRightPressed" />
+                <Property Name="HoverImage" Value="set:DejaVu image:ArrowRightHover" />
+                <Property Name="NormalImage" Value="set:DejaVu image:ArrowRightNormal" />
+                <Property Name="PushedImage" Value="set:DejaVu image:ArrowRightPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0.65,0},{0.666667,0},{0.75,0},{0.904762,0}}" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/DivideDlg/LLBtn" >
+                <Property Name="DisabledImage" Value="set:DejaVu image:DoubledLeftArrowPressed" />
+                <Property Name="HoverImage" Value="set:DejaVu image:DoubledLeftArrowHover" />
+                <Property Name="NormalImage" Value="set:DejaVu image:DoubledLeftArrowNormal" />
+                <Property Name="PushedImage" Value="set:DejaVu image:DoubledLeftArrowPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0.125,0},{0.666667,0},{0.225,0},{0.904762,0}}" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/DivideDlg/RRBtn" >
+                <Property Name="DisabledImage" Value="set:DejaVu image:DoubledRightArrowPressed" />
+                <Property Name="HoverImage" Value="set:DejaVu image:DoubledRightArrowHover" />
+                <Property Name="NormalImage" Value="set:DejaVu image:DoubledRightArrowNormal" />
+                <Property Name="PushedImage" Value="set:DejaVu image:DoubledRightArrowPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0.775,0},{0.666667,0},{0.875,0},{0.904762,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/DivideDlg/okBtn" >
+            <Property Name="Text" Value="確定" />
+            <Property Name="UnifiedAreaRect" Value="{{0.045455,0},{0.769231,0},{0.39091,0},{0.935898,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/DivideDlg/cancelBtn" >
+            <Property Name="Text" Value="關閉" />
+            <Property Name="UnifiedAreaRect" Value="{{0.609091,0},{0.769231,0},{0.954546,0},{0.935898,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

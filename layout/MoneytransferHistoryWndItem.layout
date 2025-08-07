@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/Embed2" Name="MoneytransferHistoryWndItem" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.518519,0},{0.0854569,0}}" />
+        <Window Type="DejaVu/StaticTextLab" Name="MoneytransferHistoryWndItem/TransferDate" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="UnifiedAreaRect" Value="{{0.01,0},{0.2,0},{0.235,0},{0.8,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticTextLab" Name="MoneytransferHistoryWndItem/TransferCharacterInfo" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="Text" Value="X由「%s1」轉出「%s2」給「%s3」" />
+            <Property Name="UnifiedAreaRect" Value="{{0.241942,0},{0.092352,0},{0.976942,0},{0.492352,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticTextLab" Name="MoneytransferHistoryWndItem/TransferringAmount" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="Text" Value="轉出金額：" />
+            <Property Name="UnifiedAreaRect" Value="{{0.24416,0},{0.503824,0},{0.44416,0},{0.903824,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="MoneytransferHistoryWndItem/Img1" >
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="UnifiedAreaRect" Value="{{0.564935,0},{0.545455,0},{0.597403,0},{0.848485,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="MoneytransferHistoryWndItem/Img2" >
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="UnifiedAreaRect" Value="{{0.756494,0},{0.545455,0},{0.788961,0},{0.848485,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticText" Name="MoneytransferHistoryWndItem/Value1" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HorzFormatting" Value="RightAligned" />
+            <Property Name="Text" Value="x100" />
+            <Property Name="UnifiedAreaRect" Value="{{0.4,0},{0.5,0},{0.55,0},{0.9,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticText" Name="MoneytransferHistoryWndItem/Value2" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HorzFormatting" Value="RightAligned" />
+            <Property Name="Text" Value="x100" />
+            <Property Name="UnifiedAreaRect" Value="{{0.4875,0},{0.5,0},{0.7375,0},{0.9,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="MoneytransferHistoryWndItem/TransferAgain" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="Text" Value="x再次轉帳" />
+            <Property Name="UnifiedAreaRect" Value="{{0.8125,0},{0.5,0},{0.975,0},{0.9,0}}" />
+        </Window>
+    </Window>
+</GUILayout>
