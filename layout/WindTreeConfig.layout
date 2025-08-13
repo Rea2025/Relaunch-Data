@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="WindTreeConfig/" >
+        <Property Name="Font" Value="F001-scale" />
+        <Property Name="HelpButtonEnabled" Value="True" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-scale" />
+        <Property Name="UnifiedAreaRect" Value="{{0.125,0},{0.0924479,0},{0.125,551},{0.0924479,207}}" />
+        <Window Type="DejaVu/Static" Name="WindTreeConfig/Speed/" >
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0376648,0},{0.271357,0},{0.0376648,491},{0.271357,21}}" />
+            <Property Name="Visible" Value="False" />
+            <Window Type="DejaVu/StaticText" Name="WindTreeConfig/Speed/Title" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="細節晃動速度" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.212005,0},{1,0}}" />
+            </Window>
+            <Window Type="DejaVu/HorizontalScrollbar" Name="WindTreeConfig/Speed/ScrollBar" >
+                <Property Name="DocumentSize" Value="1" />
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="OverlapSize" Value="0" />
+                <Property Name="PageSize" Value="0" />
+                <Property Name="ScrollPosition" Value="0" />
+                <Property Name="StepSize" Value="1" />
+                <Property Name="UnifiedAreaRect" Value="{{0.225187,0},{0.142857,0},{0.861468,0},{0.857143,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="WindTreeConfig/Speed/Value" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.874119,0},{0,0},{0.989535,0},{1,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="WindTreeConfig/DetailFreq/" >
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0376648,0},{0.127273,0},{0.0376648,491},{0.127273,21}}" />
+            <Property Name="Visible" Value="False" />
+            <Window Type="DejaVu/StaticText" Name="WindTreeConfig/DetailFreq/Title" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="細節晃動頻率加成" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.212005,0},{1,0}}" />
+            </Window>
+            <Window Type="DejaVu/HorizontalScrollbar" Name="WindTreeConfig/DetailFreq/ScrollBar" >
+                <Property Name="DocumentSize" Value="1" />
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="OverlapSize" Value="0" />
+                <Property Name="PageSize" Value="0" />
+                <Property Name="ScrollPosition" Value="0" />
+                <Property Name="StepSize" Value="1" />
+                <Property Name="UnifiedAreaRect" Value="{{0.225187,0},{0.142857,0},{0.861468,0},{0.857143,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="WindTreeConfig/DetailFreq/Value" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.874119,0},{0,0},{0.989535,0},{1,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="WindTreeConfig/DetailLeafAmp/" >
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0376648,0},{0.254545,0},{0.0376648,491},{0.254545,21}}" />
+            <Property Name="Visible" Value="False" />
+            <Window Type="DejaVu/StaticText" Name="WindTreeConfig/DetailLeafAmp/Title" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="葉緣晃動幅度加成" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.212005,0},{1,0}}" />
+            </Window>
+            <Window Type="DejaVu/HorizontalScrollbar" Name="WindTreeConfig/DetailLeafAmp/ScrollBar" >
+                <Property Name="DocumentSize" Value="1" />
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="OverlapSize" Value="0" />
+                <Property Name="PageSize" Value="0" />
+                <Property Name="ScrollPosition" Value="0" />
+                <Property Name="StepSize" Value="1" />
+                <Property Name="UnifiedAreaRect" Value="{{0.225187,0},{0.142857,0},{0.861468,0},{0.857143,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="WindTreeConfig/DetailLeafAmp/Value" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.874119,0},{0,0},{0.989535,0},{1,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="WindTreeConfig/DetailBranchAmp/" >
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0376648,0},{0.381818,0},{0.0376648,491},{0.381818,21}}" />
+            <Property Name="Visible" Value="False" />
+            <Window Type="DejaVu/StaticText" Name="WindTreeConfig/DetailBranchAmp/Title" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="上下晃動幅度加成" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.212005,0},{1,0}}" />
+            </Window>
+            <Window Type="DejaVu/HorizontalScrollbar" Name="WindTreeConfig/DetailBranchAmp/ScrollBar" >
+                <Property Name="DocumentSize" Value="1" />
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="OverlapSize" Value="0" />
+                <Property Name="PageSize" Value="0" />
+                <Property Name="ScrollPosition" Value="0" />
+                <Property Name="StepSize" Value="1" />
+                <Property Name="UnifiedAreaRect" Value="{{0.225187,0},{0.142857,0},{0.861468,0},{0.857143,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="WindTreeConfig/DetailBranchAmp/Value" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.874119,0},{0,0},{0.989535,0},{1,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="WindTreeConfig/TimeFreq/" >
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0376648,0},{0,0},{0.0376648,491},{0,21}}" />
+            <Window Type="DejaVu/StaticText" Name="WindTreeConfig/TimeFreq/Title" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="搖晃頻率" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.212005,0},{1,0}}" />
+            </Window>
+            <Window Type="DejaVu/HorizontalScrollbar" Name="WindTreeConfig/TimeFreq/ScrollBar" >
+                <Property Name="DocumentSize" Value="1" />
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="OverlapSize" Value="0" />
+                <Property Name="PageSize" Value="0" />
+                <Property Name="ScrollPosition" Value="0" />
+                <Property Name="StepSize" Value="1" />
+                <Property Name="UnifiedAreaRect" Value="{{0.225187,0},{0.142857,0},{0.861468,0},{0.857143,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="WindTreeConfig/TimeFreq/Value" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.874119,0},{0,0},{0.989535,0},{1,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="WindTreeConfig/Speed5" >
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0376648,0},{0.336683,0},{0.0376648,491},{0.336683,21}}" />
+            <Property Name="Visible" Value="False" />
+            <Window Type="DejaVu/StaticText" Name="WindTreeConfig/Speed/Title5" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.212005,0},{1,0}}" />
+            </Window>
+            <Window Type="DejaVu/HorizontalScrollbar" Name="WindTreeConfig/Speed/ScrollBar5" >
+                <Property Name="DocumentSize" Value="1" />
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="OverlapSize" Value="0" />
+                <Property Name="PageSize" Value="0" />
+                <Property Name="ScrollPosition" Value="0" />
+                <Property Name="StepSize" Value="1" />
+                <Property Name="UnifiedAreaRect" Value="{{0.225187,0},{0.142857,0},{0.861468,0},{0.857143,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="WindTreeConfig/Speed/Value5" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.874119,0},{0,0},{0.989535,0},{1,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Button" Name="WindTreeConfig/SaveBtn" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="Text" Value="存檔" />
+            <Property Name="UnifiedAreaRect" Value="{{0.714794,0},{0.827425,0},{0.714794,73},{0.827425,26}}" />
+        </Window>
+    </Window>
+</GUILayout>
