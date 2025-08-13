@@ -10,14 +10,26 @@
             <Property Name="BackgroundEnabled" Value="True" />
             <Property Name="Font" Value="F001-9" />
             <Property Name="FrameEnabled" Value="True" />
-            <Property Name="HorizontalAlignment" Value="Right" />
             <Property Name="UnifiedAreaRect" Value="{{0,0},{0.126866,0},{0.996416,0},{0.843284,0}}" />
+            <Property Name="VertFormatting" Value="TopAligned" />
         </Window>
-        <Window Type="DejaVu/SlotImage" Name="buff/drag_handle" >
+        <Window Type="DejaVu/SlotImage" Name="buff/bg/icon_1" >
             <Property Name="AlwaysOnTop" Value="True" />
-            <Property Name="Font" Value="F001-9" />
-            <Property Name="Image" Value="set:main image:Buff3" />
-            <Property Name="UnifiedAreaRect" Value="{{0.827957,0},{-0.253731,0},{0.827957,45},{-0.253731,31}}" />
+            <Property Name="Image" Value="set:main image:noimage" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0286738,0},{0.189394,0},{0.0286738,42},{0.189394,42}}" />
+            <Window Type="DejaVu/StaticImage" Name="buff/bg/icon_1/Image" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Image" Value="set:DejaVu image:BlueItem" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0833333,0},{0.0833333,0},{0.916667,0},{0.916667,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="buff/bg/icon_1/Text" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0833333,0},{0.0833333,0},{1,0},{1,0}}" />
+                <Property Name="VertFormatting" Value="BottomAligned" />
+            </Window>
         </Window>
         <Window Type="DejaVu/SlotImage" Name="buff/bg/icon_2" >
             <Property Name="AlwaysOnTop" Value="True" />
@@ -33,43 +45,6 @@
                 <Property Name="HorzFormatting" Value="RightAligned" />
                 <Property Name="MousePassThroughEnabled" Value="True" />
                 <Property Name="UnifiedAreaRect" Value="{{0.083333,0},{0.083333,0},{0.916666,0},{0.916666,0}}" />
-                <Property Name="VertFormatting" Value="BottomAligned" />
-            </Window>
-            <Window Type="DejaVu/StaticTextLab" Name="buff/bg/icon_2/Time" >
-                <Property Name="AlwaysOnTop" Value="True" />
-                <Property Name="ClippedByParent" Value="False" />
-                <Property Name="HorzFormatting" Value="HorzCentred" />
-                <Property Name="MousePassThroughEnabled" Value="True" />
-                <Property Name="Text" Value="23:45" />
-                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.9375,0},{0,31},{0.9375,16}}" />
-                <Property Name="Visible" Value="False" />
-            </Window>
-        </Window>
-        <Window Type="DejaVu/SlotImage" Name="buff/bg/icon_1" >
-            <Property Name="AlwaysOnTop" Value="True" />
-            <Property Name="Image" Value="set:main image:noimage" />
-            <Property Name="UnifiedAreaRect" Value="{{0.0286738,0},{0.189394,0},{0.0286738,42},{0.189394,42}}" />
-            <Window Type="DejaVu/StaticTextLab" Name="buff/bg/icon_1/Time" >
-                <Property Name="AlwaysOnTop" Value="True" />
-                <Property Name="ClippedByParent" Value="False" />
-                <Property Name="Font" Value="F001-9" />
-                <Property Name="HorzFormatting" Value="HorzCentred" />
-                <Property Name="MousePassThroughEnabled" Value="True" />
-                <Property Name="Text" Value="23:45" />
-                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.9375,0},{0,31},{0.9375,16}}" />
-                <Property Name="Visible" Value="False" />
-            </Window>
-            <Window Type="DejaVu/StaticImage" Name="buff/bg/icon_1/Image" >
-                <Property Name="Font" Value="F001-9" />
-                <Property Name="Image" Value="set:DejaVu image:BlueItem" />
-                <Property Name="MousePassThroughEnabled" Value="True" />
-                <Property Name="UnifiedAreaRect" Value="{{0.0833333,0},{0.0833333,0},{0.916667,0},{0.916667,0}}" />
-            </Window>
-            <Window Type="DejaVu/StaticText" Name="buff/bg/icon_1/Text" >
-                <Property Name="Font" Value="F001-9" />
-                <Property Name="HorzFormatting" Value="RightAligned" />
-                <Property Name="MousePassThroughEnabled" Value="True" />
-                <Property Name="UnifiedAreaRect" Value="{{0.0833333,0},{0.0833333,0},{1,0},{1,0}}" />
                 <Property Name="VertFormatting" Value="BottomAligned" />
             </Window>
         </Window>
@@ -88,15 +63,6 @@
                 <Property Name="UnifiedAreaRect" Value="{{0.083333,0},{0.083333,0},{0.916666,0},{0.916666,0}}" />
                 <Property Name="VertFormatting" Value="BottomAligned" />
             </Window>
-            <Window Type="DejaVu/StaticTextLab" Name="buff/bg/icon_3/Time" >
-                <Property Name="AlwaysOnTop" Value="True" />
-                <Property Name="ClippedByParent" Value="False" />
-                <Property Name="HorzFormatting" Value="HorzCentred" />
-                <Property Name="MousePassThroughEnabled" Value="True" />
-                <Property Name="Text" Value="23:45" />
-                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.875,0},{0,31},{0.875,16}}" />
-                <Property Name="Visible" Value="False" />
-            </Window>
         </Window>
         <Window Type="DejaVu/SlotImage" Name="buff/bg/icon_4" >
             <Property Name="AlwaysOnTop" Value="True" />
@@ -112,15 +78,6 @@
                 <Property Name="MousePassThroughEnabled" Value="True" />
                 <Property Name="UnifiedAreaRect" Value="{{0.083333,0},{0.083333,0},{0.916666,0},{0.916666,0}}" />
                 <Property Name="VertFormatting" Value="BottomAligned" />
-            </Window>
-            <Window Type="DejaVu/StaticTextLab" Name="buff/bg/icon_4/Time" >
-                <Property Name="AlwaysOnTop" Value="True" />
-                <Property Name="ClippedByParent" Value="False" />
-                <Property Name="HorzFormatting" Value="HorzCentred" />
-                <Property Name="MousePassThroughEnabled" Value="True" />
-                <Property Name="Text" Value="23:45" />
-                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.875,0},{0,31},{0.875,16}}" />
-                <Property Name="Visible" Value="False" />
             </Window>
         </Window>
         <Window Type="DejaVu/SlotImage" Name="buff/bg/icon_5" >
@@ -139,15 +96,6 @@
                 <Property Name="UnifiedAreaRect" Value="{{0.083333,0},{0.083333,0},{0.916666,0},{0.916666,0}}" />
                 <Property Name="VertFormatting" Value="BottomAligned" />
             </Window>
-            <Window Type="DejaVu/StaticTextLab" Name="buff/bg/icon_5/Time" >
-                <Property Name="AlwaysOnTop" Value="True" />
-                <Property Name="ClippedByParent" Value="False" />
-                <Property Name="HorzFormatting" Value="HorzCentred" />
-                <Property Name="MousePassThroughEnabled" Value="True" />
-                <Property Name="Text" Value="23:45" />
-                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.875,0},{0,31},{0.875,16}}" />
-                <Property Name="Visible" Value="False" />
-            </Window>
         </Window>
         <Window Type="DejaVu/SlotImage" Name="buff/bg/icon_6" >
             <Property Name="AlwaysOnTop" Value="True" />
@@ -163,15 +111,6 @@
                 <Property Name="MousePassThroughEnabled" Value="True" />
                 <Property Name="UnifiedAreaRect" Value="{{0.083333,0},{0.083333,0},{0.916666,0},{0.916666,0}}" />
                 <Property Name="VertFormatting" Value="BottomAligned" />
-            </Window>
-            <Window Type="DejaVu/StaticTextLab" Name="buff/bg/icon_6/Time" >
-                <Property Name="AlwaysOnTop" Value="True" />
-                <Property Name="ClippedByParent" Value="False" />
-                <Property Name="HorzFormatting" Value="HorzCentred" />
-                <Property Name="MousePassThroughEnabled" Value="True" />
-                <Property Name="Text" Value="23:45" />
-                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.875,0},{0,31},{0.875,16}}" />
-                <Property Name="Visible" Value="False" />
             </Window>
         </Window>
         <Window Type="DejaVu/SlotImage" Name="buff/bg/icon_7" >
@@ -189,15 +128,6 @@
                 <Property Name="UnifiedAreaRect" Value="{{0.083333,0},{0.083333,0},{0.916666,0},{0.916666,0}}" />
                 <Property Name="VertFormatting" Value="BottomAligned" />
             </Window>
-            <Window Type="DejaVu/StaticTextLab" Name="buff/bg/icon_7/Time" >
-                <Property Name="AlwaysOnTop" Value="True" />
-                <Property Name="ClippedByParent" Value="False" />
-                <Property Name="HorzFormatting" Value="HorzCentred" />
-                <Property Name="MousePassThroughEnabled" Value="True" />
-                <Property Name="Text" Value="23:45" />
-                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.875,0},{0,31},{0.875,16}}" />
-                <Property Name="Visible" Value="False" />
-            </Window>
         </Window>
         <Window Type="DejaVu/SlotImage" Name="buff/bg/icon_8" >
             <Property Name="AlwaysOnTop" Value="True" />
@@ -213,15 +143,6 @@
             <Window Type="DejaVu/StaticImage" Name="buff/bg/icon_8/Image" >
                 <Property Name="MousePassThroughEnabled" Value="True" />
                 <Property Name="UnifiedAreaRect" Value="{{0.083333,0},{0.083333,0},{0.916666,0},{0.916666,0}}" />
-            </Window>
-            <Window Type="DejaVu/StaticTextLab" Name="buff/bg/icon_8/Time" >
-                <Property Name="AlwaysOnTop" Value="True" />
-                <Property Name="ClippedByParent" Value="False" />
-                <Property Name="HorzFormatting" Value="HorzCentred" />
-                <Property Name="MousePassThroughEnabled" Value="True" />
-                <Property Name="Text" Value="23:45" />
-                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.875,0},{0,31},{0.875,16}}" />
-                <Property Name="Visible" Value="False" />
             </Window>
         </Window>
         <Window Type="DejaVu/SlotImage" Name="buff/bg/icon_9" >
@@ -239,15 +160,6 @@
                 <Property Name="MousePassThroughEnabled" Value="True" />
                 <Property Name="UnifiedAreaRect" Value="{{0.083333,0},{0.083333,0},{0.916666,0},{0.916666,0}}" />
             </Window>
-            <Window Type="DejaVu/StaticTextLab" Name="buff/bg/icon_9/Time" >
-                <Property Name="AlwaysOnTop" Value="True" />
-                <Property Name="ClippedByParent" Value="False" />
-                <Property Name="HorzFormatting" Value="HorzCentred" />
-                <Property Name="MousePassThroughEnabled" Value="True" />
-                <Property Name="Text" Value="23:45" />
-                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.875,0},{0,31},{0.875,16}}" />
-                <Property Name="Visible" Value="False" />
-            </Window>
         </Window>
         <Window Type="DejaVu/SlotImage" Name="buff/bg/icon_10" >
             <Property Name="AlwaysOnTop" Value="True" />
@@ -264,14 +176,24 @@
                 <Property Name="MousePassThroughEnabled" Value="True" />
                 <Property Name="UnifiedAreaRect" Value="{{0.083333,0},{0.083333,0},{0.916666,0},{0.916666,0}}" />
             </Window>
-            <Window Type="DejaVu/StaticTextLab" Name="buff/bg/icon_10/Time" >
+        </Window>
+        <Window Type="DejaVu/SlotImage" Name="buff/bg/icon_11" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Image" Value="set:main image:noimage" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0322581,0},{0.38806,0},{0.0322581,42},{0.38806,42}}" />
+            <Window Type="DejaVu/StaticImage" Name="buff/bg/icon_11/Image" >
                 <Property Name="AlwaysOnTop" Value="True" />
-                <Property Name="ClippedByParent" Value="False" />
-                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Image" Value="set:DejaVu image:BlueItem" />
                 <Property Name="MousePassThroughEnabled" Value="True" />
-                <Property Name="Text" Value="23:45" />
-                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.875,0},{0,31},{0.875,16}}" />
-                <Property Name="Visible" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0719808,0},{0.0833333,0},{0.905315,0},{0.916667,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="buff/bg/icon_11/Text" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0719808,0},{0.0833333,0},{0.905315,0},{0.916667,0}}" />
+                <Property Name="VertFormatting" Value="BottomAligned" />
             </Window>
         </Window>
         <Window Type="DejaVu/SlotImage" Name="buff/bg/icon_12" >
@@ -290,44 +212,6 @@
                 <Property Name="MousePassThroughEnabled" Value="True" />
                 <Property Name="UnifiedAreaRect" Value="{{0.083333,0},{0.083333,0},{0.916666,0},{0.916666,0}}" />
             </Window>
-            <Window Type="DejaVu/StaticTextLab" Name="buff/bg/icon_12/Time" >
-                <Property Name="AlwaysOnTop" Value="True" />
-                <Property Name="ClippedByParent" Value="False" />
-                <Property Name="HorzFormatting" Value="HorzCentred" />
-                <Property Name="MousePassThroughEnabled" Value="True" />
-                <Property Name="Text" Value="23:45" />
-                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.9375,0},{0,31},{0.9375,16}}" />
-                <Property Name="Visible" Value="False" />
-            </Window>
-        </Window>
-        <Window Type="DejaVu/SlotImage" Name="buff/bg/icon_11" >
-            <Property Name="AlwaysOnTop" Value="True" />
-            <Property Name="Image" Value="set:main image:noimage" />
-            <Property Name="UnifiedAreaRect" Value="{{0.0322581,0},{0.38806,0},{0.0322581,42},{0.38806,42}}" />
-            <Window Type="DejaVu/StaticTextLab" Name="buff/bg/icon_11/Time" >
-                <Property Name="AlwaysOnTop" Value="True" />
-                <Property Name="ClippedByParent" Value="False" />
-                <Property Name="Font" Value="F001-9" />
-                <Property Name="HorzFormatting" Value="HorzCentred" />
-                <Property Name="MousePassThroughEnabled" Value="True" />
-                <Property Name="Text" Value="23:45" />
-                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.9375,0},{0,31},{0.9375,16}}" />
-                <Property Name="Visible" Value="False" />
-            </Window>
-            <Window Type="DejaVu/StaticImage" Name="buff/bg/icon_11/Image" >
-                <Property Name="AlwaysOnTop" Value="True" />
-                <Property Name="Font" Value="F001-9" />
-                <Property Name="Image" Value="set:DejaVu image:BlueItem" />
-                <Property Name="MousePassThroughEnabled" Value="True" />
-                <Property Name="UnifiedAreaRect" Value="{{0.0719808,0},{0.0833333,0},{0.905315,0},{0.916667,0}}" />
-            </Window>
-            <Window Type="DejaVu/StaticText" Name="buff/bg/icon_11/Text" >
-                <Property Name="Font" Value="F001-9" />
-                <Property Name="HorzFormatting" Value="RightAligned" />
-                <Property Name="MousePassThroughEnabled" Value="True" />
-                <Property Name="UnifiedAreaRect" Value="{{0.0719808,0},{0.0833333,0},{0.905315,0},{0.916667,0}}" />
-                <Property Name="VertFormatting" Value="BottomAligned" />
-            </Window>
         </Window>
         <Window Type="DejaVu/SlotImage" Name="buff/bg/icon_13" >
             <Property Name="AlwaysOnTop" Value="True" />
@@ -344,15 +228,6 @@
                 <Property Name="MousePassThroughEnabled" Value="True" />
                 <Property Name="UnifiedAreaRect" Value="{{0.083333,0},{0.083333,0},{0.916666,0},{0.916666,0}}" />
             </Window>
-            <Window Type="DejaVu/StaticTextLab" Name="buff/bg/icon_13/Time" >
-                <Property Name="AlwaysOnTop" Value="True" />
-                <Property Name="ClippedByParent" Value="False" />
-                <Property Name="HorzFormatting" Value="HorzCentred" />
-                <Property Name="MousePassThroughEnabled" Value="True" />
-                <Property Name="Text" Value="23:45" />
-                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.875,0},{0,31},{0.875,16}}" />
-                <Property Name="Visible" Value="False" />
-            </Window>
         </Window>
         <Window Type="DejaVu/SlotImage" Name="buff/bg/icon_14" >
             <Property Name="AlwaysOnTop" Value="True" />
@@ -368,15 +243,6 @@
             <Window Type="DejaVu/StaticImage" Name="buff/bg/icon_14/Image" >
                 <Property Name="MousePassThroughEnabled" Value="True" />
                 <Property Name="UnifiedAreaRect" Value="{{0.083333,0},{0.083333,0},{0.916666,0},{0.916666,0}}" />
-            </Window>
-            <Window Type="DejaVu/StaticTextLab" Name="buff/bg/icon_14/Time" >
-                <Property Name="AlwaysOnTop" Value="True" />
-                <Property Name="ClippedByParent" Value="False" />
-                <Property Name="HorzFormatting" Value="HorzCentred" />
-                <Property Name="MousePassThroughEnabled" Value="True" />
-                <Property Name="Text" Value="23:45" />
-                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.875,0},{0,31},{0.875,16}}" />
-                <Property Name="Visible" Value="False" />
             </Window>
         </Window>
         <Window Type="DejaVu/SlotImage" Name="buff/bg/icon_15" >
@@ -395,15 +261,6 @@
                 <Property Name="MousePassThroughEnabled" Value="True" />
                 <Property Name="UnifiedAreaRect" Value="{{0.083333,0},{0.083333,0},{0.916666,0},{0.916666,0}}" />
             </Window>
-            <Window Type="DejaVu/StaticTextLab" Name="buff/bg/icon_15/Time" >
-                <Property Name="AlwaysOnTop" Value="True" />
-                <Property Name="ClippedByParent" Value="False" />
-                <Property Name="HorzFormatting" Value="HorzCentred" />
-                <Property Name="MousePassThroughEnabled" Value="True" />
-                <Property Name="Text" Value="23:45" />
-                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.875,0},{0,31},{0.875,16}}" />
-                <Property Name="Visible" Value="False" />
-            </Window>
         </Window>
         <Window Type="DejaVu/SlotImage" Name="buff/bg/icon_16" >
             <Property Name="AlwaysOnTop" Value="True" />
@@ -419,15 +276,6 @@
             <Window Type="DejaVu/StaticImage" Name="buff/bg/icon_16/Image" >
                 <Property Name="MousePassThroughEnabled" Value="True" />
                 <Property Name="UnifiedAreaRect" Value="{{0.083333,0},{0.083333,0},{0.916666,0},{0.916666,0}}" />
-            </Window>
-            <Window Type="DejaVu/StaticTextLab" Name="buff/bg/icon_16/Time" >
-                <Property Name="AlwaysOnTop" Value="True" />
-                <Property Name="ClippedByParent" Value="False" />
-                <Property Name="HorzFormatting" Value="HorzCentred" />
-                <Property Name="MousePassThroughEnabled" Value="True" />
-                <Property Name="Text" Value="23:45" />
-                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.875,0},{0,31},{0.875,16}}" />
-                <Property Name="Visible" Value="False" />
             </Window>
         </Window>
         <Window Type="DejaVu/SlotImage" Name="buff/bg/icon_17" >
@@ -445,15 +293,6 @@
                 <Property Name="MousePassThroughEnabled" Value="True" />
                 <Property Name="UnifiedAreaRect" Value="{{0.083333,0},{0.083333,0},{0.916666,0},{0.916666,0}}" />
             </Window>
-            <Window Type="DejaVu/StaticTextLab" Name="buff/bg/icon_17/Time" >
-                <Property Name="AlwaysOnTop" Value="True" />
-                <Property Name="ClippedByParent" Value="False" />
-                <Property Name="HorzFormatting" Value="HorzCentred" />
-                <Property Name="MousePassThroughEnabled" Value="True" />
-                <Property Name="Text" Value="23:45" />
-                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.875,0},{0,31},{0.875,16}}" />
-                <Property Name="Visible" Value="False" />
-            </Window>
         </Window>
         <Window Type="DejaVu/SlotImage" Name="buff/bg/icon_18" >
             <Property Name="AlwaysOnTop" Value="True" />
@@ -469,15 +308,6 @@
             <Window Type="DejaVu/StaticImage" Name="buff/bg/icon_18/Image" >
                 <Property Name="MousePassThroughEnabled" Value="True" />
                 <Property Name="UnifiedAreaRect" Value="{{0.0833333,0},{0.0833333,0},{0.916667,0},{0.916667,0}}" />
-            </Window>
-            <Window Type="DejaVu/StaticTextLab" Name="buff/bg/icon_18/Time" >
-                <Property Name="AlwaysOnTop" Value="True" />
-                <Property Name="ClippedByParent" Value="False" />
-                <Property Name="HorzFormatting" Value="HorzCentred" />
-                <Property Name="MousePassThroughEnabled" Value="True" />
-                <Property Name="Text" Value="23:45" />
-                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.875,0},{0,31},{0.875,16}}" />
-                <Property Name="Visible" Value="False" />
             </Window>
         </Window>
         <Window Type="DejaVu/SlotImage" Name="buff/bg/icon_19" >
@@ -495,15 +325,6 @@
                 <Property Name="MousePassThroughEnabled" Value="True" />
                 <Property Name="UnifiedAreaRect" Value="{{0.083333,0},{0.083333,0},{0.916666,0},{0.916666,0}}" />
             </Window>
-            <Window Type="DejaVu/StaticTextLab" Name="buff/bg/icon_19/Time" >
-                <Property Name="AlwaysOnTop" Value="True" />
-                <Property Name="ClippedByParent" Value="False" />
-                <Property Name="HorzFormatting" Value="HorzCentred" />
-                <Property Name="MousePassThroughEnabled" Value="True" />
-                <Property Name="Text" Value="23:45" />
-                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.875,0},{0,31},{0.875,16}}" />
-                <Property Name="Visible" Value="False" />
-            </Window>
         </Window>
         <Window Type="DejaVu/SlotImage" Name="buff/bg/icon_20" >
             <Property Name="AlwaysOnTop" Value="True" />
@@ -520,14 +341,24 @@
                 <Property Name="MousePassThroughEnabled" Value="True" />
                 <Property Name="UnifiedAreaRect" Value="{{0.083333,0},{0.083333,0},{0.916666,0},{0.916666,0}}" />
             </Window>
-            <Window Type="DejaVu/StaticTextLab" Name="buff/bg/icon_20/Time" >
-                <Property Name="AlwaysOnTop" Value="True" />
-                <Property Name="ClippedByParent" Value="False" />
-                <Property Name="HorzFormatting" Value="HorzCentred" />
+        </Window>
+        <Window Type="DejaVu/SlotImage" Name="buff/bg/icon_21" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Image" Value="set:main image:noimage" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0322581,0},{0.574627,0},{0.0322581,42},{0.574627,42}}" />
+            <Window Type="DejaVu/StaticText" Name="buff/bg/icon_21/Text" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
                 <Property Name="MousePassThroughEnabled" Value="True" />
-                <Property Name="Text" Value="23:45" />
-                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.875,0},{0,31},{0.875,16}}" />
-                <Property Name="Visible" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0833333,0},{0.0833333,0},{0.916667,0},{0.916667,0}}" />
+                <Property Name="VertFormatting" Value="BottomAligned" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="buff/bg/icon_21/Image" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Image" Value="set:DejaVu image:BlueItem" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0833333,0},{0.0833333,0},{0.916667,0},{0.916667,0}}" />
             </Window>
         </Window>
         <Window Type="DejaVu/SlotImage" Name="buff/bg/icon_22" >
@@ -546,44 +377,6 @@
                 <Property Name="MousePassThroughEnabled" Value="True" />
                 <Property Name="UnifiedAreaRect" Value="{{0.083333,0},{0.083333,0},{0.916666,0},{0.916666,0}}" />
             </Window>
-            <Window Type="DejaVu/StaticTextLab" Name="buff/bg/icon_22/Time" >
-                <Property Name="AlwaysOnTop" Value="True" />
-                <Property Name="ClippedByParent" Value="False" />
-                <Property Name="HorzFormatting" Value="HorzCentred" />
-                <Property Name="MousePassThroughEnabled" Value="True" />
-                <Property Name="Text" Value="23:45" />
-                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.9375,0},{0,31},{0.9375,16}}" />
-                <Property Name="Visible" Value="False" />
-            </Window>
-        </Window>
-        <Window Type="DejaVu/SlotImage" Name="buff/bg/icon_21" >
-            <Property Name="AlwaysOnTop" Value="True" />
-            <Property Name="Image" Value="set:main image:noimage" />
-            <Property Name="UnifiedAreaRect" Value="{{0.0322581,0},{0.574627,0},{0.0322581,42},{0.574627,42}}" />
-            <Window Type="DejaVu/StaticTextLab" Name="buff/bg/icon_21/Time" >
-                <Property Name="AlwaysOnTop" Value="True" />
-                <Property Name="ClippedByParent" Value="False" />
-                <Property Name="Font" Value="F001-9" />
-                <Property Name="HorzFormatting" Value="HorzCentred" />
-                <Property Name="MousePassThroughEnabled" Value="True" />
-                <Property Name="Text" Value="23:45" />
-                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.9375,0},{0,31},{0.9375,16}}" />
-                <Property Name="Visible" Value="False" />
-            </Window>
-            <Window Type="DejaVu/StaticText" Name="buff/bg/icon_21/Text" >
-                <Property Name="Font" Value="F001-9" />
-                <Property Name="HorzFormatting" Value="RightAligned" />
-                <Property Name="MousePassThroughEnabled" Value="True" />
-                <Property Name="UnifiedAreaRect" Value="{{0.0833333,0},{0.0833333,0},{0.916667,0},{0.916667,0}}" />
-                <Property Name="VertFormatting" Value="BottomAligned" />
-            </Window>
-            <Window Type="DejaVu/StaticImage" Name="buff/bg/icon_21/Image" >
-                <Property Name="AlwaysOnTop" Value="True" />
-                <Property Name="Font" Value="F001-9" />
-                <Property Name="Image" Value="set:DejaVu image:BlueItem" />
-                <Property Name="MousePassThroughEnabled" Value="True" />
-                <Property Name="UnifiedAreaRect" Value="{{0.0833333,0},{0.0833333,0},{0.916667,0},{0.916667,0}}" />
-            </Window>
         </Window>
         <Window Type="DejaVu/SlotImage" Name="buff/bg/icon_23" >
             <Property Name="AlwaysOnTop" Value="True" />
@@ -600,15 +393,6 @@
                 <Property Name="MousePassThroughEnabled" Value="True" />
                 <Property Name="UnifiedAreaRect" Value="{{0.083333,0},{0.083333,0},{0.916666,0},{0.916666,0}}" />
             </Window>
-            <Window Type="DejaVu/StaticTextLab" Name="buff/bg/icon_23/Time" >
-                <Property Name="AlwaysOnTop" Value="True" />
-                <Property Name="ClippedByParent" Value="False" />
-                <Property Name="HorzFormatting" Value="HorzCentred" />
-                <Property Name="MousePassThroughEnabled" Value="True" />
-                <Property Name="Text" Value="23:45" />
-                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.875,0},{0,31},{0.875,16}}" />
-                <Property Name="Visible" Value="False" />
-            </Window>
         </Window>
         <Window Type="DejaVu/SlotImage" Name="buff/bg/icon_24" >
             <Property Name="AlwaysOnTop" Value="True" />
@@ -624,15 +408,6 @@
             <Window Type="DejaVu/StaticImage" Name="buff/bg/icon_24/Image" >
                 <Property Name="MousePassThroughEnabled" Value="True" />
                 <Property Name="UnifiedAreaRect" Value="{{0.083333,0},{0.083333,0},{0.916666,0},{0.916666,0}}" />
-            </Window>
-            <Window Type="DejaVu/StaticTextLab" Name="buff/bg/icon_24/Time" >
-                <Property Name="AlwaysOnTop" Value="True" />
-                <Property Name="ClippedByParent" Value="False" />
-                <Property Name="HorzFormatting" Value="HorzCentred" />
-                <Property Name="MousePassThroughEnabled" Value="True" />
-                <Property Name="Text" Value="23:45" />
-                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.875,0},{0,31},{0.875,16}}" />
-                <Property Name="Visible" Value="False" />
             </Window>
         </Window>
         <Window Type="DejaVu/SlotImage" Name="buff/bg/icon_25" >
@@ -651,15 +426,6 @@
                 <Property Name="MousePassThroughEnabled" Value="True" />
                 <Property Name="UnifiedAreaRect" Value="{{0.083333,0},{0.083333,0},{0.916666,0},{0.916666,0}}" />
             </Window>
-            <Window Type="DejaVu/StaticTextLab" Name="buff/bg/icon_25/Time" >
-                <Property Name="AlwaysOnTop" Value="True" />
-                <Property Name="ClippedByParent" Value="False" />
-                <Property Name="HorzFormatting" Value="HorzCentred" />
-                <Property Name="MousePassThroughEnabled" Value="True" />
-                <Property Name="Text" Value="23:45" />
-                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.875,0},{0,31},{0.875,16}}" />
-                <Property Name="Visible" Value="False" />
-            </Window>
         </Window>
         <Window Type="DejaVu/SlotImage" Name="buff/bg/icon_26" >
             <Property Name="AlwaysOnTop" Value="True" />
@@ -675,15 +441,6 @@
             <Window Type="DejaVu/StaticImage" Name="buff/bg/icon_26/Image" >
                 <Property Name="MousePassThroughEnabled" Value="True" />
                 <Property Name="UnifiedAreaRect" Value="{{0.083333,0},{0.083333,0},{0.916666,0},{0.916666,0}}" />
-            </Window>
-            <Window Type="DejaVu/StaticTextLab" Name="buff/bg/icon_26/Time" >
-                <Property Name="AlwaysOnTop" Value="True" />
-                <Property Name="ClippedByParent" Value="False" />
-                <Property Name="HorzFormatting" Value="HorzCentred" />
-                <Property Name="MousePassThroughEnabled" Value="True" />
-                <Property Name="Text" Value="23:45" />
-                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.875,0},{0,31},{0.875,16}}" />
-                <Property Name="Visible" Value="False" />
             </Window>
         </Window>
         <Window Type="DejaVu/SlotImage" Name="buff/bg/icon_27" >
@@ -701,15 +458,6 @@
                 <Property Name="MousePassThroughEnabled" Value="True" />
                 <Property Name="UnifiedAreaRect" Value="{{0.083333,0},{0.083333,0},{0.916666,0},{0.916666,0}}" />
             </Window>
-            <Window Type="DejaVu/StaticTextLab" Name="buff/bg/icon_27/Time" >
-                <Property Name="AlwaysOnTop" Value="True" />
-                <Property Name="ClippedByParent" Value="False" />
-                <Property Name="HorzFormatting" Value="HorzCentred" />
-                <Property Name="MousePassThroughEnabled" Value="True" />
-                <Property Name="Text" Value="23:45" />
-                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.875,0},{0,31},{0.875,16}}" />
-                <Property Name="Visible" Value="False" />
-            </Window>
         </Window>
         <Window Type="DejaVu/SlotImage" Name="buff/bg/icon_28" >
             <Property Name="AlwaysOnTop" Value="True" />
@@ -725,15 +473,6 @@
             <Window Type="DejaVu/StaticImage" Name="buff/bg/icon_28/Image" >
                 <Property Name="MousePassThroughEnabled" Value="True" />
                 <Property Name="UnifiedAreaRect" Value="{{0.083333,0},{0.083333,0},{0.916666,0},{0.916666,0}}" />
-            </Window>
-            <Window Type="DejaVu/StaticTextLab" Name="buff/bg/icon_28/Time" >
-                <Property Name="AlwaysOnTop" Value="True" />
-                <Property Name="ClippedByParent" Value="False" />
-                <Property Name="HorzFormatting" Value="HorzCentred" />
-                <Property Name="MousePassThroughEnabled" Value="True" />
-                <Property Name="Text" Value="23:45" />
-                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.875,0},{0,31},{0.875,16}}" />
-                <Property Name="Visible" Value="False" />
             </Window>
         </Window>
         <Window Type="DejaVu/SlotImage" Name="buff/bg/icon_29" >
@@ -751,15 +490,6 @@
                 <Property Name="MousePassThroughEnabled" Value="True" />
                 <Property Name="UnifiedAreaRect" Value="{{0.083333,0},{0.083333,0},{0.916666,0},{0.916666,0}}" />
             </Window>
-            <Window Type="DejaVu/StaticTextLab" Name="buff/bg/icon_29/Time" >
-                <Property Name="AlwaysOnTop" Value="True" />
-                <Property Name="ClippedByParent" Value="False" />
-                <Property Name="HorzFormatting" Value="HorzCentred" />
-                <Property Name="MousePassThroughEnabled" Value="True" />
-                <Property Name="Text" Value="23:45" />
-                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.875,0},{0,31},{0.875,16}}" />
-                <Property Name="Visible" Value="False" />
-            </Window>
         </Window>
         <Window Type="DejaVu/SlotImage" Name="buff/bg/icon_30" >
             <Property Name="AlwaysOnTop" Value="True" />
@@ -775,15 +505,6 @@
             <Window Type="DejaVu/StaticImage" Name="buff/bg/icon_30/Image" >
                 <Property Name="MousePassThroughEnabled" Value="True" />
                 <Property Name="UnifiedAreaRect" Value="{{0.083333,0},{0.083333,0},{0.916666,0},{0.916666,0}}" />
-            </Window>
-            <Window Type="DejaVu/StaticTextLab" Name="buff/bg/icon_30/Time" >
-                <Property Name="AlwaysOnTop" Value="True" />
-                <Property Name="ClippedByParent" Value="False" />
-                <Property Name="HorzFormatting" Value="HorzCentred" />
-                <Property Name="MousePassThroughEnabled" Value="True" />
-                <Property Name="Text" Value="23:45" />
-                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.875,0},{0,31},{0.875,16}}" />
-                <Property Name="Visible" Value="False" />
             </Window>
         </Window>
         <Window Type="DejaVu/Static" Name="buff/bg/icon_Anim1" >
@@ -1305,20 +1026,27 @@
             </Window>
         </Window>
         <Window Type="DejaVu/Static" Name="buff/btn_bg" >
-            <Property Name="UnifiedAreaRect" Value="{{0.011412,0},{0.0286853,0},{1.00222,0},{0.969258,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.16129,0},{0.11194,0}}" />
             <Window Type="DejaVu/ImageButton" Name="buff/bg/unlock" >
+                <Property Name="AlwaysOnTop" Value="True" />
                 <Property Name="Font" Value="F001-9" />
                 <Property Name="HoverImage" Value="set:main image:UnLockBtnHover" />
                 <Property Name="NormalImage" Value="set:main image:UnLockBtnNormal" />
                 <Property Name="PushedImage" Value="set:main image:UnLockBtnPressed" />
-                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,15},{0,15}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.119048,0},{0,0},{0.119048,15},{0,15}}" />
             </Window>
             <Window Type="DejaVu/ImageButton" Name="buff/bg/add" >
+                <Property Name="AlwaysOnTop" Value="True" />
                 <Property Name="DisabledImage" Value="set:DejaVu image:TreeListOpenedNormal" />
                 <Property Name="HoverImage" Value="set:DejaVu image:TreeListClosed" />
                 <Property Name="NormalImage" Value="set:DejaVu image:TreeListClosedNormal" />
                 <Property Name="PushedImage" Value="set:DejaVu image:TreeListOpenedNormal" />
-                <Property Name="UnifiedAreaRect" Value="{{0.057971,0},{0,0},{0.057971,15},{0,15}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.555556,0},{0,0},{0.555556,15},{0,15}}" />
+            </Window>
+            <Window Type="DejaVu/Embed3" Name="buff/drag_handle" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
             </Window>
         </Window>
     </Window>
