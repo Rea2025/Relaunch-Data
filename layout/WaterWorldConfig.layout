@@ -1,189 +1,152 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <GUILayout >
-    <Window Type="DejaVu/FrameWindow" Name="WaterWorldConfig/" >
+    <Window Type="DejaVu/FrameWindow" Name="WindTreeConfig/" >
         <Property Name="Font" Value="F001-scale" />
-        <Property Name="HelpButtonEnabled" Value="False" />
-        <Property Name="Text" Value="WaterWorld" />
+        <Property Name="HelpButtonEnabled" Value="True" />
         <Property Name="TitlebarEnabled" Value="True" />
-        <Property Name="TitlebarFont" Value="F001-9" />
-        <Property Name="UnifiedAreaRect" Value="{{0.300375,0},{0.299419,0},{0.300375,512},{0.299419,280}}" />
-        <Window Type="DefaultWindow" Name="WaterWorldConfig/NearPlane/" >
+        <Property Name="TitlebarFont" Value="F001-scale" />
+        <Property Name="UnifiedAreaRect" Value="{{0.125,0},{0.0924479,0},{0.125,551},{0.0924479,207}}" />
+        <Window Type="DejaVu/Static" Name="WindTreeConfig/Speed/" >
             <Property Name="Font" Value="F001-scale" />
-            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,474},{0,27}}" />
-            <Window Type="DejaVu/StaticTextLab" Name="WaterWorldConfig/NearPlane/Value" >
+            <Property Name="UnifiedAreaRect" Value="{{0.0376648,0},{0.271357,0},{0.0376648,491},{0.271357,21}}" />
+            <Property Name="Visible" Value="False" />
+            <Window Type="DejaVu/StaticText" Name="WindTreeConfig/Speed/Title" >
                 <Property Name="Font" Value="F001-9" />
-                <Property Name="HorizontalAlignment" Value="Right" />
-                <Property Name="HorzFormatting" Value="HorzCentred" />
-                <Property Name="Text" Value="0" />
-                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.185654,0},{1,0}}" />
+                <Property Name="Text" Value="細節晃動速度" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.212005,0},{1,0}}" />
             </Window>
-            <Window Type="DejaVu/HorizontalScrollbar" Name="WaterWorldConfig/NearPlane/ScrollBar" >
+            <Window Type="DejaVu/HorizontalScrollbar" Name="WindTreeConfig/Speed/ScrollBar" >
                 <Property Name="DocumentSize" Value="1" />
                 <Property Name="Font" Value="F001-scale" />
                 <Property Name="OverlapSize" Value="0" />
                 <Property Name="PageSize" Value="0" />
                 <Property Name="ScrollPosition" Value="0" />
                 <Property Name="StepSize" Value="1" />
-                <Property Name="UnifiedAreaRect" Value="{{0.232019,0},{0.145492,0},{0.812188,0},{1.14549,0}}" />
-                <Property Name="VerticalAlignment" Value="Centre" />
+                <Property Name="UnifiedAreaRect" Value="{{0.225187,0},{0.142857,0},{0.861468,0},{0.857143,0}}" />
             </Window>
-            <Window Type="DejaVu/StaticTextLab" Name="WaterWorldConfig/NearPlane/Title" >
+            <Window Type="DejaVu/StaticText" Name="WindTreeConfig/Speed/Value" >
                 <Property Name="Font" Value="F001-9" />
-                <Property Name="HorzFormatting" Value="HorzCentred" />
-                <Property Name="Text" Value="最近位置" />
-                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.226852,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.874119,0},{0,0},{0.989535,0},{1,0}}" />
             </Window>
         </Window>
-        <Window Type="DefaultWindow" Name="WaterWorldConfig/FarPlane/" >
+        <Window Type="DejaVu/Static" Name="WindTreeConfig/DetailFreq/" >
             <Property Name="Font" Value="F001-scale" />
-            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.132159,0},{0,474},{0.132159,27}}" />
-            <Window Type="DejaVu/StaticTextLab" Name="WaterWorldConfig/FarPlane/Value" >
+            <Property Name="UnifiedAreaRect" Value="{{0.0376648,0},{0.127273,0},{0.0376648,491},{0.127273,21}}" />
+            <Property Name="Visible" Value="False" />
+            <Window Type="DejaVu/StaticText" Name="WindTreeConfig/DetailFreq/Title" >
                 <Property Name="Font" Value="F001-9" />
-                <Property Name="HorizontalAlignment" Value="Right" />
-                <Property Name="HorzFormatting" Value="HorzCentred" />
-                <Property Name="Text" Value="0" />
-                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.185654,0},{1,0}}" />
+                <Property Name="Text" Value="細節晃動頻率加成" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.212005,0},{1,0}}" />
             </Window>
-            <Window Type="DejaVu/HorizontalScrollbar" Name="WaterWorldConfig/FarPlane/ScrollBar" >
+            <Window Type="DejaVu/HorizontalScrollbar" Name="WindTreeConfig/DetailFreq/ScrollBar" >
                 <Property Name="DocumentSize" Value="1" />
                 <Property Name="Font" Value="F001-scale" />
                 <Property Name="OverlapSize" Value="0" />
                 <Property Name="PageSize" Value="0" />
                 <Property Name="ScrollPosition" Value="0" />
                 <Property Name="StepSize" Value="1" />
-                <Property Name="UnifiedAreaRect" Value="{{0.232019,0},{0.136364,0},{0.812188,0},{1.13636,0}}" />
-                <Property Name="VerticalAlignment" Value="Centre" />
+                <Property Name="UnifiedAreaRect" Value="{{0.225187,0},{0.142857,0},{0.861468,0},{0.857143,0}}" />
             </Window>
-            <Window Type="DejaVu/StaticTextLab" Name="WaterWorldConfig/FarPlane/Title" >
+            <Window Type="DejaVu/StaticText" Name="WindTreeConfig/DetailFreq/Value" >
                 <Property Name="Font" Value="F001-9" />
-                <Property Name="HorzFormatting" Value="HorzCentred" />
-                <Property Name="Text" Value="最遠位置" />
-                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.226852,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.874119,0},{0,0},{0.989535,0},{1,0}}" />
             </Window>
         </Window>
-        <Window Type="DefaultWindow" Name="WaterWorldConfig/ColorR/" >
+        <Window Type="DejaVu/Static" Name="WindTreeConfig/DetailLeafAmp/" >
             <Property Name="Font" Value="F001-scale" />
-            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.264317,0},{0,474},{0.264317,27}}" />
-            <Window Type="DejaVu/StaticTextLab" Name="WaterWorldConfig/ColorR/Value" >
+            <Property Name="UnifiedAreaRect" Value="{{0.0376648,0},{0.254545,0},{0.0376648,491},{0.254545,21}}" />
+            <Property Name="Visible" Value="False" />
+            <Window Type="DejaVu/StaticText" Name="WindTreeConfig/DetailLeafAmp/Title" >
                 <Property Name="Font" Value="F001-9" />
-                <Property Name="HorizontalAlignment" Value="Right" />
-                <Property Name="HorzFormatting" Value="HorzCentred" />
-                <Property Name="Text" Value="0" />
-                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.185654,0},{1,0}}" />
+                <Property Name="Text" Value="葉緣晃動幅度加成" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.212005,0},{1,0}}" />
             </Window>
-            <Window Type="DejaVu/HorizontalScrollbar" Name="WaterWorldConfig/ColorR/ScrollBar" >
+            <Window Type="DejaVu/HorizontalScrollbar" Name="WindTreeConfig/DetailLeafAmp/ScrollBar" >
                 <Property Name="DocumentSize" Value="1" />
                 <Property Name="Font" Value="F001-scale" />
                 <Property Name="OverlapSize" Value="0" />
                 <Property Name="PageSize" Value="0" />
                 <Property Name="ScrollPosition" Value="0" />
                 <Property Name="StepSize" Value="1" />
-                <Property Name="UnifiedAreaRect" Value="{{0.232019,0},{0.136364,0},{0.812188,0},{1.13636,0}}" />
-                <Property Name="VerticalAlignment" Value="Centre" />
+                <Property Name="UnifiedAreaRect" Value="{{0.225187,0},{0.142857,0},{0.861468,0},{0.857143,0}}" />
             </Window>
-            <Window Type="DejaVu/StaticTextLab" Name="WaterWorldConfig/ColorR/Title" >
+            <Window Type="DejaVu/StaticText" Name="WindTreeConfig/DetailLeafAmp/Value" >
                 <Property Name="Font" Value="F001-9" />
-                <Property Name="HorzFormatting" Value="HorzCentred" />
-                <Property Name="Text" Value="顏色紅" />
-                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.226852,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.874119,0},{0,0},{0.989535,0},{1,0}}" />
             </Window>
         </Window>
-        <Window Type="DefaultWindow" Name="WaterWorldConfig/ColorG/" >
+        <Window Type="DejaVu/Static" Name="WindTreeConfig/DetailBranchAmp/" >
             <Property Name="Font" Value="F001-scale" />
-            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.396476,0},{0,474},{0.396476,27}}" />
-            <Window Type="DejaVu/StaticTextLab" Name="WaterWorldConfig/ColorG/Value" >
+            <Property Name="UnifiedAreaRect" Value="{{0.0376648,0},{0.381818,0},{0.0376648,491},{0.381818,21}}" />
+            <Property Name="Visible" Value="False" />
+            <Window Type="DejaVu/StaticText" Name="WindTreeConfig/DetailBranchAmp/Title" >
                 <Property Name="Font" Value="F001-9" />
-                <Property Name="HorizontalAlignment" Value="Right" />
-                <Property Name="HorzFormatting" Value="HorzCentred" />
-                <Property Name="Text" Value="0" />
-                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.185654,0},{1,0}}" />
+                <Property Name="Text" Value="上下晃動幅度加成" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.212005,0},{1,0}}" />
             </Window>
-            <Window Type="DejaVu/HorizontalScrollbar" Name="WaterWorldConfig/ColorG/ScrollBar" >
+            <Window Type="DejaVu/HorizontalScrollbar" Name="WindTreeConfig/DetailBranchAmp/ScrollBar" >
                 <Property Name="DocumentSize" Value="1" />
                 <Property Name="Font" Value="F001-scale" />
                 <Property Name="OverlapSize" Value="0" />
                 <Property Name="PageSize" Value="0" />
                 <Property Name="ScrollPosition" Value="0" />
                 <Property Name="StepSize" Value="1" />
-                <Property Name="UnifiedAreaRect" Value="{{0.232019,0},{0.136364,0},{0.812188,0},{1.13636,0}}" />
-                <Property Name="VerticalAlignment" Value="Centre" />
+                <Property Name="UnifiedAreaRect" Value="{{0.225187,0},{0.142857,0},{0.861468,0},{0.857143,0}}" />
             </Window>
-            <Window Type="DejaVu/StaticTextLab" Name="WaterWorldConfig/ColorG/Title" >
+            <Window Type="DejaVu/StaticText" Name="WindTreeConfig/DetailBranchAmp/Value" >
                 <Property Name="Font" Value="F001-9" />
-                <Property Name="HorzFormatting" Value="HorzCentred" />
-                <Property Name="Text" Value="顏色緣" />
-                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.226852,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.874119,0},{0,0},{0.989535,0},{1,0}}" />
             </Window>
         </Window>
-        <Window Type="DefaultWindow" Name="WaterWorldConfig/ColorB/" >
+        <Window Type="DejaVu/Static" Name="WindTreeConfig/TimeFreq/" >
             <Property Name="Font" Value="F001-scale" />
-            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.528634,0},{0,474},{0.528634,27}}" />
-            <Window Type="DejaVu/StaticTextLab" Name="WaterWorldConfig/ColorB/Value" >
+            <Property Name="UnifiedAreaRect" Value="{{0.0376648,0},{0,0},{0.0376648,491},{0,21}}" />
+            <Window Type="DejaVu/StaticText" Name="WindTreeConfig/TimeFreq/Title" >
                 <Property Name="Font" Value="F001-9" />
-                <Property Name="HorizontalAlignment" Value="Right" />
-                <Property Name="HorzFormatting" Value="HorzCentred" />
-                <Property Name="Text" Value="0" />
-                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.185654,0},{1,0}}" />
+                <Property Name="Text" Value="搖晃頻率" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.212005,0},{1,0}}" />
             </Window>
-            <Window Type="DejaVu/HorizontalScrollbar" Name="WaterWorldConfig/ColorB/ScrollBar" >
+            <Window Type="DejaVu/HorizontalScrollbar" Name="WindTreeConfig/TimeFreq/ScrollBar" >
                 <Property Name="DocumentSize" Value="1" />
                 <Property Name="Font" Value="F001-scale" />
                 <Property Name="OverlapSize" Value="0" />
                 <Property Name="PageSize" Value="0" />
                 <Property Name="ScrollPosition" Value="0" />
                 <Property Name="StepSize" Value="1" />
-                <Property Name="UnifiedAreaRect" Value="{{0.232019,0},{0.136364,0},{0.812188,0},{1.13636,0}}" />
-                <Property Name="VerticalAlignment" Value="Centre" />
+                <Property Name="UnifiedAreaRect" Value="{{0.225187,0},{0.142857,0},{0.861468,0},{0.857143,0}}" />
             </Window>
-            <Window Type="DejaVu/StaticTextLab" Name="WaterWorldConfig/ColorB/Title" >
+            <Window Type="DejaVu/StaticText" Name="WindTreeConfig/TimeFreq/Value" >
                 <Property Name="Font" Value="F001-9" />
-                <Property Name="HorzFormatting" Value="HorzCentred" />
-                <Property Name="Text" Value="顏色藍" />
-                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.226852,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.874119,0},{0,0},{0.989535,0},{1,0}}" />
             </Window>
         </Window>
-        <Window Type="DefaultWindow" Name="WaterWorldConfig/ColorA/" >
+        <Window Type="DejaVu/Static" Name="WindTreeConfig/Speed5" >
             <Property Name="Font" Value="F001-scale" />
-            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.660793,0},{0,474},{0.660793,27}}" />
-            <Window Type="DejaVu/StaticTextLab" Name="WaterWorldConfig/ColorA/Value" >
+            <Property Name="UnifiedAreaRect" Value="{{0.0376648,0},{0.336683,0},{0.0376648,491},{0.336683,21}}" />
+            <Property Name="Visible" Value="False" />
+            <Window Type="DejaVu/StaticText" Name="WindTreeConfig/Speed/Title5" >
                 <Property Name="Font" Value="F001-9" />
-                <Property Name="HorizontalAlignment" Value="Right" />
-                <Property Name="HorzFormatting" Value="HorzCentred" />
-                <Property Name="Text" Value="0" />
-                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.185654,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.212005,0},{1,0}}" />
             </Window>
-            <Window Type="DejaVu/HorizontalScrollbar" Name="WaterWorldConfig/ColorA/ScrollBar" >
+            <Window Type="DejaVu/HorizontalScrollbar" Name="WindTreeConfig/Speed/ScrollBar5" >
                 <Property Name="DocumentSize" Value="1" />
                 <Property Name="Font" Value="F001-scale" />
                 <Property Name="OverlapSize" Value="0" />
                 <Property Name="PageSize" Value="0" />
                 <Property Name="ScrollPosition" Value="0" />
                 <Property Name="StepSize" Value="1" />
-                <Property Name="UnifiedAreaRect" Value="{{0.232019,0},{0.136364,0},{0.812188,0},{1.13636,0}}" />
-                <Property Name="VerticalAlignment" Value="Centre" />
+                <Property Name="UnifiedAreaRect" Value="{{0.225187,0},{0.142857,0},{0.861468,0},{0.857143,0}}" />
             </Window>
-            <Window Type="DejaVu/StaticTextLab" Name="WaterWorldConfig/ColorA/Title" >
+            <Window Type="DejaVu/StaticText" Name="WindTreeConfig/Speed/Value5" >
                 <Property Name="Font" Value="F001-9" />
-                <Property Name="HorzFormatting" Value="HorzCentred" />
-                <Property Name="Text" Value="透明度" />
-                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.226852,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.874119,0},{0,0},{0.989535,0},{1,0}}" />
             </Window>
         </Window>
-        <Window Type="DejaVu/Button" Name="WaterWorldConfig/SaveBtn" >
+        <Window Type="DejaVu/Button" Name="WindTreeConfig/SaveBtn" >
             <Property Name="Font" Value="F001-9" />
-            <Property Name="Text" Value="儲存" />
-            <Property Name="UnifiedAreaRect" Value="{{0.828125,0},{0,0},{0.996192,0},{0.135593,0}}" />
-            <Property Name="VerticalAlignment" Value="Bottom" />
-        </Window>
-        <Window Type="DejaVu/Checkbox" Name="WaterWorldConfig/Switch" >
-            <Property Name="Font" Value="F001-9" />
-            <Property Name="HoverTextColour" Value="C8FFFFFF" />
-            <Property Name="NormalTextColour" Value="C8FFFFFF" />
-            <Property Name="PushedTextColour" Value="C8FFFFFF" />
-            <Property Name="Text" Value="開啟" />
-            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.147059,0},{0.123028,0}}" />
-            <Property Name="VerticalAlignment" Value="Bottom" />
+            <Property Name="Text" Value="存檔" />
+            <Property Name="UnifiedAreaRect" Value="{{0.714794,0},{0.827425,0},{0.714794,73},{0.827425,26}}" />
         </Window>
     </Window>
 </GUILayout>

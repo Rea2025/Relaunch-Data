@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="DungeonPairingTeamReady" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="Text" Value="x副本配隊" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="TitlebarImage" Value="set:main image:SearchTeamNormal" />
+        <Property Name="UnifiedAreaRect" Value="{{0.0932938,0},{0.0448091,0},{0.0932938,400},{0.0448091,484}}" />
+        <Window Type="DejaVu/Embed" Name="DungeonPairingTeamReady/Frame" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Embed2" Name="DungeonPairingTeamReady/Frame/Embed" >
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0236971,0},{0.947917,0},{0.890034,0}}" />
+                <Window Type="DejaVu/Embed2" Name="DungeonPairingTeamReady/Frame/Embed/Team" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.428571,0},{0.961538,0},{0.942857,0}}" />
+                    <Window Type="DejaVu/Static" Name="DungeonPairingTeamReady/Frame/Embed/Team/Title" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.166667,0}}" />
+                        <Window Type="DejaVu/EmbedTextLab7" Name="DungeonPairingTeamReady/Frame/Embed/Team/Title/Name" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="x玩家名稱" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.428571,0},{1,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/EmbedTextLab7" Name="DungeonPairingTeamReady/Frame/Embed/Team/Title/Score" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="x裝備分數" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.428571,0},{-0.014205,0},{0.671428,0},{0.985795,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/EmbedTextLab7" Name="DungeonPairingTeamReady/Frame/Embed/Team/Title/Status" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="x狀態" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.857143,0},{0,0},{1,0},{1,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/EmbedTextLab7" Name="DungeonPairingTeamReady/Frame/Embed/Team/Title/Weapon" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="x武器" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.671429,0},{0,0},{0.857143,0},{1,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Static" Name="DungeonPairingTeamReady/Frame/Embed/Team/Player0" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.166667,0},{1,0},{0.333334,0}}" />
+                        <Window Type="DejaVu/EmbedText2" Name="DungeonPairingTeamReady/Frame/Embed/Team/Player0/Name" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="Text" >x玩家一玩家一玩家一
+</Property>
+                            <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.428571,0},{1,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/EmbedTextLab2" Name="DungeonPairingTeamReady/Frame/Embed/Team/Player0/Score" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="Text" Value="x999999999" />
+                            <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.428571,0},{0,0},{0.671428,0},{1,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/EmbedText2" Name="DungeonPairingTeamReady/Frame/Embed/Team/Player0/Status" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.857143,0},{0,0},{1,0},{1,0}}" />
+                            <Window Type="DejaVu/StaticImage" Name="DungeonPairingTeamReady/Frame/Embed/Team/Player0/Status/Image" >
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="HorizontalAlignment" Value="Centre" />
+                                <Property Name="Image" Value="set:main11 image:TeamAccept" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.5,0},{0.833333,0}}" />
+                                <Property Name="VerticalAlignment" Value="Centre" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/EmbedText2" Name="DungeonPairingTeamReady/Frame/Embed/Team/Player0/Weapon" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.671429,0},{0,0},{0.857143,0},{1,0}}" />
+                            <Window Type="DejaVu/StaticImage" Name="DungeonPairingTeamReady/Frame/Embed/Team/Player0/Weapon/Main" >
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="HorizontalAlignment" Value="Centre" />
+                                <Property Name="Image" Value="set:main15 image:WeaponTypeLance" />
+                                <Property Name="UnifiedAreaRect" Value="{{-0.184615,0},{0,0},{0.0923077,0},{0.6,0}}" />
+                                <Property Name="VerticalAlignment" Value="Centre" />
+                            </Window>
+                            <Window Type="DejaVu/StaticImage" Name="DungeonPairingTeamReady/Frame/Embed/Team/Player0/Weapon/Second" >
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="HorizontalAlignment" Value="Centre" />
+                                <Property Name="Image" Value="set:main image:WeaponTypeSwordShield" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.184615,0},{0,0},{0.461538,0},{0.6,0}}" />
+                                <Property Name="VerticalAlignment" Value="Centre" />
+                            </Window>
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Static" Name="DungeonPairingTeamReady/Frame/Embed/Team/Player1" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.333333,0},{1,0},{0.5,0}}" />
+                        <Window Type="DejaVu/EmbedText2" Name="DungeonPairingTeamReady/Frame/Embed/Team/Player1/Name" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="Text" >x玩家二玩家二玩家二
+</Property>
+                            <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.428571,0},{1,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/EmbedTextLab2" Name="DungeonPairingTeamReady/Frame/Embed/Team/Player1/Score" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="Text" Value="x500000" />
+                            <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.428571,0},{0,0},{0.671428,0},{1,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/EmbedText2" Name="DungeonPairingTeamReady/Frame/Embed/Team/Player1/Status" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.857143,0},{0,0},{1,0},{1,0}}" />
+                            <Window Type="DejaVu/StaticImage" Name="DungeonPairingTeamReady/Frame/Embed/Team/Player1/Status/Image" >
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="HorizontalAlignment" Value="Centre" />
+                                <Property Name="Image" Value="set:main11 image:TeamDeny" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.5,0},{0.833333,0}}" />
+                                <Property Name="VerticalAlignment" Value="Centre" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/EmbedText2" Name="DungeonPairingTeamReady/Frame/Embed/Team/Player1/Weapon" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.671429,0},{0,0},{0.857143,0},{1,0}}" />
+                            <Window Type="DejaVu/StaticImage" Name="DungeonPairingTeamReady/Frame/Embed/Team/Player1/Weapon/Main" >
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="HorizontalAlignment" Value="Centre" />
+                                <Property Name="Image" Value="set:main image:WeaponTypeHarp" />
+                                <Property Name="UnifiedAreaRect" Value="{{-0.184615,0},{0,0},{0.0923077,0},{0.6,0}}" />
+                                <Property Name="VerticalAlignment" Value="Centre" />
+                            </Window>
+                            <Window Type="DejaVu/StaticImage" Name="DungeonPairingTeamReady/Frame/Embed/Team/Player1/Weapon/Second" >
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="HorizontalAlignment" Value="Centre" />
+                                <Property Name="Image" Value="set:main image:WeaponTypeSwordShield" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.184615,0},{0,0},{0.461538,0},{0.6,0}}" />
+                                <Property Name="VerticalAlignment" Value="Centre" />
+                            </Window>
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Static" Name="DungeonPairingTeamReady/Frame/Embed/Team/Player2" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.5,0},{1,0},{0.666667,0}}" />
+                        <Window Type="DejaVu/EmbedText2" Name="DungeonPairingTeamReady/Frame/Embed/Team/Player2/Name" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="Text" Value="x玩家三玩家三玩家三" />
+                            <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.428571,0},{1,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/EmbedTextLab2" Name="DungeonPairingTeamReady/Frame/Embed/Team/Player2/Score" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="Text" Value="x600000" />
+                            <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.428571,0},{0,0},{0.671428,0},{1,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/EmbedText2" Name="DungeonPairingTeamReady/Frame/Embed/Team/Player2/Status" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.857143,0},{0,0},{1,0},{1,0}}" />
+                            <Window Type="DejaVu/StaticImage" Name="DungeonPairingTeamReady/Frame/Embed/Team/Player2/Status/Image" >
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="HorizontalAlignment" Value="Centre" />
+                                <Property Name="Image" Value="set:main11 image:TeamUnknown" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.5,0},{0.833333,0}}" />
+                                <Property Name="VerticalAlignment" Value="Centre" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/EmbedText2" Name="DungeonPairingTeamReady/Frame/Embed/Team/Player2/Weapon" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.671429,0},{0,0},{0.857143,0},{1,0}}" />
+                            <Window Type="DejaVu/StaticImage" Name="DungeonPairingTeamReady/Frame/Embed/Team/Player2/Weapon/Main" >
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="HorizontalAlignment" Value="Centre" />
+                                <Property Name="Image" Value="set:main image:WeaponTypeHarp" />
+                                <Property Name="UnifiedAreaRect" Value="{{-0.184615,0},{0,0},{0.0923077,0},{0.6,0}}" />
+                                <Property Name="VerticalAlignment" Value="Centre" />
+                            </Window>
+                            <Window Type="DejaVu/StaticImage" Name="DungeonPairingTeamReady/Frame/Embed/Team/Player2/Weapon/Second" >
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="HorizontalAlignment" Value="Centre" />
+                                <Property Name="Image" Value="set:main image:WeaponTypeSwordShield" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.184615,0},{0,0},{0.461538,0},{0.6,0}}" />
+                                <Property Name="VerticalAlignment" Value="Centre" />
+                            </Window>
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Static" Name="DungeonPairingTeamReady/Frame/Embed/Team/Player3" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.666667,0},{1,0},{0.833333,0}}" />
+                        <Window Type="DejaVu/EmbedText2" Name="DungeonPairingTeamReady/Frame/Embed/Team/Player3/Name" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="Text" Value="x玩家四玩家四玩家四" />
+                            <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.428571,0},{1,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/EmbedTextLab2" Name="DungeonPairingTeamReady/Frame/Embed/Team/Player3/Score" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="Text" Value="x700000" />
+                            <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.428571,0},{0,0},{0.671428,0},{1,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/EmbedText2" Name="DungeonPairingTeamReady/Frame/Embed/Team/Player3/Status" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.857143,0},{0,0},{1,0},{1,0}}" />
+                            <Window Type="DejaVu/StaticImage" Name="DungeonPairingTeamReady/Frame/Embed/Team/Player3/Status/Image" >
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="HorizontalAlignment" Value="Centre" />
+                                <Property Name="Image" Value="set:main11 image:TeamUnknown" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.5,0},{0.833333,0}}" />
+                                <Property Name="VerticalAlignment" Value="Centre" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/EmbedText2" Name="DungeonPairingTeamReady/Frame/Embed/Team/Player3/Weapon" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.671429,0},{0,0},{0.857143,0},{1,0}}" />
+                            <Window Type="DejaVu/StaticImage" Name="DungeonPairingTeamReady/Frame/Embed/Team/Player3/Weapon/Main" >
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="HorizontalAlignment" Value="Centre" />
+                                <Property Name="Image" Value="set:main image:WeaponTypeHarp" />
+                                <Property Name="UnifiedAreaRect" Value="{{-0.184615,0},{0,0},{0.0923077,0},{0.6,0}}" />
+                                <Property Name="VerticalAlignment" Value="Centre" />
+                            </Window>
+                            <Window Type="DejaVu/StaticImage" Name="DungeonPairingTeamReady/Frame/Embed/Team/Player3/Weapon/Second" >
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="HorizontalAlignment" Value="Centre" />
+                                <Property Name="Image" Value="set:main image:WeaponTypeSwordShield" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.184615,0},{0,0},{0.461538,0},{0.6,0}}" />
+                                <Property Name="VerticalAlignment" Value="Centre" />
+                            </Window>
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Static" Name="DungeonPairingTeamReady/Frame/Embed/Team/Player4" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.833333,0},{1,0},{1,0}}" />
+                        <Window Type="DejaVu/EmbedText2" Name="DungeonPairingTeamReady/Frame/Embed/Team/Player4/Name" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="Text" Value="x玩家五玩家五玩家五" />
+                            <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.428571,0},{1,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/EmbedTextLab2" Name="DungeonPairingTeamReady/Frame/Embed/Team/Player4/Score" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="Text" Value="x800000" />
+                            <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.428571,0},{0,0},{0.671428,0},{1,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/EmbedText2" Name="DungeonPairingTeamReady/Frame/Embed/Team/Player4/Status" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.857143,0},{0,0},{1,0},{1,0}}" />
+                            <Window Type="DejaVu/StaticImage" Name="DungeonPairingTeamReady/Frame/Embed/Team/Player4/Status/Image" >
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="HorizontalAlignment" Value="Centre" />
+                                <Property Name="Image" Value="set:main11 image:TeamUnknown" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.5,0},{0.833333,0}}" />
+                                <Property Name="VerticalAlignment" Value="Centre" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/EmbedText2" Name="DungeonPairingTeamReady/Frame/Embed/Team/Player4/Weapon" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.671429,0},{0,0},{0.857143,0},{1,0}}" />
+                            <Window Type="DejaVu/StaticImage" Name="DungeonPairingTeamReady/Frame/Embed/Team/Player4/Weapon/Main" >
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="HorizontalAlignment" Value="Centre" />
+                                <Property Name="Image" Value="set:main image:WeaponTypeHarp" />
+                                <Property Name="UnifiedAreaRect" Value="{{-0.184615,0},{0,0},{0.0923077,0},{0.6,0}}" />
+                                <Property Name="VerticalAlignment" Value="Centre" />
+                            </Window>
+                            <Window Type="DejaVu/StaticImage" Name="DungeonPairingTeamReady/Frame/Embed/Team/Player4/Weapon/Second" >
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="HorizontalAlignment" Value="Centre" />
+                                <Property Name="Image" Value="set:main image:WeaponTypeSwordShield" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.184615,0},{0,0},{0.461538,0},{0.6,0}}" />
+                                <Property Name="VerticalAlignment" Value="Centre" />
+                            </Window>
+                        </Window>
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="DungeonPairingTeamReady/Frame/Embed/TitleText" >
+                    <Property Name="Font" Value="F001-11" />
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                    <Property Name="HorzFormatting" Value="WordWrapCentred" />
+                    <Property Name="Text" >x配對成功，即將前往:
+白石神殿(裝備)(五人)
+
+是否進入?
+-30秒-</Property>
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.042857,0},{0.934066,0},{0.385714,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Button" Name="DungeonPairingTeamReady/Frame/ComfirmBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="x確認" />
+                <Property Name="UnifiedAreaRect" Value="{{0.104167,0},{-0.019802,0},{0.364583,0},{0.0544554,0}}" />
+                <Property Name="VerticalAlignment" Value="Bottom" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="DungeonPairingTeamReady/Frame/CancelBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="Text" Value="x取消" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.104167,0},{-0.019802,0},{0.161458,0},{0.0569307,0}}" />
+                <Property Name="VerticalAlignment" Value="Bottom" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>
