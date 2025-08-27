@@ -3,358 +3,189 @@
 <GUILayout >
     <Window Type="DejaVu/Static" Name="Root/EudemonInfo" >
         <Property Name="Font" Value="F001-9" />
-        <Property Name="MousePassThroughEnabled" Value="True" />
-        <Property Name="UnifiedAreaRect" Value="{{0.203125,0},{0.11849,0},{0.203125,610},{0.11849,600}}" />
+        <Property Name="UnifiedAreaRect" Value="{{0.173828,0},{0.199219,0},{0.173828,614},{0.199219,551}}" />
         <Window Type="DejaVu/StaticImage" Name="Root/EudemonInfo/BG" >
             <Property Name="AlwaysOnTop" Value="True" />
             <Property Name="Font" Value="F001-9" />
-            <Property Name="HorizontalAlignment" Value="Centre" />
             <Property Name="Image" Value="set:main2 image:EudemonInfoBG" />
-            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.75,0},{0.57377,0},{1,0}}" />
-            <Window Type="DejaVu/ImageButton" Name="Root/EudemonInfo/EquipmentBtn" >
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.654545,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/ImageButton" Name="Root/EudemonInfo/DevoteBtn" >
                 <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="HoverImage" Value="set:main2 image:ContributionBtnHover" />
+                <Property Name="NormalImage" Value="set:main2 image:ContributionBtnNormal" />
+                <Property Name="PushedImage" Value="set:main2 image:ContributionBtnPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.0977199,0},{0.394737,0},{-0.029316,0},{0.615789,0}}" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/EudemonInfo/AttributeBtn" >
+                <Property Name="HoverImage" Value="set:main2 image:EudemonSkillBtnHover" />
+                <Property Name="NormalImage" Value="set:main2 image:EudemonSkillBtnNomal" />
+                <Property Name="PushedImage" Value="set:main2 image:EudemonSkillBtnPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0.697749,0},{0.516667,0},{0.766153,0},{0.73772,0}}" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/EudemonInfo/EquipmentBtn" >
                 <Property Name="HoverImage" Value="set:main2 image:EudemonInfoBtnHover" />
                 <Property Name="NormalImage" Value="set:main2 image:EudemonInfoBtnNomal" />
                 <Property Name="PushedImage" Value="set:main2 image:EudemonInfoBtnPressed" />
-                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.736842,0},{0.0684039,0},{0.957895,0}}" />
-                <Property Name="Visible" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.78135,0},{0.388889,0},{0.849754,0},{0.609942,0}}" />
             </Window>
             <Window Type="DejaVu/ImageButton" Name="Root/EudemonInfo/ChatBtn" >
-                <Property Name="DisabledImage" Value="set:main2 image:EudemonChatPressed" />
                 <Property Name="HorizontalAlignment" Value="Centre" />
                 <Property Name="HoverImage" Value="set:main2 image:EudemonChatHover" />
                 <Property Name="NormalImage" Value="set:main2 image:EudemonChatNormal" />
                 <Property Name="PushedImage" Value="set:main2 image:EudemonChatPressed" />
-                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.233333,0},{0.142857,0},{0.566666,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.147368,0},{0.0977199,0},{0.463158,0}}" />
+            </Window>
+            <Window Type="DejaVu/ProgressBarBG" Name="Root/EudemonInfo/ExpBG" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.805556,0},{0.325733,0},{0.884503,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="Root/EudemonInfo/ExpPointer0" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="Image" Value="set:DejaVu image:LevelPoint" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.155,0},{-0.2,0},{0.215,0},{0.6,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/EudemonInfo/ExpPointer1" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="Image" Value="set:DejaVu image:LevelPoint" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.365,0},{-0.2,0},{0.425,0},{0.6,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/EudemonInfo/ExpPointer2" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="Image" Value="set:DejaVu image:LevelPoint" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.575,0},{-0.2,0},{0.635,0},{0.6,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/EudemonInfo/ExpPointer3" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="Image" Value="set:DejaVu image:LevelPoint" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.785,0},{-0.2,0},{0.845,0},{0.6,0}}" />
+                </Window>
+                <Window Type="DejaVu/ProgressBar2" Name="Root/EudemonInfo/ExpProgressBar" >
+                    <Property Name="CurrentProgress" Value="1" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="StepSize" Value="0.01" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.015,0},{0.2,0},{0.985,0},{0.8,0}}" />
+                </Window>
             </Window>
             <Window Type="DejaVu/ImageButton" Name="Root/EudemonInfo/CloseBtn" >
                 <Property Name="Font" Value="F001-9" />
                 <Property Name="HoverImage" Value="set:DejaVu image:NewCloseButtonHover" />
                 <Property Name="NormalImage" Value="set:DejaVu image:NewCloseButtonNormal" />
                 <Property Name="PushedImage" Value="set:DejaVu image:NewCloseButtonPressed" />
-                <Property Name="UnifiedAreaRect" Value="{{0.771429,0},{0.233333,0},{0.828572,0},{0.366666,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.899023,0},{0.315789,0},{0.931596,0},{0.421053,0}}" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/EudemonInfo/EvolveBtn" >
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="HoverImage" Value="set:main2 image:UpgrateBtnHover" />
+                <Property Name="NormalImage" Value="set:main2 image:UpgrateBtnNormal" />
+                <Property Name="PushedImage" Value="set:main2 image:UpgrateBtnPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0977199,0},{0.394737,0},{0.166124,0},{0.615789,0}}" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/EudemonInfo/FormBtn" >
+                <Property Name="HoverImage" Value="set:main2 image:TransferBtnHover" />
+                <Property Name="NormalImage" Value="set:main2 image:TransferBtnNormal" />
+                <Property Name="PushedImage" Value="set:main2 image:TransferBtnPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0.78135,0},{0.65,0},{0.849754,0},{0.871053,0}}" />
             </Window>
             <Window Type="DejaVu/ImageButton" Name="Root/EudemonInfo/HelpBtn" >
                 <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
                 <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
                 <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
-                <Property Name="UnifiedAreaRect" Value="{{0.858306,0},{0.315789,0},{0.890879,0},{0.421053,0}}" />
-                <Property Name="Visible" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.86645,0},{0.315789,0},{0.899023,0},{0.421053,0}}" />
             </Window>
-            <Window Type="DejaVu/SlotImage" Name="Root/EudemonInfo/ChooseBtn1" >
-                <Property Name="ClippedByParent" Value="False" />
+            <Window Type="DejaVu/StaticImage" Name="Root/EudemonInfo/Healthy" >
                 <Property Name="Font" Value="F001-9" />
-                <Property Name="HorizontalAlignment" Value="Centre" />
-                <Property Name="UnifiedAreaRect" Value="{{-0.171429,0},{-0.166667,0},{-0.0514286,0},{0.113333,0}}" />
-                <Window Type="DejaVu/StaticImage" Name="Root/EudemonInfo/ChooseBtn1/Img" >
-                    <Property Name="AlwaysOnTop" Value="True" />
-                    <Property Name="ClippedByParent" Value="False" />
-                    <Property Name="Font" Value="F001-9" />
-                    <Property Name="Image" Value="set:main2 image:EudemonTalk" />
-                    <Property Name="Tooltip" Value="set:main2 image:EudemonTalk" />
-                    <Property Name="UnifiedAreaRect" Value="{{-0.238095,0},{-0.238095,0},{0.595238,0},{0.595238,0}}" />
-                </Window>
-            </Window>
-            <Window Type="DejaVu/SlotImage" Name="Root/EudemonInfo/ChooseBtn2" >
-                <Property Name="ClippedByParent" Value="False" />
-                <Property Name="Font" Value="F001-9" />
-                <Property Name="HorizontalAlignment" Value="Centre" />
-                <Property Name="UnifiedAreaRect" Value="{{0,0},{-0.166667,0},{0.12,0},{0.113333,0}}" />
-                <Window Type="DejaVu/StaticImage" Name="Root/EudemonInfo/ChooseBtn2/PicNum1" >
-                    <Property Name="AlwaysOnTop" Value="True" />
-                    <Property Name="ClippedByParent" Value="False" />
-                    <Property Name="Image" Value="set:DejaVu image:five" />
-                    <Property Name="UnifiedAreaRect" Value="{{0.428571,0},{0.547619,0},{0.904762,0},{1.02381,0}}" />
-                </Window>
-                <Window Type="DejaVu/StaticImage" Name="Root/EudemonInfo/ChooseBtn2/PicNum2" >
-                    <Property Name="AlwaysOnTop" Value="True" />
-                    <Property Name="ClippedByParent" Value="False" />
-                    <Property Name="Image" Value="set:DejaVu image:two" />
-                    <Property Name="UnifiedAreaRect" Value="{{0.0952381,0},{0.547619,0},{0.571429,0},{1.02381,0}}" />
-                </Window>
-                <Window Type="DejaVu/StaticImage" Name="Root/EudemonInfo/ChooseBtn2/LockPic" >
-                    <Property Name="AlwaysOnTop" Value="True" />
-                    <Property Name="ClippedByParent" Value="False" />
-                    <Property Name="Image" Value="set:main image:Lock" />
-                    <Property Name="UnifiedAreaRect" Value="{{0.214286,0},{-0.119048,0},{0.809524,0},{0.47619,0}}" />
-                </Window>
-                <Window Type="DejaVu/StaticImage" Name="Root/EudemonInfo/ChooseBtn2/Img" >
-                    <Property Name="AlwaysOnTop" Value="True" />
-                    <Property Name="ClippedByParent" Value="False" />
-                    <Property Name="Image" Value="set:main2 image:EudemonTalk" />
-                    <Property Name="UnifiedAreaRect" Value="{{-0.238095,0},{-0.238095,0},{0.595238,0},{0.595238,0}}" />
-                </Window>
-            </Window>
-            <Window Type="DejaVu/SlotImage" Name="Root/EudemonInfo/ChooseBtn3" >
-                <Property Name="ClippedByParent" Value="False" />
-                <Property Name="Font" Value="F001-9" />
-                <Property Name="HorizontalAlignment" Value="Centre" />
-                <Property Name="UnifiedAreaRect" Value="{{0.171429,0},{-0.166667,0},{0.291429,0},{0.113333,0}}" />
-                <Window Type="DejaVu/StaticImage" Name="Root/EudemonInfo/ChooseBtn3/PicNum1" >
-                    <Property Name="AlwaysOnTop" Value="True" />
-                    <Property Name="ClippedByParent" Value="False" />
+                <Property Name="Image" Value="set:main2 image:BG" />
+                <Property Name="UnifiedAreaRect" Value="{{0.130293,0},{0.368421,0},{0.276873,0},{0.473684,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="Root/EudemonInfo/Healthy/PicNum0" >
                     <Property Name="Image" Value="set:DejaVu image:zero" />
-                    <Property Name="UnifiedAreaRect" Value="{{0.452381,0},{0.547619,0},{0.928571,0},{1.02381,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.666667,0},{0.05,0},{0.866667,0},{0.95,0}}" />
                 </Window>
-                <Window Type="DejaVu/StaticImage" Name="Root/EudemonInfo/ChooseBtn3/PicNum2" >
-                    <Property Name="AlwaysOnTop" Value="True" />
-                    <Property Name="ClippedByParent" Value="False" />
-                    <Property Name="Image" Value="set:DejaVu image:four" />
-                    <Property Name="UnifiedAreaRect" Value="{{0.0952381,0},{0.547619,0},{0.571429,0},{1.02381,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="Root/EudemonInfo/Healthy/Pic" >
+                    <Property Name="Image" Value="set:main2 image:Feeling02" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0555556,0},{0,0},{0.277778,0},{1,0}}" />
                 </Window>
-                <Window Type="DejaVu/StaticImage" Name="Root/EudemonInfo/ChooseBtn3/LockPic" >
-                    <Property Name="AlwaysOnTop" Value="True" />
-                    <Property Name="ClippedByParent" Value="False" />
-                    <Property Name="Image" Value="set:main image:Lock" />
-                    <Property Name="UnifiedAreaRect" Value="{{0.214286,0},{-0.119048,0},{0.809524,0},{0.47619,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="Root/EudemonInfo/Healthy/PicNum2" >
+                    <Property Name="Image" Value="set:DejaVu image:one" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.377778,0},{0.05,0},{0.577778,0},{0.95,0}}" />
                 </Window>
-                <Window Type="DejaVu/StaticImage" Name="Root/EudemonInfo/ChooseBtn3/Img" >
-                    <Property Name="AlwaysOnTop" Value="True" />
-                    <Property Name="ClippedByParent" Value="False" />
-                    <Property Name="Image" Value="set:main2 image:EudemonTalk" />
-                    <Property Name="UnifiedAreaRect" Value="{{-0.238095,0},{-0.238095,0},{0.595238,0},{0.595238,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="Root/EudemonInfo/Healthy/PicNum1" >
+                    <Property Name="Image" Value="set:DejaVu image:zero" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.522222,0},{0.05,0},{0.722222,0},{0.95,0}}" />
                 </Window>
             </Window>
-            <Window Type="DejaVu/ImageButton" Name="Root/EudemonInfo/BG/LinkingBtn" >
-                <Property Name="DisabledImage" Value="set:main2 image:LinkBtnPressed" />
-                <Property Name="Font" Value="F001-9" />
-                <Property Name="HorizontalAlignment" Value="Centre" />
-                <Property Name="HoverImage" Value="set:main3 image:StartHover" />
-                <Property Name="NormalImage" Value="set:main3 image:StartNormal" />
-                <Property Name="PushedImage" Value="set:main3 image:StartPressed" />
-                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.266667,0},{0.228571,0},{0.6,0}}" />
-                <Property Name="VerticalAlignment" Value="Centre" />
-                <Window Type="DejaVu/StaticText" Name="Root/EudemonInfo/BG/LinkingBtn/Text" >
-                    <Property Name="Font" Value="F001-9" />
-                    <Property Name="HorzFormatting" Value="HorzCentred" />
-                    <Property Name="MousePassThroughEnabled" Value="True" />
-                    <Property Name="Text" Value="x" />
-                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/StaticImage" Name="Root/EudemonInfo/Execiting" >
+                <Property Name="Image" Value="set:main2 image:BG" />
+                <Property Name="UnifiedAreaRect" Value="{{0.130293,0},{0.5,0},{0.276873,0},{0.605263,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="Root/EudemonInfo/Execiting/PicNum0" >
+                    <Property Name="Image" Value="set:DejaVu image:zero" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.666667,0},{0.05,0},{0.866667,0},{0.95,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/EudemonInfo/Execiting/Pic" >
+                    <Property Name="Image" Value="set:main2 image:Feeling03" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0555556,0},{0,0},{0.277778,0},{1,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/EudemonInfo/Execiting/PicNum2" >
+                    <Property Name="Image" Value="set:DejaVu image:one" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.377778,0},{0.05,0},{0.577778,0},{0.95,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/EudemonInfo/Execiting/PicNum1" >
+                    <Property Name="Image" Value="set:DejaVu image:zero" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.522222,0},{0.05,0},{0.722222,0},{0.95,0}}" />
                 </Window>
             </Window>
-            <Window Type="DejaVu/Embed9" Name="Root/EudemonInfo/BG/TalkChoose1" >
-                <Property Name="AlwaysOnTop" Value="True" />
-                <Property Name="ClippedByParent" Value="False" />
-                <Property Name="Font" Value="F001-12" />
-                <Property Name="HorizontalAlignment" Value="Centre" />
-                <Property Name="HorzFormatting" Value="CentreAligned" />
-                <Property Name="UnifiedAreaRect" Value="{{-0.514286,0},{0,0},{-0.0857143,0},{0.333333,0}}" />
-                <Property Name="VerticalAlignment" Value="Centre" />
-                <Window Type="DejaVu/Embed9" Name="Root/EudemonInfo/BG/TalkHover1" >
-                    <Property Name="Alpha" Value="0.6" />
-                    <Property Name="AlwaysOnTop" Value="True" />
-                    <Property Name="BackgroundColours" Value="tl:FF00CCFF tr:FF00CCFF bl:FF00CCFF br:FF00CCFF" />
-                    <Property Name="Font" Value="F001-12" />
-                    <Property Name="FrameColours" Value="tl:FF00CCFF tr:FF00CCFF bl:FF00CCFF br:FF00CCFF" />
-                    <Property Name="HorzFormatting" Value="CentreAligned" />
-                    <Property Name="MousePassThroughEnabled" Value="True" />
-                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/StaticImage" Name="Root/EudemonInfo/Satisfy" >
+                <Property Name="Image" Value="set:main2 image:BG" />
+                <Property Name="UnifiedAreaRect" Value="{{0.130293,0},{0.631579,0},{0.276873,0},{0.736842,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="Root/EudemonInfo/Satisfy/PicNum1" >
+                    <Property Name="Image" Value="set:DejaVu image:zero" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.522222,0},{0.05,0},{0.722222,0},{0.95,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/EudemonInfo/Satisfy/PicNum0" >
+                    <Property Name="Image" Value="set:DejaVu image:zero" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.666667,0},{0.05,0},{0.866667,0},{0.95,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/EudemonInfo/Satisfy/PicNum2" >
+                    <Property Name="Image" Value="set:DejaVu image:one" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.377778,0},{0.05,0},{0.577778,0},{0.95,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/EudemonInfo/Satisfy/Pic" >
+                    <Property Name="Image" Value="set:main2 image:Feeling01" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0555556,0},{0,0},{0.277778,0},{1,0}}" />
                 </Window>
             </Window>
-            <Window Type="DejaVu/Embed9" Name="Root/EudemonInfo/BG/TalkChoose2" >
-                <Property Name="AlwaysOnTop" Value="True" />
-                <Property Name="ClippedByParent" Value="False" />
-                <Property Name="Font" Value="F001-12" />
-                <Property Name="HorizontalAlignment" Value="Centre" />
-                <Property Name="HorzFormatting" Value="CentreAligned" />
-                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.266667,0},{0.428571,0},{0.6,0}}" />
-                <Property Name="VerticalAlignment" Value="Centre" />
-                <Window Type="DejaVu/Embed9" Name="Root/EudemonInfo/BG/TalkHover2" >
-                    <Property Name="Alpha" Value="0.6" />
-                    <Property Name="AlwaysOnTop" Value="True" />
-                    <Property Name="BackgroundColours" Value="tl:FF00CCFF tr:FF00CCFF bl:FF00CCFF br:FF00CCFF" />
-                    <Property Name="ClippedByParent" Value="False" />
-                    <Property Name="Font" Value="F001-12" />
-                    <Property Name="FrameColours" Value="tl:FF00CCFF tr:FF00CCFF bl:FF00CCFF br:FF00CCFF" />
-                    <Property Name="HorzFormatting" Value="CentreAligned" />
-                    <Property Name="MousePassThroughEnabled" Value="True" />
-                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/StaticImage" Name="Root/EudemonInfo/Food" >
+                <Property Name="Image" Value="set:main2 image:BG" />
+                <Property Name="UnifiedAreaRect" Value="{{0.130293,0},{0.763158,0},{0.276873,0},{0.868421,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="Root/EudemonInfo/Food/PicNum1" >
+                    <Property Name="Image" Value="set:DejaVu image:zero" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.388889,0},{0.05,0},{0.588889,0},{0.95,0}}" />
                 </Window>
-            </Window>
-            <Window Type="DejaVu/Embed9" Name="Root/EudemonInfo/BG/TalkChoose3" >
-                <Property Name="AlwaysOnTop" Value="True" />
-                <Property Name="ClippedByParent" Value="False" />
-                <Property Name="Font" Value="F001-12" />
-                <Property Name="HorizontalAlignment" Value="Centre" />
-                <Property Name="HorzFormatting" Value="CentreAligned" />
-                <Property Name="UnifiedAreaRect" Value="{{0.514286,0},{0,0},{0.942857,0},{0.333333,0}}" />
-                <Property Name="VerticalAlignment" Value="Centre" />
-                <Window Type="DejaVu/Embed9" Name="Root/EudemonInfo/BG/TalkHover3" >
-                    <Property Name="Alpha" Value="0.6" />
-                    <Property Name="AlwaysOnTop" Value="True" />
-                    <Property Name="BackgroundColours" Value="tl:FF00CCFF tr:FF00CCFF bl:FF00CCFF br:FF00CCFF" />
-                    <Property Name="Font" Value="F001-12" />
-                    <Property Name="FrameColours" Value="tl:FF00CCFF tr:FF00CCFF bl:FF00CCFF br:FF00CCFF" />
-                    <Property Name="HorzFormatting" Value="CentreAligned" />
-                    <Property Name="MousePassThroughEnabled" Value="True" />
-                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="Root/EudemonInfo/Food/PicNum0" >
+                    <Property Name="Image" Value="set:DejaVu image:zero" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.533333,0},{0.05,0},{0.733333,0},{0.95,0}}" />
                 </Window>
-            </Window>
-            <Window Type="DejaVu/StaticTextLab" Name="Root/EudemonInfo/BG/LinkingNumBG1" >
-                <Property Name="HorizontalAlignment" Value="Centre" />
-                <Property Name="HorzFormatting" Value="HorzCentred" />
-                <Property Name="MousePassThroughEnabled" Value="True" />
-                <Property Name="UnifiedAreaRect" Value="{{-0.171429,0},{0.133333,0},{-0.071429,0},{0.266666,0}}" />
-                <Window Type="DejaVu/StaticImage" Name="Root/EudemonInfo/BG/LinkingNum1_2" >
-                    <Property Name="Image" Value="set:DejaVu image:8" />
-                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.571429,0},{1,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="Root/EudemonInfo/Food/PicNum2" >
+                    <Property Name="Image" Value="set:DejaVu image:one" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.255556,0},{0.05,0},{0.455556,0},{0.95,0}}" />
                 </Window>
-                <Window Type="DejaVu/StaticImage" Name="Root/EudemonInfo/BG/LinkingNum1_1" >
-                    <Property Name="Image" Value="set:DejaVu image:8" />
-                    <Property Name="UnifiedAreaRect" Value="{{0.428571,0},{0,0},{1,0},{1,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="Root/EudemonInfo/Food/PercentPic" >
+                    <Property Name="Image" Value="set:DejaVu image:percent" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.722222,0},{0.05,0},{0.922222,0},{0.95,0}}" />
                 </Window>
-            </Window>
-            <Window Type="DejaVu/StaticTextLab" Name="Root/EudemonInfo/BG/LinkingNumBG2" >
-                <Property Name="HorizontalAlignment" Value="Centre" />
-                <Property Name="HorzFormatting" Value="HorzCentred" />
-                <Property Name="MousePassThroughEnabled" Value="True" />
-                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.133333,0},{0.1,0},{0.266667,0}}" />
-                <Window Type="DejaVu/StaticImage" Name="Root/EudemonInfo/BG/LinkingNum2_2" >
-                    <Property Name="Image" Value="set:DejaVu image:8" />
-                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.571429,0},{1,0}}" />
-                </Window>
-                <Window Type="DejaVu/StaticImage" Name="Root/EudemonInfo/BG/LinkingNum2_1" >
-                    <Property Name="Image" Value="set:DejaVu image:8" />
-                    <Property Name="UnifiedAreaRect" Value="{{0.428571,0},{0,0},{1,0},{1,0}}" />
-                </Window>
-            </Window>
-            <Window Type="DejaVu/StaticTextLab" Name="Root/EudemonInfo/BG/LinkingNumBG3" >
-                <Property Name="HorizontalAlignment" Value="Centre" />
-                <Property Name="HorzFormatting" Value="HorzCentred" />
-                <Property Name="MousePassThroughEnabled" Value="True" />
-                <Property Name="UnifiedAreaRect" Value="{{0.171429,0},{0.133333,0},{0.271429,0},{0.266667,0}}" />
-                <Window Type="DejaVu/StaticImage" Name="Root/EudemonInfo/BG/LinkingNum3_2" >
-                    <Property Name="Image" Value="set:DejaVu image:8" />
-                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.571429,0},{1,0}}" />
-                </Window>
-                <Window Type="DejaVu/StaticImage" Name="Root/EudemonInfo/BG/LinkingNum3_1" >
-                    <Property Name="Image" Value="set:DejaVu image:8" />
-                    <Property Name="UnifiedAreaRect" Value="{{0.428571,0},{0,0},{1,0},{1,0}}" />
-                </Window>
-            </Window>
-            <Window Type="DejaVu/Embed11" Name="Root/EudemonInfo/BG/TalkBubble" >
-                <Property Name="AlwaysOnTop" Value="True" />
-                <Property Name="ClippedByParent" Value="False" />
-                <Property Name="HorizontalAlignment" Value="Centre" />
-                <Property Name="HorzFormatting" Value="CentreAligned" />
-                <Property Name="UnifiedAreaRect" Value="{{0,0},{-0.7,0},{0.571429,0},{-0.166667,0}}" />
-                <Window Type="DejaVu/StaticText" Name="Root/EudemonInfo/BG/TalkBubble/Text" >
-                    <Property Name="Font" Value="F001-12" />
-                    <Property Name="MousePassThroughEnabled" Value="True" />
-                    <Property Name="Text" >aaaaaaaaaaaaaaaaaaaaaa
-
-aaaaaaaaaaaaaaaaaaaaaaaxabcdefg</Property>
-                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0625,0},{1,0},{0.4875,0}}" />
-                    <Property Name="VerticalAlignment" Value="Centre" />
-                </Window>
-                <Window Type="DejaVu/StaticImage" Name="Root/EudemonInfo/BG/TalkBubble/Next" >
-                    <Property Name="Font" Value="F001-9" />
-                    <Property Name="HorizontalAlignment" Value="Right" />
-                    <Property Name="Image" Value="set:main3 image:DownArrowLight" />
-                    <Property Name="MousePassThroughEnabled" Value="True" />
-                    <Property Name="UnifiedAreaRect" Value="{{-0.01,0},{0,0},{0.15,0},{0.3,0}}" />
-                    <Property Name="VerticalAlignment" Value="Bottom" />
-                    <Window Type="DejaVu/StaticImage" Name="Root/EudemonInfo/BG/TalkBubble/Next/Ani" >
-                        <Property Name="Font" Value="F001-9" />
-                        <Property Name="Image" Value="set:main3 image:DownArrowDark" />
-                        <Property Name="MousePassThroughEnabled" Value="True" />
-                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
-                    </Window>
-                </Window>
-            </Window>
-            <Window Type="DejaVu/StaticTextLab" Name="Root/EudemonInfo/BG/AddLoyaltyBG" >
-                <Property Name="ClippedByParent" Value="False" />
-                <Property Name="HorizontalAlignment" Value="Centre" />
-                <Property Name="HorzFormatting" Value="HorzCentred" />
-                <Property Name="MousePassThroughEnabled" Value="True" />
-                <Property Name="UnifiedAreaRect" Value="{{0.285714,0},{-1,0},{0.5,0},{-0.8,0}}" />
-                <Window Type="DejaVu/StaticImage" Name="Root/EudemonInfo/BG/AddLoyaltyBG/Plus" >
-                    <Property Name="Image" Value="set:DejaVu image:Plus" />
-                    <Property Name="MousePassThroughEnabled" Value="True" />
-                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0666667,0},{0.346667,0},{0.933333,0}}" />
-                </Window>
-                <Window Type="DejaVu/StaticImage" Name="Root/EudemonInfo/BG/AddLoyaltyBG/Num2" >
-                    <Property Name="Image" Value="set:DejaVu image:8" />
-                    <Property Name="MousePassThroughEnabled" Value="True" />
-                    <Property Name="UnifiedAreaRect" Value="{{0.333333,0},{0,0},{0.733333,0},{1,0}}" />
-                </Window>
-                <Window Type="DejaVu/StaticImage" Name="Root/EudemonInfo/BG/AddLoyaltyBG/Num1" >
-                    <Property Name="Image" Value="set:DejaVu image:8" />
-                    <Property Name="MousePassThroughEnabled" Value="True" />
-                    <Property Name="UnifiedAreaRect" Value="{{0.613333,0},{0,0},{1.01333,0},{1,0}}" />
-                </Window>
-            </Window>
-            <Window Type="DejaVu/EmbedText3" Name="Root/EudemonInfo/BG/GiftBG" >
-                <Property Name="ClippedByParent" Value="False" />
-                <Property Name="Font" Value="F001-9" />
-                <Property Name="HorizontalAlignment" Value="Centre" />
-                <Property Name="HorzFormatting" Value="HorzCentred" />
-                <Property Name="UnifiedAreaRect" Value="{{0.542857,0},{-0.2,0},{0.971429,0},{0.2,0}}" />
-                <Window Type="DejaVu/SlotImage" Name="Root/EudemonInfo/BG/GiftBG/Slot" >
-                    <Property Name="BackgroundEnabled" Value="False" />
-                    <Property Name="ClippedByParent" Value="False" />
-                    <Property Name="FrameEnabled" Value="False" />
-                    <Property Name="Image" Value="set:main2 image:GiftIcon" />
-                    <Property Name="UnifiedAreaRect" Value="{{0.06,0},{0,0},{0.393333,0},{0.833333,0}}" />
-                    <Property Name="VerticalAlignment" Value="Centre" />
-                </Window>
-                <Window Type="DejaVu/Button" Name="Root/EudemonInfo/BG/GiftBG/Btn" >
-                    <Property Name="ClippedByParent" Value="False" />
-                    <Property Name="Font" Value="F001-9" />
-                    <Property Name="Text" Value="x領取" />
-                    <Property Name="UnifiedAreaRect" Value="{{0.415742,0},{6.14673e-008,0},{0.919908,0},{0.436979,0}}" />
-                    <Property Name="VerticalAlignment" Value="Centre" />
-                </Window>
-            </Window>
-            <Window Type="DejaVu/StaticTextLab" Name="Root/EudemonInfo/BG/DecLoyaltyBG" >
-                <Property Name="ClippedByParent" Value="False" />
-                <Property Name="HorizontalAlignment" Value="Centre" />
-                <Property Name="HorzFormatting" Value="HorzCentred" />
-                <Property Name="MousePassThroughEnabled" Value="True" />
-                <Property Name="UnifiedAreaRect" Value="{{0.291429,0},{-1.9,0},{0.505714,0},{-1.7,0}}" />
-                <Window Type="DejaVu/StaticImage" Name="Root/EudemonInfo/BG/DecLoyaltyBG/Dec" >
-                    <Property Name="Image" Value="set:main3 image:minus" />
-                    <Property Name="MousePassThroughEnabled" Value="True" />
-                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0666667,0},{0.346667,0},{0.933333,0}}" />
-                </Window>
-                <Window Type="DejaVu/StaticImage" Name="Root/EudemonInfo/BG/DecLoyaltyBG/Num2" >
-                    <Property Name="Image" Value="set:main3 image:eight" />
-                    <Property Name="MousePassThroughEnabled" Value="True" />
-                    <Property Name="UnifiedAreaRect" Value="{{0.333333,0},{0,0},{0.733333,0},{1,0}}" />
-                </Window>
-                <Window Type="DejaVu/StaticImage" Name="Root/EudemonInfo/BG/DecLoyaltyBG/Num1" >
-                    <Property Name="Image" Value="set:main3 image:eight" />
-                    <Property Name="MousePassThroughEnabled" Value="True" />
-                    <Property Name="UnifiedAreaRect" Value="{{0.613333,0},{0,0},{1.01333,0},{1,0}}" />
-                </Window>
-            </Window>
-            <Window Type="DejaVu/EmbedText3" Name="Root/EudemonInfo/BG/LinkCD" >
-                <Property Name="ClippedByParent" Value="False" />
-                <Property Name="HorizontalAlignment" Value="Centre" />
-                <Property Name="HorzFormatting" Value="HorzCentred" />
-                <Property Name="UnifiedAreaRect" Value="{{0.542857,0},{-0.2,0},{0.971429,0},{0.2,0}}" />
-                <Window Type="DejaVu/StaticText" Name="Root/EudemonInfo/BG/LinkCD/Name" >
-                    <Property Name="HorzFormatting" Value="HorzCentred" />
-                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.2,0},{1,0},{0.45,0}}" />
-                </Window>
-                <Window Type="DejaVu/StaticText" Name="Root/EudemonInfo/BG/LinkCD/Time" >
-                    <Property Name="HorzFormatting" Value="HorzCentred" />
-                    <Property Name="UnifiedAreaRect" Value="{{0.00397135,0},{0.55,0},{1.00397,0},{0.8,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="Root/EudemonInfo/Food/Pic" >
+                    <Property Name="Image" Value="set:main2 image:Hunger" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0555556,0},{0,0},{0.277778,0},{1,0}}" />
                 </Window>
             </Window>
         </Window>
         <Window Type="DejaVu/StaticImage" Name="Root/EudemonInfo/DressRoom" >
-            <Property Name="ClippedByParent" Value="False" />
             <Property Name="HorizontalAlignment" Value="Centre" />
-            <Property Name="MousePassThroughEnabled" Value="True" />
-            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0566667,0},{0.590164,0},{0.876667,0}}" />
-            <Window Type="DejaVu/StaticImage" Name="Root/EudemonInfo/DressRoom/Click" >
-                <Property Name="AlwaysOnTop" Value="True" />
-                <Property Name="Font" Value="F001-9" />
-                <Property Name="HorizontalAlignment" Value="Centre" />
-                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0203252,0},{0.833333,0},{0.731707,0}}" />
-                <Property Name="VerticalAlignment" Value="Centre" />
-            </Window>
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.803717,0}}" />
         </Window>
     </Window>
 </GUILayout>

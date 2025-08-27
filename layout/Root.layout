@@ -2,162 +2,18 @@
 
 <GUILayout >
     <Window Type="DefaultWindow" Name="Root" >
-        <Property Name="UnifiedAreaRect" Value="{{0.15625,0},{0.105485,0},{0.312619,0},{0.781303,0}}" />
-        <Window Type="DejaVu/StaticText" Name="Root/FashionPowerTIP/Title" >
-            <Property Name="Font" Value="F001-12" />
-            <Property Name="Text" Value="x時裝洗鍊能力" />
-            <Property Name="UnifiedAreaRect" Value="{{0.0829268,0},{0.00787402,0},{0.917073,0},{0.0787401,0}}" />
-        </Window>
-        <Window Type="DejaVu/StaticImage" Name="Root/FashionPowerTIP/Line0" >
-            <Property Name="HorizontalAlignment" Value="Centre" />
-            <Property Name="Image" Value="set:DejaVu image:Line" />
-            <Property Name="MousePassThroughEnabled" Value="True" />
-            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0787402,0},{0.931707,0},{0.0818898,0}}" />
-        </Window>
-        <Window Type="DejaVu/Static" Name="Root/FashionPowerTIP/Static0" >
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.0265781,0},{0.0443213,0}}" />
+        <Window Type="DejaVu/SlotImage" Name="Root/ItemSlot" >
             <Property Name="Font" Value="F001-9" />
             <Property Name="HorizontalAlignment" Value="Centre" />
-            <Property Name="MousePassThroughEnabled" Value="True" />
-            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0897638,0},{0,205},{0.0897638,99}}" />
-            <Window Type="DejaVu/StaticText" Name="Root/FashionPowerTIP/Static0/StaticBG" >
-                <Property Name="BackgroundEnabled" Value="True" />
-                <Property Name="FrameEnabled" Value="True" />
-                <Property Name="HorizontalAlignment" Value="Centre" />
-                <Property Name="MousePassThroughEnabled" Value="True" />
-                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.951219,0},{1,0}}" />
-                <Property Name="VerticalAlignment" Value="Centre" />
-                <Window Type="DejaVu/StaticText" Name="Root/FashionPowerTIP/Static0/StaticBG/Text" >
-                    <Property Name="HorizontalAlignment" Value="Centre" />
-                    <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
-                    <Property Name="MousePassThroughEnabled" Value="True" />
-                    <Property Name="Text" >x頭部：
-x[colour=&apos;FFfd9800&apos;]對敵對玩家的爆擊傷害提高3%[colour=&apos;FFFFFFFF&apos;]
-x[colour=&apos;FFB636FF&apos;]傷害值提高2%[colour=&apos;FFFFFFFF&apos;]
-x[colour=&apos;FFFFFF00&apos;]傷害值提高3%[colour=&apos;FFFFFFFF&apos;]</Property>
-                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.892308,0},{1,0}}" />
-                    <Property Name="VerticalAlignment" Value="Centre" />
-                </Window>
-            </Window>
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.9375,0},{0.9375,0}}" />
+            <Property Name="VerticalAlignment" Value="Centre" />
         </Window>
-        <Window Type="DejaVu/StaticImage" Name="Root/FashionPowerTIP/Line1" >
-            <Property Name="HorizontalAlignment" Value="Centre" />
-            <Property Name="Image" Value="set:DejaVu image:Line" />
-            <Property Name="MousePassThroughEnabled" Value="True" />
-            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.253543,0},{0,191},{0.253543,2}}" />
-        </Window>
-        <Window Type="DejaVu/Static" Name="Root/FashionPowerTIP/Static1" >
+        <Window Type="DejaVu/StaticImage" Name="Root/Mark" >
+            <Property Name="AlwaysOnTop" Value="True" />
             <Property Name="Font" Value="F001-9" />
-            <Property Name="HorizontalAlignment" Value="Centre" />
-            <Property Name="MousePassThroughEnabled" Value="True" />
-            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.264567,0},{0,205},{0.264567,99}}" />
-            <Window Type="DejaVu/StaticText" Name="Root/FashionPowerTIP/Static1/StaticBG" >
-                <Property Name="BackgroundEnabled" Value="True" />
-                <Property Name="FrameEnabled" Value="True" />
-                <Property Name="HorizontalAlignment" Value="Centre" />
-                <Property Name="MousePassThroughEnabled" Value="True" />
-                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.951219,0},{1,0}}" />
-                <Window Type="DejaVu/StaticText" Name="Root/FashionPowerTIP/Static1/StaticBG/Text" >
-                    <Property Name="HorizontalAlignment" Value="Centre" />
-                    <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
-                    <Property Name="MousePassThroughEnabled" Value="True" />
-                    <Property Name="Text" >x臉部：
-x[colour=&apos;FFfd9800&apos;]對敵對玩家的爆擊傷害提高3%[colour=&apos;FFFFFFFF&apos;]
-x[colour=&apos;FFB636FF&apos;]傷害值提高2%[colour=&apos;FFFFFFFF&apos;]
-x[colour=&apos;FFFFFF00&apos;]傷害值提高3%[colour=&apos;FFFFFFFF&apos;]</Property>
-                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.892308,0},{1,0}}" />
-                    <Property Name="VerticalAlignment" Value="Centre" />
-                </Window>
-            </Window>
-        </Window>
-        <Window Type="DejaVu/StaticImage" Name="Root/FashionPowerTIP/Line2" >
-            <Property Name="HorizontalAlignment" Value="Centre" />
-            <Property Name="Image" Value="set:DejaVu image:Line" />
-            <Property Name="MousePassThroughEnabled" Value="True" />
-            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.428346,0},{0,191},{0.428346,2}}" />
-        </Window>
-        <Window Type="DejaVu/Static" Name="Root/FashionPowerTIP/Static2" >
-            <Property Name="Font" Value="F001-9" />
-            <Property Name="HorizontalAlignment" Value="Centre" />
-            <Property Name="MousePassThroughEnabled" Value="True" />
-            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.43937,0},{0,205},{0.43937,99}}" />
-            <Window Type="DejaVu/StaticText" Name="Root/FashionPowerTIP/Static2/StaticBG" >
-                <Property Name="BackgroundEnabled" Value="True" />
-                <Property Name="FrameEnabled" Value="True" />
-                <Property Name="HorizontalAlignment" Value="Centre" />
-                <Property Name="MousePassThroughEnabled" Value="True" />
-                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.931707,0},{1,0}}" />
-                <Window Type="DejaVu/StaticText" Name="Root/FashionPowerTIP/Static2/StaticBG/Text" >
-                    <Property Name="HorizontalAlignment" Value="Centre" />
-                    <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
-                    <Property Name="MousePassThroughEnabled" Value="True" />
-                    <Property Name="Text" >x身體：
-x[colour=&apos;FFfd9800&apos;]對敵對玩家的爆擊傷害提高3%[colour=&apos;FFFFFFFF&apos;]
-x[colour=&apos;FFB636FF&apos;]傷害值提高2%[colour=&apos;FFFFFFFF&apos;]
-x[colour=&apos;FFFFFF00&apos;]傷害值提高3%[colour=&apos;FFFFFFFF&apos;]</Property>
-                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.910995,0},{1,0}}" />
-                    <Property Name="VerticalAlignment" Value="Centre" />
-                </Window>
-            </Window>
-        </Window>
-        <Window Type="DejaVu/StaticImage" Name="Root/FashionPowerTIP/Line3" >
-            <Property Name="HorizontalAlignment" Value="Centre" />
-            <Property Name="Image" Value="set:DejaVu image:Line" />
-            <Property Name="MousePassThroughEnabled" Value="True" />
-            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.60315,0},{0,191},{0.60315,2}}" />
-        </Window>
-        <Window Type="DejaVu/Static" Name="Root/FashionPowerTIP/Static3" >
-            <Property Name="Font" Value="F001-9" />
-            <Property Name="HorizontalAlignment" Value="Centre" />
-            <Property Name="MousePassThroughEnabled" Value="True" />
-            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.614173,0},{0,205},{0.614173,99}}" />
-            <Window Type="DejaVu/StaticText" Name="Root/FashionPowerTIP/Static3/StaticBG" >
-                <Property Name="BackgroundEnabled" Value="True" />
-                <Property Name="FrameEnabled" Value="True" />
-                <Property Name="HorizontalAlignment" Value="Centre" />
-                <Property Name="MousePassThroughEnabled" Value="True" />
-                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.931707,0},{1,0}}" />
-                <Window Type="DejaVu/StaticText" Name="Root/FashionPowerTIP/Static3/StaticBG/Text" >
-                    <Property Name="HorizontalAlignment" Value="Centre" />
-                    <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
-                    <Property Name="MousePassThroughEnabled" Value="True" />
-                    <Property Name="Text" >x背部：
-x[colour=&apos;FFfd9800&apos;]對敵對玩家的爆擊傷害提高3%[colour=&apos;FFFFFFFF&apos;]
-x[colour=&apos;FFB636FF&apos;]傷害值提高2%[colour=&apos;FFFFFFFF&apos;]
-x[colour=&apos;FFFFFF00&apos;]傷害值提高3%[colour=&apos;FFFFFFFF&apos;]</Property>
-                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.910995,0},{1,0}}" />
-                    <Property Name="VerticalAlignment" Value="Centre" />
-                </Window>
-            </Window>
-        </Window>
-        <Window Type="DejaVu/StaticImage" Name="Root/FashionPowerTIP/Line4" >
-            <Property Name="HorizontalAlignment" Value="Centre" />
-            <Property Name="Image" Value="set:DejaVu image:Line" />
-            <Property Name="MousePassThroughEnabled" Value="True" />
-            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.777953,0},{0,191},{0.777953,2}}" />
-        </Window>
-        <Window Type="DejaVu/Static" Name="Root/FashionPowerTIP/Static4" >
-            <Property Name="Font" Value="F001-9" />
-            <Property Name="HorizontalAlignment" Value="Centre" />
-            <Property Name="MousePassThroughEnabled" Value="True" />
-            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.788976,0},{0,205},{0.788976,99}}" />
-            <Window Type="DejaVu/StaticText" Name="Root/FashionPowerTIP/Static4/StaticBG" >
-                <Property Name="BackgroundEnabled" Value="True" />
-                <Property Name="FrameEnabled" Value="True" />
-                <Property Name="HorizontalAlignment" Value="Centre" />
-                <Property Name="MousePassThroughEnabled" Value="True" />
-                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.931707,0},{1,0}}" />
-                <Window Type="DejaVu/StaticText" Name="Root/FashionPowerTIP/Static4/StaticBG/Text" >
-                    <Property Name="HorizontalAlignment" Value="Centre" />
-                    <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
-                    <Property Name="MousePassThroughEnabled" Value="True" />
-                    <Property Name="Text" >x武器：
-x[colour=&apos;FFfd9800&apos;]對敵對玩家的爆擊傷害提高3%[colour=&apos;FFFFFFFF&apos;]
-x[colour=&apos;FFB636FF&apos;]傷害值提高2%[colour=&apos;FFFFFFFF&apos;]
-x[colour=&apos;FFFFFF00&apos;]傷害值提高3%[colour=&apos;FFFFFFFF&apos;]</Property>
-                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.910995,0},{1,0}}" />
-                    <Property Name="VerticalAlignment" Value="Centre" />
-                </Window>
-            </Window>
+            <Property Name="Image" Value="set:main2 image:GiftIcon" />
+            <Property Name="UnifiedAreaRect" Value="{{0.622222,0},{0.043478,0},{1.04444,0},{0.478261,0}}" />
         </Window>
     </Window>
 </GUILayout>

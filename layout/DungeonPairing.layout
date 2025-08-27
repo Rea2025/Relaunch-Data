@@ -112,8 +112,8 @@
                         <Window Type="DejaVu/StaticTextLab" Name="Root/SearchTeamWnd/DungeonPairing/bg/SelectStatic/SelectBG/DungeonPic/Description" >
                             <Property Name="Font" Value="F001-9" />
                             <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
-                            <Property Name="Text" >封印著風龍之王的秘境深處，黑騎士與旗下四天王正處心積慮的想辦法解開龍王們的封印。
-
+                            <Property Name="Text" >封印著風龍之王的秘境深處，黑騎士與旗下四天王正處心積慮的想辦法解開龍王們的封印。
+
 ※建議裝備：至少全套Lv60橘裝+30</Property>
                             <Property Name="TextFrame" Value="True" />
                             <Property Name="TextFrameColour" Value="FF000000" />
@@ -147,6 +147,7 @@
                     <Window Type="DejaVu/Static" Name="Root/SearchTeamWnd/DungeonPairing/bg/SelectStatic/SelectBG/AccountAmount" >
                         <Property Name="Font" Value="F001-9" />
                         <Property Name="UnifiedAreaRect" Value="{{0.509642,0},{0.0458716,0},{0.922865,0},{0.155963,0}}" />
+                        <Property Name="Visible" Value="False" />
                         <Window Type="DejaVu/EmbedText7" Name="Root/SearchTeamWnd/DungeonPairing/bg/SelectStatic/SelectBG/AccountAmount/Title" >
                             <Property Name="Font" Value="F001-10" />
                             <Property Name="HorzFormatting" Value="HorzCentred" />
@@ -185,7 +186,7 @@
                             <Property Name="HorizontalAlignment" Value="Centre" />
                             <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
                             <Property Name="LinespaceWindow" Value="True" />
-                            <Property Name="Text" >一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十
+                            <Property Name="Text" >一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十
 </Property>
                             <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.968992,0},{0.882353,0}}" />
                             <Property Name="VertFormatting" Value="TopAligned" />
@@ -230,6 +231,7 @@
                     </Window>
                     <Window Type="DejaVu/Static" Name="Root/SearchTeamWnd/DungeonPairing/bg/TeamStatic/TeamBG/PrizeStatic" >
                         <Property Name="UnifiedAreaRect" Value="{{0.037037,0},{0.275229,0},{0.966667,0},{0.412844,0}}" />
+                        <Property Name="Visible" Value="False" />
                         <Window Type="DejaVu/EmbedTextLab7" Name="Root/SearchTeamWnd/DungeonPairing/bg/TeamStatic/TeamBG/PrizeStatic/PrizeTitle" >
                             <Property Name="Text" Value="x額外獎勵資訊" />
                             <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.333333,0}}" />
@@ -261,7 +263,7 @@
                         </Window>
                     </Window>
                     <Window Type="DejaVu/Static" Name="Root/SearchTeamWnd/DungeonPairing/bg/TeamStatic/TeamBG/BuffStatic" >
-                        <Property Name="UnifiedAreaRect" Value="{{0.037037,0},{0.422018,0},{0.966667,0},{0.559633,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.037037,0},{0.275229,0},{0.966667,0},{0.412844,0}}" />
                         <Window Type="DejaVu/EmbedTextLab7" Name="Root/SearchTeamWnd/DungeonPairing/bg/TeamStatic/TeamBG/BuffStatic/BuffTitle" >
                             <Property Name="Text" Value="x額外加成效果" />
                             <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.333333,0}}" />
@@ -287,6 +289,7 @@
                     </Window>
                     <Window Type="DejaVu/Static" Name="Root/SearchTeamWnd/DungeonPairing/bg/TeamStatic/TeamBG/KillStatic" >
                         <Property Name="UnifiedAreaRect" Value="{{0.037037,0},{0.568807,0},{0.966667,0},{0.779816,0}}" />
+                        <Property Name="Visible" Value="False" />
                         <Window Type="DejaVu/EmbedTextLab7" Name="Root/SearchTeamWnd/DungeonPairing/bg/TeamStatic/TeamBG/KillStatic/KillTitle" >
                             <Property Name="Text" Value="x副本擊殺目標" />
                             <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.217391,0}}" />
@@ -313,19 +316,19 @@
                     <Window Type="DejaVu/Button" Name="Root/SearchTeamWnd/DungeonPairing/bg/TeamStatic/TeamBG/EnlistBtn" >
                         <Property Name="HorizontalAlignment" Value="Centre" />
                         <Property Name="Text" Value="x加入配對" />
-                        <Property Name="UnifiedAreaRect" Value="{{-0.185185,0},{-0.0275229,0},{0.111111,0},{0.0201835,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{-0.203704,0},{-0.0458716,0},{0.166667,0},{0.00917431,0}}" />
                         <Property Name="VerticalAlignment" Value="Bottom" />
                     </Window>
                     <Window Type="DejaVu/Button" Name="Root/SearchTeamWnd/DungeonPairing/bg/TeamStatic/TeamBG/LeaveBtn" >
                         <Property Name="HorizontalAlignment" Value="Centre" />
                         <Property Name="Text" Value="x取消配對" />
-                        <Property Name="UnifiedAreaRect" Value="{{0.185185,0},{-0.0275229,0},{0.481481,0},{0.0201835,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.203704,0},{-0.0458716,0},{0.574074,0},{0.00917431,0}}" />
                         <Property Name="VerticalAlignment" Value="Bottom" />
                     </Window>
                     <Window Type="DejaVu/Static" Name="Root/SearchTeamWnd/DungeonPairing/bg/TeamStatic/TeamBG/CancelCount" >
                         <Property Name="Font" Value="F001-9" />
                         <Property Name="HorizontalAlignment" Value="Centre" />
-                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.807339,0},{0.444444,0},{0.899083,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.779817,0},{0.444444,0},{0.87156,0}}" />
                         <Window Type="DejaVu/EmbedText7" Name="Root/SearchTeamWnd/DungeonPairing/bg/TeamStatic/TeamBG/CancelCount/Title" >
                             <Property Name="HorizontalAlignment" Value="Centre" />
                             <Property Name="HorzFormatting" Value="HorzCentred" />

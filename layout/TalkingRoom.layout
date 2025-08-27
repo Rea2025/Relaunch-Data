@@ -2,210 +2,285 @@
 
 <GUILayout >
     <Window Type="DefaultWindow" Name="Root/TalkingRoom" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HorizontalAlignment" Value="Centre" />
         <Property Name="MousePassThroughEnabled" Value="True" />
         <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
-        <Window Type="DejaVu/ChannelResizeWindow" Name="Root/TalkingRoom/MainWnd" >
-            <Property Name="CloseButtonEnabled" Value="False" />
-            <Property Name="Font" Value="F001-scale" />
-            <Property Name="HelpButtonEnabled" Value="False" />
-            <Property Name="SizingEnabled" Value="True" />
-            <Property Name="TitlebarEnabled" Value="False" />
-            <Property Name="TitlebarFont" Value="F001-scale" />
-            <Property Name="UnifiedAreaRect" Value="{{0.345703,0},{-0.46224,0},{0.345703,329.999},{-0.46224,160.001}}" />
-            <Property Name="VerticalAlignment" Value="Bottom" />
-            <Window Type="DejaVu/ImageButton" Name="Root/TalkingRoom/MainWnd/DragBtn" >
-                <Property Name="Font" Value="F001-scale" />
-                <Property Name="HorizontalAlignment" Value="Right" />
-                <Property Name="HoverImage" Value="set:main image:DragHover" />
-                <Property Name="MousePassThroughEnabled" Value="True" />
-                <Property Name="NormalImage" Value="set:main image:DragNormal" />
-                <Property Name="PushedImage" Value="set:main image:DragPressed" />
-                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,15},{0,15}}" />
-            </Window>
-            <Window Type="DejaVu/channelScrollablePane" Name="Root/TalkingRoom/MainWnd/Pane" >
-                <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
-                <Property Name="ContentPaneAutoSized" Value="False" />
-                <Property Name="Font" Value="F001-scale" />
-                <Property Name="ForceVertScrollbar" Value="True" />
-                <Property Name="HorzOverlapSize" Value="0.01" />
-                <Property Name="HorzScrollPosition" Value="0" />
-                <Property Name="HorzStepSize" Value="0.1" />
-                <Property Name="UnifiedAreaRect" Value="{{0.0214067,0},{-0.04375,0},{0.975535,0},{0.85625,0}}" />
-                <Property Name="VertOverlapSize" Value="0.01" />
-                <Property Name="VertScrollPosition" Value="0" />
-                <Property Name="VertStepSize" Value="0.1" />
-                <Property Name="VerticalAlignment" Value="Bottom" />
-                <AutoWindow NameSuffix="__auto_container__" >
-                    <Property Name="ChildExtentsArea" Value="l:0 t:0 r:297 b:144" />
-                    <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
-                    <Property Name="ContentPaneAutoSized" Value="False" />
-                    <Property Name="MouseInputPropagationEnabled" Value="True" />
-                    <Window Type="DejaVu/StaticText" Name="Root/TalkingRoom/MainWnd/Pane/Content" >
-                        <Property Name="Font" Value="F001-10" />
-                        <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
-                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
-                        <Property Name="VertFormatting" Value="BottomAligned" />
-                    </Window>
-                </AutoWindow>
-            </Window>
-        </Window>
-        <Window Type="DejaVu/ImageButton" Name="Root/TalkingRoom/RightBtn" >
-            <Property Name="DisabledImage" Value="set:DejaVu image:ArrowRightPressed" />
-            <Property Name="Font" Value="F001-scale" />
-            <Property Name="HoverImage" Value="set:DejaVu image:ChatBoxMenuRightHover" />
-            <Property Name="NormalImage" Value="set:DejaVu image:ChatBoxMenuRightNone" />
-            <Property Name="PushedImage" Value="set:DejaVu image:ChatBoxMenuRightPushed" />
-            <Property Name="UnifiedAreaRect" Value="{{0.643554,0},{-0.670573,0},{0.643554,24.9999},{-0.670573,24.9999}}" />
-            <Property Name="VerticalAlignment" Value="Bottom" />
-        </Window>
-        <Window Type="DejaVu/ImageButton" Name="Root/TalkingRoom/LeftBtn" >
-            <Property Name="DisabledImage" Value="set:DejaVu image:ArrowLeftPressed" />
-            <Property Name="Font" Value="F001-scale" />
-            <Property Name="HoverImage" Value="set:DejaVu image:ChatBoxMenuLeftHover" />
-            <Property Name="NormalImage" Value="set:DejaVu image:ChatBoxMenuLeftNone" />
-            <Property Name="PushedImage" Value="set:DejaVu image:ChatBoxMenuLeftPushed" />
-            <Property Name="UnifiedAreaRect" Value="{{0.345703,0},{-0.670573,0},{0.345703,24.9999},{-0.670573,24.9999}}" />
-            <Property Name="VerticalAlignment" Value="Bottom" />
-        </Window>
-        <Window Type="DejaVu/Static" Name="Root/TalkingRoom/InputWnd" >
-            <Property Name="Font" Value="F001-scale" />
-            <Property Name="UnifiedAreaRect" Value="{{0.345703,0},{-0.384115,0},{0.345703,335},{-0.384115,57}}" />
-            <Property Name="VertFormatting" Value="VertCentred" />
-            <Property Name="VerticalAlignment" Value="Bottom" />
-            <Window Type="DejaVu/StaticImage" Name="Root/TalkingRoom/InputWnd/BG" >
-                <Property Name="Font" Value="F001-scale" />
-                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
-                <Window Type="DejaVu/ImageButton" Name="Root/TalkingRoom/InputWnd/EmotionSwitchBtn" >
-                    <Property Name="DisabledImage" Value="set:main image:ChannelSetPressed" />
-                    <Property Name="Font" Value="F001-scale" />
-                    <Property Name="HoverImage" Value="set:main image:ChannelSetHover" />
-                    <Property Name="NormalImage" Value="set:main image:ChannelSetNormal" />
-                    <Property Name="PushedImage" Value="set:main image:ChannelSetPressed" />
-                    <Property Name="UnifiedAreaRect" Value="{{0.018182,0},{0.133333,0},{0.0689283,0},{0.431579,0}}" />
-                </Window>
-                <Window Type="DejaVu/Button" Name="Root/TalkingRoom/InputWnd/ShowListBtn" >
-                    <Property Name="Font" Value="F001-9" />
-                    <Property Name="Text" Value="x聊天清單" />
-                    <Property Name="UnifiedAreaRect" Value="{{0.0179104,0},{0.54386,0},{0.220896,0},{0.842105,0}}" />
-                </Window>
-                <Window Type="DejaVu/Button" Name="Root/TalkingRoom/InputWnd/HideBtn" >
-                    <Property Name="Font" Value="F001-10" />
-                    <Property Name="Text" Value="x隱藏" />
-                    <Property Name="UnifiedAreaRect" Value="{{0.761194,0},{0.54386,0},{0.964179,0},{0.842106,0}}" />
-                </Window>
-                <Window Type="DejaVu/Editbox" Name="Root/TalkingRoom/InputWnd/EditBox" >
-                    <Property Name="BackgroundEnabled" Value="False" />
-                    <Property Name="Font" Value="F001-10" />
-                    <Property Name="MaxTextLength" Value="2147483647" />
-                    <Property Name="Text" Value="一二三四" />
-                    <Property Name="TextParsingEnabled" Value="False" />
-                    <Property Name="UnifiedAreaRect" Value="{{0.089552,0},{0.140351,0},{0.949253,0},{0.421053,0}}" />
-                </Window>
-                <Window Type="DejaVu/Button" Name="Root/TalkingRoom/InputWnd/InviteBtn" >
-                    <Property Name="Font" Value="F001-9" />
-                    <Property Name="Text" Value="x邀請" />
-                    <Property Name="UnifiedAreaRect" Value="{{0.238806,0},{0.54386,0},{0.441791,0},{0.842106,0}}" />
-                </Window>
-            </Window>
-        </Window>
-        <Window Type="DejaVu/Embed" Name="Root/TalkingRoom/EmotionPane" >
-            <Property Name="AlwaysOnTop" Value="True" />
-            <Property Name="Font" Value="F001-scale" />
-            <Property Name="UnifiedAreaRect" Value="{{0.241405,0},{-0.34974,0},{0.241405,61},{-0.34974,71}}" />
-            <Property Name="VerticalAlignment" Value="Bottom" />
-        </Window>
-        <Window Type="DejaVu/FrameWindow" Name="Root/TalkingRoom/InviteWnd" >
-            <Property Name="Font" Value="F001-scale" />
-            <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="VerticalAlignment" Value="Centre" />
+        <Window Type="DejaVu/FrameWindow" Name="Root/TalkingRoom/Chat" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="Text" Value="花栗鼠他弟 (線上) / 第八分流" />
             <Property Name="TitlebarEnabled" Value="True" />
-            <Property Name="TitlebarFont" Value="F001-scale" />
-            <Property Name="UnifiedAreaRect" Value="{{0.416992,0},{-0.0651042,0},{0.416992,180},{-0.0651042,245}}" />
-            <Property Name="VerticalAlignment" Value="Bottom" />
-            <Window Type="DejaVu/Static" Name="Root/TalkingRoom/InviteWnd/BG" >
-                <Property Name="BackgroundEnabled" Value="True" />
-                <Property Name="Font" Value="F001-scale" />
-                <Property Name="FrameEnabled" Value="True" />
-                <Property Name="UnifiedAreaRect" Value="{{0.0125,0},{0.009901,0},{0.9875,0},{0.99505,0}}" />
-                <Window Type="DejaVu/Embed3" Name="Root/TalkingRoom/InviteWnd/BG/Embed" >
-                    <Property Name="Font" Value="F001-scale" />
-                    <Property Name="UnifiedAreaRect" Value="{{0.032051,0},{0.025126,0},{0.967948,0},{0.864322,0}}" />
-                    <Window Type="DejaVu/Listbox" Name="Root/TalkingRoom/InviteWnd/List" >
+            <Property Name="TitlebarFont" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0799606,0},{0.0385226,0},{0.0799606,511},{0.0385226,337}}" />
+            <Window Type="DejaVu/Static" Name="Root/TalkingRoom/Chat/MainContainer" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.218947,0},{0,0},{1.00211,0},{0.894366,0}}" />
+                <Window Type="DejaVu/Editbox" Name="Root/TalkingRoom/Chat/MainContainer/InputBox" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="MaxTextLength" Value="80" />
+                    <Property Name="NormalTextColour" Value="C8FFFFFF" />
+                    <Property Name="Text" Value="123" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0215054,0},{0.877953,0},{0.879032,0},{0.972441,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/TalkingRoom/Chat/MainContainer/Emotion" >
+                    <Property Name="DisabledImage" Value="set:main image:FaceIconP" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HoverImage" Value="set:main image:FaceIconH" />
+                    <Property Name="NormalImage" Value="set:main image:FaceIconN" />
+                    <Property Name="PushedImage" Value="set:main image:FaceIconP" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.902965,0},{0.877953,0},{0.967655,0},{0.972441,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab2" Name="Root/TalkingRoom/Chat/MainContainer/TextCon" >
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.021978,0},{0.032967,0},{0.978967,0},{0.856721,0}}" />
+                    <Property Name="VertFormatting" Value="BottomAligned" />
+                    <Window Type="DejaVu/ScrollablePane" Name="Root/TalkingRoom/Chat/MainContainer/TextCon/Pane" >
+                        <Property Name="ContentArea" Value="l:0 t:0 r:351 b:199" />
                         <Property Name="Font" Value="F001-9" />
-                        <Property Name="UnifiedAreaRect" Value="{{0.034247,0},{0.02994,0},{0.965754,0},{0.97006,0}}" />
+                        <Property Name="HorzOverlapSize" Value="0.01" />
+                        <Property Name="HorzScrollPosition" Value="0" />
+                        <Property Name="HorzStepSize" Value="0.1" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.014368,0},{0.021583,0},{1,0},{0.975115,0}}" />
+                        <Property Name="VertOverlapSize" Value="0.01" />
+                        <Property Name="VertScrollPosition" Value="0" />
+                        <Property Name="VertStepSize" Value="0.1" />
+                        <AutoWindow NameSuffix="__auto_container__" >
+                            <Property Name="ChildExtentsArea" Value="l:0 t:0 r:351 b:199" />
+                            <Property Name="ContentArea" Value="l:0 t:0 r:351 b:199" />
+                            <Property Name="MouseInputPropagationEnabled" Value="True" />
+                            <Window Type="DejaVu/StaticText" Name="Root/TalkingRoom/Chat/MainContainer/TextCon/Pane/Text" >
+                                <Property Name="BackgroundEnabled" Value="False" />
+                                <Property Name="Font" Value="F001-10" />
+                                <Property Name="FrameEnabled" Value="False" />
+                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                <Property Name="Text" Value="一二三四五六七八九十一二三四五六十121" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.997612,0}}" />
+                                <Property Name="VertFormatting" Value="TopAligned" />
+                            </Window>
+                        </AutoWindow>
                     </Window>
                 </Window>
-                <Window Type="DejaVu/Button" Name="Root/TalkingRoom/InviteWnd/InviteBtn" >
-                    <Property Name="Font" Value="F001-9" />
-                    <Property Name="Text" Value="x邀請" />
-                    <Property Name="UnifiedAreaRect" Value="{{0.282051,0},{0.889447,0},{0.717948,0},{0.974874,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/TalkingRoom/Chat/ReduceBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="x縮小" />
+                <Property Name="UnifiedAreaRect" Value="{{0.846316,0},{0.915493,0},{0.993684,0},{1,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/TalkingRoom/Chat/SendBtn" >
+                <Property Name="Text" Value="x傳送訊息" />
+                <Property Name="UnifiedAreaRect" Value="{{0.682105,0},{0.915493,0},{0.829474,0},{1,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/TalkingRoom/Chat/InviteBtn" >
+                <Property Name="Text" Value="x邀請" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0329171,0},{0.915929,0},{0.180286,0},{1.00044,0}}" />
+            </Window>
+            <Window Type="DejaVu/Border" Name="Root/TalkingRoom/Chat/List" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.214583,0},{0.969799,0}}" />
+                <Window Type="DejaVu/ImageButton" Name="Root/TalkingRoom/Chat/List/LeftBtn" >
+                    <Property Name="HoverImage" Value="set:DejaVuImage image:NumberLeftH" />
+                    <Property Name="NormalImage" Value="set:DejaVuImage image:NumberLeftN" />
+                    <Property Name="PushedImage" Value="set:DejaVuImage image:NumberLeftP" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.245098,0},{0.845629,0},{0.362745,0},{0.911084,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/TalkingRoom/Chat/List/RightBtn" >
+                    <Property Name="HoverImage" Value="set:DejaVuImage image:NumberRightH" />
+                    <Property Name="NormalImage" Value="set:DejaVuImage image:NumberRightN" />
+                    <Property Name="PushedImage" Value="set:DejaVuImage image:NumberRightP" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.627451,0},{0.845629,0},{0.745098,0},{0.911084,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/TalkingRoom/Chat/List/PageText" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="x5/5" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.343137,0},{0.838356,0},{0.637255,0},{0.918356,0}}" />
+                </Window>
+                <Window Type="DejaVu/ListboxNoBG" Name="Root/TalkingRoom/Chat/List/TalkingList" >
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.818182,0}}" />
+                    <Window Type="DejaVu/EmbedTextLab2" Name="Root/TalkingRoom/Chat/List/TalkingList/List01" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="一二三四五六七吧" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.104167,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab2" Name="Root/TalkingRoom/Chat/List/TalkingList/List02" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.103175,0},{1,0},{0.207342,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab2" Name="Root/TalkingRoom/Chat/List/TalkingList/List03" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.206349,0},{1,0},{0.310516,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab2" Name="Root/TalkingRoom/Chat/List/TalkingList/List04" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.313466,0},{1,0},{0.417633,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab2" Name="Root/TalkingRoom/Chat/List/TalkingList/List05" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.41664,0},{1,0},{0.520807,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab2" Name="Root/TalkingRoom/Chat/List/TalkingList/List06" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.520833,0},{1,0},{0.625,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab2" Name="Root/TalkingRoom/Chat/List/TalkingList/List07" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.625,0},{1,0},{0.729167,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab2" Name="Root/TalkingRoom/Chat/List/TalkingList/List08" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.728135,0},{1,0},{0.832302,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab2" Name="Root/TalkingRoom/Chat/List/TalkingList/List09" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.833333,0},{1,0},{0.9375,0}}" />
+                    </Window>
                 </Window>
             </Window>
         </Window>
-        <Window Type="DejaVu/ImageButton" Name="Root/TalkingRoom/PopBtn" >
-            <Property Name="Font" Value="F001-scale" />
-            <Property Name="HoverImage" Value="set:DejaVu image:MiniChatHover" />
-            <Property Name="NormalImage" Value="set:DejaVu image:MiniChatNormal" />
-            <Property Name="PushedImage" Value="set:DejaVu image:MiniChatPressed" />
-            <Property Name="UnifiedAreaRect" Value="{{0.212891,0},{0.811198,0},{0.212891,34},{0.811198,28}}" />
-            <Window Type="DejaVu/StaticImage" Name="Root/TalkingRoom/PopBtn/Frame" >
-                <Property Name="AlwaysOnTop" Value="True" />
-                <Property Name="Font" Value="F001-scale" />
-                <Property Name="Image" Value="set:DejaVu image:MiniChatHover" />
-                <Property Name="MouseCursorImage" Value="set:DejaVu image:MiniChatNormal" />
-                <Property Name="MousePassThroughEnabled" Value="True" />
-                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
-            </Window>
-        </Window>
-        <Window Type="DejaVu/Static" Name="Root/TalkingRoom/TabPane" >
-            <Property Name="Font" Value="F001-scale" />
+        <Window Type="DejaVu/SlotImage" Name="Root/TalkingRoom/ReducePop1" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="False" />
             <Property Name="MousePassThroughEnabled" Value="True" />
-            <Property Name="UnifiedAreaRect" Value="{{0.371094,0},{-0.670573,0},{0.371094,280},{-0.670573,25}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.00493583,0},{-0.00802568,0},{0.00493583,36},{-0.00802568,36}}" />
             <Property Name="VerticalAlignment" Value="Bottom" />
-            <Window Type="DejaVu/ImageRadioButton" Name="Root/TalkingRoom/TabPane/Button1" >
+        </Window>
+        <Window Type="DejaVu/TipTextLab" Name="Root/TalkingRoom/EmotionPad" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.653319,0},{0.317148,0},{0.801395,0},{0.519395,0}}" />
+            <Window Type="DejaVu/StaticImage" Name="Root/TalkingRoom/EmotionPad/Emotion01" >
+                <Property Name="BackgroundEnabled" Value="False" />
                 <Property Name="Font" Value="F001-9" />
-                <Property Name="GroupID" Value="1" />
-                <Property Name="HoverImage" Value="set:DejaVu image:ChannelNormal" />
-                <Property Name="NormalImage" Value="set:DejaVu image:ChannelNormal" />
-                <Property Name="PushedImage" Value="set:DejaVu image:ChannelSelected" />
-                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.25,0},{1,0}}" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0333333,0},{0.0396825,0},{0.0333333,24},{0.0396825,24}}" />
             </Window>
-            <Window Type="DejaVu/ImageRadioButton" Name="Root/TalkingRoom/TabPane/Button2" >
+            <Window Type="DejaVu/StaticImage" Name="Root/TalkingRoom/EmotionPad/Emotion02" >
+                <Property Name="BackgroundEnabled" Value="False" />
                 <Property Name="Font" Value="F001-9" />
-                <Property Name="GroupID" Value="1" />
-                <Property Name="HoverImage" Value="set:DejaVu image:ChannelNormal" />
-                <Property Name="NormalImage" Value="set:DejaVu image:ChannelNormal" />
-                <Property Name="PushedImage" Value="set:DejaVu image:ChannelSelected" />
-                <Property Name="UnifiedAreaRect" Value="{{0.25,0},{0,0},{0.5,0},{1,0}}" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.226667,0},{0.0396825,0},{0.226667,24},{0.0396825,24}}" />
             </Window>
-            <Window Type="DejaVu/ImageRadioButton" Name="Root/TalkingRoom/TabPane/Button3" >
+            <Window Type="DejaVu/StaticImage" Name="Root/TalkingRoom/EmotionPad/Emotion03" >
+                <Property Name="BackgroundEnabled" Value="False" />
                 <Property Name="Font" Value="F001-9" />
-                <Property Name="GroupID" Value="1" />
-                <Property Name="HoverImage" Value="set:DejaVu image:ChannelNormal" />
-                <Property Name="NormalImage" Value="set:DejaVu image:ChannelNormal" />
-                <Property Name="PushedImage" Value="set:DejaVu image:ChannelSelected" />
-                <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0,0},{0.75,0},{1,0}}" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.42,0},{0.0396825,0},{0.42,24},{0.0396825,24}}" />
             </Window>
-            <Window Type="DejaVu/ImageRadioButton" Name="Root/TalkingRoom/TabPane/Button4" >
+            <Window Type="DejaVu/StaticImage" Name="Root/TalkingRoom/EmotionPad/Emotion04" >
+                <Property Name="BackgroundEnabled" Value="False" />
                 <Property Name="Font" Value="F001-9" />
-                <Property Name="GroupID" Value="1" />
-                <Property Name="HoverImage" Value="set:DejaVu image:ChannelNormal" />
-                <Property Name="NormalImage" Value="set:DejaVu image:ChannelNormal" />
-                <Property Name="PushedImage" Value="set:DejaVu image:ChannelSelected" />
-                <Property Name="UnifiedAreaRect" Value="{{0.75,0},{0,0},{1,0},{1,0}}" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.613333,0},{0.0396825,0},{0.613333,24},{0.0396825,24}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/TalkingRoom/EmotionPad/Emotion05" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.806667,0},{0.0396825,0},{0.806667,24},{0.0396825,24}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/TalkingRoom/EmotionPad/Emotion06" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0333333,0},{0.269841,0},{0.0333333,24},{0.269841,24}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/TalkingRoom/EmotionPad/Emotion07" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.226667,0},{0.269841,0},{0.226667,24},{0.269841,24}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/TalkingRoom/EmotionPad/Emotion08" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.42,0},{0.269841,0},{0.42,24},{0.269841,24}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/TalkingRoom/EmotionPad/Emotion09" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.613333,0},{0.269841,0},{0.613333,24},{0.269841,24}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/TalkingRoom/EmotionPad/Emotion10" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.806667,0},{0.269841,0},{0.806667,24},{0.269841,24}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/TalkingRoom/EmotionPad/Emotion11" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0333333,0},{0.5,0},{0.0333333,24},{0.5,24}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/TalkingRoom/EmotionPad/Emotion12" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.226667,0},{0.5,0},{0.226667,24},{0.5,24}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/TalkingRoom/EmotionPad/Emotion13" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.42,0},{0.5,0},{0.42,24},{0.5,24}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/TalkingRoom/EmotionPad/Emotion14" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.613333,0},{0.5,0},{0.613333,24},{0.5,24}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/TalkingRoom/EmotionPad/Emotion15" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.806667,0},{0.5,0},{0.806667,24},{0.5,24}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/TalkingRoom/EmotionPad/Emotion16" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0333333,0},{0.730159,0},{0.0333333,24},{0.730159,24}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/TalkingRoom/EmotionPad/Emotion17" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.226667,0},{0.730159,0},{0.226667,24},{0.730159,24}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/TalkingRoom/EmotionPad/Emotion18" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.42,0},{0.730159,0},{0.42,24},{0.730159,24}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/TalkingRoom/EmotionPad/Emotion19" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.613333,0},{0.730159,0},{0.613333,24},{0.730159,24}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/TalkingRoom/EmotionPad/Emotion20" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.806667,0},{0.730159,0},{0.806667,24},{0.730159,24}}" />
             </Window>
         </Window>
-        <Window Type="DejaVu/ChannelResizeWindow" Name="Root/TalkingRoom/ListWnd" >
-            <Property Name="CloseButtonEnabled" Value="False" />
+        <Window Type="DejaVu/ImageButton" Name="Root/TalkingRoom/ReducePop" >
+            <Property Name="DisabledImage" Value="set:DejaVuImage image:TalkingRingP" />
             <Property Name="Font" Value="F001-scale" />
-            <Property Name="HelpButtonEnabled" Value="False" />
-            <Property Name="TitlebarEnabled" Value="False" />
-            <Property Name="TitlebarFont" Value="F001-scale" />
-            <Property Name="UnifiedAreaRect" Value="{{0.207031,0},{-0.460938,0},{0.207031,125},{-0.460938,160}}" />
-            <Property Name="VerticalAlignment" Value="Bottom" />
-            <Window Type="DejaVu/AlphaListbox" Name="Root/TalkingRoom/ListWnd/List" >
-                <Property Name="Font" Value="F001-9" />
-                <Property Name="UnifiedAreaRect" Value="{{0.0273121,0},{0.03125,0},{0.983607,0},{0.96875,0}}" />
-            </Window>
+            <Property Name="HoverImage" Value="set:DejaVuImage image:TalkingRingH" />
+            <Property Name="NormalImage" Value="set:DejaVuImage image:TalkingRingN" />
+            <Property Name="PushedImage" Value="set:DejaVuImage image:TalkingRingP" />
+            <Property Name="UnifiedAreaRect" Value="{{0.00498504,0},{0.00803859,0},{0.00498504,36},{0.00803859,36}}" />
         </Window>
     </Window>
 </GUILayout>

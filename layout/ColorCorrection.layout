@@ -1,74 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <GUILayout >
-    <Window Type="DefaultWindow" Name="ColorCorrection" >
-        <Property Name="UnifiedAreaRect" Value="{{0.00317797,0},{0.00750268,0},{1.00318,0},{1.0075,0}}" />
-        <Window Type="DejaVu/StaticImage" Name="ColorCorrection/Item" >
-            <Property Name="BackgroundEnabled" Value="False" />
+    <Window Type="DejaVu/FrameWindow" Name="Root/ColorCorrection" >
+        <Property Name="HelpButtonEnabled" Value="True" />
+        <Property Name="Text" Value="顏色校正參數" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.222458,0},{0.154341,0},{0.222458,550},{0.154341,275}}" />
+        <Window Type="DejaVu/ScrollablePane" Name="Root/ColorCorrection/Pane" >
+            <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+            <Property Name="HorzOverlapSize" Value="0.01" />
+            <Property Name="HorzScrollPosition" Value="0" />
+            <Property Name="HorzStepSize" Value="0.1" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0180768,0},{0.132424,0},{0.991587,0},{0.901851,0}}" />
+            <Property Name="VertOverlapSize" Value="0.01" />
+            <Property Name="VertScrollPosition" Value="0" />
+            <Property Name="VertStepSize" Value="0.1" />
+            <AutoWindow NameSuffix="__auto_container__" >
+                <Property Name="ChildExtentsArea" Value="l:0 t:0 r:0 b:0" />
+                <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                <Property Name="MouseInputPropagationEnabled" Value="True" />
+            </AutoWindow>
+        </Window>
+        <Window Type="DejaVu/Static" Name="Root/ColorCorrection/Time" >
             <Property Name="Font" Value="F001-9" />
-            <Property Name="FrameEnabled" Value="False" />
-            <Property Name="UnifiedAreaRect" Value="{{0.106496,0},{0.107991,0},{0.106496,513},{0.107991,34}}" />
-            <Window Type="DejaVu/HorizontalScrollbar" Name="ColorCorrection/Item/ScrollBar" >
-                <Property Name="DocumentSize" Value="1" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0151518,0},{0.00837007,0},{0.98519,0},{0.134133,0}}" />
+            <Window Type="DejaVu/RadioButton" Name="Root/ColorCorrection/Time/Sunrise" >
                 <Property Name="Font" Value="F001-9" />
-                <Property Name="OverlapSize" Value="0" />
-                <Property Name="PageSize" Value="0" />
-                <Property Name="ScrollPosition" Value="0" />
-                <Property Name="StepSize" Value="1" />
-                <Property Name="UnifiedAreaRect" Value="{{0.230019,0},{0.267846,0},{0.783625,0},{0.720043,0}}" />
+                <Property Name="Text" Value="早晨" />
+                <Property Name="UnifiedAreaRect" Value="{{0.021236,0},{0.266667,0},{0.117761,0},{0.766667,0}}" />
             </Window>
-            <Window Type="DejaVu/StaticText" Name="ColorCorrection/Item/Top" >
-                <Property Name="BackgroundEnabled" Value="False" />
-                <Property Name="Font" Value="F001-9" />
-                <Property Name="FrameEnabled" Value="False" />
-                <Property Name="HorzFormatting" Value="HorzCentred" />
-                <Property Name="Text" Value="Top" />
-                <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
-                <Property Name="UnifiedAreaRect" Value="{{0.103359,0},{0,0},{0.886985,0},{0.3,0}}" />
-                <Property Name="VertFormatting" Value="BottomAligned" />
-                <Property Name="Visible" Value="False" />
+            <Window Type="DejaVu/RadioButton" Name="Root/ColorCorrection/Time/Day" >
+                <Property Name="Text" Value="白天" />
+                <Property Name="UnifiedAreaRect" Value="{{0.293436,0},{0.24862,0},{0.389961,0},{0.74862,0}}" />
             </Window>
-            <Window Type="DejaVu/StaticText" Name="ColorCorrection/Item/Buttom" >
-                <Property Name="BackgroundEnabled" Value="False" />
-                <Property Name="Font" Value="F001-9" />
-                <Property Name="FrameEnabled" Value="False" />
-                <Property Name="HorzFormatting" Value="HorzCentred" />
-                <Property Name="Text" Value="Buttom" />
-                <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
-                <Property Name="UnifiedAreaRect" Value="{{0.109162,0},{0.6,0},{0.892788,0},{0.9,0}}" />
-                <Property Name="VertFormatting" Value="TopAligned" />
-                <Property Name="Visible" Value="False" />
+            <Window Type="DejaVu/RadioButton" Name="Root/ColorCorrection/Time/Sunset" >
+                <Property Name="Text" Value="黃昏" />
+                <Property Name="UnifiedAreaRect" Value="{{0.542471,0},{0.257143,0},{0.638996,0},{0.757143,0}}" />
             </Window>
-            <Window Type="DejaVu/StaticText" Name="ColorCorrection/Item/Left" >
-                <Property Name="BackgroundEnabled" Value="False" />
-                <Property Name="FrameEnabled" Value="False" />
-                <Property Name="HorzFormatting" Value="RightAligned" />
-                <Property Name="Text" Value="Left" />
-                <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
-                <Property Name="UnifiedAreaRect" Value="{{0.155945,0},{0.153591,0},{0.22612,0},{0.853591,0}}" />
+            <Window Type="DejaVu/RadioButton" Name="Root/ColorCorrection/Time/Night" >
+                <Property Name="Text" Value="夜晚" />
+                <Property Name="UnifiedAreaRect" Value="{{0.816496,0},{0.267891,0},{0.913021,0},{0.767891,0}}" />
             </Window>
-            <Window Type="DejaVu/StaticText" Name="ColorCorrection/Item/Right" >
-                <Property Name="BackgroundEnabled" Value="False" />
-                <Property Name="FrameEnabled" Value="False" />
-                <Property Name="Text" Value="Right" />
-                <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
-                <Property Name="UnifiedAreaRect" Value="{{0.791423,0},{0.153591,0},{0.881092,0},{0.853591,0}}" />
-            </Window>
-            <Window Type="DejaVu/StaticText" Name="ColorCorrection/Item/Name" >
-                <Property Name="BackgroundEnabled" Value="False" />
-                <Property Name="FrameEnabled" Value="False" />
-                <Property Name="Text" >測試測
-試測試測試</Property>
-                <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
-                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.108896,0},{0.120858,0},{0.896463,0}}" />
-            </Window>
-            <Window Type="DejaVu/Editbox" Name="ColorCorrection/Item/Value" >
-                <Property Name="Font" Value="F001-9" />
-                <Property Name="MaxTextLength" Value="2147483647" />
-                <Property Name="TextParsingEnabled" Value="False" />
-                <Property Name="UnifiedAreaRect" Value="{{0.867446,0},{0.145337,0},{0.99805,0},{0.790032,0}}" />
-                <Property Name="ValidationString" Value="(\d+(\.\d*)?)?" />
-            </Window>
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/ColorCorrection/Default" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="Text" Value="預設值" />
+            <Property Name="UnifiedAreaRect" Value="{{0.467934,0},{0.920905,0},{0.718871,0},{0.994016,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/ColorCorrection/Save" >
+            <Property Name="Text" Value="儲存" />
+            <Property Name="UnifiedAreaRect" Value="{{0.746207,0},{0.916615,0},{0.995271,0},{0.991083,0}}" />
+            <Property Name="Visible" Value="False" />
         </Window>
     </Window>
 </GUILayout>
