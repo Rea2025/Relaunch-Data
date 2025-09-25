@@ -805,35 +805,55 @@
                 <Property Name="UnifiedAreaRect" Value="{{0.603314,0},{0.913979,0},{0.98909,0},{0.989071,0}}" />
                 <Window Type="DejaVu/Button" Name="Buttons/DungeonParingBtn" >
                     <Property Name="Text" Value="x副本配對" />
-                    <Property Name="UnifiedAreaRect" Value="{{0.502793,0},{0,0},{0.748603,0},{0.634146,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.51676,0},{0,0},{0.756983,0},{0.634146,0}}" />
                     <Property Name="VerticalAlignment" Value="Centre" />
                 </Window>
                 <Window Type="DejaVu/Button" Name="Buttons/EnterDungeonBtn" >
                     <Property Name="Text" Value="x進入副本" />
-                    <Property Name="UnifiedAreaRect" Value="{{0.75419,0},{0,0},{1,0},{0.634146,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.759777,0},{0,0},{1,0},{0.634146,0}}" />
                     <Property Name="VerticalAlignment" Value="Centre" />
                 </Window>
                 <Window Type="DejaVu/Button" Name="Buttons/SweepDungeonBtn" >
                     <Property Name="Text" Value="x掃蕩" />
-                    <Property Name="UnifiedAreaRect" Value="{{0.251397,0},{0,0},{0.497207,0},{0.634146,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.273743,0},{0,0},{0.513966,0},{0.634146,0}}" />
                     <Property Name="VerticalAlignment" Value="Centre" />
                 </Window>
                 <Window Type="DejaVu/Static" Name="Buttons/SweepItem" >
                     <Property Name="Font" Value="F001-9" />
-                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.24581,0},{0.682927,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.268156,0},{0.682927,0}}" />
                     <Property Name="VerticalAlignment" Value="Centre" />
                     <Window Type="DejaVu/EmbedText2" Name="Buttons/SweepItem/Text" >
                         <Property Name="Font" Value="F001-9" />
                         <Property Name="HorzFormatting" Value="LeftAligned" />
-                        <Property Name="Text" Value="999999/1" />
+                        <Property Name="Text" Value="9999/1" />
                         <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
-                        <Property Name="UnifiedAreaRect" Value="{{0.318182,0},{0,0},{1,0},{0.821429,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.260417,0},{0,0},{0.739584,0},{0.821429,0}}" />
                         <Property Name="VerticalAlignment" Value="Centre" />
                     </Window>
                     <Window Type="DejaVu/SlotImage" Name="Buttons/SweepItem/Item" >
                         <Property Name="Font" Value="F001-9" />
-                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.272727,0},{0.857143,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.25,0},{0.857143,0}}" />
                         <Property Name="VerticalAlignment" Value="Centre" />
+                    </Window>
+                    <Window Type="DejaVu/ImageButton" Name="Buttons/SweepItem/ChramBtn" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HoverImage" Value="set:main16 image:HouseToolHover" />
+                        <Property Name="NormalImage" Value="set:main16 image:HouseToolNormal" />
+                        <Property Name="PushedImage" Value="set:main16 image:HouseToolPressed" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.739583,0},{0,0},{1,0},{0.892857,0}}" />
+                        <Property Name="VerticalAlignment" Value="Centre" />
+                        <Window Type="DejaVu/Embed3" Name="Buttons/SweepItem/ChramBtn/Hint" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="MousePassThroughEnabled" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                            <Window Type="DejaVu/StaticText" Name="Buttons/SweepItem/ChramBtn/Hint/Text" >
+                                <Property Name="Font" Value="F001-11" />
+                                <Property Name="HorzFormatting" Value="HorzCentred" />
+                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                <Property Name="Text" Value="！" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                            </Window>
+                        </Window>
                     </Window>
                 </Window>
             </Window>

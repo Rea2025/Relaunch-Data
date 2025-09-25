@@ -10,47 +10,47 @@
                 <Window Type="DejaVu/ScrollablePane" Name="Root/CollectionFishKingWnd/BG/BG2/ItemList" >
                     <Property Name="AlwaysOnTop" Value="True" />
                     <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
-                    <Property Name="HorzOverlapSize" Value="0.01" />
-                    <Property Name="HorzScrollPosition" Value="0" />
                     <Property Name="HorzStepSize" Value="0.1" />
+                    <Property Name="VertStepSize" Value="0.1" />
+                    <Property Name="HorzOverlapSize" Value="0.01" />
                     <Property Name="UnifiedAreaRect" Value="{{0.0102041,0},{0.075718,0},{0.989796,0},{0.989556,0}}" />
                     <Property Name="VertOverlapSize" Value="0.01" />
+                    <Property Name="HorzScrollPosition" Value="0" />
                     <Property Name="VertScrollPosition" Value="0" />
-                    <Property Name="VertStepSize" Value="0.1" />
                     <AutoWindow NameSuffix="__auto_container__" >
-                        <Property Name="ChildExtentsArea" Value="l:0 t:0 r:0 b:0" />
                         <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                        <Property Name="ChildExtentsArea" Value="l:0 t:0 r:0 b:0" />
                         <Property Name="MouseInputPropagationEnabled" Value="True" />
                     </AutoWindow>
                 </Window>
                 <Window Type="DejaVu/EmbedTextLab7" Name="Root/CollectionFishKingWnd/BG/BG2/Title" >
+                    <Property Name="Text" Value="x收藏列表" />
                     <Property Name="AlwaysOnTop" Value="True" />
                     <Property Name="HorzFormatting" Value="HorzCentred" />
-                    <Property Name="Text" Value="x收藏列表" />
                     <Property Name="UnifiedAreaRect" Value="{{0.00408163,0},{0.00522193,0},{0.995918,0},{0.073107,0}}" />
                 </Window>
             </Window>
             <Window Type="DejaVu/Embed2" Name="Root/CollectionFishKingWnd/BG/TypeTree" >
                 <Property Name="UnifiedAreaRect" Value="{{0.0144928,0},{0.118584,0},{0.268116,0},{0.663717,0}}" />
                 <Window Type="DejaVu/EmbedTextLab7" Name="Root/CollectionFishKingWnd/BG/TypeTree/Title" >
-                    <Property Name="HorzFormatting" Value="HorzCentred" />
-                    <Property Name="Text" >x選擇分類
+                    <Property Name="Text" >x選擇分類
 </Property>
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
                     <Property Name="UnifiedAreaRect" Value="{{0.0114286,0},{0.00649351,0},{0.988571,0},{0.0909091,0}}" />
                 </Window>
                 <Window Type="DejaVu/ScrollablePane" Name="Root/CollectionFishKingWnd/BG/TypeTree/BG" >
-                    <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
-                    <Property Name="HorzOverlapSize" Value="0.01" />
-                    <Property Name="HorzScrollPosition" Value="0" />
-                    <Property Name="HorzStepSize" Value="0.1" />
                     <Property Name="ID" Value="9999" />
+                    <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                    <Property Name="HorzStepSize" Value="0.1" />
+                    <Property Name="VertStepSize" Value="0.1" />
+                    <Property Name="HorzOverlapSize" Value="0.01" />
                     <Property Name="UnifiedAreaRect" Value="{{0.0285714,0},{0.0876623,0},{0.971429,0},{0.987013,0}}" />
                     <Property Name="VertOverlapSize" Value="0.01" />
+                    <Property Name="HorzScrollPosition" Value="0" />
                     <Property Name="VertScrollPosition" Value="0" />
-                    <Property Name="VertStepSize" Value="0.1" />
                     <AutoWindow NameSuffix="__auto_container__" >
-                        <Property Name="ChildExtentsArea" Value="l:0 t:0 r:0 b:0" />
                         <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                        <Property Name="ChildExtentsArea" Value="l:0 t:0 r:0 b:0" />
                         <Property Name="MouseInputPropagationEnabled" Value="True" />
                     </AutoWindow>
                 </Window>
@@ -58,23 +58,24 @@
             <Window Type="DejaVu/Embed2" Name="Root/CollectionFishKingWnd/BG/Tool" >
                 <Property Name="UnifiedAreaRect" Value="{{0.28442,0},{0.0186757,0},{0.717391,0},{0.108659,0}}" />
                 <Window Type="DejaVu/Checkbox" Name="Root/CollectionFishKingWnd/BG/Tool/Check1" >
-                    <Property Name="Text" >x反向排序
+                    <Property Name="Text" >x反向排序
 </Property>
                     <Property Name="UnifiedAreaRect" Value="{{0.00824742,0},{0,0},{0.35464,0},{0.509434,0}}" />
                 </Window>
                 <Window Type="DejaVu/Checkbox" Name="Root/CollectionFishKingWnd/BG/Tool/Check2" >
-                    <Property Name="Text" >x僅顯示擁有商品
+                    <Property Name="Text" >x僅顯示擁有商品
 </Property>
-                    <Property Name="UnifiedAreaRect" Value="{{0.585774,0},{0,0},{1,0},{0.512195,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.006689,0},{0.490196,0},{0.675585,0},{1,0}}" />
                 </Window>
                 <Window Type="DejaVu/Checkbox" Name="Root/CollectionFishKingWnd/BG/Tool/Check3" >
                     <Property Name="Text" Value="x僅顯示與角色性別相同商品" />
+                    <Property Name="Visible" Value="False" />
                     <Property Name="UnifiedAreaRect" Value="{{0.008247,0},{0.490566,0},{0.568916,0},{0.978371,0}}" />
                 </Window>
                 <Window Type="DejaVu/Checkbox" Name="Root/CollectionFishKingWnd/BG/Tool/Check4" >
-                    <Property Name="Text" >x僅顯示未積分收藏
+                    <Property Name="Text" >x僅顯示未積分收藏
 </Property>
-                    <Property Name="UnifiedAreaRect" Value="{{0.585774,0},{0.487805,0},{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.585284,0},{0,0},{1,0},{0.509804,0}}" />
                 </Window>
             </Window>
             <Window Type="DejaVu/Embed2" Name="Root/CollectionFishKingWnd/BG/Add" >
@@ -113,47 +114,47 @@
             <Window Type="DejaVu/Embed2" Name="Root/CollectionFishKingWnd/BG/Info" >
                 <Property Name="UnifiedAreaRect" Value="{{0.0144928,0},{0.672566,0},{0.268116,0},{0.916814,0}}" />
                 <Window Type="DejaVu/EmbedTextLab7" Name="Root/CollectionFishKingWnd/BG/Info/Title" >
-                    <Property Name="HorzFormatting" Value="HorzCentred" />
-                    <Property Name="Text" >x收藏進度
+                    <Property Name="Text" >x收藏進度
 </Property>
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
                     <Property Name="UnifiedAreaRect" Value="{{0.0114286,0},{0.0217391,0},{0.988571,0},{0.202899,0}}" />
                 </Window>
                 <Window Type="DejaVu/Static" Name="Root/CollectionFishKingWnd/BG/Info/Count" >
                     <Property Name="UnifiedAreaRect" Value="{{0.0228571,0},{0.194444,0},{0.977143,0},{0.375,0}}" />
                     <Window Type="DejaVu/StaticTextLab" Name="Root/CollectionFishKingWnd/BG/Info/Count/Text1" >
-                        <Property Name="Text" >x收藏件數
+                        <Property Name="Text" >x收藏件數
 </Property>
                         <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.458065,0},{1,0}}" />
                     </Window>
                     <Window Type="DejaVu/StaticTextLab" Name="Root/CollectionFishKingWnd/BG/Info/Count/Text2" >
-                        <Property Name="HorzFormatting" Value="RightAligned" />
                         <Property Name="Text" Value="--件" />
+                        <Property Name="HorzFormatting" Value="RightAligned" />
                         <Property Name="UnifiedAreaRect" Value="{{0.645161,0},{0,0},{1,0},{1,0}}" />
                     </Window>
                 </Window>
                 <Window Type="DejaVu/Static" Name="Root/CollectionFishKingWnd/BG/Info/Rate" >
                     <Property Name="UnifiedAreaRect" Value="{{0.0228571,0},{0.375,0},{0.977143,0},{0.555556,0}}" />
                     <Window Type="DejaVu/StaticTextLab" Name="Root/CollectionFishKingWnd/BG/Info/Rate/Text1" >
-                        <Property Name="Text" >x收藏率
+                        <Property Name="Text" >x收藏率
 </Property>
                         <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.451613,0},{1,0}}" />
                     </Window>
                     <Window Type="DejaVu/StaticTextLab" Name="Root/CollectionFishKingWnd/BG/Info/Rate/Text2" >
-                        <Property Name="HorzFormatting" Value="RightAligned" />
                         <Property Name="Text" Value="--%" />
+                        <Property Name="HorzFormatting" Value="RightAligned" />
                         <Property Name="UnifiedAreaRect" Value="{{0.651028,0},{0,0},{1.00587,0},{1,0}}" />
                     </Window>
                 </Window>
                 <Window Type="DejaVu/Static" Name="Root/CollectionFishKingWnd/BG/Info/Rank" >
                     <Property Name="UnifiedAreaRect" Value="{{0.0228571,0},{0.555556,0},{0.977143,0},{0.736111,0}}" />
                     <Window Type="DejaVu/StaticTextLab" Name="Root/CollectionFishKingWnd/BG/Info/Rank/Text1" >
-                        <Property Name="Text" >x收藏階級
+                        <Property Name="Text" >x收藏階級
 </Property>
                         <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.360495,0},{1,0}}" />
                     </Window>
                     <Window Type="DejaVu/StaticTextLab" Name="Root/CollectionFishKingWnd/BG/Info/Rank/Text2" >
-                        <Property Name="HorzFormatting" Value="RightAligned" />
                         <Property Name="Text" Value="x階級名稱" />
+                        <Property Name="HorzFormatting" Value="RightAligned" />
                         <Property Name="UnifiedAreaRect" Value="{{0.383275,0},{0,0},{1,0},{1,0}}" />
                     </Window>
                 </Window>
@@ -164,17 +165,17 @@
                         <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.371885,0},{1,0}}" />
                     </Window>
                     <Window Type="DejaVu/StaticTextLab" Name="Root/CollectionFishKingWnd/BG/Info/Point/Text2" >
-                        <Property Name="HorzFormatting" Value="RightAligned" />
                         <Property Name="Text" Value="---/---" />
+                        <Property Name="HorzFormatting" Value="RightAligned" />
                         <Property Name="UnifiedAreaRect" Value="{{0.37758,0},{0,0},{1,0},{1,0}}" />
                     </Window>
                 </Window>
             </Window>
             <Window Type="DejaVu/StaticText" Name="Root/CollectionFishKingWnd/Text" >
+                <Property Name="Text" >對背包內商品點選右鍵可放入。
+對收藏冊內商品點選右鍵可取出。</Property>
                 <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
                 <Property Name="LinespaceWindow" Value="True" />
-                <Property Name="Text" >對背包內商品點選右鍵可放入。
-對收藏冊內商品點選右鍵可取出。</Property>
                 <Property Name="UnifiedAreaRect" Value="{{0.724638,0},{0.0186757,0},{0.998551,0},{0.0950764,0}}" />
             </Window>
             <Window Type="DejaVu/Button" Name="Root/CollectionFishKingWnd/RankRewardBtn" >
@@ -196,14 +197,14 @@
             <Window Type="DejaVu/Embed2" Name="Root/CollectionFishKingWnd/Search" >
                 <Property Name="UnifiedAreaRect" Value="{{0.014545,0},{0.017699,0},{0.26909,0},{0.108407,0}}" />
                 <Window Type="DejaVu/EmbedTextLab7" Name="Root/CollectionFishKingWnd/Search/Title" >
-                    <Property Name="HorzFormatting" Value="HorzCentred" />
                     <Property Name="Text" Value="x關鍵字" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
                     <Property Name="UnifiedAreaRect" Value="{{0.0141844,0},{0,0},{0.985816,0},{0.512195,0}}" />
                 </Window>
                 <Window Type="DejaVu/Editbox" Name="Root/CollectionFishKingWnd/Search/InputBox" >
                     <Property Name="MaxTextLength" Value="2147483647" />
-                    <Property Name="TextParsingEnabled" Value="False" />
                     <Property Name="UnifiedAreaRect" Value="{{0.0141844,0},{0.512195,0},{0.985816,0},{1,0}}" />
+                    <Property Name="TextParsingEnabled" Value="False" />
                 </Window>
             </Window>
         </Window>
