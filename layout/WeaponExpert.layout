@@ -2,11 +2,11 @@
 
 <GUILayout >
     <Window Type="DejaVu/TabButtonPane" Name="Root/WeaponExpert" >
-        <Property Name="BackgroundEnabled" Value="False" />
         <Property Name="Font" Value="F001-9" />
-        <Property Name="FrameEnabled" Value="False" />
         <Property Name="Text" Value="　職業專精　" />
+        <Property Name="FrameEnabled" Value="False" />
         <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,628},{0,412}}" />
+        <Property Name="BackgroundEnabled" Value="False" />
         <Window Type="DejaVu/Static" Name="Root/WeaponExpert/Static" >
             <Property Name="Font" Value="F001-9" />
             <Property Name="UnifiedAreaRect" Value="{{0.0159236,0},{0.0242718,0},{0.984076,0},{0.434466,0}}" />
@@ -48,14 +48,14 @@
                         <Property Name="UnifiedAreaRect" Value="{{0.0510204,0},{0.709677,0},{0.309524,0},{0.919355,0}}" />
                     </Window>
                     <Window Type="DejaVu/ProgressBarBG" Name="Root/WeaponExpert/Static/BG/SkillList0/Progress" >
-                        <Property Name="BackgroundEnabled" Value="False" />
                         <Property Name="Font" Value="F001-9" />
                         <Property Name="FrameEnabled" Value="False" />
                         <Property Name="UnifiedAreaRect" Value="{{0.343537,0},{0.758065,0},{0.969388,0},{0.879032,0}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
                         <Window Type="DejaVu/ProgressBar2" Name="Root/WeaponExpert/Static/BG/SkillList0/Progress/ProgressBar" >
-                            <Property Name="CurrentProgress" Value="0" />
                             <Property Name="Font" Value="F001-9" />
                             <Property Name="StepSize" Value="0.01" />
+                            <Property Name="CurrentProgress" Value="0" />
                             <Property Name="UnifiedAreaRect" Value="{{0.016667,0},{0.266667,0},{0.983334,0},{0.733334,0}}" />
                         </Window>
                     </Window>
@@ -100,13 +100,13 @@
                         <Property Name="UnifiedAreaRect" Value="{{0.0510204,0},{0.709677,0},{0.309524,0},{0.919355,0}}" />
                     </Window>
                     <Window Type="DejaVu/ProgressBarBG" Name="Root/WeaponExpert/Static/BG/SkillList1/Progress" >
-                        <Property Name="BackgroundEnabled" Value="False" />
                         <Property Name="FrameEnabled" Value="False" />
                         <Property Name="UnifiedAreaRect" Value="{{0.343537,0},{0.758065,0},{0.969388,0},{0.879032,0}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
                         <Window Type="DejaVu/ProgressBar2" Name="Root/WeaponExpert/Static/BG/SkillList1/Progress/ProgressBar" >
-                            <Property Name="CurrentProgress" Value="0" />
                             <Property Name="Font" Value="F001-9" />
                             <Property Name="StepSize" Value="0.01" />
+                            <Property Name="CurrentProgress" Value="0" />
                             <Property Name="UnifiedAreaRect" Value="{{0.016667,0},{0.266667,0},{0.983334,0},{0.733334,0}}" />
                         </Window>
                     </Window>
@@ -122,8 +122,8 @@
                 </Window>
             </Window>
             <Window Type="DejaVu/Embed4" Name="Root/WeaponExpert/Static/Title" >
-                <Property Name="AlwaysOnTop" Value="True" />
                 <Property Name="Font" Value="F001-9" />
+                <Property Name="AlwaysOnTop" Value="True" />
                 <Property Name="UnifiedAreaRect" Value="{{0.016447,0},{0,0},{0.263158,0},{0.147929,0}}" />
                 <Window Type="DejaVu/StaticImage" Name="Root/WeaponExpert/Static/Title/Img" >
                     <Property Name="Font" Value="F001-9" />
@@ -140,20 +140,20 @@
                 <Property Name="Font" Value="F001-9" />
                 <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0544562,0},{1,0},{0.995285,0}}" />
                 <Window Type="DejaVu/StaticImage" Name="Root/WeaponExpert/Static/Lock/Lock" >
-                    <Property Name="AlwaysOnTop" Value="True" />
                     <Property Name="Font" Value="F001-9" />
                     <Property Name="Image" Value="set:main image:Lock" />
+                    <Property Name="AlwaysOnTop" Value="True" />
                     <Property Name="UnifiedAreaRect" Value="{{0.462171,0},{0.341238,0},{0.544408,0},{0.655703,0}}" />
                     <Window Type="DejaVu/StaticImage" Name="Root/WeaponExpert/Static/Lock/Lock/Num1" >
-                        <Property Name="ClippedByParent" Value="False" />
                         <Property Name="Font" Value="F001-9" />
                         <Property Name="Image" Value="set:DejaVu image:six" />
+                        <Property Name="ClippedByParent" Value="False" />
                         <Property Name="UnifiedAreaRect" Value="{{-0.0625,0},{0.666667,0},{0.5375,0},{1.26667,0}}" />
                     </Window>
                     <Window Type="DejaVu/StaticImage" Name="Root/WeaponExpert/Static/Lock/Lock/Num2" >
-                        <Property Name="ClippedByParent" Value="False" />
                         <Property Name="Font" Value="F001-9" />
                         <Property Name="Image" Value="set:DejaVu image:zero" />
+                        <Property Name="ClippedByParent" Value="False" />
                         <Property Name="UnifiedAreaRect" Value="{{0.417116,0},{0.664938,0},{1.01712,0},{1.26494,0}}" />
                     </Window>
                 </Window>
@@ -163,16 +163,16 @@
             <Property Name="UnifiedAreaRect" Value="{{0.0159236,0},{0.446602,0},{0.984076,0},{0.902913,0}}" />
             <Window Type="DejaVu/ScrollablePane" Name="Root/WeaponExpert/Static1/BG1" >
                 <Property Name="ContentArea" Value="l:0 t:0 r:608 b:100" />
-                <Property Name="HorzOverlapSize" Value="0.01" />
-                <Property Name="HorzScrollPosition" Value="0" />
                 <Property Name="HorzStepSize" Value="0.1" />
+                <Property Name="VertStepSize" Value="0.1" />
+                <Property Name="HorzOverlapSize" Value="0.01" />
                 <Property Name="UnifiedAreaRect" Value="{{0.00160387,0},{0.0531915,0},{1.0016,0},{1,0}}" />
                 <Property Name="VertOverlapSize" Value="0.01" />
+                <Property Name="HorzScrollPosition" Value="0" />
                 <Property Name="VertScrollPosition" Value="0" />
-                <Property Name="VertStepSize" Value="0.1" />
                 <AutoWindow NameSuffix="__auto_container__" >
-                    <Property Name="ChildExtentsArea" Value="l:0 t:0 r:608 b:100" />
                     <Property Name="ContentArea" Value="l:0 t:0 r:608 b:100" />
+                    <Property Name="ChildExtentsArea" Value="l:0 t:0 r:608 b:100" />
                     <Property Name="MouseInputPropagationEnabled" Value="True" />
                     <Window Type="DejaVu/StaticTextLab" Name="Root/WeaponExpert/Static1/BG1/Text" >
                         <Property Name="Font" Value="F001-9" />
@@ -188,8 +188,8 @@
                         </Window>
                         <Window Type="DejaVu/EmbedTextLab5" Name="Root/WeaponExpert/Static1/BG1/Unit/Level" >
                             <Property Name="Font" Value="F001-9" />
-                            <Property Name="HorzFormatting" Value="HorzCentred" />
                             <Property Name="Text" Value="99/99" />
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
                             <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.655556,0},{0.871429,0},{0.933334,0}}" />
                         </Window>
                     </Window>
@@ -199,36 +199,36 @@
                 <Property Name="Font" Value="F001-9" />
                 <Property Name="UnifiedAreaRect" Value="{{0.00160387,0},{0.0531915,0},{1.0016,0},{1,0}}" />
                 <Window Type="DejaVu/StaticImage" Name="Root/WeaponExpert/Static1/Lock/Lock" >
-                    <Property Name="AlwaysOnTop" Value="True" />
                     <Property Name="Font" Value="F001-9" />
                     <Property Name="Image" Value="set:main image:Lock" />
+                    <Property Name="AlwaysOnTop" Value="True" />
                     <Property Name="UnifiedAreaRect" Value="{{0.461285,0},{0.344139,0},{0.543657,0},{0.625038,0}}" />
                     <Window Type="DejaVu/StaticImage" Name="Root/WeaponExpert/Static1/Lock/Lock/Num1" >
-                        <Property Name="ClippedByParent" Value="False" />
                         <Property Name="Font" Value="F001-9" />
                         <Property Name="Image" Value="set:DejaVu image:six" />
+                        <Property Name="ClippedByParent" Value="False" />
                         <Property Name="UnifiedAreaRect" Value="{{-0.0625,0},{0.666667,0},{0.5375,0},{1.26667,0}}" />
                     </Window>
                     <Window Type="DejaVu/StaticImage" Name="Root/WeaponExpert/Static1/Lock/Lock/Num2" >
-                        <Property Name="ClippedByParent" Value="False" />
                         <Property Name="Font" Value="F001-9" />
                         <Property Name="Image" Value="set:DejaVu image:zero" />
+                        <Property Name="ClippedByParent" Value="False" />
                         <Property Name="UnifiedAreaRect" Value="{{0.417116,0},{0.664938,0},{1.01712,0},{1.26494,0}}" />
                     </Window>
                 </Window>
             </Window>
             <Window Type="DejaVu/ScrollablePane" Name="Root/WeaponExpert/Static1/BG2" >
                 <Property Name="ContentArea" Value="l:0 t:0 r:180 b:175" />
-                <Property Name="HorzOverlapSize" Value="0.01" />
-                <Property Name="HorzScrollPosition" Value="0" />
                 <Property Name="HorzStepSize" Value="0.1" />
+                <Property Name="VertStepSize" Value="0.1" />
+                <Property Name="HorzOverlapSize" Value="0.01" />
                 <Property Name="UnifiedAreaRect" Value="{{0.00164474,0},{0.0531915,0},{1.00164,0},{1,0}}" />
                 <Property Name="VertOverlapSize" Value="0.01" />
+                <Property Name="HorzScrollPosition" Value="0" />
                 <Property Name="VertScrollPosition" Value="0" />
-                <Property Name="VertStepSize" Value="0.1" />
                 <AutoWindow NameSuffix="__auto_container__" >
-                    <Property Name="ChildExtentsArea" Value="l:0 t:0 r:180 b:175" />
                     <Property Name="ContentArea" Value="l:0 t:0 r:180 b:175" />
+                    <Property Name="ChildExtentsArea" Value="l:0 t:0 r:180 b:175" />
                     <Property Name="MouseInputPropagationEnabled" Value="True" />
                     <Window Type="DejaVu/Static" Name="Root/WeaponExpert/Static1/BG2/Unit" >
                         <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.29654,0},{0.983146,0}}" />
@@ -322,16 +322,16 @@
             </Window>
             <Window Type="DejaVu/ScrollablePane" Name="Root/WeaponExpert/Static1/BG3" >
                 <Property Name="ContentArea" Value="l:0 t:0 r:80 b:100" />
-                <Property Name="HorzOverlapSize" Value="0.01" />
-                <Property Name="HorzScrollPosition" Value="0" />
                 <Property Name="HorzStepSize" Value="0.1" />
+                <Property Name="VertStepSize" Value="0.1" />
+                <Property Name="HorzOverlapSize" Value="0.01" />
                 <Property Name="UnifiedAreaRect" Value="{{0.00164474,0},{0.0531915,0},{1.00164,0},{1,0}}" />
                 <Property Name="VertOverlapSize" Value="0.01" />
+                <Property Name="HorzScrollPosition" Value="0" />
                 <Property Name="VertScrollPosition" Value="0" />
-                <Property Name="VertStepSize" Value="0.1" />
                 <AutoWindow NameSuffix="__auto_container__" >
-                    <Property Name="ChildExtentsArea" Value="l:0 t:0 r:80 b:100" />
                     <Property Name="ContentArea" Value="l:0 t:0 r:80 b:100" />
+                    <Property Name="ChildExtentsArea" Value="l:0 t:0 r:80 b:100" />
                     <Property Name="MouseInputPropagationEnabled" Value="True" />
                     <Window Type="DejaVu/Static" Name="Root/WeaponExpert/Static1/BG3/Unit" >
                         <Property Name="UnifiedAreaRect" Value="{{0.0164745,0},{0.0561798,0},{0.131796,0},{0.561798,0}}" />
@@ -344,18 +344,22 @@
                             </Window>
                         </Window>
                         <Window Type="DejaVu/Static" Name="Root/WeaponExpert/Static1/BG3/Unit/Number" >
-                            <Property Name="UnifiedAreaRect" Value="{{0.128571,0},{0.655556,0},{0.8,0},{0.9,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.071429,0},{0.655556,0},{1,0},{0.9,0}}" />
                             <Window Type="DejaVu/StaticImage" Name="Root/WeaponExpert/Static1/BG3/Unit/Number/Num0" >
                                 <Property Name="Image" Value="set:DejaVu image:zero" />
-                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.425532,0},{0.909091,0}}" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.307692,0},{0.909091,0}}" />
                             </Window>
                             <Window Type="DejaVu/StaticImage" Name="Root/WeaponExpert/Static1/BG3/Unit/Number/Num1" >
                                 <Property Name="Image" Value="set:DejaVu image:zero" />
-                                <Property Name="UnifiedAreaRect" Value="{{0.319149,0},{0,0},{0.744681,0},{0.909091,0}}" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.230769,0},{0,0},{0.538462,0},{0.909091,0}}" />
                             </Window>
                             <Window Type="DejaVu/StaticImage" Name="Root/WeaponExpert/Static1/BG3/Unit/Number/Num2" >
                                 <Property Name="Image" Value="set:DejaVu image:zero" />
-                                <Property Name="UnifiedAreaRect" Value="{{0.638298,0},{0,0},{1.06383,0},{0.909091,0}}" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.461538,0},{0,0},{0.769231,0},{0.909091,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/StaticImage" Name="Root/WeaponExpert/Static1/BG3/Unit/Number/Num3" >
+                                <Property Name="Image" Value="set:DejaVu image:zero" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.692308,0},{0,0},{1,0},{0.909091,0}}" />
                             </Window>
                         </Window>
                     </Window>
@@ -366,8 +370,8 @@
             <Property Name="UnifiedAreaRect" Value="{{0,0},{0.898058,0},{1,0},{0.995145,0}}" />
             <Window Type="DejaVu/EmbedTextLab7" Name="Root/WeaponExpert/Text" >
                 <Property Name="Font" Value="F001-9" />
-                <Property Name="HorzFormatting" Value="HorzCentred" />
                 <Property Name="Text" Value="x剩餘點數" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
                 <Property Name="UnifiedAreaRect" Value="{{0.0159236,0},{0.175,0},{0.159236,0},{0.8,0}}" />
             </Window>
             <Window Type="DejaVu/EmbedTextLab2" Name="Root/WeaponExpert/Num" >
@@ -390,8 +394,8 @@
                 <Property Name="UnifiedAreaRect" Value="{{0.734076,0},{0.175,0},{0.855095,0},{0.825,0}}" />
             </Window>
             <Window Type="DejaVu/Checkbox" Name="Root/WeaponExpert/RejectLook" >
-                <Property Name="AlwaysOnTop" Value="True" />
                 <Property Name="Text" Value="x拒絕觀看專精" />
+                <Property Name="AlwaysOnTop" Value="True" />
                 <Property Name="UnifiedAreaRect" Value="{{0.557325,0},{0.175,0},{0.724522,0},{0.85,0}}" />
             </Window>
         </Window>
@@ -414,9 +418,9 @@
                 <Property Name="UnifiedAreaRect" Value="{{0.748408,0},{0.175,0},{0.987261,0},{0.825,0}}" />
             </Window>
             <Window Type="DejaVu/StaticText" Name="Root/WeaponExpert/Page2Components/HintText" >
+                <Property Name="Text" Value="x空格右鍵點擊置入源神" />
                 <Property Name="AlwaysOnTop" Value="True" />
                 <Property Name="ClippedByParent" Value="False" />
-                <Property Name="Text" Value="x空格右鍵點擊置入源神" />
                 <Property Name="UnifiedAreaRect" Value="{{0.673395,0},{-4.69669,0},{0.966791,0},{-4.16527,0}}" />
             </Window>
         </Window>
@@ -436,18 +440,18 @@
             </Window>
         </Window>
         <Window Type="DejaVu/Button" Name="Root/WeaponExpert/Page1" >
-            <Property Name="AlwaysOnTop" Value="True" />
             <Property Name="Text" Value="x專精分配" />
+            <Property Name="AlwaysOnTop" Value="True" />
             <Property Name="UnifiedAreaRect" Value="{{0.017057,0},{0.437705,0},{0.185847,0},{0.486249,0}}" />
         </Window>
         <Window Type="DejaVu/Button" Name="Root/WeaponExpert/Page2" >
-            <Property Name="AlwaysOnTop" Value="True" />
             <Property Name="Text" Value="x源神注魂" />
+            <Property Name="AlwaysOnTop" Value="True" />
             <Property Name="UnifiedAreaRect" Value="{{0.191083,0},{0.436893,0},{0.359873,0},{0.485437,0}}" />
         </Window>
         <Window Type="DejaVu/Button" Name="Root/WeaponExpert/Page3" >
-            <Property Name="AlwaysOnTop" Value="True" />
             <Property Name="Text" Value="x武器寶玉" />
+            <Property Name="AlwaysOnTop" Value="True" />
             <Property Name="UnifiedAreaRect" Value="{{0.366242,0},{0.436893,0},{0.535032,0},{0.485437,0}}" />
         </Window>
     </Window>
