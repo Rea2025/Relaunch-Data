@@ -11,7 +11,7 @@
                 <Property Name="Font" Value="F001-scale" />
                 <Property Name="UnifiedAreaRect" Value="{{0.0169492,0},{0.016835,0},{0.983051,0},{0.983165,0}}" />
                 <Window Type="DejaVu/Static" Name="Root/Equipment/Attr" >
-                    <Property Name="UnifiedAreaRect" Value="{{0.526316,0},{0,0},{1,0},{0.10453,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.526316,0},{0.0609756,0},{1,0},{0.165505,0}}" />
                     <Window Type="DejaVu/Embed2" Name="Root/Equipment/Attr/Block" >
                         <Property Name="UnifiedAreaRect" Value="{{0,0},{0.166667,0},{1,0},{1,0}}" />
                         <Window Type="DejaVu/StaticTextLab" Name="Root/Equipment/Attr/Label" >
@@ -39,7 +39,7 @@
                     </Window>
                 </Window>
                 <Window Type="DejaVu/Static" Name="Root/Equipment/Atk" >
-                    <Property Name="UnifiedAreaRect" Value="{{0.526316,0},{0.130662,0},{1,0},{0.426829,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.526316,0},{0.174216,0},{1,0},{0.470383,0}}" />
                     <Window Type="DejaVu/Static" Name="Root/Equipment/Atk/BG" >
                         <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.811765,0}}" />
                         <Window Type="DejaVu/Embed2" Name="Root/Equipment/Atk/Block" >
@@ -223,7 +223,7 @@
                     </Window>
                 </Window>
                 <Window Type="DejaVu/Static" Name="Root/Equipment/Def" >
-                    <Property Name="UnifiedAreaRect" Value="{{0.526316,0},{0.461672,0},{1,0},{0.689896,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.526316,0},{0.479094,0},{1,0},{0.707317,0}}" />
                     <Window Type="DejaVu/Static" Name="Root/Equipment/Def/BG" >
                         <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.763359,0}}" />
                         <Window Type="DejaVu/Embed2" Name="Root/Equipment/Def/Block" >
@@ -390,7 +390,7 @@
                     </Window>
                 </Window>
                 <Window Type="DejaVu/Static" Name="Root/Equipment/Extend" >
-                    <Property Name="UnifiedAreaRect" Value="{{0.526316,0},{0.722997,0},{1,0},{0.932056,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.526316,0},{0.714286,0},{1,0},{0.923345,0}}" />
                     <Window Type="DejaVu/Embed2" Name="Root/Equipment/Extend/BG" >
                         <Property Name="UnifiedAreaRect" Value="{{0,0},{0.083333,0},{1,0},{1,0}}" />
                         <Window Type="DejaVu/StaticTextLab" Name="Root/Equipment/Extend/Label1" >
@@ -448,9 +448,9 @@
                     </Window>
                 </Window>
                 <Window Type="DejaVu/Embed2" Name="Root/Equipment/char" >
-                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.517544,0},{0.0522648,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.526316,0},{0,0},{1,0},{0.0522648,0}}" />
                     <Window Type="DejaVu/StaticTextLab" Name="Root/Equipment/Char/LV" >
-                        <Property Name="UnifiedAreaRect" Value="{{0.0294267,0},{0.166667,0},{0.18273,0},{0.833334,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0296296,0},{0.166667,0},{0.196296,0},{0.833333,0}}" />
                         <Window Type="DejaVu/StaticTextLab" Name="Root/Equipment/Char/LVBG" >
                             <Property Name="HorzFormatting" Value="HorzCentred" />
                             <Property Name="UnifiedAreaRect" Value="{{0.111111,0},{0,0},{1,0},{1,0}}" />
@@ -468,17 +468,17 @@
                     </Window>
                     <Window Type="DejaVu/StaticTextLab" Name="Root/Equipment/Char/Name" >
                         <Property Name="Text" Value="一二三四五六七八" />
-                        <Property Name="UnifiedAreaRect" Value="{{0.305085,0},{0.166667,0},{0.966102,0},{0.833334,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.240741,0},{0.166667,0},{0.907407,0},{0.833333,0}}" />
                     </Window>
                     <Window Type="DejaVu/StaticText" Name="Root/Equipment/char/BreakDressPointText" >
                         <Property Name="Font" Value="F001-9" />
                         <Property Name="Text" Value="x爆衣點數:9999" />
-                        <Property Name="UnifiedAreaRect" Value="{{0.670834,0},{0.182834,0},{1.00268,0},{0.823732,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.62963,0},{0.166667,0},{1,0},{0.8,0}}" />
                     </Window>
                     <Window Type="DejaVu/StaticText" Name="Root/Equipment/char/Tier" >
                         <Property Name="Font" Value="F001-9" />
                         <Property Name="Text" Value="Tier:9999" />
-                        <Property Name="UnifiedAreaRect" Value="{{0.677966,0},{0.166667,0},{1.01017,0},{0.8,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.62963,0},{0.166667,0},{1,0},{0.8,0}}" />
                     </Window>
                 </Window>
                 <Window Type="DejaVu/Static" Name="Root/Equipment/Dress" >
@@ -1008,6 +1008,7 @@
                         </Window>
                         <Window Type="DejaVu/Button" Name="Root/Equipment/Equip/SwitchEquipBtn" >
                             <Property Name="Text" Value="x生產裝備" />
+                            <Property Name="Visible" Value="False" />
                             <Property Name="UnifiedAreaRect" Value="{{0.0169492,0},{0.0518868,0},{0.274576,0},{0.113208,0}}" />
                         </Window>
                         <Window Type="DejaVu/SlotImage" Name="Root/Equipment/Equip/Slot13" >
@@ -1038,13 +1039,13 @@
                             </Window>
                         </Window>
                         <Window Type="DejaVu/Button" Name="Root/Equipment/Equip/SwitchEquipBtn2" >
-                            <Property Name="UnifiedAreaRect" Value="{{0.38983,0},{0.058962,0},{0.474576,0},{0.117924,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.118644,0},{0.0589623,0},{0.20339,0},{0.117925,0}}" />
                         </Window>
                         <Window Type="DejaVu/Button" Name="Root/Equipment/Equip/SwitchEquipBtn3" >
-                            <Property Name="UnifiedAreaRect" Value="{{0.491525,0},{0.0589623,0},{0.576271,0},{0.117925,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.220339,0},{0.0589623,0},{0.305085,0},{0.117925,0}}" />
                         </Window>
                         <Window Type="DejaVu/Button" Name="Root/Equipment/Equip/SwitchEquipBtn1" >
-                            <Property Name="UnifiedAreaRect" Value="{{0.288136,0},{0.058962,0},{0.372882,0},{0.117924,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0169492,0},{0.0589623,0},{0.101695,0},{0.117925,0}}" />
                         </Window>
                         <Window Type="DejaVu/SlotImage" Name="Root/Equipment/Equip/Slot15" >
                             <Property Name="Font" Value="F001-9" />
@@ -1122,10 +1123,10 @@
                 <Window Type="DejaVu/Static" Name="Root/Equipment/BG/Static/ColorBG" >
                     <Property Name="Font" Value="F001-9" />
                     <Property Name="Visible" Value="False" />
-                    <Property Name="UnifiedAreaRect" Value="{{0.526316,0},{0,0},{1,0},{0.940767,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.526316,0},{0.0609756,0},{1,0},{0.940767,0}}" />
                     <Window Type="DejaVu/Embed2" Name="Root/Equipment/BG/Static/ColorBG/BackGround" >
                         <Property Name="Font" Value="F001-9" />
-                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0185185,0},{1,0},{0.233333,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.019802,0},{1,0},{0.249505,0}}" />
                         <Window Type="DejaVu/SlotImage" Name="Root/Equipment/BG/Static/ColorBG/BackGround/Helmet" >
                             <Property Name="UnifiedAreaRect" Value="{{0.055556,0},{0.25641,0},{0.211112,0},{0.615384,0}}" />
                             <Window Type="DejaVu/StaticImage" Name="Root/Equipment/BG/Static/ColorBG/BackGround/Helmet/Img" >
@@ -1180,7 +1181,7 @@
                     <Window Type="DejaVu/Embed4" Name="Root/Equipment/BG/Static/ColorBG/Title" >
                         <Property Name="Font" Value="F001-9" />
                         <Property Name="AlwaysOnTop" Value="True" />
-                        <Property Name="UnifiedAreaRect" Value="{{0.037037,0},{0,0},{0.592593,0},{0.0462963,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.037037,0},{0,0},{0.592593,0},{0.049505,0}}" />
                         <Property Name="MousePassThroughEnabled" Value="True" />
                         <Window Type="DejaVu/StaticImage" Name="Root/Equipment/BG/Static/ColorBG/Title/Img" >
                             <Property Name="Font" Value="F001-9" />
@@ -1196,7 +1197,7 @@
                         </Window>
                     </Window>
                     <Window Type="DejaVu/Embed2" Name="Root/Equipment/BG/Static/ColorBG/BackGround2" >
-                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.833333,0},{1,0},{0.977778,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.833663,0},{1,0},{0.988119,0}}" />
                         <Window Type="DejaVu/SlotImage" Name="Root/Equipment/BG/Static/ColorBG/BackGround2/put" >
                             <Property Name="Font" Value="F001-9" />
                             <Property Name="UnifiedAreaRect" Value="{{0.0555556,0},{0.192308,0},{0.211111,0},{0.730769,0}}" />
@@ -1215,7 +1216,7 @@
                     </Window>
                     <Window Type="DejaVu/Embed2" Name="Root/Equipment/BG/Static/ColorBG/Color" >
                         <Property Name="Font" Value="F001-9" />
-                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.25,0},{1,0},{0.775926,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.259406,0},{1,0},{0.821782,0}}" />
                         <Window Type="DejaVu/Embed2" Name="Root/Equipment/BG/Static/ColorBG/Color/bg" >
                             <Property Name="Font" Value="F001-9" />
                             <Property Name="UnifiedAreaRect" Value="{{0.037037,0},{0.034965,0},{0.962963,0},{0.856643,0}}" />
@@ -1263,7 +1264,7 @@
                 </Window>
                 <Window Type="DejaVu/Embed2" Name="Root/Equipment/FishingInfo" >
                     <Property Name="Visible" Value="False" />
-                    <Property Name="UnifiedAreaRect" Value="{{0.526316,0},{0.0226481,0},{1,0},{0.214286,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.526316,0},{0.0783972,0},{1,0},{0.270035,0}}" />
                     <Window Type="DejaVu/Embed4" Name="Root/Equipment/FishingInfo/TitleBG" >
                         <Property Name="AlwaysOnTop" Value="True" />
                         <Property Name="ClippedByParent" Value="False" />
@@ -1339,11 +1340,11 @@
                 </Window>
                 <Window Type="DejaVu/Static" Name="Root/Equipment/ProduceRankBG" >
                     <Property Name="Visible" Value="False" />
-                    <Property Name="UnifiedAreaRect" Value="{{0.526316,0},{0.226481,0},{1,0},{0.940767,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.526316,0},{0.278746,0},{1,0},{0.940767,0}}" />
                     <Window Type="DejaVu/Embed2" Name="Root/Equipment/ProduceRankBG/Embed2" >
-                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.02439,0},{1,0},{1,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0263158,0},{1,0},{1,0}}" />
                         <Window Type="DejaVu/Embed2" Name="Root/Equipment/ProduceRankBG/Embed2/BG" >
-                            <Property Name="UnifiedAreaRect" Value="{{0.037037,0},{0.0625,0},{0.962963,0},{0.9625,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.037037,0},{0.0540541,0},{0.925926,0},{0.972973,0}}" />
                             <Window Type="DejaVu/ScrollablePane" Name="Root/Equipment/ProduceRankBG/Embed2/BG/SrollablePane" >
                                 <Property Name="Font" Value="F001-9" />
                                 <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
@@ -1364,7 +1365,7 @@
                     </Window>
                     <Window Type="DejaVu/Embed4" Name="Root/Equipment/ProduceRankBG/TitleBG" >
                         <Property Name="AlwaysOnTop" Value="True" />
-                        <Property Name="UnifiedAreaRect" Value="{{0.037037,0},{0,0},{0.592593,0},{0.0609756,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.037037,0},{0,0},{0.592593,0},{0.0657895,0}}" />
                         <Window Type="DejaVu/StaticImage" Name="Root/Equipment/ProduceRankBG/TitleBG/Img" >
                             <Property Name="Image" Value="set:DejaVu image:Image13" />
                             <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
@@ -1383,6 +1384,31 @@
                 <Window Type="DejaVu/Button" Name="Root/Equipment/BG/EudemonInformation" >
                     <Property Name="Text" Value="x源神詳細資料" />
                     <Property Name="UnifiedAreaRect" Value="{{0.685965,0},{0.950382,0},{0.84386,0},{0.995678,0}}" />
+                </Window>
+                <Window Type="DejaVu/Static" Name="Root/Equipment/BG/Static/Switches" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.517544,0},{0.0522648,0}}" />
+                    <Window Type="DejaVu/Button" Name="Root/Equipment/BG/Static/Switches/FightEquipBtn" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="x戰鬥裝備" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.237288,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Button" Name="Root/Equipment/BG/Static/Switches/ProduceEquipBtn" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="x生產裝備" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.254237,0},{0,0},{0.491525,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Button" Name="Root/Equipment/BG/Static/Switches/EudemonBtn" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="x源神裝備" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.508475,0},{0,0},{0.745763,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Button" Name="Root/Equipment/BG/Static/Switches/GemBtn" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="x秘石" />
+                        <Property Name="Visible" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.762712,0},{0,0},{1,0},{1,0}}" />
+                    </Window>
                 </Window>
             </Window>
         </Window>

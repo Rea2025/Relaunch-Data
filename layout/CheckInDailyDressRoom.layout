@@ -2,7 +2,6 @@
 
 <GUILayout >
     <Window Type="DejaVu/Static" Name="Root/CheckInDailyDressRoom" >
-        <Property Name="AlwaysOnTop" Value="True" />
         <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.000651042,0},{0.00136612,0}}" />
         <Window Type="DejaVu/Embed" Name="Root/CheckInDailyDressRoom/Background" >
             <Property Name="ClippedByParent" Value="False" />
@@ -34,6 +33,12 @@
             <Window Type="DejaVu/Embed2" Name="Root/CheckInDailyDressRoom/Background/ItemSlot4" >
                 <Property Name="AlwaysOnTop" Value="True" />
                 <Property Name="UnifiedAreaRect" Value="{{0.85,0},{0.927536,0},{0.950251,0},{0.988419,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/CheckInDailyDressRoom/Background/Btn" >
+                <Property Name="Text" Value="x前往鍊金" />
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.799087,0},{0.250627,0},{0.852359,0}}" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
             </Window>
         </Window>
     </Window>
