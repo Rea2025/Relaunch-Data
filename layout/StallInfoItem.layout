@@ -1,122 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <GUILayout >
-    <Window Type="DejaVu/Embed3" Name="StallInfoItem" >
+    <Window Type="DefaultWindow" Name="StallInfoItem" >
         <Property Name="Font" Value="F001-9" />
-        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.249023,0},{0.0690104,0}}" />
         <Property Name="MousePassThroughEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.249507,0},{0.250784,0}}" />
         <Window Type="DejaVu/EmbedTextLab2" Name="StallInfoItem/Text" >
-            <Property Name="ID" Value="1" />
-            <Property Name="Font" Value="F001-9" />
-            <Property Name="Text" Value="一二三四五六七八九十" />
-            <Property Name="FrameEnabled" Value="False" />
-            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
             <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="ID" Value="1" />
             <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="Text" Value="一二三四五六七八九十" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
         </Window>
         <Window Type="DejaVu/StaticImage" Name="StallInfoItem/SelectionBrush" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-9" />
             <Property Name="ID" Value="2" />
-            <Property Name="Font" Value="F001-9" />
-            <Property Name="Image" Value="set:DejaVu image:Zframe2Center" />
-            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Image" Value="set:DejaVu image:ItemSelectionBrushCenter" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
             <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
-            <Property Name="MousePassThroughEnabled" Value="True" />
-        </Window>
-        <Window Type="DejaVu/SlotImage" Name="StallInfoItem/Image" >
-            <Property Name="ID" Value="3" />
-            <Property Name="Font" Value="F001-9" />
-            <Property Name="Visible" Value="False" />
-            <Property Name="AlwaysOnTop" Value="True" />
-            <Property Name="UnifiedAreaRect" Value="{{0.018957,0},{0,0},{0.184834,0},{0.809524,0}}" />
-            <Property Name="VerticalAlignment" Value="Centre" />
-        </Window>
-        <Window Type="DejaVu/Static" Name="StallInfoItem/MoneyBG" >
-            <Property Name="ID" Value="4" />
-            <Property Name="Visible" Value="False" />
-            <Property Name="AlwaysOnTop" Value="True" />
-            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.509804,0},{0.471698,0}}" />
-            <Property Name="VerticalAlignment" Value="Centre" />
-            <Property Name="HorizontalAlignment" Value="Centre" />
-            <Window Type="DejaVu/StaticTextLab" Name="StallInfoItem/MoneyBG/goldText" >
-                <Property Name="Text" Value="99999" />
-                <Property Name="AlwaysOnTop" Value="True" />
-                <Property Name="HorzFormatting" Value="RightAligned" />
-                <Property Name="UnifiedAreaRect" Value="{{0.115385,0},{0.2,0},{0.461539,0},{0.8,0}}" />
-                <Property Name="MousePassThroughEnabled" Value="True" />
-            </Window>
-            <Window Type="DejaVu/StaticTextLab" Name="StallInfoItem/MoneyBG/silverText" >
-                <Property Name="Text" Value="999" />
-                <Property Name="AlwaysOnTop" Value="True" />
-                <Property Name="HorzFormatting" Value="RightAligned" />
-                <Property Name="UnifiedAreaRect" Value="{{0.653846,0},{0.2,0},{0.846154,0},{0.8,0}}" />
-                <Property Name="MousePassThroughEnabled" Value="True" />
-            </Window>
-            <Window Type="DejaVu/StaticImage" Name="StallInfoItem/MoneyBG/gold" >
-                <Property Name="Image" Value="set:main image:Gold" />
-                <Property Name="AlwaysOnTop" Value="True" />
-                <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0.2,0},{0.615385,0},{0.8,0}}" />
-                <Property Name="MousePassThroughEnabled" Value="True" />
-            </Window>
-            <Window Type="DejaVu/StaticImage" Name="StallInfoItem/MoneyBG/silver" >
-                <Property Name="Image" Value="set:main image:Silver" />
-                <Property Name="AlwaysOnTop" Value="True" />
-                <Property Name="UnifiedAreaRect" Value="{{0.884615,0},{0.2,0},{1,0},{0.8,0}}" />
-                <Property Name="MousePassThroughEnabled" Value="True" />
-            </Window>
-        </Window>
-        <Window Type="DejaVu/Button" Name="StallInfoItem/Btn" >
-            <Property Name="ID" Value="5" />
-            <Property Name="Text" Value="取消" />
-            <Property Name="Visible" Value="False" />
-            <Property Name="AlwaysOnTop" Value="True" />
-            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.298578,0},{0.507937,0}}" />
-            <Property Name="VerticalAlignment" Value="Centre" />
-            <Property Name="HorizontalAlignment" Value="Centre" />
-        </Window>
-        <Window Type="DejaVu/Static" Name="StallInfoItem/MoneyBG2" >
-            <Property Name="ID" Value="4" />
-            <Property Name="Visible" Value="False" />
-            <Property Name="AlwaysOnTop" Value="True" />
-            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.509804,0},{0.471698,0}}" />
-            <Property Name="VerticalAlignment" Value="Centre" />
-            <Property Name="HorizontalAlignment" Value="Centre" />
-            <Window Type="DejaVu/StaticTextLab" Name="StallInfoItem/MoneyBG2/goldText" >
-                <Property Name="Text" Value="99999" />
-                <Property Name="AlwaysOnTop" Value="True" />
-                <Property Name="HorzFormatting" Value="RightAligned" />
-                <Property Name="UnifiedAreaRect" Value="{{0.115385,0},{0.2,0},{0.461539,0},{0.8,0}}" />
-                <Property Name="MousePassThroughEnabled" Value="True" />
-            </Window>
-            <Window Type="DejaVu/StaticTextLab" Name="StallInfoItem/MoneyBG2/silverText" >
-                <Property Name="Text" Value="999" />
-                <Property Name="AlwaysOnTop" Value="True" />
-                <Property Name="HorzFormatting" Value="RightAligned" />
-                <Property Name="UnifiedAreaRect" Value="{{0.653846,0},{0.2,0},{0.846154,0},{0.8,0}}" />
-                <Property Name="MousePassThroughEnabled" Value="True" />
-            </Window>
-            <Window Type="DejaVu/StaticImage" Name="StallInfoItem/MoneyBG2/gold" >
-                <Property Name="Image" Value="set:main image:Gold" />
-                <Property Name="AlwaysOnTop" Value="True" />
-                <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0.2,0},{0.615385,0},{0.8,0}}" />
-                <Property Name="MousePassThroughEnabled" Value="True" />
-            </Window>
-            <Window Type="DejaVu/StaticImage" Name="StallInfoItem/MoneyBG2/silver" >
-                <Property Name="Image" Value="set:main image:Silver" />
-                <Property Name="AlwaysOnTop" Value="True" />
-                <Property Name="UnifiedAreaRect" Value="{{0.884615,0},{0.2,0},{1,0},{0.8,0}}" />
-                <Property Name="MousePassThroughEnabled" Value="True" />
-            </Window>
-        </Window>
-        <Window Type="DejaVu/EmbedTextLab2" Name="StallInfoItem/MoneyBG2Text" >
-            <Property Name="Font" Value="F001-9" />
-            <Property Name="Text" Value="x單價" />
-            <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
-            <Property Name="FrameEnabled" Value="False" />
-            <Property Name="HorzFormatting" Value="RightAligned" />
-            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.0711297,0},{0.384615,0}}" />
-            <Property Name="BackgroundEnabled" Value="False" />
-            <Property Name="VerticalAlignment" Value="Centre" />
-            <Property Name="MousePassThroughEnabled" Value="True" />
         </Window>
     </Window>
 </GUILayout>
