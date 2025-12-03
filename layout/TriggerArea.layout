@@ -3,11 +3,11 @@
 <GUILayout >
     <Window Type="DejaVu/FrameWindow" Name="Root/TriggerArea" >
         <Property Name="Font" Value="F001-9" />
-        <Property Name="HelpButtonEnabled" Value="False" />
-        <Property Name="TitlebarEnabled" Value="True" />
         <Property Name="TitlebarFont" Value="F001-9" />
-        <Property Name="TitlebarImage" Value="set:main image:SystemNormal" />
+        <Property Name="TitlebarImage" Value="set:main3 image:DungeonBtnNormal" />
+        <Property Name="TitlebarEnabled" Value="True" />
         <Property Name="UnifiedAreaRect" Value="{{0.162109,0},{0.1575,0},{0.162109,655},{0.1575,545}}" />
+        <Property Name="HelpButtonEnabled" Value="False" />
         <Window Type="DejaVu/Embed" Name="Root/TriggerArea/BG01" >
             <Property Name="Font" Value="F001-9" />
             <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
@@ -21,10 +21,10 @@
                         <Property Name="Font" Value="F001-9" />
                         <Property Name="UnifiedAreaRect" Value="{{0.028249,0},{0.108696,0},{0.971752,0},{0.956522,0}}" />
                         <Window Type="DejaVu/MultiColumnList" Name="Root/TriggerArea/ControlFramewor/InstanceListBox" >
-                            <Property Name="ColumnsMovable" Value="False" />
                             <Property Name="Font" Value="F001-9" />
-                            <Property Name="ForceVertScrollbar" Value="True" />
+                            <Property Name="ColumnsMovable" Value="False" />
                             <Property Name="UnifiedAreaRect" Value="{{0.005988,0},{0.010256,0},{0.994012,0},{0.989743,0}}" />
+                            <Property Name="ForceVertScrollbar" Value="True" />
                             <Property Name="ColumnHeader" Value="text:x副本名稱 width:{0.7,0} id:0" />
                             <Property Name="ColumnHeader" Value="text:x副本次數 width:{0.3,0} id:1" />
                         </Window>
@@ -34,16 +34,16 @@
                         <Property Name="UnifiedAreaRect" Value="{{0.028249,0},{0.108696,0},{0.971752,0},{0.956522,0}}" />
                         <Window Type="DejaVu/ScrollablePane" Name="Root/TriggerArea/ControlFramewor/GroupPane" >
                             <Property Name="ContentArea" Value="l:0 t:0 r:318 b:25" />
-                            <Property Name="HorzOverlapSize" Value="0.01" />
-                            <Property Name="HorzScrollPosition" Value="0" />
                             <Property Name="HorzStepSize" Value="0.1" />
+                            <Property Name="VertStepSize" Value="0.1" />
+                            <Property Name="HorzOverlapSize" Value="0.01" />
                             <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
                             <Property Name="VertOverlapSize" Value="0.01" />
+                            <Property Name="HorzScrollPosition" Value="0" />
                             <Property Name="VertScrollPosition" Value="0" />
-                            <Property Name="VertStepSize" Value="0.1" />
                             <AutoWindow NameSuffix="__auto_container__" >
-                                <Property Name="ChildExtentsArea" Value="l:0 t:0 r:318 b:25" />
                                 <Property Name="ContentArea" Value="l:0 t:0 r:318 b:25" />
+                                <Property Name="ChildExtentsArea" Value="l:0 t:0 r:318 b:25" />
                                 <Property Name="MouseInputPropagationEnabled" Value="True" />
                                 <Window Type="DejaVu/Static" Name="Root/TriggerArea/ControlFramewor/GroupPane/HeaderBG" >
                                     <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.952096,0},{0.128205,0}}" />
@@ -64,8 +64,8 @@
                     </Window>
                 </Window>
                 <Window Type="DejaVu/Embed4" Name="Root/TriggerArea/ControlFramewor/choiceTip" >
-                    <Property Name="AlwaysOnTop" Value="True" />
                     <Property Name="Font" Value="F001-9" />
+                    <Property Name="AlwaysOnTop" Value="True" />
                     <Property Name="UnifiedAreaRect" Value="{{0.028249,0},{0,0},{0.451978,0},{0.104167,0}}" />
                     <Window Type="DejaVu/StaticTextLab" Name="Root/TriggerArea/ControlFramewor/choiceTip/Text" >
                         <Property Name="Font" Value="F001-9" />
@@ -80,10 +80,10 @@
                 </Window>
             </Window>
             <Window Type="DejaVu/Button" Name="Root/TriggerArea/ControlFramewor/Decide" >
-                <Property Name="HorizontalAlignment" Value="Right" />
                 <Property Name="Text" Value="x確定" />
                 <Property Name="UnifiedAreaRect" Value="{{-0.015649,0},{-0.021505,0},{0.103287,0},{0.034409,0}}" />
                 <Property Name="VerticalAlignment" Value="Bottom" />
+                <Property Name="HorizontalAlignment" Value="Right" />
             </Window>
             <Window Type="DejaVu/Static" Name="Root/TriggerArea/BackGround/PicBG" >
                 <Property Name="UnifiedAreaRect" Value="{{0.0156495,0},{0.0215054,0},{0.422535,0},{0.978495,0}}" />
@@ -102,11 +102,11 @@
                             <Property Name="UnifiedAreaRect" Value="{{0.041667,0},{0.030303,0},{0.958334,0},{0.106061,0}}" />
                         </Window>
                         <Window Type="DejaVu/StaticText" Name="Root/TriggerArea/BackGround/PicBG/BG/Pic2/Content" >
-                            <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
-                            <Property Name="LinespaceWindow" Value="True" />
                             <Property Name="Text" Value="x阿古斯教團傳說中的魔神沉眠之地，現已成為巨型魔物的藏身處。" />
-                            <Property Name="UnifiedAreaRect" Value="{{0.041667,0},{0.136364,0},{0.958334,0},{0.5,0}}" />
+                            <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
                             <Property Name="VertFormatting" Value="TopAligned" />
+                            <Property Name="LinespaceWindow" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.041667,0},{0.136364,0},{0.958334,0},{0.803031,0}}" />
                         </Window>
                         <Window Type="DejaVu/StaticImage" Name="Root/TriggerArea/BackGround/PicBG/BG/Pic2/Slot1" >
                             <Property Name="UnifiedAreaRect" Value="{{0.0416667,0},{-0.030303,0},{0.25,0},{0.121212,0}}" />
@@ -138,8 +138,8 @@
                     <Window Type="DejaVu/Static" Name="Root/TriggerArea/BackGround/MonsterList/BG/ListBG" >
                         <Property Name="UnifiedAreaRect" Value="{{0.00564972,0},{0.157233,0},{0.99435,0},{0.974843,0}}" />
                         <Window Type="DejaVu/MultiColumnListNoHeader" Name="Root/TriggerArea/BackGround/MonsterList/BG/List" >
-                            <Property Name="ColumnsMovable" Value="False" />
                             <Property Name="Font" Value="F001-9" />
+                            <Property Name="ColumnsMovable" Value="False" />
                             <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
                         </Window>
                     </Window>
