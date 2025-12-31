@@ -12,13 +12,13 @@
             <Property Name="Font" Value="F001-9" />
             <Property Name="TabHeight" Value="{0,20}" />
             <Property Name="TabPanePosition" Value="Top" />
-            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.021875,0},{1,0},{0.982813,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
             <Window Type="DefaultWindow" Name="ExchangeItemWnd/frame/static/Tab/Tab 1" >
                 <Property Name="Font" Value="F001-10" />
                 <Property Name="Text" Value="#9027" />
-                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,944},{0,590}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,944},{0,615}}" />
                 <Window Type="DejaVu/Static" Name="Page" >
-                    <Property Name="UnifiedAreaRect" Value="{{0,0},{-0.0118644,0},{0.172078,0},{0.0220339,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{-0.03252,0},{0.17161,0},{3.241e-07,0}}" />
                     <Property Name="VerticalAlignment" Value="Bottom" />
                     <Property Name="HorizontalAlignment" Value="Centre" />
                     <Window Type="DejaVu/Embed" Name="PageBG" >
@@ -78,10 +78,10 @@
                     <Property Name="Text" Value="#9033" />
                     <Property Name="TextFrame" Value="True" />
                     <Property Name="TextFrameColour" Value="66000000" />
-                    <Property Name="UnifiedAreaRect" Value="{{0.730606,0},{0.942929,0},{0.991476,0},{0.989951,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.730932,0},{0.930081,0},{0.991525,0},{0.970732,0}}" />
                 </Window>
                 <Window Type="DejaVu/Embed" Name="ExchangeItemList" >
-                    <Property Name="UnifiedAreaRect" Value="{{0.00649351,0},{0.00848896,0},{0.993506,0},{0.947368,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.00635593,0},{0.00813008,0},{0.993644,0},{0.908943,0}}" />
                     <Window Type="DejaVu/Embed2" Name="ExchangeItemBG01" >
                         <Property Name="AlwaysOnTop" Value="True" />
                         <Property Name="UnifiedAreaRect" Value="{{0.00657895,0},{0.0631769,0},{0.993421,0},{0.15343,0}}" />
@@ -1667,6 +1667,39 @@
                                 <Property Name="Image" Value="set:main image:Silver" />
                                 <Property Name="UnifiedAreaRect" Value="{{0.7,0},{0.489796,0},{1,0},{0.795918,0}}" />
                             </Window>
+                        </Window>
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Static" Name="Money" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0105932,0},{0.925203,0},{0.275424,0},{0.973984,0}}" />
+                    <Window Type="DejaVu/EmbedTextLab7" Name="Money/Title" >
+                        <Property Name="Text" Value="x持有金錢" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.4,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Embed2" Name="Money/Money" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.4,0},{0,0},{1,0},{1,0}}" />
+                        <Window Type="DejaVu/StaticTextLab" Name="Money/Money/GoldText" >
+                            <Property Name="Text" Value="9999999" />
+                            <Property Name="HorzFormatting" Value="RightAligned" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.033333,0},{0,0},{0.5,0},{1,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticTextLab" Name="Money/Money/SilverText" >
+                            <Property Name="Text" Value="999" />
+                            <Property Name="HorzFormatting" Value="RightAligned" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.633333,0},{0,0},{0.833333,0},{1,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticImage" Name="Money/Money/GoldIcon" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="Image" Value="set:main image:Gold" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.533333,0},{0.233333,0},{0.633333,0},{0.733333,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticImage" Name="Money/Money/SilverIcon" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="Image" Value="set:main image:Silver" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.866667,0},{0.233333,0},{0.966667,0},{0.733333,0}}" />
                         </Window>
                     </Window>
                 </Window>
