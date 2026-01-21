@@ -437,5 +437,35 @@
                 </Window>
             </Window>
         </Window>
+		<Window Type="DejaVu/Static" Name="Root/RadarUI/WaittoFree" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="HorizontalAlignment" Value="Right" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{-0.460317,0},{0,0},{-0.380952,0},{0.196429,0}}" />
+            <Window Type="DejaVu/StaticText" Name="Root/RadarUI/WaittoFree/Txt" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="1234" />
+                <Property Name="TextFrame" Value="True" />
+                <Property Name="TextFrameColour" Value="FF000000" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.272727,0}}" />
+                <Property Name="VerticalAlignment" Value="Bottom" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/RadarUI/WaittoFree/Btn" >
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="HoverImage" Value="set:main38 image:BtnLimitimeH" />
+                <Property Name="NormalImage" Value="set:main38 image:BtnLimitimeN" />
+                <Property Name="PushedImage" Value="set:main38 image:BtnLimitimeP" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.909091,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="Root/RadarUI/WaittoFree/Btn/Hint" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="HorizontalAlignment" Value="Right" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.4,0},{0.4,0}}" />
+                </Window>
+            </Window>
+        </Window>
     </Window>
 </GUILayout>
