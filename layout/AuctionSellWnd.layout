@@ -12,18 +12,18 @@
                 <Window Type="DejaVu/Embed2" Name="AuctionSellWnd/ItemFrame/Frame1" >
                     <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
                     <Window Type="DejaVu/EmbedTextLab7" Name="AuctionSellWnd/ItemFrame/PriceTitle" >
+                        <Property Name="Text" Value="x單一價格" />
                         <Property Name="HorzFormatting" Value="HorzCentred" />
-                        <Property Name="Text" Value="x拍賣價格" />
-                        <Property Name="UnifiedAreaRect" Value="{{0.407895,0},{0.142857,0},{0.513158,0},{0.5,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.384211,0},{0.142857,0},{0.489473,0},{0.5,0}}" />
                     </Window>
                     <Window Type="DejaVu/EmbedTextLab7" Name="AuctionSellWnd/ItemFrame/TaxTitle" >
-                        <Property Name="HorzFormatting" Value="HorzCentred" />
                         <Property Name="Text" Value="x保管費用" />
-                        <Property Name="UnifiedAreaRect" Value="{{0.407895,0},{0.5,0},{0.513158,0},{0.857143,0}}" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.685527,0},{0.142857,0},{0.79079,0},{0.5,0}}" />
                     </Window>
                     <Window Type="DejaVu/Button" Name="AuctionSellWnd/ItemFrame/AuctionBtn" >
                         <Property Name="Text" Value="x加入拍賣" />
-                        <Property Name="UnifiedAreaRect" Value="{{0.828947,0},{0.314286,0},{0.928947,0},{0.685715,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.881578,0},{0.528571,0},{0.981578,0},{0.900001,0}}" />
                     </Window>
                     <Window Type="DejaVu/Embed3" Name="AuctionSellWnd/ItemFrame/SlotBG" >
                         <Property Name="UnifiedAreaRect" Value="{{0.0131579,0},{0.128571,0},{0.368421,0},{0.871429,0}}" />
@@ -36,15 +36,15 @@
                         </Window>
                     </Window>
                     <Window Type="DejaVu/Embed2" Name="AuctionSellWnd/ItemFrame/Tax" >
-                        <Property Name="UnifiedAreaRect" Value="{{0.513158,0},{0.5,0},{0.710526,0},{0.857143,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.794737,0},{0.142857,0},{0.981579,0},{0.5,0}}" />
                         <Window Type="DejaVu/StaticText" Name="AuctionSellWnd/ItemFrame/TaxGold" >
-                            <Property Name="HorzFormatting" Value="RightAligned" />
                             <Property Name="Text" Value="99999" />
+                            <Property Name="HorzFormatting" Value="RightAligned" />
                             <Property Name="UnifiedAreaRect" Value="{{0.153125,0},{0.2,0},{0.466667,0},{0.8,0}}" />
                         </Window>
                         <Window Type="DejaVu/StaticText" Name="AuctionSellWnd/ItemFrame/TaxSilver" >
-                            <Property Name="HorzFormatting" Value="RightAligned" />
                             <Property Name="Text" Value="999" />
+                            <Property Name="HorzFormatting" Value="RightAligned" />
                             <Property Name="UnifiedAreaRect" Value="{{0.633333,0},{0.2,0},{0.833333,0},{0.8,0}}" />
                         </Window>
                         <Window Type="DejaVu/StaticImage" Name="AuctionSellWnd/ItemFrame/TaxGoldImg" >
@@ -57,7 +57,7 @@
                         </Window>
                     </Window>
                     <Window Type="DejaVu/Static" Name="AuctionSellWnd/ItemFrame/PriceBG" >
-                        <Property Name="UnifiedAreaRect" Value="{{0.513158,0},{0.142857,0},{0.710526,0},{0.5,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.486842,0},{0.142857,0},{0.673684,0},{0.5,0}}" />
                         <Window Type="DejaVu/StaticImage" Name="AuctionSellWnd/ItemFrame/PriceSilverImg" >
                             <Property Name="Image" Value="set:main image:Silver" />
                             <Property Name="UnifiedAreaRect" Value="{{0.866667,0},{0.2,0},{0.966667,0},{0.8,0}}" />
@@ -67,17 +67,49 @@
                             <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0.2,0},{0.6,0},{0.8,0}}" />
                         </Window>
                         <Window Type="DejaVu/Editbox" Name="AuctionSellWnd/ItemFrame/PriceSilver" >
-                            <Property Name="MaxTextLength" Value="2147483647" />
                             <Property Name="Text" Value="999" />
-                            <Property Name="TextParsingEnabled" Value="False" />
+                            <Property Name="MaxTextLength" Value="2147483647" />
                             <Property Name="UnifiedAreaRect" Value="{{0.6,0},{0,0},{0.866667,0},{1,0}}" />
+                            <Property Name="TextParsingEnabled" Value="False" />
                         </Window>
                         <Window Type="DejaVu/Editbox" Name="AuctionSellWnd/ItemFrame/PriceGold" >
-                            <Property Name="MaxTextLength" Value="2147483647" />
                             <Property Name="Text" Value="9999999" />
-                            <Property Name="TextParsingEnabled" Value="False" />
+                            <Property Name="MaxTextLength" Value="2147483647" />
                             <Property Name="UnifiedAreaRect" Value="{{-0.0135417,0},{0,0},{0.491875,0},{1,0}}" />
+                            <Property Name="TextParsingEnabled" Value="False" />
                         </Window>
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab7" Name="AuctionSellWnd/ItemFrame/PriceTitle1" >
+                        <Property Name="Text" Value="x總價格" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.38421,0},{0.492857,0},{0.489473,0},{0.85,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Static" Name="AuctionSellWnd/ItemFrame/PriceBG1" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.486842,0},{0.5,0},{0.673684,0},{0.857143,0}}" />
+                        <Window Type="DejaVu/StaticImage" Name="AuctionSellWnd/ItemFrame/PriceSilverImg1" >
+                            <Property Name="Image" Value="set:main image:Silver" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.866667,0},{0.2,0},{0.966667,0},{0.8,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticImage" Name="AuctionSellWnd/ItemFrame/PriceGoldImg1" >
+                            <Property Name="Image" Value="set:main image:Gold" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0.2,0},{0.6,0},{0.8,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Editbox" Name="AuctionSellWnd/ItemFrame/PriceSilver1" >
+                            <Property Name="Text" Value="999" />
+                            <Property Name="MaxTextLength" Value="2147483647" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.6,0},{0,0},{0.866667,0},{1,0}}" />
+                            <Property Name="TextParsingEnabled" Value="False" />
+                        </Window>
+                        <Window Type="DejaVu/Editbox" Name="AuctionSellWnd/ItemFrame/PriceGold1" >
+                            <Property Name="Text" Value="9999999" />
+                            <Property Name="MaxTextLength" Value="2147483647" />
+                            <Property Name="UnifiedAreaRect" Value="{{-0.0135417,0},{0,0},{0.491875,0},{1,0}}" />
+                            <Property Name="TextParsingEnabled" Value="False" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Checkbox" Name="AuctionSellWnd/ItemFrame/Frame1/BulkSell" >
+                        <Property Name="Text" Value="x部分購買" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.690789,0},{0.542858,0},{0.861842,0},{0.9,0}}" />
                     </Window>
                 </Window>
             </Window>
@@ -86,55 +118,55 @@
                 <Window Type="DejaVu/Embed2" Name="AuctionSellWnd/ListFrame/ListBG" >
                     <Property Name="UnifiedAreaRect" Value="{{0.013158,0},{0.020202,0},{0.986842,0},{0.919192,0}}" />
                     <Window Type="DejaVu/MultiColumnList" Name="AuctionSellWnd/ListFrame/MCL" >
-                        <Property Name="ColumnsMovable" Value="False" />
                         <Property Name="Font" Value="F001-9" />
+                        <Property Name="ColumnsMovable" Value="False" />
                         <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
                     </Window>
                 </Window>
                 <Window Type="DejaVu/ImageButton" Name="AuctionSellWnd/FirstPageBtn" >
-                    <Property Name="DisabledImage" Value="set:DejaVu image:DoubledLeftArrowPressed" />
                     <Property Name="HoverImage" Value="set:DejaVu image:DoubledLeftArrowHover" />
                     <Property Name="NormalImage" Value="set:DejaVu image:DoubledLeftArrowNormal" />
                     <Property Name="PushedImage" Value="set:DejaVu image:DoubledLeftArrowPressed" />
+                    <Property Name="DisabledImage" Value="set:DejaVu image:DoubledLeftArrowPressed" />
                     <Property Name="UnifiedAreaRect" Value="{{0.394737,0},{0.929293,0},{0.421053,0},{0.979798,0}}" />
                 </Window>
                 <Window Type="DejaVu/ImageButton" Name="AuctionSellWnd/PrevPageBtn" >
-                    <Property Name="DisabledImage" Value="set:DejaVu image:ArrowLeftPressed" />
                     <Property Name="HoverImage" Value="set:DejaVu image:ArrowLeftHover" />
                     <Property Name="NormalImage" Value="set:DejaVu image:ArrowLeftNormal" />
                     <Property Name="PushedImage" Value="set:DejaVu image:ArrowLeftPressed" />
+                    <Property Name="DisabledImage" Value="set:DejaVu image:ArrowLeftPressed" />
                     <Property Name="UnifiedAreaRect" Value="{{0.421053,0},{0.929293,0},{0.447369,0},{0.979798,0}}" />
                 </Window>
                 <Window Type="DejaVu/EmbedTextLab5" Name="AuctionSellWnd/PageNumber" >
-                    <Property Name="HorzFormatting" Value="HorzCentred" />
                     <Property Name="Text" Value="1/99" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
                     <Property Name="UnifiedAreaRect" Value="{{0.453947,0},{0.929293,0},{0.546052,0},{0.979798,0}}" />
                 </Window>
                 <Window Type="DejaVu/ImageButton" Name="AuctionSellWnd/NextPageBtn" >
-                    <Property Name="DisabledImage" Value="set:DejaVu image:ArrowRightPressed" />
                     <Property Name="HoverImage" Value="set:DejaVu image:ArrowRightHover" />
                     <Property Name="NormalImage" Value="set:DejaVu image:ArrowRightNormal" />
                     <Property Name="PushedImage" Value="set:DejaVu image:ArrowRightPressed" />
+                    <Property Name="DisabledImage" Value="set:DejaVu image:ArrowRightPressed" />
                     <Property Name="UnifiedAreaRect" Value="{{0.552632,0},{0.929293,0},{0.578948,0},{0.979798,0}}" />
                 </Window>
                 <Window Type="DejaVu/ImageButton" Name="AuctionSellWnd/LastPageBtn" >
-                    <Property Name="DisabledImage" Value="set:DejaVu image:DoubledRightArrowPressed" />
                     <Property Name="HoverImage" Value="set:DejaVu image:DoubledRightArrowHover" />
                     <Property Name="NormalImage" Value="set:DejaVu image:DoubledRightArrowNormal" />
                     <Property Name="PushedImage" Value="set:DejaVu image:DoubledRightArrowPressed" />
+                    <Property Name="DisabledImage" Value="set:DejaVu image:DoubledRightArrowPressed" />
                     <Property Name="UnifiedAreaRect" Value="{{0.578947,0},{0.929293,0},{0.605263,0},{0.979798,0}}" />
                 </Window>
             </Window>
             <Window Type="DejaVu/Embed2" Name="AuctionSellWnd/PlayerMoneyBG" >
                 <Property Name="UnifiedAreaRect" Value="{{0.115385,0},{0.942029,0},{0.307693,0},{0.982287,0}}" />
                 <Window Type="DejaVu/StaticText" Name="AuctionSellWnd/PlayerMoneyGold" >
-                    <Property Name="HorzFormatting" Value="RightAligned" />
                     <Property Name="Text" Value="99999" />
+                    <Property Name="HorzFormatting" Value="RightAligned" />
                     <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.4,0},{0.8,0}}" />
                 </Window>
                 <Window Type="DejaVu/StaticText" Name="AuctionSellWnd/PlayerMoneySilver" >
-                    <Property Name="HorzFormatting" Value="RightAligned" />
                     <Property Name="Text" Value="999" />
+                    <Property Name="HorzFormatting" Value="RightAligned" />
                     <Property Name="UnifiedAreaRect" Value="{{0.566667,0},{0.2,0},{0.766667,0},{0.8,0}}" />
                 </Window>
                 <Window Type="DejaVu/StaticImage" Name="AuctionSellWnd/PlayerMoneyGoldImg" >
@@ -147,8 +179,8 @@
                 </Window>
             </Window>
             <Window Type="DejaVu/EmbedTextLab7" Name="AuctionSellWnd/PlayerMoneyTitle" >
-                <Property Name="HorzFormatting" Value="HorzCentred" />
                 <Property Name="Text" Value="個人金錢" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
                 <Property Name="UnifiedAreaRect" Value="{{0.0128205,0},{0.942029,0},{0.115385,0},{0.982287,0}}" />
             </Window>
         </Window>
