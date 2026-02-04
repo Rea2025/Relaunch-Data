@@ -176,7 +176,6 @@
                 </Window>
             </Window>
             <Window Type="DejaVu/ImageButton" Name="Root/FunctionMenu/bg/button_11-1" >
-                <Property Name="Visible" Value="False" />
                 <Property Name="HoverImage" Value="set:main3 image:LeaveDungeonBtnHover" />
                 <Property Name="NormalImage" Value="set:main3 image:LeaveDungeonBtnNormal" />
                 <Property Name="PushedImage" Value="set:main3 image:LeaveDungeonBtnPressed" />
@@ -193,6 +192,14 @@
                     <Property Name="HorizontalAlignment" Value="Centre" />
                     <Property Name="MousePassThroughEnabled" Value="True" />
                 </Window>
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/FunctionMenu/bg/button_12" >
+                <Property Name="HoverImage" Value="set:main3 image:DungeonBtnHover" />
+                <Property Name="NormalImage" Value="set:main3 image:DungeonBtnNormal" />
+                <Property Name="PushedImage" Value="set:main3 image:DungeonBtnPressed" />
+                <Property Name="DisabledImage" Value="set:main3 image:DungeonBtnLocked" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.8225,0},{0,0},{-0.7625,0},{0.8,0}}" />
+                <Property Name="HorizontalAlignment" Value="Right" />
             </Window>
         </Window>
         <Window Type="DejaVu/Embed8" Name="Root/FunctionMenu/BGBar" >
