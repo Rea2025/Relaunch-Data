@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="FateTowerSelectWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="Text" Value="x命運塔" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="TitlebarImage" Value="set:main3 image:DungeonBtnNormal" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0.033854,0},{0.149049,0},{0.033854,944},{0.149049,465}}" />
+        <Property Name="DragMovingEnabled" Value="False" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="CloseButtonEnabled" Value="False" />
+        <Window Type="DejaVu/Embed" Name="FateTowerSelectWnd/BG" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1.00216,0},{1,0}}" />
+            <Window Type="DejaVu/Static" Name="FateTowerSelectWnd/Top" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.12987,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="FateTowerSelectWnd/Top/Title" >
+                    <Property Name="Font" Value="F001-18" />
+                    <Property Name="Text" Value="x通關第17層" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.249462,0},{1,0}}" />
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                </Window>
+                <Window Type="DejaVu/Static" Name="FateTowerSelectWnd/Top/Time" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{-0.010753,0},{0,0},{0.0967739,0},{1,0}}" />
+                    <Property Name="HorizontalAlignment" Value="Right" />
+                    <Window Type="DejaVu/StaticImage" Name="FateTowerSelectWnd/Top/Time/Image" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Image" Value="set:main16 image:Clock" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.2,0},{0.3,0},{0.8,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="FateTowerSelectWnd/Top/Time/Text" >
+                        <Property Name="Font" Value="F001-12" />
+                        <Property Name="Text" Value="00:30" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.4,0},{0.24,0},{0.9,0},{0.74,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="FateTowerSelectWnd/Bottom" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.005376,0},{0.12987,0},{0.998924,0},{1,0}}" />
+                <Window Type="DejaVu/Static" Name="FateTowerSelectWnd/Bottom/Selection1" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.005405,0},{0,0},{0.327916,0},{0.985075,0}}" />
+                    <Window Type="DejaVu/Embed2" Name="FateTowerSelectWnd/Bottom/Selection1/BG" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1.00671,0},{0.878788,0}}" />
+                        <Window Type="DejaVu/SlotImage" Name="FateTowerSelectWnd/Bottom/Selection1/Slot" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0689655,0},{0.14,0},{0.213793,0}}" />
+                            <Property Name="HorizontalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/Embed2" Name="FateTowerSelectWnd/Bottom/Selection1/Tip" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.275862,0},{0.933333,0},{0.596552,0}}" />
+                            <Property Name="HorizontalAlignment" Value="Centre" />
+                            <Window Type="DejaVu/StaticText" Name="FateTowerSelectWnd/Bottom/Selection1/Tip/Text" >
+                                <Property Name="Text" Value="xTip" />
+                                <Property Name="HorzFormatting" Value="WordWrapCentred" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                <Property Name="HorizontalAlignment" Value="Centre" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/Embed2" Name="FateTowerSelectWnd/Bottom/Selection1/Debuff" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.62069,0},{0.933333,0},{0.982759,0}}" />
+                            <Property Name="HorizontalAlignment" Value="Centre" />
+                            <Window Type="DejaVu/EmbedTextLab7" Name="FateTowerSelectWnd/Bottom/Selection1/Debuff/Title" >
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.238095,0}}" />
+                                <Window Type="DejaVu/StaticTextLab" Name="FateTowerSelectWnd/Bottom/Selection1/Debuff/Title/Text" >
+                                    <Property Name="Font" Value="F001-9" />
+                                    <Property Name="Text" Value="x武器封印" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.0357143,0},{0,0},{0.964286,0},{1,0}}" />
+                                </Window>
+                            </Window>
+                            <Window Type="DejaVu/ScrollablePane" Name="FateTowerSelectWnd/Bottom/Selection1/Debuff/List" >
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                                <Property Name="HorzStepSize" Value="0.1" />
+                                <Property Name="VertStepSize" Value="0.1" />
+                                <Property Name="HorzOverlapSize" Value="0.01" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.4,0},{1,0},{0.942857,0}}" />
+                                <Property Name="VertOverlapSize" Value="0.01" />
+                                <Property Name="HorzScrollPosition" Value="0" />
+                                <Property Name="VertScrollPosition" Value="0" />
+                                <AutoWindow NameSuffix="__auto_container__" >
+                                    <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                                    <Property Name="ChildExtentsArea" Value="l:0 t:0 r:0 b:0" />
+                                    <Property Name="MouseInputPropagationEnabled" Value="True" />
+                                </AutoWindow>
+                            </Window>
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Button" Name="FateTowerSelectWnd/Bottom/Selection1/SelectBtn" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="x選擇" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{-0.0151515,0},{0.288591,0},{0.0636364,0}}" />
+                        <Property Name="VerticalAlignment" Value="Bottom" />
+                        <Property Name="HorizontalAlignment" Value="Centre" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Static" Name="FateTowerSelectWnd/Bottom/Selection2" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.338745,0},{0,0},{0.661255,0},{0.985075,0}}" />
+                    <Window Type="DejaVu/Embed2" Name="FateTowerSelectWnd/Bottom/Selection2/BG" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.878788,0}}" />
+                        <Window Type="DejaVu/SlotImage" Name="FateTowerSelectWnd/Bottom/Selection2/Slot" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0689655,0},{0.14,0},{0.213794,0}}" />
+                            <Property Name="HorizontalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/Embed2" Name="FateTowerSelectWnd/Bottom/Selection2/Tip" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.275862,0},{0.933333,0},{0.596552,0}}" />
+                            <Property Name="HorizontalAlignment" Value="Centre" />
+                            <Window Type="DejaVu/StaticText" Name="FateTowerSelectWnd/Bottom/Selection2/Tip/Text" >
+                                <Property Name="Text" Value="xTip" />
+                                <Property Name="HorzFormatting" Value="WordWrapCentred" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                <Property Name="HorizontalAlignment" Value="Centre" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/Embed2" Name="FateTowerSelectWnd/Bottom/Selection2/Debuff" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.62069,0},{0.933333,0},{0.982759,0}}" />
+                            <Property Name="HorizontalAlignment" Value="Centre" />
+                            <Window Type="DejaVu/EmbedTextLab7" Name="FateTowerSelectWnd/Bottom/Selection2/Debuff/Title" >
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.238095,0}}" />
+                                <Window Type="DejaVu/StaticTextLab" Name="FateTowerSelectWnd/Bottom/Selection2/Debuff/Title/Text" >
+                                    <Property Name="Font" Value="F001-9" />
+                                    <Property Name="Text" Value="x武器封印" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.0357143,0},{0,0},{0.964285,0},{1,0}}" />
+                                </Window>
+                            </Window>
+                            <Window Type="DejaVu/ScrollablePane" Name="FateTowerSelectWnd/Bottom/Selection2/Debuff/List" >
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                                <Property Name="HorzStepSize" Value="0.1" />
+                                <Property Name="VertStepSize" Value="0.1" />
+                                <Property Name="HorzOverlapSize" Value="0.01" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.4,0},{1.00719,0},{0.942857,0}}" />
+                                <Property Name="VertOverlapSize" Value="0.01" />
+                                <Property Name="HorzScrollPosition" Value="0" />
+                                <Property Name="VertScrollPosition" Value="0" />
+                                <AutoWindow NameSuffix="__auto_container__" >
+                                    <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                                    <Property Name="ChildExtentsArea" Value="l:0 t:0 r:0 b:0" />
+                                    <Property Name="MouseInputPropagationEnabled" Value="True" />
+                                </AutoWindow>
+                            </Window>
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Button" Name="FateTowerSelectWnd/Bottom/Selection2/SelectBtn" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="x選擇" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{-0.0151515,0},{0.286667,0},{0.0636364,0}}" />
+                        <Property Name="VerticalAlignment" Value="Bottom" />
+                        <Property Name="HorizontalAlignment" Value="Centre" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Static" Name="FateTowerSelectWnd/Bottom/Selection3" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.672078,0},{0,0},{0.994589,0},{0.985075,0}}" />
+                    <Window Type="DejaVu/Embed2" Name="FateTowerSelectWnd/Bottom/Selection3/BG" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.878788,0}}" />
+                        <Window Type="DejaVu/SlotImage" Name="FateTowerSelectWnd/Bottom/Selection3/Slot" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0689655,0},{0.14,0},{0.213794,0}}" />
+                            <Property Name="HorizontalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/Embed2" Name="FateTowerSelectWnd/Bottom/Selection3/Tip" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.275862,0},{0.933333,0},{0.596552,0}}" />
+                            <Property Name="HorizontalAlignment" Value="Centre" />
+                            <Window Type="DejaVu/StaticText" Name="FateTowerSelectWnd/Bottom/Selection3/Tip/Text" >
+                                <Property Name="Text" Value="xTip" />
+                                <Property Name="HorzFormatting" Value="WordWrapCentred" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                <Property Name="HorizontalAlignment" Value="Centre" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/Embed2" Name="FateTowerSelectWnd/Bottom/Selection3/Debuff" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.62069,0},{0.933333,0},{0.982759,0}}" />
+                            <Property Name="HorizontalAlignment" Value="Centre" />
+                            <Window Type="DejaVu/EmbedTextLab7" Name="FateTowerSelectWnd/Bottom/Selection3/Debuff/Title" >
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.238095,0}}" />
+                                <Window Type="DejaVu/StaticTextLab" Name="FateTowerSelectWnd/Bottom/Selection3/Debuff/Title/Text" >
+                                    <Property Name="Font" Value="F001-9" />
+                                    <Property Name="Text" Value="x武器封印" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.0357143,0},{0,0},{0.964285,0},{1,0}}" />
+                                </Window>
+                            </Window>
+                            <Window Type="DejaVu/ScrollablePane" Name="FateTowerSelectWnd/Bottom/Selection3/Debuff/List" >
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                                <Property Name="HorzStepSize" Value="0.1" />
+                                <Property Name="VertStepSize" Value="0.1" />
+                                <Property Name="HorzOverlapSize" Value="0.01" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.4,0},{1.00719,0},{0.942857,0}}" />
+                                <Property Name="VertOverlapSize" Value="0.01" />
+                                <Property Name="HorzScrollPosition" Value="0" />
+                                <Property Name="VertScrollPosition" Value="0" />
+                                <AutoWindow NameSuffix="__auto_container__" >
+                                    <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                                    <Property Name="ChildExtentsArea" Value="l:0 t:0 r:0 b:0" />
+                                    <Property Name="MouseInputPropagationEnabled" Value="True" />
+                                </AutoWindow>
+                            </Window>
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Button" Name="FateTowerSelectWnd/Bottom/Selection3/SelectBtn" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="x選擇" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{-0.0151515,0},{0.286667,0},{0.0636364,0}}" />
+                        <Property Name="VerticalAlignment" Value="Bottom" />
+                        <Property Name="HorizontalAlignment" Value="Centre" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="FateTowerSelectWnd/PreviewBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HoverImage" Value="set:main3 image:DungeonBtnNormal" />
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="NormalImage" Value="set:main3 image:DungeonBtnNormal" />
+                <Property Name="PushedImage" Value="set:main3 image:DungeonBtnNormal" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0107527,0},{-0.0207792,0},{0.0494624,0},{0.0727273,0}}" />
+                <Property Name="VerticalAlignment" Value="Bottom" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

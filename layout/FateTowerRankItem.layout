@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/Embed3" Name="FateTowerRankItem" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.00520833,0},{0,0},{0.132812,0},{0.0528541,0}}" />
+        <Window Type="DejaVu/Embed2" Name="FateTowerRankItem/Name" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.285714,0},{0.1,0},{0.755102,0},{0.9,0}}" />
+            <Window Type="DejaVu/StaticTextLab" Name="FateTowerRankItem/Name/Text" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="一二三四五六七八" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0695652,0},{0,0},{0.93913,0},{1,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="FateTowerRankItem/Rank" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.285714,0},{1,0}}" />
+            <Window Type="DejaVu/StaticImage" Name="FateTowerRankItem/Rank/Num1" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Image" Value="set:DejaVu image:zero" />
+                <Property Name="UnifiedAreaRect" Value="{{0.542857,0},{0.2,0},{1,0},{0.84,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="FateTowerRankItem/Rank/Num2" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Image" Value="set:DejaVu image:zero" />
+                <Property Name="UnifiedAreaRect" Value="{{0.214286,0},{0.2,0},{0.671429,0},{0.84,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="FateTowerRankItem/Rank/Num3" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Image" Value="set:DejaVu image:one" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.0714286,0},{0.2,0},{0.385714,0},{0.84,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="FateTowerRankItem/Record" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.755102,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/StaticTextLab" Name="FateTowerRankItem/Record/Floor" >
+                <Property Name="Font" Value="F001-10" />
+                <Property Name="Text" Value="21" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.5,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="FateTowerRankItem/Record/Time" >
+                <Property Name="Font" Value="F001-10" />
+                <Property Name="Text" Value="03:54" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.5,0},{1,0},{1,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>
