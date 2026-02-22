@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="WhisperFiliter" >
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.167969,0},{0.561198,0}}" />
+        <Window Type="DejaVu/EmbedText2" Name="WhisperFiliter/Column" >
+            <Property Name="Text" Value="      雙刀" />
+            <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+            <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0510441,0},{0,157},{0.0510441,25}}" />
+            <Window Type="DejaVu/ImageCheckbox" Name="WhisperFiliter/Column/CheckBox" >
+                <Property Name="ID" Value="1" />
+                <Property Name="HoverImage" Value="set:DejaVu image:TreeListClosed" />
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="NormalImage" Value="set:DejaVu image:TreeListClosedNormal" />
+                <Property Name="PushedImage" Value="set:DejaVu image:TreeListOpenedNormal" />
+                <Property Name="DisabledImage" Value="set:DejaVu image:TreeListOpenedNormal" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0191083,0},{0.2,0},{0.121019,0},{0.8,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="WhisperFiliter/Column/RedPoint" >
+                <Property Name="Image" Value="set:DejaVu image:AutoAlchemyNormal" />
+                <Property Name="UnifiedAreaRect" Value="{{0.840764,0},{0,0},{1,0},{1,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Embed2" Name="WhisperFiliter/Item" >
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.215777,0},{0,157},{0.215777,25}}" />
+            <Window Type="DejaVu/StaticTextLab" Name="WhisperFiliter/Item/FilterTitle" >
+                <Property Name="ID" Value="3" />
+                <Property Name="Text" Value="一二三四五六七八" />
+                <Property Name="UnifiedAreaRect" Value="{{0.178344,0},{0,0},{0.853503,0},{0.96,0}}" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+            </Window>
+            <Window Type="DejaVu/Zframe2" Name="WhisperFiliter/Item/SelectFrame" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="WhisperFiliter/Item/RedPoint" >
+                <Property Name="Image" Value="set:DejaVu image:AutoAlchemyNormal" />
+                <Property Name="UnifiedAreaRect" Value="{{0.859873,0},{0.12,0},{0.987261,0},{0.92,0}}" />
+            </Window>
+            <Window Type="DejaVu/ImageCheckbox" Name="WhisperFiliter/Item/Star" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HoverImage" Value="set:main2 image:StarGoldEmpty" />
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="NormalImage" Value="set:main2 image:StarGoldEmpty" />
+                <Property Name="PushedImage" Value="set:main2 image:StarGold" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.159236,0},{1,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

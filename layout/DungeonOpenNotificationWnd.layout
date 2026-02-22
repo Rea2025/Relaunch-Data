@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="DungeonOpenNotificationWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="Text" Value="x副本開啟提示" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="TitlebarImage" Value="set:main3 image:DungeonBtnNormal" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0.265625,0},{0.247641,0},{0.265625,300},{0.247641,300}}" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Window Type="DejaVu/Embed" Name="DungeonOpenNotificationWnd/BG" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Embed2" Name="DungeonOpenNotificationWnd/BG/TextBG" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.035211,0},{0.045455,0},{0.964788,0},{0.795455,0}}" />
+                <Window Type="DejaVu/StaticText" Name="DungeonOpenNotificationWnd/BG/TextBG/TitleText" >
+                    <Property Name="Font" Value="F001-11" />
+                    <Property Name="Text" Value="x以下副本已開放：" />
+                    <Property Name="HorzFormatting" Value="WordWrapCentred" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.909091,0},{0.30303,0}}" />
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                </Window>
+                <Window Type="DejaVu/Embed2" Name="DungeonOpenNotificationWnd/BG/TextBG/Embed2" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.30303,0},{0.871212,0},{0.909091,0}}" />
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                    <Window Type="DejaVu/VScrolledText" Name="DungeonOpenNotificationWnd/BG/TextBG/ScrollText" >
+                        <Property Name="Text" >流光巖穴(裝備)(單人)
+卡迪拉妖森(裝備)(單人)
+流光巖穴(強化)(單人)
+卡迪拉妖森(強化)(單人)
+流光巖穴(裝備)(五人)
+卡迪拉妖森(裝備)(五人)
+流光巖穴(源神)(單人)
+卡迪拉妖森(源神)(單人)</Property>
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="VertScrollbar" Value="True" />
+                        <Property Name="HorzFormatting" Value="WordWrapCentred" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.05,0},{1,0},{0.95,0}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="HorizontalAlignment" Value="Centre" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Button" Name="DungeonOpenNotificationWnd/BG/Confirm" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="x查看" />
+                <Property Name="UnifiedAreaRect" Value="{{0.035211,0},{-0.045455,0},{0.316901,0},{0.0909086,0}}" />
+                <Property Name="VerticalAlignment" Value="Bottom" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="DungeonOpenNotificationWnd/BG/Deny" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="x取消" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.035211,0},{-0.045455,0},{0.246479,0},{0.0909086,0}}" />
+                <Property Name="VerticalAlignment" Value="Bottom" />
+                <Property Name="HorizontalAlignment" Value="Right" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

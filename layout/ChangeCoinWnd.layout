@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="ChangeCoinWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="TitlebarImage" Value="set:main image:BagNormal" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0.348633,0},{0.304688,0},{0.348633,301},{0.304688,324}}" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Window Type="DejaVu/Embed" Name="ChangeCoinWnd/Embed" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.000520833,0},{0,0},{1.00052,0},{1.01477,0}}" />
+            <Window Type="DejaVu/Embed2" Name="ChangeCoinWnd/Embed2" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.035088,0},{0.034483,0},{0.964913,0},{0.831903,0}}" />
+                <Window Type="DejaVu/EmbedTextLab7" Name="ChangeCoinWnd/Embed2/ExpTitle1" >
+                    <Property Name="Text" Value="經驗" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.037736,0},{0.050505,0},{0.343396,0},{0.176768,0}}" />
+                </Window>
+                <Window Type="DejaVu/Embed2" Name="ChangeCoinWnd/Embed2/ExpCount1" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.362264,0},{0.050505,0},{0.969811,0},{0.176768,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="ChangeCoinWnd/Embed2/ExpCount1/Text" >
+                        <Property Name="Text" Value="999999" />
+                        <Property Name="HorzFormatting" Value="RightAligned" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.061728,0},{0,0},{0.78395,0},{1,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab7" Name="ChangeCoinWnd/Embed2/CoinTitle1" >
+                    <Property Name="Text" Value="XX貨幣" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.037736,0},{0.176768,0},{0.343396,0},{0.303031,0}}" />
+                </Window>
+                <Window Type="DejaVu/Embed2" Name="ChangeCoinWnd/Embed2/CoinCount1" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.362264,0},{0.176768,0},{0.969811,0},{0.30303,0}}" />
+                    <Window Type="DejaVu/StaticImage" Name="ChangeCoinWnd/Embed2/CoinCount1/Img" >
+                        <Property Name="Image" Value="set:main image:RefineShatter" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.84472,0},{0.2,0},{0.937888,0},{0.8,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="ChangeCoinWnd/Embed2/CoinCount1/Text" >
+                        <Property Name="Text" Value="999999" />
+                        <Property Name="HorzFormatting" Value="RightAligned" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.061728,0},{0,0},{0.78395,0},{1,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="ChangeCoinWnd/Embed2/Text" >
+                    <Property Name="Font" Value="F001-10" />
+                    <Property Name="Text" Value="兌換價格  1:5000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.283019,0},{0.338384,0},{0.735849,0},{0.474748,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="ChangeCoinWnd/Embed2/MinBtn" >
+                    <Property Name="HoverImage" Value="set:DejaVu image:DoubledLeftArrowHover" />
+                    <Property Name="NormalImage" Value="set:DejaVu image:DoubledLeftArrowNormal" />
+                    <Property Name="PushedImage" Value="set:DejaVu image:DoubledLeftArrowPressed" />
+                    <Property Name="DisabledImage" Value="set:DejaVu image:DoubledLeftArrowPressed" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.226415,0},{0.50505,0},{0.301887,0},{0.631313,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="ChangeCoinWnd/Embed2/SubBtn" >
+                    <Property Name="HoverImage" Value="set:DejaVu image:ArrowLeftHover" />
+                    <Property Name="NormalImage" Value="set:DejaVu image:ArrowLeftNormal" />
+                    <Property Name="PushedImage" Value="set:DejaVu image:ArrowLeftPressed" />
+                    <Property Name="DisabledImage" Value="set:DejaVu image:ArrowLeftPressed" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.301887,0},{0.50505,0},{0.377358,0},{0.631313,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="ChangeCoinWnd/Embed2/AddBtn" >
+                    <Property Name="HoverImage" Value="set:DejaVu image:ArrowRightHover" />
+                    <Property Name="NormalImage" Value="set:DejaVu image:ArrowRightNormal" />
+                    <Property Name="PushedImage" Value="set:DejaVu image:ArrowRightPressed" />
+                    <Property Name="DisabledImage" Value="set:DejaVu image:ArrowRightPressed" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.622642,0},{0.50505,0},{0.698113,0},{0.631313,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="ChangeCoinWnd/Embed2/MaxBtn" >
+                    <Property Name="HoverImage" Value="set:DejaVu image:DoubledRightArrowHover" />
+                    <Property Name="NormalImage" Value="set:DejaVu image:DoubledRightArrowNormal" />
+                    <Property Name="PushedImage" Value="set:DejaVu image:DoubledRightArrowPressed" />
+                    <Property Name="DisabledImage" Value="set:DejaVu image:DoubledRightArrowPressed" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.698113,0},{0.50505,0},{0.773585,0},{0.631313,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="ChangeCoinWnd/Embed2/ExchangeNum" >
+                    <Property Name="Text" Value="1" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.396226,0},{0.50505,0},{0.603773,0},{0.631313,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab7" Name="ChangeCoinWnd/Embed2/ExpTitle2" >
+                    <Property Name="Text" Value="經驗" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.037736,0},{0.681818,0},{0.343396,0},{0.808081,0}}" />
+                </Window>
+                <Window Type="DejaVu/Embed2" Name="ChangeCoinWnd/Embed2/ExpCount2" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.362264,0},{0.681818,0},{0.969811,0},{0.808081,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="ChangeCoinWnd/Embed2/ExpCount2/Text" >
+                        <Property Name="Text" Value="999999" />
+                        <Property Name="HorzFormatting" Value="RightAligned" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.061728,0},{0,0},{0.78395,0},{1,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab7" Name="ChangeCoinWnd/Embed2/CoinTitle2" >
+                    <Property Name="Text" Value="XX貨幣" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0377358,0},{0.808081,0},{0.343396,0},{0.934343,0}}" />
+                </Window>
+                <Window Type="DejaVu/Embed2" Name="ChangeCoinWnd/Embed2/CoinCount2" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.362264,0},{0.808081,0},{0.969811,0},{0.934344,0}}" />
+                    <Window Type="DejaVu/StaticImage" Name="ChangeCoinWnd/Embed2/CoinCount2/Img" >
+                        <Property Name="Image" Value="set:main image:RefineShatter" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.84472,0},{0.2,0},{0.937888,0},{0.8,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="ChangeCoinWnd/Embed2/CoinCount2/Text" >
+                        <Property Name="Text" Value="999999" />
+                        <Property Name="HorzFormatting" Value="RightAligned" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.061728,0},{0,0},{0.78395,0},{1,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Button" Name="ChangeCoinWnd/OKBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="x兌換" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0436948,0},{0.864754,0},{0.310362,0},{0.963115,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="ChangeCoinWnd/CancelBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="x取消" />
+                <Property Name="UnifiedAreaRect" Value="{{0.692817,0},{0.864754,0},{0.959484,0},{0.963115,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

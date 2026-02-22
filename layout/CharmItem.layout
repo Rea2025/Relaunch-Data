@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/Embed3" Name="CharmItem" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,255},{0,50}}" />
+        <Window Type="DejaVu/SlotImage" Name="CharmItem/Slot" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0235294,0},{0,0},{0.172549,0},{0.76,0}}" />
+            <Property Name="VerticalAlignment" Value="Centre" />
+        </Window>
+        <Window Type="DejaVu/StaticText" Name="CharmItem/Name" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="Text" Value="x高級尋寶護符(單日)(限定)" />
+            <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+            <Property Name="UnifiedAreaRect" Value="{{0.196078,0},{0,0},{0.784313,0},{1,0}}" />
+            <Property Name="VerticalAlignment" Value="Centre" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="CharmItem/Btn" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="Text" Value="x選擇" />
+            <Property Name="UnifiedAreaRect" Value="{{0.784314,0},{0,0},{0.980392,0},{0.5,0}}" />
+            <Property Name="VerticalAlignment" Value="Centre" />
+        </Window>
+        <Window Type="DejaVu/Zframe2" Name="CharmItem/SelectFrame" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+        </Window>
+    </Window>
+</GUILayout>

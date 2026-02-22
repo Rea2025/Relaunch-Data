@@ -2,9 +2,8 @@
 
 <GUILayout >
     <Window Type="DefaultWindow" Name="LuckyBagItem" >
-        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{-0.00125,801},{0,590}}" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{-0.00104384,0},{0,798.6},{-0.00104384,590}}" />
         <Window Type="DejaVu/Embed3" Name="LuckyBagItem/Item" >
-            <Property Name="BackgroundEnabled" Value="False" />
             <Property Name="UnifiedAreaRect" Value="{{0,0},{0.118644,0},{0,253},{0.118644,52}}" />
             <Window Type="DejaVu/SlotImage" Name="LuckyBagItem/Item/SlotImage" >
                 <Property Name="ID" Value="1" />
@@ -14,16 +13,22 @@
             <Window Type="DejaVu/StaticTextLab" Name="LuckyBagItem/Item/Text" >
                 <Property Name="ID" Value="2" />
                 <Property Name="MousePassThroughEnabled" Value="True" />
-                <Property Name="UnifiedAreaRect" Value="{{0.205534,0},{0.25,0},{0.956522,0},{0.75,0}}" />
+                <Property Name="Text" Value="一二三四五六七八九十一二三四五" />
+                <Property Name="UnifiedAreaRect" Value="{{0.205534,0},{0.192308,0},{0.976285,0},{0.692308,0}}" />
             </Window>
-            <Window Type="DejaVu/StaticImage" Name="LuckyBagItem/SelectBrush" >
-                <Property Name="Alpha" Value="0.3" />
-                <Property Name="Font" Value="F001-9" />
+            <Window Type="DejaVu/StaticTextLab" Name="LuckyBagItem/Item/ProbabilityText" >
+                <Property Name="AlwaysOnTop" Value="True" />
                 <Property Name="ID" Value="3" />
-                <Property Name="Image" Value="set:DejaVu image:HeaderBarBackdropHover" />
                 <Property Name="MousePassThroughEnabled" Value="True" />
-                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
-                <Property Name="Visible" Value="False" />
+                <Property Name="Text" Value="99.9999%" />
+                <Property Name="UnifiedAreaRect" Value="{{0.197628,0},{0.576923,0},{0.434783,0},{0.961538,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="LuckyBagItem/Item/SetText" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="ID" Value="5" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="0.0001%" />
+                <Property Name="UnifiedAreaRect" Value="{{0.197628,0},{0.0961538,0},{0.434783,0},{0.480769,0}}" />
             </Window>
         </Window>
         <Window Type="DejaVu/ImageCheckbox" Name="LuckyBagItem/Column" >

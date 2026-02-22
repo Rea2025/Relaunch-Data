@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/RuneRefineWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="TitlebarImage" Value="set:main image:MagicStone" />
+        <Property Name="UnifiedAreaRect" Value="{{0.301432,0},{0.192955,0},{0.301432,437},{0.192955,462}}" />
+        <Window Type="DejaVu/TabControl" Name="Root/RuneRefineWnd/Tab" >
+            <Property Name="TabHeight" Value="{0,20}" />
+            <Property Name="TabPanePosition" Value="Top" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DefaultWindow" Name="Root/RuneRefineWnd/Tab1" >
+                <Property Name="Text" Value="x秘石升級  " />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,421},{0,357}}" />
+                <Property Name="Visible" Value="False" />
+                <Window Type="DejaVu/Static" Name="Root/RuneRefineWnd/Tab1/BG" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.023753,0},{0.0280112,0},{0.976247,0},{0.885154,0}}" />
+                    <Window Type="DejaVu/Embed2" Name="Root/RuneRefineWnd/Tab1/PowerUpBG" >
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.03268,0},{1,0},{1,0}}" />
+                        <Window Type="DejaVu/Embed2" Name="Root/RuneRefineWnd/Tab1/ItemBG" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.024938,0},{0.756757,0},{0.975063,0},{0.966217,0}}" />
+                            <Window Type="DejaVu/SlotImage" Name="Root/RuneRefineWnd/Tab1/ItemSlot0" >
+                                <Property Name="Image" Value="set:main2 image:MagicStoneBase" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.120735,0},{0.16129,0},{0.230971,0},{0.838709,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/SlotImage" Name="Root/RuneRefineWnd/Tab1/ItemSlot1" >
+                                <Property Name="Image" Value="set:main2 image:MagicStoneBase" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.283465,0},{0.16129,0},{0.393701,0},{0.838709,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/SlotImage" Name="Root/RuneRefineWnd/Tab1/ItemSlot2" >
+                                <Property Name="Image" Value="set:main2 image:MagicStoneBase" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.446194,0},{0.16129,0},{0.55643,0},{0.838709,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/SlotImage" Name="Root/RuneRefineWnd/Tab1/ItemSlot3" >
+                                <Property Name="Image" Value="set:main2 image:MagicStoneBase" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.608924,0},{0.16129,0},{0.71916,0},{0.838709,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/SlotImage" Name="Root/RuneRefineWnd/Tab1/ItemSlot4" >
+                                <Property Name="Image" Value="set:main2 image:MagicStoneBase" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.771654,0},{0.16129,0},{0.88189,0},{0.838709,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/StaticTextLab" Name="Root/RuneRefineWnd/Tab1/level" >
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="MousePassThroughEnabled" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0174564,0},{0.614865,0},{0.154613,0},{0.722973,0}}" />
+                            <Window Type="DejaVu/StaticImage" Name="Root/RuneRefineWnd/Tab1/level/Num2" >
+                                <Property Name="Image" Value="set:DejaVu image:eight" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.581818,0},{1,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/StaticImage" Name="Root/RuneRefineWnd/Tab1/level/Num1" >
+                                <Property Name="Image" Value="set:DejaVu image:eight" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.4,0},{0,0},{0.981818,0},{1,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/ProgressBarBG" Name="Root/RuneRefineWnd/Tab1/InputStoneBar" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="MousePassThroughEnabled" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.149626,0},{0.641892,0},{0.975062,0},{0.692568,0}}" />
+                            <Window Type="DejaVu/ProgressBar2" Name="Root/RuneRefineWnd/Tab1/InputStoneBar/Bar" >
+                                <Property Name="CurrentProgress" Value="0" />
+                                <Property Name="StepSize" Value="0.01" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.018127,0},{0.25,0},{0.981873,0},{0.716667,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/StaticImage" Name="Root/RuneRefineWnd/Tab1/Image" >
+                            <Property Name="HorizontalAlignment" Value="Centre" />
+                            <Property Name="Image" Value="set:main2 image:MagicStoneUpgrateBG" />
+                            <Property Name="MousePassThroughEnabled" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.152027,0},{0.897756,0},{0.557432,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Static" Name="Root/RuneRefineWnd/Tab1/PowerUpStatic" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0844595,0},{1,0},{0.516892,0}}" />
+                            <Window Type="DejaVu/SlotImage" Name="Root/RuneRefineWnd/Tab1/InputSlot" >
+                                <Property Name="AlwaysOnTop" Value="True" />
+                                <Property Name="HorizontalAlignment" Value="Centre" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.234375,0},{0.104738,0},{0.5625,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/EmbedTextLab2" Name="Root/RuneRefineWnd/Tab1/PowerUpStoneText" >
+                                <Property Name="HorizontalAlignment" Value="Centre" />
+                                <Property Name="Text" Value="請放入欲提昇等級的秘石/鑲嵌秘石的裝備" />
+                                <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.679688,0},{0.623441,0},{0.875,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/StaticImage" Name="Root/RuneRefineWnd/Flash/Image0" >
+                                <Property Name="HorizontalAlignment" Value="Centre" />
+                                <Property Name="Image" Value="set:main2 image:Light" />
+                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.249377,0},{0.78125,0}}" />
+                            </Window>
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Embed4" Name="Root/RuneRefineWnd/Tab1/PowerUpTitle" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.024938,0},{0,0},{0.399003,0},{0.0816993,0}}" />
+                        <Window Type="DejaVu/StaticTextLab" Name="Root/RuneRefineWnd/Tab1/PowerUpTitle/Text" >
+                            <Property Name="Text" Value="x升級秘石" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.2,0},{0.866667,0},{0.8,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticImage" Name="Root/RuneRefineWnd/TabTitle/Img" >
+                            <Property Name="Image" Value="set:DejaVu image:Image24" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                        </Window>
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Button" Name="Root/RuneRefineWnd/Tab1/PowerUpBtn" >
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                    <Property Name="Text" Value="淬煉" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.89916,0},{0.180523,0},{0.971989,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DefaultWindow" Name="Root/RuneRefineWnd/Tab2" >
+                <Property Name="Text" Value="x鑲嵌抽取  " />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,421},{0,357}}" />
+                <Property Name="Visible" Value="False" />
+                <Window Type="DejaVu/Static" Name="Root/RuneRefineWnd/Tab2/BG" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.023753,0},{0.0280112,0},{0.976247,0},{0.885154,0}}" />
+                    <Window Type="DejaVu/Embed2" Name="Root/RuneRefineWnd/Tab2/GetStoneBG" >
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.03268,0},{1,0},{1,0}}" />
+                        <Window Type="DejaVu/StaticImage" Name="Root/RuneRefineWnd/Tab2/Image" >
+                            <Property Name="HorizontalAlignment" Value="Centre" />
+                            <Property Name="Image" Value="set:main2 image:MagicStoneBG" />
+                            <Property Name="MousePassThroughEnabled" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0857143,0},{0.897756,0},{0.896429,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Static" Name="Root/RuneRefineWnd/Tab2/StoneStatic" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.47973,0},{1,0},{0.858108,0}}" />
+                            <Window Type="DejaVu/SlotImage" Name="Root/RuneRefineWnd/Tab2/StoneSlot" >
+                                <Property Name="AlwaysOnTop" Value="True" />
+                                <Property Name="HorizontalAlignment" Value="Centre" />
+                                <Property Name="Image" Value="set:main2 image:MagicStoneBase" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.267857,0},{0.104738,0},{0.642857,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/EmbedTextLab2" Name="Root/RuneRefineWnd/Tab2/StoneText" >
+                                <Property Name="HorizontalAlignment" Value="Centre" />
+                                <Property Name="Text" Value="不能說的 秘石" />
+                                <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.776786,0},{0.498753,0},{1,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/StaticImage" Name="Root/RuneRefineWnd/Flash/Image2" >
+                                <Property Name="HorizontalAlignment" Value="Centre" />
+                                <Property Name="Image" Value="set:main2 image:Light" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.249377,0},{0.892857,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/Static" Name="Root/RuneRefineWnd/Tab2/WeaponStatic" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="HorizontalAlignment" Value="Centre" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{-0.24,0},{1,0},{0.138378,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                            <Window Type="DejaVu/SlotImage" Name="Root/RuneRefineWnd/Tab2/WeaponSlot" >
+                                <Property Name="AlwaysOnTop" Value="True" />
+                                <Property Name="HorizontalAlignment" Value="Centre" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.267857,0},{0.104738,0},{0.642857,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/EmbedTextLab2" Name="Root/RuneRefineWnd/Tab2/WeaponText" >
+                                <Property Name="HorizontalAlignment" Value="Centre" />
+                                <Property Name="Text" Value="絕世好劍+20" />
+                                <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.776786,0},{0.498753,0},{1,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/StaticImage" Name="Root/RuneRefineWnd/Flash/Image1" >
+                                <Property Name="HorizontalAlignment" Value="Centre" />
+                                <Property Name="Image" Value="set:main2 image:Light" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.249377,0},{0.892857,0}}" />
+                            </Window>
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Embed4" Name="Root/RuneRefineWnd/Tab2/GetStoneTitle" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.024938,0},{0,0},{0.399003,0},{0.0816993,0}}" />
+                        <Window Type="DejaVu/StaticTextLab" Name="Root/RuneRefineWnd/Tab2/GetStoneTitle/Text" >
+                            <Property Name="Text" Value="x鑲嵌抽取" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.2,0},{0.866667,0},{0.8,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticImage" Name="Root/RuneRefineWnd/Tab2/GetStoneTitle/Img" >
+                            <Property Name="Image" Value="set:DejaVu image:Image23" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                        </Window>
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Button" Name="Root/RuneRefineWnd/Tab2/GetStoneBtn" >
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                    <Property Name="Text" Value="抽取" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.89916,0},{0.180523,0},{0.971989,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DefaultWindow" Name="Root/RuneRefineWnd/Tab3" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="x秘石進化" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,421},{0,357}}" />
+                <Window Type="DejaVu/Static" Name="Root/RuneRefineWnd/Tab3/BG" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.023753,0},{0.0280112,0},{0.976247,0},{0.885154,0}}" />
+                    <Window Type="DejaVu/Embed2" Name="Root/RuneRefineWnd/Tab3/EvolutionBG" >
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.03268,0},{1,0},{1,0}}" />
+                        <Window Type="DejaVu/StaticImage" Name="Root/RuneRefineWnd/Tab3/Image" >
+                            <Property Name="HorizontalAlignment" Value="Centre" />
+                            <Property Name="Image" Value="set:main2 image:MagicStoneBG" />
+                            <Property Name="MousePassThroughEnabled" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0857143,0},{0.897756,0},{0.896429,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Static" Name="Root/RuneRefineWnd/Tab3/MaterialStatic" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.47973,0},{1,0},{0.858108,0}}" />
+                            <Window Type="DejaVu/SlotImage" Name="Root/RuneRefineWnd/Tab3/MaterialSlot" >
+                                <Property Name="AlwaysOnTop" Value="True" />
+                                <Property Name="HorizontalAlignment" Value="Centre" />
+                                <Property Name="Image" Value="set:main2 image:MagicStoneBase" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.267857,0},{0.104738,0},{0.642857,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/EmbedTextLab2" Name="Root/RuneRefineWnd/Tab3/MaterialText" >
+                                <Property Name="HorizontalAlignment" Value="Centre" />
+                                <Property Name="Text" Value="x請放入xx個材料" />
+                                <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.776786,0},{0.498753,0},{1,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/StaticImage" Name="Root/RuneRefineWnd/Flash/Image4" >
+                                <Property Name="HorizontalAlignment" Value="Centre" />
+                                <Property Name="Image" Value="set:main2 image:Light" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.249377,0},{0.892857,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/Static" Name="Root/RuneRefineWnd/Tab3/StoneStatic" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="HorizontalAlignment" Value="Centre" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{-0.24,0},{1,0},{0.138378,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                            <Window Type="DejaVu/SlotImage" Name="Root/RuneRefineWnd/Tab3/StoneSlot" >
+                                <Property Name="AlwaysOnTop" Value="True" />
+                                <Property Name="HorizontalAlignment" Value="Centre" />
+                                <Property Name="Image" Value="set:main2 image:MagicStoneBase" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.267857,0},{0.104738,0},{0.642857,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/EmbedTextLab2" Name="Root/RuneRefineWnd/Tab3/StoneText" >
+                                <Property Name="HorizontalAlignment" Value="Centre" />
+                                <Property Name="Text" Value="x陽橙秘石‧迴影飛斧" />
+                                <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.776786,0},{0.498753,0},{1,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/StaticImage" Name="Root/RuneRefineWnd/Flash/Image3" >
+                                <Property Name="HorizontalAlignment" Value="Centre" />
+                                <Property Name="Image" Value="set:main2 image:Light" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.000949254,0},{0,0},{0.250326,0},{0.892857,0}}" />
+                            </Window>
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Embed4" Name="Root/RuneRefineWnd/Tab3/EvolutionTitle" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.024938,0},{0,0},{0.399003,0},{0.0816993,0}}" />
+                        <Window Type="DejaVu/StaticTextLab" Name="Root/RuneRefineWnd/Tab3/EvolutionTitle/Text" >
+                            <Property Name="Text" Value="x秘石進化" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.2,0},{0.866667,0},{0.8,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticImage" Name="Root/RuneRefineWnd/Tab3/EvolutionTitle/Img" >
+                            <Property Name="Image" Value="set:DejaVu image:Image24" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                        </Window>
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Button" Name="Root/RuneRefineWnd/Tab3/EvolutionBtn" >
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                    <Property Name="Text" Value="x進化" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.89916,0},{0.178147,0},{0.969188,0}}" />
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

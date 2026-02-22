@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/EmbedText2" Name="WhisperItem" >
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.443359,0},{0.078125,0}}" />
+        <Window Type="DejaVu/ImageButton" Name="WhisperItem/TranslateBtn" >
+            <Property Name="HoverImage" Value="set:main image:BtnTranslateH" />
+            <Property Name="NormalImage" Value="set:main image:BtnTranslateN" />
+            <Property Name="PushedImage" Value="set:main image:BtnTranslateP" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0110132,0},{0.5,0},{0.0110132,20},{0.5,20}}" />
+        </Window>
+        <Window Type="DejaVu/StaticText" Name="WhisperItem/Text" >
+            <Property Name="Font" Value="F001-12" />
+            <Property Name="Text" Value="123" />
+            <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+            <Property Name="VertFormatting" Value="TopAligned" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticText" Name="WhisperItem/Quote" >
+            <Property Name="Font" Value="F001-12" />
+            <Property Name="Text" Value="123" />
+            <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+            <Property Name="VertFormatting" Value="TopAligned" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0660793,0},{0.0833333,0},{0.0660793,382},{0.0833333,20}}" />
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="WhisperItem/Line" >
+            <Property Name="Image" Value="set:DejaVu image:Line" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0,1}}" />
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/Static" Name="WaittoFreeList" >
+        <Property Name="Font" Value="F001-scale" />
+        <Property Name="MousePassThroughEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.11875,0},{0.447257,0}}" />
+        <Window Type="DejaVu/StaticImage" Name="WaittoFreeList/FreeCountDown" >
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Property Name="Image" Value="set:main3 image:StepBG" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0113636,0},{1,0},{0.102273,0}}" />
+            <Window Type="DejaVu/StaticText" Name="WaittoFreeList/FreeCountDown/Text" >
+                <Property Name="Font" Value="F001-12" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="new_ext" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.965157,0},{1,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Embed12" Name="WaittoFreeList/BG" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.113636,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/EmbedText2" Name="WaittoFreeList/BG/TitleText" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="Text" Value="x可免費取得" />
+                <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0384615,0},{0.731707,0},{0.128205,0}}" />
+            </Window>
+            <Window Type="DejaVu/Embed2" Name="WaittoFreeList/BG/Commodity" >
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0696864,0},{0.179487,0},{0.940767,0},{0.333333,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="WaittoFreeList/BG/Commodity/Image" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Image" Value="set:main image:LoginRewardFrame" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0603015,0},{0.0862069,0},{0.301508,0},{0.913793,0}}" />
+                    <Window Type="DejaVu/SlotImage" Name="WaittoFreeList/BG/Commodity/Image/Slot" >
+                        <Property Name="ID" Value="1" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.1,0},{0.9,0},{0.9,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="WaittoFreeList/BG/Commodity/Image/Text" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.333333,0},{0.166667,0},{0.936348,0},{0.839081,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed2" Name="WaittoFreeList/BG/SlotBG" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0348432,0},{0.371795,0},{0.97561,0},{0.512821,0}}" />
+                <Window Type="DejaVu/SlotImage" Name="WaittoFreeList/BG/SlotBG/Slot1" >
+                    <Property Name="ID" Value="101" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.151625,0},{0.763636,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="WaittoFreeList/BG/SlotBG/Slot2" >
+                    <Property Name="ID" Value="102" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.151625,0},{0.763636,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="WaittoFreeList/BG/SlotBG/Slot3" >
+                    <Property Name="ID" Value="103" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.151625,0},{0.763636,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="WaittoFreeList/BG/SlotBG/Slot4" >
+                    <Property Name="ID" Value="104" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.151625,0},{0.763636,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed2" Name="WaittoFreeList/BG/Discount" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0348432,0},{0.538462,0},{0.97561,0},{0.692308,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="WaittoFreeList/BG/Discount/Text" >
+                    <Property Name="Font" Value="F001-12" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="% OFF" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0.416667,0},{0.796296,0},{0.916667,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="WaittoFreeList/BG/Discount/BG" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.185185,0},{0.1,0},{0.62963,0},{0.9,0}}" />
+                    <Window Type="DejaVu/StaticImage" Name="WaittoFreeList/BG/Discount/BG/Num0" >
+                        <Property Name="Image" Value="set:main38 image:limitime_8" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0833333,0},{0.0625,0},{0.483333,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="WaittoFreeList/BG/Discount/BG/Num1" >
+                        <Property Name="Image" Value="set:main38 image:limitime_8" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.483333,0},{0.0625,0},{0.883333,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="WaittoFreeList/BG/Discount/BG/Num2" >
+                        <Property Name="Image" Value="set:main38 image:limitime_8" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.25,0},{0.0625,0},{0.65,0},{1,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed" Name="WaittoFreeList/BG/Price" >
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.74359,0},{0.696864,0},{0.833333,0}}" />
+                <Window Type="DejaVu/Embed2" Name="WaittoFreeList/BG/Price/CoinArea" >
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.142857,0},{0.9,0},{0.857143,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="WaittoFreeList/BG/Price/CoinArea/PriceText" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.03125,0},{0,0},{0.36875,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="WaittoFreeList/BG/Price/CoinArea/Text" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.3125,0},{0,0},{0.8125,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="WaittoFreeList/BG/Price/CoinArea/Image" >
+                        <Property Name="Image" Value="set:main image:ItemMallcoin1" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.84375,0},{0.2,0},{0.9375,0},{0.8,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Button" Name="WaittoFreeList/BG/ReceiveBtn" >
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.871795,0},{0.278746,0},{0.948718,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

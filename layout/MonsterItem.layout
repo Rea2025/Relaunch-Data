@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/Embed8" Name="MonsterItem" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,275},{0,50}}" />
+        <Window Type="DejaVu/Embed2" Name="MonsterItem/Level" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0363636,0},{0,0},{0.218182,0},{0.6,0}}" />
+            <Property Name="VerticalAlignment" Value="Centre" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Window Type="DejaVu/StaticImage" Name="MonsterItem/Level/Num0" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Image" Value="set:DejaVu image:eight" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.18,0},{0,0},{0.38,0},{0.933333,0}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="MonsterItem/Level/Num01" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Image" Value="set:DejaVu image:eight" />
+                <Property Name="UnifiedAreaRect" Value="{{0.18,0},{0,0},{0.74,0},{0.933333,0}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/StaticText" Name="MonsterItem/Name" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="Text" Value="x長脖子‧泰塔羅基" />
+            <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+            <Property Name="UnifiedAreaRect" Value="{{0.254545,0},{0,0},{0.799999,0},{1,0}}" />
+            <Property Name="VerticalAlignment" Value="Centre" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+        </Window>
+        <Window Type="DejaVu/SlotImage" Name="MonsterItem/Slot" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.8,0},{0,0},{0.938182,0},{0.76,0}}" />
+            <Property Name="VerticalAlignment" Value="Centre" />
+        </Window>
+        <Window Type="DejaVu/Zframe2" Name="MonsterItem/SelectFrame" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+        </Window>
+    </Window>
+</GUILayout>

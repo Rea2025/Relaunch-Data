@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/QuestItem" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.75,0},{0,165},{0.75,20}}" />
+        <Window Type="DejaVu/StaticImage" Name="Root/QuestItem/CoinImage" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HorizontalAlignment" Value="Right" />
+            <Property Name="Image" Value="set:main image:ItemMallcoin1" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.0909091,0},{0.75,0}}" />
+            <Property Name="VerticalAlignment" Value="Centre" />
+        </Window>
+        <Window Type="DejaVu/StaticTextLab" Name="Root/QuestItem/CoinText" >
+            <Property Name="HorizontalAlignment" Value="Right" />
+            <Property Name="HorzFormatting" Value="RightAligned" />
+            <Property Name="Text" Value="999" />
+            <Property Name="UnifiedAreaRect" Value="{{-0.0909091,0},{0,0},{0.818182,0},{1,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticText" Name="Root/QuestItem/MsgLb" >
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0740234,0},{0,0},{0.784023,0},{1,0}}" />
+        </Window>
+    </Window>
+</GUILayout>
