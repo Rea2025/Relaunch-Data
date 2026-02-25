@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/Static" Name="EudemonMemory/OverviewItem" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,170},{0,96}}" />
+        <Window Type="DejaVu/Static" Name="EudemonMemory/OverviewItem/Image" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/StaticImage" Name="EudemonMemory/OverviewItem/Image/BG" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Image" Value="set:main25 image:SkyFortuneBagClosed" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            </Window>
+            <Window Type="DejaVu/Static" Name="EudemonMemory/OverviewItem/Image/Bar" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.3125,0}}" />
+                <Property Name="VerticalAlignment" Value="Bottom" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Window Type="DejaVu/Embed2" Name="EudemonMemory/OverviewItem/Image/Bar/BG" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Alpha" Value="0.5" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.571429,0}}" />
+                    <Property Name="VerticalAlignment" Value="Bottom" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="EudemonMemory/OverviewItem/Image/Bar/Text" >
+                    <Property Name="Font" Value="F001-10" />
+                    <Property Name="Text" Value="(10/16)" />
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="HorzFormatting" Value="RightAligned" />
+                    <Property Name="UnifiedAreaRect" Value="{{-0.0235294,0},{-0.0333333,0},{0.3,0},{0.533333,0}}" />
+                    <Property Name="VerticalAlignment" Value="Bottom" />
+                    <Property Name="HorizontalAlignment" Value="Right" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                </Window>
+                <Window Type="DejaVu/Static" Name="EudemonMemory/OverviewItem/Image/Bar/Stars" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.010417,0},{0.114286,0},{0.551593,0},{0.780953,0}}" />
+                    <Window Type="DejaVu/StaticImage" Name="EudemonMemory/OverviewItem/BtnStatic/Bar/Stars/Star01" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Image" Value="set:main2 image:StarBlue" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.217391,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="EudemonMemory/OverviewItem/BtnStatic/Bar/Stars/Star02" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Image" Value="set:main2 image:StarBlue" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.195652,0},{0,0},{0.413043,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="EudemonMemory/OverviewItem/BtnStatic/Bar/Stars/Star03" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Image" Value="set:main2 image:StarBlue" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.391304,0},{0,0},{0.608695,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="EudemonMemory/OverviewItem/BtnStatic/Bar/Stars/Star04" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Image" Value="set:main2 image:StarWhite" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.586957,0},{0,0},{0.804348,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="EudemonMemory/OverviewItem/BtnStatic/Bar/Stars/Star05" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Image" Value="set:main2 image:StarWhite" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.782609,0},{0,0},{1,0},{1,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="EudemonMemory/OverviewItem/BtnStatic/Bar/Progress" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Image" Value="set:DejaVu image:TabButtonUpperSelected" />
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.505882,0},{0.0645161,0}}" />
+                    <Property Name="VerticalAlignment" Value="Bottom" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="EudemonMemory/OverviewItem/Image/Notice" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Image" Value="set:DejaVu image:RedMarkNormal" />
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.0294118,0},{0.0520833,0},{0.0470588,0},{0.1875,0}}" />
+                <Property Name="HorizontalAlignment" Value="Right" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="EudemonMemory/OverviewItem/Frame" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+        </Window>
+        <Window Type="DejaVu/Static" Name="EudemonMemory/OverviewItem/Lock" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Embed2" Name="EudemonMemory/OverviewItem/Lock/BG" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Alpha" Value="0.8" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="EudemonMemory/OverviewItem/Lock/Icon" >
+                <Property Name="Image" Value="set:main image:LargeLock" />
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{-0.208333,0},{0.147059,0},{0.0520833,0}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="EudemonMemory/OverviewItem/Lock/Text" >
+                <Property Name="Font" Value="F001-11" />
+                <Property Name="Text" Value="x達Lv70解鎖" />
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="HorzFormatting" Value="WordWrapCentred" />
+                <Property Name="VertFormatting" Value="TopAligned" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.15625,0},{1,0},{0.572917,0}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Zframe2" Name="EudemonMemory/OverviewItem/Select" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        </Window>
+    </Window>
+</GUILayout>
