@@ -3,7 +3,7 @@
 <GUILayout >
     <Window Type="DejaVu/Static" Name="RankInfoWnd" >
         <Property Name="Font" Value="F001-scale" />
-        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.90625,0},{0.909091,0}}" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.90625,0},{0.851563,0}}" />
         <Window Type="DejaVu/Static" Name="RankInfoWnd/TypeBG" >
             <Property Name="Font" Value="F001-scale" />
             <Property Name="UnifiedAreaRect" Value="{{0.010776,0},{0.015291,0},{0.204742,0},{0.496942,0}}" />
@@ -14,26 +14,26 @@
                     <Property Name="Font" Value="F001-scale" />
                     <Property Name="UnifiedAreaRect" Value="{{0.055556,0},{0.081967,0},{0.944445,0},{0.967213,0}}" />
                     <Window Type="DejaVu/ScrollablePane" Name="RankInfoWnd/TypeBG/Pane" >
-                        <Property Name="Font" Value="F001-scale" />
                         <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
-                        <Property Name="HorzStepSize" Value="0.1" />
-                        <Property Name="VertStepSize" Value="0.1" />
+                        <Property Name="Font" Value="F001-scale" />
                         <Property Name="HorzOverlapSize" Value="0.01" />
+                        <Property Name="HorzScrollPosition" Value="0" />
+                        <Property Name="HorzStepSize" Value="0.1" />
                         <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
                         <Property Name="VertOverlapSize" Value="0.01" />
-                        <Property Name="HorzScrollPosition" Value="0" />
                         <Property Name="VertScrollPosition" Value="0" />
+                        <Property Name="VertStepSize" Value="0.1" />
                         <AutoWindow NameSuffix="__auto_container__" >
-                            <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
                             <Property Name="ChildExtentsArea" Value="l:0 t:0 r:0 b:0" />
+                            <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
                             <Property Name="MouseInputPropagationEnabled" Value="True" />
                         </AutoWindow>
                     </Window>
                 </Window>
             </Window>
             <Window Type="DejaVu/Embed4" Name="RankInfoWnd/TypeBG/Title" >
-                <Property Name="Font" Value="F001-scale" />
                 <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="Font" Value="F001-scale" />
                 <Property Name="UnifiedAreaRect" Value="{{0.055556,0},{0,0},{0.888889,0},{0.0793651,0}}" />
                 <Window Type="DejaVu/StaticImage" Name="RankInfoWnd/TypeBG/Title/Icon" >
                     <Property Name="Font" Value="F001-scale" />
@@ -58,16 +58,16 @@
                     <Property Name="UnifiedAreaRect" Value="{{0.055556,0},{0.082237,0},{0.944444,0},{0.966666,0}}" />
                     <Window Type="DejaVu/StaticText" Name="RankInfoWnd/IntroBG/ContentText" >
                         <Property Name="Font" Value="F001-9" />
-                        <Property Name="Text" Value="x一二三四" />
                         <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
-                        <Property Name="VertFormatting" Value="TopAligned" />
+                        <Property Name="Text" Value="x一二三四" />
                         <Property Name="UnifiedAreaRect" Value="{{0.03125,0},{0.018587,0},{0.96875,0},{0.981412,0}}" />
+                        <Property Name="VertFormatting" Value="TopAligned" />
                     </Window>
                 </Window>
             </Window>
             <Window Type="DejaVu/Embed4" Name="RankInfoWnd/IntroBG/Title" >
-                <Property Name="Font" Value="F001-scale" />
                 <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="Font" Value="F001-scale" />
                 <Property Name="UnifiedAreaRect" Value="{{0.055556,0},{0,0},{0.888889,0},{0.0796178,0}}" />
                 <Window Type="DejaVu/StaticImage" Name="RankInfoWnd/IntroBG/Title/Icon" >
                     <Property Name="Font" Value="F001-scale" />
@@ -86,16 +86,16 @@
             <Property Name="UnifiedAreaRect" Value="{{0.210811,0},{0.015291,0},{0.99027,0},{0.98471,0}}" />
             <Window Type="DejaVu/Embed2" Name="RankInfoWnd/ListBG/BG" >
                 <Property Name="Font" Value="F001-scale" />
-                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0142105,0},{1,0},{0.998438,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.015773,0},{1,0},{1,0}}" />
                 <Window Type="DejaVu/Static" Name="RankInfoWnd/ListBG/BG/WeaponBG" >
                     <Property Name="Font" Value="F001-scale" />
                     <Property Name="UnifiedAreaRect" Value="{{0.013831,0},{0.05609,0},{0.636238,0},{0.120193,0}}" />
                     <Window Type="DejaVu/ImageButton" Name="RankInfoWnd/ListBG/PrevWeaponBtn" >
+                        <Property Name="DisabledImage" Value="set:DejaVu image:ArrowLeftPressed" />
                         <Property Name="Font" Value="F001-scale" />
                         <Property Name="HoverImage" Value="set:DejaVu image:ArrowLeftHover" />
                         <Property Name="NormalImage" Value="set:DejaVu image:ArrowLeftNormal" />
                         <Property Name="PushedImage" Value="set:DejaVu image:ArrowLeftPressed" />
-                        <Property Name="DisabledImage" Value="set:DejaVu image:ArrowLeftPressed" />
                         <Property Name="UnifiedAreaRect" Value="{{0,0},{0.2,0},{0.0444444,0},{0.825,0}}" />
                     </Window>
                     <Window Type="DejaVu/ImageRadioButton" Name="RankInfoWnd/ListBG/WeaponBtn1" >
@@ -105,12 +105,12 @@
                         <Property Name="PushedImage" Value="set:main2 image:WP1BtnPressed" />
                         <Property Name="UnifiedAreaRect" Value="{{0.066667,0},{0,0},{0.155556,0},{1,0}}" />
                         <Window Type="DejaVu/StaticImage" Name="RankInfoWnd/ListBG/WeaponBtn1/Frame" >
-                            <Property Name="Font" Value="F001-scale" />
-                            <Property Name="Image" Value="set:DejaVu image:OrangeItem" />
                             <Property Name="AlwaysOnTop" Value="True" />
                             <Property Name="ClippedByParent" Value="False" />
-                            <Property Name="UnifiedAreaRect" Value="{{-0.025,0},{-0.025,0},{1.025,0},{1.025,0}}" />
+                            <Property Name="Font" Value="F001-scale" />
+                            <Property Name="Image" Value="set:DejaVu image:OrangeItem" />
                             <Property Name="MousePassThroughEnabled" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{-0.025,0},{-0.025,0},{1.025,0},{1.025,0}}" />
                         </Window>
                     </Window>
                     <Window Type="DejaVu/ImageRadioButton" Name="RankInfoWnd/ListBG/WeaponBtn2" >
@@ -120,12 +120,12 @@
                         <Property Name="PushedImage" Value="set:main2 image:WP2BtnPressed" />
                         <Property Name="UnifiedAreaRect" Value="{{0.177778,0},{0,0},{0.266667,0},{1,0}}" />
                         <Window Type="DejaVu/StaticImage" Name="RankInfoWnd/ListBG/WeaponBtn2/Frame" >
-                            <Property Name="Font" Value="F001-scale" />
-                            <Property Name="Image" Value="set:DejaVu image:OrangeItem" />
                             <Property Name="AlwaysOnTop" Value="True" />
                             <Property Name="ClippedByParent" Value="False" />
-                            <Property Name="UnifiedAreaRect" Value="{{-0.025,0},{-0.025,0},{1.025,0},{1.025,0}}" />
+                            <Property Name="Font" Value="F001-scale" />
+                            <Property Name="Image" Value="set:DejaVu image:OrangeItem" />
                             <Property Name="MousePassThroughEnabled" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{-0.025,0},{-0.025,0},{1.025,0},{1.025,0}}" />
                         </Window>
                     </Window>
                     <Window Type="DejaVu/ImageRadioButton" Name="RankInfoWnd/ListBG/WeaponBtn3" >
@@ -135,12 +135,12 @@
                         <Property Name="PushedImage" Value="set:main2 image:WP3BtnPressed" />
                         <Property Name="UnifiedAreaRect" Value="{{0.288889,0},{0,0},{0.377778,0},{1,0}}" />
                         <Window Type="DejaVu/StaticImage" Name="RankInfoWnd/ListBG/WeaponBtn3/Frame" >
-                            <Property Name="Font" Value="F001-scale" />
-                            <Property Name="Image" Value="set:DejaVu image:OrangeItem" />
                             <Property Name="AlwaysOnTop" Value="True" />
                             <Property Name="ClippedByParent" Value="False" />
-                            <Property Name="UnifiedAreaRect" Value="{{-0.025,0},{-0.025,0},{1.025,0},{1.025,0}}" />
+                            <Property Name="Font" Value="F001-scale" />
+                            <Property Name="Image" Value="set:DejaVu image:OrangeItem" />
                             <Property Name="MousePassThroughEnabled" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{-0.025,0},{-0.025,0},{1.025,0},{1.025,0}}" />
                         </Window>
                     </Window>
                     <Window Type="DejaVu/ImageRadioButton" Name="RankInfoWnd/ListBG/WeaponBtn4" >
@@ -150,12 +150,12 @@
                         <Property Name="PushedImage" Value="set:main2 image:WP4BtnPressed" />
                         <Property Name="UnifiedAreaRect" Value="{{0.4,0},{0,0},{0.488889,0},{1,0}}" />
                         <Window Type="DejaVu/StaticImage" Name="RankInfoWnd/ListBG/WeaponBtn4/Frame" >
-                            <Property Name="Font" Value="F001-scale" />
-                            <Property Name="Image" Value="set:DejaVu image:OrangeItem" />
                             <Property Name="AlwaysOnTop" Value="True" />
                             <Property Name="ClippedByParent" Value="False" />
-                            <Property Name="UnifiedAreaRect" Value="{{-0.025,0},{-0.025,0},{1.025,0},{1.025,0}}" />
+                            <Property Name="Font" Value="F001-scale" />
+                            <Property Name="Image" Value="set:DejaVu image:OrangeItem" />
                             <Property Name="MousePassThroughEnabled" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{-0.025,0},{-0.025,0},{1.025,0},{1.025,0}}" />
                         </Window>
                     </Window>
                     <Window Type="DejaVu/ImageRadioButton" Name="RankInfoWnd/ListBG/WeaponBtn5" >
@@ -165,12 +165,12 @@
                         <Property Name="PushedImage" Value="set:main2 image:WP5BtnPressed" />
                         <Property Name="UnifiedAreaRect" Value="{{0.511111,0},{0,0},{0.6,0},{1,0}}" />
                         <Window Type="DejaVu/StaticImage" Name="RankInfoWnd/ListBG/WeaponBtn5/Frame" >
-                            <Property Name="Font" Value="F001-scale" />
-                            <Property Name="Image" Value="set:DejaVu image:OrangeItem" />
                             <Property Name="AlwaysOnTop" Value="True" />
                             <Property Name="ClippedByParent" Value="False" />
-                            <Property Name="UnifiedAreaRect" Value="{{-0.025,0},{-0.025,0},{1.025,0},{1.025,0}}" />
+                            <Property Name="Font" Value="F001-scale" />
+                            <Property Name="Image" Value="set:DejaVu image:OrangeItem" />
                             <Property Name="MousePassThroughEnabled" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{-0.025,0},{-0.025,0},{1.025,0},{1.025,0}}" />
                         </Window>
                     </Window>
                     <Window Type="DejaVu/ImageRadioButton" Name="RankInfoWnd/ListBG/WeaponBtn6" >
@@ -180,28 +180,28 @@
                         <Property Name="PushedImage" Value="set:main2 image:WP6BtnPressed" />
                         <Property Name="UnifiedAreaRect" Value="{{0.622222,0},{0,0},{0.711111,0},{1,0}}" />
                         <Window Type="DejaVu/StaticImage" Name="RankInfoWnd/ListBG/WeaponBtn6/Frame" >
-                            <Property Name="Font" Value="F001-scale" />
-                            <Property Name="Image" Value="set:DejaVu image:OrangeItem" />
                             <Property Name="AlwaysOnTop" Value="True" />
                             <Property Name="ClippedByParent" Value="False" />
-                            <Property Name="UnifiedAreaRect" Value="{{-0.025,0},{-0.025,0},{1.025,0},{1.025,0}}" />
+                            <Property Name="Font" Value="F001-scale" />
+                            <Property Name="Image" Value="set:DejaVu image:OrangeItem" />
                             <Property Name="MousePassThroughEnabled" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{-0.025,0},{-0.025,0},{1.025,0},{1.025,0}}" />
                         </Window>
                     </Window>
                     <Window Type="DejaVu/ImageRadioButton" Name="RankInfoWnd/ListBG/WeaponBtn7" >
+                        <Property Name="ClippedByParent" Value="False" />
                         <Property Name="Font" Value="F001-scale" />
                         <Property Name="HoverImage" Value="set:main2 image:WP7BtnHover" />
                         <Property Name="NormalImage" Value="set:main2 image:WP7BtnNormal" />
                         <Property Name="PushedImage" Value="set:main2 image:WP7BtnPressed" />
-                        <Property Name="ClippedByParent" Value="False" />
                         <Property Name="UnifiedAreaRect" Value="{{0.733333,0},{0,0},{0.822222,0},{1,0}}" />
                         <Window Type="DejaVu/StaticImage" Name="RankInfoWnd/ListBG/WeaponBtn7/Frame" >
-                            <Property Name="Font" Value="F001-scale" />
-                            <Property Name="Image" Value="set:DejaVu image:OrangeItem" />
                             <Property Name="AlwaysOnTop" Value="True" />
                             <Property Name="ClippedByParent" Value="False" />
-                            <Property Name="UnifiedAreaRect" Value="{{-0.025,0},{-0.025,0},{1.025,0},{1.025,0}}" />
+                            <Property Name="Font" Value="F001-scale" />
+                            <Property Name="Image" Value="set:DejaVu image:OrangeItem" />
                             <Property Name="MousePassThroughEnabled" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{-0.025,0},{-0.025,0},{1.025,0},{1.025,0}}" />
                         </Window>
                     </Window>
                     <Window Type="DejaVu/ImageRadioButton" Name="RankInfoWnd/ListBG/WeaponBtn8" >
@@ -211,27 +211,27 @@
                         <Property Name="PushedImage" Value="set:main2 image:WP8BtnPressed" />
                         <Property Name="UnifiedAreaRect" Value="{{0.844444,0},{0,0},{0.933333,0},{1,0}}" />
                         <Window Type="DejaVu/StaticImage" Name="RankInfoWnd/ListBG/WeaponBtn8/Frame" >
-                            <Property Name="Font" Value="F001-scale" />
-                            <Property Name="Image" Value="set:DejaVu image:OrangeItem" />
                             <Property Name="AlwaysOnTop" Value="True" />
                             <Property Name="ClippedByParent" Value="False" />
-                            <Property Name="UnifiedAreaRect" Value="{{-0.025,0},{-0.025,0},{1.025,0},{1.025,0}}" />
+                            <Property Name="Font" Value="F001-scale" />
+                            <Property Name="Image" Value="set:DejaVu image:OrangeItem" />
                             <Property Name="MousePassThroughEnabled" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{-0.025,0},{-0.025,0},{1.025,0},{1.025,0}}" />
                         </Window>
                     </Window>
                     <Window Type="DejaVu/ImageButton" Name="RankInfoWnd/ListBG/NextWeaponBtn" >
+                        <Property Name="DisabledImage" Value="set:DejaVu image:ArrowRightPressed" />
                         <Property Name="Font" Value="F001-scale" />
                         <Property Name="HoverImage" Value="set:DejaVu image:ArrowRightHover" />
                         <Property Name="NormalImage" Value="set:DejaVu image:ArrowRightNormal" />
                         <Property Name="PushedImage" Value="set:DejaVu image:ArrowRightPressed" />
-                        <Property Name="DisabledImage" Value="set:DejaVu image:ArrowRightPressed" />
                         <Property Name="UnifiedAreaRect" Value="{{0.955556,0},{0.2,0},{1,0},{0.825,0}}" />
                     </Window>
                 </Window>
                 <Window Type="DejaVu/EmbedTextLab7" Name="RankInfoWnd/ListBG/ResetTitle" >
                     <Property Name="Font" Value="F001-9" />
-                    <Property Name="Text" Value="x重置時間" />
                     <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="x重置時間" />
                     <Property Name="UnifiedAreaRect" Value="{{0.663717,0},{0.02594,0},{0.774336,0},{0.0648505,0}}" />
                 </Window>
                 <Window Type="DejaVu/EmbedText2" Name="RankInfoWnd/ListBG/ResetText" >
@@ -242,8 +242,8 @@
                 </Window>
                 <Window Type="DejaVu/EmbedTextLab7" Name="RankInfoWnd/ListBG/RefreshTitle" >
                     <Property Name="Font" Value="F001-9" />
-                    <Property Name="Text" Value="x一二三四" />
                     <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="x一二三四" />
                     <Property Name="UnifiedAreaRect" Value="{{0.663717,0},{0.064851,0},{0.774336,0},{0.103762,0}}" />
                 </Window>
                 <Window Type="DejaVu/EmbedTextLab2" Name="RankInfoWnd/ListBG/RefreshText" >
@@ -254,21 +254,21 @@
                 </Window>
                 <Window Type="DejaVu/Embed2" Name="RankInfoWnd/ListBG/BG/RankBG" >
                     <Property Name="Font" Value="F001-scale" />
-                    <Property Name="UnifiedAreaRect" Value="{{0.014012,0},{0.162127,0},{0.986349,0},{0.892286,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0140118,0},{0.162127,0},{0.985988,0},{0.889754,0}}" />
                     <Window Type="DejaVu/Static" Name="RankInfoWnd/ListBG/PlayerInfo1" >
                         <Property Name="Font" Value="F001-scale" />
-                        <Property Name="UnifiedAreaRect" Value="{{0.00284495,0},{0.0608696,0},{0.997155,0},{0.173913,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.00284495,0},{0.061674,0},{0.997155,0},{0.176211,0}}" />
                         <Window Type="DejaVu/EmbedTextLab3" Name="RankInfoWnd/ListBG/PlayerInfo1/RankText" >
                             <Property Name="Font" Value="F001-9" />
-                            <Property Name="Text" Value="1" />
                             <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="1" />
                             <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.0858369,0},{1,0}}" />
                         </Window>
                         <Window Type="DejaVu/Embed3" Name="RankInfoWnd/ListBG/PlayerInfo1/Guild" >
                             <Property Name="Font" Value="F001-scale" />
                             <Property Name="UnifiedAreaRect" Value="{{0.085837,0},{0,0},{0.351931,0},{1,0}}" />
                             <Window Type="DejaVu/StaticText" Name="RankInfoWnd/ListBG/PlayerInfo1/Guild/NameText" >
-                                <Property Name="Font" Value="F001-10" />
+                                <Property Name="Font" Value="F001-9" />
                                 <Property Name="Text" Value="x一二三四五六七八" />
                                 <Property Name="UnifiedAreaRect" Value="{{0.306452,0},{0.307692,0},{0.973119,0},{0.692307,0}}" />
                             </Window>
@@ -283,28 +283,46 @@
                             </Window>
                         </Window>
                         <Window Type="DejaVu/EmbedTextLab3" Name="RankInfoWnd/ListBG/PlayerInfo1/NameText" >
-                            <Property Name="Font" Value="F001-10" />
-                            <Property Name="Text" Value="x一二三四五六" />
+                            <Property Name="Font" Value="F001-9" />
                             <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="x一二三四五六" />
                             <Property Name="UnifiedAreaRect" Value="{{0.351931,0},{0,0},{0.543633,0},{1,0}}" />
                         </Window>
                         <Window Type="DejaVu/EmbedTextLab3" Name="RankInfoWnd/ListBG/PlayerInfo1/LevelText" >
                             <Property Name="Font" Value="F001-9" />
-                            <Property Name="Text" Value="x999" />
                             <Property Name="HorzFormatting" Value="HorzCentred" />
-                            <Property Name="UnifiedAreaRect" Value="{{0.54386,0},{0,0},{0.629697,0},{1,0}}" />
+                            <Property Name="Text" Value="x999" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.543634,0},{0,0},{0.629471,0},{1,0}}" />
                         </Window>
                         <Window Type="DejaVu/EmbedTextLab3" Name="RankInfoWnd/ListBG/PlayerInfo1/ScoreText" >
-                            <Property Name="Font" Value="F001-10" />
-                            <Property Name="Text" Value="x01時02分03秒456" />
+                            <Property Name="Font" Value="F001-9" />
                             <Property Name="HorzFormatting" Value="HorzCentred" />
-                            <Property Name="UnifiedAreaRect" Value="{{0.629471,0},{0,0},{0.783977,0},{1,0}}" />
+                            <Property Name="Text" Value="x9999999" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.629471,0},{0,0},{0.758226,0},{1,0}}" />
                         </Window>
-                        <Window Type="DejaVu/Embed3" Name="RankInfoWnd/ListBG/PlayerInfo1/Reward" >
-                            <Property Name="UnifiedAreaRect" Value="{{0.783977,0},{0,0},{0.998569,0},{1,0}}" />
+                        <Window Type="DejaVu/EmbedTextLab3" Name="RankInfoWnd/ListBG/PlayerInfo1/DefeatText" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="x99999" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.758226,0},{0,0},{0.858369,0},{1,0}}" />
+                            <Window Type="DejaVu/ImageButton" Name="RankInfoWnd/ListBG/PlayerInfo1/PreviewBtn" >
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="HorizontalAlignment" Value="Centre" />
+                                <Property Name="HoverImage" Value="set:main16 image:CharViewHover" />
+                                <Property Name="ID" Value="1" />
+                                <Property Name="NormalImage" Value="set:main16 image:CharViewNormal" />
+                                <Property Name="PushedImage" Value="set:main16 image:CharViewPressed" />
+                                <Property Name="Text" Value="x預覽" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.5,0},{0.673077,0}}" />
+                                <Property Name="VerticalAlignment" Value="Centre" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/Embed3" Name="RankInfoWnd/RankBG/PlayerInfo1/Reward" >
+                            <Property Name="Font" Value="F001-scale" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.858369,0},{0,0},{1,0},{1,0}}" />
                             <Window Type="DejaVu/SlotImage" Name="RankInfoWnd/ListBG/PlayerInfo1/Reward/Icon1" >
                                 <Property Name="Font" Value="F001-scale" />
-                                <Property Name="UnifiedAreaRect" Value="{{0.0466667,0},{0.0961538,0},{0.326667,0},{0.903846,0}}" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.050505,0},{0.096154,0},{0.474747,0},{0.903846,0}}" />
                                 <Window Type="DejaVu/SlotImageItem" Name="RankInfoWnd/ListBG/PlayerInfo1/Reward/Icon1/Image" >
                                     <Property Name="Font" Value="F001-scale" />
                                     <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
@@ -312,16 +330,8 @@
                             </Window>
                             <Window Type="DejaVu/SlotImage" Name="RankInfoWnd/ListBG/PlayerInfo1/Reward/Icon2" >
                                 <Property Name="Font" Value="F001-scale" />
-                                <Property Name="UnifiedAreaRect" Value="{{0.36,0},{0.0961538,0},{0.64,0},{0.903846,0}}" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.525253,0},{0.096154,0},{0.949495,0},{0.903846,0}}" />
                                 <Window Type="DejaVu/SlotImageItem" Name="RankInfoWnd/ListBG/PlayerInfo1/Reward/Icon2/Image" >
-                                    <Property Name="Font" Value="F001-scale" />
-                                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
-                                </Window>
-                            </Window>
-                            <Window Type="DejaVu/SlotImage" Name="RankInfoWnd/ListBG/PlayerInfo1/Reward/Icon3" >
-                                <Property Name="Font" Value="F001-scale" />
-                                <Property Name="UnifiedAreaRect" Value="{{0.673333,0},{0.0961538,0},{0.953333,0},{0.903846,0}}" />
-                                <Window Type="DejaVu/SlotImageItem" Name="RankInfoWnd/ListBG/PlayerInfo1/Reward/Icon3/Image" >
                                     <Property Name="Font" Value="F001-scale" />
                                     <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
                                 </Window>
@@ -330,10 +340,10 @@
                     </Window>
                     <Window Type="DejaVu/Static" Name="RankInfoWnd/ListBG/PlayerInfo2" >
                         <Property Name="Font" Value="F001-scale" />
-                        <Property Name="UnifiedAreaRect" Value="{{0.00284495,0},{0.178261,0},{0.997155,0},{0.291304,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.00284495,0},{0.178414,0},{0.997155,0},{0.292952,0}}" />
                         <Window Type="DejaVu/EmbedTextLab3" Name="RankInfoWnd/ListBG/PlayerInfo2/RankText" >
-                            <Property Name="Text" Value="1" />
                             <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="1" />
                             <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.0858369,0},{1,0}}" />
                         </Window>
                         <Window Type="DejaVu/Embed3" Name="RankInfoWnd/ListBG/BG/RankBG/PlayerInfo2/Guild" >
@@ -354,25 +364,42 @@
                             </Window>
                         </Window>
                         <Window Type="DejaVu/EmbedTextLab3" Name="RankInfoWnd/ListBG/PlayerInfo2/NameText" >
-                            <Property Name="Text" Value="x一二三四五六" />
                             <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="x一二三四五六" />
                             <Property Name="UnifiedAreaRect" Value="{{0.351931,0},{0,0},{0.543633,0},{1,0}}" />
                         </Window>
                         <Window Type="DejaVu/EmbedTextLab3" Name="RankInfoWnd/ListBG/PlayerInfo2/LevelText" >
-                            <Property Name="Text" Value="x999" />
                             <Property Name="HorzFormatting" Value="HorzCentred" />
-                            <Property Name="UnifiedAreaRect" Value="{{0.54386,0},{0,0},{0.629697,0},{1,0}}" />
+                            <Property Name="Text" Value="x999" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.543634,0},{0,0},{0.629471,0},{1,0}}" />
                         </Window>
                         <Window Type="DejaVu/EmbedTextLab3" Name="RankInfoWnd/ListBG/PlayerInfo2/ScoreText" >
-                            <Property Name="Text" Value="x01時02分03秒456" />
                             <Property Name="HorzFormatting" Value="HorzCentred" />
-                            <Property Name="UnifiedAreaRect" Value="{{0.629471,0},{0,0},{0.783977,0},{1,0}}" />
+                            <Property Name="Text" Value="x9999999" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.629471,0},{0,0},{0.758226,0},{1,0}}" />
                         </Window>
-                        <Window Type="DejaVu/Embed3" Name="RankInfoWnd/ListBG/PlayerInfo2/Reward" >
-                            <Property Name="UnifiedAreaRect" Value="{{0.783977,0},{0,0},{0.998569,0},{1,0}}" />
+                        <Window Type="DejaVu/EmbedTextLab3" Name="RankInfoWnd/ListBG/PlayerInfo2/DefeatText" >
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="x99999" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.758226,0},{0,0},{0.858369,0},{1,0}}" />
+                            <Window Type="DejaVu/ImageButton" Name="RankInfoWnd/ListBG/PlayerInfo2/PreviewBtn" >
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="HorizontalAlignment" Value="Centre" />
+                                <Property Name="HoverImage" Value="set:main16 image:CharViewHover" />
+                                <Property Name="ID" Value="2" />
+                                <Property Name="NormalImage" Value="set:main16 image:CharViewNormal" />
+                                <Property Name="PushedImage" Value="set:main16 image:CharViewPressed" />
+                                <Property Name="Text" Value="x預覽" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.5,0},{0.673077,0}}" />
+                                <Property Name="VerticalAlignment" Value="Centre" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/Embed3" Name="RankInfoWnd/ListBG/BG/RankBG/PlayerInfo2/Reward" >
+                            <Property Name="Font" Value="F001-scale" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.858369,0},{0,0},{1,0},{1,0}}" />
                             <Window Type="DejaVu/SlotImage" Name="RankInfoWnd/ListBG/PlayerInfo2/Reward/Icon1" >
                                 <Property Name="Font" Value="F001-scale" />
-                                <Property Name="UnifiedAreaRect" Value="{{0.046667,0},{0.096154,0},{0.326667,0},{0.903846,0}}" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.050505,0},{0.096154,0},{0.474747,0},{0.903846,0}}" />
                                 <Window Type="DejaVu/SlotImageItem" Name="RankInfoWnd/ListBG/PlayerInfo2/Reward/Icon1/Image" >
                                     <Property Name="Font" Value="F001-scale" />
                                     <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
@@ -380,16 +407,8 @@
                             </Window>
                             <Window Type="DejaVu/SlotImage" Name="RankInfoWnd/ListBG/PlayerInfo2/Reward/Icon2" >
                                 <Property Name="Font" Value="F001-scale" />
-                                <Property Name="UnifiedAreaRect" Value="{{0.36,0},{0.096154,0},{0.64,0},{0.903846,0}}" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.525253,0},{0.096154,0},{0.949495,0},{0.903846,0}}" />
                                 <Window Type="DejaVu/SlotImageItem" Name="RankInfoWnd/ListBG/PlayerInfo2/Reward/Icon2/Image" >
-                                    <Property Name="Font" Value="F001-scale" />
-                                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
-                                </Window>
-                            </Window>
-                            <Window Type="DejaVu/SlotImage" Name="RankInfoWnd/ListBG/PlayerInfo2/Reward/Icon3" >
-                                <Property Name="Font" Value="F001-scale" />
-                                <Property Name="UnifiedAreaRect" Value="{{0.673333,0},{0.096154,0},{0.953333,0},{0.903846,0}}" />
-                                <Window Type="DejaVu/SlotImageItem" Name="RankInfoWnd/ListBG/PlayerInfo2/Reward/Icon3/Image" >
                                     <Property Name="Font" Value="F001-scale" />
                                     <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
                                 </Window>
@@ -398,10 +417,10 @@
                     </Window>
                     <Window Type="DejaVu/Static" Name="RankInfoWnd/ListBG/PlayerInfo3" >
                         <Property Name="Font" Value="F001-scale" />
-                        <Property Name="UnifiedAreaRect" Value="{{0.00284495,0},{0.295652,0},{0.997155,0},{0.408696,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.00284495,0},{0.295154,0},{0.997155,0},{0.409692,0}}" />
                         <Window Type="DejaVu/EmbedTextLab3" Name="RankInfoWnd/ListBG/PlayerInfo3/RankText" >
-                            <Property Name="Text" Value="1" />
                             <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="1" />
                             <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.0858369,0},{1,0}}" />
                         </Window>
                         <Window Type="DejaVu/Embed3" Name="RankInfoWnd/ListBG/BG/RankBG/PlayerInfo3/Guild" >
@@ -422,25 +441,42 @@
                             </Window>
                         </Window>
                         <Window Type="DejaVu/EmbedTextLab3" Name="RankInfoWnd/ListBG/PlayerInfo3/NameText" >
-                            <Property Name="Text" Value="x一二三四五六" />
                             <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="x一二三四五六" />
                             <Property Name="UnifiedAreaRect" Value="{{0.351931,0},{0,0},{0.543633,0},{1,0}}" />
                         </Window>
                         <Window Type="DejaVu/EmbedTextLab3" Name="RankInfoWnd/ListBG/PlayerInfo3/LevelText" >
-                            <Property Name="Text" Value="x999" />
                             <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="x999" />
                             <Property Name="UnifiedAreaRect" Value="{{0.543634,0},{0,0},{0.629471,0},{1,0}}" />
                         </Window>
                         <Window Type="DejaVu/EmbedTextLab3" Name="RankInfoWnd/ListBG/PlayerInfo3/ScoreText" >
-                            <Property Name="Text" Value="x01時02分03秒456" />
                             <Property Name="HorzFormatting" Value="HorzCentred" />
-                            <Property Name="UnifiedAreaRect" Value="{{0.629471,0},{0,0},{0.783977,0},{1,0}}" />
+                            <Property Name="Text" Value="x9999999" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.629471,0},{0,0},{0.758226,0},{1,0}}" />
                         </Window>
-                        <Window Type="DejaVu/Embed3" Name="RankInfoWnd/ListBG/PlayerInfo3/Reward" >
-                            <Property Name="UnifiedAreaRect" Value="{{0.783977,0},{0,0},{0.998569,0},{1,0}}" />
+                        <Window Type="DejaVu/EmbedTextLab3" Name="RankInfoWnd/ListBG/PlayerInfo3/DefeatText" >
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="x99999" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.758226,0},{0,0},{0.858369,0},{1,0}}" />
+                            <Window Type="DejaVu/ImageButton" Name="RankInfoWnd/ListBG/PlayerInfo3/PreviewBtn" >
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="HorizontalAlignment" Value="Centre" />
+                                <Property Name="HoverImage" Value="set:main16 image:CharViewHover" />
+                                <Property Name="ID" Value="3" />
+                                <Property Name="NormalImage" Value="set:main16 image:CharViewNormal" />
+                                <Property Name="PushedImage" Value="set:main16 image:CharViewPressed" />
+                                <Property Name="Text" Value="x預覽" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.5,0},{0.673077,0}}" />
+                                <Property Name="VerticalAlignment" Value="Centre" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/Embed3" Name="RankInfoWnd/ListBG/BG/RankBG/PlayerInfo3/Reward" >
+                            <Property Name="Font" Value="F001-scale" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.858369,0},{0,0},{1,0},{1,0}}" />
                             <Window Type="DejaVu/SlotImage" Name="RankInfoWnd/ListBG/PlayerInfo3/Reward/Icon1" >
                                 <Property Name="Font" Value="F001-scale" />
-                                <Property Name="UnifiedAreaRect" Value="{{0.046667,0},{0.096154,0},{0.326667,0},{0.903846,0}}" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.050505,0},{0.096154,0},{0.474747,0},{0.903846,0}}" />
                                 <Window Type="DejaVu/SlotImageItem" Name="RankInfoWnd/ListBG/PlayerInfo3/Reward/Icon1/Image" >
                                     <Property Name="Font" Value="F001-scale" />
                                     <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
@@ -448,16 +484,8 @@
                             </Window>
                             <Window Type="DejaVu/SlotImage" Name="RankInfoWnd/ListBG/PlayerInfo3/Reward/Icon2" >
                                 <Property Name="Font" Value="F001-scale" />
-                                <Property Name="UnifiedAreaRect" Value="{{0.36,0},{0.096154,0},{0.64,0},{0.903846,0}}" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.525253,0},{0.096154,0},{0.949495,0},{0.903846,0}}" />
                                 <Window Type="DejaVu/SlotImageItem" Name="RankInfoWnd/ListBG/PlayerInfo3/Reward/Icon2/Image" >
-                                    <Property Name="Font" Value="F001-scale" />
-                                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
-                                </Window>
-                            </Window>
-                            <Window Type="DejaVu/SlotImage" Name="RankInfoWnd/ListBG/PlayerInfo3/Reward/Icon3" >
-                                <Property Name="Font" Value="F001-scale" />
-                                <Property Name="UnifiedAreaRect" Value="{{0.673333,0},{0.096154,0},{0.953333,0},{0.903846,0}}" />
-                                <Window Type="DejaVu/SlotImageItem" Name="RankInfoWnd/ListBG/PlayerInfo3/Reward/Icon3/Image" >
                                     <Property Name="Font" Value="F001-scale" />
                                     <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
                                 </Window>
@@ -466,10 +494,10 @@
                     </Window>
                     <Window Type="DejaVu/Static" Name="RankInfoWnd/ListBG/PlayerInfo4" >
                         <Property Name="Font" Value="F001-scale" />
-                        <Property Name="UnifiedAreaRect" Value="{{0.00284495,0},{0.413043,0},{0.997155,0},{0.526087,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.00284495,0},{0.411894,0},{0.997155,0},{0.526432,0}}" />
                         <Window Type="DejaVu/EmbedTextLab3" Name="RankInfoWnd/ListBG/PlayerInfo4/RankText" >
-                            <Property Name="Text" Value="1" />
                             <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="1" />
                             <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.0858369,0},{1,0}}" />
                         </Window>
                         <Window Type="DejaVu/Embed3" Name="RankInfoWnd/ListBG/BG/RankBG/PlayerInfo4/Guild" >
@@ -490,25 +518,42 @@
                             </Window>
                         </Window>
                         <Window Type="DejaVu/EmbedTextLab3" Name="RankInfoWnd/ListBG/PlayerInfo4/NameText" >
-                            <Property Name="Text" Value="x一二三四五六" />
                             <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="x一二三四五六" />
                             <Property Name="UnifiedAreaRect" Value="{{0.351931,0},{0,0},{0.543633,0},{1,0}}" />
                         </Window>
                         <Window Type="DejaVu/EmbedTextLab3" Name="RankInfoWnd/ListBG/PlayerInfo4/LevelText" >
-                            <Property Name="Text" Value="x999" />
                             <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="x999" />
                             <Property Name="UnifiedAreaRect" Value="{{0.543634,0},{0,0},{0.629471,0},{1,0}}" />
                         </Window>
                         <Window Type="DejaVu/EmbedTextLab3" Name="RankInfoWnd/ListBG/PlayerInfo4/ScoreText" >
-                            <Property Name="Text" Value="x01時02分03秒456" />
                             <Property Name="HorzFormatting" Value="HorzCentred" />
-                            <Property Name="UnifiedAreaRect" Value="{{0.629471,0},{0,0},{0.783977,0},{1,0}}" />
+                            <Property Name="Text" Value="x9999999" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.629471,0},{0,0},{0.758226,0},{1,0}}" />
                         </Window>
-                        <Window Type="DejaVu/Embed3" Name="RankInfoWnd/ListBG/PlayerInfo4/Reward" >
-                            <Property Name="UnifiedAreaRect" Value="{{0.783977,0},{0,0},{0.998569,0},{1,0}}" />
+                        <Window Type="DejaVu/EmbedTextLab3" Name="RankInfoWnd/ListBG/PlayerInfo4/DefeatText" >
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="x99999" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.758226,0},{0,0},{0.858369,0},{1,0}}" />
+                            <Window Type="DejaVu/ImageButton" Name="RankInfoWnd/ListBG/PlayerInfo4/PreviewBtn" >
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="HorizontalAlignment" Value="Centre" />
+                                <Property Name="HoverImage" Value="set:main16 image:CharViewHover" />
+                                <Property Name="ID" Value="4" />
+                                <Property Name="NormalImage" Value="set:main16 image:CharViewNormal" />
+                                <Property Name="PushedImage" Value="set:main16 image:CharViewPressed" />
+                                <Property Name="Text" Value="x預覽" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.5,0},{0.673077,0}}" />
+                                <Property Name="VerticalAlignment" Value="Centre" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/Embed3" Name="RankInfoWnd/ListBG/BG/RankBG/PlayerInfo4/Reward" >
+                            <Property Name="Font" Value="F001-scale" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.858369,0},{0,0},{1,0},{1,0}}" />
                             <Window Type="DejaVu/SlotImage" Name="RankInfoWnd/ListBG/PlayerInfo4/Reward/Icon1" >
                                 <Property Name="Font" Value="F001-scale" />
-                                <Property Name="UnifiedAreaRect" Value="{{0.046667,0},{0.096154,0},{0.326667,0},{0.903846,0}}" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.050505,0},{0.096154,0},{0.474747,0},{0.903846,0}}" />
                                 <Window Type="DejaVu/SlotImageItem" Name="RankInfoWnd/ListBG/PlayerInfo4/Reward/Icon1/Image" >
                                     <Property Name="Font" Value="F001-scale" />
                                     <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
@@ -516,16 +561,8 @@
                             </Window>
                             <Window Type="DejaVu/SlotImage" Name="RankInfoWnd/ListBG/PlayerInfo4/Reward/Icon2" >
                                 <Property Name="Font" Value="F001-scale" />
-                                <Property Name="UnifiedAreaRect" Value="{{0.36,0},{0.096154,0},{0.64,0},{0.903846,0}}" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.525253,0},{0.096154,0},{0.949495,0},{0.903846,0}}" />
                                 <Window Type="DejaVu/SlotImageItem" Name="RankInfoWnd/ListBG/PlayerInfo4/Reward/Icon2/Image" >
-                                    <Property Name="Font" Value="F001-scale" />
-                                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
-                                </Window>
-                            </Window>
-                            <Window Type="DejaVu/SlotImage" Name="RankInfoWnd/ListBG/PlayerInfo4/Reward/Icon3" >
-                                <Property Name="Font" Value="F001-scale" />
-                                <Property Name="UnifiedAreaRect" Value="{{0.673333,0},{0.096154,0},{0.953333,0},{0.903846,0}}" />
-                                <Window Type="DejaVu/SlotImageItem" Name="RankInfoWnd/ListBG/PlayerInfo4/Reward/Icon3/Image" >
                                     <Property Name="Font" Value="F001-scale" />
                                     <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
                                 </Window>
@@ -534,10 +571,10 @@
                     </Window>
                     <Window Type="DejaVu/Static" Name="RankInfoWnd/ListBG/PlayerInfo5" >
                         <Property Name="Font" Value="F001-scale" />
-                        <Property Name="UnifiedAreaRect" Value="{{0.00284495,0},{0.530435,0},{0.997155,0},{0.643478,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.00284495,0},{0.528634,0},{0.997155,0},{0.643172,0}}" />
                         <Window Type="DejaVu/EmbedTextLab3" Name="RankInfoWnd/ListBG/PlayerInfo5/RankText" >
-                            <Property Name="Text" Value="1" />
                             <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="1" />
                             <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.0858369,0},{1,0}}" />
                         </Window>
                         <Window Type="DejaVu/Embed3" Name="RankInfoWnd/ListBG/BG/RankBG/PlayerInfo5/Guild" >
@@ -558,25 +595,42 @@
                             </Window>
                         </Window>
                         <Window Type="DejaVu/EmbedTextLab3" Name="RankInfoWnd/ListBG/PlayerInfo5/NameText" >
-                            <Property Name="Text" Value="x一二三四五六" />
                             <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="x一二三四五六" />
                             <Property Name="UnifiedAreaRect" Value="{{0.351931,0},{0,0},{0.543633,0},{1,0}}" />
                         </Window>
                         <Window Type="DejaVu/EmbedTextLab3" Name="RankInfoWnd/ListBG/PlayerInfo5/LevelText" >
-                            <Property Name="Text" Value="x999" />
                             <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="x999" />
                             <Property Name="UnifiedAreaRect" Value="{{0.543634,0},{0,0},{0.629471,0},{1,0}}" />
                         </Window>
                         <Window Type="DejaVu/EmbedTextLab3" Name="RankInfoWnd/ListBG/PlayerInfo5/ScoreText" >
-                            <Property Name="Text" Value="x01時02分03秒456" />
                             <Property Name="HorzFormatting" Value="HorzCentred" />
-                            <Property Name="UnifiedAreaRect" Value="{{0.629471,0},{0,0},{0.783977,0},{1,0}}" />
+                            <Property Name="Text" Value="x9999999" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.629471,0},{0,0},{0.758226,0},{1,0}}" />
                         </Window>
-                        <Window Type="DejaVu/Embed3" Name="RankInfoWnd/ListBG/PlayerInfo5/Reward" >
-                            <Property Name="UnifiedAreaRect" Value="{{0.783977,0},{0,0},{0.998569,0},{1,0}}" />
+                        <Window Type="DejaVu/EmbedTextLab3" Name="RankInfoWnd/ListBG/PlayerInfo5/DefeatText" >
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="x99999" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.758226,0},{0,0},{0.858369,0},{1,0}}" />
+                            <Window Type="DejaVu/ImageButton" Name="RankInfoWnd/ListBG/PlayerInfo5/PreviewBtn" >
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="HorizontalAlignment" Value="Centre" />
+                                <Property Name="HoverImage" Value="set:main16 image:CharViewHover" />
+                                <Property Name="ID" Value="5" />
+                                <Property Name="NormalImage" Value="set:main16 image:CharViewNormal" />
+                                <Property Name="PushedImage" Value="set:main16 image:CharViewPressed" />
+                                <Property Name="Text" Value="x預覽" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.5,0},{0.673077,0}}" />
+                                <Property Name="VerticalAlignment" Value="Centre" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/Embed3" Name="RankInfoWnd/ListBG/BG/RankBG/PlayerInfo5/Reward" >
+                            <Property Name="Font" Value="F001-scale" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.858369,0},{0,0},{1,0},{1,0}}" />
                             <Window Type="DejaVu/SlotImage" Name="RankInfoWnd/ListBG/PlayerInfo5/Reward/Icon1" >
                                 <Property Name="Font" Value="F001-scale" />
-                                <Property Name="UnifiedAreaRect" Value="{{0.046667,0},{0.096154,0},{0.326667,0},{0.903846,0}}" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.050505,0},{0.096154,0},{0.474747,0},{0.903846,0}}" />
                                 <Window Type="DejaVu/SlotImageItem" Name="RankInfoWnd/ListBG/PlayerInfo5/Reward/Icon1/Image" >
                                     <Property Name="Font" Value="F001-scale" />
                                     <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
@@ -584,16 +638,8 @@
                             </Window>
                             <Window Type="DejaVu/SlotImage" Name="RankInfoWnd/ListBG/PlayerInfo5/Reward/Icon2" >
                                 <Property Name="Font" Value="F001-scale" />
-                                <Property Name="UnifiedAreaRect" Value="{{0.36,0},{0.096154,0},{0.64,0},{0.903846,0}}" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.525253,0},{0.096154,0},{0.949495,0},{0.903846,0}}" />
                                 <Window Type="DejaVu/SlotImageItem" Name="RankInfoWnd/ListBG/PlayerInfo5/Reward/Icon2/Image" >
-                                    <Property Name="Font" Value="F001-scale" />
-                                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
-                                </Window>
-                            </Window>
-                            <Window Type="DejaVu/SlotImage" Name="RankInfoWnd/ListBG/PlayerInfo5/Reward/Icon3" >
-                                <Property Name="Font" Value="F001-scale" />
-                                <Property Name="UnifiedAreaRect" Value="{{0.673333,0},{0.096154,0},{0.953333,0},{0.903846,0}}" />
-                                <Window Type="DejaVu/SlotImageItem" Name="RankInfoWnd/ListBG/PlayerInfo5/Reward/Icon3/Image" >
                                     <Property Name="Font" Value="F001-scale" />
                                     <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
                                 </Window>
@@ -602,10 +648,10 @@
                     </Window>
                     <Window Type="DejaVu/Static" Name="RankInfoWnd/ListBG/PlayerInfo6" >
                         <Property Name="Font" Value="F001-scale" />
-                        <Property Name="UnifiedAreaRect" Value="{{0.00284495,0},{0.647826,0},{0.997155,0},{0.76087,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.00284495,0},{0.645374,0},{0.997155,0},{0.759912,0}}" />
                         <Window Type="DejaVu/EmbedTextLab3" Name="RankInfoWnd/ListBG/PlayerInfo6/RankText" >
-                            <Property Name="Text" Value="1" />
                             <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="1" />
                             <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.0858369,0},{1,0}}" />
                         </Window>
                         <Window Type="DejaVu/Embed3" Name="RankInfoWnd/ListBG/BG/RankBG/PlayerInfo6/Guild" >
@@ -626,25 +672,42 @@
                             </Window>
                         </Window>
                         <Window Type="DejaVu/EmbedTextLab3" Name="RankInfoWnd/ListBG/PlayerInfo6/NameText" >
-                            <Property Name="Text" Value="x一二三四五六" />
                             <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="x一二三四五六" />
                             <Property Name="UnifiedAreaRect" Value="{{0.351931,0},{0,0},{0.543633,0},{1,0}}" />
                         </Window>
                         <Window Type="DejaVu/EmbedTextLab3" Name="RankInfoWnd/ListBG/PlayerInfo6/LevelText" >
-                            <Property Name="Text" Value="x999" />
                             <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="x999" />
                             <Property Name="UnifiedAreaRect" Value="{{0.543634,0},{0,0},{0.629471,0},{1,0}}" />
                         </Window>
                         <Window Type="DejaVu/EmbedTextLab3" Name="RankInfoWnd/ListBG/PlayerInfo6/ScoreText" >
-                            <Property Name="Text" Value="x01時02分03秒456" />
                             <Property Name="HorzFormatting" Value="HorzCentred" />
-                            <Property Name="UnifiedAreaRect" Value="{{0.629471,0},{0,0},{0.783977,0},{1,0}}" />
+                            <Property Name="Text" Value="x9999999" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.629471,0},{0,0},{0.758226,0},{1,0}}" />
                         </Window>
-                        <Window Type="DejaVu/Embed3" Name="RankInfoWnd/ListBG/PlayerInfo6/Reward" >
-                            <Property Name="UnifiedAreaRect" Value="{{0.783977,0},{0,0},{0.998569,0},{1,0}}" />
+                        <Window Type="DejaVu/EmbedTextLab3" Name="RankInfoWnd/ListBG/PlayerInfo6/DefeatText" >
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="x99999" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.758226,0},{0,0},{0.858369,0},{1,0}}" />
+                            <Window Type="DejaVu/ImageButton" Name="RankInfoWnd/ListBG/PlayerInfo6/PreviewBtn" >
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="HorizontalAlignment" Value="Centre" />
+                                <Property Name="HoverImage" Value="set:main16 image:CharViewHover" />
+                                <Property Name="ID" Value="6" />
+                                <Property Name="NormalImage" Value="set:main16 image:CharViewNormal" />
+                                <Property Name="PushedImage" Value="set:main16 image:CharViewPressed" />
+                                <Property Name="Text" Value="x預覽" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.5,0},{0.673077,0}}" />
+                                <Property Name="VerticalAlignment" Value="Centre" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/Embed3" Name="RankInfoWnd/ListBG/BG/RankBG/PlayerInfo6/Reward" >
+                            <Property Name="Font" Value="F001-scale" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.858369,0},{0,0},{1,0},{1,0}}" />
                             <Window Type="DejaVu/SlotImage" Name="RankInfoWnd/ListBG/PlayerInfo6/Reward/Icon1" >
                                 <Property Name="Font" Value="F001-scale" />
-                                <Property Name="UnifiedAreaRect" Value="{{0.046667,0},{0.096154,0},{0.326667,0},{0.903846,0}}" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.050505,0},{0.096154,0},{0.474747,0},{0.903846,0}}" />
                                 <Window Type="DejaVu/SlotImageItem" Name="RankInfoWnd/ListBG/PlayerInfo6/Reward/Icon1/Image" >
                                     <Property Name="Font" Value="F001-scale" />
                                     <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
@@ -652,16 +715,8 @@
                             </Window>
                             <Window Type="DejaVu/SlotImage" Name="RankInfoWnd/ListBG/PlayerInfo6/Reward/Icon2" >
                                 <Property Name="Font" Value="F001-scale" />
-                                <Property Name="UnifiedAreaRect" Value="{{0.36,0},{0.096154,0},{0.64,0},{0.903846,0}}" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.525253,0},{0.096154,0},{0.949495,0},{0.903846,0}}" />
                                 <Window Type="DejaVu/SlotImageItem" Name="RankInfoWnd/ListBG/PlayerInfo6/Reward/Icon2/Image" >
-                                    <Property Name="Font" Value="F001-scale" />
-                                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
-                                </Window>
-                            </Window>
-                            <Window Type="DejaVu/SlotImage" Name="RankInfoWnd/ListBG/PlayerInfo6/Reward/Icon3" >
-                                <Property Name="Font" Value="F001-scale" />
-                                <Property Name="UnifiedAreaRect" Value="{{0.673333,0},{0.096154,0},{0.953333,0},{0.903846,0}}" />
-                                <Window Type="DejaVu/SlotImageItem" Name="RankInfoWnd/ListBG/PlayerInfo6/Reward/Icon3/Image" >
                                     <Property Name="Font" Value="F001-scale" />
                                     <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
                                 </Window>
@@ -670,10 +725,10 @@
                     </Window>
                     <Window Type="DejaVu/Static" Name="RankInfoWnd/ListBG/PlayerInfo7" >
                         <Property Name="Font" Value="F001-scale" />
-                        <Property Name="UnifiedAreaRect" Value="{{0.00284495,0},{0.765217,0},{0.997155,0},{0.878261,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.00284495,0},{0.762115,0},{0.997155,0},{0.876652,0}}" />
                         <Window Type="DejaVu/EmbedTextLab3" Name="RankInfoWnd/ListBG/PlayerInfo7/RankText" >
-                            <Property Name="Text" Value="1" />
                             <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="1" />
                             <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.0858369,0},{1,0}}" />
                         </Window>
                         <Window Type="DejaVu/Embed3" Name="RankInfoWnd/ListBG/BG/RankBG/PlayerInfo7/Guild" >
@@ -694,25 +749,42 @@
                             </Window>
                         </Window>
                         <Window Type="DejaVu/EmbedTextLab3" Name="RankInfoWnd/ListBG/PlayerInfo7/NameText" >
-                            <Property Name="Text" Value="x一二三四五六" />
                             <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="x一二三四五六" />
                             <Property Name="UnifiedAreaRect" Value="{{0.351931,0},{0,0},{0.543633,0},{1,0}}" />
                         </Window>
                         <Window Type="DejaVu/EmbedTextLab3" Name="RankInfoWnd/ListBG/PlayerInfo7/LevelText" >
-                            <Property Name="Text" Value="x999" />
                             <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="x999" />
                             <Property Name="UnifiedAreaRect" Value="{{0.543634,0},{0,0},{0.629471,0},{1,0}}" />
                         </Window>
                         <Window Type="DejaVu/EmbedTextLab3" Name="RankInfoWnd/ListBG/PlayerInfo7/ScoreText" >
-                            <Property Name="Text" Value="x01時02分03秒456" />
                             <Property Name="HorzFormatting" Value="HorzCentred" />
-                            <Property Name="UnifiedAreaRect" Value="{{0.629471,0},{0,0},{0.783977,0},{1,0}}" />
+                            <Property Name="Text" Value="x9999999" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.629471,0},{0,0},{0.758226,0},{1,0}}" />
                         </Window>
-                        <Window Type="DejaVu/Embed3" Name="RankInfoWnd/ListBG/PlayerInfo7/Reward" >
-                            <Property Name="UnifiedAreaRect" Value="{{0.783977,0},{0,0},{0.998569,0},{1,0}}" />
+                        <Window Type="DejaVu/EmbedTextLab3" Name="RankInfoWnd/ListBG/PlayerInfo7/DefeatText" >
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="x99999" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.758226,0},{0,0},{0.858369,0},{1,0}}" />
+                            <Window Type="DejaVu/ImageButton" Name="RankInfoWnd/ListBG/PlayerInfo7/PreviewBtn" >
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="HorizontalAlignment" Value="Centre" />
+                                <Property Name="HoverImage" Value="set:main16 image:CharViewHover" />
+                                <Property Name="ID" Value="7" />
+                                <Property Name="NormalImage" Value="set:main16 image:CharViewNormal" />
+                                <Property Name="PushedImage" Value="set:main16 image:CharViewPressed" />
+                                <Property Name="Text" Value="x預覽" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.5,0},{0.673077,0}}" />
+                                <Property Name="VerticalAlignment" Value="Centre" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/Embed3" Name="RankInfoWnd/ListBG/BG/RankBG/PlayerInfo7/Reward" >
+                            <Property Name="Font" Value="F001-scale" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.858369,0},{0,0},{1,0},{1,0}}" />
                             <Window Type="DejaVu/SlotImage" Name="RankInfoWnd/ListBG/PlayerInfo7/Reward/Icon1" >
                                 <Property Name="Font" Value="F001-scale" />
-                                <Property Name="UnifiedAreaRect" Value="{{0.046667,0},{0.096154,0},{0.326667,0},{0.903846,0}}" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.050505,0},{0.096154,0},{0.474747,0},{0.903846,0}}" />
                                 <Window Type="DejaVu/SlotImageItem" Name="RankInfoWnd/ListBG/PlayerInfo7/Reward/Icon1/Image" >
                                     <Property Name="Font" Value="F001-scale" />
                                     <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
@@ -720,16 +792,8 @@
                             </Window>
                             <Window Type="DejaVu/SlotImage" Name="RankInfoWnd/ListBG/PlayerInfo7/Reward/Icon2" >
                                 <Property Name="Font" Value="F001-scale" />
-                                <Property Name="UnifiedAreaRect" Value="{{0.36,0},{0.096154,0},{0.64,0},{0.903846,0}}" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.525253,0},{0.096154,0},{0.949495,0},{0.903846,0}}" />
                                 <Window Type="DejaVu/SlotImageItem" Name="RankInfoWnd/ListBG/PlayerInfo7/Reward/Icon2/Image" >
-                                    <Property Name="Font" Value="F001-scale" />
-                                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
-                                </Window>
-                            </Window>
-                            <Window Type="DejaVu/SlotImage" Name="RankInfoWnd/ListBG/PlayerInfo7/Reward/Icon3" >
-                                <Property Name="Font" Value="F001-scale" />
-                                <Property Name="UnifiedAreaRect" Value="{{0.673333,0},{0.096154,0},{0.953333,0},{0.903846,0}}" />
-                                <Window Type="DejaVu/SlotImageItem" Name="RankInfoWnd/ListBG/PlayerInfo7/Reward/Icon3/Image" >
                                     <Property Name="Font" Value="F001-scale" />
                                     <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
                                 </Window>
@@ -738,10 +802,10 @@
                     </Window>
                     <Window Type="DejaVu/Static" Name="RankInfoWnd/ListBG/PlayerInfo8" >
                         <Property Name="Font" Value="F001-scale" />
-                        <Property Name="UnifiedAreaRect" Value="{{0.00284495,0},{0.882609,0},{0.997155,0},{0.995652,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.00284495,0},{0.878855,0},{0.997155,0},{0.993392,0}}" />
                         <Window Type="DejaVu/EmbedTextLab3" Name="RankInfoWnd/ListBG/PlayerInfo8/RankText" >
-                            <Property Name="Text" Value="1" />
                             <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="1" />
                             <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.0858369,0},{1,0}}" />
                         </Window>
                         <Window Type="DejaVu/Embed3" Name="RankInfoWnd/ListBG/BG/RankBG/PlayerInfo8/Guild" >
@@ -762,25 +826,42 @@
                             </Window>
                         </Window>
                         <Window Type="DejaVu/EmbedTextLab3" Name="RankInfoWnd/ListBG/PlayerInfo8/NameText" >
-                            <Property Name="Text" Value="x一二三四五六" />
                             <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="x一二三四五六" />
                             <Property Name="UnifiedAreaRect" Value="{{0.351931,0},{0,0},{0.543633,0},{1,0}}" />
                         </Window>
                         <Window Type="DejaVu/EmbedTextLab3" Name="RankInfoWnd/ListBG/PlayerInfo8/LevelText" >
-                            <Property Name="Text" Value="x999" />
                             <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="x999" />
                             <Property Name="UnifiedAreaRect" Value="{{0.543634,0},{0,0},{0.629471,0},{1,0}}" />
                         </Window>
                         <Window Type="DejaVu/EmbedTextLab3" Name="RankInfoWnd/ListBG/PlayerInfo8/ScoreText" >
-                            <Property Name="Text" Value="x01時02分03秒456" />
                             <Property Name="HorzFormatting" Value="HorzCentred" />
-                            <Property Name="UnifiedAreaRect" Value="{{0.629471,0},{0,0},{0.783977,0},{1,0}}" />
+                            <Property Name="Text" Value="x9999999" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.629471,0},{0,0},{0.758226,0},{1,0}}" />
                         </Window>
-                        <Window Type="DejaVu/Embed3" Name="RankInfoWnd/ListBG/PlayerInfo8/Reward" >
-                            <Property Name="UnifiedAreaRect" Value="{{0.783977,0},{0,0},{0.998569,0},{1,0}}" />
+                        <Window Type="DejaVu/EmbedTextLab3" Name="RankInfoWnd/ListBG/PlayerInfo8/DefeatText" >
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="x99999" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.758226,0},{0,0},{0.858369,0},{1,0}}" />
+                            <Window Type="DejaVu/ImageButton" Name="RankInfoWnd/ListBG/PlayerInfo8/PreviewBtn" >
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="HorizontalAlignment" Value="Centre" />
+                                <Property Name="HoverImage" Value="set:main16 image:CharViewHover" />
+                                <Property Name="ID" Value="8" />
+                                <Property Name="NormalImage" Value="set:main16 image:CharViewNormal" />
+                                <Property Name="PushedImage" Value="set:main16 image:CharViewPressed" />
+                                <Property Name="Text" Value="x預覽" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.5,0},{0.673077,0}}" />
+                                <Property Name="VerticalAlignment" Value="Centre" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/Embed3" Name="RankInfoWnd/ListBG/BG/RankBG/PlayerInfo8/Reward" >
+                            <Property Name="Font" Value="F001-scale" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.858369,0},{0,0},{1,0},{1,0}}" />
                             <Window Type="DejaVu/SlotImage" Name="RankInfoWnd/ListBG/PlayerInfo8/Reward/Icon1" >
                                 <Property Name="Font" Value="F001-scale" />
-                                <Property Name="UnifiedAreaRect" Value="{{0.046667,0},{0.096154,0},{0.326667,0},{0.903846,0}}" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.050505,0},{0.096154,0},{0.474747,0},{0.903846,0}}" />
                                 <Window Type="DejaVu/SlotImageItem" Name="RankInfoWnd/ListBG/PlayerInfo8/Reward/Icon1/Image" >
                                     <Property Name="Font" Value="F001-scale" />
                                     <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
@@ -788,16 +869,8 @@
                             </Window>
                             <Window Type="DejaVu/SlotImage" Name="RankInfoWnd/ListBG/PlayerInfo8/Reward/Icon2" >
                                 <Property Name="Font" Value="F001-scale" />
-                                <Property Name="UnifiedAreaRect" Value="{{0.36,0},{0.096154,0},{0.64,0},{0.903846,0}}" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.525253,0},{0.096154,0},{0.949495,0},{0.903846,0}}" />
                                 <Window Type="DejaVu/SlotImageItem" Name="RankInfoWnd/ListBG/PlayerInfo8/Reward/Icon2/Image" >
-                                    <Property Name="Font" Value="F001-scale" />
-                                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
-                                </Window>
-                            </Window>
-                            <Window Type="DejaVu/SlotImage" Name="RankInfoWnd/ListBG/PlayerInfo8/Reward/Icon3" >
-                                <Property Name="Font" Value="F001-scale" />
-                                <Property Name="UnifiedAreaRect" Value="{{0.673333,0},{0.096154,0},{0.953333,0},{0.903846,0}}" />
-                                <Window Type="DejaVu/SlotImageItem" Name="RankInfoWnd/ListBG/PlayerInfo8/Reward/Icon3/Image" >
                                     <Property Name="Font" Value="F001-scale" />
                                     <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
                                 </Window>
@@ -807,205 +880,255 @@
                     <Window Type="DejaVu/StaticImage" Name="RankInfoWnd/ListBG/RankTitleBG" >
                         <Property Name="Font" Value="F001-scale" />
                         <Property Name="Image" Value="set:DejaVu image:Button2MiddleNormal" />
-                        <Property Name="UnifiedAreaRect" Value="{{0.0113798,0},{0.00652174,0},{0.0796586,0},{0.0608696,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.011331,0},{0.004405,0},{0.0793197,0},{0.0594711,0}}" />
                         <Window Type="DejaVu/StaticText" Name="RankInfoWnd/ListBG/RankTitle" >
                             <Property Name="Font" Value="F001-9" />
-                            <Property Name="Text" Value="x排名" />
                             <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="x排名" />
                             <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
                         </Window>
                         <Window Type="DejaVu/StaticImage" Name="RankInfoWnd/ListBG/RankTitleBGLeft" >
-                            <Property Name="Font" Value="F001-scale" />
-                            <Property Name="Image" Value="set:DejaVu image:Button2LeftNormal" />
                             <Property Name="AlwaysOnTop" Value="True" />
                             <Property Name="ClippedByParent" Value="False" />
+                            <Property Name="Font" Value="F001-scale" />
+                            <Property Name="Image" Value="set:DejaVu image:Button2LeftNormal" />
                             <Property Name="UnifiedAreaRect" Value="{{-0.125,0},{0,0},{0,0},{1,0}}" />
                         </Window>
                         <Window Type="DejaVu/StaticImage" Name="RankInfoWnd/ListBG/RankTitleBGRight" >
-                            <Property Name="Font" Value="F001-scale" />
-                            <Property Name="Image" Value="set:DejaVu image:Button2RightNormal" />
                             <Property Name="AlwaysOnTop" Value="True" />
                             <Property Name="ClippedByParent" Value="False" />
+                            <Property Name="Font" Value="F001-scale" />
+                            <Property Name="Image" Value="set:DejaVu image:Button2RightNormal" />
                             <Property Name="UnifiedAreaRect" Value="{{1,0},{0,0},{1.125,0},{1,0}}" />
                         </Window>
                     </Window>
                     <Window Type="DejaVu/StaticImage" Name="RankInfoWnd/ListBG/GuildTitleBG" >
                         <Property Name="Font" Value="F001-scale" />
                         <Property Name="Image" Value="set:DejaVu image:Button2MiddleNormal" />
-                        <Property Name="UnifiedAreaRect" Value="{{0.0967283,0},{0.00652174,0},{0.344239,0},{0.0608696,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.096317,0},{0.004405,0},{0.344192,0},{0.0594711,0}}" />
                         <Window Type="DejaVu/StaticText" Name="RankInfoWnd/ListBG/GuildTitle" >
                             <Property Name="Font" Value="F001-9" />
-                            <Property Name="Text" Value="x公會" />
                             <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="x公會" />
                             <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
                         </Window>
                         <Window Type="DejaVu/StaticImage" Name="RankInfoWnd/ListBG/GuildTitleBGLeft" >
-                            <Property Name="Font" Value="F001-scale" />
-                            <Property Name="Image" Value="set:DejaVu image:Button2LeftNormal" />
                             <Property Name="AlwaysOnTop" Value="True" />
                             <Property Name="ClippedByParent" Value="False" />
+                            <Property Name="Font" Value="F001-scale" />
+                            <Property Name="Image" Value="set:DejaVu image:Button2LeftNormal" />
                             <Property Name="UnifiedAreaRect" Value="{{-0.0342857,0},{0,0},{0,0},{1,0}}" />
                         </Window>
                         <Window Type="DejaVu/StaticImage" Name="RankInfoWnd/ListBG/GuildTitleBGRight" >
-                            <Property Name="Font" Value="F001-scale" />
-                            <Property Name="Image" Value="set:DejaVu image:Button2RightNormal" />
                             <Property Name="AlwaysOnTop" Value="True" />
                             <Property Name="ClippedByParent" Value="False" />
+                            <Property Name="Font" Value="F001-scale" />
+                            <Property Name="Image" Value="set:DejaVu image:Button2RightNormal" />
                             <Property Name="UnifiedAreaRect" Value="{{1,0},{0,0},{1.03429,0},{1,0}}" />
                         </Window>
                     </Window>
                     <Window Type="DejaVu/StaticImage" Name="RankInfoWnd/ListBG/PlayerTitleBG" >
                         <Property Name="Font" Value="F001-scale" />
                         <Property Name="Image" Value="set:DejaVu image:Button2MiddleNormal" />
-                        <Property Name="UnifiedAreaRect" Value="{{0.361309,0},{0.00652174,0},{0.534851,0},{0.0608696,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.36119,0},{0.004405,0},{0.535411,0},{0.0594711,0}}" />
                         <Window Type="DejaVu/StaticText" Name="RankInfoWnd/ListBG/PlayerTitle" >
                             <Property Name="Font" Value="F001-9" />
-                            <Property Name="Text" Value="x角色名稱" />
                             <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="x角色名稱" />
                             <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
                         </Window>
                         <Window Type="DejaVu/StaticImage" Name="RankInfoWnd/ListBG/PlayerTitleBGLeft" >
-                            <Property Name="Font" Value="F001-scale" />
-                            <Property Name="Image" Value="set:DejaVu image:Button2LeftNormal" />
                             <Property Name="AlwaysOnTop" Value="True" />
                             <Property Name="ClippedByParent" Value="False" />
+                            <Property Name="Font" Value="F001-scale" />
+                            <Property Name="Image" Value="set:DejaVu image:Button2LeftNormal" />
                             <Property Name="UnifiedAreaRect" Value="{{-0.0487805,0},{0,0},{0,0},{1,0}}" />
                         </Window>
                         <Window Type="DejaVu/StaticImage" Name="RankInfoWnd/ListBG/PlayerTitleBGRight" >
-                            <Property Name="Font" Value="F001-scale" />
-                            <Property Name="Image" Value="set:DejaVu image:Button2RightNormal" />
                             <Property Name="AlwaysOnTop" Value="True" />
                             <Property Name="ClippedByParent" Value="False" />
+                            <Property Name="Font" Value="F001-scale" />
+                            <Property Name="Image" Value="set:DejaVu image:Button2RightNormal" />
                             <Property Name="UnifiedAreaRect" Value="{{1,0},{0,0},{1.04878,0},{1,0}}" />
                         </Window>
                     </Window>
                     <Window Type="DejaVu/StaticImage" Name="RankInfoWnd/ListBG/LevelTitleBG" >
                         <Property Name="Font" Value="F001-scale" />
                         <Property Name="Image" Value="set:DejaVu image:Button2MiddleNormal" />
-                        <Property Name="UnifiedAreaRect" Value="{{0.55192,0},{0.00652174,0},{0.620199,0},{0.0608696,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.552408,0},{0.004405,0},{0.620397,0},{0.0594711,0}}" />
                         <Window Type="DejaVu/StaticText" Name="RankInfoWnd/ListBG/LevelTitle" >
-                            <Property Name="Text" Value="x等級" />
+                            <Property Name="Font" Value="F001-9" />
                             <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="x等級" />
                             <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
                         </Window>
                         <Window Type="DejaVu/StaticImage" Name="RankInfoWnd/ListBG/LevelTitleBGLeft" >
-                            <Property Name="Font" Value="F001-scale" />
-                            <Property Name="Image" Value="set:DejaVu image:Button2LeftNormal" />
                             <Property Name="AlwaysOnTop" Value="True" />
                             <Property Name="ClippedByParent" Value="False" />
+                            <Property Name="Font" Value="F001-scale" />
+                            <Property Name="Image" Value="set:DejaVu image:Button2LeftNormal" />
                             <Property Name="UnifiedAreaRect" Value="{{-0.125,0},{0,0},{0,0},{1,0}}" />
                         </Window>
                         <Window Type="DejaVu/StaticImage" Name="RankInfoWnd/ListBG/LevelTitleBGRight" >
-                            <Property Name="Font" Value="F001-scale" />
-                            <Property Name="Image" Value="set:DejaVu image:Button2RightNormal" />
                             <Property Name="AlwaysOnTop" Value="True" />
                             <Property Name="ClippedByParent" Value="False" />
+                            <Property Name="Font" Value="F001-scale" />
+                            <Property Name="Image" Value="set:DejaVu image:Button2RightNormal" />
                             <Property Name="UnifiedAreaRect" Value="{{1,0},{0,0},{1.125,0},{1,0}}" />
                         </Window>
                     </Window>
                     <Window Type="DejaVu/StaticImage" Name="RankInfoWnd/ListBG/ScoreTitleBG" >
                         <Property Name="Font" Value="F001-scale" />
                         <Property Name="Image" Value="set:DejaVu image:Button2MiddleNormal" />
-                        <Property Name="UnifiedAreaRect" Value="{{0.637269,0},{0.00652174,0},{0.773826,0},{0.0608696,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.637394,0},{0.004405,0},{0.747876,0},{0.0594711,0}}" />
                         <Window Type="DejaVu/StaticText" Name="RankInfoWnd/ListBG/ScoreTitle" >
                             <Property Name="Font" Value="F001-9" />
-                            <Property Name="Text" Value="x通關時間" />
                             <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="x分數" />
                             <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
                         </Window>
                         <Window Type="DejaVu/StaticImage" Name="RankInfoWnd/ListBG/ScoreTitleBGLeft" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="ClippedByParent" Value="False" />
                             <Property Name="Font" Value="F001-scale" />
                             <Property Name="Image" Value="set:DejaVu image:Button2LeftNormal" />
-                            <Property Name="AlwaysOnTop" Value="True" />
-                            <Property Name="ClippedByParent" Value="False" />
-                            <Property Name="UnifiedAreaRect" Value="{{-0.0625,0},{0,0},{0,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{-0.0769231,0},{0,0},{0,0},{1,0}}" />
                         </Window>
                         <Window Type="DejaVu/StaticImage" Name="RankInfoWnd/ListBG/ScoreTitleBGRight" >
-                            <Property Name="Font" Value="F001-scale" />
-                            <Property Name="Image" Value="set:DejaVu image:Button2RightNormal" />
                             <Property Name="AlwaysOnTop" Value="True" />
                             <Property Name="ClippedByParent" Value="False" />
-                            <Property Name="UnifiedAreaRect" Value="{{1,0},{0,0},{1.0625,0},{1,0}}" />
+                            <Property Name="Font" Value="F001-scale" />
+                            <Property Name="Image" Value="set:DejaVu image:Button2RightNormal" />
+                            <Property Name="UnifiedAreaRect" Value="{{1,0},{0,0},{1.07692,0},{1,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="RankInfoWnd/ListBG/DefeatTitleBG" >
+                        <Property Name="Font" Value="F001-scale" />
+                        <Property Name="Image" Value="set:DejaVu image:Button2MiddleNormal" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.764873,0},{0.004405,0},{0.847026,0},{0.0594711,0}}" />
+                        <Window Type="DejaVu/StaticText" Name="RankInfoWnd/ListBG/DefeatTitle" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="x擊殺" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticImage" Name="RankInfoWnd/ListBG/DefeatTitleBGLeft" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="ClippedByParent" Value="False" />
+                            <Property Name="Font" Value="F001-scale" />
+                            <Property Name="Image" Value="set:DejaVu image:Button2LeftNormal" />
+                            <Property Name="UnifiedAreaRect" Value="{{-0.103448,0},{0,0},{0,0},{1,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticImage" Name="RankInfoWnd/ListBG/DefeatTitleBGRight" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="ClippedByParent" Value="False" />
+                            <Property Name="Font" Value="F001-scale" />
+                            <Property Name="Image" Value="set:DejaVu image:Button2RightNormal" />
+                            <Property Name="UnifiedAreaRect" Value="{{1,0},{0,0},{1.10345,0},{1,0}}" />
                         </Window>
                     </Window>
                     <Window Type="DejaVu/StaticImage" Name="RankInfoWnd/ListBG/RewardTitleBG" >
                         <Property Name="Font" Value="F001-scale" />
                         <Property Name="Image" Value="set:DejaVu image:Button2MiddleNormal" />
-                        <Property Name="UnifiedAreaRect" Value="{{0.790896,0},{0.00652174,0},{0.985775,0},{0.0608696,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.864023,0},{0.004405,0},{0.987252,0},{0.0594711,0}}" />
                         <Window Type="DejaVu/StaticText" Name="RankInfoWnd/ListBG/RewardTitle" >
                             <Property Name="Font" Value="F001-9" />
-                            <Property Name="Text" Value="x獎勵" />
                             <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="x獎勵" />
                             <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
                         </Window>
                         <Window Type="DejaVu/StaticImage" Name="RankInfoWnd/ListBG/RewardTitleBGLeft" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="ClippedByParent" Value="False" />
                             <Property Name="Font" Value="F001-scale" />
                             <Property Name="Image" Value="set:DejaVu image:Button2LeftNormal" />
-                            <Property Name="AlwaysOnTop" Value="True" />
-                            <Property Name="ClippedByParent" Value="False" />
-                            <Property Name="UnifiedAreaRect" Value="{{-0.043796,0},{0,0},{-3.7998e-07,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{-0.0689655,0},{0,0},{0,0},{1,0}}" />
                         </Window>
                         <Window Type="DejaVu/StaticImage" Name="RankInfoWnd/ListBG/RewardTitleBGRight" >
-                            <Property Name="Font" Value="F001-scale" />
-                            <Property Name="Image" Value="set:DejaVu image:Button2RightNormal" />
                             <Property Name="AlwaysOnTop" Value="True" />
                             <Property Name="ClippedByParent" Value="False" />
-                            <Property Name="UnifiedAreaRect" Value="{{1,0},{0,0},{1.0438,0},{1,0}}" />
+                            <Property Name="Font" Value="F001-scale" />
+                            <Property Name="Image" Value="set:DejaVu image:Button2RightNormal" />
+                            <Property Name="UnifiedAreaRect" Value="{{1,0},{0,0},{1.06897,0},{1,0}}" />
                         </Window>
                     </Window>
                 </Window>
+                <Window Type="DejaVu/EmbedTextLab7" Name="RankInfoWnd/ListBG/MyRankTitle" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="x您於此排行榜上的排名" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.013831,0},{0.903846,0},{0.262794,0},{0.94391,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedText2" Name="RankInfoWnd/ListBG/MyRankText" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="x您並未排名於此排行榜上" />
+                    <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.013831,0},{0.94391,0},{0.262794,0},{0.983974,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab7" Name="RankInfoWnd/ListBG/MyScoreTitle" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="x個人積分" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.737206,0},{0.903846,0},{0.986169,0},{0.94391,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab2" Name="RankInfoWnd/ListBG/MyScoreText" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="x您並未排名於此排行榜上" />
+                    <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.737206,0},{0.94391,0},{0.986169,0},{0.983974,0}}" />
+                </Window>
                 <Window Type="DejaVu/ImageButton" Name="RankInfoWnd/ListBG/HeadPageBtn" >
+                    <Property Name="DisabledImage" Value="set:DejaVu image:DoubledLeftArrowPressed" />
                     <Property Name="Font" Value="F001-scale" />
+                    <Property Name="HorizontalAlignment" Value="Centre" />
                     <Property Name="HoverImage" Value="set:DejaVu image:DoubledLeftArrowHover" />
                     <Property Name="NormalImage" Value="set:DejaVu image:DoubledLeftArrowNormal" />
                     <Property Name="PushedImage" Value="set:DejaVu image:DoubledLeftArrowPressed" />
-                    <Property Name="DisabledImage" Value="set:DejaVu image:DoubledLeftArrowPressed" />
                     <Property Name="UnifiedAreaRect" Value="{{-0.096819,0},{0.94391,0},{-0.0691565,0},{0.983974,0}}" />
-                    <Property Name="HorizontalAlignment" Value="Centre" />
                 </Window>
                 <Window Type="DejaVu/ImageButton" Name="RankInfoWnd/ListBG/PrevPageBtn" >
+                    <Property Name="DisabledImage" Value="set:DejaVu image:ArrowLeftPressed" />
                     <Property Name="Font" Value="F001-scale" />
+                    <Property Name="HorizontalAlignment" Value="Centre" />
                     <Property Name="HoverImage" Value="set:DejaVu image:ArrowLeftHover" />
                     <Property Name="NormalImage" Value="set:DejaVu image:ArrowLeftNormal" />
                     <Property Name="PushedImage" Value="set:DejaVu image:ArrowLeftPressed" />
-                    <Property Name="DisabledImage" Value="set:DejaVu image:ArrowLeftPressed" />
                     <Property Name="UnifiedAreaRect" Value="{{-0.069156,0},{0.94391,0},{-0.0414935,0},{0.983974,0}}" />
-                    <Property Name="HorizontalAlignment" Value="Centre" />
                 </Window>
                 <Window Type="DejaVu/EmbedTextLab5" Name="RankInfoWnd/ListBG/PageText" >
                     <Property Name="Font" Value="F001-9" />
-                    <Property Name="Text" Value="x1 / 10" />
-                    <Property Name="HorzFormatting" Value="HorzCentred" />
-                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.94391,0},{0.0968188,0},{0.983974,0}}" />
                     <Property Name="HorizontalAlignment" Value="Centre" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="x1 / 10" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.94391,0},{0.0968188,0},{0.983974,0}}" />
                 </Window>
                 <Window Type="DejaVu/ImageButton" Name="RankInfoWnd/ListBG/NextPageBtn" >
+                    <Property Name="DisabledImage" Value="set:DejaVu image:ArrowRightPressed" />
                     <Property Name="Font" Value="F001-scale" />
+                    <Property Name="HorizontalAlignment" Value="Centre" />
                     <Property Name="HoverImage" Value="set:DejaVu image:ArrowRightHover" />
                     <Property Name="NormalImage" Value="set:DejaVu image:ArrowRightNormal" />
                     <Property Name="PushedImage" Value="set:DejaVu image:ArrowRightPressed" />
-                    <Property Name="DisabledImage" Value="set:DejaVu image:ArrowRightPressed" />
                     <Property Name="UnifiedAreaRect" Value="{{0.069156,0},{0.94391,0},{0.0968185,0},{0.983974,0}}" />
-                    <Property Name="HorizontalAlignment" Value="Centre" />
                 </Window>
                 <Window Type="DejaVu/ImageButton" Name="RankInfoWnd/ListBG/TailPageBtn" >
+                    <Property Name="DisabledImage" Value="set:DejaVu image:DoubledRightArrowPressed" />
                     <Property Name="Font" Value="F001-scale" />
+                    <Property Name="HorizontalAlignment" Value="Centre" />
                     <Property Name="HoverImage" Value="set:DejaVu image:DoubledRightArrowHover" />
                     <Property Name="NormalImage" Value="set:DejaVu image:DoubledRightArrowNormal" />
                     <Property Name="PushedImage" Value="set:DejaVu image:DoubledRightArrowPressed" />
-                    <Property Name="DisabledImage" Value="set:DejaVu image:DoubledRightArrowPressed" />
                     <Property Name="UnifiedAreaRect" Value="{{0.096819,0},{0.94391,0},{0.124482,0},{0.983974,0}}" />
-                    <Property Name="HorizontalAlignment" Value="Centre" />
                 </Window>
                 <Window Type="DejaVu/Button" Name="RankInfoWnd/ListBG/OldRecordBtn" >
                     <Property Name="Font" Value="F001-9" />
-                    <Property Name="Text" Value="X歷史紀錄" />
+                    <Property Name="Text" Value="X發獎紀錄" />
                     <Property Name="UnifiedAreaRect" Value="{{0.877581,0},{0.116732,0},{0.980696,0},{0.156226,0}}" />
                 </Window>
             </Window>
             <Window Type="DejaVu/Embed4" Name="RankInfoWnd/ListBG/Title" >
-                <Property Name="Font" Value="F001-scale" />
                 <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="Font" Value="F001-scale" />
                 <Property Name="UnifiedAreaRect" Value="{{0.013831,0},{0,0},{0.2213,0},{0.0394322,0}}" />
                 <Window Type="DejaVu/StaticImage" Name="RankInfoWnd/ListBG/Title/Icon" >
                     <Property Name="Font" Value="F001-scale" />

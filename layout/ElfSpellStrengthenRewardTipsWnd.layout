@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="creatconfirm" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="TitlebarImage" Value="set:main image:EudemonStorageHover" />
+        <Property Name="UnifiedAreaRect" Value="{{0.366211,0},{0.401041,0},{0.366211,266},{0.401041,241}}" />
+        <Window Type="DejaVu/Embed" Name="creatconfirm/e1" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Embed2" Name="creatconfirm/e1/e2" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.04,0},{0.0625,0},{0.96,0},{0.74375,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="creatconfirm/e1/e2/st" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                    <Property Name="Text" Value="x心靈源神分數為綁定角色，當角色被刪除時，升技分數亦會一併被刪除。" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0434783,0},{0.136364,0},{0.956522,0},{0.818182,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="creatconfirm/e1/e2/st111" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.217391,0},{0.681818,0},{0.869565,0},{0.863636,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Button" Name="creatconfirm/e1/b1" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="確定" />
+                <Property Name="UnifiedAreaRect" Value="{{0.348,0},{0.78882,0},{0.652,0},{0.950311,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/CommonDlg" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="Text" Value="編輯公告" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.363282,0},{0.396947,0},{0.363282,290},{0.396947,159}}" />
+        <Window Type="DejaVu/Embed3" Name="Root/CommonDlg/frame/bg" >
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Button" Name="Root/CommonDlg/OKBtn" >
+                <Property Name="Text" Value="確定" />
+                <Property Name="UnifiedAreaRect" Value="{{0.459259,0},{0.811966,0},{0.711111,0},{0.957265,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/CommonDlg/CloseBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.72963,0},{0.811966,0},{0.981482,0},{0.957265,0}}" />
+            </Window>
+            <Window Type="DejaVu/Embed4" Name="Root/CommonDlg/frame/bg/BG" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.018587,0},{0.044643,0},{0.018587,260},{0.044643,85}}" />
+                <Window Type="DejaVu/MultiLineEditbox" Name="Root/CommonDlg/MultiEdit" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="NormalTextColour" Value="ffffffff" />
+                    <Property Name="SelectionBrushImage" Value="" />
+                    <Property Name="Text" >
+</Property>
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.019231,0},{0.054348,0},{0.980769,0},{0.936701,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/CommonDlg/CancelBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.72963,0},{0.811966,0},{0.981481,0},{0.957265,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

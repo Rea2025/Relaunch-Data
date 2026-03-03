@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root" >
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,307},{0,66}}" />
+        <Window Type="DejaVu/Embed3" Name="Root/Embed" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.29316,0},{1,0}}" />
+            <Window Type="DejaVu/StaticText" Name="Root/Embed/Score" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="x升技目標分數" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Embed3" Name="Root/Embed2" >
+            <Property Name="UnifiedAreaRect" Value="{{0.296417,0},{0,0},{0.996743,0},{1,0}}" />
+            <Window Type="DejaVu/SlotImage" Name="Root/Embed2/Slot" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0465116,0},{0.181818,0},{0.24186,0},{0.818182,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="Root/Embed2/Slot/Lock" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Image" Value="set:main image:Lock" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.214286,0},{-0.0714286,0},{0.809524,0},{0.523809,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="Root/Embed2/Text" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="x獎勵BUFF名稱" />
+                <Property Name="UnifiedAreaRect" Value="{{0.302326,0},{0,0},{1,0},{1,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

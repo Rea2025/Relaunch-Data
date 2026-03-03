@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="creatconfirm" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="TitlebarImage" Value="set:main11 image:Collect" />
+        <Property Name="UnifiedAreaRect" Value="{{0.366211,0},{0.401041,0},{0.366211,266},{0.401041,241}}" />
+        <Window Type="DejaVu/Embed" Name="creatconfirm/e1" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Embed2" Name="creatconfirm/e1/e2" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0621118,0},{0.92,0},{0.745342,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="creatconfirm/e1/e2/Text" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                    <Property Name="HorzFormatting" Value="WordWrapCentred" />
+                    <Property Name="Text" >將針對:
+
+[colour=&apos;FFFFFF00&apos;]收藏冊內已收藏的道具[colour=&apos;FFFFFFFF&apos;]
+
+進行「積分收藏」，未綁定的道具將轉變為「已綁定」，是否確定要收藏？</Property>
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.934783,0},{0.727273,0}}" />
+                    <Property Name="VerticalAlignment" Value="Centre" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Button" Name="creatconfirm/e1/ConfirmBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="確定" />
+                <Property Name="UnifiedAreaRect" Value="{{0.12,0},{0.776398,0},{0.424,0},{0.937888,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="creatconfirm/e1/CancelBtn" >
+                <Property Name="Text" Value="取消" />
+                <Property Name="UnifiedAreaRect" Value="{{0.56,0},{0.776398,0},{0.864,0},{0.937888,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

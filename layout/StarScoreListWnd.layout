@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="StarScoreListWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="TitlebarImage" Value="set:main image:CharaterNormal" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0.339844,0},{0.0598958,0},{0.339844,345},{0.0598958,649}}" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Window Type="DejaVu/Embed" Name="StarScoreListWnd/Embed" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Static" Name="StarScoreListWnd/Embed/ClassBG" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.030769,0},{0.017575,0},{0.969979,0},{0.982426,0}}" />
+                <Window Type="DejaVu/Embed2" Name="StarScoreListWnd/Embed/ClassBG/Embed2" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.018215,0},{1,0},{1,0}}" />
+                    <Window Type="DejaVu/Embed2" Name="StarScoreListWnd/Embed/ClassBG/Embed2/Embed2" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.032787,0},{0.0999461,0},{0.967213,0},{0.931231,0}}" />
+                        <Window Type="DejaVu/ScrollablePane" Name="StarScoreListWnd/Embed/ClassBG/Embed2/Embed2/Pane" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="ContentArea" Value="l:0 t:0 r:81 b:95" />
+                            <Property Name="HorzStepSize" Value="0.1" />
+                            <Property Name="VertStepSize" Value="0.1" />
+                            <Property Name="HorzOverlapSize" Value="0.01" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.00692,0},{0.00830802,0},{0.993079,0},{0.996031,0}}" />
+                            <Property Name="VertOverlapSize" Value="0.01" />
+                            <Property Name="HorzScrollPosition" Value="0" />
+                            <Property Name="VertScrollPosition" Value="0" />
+                            <AutoWindow NameSuffix="__auto_container__" >
+                                <Property Name="ContentArea" Value="l:0 t:0 r:81 b:95" />
+                                <Property Name="ChildExtentsArea" Value="l:0 t:0 r:81 b:95" />
+                                <Property Name="MouseInputPropagationEnabled" Value="True" />
+                                <Window Type="DejaVu/Static" Name="StarScoreListWnd/Embed/ClassBG/Embed2/Embed2/Pane/unit" >
+                                    <Property Name="Font" Value="F001-9" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.0402332,0},{0.0107288,0},{0.285847,0},{0.216208,0}}" />
+                                    <Window Type="DejaVu/SlotImage" Name="StarScoreListWnd/Embed/ClassBG/Embed2/Embed2/Pane/unit/slot" >
+                                        <Property Name="Font" Value="F001-9" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.185714,0},{0.166667,0},{0.785714,0},{0.633333,0}}" />
+                                    </Window>
+                                    <Window Type="DejaVu/EmbedText5" Name="StarScoreListWnd/Embed/ClassBG/Embed2/Embed2/Pane/unit/level" >
+                                        <Property Name="Font" Value="F001-9" />
+                                        <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.655556,0},{0.871429,0},{0.933334,0}}" />
+                                    </Window>
+                                </Window>
+                            </AutoWindow>
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Embed7" Name="StarScoreListWnd/Embed/ClassBG/Embed2/Text" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.038835,0},{0.0412758,0},{0.330097,0},{0.0881801,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedText2" Name="StarScoreListWnd/Embed/ClassBG/Embed2/Num" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.323625,0},{0.0412758,0},{0.517799,0},{0.0881801,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Button" Name="StarScoreListWnd/Embed/ClassBG/Embed2/AllResetbtn" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.718447,0},{0.0412758,0},{0.964401,0},{0.0881801,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Button" Name="StarScoreListWnd/Embed/ClassBG/Embed2/Confirmbtn" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.139159,0},{0.941839,0},{0.38835,0},{0.988743,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Button" Name="StarScoreListWnd/Embed/ClassBG/Embed2/resetbtn" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.605178,0},{0.941839,0},{0.854369,0},{0.988743,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed4" Name="StarScoreListWnd/Embed/ClassBG/Title" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.032787,0},{0,0},{0.52459,0},{0.0455373,0}}" />
+                    <Window Type="DejaVu/StaticImage" Name="StarScoreListWnd/Embed/ClassBG/Title/Img" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Image" Value="set:DejaVu image:Image17" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="StarScoreListWnd/Embed/ClassBG/Title/Text" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="x釣魚位階" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.2,0},{0.866667,0},{0.8,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

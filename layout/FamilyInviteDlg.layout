@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/CommonDlg" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="TitlebarImage" Value="set:main image:CommunityNormal" />
+        <Property Name="UnifiedAreaRect" Value="{{0.361328,0},{0.360051,0},{0.361328,266},{0.360051,241}}" />
+        <Window Type="DejaVu/Embed" Name="Root/CommonDlg/frame/bg" >
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Embed2" Name="Root/CommonDlg/frame/bg/Embed4" >
+                <Property Name="UnifiedAreaRect" Value="{{0.04,0},{0.0625,0},{0.96,0},{0.74375,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/CommonDlg/MsgText" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="x請輸入角色名稱" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.043478,0},{0.321101,0},{0.956521,0},{0.504587,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/CommonDlg/EditBox" >
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                    <Property Name="MaxTextLength" Value="20" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.590909,0},{0.521739,0},{0.818182,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/CommonDlg/OKBtn" >
+                <Property Name="Text" Value="x確定" />
+                <Property Name="UnifiedAreaRect" Value="{{0.04,0},{0.775,0},{0.344,0},{0.9375,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/CommonDlg/CloseBtn" >
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="Text" Value="x關閉" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.04,0},{0.776398,0},{0.264,0},{0.937889,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/CommonDlg/CancelBtn" >
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="Text" Value="X離開" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.04,0},{0.775,0},{0.264,0},{0.9375,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

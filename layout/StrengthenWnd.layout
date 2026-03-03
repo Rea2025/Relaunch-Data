@@ -13,23 +13,23 @@
             <Property Name="TitlebarEnabled" Value="True" />
             <Property Name="TitlebarFont" Value="F001-9" />
             <Property Name="TitlebarImage" Value="set:main image:Strength" />
-            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,731},{0,670}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,631},{0,670}}" />
             <Window Type="DejaVu/Embed" Name="Root/StrengthenWnd/Static" >
                 <Property Name="Font" Value="F001-9" />
                 <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
                 <Window Type="DejaVu/Button" Name="Root/StrengthenWnd/StartBtn" >
                     <Property Name="Font" Value="F001-9" />
                     <Property Name="Text" Value="x開始強化" />
-                    <Property Name="UnifiedAreaRect" Value="{{0.87972,0},{-0.016949,0},{0.986014,0},{0.0271188,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.860163,0},{-0.0169492,0},{0.98374,0},{0.0271186,0}}" />
                     <Property Name="VerticalAlignment" Value="Bottom" />
                 </Window>
                 <Window Type="DejaVu/Static" Name="Root/StrengthenWnd/Frame" >
                     <Property Name="Font" Value="F001-9" />
-                    <Property Name="UnifiedAreaRect" Value="{{0.013986,0},{0.016949,0},{0.41958,0},{0.983051,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.01626,0},{0.016949,0},{0.325203,0},{0.983051,0}}" />
                     <Window Type="DejaVu/Embed4" Name="Root/StrengthenWnd/Frame/Title" >
                         <Property Name="AlwaysOnTop" Value="True" />
                         <Property Name="Font" Value="F001-9" />
-                        <Property Name="UnifiedAreaRect" Value="{{0.034483,0},{0,0},{0.551724,0},{0.0438596,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.052632,0},{0,0},{0.842106,0},{0.0438596,0}}" />
                         <Window Type="DejaVu/StaticTextLab" Name="Root/StrengthenWnd/Frame/TitleText" >
                             <Property Name="Font" Value="F001-9" />
                             <Property Name="Text" Value="x強化效果" />
@@ -46,10 +46,10 @@
                         <Property Name="UnifiedAreaRect" Value="{{0,0},{0.016966,0},{1,0},{0.999725,0}}" />
                         <Window Type="DejaVu/Static" Name="Root/StrengthenWnd/Level1" >
                             <Property Name="Font" Value="F001-9" />
-                            <Property Name="UnifiedAreaRect" Value="{{0.034483,0},{0.089286,0},{0.965517,0},{0.132143,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.052632,0},{0.089286,0},{0.947369,0},{0.132143,0}}" />
                             <Window Type="DejaVu/Embed2" Name="Root/StrengthenWnd/Level1/Icon" >
                                 <Property Name="Font" Value="F001-9" />
-                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.259259,0},{1,0}}" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.411765,0},{1,0}}" />
                                 <Window Type="DejaVu/StaticImage" Name="Root/StrengthenWnd/Level1/Icon/Frame" >
                                     <Property Name="Font" Value="F001-9" />
                                     <Property Name="Image" Value="set:main image:Strengthen1" />
@@ -70,20 +70,14 @@
                                 <Property Name="Font" Value="F001-9" />
                                 <Property Name="Text" Value="1251" />
                                 <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
-                                <Property Name="UnifiedAreaRect" Value="{{0.259259,0},{0,0},{0.629629,0},{1,0}}" />
-                            </Window>
-                            <Window Type="DejaVu/EmbedTextLab2" Name="Root/StrengthenWnd/Level1/HP" >
-                                <Property Name="Font" Value="F001-9" />
-                                <Property Name="Text" Value="1000" />
-                                <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
-                                <Property Name="UnifiedAreaRect" Value="{{0.62963,0},{0,0},{1,0},{1,0}}" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.411765,0},{0,0},{1,0},{1,0}}" />
                             </Window>
                         </Window>
                         <Window Type="DejaVu/Static" Name="Root/StrengthenWnd/Level2" >
                             <Property Name="MousePassThroughEnabled" Value="True" />
-                            <Property Name="UnifiedAreaRect" Value="{{0.034483,0},{0.133929,0},{0.965517,0},{0.176786,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.052632,0},{0.133929,0},{0.947369,0},{0.176786,0}}" />
                             <Window Type="DejaVu/Embed2" Name="Root/StrengthenWnd/Level2/Icon" >
-                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.259259,0},{1,0}}" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.411765,0},{1,0}}" />
                                 <Window Type="DejaVu/StaticImage" Name="Root/StrengthenWnd/Level2/Icon/Frame" >
                                     <Property Name="Font" Value="F001-9" />
                                     <Property Name="Image" Value="set:main image:Strengthen1" />
@@ -103,20 +97,14 @@
                             <Window Type="DejaVu/EmbedTextLab2" Name="Root/StrengthenWnd/Level2/Atk" >
                                 <Property Name="Text" Value="1287" />
                                 <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
-                                <Property Name="UnifiedAreaRect" Value="{{0.259259,0},{0,0},{0.629629,0},{1,0}}" />
-                            </Window>
-                            <Window Type="DejaVu/EmbedTextLab2" Name="Root/StrengthenWnd/Level2/HP" >
-                                <Property Name="Font" Value="F001-9" />
-                                <Property Name="Text" Value="1000" />
-                                <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
-                                <Property Name="UnifiedAreaRect" Value="{{0.62963,0},{0,0},{1,0},{1,0}}" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.411765,0},{0,0},{1,0},{1,0}}" />
                             </Window>
                         </Window>
                         <Window Type="DejaVu/Static" Name="Root/StrengthenWnd/Level3" >
                             <Property Name="MousePassThroughEnabled" Value="True" />
-                            <Property Name="UnifiedAreaRect" Value="{{0.034483,0},{0.178571,0},{0.965517,0},{0.221428,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.052632,0},{0.178571,0},{0.947369,0},{0.221428,0}}" />
                             <Window Type="DejaVu/Embed2" Name="Root/StrengthenWnd/Level3/Icon" >
-                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.259259,0},{1,0}}" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.411765,0},{1,0}}" />
                                 <Window Type="DejaVu/StaticImage" Name="Root/StrengthenWnd/Level3/Icon/Frame" >
                                     <Property Name="Font" Value="F001-9" />
                                     <Property Name="Image" Value="set:main image:Strengthen1" />
@@ -136,19 +124,13 @@
                             <Window Type="DejaVu/EmbedTextLab2" Name="Root/StrengthenWnd/Level3/Atk" >
                                 <Property Name="Text" Value="1324" />
                                 <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
-                                <Property Name="UnifiedAreaRect" Value="{{0.259259,0},{0,0},{0.629629,0},{1,0}}" />
-                            </Window>
-                            <Window Type="DejaVu/EmbedTextLab2" Name="Root/StrengthenWnd/Level3/HP" >
-                                <Property Name="Font" Value="F001-9" />
-                                <Property Name="Text" Value="1000" />
-                                <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
-                                <Property Name="UnifiedAreaRect" Value="{{0.62963,0},{0,0},{1,0},{1,0}}" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.411765,0},{0,0},{1,0},{1,0}}" />
                             </Window>
                         </Window>
                         <Window Type="DejaVu/Static" Name="Root/StrengthenWnd/Level4" >
-                            <Property Name="UnifiedAreaRect" Value="{{0.034483,0},{0.223214,0},{0.965517,0},{0.266071,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.052632,0},{0.223214,0},{0.947369,0},{0.266071,0}}" />
                             <Window Type="DejaVu/Embed2" Name="Root/StrengthenWnd/Level4/Icon" >
-                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.259259,0},{1,0}}" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.411765,0},{1,0}}" />
                                 <Window Type="DejaVu/StaticImage" Name="Root/StrengthenWnd/Level4/Icon/Frame" >
                                     <Property Name="Font" Value="F001-9" />
                                     <Property Name="Image" Value="set:main image:Strengthen1" />
@@ -168,19 +150,13 @@
                             <Window Type="DejaVu/EmbedTextLab2" Name="Root/StrengthenWnd/Level4/Atk" >
                                 <Property Name="Text" Value="1385" />
                                 <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
-                                <Property Name="UnifiedAreaRect" Value="{{0.259259,0},{0,0},{0.629629,0},{1,0}}" />
-                            </Window>
-                            <Window Type="DejaVu/EmbedTextLab2" Name="Root/StrengthenWnd/Level4/HP" >
-                                <Property Name="Font" Value="F001-9" />
-                                <Property Name="Text" Value="1000" />
-                                <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
-                                <Property Name="UnifiedAreaRect" Value="{{0.62963,0},{0,0},{1,0},{1,0}}" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.411765,0},{0,0},{1,0},{1,0}}" />
                             </Window>
                         </Window>
                         <Window Type="DejaVu/Static" Name="Root/StrengthenWnd/Level5" >
-                            <Property Name="UnifiedAreaRect" Value="{{0.034483,0},{0.267857,0},{0.965517,0},{0.310714,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.052632,0},{0.267857,0},{0.947369,0},{0.310714,0}}" />
                             <Window Type="DejaVu/Embed2" Name="Root/StrengthenWnd/Level5/Icon" >
-                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.259259,0},{1,0}}" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.411765,0},{1,0}}" />
                                 <Window Type="DejaVu/StaticImage" Name="Root/StrengthenWnd/Level5/Icon/Frame" >
                                     <Property Name="Font" Value="F001-9" />
                                     <Property Name="Image" Value="set:main image:Strengthen1" />
@@ -200,19 +176,13 @@
                             <Window Type="DejaVu/EmbedTextLab2" Name="Root/StrengthenWnd/Level5/Atk" >
                                 <Property Name="Text" Value="1445" />
                                 <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
-                                <Property Name="UnifiedAreaRect" Value="{{0.259259,0},{0,0},{0.629629,0},{1,0}}" />
-                            </Window>
-                            <Window Type="DejaVu/EmbedTextLab2" Name="Root/StrengthenWnd/Level5/HP" >
-                                <Property Name="Font" Value="F001-9" />
-                                <Property Name="Text" Value="1000" />
-                                <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
-                                <Property Name="UnifiedAreaRect" Value="{{0.62963,0},{0,0},{1,0},{1,0}}" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.411765,0},{0,0},{1,0},{1,0}}" />
                             </Window>
                         </Window>
                         <Window Type="DejaVu/Static" Name="Root/StrengthenWnd/Level6" >
-                            <Property Name="UnifiedAreaRect" Value="{{0.034483,0},{0.3125,0},{0.965517,0},{0.355357,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.052632,0},{0.3125,0},{0.947369,0},{0.355357,0}}" />
                             <Window Type="DejaVu/Embed2" Name="Root/StrengthenWnd/Level6/Icon" >
-                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.259259,0},{1,0}}" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.411765,0},{1,0}}" />
                                 <Window Type="DejaVu/StaticImage" Name="Root/StrengthenWnd/Level6/Icon/Frame" >
                                     <Property Name="Font" Value="F001-9" />
                                     <Property Name="Image" Value="set:main image:Strengthen1" />
@@ -232,19 +202,13 @@
                             <Window Type="DejaVu/EmbedTextLab2" Name="Root/StrengthenWnd/Level6/Atk" >
                                 <Property Name="Text" Value="1506" />
                                 <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
-                                <Property Name="UnifiedAreaRect" Value="{{0.259259,0},{0,0},{0.629629,0},{1,0}}" />
-                            </Window>
-                            <Window Type="DejaVu/EmbedTextLab2" Name="Root/StrengthenWnd/Level6/HP" >
-                                <Property Name="Font" Value="F001-9" />
-                                <Property Name="Text" Value="1000" />
-                                <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
-                                <Property Name="UnifiedAreaRect" Value="{{0.62963,0},{0,0},{1,0},{1,0}}" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.411765,0},{0,0},{1,0},{1,0}}" />
                             </Window>
                         </Window>
                         <Window Type="DejaVu/Static" Name="Root/StrengthenWnd/Level7" >
-                            <Property Name="UnifiedAreaRect" Value="{{0.034483,0},{0.357143,0},{0.965517,0},{0.4,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.052632,0},{0.357143,0},{0.947369,0},{0.4,0}}" />
                             <Window Type="DejaVu/Embed2" Name="Root/StrengthenWnd/Level7/Icon" >
-                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.259259,0},{1,0}}" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.411765,0},{1,0}}" />
                                 <Window Type="DejaVu/StaticImage" Name="Root/StrengthenWnd/Level7/Icon/Frame" >
                                     <Property Name="Font" Value="F001-9" />
                                     <Property Name="Image" Value="set:main image:Strengthen1" />
@@ -264,19 +228,13 @@
                             <Window Type="DejaVu/EmbedTextLab2" Name="Root/StrengthenWnd/Level7/Atk" >
                                 <Property Name="Text" Value="1676" />
                                 <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
-                                <Property Name="UnifiedAreaRect" Value="{{0.259259,0},{0,0},{0.629629,0},{1,0}}" />
-                            </Window>
-                            <Window Type="DejaVu/EmbedTextLab2" Name="Root/StrengthenWnd/Level7/HP" >
-                                <Property Name="Font" Value="F001-9" />
-                                <Property Name="Text" Value="1000" />
-                                <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
-                                <Property Name="UnifiedAreaRect" Value="{{0.62963,0},{0,0},{1,0},{1,0}}" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.411765,0},{0,0},{1,0},{1,0}}" />
                             </Window>
                         </Window>
                         <Window Type="DejaVu/Static" Name="Root/StrengthenWnd/Level8" >
-                            <Property Name="UnifiedAreaRect" Value="{{0.034483,0},{0.401786,0},{0.965517,0},{0.444643,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.052632,0},{0.401786,0},{0.947369,0},{0.444643,0}}" />
                             <Window Type="DejaVu/Embed2" Name="Root/StrengthenWnd/Level8/Icon" >
-                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.259259,0},{1,0}}" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.411765,0},{1,0}}" />
                                 <Window Type="DejaVu/StaticImage" Name="Root/StrengthenWnd/Level8/Icon/Frame" >
                                     <Property Name="Font" Value="F001-9" />
                                     <Property Name="Image" Value="set:main image:Strengthen1" />
@@ -296,19 +254,13 @@
                             <Window Type="DejaVu/EmbedTextLab2" Name="Root/StrengthenWnd/Level8/Atk" >
                                 <Property Name="Text" Value="1761" />
                                 <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
-                                <Property Name="UnifiedAreaRect" Value="{{0.259259,0},{0,0},{0.629629,0},{1,0}}" />
-                            </Window>
-                            <Window Type="DejaVu/EmbedTextLab2" Name="Root/StrengthenWnd/Level8/HP" >
-                                <Property Name="Font" Value="F001-9" />
-                                <Property Name="Text" Value="1000" />
-                                <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
-                                <Property Name="UnifiedAreaRect" Value="{{0.62963,0},{0,0},{1,0},{1,0}}" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.411765,0},{0,0},{1,0},{1,0}}" />
                             </Window>
                         </Window>
                         <Window Type="DejaVu/Static" Name="Root/StrengthenWnd/Level9" >
-                            <Property Name="UnifiedAreaRect" Value="{{0.034483,0},{0.446429,0},{0.965517,0},{0.489286,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.052632,0},{0.446429,0},{0.947369,0},{0.489286,0}}" />
                             <Window Type="DejaVu/Embed2" Name="Root/StrengthenWnd/Level9/Icon" >
-                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.259259,0},{1,0}}" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.411765,0},{1,0}}" />
                                 <Window Type="DejaVu/StaticImage" Name="Root/StrengthenWnd/Level9/Icon/Frame" >
                                     <Property Name="Font" Value="F001-9" />
                                     <Property Name="Image" Value="set:main image:Strengthen1" />
@@ -328,19 +280,13 @@
                             <Window Type="DejaVu/EmbedTextLab2" Name="Root/StrengthenWnd/Level9/Atk" >
                                 <Property Name="Text" Value="1883" />
                                 <Property Name="TextColours" Value="tl:FF666666 tr:FF666666 bl:FF666666 br:FF666666" />
-                                <Property Name="UnifiedAreaRect" Value="{{0.259259,0},{0,0},{0.629629,0},{1,0}}" />
-                            </Window>
-                            <Window Type="DejaVu/EmbedTextLab2" Name="Root/StrengthenWnd/Level9/HP" >
-                                <Property Name="Font" Value="F001-9" />
-                                <Property Name="Text" Value="1000" />
-                                <Property Name="TextColours" Value="tl:FF666666 tr:FF666666 bl:FF666666 br:FF666666" />
-                                <Property Name="UnifiedAreaRect" Value="{{0.62963,0},{0,0},{1,0},{1,0}}" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.411765,0},{0,0},{1,0},{1,0}}" />
                             </Window>
                         </Window>
                         <Window Type="DejaVu/Static" Name="Root/StrengthenWnd/Level10" >
-                            <Property Name="UnifiedAreaRect" Value="{{0.034483,0},{0.491071,0},{0.965517,0},{0.533928,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.052632,0},{0.491071,0},{0.947369,0},{0.533928,0}}" />
                             <Window Type="DejaVu/Embed2" Name="Root/StrengthenWnd/Level10/Icon" >
-                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.259259,0},{1,0}}" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.411765,0},{1,0}}" />
                                 <Window Type="DejaVu/StaticImage" Name="Root/StrengthenWnd/Level10/Icon/Frame" >
                                     <Property Name="Font" Value="F001-9" />
                                     <Property Name="Image" Value="set:main image:Strengthen1" />
@@ -360,30 +306,24 @@
                             <Window Type="DejaVu/EmbedTextLab2" Name="Root/StrengthenWnd/Level10/Atk" >
                                 <Property Name="Text" Value="1883" />
                                 <Property Name="TextColours" Value="tl:FF666666 tr:FF666666 bl:FF666666 br:FF666666" />
-                                <Property Name="UnifiedAreaRect" Value="{{0.259259,0},{0,0},{0.629629,0},{1,0}}" />
-                            </Window>
-                            <Window Type="DejaVu/EmbedTextLab2" Name="Root/StrengthenWnd/Level10/HP" >
-                                <Property Name="Font" Value="F001-9" />
-                                <Property Name="Text" Value="1000" />
-                                <Property Name="TextColours" Value="tl:FF666666 tr:FF666666 bl:FF666666 br:FF666666" />
-                                <Property Name="UnifiedAreaRect" Value="{{0.62963,0},{0,0},{1,0},{1,0}}" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.411765,0},{0,0},{1,0},{1,0}}" />
                             </Window>
                         </Window>
                         <Window Type="DejaVu/EmbedTextLab7" Name="Root/StrengthenWnd/LevelBtn" >
                             <Property Name="Font" Value="F001-9" />
                             <Property Name="HorzFormatting" Value="HorzCentred" />
                             <Property Name="Text" Value="x階級" />
-                            <Property Name="UnifiedAreaRect" Value="{{0.034483,0},{0.044643,0},{0.275862,0},{0.0892859,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.052632,0},{0.044643,0},{0.421053,0},{0.0892859,0}}" />
                         </Window>
                         <Window Type="DejaVu/EmbedTextLab7" Name="Root/StrengthenWnd/AtkBtn" >
                             <Property Name="HorzFormatting" Value="HorzCentred" />
                             <Property Name="Text" Value="x攻擊" />
-                            <Property Name="UnifiedAreaRect" Value="{{0.275862,0},{0.044643,0},{0.62069,0},{0.0892859,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.421053,0},{0.044643,0},{0.947369,0},{0.0892859,0}}" />
                         </Window>
                         <Window Type="DejaVu/Static" Name="Root/StrengthenWnd/Level11" >
-                            <Property Name="UnifiedAreaRect" Value="{{0.034483,0},{0.535714,0},{0.965517,0},{0.578571,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.052632,0},{0.535714,0},{0.947369,0},{0.578571,0}}" />
                             <Window Type="DejaVu/Embed2" Name="Root/StrengthenWnd/Level11/Icon" >
-                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.259259,0},{1,0}}" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.411765,0},{1,0}}" />
                                 <Window Type="DejaVu/StaticImage" Name="Root/StrengthenWnd/Level11/Icon/Frame" >
                                     <Property Name="Font" Value="F001-9" />
                                     <Property Name="Image" Value="set:main image:Strengthen1" />
@@ -403,19 +343,13 @@
                             <Window Type="DejaVu/EmbedTextLab2" Name="Root/StrengthenWnd/Level11/Atk" >
                                 <Property Name="Text" Value="1883" />
                                 <Property Name="TextColours" Value="tl:FF666666 tr:FF666666 bl:FF666666 br:FF666666" />
-                                <Property Name="UnifiedAreaRect" Value="{{0.259259,0},{0,0},{0.629629,0},{1,0}}" />
-                            </Window>
-                            <Window Type="DejaVu/EmbedTextLab2" Name="Root/StrengthenWnd/Level11/HP" >
-                                <Property Name="Font" Value="F001-9" />
-                                <Property Name="Text" Value="1000" />
-                                <Property Name="TextColours" Value="tl:FF666666 tr:FF666666 bl:FF666666 br:FF666666" />
-                                <Property Name="UnifiedAreaRect" Value="{{0.62963,0},{0,0},{1,0},{1,0}}" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.411765,0},{0,0},{1,0},{1,0}}" />
                             </Window>
                         </Window>
                         <Window Type="DejaVu/Static" Name="Root/StrengthenWnd/Level12" >
-                            <Property Name="UnifiedAreaRect" Value="{{0.034483,0},{0.580357,0},{0.965517,0},{0.623214,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.052632,0},{0.580357,0},{0.947369,0},{0.623214,0}}" />
                             <Window Type="DejaVu/Embed2" Name="Root/StrengthenWnd/Level12/Icon" >
-                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.259259,0},{1,0}}" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.411765,0},{1,0}}" />
                                 <Window Type="DejaVu/StaticImage" Name="Root/StrengthenWnd/Level12/Icon/Frame" >
                                     <Property Name="Font" Value="F001-9" />
                                     <Property Name="Image" Value="set:main image:Strengthen1" />
@@ -435,19 +369,13 @@
                             <Window Type="DejaVu/EmbedTextLab2" Name="Root/StrengthenWnd/Level12/Atk" >
                                 <Property Name="Text" Value="1883" />
                                 <Property Name="TextColours" Value="tl:FF666666 tr:FF666666 bl:FF666666 br:FF666666" />
-                                <Property Name="UnifiedAreaRect" Value="{{0.259259,0},{0,0},{0.629629,0},{1,0}}" />
-                            </Window>
-                            <Window Type="DejaVu/EmbedTextLab2" Name="Root/StrengthenWnd/Level12/HP" >
-                                <Property Name="Font" Value="F001-9" />
-                                <Property Name="Text" Value="500" />
-                                <Property Name="TextColours" Value="tl:FF666666 tr:FF666666 bl:FF666666 br:FF666666" />
-                                <Property Name="UnifiedAreaRect" Value="{{0.62963,0},{0,0},{1,0},{1,0}}" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.411765,0},{0,0},{1,0},{1,0}}" />
                             </Window>
                         </Window>
                         <Window Type="DejaVu/Static" Name="Root/StrengthenWnd/Level13" >
-                            <Property Name="UnifiedAreaRect" Value="{{0.034483,0},{0.625,0},{0.965517,0},{0.667857,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.052632,0},{0.625,0},{0.947369,0},{0.667857,0}}" />
                             <Window Type="DejaVu/Embed2" Name="Root/StrengthenWnd/Level13/Icon" >
-                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.259259,0},{1,0}}" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.411765,0},{1,0}}" />
                                 <Window Type="DejaVu/StaticImage" Name="Root/StrengthenWnd/Level13/Icon/Frame" >
                                     <Property Name="Font" Value="F001-9" />
                                     <Property Name="Image" Value="set:main image:Strengthen1" />
@@ -467,19 +395,13 @@
                             <Window Type="DejaVu/EmbedTextLab2" Name="Root/StrengthenWnd/Level13/Atk" >
                                 <Property Name="Text" Value="1883" />
                                 <Property Name="TextColours" Value="tl:FF666666 tr:FF666666 bl:FF666666 br:FF666666" />
-                                <Property Name="UnifiedAreaRect" Value="{{0.259259,0},{0,0},{0.629629,0},{1,0}}" />
-                            </Window>
-                            <Window Type="DejaVu/EmbedTextLab2" Name="Root/StrengthenWnd/Level13/HP" >
-                                <Property Name="Font" Value="F001-9" />
-                                <Property Name="Text" Value="5220" />
-                                <Property Name="TextColours" Value="tl:FF666666 tr:FF666666 bl:FF666666 br:FF666666" />
-                                <Property Name="UnifiedAreaRect" Value="{{0.62963,0},{0,0},{1,0},{1,0}}" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.411765,0},{0,0},{1,0},{1,0}}" />
                             </Window>
                         </Window>
                         <Window Type="DejaVu/Static" Name="Root/StrengthenWnd/Level14" >
-                            <Property Name="UnifiedAreaRect" Value="{{0.034483,0},{0.669643,0},{0.965517,0},{0.7125,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.052632,0},{0.669643,0},{0.947369,0},{0.7125,0}}" />
                             <Window Type="DejaVu/Embed2" Name="Root/StrengthenWnd/Level14/Icon" >
-                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.259259,0},{1,0}}" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.411765,0},{1,0}}" />
                                 <Window Type="DejaVu/StaticImage" Name="Root/StrengthenWnd/Level14/Icon/Frame" >
                                     <Property Name="Font" Value="F001-9" />
                                     <Property Name="Image" Value="set:main image:Strengthen1" />
@@ -499,19 +421,13 @@
                             <Window Type="DejaVu/EmbedTextLab2" Name="Root/StrengthenWnd/Level14/Atk" >
                                 <Property Name="Text" Value="1883" />
                                 <Property Name="TextColours" Value="tl:FF666666 tr:FF666666 bl:FF666666 br:FF666666" />
-                                <Property Name="UnifiedAreaRect" Value="{{0.259259,0},{0,0},{0.629629,0},{1,0}}" />
-                            </Window>
-                            <Window Type="DejaVu/EmbedTextLab2" Name="Root/StrengthenWnd/Level14/HP" >
-                                <Property Name="Font" Value="F001-9" />
-                                <Property Name="Text" Value="3000" />
-                                <Property Name="TextColours" Value="tl:FF666666 tr:FF666666 bl:FF666666 br:FF666666" />
-                                <Property Name="UnifiedAreaRect" Value="{{0.62963,0},{0,0},{1,0},{1,0}}" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.411765,0},{0,0},{1,0},{1,0}}" />
                             </Window>
                         </Window>
                         <Window Type="DejaVu/Static" Name="Root/StrengthenWnd/Level15" >
-                            <Property Name="UnifiedAreaRect" Value="{{0.034483,0},{0.714286,0},{0.965517,0},{0.757143,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.052632,0},{0.714286,0},{0.947369,0},{0.757143,0}}" />
                             <Window Type="DejaVu/Embed2" Name="Root/StrengthenWnd/Level15/Icon" >
-                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.259259,0},{1,0}}" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.411765,0},{1,0}}" />
                                 <Window Type="DejaVu/StaticImage" Name="Root/StrengthenWnd/Level15/Icon/Frame" >
                                     <Property Name="Font" Value="F001-9" />
                                     <Property Name="Image" Value="set:main image:Strengthen1" />
@@ -531,19 +447,13 @@
                             <Window Type="DejaVu/EmbedTextLab2" Name="Root/StrengthenWnd/Level15/Atk" >
                                 <Property Name="Text" Value="1883" />
                                 <Property Name="TextColours" Value="tl:FF666666 tr:FF666666 bl:FF666666 br:FF666666" />
-                                <Property Name="UnifiedAreaRect" Value="{{0.259259,0},{0,0},{0.629629,0},{1,0}}" />
-                            </Window>
-                            <Window Type="DejaVu/EmbedTextLab2" Name="Root/StrengthenWnd/Level15/HP" >
-                                <Property Name="Font" Value="F001-9" />
-                                <Property Name="Text" Value="1000" />
-                                <Property Name="TextColours" Value="tl:FF666666 tr:FF666666 bl:FF666666 br:FF666666" />
-                                <Property Name="UnifiedAreaRect" Value="{{0.62963,0},{0,0},{1,0},{1,0}}" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.411765,0},{0,0},{1,0},{1,0}}" />
                             </Window>
                         </Window>
                         <Window Type="DejaVu/Static" Name="Root/StrengthenWnd/Level16" >
-                            <Property Name="UnifiedAreaRect" Value="{{0.034483,0},{0.758929,0},{0.965517,0},{0.801786,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.052632,0},{0.758929,0},{0.947369,0},{0.801786,0}}" />
                             <Window Type="DejaVu/Embed2" Name="Root/StrengthenWnd/Level16/Icon" >
-                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.259259,0},{1,0}}" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.411765,0},{1,0}}" />
                                 <Window Type="DejaVu/StaticImage" Name="Root/StrengthenWnd/Level16/Icon/Frame" >
                                     <Property Name="Font" Value="F001-9" />
                                     <Property Name="Image" Value="set:main image:Strengthen1" />
@@ -563,19 +473,13 @@
                             <Window Type="DejaVu/EmbedTextLab2" Name="Root/StrengthenWnd/Level16/Atk" >
                                 <Property Name="Text" Value="1883" />
                                 <Property Name="TextColours" Value="tl:FF666666 tr:FF666666 bl:FF666666 br:FF666666" />
-                                <Property Name="UnifiedAreaRect" Value="{{0.259259,0},{0,0},{0.629629,0},{1,0}}" />
-                            </Window>
-                            <Window Type="DejaVu/EmbedTextLab2" Name="Root/StrengthenWnd/Level16/HP" >
-                                <Property Name="Font" Value="F001-9" />
-                                <Property Name="Text" Value="1000" />
-                                <Property Name="TextColours" Value="tl:FF666666 tr:FF666666 bl:FF666666 br:FF666666" />
-                                <Property Name="UnifiedAreaRect" Value="{{0.62963,0},{0,0},{1,0},{1,0}}" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.411765,0},{0,0},{1,0},{1,0}}" />
                             </Window>
                         </Window>
                         <Window Type="DejaVu/Static" Name="Root/StrengthenWnd/Level17" >
-                            <Property Name="UnifiedAreaRect" Value="{{0.034483,0},{0.803571,0},{0.965517,0},{0.846428,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.052632,0},{0.803571,0},{0.947369,0},{0.846428,0}}" />
                             <Window Type="DejaVu/Embed2" Name="Root/StrengthenWnd/Level17/Icon" >
-                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.259259,0},{1,0}}" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.411765,0},{1,0}}" />
                                 <Window Type="DejaVu/StaticImage" Name="Root/StrengthenWnd/Level17/Icon/Frame" >
                                     <Property Name="Font" Value="F001-9" />
                                     <Property Name="Image" Value="set:main image:Strengthen1" />
@@ -595,19 +499,13 @@
                             <Window Type="DejaVu/EmbedTextLab2" Name="Root/StrengthenWnd/Level17/Atk" >
                                 <Property Name="Text" Value="1883" />
                                 <Property Name="TextColours" Value="tl:FF666666 tr:FF666666 bl:FF666666 br:FF666666" />
-                                <Property Name="UnifiedAreaRect" Value="{{0.259259,0},{0,0},{0.629629,0},{1,0}}" />
-                            </Window>
-                            <Window Type="DejaVu/EmbedTextLab2" Name="Root/StrengthenWnd/Level17/HP" >
-                                <Property Name="Font" Value="F001-9" />
-                                <Property Name="Text" Value="5555" />
-                                <Property Name="TextColours" Value="tl:FF666666 tr:FF666666 bl:FF666666 br:FF666666" />
-                                <Property Name="UnifiedAreaRect" Value="{{0.62963,0},{0,0},{1,0},{1,0}}" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.411765,0},{0,0},{1,0},{1,0}}" />
                             </Window>
                         </Window>
                         <Window Type="DejaVu/Static" Name="Root/StrengthenWnd/Level18" >
-                            <Property Name="UnifiedAreaRect" Value="{{0.034483,0},{0.848214,0},{0.965517,0},{0.891071,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.052632,0},{0.848214,0},{0.947369,0},{0.891071,0}}" />
                             <Window Type="DejaVu/Embed2" Name="Root/StrengthenWnd/Level18/Icon" >
-                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.259259,0},{1,0}}" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.411765,0},{1,0}}" />
                                 <Window Type="DejaVu/StaticImage" Name="Root/StrengthenWnd/Level18/Icon/Frame" >
                                     <Property Name="Font" Value="F001-9" />
                                     <Property Name="Image" Value="set:main image:Strengthen1" />
@@ -627,19 +525,13 @@
                             <Window Type="DejaVu/EmbedTextLab2" Name="Root/StrengthenWnd/Level18/Atk" >
                                 <Property Name="Text" Value="1883" />
                                 <Property Name="TextColours" Value="tl:FF666666 tr:FF666666 bl:FF666666 br:FF666666" />
-                                <Property Name="UnifiedAreaRect" Value="{{0.259259,0},{0,0},{0.629629,0},{1,0}}" />
-                            </Window>
-                            <Window Type="DejaVu/EmbedTextLab2" Name="Root/StrengthenWnd/Level18/HP" >
-                                <Property Name="Font" Value="F001-9" />
-                                <Property Name="Text" Value="5555" />
-                                <Property Name="TextColours" Value="tl:FF666666 tr:FF666666 bl:FF666666 br:FF666666" />
-                                <Property Name="UnifiedAreaRect" Value="{{0.62963,0},{0,0},{1,0},{1,0}}" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.411765,0},{0,0},{1,0},{1,0}}" />
                             </Window>
                         </Window>
                         <Window Type="DejaVu/Static" Name="Root/StrengthenWnd/Level19" >
-                            <Property Name="UnifiedAreaRect" Value="{{0.034483,0},{0.892857,0},{0.965517,0},{0.935714,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.052632,0},{0.892857,0},{0.947369,0},{0.935714,0}}" />
                             <Window Type="DejaVu/Embed2" Name="Root/StrengthenWnd/Level19/Icon" >
-                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.259259,0},{1,0}}" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.411765,0},{1,0}}" />
                                 <Window Type="DejaVu/StaticImage" Name="Root/StrengthenWnd/Level19/Icon/Frame" >
                                     <Property Name="Font" Value="F001-9" />
                                     <Property Name="Image" Value="set:main image:Strengthen1" />
@@ -659,19 +551,13 @@
                             <Window Type="DejaVu/EmbedTextLab2" Name="Root/StrengthenWnd/Level19/Atk" >
                                 <Property Name="Text" Value="1883" />
                                 <Property Name="TextColours" Value="tl:FF666666 tr:FF666666 bl:FF666666 br:FF666666" />
-                                <Property Name="UnifiedAreaRect" Value="{{0.259259,0},{0,0},{0.629629,0},{1,0}}" />
-                            </Window>
-                            <Window Type="DejaVu/EmbedTextLab2" Name="Root/StrengthenWnd/Level19/HP" >
-                                <Property Name="Font" Value="F001-9" />
-                                <Property Name="Text" Value="5555" />
-                                <Property Name="TextColours" Value="tl:FF666666 tr:FF666666 bl:FF666666 br:FF666666" />
-                                <Property Name="UnifiedAreaRect" Value="{{0.62963,0},{0,0},{1,0},{1,0}}" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.411765,0},{0,0},{1,0},{1,0}}" />
                             </Window>
                         </Window>
                         <Window Type="DejaVu/Static" Name="Root/StrengthenWnd/Level20" >
-                            <Property Name="UnifiedAreaRect" Value="{{0.034483,0},{0.9375,0},{0.965517,0},{0.980357,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.052632,0},{0.9375,0},{0.947369,0},{0.980357,0}}" />
                             <Window Type="DejaVu/Embed2" Name="Root/StrengthenWnd/Level20/Icon" >
-                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.259259,0},{1,0}}" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.411765,0},{1,0}}" />
                                 <Window Type="DejaVu/StaticImage" Name="Root/StrengthenWnd/Level20/Icon/Frame" >
                                     <Property Name="Font" Value="F001-9" />
                                     <Property Name="Image" Value="set:main image:Strengthen1" />
@@ -691,20 +577,14 @@
                             <Window Type="DejaVu/EmbedTextLab2" Name="Root/StrengthenWnd/Level20/Atk" >
                                 <Property Name="Text" Value="1883" />
                                 <Property Name="TextColours" Value="tl:FF666666 tr:FF666666 bl:FF666666 br:FF666666" />
-                                <Property Name="UnifiedAreaRect" Value="{{0.259259,0},{0,0},{0.629629,0},{1,0}}" />
-                            </Window>
-                            <Window Type="DejaVu/EmbedTextLab2" Name="Root/StrengthenWnd/Level20/HP" >
-                                <Property Name="Font" Value="F001-9" />
-                                <Property Name="Text" Value="5555" />
-                                <Property Name="TextColours" Value="tl:FF666666 tr:FF666666 bl:FF666666 br:FF666666" />
-                                <Property Name="UnifiedAreaRect" Value="{{0.62963,0},{0,0},{1,0},{1,0}}" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.411765,0},{0,0},{1,0},{1,0}}" />
                             </Window>
                         </Window>
                         <Window Type="DejaVu/StaticImage" Name="Root/StrengthenWnd/PowerUpBG/Image0" >
                             <Property Name="AlwaysOnTop" Value="True" />
                             <Property Name="HorizontalAlignment" Value="Centre" />
                             <Property Name="Image" Value="set:main2 image:Light" />
-                            <Property Name="UnifiedAreaRect" Value="{{-0.396552,0},{0.0553571,0},{-0.189655,0},{0.1625,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{-0.342105,0},{0.0553571,0},{-0.0263158,0},{0.1625,0}}" />
                             <Window Type="DejaVu/StaticImage" Name="Root/StrengthenWnd/PowerUpBG/Frame0" >
                                 <Property Name="Image" Value="set:main image:Strengthen1" />
                                 <Property Name="UnifiedAreaRect" Value="{{0.333333,0},{0.333333,0},{0.666667,0},{0.666667,0}}" />
@@ -718,7 +598,7 @@
                             <Property Name="AlwaysOnTop" Value="True" />
                             <Property Name="HorizontalAlignment" Value="Centre" />
                             <Property Name="Image" Value="set:main2 image:Light" />
-                            <Property Name="UnifiedAreaRect" Value="{{-0.396552,0},{0.1,0},{-0.189655,0},{0.207143,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{-0.342105,0},{0.1,0},{-0.0263158,0},{0.207143,0}}" />
                             <Window Type="DejaVu/StaticImage" Name="Root/StrengthenWnd/PowerUpBG/Frame1" >
                                 <Property Name="Image" Value="set:main image:Strengthen1" />
                                 <Property Name="UnifiedAreaRect" Value="{{0.333333,0},{0.333333,0},{0.666666,0},{0.666666,0}}" />
@@ -732,7 +612,7 @@
                             <Property Name="AlwaysOnTop" Value="True" />
                             <Property Name="HorizontalAlignment" Value="Centre" />
                             <Property Name="Image" Value="set:main2 image:Light" />
-                            <Property Name="UnifiedAreaRect" Value="{{-0.396552,0},{0.144643,0},{-0.189655,0},{0.251786,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{-0.342105,0},{0.144643,0},{-0.0263158,0},{0.251786,0}}" />
                             <Window Type="DejaVu/StaticImage" Name="Root/StrengthenWnd/PowerUpBG/Frame2" >
                                 <Property Name="Image" Value="set:main image:Strengthen1" />
                                 <Property Name="UnifiedAreaRect" Value="{{0.333333,0},{0.333333,0},{0.666666,0},{0.666666,0}}" />
@@ -746,7 +626,7 @@
                             <Property Name="AlwaysOnTop" Value="True" />
                             <Property Name="HorizontalAlignment" Value="Centre" />
                             <Property Name="Image" Value="set:main2 image:Light" />
-                            <Property Name="UnifiedAreaRect" Value="{{-0.396552,0},{0.189286,0},{-0.189655,0},{0.296429,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{-0.342105,0},{0.189286,0},{-0.0263158,0},{0.296429,0}}" />
                             <Window Type="DejaVu/StaticImage" Name="Root/StrengthenWnd/PowerUpBG/Frame3" >
                                 <Property Name="Image" Value="set:main image:Strengthen1" />
                                 <Property Name="UnifiedAreaRect" Value="{{0.333333,0},{0.333333,0},{0.666666,0},{0.666666,0}}" />
@@ -760,7 +640,7 @@
                             <Property Name="AlwaysOnTop" Value="True" />
                             <Property Name="HorizontalAlignment" Value="Centre" />
                             <Property Name="Image" Value="set:main2 image:Light" />
-                            <Property Name="UnifiedAreaRect" Value="{{-0.396552,0},{0.233929,0},{-0.189655,0},{0.341072,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{-0.342105,0},{0.233929,0},{-0.0263158,0},{0.341071,0}}" />
                             <Window Type="DejaVu/StaticImage" Name="Root/StrengthenWnd/PowerUpBG/Frame4" >
                                 <Property Name="Image" Value="set:main image:Strengthen1" />
                                 <Property Name="UnifiedAreaRect" Value="{{0.333333,0},{0.333333,0},{0.666666,0},{0.666666,0}}" />
@@ -774,7 +654,7 @@
                             <Property Name="AlwaysOnTop" Value="True" />
                             <Property Name="HorizontalAlignment" Value="Centre" />
                             <Property Name="Image" Value="set:main2 image:Light" />
-                            <Property Name="UnifiedAreaRect" Value="{{-0.396552,0},{0.278571,0},{-0.189655,0},{0.385714,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{-0.342105,0},{0.278571,0},{-0.0263158,0},{0.385714,0}}" />
                             <Window Type="DejaVu/StaticImage" Name="Root/StrengthenWnd/PowerUpBG/Frame5" >
                                 <Property Name="Image" Value="set:main image:Strengthen1" />
                                 <Property Name="UnifiedAreaRect" Value="{{0.333333,0},{0.333333,0},{0.666666,0},{0.666666,0}}" />
@@ -788,7 +668,7 @@
                             <Property Name="AlwaysOnTop" Value="True" />
                             <Property Name="HorizontalAlignment" Value="Centre" />
                             <Property Name="Image" Value="set:main2 image:Light" />
-                            <Property Name="UnifiedAreaRect" Value="{{-0.396552,0},{0.323214,0},{-0.189655,0},{0.430357,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{-0.342105,0},{0.323214,0},{-0.0263158,0},{0.430357,0}}" />
                             <Window Type="DejaVu/StaticImage" Name="Root/StrengthenWnd/PowerUpBG/Frame6" >
                                 <Property Name="Image" Value="set:main image:Strengthen1" />
                                 <Property Name="UnifiedAreaRect" Value="{{0.333333,0},{0.333333,0},{0.666666,0},{0.666666,0}}" />
@@ -802,7 +682,7 @@
                             <Property Name="AlwaysOnTop" Value="True" />
                             <Property Name="HorizontalAlignment" Value="Centre" />
                             <Property Name="Image" Value="set:main2 image:Light" />
-                            <Property Name="UnifiedAreaRect" Value="{{-0.396552,0},{0.367857,0},{-0.189655,0},{0.475,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{-0.342105,0},{0.367857,0},{-0.0263158,0},{0.475,0}}" />
                             <Window Type="DejaVu/StaticImage" Name="Root/StrengthenWnd/PowerUpBG/Frame7" >
                                 <Property Name="Image" Value="set:main image:Strengthen1" />
                                 <Property Name="UnifiedAreaRect" Value="{{0.333333,0},{0.333333,0},{0.666666,0},{0.666666,0}}" />
@@ -816,7 +696,7 @@
                             <Property Name="AlwaysOnTop" Value="True" />
                             <Property Name="HorizontalAlignment" Value="Centre" />
                             <Property Name="Image" Value="set:main2 image:Light" />
-                            <Property Name="UnifiedAreaRect" Value="{{-0.396552,0},{0.4125,0},{-0.189655,0},{0.519643,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{-0.342105,0},{0.4125,0},{-0.0263158,0},{0.519643,0}}" />
                             <Window Type="DejaVu/StaticImage" Name="Root/StrengthenWnd/PowerUpBG/Frame8" >
                                 <Property Name="Image" Value="set:main image:Strengthen1" />
                                 <Property Name="UnifiedAreaRect" Value="{{0.333333,0},{0.333333,0},{0.666666,0},{0.666666,0}}" />
@@ -830,7 +710,7 @@
                             <Property Name="AlwaysOnTop" Value="True" />
                             <Property Name="HorizontalAlignment" Value="Centre" />
                             <Property Name="Image" Value="set:main2 image:Light" />
-                            <Property Name="UnifiedAreaRect" Value="{{-0.396552,0},{0.457143,0},{-0.189655,0},{0.564286,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{-0.342105,0},{0.457143,0},{-0.0263158,0},{0.564286,0}}" />
                             <Window Type="DejaVu/StaticImage" Name="Root/StrengthenWnd/PowerUpBG/Frame9" >
                                 <Property Name="Image" Value="set:main image:Strengthen1" />
                                 <Property Name="UnifiedAreaRect" Value="{{0.333333,0},{0.333333,0},{0.666666,0},{0.666666,0}}" />
@@ -844,7 +724,7 @@
                             <Property Name="AlwaysOnTop" Value="True" />
                             <Property Name="HorizontalAlignment" Value="Centre" />
                             <Property Name="Image" Value="set:main2 image:Light" />
-                            <Property Name="UnifiedAreaRect" Value="{{-0.396552,0},{0.501786,0},{-0.189655,0},{0.608929,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{-0.342105,0},{0.501786,0},{-0.0263158,0},{0.608929,0}}" />
                             <Window Type="DejaVu/StaticImage" Name="Root/StrengthenWnd/PowerUpBG/Frame10" >
                                 <Property Name="Image" Value="set:main image:Strengthen1" />
                                 <Property Name="UnifiedAreaRect" Value="{{0.333333,0},{0.333333,0},{0.666666,0},{0.666666,0}}" />
@@ -858,7 +738,7 @@
                             <Property Name="AlwaysOnTop" Value="True" />
                             <Property Name="HorizontalAlignment" Value="Centre" />
                             <Property Name="Image" Value="set:main2 image:Light" />
-                            <Property Name="UnifiedAreaRect" Value="{{-0.396552,0},{0.546429,0},{-0.189655,0},{0.653572,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{-0.342105,0},{0.546429,0},{-0.0263158,0},{0.653571,0}}" />
                             <Window Type="DejaVu/StaticImage" Name="Root/StrengthenWnd/PowerUpBG/Frame11" >
                                 <Property Name="Image" Value="set:main image:Strengthen1" />
                                 <Property Name="UnifiedAreaRect" Value="{{0.333333,0},{0.333333,0},{0.666666,0},{0.666666,0}}" />
@@ -872,7 +752,7 @@
                             <Property Name="AlwaysOnTop" Value="True" />
                             <Property Name="HorizontalAlignment" Value="Centre" />
                             <Property Name="Image" Value="set:main2 image:Light" />
-                            <Property Name="UnifiedAreaRect" Value="{{-0.396552,0},{0.591071,0},{-0.189655,0},{0.698214,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{-0.342105,0},{0.591071,0},{-0.0263158,0},{0.698214,0}}" />
                             <Window Type="DejaVu/StaticImage" Name="Root/StrengthenWnd/PowerUpBG/Frame12" >
                                 <Property Name="Image" Value="set:main image:Strengthen1" />
                                 <Property Name="UnifiedAreaRect" Value="{{0.333333,0},{0.333333,0},{0.666666,0},{0.666666,0}}" />
@@ -886,7 +766,7 @@
                             <Property Name="AlwaysOnTop" Value="True" />
                             <Property Name="HorizontalAlignment" Value="Centre" />
                             <Property Name="Image" Value="set:main2 image:Light" />
-                            <Property Name="UnifiedAreaRect" Value="{{-0.396552,0},{0.635714,0},{-0.189655,0},{0.742857,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{-0.342105,0},{0.635714,0},{-0.0263158,0},{0.742857,0}}" />
                             <Window Type="DejaVu/StaticImage" Name="Root/StrengthenWnd/PowerUpBG/Frame13" >
                                 <Property Name="Image" Value="set:main image:Strengthen1" />
                                 <Property Name="UnifiedAreaRect" Value="{{0.333333,0},{0.333333,0},{0.666666,0},{0.666666,0}}" />
@@ -900,7 +780,7 @@
                             <Property Name="AlwaysOnTop" Value="True" />
                             <Property Name="HorizontalAlignment" Value="Centre" />
                             <Property Name="Image" Value="set:main2 image:Light" />
-                            <Property Name="UnifiedAreaRect" Value="{{-0.396552,0},{0.680357,0},{-0.189655,0},{0.7875,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{-0.342105,0},{0.680357,0},{-0.0263158,0},{0.7875,0}}" />
                             <Window Type="DejaVu/StaticImage" Name="Root/StrengthenWnd/PowerUpBG/Frame14" >
                                 <Property Name="Image" Value="set:main image:Strengthen1" />
                                 <Property Name="UnifiedAreaRect" Value="{{0.333333,0},{0.333333,0},{0.666666,0},{0.666666,0}}" />
@@ -914,7 +794,7 @@
                             <Property Name="AlwaysOnTop" Value="True" />
                             <Property Name="HorizontalAlignment" Value="Centre" />
                             <Property Name="Image" Value="set:main2 image:Light" />
-                            <Property Name="UnifiedAreaRect" Value="{{-0.396552,0},{0.725,0},{-0.189655,0},{0.832143,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{-0.342105,0},{0.725,0},{-0.0263158,0},{0.832143,0}}" />
                             <Window Type="DejaVu/StaticImage" Name="Root/StrengthenWnd/PowerUpBG/Frame15" >
                                 <Property Name="Image" Value="set:main image:Strengthen1" />
                                 <Property Name="UnifiedAreaRect" Value="{{0.333333,0},{0.333333,0},{0.666666,0},{0.666666,0}}" />
@@ -928,7 +808,7 @@
                             <Property Name="AlwaysOnTop" Value="True" />
                             <Property Name="HorizontalAlignment" Value="Centre" />
                             <Property Name="Image" Value="set:main2 image:Light" />
-                            <Property Name="UnifiedAreaRect" Value="{{-0.396552,0},{0.769643,0},{-0.189655,0},{0.876786,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{-0.342105,0},{0.769643,0},{-0.0263158,0},{0.876786,0}}" />
                             <Window Type="DejaVu/StaticImage" Name="Root/StrengthenWnd/PowerUpBG/Frame16" >
                                 <Property Name="Image" Value="set:main image:Strengthen1" />
                                 <Property Name="UnifiedAreaRect" Value="{{0.333333,0},{0.333333,0},{0.666666,0},{0.666666,0}}" />
@@ -942,7 +822,7 @@
                             <Property Name="AlwaysOnTop" Value="True" />
                             <Property Name="HorizontalAlignment" Value="Centre" />
                             <Property Name="Image" Value="set:main2 image:Light" />
-                            <Property Name="UnifiedAreaRect" Value="{{-0.396552,0},{0.814286,0},{-0.189655,0},{0.921429,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{-0.342105,0},{0.814286,0},{-0.0263158,0},{0.921429,0}}" />
                             <Window Type="DejaVu/StaticImage" Name="Root/StrengthenWnd/PowerUpBG/Frame17" >
                                 <Property Name="Image" Value="set:main image:Strengthen1" />
                                 <Property Name="UnifiedAreaRect" Value="{{0.333333,0},{0.333333,0},{0.666666,0},{0.666666,0}}" />
@@ -956,7 +836,7 @@
                             <Property Name="AlwaysOnTop" Value="True" />
                             <Property Name="HorizontalAlignment" Value="Centre" />
                             <Property Name="Image" Value="set:main2 image:Light" />
-                            <Property Name="UnifiedAreaRect" Value="{{-0.396552,0},{0.858929,0},{-0.189655,0},{0.966072,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{-0.342105,0},{0.858929,0},{-0.0263158,0},{0.966071,0}}" />
                             <Window Type="DejaVu/StaticImage" Name="Root/StrengthenWnd/PowerUpBG/Frame18" >
                                 <Property Name="Image" Value="set:main image:Strengthen1" />
                                 <Property Name="UnifiedAreaRect" Value="{{0.333333,0},{0.333333,0},{0.666666,0},{0.666666,0}}" />
@@ -970,7 +850,7 @@
                             <Property Name="AlwaysOnTop" Value="True" />
                             <Property Name="HorizontalAlignment" Value="Centre" />
                             <Property Name="Image" Value="set:main2 image:Light" />
-                            <Property Name="UnifiedAreaRect" Value="{{-0.396552,0},{0.903571,0},{-0.189655,0},{1.01071,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{-0.342105,0},{0.903571,0},{-0.0263158,0},{1.01071,0}}" />
                             <Window Type="DejaVu/StaticImage" Name="Root/StrengthenWnd/PowerUpBG/Frame19" >
                                 <Property Name="Image" Value="set:main image:Strengthen1" />
                                 <Property Name="UnifiedAreaRect" Value="{{0.333333,0},{0.333333,0},{0.666666,0},{0.666666,0}}" />
@@ -980,16 +860,10 @@
                                 </Window>
                             </Window>
                         </Window>
-                        <Window Type="DejaVu/EmbedTextLab7" Name="Root/StrengthenWnd/HPBtn" >
-                            <Property Name="Font" Value="F001-9" />
-                            <Property Name="HorzFormatting" Value="HorzCentred" />
-                            <Property Name="Text" Value="xHP值" />
-                            <Property Name="UnifiedAreaRect" Value="{{0.62069,0},{0.044643,0},{0.965518,0},{0.0892859,0}}" />
-                        </Window>
                     </Window>
                 </Window>
                 <Window Type="DejaVu/Static" Name="Root/StrengthenWnd/WeaponView" >
-                    <Property Name="UnifiedAreaRect" Value="{{0.426573,0},{0.016949,0},{0.986014,0},{0.6,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.333333,0},{0.0169492,0},{0.98374,0},{0.6,0}}" />
                     <Window Type="DejaVu/Embed2" Name="Root/StrengthenWnd/WeaponView/Frame" >
                         <Property Name="UnifiedAreaRect" Value="{{0,0},{0.029851,0},{1,0},{1,0}}" />
                         <Window Type="DejaVu/StaticImage" Name="Root/StrengthenWnd/WeaponView/Frame/Image" >
@@ -1016,7 +890,7 @@
                     </Window>
                 </Window>
                 <Window Type="DejaVu/Static" Name="Root/StrengthenWnd/Potential" >
-                    <Property Name="UnifiedAreaRect" Value="{{0.426573,0},{0.608475,0},{0.986014,0},{0.718644,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.333333,0},{0.608475,0},{0.98374,0},{0.718644,0}}" />
                     <Window Type="DejaVu/Embed2" Name="Root/StrengthenWnd/Potential/Frame" >
                         <Property Name="UnifiedAreaRect" Value="{{0,0},{0.153846,0},{1,0},{1,0}}" />
                         <Window Type="DejaVu/ProgressBarBG" Name="Root/StrengthenWnd/Potential/PotentialBarBG" >
@@ -1075,7 +949,7 @@
                 </Window>
                 <Window Type="DejaVu/Static" Name="Root/StrengthenWnd/Equipment/Static" >
                     <Property Name="Font" Value="F001-9" />
-                    <Property Name="UnifiedAreaRect" Value="{{0.426573,0},{0.727119,0},{0.986014,0},{0.925424,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.333333,0},{0.727119,0},{0.98374,0},{0.925424,0}}" />
                     <Window Type="DejaVu/Embed4" Name="Root/StrengthenWnd/WeaponNeed/Title" >
                         <Property Name="AlwaysOnTop" Value="True" />
                         <Property Name="UnifiedAreaRect" Value="{{0.025,0},{0,0},{0.4,0},{0.213675,0}}" />
@@ -1152,7 +1026,7 @@
                 <Window Type="DejaVu/Checkbox" Name="Root/StrengthenWnd/FactoryCheckBox" >
                     <Property Name="Font" Value="F001-9" />
                     <Property Name="Text" Value="x目標強度" />
-                    <Property Name="UnifiedAreaRect" Value="{{0.433566,0},{0.942373,0},{0.545454,0},{0.984746,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.341463,0},{0.942373,0},{0.471545,0},{0.984746,0}}" />
                 </Window>
             </Window>
         </Window>
@@ -1161,7 +1035,7 @@
             <Property Name="ClippedByParent" Value="False" />
             <Property Name="MaxEditTextLength" Value="2147483647" />
             <Property Name="ReadOnly" Value="True" />
-            <Property Name="UnifiedAreaRect" Value="{{0,405},{0,629},{0,555},{0,719}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,330},{0,628},{0,480},{0,718}}" />
         </Window>
     </Window>
 </GUILayout>

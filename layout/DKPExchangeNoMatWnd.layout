@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="DKPexchangeWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="TitlebarImage" Value="set:main4 image:TreasureBtnNormal" />
+        <Property Name="UnifiedAreaRect" Value="{{0.292903,0},{0.313802,0},{0.292903,410},{0.313802,368}}" />
+        <Window Type="DejaVu/Embed" Name="DKPexchangeWnd/BG" >
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Static" Name="DKPexchangeWnd/BG/Static1" >
+                <Property Name="UnifiedAreaRect" Value="{{0.0253807,0},{0.506944,0},{0.974619,0},{0.857639,0}}" />
+                <Window Type="DejaVu/Embed2" Name="DKPexchangeWnd/BG/Static1/Embed2" >
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.09901,0},{1,0},{1,0}}" />
+                    <Window Type="DejaVu/Embed2" Name="DKPexchangeWnd/BG/Static1/Embed2/MaterialBG" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.026738,0},{0.274725,0},{0.973262,0},{0.89011,0}}" />
+                        <Window Type="DejaVu/Static" Name="DKPexchangeWnd/BG/Static1/Embed2/MaterialBG/FakeBG/DKPBG" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.00564972,0},{0.0357143,0},{0.99435,0},{1,0}}" />
+                            <Window Type="DejaVu/Embed3" Name="DKPexchangeWnd/BG/Static1/Embed2/MaterialBG/FakeBG/DKPBG/LeftBG" >
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.6,0},{0.962963,0}}" />
+                                <Window Type="DejaVu/SlotImage" Name="DKPexchangeWnd/DKP/Slot" >
+                                    <Property Name="UnifiedAreaRect" Value="{{0.02381,0},{0.096154,0},{0.22381,0},{0.903846,0}}" />
+                                </Window>
+                                <Window Type="DejaVu/StaticTextLab" Name="DKPexchangeWnd/DKP/Text" >
+                                    <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                                    <Property Name="LinespaceWindow" Value="True" />
+                                    <Property Name="Text" Value="xDKP貨幣" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.271429,0},{0.0961538,0},{0.976191,0},{0.903846,0}}" />
+                                </Window>
+                            </Window>
+                            <Window Type="DejaVu/Embed3" Name="DKPexchangeWnd/BG/Static1/Embed2/MaterialBG/FakeBG/DKPBG/RightBG" >
+                                <Property Name="UnifiedAreaRect" Value="{{0.6,0},{0,0},{1,0},{0.962963,0}}" />
+                                <Window Type="DejaVu/StaticTextLab" Name="DKPexchangeWnd/DKP/Num" >
+                                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                                    <Property Name="Text" Value="9999999/999" />
+                                    <Property Name="TextColours" Value="tl:FF00FF00 tr:FF00FF00 bl:FF00FF00 br:FF00FF00" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.035714,0},{0.307692,0},{0.964285,0},{0.692307,0}}" />
+                                </Window>
+                            </Window>
+                        </Window>
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed4" Name="DKPexchangeWnd/BG/Static/Title" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.026738,0},{0,0},{0.427808,0},{0.247525,0}}" />
+                    <Window Type="DejaVu/StaticImage" Name="DKPexchangeWnd/BG/Static/Title/Img" >
+                        <Property Name="Image" Value="set:DejaVu image:Image10" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="DKPexchangeWnd/MatTitleText" >
+                        <Property Name="Text" Value="x需求物品" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.2,0},{0.866667,0},{0.8,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="DKPexchangeWnd/BG/static2" >
+                <Property Name="UnifiedAreaRect" Value="{{0.0253807,0},{0.0347222,0},{0.974619,0},{0.489583,0}}" />
+                <Window Type="DejaVu/Embed2" Name="DKPexchangeWnd/BG/static2/finisheditem" >
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.076336,0},{1,0},{1,0}}" />
+                    <Window Type="DejaVu/Embed2" Name="DKPexchangeWnd/BG/static2/finisheditem/MaterialBG1" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.026738,0},{0.454545,0},{0.973262,0},{0.917355,0}}" />
+                        <Window Type="DejaVu/Static" Name="DKPexchangeWnd/BG/static2/finisheditem/MaterialBG1/MaterialBG1/DKPBG1" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.00564972,0},{0.037037,0},{0.99435,0},{1,0}}" />
+                            <Window Type="DejaVu/Embed3" Name="DKPexchangeWnd/BG/static2/finisheditem/MaterialBG1/MaterialBG1/DKPBG1/LeftBG1" >
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.6,0},{0.962963,0}}" />
+                                <Window Type="DejaVu/SlotImage" Name="DKPexchangeWnd/Item/Slot" >
+                                    <Property Name="UnifiedAreaRect" Value="{{0.02381,0},{0.096154,0},{0.22381,0},{0.903846,0}}" />
+                                </Window>
+                                <Window Type="DejaVu/StaticTextLab" Name="DKPexchangeWnd/Item/Text" >
+                                    <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                                    <Property Name="LinespaceWindow" Value="True" />
+                                    <Property Name="Text" Value="成品名稱五六七八九十" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.271429,0},{0.0961538,0},{0.976191,0},{0.903846,0}}" />
+                                </Window>
+                            </Window>
+                            <Window Type="DejaVu/Embed3" Name="DKPexchangeWnd/BG/static2/finisheditem/MaterialBG1/MaterialBG1/DKPBG1/RightBG1" >
+                                <Property Name="UnifiedAreaRect" Value="{{0.6,0},{0,0},{1,0},{0.962963,0}}" />
+                                <Window Type="DejaVu/StaticTextLab" Name="DKPexchangeWnd/Item/Num" >
+                                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                                    <Property Name="Text" >1
+</Property>
+                                    <Property Name="UnifiedAreaRect" Value="{{0.035714,0},{0.307692,0},{0.964285,0},{0.692307,0}}" />
+                                </Window>
+                            </Window>
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="DKPexchangeWnd/NoticeText" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="x※兌換的物品均為不可交易或是綁定的狀態。" />
+                        <Property Name="TextColours" Value="tl:FFFF0000 tr:FFFF0000 bl:FFFF0000 br:FFFF0000" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.040107,0},{0.206612,0},{0.959893,0},{0.413224,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed4" Name="DKPexchangeWnd/BG/Static2/Title1" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.026738,0},{0,0},{0.427808,0},{0.19084,0}}" />
+                    <Window Type="DejaVu/StaticImage" Name="DKPexchangeWnd/BG/Static2/Title/Img1" >
+                        <Property Name="Image" Value="set:DejaVu image:Image09" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="DKPexchangeWnd/ItemTitleText" >
+                        <Property Name="Text" Value="x兌換道具" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.2,0},{0.866667,0},{0.8,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Button" Name="DKPexchangeWnd/ExchangeBtn" >
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="Text" Value="x確認兌換" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.875,0},{0.192893,0},{0.965278,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

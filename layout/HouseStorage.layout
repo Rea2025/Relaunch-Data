@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="HouseStorage" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="TitlebarImage" Value="set:main16 image:HouseStorage" />
+        <Property Name="UnifiedAreaRect" Value="{{0.096809,0},{0.184024,0},{0.096809,510},{0.184024,427}}" />
+        <Window Type="DejaVu/Embed" Name="HouseStorage/BG" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Embed" Name="HouseStorage/BG/TopPanel" >
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0101215,0},{0,5},{0.991903,0},{0,40}}" />
+                <Window Type="DejaVu/Combobox" Name="HouseStorage/BG/TopPanel/FurnitureType" >
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="MaxEditTextLength" Value="2147483647" />
+                    <Property Name="ReadOnly" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.576779,0},{0.142857,0},{0.988302,0},{5.85714,0}}" />
+                </Window>
+                <Window Type="DejaVu/Embed2" Name="HouseStorage/BG/TopPanel/Category" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.010288,0},{0.142857,0},{0.442387,0},{1,0}}" />
+                    <Window Type="DejaVu/ImageButton" Name="HouseStorage/BG/TopPanel/Category/LeftBtn" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HoverImage" Value="image:ArrowLeftNormal" />
+                        <Property Name="NormalImage" Value="set:DejaVu image:ArrowLeftNormal" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.066667,0},{0.0952381,0},{0.9,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Button" Name="HouseStorage/BG/TopPanel/Category/Cate1Btn" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="x房屋倉庫" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.119048,0},{0.066667,0},{0.480953,0},{0.933334,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Button" Name="HouseStorage/BG/TopPanel/Category/Cate2Btn" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="x擴充倉庫" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.504762,0},{0.066667,0},{0.866667,0},{0.933334,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/ImageButton" Name="HouseStorage/BG/TopPanel/Category/RightBtn" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="NormalImage" Value="set:DejaVu image:ArrowRightNormal" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.890476,0},{0.066667,0},{0.990476,0},{0.9,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed" Name="HouseStorage/BG/DownPanel" >
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0106423,0},{0.835735,0},{0.993927,0},{0.835735,52}}" />
+                <Window Type="DejaVu/Embed2" Name="HouseStorage/BG/DownPanel/ExtendBag" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.0102881,0},{0,0},{0.504115,0},{1,0}}" />
+                    <Window Type="DejaVu/SlotImage" Name="HouseStorage/BG/DownPanel/ExtendBag/Bag1" >
+                        <Property Name="ID" Value="501" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.020408,0},{0.0971651,0},{0.195408,0},{0.904857,0}}" />
+                        <Window Type="DejaVu/StaticImage" Name="HouseStorage/BG/DownPanel/ExtendBag/Bag1/Lock" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.25,0},{0,0},{0.75,0},{0.5,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="HouseStorage/BG/DownPanel/ExtendBag/Bag2" >
+                        <Property Name="ID" Value="502" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.216667,0},{0.0961538,0},{0.391667,0},{0.903846,0}}" />
+                        <Window Type="DejaVu/StaticImage" Name="HouseStorage/BG/DownPanel/ExtendBag/Bag2/Lock" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.25,0},{0,0},{0.75,0},{0.5,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="HouseStorage/BG/DownPanel/ExtendBag/Bag3" >
+                        <Property Name="ID" Value="503" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.413595,0},{0.0961538,0},{0.588595,0},{0.903846,0}}" />
+                        <Window Type="DejaVu/StaticImage" Name="HouseStorage/BG/DownPanel/ExtendBag/Bag3/Lock" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.25,0},{0,0},{0.75,0},{0.5,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="HouseStorage/BG/DownPanel/ExtendBag/Bag4" >
+                        <Property Name="ID" Value="504" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.608333,0},{0.0961538,0},{0.783333,0},{0.903846,0}}" />
+                        <Window Type="DejaVu/StaticImage" Name="HouseStorage/BG/DownPanel/ExtendBag/Bag4/Lock" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.25,0},{0,0},{0.75,0},{0.5,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="HouseStorage/BG/DownPanel/ExtendBag/Bag5" >
+                        <Property Name="ID" Value="505" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.804167,0},{0.096154,0},{0.979167,0},{0.903846,0}}" />
+                        <Window Type="DejaVu/StaticImage" Name="HouseStorage/BG/DownPanel/ExtendBag/Bag5/Lock" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.25,0},{0,0},{0.75,0},{0.5,0}}" />
+                        </Window>
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="HouseStorage/BG/DownPanel/SlotUseText" >
+                    <Property Name="Text" Value="x使用格數： 0 / 50" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.524161,0},{0.519231,0},{0.880128,0},{1,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="HouseStorage/BG/DownPanel/SortBtn" >
+                    <Property Name="HoverImage" Value="set:DejaVu image:StackHover" />
+                    <Property Name="NormalImage" Value="set:DejaVu image:StackNormal" />
+                    <Property Name="PushedImage" Value="set:DejaVu image:StackPressed" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.901235,0},{0.0961538,0},{0.987654,0},{0.903846,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="HouseStorage/BG/DownPanel/ConstructPoint" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="x佈置點數： 0 / 500" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.524691,0},{0.038462,0},{0.880658,0},{0.519231,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="HouseStorage/BG/DownPanel/DesignBtn1" >
+                    <Property Name="HoverImage" Value="set:DejaVu image:StackHover" />
+                    <Property Name="NormalImage" Value="set:DejaVu image:StackNormal" />
+                    <Property Name="PushedImage" Value="set:DejaVu image:StackPressed" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.901235,0},{0.0961538,0},{0.987654,0},{0.903846,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed2" Name="HouseStorage/BG/FurnitureSlotContainer" >
+                <Property Name="UnifiedAreaRect" Value="{{0.0207837,0},{0.129683,0},{0.0207837,475},{0.129683,240}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>
