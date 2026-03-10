@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/CommonDlg" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.293945,0},{0.382952,0},{0.293945,200},{0.382952,136}}" />
+        <Window Type="DejaVu/Button" Name="Root/CommonDlg/CancelBtn" >
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="UnifiedAreaRect" Value="{{0.322751,0},{0.745283,0},{0.68254,0},{0.915094,0}}" />
+        </Window>
+        <Window Type="DejaVu/Embed3" Name="Root/CommonDlg/bg" >
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Embed4" Name="Root/CommonDlg/bg/Embed4" >
+                <Property Name="UnifiedAreaRect" Value="{{0.026455,0},{0.04902,0},{0.970899,0},{0.708594,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/CommonDlg/MsgText" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="請輸入捐獻金錢" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.176471,0},{0.080645,0},{0.82353,0},{0.483871,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/CommonDlg/EditBox1" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="Text" Value="123456" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.147059,0},{0.564516,0},{0.441176,0},{0.83871,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/CommonDlg/EditBox2" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="Text" Value="99" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.523529,0},{0.564516,0},{0.641176,0},{0.83871,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/CommonDlg/EditBox3" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="Text" Value="99" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.723529,0},{0.564516,0},{0.841176,0},{0.83871,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/CommonDlg/MoneyBG" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="Image" Value="set:main image:Money" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0598575,0},{0.564516,0},{0.94221,0},{0.83871,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/CommonDlg/OKBtn" >
+                <Property Name="Text" Value="確定" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0277778,0},{0.765957,0},{0.405556,0},{0.946809,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/CommonDlg/CloseBtn" >
+                <Property Name="Text" Value="離開" />
+                <Property Name="UnifiedAreaRect" Value="{{0.594444,0},{0.765957,0},{0.972222,0},{0.946809,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

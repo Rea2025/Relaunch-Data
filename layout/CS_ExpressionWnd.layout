@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/CS_ExpressionWnd" >
+        <Property Name="ClippedByParent" Value="False" />
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HorizontalAlignment" Value="Right" />
+        
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,300},{0,420}}" />
+        <Window Type="DejaVu/FrameWindow" Name="Root/CS_ExpressionWnd/Background" >
+            <Property Name="ClippedByParent" Value="False" />
+            <Property Name="HelpButtonEnabled" Value="False" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            
+            <Property Name="TitlebarEnabled" Value="True" />
+            <Property Name="TitlebarFont" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,300},{0,420}}" />
+            <Window Type="DejaVu/Embed" Name="Root/CS_ExpressionWnd/Background/Border_PreView" >
+                
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,260},{0,260}}" />
+                <Window Type="DejaVu/StaticImage" Name="Root/CS_ExpressionWnd/Background/Border_PreView/PreView" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                    
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.984615,0},{0.984615,0}}" />
+                    <Property Name="VerticalAlignment" Value="Centre" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed" Name="Root/CS_ExpressionWnd/Background/Border_Expression" >
+                <Property Name="ClippedByParent" Value="False" />
+                
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.747126,0},{0,260},{0.747126,80}}" />
+                <Window Type="DejaVu/EmbedText5" Name="Root/CS_ExpressionWnd/Background/Border_ID/Text_ID" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="表情編號" />
+                    
+                    <Property Name="UnifiedAreaRect" Value="{{0.0384615,0},{0.375,0},{0.0384615,100},{0.375,20}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/CS_ExpressionWnd/Background/Border_ID/Edit_ID" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.461538,0},{0.1875,0},{0.461538,130},{0.1875,20}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Combobox" Name="Root/CS_ExpressionWnd/Background/Border_ID/Combo_ID" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="ClippedByParent" Value="False" />
+            <Property Name="MaxEditTextLength" Value="2147483647" />
+            
+            <Property Name="UnifiedAreaRect" Value="{{0.466667,0},{0.857143,0},{0.9,0},{1.71429,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/EudemonBuffChangeWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="Text" Value="x源神洗練" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="TitlebarImage" Value="set:main image:EudemonNormal" />
+        <Property Name="UnifiedAreaRect" Value="{{0.216993,0},{0.171365,0},{0.216993,401},{0.171365,552}}" />
+        <Window Type="DejaVu/Embed" Name="Root/EudemonBuffChangeWnd/BG" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Static" Name="Root/EudemonBuffChangeWnd/BG/AbilityBG" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.025974,0},{0.0211864,0},{0.974026,0},{0.540254,0}}" />
+                <Window Type="DejaVu/Embed2" Name="Root/EudemonBuffChangeWnd/BG/AbilityBG/BG" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0408163,0},{1,0},{1,0}}" />
+                    <Window Type="DejaVu/EmbedTextLab7" Name="Root/EudemonBuffChangeWnd/BG/AbilityBG/BG/AbilityText1" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="x一星能力" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.027397,0},{0.106838,0},{0.246575,0},{0.213221,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab2" Name="Root/EudemonBuffChangeWnd/BG/AbilityBG/BG/AbilityContent1" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HorzFormatting" Value="LeftAligned" />
+                        <Property Name="Text" Value="一二三四五六七巴九十一二三四五六七巴九十一二三四五六" />
+                        <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.027397,0},{0.234043,0},{0.972602,0},{0.361703,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab7" Name="Root/EudemonBuffChangeWnd/BG/AbilityBG/BG/AbilityText2" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="x二星能力" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.027397,0},{0.404255,0},{0.246575,0},{0.510638,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/ToggleButton4" Name="Root/EudemonBuffChangeWnd/BG/AbilityBG/BG/LockBtn2" >
+                        <Property Name="Text" Value="x鎖定" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.764384,0},{0.404255,0},{0.972603,0},{0.514894,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab2" Name="Root/EudemonBuffChangeWnd/BG/AbilityBG/BG/AbilityContent2" >
+                        <Property Name="HorzFormatting" Value="LeftAligned" />
+                        <Property Name="Text" Value="一二三四五六七巴九十一二三四五六七巴九十一二三四五六" />
+                        <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0273973,0},{0.531915,0},{0.972603,0},{0.659574,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Embed2" Name="Root/EudemonBuffChangeWnd/BG/AbilityBG/BG/Name1" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.246575,0},{0.106383,0},{0.764383,0},{0.212766,0}}" />
+                        <Window Type="DejaVu/StaticTextLab" Name="Root/EudemonBuffChangeWnd/BG/AbilityBG/BG/Name1/NameText" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="Text" Value="x幻影Lv1" />
+                            <Property Name="TextColours" Value="tl:FFFFFF00 tr:FFFFFF00 bl:FFFFFF00 br:FFFFFF00" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.15873,0},{0,0},{0.952381,0},{1,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticImage" Name="Root/EudemonBuffChangeWnd/BG/AbilityBG/BG/Name1/LockImg" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="Image" Value="set:main image:LockBtnNormal" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.026455,0},{0.08,0},{0.132275,0},{0.88,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Embed2" Name="Root/EudemonBuffChangeWnd/BG/AbilityBG/BG/Name2" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.246575,0},{0.404255,0},{0.764384,0},{0.510638,0}}" />
+                        <Window Type="DejaVu/StaticTextLab" Name="Root/EudemonBuffChangeWnd/BG/AbilityBG/BG/Name2/NameText" >
+                            <Property Name="Text" Value="x仁術Lv1" />
+                            <Property Name="TextColours" Value="tl:FFFFFF00 tr:FFFFFF00 bl:FFFFFF00 br:FFFFFF00" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.15873,0},{0,0},{0.952381,0},{1,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticImage" Name="Root/EudemonBuffChangeWnd/BG/AbilityBG/BG/Name2/LockImg" >
+                            <Property Name="Image" Value="set:main image:LockBtnNormal" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.026455,0},{0.08,0},{0.132275,0},{0.88,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab7" Name="Root/EudemonBuffChangeWnd/BG/AbilityBG/BG/AbilityText3" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="x三星能力" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0273973,0},{0.702128,0},{0.246575,0},{0.808511,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Embed2" Name="Root/EudemonBuffChangeWnd/BG/AbilityBG/BG/Name3" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.246575,0},{0.702128,0},{0.764384,0},{0.808511,0}}" />
+                        <Window Type="DejaVu/StaticTextLab" Name="Root/EudemonBuffChangeWnd/BG/AbilityBG/BG/Name3/NameText" >
+                            <Property Name="Text" Value="x奪生Lv1" />
+                            <Property Name="TextColours" Value="tl:FFFFFF00 tr:FFFFFF00 bl:FFFFFF00 br:FFFFFF00" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.15873,0},{0,0},{0.952381,0},{1,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticImage" Name="Root/EudemonBuffChangeWnd/BG/AbilityBG/BG/Name3/LockImg" >
+                            <Property Name="Image" Value="set:main image:LockBtnNormal" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.026455,0},{0.08,0},{0.132275,0},{0.88,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/ToggleButton4" Name="Root/EudemonBuffChangeWnd/BG/AbilityBG/BG/LockBtn3" >
+                        <Property Name="Text" Value="x鎖定" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.764384,0},{0.702128,0},{0.972603,0},{0.812766,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab2" Name="Root/EudemonBuffChangeWnd/BG/AbilityBG/BG/AbilityContent3" >
+                        <Property Name="HorzFormatting" Value="LeftAligned" />
+                        <Property Name="Text" Value="一二三四五六七巴九十一二三四五六七巴九十一二三四五六" />
+                        <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0279467,0},{0.829787,0},{0.973152,0},{0.957447,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/ToggleButton4" Name="Root/EudemonBuffChangeWnd/BG/AbilityBG/BG/LockBtn1" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="x解鎖" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.764384,0},{0.106383,0},{0.972603,0},{0.217021,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed4" Name="Root/EudemonBuffChangeWnd/BG/AbilityBG/Title" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.027397,0},{0,0},{0.438356,0},{0.102041,0}}" />
+                    <Window Type="DejaVu/StaticImage" Name="Root/EudemonBuffChangeWnd/BG/AbilityBG/Title/Img" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Image" Value="set:DejaVu image:Image08" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/EudemonBuffChangeWnd/BG/AbilityBG/Title/Text" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="x源神附加能力" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.2,0},{0.866667,0},{0.8,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="Root/EudemonBuffChangeWnd/BG/ItemBG" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.025974,0},{0.550847,0},{0.974026,0},{0.913135,0}}" />
+                <Window Type="DejaVu/Embed2" Name="Root/EudemonBuffChangeWnd/BG/ItemBG/BG" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.05848,0},{1,0},{1,0}}" />
+                    <Window Type="DejaVu/Embed2" Name="Root/EudemonBuffChangeWnd/BG/ItemBG/BG/Item" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0273973,0},{0.590062,0},{0.972603,0},{0.937888,0}}" />
+                        <Window Type="DejaVu/Embed3" Name="Root/EudemonBuffChangeWnd/BG/ItemBG/BG/Item/Name" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.005797,0},{0.035714,0},{0.788406,0},{0.964285,0}}" />
+                            <Window Type="DejaVu/SlotImage" Name="Root/EudemonBuffChangeWnd/BG/ItemBG/BG/Item/Name/Slot" >
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.018519,0},{0.096154,0},{0.174075,0},{0.903846,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/StaticText" Name="Root/EudemonBuffChangeWnd/BG/ItemBG/BG/Item/Name/Text" >
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                                <Property Name="LinespaceWindow" Value="True" />
+                                <Property Name="Text" Value="一二三四五六七八九十一二三四五六" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.22963,0},{0.192308,0},{0.962963,0},{0.807693,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/EmbedTextLab3" Name="Root/EudemonBuffChangeWnd/BG/ItemBG/BG/Item/Num" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="99/99" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.788406,0},{0.035714,0},{0.991305,0},{0.964285,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Embed2" Name="Root/EudemonBuffChangeWnd/BG/ItemBG/BG/Tutorial" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.027397,0},{0.15528,0},{0.972602,0},{0.559007,0}}" />
+                        <Window Type="DejaVu/StaticText" Name="Root/EudemonBuffChangeWnd/BG/ItemBG/BG/Tutorial/text" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                            <Property Name="LinespaceWindow" Value="True" />
+                            <Property Name="Text" Value="一二三四五六七八九時一二三四五六七八九時一二三四五六七八九時一二三四五六七八九時一二三四五六七八九時一二三四五六七八九時一二三四五六七八九時一二三四五六七八九時" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.028986,0},{0.076923,0},{0.971015,0},{0.923077,0}}" />
+                            <Property Name="VertFormatting" Value="TopAligned" />
+                        </Window>
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed4" Name="Root/EudemonBuffChangeWnd/BG/ItemBG/Title" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.027397,0},{0,0},{0.438356,0},{0.146199,0}}" />
+                    <Window Type="DejaVu/StaticImage" Name="Root/EudemonBuffChangeWnd/BG/ItemBG/Title/Img" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Image" Value="set:DejaVu image:Image10" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/EudemonBuffChangeWnd/BG/ItemBG/Title/Name" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="x需求物品" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.2,0},{0.866667,0},{0.8,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/EudemonBuffChangeWnd/BG/CheckBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="Text" Value="x洗練" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{-0.0211864,0},{0.197403,0},{0.0338983,0}}" />
+                <Property Name="VerticalAlignment" Value="Bottom" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

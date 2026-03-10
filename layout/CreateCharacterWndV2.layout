@@ -1,0 +1,746 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/Static" Name="Root/CreateCharWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.00208334,0},{0.00129373,0},{1.00208,0},{1.00129,0}}" />
+        <Window Type="DejaVu/ImageButton" Name="Root/CreateCharWnd/Confirm/LeaveBtn" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="HoverImage" Value="set:main38 image:GLCreateAppearanceBTN_H" />
+            <Property Name="NormalImage" Value="set:main38 image:GLCreateAppearanceBTN_N" />
+            <Property Name="PushedImage" Value="set:main38 image:GLCreateAppearanceBTN_P" />
+            <Property Name="UnifiedAreaRect" Value="{{0.05625,0},{-0.018773,0},{0.05625,140},{-0.018773,43}}" />
+            <Property Name="VerticalAlignment" Value="Bottom" />
+            <Window Type="DejaVu/StaticText" Name="Root/CreateCharWnd/Confirm/LeaveBtn/Text" >
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="x回上一頁" />
+                <Property Name="UnifiedAreaRect" Value="{{0.217708,0},{0.186047,0},{0.778124,0},{0.744186,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="Root/CreateCharWnd/CharControl" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Property Name="UnifiedAreaRect" Value="{{0.175841,0},{-0.0105597,0},{0.175841,180},{-0.0105597,80}}" />
+            <Property Name="VerticalAlignment" Value="Bottom" />
+            <Window Type="DejaVu/ImageButton" Name="Root/CreateCharWnd/TurnLeftBtn" >
+                <Property Name="DisabledImage" Value="set:main image:TurnLeftPressed" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HoverImage" Value="set:main image:TurnLeftHover" />
+                <Property Name="NormalImage" Value="set:main image:TurnLeftNormal" />
+                <Property Name="PushedImage" Value="set:main image:TurnLeftPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.125,0},{0.333333,0},{0.625,0}}" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/CreateCharWnd/TurnRightBtn" >
+                <Property Name="DisabledImage" Value="set:main image:TurnRightPressed" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HoverImage" Value="set:main image:TurnRightHover" />
+                <Property Name="NormalImage" Value="set:main image:TurnRightNormal" />
+                <Property Name="PushedImage" Value="set:main image:TurnRightPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0.666667,0},{0.125,0},{1,0},{0.625,0}}" />
+            </Window>
+            <Window Type="DejaVu/Static" Name="Root/CreateCharWnd/Zoom" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.388889,0},{0,0},{0.611111,0},{1,0}}" />
+                <Window Type="DejaVu/ImageButton" Name="Root/CreateCharWnd/Zoom/In" >
+                    <Property Name="DisabledImage" Value="set:main image:ZoomInPressed" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HoverImage" Value="set:main image:ZoomInHover" />
+                    <Property Name="NormalImage" Value="set:main image:ZoomInNormal" />
+                    <Property Name="PushedImage" Value="set:main image:ZoomInPressed" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.5,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/CreateCharWnd/Zoom/Out" >
+                    <Property Name="DisabledImage" Value="set:main image:ZoomOutPressed" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HoverImage" Value="set:main image:ZoomOutHover" />
+                    <Property Name="NormalImage" Value="set:main image:ZoomOutNormal" />
+                    <Property Name="PushedImage" Value="set:main image:ZoomOutPressed" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.5,0},{1,0},{1,0}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Embed" Name="Root/CreateCharWnd/Basic" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,380},{0,80}}" />
+            <Property Name="VerticalAlignment" Value="Bottom" />
+            <Window Type="DejaVu/ImageButton" Name="Root/CreateCharWnd/Basic/Frame/CheckNameBtn" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="HoverImage" Value="set:main38 image:GLCreateAppearanceBTN_H" />
+                <Property Name="NormalImage" Value="set:main38 image:GLCreateAppearanceBTN_N" />
+                <Property Name="PushedImage" Value="set:main38 image:GLCreateAppearanceBTN_P" />
+                <Property Name="UnifiedAreaRect" Value="{{0.305647,0},{0.4375,0},{0.305647,140},{0.4375,43}}" />
+                <Window Type="DejaVu/StaticText" Name="Root/CreateCharWnd/Basic/Frame/CheckNameBtn/Text" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="x重複確認" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.19122,0},{0.186047,0},{0.782886,0},{0.744186,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/CreateCharWnd/Basic/Btn_Random" >
+                <Property Name="HoverImage" Value="set:main2 image:DiceHover" />
+                <Property Name="NormalImage" Value="set:main2 image:DiceNormal" />
+                <Property Name="PushedImage" Value="set:main2 image:DicePressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0.778345,0},{0.00896637,0},{0.778345,43},{0.00896637,36}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/CreateCharWnd/Basic/Frame/NameImage" >
+                <Property Name="Image" Value="set:main38 image:GLCreateName" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0687499,0},{-0.0238396,0},{0.0687499,106},{-0.0238396,42}}" />
+                <Window Type="DejaVu/StaticText" Name="Root/CreateCharWnd/Basic/Frame/NameText" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="x名稱" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.104742,0},{0.174051,0},{0.875301,0},{0.847047,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/CreateCharWnd/Basic/NameEditImage" >
+                <Property Name="Image" Value="set:main38 image:GLCreateNameText" />
+                <Property Name="UnifiedAreaRect" Value="{{0.302851,0},{0.012131,0},{0.76979,0},{0.496572,0}}" />
+                <Window Type="DejaVu/Editbox" Name="Root/CreateCharWnd/Basic/Frame/NameEditbox" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="MaxTextLength" Value="20" />
+                    <Property Name="Text" Value="x1234512345123451" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0478373,0},{-0.0361347,0},{1.03422,0},{0.943169,0}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/CreateCharWnd/Appearance" >
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Property Name="Image" Value="set:main38 image:GLCreateAppearanceBG" />
+            <Property Name="UnifiedAreaRect" Value="{{0.390625,0},{0.0131446,0},{0.390625,247},{0.0131446,727}}" />
+            <Window Type="DejaVu/StaticImage" Name="Root/CreateCharWnd/Appearance/Line" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="Image" Value="set:DejaVu image:Line" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.124654,0},{0.793522,0},{0.127424,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/CreateCharWnd/Appearance/Text" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="x造型設定" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0969529,0},{0.874494,0},{0.131579,0}}" />
+            </Window>
+            <Window Type="DejaVu/Static" Name="Root/CreateCharWnd/Appearance/Basic" >
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.138504,0},{0.807967,0},{0.249491,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="Root/CreateCharWnd/Appearance/Basic/GenderTextBG" >
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                    <Property Name="Image" Value="set:main38 image:GLCreateAppearancItem" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{-0.00372177,0},{0.63,0},{0.428377,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="Root/CreateCharWnd/Appearance/Basic/GenderText" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="x性 別" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0246914,0},{0.63,0},{0.395062,0}}" />
+                </Window>
+                <Window Type="DejaVu/RadioButton" Name="Root/CreateCharWnd/Appearance/Basic/MaleRBtn" >
+                    <Property Name="Text" Value="x男" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.15,0},{0.37037,0},{0.39,0},{0.728395,0}}" />
+                </Window>
+                <Window Type="DejaVu/RadioButton" Name="Root/CreateCharWnd/Appearance/Basic/FemaleRBtn" >
+                    <Property Name="ID" Value="1" />
+                    <Property Name="Text" Value="x女" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.15,0},{0.679012,0},{0.39,0},{1.03704,0}}" />
+                </Window>
+                <Window Type="DejaVu/RadioButton" Name="Root/CreateCharWnd/Appearance/Basic/ShotaBtn" >
+                    <Property Name="ID" Value="1" />
+                    <Property Name="Text" Value="x正太" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.6,0},{0.37037,0},{0.895,0},{0.728395,0}}" />
+                </Window>
+                <Window Type="DejaVu/RadioButton" Name="Root/CreateCharWnd/Appearance/Basic/LoliBtn" >
+                    <Property Name="ID" Value="1" />
+                    <Property Name="Text" Value="x蘿莉" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.6,0},{0.679012,0},{0.884479,0},{1.03704,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/CreateCharWnd/Appearance/RandomBtn" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="HoverImage" Value="set:main38 image:GLCreateAppearanceBTN_H" />
+                <Property Name="NormalImage" Value="set:main38 image:GLCreateAppearanceBTN_N" />
+                <Property Name="PushedImage" Value="set:main38 image:GLCreateAppearanceBTN_P" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.739402,0},{0.502024,0},{0.774028,0}}" />
+                <Window Type="DejaVu/StaticText" Name="Root/CreateCharWnd/Appearance/RandomBtn/Text" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="x隨機外觀" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.187517,0},{0.16,0},{0.783435,0},{0.72,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed5" Name="Root/CreateCharWnd/Appearance/Face" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="UnifiedAreaRect" Value="{{0.000520835,0},{0.256554,0},{0.834529,0},{0.332731,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="Root/CreateCharWnd/Appearance/Face/TextBG" >
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                    <Property Name="Image" Value="set:main38 image:GLCreateAppearancItem" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.61165,0},{0.636364,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="Root/CreateCharWnd/Appearance/Face/Text" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="x臉 孔" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0363636,0},{0.61165,0},{0.581818,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/CreateCharWnd/Appearance/Face/LeftBtn" >
+                    <Property Name="DisabledImage" Value="set:main3 image:LeftBtnNormal" />
+                    <Property Name="HoverImage" Value="set:main3 image:LeftBtnHover" />
+                    <Property Name="NormalImage" Value="set:main3 image:LeftBtnNormal" />
+                    <Property Name="PushedImage" Value="set:main3 image:LeftBtnPressed" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0456696,0},{0.636364,0},{0.149118,0},{1,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/CreateCharWnd/Appearance/Face/RightBtn" >
+                    <Property Name="DisabledImage" Value="set:main3 image:RightBtnNormal" />
+                    <Property Name="HoverImage" Value="set:main3 image:RightBtnHover" />
+                    <Property Name="NormalImage" Value="set:main3 image:RightBtnNormal" />
+                    <Property Name="PushedImage" Value="set:main3 image:RightBtnPressed" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.850882,0},{0.636364,0},{0.95433,0},{1,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab5" Name="Root/CreateCharWnd/Appearance/Face/TypeText" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="1/5" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.00108578,0},{0.629247,0},{0.483845,0},{0.992883,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed5" Name="Root/CreateCharWnd/Appearance/HairType" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.347114,0},{0.834008,0},{0.423291,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="Root/CreateCharWnd/Appearance/HairType/TextBG" >
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                    <Property Name="Image" Value="set:main38 image:GLCreateAppearancItem" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.61165,0},{0.636364,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="Root/CreateCharWnd/Appearance/HairType/Text" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="x髮 型" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.036364,0},{0.61165,0},{0.581819,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/CreateCharWnd/Appearance/HairType/LeftBtn" >
+                    <Property Name="DisabledImage" Value="set:main3 image:LeftBtnNormal" />
+                    <Property Name="HoverImage" Value="set:main3 image:LeftBtnHover" />
+                    <Property Name="NormalImage" Value="set:main3 image:LeftBtnNormal" />
+                    <Property Name="PushedImage" Value="set:main3 image:LeftBtnPressed" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0456696,0},{0.636364,0},{0.149118,0},{1,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/CreateCharWnd/Appearance/HairType/RightBtn" >
+                    <Property Name="DisabledImage" Value="set:main3 image:RightBtnNormal" />
+                    <Property Name="HoverImage" Value="set:main3 image:RightBtnHover" />
+                    <Property Name="NormalImage" Value="set:main3 image:RightBtnNormal" />
+                    <Property Name="PushedImage" Value="set:main3 image:RightBtnPressed" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.849515,0},{0.636364,0},{0.951456,0},{1,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab5" Name="Root/CreateCharWnd/Appearance/HairType/TypeText" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="1/5" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.636364,0},{0.482759,0},{1,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed5" Name="Root/CreateCharWnd/Appearance/HairColor" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.439912,0},{0.834008,0},{0.516089,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="Root/CreateCharWnd/Appearance/HairColor/TextBG" >
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                    <Property Name="Image" Value="set:main38 image:GLCreateAppearancItem" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.61165,0},{0.636364,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="Root/CreateCharWnd/Appearance/HairColor/Text" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="x髮 色" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0363636,0},{0.61165,0},{0.581818,0}}" />
+                </Window>
+                <Window Type="DejaVu/Static" Name="Root/CreateCharWnd/Appearance/HairColor/Static" >
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.618182,0},{0.628743,0},{1.07273,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/CreateCharWnd/Appearance/HairColor/LeftBtn" >
+                    <Property Name="DisabledImage" Value="set:main3 image:LeftBtnNormal" />
+                    <Property Name="HoverImage" Value="set:main3 image:LeftBtnHover" />
+                    <Property Name="NormalImage" Value="set:main3 image:LeftBtnNormal" />
+                    <Property Name="PushedImage" Value="set:main3 image:LeftBtnPressed" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0456696,0},{0.636364,0},{0.149118,0},{1,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/CreateCharWnd/Appearance/HairColor/RightBtn" >
+                    <Property Name="DisabledImage" Value="set:main3 image:RightBtnNormal" />
+                    <Property Name="HoverImage" Value="set:main3 image:RightBtnHover" />
+                    <Property Name="NormalImage" Value="set:main3 image:RightBtnNormal" />
+                    <Property Name="PushedImage" Value="set:main3 image:RightBtnPressed" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.849515,0},{0.636364,0},{0.951456,0},{1,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed5" Name="Root/CreateCharWnd/Appearance/EyeColor" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.53271,0},{0.834008,0},{0.608887,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="Root/CreateCharWnd/Appearance/EyeColor/TextBG" >
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                    <Property Name="Image" Value="set:main38 image:GLCreateAppearancItem" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.61165,0},{0.636364,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="Root/CreateCharWnd/Appearance/EyeColor/Text" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="x瞳 色" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0363636,0},{0.61165,0},{0.581818,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/CreateCharWnd/Appearance/EyeColor/LeftBtn" >
+                    <Property Name="DisabledImage" Value="set:main3 image:LeftBtnNormal" />
+                    <Property Name="HoverImage" Value="set:main3 image:LeftBtnHover" />
+                    <Property Name="NormalImage" Value="set:main3 image:LeftBtnNormal" />
+                    <Property Name="PushedImage" Value="set:main3 image:LeftBtnPressed" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0436893,0},{0.636364,0},{0.145631,0},{1,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/CreateCharWnd/Appearance/EyeColor/RightBtn" >
+                    <Property Name="DisabledImage" Value="set:main3 image:RightBtnNormal" />
+                    <Property Name="HoverImage" Value="set:main3 image:RightBtnHover" />
+                    <Property Name="NormalImage" Value="set:main3 image:RightBtnNormal" />
+                    <Property Name="PushedImage" Value="set:main3 image:RightBtnPressed" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.849515,0},{0.636364,0},{0.951456,0},{1,0}}" />
+                </Window>
+                <Window Type="DejaVu/Static" Name="Root/CreateCharWnd/Appearance/EyeColor/Static" >
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.618182,0},{0.628743,0},{1.07273,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed5" Name="Root/CreateCharWnd/Appearance/SkinColor" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.629663,0},{0.834008,0},{0.707225,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="Root/CreateCharWnd/Appearance/SkinColor/TextBG" >
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                    <Property Name="Image" Value="set:main38 image:GLCreateAppearancItem" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.61165,0},{0.625,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="Root/CreateCharWnd/Appearance/SkinColor/Text" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="x膚 色" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.61165,0},{0.535714,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/CreateCharWnd/Appearance/SkinColor/LeftBtn" >
+                    <Property Name="DisabledImage" Value="set:main3 image:LeftBtnNormal" />
+                    <Property Name="HoverImage" Value="set:main3 image:LeftBtnHover" />
+                    <Property Name="NormalImage" Value="set:main3 image:LeftBtnNormal" />
+                    <Property Name="PushedImage" Value="set:main3 image:LeftBtnPressed" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0436893,0},{0.625,0},{0.145631,0},{0.982143,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/CreateCharWnd/Appearance/SkinColor/RightBtn" >
+                    <Property Name="DisabledImage" Value="set:main3 image:RightBtnNormal" />
+                    <Property Name="HoverImage" Value="set:main3 image:RightBtnHover" />
+                    <Property Name="NormalImage" Value="set:main3 image:RightBtnNormal" />
+                    <Property Name="PushedImage" Value="set:main3 image:RightBtnPressed" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.849515,0},{0.625,0},{0.951456,0},{0.982143,0}}" />
+                </Window>
+                <Window Type="DejaVu/Static" Name="Root/CreateCharWnd/Appearance/SkinColor/Static" >
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.607143,0},{0.628743,0},{1.05357,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="Root/CreateCharWnd/Appearance/TipText" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="創角時裝僅供參考" />
+                <Property Name="UnifiedAreaRect" Value="{{0.00455458,0},{0.812599,0},{0.753542,0},{0.8403,0}}" />
+            </Window>
+            <Window Type="DejaVu/Checkbox" Name="Root/CreateCharWnd/Appearance/SurvivalMode" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="生存模式" />
+                <Property Name="UnifiedAreaRect" Value="{{0.129555,0},{0.845942,0},{0.878543,0},{0.873453,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Embed" Name="Root/CreateCharWnd/Weapon" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorizontalAlignment" Value="Right" />
+            <Property Name="UnifiedAreaRect" Value="{{-0.619296,0},{0.0532787,0},{-0.619296,300},{0.0532787,655}}" />
+            <Window Type="DejaVu/StaticImage" Name="Root/CreateCharWnd/MovieWnd" >
+                <Property Name="BackgroundEnabled" Value="True" />
+                <Property Name="FrameEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.033333,0},{0.076336,0},{0.966666,0},{0.38168,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/CreateCharWnd/Weapon/Title/TextBG" >
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.010687,0},{0.5,0},{0.0564885,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="Root/CreateCharWnd/Weapon/Title" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="x魔法類型 - 雙手杖" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.010687,0},{0.5,0},{0.0564885,0}}" />
+            </Window>
+            <Window Type="DejaVu/Static" Name="Root/CreateCharWnd/Weapon/WeaponAttrBG" >
+                <Property Name="UnifiedAreaRect" Value="{{0.00333333,0},{0.392366,0},{1.00333,0},{0.560305,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="Root/CreateCharWnd/Weapon/SingleAtkImage" >
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.267559,0},{0.272727,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/CreateCharWnd/Weapon/SingleAtkText" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="x單體攻擊" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/CreateCharWnd/Weapon/RangeAtkImage" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.501672,0},{0,0},{0.769231,0},{0.272727,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/CreateCharWnd/Weapon/RangeAtkText" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="x範圍攻擊" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/CreateCharWnd/Weapon/DefImage" >
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.363636,0},{0.267559,0},{0.636364,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/CreateCharWnd/Weapon/DefText" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="x防禦" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/CreateCharWnd/Weapon/DodgeImage" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.501672,0},{0.363636,0},{0.769231,0},{0.636364,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/CreateCharWnd/Weapon/DodgeText" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="x閃躲" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/CreateCharWnd/Weapon/HealImage" >
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.727273,0},{0.267559,0},{1,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/CreateCharWnd/Weapon/HealText" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="x治療" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/CreateCharWnd/Weapon/SupImage" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.501672,0},{0.727273,0},{0.769231,0},{1,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/CreateCharWnd/Weapon/SupText" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="x輔助" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/CreateCharWnd/Weapon/SingleAtkStarBG" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.267559,0},{0.0181818,0},{0.501672,0},{0.245455,0}}" />
+                    <Window Type="DejaVu/StaticImage" Name="Root/CreateCharWnd/Weapon/SingleAtkStar1" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.071429,0},{0.08,0},{0.357143,0},{0.88,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/CreateCharWnd/Weapon/SingleAtkStar2" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.357143,0},{0.08,0},{0.642857,0},{0.88,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/CreateCharWnd/Weapon/SingleAtkStar3" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.642857,0},{0.08,0},{0.928571,0},{0.88,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/CreateCharWnd/Weapon/RangeAtkStarBG" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.769231,0},{0.0181818,0},{1.00334,0},{0.245455,0}}" />
+                    <Window Type="DejaVu/StaticImage" Name="Root/CreateCharWnd/Weapon/RangeAtkStar1" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.071429,0},{0.08,0},{0.357143,0},{0.88,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/CreateCharWnd/Weapon/RangeAtkStar2" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.357143,0},{0.08,0},{0.642857,0},{0.88,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/CreateCharWnd/Weapon/RangeAtkStar3" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.642857,0},{0.08,0},{0.928571,0},{0.88,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/CreateCharWnd/Weapon/DefStarBG" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.267559,0},{0.381818,0},{0.501672,0},{0.609091,0}}" />
+                    <Window Type="DejaVu/StaticImage" Name="Root/CreateCharWnd/Weapon/DefStar1" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.071429,0},{0.08,0},{0.357143,0},{0.88,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/CreateCharWnd/Weapon/DefStar2" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.357143,0},{0.08,0},{0.642857,0},{0.88,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/CreateCharWnd/Weapon/DefStar3" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.642857,0},{0.08,0},{0.928571,0},{0.88,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/CreateCharWnd/Weapon/DodgeStarBG" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.769231,0},{0.381818,0},{1.00334,0},{0.609091,0}}" />
+                    <Window Type="DejaVu/StaticImage" Name="Root/CreateCharWnd/Weapon/DodgeStar1" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.071429,0},{0.08,0},{0.357143,0},{0.88,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/CreateCharWnd/Weapon/DodgeStar2" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.357143,0},{0.08,0},{0.642857,0},{0.88,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/CreateCharWnd/Weapon/DodgeStar3" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.642857,0},{0.08,0},{0.928571,0},{0.88,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/CreateCharWnd/Weapon/HealStarBG" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.267559,0},{0.745455,0},{0.501672,0},{0.972727,0}}" />
+                    <Window Type="DejaVu/StaticImage" Name="Root/CreateCharWnd/Weapon/HealStar1" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.071429,0},{0.08,0},{0.357143,0},{0.88,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/CreateCharWnd/Weapon/HealStar2" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.357143,0},{0.08,0},{0.642857,0},{0.88,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/CreateCharWnd/Weapon/HealStar3" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.642857,0},{0.08,0},{0.928571,0},{0.88,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/CreateCharWnd/Weapon/SupStarBG" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.769231,0},{0.745455,0},{1.00334,0},{0.972727,0}}" />
+                    <Window Type="DejaVu/StaticImage" Name="Root/CreateCharWnd/Weapon/SupStar1" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.071429,0},{0.08,0},{0.357143,0},{0.88,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/CreateCharWnd/Weapon/SupStar2" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.357143,0},{0.08,0},{0.642857,0},{0.88,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/CreateCharWnd/Weapon/SupStar3" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.642857,0},{0.08,0},{0.928571,0},{0.88,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed6" Name="Root/CreateCharWnd/Weapon/WpTipFram" >
+                <Property Name="UnifiedAreaRect" Value="{{0.0333333,0},{0.589313,0},{0.966667,0},{0.909924,0}}" />
+                <Window Type="DejaVu/StaticText" Name="Root/CreateCharWnd/Weapon/WpTipText" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                    <Property Name="Text" Value="xTest Text" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.043478,0},{0.142857,0},{0.956521,0},{0.904762,0}}" />
+                    <Property Name="VertFormatting" Value="TopAligned" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/CreateCharWnd/Weapon/TitleIcon" >
+                <Property Name="UnifiedAreaRect" Value="{{0.0766667,0},{0.00305344,0},{0.216667,0},{0.0671756,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/ImageButton" Name="Root/CreateCharWnd/Confirm/OkBtn" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="HorizontalAlignment" Value="Right" />
+            <Property Name="HoverImage" Value="set:main38 image:GLCreateAppearanceBTN_H" />
+            <Property Name="NormalImage" Value="set:main38 image:GLCreateAppearanceBTN_N" />
+            <Property Name="PushedImage" Value="set:main38 image:GLCreateAppearanceBTN_P" />
+            <Property Name="UnifiedAreaRect" Value="{{-0.0619296,0},{-0.0191257,0},{-0.0619296,140},{-0.0191257,43}}" />
+            <Property Name="VerticalAlignment" Value="Bottom" />
+            <Window Type="DejaVu/StaticText" Name="Root/CreateCharWnd/Confirm/OkBtn/Text" >
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="x確定角色" />
+                <Property Name="UnifiedAreaRect" Value="{{0.196428,0},{0.186047,0},{0.807366,0},{0.744186,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="Root/CreateCharWnd/SelectWeapon" >
+            <Property Name="BackgroundColours" Value="tl:00FFFFFF tr:00FFFFFF bl:00FFFFFF br:00FFFFFF" />
+            <Property Name="UnifiedAreaRect" Value="{{-0.0104065,0},{0.248141,0},{0.194708,0},{0.871161,0}}" />
+            <Window Type="DejaVu/Static" Name="Root/CreateCharWnd/SelectWeapon/ButtomBG" >
+                <Property Name="BackgroundColours" Value="tl:00FFFFFF tr:00FFFFFF bl:00FFFFFF br:00FFFFFF" />
+                <Property Name="BackgroundEnabled" Value="True" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameColours" Value="tl:00FFFFFF tr:00FFFFFF bl:00FFFFFF br:00FFFFFF" />
+                <Property Name="FrameEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Window Type="DejaVu/ScrollablePane" Name="Root/CreateCharWnd/SelectWeapon/ButtomBG1" >
+                    <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                    <Property Name="HorzOverlapSize" Value="0.01" />
+                    <Property Name="HorzScrollPosition" Value="0" />
+                    <Property Name="HorzStepSize" Value="0.1" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.00104167,0},{0.00105486,0},{1.00104,0},{1.00105,0}}" />
+                    <Property Name="VertOverlapSize" Value="0.01" />
+                    <Property Name="VertScrollPosition" Value="0" />
+                    <Property Name="VertStepSize" Value="0.1" />
+                    <AutoWindow NameSuffix="__auto_container__" >
+                        <Property Name="ChildExtentsArea" Value="l:0 t:0 r:0 b:0" />
+                        <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                        <Property Name="MouseInputPropagationEnabled" Value="True" />
+                    </AutoWindow>
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="Root/CreateCharWnd/Weapon1" >
+            <Property Name="UnifiedAreaRect" Value="{{-0.00521921,0},{0.237592,0},{0.159708,0},{0.350581,0}}" />
+            <Property Name="Visible" Value="False" />
+            <Window Type="DejaVu/ImageButton" Name="Root/CreateCharWnd/Weapon1/Button" >
+                <Property Name="HoverImage" Value="set:main38 image:GLCreateJob_H" />
+                <Property Name="NormalImage" Value="set:main38 image:GLCreateJob_N" />
+                <Property Name="PushedImage" Value="set:main38 image:GLCreateJob_P" />
+                <Property Name="UnifiedAreaRect" Value="{{0.332,0},{0.120482,0},{1.004,0},{0.843374,0}}" />
+                <Window Type="DejaVu/StaticText" Name="Root/CreateCharWnd/Weapon1/Button/Text" >
+                    <Property Name="HorzFormatting" Value="WordWrapCentred" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.278302,0},{0.272727,0},{0.712264,0},{0.74026,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/CreateCharWnd/Weapon1/Image" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="Image" Value="set:main38 image:GLSelectWeapon21" />
+                <Property Name="UnifiedAreaRect" Value="{{0.2443,0},{0.11215,0},{0.504886,0},{0.859813,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="Root/CreateCharWnd/Weapon2" >
+            <Property Name="UnifiedAreaRect" Value="{{-0.00521921,0},{0.343189,0},{0.159708,0},{0.456177,0}}" />
+            <Property Name="Visible" Value="False" />
+            <Window Type="DejaVu/ImageButton" Name="Root/CreateCharWnd/Weapon2/Button" >
+                <Property Name="HoverImage" Value="set:main38 image:GLCreateJob_H" />
+                <Property Name="NormalImage" Value="set:main38 image:GLCreateJob_N" />
+                <Property Name="PushedImage" Value="set:main38 image:GLCreateJob_P" />
+                <Property Name="UnifiedAreaRect" Value="{{0.332,0},{0.120482,0},{1.004,0},{0.843374,0}}" />
+                <Window Type="DejaVu/StaticText" Name="Root/CreateCharWnd/Weapon2/Button/Text" >
+                    <Property Name="HorzFormatting" Value="WordWrapCentred" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.278302,0},{0.272727,0},{0.712264,0},{0.74026,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/CreateCharWnd/Weapon2/Image" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="Image" Value="set:main38 image:GLSelectWeapon01" />
+                <Property Name="UnifiedAreaRect" Value="{{0.2443,0},{0.11215,0},{0.504886,0},{0.859813,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="Root/CreateCharWnd/Weapon3" >
+            <Property Name="UnifiedAreaRect" Value="{{-0.00521921,0},{0.448786,0},{0.159708,0},{0.561774,0}}" />
+            <Property Name="Visible" Value="False" />
+            <Window Type="DejaVu/ImageButton" Name="Root/CreateCharWnd/Weapon3/Button" >
+                <Property Name="HoverImage" Value="set:main38 image:GLCreateJob_H" />
+                <Property Name="NormalImage" Value="set:main38 image:GLCreateJob_N" />
+                <Property Name="PushedImage" Value="set:main38 image:GLCreateJob_P" />
+                <Property Name="UnifiedAreaRect" Value="{{0.332,0},{0.120482,0},{1.004,0},{0.843374,0}}" />
+                <Window Type="DejaVu/StaticText" Name="Root/CreateCharWnd/Weapon3/Button/Text" >
+                    <Property Name="HorzFormatting" Value="WordWrapCentred" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.278302,0},{0.272727,0},{0.712264,0},{0.74026,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/CreateCharWnd/Weapon3/Image" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="Image" Value="set:main38 image:GLSelectWeapon04" />
+                <Property Name="UnifiedAreaRect" Value="{{0.2443,0},{0.11215,0},{0.504886,0},{0.859813,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="Root/CreateCharWnd/Weapon4" >
+            <Property Name="UnifiedAreaRect" Value="{{-0.00521921,0},{0.554382,0},{0.159708,0},{0.667371,0}}" />
+            <Property Name="Visible" Value="False" />
+            <Window Type="DejaVu/ImageButton" Name="Root/CreateCharWnd/Weapon4/Button" >
+                <Property Name="HoverImage" Value="set:main38 image:GLCreateJob_H" />
+                <Property Name="NormalImage" Value="set:main38 image:GLCreateJob_N" />
+                <Property Name="PushedImage" Value="set:main38 image:GLCreateJob_P" />
+                <Property Name="UnifiedAreaRect" Value="{{0.332,0},{0.120482,0},{1.004,0},{0.843374,0}}" />
+                <Window Type="DejaVu/StaticText" Name="Root/CreateCharWnd/Weapon4/Button/Text" >
+                    <Property Name="HorzFormatting" Value="WordWrapCentred" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.278302,0},{0.272727,0},{0.712264,0},{0.74026,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/CreateCharWnd/Weapon4/Image" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="Image" Value="set:main38 image:GLSelectWeapon11" />
+                <Property Name="UnifiedAreaRect" Value="{{0.2443,0},{0.11215,0},{0.504886,0},{0.859813,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="Root/CreateCharWnd/Weapon5" >
+            <Property Name="UnifiedAreaRect" Value="{{-0.00521921,0},{0.659979,0},{0.16023,0},{0.772967,0}}" />
+            <Property Name="Visible" Value="False" />
+            <Window Type="DejaVu/ImageButton" Name="Root/CreateCharWnd/Weapon5/Button" >
+                <Property Name="HoverImage" Value="set:main38 image:GLCreateJob_H" />
+                <Property Name="NormalImage" Value="set:main38 image:GLCreateJob_N" />
+                <Property Name="PushedImage" Value="set:main38 image:GLCreateJob_P" />
+                <Property Name="UnifiedAreaRect" Value="{{0.332,0},{0.120482,0},{1.004,0},{0.843374,0}}" />
+                <Window Type="DejaVu/StaticText" Name="Root/CreateCharWnd/Weapon5/Button/Text" >
+                    <Property Name="HorzFormatting" Value="WordWrapCentred" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.278302,0},{0.272727,0},{0.716981,0},{0.74026,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/CreateCharWnd/Weapon5/Image" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="Image" Value="set:main38 image:GLSelectWeapon17" />
+                <Property Name="UnifiedAreaRect" Value="{{0.243506,0},{0.11215,0},{0.512987,0},{0.859813,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="Root/CreateCharWnd/Weapon6" >
+            <Property Name="UnifiedAreaRect" Value="{{-0.00521921,0},{0.765576,0},{0.158664,0},{0.878564,0}}" />
+            <Property Name="Visible" Value="False" />
+            <Window Type="DejaVu/ImageButton" Name="Root/CreateCharWnd/Weapon6/Button" >
+                <Property Name="HoverImage" Value="set:main38 image:GLCreateJob_H" />
+                <Property Name="NormalImage" Value="set:main38 image:GLCreateJob_N" />
+                <Property Name="PushedImage" Value="set:main38 image:GLCreateJob_P" />
+                <Property Name="UnifiedAreaRect" Value="{{0.332,0},{0.120482,0},{1.004,0},{0.843374,0}}" />
+                <Window Type="DejaVu/StaticText" Name="Root/CreateCharWnd/Weapon6/Button/Text" >
+                    <Property Name="HorzFormatting" Value="WordWrapCentred" />
+                    <Property Name="Text" >Stellar
+Sphere</Property>
+                    <Property Name="UnifiedAreaRect" Value="{{0.280952,0},{0.272727,0},{0.719048,0},{0.74026,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/CreateCharWnd/Weapon6/Image" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="Image" Value="set:main38 image:GLSelectWeapon20" />
+                <Property Name="UnifiedAreaRect" Value="{{0.245902,0},{0.11215,0},{0.245902,80},{0.11215,80}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/CreateCharWnd/Radar" >
+            <Property Name="Image" Value="set:main38 image:WeaponRadra" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0434885,0},{0.0267761,0},{0.141336,0},{0.231974,0}}" />
+            <Window Type="DejaVu/StaticImage" Name="Root/CreateCharWnd/Radar/Cover" >
+                <Property Name="UnifiedAreaRect" Value="{{0.214667,0},{0.233333,0},{0.774667,0},{0.793333,0}}" />
+				<Property Name="Image" Value="set:main3 image:RadraColor" />
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="Root/CreateCharWnd/Radar/Text1" >
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="x攻" />
+                <Property Name="UnifiedAreaRect" Value="{{0.366667,0},{0.0666667,0},{0.62,0},{0.32,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="Root/CreateCharWnd/Radar/Text2" >
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="x爆" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0333333,0},{0.266667,0},{0.286667,0},{0.52,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="Root/CreateCharWnd/Radar/Text3" >
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="x命" />
+                <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.6,0},{0.353333,0},{0.853333,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="Root/CreateCharWnd/Radar/Text4" >
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="x防" />
+                <Property Name="UnifiedAreaRect" Value="{{0.633333,0},{0.6,0},{0.886667,0},{0.853333,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="Root/CreateCharWnd/Radar/Text5" >
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="x閃" />
+                <Property Name="UnifiedAreaRect" Value="{{0.7,0},{0.266667,0},{0.953333,0},{0.52,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

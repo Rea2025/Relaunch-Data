@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/DressRoomUI" >
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,308},{0,430}}" />
+        <Window Type="DejaVu/Static" Name="Root/DressRoomUI/Backgrand" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Button" Name="Root/DressRoomUI/resetBtn" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="Text" Value="RESET" />
+                <Property Name="UnifiedAreaRect" Value="{{0.380137,0},{0.938776,0},{0.619863,0},{0.984694,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/DressRoomUI/ViewAvatar" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0205479,0},{0.0663265,0},{0.979452,0},{0.923469,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

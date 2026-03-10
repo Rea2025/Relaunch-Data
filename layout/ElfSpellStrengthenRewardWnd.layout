@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/CollectReward" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="TitlebarImage" Value="set:main image:EudemonStorageNormal" />
+        <Property Name="UnifiedAreaRect" Value="{{0.339931,0},{0.059367,0},{0.339931,370},{0.059367,630}}" />
+        <Window Type="DejaVu/Embed" Name="Root/CollectReward/Embed" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{-0.00181818,0},{1,0},{0.998182,0}}" />
+            <Window Type="DejaVu/Static" Name="Root/CollectReward/Embed/Content" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0310734,0},{0.0182149,0},{0.968927,0},{0.969035,0}}" />
+                <Window Type="DejaVu/Embed2" Name="Root/CollectReward/Embed/Content/Embed2" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0210728,0},{1,0},{1.01149,0}}" />
+                    <Window Type="DejaVu/Embed2" Name="Root/CollectReward/Embed/Content/Embed2/BuffReward" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.0301205,0},{0.0939335,0},{0.966867,0},{0.994129,0}}" />
+                        <Window Type="DejaVu/EmbedTextLab7" Name="Root/CollectReward/Embed/Content/Embed2/BuffReward/Title1" >
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="x目標積分" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.00643087,0},{0.00869565,0},{0.29582,0},{0.0608696,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/ScrollablePane" Name="Root/CollectReward/Embed/Content/Embed2/BuffReward/BuffList" >
+                            <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="HorzOverlapSize" Value="0.01" />
+                            <Property Name="HorzScrollPosition" Value="0" />
+                            <Property Name="HorzStepSize" Value="0.1" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0096463,0},{0.0652174,0},{0.996785,0},{0.98913,0}}" />
+                            <Property Name="VertOverlapSize" Value="0.01" />
+                            <Property Name="VertScrollPosition" Value="0" />
+                            <Property Name="VertStepSize" Value="0.1" />
+                            <AutoWindow NameSuffix="__auto_container__" >
+                                <Property Name="ChildExtentsArea" Value="l:0 t:0 r:0 b:0" />
+                                <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                                <Property Name="MouseInputPropagationEnabled" Value="True" />
+                            </AutoWindow>
+                        </Window>
+                        <Window Type="DejaVu/EmbedTextLab7" Name="Root/CollectReward/Embed/Content/Embed2/BuffReward/Title2" >
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="x獎勵能力" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.299035,0},{0.00863931,0},{0.990354,0},{0.0604752,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Embed2" Name="Root/CollectReward/Embed/Content/Embed2/BuffReward1" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.0301205,0},{0.0391389,0},{0.966867,0},{0.0861057,0}}" />
+                        <Window Type="DejaVu/EmbedTextLab7" Name="Root/CollectReward/Embed/Content/Embed2/BuffReward/Title21" >
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="x升技總分" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.353698,0},{1,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticText" Name="Root/CollectReward/Embed/Content/Embed2/BuffReward1/Score" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="x當前升技總分" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.353698,0},{0,0},{1,0},{1,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Button" Name="Root/CollectReward/Embed/Content/Embed2/BuffReward1/TipsBtn" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="Text" Value="？" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.92283,0},{0,0},{1,0},{1,0}}" />
+                        </Window>
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed4" Name="Root/CollectReward/Embed/Content/Title" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0331325,0},{0,0},{0.518072,0},{0.045977,0}}" />
+                    <Window Type="DejaVu/StaticImage" Name="Root/CollectReward/Embed/Rank/Title/Img" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Image" Value="set:DejaVu image:Image17" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0993789,0},{0.208333,0},{0.198758,0},{0.791667,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/CollectReward/Embed/Rank/Title/Text" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="x升技獎勵" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.267081,0},{0.208333,0},{0.869565,0},{0.791667,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

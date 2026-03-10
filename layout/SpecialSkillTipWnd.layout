@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/SpecialSkillTip" >
+        <Property Name="ClippedByParent" Value="False" />
+        <Property Name="MousePassThroughEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.210938,0},{0.479508,0}}" />
+        <Window Type="DejaVu/Embed" Name="Root/SpecialSkillTip/Panel" >
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/StaticText" Name="Root/SpecialSkillTip/Title" >
+                <Property Name="Text" Value="x此格注魂效果將同時適用於以下技能" />
+                <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.05,0},{0.716667,0},{0.0909836,0}}" />
+            </Window>
+            <Window Type="DefaultWindow" Name="Root/SpecialSkillTip/TipWnd" >
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0308642,0},{0.0997151,0},{0.962963,0},{0.97151,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="Root/SpecialSkillTip/Line0" >
+                    <Property Name="Image" Value="set:DejaVu image:Line" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0166667,0},{0,0},{0.983333,0},{0.00653595,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/SpecialSkillTip/IconImage" >
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.033333,0},{0.022876,0},{0.172406,0},{0.160131,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/SpecialSkillTip/Line1" >
+                    <Property Name="Image" Value="set:DejaVu image:Line" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0166667,0},{0.19281,0},{0.983333,0},{0.199346,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/SpecialSkillTip/Name" >
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="Text" Value="x技能1" />
+                    <Property Name="TextColours" Value="tl:FFFFFF00 tr:FFFFFF00 bl:FFFFFF00 br:FFFFFF00" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.198675,0},{0.0228758,0},{0.798013,0},{0.0882353,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/SpecialSkillTip/Colddown" >
+                    <Property Name="HorzFormatting" Value="RightAligned" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="Text" Value="555.0秒" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.778146,0},{0.104575,0},{0.976821,0},{0.169935,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="Root/SpecialSkillTip/TextArea" >
+                    <Property Name="BackgroundEnabled" Value="True" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="FrameEnabled" Value="True" />
+                    <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.033333,0},{0.20915,0},{0.967108,0},{0.470588,0}}" />
+                    <Property Name="VertFormatting" Value="TopAligned" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/SpecialSkillTip/AttribImage" >
+                    <Property Name="Image" Value="set:DejaVu image:Fire" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.9,0},{0.022876,0},{0.966225,0},{0.0882355,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/SpecialSkillTip/ColddownImage" >
+                    <Property Name="Image" Value="set:DejaVu image:TimeIcon" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.716667,0},{0.107843,0},{0.782892,0},{0.173202,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DefaultWindow" Name="Root/SpecialSkillTip/TipWnd1" >
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0308642,0},{0.541311,0},{0.962963,0},{1.41311,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="Root/SpecialSkillTip/Line01" >
+                    <Property Name="Image" Value="set:DejaVu image:Line" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0166667,0},{0,0},{0.983333,0},{0.00653595,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/SpecialSkillTip/IconImage1" >
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.033333,0},{0.022876,0},{0.172406,0},{0.160131,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/SpecialSkillTip/Line11" >
+                    <Property Name="Image" Value="set:DejaVu image:Line" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0166667,0},{0.19281,0},{0.983333,0},{0.199346,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/SpecialSkillTip/Name1" >
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="Text" Value="x技能2" />
+                    <Property Name="TextColours" Value="tl:FFFFFF00 tr:FFFFFF00 bl:FFFFFF00 br:FFFFFF00" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.198675,0},{0.0228758,0},{0.798013,0},{0.0882353,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/SpecialSkillTip/Colddown1" >
+                    <Property Name="HorzFormatting" Value="RightAligned" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="Text" Value="555.0秒" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.778146,0},{0.104575,0},{0.976821,0},{0.169935,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="Root/SpecialSkillTip/TextArea1" >
+                    <Property Name="BackgroundEnabled" Value="True" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="FrameEnabled" Value="True" />
+                    <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.033333,0},{0.20915,0},{0.967108,0},{0.470588,0}}" />
+                    <Property Name="VertFormatting" Value="TopAligned" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/SpecialSkillTip/AttribImage1" >
+                    <Property Name="Image" Value="set:DejaVu image:Fire" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.9,0},{0.022876,0},{0.966225,0},{0.0882355,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/SpecialSkillTip/ColddownImage1" >
+                    <Property Name="Image" Value="set:DejaVu image:TimeIcon" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.716667,0},{0.107843,0},{0.782892,0},{0.173202,0}}" />
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/CommonDlg" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="TitlebarImage" Value="set:main image:SystemNormal" />
+        <Property Name="UnifiedAreaRect" Value="{{0.364258,0},{0.377604,0},{0.364258,266},{0.377604,288}}" />
+        <Window Type="DejaVu/Embed" Name="Root/CommonDlg/static" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Embed2" Name="Root/CommonDlg/static/border" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.04,0},{0.0480769,0},{0.96,0},{0.802885,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/CommonDlg/MsgText1" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="是否購買下列物品" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.043478,0},{0.063694,0},{0.956521,0},{0.22293,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/CommonDlg/Icon" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.408696,0},{0.286624,0},{0.591304,0},{0.55414,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/CommonDlg/MsgText" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="一二三四五六七八九十一二" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0434783,0},{0.55414,0},{0.956522,0},{0.713376,0}}" />
+                </Window>
+                <Window Type="DejaVu/Embed2" Name="Root/CommonDlg/TotalCostFrame" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.347826,0},{0.77707,0},{0.956522,0},{0.936306,0}}" />
+                    <Window Type="DejaVu/StaticImage" Name="Root/CommonDlg/SilverBG" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="Font" Value="F001-scale" />
+                        <Property Name="Image" Value="set:main image:SilverBG" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.519113,0},{0,0},{0.994574,0},{1,0}}" />
+                        <Window Type="DejaVu/StaticImage" Name="Root/CommonDlg/SilverText" >
+                            <Property Name="Image" Value="set:main image:Silver" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.631981,0},{0.2,0},{0.899838,0},{0.8,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticTextLab" Name="Root/CommonDlg/Silver" >
+                            <Property Name="HorzFormatting" Value="RightAligned" />
+                            <Property Name="Text" Value="999" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.118496,0},{0.2,0},{0.564925,0},{0.8,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/CommonDlg/GoldBG" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="Font" Value="F001-scale" />
+                        <Property Name="Image" Value="set:main image:GoldBG" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0571429,0},{0,0},{0.628571,0},{1,0}}" />
+                        <Window Type="DejaVu/StaticImage" Name="Root/CommonDlg/GoldText" >
+                            <Property Name="Image" Value="set:main image:Gold" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.762921,0},{0.2,0},{0.941492,0},{0.8,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticTextLab" Name="Root/CommonDlg/Gold" >
+                            <Property Name="HorzFormatting" Value="RightAligned" />
+                            <Property Name="Text" Value="99999" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.144598,0},{0.2,0},{0.680313,0},{0.8,0}}" />
+                        </Window>
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab7" Name="Root/CommonDlg/CostTab" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="價格" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.043478,0},{0.77707,0},{0.347826,0},{0.936306,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/CommonDlg/OKBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="x確定" />
+                <Property Name="UnifiedAreaRect" Value="{{0.04,0},{0.826923,0},{0.344,0},{0.951923,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/CommonDlg/CloseBtn" >
+                <Property Name="Text" Value="x取消" />
+                <Property Name="UnifiedAreaRect" Value="{{0.656,0},{0.826923,0},{0.96,0},{0.951923,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/CommonDlg/CancelBtn" >
+                <Property Name="Text" Value="x確定" />
+                <Property Name="UnifiedAreaRect" Value="{{0.349208,0},{0.826923,0},{0.653208,0},{0.951923,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

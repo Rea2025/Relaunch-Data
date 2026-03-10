@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root" >
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,690},{0,490}}" />
+        <Window Type="DejaVu/Embed" Name="Root/FishingRecordWnd" >
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Checkbox" Name="Root/FishingRecordWnd/Checkbox" >
+                <Property Name="Text" Value="x只顯示未開啟圖鑑" />
+                <Property Name="UnifiedAreaRect" Value="{{0.370102,0},{0.0204082,0},{0.660377,0},{0.0714286,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="Root/FishingRecordWnd/CollectProgress" >
+                <Property Name="Text" Value="x攻略數   12/200" />
+                <Property Name="UnifiedAreaRect" Value="{{0.696289,0},{0.020718,0},{0.986328,0},{0.071823,0}}" />
+            </Window>
+            <Window Type="DejaVu/Embed2" Name="Root/FishingRecordWnd/BaseWnd" >
+                <Property Name="UnifiedAreaRect" Value="{{0.016797,0},{0.103127,0},{0.988398,0},{0.982069,0}}" />
+                <Window Type="DejaVu/ScrollablePane" Name="Root/FishingRecordWnd/BaseWnd/RecordInfo" >
+                    <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                    <Property Name="HorzOverlapSize" Value="0.01" />
+                    <Property Name="HorzScrollPosition" Value="0" />
+                    <Property Name="HorzStepSize" Value="0.1" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.00746269,0},{0.0581395,0},{0.992537,0},{0.970586,0}}" />
+                    <Property Name="VertOverlapSize" Value="0.01" />
+                    <Property Name="VertScrollPosition" Value="0" />
+                    <Property Name="VertStepSize" Value="0.1" />
+                    <AutoWindow NameSuffix="__auto_container__" >
+                        <Property Name="ChildExtentsArea" Value="l:0 t:0 r:0 b:0" />
+                        <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                        <Property Name="MouseInputPropagationEnabled" Value="True" />
+                    </AutoWindow>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed4" Name="Root/FishingRecordWnd/TitleLab" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0258629,0},{0.077636,0},{0.249743,0},{0.134454,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="Root/FishingRecordWnd/TitleLab/Icon" >
+                    <Property Name="Image" Value="set:DejaVu image:Image09" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.10449,0},{0.2,0},{0.20449,0},{0.8,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/FishingRecordWnd/TitleLab/Text" >
+                    <Property Name="Text" >x魚拓圖鑑
+</Property>
+                    <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.2,0},{0.866667,0},{0.8,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Combobox" Name="Root/FishingRecordWnd/RegionSelect" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="MaxEditTextLength" Value="2147483647" />
+                <Property Name="Text" Value="x選擇地區" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0145138,0},{0.0204082,0},{0.333817,0},{0.326531,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

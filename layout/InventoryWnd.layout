@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/Inventory" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="TitlebarImage" Value="set:main image:BagNormal" />
+        <Property Name="UnifiedAreaRect" Value="{{0.291016,0},{0.326823,0},{0.291016,511},{0.326823,351}}" />
+        <Window Type="DejaVu/Embed" Name="Root/Inventory/Static" >
+            <Property Name="ClippedByParent" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,495},{0,271}}" />
+            <Window Type="DejaVu/Embed2" Name="Root/Inventory/SlotContainer" >
+                <Property Name="UnifiedAreaRect" Value="{{0.020202,0},{0.0378788,0},{0.020202,475},{0.0378788,146}}" />
+            </Window>
+            <Window Type="DejaVu/Embed" Name="Root/Inventory/DownPanel" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0110776,0},{0.594096,0},{0.0110776,485},{0.594096,100}}" />
+                <Window Type="DejaVu/Static" Name="Root/Inventory/FunctionPanel" >
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.010309,0},{0,0},{0.507216,0},{0.36,0}}" />
+                    <Property Name="VertFormatting" Value="VertCentred" />
+                    <Window Type="DejaVu/ImageButton" Name="Root/Inventory/AutoStackBtn" >
+                        <Property Name="Font" Value="F001-scale" />
+                        <Property Name="HoverImage" Value="set:DejaVu image:StackHover" />
+                        <Property Name="NormalImage" Value="set:DejaVu image:StackNormal" />
+                        <Property Name="PushedImage" Value="set:DejaVu image:StackPressed" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.15,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/ImageButton" Name="Root/Inventory/DecomposeBtn" >
+                        <Property Name="Font" Value="F001-scale" />
+                        <Property Name="HoverImage" Value="set:DejaVu image:BrokenHover" />
+                        <Property Name="NormalImage" Value="set:DejaVu image:BrokenNormal" />
+                        <Property Name="PushedImage" Value="set:DejaVu image:BrokenPressed" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.170833,0},{0,0},{0.320833,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/ImageButton" Name="Root/Inventory/StrengthenBtn" >
+                        <Property Name="Font" Value="F001-scale" />
+                        <Property Name="HoverImage" Value="set:DejaVu image:StrengthHover" />
+                        <Property Name="NormalImage" Value="set:DejaVu image:StrengthNormal" />
+                        <Property Name="PushedImage" Value="set:DejaVu image:StrengthPressed" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.341667,0},{0,0},{0.491667,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/ImageButton" Name="Root/Inventory/CompoundBtn" >
+                        <Property Name="Font" Value="F001-scale" />
+                        <Property Name="HoverImage" Value="set:DejaVu image:SynthesisHover" />
+                        <Property Name="NormalImage" Value="set:DejaVu image:SynthesisNormal" />
+                        <Property Name="PushedImage" Value="set:DejaVu image:SynthesisPressed" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.510373,0},{0,0},{0.659751,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/ImageButton" Name="Root/Inventory/StallBtn" >
+                        <Property Name="DisabledImage" Value="set:DejaVu image:SalePressed" />
+                        <Property Name="Font" Value="F001-scale" />
+                        <Property Name="HoverImage" Value="set:DejaVu image:SaleHover" />
+                        <Property Name="NormalImage" Value="set:DejaVu image:SaleNormal" />
+                        <Property Name="PushedImage" Value="set:DejaVu image:SalePressed" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.680498,0},{0,0},{0.829876,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/ImageButton" Name="Root/Inventory/WeaponCaseBtn" >
+                        <Property Name="DisabledImage" Value="set:DejaVu image:WeaponCaseBtnPressed" />
+                        <Property Name="Font" Value="F001-scale" />
+                        <Property Name="HoverImage" Value="set:DejaVu image:WeaponCaseBtnHover" />
+                        <Property Name="NormalImage" Value="set:DejaVu image:WeaponCaseBtnNormal" />
+                        <Property Name="PushedImage" Value="set:DejaVu image:WeaponCaseBtnPressed" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.850622,0},{0,0},{1,0},{1,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed2" Name="Root/Inventory/scrap" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.701031,0},{0.26,0},{0.989691,0},{0.51,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/Inventory/scrapcointext" >
+                        <Property Name="HorzFormatting" Value="RightAligned" />
+                        <Property Name="Text" Value="9999999" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.071429,0},{0,0},{0.75,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/Inventory/scrap/scrapicon" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Image" Value="set:main image:Coin2" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.821429,0},{0.2,0},{0.928571,0},{0.8,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed2" Name="Root/Inventory/extraBag/" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.010309,0},{0.48,0},{0.505154,0},{1,0}}" />
+                    <Window Type="DejaVu/SlotImage" Name="Root/Inventory/Slot0" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0208333,0},{0.0961538,0},{0.195833,0},{0.903846,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/Inventory/Slot1" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.0208333,0},{0.0961538,0},{0.195833,0},{0.903846,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/Inventory/Slot2" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.216667,0},{0.0961538,0},{0.391667,0},{0.903846,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/Inventory/Slot3" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.4125,0},{0.0961538,0},{0.5875,0},{0.903846,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/Inventory/Slot4" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.608333,0},{0.0961538,0},{0.783333,0},{0.903846,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/Inventory/Slot5" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.804167,0},{0.0961538,0},{0.979167,0},{0.903846,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab7" Name="Root/Inventory/gifttext" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="x招待券" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.515464,0},{0.52,0},{0.701031,0},{0.77,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab7" Name="Root/Inventory/scraptext" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="x啟源" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.515464,0},{0.26,0},{0.701031,0},{0.51,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab7" Name="Root/Inventory/moneytext" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="x金錢" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.515464,0},{0,0},{0.701031,0},{0.25,0}}" />
+                </Window>
+                <Window Type="DejaVu/Embed2" Name="Root/Inventory/money" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.701031,0},{0,0},{0.989691,0},{0.25,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/Inventory/goldtext" >
+                        <Property Name="HorzFormatting" Value="RightAligned" />
+                        <Property Name="Text" Value="99999" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.071429,0},{0,0},{0.392858,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/Inventory/silvertext" >
+                        <Property Name="HorzFormatting" Value="RightAligned" />
+                        <Property Name="Text" Value="999" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.535714,0},{0,0},{0.75,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/Inventory/money/GoldIcon" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Image" Value="set:main image:Gold" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.428571,0},{0.2,0},{0.535714,0},{0.8,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/Inventory/money/SilverIcon" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Image" Value="set:main image:Silver" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.821429,0},{0.2,0},{0.928571,0},{0.8,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Button" Name="Root/Inventory/CoinBtn" >
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorizontalAlignment" Value="Right" />
+                    <Property Name="Text" Value="x貨幣資訊" />
+                    <Property Name="UnifiedAreaRect" Value="{{-0.0103093,0},{0.04,0},{0.146392,0},{0.29,0}}" />
+                    <Property Name="VerticalAlignment" Value="Bottom" />
+                </Window>
+                <Window Type="DejaVu/Embed2" Name="Root/Inventory/gift" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.701031,0},{0.52,0},{0.989691,0},{0.77,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/Inventory/giftcointext" >
+                        <Property Name="HorzFormatting" Value="RightAligned" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="Text" Value="9999999" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.071429,0},{0,0},{0.75,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/Inventory/dwarf/gifticon" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Image" Value="set:main image:Coin3" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.821429,0},{0.2,0},{0.928571,0},{0.8,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/Inventory/ItemLockedBtn" >
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="HoverImage" Value="set:main image:GoldLockBtnHover" />
+                    <Property Name="NormalImage" Value="set:main image:GoldLockBtnNormal" />
+                    <Property Name="PushedImage" Value="set:main image:GoldLockBtnPressed" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.515464,0},{0.82,0},{0.552577,0},{1,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/Inventory/ItemUnlockBtn" >
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="HoverImage" Value="set:main image:UnGoldLockHover" />
+                    <Property Name="NormalImage" Value="set:main image:UnGoldLockNormal" />
+                    <Property Name="PushedImage" Value="set:main image:UnGoldLockPressed" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.552577,0},{0.82,0},{0.58969,0},{1,0}}" />
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>
