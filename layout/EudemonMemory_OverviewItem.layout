@@ -3,7 +3,7 @@
 <GUILayout >
     <Window Type="DejaVu/Static" Name="EudemonMemory/OverviewItem" >
         <Property Name="Font" Value="F001-9" />
-        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,170},{0,96}}" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.0916667,0},{0.104651,0}}" />
         <Window Type="DejaVu/Static" Name="EudemonMemory/OverviewItem/Image" >
             <Property Name="Font" Value="F001-9" />
             <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
@@ -64,11 +64,11 @@
                         <Property Name="UnifiedAreaRect" Value="{{0.782609,0},{0,0},{1,0},{1,0}}" />
                     </Window>
                 </Window>
-                <Window Type="DejaVu/StaticImage" Name="EudemonMemory/OverviewItem/BtnStatic/Bar/Progress" >
+                <Window Type="DejaVu/ProgressBar6" Name="EudemonMemory/OverviewItem/Image/Bar/Progress" >
                     <Property Name="Font" Value="F001-9" />
-                    <Property Name="Image" Value="set:DejaVu image:TabButtonUpperSelected" />
-                    <Property Name="AlwaysOnTop" Value="True" />
-                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.505882,0},{0.0645161,0}}" />
+                    <Property Name="StepSize" Value="0.01" />
+                    <Property Name="CurrentProgress" Value="1" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.0645161,0}}" />
                     <Property Name="VerticalAlignment" Value="Bottom" />
                 </Window>
             </Window>
