@@ -2,13 +2,13 @@
 
 <GUILayout >
     <Window Type="DejaVu/FrameWindow" Name="Root/CheckInDaily" >
-        <Property Name="ClippedByParent" Value="False" />
         <Property Name="Font" Value="F001-9" />
-        <Property Name="HelpButtonEnabled" Value="False" />
-        <Property Name="TitlebarEnabled" Value="True" />
         <Property Name="TitlebarFont" Value="F001-9" />
         <Property Name="TitlebarImage" Value="set:main2 image:CheckinNormal" />
+        <Property Name="ClippedByParent" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
         <Property Name="UnifiedAreaRect" Value="{{0.161458,0},{0.0505796,0},{0.161458,623},{0.0505796,765}}" />
+        <Property Name="HelpButtonEnabled" Value="False" />
         <Window Type="DejaVu/TabControl" Name="Root/CheckInDaily/Tab" >
             <Property Name="Font" Value="F001-9" />
             <Property Name="TabHeight" Value="{0,20}" />
@@ -17,8 +17,8 @@
             <Window Type="DefaultWindow" Name="Root/CheckInDaily/Tab 1" >
                 <Property Name="Font" Value="F001-9" />
                 <Property Name="Text" Value="x每日簽到" />
-                <Property Name="UnifiedAreaRect" Value="{{-0.000976563,0},{0.00130208,0},{-0.000976563,607},{0.00130208,660}}" />
                 <Property Name="Visible" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.000976563,0},{0.00130208,0},{-0.000976563,607},{0.00130208,660}}" />
                 <Window Type="DejaVu/Static" Name="Root/CheckInDaily/Tab 1/AcBG" >
                     <Property Name="Font" Value="F001-9" />
                     <Property Name="UnifiedAreaRect" Value="{{0.0085034,0},{0.758503,0},{0.991497,0},{0.996599,0}}" />
@@ -27,109 +27,109 @@
                         <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.964286,0}}" />
                         <Window Type="DejaVu/EmbedText7" Name="Root/CheckInDaily/Tab 1/AcBG/BG2/Title" >
                             <Property Name="Font" Value="F001-9" />
-                            <Property Name="HorzFormatting" Value="HorzCentred" />
                             <Property Name="Text" Value="x累積登入獎勵" />
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
                             <Property Name="UnifiedAreaRect" Value="{{0.004777,0},{0.021898,0},{0.994396,0},{0.207083,0}}" />
                         </Window>
                         <Window Type="DejaVu/StaticImage" Name="Root/CheckInDaily/Tab 1/AcBG/BG2/DayBG" >
-                            <Property Name="Alpha" Value="0" />
                             <Property Name="Font" Value="F001-9" />
+                            <Property Name="Alpha" Value="0" />
                             <Property Name="UnifiedAreaRect" Value="{{0.0916955,0},{0.637037,0},{0.856401,0},{0.785185,0}}" />
                             <Window Type="DejaVu/ProgressBarBG2" Name="Root/CheckInDaily/Tab 1/AcBG/BG2/DayBG/ProgressBG" >
-                                <Property Name="BackgroundEnabled" Value="False" />
                                 <Property Name="Font" Value="F001-9" />
                                 <Property Name="FrameEnabled" Value="False" />
                                 <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                <Property Name="BackgroundEnabled" Value="False" />
                                 <Window Type="DejaVu/ProgressBar" Name="Root/CheckInDaily/Tab 1/AcBG/BG2/DayBG/ProgressBG/ProgressBar" >
-                                    <Property Name="CurrentProgress" Value="1" />
                                     <Property Name="Font" Value="F001-9" />
                                     <Property Name="StepSize" Value="0.01" />
+                                    <Property Name="CurrentProgress" Value="1" />
                                     <Property Name="UnifiedAreaRect" Value="{{0.01,0},{0.2,0},{0.99,0},{0.8,0}}" />
                                 </Window>
                             </Window>
                         </Window>
                         <Window Type="DejaVu/Static" Name="Root/CheckInDaily/Tab 1/AcBG/BG2/Reword1" >
-                            <Property Name="AlwaysOnTop" Value="True" />
                             <Property Name="Font" Value="F001-scale" />
+                            <Property Name="AlwaysOnTop" Value="True" />
                             <Property Name="UnifiedAreaRect" Value="{{0.0847751,0},{0.288889,0},{0.228374,0},{0.925926,0}}" />
                             <Window Type="DejaVu/EmbedTextLab3" Name="Root/CheckInDaily/Tab 1/AcBG/BG2/Reword1/AcDay" >
                                 <Property Name="Font" Value="F001-9" />
-                                <Property Name="HorzFormatting" Value="HorzCentred" />
                                 <Property Name="Text" Value="%s1天" />
+                                <Property Name="HorzFormatting" Value="HorzCentred" />
                                 <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.260417,0}}" />
                             </Window>
                             <Window Type="DejaVu/SlotImage" Name="Root/CheckInDaily/Tab 1/AcBG/BG2/Reword1/SlotImage" >
                                 <Property Name="UnifiedAreaRect" Value="{{0.244444,0},{0.395833,0},{0.777778,0},{0.895833,0}}" />
                             </Window>
                             <Window Type="DejaVu/StaticImage" Name="Root/CheckInDaily/Tab 1/AcBG/BG2/Reword1/Mark" >
+                                <Property Name="Image" Value="set:main2 image:GiftIcon" />
                                 <Property Name="AlwaysOnTop" Value="True" />
                                 <Property Name="ClippedByParent" Value="False" />
-                                <Property Name="Image" Value="set:main2 image:GiftIcon" />
-                                <Property Name="MousePassThroughEnabled" Value="True" />
                                 <Property Name="UnifiedAreaRect" Value="{{0.0963855,0},{0.651163,0},{0.433735,0},{0.976744,0}}" />
+                                <Property Name="MousePassThroughEnabled" Value="True" />
                             </Window>
                         </Window>
                         <Window Type="DejaVu/Static" Name="Root/CheckInDaily/Tab 1/AcBG/BG2/Reword2" >
-                            <Property Name="AlwaysOnTop" Value="True" />
                             <Property Name="Font" Value="F001-scale" />
+                            <Property Name="AlwaysOnTop" Value="True" />
                             <Property Name="UnifiedAreaRect" Value="{{0.313149,0},{0.288889,0},{0.456747,0},{0.925926,0}}" />
                             <Window Type="DejaVu/EmbedTextLab3" Name="Root/CheckInDaily/Tab 1/AcBG/BG2/Reword2/AcDay" >
                                 <Property Name="Font" Value="F001-9" />
-                                <Property Name="HorzFormatting" Value="HorzCentred" />
                                 <Property Name="Text" Value="%s1天" />
+                                <Property Name="HorzFormatting" Value="HorzCentred" />
                                 <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.260417,0}}" />
                             </Window>
                             <Window Type="DejaVu/SlotImage" Name="Root/CheckInDaily/Tab 1/AcBG/BG2/Reword2/SlotImage" >
                                 <Property Name="UnifiedAreaRect" Value="{{0.244444,0},{0.395833,0},{0.777777,0},{0.895833,0}}" />
                             </Window>
                             <Window Type="DejaVu/StaticImage" Name="Root/CheckInDaily/Tab 1/AcBG/BG2/Reword2/Mark" >
+                                <Property Name="Image" Value="set:main2 image:GiftIcon" />
                                 <Property Name="AlwaysOnTop" Value="True" />
                                 <Property Name="ClippedByParent" Value="False" />
-                                <Property Name="Image" Value="set:main2 image:GiftIcon" />
-                                <Property Name="MousePassThroughEnabled" Value="True" />
                                 <Property Name="UnifiedAreaRect" Value="{{0.096386,0},{0.651163,0},{0.433735,0},{0.976744,0}}" />
+                                <Property Name="MousePassThroughEnabled" Value="True" />
                             </Window>
                         </Window>
                         <Window Type="DejaVu/Static" Name="Root/CheckInDaily/Tab 1/AcBG/BG2/Reword3" >
-                            <Property Name="AlwaysOnTop" Value="True" />
                             <Property Name="Font" Value="F001-scale" />
+                            <Property Name="AlwaysOnTop" Value="True" />
                             <Property Name="UnifiedAreaRect" Value="{{0.543253,0},{0.288889,0},{0.686851,0},{0.925926,0}}" />
                             <Window Type="DejaVu/EmbedTextLab3" Name="Root/CheckInDaily/Tab 1/AcBG/BG2/Reword3/AcDay" >
                                 <Property Name="Font" Value="F001-9" />
-                                <Property Name="HorzFormatting" Value="HorzCentred" />
                                 <Property Name="Text" Value="%s1天" />
+                                <Property Name="HorzFormatting" Value="HorzCentred" />
                                 <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.260417,0}}" />
                             </Window>
                             <Window Type="DejaVu/SlotImage" Name="Root/CheckInDaily/Tab 1/AcBG/BG2/Reword3/SlotImage" >
                                 <Property Name="UnifiedAreaRect" Value="{{0.244444,0},{0.395833,0},{0.777777,0},{0.895833,0}}" />
                             </Window>
                             <Window Type="DejaVu/StaticImage" Name="Root/CheckInDaily/Tab 1/AcBG/BG2/Reword3/Mark" >
+                                <Property Name="Image" Value="set:main2 image:GiftIcon" />
                                 <Property Name="AlwaysOnTop" Value="True" />
                                 <Property Name="ClippedByParent" Value="False" />
-                                <Property Name="Image" Value="set:main2 image:GiftIcon" />
-                                <Property Name="MousePassThroughEnabled" Value="True" />
                                 <Property Name="UnifiedAreaRect" Value="{{0.096386,0},{0.651163,0},{0.433735,0},{0.976744,0}}" />
+                                <Property Name="MousePassThroughEnabled" Value="True" />
                             </Window>
                         </Window>
                         <Window Type="DejaVu/Static" Name="Root/CheckInDaily/Tab 1/AcBG/BG2/Reword4" >
-                            <Property Name="AlwaysOnTop" Value="True" />
                             <Property Name="Font" Value="F001-scale" />
+                            <Property Name="AlwaysOnTop" Value="True" />
                             <Property Name="UnifiedAreaRect" Value="{{0.771626,0},{0.288889,0},{0.915225,0},{0.925926,0}}" />
                             <Window Type="DejaVu/EmbedTextLab3" Name="Root/CheckInDaily/Tab 1/AcBG/BG2/Reword4/AcDay" >
                                 <Property Name="Font" Value="F001-9" />
-                                <Property Name="HorzFormatting" Value="HorzCentred" />
                                 <Property Name="Text" Value="%s1天" />
+                                <Property Name="HorzFormatting" Value="HorzCentred" />
                                 <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.260417,0}}" />
                             </Window>
                             <Window Type="DejaVu/SlotImage" Name="Root/CheckInDaily/Tab 1/AcBG/BG2/Reword4/SlotImage" >
                                 <Property Name="UnifiedAreaRect" Value="{{0.244444,0},{0.395833,0},{0.777777,0},{0.895833,0}}" />
                             </Window>
                             <Window Type="DejaVu/StaticImage" Name="Root/CheckInDaily/Tab 1/AcBG/BG2/Reword4/Mark" >
+                                <Property Name="Image" Value="set:main2 image:GiftIcon" />
                                 <Property Name="AlwaysOnTop" Value="True" />
                                 <Property Name="ClippedByParent" Value="False" />
-                                <Property Name="Image" Value="set:main2 image:GiftIcon" />
-                                <Property Name="MousePassThroughEnabled" Value="True" />
                                 <Property Name="UnifiedAreaRect" Value="{{0.096386,0},{0.651163,0},{0.433735,0},{0.976744,0}}" />
+                                <Property Name="MousePassThroughEnabled" Value="True" />
                             </Window>
                         </Window>
                     </Window>
@@ -156,16 +156,16 @@
                                 <Property Name="UnifiedAreaRect" Value="{{0.2,0},{0.388889,0},{0.8,0},{0.922222,0}}" />
                             </Window>
                             <Window Type="DejaVu/StaticImage" Name="Root/CheckInDaily/Tab 1/BG/BG1/Title/RewardBG1/Mark" >
+                                <Property Name="Image" Value="set:main2 image:GiftIcon" />
                                 <Property Name="AlwaysOnTop" Value="True" />
                                 <Property Name="ClippedByParent" Value="False" />
-                                <Property Name="Image" Value="set:main2 image:GiftIcon" />
-                                <Property Name="MousePassThroughEnabled" Value="True" />
                                 <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.644444,0},{0.4,0},{0.955556,0}}" />
+                                <Property Name="MousePassThroughEnabled" Value="True" />
                             </Window>
                             <Window Type="DejaVu/EmbedTextLab7" Name="Root/CheckInDaily/Tab 1/BG/BG1/Title/RewardBG1/Day" >
                                 <Property Name="Font" Value="F001-9" />
-                                <Property Name="HorzFormatting" Value="HorzCentred" />
                                 <Property Name="Text" Value="1日" />
+                                <Property Name="HorzFormatting" Value="HorzCentred" />
                                 <Property Name="UnifiedAreaRect" Value="{{0.034884,0},{0.031579,0},{0.96081,0},{0.309357,0}}" />
                             </Window>
                         </Window>
@@ -180,16 +180,16 @@
                                 <Property Name="UnifiedAreaRect" Value="{{0.2,0},{0.388889,0},{0.8,0},{0.922222,0}}" />
                             </Window>
                             <Window Type="DejaVu/StaticImage" Name="Root/CheckInDaily/Tab 1/BG/BG1/Title/RewardBG2/Mark" >
+                                <Property Name="Image" Value="set:main2 image:GiftIcon" />
                                 <Property Name="AlwaysOnTop" Value="True" />
                                 <Property Name="ClippedByParent" Value="False" />
-                                <Property Name="Image" Value="set:main2 image:GiftIcon" />
-                                <Property Name="MousePassThroughEnabled" Value="True" />
                                 <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.644444,0},{0.4,0},{0.955555,0}}" />
+                                <Property Name="MousePassThroughEnabled" Value="True" />
                             </Window>
                             <Window Type="DejaVu/EmbedTextLab7" Name="Root/CheckInDaily/Tab 1/BG/BG1/Title/RewardBG2/Day" >
                                 <Property Name="Font" Value="F001-9" />
-                                <Property Name="HorzFormatting" Value="HorzCentred" />
                                 <Property Name="Text" Value="2日" />
+                                <Property Name="HorzFormatting" Value="HorzCentred" />
                                 <Property Name="UnifiedAreaRect" Value="{{0.0375,0},{0.033333,0},{0.9625,0},{0.311111,0}}" />
                             </Window>
                         </Window>
@@ -199,16 +199,16 @@
                                 <Property Name="UnifiedAreaRect" Value="{{0.2,0},{0.388889,0},{0.8,0},{0.922222,0}}" />
                             </Window>
                             <Window Type="DejaVu/StaticImage" Name="Root/CheckInDaily/Tab 1/BG/BG1/Title/RewardBG3/Mark" >
+                                <Property Name="Image" Value="set:main2 image:GiftIcon" />
                                 <Property Name="AlwaysOnTop" Value="True" />
                                 <Property Name="ClippedByParent" Value="False" />
-                                <Property Name="Image" Value="set:main2 image:GiftIcon" />
-                                <Property Name="MousePassThroughEnabled" Value="True" />
                                 <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.644444,0},{0.4,0},{0.955555,0}}" />
+                                <Property Name="MousePassThroughEnabled" Value="True" />
                             </Window>
                             <Window Type="DejaVu/EmbedTextLab7" Name="Root/CheckInDaily/Tab 1/BG/BG1/Title/RewardBG3/Day" >
                                 <Property Name="Font" Value="F001-9" />
-                                <Property Name="HorzFormatting" Value="HorzCentred" />
                                 <Property Name="Text" Value="3日" />
+                                <Property Name="HorzFormatting" Value="HorzCentred" />
                                 <Property Name="UnifiedAreaRect" Value="{{0.0375,0},{0.033333,0},{0.9625,0},{0.311111,0}}" />
                             </Window>
                         </Window>
@@ -218,16 +218,16 @@
                                 <Property Name="UnifiedAreaRect" Value="{{0.2,0},{0.388889,0},{0.8,0},{0.922222,0}}" />
                             </Window>
                             <Window Type="DejaVu/StaticImage" Name="Root/CheckInDaily/Tab 1/BG/BG1/Title/RewardBG4/Mark" >
+                                <Property Name="Image" Value="set:main2 image:GiftIcon" />
                                 <Property Name="AlwaysOnTop" Value="True" />
                                 <Property Name="ClippedByParent" Value="False" />
-                                <Property Name="Image" Value="set:main2 image:GiftIcon" />
-                                <Property Name="MousePassThroughEnabled" Value="True" />
                                 <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.644444,0},{0.4,0},{0.955555,0}}" />
+                                <Property Name="MousePassThroughEnabled" Value="True" />
                             </Window>
                             <Window Type="DejaVu/EmbedTextLab7" Name="Root/CheckInDaily/Tab 1/BG/BG1/Title/RewardBG4/Day" >
                                 <Property Name="Font" Value="F001-9" />
-                                <Property Name="HorzFormatting" Value="HorzCentred" />
                                 <Property Name="Text" Value="4日" />
+                                <Property Name="HorzFormatting" Value="HorzCentred" />
                                 <Property Name="UnifiedAreaRect" Value="{{0.0375,0},{0.033333,0},{0.9625,0},{0.311111,0}}" />
                             </Window>
                         </Window>
@@ -237,16 +237,16 @@
                                 <Property Name="UnifiedAreaRect" Value="{{0.2,0},{0.388889,0},{0.8,0},{0.922222,0}}" />
                             </Window>
                             <Window Type="DejaVu/StaticImage" Name="Root/CheckInDaily/Tab 1/BG/BG1/Title/RewardBG5/Mark" >
+                                <Property Name="Image" Value="set:main2 image:GiftIcon" />
                                 <Property Name="AlwaysOnTop" Value="True" />
                                 <Property Name="ClippedByParent" Value="False" />
-                                <Property Name="Image" Value="set:main2 image:GiftIcon" />
-                                <Property Name="MousePassThroughEnabled" Value="True" />
                                 <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.644444,0},{0.4,0},{0.955555,0}}" />
+                                <Property Name="MousePassThroughEnabled" Value="True" />
                             </Window>
                             <Window Type="DejaVu/EmbedTextLab7" Name="Root/CheckInDaily/Tab 1/BG/BG1/Title/RewardBG5/Day" >
                                 <Property Name="Font" Value="F001-9" />
-                                <Property Name="HorzFormatting" Value="HorzCentred" />
                                 <Property Name="Text" Value="5日" />
+                                <Property Name="HorzFormatting" Value="HorzCentred" />
                                 <Property Name="UnifiedAreaRect" Value="{{0.0375,0},{0.033333,0},{0.9625,0},{0.311111,0}}" />
                             </Window>
                         </Window>
@@ -256,16 +256,16 @@
                                 <Property Name="UnifiedAreaRect" Value="{{0.2,0},{0.388889,0},{0.8,0},{0.922222,0}}" />
                             </Window>
                             <Window Type="DejaVu/StaticImage" Name="Root/CheckInDaily/Tab 1/BG/BG1/Title/RewardBG6/Mark" >
+                                <Property Name="Image" Value="set:main2 image:GiftIcon" />
                                 <Property Name="AlwaysOnTop" Value="True" />
                                 <Property Name="ClippedByParent" Value="False" />
-                                <Property Name="Image" Value="set:main2 image:GiftIcon" />
-                                <Property Name="MousePassThroughEnabled" Value="True" />
                                 <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.644444,0},{0.4,0},{0.955555,0}}" />
+                                <Property Name="MousePassThroughEnabled" Value="True" />
                             </Window>
                             <Window Type="DejaVu/EmbedTextLab7" Name="Root/CheckInDaily/Tab 1/BG/BG1/Title/RewardBG6/Day" >
                                 <Property Name="Font" Value="F001-9" />
-                                <Property Name="HorzFormatting" Value="HorzCentred" />
                                 <Property Name="Text" Value="6日" />
+                                <Property Name="HorzFormatting" Value="HorzCentred" />
                                 <Property Name="UnifiedAreaRect" Value="{{0.0375,0},{0.033333,0},{0.9625,0},{0.311111,0}}" />
                             </Window>
                         </Window>
@@ -275,16 +275,16 @@
                                 <Property Name="UnifiedAreaRect" Value="{{0.2,0},{0.388889,0},{0.8,0},{0.922222,0}}" />
                             </Window>
                             <Window Type="DejaVu/StaticImage" Name="Root/CheckInDaily/Tab 1/BG/BG1/Title/RewardBG7/Mark" >
+                                <Property Name="Image" Value="set:main2 image:GiftIcon" />
                                 <Property Name="AlwaysOnTop" Value="True" />
                                 <Property Name="ClippedByParent" Value="False" />
-                                <Property Name="Image" Value="set:main2 image:GiftIcon" />
-                                <Property Name="MousePassThroughEnabled" Value="True" />
                                 <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.644444,0},{0.4,0},{0.955555,0}}" />
+                                <Property Name="MousePassThroughEnabled" Value="True" />
                             </Window>
                             <Window Type="DejaVu/EmbedTextLab7" Name="Root/CheckInDaily/Tab 1/BG/BG1/Title/RewardBG7/Day" >
                                 <Property Name="Font" Value="F001-9" />
-                                <Property Name="HorzFormatting" Value="HorzCentred" />
                                 <Property Name="Text" Value="7日" />
+                                <Property Name="HorzFormatting" Value="HorzCentred" />
                                 <Property Name="UnifiedAreaRect" Value="{{0.0375,0},{0.033333,0},{0.9625,0},{0.311111,0}}" />
                             </Window>
                         </Window>
@@ -294,16 +294,16 @@
                                 <Property Name="UnifiedAreaRect" Value="{{0.2,0},{0.388889,0},{0.8,0},{0.922222,0}}" />
                             </Window>
                             <Window Type="DejaVu/StaticImage" Name="Root/CheckInDaily/Tab 1/BG/BG1/Title/RewardBG8/Mark" >
+                                <Property Name="Image" Value="set:main2 image:GiftIcon" />
                                 <Property Name="AlwaysOnTop" Value="True" />
                                 <Property Name="ClippedByParent" Value="False" />
-                                <Property Name="Image" Value="set:main2 image:GiftIcon" />
-                                <Property Name="MousePassThroughEnabled" Value="True" />
                                 <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.644444,0},{0.4,0},{0.955555,0}}" />
+                                <Property Name="MousePassThroughEnabled" Value="True" />
                             </Window>
                             <Window Type="DejaVu/EmbedTextLab7" Name="Root/CheckInDaily/Tab 1/BG/BG1/Title/RewardBG8/Day" >
                                 <Property Name="Font" Value="F001-9" />
-                                <Property Name="HorzFormatting" Value="HorzCentred" />
                                 <Property Name="Text" Value="8日" />
+                                <Property Name="HorzFormatting" Value="HorzCentred" />
                                 <Property Name="UnifiedAreaRect" Value="{{0.0375,0},{0.033333,0},{0.9625,0},{0.311111,0}}" />
                             </Window>
                         </Window>
@@ -313,16 +313,16 @@
                                 <Property Name="UnifiedAreaRect" Value="{{0.2,0},{0.388889,0},{0.8,0},{0.922222,0}}" />
                             </Window>
                             <Window Type="DejaVu/StaticImage" Name="Root/CheckInDaily/Tab 1/BG/BG1/Title/RewardBG9/Mark" >
+                                <Property Name="Image" Value="set:main2 image:GiftIcon" />
                                 <Property Name="AlwaysOnTop" Value="True" />
                                 <Property Name="ClippedByParent" Value="False" />
-                                <Property Name="Image" Value="set:main2 image:GiftIcon" />
-                                <Property Name="MousePassThroughEnabled" Value="True" />
                                 <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.644444,0},{0.4,0},{0.955555,0}}" />
+                                <Property Name="MousePassThroughEnabled" Value="True" />
                             </Window>
                             <Window Type="DejaVu/EmbedTextLab7" Name="Root/CheckInDaily/Tab 1/BG/BG1/Title/RewardBG9/Day" >
                                 <Property Name="Font" Value="F001-9" />
-                                <Property Name="HorzFormatting" Value="HorzCentred" />
                                 <Property Name="Text" Value="9日" />
+                                <Property Name="HorzFormatting" Value="HorzCentred" />
                                 <Property Name="UnifiedAreaRect" Value="{{0.0375,0},{0.033333,0},{0.9625,0},{0.311111,0}}" />
                             </Window>
                         </Window>
@@ -332,16 +332,16 @@
                                 <Property Name="UnifiedAreaRect" Value="{{0.2,0},{0.388889,0},{0.8,0},{0.922222,0}}" />
                             </Window>
                             <Window Type="DejaVu/StaticImage" Name="Root/CheckInDaily/Tab 1/BG/BG1/Title/RewardBG10/Mark" >
+                                <Property Name="Image" Value="set:main2 image:GiftIcon" />
                                 <Property Name="AlwaysOnTop" Value="True" />
                                 <Property Name="ClippedByParent" Value="False" />
-                                <Property Name="Image" Value="set:main2 image:GiftIcon" />
-                                <Property Name="MousePassThroughEnabled" Value="True" />
                                 <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.644444,0},{0.4,0},{0.955555,0}}" />
+                                <Property Name="MousePassThroughEnabled" Value="True" />
                             </Window>
                             <Window Type="DejaVu/EmbedTextLab7" Name="Root/CheckInDaily/Tab 1/BG/BG1/Title/RewardBG10/Day" >
                                 <Property Name="Font" Value="F001-9" />
-                                <Property Name="HorzFormatting" Value="HorzCentred" />
                                 <Property Name="Text" Value="10日" />
+                                <Property Name="HorzFormatting" Value="HorzCentred" />
                                 <Property Name="UnifiedAreaRect" Value="{{0.0375,0},{0.033333,0},{0.9625,0},{0.311111,0}}" />
                             </Window>
                         </Window>
@@ -351,16 +351,16 @@
                                 <Property Name="UnifiedAreaRect" Value="{{0.2,0},{0.388889,0},{0.8,0},{0.922222,0}}" />
                             </Window>
                             <Window Type="DejaVu/StaticImage" Name="Root/CheckInDaily/Tab 1/BG/BG1/Title/RewardBG11/Mark" >
+                                <Property Name="Image" Value="set:main2 image:GiftIcon" />
                                 <Property Name="AlwaysOnTop" Value="True" />
                                 <Property Name="ClippedByParent" Value="False" />
-                                <Property Name="Image" Value="set:main2 image:GiftIcon" />
-                                <Property Name="MousePassThroughEnabled" Value="True" />
                                 <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.644444,0},{0.4,0},{0.955555,0}}" />
+                                <Property Name="MousePassThroughEnabled" Value="True" />
                             </Window>
                             <Window Type="DejaVu/EmbedTextLab7" Name="Root/CheckInDaily/Tab 1/BG/BG1/Title/RewardBG11/Day" >
                                 <Property Name="Font" Value="F001-9" />
-                                <Property Name="HorzFormatting" Value="HorzCentred" />
                                 <Property Name="Text" Value="11日" />
+                                <Property Name="HorzFormatting" Value="HorzCentred" />
                                 <Property Name="UnifiedAreaRect" Value="{{0.0375,0},{0.033333,0},{0.9625,0},{0.311111,0}}" />
                             </Window>
                         </Window>
@@ -370,16 +370,16 @@
                                 <Property Name="UnifiedAreaRect" Value="{{0.2,0},{0.388889,0},{0.8,0},{0.922222,0}}" />
                             </Window>
                             <Window Type="DejaVu/StaticImage" Name="Root/CheckInDaily/Tab 1/BG/BG1/Title/RewardBG12/Mark" >
+                                <Property Name="Image" Value="set:main2 image:GiftIcon" />
                                 <Property Name="AlwaysOnTop" Value="True" />
                                 <Property Name="ClippedByParent" Value="False" />
-                                <Property Name="Image" Value="set:main2 image:GiftIcon" />
-                                <Property Name="MousePassThroughEnabled" Value="True" />
                                 <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.644444,0},{0.4,0},{0.955555,0}}" />
+                                <Property Name="MousePassThroughEnabled" Value="True" />
                             </Window>
                             <Window Type="DejaVu/EmbedTextLab7" Name="Root/CheckInDaily/Tab 1/BG/BG1/Title/RewardBG12/Day" >
                                 <Property Name="Font" Value="F001-9" />
-                                <Property Name="HorzFormatting" Value="HorzCentred" />
                                 <Property Name="Text" Value="12日" />
+                                <Property Name="HorzFormatting" Value="HorzCentred" />
                                 <Property Name="UnifiedAreaRect" Value="{{0.0375,0},{0.033333,0},{0.9625,0},{0.311111,0}}" />
                             </Window>
                         </Window>
@@ -389,16 +389,16 @@
                                 <Property Name="UnifiedAreaRect" Value="{{0.2,0},{0.388889,0},{0.8,0},{0.922222,0}}" />
                             </Window>
                             <Window Type="DejaVu/StaticImage" Name="Root/CheckInDaily/Tab 1/BG/BG1/Title/RewardBG13/Mark" >
+                                <Property Name="Image" Value="set:main2 image:GiftIcon" />
                                 <Property Name="AlwaysOnTop" Value="True" />
                                 <Property Name="ClippedByParent" Value="False" />
-                                <Property Name="Image" Value="set:main2 image:GiftIcon" />
-                                <Property Name="MousePassThroughEnabled" Value="True" />
                                 <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.644444,0},{0.4,0},{0.955555,0}}" />
+                                <Property Name="MousePassThroughEnabled" Value="True" />
                             </Window>
                             <Window Type="DejaVu/EmbedTextLab7" Name="Root/CheckInDaily/Tab 1/BG/BG1/Title/RewardBG13/Day" >
                                 <Property Name="Font" Value="F001-9" />
-                                <Property Name="HorzFormatting" Value="HorzCentred" />
                                 <Property Name="Text" Value="13日" />
+                                <Property Name="HorzFormatting" Value="HorzCentred" />
                                 <Property Name="UnifiedAreaRect" Value="{{0.0375,0},{0.033333,0},{0.9625,0},{0.311111,0}}" />
                             </Window>
                         </Window>
@@ -408,16 +408,16 @@
                                 <Property Name="UnifiedAreaRect" Value="{{0.2,0},{0.388889,0},{0.8,0},{0.922222,0}}" />
                             </Window>
                             <Window Type="DejaVu/StaticImage" Name="Root/CheckInDaily/Tab 1/BG/BG1/Title/RewardBG14/Mark" >
+                                <Property Name="Image" Value="set:main2 image:GiftIcon" />
                                 <Property Name="AlwaysOnTop" Value="True" />
                                 <Property Name="ClippedByParent" Value="False" />
-                                <Property Name="Image" Value="set:main2 image:GiftIcon" />
-                                <Property Name="MousePassThroughEnabled" Value="True" />
                                 <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.644444,0},{0.4,0},{0.955555,0}}" />
+                                <Property Name="MousePassThroughEnabled" Value="True" />
                             </Window>
                             <Window Type="DejaVu/EmbedTextLab7" Name="Root/CheckInDaily/Tab 1/BG/BG1/Title/RewardBG14/Day" >
                                 <Property Name="Font" Value="F001-9" />
-                                <Property Name="HorzFormatting" Value="HorzCentred" />
                                 <Property Name="Text" Value="14日" />
+                                <Property Name="HorzFormatting" Value="HorzCentred" />
                                 <Property Name="UnifiedAreaRect" Value="{{0.0375,0},{0.033333,0},{0.9625,0},{0.311111,0}}" />
                             </Window>
                         </Window>
@@ -427,16 +427,16 @@
                                 <Property Name="UnifiedAreaRect" Value="{{0.2,0},{0.388889,0},{0.8,0},{0.922222,0}}" />
                             </Window>
                             <Window Type="DejaVu/StaticImage" Name="Root/CheckInDaily/Tab 1/BG/BG1/Title/RewardBG15/Mark" >
+                                <Property Name="Image" Value="set:main2 image:GiftIcon" />
                                 <Property Name="AlwaysOnTop" Value="True" />
                                 <Property Name="ClippedByParent" Value="False" />
-                                <Property Name="Image" Value="set:main2 image:GiftIcon" />
-                                <Property Name="MousePassThroughEnabled" Value="True" />
                                 <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.644444,0},{0.4,0},{0.955555,0}}" />
+                                <Property Name="MousePassThroughEnabled" Value="True" />
                             </Window>
                             <Window Type="DejaVu/EmbedTextLab7" Name="Root/CheckInDaily/Tab 1/BG/BG1/Title/RewardBG15/Day" >
                                 <Property Name="Font" Value="F001-9" />
-                                <Property Name="HorzFormatting" Value="HorzCentred" />
                                 <Property Name="Text" Value="15日" />
+                                <Property Name="HorzFormatting" Value="HorzCentred" />
                                 <Property Name="UnifiedAreaRect" Value="{{0.0375,0},{0.033333,0},{0.9625,0},{0.311111,0}}" />
                             </Window>
                         </Window>
@@ -446,16 +446,16 @@
                                 <Property Name="UnifiedAreaRect" Value="{{0.2,0},{0.388889,0},{0.8,0},{0.922222,0}}" />
                             </Window>
                             <Window Type="DejaVu/StaticImage" Name="Root/CheckInDaily/Tab 1/BG/BG1/Title/RewardBG16/Mark" >
+                                <Property Name="Image" Value="set:main2 image:GiftIcon" />
                                 <Property Name="AlwaysOnTop" Value="True" />
                                 <Property Name="ClippedByParent" Value="False" />
-                                <Property Name="Image" Value="set:main2 image:GiftIcon" />
-                                <Property Name="MousePassThroughEnabled" Value="True" />
                                 <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.644444,0},{0.4,0},{0.955555,0}}" />
+                                <Property Name="MousePassThroughEnabled" Value="True" />
                             </Window>
                             <Window Type="DejaVu/EmbedTextLab7" Name="Root/CheckInDaily/Tab 1/BG/BG1/Title/RewardBG16/Day" >
                                 <Property Name="Font" Value="F001-9" />
-                                <Property Name="HorzFormatting" Value="HorzCentred" />
                                 <Property Name="Text" Value="16日" />
+                                <Property Name="HorzFormatting" Value="HorzCentred" />
                                 <Property Name="UnifiedAreaRect" Value="{{0.0375,0},{0.033333,0},{0.9625,0},{0.311111,0}}" />
                             </Window>
                         </Window>
@@ -465,16 +465,16 @@
                                 <Property Name="UnifiedAreaRect" Value="{{0.2,0},{0.388889,0},{0.8,0},{0.922222,0}}" />
                             </Window>
                             <Window Type="DejaVu/StaticImage" Name="Root/CheckInDaily/Tab 1/BG/BG1/Title/RewardBG17/Mark" >
+                                <Property Name="Image" Value="set:main2 image:GiftIcon" />
                                 <Property Name="AlwaysOnTop" Value="True" />
                                 <Property Name="ClippedByParent" Value="False" />
-                                <Property Name="Image" Value="set:main2 image:GiftIcon" />
-                                <Property Name="MousePassThroughEnabled" Value="True" />
                                 <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.644444,0},{0.4,0},{0.955555,0}}" />
+                                <Property Name="MousePassThroughEnabled" Value="True" />
                             </Window>
                             <Window Type="DejaVu/EmbedTextLab7" Name="Root/CheckInDaily/Tab 1/BG/BG1/Title/RewardBG17/Day" >
                                 <Property Name="Font" Value="F001-9" />
-                                <Property Name="HorzFormatting" Value="HorzCentred" />
                                 <Property Name="Text" Value="17日" />
+                                <Property Name="HorzFormatting" Value="HorzCentred" />
                                 <Property Name="UnifiedAreaRect" Value="{{0.0375,0},{0.033333,0},{0.9625,0},{0.311111,0}}" />
                             </Window>
                         </Window>
@@ -484,16 +484,16 @@
                                 <Property Name="UnifiedAreaRect" Value="{{0.2,0},{0.388889,0},{0.8,0},{0.922222,0}}" />
                             </Window>
                             <Window Type="DejaVu/StaticImage" Name="Root/CheckInDaily/Tab 1/BG/BG1/Title/RewardBG18/Mark" >
+                                <Property Name="Image" Value="set:main2 image:GiftIcon" />
                                 <Property Name="AlwaysOnTop" Value="True" />
                                 <Property Name="ClippedByParent" Value="False" />
-                                <Property Name="Image" Value="set:main2 image:GiftIcon" />
-                                <Property Name="MousePassThroughEnabled" Value="True" />
                                 <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.644444,0},{0.4,0},{0.955555,0}}" />
+                                <Property Name="MousePassThroughEnabled" Value="True" />
                             </Window>
                             <Window Type="DejaVu/EmbedTextLab7" Name="Root/CheckInDaily/Tab 1/BG/BG1/Title/RewardBG18/Day" >
                                 <Property Name="Font" Value="F001-9" />
-                                <Property Name="HorzFormatting" Value="HorzCentred" />
                                 <Property Name="Text" Value="18日" />
+                                <Property Name="HorzFormatting" Value="HorzCentred" />
                                 <Property Name="UnifiedAreaRect" Value="{{0.0375,0},{0.033333,0},{0.9625,0},{0.311111,0}}" />
                             </Window>
                         </Window>
@@ -503,16 +503,16 @@
                                 <Property Name="UnifiedAreaRect" Value="{{0.2,0},{0.388889,0},{0.8,0},{0.922222,0}}" />
                             </Window>
                             <Window Type="DejaVu/StaticImage" Name="Root/CheckInDaily/Tab 1/BG/BG1/Title/RewardBG19/Mark" >
+                                <Property Name="Image" Value="set:main2 image:GiftIcon" />
                                 <Property Name="AlwaysOnTop" Value="True" />
                                 <Property Name="ClippedByParent" Value="False" />
-                                <Property Name="Image" Value="set:main2 image:GiftIcon" />
-                                <Property Name="MousePassThroughEnabled" Value="True" />
                                 <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.644444,0},{0.4,0},{0.955555,0}}" />
+                                <Property Name="MousePassThroughEnabled" Value="True" />
                             </Window>
                             <Window Type="DejaVu/EmbedTextLab7" Name="Root/CheckInDaily/Tab 1/BG/BG1/Title/RewardBG19/Day" >
                                 <Property Name="Font" Value="F001-9" />
-                                <Property Name="HorzFormatting" Value="HorzCentred" />
                                 <Property Name="Text" Value="19日" />
+                                <Property Name="HorzFormatting" Value="HorzCentred" />
                                 <Property Name="UnifiedAreaRect" Value="{{0.0375,0},{0.033333,0},{0.9625,0},{0.311111,0}}" />
                             </Window>
                         </Window>
@@ -522,16 +522,16 @@
                                 <Property Name="UnifiedAreaRect" Value="{{0.2,0},{0.388889,0},{0.8,0},{0.922222,0}}" />
                             </Window>
                             <Window Type="DejaVu/StaticImage" Name="Root/CheckInDaily/Tab 1/BG/BG1/Title/RewardBG20/Mark" >
+                                <Property Name="Image" Value="set:main2 image:GiftIcon" />
                                 <Property Name="AlwaysOnTop" Value="True" />
                                 <Property Name="ClippedByParent" Value="False" />
-                                <Property Name="Image" Value="set:main2 image:GiftIcon" />
-                                <Property Name="MousePassThroughEnabled" Value="True" />
                                 <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.644444,0},{0.4,0},{0.955555,0}}" />
+                                <Property Name="MousePassThroughEnabled" Value="True" />
                             </Window>
                             <Window Type="DejaVu/EmbedTextLab7" Name="Root/CheckInDaily/Tab 1/BG/BG1/Title/RewardBG20/Day" >
                                 <Property Name="Font" Value="F001-9" />
-                                <Property Name="HorzFormatting" Value="HorzCentred" />
                                 <Property Name="Text" Value="20日" />
+                                <Property Name="HorzFormatting" Value="HorzCentred" />
                                 <Property Name="UnifiedAreaRect" Value="{{0.0375,0},{0.033333,0},{0.9625,0},{0.311111,0}}" />
                             </Window>
                         </Window>
@@ -541,16 +541,16 @@
                                 <Property Name="UnifiedAreaRect" Value="{{0.2,0},{0.388889,0},{0.8,0},{0.922222,0}}" />
                             </Window>
                             <Window Type="DejaVu/StaticImage" Name="Root/CheckInDaily/Tab 1/BG/BG1/Title/RewardBG21/Mark" >
+                                <Property Name="Image" Value="set:main2 image:GiftIcon" />
                                 <Property Name="AlwaysOnTop" Value="True" />
                                 <Property Name="ClippedByParent" Value="False" />
-                                <Property Name="Image" Value="set:main2 image:GiftIcon" />
-                                <Property Name="MousePassThroughEnabled" Value="True" />
                                 <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.644444,0},{0.4,0},{0.955555,0}}" />
+                                <Property Name="MousePassThroughEnabled" Value="True" />
                             </Window>
                             <Window Type="DejaVu/EmbedTextLab7" Name="Root/CheckInDaily/Tab 1/BG/BG1/Title/RewardBG21/Day" >
                                 <Property Name="Font" Value="F001-9" />
-                                <Property Name="HorzFormatting" Value="HorzCentred" />
                                 <Property Name="Text" Value="21日" />
+                                <Property Name="HorzFormatting" Value="HorzCentred" />
                                 <Property Name="UnifiedAreaRect" Value="{{0.0375,0},{0.033333,0},{0.9625,0},{0.311111,0}}" />
                             </Window>
                         </Window>
@@ -560,16 +560,16 @@
                                 <Property Name="UnifiedAreaRect" Value="{{0.2,0},{0.388889,0},{0.8,0},{0.922222,0}}" />
                             </Window>
                             <Window Type="DejaVu/StaticImage" Name="Root/CheckInDaily/Tab 1/BG/BG1/Title/RewardBG22/Mark" >
+                                <Property Name="Image" Value="set:main2 image:GiftIcon" />
                                 <Property Name="AlwaysOnTop" Value="True" />
                                 <Property Name="ClippedByParent" Value="False" />
-                                <Property Name="Image" Value="set:main2 image:GiftIcon" />
-                                <Property Name="MousePassThroughEnabled" Value="True" />
                                 <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.644444,0},{0.4,0},{0.955555,0}}" />
+                                <Property Name="MousePassThroughEnabled" Value="True" />
                             </Window>
                             <Window Type="DejaVu/EmbedTextLab7" Name="Root/CheckInDaily/Tab 1/BG/BG1/Title/RewardBG22/Day" >
                                 <Property Name="Font" Value="F001-9" />
-                                <Property Name="HorzFormatting" Value="HorzCentred" />
                                 <Property Name="Text" Value="22日" />
+                                <Property Name="HorzFormatting" Value="HorzCentred" />
                                 <Property Name="UnifiedAreaRect" Value="{{0.0375,0},{0.033333,0},{0.9625,0},{0.311111,0}}" />
                             </Window>
                         </Window>
@@ -579,16 +579,16 @@
                                 <Property Name="UnifiedAreaRect" Value="{{0.2,0},{0.388889,0},{0.8,0},{0.922222,0}}" />
                             </Window>
                             <Window Type="DejaVu/StaticImage" Name="Root/CheckInDaily/Tab 1/BG/BG1/Title/RewardBG23/Mark" >
+                                <Property Name="Image" Value="set:main2 image:GiftIcon" />
                                 <Property Name="AlwaysOnTop" Value="True" />
                                 <Property Name="ClippedByParent" Value="False" />
-                                <Property Name="Image" Value="set:main2 image:GiftIcon" />
-                                <Property Name="MousePassThroughEnabled" Value="True" />
                                 <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.644444,0},{0.4,0},{0.955555,0}}" />
+                                <Property Name="MousePassThroughEnabled" Value="True" />
                             </Window>
                             <Window Type="DejaVu/EmbedTextLab7" Name="Root/CheckInDaily/Tab 1/BG/BG1/Title/RewardBG23/Day" >
                                 <Property Name="Font" Value="F001-9" />
-                                <Property Name="HorzFormatting" Value="HorzCentred" />
                                 <Property Name="Text" Value="23日" />
+                                <Property Name="HorzFormatting" Value="HorzCentred" />
                                 <Property Name="UnifiedAreaRect" Value="{{0.0375,0},{0.033333,0},{0.9625,0},{0.311111,0}}" />
                             </Window>
                         </Window>
@@ -598,16 +598,16 @@
                                 <Property Name="UnifiedAreaRect" Value="{{0.2,0},{0.388889,0},{0.8,0},{0.922222,0}}" />
                             </Window>
                             <Window Type="DejaVu/StaticImage" Name="Root/CheckInDaily/Tab 1/BG/BG1/Title/RewardBG24/Mark" >
+                                <Property Name="Image" Value="set:main2 image:GiftIcon" />
                                 <Property Name="AlwaysOnTop" Value="True" />
                                 <Property Name="ClippedByParent" Value="False" />
-                                <Property Name="Image" Value="set:main2 image:GiftIcon" />
-                                <Property Name="MousePassThroughEnabled" Value="True" />
                                 <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.644444,0},{0.4,0},{0.955555,0}}" />
+                                <Property Name="MousePassThroughEnabled" Value="True" />
                             </Window>
                             <Window Type="DejaVu/EmbedTextLab7" Name="Root/CheckInDaily/Tab 1/BG/BG1/Title/RewardBG24/Day" >
                                 <Property Name="Font" Value="F001-9" />
-                                <Property Name="HorzFormatting" Value="HorzCentred" />
                                 <Property Name="Text" Value="24日" />
+                                <Property Name="HorzFormatting" Value="HorzCentred" />
                                 <Property Name="UnifiedAreaRect" Value="{{0.0375,0},{0.033333,0},{0.9625,0},{0.311111,0}}" />
                             </Window>
                         </Window>
@@ -617,16 +617,16 @@
                                 <Property Name="UnifiedAreaRect" Value="{{0.2,0},{0.388889,0},{0.8,0},{0.922222,0}}" />
                             </Window>
                             <Window Type="DejaVu/StaticImage" Name="Root/CheckInDaily/Tab 1/BG/BG1/Title/RewardBG25/Mark" >
+                                <Property Name="Image" Value="set:main2 image:GiftIcon" />
                                 <Property Name="AlwaysOnTop" Value="True" />
                                 <Property Name="ClippedByParent" Value="False" />
-                                <Property Name="Image" Value="set:main2 image:GiftIcon" />
-                                <Property Name="MousePassThroughEnabled" Value="True" />
                                 <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.644444,0},{0.4,0},{0.955555,0}}" />
+                                <Property Name="MousePassThroughEnabled" Value="True" />
                             </Window>
                             <Window Type="DejaVu/EmbedTextLab7" Name="Root/CheckInDaily/Tab 1/BG/BG1/Title/RewardBG25/Day" >
                                 <Property Name="Font" Value="F001-9" />
-                                <Property Name="HorzFormatting" Value="HorzCentred" />
                                 <Property Name="Text" Value="25日" />
+                                <Property Name="HorzFormatting" Value="HorzCentred" />
                                 <Property Name="UnifiedAreaRect" Value="{{0.0375,0},{0.033333,0},{0.9625,0},{0.311111,0}}" />
                             </Window>
                         </Window>
@@ -636,16 +636,16 @@
                                 <Property Name="UnifiedAreaRect" Value="{{0.2,0},{0.388889,0},{0.8,0},{0.922222,0}}" />
                             </Window>
                             <Window Type="DejaVu/StaticImage" Name="Root/CheckInDaily/Tab 1/BG/BG1/Title/RewardBG26/Mark" >
+                                <Property Name="Image" Value="set:main2 image:GiftIcon" />
                                 <Property Name="AlwaysOnTop" Value="True" />
                                 <Property Name="ClippedByParent" Value="False" />
-                                <Property Name="Image" Value="set:main2 image:GiftIcon" />
-                                <Property Name="MousePassThroughEnabled" Value="True" />
                                 <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.644444,0},{0.4,0},{0.955555,0}}" />
+                                <Property Name="MousePassThroughEnabled" Value="True" />
                             </Window>
                             <Window Type="DejaVu/EmbedTextLab7" Name="Root/CheckInDaily/Tab 1/BG/BG1/Title/RewardBG26/Day" >
                                 <Property Name="Font" Value="F001-9" />
-                                <Property Name="HorzFormatting" Value="HorzCentred" />
                                 <Property Name="Text" Value="26日" />
+                                <Property Name="HorzFormatting" Value="HorzCentred" />
                                 <Property Name="UnifiedAreaRect" Value="{{0.0375,0},{0.033333,0},{0.9625,0},{0.311111,0}}" />
                             </Window>
                         </Window>
@@ -655,16 +655,16 @@
                                 <Property Name="UnifiedAreaRect" Value="{{0.2,0},{0.388889,0},{0.8,0},{0.922222,0}}" />
                             </Window>
                             <Window Type="DejaVu/StaticImage" Name="Root/CheckInDaily/Tab 1/BG/BG1/Title/RewardBG27/Mark" >
+                                <Property Name="Image" Value="set:main2 image:GiftIcon" />
                                 <Property Name="AlwaysOnTop" Value="True" />
                                 <Property Name="ClippedByParent" Value="False" />
-                                <Property Name="Image" Value="set:main2 image:GiftIcon" />
-                                <Property Name="MousePassThroughEnabled" Value="True" />
                                 <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.644444,0},{0.4,0},{0.955555,0}}" />
+                                <Property Name="MousePassThroughEnabled" Value="True" />
                             </Window>
                             <Window Type="DejaVu/EmbedTextLab7" Name="Root/CheckInDaily/Tab 1/BG/BG1/Title/RewardBG27/Day" >
                                 <Property Name="Font" Value="F001-9" />
-                                <Property Name="HorzFormatting" Value="HorzCentred" />
                                 <Property Name="Text" Value="27日" />
+                                <Property Name="HorzFormatting" Value="HorzCentred" />
                                 <Property Name="UnifiedAreaRect" Value="{{0.0375,0},{0.033333,0},{0.9625,0},{0.311111,0}}" />
                             </Window>
                         </Window>
@@ -674,16 +674,16 @@
                                 <Property Name="UnifiedAreaRect" Value="{{0.2,0},{0.388889,0},{0.8,0},{0.922222,0}}" />
                             </Window>
                             <Window Type="DejaVu/StaticImage" Name="Root/CheckInDaily/Tab 1/BG/BG1/Title/RewardBG28/Mark" >
+                                <Property Name="Image" Value="set:main2 image:GiftIcon" />
                                 <Property Name="AlwaysOnTop" Value="True" />
                                 <Property Name="ClippedByParent" Value="False" />
-                                <Property Name="Image" Value="set:main2 image:GiftIcon" />
-                                <Property Name="MousePassThroughEnabled" Value="True" />
                                 <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.644444,0},{0.4,0},{0.955555,0}}" />
+                                <Property Name="MousePassThroughEnabled" Value="True" />
                             </Window>
                             <Window Type="DejaVu/EmbedTextLab7" Name="Root/CheckInDaily/Tab 1/BG/BG1/Title/RewardBG28/Day" >
                                 <Property Name="Font" Value="F001-9" />
-                                <Property Name="HorzFormatting" Value="HorzCentred" />
                                 <Property Name="Text" Value="28日" />
+                                <Property Name="HorzFormatting" Value="HorzCentred" />
                                 <Property Name="UnifiedAreaRect" Value="{{0.0375,0},{0.033333,0},{0.9625,0},{0.311111,0}}" />
                             </Window>
                         </Window>
@@ -698,8 +698,8 @@
             <Window Type="DefaultWindow" Name="Root/CheckInDaily/Tab 2" >
                 <Property Name="Font" Value="F001-9" />
                 <Property Name="Text" Value="x源神占卜" />
-                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,607},{0,660}}" />
                 <Property Name="Visible" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,607},{0,660}}" />
                 <Window Type="DejaVu/Embed2" Name="Root/CheckInDaily/Tab 2/BoardBG" >
                     <Property Name="Font" Value="F001-9" />
                     <Property Name="UnifiedAreaRect" Value="{{0.016475,0},{0.013636,0},{0.986821,0},{0.566666,0}}" />
@@ -725,9 +725,9 @@
                         </Window>
                     </Window>
                     <Window Type="DejaVu/StaticImage" Name="Root/CheckInDaily/Tab 2/BoardBG/Board" >
-                        <Property Name="AlwaysOnTop" Value="True" />
                         <Property Name="Font" Value="F001-9" />
                         <Property Name="Image" Value="set:main18 image:DivinationBG" />
+                        <Property Name="AlwaysOnTop" Value="True" />
                         <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1.0017,0},{1,0}}" />
                     </Window>
                 </Window>
@@ -743,8 +743,8 @@
                                 <Property Name="Image" Value="set:main3 image:Title" />
                                 <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.444444,0},{0.294118,0}}" />
                                 <Window Type="DejaVu/StaticTextLab" Name="Root/CheckInDaily/Tab 2/ResultBG/Result/LuckyBG/Title1/Text" >
-                                    <Property Name="HorzFormatting" Value="HorzCentred" />
                                     <Property Name="Text" Value="x戰鬥運" />
+                                    <Property Name="HorzFormatting" Value="HorzCentred" />
                                     <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
                                 </Window>
                             </Window>
@@ -752,8 +752,8 @@
                                 <Property Name="Image" Value="set:main3 image:Title" />
                                 <Property Name="UnifiedAreaRect" Value="{{0,0},{0.352941,0},{0.444444,0},{0.647059,0}}" />
                                 <Window Type="DejaVu/StaticTextLab" Name="Root/CheckInDaily/Tab 2/ResultBG/Result/LuckyBG/Title2/Text" >
-                                    <Property Name="HorzFormatting" Value="HorzCentred" />
                                     <Property Name="Text" Value="x掉寶運" />
+                                    <Property Name="HorzFormatting" Value="HorzCentred" />
                                     <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
                                 </Window>
                             </Window>
@@ -761,8 +761,8 @@
                                 <Property Name="Image" Value="set:main3 image:Title" />
                                 <Property Name="UnifiedAreaRect" Value="{{0,0},{0.705882,0},{0.444444,0},{1,0}}" />
                                 <Window Type="DejaVu/StaticTextLab" Name="Root/CheckInDaily/Tab 2/ResultBG/Result/LuckyBG/Text3/Text" >
-                                    <Property Name="HorzFormatting" Value="HorzCentred" />
                                     <Property Name="Text" Value="x桃花運" />
+                                    <Property Name="HorzFormatting" Value="HorzCentred" />
                                     <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
                                 </Window>
                             </Window>
@@ -858,8 +858,8 @@
                         </Window>
                         <Window Type="DejaVu/StaticTextLab" Name="Root/CheckInDaily/Tab 2/ResultBG/Result/Text1" >
                             <Property Name="Font" Value="F001-9" />
-                            <Property Name="HorzFormatting" Value="HorzCentred" />
                             <Property Name="Text" Value="x獲得獎勵" />
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
                             <Property Name="UnifiedAreaRect" Value="{{0.563667,0},{0.574468,0},{0.733447,0},{0.680851,0}}" />
                         </Window>
                         <Window Type="DejaVu/StaticImage" Name="Root/CheckInDaily/Tab 2/ResultBG/Result/corner1" >
@@ -874,8 +874,8 @@
                         </Window>
                     </Window>
                     <Window Type="DejaVu/Embed4" Name="Root/CheckInDaily/Tab 2/ResultBG/Title" >
-                        <Property Name="AlwaysOnTop" Value="True" />
                         <Property Name="Font" Value="F001-9" />
+                        <Property Name="AlwaysOnTop" Value="True" />
                         <Property Name="UnifiedAreaRect" Value="{{0.0169779,0},{0,0},{0.271647,0},{0.102041,0}}" />
                         <Window Type="DejaVu/StaticImage" Name="Root/CheckInDaily/Tab 2/ResultBG/Title/Icon" >
                             <Property Name="Font" Value="F001-9" />
@@ -896,69 +896,70 @@
                 </Window>
             </Window>
             <Window Type="DefaultWindow" Name="Root/CheckInDaily/Tab 3" >
-                <Property Name="AlwaysOnTop" Value="True" />
                 <Property Name="Text" Value="x潮流特報" />
+                <Property Name="Visible" Value="False" />
+                <Property Name="AlwaysOnTop" Value="True" />
                 <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,607},{0,660}}" />
                 <Window Type="DejaVu/Static" Name="Root/CheckInDaily/Tab 3/NewItemBG" >
                     <Property Name="UnifiedAreaRect" Value="{{0.0165017,0},{0.0560606,0},{0.995049,0},{0.480303,0}}" />
                     <Window Type="DejaVu/Embed2" Name="Root/CheckInDaily/Tab 3/NewItemBG/NewItem" >
                         <Property Name="UnifiedAreaRect" Value="{{0,0},{0.032258,0},{0.998314,0},{0.996544,0}}" />
                         <Window Type="DejaVu/ImageButton" Name="Root/CheckInDaily/Tab 3/NewItemBG/NewItem/PageBtn1" >
-                            <Property Name="DisabledImage" Value="set:DejaVu image:ArrowLeftPressed" />
                             <Property Name="Font" Value="F001-9" />
-                            <Property Name="HorizontalAlignment" Value="Centre" />
                             <Property Name="HoverImage" Value="set:DejaVu image:ArrowLeftHover" />
                             <Property Name="NormalImage" Value="set:DejaVu image:ArrowLeftNormal" />
                             <Property Name="PushedImage" Value="set:DejaVu image:ArrowLeftPressed" />
+                            <Property Name="DisabledImage" Value="set:DejaVu image:ArrowLeftPressed" />
                             <Property Name="UnifiedAreaRect" Value="{{-0.092593,0},{-0.020661,0},{-0.055556,0},{0.0309919,0}}" />
                             <Property Name="VerticalAlignment" Value="Bottom" />
+                            <Property Name="HorizontalAlignment" Value="Centre" />
                         </Window>
                         <Window Type="DejaVu/EmbedText5" Name="Root/CheckInDaily/Tab 3/NewItemBG/NewItem/PageText" >
                             <Property Name="Font" Value="F001-9" />
-                            <Property Name="HorizontalAlignment" Value="Centre" />
-                            <Property Name="HorzFormatting" Value="HorzCentred" />
                             <Property Name="Text" Value="11/22" />
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
                             <Property Name="UnifiedAreaRect" Value="{{0,0},{-0.020661,0},{0.12963,0},{0.0309919,0}}" />
                             <Property Name="VerticalAlignment" Value="Bottom" />
+                            <Property Name="HorizontalAlignment" Value="Centre" />
                         </Window>
                         <Window Type="DejaVu/ImageButton" Name="Root/CheckInDaily/Tab 3/NewItemBG/NewItem/PageBtn0" >
-                            <Property Name="DisabledImage" Value="set:DejaVu image:DoubledLeftArrowPressed" />
-                            <Property Name="HorizontalAlignment" Value="Centre" />
+                            <Property Name="Visible" Value="False" />
                             <Property Name="HoverImage" Value="set:DejaVu image:DoubledLeftArrowHover" />
                             <Property Name="NormalImage" Value="set:DejaVu image:DoubledLeftArrowNormal" />
                             <Property Name="PushedImage" Value="set:DejaVu image:DoubledLeftArrowPressed" />
+                            <Property Name="DisabledImage" Value="set:DejaVu image:DoubledLeftArrowPressed" />
                             <Property Name="UnifiedAreaRect" Value="{{-0.12963,0},{-0.020661,0},{-0.092593,0},{0.0309919,0}}" />
                             <Property Name="VerticalAlignment" Value="Bottom" />
-                            <Property Name="Visible" Value="False" />
+                            <Property Name="HorizontalAlignment" Value="Centre" />
                         </Window>
                         <Window Type="DejaVu/ImageButton" Name="Root/CheckInDaily/Tab 3/NewItemBG/NewItem/PageBtn2" >
-                            <Property Name="DisabledImage" Value="set:DejaVu image:ArrowRightPressed" />
-                            <Property Name="HorizontalAlignment" Value="Centre" />
                             <Property Name="HoverImage" Value="set:DejaVu image:ArrowRightHover" />
                             <Property Name="NormalImage" Value="set:DejaVu image:ArrowRightNormal" />
                             <Property Name="PushedImage" Value="set:DejaVu image:ArrowRightPressed" />
+                            <Property Name="DisabledImage" Value="set:DejaVu image:ArrowRightPressed" />
                             <Property Name="UnifiedAreaRect" Value="{{0.092593,0},{-0.020661,0},{0.12963,0},{0.0309919,0}}" />
                             <Property Name="VerticalAlignment" Value="Bottom" />
+                            <Property Name="HorizontalAlignment" Value="Centre" />
                         </Window>
                         <Window Type="DejaVu/ImageButton" Name="Root/CheckInDaily/Tab 3/NewItemBG/NewItem/PageBtn3" >
-                            <Property Name="DisabledImage" Value="set:DejaVu image:DoubledRightArrowPressed" />
-                            <Property Name="HorizontalAlignment" Value="Centre" />
+                            <Property Name="Visible" Value="False" />
                             <Property Name="HoverImage" Value="set:DejaVu image:DoubledRightArrowHover" />
                             <Property Name="NormalImage" Value="set:DejaVu image:DoubledRightArrowNormal" />
                             <Property Name="PushedImage" Value="set:DejaVu image:DoubledRightArrowPressed" />
+                            <Property Name="DisabledImage" Value="set:DejaVu image:DoubledRightArrowPressed" />
                             <Property Name="UnifiedAreaRect" Value="{{0.12963,0},{-0.020661,0},{0.166667,0},{0.0309919,0}}" />
                             <Property Name="VerticalAlignment" Value="Bottom" />
-                            <Property Name="Visible" Value="False" />
+                            <Property Name="HorizontalAlignment" Value="Centre" />
                         </Window>
                     </Window>
                     <Window Type="DejaVu/Embed4" Name="Root/CheckInDaily/Tab 3/NewItemBG/Title" >
                         <Property Name="AlwaysOnTop" Value="True" />
                         <Property Name="UnifiedAreaRect" Value="{{0.016949,0},{0,0},{0.183897,0},{0.0857143,0}}" />
                         <Window Type="DejaVu/StaticText" Name="Root/CheckInDaily/Tab 3/NewItemBG/Title/TitleText" >
-                            <Property Name="HorizontalAlignment" Value="Centre" />
-                            <Property Name="HorzFormatting" Value="HorzCentred" />
                             <Property Name="Text" Value="x新品" />
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
                             <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.594059,0},{1,0}}" />
+                            <Property Name="HorizontalAlignment" Value="Centre" />
                         </Window>
                     </Window>
                 </Window>
@@ -967,61 +968,61 @@
                     <Window Type="DejaVu/Embed2" Name="Root/CheckInDaily/Tab 3/OldItemBG/OldItem" >
                         <Property Name="UnifiedAreaRect" Value="{{0,0},{0.032258,0},{0.996633,0},{0.996544,0}}" />
                         <Window Type="DejaVu/ImageButton" Name="Root/CheckInDaily/Tab 3/OldItemBG/OldItem/PageBtn5" >
-                            <Property Name="DisabledImage" Value="set:DejaVu image:ArrowLeftPressed" />
                             <Property Name="Font" Value="F001-9" />
-                            <Property Name="HorizontalAlignment" Value="Centre" />
                             <Property Name="HoverImage" Value="set:DejaVu image:ArrowLeftHover" />
                             <Property Name="NormalImage" Value="set:DejaVu image:ArrowLeftNormal" />
                             <Property Name="PushedImage" Value="set:DejaVu image:ArrowLeftPressed" />
+                            <Property Name="DisabledImage" Value="set:DejaVu image:ArrowLeftPressed" />
                             <Property Name="UnifiedAreaRect" Value="{{-0.092593,0},{-0.020661,0},{-0.055556,0},{0.0309919,0}}" />
                             <Property Name="VerticalAlignment" Value="Bottom" />
+                            <Property Name="HorizontalAlignment" Value="Centre" />
                         </Window>
                         <Window Type="DejaVu/EmbedText5" Name="Root/CheckInDaily/Tab 3/OldItemBG/OldItem/PageText" >
                             <Property Name="Font" Value="F001-9" />
-                            <Property Name="HorizontalAlignment" Value="Centre" />
-                            <Property Name="HorzFormatting" Value="HorzCentred" />
                             <Property Name="Text" Value="11/22" />
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
                             <Property Name="UnifiedAreaRect" Value="{{0,0},{-0.020661,0},{0.12963,0},{0.0309919,0}}" />
                             <Property Name="VerticalAlignment" Value="Bottom" />
+                            <Property Name="HorizontalAlignment" Value="Centre" />
                         </Window>
                         <Window Type="DejaVu/ImageButton" Name="Root/CheckInDaily/Tab 3/OldItemBG/OldItem/PageBtn4" >
-                            <Property Name="DisabledImage" Value="set:DejaVu image:DoubledLeftArrowPressed" />
-                            <Property Name="HorizontalAlignment" Value="Centre" />
+                            <Property Name="Visible" Value="False" />
                             <Property Name="HoverImage" Value="set:DejaVu image:DoubledLeftArrowHover" />
                             <Property Name="NormalImage" Value="set:DejaVu image:DoubledLeftArrowNormal" />
                             <Property Name="PushedImage" Value="set:DejaVu image:DoubledLeftArrowPressed" />
+                            <Property Name="DisabledImage" Value="set:DejaVu image:DoubledLeftArrowPressed" />
                             <Property Name="UnifiedAreaRect" Value="{{-0.12963,0},{-0.020661,0},{-0.092593,0},{0.0309919,0}}" />
                             <Property Name="VerticalAlignment" Value="Bottom" />
-                            <Property Name="Visible" Value="False" />
+                            <Property Name="HorizontalAlignment" Value="Centre" />
                         </Window>
                         <Window Type="DejaVu/ImageButton" Name="Root/CheckInDaily/Tab 3/OldItemBG/OldItem/PageBtn6" >
-                            <Property Name="DisabledImage" Value="set:DejaVu image:ArrowRightPressed" />
-                            <Property Name="HorizontalAlignment" Value="Centre" />
                             <Property Name="HoverImage" Value="set:DejaVu image:ArrowRightHover" />
                             <Property Name="NormalImage" Value="set:DejaVu image:ArrowRightNormal" />
                             <Property Name="PushedImage" Value="set:DejaVu image:ArrowRightPressed" />
+                            <Property Name="DisabledImage" Value="set:DejaVu image:ArrowRightPressed" />
                             <Property Name="UnifiedAreaRect" Value="{{0.092593,0},{-0.020661,0},{0.12963,0},{0.0309919,0}}" />
                             <Property Name="VerticalAlignment" Value="Bottom" />
+                            <Property Name="HorizontalAlignment" Value="Centre" />
                         </Window>
                         <Window Type="DejaVu/ImageButton" Name="Root/CheckInDaily/Tab 3/OldItemBG/OldItem/PageBtn7" >
-                            <Property Name="DisabledImage" Value="set:DejaVu image:DoubledRightArrowPressed" />
-                            <Property Name="HorizontalAlignment" Value="Centre" />
+                            <Property Name="Visible" Value="False" />
                             <Property Name="HoverImage" Value="set:DejaVu image:DoubledRightArrowHover" />
                             <Property Name="NormalImage" Value="set:DejaVu image:DoubledRightArrowNormal" />
                             <Property Name="PushedImage" Value="set:DejaVu image:DoubledRightArrowPressed" />
+                            <Property Name="DisabledImage" Value="set:DejaVu image:DoubledRightArrowPressed" />
                             <Property Name="UnifiedAreaRect" Value="{{0.12963,0},{-0.020661,0},{0.166667,0},{0.0309919,0}}" />
                             <Property Name="VerticalAlignment" Value="Bottom" />
-                            <Property Name="Visible" Value="False" />
+                            <Property Name="HorizontalAlignment" Value="Centre" />
                         </Window>
                     </Window>
                     <Window Type="DejaVu/Embed4" Name="Root/CheckInDaily/Tab 3/OldItemBG/Title" >
                         <Property Name="AlwaysOnTop" Value="True" />
                         <Property Name="UnifiedAreaRect" Value="{{0.016949,0},{0,0},{0.183897,0},{0.0857143,0}}" />
                         <Window Type="DejaVu/StaticText" Name="Root/CheckInDaily/Tab 3/OldItemBG/Title/TitleText" >
-                            <Property Name="HorizontalAlignment" Value="Centre" />
-                            <Property Name="HorzFormatting" Value="HorzCentred" />
                             <Property Name="Text" Value="x懷舊" />
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
                             <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.594059,0},{1,0}}" />
+                            <Property Name="HorizontalAlignment" Value="Centre" />
                         </Window>
                     </Window>
                 </Window>
@@ -1033,10 +1034,10 @@
                     </Window>
                 </Window>
                 <Window Type="DejaVu/Button3" Name="Root/CheckInDaily/Tab 3/RewardBtn" >
-                    <Property Name="HorizontalAlignment" Value="Right" />
                     <Property Name="Text" Value="x領取獎勵" />
                     <Property Name="UnifiedAreaRect" Value="{{-0.049505,0},{-0.0227273,0},{0.115512,0},{0.0227273,0}}" />
                     <Property Name="VerticalAlignment" Value="Bottom" />
+                    <Property Name="HorizontalAlignment" Value="Right" />
                 </Window>
                 <Window Type="DejaVu/StaticTextLab" Name="Root/CheckInDaily/Tab 3/TextLab" >
                     <Property Name="Text" Value="x領取獎勵時，將暫時鎖定快捷鍵功能" />
@@ -1044,20 +1045,142 @@
                     <Property Name="VerticalAlignment" Value="Bottom" />
                 </Window>
             </Window>
+            <Window Type="DefaultWindow" Name="Root/CheckInDaily/Tab 4" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="Tab" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.000520833,0},{-0.00317125,0},{-0.000520833,607},{-0.00317125,654}}" />
+                <Window Type="DejaVu/Static" Name="Root/CheckInDaily/Tab 4/FashionClosetBG" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.0115321,0},{0.0137615,0},{0.990115,0},{0.915902,0}}" />
+                    <Window Type="DejaVu/Embed2" Name="Root/CheckInDaily/Tab 4/FashionClosetBG/BG" >
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0576271,0},{0.998317,0},{0.989831,0}}" />
+                        <Window Type="DejaVu/ImageButton" Name="Root/CheckInDaily/Tab 4/FashionClosetBG/BG/PageBtnL" >
+                            <Property Name="HoverImage" Value="set:DejaVu image:ArrowLeftHover" />
+                            <Property Name="NormalImage" Value="set:DejaVu image:ArrowLeftNormal" />
+                            <Property Name="PushedImage" Value="set:DejaVu image:ArrowLeftPressed" />
+                            <Property Name="DisabledImage" Value="set:DejaVu image:ArrowLeftPressed" />
+                            <Property Name="UnifiedAreaRect" Value="{{-0.092593,0},{-0.020661,0},{-0.0554935,0},{0.00488644,0}}" />
+                            <Property Name="VerticalAlignment" Value="Bottom" />
+                            <Property Name="HorizontalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/EmbedText5" Name="Root/CheckInDaily/Tab 4/FashionClosetBG/BG/PageText" >
+                            <Property Name="Text" Value="11/22" />
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{-0.020661,0},{0.129848,0},{0.00488644,0}}" />
+                            <Property Name="VerticalAlignment" Value="Bottom" />
+                            <Property Name="HorizontalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/ImageButton" Name="Root/CheckInDaily/Tab 4/FashionClosetBG/BG/PageBtnLL" >
+                            <Property Name="HoverImage" Value="set:DejaVu image:DoubledLeftArrowHover" />
+                            <Property Name="NormalImage" Value="set:DejaVu image:DoubledLeftArrowNormal" />
+                            <Property Name="PushedImage" Value="set:DejaVu image:DoubledLeftArrowPressed" />
+                            <Property Name="DisabledImage" Value="set:DejaVu image:DoubledLeftArrowPressed" />
+                            <Property Name="UnifiedAreaRect" Value="{{-0.12963,0},{-0.020661,0},{-0.0925305,0},{0.00488644,0}}" />
+                            <Property Name="VerticalAlignment" Value="Bottom" />
+                            <Property Name="HorizontalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/ImageButton" Name="Root/CheckInDaily/Tab 4/FashionClosetBG/BG/PageBtnR" >
+                            <Property Name="HoverImage" Value="set:DejaVu image:ArrowRightHover" />
+                            <Property Name="NormalImage" Value="set:DejaVu image:ArrowRightNormal" />
+                            <Property Name="PushedImage" Value="set:DejaVu image:ArrowRightPressed" />
+                            <Property Name="DisabledImage" Value="set:DejaVu image:ArrowRightPressed" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.092593,0},{-0.020661,0},{0.129692,0},{0.00488644,0}}" />
+                            <Property Name="VerticalAlignment" Value="Bottom" />
+                            <Property Name="HorizontalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/ImageButton" Name="Root/CheckInDaily/Tab 4/FashionClosetBG/BG/PageBtnRR" >
+                            <Property Name="HoverImage" Value="set:DejaVu image:DoubledRightArrowHover" />
+                            <Property Name="NormalImage" Value="set:DejaVu image:DoubledRightArrowNormal" />
+                            <Property Name="PushedImage" Value="set:DejaVu image:DoubledRightArrowPressed" />
+                            <Property Name="DisabledImage" Value="set:DejaVu image:DoubledRightArrowPressed" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.12963,0},{-0.020661,0},{0.166729,0},{0.00488644,0}}" />
+                            <Property Name="VerticalAlignment" Value="Bottom" />
+                            <Property Name="HorizontalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/Embed2" Name="Root/CheckInDaily/Tab 4/FashionClosetBG/BG/List" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.0162704,0},{0.0167528,0},{0.987993,0},{0.920996,0}}" />
+                            <Window Type="DejaVu/Zframe2" Name="Root/CheckInDaily/Tab 4/FashionClosetBG/BG/List/Select" >
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="AlwaysOnTop" Value="True" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.00868056,0},{0.0201207,0},{0.496528,0},{0.181087,0}}" />
+                                <Property Name="MousePassThroughEnabled" Value="True" />
+                            </Window>
+                            <Window Type="DejaVu/Embed2" Name="Root/CheckInDaily/Tab 4/FashionClosetBG/BG/List/Group" >
+                                <Property Name="UnifiedAreaRect" Value="{{0.00868056,0},{0.0201613,0},{0.496528,0},{0.181408,0}}" />
+                                <Window Type="DejaVu/SlotImage" Name="Root/CheckInDaily/Tab 4/FashionClosetBG/BG/List/Group/SlotImage1" >
+                                    <Property Name="UnifiedAreaRect" Value="{{0.014235,0},{0.16129,0},{0.156584,0},{0.66129,0}}" />
+                                </Window>
+                                <Window Type="DejaVu/SlotImage" Name="Root/CheckInDaily/Tab 4/FashionClosetBG/BG/List/Group/SlotImage2" >
+                                    <Property Name="UnifiedAreaRect" Value="{{0.170819,0},{0.16129,0},{0.313168,0},{0.66129,0}}" />
+                                </Window>
+                                <Window Type="DejaVu/SlotImage" Name="Root/CheckInDaily/Tab 4/FashionClosetBG/BG/List/Group/SlotImage3" >
+                                    <Property Name="UnifiedAreaRect" Value="{{0.330961,0},{0.16129,0},{0.47331,0},{0.66129,0}}" />
+                                </Window>
+                                <Window Type="DejaVu/SlotImage" Name="Root/CheckInDaily/Tab 4/FashionClosetBG/BG/List/Group/SlotImage4" >
+                                    <Property Name="UnifiedAreaRect" Value="{{0.491103,0},{0.16129,0},{0.633452,0},{0.66129,0}}" />
+                                </Window>
+                                <Window Type="DejaVu/SlotImage" Name="Root/CheckInDaily/Tab 4/FashionClosetBG/BG/List/Group/SlotImage5" >
+                                    <Property Name="UnifiedAreaRect" Value="{{0.651246,0},{0.16129,0},{0.793595,0},{0.66129,0}}" />
+                                </Window>
+                                <Window Type="DejaVu/SlotImage" Name="Root/CheckInDaily/Tab 4/FashionClosetBG/BG/List/Group/SlotImage6" >
+                                    <Property Name="UnifiedAreaRect" Value="{{0.811388,0},{0.129032,0},{0.975089,0},{0.704032,0}}" />
+                                </Window>
+                                <Window Type="DejaVu/StaticText" Name="Root/CheckInDaily/Tab 4/FashionClosetBG/BG/List/Group/Text" >
+                                    <Property Name="Font" Value="F001-9" />
+                                    <Property Name="Text" Value="x該組合需要全收集才可啟用" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.037858,0},{0.744534,0},{0.963125,0},{0.932034,0}}" />
+                                    <Property Name="MousePassThroughEnabled" Value="True" />
+                                </Window>
+                            </Window>
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Button3" Name="Root/CheckInDaily/Tab 4/FashionClosetBG/Sort1" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.010101,0},{0.00338983,0},{0.161616,0},{0.0457627,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Button3" Name="Root/CheckInDaily/Tab 4/FashionClosetBG/Sort2" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.16835,0},{0.00338983,0},{0.319865,0},{0.0457627,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Button3" Name="Root/CheckInDaily/Tab 4/FashionClosetBG/Sort3" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.326599,0},{0.00338983,0},{0.478114,0},{0.0457627,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Button3" Name="Root/CheckInDaily/Tab 4/FashionClosetBG/Sort4" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.484848,0},{0.00338983,0},{0.636364,0},{0.0457627,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Button3" Name="Root/CheckInDaily/Tab 4/FashionClosetBG/Sort5" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.643098,0},{0.00338983,0},{0.794613,0},{0.0457627,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Button" Name="Root/CheckInDaily/Tab 4/StateBtn" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="x啟用狀態" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.817133,0},{0.928135,0},{0.981878,0},{0.974006,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="Root/CheckInDaily/Tab 4/InstructionsText" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" >x於身上、背包、收藏冊、源神空間擁有「任一」已綁定指定品項，
+即可啟用獲得對應的獎勵狀態</Property>
+                    <Property Name="UnifiedAreaRect" Value="{{0.0230643,0},{0.932722,0},{0.602965,0},{0.977064,0}}" />
+                </Window>
+                <Window Type="DejaVu/Button" Name="Root/CheckInDaily/Tab 4/RefreshBtn" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="x更新獎勵" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.627677,0},{0.928135,0},{0.792422,0},{0.974006,0}}" />
+                </Window>
+            </Window>
         </Window>
         <Window Type="DejaVu/FrameWindow" Name="Root/CheckInDaily/CheckInResign" >
-            <Property Name="AlwaysOnTop" Value="True" />
-            <Property Name="ClippedByParent" Value="False" />
-            <Property Name="CloseButtonEnabled" Value="False" />
-            <Property Name="DragMovingEnabled" Value="False" />
             <Property Name="Font" Value="F001-9" />
-            <Property Name="HelpButtonEnabled" Value="False" />
-            <Property Name="TitlebarEnabled" Value="True" />
+            <Property Name="Visible" Value="False" />
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="WindowAlpha" Value="0" />
             <Property Name="TitlebarFont" Value="F001-9" />
             <Property Name="TitlebarImage" Value="set:main2 image:CheckinNormal" />
+            <Property Name="ClippedByParent" Value="False" />
+            <Property Name="TitlebarEnabled" Value="True" />
             <Property Name="UnifiedAreaRect" Value="{{0.140497,0},{0.16801,0},{0.872473,0},{0.7585,0}}" />
-            <Property Name="Visible" Value="False" />
-            <Property Name="WindowAlpha" Value="0" />
+            <Property Name="DragMovingEnabled" Value="False" />
+            <Property Name="HelpButtonEnabled" Value="False" />
+            <Property Name="CloseButtonEnabled" Value="False" />
             <Window Type="DejaVu/Embed" Name="Root/CheckInDaily/CheckInResign/Embed" >
                 <Property Name="Font" Value="F001-9" />
                 <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.998668,0},{1,0}}" />
@@ -1069,17 +1192,17 @@
                         <Property Name="UnifiedAreaRect" Value="{{0,0},{0.04,0},{1,0},{1,0}}" />
                         <Window Type="DejaVu/StaticTextLab" Name="Root/CheckInDaily/CheckInResign/Embed/Static/BG/Text" >
                             <Property Name="Font" Value="F001-9" />
-                            <Property Name="Text" >當月有未簽到的天數時，可以使用道具「補簽券」進行補簽
-※補簽次數小於7次時，每次補簽會消耗補簽券1個
-※補簽次數介於8-14次時，每次補簽會消耗補簽券2個
-※補簽次數介於15-21次時，每次補簽會消耗補簽券3個
+                            <Property Name="Text" >當月有未簽到的天數時，可以使用道具「補簽券」進行補簽
+※補簽次數小於7次時，每次補簽會消耗補簽券1個
+※補簽次數介於8-14次時，每次補簽會消耗補簽券2個
+※補簽次數介於15-21次時，每次補簽會消耗補簽券3個
 ※補簽次數大於22次時，每次補簽會消耗補簽券4個</Property>
                             <Property Name="UnifiedAreaRect" Value="{{0.0465116,0},{0.0212766,0},{0.953488,0},{0.744681,0}}" />
                         </Window>
                         <Window Type="DejaVu/StaticTextLab" Name="Root/CheckInDaily/CheckInResign/Embed/Static/BG/Notice" >
                             <Property Name="Font" Value="F001-9" />
-                            <Property Name="HorzFormatting" Value="HorzCentred" />
                             <Property Name="Text" Value="本月已補簽%s1次" />
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
                             <Property Name="UnifiedAreaRect" Value="{{0.429363,0},{0.761194,0},{0.894737,0},{0.885572,0}}" />
                         </Window>
                         <Window Type="DejaVu/SlotImage" Name="Root/CheckInDaily/CheckInResign/Embed/Static/BG/SlotImage" >
