@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/StaticImage" Name="LimitedTimeWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HorizontalAlignment" Value="Centre" />
+        <Property Name="Image" Value="set:main40 image:newbie_bg" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,973},{0,566}}" />
+        <Property Name="VerticalAlignment" Value="Centre" />
+        <Window Type="DejaVu/ImageButton" Name="LimitedTimeWnd/CloseBtn" >
+            <Property Name="DisabledImage" Value="set:main40 image:BtnCloseP" />
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="HoverImage" Value="set:main40 image:BtnCloseH" />
+            <Property Name="NormalImage" Value="set:main40 image:BtnCloseN" />
+            <Property Name="PushedImage" Value="set:main40 image:BtnCloseP" />
+            <Property Name="UnifiedAreaRect" Value="{{0.947585,0},{0.0918728,0},{0.975334,0},{0.139576,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticTextLab" Name="LimitedTimeWnd/Slogan" >
+            <Property Name="Font" Value="F001-20" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="Text" Value="購買後獲得下列品項" />
+            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+            <Property Name="UnifiedAreaRect" Value="{{0.516958,0},{0.270318,0},{0.846865,0},{0.319788,0}}" />
+        </Window>
+        <Window Type="DejaVu/ImageTextButton" Name="LimitedTimeWnd/MoreBtn" >
+            <Property Name="DisabledImage" Value="set:main40 image:BtnMoreP" />
+            <Property Name="Font" Value="F001-18" />
+            <Property Name="HoverImage" Value="set:main40 image:BtnMoreH" />
+            <Property Name="NormalImage" Value="set:main40 image:BtnMoreN" />
+            <Property Name="PushedImage" Value="set:main40 image:BtnMoreP" />
+            <Property Name="Text" Value="預覽更多" />
+            <Property Name="UnifiedAreaRect" Value="{{0.604317,0},{0.448763,0},{0.760534,0},{0.522968,0}}" />
+        </Window>
+        <Window Type="DejaVu/ImageTextButton" Name="LimitedTimeWnd/BuyBtn" >
+            <Property Name="DisabledImage" Value="set:main40 image:BtnBuyP" />
+            <Property Name="Font" Value="F001-18" />
+            <Property Name="HoverImage" Value="set:main40 image:BtnBuyH" />
+            <Property Name="NormalImage" Value="set:main40 image:BtnBuyN" />
+            <Property Name="PushedImage" Value="set:main40 image:BtnBuyP" />
+            <Property Name="Text" Value="購買" />
+            <Property Name="UnifiedAreaRect" Value="{{0.846865,0},{0.742049,0},{0.976362,0},{0.832155,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticTextLab" Name="LimitedTimeWnd/PriceText" >
+            <Property Name="Font" Value="F001-15" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="Text" Value="TWD" />
+            <Property Name="UnifiedAreaRect" Value="{{0.670093,0},{0.756184,0},{0.725591,0},{0.809187,0}}" />
+        </Window>
+        <Window Type="DejaVu/Static" Name="LimitedTimeWnd/Price" >
+            <Property Name="UnifiedAreaRect" Value="{{0.760534,0},{0.754417,0},{0.86742,0},{0.809187,0}}" />
+            <Window Type="DejaVu/StaticTextLab" Name="LimitedTimeWnd/Price/Text" >
+                <Property Name="Font" Value="F001-14" />
+                <Property Name="Text" >114514
+</Property>
+                <Property Name="UnifiedAreaRect" Value="{{0.0689394,0},{0.175003,0},{0.944129,0},{0.820165,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="LimitedTimeWnd/Discount" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.521069,0},{0.710247,0},{0.61665,0},{0.821555,0}}" />
+            <Window Type="DejaVu/StaticImage" Name="LimitedTimeWnd/Discount/Tens" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Image" Value="set:main38 image:limitime_9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.012952,0},{0.0876272,0},{0.426175,0},{0.96998,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="LimitedTimeWnd/Discount/units" >
+                <Property Name="Image" Value="set:main38 image:limitime_9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.396694,0},{0.0823529,0},{0.809917,0},{0.964706,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/StaticTextLab" Name="LimitedTimeWnd/BuyLimitText" >
+            <Property Name="Font" Value="F001-14" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="Text" >限時購買  剩餘1
+喵喵喵
+我不當兔子啦，亞提米斯
+你說什麼??!</Property>
+            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+            <Property Name="UnifiedAreaRect" Value="{{0.426516,0},{0.572438,0},{0.941418,0},{0.715548,0}}" />
+        </Window>
+        <Window Type="DejaVu/ImageButton" Name="LimitedTimeWnd/QuestionBtn" >
+            <Property Name="DisabledImage" Value="set:main40 image:BtnQuestionN" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HoverImage" Value="set:main40 image:BtnQuestionN" />
+            <Property Name="NormalImage" Value="set:main40 image:BtnQuestionN" />
+            <Property Name="PushedImage" Value="set:main40 image:BtnQuestionN" />
+            <Property Name="UnifiedAreaRect" Value="{{0.886948,0},{0.245583,0},{0.919836,0},{0.30212,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="LimitedTimeWnd/Title" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="Image" Value="set:main40 image:newbie_TW" />
+            <Property Name="UnifiedAreaRect" Value="{{0.446354,0},{0.0141346,0},{0.941587,0},{0.202413,0}}" />
+        </Window>
+        <Window Type="DejaVu/SlotImage" Name="LimitedTimeWnd/Item1" >
+            <Property Name="UnifiedAreaRect" Value="{{0.570401,0},{0.344523,0},{0.613566,0},{0.418728,0}}" />
+        </Window>
+        <Window Type="DejaVu/SlotImage" Name="LimitedTimeWnd/Item2" >
+            <Property Name="UnifiedAreaRect" Value="{{0.61665,0},{0.344523,0},{0.659815,0},{0.418728,0}}" />
+        </Window>
+        <Window Type="DejaVu/SlotImage" Name="LimitedTimeWnd/Item3" >
+            <Property Name="UnifiedAreaRect" Value="{{0.662898,0},{0.344523,0},{0.706064,0},{0.418728,0}}" />
+        </Window>
+        <Window Type="DejaVu/SlotImage" Name="LimitedTimeWnd/Item4" >
+            <Property Name="UnifiedAreaRect" Value="{{0.709147,0},{0.344523,0},{0.752312,0},{0.418728,0}}" />
+        </Window>
+        <Window Type="DejaVu/SlotImage" Name="LimitedTimeWnd/Item5" >
+            <Property Name="UnifiedAreaRect" Value="{{0.755396,0},{0.344523,0},{0.798561,0},{0.418728,0}}" />
+        </Window>
+    </Window>
+</GUILayout>
