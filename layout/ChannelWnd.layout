@@ -293,6 +293,16 @@
             <Property Name="UnifiedAreaRect" Value="{{0,40},{-0.1625,0},{0,142},{-0.1625,71}}" />
             <Property Name="BackgroundEnabled" Value="True" />
             <Property Name="VerticalAlignment" Value="Bottom" />
+            <Window Type="DejaVu/VerticalScrollbar" Name="Root/ChannelWnd/EmotionPane/ScrollBar" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="PageSize" Value="0" />
+                <Property Name="StepSize" Value="1" />
+                <Property Name="OverlapSize" Value="0" />
+                <Property Name="DocumentSize" Value="1" />
+                <Property Name="ScrollPosition" Value="0" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.147059,0},{1,0}}" />
+                <Property Name="HorizontalAlignment" Value="Right" />
+            </Window>
         </Window>
         <Window Type="DejaVu/Static" Name="Root/ChannelWnd/InputWnd" >
             <Property Name="Font" Value="F001-scale" />
@@ -490,6 +500,76 @@
             <Property Name="UnifiedAreaRect" Value="{{0.000976563,0},{-0.59761,0},{0.000976563,380},{-0.59761,121}}" />
             <Property Name="VerticalAlignment" Value="Bottom" />
             <Property Name="MousePassThroughEnabled" Value="True" />
+        </Window>
+        <Window Type="DejaVu/Static" Name="Root/ChannelWnd/EmotionTop" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0208333,0},{-0.162791,0},{0.0208333,181},{-0.162791,25}}" />
+            <Property Name="VerticalAlignment" Value="Bottom" />
+            <Window Type="DejaVu/channelTabControl" Name="Root/ChannelWnd/EmotionTop/EmotionTab" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="TabHeight" Value="{0,26.1528}" />
+                <Property Name="TabPanePosition" Value="Top" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.552486,0},{1,0}}" />
+                <Property Name="VerticalAlignment" Value="Bottom" />
+                <Window Type="DefaultWindow" Name="Root/ChannelWnd/EmotionTop/EmotionTab/Tab1" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="1234" />
+                    <Property Name="Visible" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,100},{0,0}}" />
+                </Window>
+                <Window Type="DefaultWindow" Name="Root/ChannelWnd/EmotionTop/EmotionTab/Tab2" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="1234" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,100},{0,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="Root/ChannelWnd/EmotionTop/Filter" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.441989,0},{0.8,0}}" />
+                <Property Name="VerticalAlignment" Value="Bottom" />
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Window Type="DejaVu/ImageButton" Name="Root/ChannelWnd/EmotionTop/Filter/Btn1" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HoverImage" Value="set:main image:LockBtnNormal" />
+                    <Property Name="NormalImage" Value="set:main image:LockBtnNormal" />
+                    <Property Name="PushedImage" Value="set:main image:LockBtnNormal" />
+                    <Property Name="DisabledImage" Value="set:main image:LockBtnPressed" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.25,0},{1,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/ChannelWnd/EmotionTop/Filter/Btn2" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HoverImage" Value="set:main image:LockBtnHover" />
+                    <Property Name="NormalImage" Value="set:main image:LockBtnHover" />
+                    <Property Name="PushedImage" Value="set:main image:LockBtnHover" />
+                    <Property Name="DisabledImage" Value="set:main image:UnLockBtnPressed" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.25,0},{0,0},{0.5,0},{1,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/ChannelWnd/EmotionTop/Filter/Btn3" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HoverImage" Value="set:main image:GoldLockBtnHover" />
+                    <Property Name="NormalImage" Value="set:main image:GoldLockBtnHover" />
+                    <Property Name="PushedImage" Value="set:main image:GoldLockBtnHover" />
+                    <Property Name="DisabledImage" Value="set:main image:GoldLockBtnPressed" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0,0},{0.75,0},{1,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/ChannelWnd/EmotionTop/Filter/Btn4" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HoverImage" Value="set:main image:GoldLockBtnNormal" />
+                    <Property Name="NormalImage" Value="set:main image:GoldLockBtnNormal" />
+                    <Property Name="PushedImage" Value="set:main image:GoldLockBtnNormal" />
+                    <Property Name="DisabledImage" Value="set:main image:UnGoldLockPressed" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.75,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/ChannelWnd/EmotionTop/Filter/CancelBtn" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HoverImage" Value="set:main image:LockBtnPressed" />
+                    <Property Name="NormalImage" Value="set:main image:LockBtnPressed" />
+                    <Property Name="PushedImage" Value="set:main image:LockBtnPressed" />
+                    <Property Name="DisabledImage" Value="set:main image:LockBtnPressed" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.25,0},{1,0}}" />
+                </Window>
+            </Window>
         </Window>
     </Window>
 </GUILayout>

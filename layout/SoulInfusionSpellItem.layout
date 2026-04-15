@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="SoulInfusionSpellItem" >
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.160938,0},{0.106765,0}}" />
+        <Window Type="DejaVu/Static" Name="SoulInfusionSpellItem/BG" >
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Static" Name="SoulInfusionSpellItem/BG/Spell" >
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.514852,0}}" />
+                <Window Type="DejaVu/SlotImage" Name="SoulInfusionSpellItem/BG/Spell/Slot" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.0291262,0},{0,0},{0.0291262,42},{0,42}}" />
+                    <Property Name="VerticalAlignment" Value="Centre" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="SoulInfusionSpellItem/BG/Spell/NameText" >
+                    <Property Name="Text" Value="x可注魂技能名稱" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.200647,0},{0,0},{0.200647,237},{0,25}}" />
+                    <Property Name="VerticalAlignment" Value="Centre" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="SoulInfusionSpellItem/BG/BuffText" >
+                <Property Name="Text" Value="x注魂tips" />
+                <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0323625,0},{0.514852,0},{0.967638,0},{0.980198,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="SoulInfusionSpellItem/BG/Line" >
+                <Property Name="Image" Value="set:DejaVu image:Line" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.980198,0},{1,0},{1,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

@@ -99,6 +99,16 @@
                 <Property Name="UnifiedAreaRect" Value="{{0.274809,0},{-0.123377,0},{0.274809,102},{-0.123377,71}}" />
                 <Property Name="BackgroundEnabled" Value="True" />
                 <Property Name="VerticalAlignment" Value="Bottom" />
+                <Window Type="DejaVu/VerticalScrollbar" Name="WhisperWnd/Background/EmotionPane/ScrollBar" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="PageSize" Value="0" />
+                    <Property Name="StepSize" Value="1" />
+                    <Property Name="OverlapSize" Value="0" />
+                    <Property Name="DocumentSize" Value="1" />
+                    <Property Name="ScrollPosition" Value="0" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.147059,0},{1,0}}" />
+                    <Property Name="HorizontalAlignment" Value="Right" />
+                </Window>
             </Window>
             <Window Type="DejaVu/Editbox" Name="WhisperWnd/Editbox1" >
                 <Property Name="MaxTextLength" Value="2147483647" />
@@ -107,6 +117,76 @@
                 <Window Type="DejaVu/Button" Name="WhisperWnd/Editbox1/AddBtn" >
                     <Property Name="Text" Value="+" />
                     <Property Name="UnifiedAreaRect" Value="{{0.808642,0},{0.142857,0},{0.962963,0},{0.857143,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="WhisperWnd/Background/EmotionTop" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.275495,0},{-0.123377,0},{0.275495,181},{-0.123377,25}}" />
+                <Property Name="VerticalAlignment" Value="Bottom" />
+                <Window Type="DejaVu/channelTabControl" Name="WhisperWnd/Background/EmotionTop/EmotionTab" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="TabHeight" Value="{0,26.1528}" />
+                    <Property Name="TabPanePosition" Value="Top" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.552486,0},{1,0}}" />
+                    <Property Name="VerticalAlignment" Value="Bottom" />
+                    <Window Type="DefaultWindow" Name="WhisperWnd/Background/EmotionTop/EmotionTab/Tab1" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="1234" />
+                        <Property Name="Visible" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,100},{0,0}}" />
+                    </Window>
+                    <Window Type="DefaultWindow" Name="WhisperWnd/Background/EmotionTop/EmotionTab/Tab2" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="1234" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,100},{0,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Static" Name="WhisperWnd/Background/EmotionTop/Filter" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.441989,0},{0.8,0}}" />
+                    <Property Name="VerticalAlignment" Value="Bottom" />
+                    <Property Name="HorizontalAlignment" Value="Right" />
+                    <Window Type="DejaVu/ImageButton" Name="WhisperWnd/Background/EmotionTop/Filter/Btn1" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HoverImage" Value="set:main image:LockBtnNormal" />
+                        <Property Name="NormalImage" Value="set:main image:LockBtnNormal" />
+                        <Property Name="PushedImage" Value="set:main image:LockBtnNormal" />
+                        <Property Name="DisabledImage" Value="set:main image:LockBtnPressed" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.25,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/ImageButton" Name="WhisperWnd/Background/EmotionTop/Filter/Btn2" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HoverImage" Value="set:main image:LockBtnHover" />
+                        <Property Name="NormalImage" Value="set:main image:LockBtnHover" />
+                        <Property Name="PushedImage" Value="set:main image:LockBtnHover" />
+                        <Property Name="DisabledImage" Value="set:main image:UnLockBtnPressed" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.25,0},{0,0},{0.5,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/ImageButton" Name="WhisperWnd/Background/EmotionTop/Filter/Btn3" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HoverImage" Value="set:main image:GoldLockBtnHover" />
+                        <Property Name="NormalImage" Value="set:main image:GoldLockBtnHover" />
+                        <Property Name="PushedImage" Value="set:main image:GoldLockBtnHover" />
+                        <Property Name="DisabledImage" Value="set:main image:GoldLockBtnPressed" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0,0},{0.75,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/ImageButton" Name="WhisperWnd/Background/EmotionTop/Filter/Btn4" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HoverImage" Value="set:main image:GoldLockBtnNormal" />
+                        <Property Name="NormalImage" Value="set:main image:GoldLockBtnNormal" />
+                        <Property Name="PushedImage" Value="set:main image:GoldLockBtnNormal" />
+                        <Property Name="DisabledImage" Value="set:main image:UnGoldLockPressed" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.75,0},{0,0},{1,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/ImageButton" Name="WhisperWnd/Background/EmotionTop/Filter/CancelBtn" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HoverImage" Value="set:main image:LockBtnPressed" />
+                        <Property Name="NormalImage" Value="set:main image:LockBtnPressed" />
+                        <Property Name="PushedImage" Value="set:main image:LockBtnPressed" />
+                        <Property Name="DisabledImage" Value="set:main image:LockBtnPressed" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.25,0},{1,0}}" />
+                    </Window>
                 </Window>
             </Window>
         </Window>
