@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="StationaryFight" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,849},{0,582}}" />
+        <Window Type="DejaVu/Embed" Name="StationaryFight/Frame/bg" >
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Window Type="DejaVu/Static" Name="StationaryFight/Frame/Info" >
+                <Property Name="UnifiedAreaRect" Value="{{0.0117786,0},{0.294138,0},{0.525299,0},{0.944367,0}}" />
+                <Window Type="DejaVu/EmbedTextLab4" Name="StationaryFight/Frame/Info/Title" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{-0.001714,0},{0.02657,0},{0.353791,0},{0.0900621,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="StationaryFight/Frame/Info/Title/Text" >
+                        <Property Name="Text" Value="x魔物資訊" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.169603,0},{0.8,0},{0.769603,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="StationaryFight/Frame/Info/Title/Icon" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Image" Value="set:DejaVu image:Image18" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="StationaryFight/Frame/Info/Image" >
+                    <Property Name="UnifiedAreaRect" Value="{{-0.00305206,0},{0.0626476,0},{0.994901,0},{1.00475,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="StationaryFight/Frame/Info/Image/BossName" >
+                        <Property Name="Font" Value="F001-20" />
+                        <Property Name="Text" Value="x王怪名稱" />
+                        <Property Name="VertFormatting" Value="TopAligned" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0350231,0},{0.0542373,0},{0.704377,0},{0.304237,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="StationaryFight/Frame/Rule" >
+                <Property Name="UnifiedAreaRect" Value="{{0.528336,0},{0.294138,0},{0.988878,0},{0.935765,0}}" />
+                <Window Type="DejaVu/Embed2" Name="StationaryFight/Frame/Rule/Frame" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.00762066,0},{0.631719,0},{0.990656,0},{0.989338,0}}" />
+                    <Window Type="DejaVu/Embed2" Name="StationaryFight/Frame/Rule/Frame/RecordBg" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.0442708,0},{0.180451,0},{0.973959,0},{0.932331,0}}" />
+                        <Window Type="DejaVu/EmbedTextLab7" Name="StationaryFight/Frame/Rule/Frame/RecordBg/AttackTitle" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="Text" Value="x最高傷害" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0629139,0},{0.19,0},{0.332666,0},{0.51,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/EmbedText2" Name="StationaryFight/Frame/Rule/Frame/RecordBg/AttackScore" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.331126,0},{0.18,0},{0.940397,0},{0.49,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/EmbedTextLab7" Name="StationaryFight/Frame/Rule/Frame/RecordBg/RankTitle" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="Text" Value="x當前排名" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0629139,0},{0.6,0},{0.335467,0},{0.91,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/EmbedText2" Name="StationaryFight/Frame/Rule/Frame/RecordBg/RankScore" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.331126,0},{0.6,0},{0.940397,0},{0.91,0}}" />
+                        </Window>
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed4" Name="StationaryFight/Frame/Rule/Title" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{-0.006481,0},{0.031185,0},{0.387381,0},{0.0955282,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="StationaryFight/Frame/Rule/Frame/Title/Text" >
+                        <Property Name="Text" Value="x共鬥情報" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.240882,0},{0.175977,0},{0.774215,0},{0.775976,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="StationaryFight/Frame/Rule/Frame/Title/Icon" >
+                        <Property Name="Image" Value="set:DejaVu image:Image03" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed4" Name="StationaryFight/Frame/Rule/RecordTitle" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.00167552,0},{0.611926,0},{0.395537,0},{0.676269,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="StationaryFight/Frame/Rule/Frame/RecordTitle/Text" >
+                        <Property Name="Text" Value="x我的紀錄" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.2,0},{0.8,0},{0.8,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="StationaryFight/Frame/Rule/Frame/RecordTitle/Icon" >
+                        <Property Name="Image" Value="set:DejaVu image:Image03" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Embed2" Name="StationaryFight/Frame/Rule/bg" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.00692153,0},{0.0545717,0},{0.977315,0},{0.613773,0}}" />
+                    <Window Type="DejaVu/EmbedText2" Name="StationaryFight/Frame/Rule/bg/RuleText" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="x規則說明" />
+                        <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+                        <Property Name="HorzFormatting" Value="LeftAligned" />
+                        <Property Name="VertFormatting" Value="TopAligned" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0255937,0},{0.0942584,0},{0.980079,0},{0.971052,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Button" Name="StationaryFight/Frame/JoinBtn" >
+                <Property Name="Text" Value="x進入" />
+                <Property Name="UnifiedAreaRect" Value="{{0.895237,0},{0.942029,0},{0.987358,0},{0.983897,0}}" />
+            </Window>
+            <Window Type="DejaVu/Embed4" Name="StationaryFight/Frame/Title" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.017596,0},{0.020324,0},{0.198986,0},{0.0615611,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="StationaryFight/Frame/Title/Text" >
+                    <Property Name="Text" Value="x作戰準備" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.2,0},{0.8,0},{0.8,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="StationaryFight/Frame/Title/Icon" >
+                    <Property Name="Image" Value="set:DejaVu image:Image03" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.2,0},{0.8,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Embed2" Name="StationaryFight/Frame/bg/" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0229167,0},{0.0314743,0},{0.980208,0},{0.290989,0}}" />
+                <Window Type="DejaVu/Button" Name="StationaryFight/Frame/bg/ReceiveBTN" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="x領取獎勵" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.855497,0},{0.354987,0},{0.987108,0},{0.513927,0}}" />
+                </Window>
+                <Window Type="DejaVu/ProgressBarBG" Name="StationaryFight/Frame/bg/Progress" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.012731,0},{0.383167,0},{0.844219,0},{0.515617,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Window Type="DejaVu/ProgressBar2" Name="StationaryFight/Frame/bg/Progress/ProgressBar" >
+                        <Property Name="StepSize" Value="0.01" />
+                        <Property Name="CurrentProgress" Value="0" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.01227,0},{0.266667,0},{0.988601,0},{0.716667,0}}" />
+                        <Window Type="DejaVu/StaticImage" Name="StationaryFight/Frame/bg/Progress/ProgressBar/Star1" >
+                            <Property Name="Image" Value="set:main2 image:StarGold" />
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="ClippedByParent" Value="False" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.181061,0},{-1.11111,0},{0.218939,0},{1.66667,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticImage" Name="StationaryFight/Frame/bg/Progress/ProgressBar/Star2" >
+                            <Property Name="Image" Value="set:main2 image:StarGold" />
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="ClippedByParent" Value="False" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.381061,0},{-1.11111,0},{0.418939,0},{1.66667,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticImage" Name="StationaryFight/Frame/bg/Progress/ProgressBar/Star3" >
+                            <Property Name="Image" Value="set:main2 image:StarGold" />
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="ClippedByParent" Value="False" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.581061,0},{-1.11111,0},{0.618939,0},{1.66667,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticImage" Name="StationaryFight/Frame/bg/Progress/ProgressBar/Star4" >
+                            <Property Name="Image" Value="set:main2 image:StarGold" />
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="ClippedByParent" Value="False" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.781061,0},{-1.11111,0},{0.818939,0},{1.66667,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticImage" Name="StationaryFight/Frame/bg/Progress/ProgressBar/Star5" >
+                            <Property Name="Image" Value="set:main2 image:StarGold" />
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="ClippedByParent" Value="False" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.981061,0},{-1.11111,0},{1.01894,0},{1.66667,0}}" />
+                        </Window>
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="StationaryFight/Frame/bg/TimeText" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="x距離賽季結束還有：" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0245916,0},{0.189654,0},{0.373067,0},{0.33775,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="StationaryFight/Frame/bg/ProgressText" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="x100/100" />
+                    <Property Name="HorzFormatting" Value="RightAligned" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.774908,0},{0.192053,0},{0.836408,0},{0.337748,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="StationaryFight/Frame/bg/Item1" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.153752,0},{0.582781,0},{0.210332,0},{0.887417,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="StationaryFight/Frame/bg/Item2" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.319803,0},{0.582781,0},{0.376384,0},{0.887417,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="StationaryFight/Frame/bg/Item3" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.480935,0},{0.582781,0},{0.537515,0},{0.887417,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="StationaryFight/Frame/bg/Item4" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.648216,0},{0.582781,0},{0.704797,0},{0.887417,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="StationaryFight/Frame/bg/Item5" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.804428,0},{0.582781,0},{0.861009,0},{0.887417,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="StationaryFight/Frame/bg/Mark1" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Image" Value="set:main2 image:GiftIcon" />
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.142251,0},{0.788267,0},{0.173001,0},{0.95383,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="StationaryFight/Frame/bg/Mark2" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Image" Value="set:main2 image:GiftIcon" />
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.306273,0},{0.788079,0},{0.337023,0},{0.953642,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="StationaryFight/Frame/bg/Mark3" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Image" Value="set:main2 image:GiftIcon" />
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.469865,0},{0.788079,0},{0.500615,0},{0.953642,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="StationaryFight/Frame/bg/Mark4" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Image" Value="set:main2 image:GiftIcon" />
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.634686,0},{0.788079,0},{0.665437,0},{0.953642,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="StationaryFight/Frame/bg/Mark5" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Image" Value="set:main2 image:GiftIcon" />
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.792128,0},{0.788079,0},{0.822878,0},{0.953642,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Button" Name="StationaryFight/Frame/RankBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="x共鬥排行榜" />
+                <Property Name="UnifiedAreaRect" Value="{{0.777385,0},{0.941581,0},{0.869258,0},{0.982818,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>
